@@ -21,6 +21,13 @@ NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+## 7.0.8 - 703 (07.05.2019)
+
+### SAXSVS
+
+* FIX: Besondere Berücksichtigung von Stamm- und Nebenschülern
+
+
 
 ## 7.0.7 - 703 (29.04.2019)
 
