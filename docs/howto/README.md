@@ -1,0 +1,25 @@
+# So gehen Sie vor
+
+In den folgenden Kapiteln zeigen wir Ihnen die typischen Arbeitsschritte in MAGELLAN:
+
+* [Datenbank vorbereiten](https://doc.magellan6.stueber.de/howto/preparation.html)
+* [Lehrer](https://doc.magellan6.stueber.de/howto/lehrer.html)
+* [Klassen](https://doc.magellan6.stueber.de/howto/classes.html)
+* [Bewerber und Schüler](https://doc.magellan6.stueber.de/howto/schueler.html)
+* [Personen und Adressen](https://doc.magellan6.stueber.de/howto/personen.html)
+* [Sortieren, Gruppieren, Filtern, Suchen](https://doc.magellan6.stueber.de/howto/sort-group-filter-search.html)
+* [Merkmalsfelder](https://doc.magellan6.stueber.de/howto/merkmalsfelder.html)
+* [Halbjahreswechsel](https://doc.magellan6.stueber.de/howto/halbjahreswechsel.html)
+* [Schuljahreswechsel](https://doc.magellan6.stueber.de/howto/schuljahreswechsel.html)
+* [Sonderfälle in der Schullaufbahn](https://doc.magellan6.stueber.de/howto/sonderfaelle.html)
+* [Zeugnisdaten](https://doc.magellan6.stueber.de/howto/zeugnisdaten.html)
+* [Prüfungsnummer generieren](https://doc.magellan6.stueber.de/howto/pruefungsnummer.html)
+* [Durchschnitt/Abschluss berechnen](https://doc.magellan6.stueber.de/howto/durchschnitt-abschluss.html)
+* [Gymnasiale Oberstufe](https://doc.magellan6.stueber.de/howto/gymnasium.html)
+* [Berufsschulmatrix](https://doc.magellan6.stueber.de/howto/berufsschulmatrix.html)
+* [Formulare, Listen und Zeugnisse](https://doc.magellan6.stueber.de/howto/berichte.html)
+* [Berichteverzeichnis](https://doc.magellan6.stueber.de/howto/berichte-verz.html)
+* [Seriendruck und Serienmail](https://doc.magellan6.stueber.de/howto/seriendruck.html)
+* [Dokumentenverwaltung/Export](https://doc.magellan6.stueber.de/howto/dokumentenverwaltung_export.html)
+* [Kurznachrichten](https://doc.magellan6.stueber.de/howto/kurznachrichten.html)
+* [Stundenplandaten](https://doc.magellan6.stueber.de/howto/stundenplaene.html)

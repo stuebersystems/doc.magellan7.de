@@ -1,0 +1,7 @@
+# Einleitung
+
+MAGELLAN ist die Schulverwaltungssoftware von STÜBER SYSTEMS. Mit MAGELLAN verwalten Sie Ihre Lehrer- und Schülerdaten, drucken Zeugnisse, verwalten die gymnasiale Oberstufe und machen den Statistikabgleich. 
+
+MAGELLAN basiert auf den Vorgaben der verschiedenen Länder und Schularten und den Erfahrungen vieler Personen, die an der Entstehung dieser Software über die Jahre mitgewirkt haben. Das Ergebnis ist eine Schulverwaltungssoftware für alle Länder und Schularten, die dank ihrer für Software dieser Art einmaligen Softwaretechnik trotzdem denkbar einfach zu handhaben ist. Mit MAGELLAN wird erstmalig die 100-prozentige Integration der Stundenplandaten gewährleistet. Und mit DAVINCI steht Ihnen eine umfassende Stundenplansoftware zur Seite, die auch komplizierte Unterrichtsverteilungen abbilden kann. Dies ist die wesentliche Voraussetzung für spätere statistische Auswertungen Ihrer Daten und gleichzeitig eines der größten Probleme herkömmlicher Lösungen. 
+
+Zusammen bilden MAGELLAN und DAVINCI eine Komplettlösung zur Schulverwaltung. Die erfolgreiche Einführung einer Schulverwaltungssoftware setzt voraus, dass Sekretariat, Schulleitung und Kollegen in der Bedienung der Software geschult werden. MAGELLAN ist sehr bedienungsfreundlich, weshalb Sie mit einem Minimum an Schulung auskommen werden. MAGELLAN ist zudem ein Fast-Null-Administrationsprogramm, d.h. Installation und Betrieb der Software ist auch von einem versierten Laien zu bewerkstelligen

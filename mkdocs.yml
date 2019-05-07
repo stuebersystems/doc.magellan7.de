@@ -1,0 +1,170 @@
+# Project information
+site_name: MAGELLAN 7
+site_description: 'MAGELLAN 7 Dokumentation'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.magellan7.stueber.de'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.magellan7.de'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    direction:
+    feature:
+        tabs: false
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+    
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Überblick: index.md
+- Einführung: introduction.md
+- Was ist neu?:
+  - Änderungen: changelog.md
+  - Geplante Änderungen: changelog-next.md
+  - Neu in MAGELLAN 7: neu.mag7.md
+- Installation: 
+  - Übersicht: installation/README.md
+  - Systemvoraussetzungen: installation/systemvoraussetzungen.md
+  - Firebird installieren: installation/Installation_Firebird.md
+  - Server/Einzelplatz installieren: installation/server.installlieren.md
+  - Arbeitsplatz installieren: installation/arbeitsplatz.installlieren.md
+  - Lizenzieren: installation/lizenzieren.md
+  - Die Pathsdatei: installation/die-pathsdatei.md
+  - Probleme bei der Installation?: installation/probleme-bei-der-installation.md
+- Update: 
+  - Übersicht: installation/update.md
+  - Vorbereitung: installation/vorbereitung.md
+  - Updates verteilen: installation/wie-kann-ein-update-verteilt-werden.md
+  - Firebird aktualisieren: installation/firebird-aktualisieren.md
+  - Umstieg von 6 auf 7: installation/umstieg-von-6-auf-7.md
+  - Eigene Berichte anpassen auf 7: installation/Berichte_anpassen.md
+  - Probleme beim Update?: installation/probleme-beim-update.md
+- So gehen Sie vor: 
+  - Übersicht: howto/README.md
+  - Datenbank vorbereiten: howto/preparation.md
+  - Lehrer: howto/lehrer.md
+  - Klassen: howto/classes.md
+  - Bewerber: howto/bewerber.md
+  - Schüler: howto/schueler.md
+  - Sorgeberechtigte: howto/sorgeberechtigte.md
+  - Betriebe und Schulen: howto/betriebe.schulen.md
+  - Personen und Adressen: howto/personen.md
+  - Sortieren, Gruppieren, Filtern, Suchen: howto/sort-group-filter-search.md
+  - Merkmalsfelder: howto/merkmalsfelder.md
+  - Halbjahreswechsel: howto/halbjahreswechsel.md
+  - Schuljahreswechsel: howto/schuljahreswechsel.md
+  - Sonderfälle in der Schullaufbahn: howto/sonderfaelle.md
+  - Zeugnisdaten: howto/zeugnisdaten.md
+  - Prüfungsnummer generieren: howto/pruefungsnummer.md
+  - Durchschnitt/Abschluss berechnen: howto/durchschnitt-abschluss.md
+  - Gymnasiale Oberstufe: 
+    - Übersicht: howto/Oberstufe/gymnasium.md
+    - Vorbereitung: howto/Oberstufe/vorbereitung.md
+    - Fachwahl: howto/Oberstufe/fachwahl.md
+    - Abiturberechnung: howto/Oberstufe/abiturberechnung.md
+  - Berufsschulmatrix: howto/berufsschulmatrix.md
+  - Formulare, Listen und Zeugnisse: howto/berichte.md
+  - Berichteverzeichnis: howto/berichte-verz.md
+  - Seriendruck und Serienmail: howto/seriendruck.md
+  - Dokumentenverwaltung/Export: howto/dokumentenverwaltung_export.md
+  - Kurznachrichten: howto/kurznachrichten.md
+  - Stundenplandaten: howto/stundenplaene.md
+  - Abgleich DAVINCI und MAGELLAN: howto/abgleich_mit_dav.md
+- Administration: 
+  - Übersicht: admin/administration.md
+  - MAGELLAN ADMINISTRATOR: 
+    - Übersicht: admin/magellan.administrator.md
+    - Datenbankverbindungen: admin/admin.datenbankverbindungen.md
+    - Benutzerverwaltung: admin/users.md
+    - Datenbankpflege: admin/datenbankpflege.md
+    - Datenaustausch: admin/datenaustausch.md
+    - Logbuch: admin/logbuch.md
+  - Weitere Themen: 
+    - Übersicht: admin/weitere.themen.md
+    - Optionen: admin/preferences.md
+    - Sicherung per Windows Task: admin/sicherung.windows.task.md
+    - Mehrmandantenlösung: admin/mehrmandantenloesung.md
+    - Access-Anbindung: admin/access.anbindung.md
+    - Protokollierung: admin/protocol.md
+    - Aktionen im Silentmode: installation/magellan-administrator-im-silentmode-starten.md
+  - MyMAGELLAN Center: admin/mymagellan-center.md
+  - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
+- Referenz: 
+  - Übersicht: reference/README.md
+  - Tastaturkürzel: reference/shortcuts.md
+  - Sonderzeichen: reference/special-characters.md
+  - Schlüsselverzeichnisse: reference/catalogs.md
+  - keys-Dateien: reference/keys-dateien.md
+  - Seriendruckfelder: reference/seriendruckfelder.md
+  - Vorlagenfelder: reference/vorlagenfelder.md
+- Regionales: 
+  - Übersicht: regionales/README.md
+  - Berlin: 
+    - Übersicht: regionales/berlin/berlin.md
+    - Spezielle Eingabeformulare: regionales/berlin/masken.md
+    - Schlüsselverzeichnisse: regionales/berlin/schluesselverzeichnisse.md
+    - Skriptüberblick: regionales/berlin/skriptuebersicht.md
+    - Angaben für die Oberstufe: 
+      - Übersicht: regionales/berlin/oberstufe.md
+      - BER-APO-2017: regionales/berlin/oberstufe/ber-apo-2017.md
+      - BER-FW-APO-2017: regionales/berlin/oberstufe/ber-fw-apo-2017.md
+      - BER-APO-KO-2017: regionales/berlin/oberstufe/ber-apo-ko-2017.md
+      - BER-FW-APO-BBS-2011: regionales/berlin/oberstufe/ber-fw-apo-bbs-2011.md
+      - BER-APO-2011: regionales/berlin/oberstufe/ber-apo-2011-und-ber-fw-apo-2011.md
+      - BER-FW-APO-2011: regionales/berlin/oberstufe/ber-fw-apo-2011.md
+      - BER-APO-KO-2011: regionales/berlin/oberstufe/ber-apo-ko-2011.md
+    - Schülerfachwahlen eingeben und prüfen: regionales/berlin/fachwahl.md
+    - Schülerfachwahlen nach Untis übertragen: regionales/berlin/nach.untis.md
+    - Schüler-Kurswahlen von Untis übernehmen: regionales/berlin/von.untis.md
+    - Das Abitur: regionales/berlin/abitur.md
+    - Die Fachhochschulreife: regionales/berlin/fhs.md
+    - Berufsschulnoten: regionales/berlin/bs.md
+    - Die Fachoberschule: 
+      - Übersicht: regionales/berlin/fos.md
+      - BER-APO-FOS-2006/2013: regionales/berlin/fos/ber-apo-fos-20062013.md
+    - Schülerdatenexport: regionales/berlin/schuelerdaten.md
+    - Statistik Abiturdaten: regionales/berlin/stat.abidaten.md
+    - Statistik Schülerdaten: regionales/berlin/stat.schuelerdaten.md
+  - Nordrhein-Westfalen: 
+    - Übersicht: regionales/nrw/nordrhein-westfalen.md
+    - Abgleich mit SchülerOnline: regionales/nrw/schueleronline.md
+  - Rheinland-Pfalz: 
+    - Übersicht: regionales/rlp/rlp.md
+    - Schülergruppen: regionales/rlp/schuelergruppen.md
+  - Saarland: 
+    - Übersicht: regionales/saarland/saarland.md
+    - Lernfelder importieren: regionales/saarland/lernfelder-importieren.md
+    - Zeugnisse mit Lernfeldern: regionales/saarland/zeugnisse.md
+  - Sachsen: 
+    - Übersicht: regionales/sachsen/sachsen.md
+    - 1. Schlüsselpflege: regionales/sachsen/schluessel.md
+    - 2. Datenpflege: regionales/sachsen/datenpflege.md
+    - 3. XML-Datei erzeugen: regionales/sachsen/xml.erzeugen.md
+    - Aktuelle Version: regionales/sachsen/changelog.md
+- Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de

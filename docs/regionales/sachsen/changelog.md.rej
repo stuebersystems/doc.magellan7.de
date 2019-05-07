@@ -1,0 +1,10 @@
+diff a/regionales/sachsen/changelog.md b/regionales/sachsen/changelog.md	(rejected hunks)
+@@ -14,7 +14,7 @@
+ | NEW | Neue Funktionalität |
+ | CHANGE | Änderung des Ablaufs, Verarbeitung oder Bedienung |
+ 
+-## 7.0.1 - 164
++## 7.0.1 - 164 \(25.09.2018\)
+ 
+ ### MAGELLAN
+ 
