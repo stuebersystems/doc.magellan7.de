@@ -23,10 +23,10 @@ Bevor Sie die Abiturqualifikationen überprüfen können, müssen Sie die Daten 
 
 
 
-> #### primary::Hinweis
->
-> MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
-> Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+!!! info "Hinweis"
+
+	 MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
+      Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 
 ![Klassenart für die Oberstufenberechnungen](../assets/images/gym_oberstufe/oberstufe02.png)
@@ -43,9 +43,9 @@ Diese Schritte werden in den nachfolgenden Abschnitten erläutert.
 
 ![Registerkarte `Qualifikation` in der Ansicht „Abitur“](../assets/images/gym_oberstufe/gym_oberstufe14.png)
 
-> #### warning::Wichtig!
->
->  Überprüfen Sie, ob für den Schüler unter „Prüfungsordnung“ die korrekte Prüfungsordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
+!!! info "Hinweis"
+
+	Überprüfen Sie, ob für den Schüler unter „Prüfungsordnung“ die korrekte Prüfungsordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
 
 Sie können auf der Registerkarte `Qualifikation` einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche `Layout anpassen…`.
 
@@ -67,12 +67,12 @@ Markieren Sie die eingebrachten Kurse des Schülers, d.h. markieren Sie `Manuell
 
 Wenn Sie auf `Vorschlag `klicken, dann werden von der Vorschlagsautomatik entsprechend der Abiturverordnung die Kurse automatisch gelb markiert, die die maximale Qualifikationspunktzahl in den ersten beiden Qualifikationsbereichen erbringen.
 
-> #### danger::Achtung!
->
-> Voraussetzung für die Vorschlagsautomatik ist, dass Sie über die Angaben in der Spalte „Fachstatus“ die vier - bzw. in einigen Bundesländern fünf - Prüfungsfächer bestimmt haben.
-> Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. 
-> STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. 
-> STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
+!!! info "Hinweis"
+
+	Voraussetzung für die Vorschlagsautomatik ist, dass Sie über die Angaben in der Spalte „Fachstatus“ die vier - bzw. in einigen Bundesländern fünf - Prüfungsfächer bestimmt haben.
+     Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. 
+     STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. 
+     STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
 
 ### Zulassung berechnen
 
@@ -82,9 +82,9 @@ Klicken Sie auf `Neu berechnen`, um die Zulassung automatisch durch das entsprec
 
 Die Hinweise bzw. Fehlermeldungen im Meldungsfenster sind abhängig vom verwendeten Skript. Fehler führen dazu, dass die Zulassung nicht erreicht ist.
 
-> #### success::Tipp
->
-> Klicken Sie auf die Schaltfläche `Meldungen anzeigen`, wenn Sie das Meldungsfenster anzeigen wollen, ohne auf `Vorschlag` oder auf `Neu berechnen` klicken zu müssen.
+!!! info "Hinweis"
+
+	 Klicken Sie auf die Schaltfläche `Meldungen anzeigen`, wenn Sie das Meldungsfenster anzeigen wollen, ohne auf `Vorschlag` oder auf `Neu berechnen` klicken zu müssen.
 
 Außerdem werden automatisch folgende Berechnungen bzw. Eingaben auf der Registerkarte `Prüfung` durchgeführt:
 
@@ -131,9 +131,9 @@ Die Gesamtqualifikation ergibt sich, indem zusätzlich zu der schon feststehende
 1. Eingabe der schriftlichen Abiturnoten und Qualifikationsüberprüfung für das schriftliche Abitur
 2. Eingabe der mündlichen Abiturnoten und Abiturnotenberechnung
 
-> #### primary::Hinweis
->
-> Einige Bundesländer haben fünf Prüfungsfächer. Standardmäßig werden 4 Prüfungsfächer angezeigt. Sie können die Anzeige auf fünf Prüfungsfächer erweitern, indem Sie auf die Schaltfläche `Layout anpassen` klicken.
+!!! info "Hinweis"
+
+	Einige Bundesländer haben fünf Prüfungsfächer. Standardmäßig werden 4 Prüfungsfächer angezeigt. Sie können die Anzeige auf fünf Prüfungsfächer erweitern, indem Sie auf die Schaltfläche `Layout anpassen` klicken.
 
 ### Layout anpassen
 
@@ -202,9 +202,9 @@ Klicken Sie auf `Neu berechnen`, um die Qualifikation im Prüfungsbereich automa
 
 Nach dem mündlichen Abitur tragen Sie die mündlichen Prüfungsnoten auf der Registerkarte `Prüfung` ein. Klicken Sie danach wieder auf `Neu berechnen`, um die Abiturnote zu berechnen.
 
-> #### primary::Hinweis
->
-> Über die Schaltfläche „Sammelzuweisung“ können Sie mehreren Abiturienten das gleiche Konferenz- bzw. Zeugnisdatum zuweisen.
+!!! info "Hinweis"
+
+	Über die Schaltfläche „Sammelzuweisung“ können Sie mehreren Abiturienten das gleiche Konferenz- bzw. Zeugnisdatum zuweisen.
 
 ### Prüfungsqualifikationsdaten manuell eingeben
 

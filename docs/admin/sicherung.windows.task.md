@@ -4,9 +4,9 @@ Sie können die Aktion "Datenbanksicherungskopie erstellen" mit in den Taskplane
 
 Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden Text hinein. 
 
-> #### warning::Wichtig!
->
-> Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
+!!! info "Hinweis"
+
+	Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
 
 
 ````
@@ -27,9 +27,9 @@ pause | Programmfenster im Vordergrund oder unsichtbar: Wenn Sie "pause" weglass
 
 Wenn alle Angaben angepasst sind, speichern Sie die Datei und benennen sie anschließend in "MagellanBackup.bat"um. Legen Sie diese Datei bitte auf Ihrem Server im Datenbankordner ab.
 
-> #### danger::Achtung!
->
->  Führen Sie die Datei zum Test bitte per `Doppelklick` oder `Rechtsklick > Ausführen` aus.
+!!! info "Hinweis"
+
+	Führen Sie die Datei zum Test bitte per `Doppelklick` oder `Rechtsklick > Ausführen` aus.
 
 Hat es funktioniert? Dann richten Sie im Taskplaner bitte einen neuen Task ein, der täglich zu einer bestimmten Zeit diese Datei ausführt. Gehen Sie dazu auf dem Server unter `Start > Programme > Zubehör > Systemprogramme > Geplante Tasks`.
 

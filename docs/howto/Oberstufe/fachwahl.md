@@ -9,18 +9,18 @@ Auf der Fachwahlkarte wird:
 2. die Fachwahl auf Basis einer Fachwahlverordnung auf Gültigkeit überprüft 
 3. die gültige Fachwahl halbjahresweise zu den Fächern des Schülers übernommen 
 
-> #### primary::Hinweis
->
-> Die Fachwahleingabe kann auch in DAVINCI KURSPLAN erfolgen. Dort ist die Fachwahleingabe etwas ausführlicher und komfortabler: Es können zusätzlich die Stundenzahlen der einzelnen Halbjahre eingegeben werden. Das zugrundeliegende Skript, d.h. das Regelwerk, ist in beiden Fällen das gleiche: MAGELLAN verwendet für die Fachwahlüberprüfung das DAVINCI Fachwahl-Skript. Alternativ kann aber auch die Fachwahl des aktuellen Jahres oder die Fachwahl über die gesamte Oberstufe nach DAVINCI übergeben werden.
+!!! info "Hinweis"
+
+	Die Fachwahleingabe kann auch in DAVINCI KURSPLAN erfolgen. Dort ist die Fachwahleingabe etwas ausführlicher und komfortabler: Es können zusätzlich die Stundenzahlen der einzelnen Halbjahre eingegeben werden. Das zugrundeliegende Skript, d.h. das Regelwerk, ist in beiden Fällen das gleiche: MAGELLAN verwendet für die Fachwahlüberprüfung das DAVINCI Fachwahl-Skript. Alternativ kann aber auch die Fachwahl des aktuellen Jahres oder die Fachwahl über die gesamte Oberstufe nach DAVINCI übergeben werden.
 
 
 ## Abgleich der Karte Qualifikation und Karte Fachwahl
 
 Unter `Datenbank > Optionen > Einstellungen` kann die Option `Abgleich Qualifikation/Fachwahl` im Abitur gewählt werden. Damit würden Einträge, die auf der Karte `Fachwahl` getätigt werden, auch auf der Karte `Qualifikation` gezeigt werden. Das ist aber mitunter missverständlich, da die Qualifikationskarte per Synchronisation aus dem Bereich `Schüler > Zeugnis > Fächer und Leistungen` befüllt wird.
 
-> #### danger::Achtung!
->
-> **Wir empfehlen diese Option NICHT zu wählen!** Die Qualifikationskarte wird später aus den Daten der Halbjahre mit den belegten Fächern und den dazugehörigen Noten befüllt. Die Fachwahl kann durchaus Fächer beinhalten, die später nicht belegt werden.
+!!! info "Hinweis"
+
+	**Wir empfehlen diese Option NICHT zu wählen!** Die Qualifikationskarte wird später aus den Daten der Halbjahre mit den belegten Fächern und den dazugehörigen Noten befüllt. Die Fachwahl kann durchaus Fächer beinhalten, die später nicht belegt werden.
   
 
 ## Ablauf 
@@ -58,9 +58,9 @@ Prüfen Sie, ob unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgang` Abs
 
 Prüfen Sie, ob unter `Extras > Schlüsselverzeichnisse > Verordnungen` die Verordnung eingerichtet wurde, nach der die Schüler voraussichtlich ihr Abitur ablegen werden. 
 
-> #### primary::Hinweis
->
-> Bitte lesen Sie dazu auch den Abschnitt ["Vorbereitung"](https://doc.magellan7.stueber.de/howto/Oberstufe/vorbereitung.html)!
+!!! info "Hinweis"
+
+	Bitte lesen Sie dazu auch den Abschnitt ["Vorbereitung"](https://doc.magellan7.stueber.de/howto/Oberstufe/vorbereitung.html)!
 
 ### Zeiträume
 
@@ -122,9 +122,9 @@ Die Fächer der Fachwahl können auch ohne die Kopiervorlage der Fachwahltafeln 
 
 * Passen Sie die Fachwahlkarte pro Schüler an, je nach individueller Fachwahl des Schülers, tragen Sie die Prüfungsfächer und Leistungskurse ein.
 
-> #### warning::Wichtig!
->
-> Je nach Kursbildung werden eventuelle Änderungen ( ein Lateinkurs kommt doch nicht zu Stande o.ä.) auf der Fachwahlkarte eingetragen!
+!!! info "Hinweis"
+
+	Je nach Kursbildung werden eventuelle Änderungen ( ein Lateinkurs kommt doch nicht zu Stande o.ä.) auf der Fachwahlkarte eingetragen!
 
 
 ## Fachwahl prüfen
@@ -145,10 +145,10 @@ Mit Wahl der Schaltfläche `Neu prüfen` wird oberhalb dieser Schaltfläche der 
 
 
 
-> #### warning::Wichtig!
->
-> Ist für ein eingetragenes Fach keine der Spalten „1. HJ“ bis „6. HJ“ markiert, wird dieses Fach bei der Fachwahlprüfung als nicht gewählt betrachtet.
-> Die Zuordnung der Zeiträume zu den Halbjahren 1 bis 6 auf der rechten Seite haben keinen Einfluss auf die Fachwahlprüfung. Sie dienen nur der späteren Zuweisung der Fahlwahlen eines Halbjahres zu den Fächern des Schülers.
+!!! info "Hinweis"
+
+Ist für ein eingetragenes Fach keine der Spalten „1. HJ“ bis „6. HJ“ markiert, wird dieses Fach bei der Fachwahlprüfungals nicht gewählt betrachtet.
+Die Zuordnung der Zeiträume zu den Halbjahren 1 bis 6 auf der rechten Seite haben keinen Einfluss auf die Fachwahlprüfung. Sie dienen nur der späteren Zuweisung der Fahlwahlen eines Halbjahres zu den Fächern des Schülers.
 
 
 ## Fachwahl pro Halbjahr nach `Schüler > Zeugnis` übernehmen
@@ -188,9 +188,9 @@ Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `Schüler >
 |![](../assets/images/gym_oberstufe/fw.09.png) |Bestehende Fächer auf der Zeugniskarte bleiben erhalten, die Fächer der Fachwahl werden ergänzt, der Fachstatus bleibt erhalten.|
 
 
-> #### warning::Wichtig!
->
-> Eventuelle Umwahlen werden für die Schüler vor der halbjährlichen Übernahme der Fächer unter `Abitur > Fachwahl` eintragen.
+!!! info "Hinweis"
+
+	Eventuelle Umwahlen werden für die Schüler vor der halbjährlichen Übernahme der Fächer unter `Abitur > Fachwahl` eintragen.
 
 ![Fachwahl schülerindividuell von der Fachwahlkarte in den Schülerzeugnisbereich übertragen](../assets/images/gym_oberstufe/fw.04.png)
 
@@ -203,9 +203,9 @@ Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können
 * Wenn die Oberstufe durchlaufen wurde, werden die Fächer und die Leistungen der Oberstufenhalbjahre aus `Schüler > Zeugnis` nach `Abitur > Qualifikation` synchronisiert. Dafür führen Sie den Assistenten unter `Abitur > Qualifikation > Schüler synchronisieren` aus.
 
 
-> #### primary::Hinweis
->
-> Das Synchronisieren der Fächer und Leistungen auf die Karte `Qualifikation` ändert keine Einträge auf der Karte `Fachwahl`.
+!!! info "Hinweis"
+
+	Das Synchronisieren der Fächer und Leistungen auf die Karte `Qualifikation` ändert keine Einträge auf der Karte `Fachwahl`.
 
 
 

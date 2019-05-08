@@ -2,9 +2,9 @@
 
 Dieses Kapitel erläutert die Nutzung des so genannten SCHÜLERPOOLs innerhalb von MAGELLAN. Der SCHÜLERPOOL ist eine Datenbank mit Schülerstammdaten. Er dient als zentrale Datenbasis und Informationsquelle für die Aufnahme von möglichen Bewerbern an Ihrer Schule. Sie können innerhalb dem SCHÜLERPOOL nach möglichen Bewerber suchen, deren Poolstatus abfragen und Schüler aus dem SCHÜLERPOOL als Pool-Bewerber an Ihrer Schule aufnehmen.
 
-> #### primary::Hinweis
->
-> Die Nutzung der hier beschriebenen Funktionalitäten setzt den Erwerb des Moduls „MAGELLAN-SCHÜLERPOOL“ voraus.
+!!! info "Hinweis"
+
+	Die Nutzung der hier beschriebenen Funktionalitäten setzt den Erwerb des Moduls „MAGELLAN-SCHÜLERPOOL“ voraus.
 
 ## Pool-Bewerber
 
@@ -72,9 +72,9 @@ Bewerber ist frei|Der Bewerber hat sich bisher an keiner Schule beworben. Sie k�
 Bewerber hat sich beworben|Der Bewerber gibt seine Bewerbung an mehreren Schulen ab. Welche Schulen dies sind, wird Ihnen in der Ergebnisanzeige dargestellt. Sie können nun entscheiden, ob der Bewerber als Pool-Bewerber auch an Ihrer Schule in MAGELLAN aufgenommen werden soll. Um den Bewerber als Pool-Bewerber zu übernehmen, müssen Sie auf Als Pool-Bewerber übernehmen klicken.
 Bewerber ist Schüler|Der Bewerber ist bereits an einer Schule als Schüler geführt. Falls notwendig kann der Schüler zusätzlich an Ihrer Schule als Bewerber aufgenommen werden. Welche Schule dies ist, wird Ihnen in der Ergebnisanzeige dargestellt.
 
-> #### primary::Hinweis
->
-> Mit der Übernahme des Bewerbers als Pool-Bewerber an Ihre Schule wird im SCHÜLERPOOL der Poolstatus des Schülers entsprechend aktualisiert. Die Anzeige der unterschiedlichen Poolstatus erleichtert die Aufnahme von Bewerbern an der Schule erheblich. Sie können direkt erkennen, ob der Schüler sich eventuell schon an einer anderen Schule beworben bzw. dort eventuell sogar schon eingeschult ist.
+!!! info "Hinweis"
+
+	Mit der Übernahme des Bewerbers als Pool-Bewerber an Ihre Schule wird im SCHÜLERPOOL der Poolstatus des Schülers entsprechend aktualisiert. Die Anzeige der unterschiedlichen Poolstatus erleichtert die Aufnahme von Bewerbern an der Schule erheblich. Sie können direkt erkennen, ob der Schüler sich eventuell schon an einer anderen Schule beworben bzw. dort eventuell sogar schon eingeschult ist.
 
 ### Pool-Bewerber löschen
 

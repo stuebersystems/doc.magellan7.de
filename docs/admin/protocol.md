@@ -246,7 +246,7 @@ log_service_query |Protokollierung der Rückgabe von Serviceaufrufen |true/false
 log_errors |Protokollierung von Fehlern |true/false
 
 
-> #### warning::Wichtig!
->
-> Die Backslashes ( \ ) in Pfadangaben müssen mit einem weiteren Backslash maskiert werden, Beispiel: <database "C:\\Dokumente und Einstellungen\\All Users\\Dokumente\\Stueber Software\\Magellan 6\\Datenbank\\Magellan6.FDB"></database> Pfadangaben, die Leerzeichen aufweisen müssen in Anführungszeichen gesetzt werden.
+!!! info "Hinweis"
+
+	Die Backslashes ( \ ) in Pfadangaben müssen mit einem weiteren Backslash maskiert werden, Beispiel: <database "C:\\Dokumente und Einstellungen\\All Users\\Dokumente\\Stueber Software\\Magellan 6\\Datenbank\\Magellan6.FDB"></database> Pfadangaben, die Leerzeichen aufweisen müssen in Anführungszeichen gesetzt werden.
 

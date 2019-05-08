@@ -6,9 +6,9 @@ Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 * Spezielle Rechte zur Nutzung von MYMAGELLAN zuzuweisen und
 * das MAGELLAN-Logbuch auszuwerten
 
-> #### primary::Hinweis
-> Benutzerdaten werden mit der Datenbankdatei abgespeichert. 
-> Die Passwortdaten der Benutzer werden verschlüsselt in einer zweiten Firebird-Datenbank gespeichert, die bei der Installation von Firebird mit angelegt wurde.
+!!! info "Hinweis"
+
+	Benutzerdaten werden mit der Datenbankdatei abgespeichert.  Die Passwortdaten der Benutzer werden verschlüsselt in einer zweiten Firebird-Datenbank gespeichert, die bei der Installation von Firebird mit angelegt wurde.
 
 ## Registerkarte „Benutzerliste“
 
@@ -27,9 +27,9 @@ Mit Hilfe eines Assistenten werden alle bereits angelegten Benutzer in eine CSV-
 
 ![Die erzeugte Datei kann mit Excel geöffnet und bearbeitet werden.](../assets/images/magellan.administrator/users_benutzer.exportieren1.png)
 
-> #### danger::Achtung!
->
->  Auf diesem Weg können keine Benutzer neu angelegt oder Passworte geändert werden, sondern es können für bereits angelegte Benutzer Werte geändert.
+!!! info "Hinweis"
+
+	Auf diesem Weg können keine Benutzer neu angelegt oder Passworte geändert werden, sondern es können für bereits angelegte Benutzer Werte geändert.
 
 
 In der Datei sind Kopfzeilen und bereits erfasste Einstellungen. Diese Werte können ergänzt oder verändert werden:
@@ -84,11 +84,11 @@ Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann au
 ![Legen Sie hier die Grunddaten des Benutzers fest](../assets/images/magellan.administrator/benutzer.anlegen.png)
 
 
-> #### danger::Achtung!
->
-> Die Kürzel der Lehrer dürfen keine Umlaute oder „ß“ enthalten. Bitte passen Sie die Kürzel der Kollegen vorab in MAGELLAN an. 
-> Sollten Sie bereits einen Benutzerzugang für einen Kollegen mit einem Umlaut im Kürzel angelegt haben, genügt es nicht das Kürzel in MAGELLAN unter Lehrer zu ändern. Löschen Sie bitte den Benutzer unter `MAGELLAN Administrator > Benutzerverwaltung`, ändern anschließend das Kürzel in MAGELLAN unter `Lehrer > Daten1 > Kürzel` und legen abschließend den Benutzerzugang für den Lehrer erneut an.
-> Wenn Sie unter Kennwort das Benutzerkennwort eintragen, kann dieses Kennwort gleichzeitig als MYMAGELLAN-Kennwort übernommen werden, wenn Sie das Optionsfeld `Kennwort als MYMAGELLAN-Kennwort übernehmen` markiert haben.Geben Sie bitte ein achtstelliges Passwort ohne Sonderzeichen für den neuen Nutzer an.
+!!! info "Hinweis"
+
+	Die Kürzel der Lehrer dürfen keine Umlaute oder „ß“ enthalten. Bitte passen Sie die Kürzel der Kollegen vorab in MAGELLAN an. 
+     Sollten Sie bereits einen Benutzerzugang für einen Kollegen mit einem Umlaut im Kürzel angelegt haben, genügt es nicht das Kürzel in MAGELLAN unter Lehrer zu ändern. Löschen Sie bitte den Benutzer unter `MAGELLAN Administrator > Benutzerverwaltung`, ändern anschließend das Kürzel in MAGELLAN unter `Lehrer > Daten1 > Kürzel` und legen abschließend den Benutzerzugang für den Lehrer erneut an.
+      Wenn Sie unter Kennwort das Benutzerkennwort eintragen, kann dieses Kennwort gleichzeitig als MYMAGELLAN-Kennwort übernommen werden, wenn Sie das Optionsfeld `Kennwort als MYMAGELLAN-Kennwort übernehmen` markiert haben.Geben Sie bitte ein achtstelliges Passwort ohne Sonderzeichen für den neuen Nutzer an.
 
 ## Registerkarte „Rechte“
 
@@ -123,9 +123,9 @@ Gast 1 | * Leserechte.<br/>*  Schreibzugriff ist nicht möglich. <br/>* Das Men�
 Gast 2 | * Leserechte. <br/>* Schreibzugriff ist nicht möglich. <br/>* Das Menü „Lehrer“ zeigt die Personaldaten aller Lehrer an.<br/>* Keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Statistik-Administrator | Wie Schulleitung 1 zusätzlich können die folgenden Punkte ausgeführt werden: <br/> *  im Administratormodul „Schlüsselverzeichnisse importieren“<br/> * „Mach-Export“<br/> * den Abgleich zwischen MAGELLAN und daVinci<br/> *  Starten des DWH-Explorers
 
-> #### primary::Hinweis
->
-> Je Benutzer kann für die Schulverwaltung insbesondere festgelegt werden, ob der Benutzer das zusätzliche Recht besitzt, die Verzeichnisse in MAGELLAN zu editieren. Kann er die Verzeichnisse nicht editieren, so wird das Menü „Verzeichnis“ für Benutzer in MAGELLAN ausgeblendet. Er kann somit keine Schlüssel in den Verzeichnissen ändern. Im Standardfall hat ein Benutzer kein Recht Verzeichnisse zu editieren, das dies im Regelfall nur von einem ausgewählten kleinen Personenkreis durchgeführt werden soll.
+!!! info "Hinweis"
+
+	Je Benutzer kann für die Schulverwaltung insbesondere festgelegt werden, ob der Benutzer das zusätzliche Recht besitzt, die Verzeichnisse in MAGELLAN zu editieren. Kann er die Verzeichnisse nicht editieren, so wird das Menü „Verzeichnis“ für Benutzer in MAGELLAN ausgeblendet. Er kann somit keine Schlüssel in den Verzeichnissen ändern. Im Standardfall hat ein Benutzer kein Recht Verzeichnisse zu editieren, das dies im Regelfall nur von einem ausgewählten kleinen Personenkreis durchgeführt werden soll.
 
 ### Bibliotheksrechte
 
@@ -136,9 +136,9 @@ Schulleitung | wie Bibliothekar, aber kein Zugriff auf die Optionsunterkarten: A
 Kollegium | wie Schulleitung
 Gast | nur Leserechte
 
-> #### danger::Achtung!
->
-> Beim Anlegen der Kennung bitten wir Sie, auf Abkürzungen wie „Do“ und „If“ zu verzichten, da diese Kürzel gleich lautend mit Programmierbefehlen sind und von Firebird fehl interpretiert werden. Es gibt noch weitere so genannte „reservierte“ Worte, die Sie in der Dokumentation [„MAGELLAN-Scripting“](https://doc.magellan-scripting.stueber.de/) in Kapitel „Die Skriptsprache“ nachschlagen können.
+!!! info "Hinweis"
+
+	Beim Anlegen der Kennung bitten wir Sie, auf Abkürzungen wie „Do“ und „If“ zu verzichten, da diese Kürzel gleich lautend mit Programmierbefehlen sind und von Firebird fehl interpretiert werden. Es gibt noch weitere so genannte „reservierte“ Worte, die Sie in der Dokumentation [„MAGELLAN-Scripting“](https://doc.magellan-scripting.stueber.de/) in Kapitel „Die Skriptsprache“ nachschlagen können.
 Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort` ändern selbst anpassen. Dafür werden mindestens 8 Zeichen erwartet. Sollte die Schaltfläche Kennwort ändern inaktiv bleiben, ist der Benutzer als Datenbankadministrator(„sysdba“) angemeldet. Dieses Kennwort kann nur im MAGELLAN-Administrator verändert werden.
 
 ## Registerkarte „MYMAGELLAN“

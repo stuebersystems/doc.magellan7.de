@@ -22,9 +22,9 @@ Zum Erkennen als selber Lehrer (...Personen oder Sorgeberechtigter) werden die f
 * Postleitzahl
 * Ort
 
-> #### warning::Wichtig
->
-> Damit das Zuweisen der GUIDs funktioniert, müssen die Felder gefüllt sein und auch identisch sein. Sind vier der Felder identisch gefüllt, das fünfte aber leer, wird die GUID nicht zugewiesen.
+!!! info "Hinweis"
+
+	 Damit das Zuweisen der GUIDs funktioniert, müssen die Felder gefüllt sein und auch identisch sein. Sind vier der Felder identisch gefüllt, das fünfte aber leer, wird die GUID nicht zugewiesen.
 
 Gehen Sie wie folgt vor:
 
@@ -44,9 +44,9 @@ Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreife
 
 ![Unterkarte Mandanten](../assets/images/optionen_mandanten.png)
 
-> #### primary::Tipp
->
-> Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan6.stueber.de/installation/die-pathsdatei.html).
+!!! info "Hinweis"
+
+	 Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan6.stueber.de/installation/die-pathsdatei.html).
 
 #### Neuanlegen
 
@@ -74,9 +74,9 @@ Wenn Sie einen Lehrer, eine Person oder einen Sorgeberechtigten löschen, dann k
 
 Besitzen Sie eine SchoolCentral-Lösung von MAGELLAN mit mehr als einem Mandanten, so können Sie die Stammdaten von Schülern bzw. Lehrern von einem Mandanten in einen anderen Mandanten versetzen. Die Daten werden dazu jeweils in den neuen Mandanten kopiert, ohne die Eintragung im alten Mandanten zu löschen.
 
-> #### primary::Warning
->
-> Beim Versetzen in einen anderen Mandanten werden die Daten des Schülers bzw. Lehrers im bisherigen Mandanten nicht verändert.
+!!! info "Hinweis"
+
+	 Beim Versetzen in einen anderen Mandanten werden die Daten des Schülers bzw. Lehrers im bisherigen Mandanten nicht verändert.
 
 ### Schüler versetzen
 

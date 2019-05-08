@@ -50,9 +50,9 @@ Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später ers
 
 ![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](../assets/images/magellan.administrator/unterkarte.datensicherung.png)
 
-> #### warning::Wichtig!
->
-> Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktion zum Sichern selbst von einem Clientrechner starten, die Sicherung kann aber nur auf Ihrem Serverrechner abgelegt werden.
+!!! info "Hinweis"
+
+	Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktion zum Sichern selbst von einem Clientrechner starten, die Sicherung kann aber nur auf Ihrem Serverrechner abgelegt werden.
 
 
 ## Unterpunkt Datenordner
@@ -72,9 +72,9 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 
 ![Assistent zum Testen der Verbindung](../assets/images/magellan.administrator/verbindung.testen.png)
 
-> #### warning::Wichtig!
->
-> MAGELLAN-Arbeitsplatzrechner und MAGELLAN-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von MAGELLAN (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html)!
+!!! info "Hinweis"
+
+	 MAGELLAN-Arbeitsplatzrechner und MAGELLAN-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von MAGELLAN (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html)!
 
 
 ## Datensicherung
@@ -140,10 +140,9 @@ Sicherung|Wiederherstellung|Der Pfad zum Restore-Ordner wird aus den Einstellung
 Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte Aktion!
 
 
-> #### warning::Wichtig!
->
-> Wenn Sie von einem Client aus die Sicherung der Datenbank auf dem Server durchführen, haben Sie nicht die Möglichkeit (Schaltfläche mit den drei Punkten am Ende der Zeile) den Pfad auszusuchen. Sie können lediglich manuell den entsprechenden Pfad eintragen. Erwartet wird immer lokaler Pfad auf dem Rechner, auf dem auch der Firebirdserver läuft. Sie können keine Sicherung auf einen anderen Rechner in Ihrem Netzwerk erstellen lassen.
-> Eine Sicherungskopie kann im laufenden Betrieb von MAGELLAN durchgeführt werden. Von der Sicherungskopie sind alle Dokumente, Word-Vorlagen und Berichte ausgenommen.
+!!! info "Hinweis"
+
+	Wenn Sie von einem Client aus die Sicherung der Datenbank auf dem Server durchführen, haben Sie nicht die Möglichkeit (Schaltfläche mit den drei Punkten am Ende der Zeile) den Pfad auszusuchen. Sie können lediglich manuell den entsprechenden Pfad eintragen. Erwartet wird immer lokaler Pfad auf dem Rechner, auf dem auch der Firebirdserver läuft. Sie können keine Sicherung auf einen anderen Rechner in Ihrem Netzwerk erstellen lassen.Eine Sicherungskopie kann im laufenden Betrieb von MAGELLAN durchgeführt werden. Von der Sicherungskopie sind alle Dokumente, Word-Vorlagen und Berichte ausgenommen.
 
 
 
@@ -155,9 +154,9 @@ Sie können eine Datensicherung auch außerhalb des MAGELLAN-ADMINISTRATORs nur 
 
 Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden Text hinein.
 
-> #### warning::Wichtig!
->
-> Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
+!!! info "Hinweis"
+
+	Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
 
 
 
@@ -178,9 +177,9 @@ pause | Programmfenster im Vordergrund oder unsichtbar: Wenn Sie "pause" weglass
 
 Wenn alle Angaben angepasst sind, speichern Sie die Datei und benennen sie anschließend in "MagellanBackup.bat"um. Legen Sie diese Datei bitte auf Ihrem Server im Datenbankordner ab.
 
-> #### danger::Achtung!
->
-> Führen Sie die Datei zum Test bitte per `Doppelklick` oder `Rechtsklick > Ausführen` aus.
+!!! info "Hinweis"
+
+	Führen Sie die Datei zum Test bitte per `Doppelklick` oder `Rechtsklick > Ausführen` aus.
 
 Hat es funktioniert? Dann richten Sie im Taskplaner bitte einen neuen Task ein, der täglich zu einer bestimmten Zeit diese Datei ausführt. Gehen Sie dazu auf dem Server unter `Start > Programme > Zubehör > Systemprogramme > Geplante Tasks`.
 

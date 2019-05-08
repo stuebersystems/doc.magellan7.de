@@ -25,9 +25,9 @@ Im Unterschied zur zentralen Noteneingabe an der Schule über die Magellan-Clien
 ![Übersichtsschema zu MyMAGELLAN](/assets/images/MYMAGELLAN/mymagellan7.workflow1.png)
 
 
-> #### primary::Hinweis
->
-> In diesem Abschnitt werden ausschließlich die Aufgaben für das MyMAGELLAN CENTER aus Sicht des Administrators vorgestellt. 
+!!! info "Hinweis"
+
+	In diesem Abschnitt werden ausschließlich die Aufgaben für das MyMAGELLAN CENTER aus Sicht des Administrators vorgestellt. 
 Die Anleitung für das Lehrergegenstück, also für MyMAGELLAN finden Sie im Dokument [MyMAGELLAN](https://doc.MyMAGELLAN7.stueber.de/) .
 
 Die Nutzung von MyMAGELLAN kann in drei Hauptschritte unterteilt werden:
@@ -47,9 +47,9 @@ Die Nutzung von MyMAGELLAN kann in drei Hauptschritte unterteilt werden:
 ![Einsammeln der MyMAGELLAN-Dateien durch das MyMAGELLAN CENTER nach Magellan](/assets/images/MYMAGELLAN/mymagellan7.workflow3.png)
 
 
-> #### primary::Hinweis
->
-> Die nachfolgenden Beschreibungen beziehen sich auf das MyMAGELLAN CENTER in der Version „Professional“. Diese Version besitzt gegenüber dem MyMAGELLAN CENTER „Standard“ einige Zusatzfunktionen. Auf die Unterschiede zur Professional Version wird an den entsprechenden Stellen im Text mit [bei „Standard“ nicht enthalten] hingewiesen.
+!!! info "Hinweis"
+
+	 Die nachfolgenden Beschreibungen beziehen sich auf das MyMAGELLAN CENTER in der Version „Professional“. Diese Version besitzt gegenüber dem MyMAGELLAN CENTER „Standard“ einige Zusatzfunktionen. Auf die Unterschiede zur Professional Version wird an den entsprechenden Stellen im Text mit [bei „Standard“ nicht enthalten] hingewiesen.
 
 ## Voraussetzungen
 
@@ -84,9 +84,9 @@ Bitte achten Sie darauf, dass Sie den kompletten Pfad eintragen. Wenn Sie ledigl
 
 ![Speicherort vorbelegen](/assets/images/MYMAGELLAN/04.png)
 
-> #### warning::Wichtig!
->
-> Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mym7". Sie müssen aber an der Stelle nichts ändern, beim Erstellen wird die korrekte Dateiendung ergänzt.
+!!! info "Hinweis"
+
+	Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mym7". Sie müssen aber an der Stelle nichts ändern, beim Erstellen wird die korrekte Dateiendung ergänzt.
 
 ### Dateipasswort
 
@@ -138,9 +138,9 @@ Ist ein MyMAGELLAN-Teilnehmer im aktuellen Zeitraum weder Klassenleiter 1, noch 
 
 Sind alle Voraussetzungen für die Erstellung der MyMAGELLAN-Dateien erfüllt, werden nach dem Aufruf der Karte `MyMAGELLAN CENTER` alle MyMAGELLAN-Teilnehmer aufgelistet.
 
-> #### primary::Hinweis
->
-> Vor dem eigentlichen Verteilen der MyMAGELLAN-Dateien, sollten Sie nochmals überprüfen, ob für jeden Teilnehmer der Speicherort und der Dateiname für seine MyMAGELLAN-Datei vordefiniert wurde. Wenn dies noch nicht über die Benutzerverwaltung des MAGELLAN ADMINISTRATORs erfolgt ist, können Sie diese Vorgaben auch im MyMAGELLAN CENTER definieren.
+!!! info "Hinweis"
+
+	Vor dem eigentlichen Verteilen der MyMAGELLAN-Dateien, sollten Sie nochmals überprüfen, ob für jeden Teilnehmer der Speicherort und der Dateiname für seine MyMAGELLAN-Datei vordefiniert wurde. Wenn dies noch nicht über die Benutzerverwaltung des MAGELLAN ADMINISTRATORs erfolgt ist, können Sie diese Vorgaben auch im MyMAGELLAN CENTER definieren.
 
 ![Sind alle Speicherorte vorbelegt?](/assets/images/MYMAGELLAN/10.png)
 
@@ -206,9 +206,9 @@ Fehlstunden/-tage in Magellan beim Einsammeln überschrieben|Die Werte der Felde
 Fehlstunden/-tage in Magellan beim Einsammeln addieren|Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in Magellan werden durch Einlesen einer MyMAGELLAN-Datei, mit Daten zu diesem Schüler addiert. Bitte beachten Sie, dass bei dieser Option im Fall eines erneuten Importes der Datei auch die Fehlzeiten erneut addiert werden.<br/><br/>**Wichtig:**<br/>Bitte beachten Sie den Abschnitt [Fehlzeiten](https://doc.magellan7.stueber.de/admin/mymagellan-center.html#fehlzeiten) und bedenken bitte auch, dass Sie Dateien in denen das Addieren der Fehlzeiten gewählt wurde, nicht mehrfach importieren dürfen.
 Fehlstunden/-tage in Magellan beim Einsammeln nicht aktualisieren| Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in Magellan werden durch Einlesen einer MyMAGELLAN-Datei nicht verändert. 
 
-> #### primary::Hinweis
->
-> Bitte beachten Sie, dass für den Benutzer der MyMAGELLAN-Datei ausgeblendete Felder weiterhin mit Werten versehen sind. Diese Werte werden beim Zurückspielen der MyMAGELLAN-Dateien in die Quelldatenbank übernommen. Zwischenzeitliche Änderungen in der Quelldatenbank werden dabei überschrieben.
+!!! info "Hinweis"
+
+	 Bitte beachten Sie, dass für den Benutzer der MyMAGELLAN-Datei ausgeblendete Felder weiterhin mit Werten versehen sind. Diese Werte werden beim Zurückspielen der MyMAGELLAN-Dateien in die Quelldatenbank übernommen. Zwischenzeitliche Änderungen in der Quelldatenbank werden dabei überschrieben.
 Und: Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach Magellan übernommen.
 
 
@@ -240,9 +240,9 @@ Am gewählten Speicherort werden die Dateien erzeugt.
 
 ![Erstellte MyMAGELLAN-Dateien](/assets/images/MYMAGELLAN/21.png)
 
-> #### warning::Wichtig!
->
-> Die neue Dateiendung `mym7` erzeugt MAGELLAN unabhängig von der Angabe im Speicherpfad, Sie müssen dafür nichts anpassen.
+!!! info "Hinweis"
+
+	 Die neue Dateiendung `mym7` erzeugt MAGELLAN unabhängig von der Angabe im Speicherpfad, Sie müssen dafür nichts anpassen.
 
 ## Übermittlung der Datei an die eingebenden Kollegen
 
@@ -270,9 +270,9 @@ Die Noteneingabe in MyMAGELLAN ist der gesonderten Dokumentation [MyMAGELLAN](ht
 ---------------
 
 
-> #### primary::Hinweis
->
-> Bitte beachten Sie, dass für den Benutzer der MyMAGELLAN-Datei ausgeblendete Felder weiterhin mit Werten versehen sind. Diese Werte werden beim Zurückspielen der MyMAGELLAN-Dateien in die Quelldatenbank übernommen. Zwischenzeitliche Änderungen in der Quelldatenbank werden dabei überschrieben.
+!!! info "Hinweis"
+
+	 Bitte beachten Sie, dass für den Benutzer der MyMAGELLAN-Datei ausgeblendete Felder weiterhin mit Werten versehen sind. Diese Werte werden beim Zurückspielen der MyMAGELLAN-Dateien in die Quelldatenbank übernommen. Zwischenzeitliche Änderungen in der Quelldatenbank werden dabei überschrieben.
 Und: Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach Magellan übernommen.
 
 ## Noteneingabe über MyMAGELLAN
@@ -291,9 +291,9 @@ Note ist in MAGELLAN /keine Note in MyMAGELLAN| Note in MAGELLAN bleibt bestehen
 Note ist nicht in MAGELLAN, Note ist in MyMAGELLAN| Note aus der MyMAGELLAN-Datei wird eingelesen
 Noten sind in beiden Programmen|Note aus MyMAGELLAN wird eingelesen
 
-> #### warning::Wichtig!
->
-> Das bedeutet, wenn in MAGELLAN eine Note besteht, die Sie in der MyMAGELLAN-Datei entfernen, dann bleibt die Note weiterhin nach dem Einlesen in MAGELLAN bestehen.
+!!! info "Hinweis"
+
+	Das bedeutet, wenn in MAGELLAN eine Note besteht, die Sie in der MyMAGELLAN-Datei entfernen, dann bleibt die Note weiterhin nach dem Einlesen in MAGELLAN bestehen.
 
 
 ### Beurteilungen
@@ -306,12 +306,12 @@ Beurteilung ist in MAGELLAN /keine Beurteilung in MyMAGELLAN| Beurteilung in MAG
 Beurteilung ist nicht in MAGELLAN, Beurteilung ist in MyMAGELLAN| Beurteilung aus der MyMAGELLAN-Datei wird eingelesen
 Beurteilung sind in beiden Programmen|Beurteilung aus MyMAGELLAN wird eingelesen
 
-> #### primary::Hinweis
->
-> Beispiel: Sie verteilen die Daten für Fachlehrer und Klassenleiter gleichzeitig, es ist beispielsweise die Fachzeile für Mathematik eines Schülers in der Fachlehrerdatei und in der Klassenleiterdatei. 
->**Die Eintragungen beider Rollen werden beim Import gleichwertig behandelt.** 
->Trägt nur einer der beiden in seine Datei eine Leistungsbeurteilung für Mathe ein, wird dessen Eintragung nach MAGELLAN importiert. 
->Tragen beide Kollegen (also der Fachlehrer und der Klassenlehrer tragen etwas für die Mathezeile ein) ein oder wurde bereits eine Eintragung in die MyMAGELLAN-Dateien exportiert, werden die Eingaben nacheinander importiert, die zuletzt importierte Information bleibt in MAGELLAN bestehen.   
+!!! info "Hinweis"
+
+	Beispiel: Sie verteilen die Daten für Fachlehrer und Klassenleiter gleichzeitig, es ist beispielsweise die Fachzeile für Mathematik eines Schülers in der Fachlehrerdatei und in der Klassenleiterdatei. 
+**Die Eintragungen beider Rollen werden beim Import gleichwertig behandelt.** 
+Trägt nur einer der beiden in seine Datei eine Leistungsbeurteilung für Mathe ein, wird dessen Eintragung nach MAGELLAN importiert. 
+Tragen beide Kollegen (also der Fachlehrer und der Klassenlehrer tragen etwas für die Mathezeile ein) ein oder wurde bereits eine Eintragung in die MyMAGELLAN-Dateien exportiert, werden die Eingaben nacheinander importiert, die zuletzt importierte Information bleibt in MAGELLAN bestehen.   
 
 
 ### Zeugnisbemerkungen
@@ -322,26 +322,25 @@ Bemerkung in MAGELLAN existiert, MyMAGELLAN-Datei wird erzeugt|Bemerkung wird mi
 Bemerkung wird in MyMAGELLAN aktualisiert<br/>Bemerkung wird in MAGELLAN neu angelegt|Bemerkungen werden beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen aus MyMAGELLAN ersetzt
 Neue Bemerkung wird in MAGELLAN erfasst,<br/>während die MyMAGELLAN-Dateien ausgeteilt sind|Bemerkungen wird beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen ersetzt. Sind keine neuen Bemerkungen in MyMAGELLAN erfasst worden, können als Ergebnis auch KEINE Bemerkungen übrig bleiben.
 
-> #### danger::Achtung!
->
-> Beim Erstellen der MyMAGELLAN-Dateien werden bereits in MAGELLAN existierende Zeugnisbemerkungen in die Lehrer-/Tutorendateien mit ausgegeben. 
-> 
-> Um beim Import keine Dopplungen von Bemerkungen zu erzielen, werden beim Einlesen der Klassenleiterdatei und der Tutorendatei jeweils zuvor die Schülerzeugnisbemerkungen gelöscht. 
-> Sollten einem Schüler ein Klassenleiter und ein Tutor zugeordnet worden sein, können damit je nach Einlesereihenfolge Zeugnisbemerkungen überschrieben werden.
->
-> Beispiel:
->
-> Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMAGELLAN-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen. 
->Eventuell in MAGELLAN bereits existente Zeugnisbemerkungen werden für S1 ausgespielt. 
->L1 vergibt eine neue Zeugnisbemerkung, T1 vergibt keine neue Zeugnisbemerkung. Die Dateien von L1 und T1 werden wieder importiert. 
-> 
->Import der Datei von L1: Zeugnisbemerkungen werden für S1 gelöscht, neue und alte Zeugnisbemerkung werden aus der Datei von L1 importiert. 
->
->Als nächstes wird die Datei für T1 importiert: die Zeugnisbemerkungen von S1 werden gelöscht (neue und alte reimportierte Zeugnisbemerkungen), nur die alten Zeugnisbemerkungen werden eingelesen. Im Ergebnis fehlen die neuen Zeugnisbemerkungen von L1. 
->
->Sie können den Konflikt nur lösen, indem Sie entweder:
-> * entweder Schülern nicht einen Klassenleiter UND einen Tutor zuweisen
-> * oder falls beide Felder für Schüler vergeben sind, beim Erstellen der Dateien nicht Tutor- und Klassenleiterdateien gemeinsam erstellen, sondern nacheinander, also erst die Dateien für die zweite Rolle **nach** dem Einsammeln der Daten der ersten Rolle verteilen.
+!!! info "Hinweis"
+
+	Beim Erstellen der MyMAGELLAN-Dateien werden bereits in MAGELLAN existierende Zeugnisbemerkungen in die Lehrer-/Tutorendateien mit ausgegeben. 
+ 
+Um beim Import keine Dopplungen von Bemerkungen zu erzielen, werden beim Einlesen der Klassenleiterdatei und der Tutorendatei jeweils zuvor die Schülerzeugnisbemerkungen gelöscht. 
+Sollten einem Schüler ein Klassenleiter und ein Tutor zugeordnet worden sein, können damit je nach Einlesereihenfolge Zeugnisbemerkungen überschrieben werden.
+
+Beispiel:
+
+Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMAGELLAN-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen. 
+Eventuell in MAGELLAN bereits existente Zeugnisbemerkungen werden für S1 ausgespielt. 
+L1 vergibt eine neue Zeugnisbemerkung, T1 vergibt keine neue Zeugnisbemerkung. Die Dateien von L1 und T1 werden wieder importiert. 
+ 
+Import der Datei von L1: Zeugnisbemerkungen werden für S1 gelöscht, neue und alte Zeugnisbemerkung werden aus der Datei von L1 importiert. 
+
+Als nächstes wird die Datei für T1 importiert: die Zeugnisbemerkungen von S1 werden gelöscht (neue und alte reimportierte Zeugnisbemerkungen), nur die alten Zeugnisbemerkungen werden eingelesen. Im Ergebnis fehlen die neuen Zeugnisbemerkungen von L1. 
+Sie können den Konflikt nur lösen, indem Sie entweder:
+* entweder Schülern nicht einen Klassenleiter UND einen Tutor zuweisen
+ * oder falls beide Felder für Schüler vergeben sind, beim Erstellen der Dateien nicht Tutor- und Klassenleiterdateien gemeinsam erstellen, sondern nacheinander, also erst die Dateien für die zweite Rolle **nach** dem Einsammeln der Daten der ersten Rolle verteilen.
 
 ### Fehlzeiten
 
@@ -421,9 +420,9 @@ roter Pfeil|MyMAGELLAN-Datei erzeugt: MyMAGELLAN-Datei existiert im angegebenen 
 blauer Pfeil|MyMAGELLAN-Datei bereit zum Import: MyMAGELLAN-Datei existiert im angegebenen Ordner und hat ein jüngeres Dateidatum als das letzte Exportdatum.
 grüner Pfeil|MyMAGELLAN-Datei erfolgreich importiert: MyMAGELLAN-Datei existiert im angegebenen Ordner und hat ein älteres Dateidatum als das letzte Importdatum und ein jüngeres Dateidatum als das letzte Exportdatum.
 
-> #### warning::Wichtig!
->
-> Beim Einlesen der MyMAGELLAN-Dateien richtet sich das Verhalten beim Import der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ nach den Einstellungen beim Verteilen der MyMAGELLAN-Dateien.a
+!!! info "Hinweis"
+
+	Beim Einlesen der MyMAGELLAN-Dateien richtet sich das Verhalten beim Import der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ nach den Einstellungen beim Verteilen der MyMAGELLAN-Dateien.a
 
 ## Löschen der MyMAGELLAN-Dateien
 
@@ -437,9 +436,9 @@ Im MyMAGELLAN CENTER können Sie zu einem beliebigen Zeitpunkt die bereits erste
 
 4. Klicken Sie auf `Fertigstellen `um das Löschen zu starten.
 
-> #### danger::Achtung!
->
-> MyMAGELLAN-Dateien, die mit einer Ausgabe von MyMAGELLAN erstellt wurden, in der es eine Datenstrukturänderung gegeben hatte, lassen sich mit einer aktuelleren Version nicht bearbeiten. Wenn Sie das dennoch versuchen sollten, erhalten Sie den Hinweis, dass die Datei mit einer anderen Version erstellt wurde und dass Sie sich mit Ihrem Administrator in Verbindung setzen möchten. Dies bedeutet, dass die Dateien mit einer neuen Version neu erstellt werden müssen.
+!!! info "Hinweis"
+
+	MyMAGELLAN-Dateien, die mit einer Ausgabe von MyMAGELLAN erstellt wurden, in der es eine Datenstrukturänderung gegeben hatte, lassen sich mit einer aktuelleren Version nicht bearbeiten. Wenn Sie das dennoch versuchen sollten, erhalten Sie den Hinweis, dass die Datei mit einer anderen Version erstellt wurde und dass Sie sich mit Ihrem Administrator in Verbindung setzen möchten. Dies bedeutet, dass die Dateien mit einer neuen Version neu erstellt werden müssen.
 
 
 ## MyMAGELLAN Dateien erneut importieren
@@ -449,9 +448,9 @@ Fällt nach dem Import auf, dass noch weitere Änderungen vorzunehmen sind, kön
 
 ### Bemerkungen
 
-> #### warning::Wichtig!
->
-> Wichtig bei den Bemerkungen, wie eigentlich auch bei allen anderen Zeugnisinformationen ist: Sind die MyMAGELLAN-Dateien beim Lehrer darf nichts in MAGELLAN verändert werden!
+!!! info "Hinweis"
+
+	Wichtig bei den Bemerkungen, wie eigentlich auch bei allen anderen Zeugnisinformationen ist: Sind die MyMAGELLAN-Dateien beim Lehrer darf nichts in MAGELLAN verändert werden!
 
 Bemerkungen, die später in der MyMAGELLAN-Datei noch ergänzt werden, können einfach ergänzt oder auch bereits eingelesene noch geändert werden.
 Beim erneuten Einlesen werden die Bemerkungen in MAGELLAN gelöscht und durch die neu eingelesenen ergänzt. Es würden aber auch Bemerkungen gelöscht, die zwischenzeitlich in MAGELLAN mit eingefügt wurden!!!
@@ -466,9 +465,9 @@ Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeign
 Gut geeignet ist die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben".
 
 
-> #### warning::Wichtig!
->
-> Kein Eintrag oder eine Null aus den Fehlzeiten in MyMAGELLAN überschreibt keinen MAGELLAN-Eintrag!
+!!! info "Hinweis"
+
+	Kein Eintrag oder eine Null aus den Fehlzeiten in MyMAGELLAN überschreibt keinen MAGELLAN-Eintrag!
 
 
 ## Organisation des zeitlichen Ablaufs
@@ -499,9 +498,9 @@ Beispielsweise könnten nur die Klassenleiter 1 der Klassen Teilnehmer von MyMAG
 
 Nicht eingegebene Noten in MyMAGELLAN werden beim Einsammeln über das MyMAGELLAN CENTER besonders behandelt.
 
-> #### danger::Achtung!
->
-> Nicht eingegebene Noten in MyMAGELLAN werden beim Import nach MAGELLAN nicht berücksichtigt. Bestehende Noten in MAGELLAN werden so durch den Import einer MyMAGELLAN-Datei nicht gelöscht.
+!!! info "Hinweis"
+
+	Nicht eingegebene Noten in MyMAGELLAN werden beim Import nach MAGELLAN nicht berücksichtigt. Bestehende Noten in MAGELLAN werden so durch den Import einer MyMAGELLAN-Datei nicht gelöscht.
 
 Hierbei gilt die Regel:
 Ist einem Schüler in MyMAGELLAN für ein Fach keine Note eingetragen worden, so wird diese Note beim Import nach MAGELLAN nicht berücksichtigt. Wird z.B. in MyMAGELLAN für einen Schüler in einem Fach unter „Endnote 1“ keine Note eingetragen und in MAGELLAN ist für denselben Schüler unter „Endnote 1“ eine Note eingetragen, so wird diese durch dem Import nach MAGELLAN nicht überschrieben. 
@@ -531,15 +530,17 @@ Zur Konfliktlösung ist Folgendes zu berücksichtigen:
 
 Kann der Lehrer eines Schülers die Registerkarte „Weiteren Daten“ in MyMAGELLAN editieren, so überschreiben in der Standardeinstellung seine Eingaben mit dem Einsammeln seiner MyMAGELLAN-Datei nach MAGELLAN unter grundsätzlich die bestehenden Eintragungen in MAGELLAN für diesen Schüler.
 
-> ####### warning::Wichtig!
->
->Ausnahme: Wenn er keine Eintragungen in diesen Feldern in MyMAGELLAN vorgenommen hat, werden die Werte in MAGELLAN durch die >Eintragungen in MyMAGELLAN nicht überschrieben, wenn die Option beim Verteilen der MyMagelan-Dateien so gewählt wurde. Das >gilt für folgende Werte:
->* Unterrichtstage
->* Versäumnisse
->* Fehltage
->* Davon unentschuldigt Fehltage
->* Fehlstunden
->* davon unentschuldigte Fehlstunden
+!!! info "Hinweis"
+
+	Ausnahme: Wenn er keine Eintragungen in diesen Feldern in MyMAGELLAN vorgenommen hat, werden die Werte in MAGELLAN durch die >Eintragungen in MyMAGELLAN nicht überschrieben, wenn die Option beim Verteilen der MyMagelan-Dateien so gewählt wurde. 
+    
+Das gilt für folgende Werte:
+* Unterrichtstage
+* Versäumnisse
+* Fehltage
+* Davon unentschuldigt Fehltage
+* Fehlstunden
+* davon unentschuldigte Fehlstunden
 
 Beispiel:
 Der Lehrer L1 hat beim Schüler S1 in seiner MyMAGELLAN-Datei die Eintragung 2 bei den Fehlstunden gemacht. Der Lehrer L2 hat beim gleichen Schüler S1 in seiner MyMAGELLAN-Datei keine Eintragung (Standardwert=0) gemacht. Wird nun zuerst die MyMAGELLAN-Datei von Lehrer L1 eingelesen, so erhält der Schüler S1 in MAGELLAN den Wert 2 bei Fehlstunden. Wird anschließend die MyMAGELLAN-Datei des Lehrers L2 eingelesen, so bleibt die 2 bestehenen, wird nicht durch die 0 überschrieben. Sollte L2 die Null erfasst haben um einen Eintrag in MAGELLAN zu korrigieren, bleibt der vorherige Wert (> 0) bestehen. Erfasst Lehrer L2 einen anderen Wert, zum Beispiel 3 Fehlstunden, überschreibt die 3 die 2 (entscheidend ist die Reihenfolge des Einlesens).
@@ -566,8 +567,6 @@ Beispiel: Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen d
 > * entweder Schülern nicht einen Klassenleiter UND einen Tutor zuweisen
 > * oder falls beide Felder für Schüler vergeben sind, beim Erstellen der Dateien nicht Tutor- und Klassenleiterdateien gemeinsam erstellen, sondern erst die Dateien für die zweite Rolle nach dem Einsammeln der Daten der ersten Rolle verteilen.  
 
+!!! info "Hinweis"
 
-
-> #### success::Tipp
->
-> Zum Schluss eine Vorgehenstipp für die Schulen in Rheinland-Pfalz, an denen es eine MSS gibt: In der Mainzer Studienstufe wird das Fach „Gemeinschaftskunde“ als Grundkurs von zwei Lehrkräften je zweistündig unterrichtet. Dadurch sind in beiden Lehrerdateien die Schüler beinhaltet. Es sollte zuvor vereinbart werden, wer die Noten erfassen soll. Vorschlag: Es trägt diejenige Lehrkraft die Noten ein, in deren Fach die Kursarbeit geschrieben wurde.
+	Zum Schluss eine Vorgehenstipp für die Schulen in Rheinland-Pfalz, an denen es eine MSS gibt: In der Mainzer Studienstufe wird das Fach „Gemeinschaftskunde“ als Grundkurs von zwei Lehrkräften je zweistündig unterrichtet. Dadurch sind in beiden Lehrerdateien die Schüler beinhaltet. Es sollte zuvor vereinbart werden, wer die Noten erfassen soll. Vorschlag: Es trägt diejenige Lehrkraft die Noten ein, in deren Fach die Kursarbeit geschrieben wurde.

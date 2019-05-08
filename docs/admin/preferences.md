@@ -2,9 +2,9 @@
 
 In MAGELLAN können Sie einige Einstellungen vornehmen. Klicken Sie auf `Datenbank > Optionen`, die möglichen Einstellungen werden nachstehend beschrieben.
 
-> #### success::Tipp
->
-> Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html).
+!!! info "Hinweis"
+
+	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html).
 
 ## Start
 
@@ -43,9 +43,9 @@ Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht
 |Registerkarte „Medizin“ in „Personen“|
 |Feld „Gebiet“ bei Adressen von Schülern, Bewerbern, Lehrern, Personen und Sorgeberechtigten|
 
-> #### primary::Hinweis
->
-> Die Funktion des Ein- und Ausblendens von Bereichen ist abhängig von Ihrer Lizenzierung. Besitzen Sie beispielsweise nicht das Modul „MAGELLAN Berufsbildende Schule“, können Sie den Bereich „Berufsschule“ in MAGELLAN nicht einblenden. 
+!!! info "Hinweis"
+
+	Die Funktion des Ein- und Ausblendens von Bereichen ist abhängig von Ihrer Lizenzierung. Besitzen Sie beispielsweise nicht das Modul „MAGELLAN Berufsbildende Schule“, können Sie den Bereich „Berufsschule“ in MAGELLAN nicht einblenden. 
 
 
 ![Geben Sie hier an, welche Bereiche ein- bzw. ausgeblendet werden sollen.](../assets/images/optionen_einausblenden.png)
@@ -125,9 +125,9 @@ Für den Druck von Worddokumenten im Rahmen des Seriendrucks gehen Sie wie folgt
 
 ![Hier ist für die Ansicht „Klassen“ angegeben, dass neben vor dem eigentlichen Word-Seriendruck das gefüllte Worddokumente in der Dokumentenverwaltung im Unterordner „Word“ erzeugt werden soll.](../assets/images/optionen_dok_word.png)
 
-> #### warning::Achtung
->
-> Bitte tragen Sie für die Unterordner der Dokumentenverwaltung keinen Pfad ein, sondern lediglich den Namen des Verzeichnisses in das die PDF-Datei oder docx-Datei abgelegt werden soll. Existiert das Verzeichnis nicht, wird es automatisch beim ersten Nutzen der Funktion mit angelegt.
+!!! info "Hinweis"
+
+	Bitte tragen Sie für die Unterordner der Dokumentenverwaltung keinen Pfad ein, sondern lediglich den Namen des Verzeichnisses in das die PDF-Datei oder docx-Datei abgelegt werden soll. Existiert das Verzeichnis nicht, wird es automatisch beim ersten Nutzen der Funktion mit angelegt.
 
 ### Dateinamenkonventionen
 
@@ -168,9 +168,9 @@ Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewä
 ![Hier sehen Sie ein Beispiel für die Eintragungen dieser Karte](../assets/images/optionen.01.png)
 
 
-> #### primary::Hinweis
->
-> Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan7.stueber.de/howto/kurznachrichten.html).
+!!! info "Hinweis"
+
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan7.stueber.de/howto/kurznachrichten.html).
 
 
 
@@ -180,16 +180,16 @@ Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewä
 
 Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern einpflegen.
 
-> #### warning::Wichtig!
->
-> Auf dieser Karte erfassen Sie bitte dazu die Verbindungsdetails, die Sie beim Erwerb eines SMS-Pakets von uns erhalten.
+!!! info "Hinweis"
+
+	Auf dieser Karte erfassen Sie bitte dazu die Verbindungsdetails, die Sie beim Erwerb eines SMS-Pakets von uns erhalten.
 
 ![Es sind keine Daten erfasst, die Einträge für Ihre Schule teilen wir Ihnen beim Erwerb des Moduls LIVEMESSAGE mit](../assets/images/optionen.02.png)
 
 
-> #### primary::Hinweis
->
-> Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan7.stueber.de/howto/kurznachrichten.html).
+!!! info "Hinweis"
+
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan7.stueber.de/howto/kurznachrichten.html).
 
 
 

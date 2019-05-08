@@ -7,10 +7,9 @@ Alternativ können Sie auch Abfragen oder Berichte unter Microsoft Access erstel
 2. Schritt: Ein neue Access-Datenbank anlegen
 3. Schritt: Berichte erstellen
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
->  Um einen unbefugten Zugriff per Access auf die MAGELLAN-Datenbank zu verhindern, muss auf die Anzahl der Benutzer von Access bereits über das Betriebssystem eingeschränkt werden.
+	 Um einen unbefugten Zugriff per Access auf die MAGELLAN-Datenbank zu verhindern, muss auf die Anzahl der Benutzer von Access bereits über das Betriebssystem eingeschränkt werden.
 
 ## 1. Schritt: ODBC-Verbindung zur Firebird-Datenbank erstellen
 

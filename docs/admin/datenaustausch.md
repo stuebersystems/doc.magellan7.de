@@ -9,12 +9,12 @@ Mit dieser Option können Sie die Schlüsselverzeichnisse Ihrer Region in die MA
 
 Für MAGELLAN existieren Anpassungen an die Bestimmungen einzelner Bundesländer bzw. bestimmter Schularten. Diese Anpassungen richten sich u. a. danach, ob die jeweiligen Stellen der Statistikämter, Kultusministerien bzw. Schulträger entsprechende Datentransferformate usw. anbieten. Durch die Landesanpassung werden die Bereiche Statistik und Oberstufenverwaltung, als auch die Zeugnisse abgedeckt. Um eine MAGELLAN-Datenbank mit neuen Schlüsselverzeichnissen zu aktualisieren bzw. Schlüssel in eine leere MAGELLAN-Datenbank zu importieren, müssen Sie die Option „Schlüsselverzeichnisse importieren“ wählen.
 
-Feld|Bedeutung
----|---
-Importiere für folgendes Land/Bundesland|Wählen Sie Ihr Bundesland oder Land aus. <br/>Der Assistent bietet Schlüsselverzeichniskataloge aus dem gleichnamigen Verzeichnis im Verzeichnis Importe (standardmäßig auf Ihrem MAGELLAN-Serverrechern).
-Importiere folgende Schlüssel|Es gibt die Auswahl Schlüssel für allgemeinbildende Schulen oder berufsbildende Schulen.<br/>Katalogedateien können mit 00_, AS_ oder BS_ beginnen. Für allgemeinbildende Schulen werden Dateien mit 00_ und AS_ importiert, für berufsbildende Schulen werden Dateien mit 00_ und BS_ importiert.
-Importiere für den folgenden Mandanten |Wählen Sie den Zielmandanten aus
-Importiere folgenden Katalog|Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.
+| Feld                                     | Bedeutung                                                                                                                                                                                                                                                                                          |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Importiere für folgendes Land/Bundesland | Wählen Sie Ihr Bundesland oder Land aus. <br/>Der Assistent bietet Schlüsselverzeichniskataloge aus dem gleichnamigen Verzeichnis im Verzeichnis Importe (standardmäßig auf Ihrem MAGELLAN-Serverrechern).                                                                                         |
+| Importiere folgende Schlüssel            | Es gibt die Auswahl Schlüssel für allgemeinbildende Schulen oder berufsbildende Schulen.<br/>Katalogedateien können mit 00_, AS_ oder BS_ beginnen. Für allgemeinbildende Schulen werden Dateien mit 00_ und AS_ importiert, für berufsbildende Schulen werden Dateien mit 00_ und BS_ importiert. |
+| Importiere für den folgenden Mandanten   | Wählen Sie den Zielmandanten aus                                                                                                                                                                                                                                                                   |
+| Importiere folgenden Katalog             | Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.                                                                                                                                                                                                                       |
 
 
 [Assistent zum Importieren von Katalogen](../assets/images/magellan.administrator/kataloge.importieren.jpg)
@@ -37,12 +37,12 @@ Beispiele:
 * AS_Faecher.keys
 * BS_Faecher.keys
 
-Benennung|Anmerkung
---|--
-Dateinamenanfang "AS_"|Schlüsseldateien die mit "AS_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` zum Import angeboten
-Dateinamenanfang "BS_"|Schlüsseldateien die mit "BS_" bezeichnet sind, werden beim Aufruf `für berufsbildende Schulen` zum Import angeboten
-Dateinamenanfang "00_"|Schlüsseldateien die mit "00_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` und beim Aufruf `für berufsbildende Schulen` zum Import angeboten
-Text ab Zeichen 4 <br/>(im Beispiel "Faecher")|Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert. Eine vollständige Aufzählung der Schlüsselverzeichnisse, inklusive der Beschreibung für den Aufbau der Katalogdateien finden Sie im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/reference/keys-dateien.html).
+| Benennung                                      | Anmerkung                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dateinamenanfang "AS_"                         | Schlüsseldateien die mit "AS_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` zum Import angeboten                                                                                                                                                                                       |
+| Dateinamenanfang "BS_"                         | Schlüsseldateien die mit "BS_" bezeichnet sind, werden beim Aufruf `für berufsbildende Schulen` zum Import angeboten                                                                                                                                                                                          |
+| Dateinamenanfang "00_"                         | Schlüsseldateien die mit "00_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` und beim Aufruf `für berufsbildende Schulen` zum Import angeboten                                                                                                                                          |
+| Text ab Zeichen 4 <br/>(im Beispiel "Faecher") | Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert. Eine vollständige Aufzählung der Schlüsselverzeichnisse, inklusive der Beschreibung für den Aufbau der Katalogdateien finden Sie im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/reference/keys-dateien.html). |
 
 
 
@@ -52,9 +52,9 @@ Es können entweder alle keys-Dateien (AS_xxx und 00_xxx oder BS_xxx und 00_xxx 
 
 ### Aufbau der Dateien
 
-> #### warning::Wichtig!
->
-> Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/reference/keys-dateien.html).
+!!! info "Hinweis"
+
+	Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/reference/keys-dateien.html).
 
 Jede dieser Dateien muss als CSV-Datei aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und
 ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch
@@ -73,9 +73,9 @@ Die Importdatei für Fachstatus (00_Fachstati.keys) kann z.B. folgenden Aufbau h
 Die Felder entsprechen dem sogenannten System Data Format (SDF), d.h. bei einem Semikolon, Komma, Sonderzeichen oder einem Leerzeichen im String wird der String in Anführungszeichen gesetzt, z.B. die Bezeichnung "1. Prüfungsfach und Besondere Lernleistung " wird ;“ 1. Prüfungsfach und Besondere Lernleistung“;... und nicht ; 1. Prüfungsfach und Besondere Lernleistung;... geschrieben.
 Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeichen anzugeben. Welche Felder pro Datei eingelesen werden, ist den nachfolgenden Abschnitten pro Datei zu entnehmen.
 
-> #### primary::Hinweis
->
-> Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden.
+!!! info "Hinweis"
+
+	Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden.
 Ändern Sie bitte vor dem Import die Dateiendung in *.keys.
 
 
@@ -94,11 +94,14 @@ Beim Einlesen von Schlüsselverzeichnissen wird folgendes der Reihe nach durchge
 * Wird ein Schlüssel nicht im Verzeichnis erkannt, wird er eingelesen und aktiv gesetzt.
 Als Ergebnis haben Sie damit nur die korrekten Schlüssel als aktive Werte markiert. Verkehrte, aber bereits verwendete Schlüssel, bleiben in der Datenbank bestehen, werden aber als inaktiv gekennzeichnet.
 
-> #### primary::Hinweis
->
-> Bei bestehenden Schlüsselzeilen in den Zielverzeichnissen wird weder Bezeichnung, noch Kürzel oder Schlüssel verändert, lediglich das Gültig-von- und das Gültig-bis-Datum wird angepasst.
-> **Kuerzel:** dieser Wert muss pro Zeile gefüllt werden, darf aber nur einmalig innerhalb eines Verzeichnisses verwendet werden.
-> **Zeichenlänge pro Feld:** Die Gesamtzeichenlänge darf nicht überschritten werden. Bitte beachten Sie hierzu das Dokument [MAGELLAN-Datenstruktur](https://doc.magellan6-datenstruktur.stueber.de/).
+!!! info "Hinweis"
+
+	 Bei bestehenden Schlüsselzeilen in den Zielverzeichnissen wird weder Bezeichnung, noch Kürzel oder Schlüssel verändert, lediglich das Gültig-von- und das Gültig-bis-Datum wird angepasst.
+
+| Feld                  | Hinweis                                                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kuerzel               | dieser Wert muss pro Zeile gefüllt werden, darf aber nur einmalig innerhalb eines Verzeichnisses verwendet werden.                                                        |
+| Zeichenlänge pro Feld | Die Gesamtzeichenlänge darf nicht überschritten werden. Bitte beachten Sie hierzu das Dokument [MAGELLAN-Datenstruktur](https://doc.magellan6-datenstruktur.stueber.de/). |
 
 
 
@@ -112,10 +115,10 @@ Mit dieser Option können Sie Ihr bestehendes Postleitzahlverzeichnis gegen ein 
 * Stadtbezirke
 * Postleitzahlen
 
-Feld|Anmerkung
---|--
-Importiere für folgendes Land|Aktuell bieten wir Kataloge für folgende Regionen an: <br/> * Deutschland<br/>* Schweiz<br/>* Rheinland-Pfalz <br/>* Berlin
-Importiere folgenden Katalog|alle Kataloge
+| Feld                          | Anmerkung                                                                                                                   |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Importiere für folgendes Land | Aktuell bieten wir Kataloge für folgende Regionen an: <br/> * Deutschland<br/>* Schweiz<br/>* Rheinland-Pfalz <br/>* Berlin |
+| Importiere folgenden Katalog  | alle Kataloge                                                                                                               |
 
 ![Das Fenster `Importiere Postleitzahlen`](../assets/images/magellan.administrator/importiere.plz.png)
 
