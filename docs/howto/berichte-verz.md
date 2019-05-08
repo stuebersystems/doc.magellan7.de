@@ -22,9 +22,9 @@ Innerhalb des MAGELLAN-Berichtsverzeichnisses können Sie nach den aktuellen Ber
 ![Hier sehen Sie Zeugnisse des Bundeslandes Rheinland-Pfalz.](../assets/images/berichteverz/berichteverz1.png)
 
 
-> #### primary::Hinweis
->
-> Wenn man in MAGELLAN das Berichtefenster öffnet, dann werden je nach Menü eine unterschiedliche Menge an Berichten und Bundeslandunterverzeichnisse gezeigt. Die Berichte die ohne Unterverzeichnisse gezeigt werden, finden Sie im Modul MAGELLAN BERICHTE unter der `Region`Deutschland.
+!!! info "Hinweis"
+
+	Wenn man in MAGELLAN das Berichtefenster öffnet, dann werden je nach Menü eine unterschiedliche Menge an Berichten und Bundeslandunterverzeichnisse gezeigt. Die Berichte die ohne Unterverzeichnisse gezeigt werden, finden Sie im Modul MAGELLAN BERICHTE unter der `Region`Deutschland.
 
 ## Anzeige von Anmerkung zu einem Bericht
 

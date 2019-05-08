@@ -2,9 +2,9 @@
 
 Für die Berufsschule existieren unterschiedliche Berechnungsvorschriften für die Noten auf Jahres-, Abgangs- und Abschlusszeugnissen. MAGELLAN stellt sehr ausgefeilte Funktionen für die gesamte Endnotenberechnung der Berufsschule zur Verfügung. Diese Notenberechnungen werden mit den grundlegenden Merkmalen in diesem Kapitel vorgestellt. 
 
-> #### warning::Wichtig!
->
->  Eine ausführliche Beschreibung der zeitraumübergreifenden Berechnungen in der Berufsschule finden Sie im entsprechenden Kapitel in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Dort können Sie auch nachlesen, für welche Bundesländer entsprechende Berechnungsskripte vorliegen. In diesem Handbuch werden nur die wichtigsten Schritte erläutert.
+!!! info "Hinweis"
+
+	Eine ausführliche Beschreibung der zeitraumübergreifenden Berechnungen in der Berufsschule finden Sie im entsprechenden Kapitel in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Dort können Sie auch nachlesen, für welche Bundesländer entsprechende Berechnungsskripte vorliegen. In diesem Handbuch werden nur die wichtigsten Schritte erläutert.
 
 ## Grundlagen
 
@@ -60,9 +60,9 @@ Gültig von  | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis  | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
 Skript      | Geben Sie hier den Namen des Skripts für diese Berechungsverordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE.
 
-> #### warning::Wichtig!
->
-> Die erwarteten Einstellungen pro Berechnungsskript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+!!! info "Hinweis"
+
+	Die erwarteten Einstellungen pro Berechnungsskript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 ## Schüler synchronisieren
 
@@ -107,9 +107,9 @@ Die Prüfungsnoten der Schüler können Sie über ein gesondertes Fenster pro Kl
 |2. Wählen Sie die Klasse und das Fach aus. Es werden im Fenster alle Schüler der Klasse aufgelistet, für die das gewählte Fach auf der Karte `Berufsschule > Matrix` erfasst oder synchronisiert wurde. |
 |3. Erfassen Sie in der Spalte `Prüfungsnote `oder `Prüfungsnote (Kontrolle)` die Noten. Die Sichtbarkeit dieser beiden Spalten kann pro Benutzer geregelt werden. |
 
-> #### primary::Hinweis
->
-> Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/admin/users.html#allgemeine-rechte).
+!!! info "Hinweis"
+
+	Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/admin/users.html#allgemeine-rechte).
  
 ![Geben Sie pro Fach pro Klasse die Prüfungsnoten ein.](../assets/images/berufsschulmatrix/berufsschulmatrix6.png)
 

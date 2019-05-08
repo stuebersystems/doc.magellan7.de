@@ -2,9 +2,9 @@
 
 Dieses Kapitel beschreibt das Drucken von Formularen, Listen und Zeugnissen mit MAGELLAN. Grundlage für die Druckmöglichkeiten bilden Berichte, die im Berichtsgenerator Crystal Reports erstellt worden sind. Zum Ausdruck können Sie entweder auf von uns erstellte Berichte zurückgreifen oder Sie erstellen Berichte nach Ihren eigenen Bedürfnissen.
 
-> #### warning::Wichtig!
->
-> Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw. HTML werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/howto/seriendruck.html) vorgestellt.
+!!! info "Hinweis"
+
+	Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw. HTML werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/howto/seriendruck.html) vorgestellt.
 
 ## MAGELLAN Crystal-Reports
 
@@ -14,9 +14,9 @@ Berichte definieren in MAGELLAN das Layout und den Inhalt von Ausdrucken in Form
 
 Mit MAGELLAN wird eine große Anzahl von Crystal Reports-Berichten kostenlos mitgeliefert. Eine Übersicht über die vorhandenen Berichte finden Sie über den MAGELLAN-Berichts-Explorer. Alle darin erwähnten Crystal Reports-Berichte für Listen und Zeugnisse können mit dem kostenlos mitgelieferten Runtime-Modul von MAGELLAN ausgedruckt werden. Wenn Sie lediglich die mitgelieferten Zeugnisformulare verwenden, ohne Änderungen am Layout vorzunehmen, benötigen Sie keinen Druckreportgenerator, da bereits eine Runtime-Version des in MAGELLAN verwendeten Crystal Reports-Berichtsgenerators mitinstalliert wird. 
 
-> #### warning::Wichtig!
->
-> Wenn Sie Berichte selbst verändern oder erstellen möchten, benötigen Sie Crystal Reports. Über STÜBER SYSTEMS können Sie Lizenzen zu Sonderkonditionen beziehen, bitte melden Sie sich, wenn Sie ein Angebot wünschen.
+!!! info "Hinweis"
+
+	 Wenn Sie Berichte selbst verändern oder erstellen möchten, benötigen Sie Crystal Reports. Über STÜBER SYSTEMS können Sie Lizenzen zu Sonderkonditionen beziehen, bitte melden Sie sich, wenn Sie ein Angebot wünschen.
 
 ### Unterstützte Crystal Reports Versionen
 
@@ -43,9 +43,9 @@ Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste w
 
 Wenn Sie auf `Drucken und Export nach PDF` klicken, wird zunächst der Berichte für alle markierten Schüler pro Schüler ins PDF-Format exportiert und dann erfolgt der eigentliche Druck. Zusätzlich gibt es auch die Funktion `Export nach PDF`, das nur die PDF-Version speichert. Diese Funktion können Sie beispielsweise nutzen um den letzten Stand des Zeugnisdrucks abschließend für die Schüler in ihren Schülerunterverzeichnissen zu speichern. Diese Schaltflächen sind zusätzlich zur Schaltfläche `Drucken` nur dann aktiv, wenn Sie unter `Datenbank > Optionen > Dokumente` den Export ins PDF-Format eingestellt haben (siehe „Berichte und Zeugnisse exportieren“). Andernfalls ist nur die Schaltfläche `Drucken` aktiv. Berichte im Menü `Mandanten` beziehen sich auf alle Daten des aktuellen Zeitraums des markierten Mandanten. Hier finden Sie z.B. Übersichtslisten über alle Schüler des Mandanten, Bewerberranglisten über alle Bewerber des Mandanten usw.
 
-> #### primary::Hinweis
->
-> Sie können alle Berichte optional nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau des Berichtes auf und klicken auf das Symbol ![ ](../assets/images/formulare/formulare3.png). Wählen Sie anschließend das gewünschte Export-Format (z.B. Excel-Format) und legen Sie einen Speicherort fest. Sie können die Berichte dann z.B. im Excel-Format weiterverarbeiten.
+!!! info "Hinweis"
+
+	Sie können alle Berichte optional nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau des Berichtes auf und klicken auf das Symbol ![ ](../assets/images/formulare/formulare3.png). Wählen Sie anschließend das gewünschte Export-Format (z.B. Excel-Format) und legen Sie einen Speicherort fest. Sie können die Berichte dann z.B. im Excel-Format weiterverarbeiten.
 
 ### Kurslisten
 
@@ -73,9 +73,9 @@ So drucken Sie Zeugnisse:
 
 Klicken Sie dann auf `Drucken` und der gewünschte Report wird gedruckt. Wenn Sie auf `Drucken und Export nach PDF` klicken, wird zunächst das Zeugnis für alle markierten Schüler pro Schüler ins PDF-Format exportiert und dann erfolgt der eigentliche Druck. Diese Schaltfläche ist anstatt der Schaltfläche `Drucken `nur dann sichtbar, wenn Sie in den Optionen den Export ins PDF-Format eingestellt haben (siehe „Einstellung für Crystal Reports Berichte“). Andernfalls lautet die Schaltfläche nur `Drucken`.
 
-> #### primary::Hinweis
->
->  Sie können alle Zeugnisse optional nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau des Berichtes auf und klicken auf das Symbol ![ ](../assets/images/formulare/formulare3.png). Wählen Sie anschließend das gewünschte Export-Format (z.B. Acrobat-Format) und legen Sie einen Speicherort fest. Sie können die Zeugnisse dann z.B. im Word-Format weiterverarbeiten.
+!!! info "Hinweis"
+
+	Sie können alle Zeugnisse optional nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau des Berichtes auf und klicken auf das Symbol ![ ](../assets/images/formulare/formulare3.png). Wählen Sie anschließend das gewünschte Export-Format (z.B. Acrobat-Format) und legen Sie einen Speicherort fest. Sie können die Zeugnisse dann z.B. im Word-Format weiterverarbeiten.
 
 So drucken Sie beim Schüler hinterlegte Zeugnisse: 
 

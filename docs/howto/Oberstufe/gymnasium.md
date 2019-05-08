@@ -4,9 +4,9 @@ Die Oberstufe stellt den schwierigsten Teil der Schulorganisation dar. MAGELLAN 
  
 In DAVINCI KURSPLAN  oder auf der Fachwahlkarte in MAGELLAN können Sie die Schüler-Fachwahlen inkl. Fachwahlüberprüfung erfassen und per Automatik die Kurse blocken sowie die Schüler auf Kurse verteilen. MAGELLANs Vorschlagsautomatik sagt Ihnen, welche Kurse der Schüler für die maximale Punktzahl einbringen sollte. MAGELLAN errechnet die Abiturqualifikation und druckt die Abiturzeugnisse. Fachwahlüberprüfung und Abiturqualifikationsberechnung basieren auf Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können, was aber in der Regel nicht notwendig ist. Weitere Informationen zu diesen Skripten finden Sie in der Dokumentation [MAGELLAN-Scripting](https://doc.MAGELLAN-scripting.stueber.de/).
 
-> #### warning::Wichtig!
->
-> Eine ausführliche Beschreibung der Gymnasialen Oberstufe finden Sie in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Dort können Sie auch nachlesen, für welche Bundesländer entsprechende Berechnungsskripte vorliegen. In diesem Handbuch werden nur die wichtigsten Schritte erläutert.
+!!! info "Hinweis"
+
+	 Eine ausführliche Beschreibung der Gymnasialen Oberstufe finden Sie in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Dort können Sie auch nachlesen, für welche Bundesländer entsprechende Berechnungsskripte vorliegen. In diesem Handbuch werden nur die wichtigsten Schritte erläutert.
 
 ## Aufgaben
 

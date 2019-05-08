@@ -34,9 +34,9 @@ Geben Sie hier den Namen des Ansprechpartners und eine zugehörige Bemerkung ein
 Sollten versehentliche Betriebe mehrfach im  Menü `Betriebe` geführt worden sein, finden Sie dazu in MAGELLAN einen Assistenten, der Sie beim Zusammenführen unterstützt.
 Sie können dabei alle Auszubildenden des Betriebes, auch aus älteren Zeiträumen, mit den dazugehöri-gen Ausbilderkontakten in einen anderen Betrieb übernehmen. Optional können Sie den Betrieb auch im Anschluss löschen lassen.
 
-> #### warning::Wichtig!
->
-> Der Assistent führt genau einen Betrieb mit einem genau weiteren Betrieb zusammen. Möchten Sie mehrere Betriebe zusammenführen, rufen Sie den Assistenten bitte mehrfach auf. 
+!!! info "Hinweis"
+
+	Der Assistent führt genau einen Betrieb mit einem genau weiteren Betrieb zusammen. Möchten Sie mehrere Betriebe zusammenführen, rufen Sie den Assistenten bitte mehrfach auf. 
 
 Gehen Sie dazu wie folgt vor:
 

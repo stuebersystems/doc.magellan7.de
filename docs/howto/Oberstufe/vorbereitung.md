@@ -33,9 +33,9 @@ Voraussetzung für die Fachwahlüberprüfung und die Abiturqualifikationsberechn
 * Klicken Sie auf `Extras > Schlüsselverzeichnisse > Fächer` und machen Sie im Verzeichnis der Fächer die entsprechenden Eingaben in den Spalten `Kategorie` und `Aufgabenbereich`.
 
 
-> #### primary::Hinweis
->
-> In der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/) finden Sie eine entsprechende Anleitung, für welches Bundesland pro Fach welche Einstellungen bei Fachkategorie bzw. im Aufgabenbereich vorgenommen werden müssen.
+!!! info "Hinweis"
+
+	In der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/) finden Sie eine entsprechende Anleitung, für welches Bundesland pro Fach welche Einstellungen bei Fachkategorie bzw. im Aufgabenbereich vorgenommen werden müssen.
 
 
 ### Verzeichnis Abschlussjahrgänge
@@ -44,9 +44,9 @@ Voraussetzung für die Fachwahlüberprüfung und die Abiturqualifikationsberechn
 
 Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgäng` die Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs z.B. für Ausdrucke herausfiltern zu können.
 
-> #### warning::Wichtig!
->
-> Geben Sie bei der Definition des Abiturjahrgangs im Fenster `Verzeichnisse der Abschlussjahrgänge` unter `Kategorie` unbedingt `Abitur` an.
+!!! info "Hinweis"
+
+	Geben Sie bei der Definition des Abiturjahrgangs im Fenster `Verzeichnisse der Abschlussjahrgänge` unter `Kategorie` unbedingt `Abitur` an.
 
 ### Verzeichnis Verordnung 
 
@@ -55,9 +55,9 @@ Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrg
 
 Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis `Verordnungen` die jeweilige Fachwahlverordnung und/oder Abiturprüfungsordnung definieren. Bitte prüfen Sie vorab, ob es ein Prüfskript für Ihre Region und Verordnung gibt (["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html)). 
 
-> #### danger::Achtung!
->
-> Alle verfügbaren Skripte finden Sie in der Dokumentation ["Landesanpassungen"](https://doc.la.stueber.de/)  im Abschnitt ["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html). 
+!!! info "Hinweis"
+
+	 Alle verfügbaren Skripte finden Sie in der Dokumentation ["Landesanpassungen"](https://doc.la.stueber.de/)  im Abschnitt ["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html). 
 
 Um Ihre Skripte in MAGELLAN zu hinterlegen,  klicken Sie dazu auf `Extras > Schlüsselverzeichnisse > Verordnungen` und geben Sie dort die Verordnung an. Je Skript legen Sie bitte eine gesonderte Zeile an. Wenn für Ihre Region und Verordnung ein Fachwahlskript zur Verfügung steht, dann legen Sie dafür bitte eine Zeile an, für das Skript, das die Abiturberechnung vornimmt bitte eine zweite Zeile, sollten die Schüler nach verschiedenen Verordnungen geprüft werden, benötigen Sie eine dritte Zeile.
 

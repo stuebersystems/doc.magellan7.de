@@ -5,9 +5,9 @@ Von MAGELLAN können die Abteilungen, die Lehrer, die Fächer, die Fachtafeln, d
 
 Von DAVINCI können die Abteilungen, die Lehrer, die Fächer, die Stundentafeln, die Kurswahlen der Schüler der Oberstufe und der Fach- bzw. Kurslehrer an MAGELLAN übergeben werden.
 
-> #### warning::Wichtig!
->
-> Der Datenaustausch wird grundsätzlich (egal in welche Richtung) von DAVINCI aus gestartet. 
+!!! info "Hinweis"
+
+	 Der Datenaustausch wird grundsätzlich (egal in welche Richtung) von DAVINCI aus gestartet. 
 Sie benötigen die MAGELLAN-Administrator-Kennung, da der Austausch nur mit Administrator-Rechten erfolgen kann.
 
 
@@ -17,9 +17,9 @@ Wenn Sie MAGELLAN und DAVINCI einsetzen, sollten Sie wie folgt vorgehen:
 2. Geben Sie die Unterrichtsverteilung in DAVINCI ein und erstellen Sie mit DAVINCI den Stundenplan.
 3. Geben Sie ggf. die Schülerfachwahlen in DAVINCI::Kursplan ein und übertragen Sie die Kurswahlen nach MAGELLAN. Wenn Sie Schüler-Fachwahlen nach MAGELLAN übertragen wollen und Sie neue Fächer in DAVINCI eingegeben haben, die noch nicht in MAGELLAN vorhanden sind, dann müssen Sie beim Datenabgleich neben den Schülerfachwahlen auch markieren, dass die Fächer übernommen werden sollen.
 
-> #### danger::Achtung!
->
->  Bitte beachten Sie beim Datenabgleich zwischen MAGELLAN und DAVINCI allgemein die folgenden Hinweise:
+!!! info "Hinweis"
+
+	 Bitte beachten Sie beim Datenabgleich zwischen MAGELLAN und DAVINCI allgemein die folgenden Hinweise:
 > Vor jedem Datenaustausch sollten Sie eine Datensicherung der MAGELLAN-Datenbank (MAGELLAN6.fdb) und der DAVINCI-Plandatei (*.DAVINCI) durchführen. Ein versehentlicher Übertrag kann nicht rückgängig gemacht werden.
 
 Was|Wichtige Hinweise
@@ -117,9 +117,9 @@ Felder|Hinweis
 ---|---
 Stammdaten:<br/>**Vorname **<br/>**Nachname **<br/>**MAGELLAN.ID**<br/> **Geschlecht **<br/>**Geburtsdatum **<br/>**Klasse **<br/>**Stufe **<br/>**Tutor **<br/>**Email **<br/>**Schulnummer**<br/><br/>Schülerfächer:<br/>**Fach **<br/>**Fachstatus**<br/> **Unterrichtsart**|Es ist möglich nur einen Teil der Schüler zur Übernahme auszuwählen.<br/> Der Austausch erfolgt über ID, Nachname und Vorname.<br/> Bei gleicher Daten wird aktualisiert.<br/> Schülerfächer werden als Schülerfachwahlen übernommen. Werden Schüler erneut übernommen, werden die eventuell bestehenden Fachwahlen in DAVINCI gelöscht und mit den Daten aus MAGELLAN überschrieben.<br/><br/>Tutor und Klasse, genau wie die Fachwahlen können nur zugeordnet werden, wenn die zugrunde liegenden Daten in DAVINCI vorhanden sind (Lehrer.Kürzel, Klassen.Kürzel, Fach.Kürzel, Unterrichtsart.Kürzel, Fachstatus.Kürzel).
 
-> #### primary::Hinweis
->
-> Als Oberstufenklasse gelten Klassen mit der Klassenart (`MAGELLAN: Klassen > Daten > Klassenart`) "Oberstufenjahrgang (Nur Kurse)" oder "Oberstufenjahrgang (Grund- und Leistungskurse)"  mit dem Jahrgang 11-13 (`MAGELLAN: Klassen > Zeiträume > Zeitraum > Jahrgang`) .
+!!! info "Hinweis"
+
+	Als Oberstufenklasse gelten Klassen mit der Klassenart (`MAGELLAN: Klassen > Daten > Klassenart`) "Oberstufenjahrgang (Nur Kurse)" oder "Oberstufenjahrgang (Grund- und Leistungskurse)"  mit dem Jahrgang 11-13 (`MAGELLAN: Klassen > Zeiträume > Zeitraum > Jahrgang`) .
 
 
 
@@ -196,9 +196,9 @@ Felder|Hinweis
 ---|---
 **Zugewiesener Lehrer in der Veranstaltungsliste**|<br/>Dabei prüft MAGELLAN nach folgender Regel:<br/><br/>Unterrichtet der Lehrer<br/>- das gleiche Fach mit<br/>- gleichem Fachstatus und<br/>- gleicher Kursnummer in <br/>- der gleiche Klasse,  <br/> so wird er dem Schüler in diesem Fach zugeordnet.
 
-> #### primary::Hinweis
->
-> Der Lehrer-Unterrichts kann nur bei den Schülern in MAGELLAN zuordnet werden, denen bereits Fächer zugeordnet wurden. Die Schülerfächer in MAGELLAN und die Veranstaltungen der Veranstaltungsliste in DAVINCI müssen in Fach, Fachstatus und Unterrichtsart identisch sein.
+!!! info "Hinweis"
+
+	Der Lehrer-Unterrichts kann nur bei den Schülern in MAGELLAN zuordnet werden, denen bereits Fächer zugeordnet wurden. Die Schülerfächer in MAGELLAN und die Veranstaltungen der Veranstaltungsliste in DAVINCI müssen in Fach, Fachstatus und Unterrichtsart identisch sein.
  
 
 Ansicht „Schüler > Zeugnis > Fächer“ je Schüler|	Nach MAGELLAN übernommen	|SDTF-Datensatz U1 Feld
@@ -207,23 +207,19 @@ Lehrer	|Aktualisieren	|Feld 4: Lehrerkürzel
 
 Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht übernommen wird in der Schuldatentransferdatei (SDTF)
 
-> #### primary::Hinweis
->
-> Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
->
-> Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
+!!! info "Hinweis"
+
+	 Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
+      Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
 
 ### Beifachlehrer im Datenübertrag
 
-> #### danger::Achtung!
->
-> Beim Übertrag der unterrichtenden Fachlehrer von DAVINCI nach MAGELLAN, kann es dazu kommen, dass beim Sonderfall "Beifächer" der verkehrte Kollege zugeordnet wird.
->
-> Es ist logisch nicht anders zu lösen, da es sich **zweimal um die identische Kombination aus Fach, Fachstatus und Unterrichtsart** handelt. 
->
-> Gibt es in der Veranstaltungsliste in DAVINCI mehrere Veranstaltungen dieser Kombination mit unterschiedlichen Lehrern, ist es reiner Zufall, welcher Lehrer in MAGELLAN gespeichert. Das Schuldatentraferdatei wird sequenziell abgearbeitet. Kommt DEU/L1 vor DEU/L2 für den Schüler in der Datei vor, wird beim Schüler DEU/L2 in Magellan gespeichert.
-> 
-> Man kann es nur lösen, wenn die Haupt- und Beifach getrennte Kürzel haben, also tatsächlich zwei Fächer sind. 
+!!! info "Hinweis"
+
+	 Beim Übertrag der unterrichtenden Fachlehrer von DAVINCI nach MAGELLAN, kann es dazu kommen, dass beim Sonderfall "Beifächer" der verkehrte Kollege zugeordnet wird. 
+     Es ist logisch nicht anders zu lösen, da es sich **zweimal um die identische Kombination aus Fach, Fachstatus und Unterrichtsart** handelt. 
+      Gibt es in der Veranstaltungsliste in DAVINCI mehrere Veranstaltungen dieser Kombination mit unterschiedlichen Lehrern, ist es reiner Zufall, welcher Lehrer in MAGELLAN gespeichert. Das Schuldatentraferdatei wird sequenziell abgearbeitet. Kommt DEU/L1 vor DEU/L2 für den Schüler in der Datei vor, wird beim Schüler DEU/L2 in Magellan gespeichert.
+      Man kann es nur lösen, wenn die Haupt- und Beifach getrennte Kürzel haben, also tatsächlich zwei Fächer sind. 
 
 
 ### Fächer aus DAVINCI
@@ -304,9 +300,9 @@ Fach mit der Unterrichtsart ist neu |-	Fach (Kürzel und Schlüssel)<br/>- Unter
 Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, wenn diese DAVINCI neu angelegt wurden aber noch nicht in MAGELLAN existieren. Der mit aus DAVINCI übertragene Schüler wird aber noch nicht mit seiner Kurswahl importiert, da er zuerst in MAGELLAN angelegt und in diese neue angelegte Klasse in MAGELLAN eingeschult werden muss.
  
 
-> #### primary::Hinweis
->
-> Klassen wie auch Schüler sollten grundsätzlich in MAGELLAN angelegt sein, da MAGELLAN hierzu das führende System ist.
+!!! info "Hinweis"
+
+	Klassen wie auch Schüler sollten grundsätzlich in MAGELLAN angelegt sein, da MAGELLAN hierzu das führende System ist.
 
 #### Import mit „Nur geänderte Daten“
 
