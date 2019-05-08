@@ -33,7 +33,7 @@ Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue D
 3.  Der Assistent zur Konvertierung erscheint, führen Sie zuerst die Sicherung Ihrer Datenbank und anschließend die die Konvertierung aus. Sollten Sie mehrere Strukturanpassungs-Updates übersprungen haben, werden diese der Reihe nach vom Assistenten durchgeführt. Schließen Sie MAGELLAN.
 4. Rufen Sie den MAGELLAN-Administrator auf. Synchronisieren Sie die Zugriffsrechte der Benutzer (`Benutzerverwaltung > Zugriffsrechte synchronisieren`).
 
-![`Benutzerverwaltung > Zugriffsrechte synchronisieren`](/images/zugriffsrechte.sync.png)
+![`Benutzerverwaltung > Zugriffsrechte synchronisieren`](../assets/images/zugriffsrechte.sync.png)
 
 > #### primary::Hinweis
 >

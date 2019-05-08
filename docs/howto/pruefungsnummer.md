@@ -20,8 +20,8 @@ So gehen Sie vor:
 
 2. Wählen Sie eine Klasse und vergeben ein Prüfungspräfix, es können dafür höchstens 3 Zeichen verwendet werden. Sie können die niedrigste Prüfungsnummer vordefinierten. 
  
-![Wählen Sie eine Klasse und vergeben ein Präfix](/images/pruefungsnummer/pruefungsnummer1.png)
+![Wählen Sie eine Klasse und vergeben ein Präfix](../assets/images/pruefungsnummer/pruefungsnummer1.png)
 
 Die generierte Prüfungsnummer wird für den Schüler unter `Merkmale > MerkmalB1` angezeigt und ist auch in der Auswahlliste sichtbar.
  
-![die Prüfungsnummer wird im Feld Merkmal B1 angezeigt](/images/pruefungsnummer/pruefungsnummer2.png)
+![die Prüfungsnummer wird im Feld Merkmal B1 angezeigt](../assets/images/pruefungsnummer/pruefungsnummer2.png)

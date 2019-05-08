@@ -17,7 +17,7 @@ In Abschnitt „Bewerber eingeben“ wird die Eingabe der Bewerber beschrieben. 
 * Aufnahme als Pool-Bewerber: Der Bewerber wir nach einer Suche aus dem SCHÜLERPOOL als so genannter Pool-Bewerber mit seinen Stammdaten nach MAGELLAN übernommen. Pool-Bewerber werden in der Liste der Bewerber zur Unterscheidung mit einer gelben Raute mit einem Ausrufezeichen gekennzeichnet.
 
 
-![Pool-Bewerber werden durch das Symbol in der Liste der Bewerber gekennzeichnet](/images/sp_1.symbol.png)
+![Pool-Bewerber werden durch das Symbol in der Liste der Bewerber gekennzeichnet](../assets/images/sp_1.symbol.png)
 
 
 
@@ -33,7 +33,7 @@ Die SCHÜLERPOOL-Datenbank wird vom Administrator mit einem gesonderten Programm
 
 Von MAGELLAN aus können Sie auf die SCHÜLERPOOL-Datenbank über die SCHÜLERPOOL-Suche zugreifen. Die nachfolgenden Abschnitte werden die SCHÜLERPOOL-Suche wie auch alle anderen Funktionalitäten im Rahmen der Nutzung des SCHÜLERPOOLs erläutern.
 
-![Hier sehen Sie die Bewerberauswahlliste mit einem Pool-Bewerber](/images/sp_2.Liste der Bewerber.png)
+![Hier sehen Sie die Bewerberauswahlliste mit einem Pool-Bewerber](../assets/images/sp_2.Liste der Bewerber.png)
 
 ## SCHÜLERPOOL-Funktionen
 
@@ -47,7 +47,7 @@ Im Rahmen der Aufnahme von Bewerbern an Ihrer Schule können Sie die Suchfunktio
 
 3. Geben Sie im Dialogfenster `SCHÜLERPOOL-Suche` unter Suchfilter Vornamen, Nachnamen und Geburtsdatum des Bewerbers an und klicken Sie dann auf Schüler suchen.
 
-![Wählen Sie hieraus, welchen Bewerber Sie im SCHÜLERPOOL suchen.](/images/sp_3.Suche.png)
+![Wählen Sie hieraus, welchen Bewerber Sie im SCHÜLERPOOL suchen.](../assets/images/sp_3.Suche.png)
 
 
 Es wird eine Verbindung von MAGELLAN zur SCHÜLERPOOL-Datenbank aufgebaut und das Suchergebnis wird unter Ergebnis im Dialogfenster angezeigt.
@@ -61,7 +61,7 @@ Bewerber ist frei| Es wurde ein passender Eintrag mit den angegebenen Daten im S
 Bewerber hat sich beworben|Es wurde ein passender Eintrag mit den angegebenen Daten im SCHÜLERPOOL gefunden. Der Bewerber ist Pool-Bewerber an mindestens einer Schule und ist an noch keiner Schule eingeschult.
 Bewerber ist Schüler|Es wurde ein passender Eintrag mit den angegebenen Daten im SCHÜLERPOOL gefunden. Der Bewerber ist an mindestens einer Schule als Schüler erfasst.
 
-![Der Bewerber hat sich bereits an einer Schule beworben](/images/sp_4.Suche.png)
+![Der Bewerber hat sich bereits an einer Schule beworben](../assets/images/sp_4.Suche.png)
 
 Jedes dieser Suchergebnisse beinhaltet spezifische Informationen:
 

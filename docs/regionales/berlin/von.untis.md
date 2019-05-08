@@ -25,7 +25,7 @@ So können Sie in Untis eine Schuldatentransferdatei exportieren:
 1.	Starten Sie Untis und wählen Sie dort `Datei > Import/Export > Deutschland > Schuldatentransferformat`.
 2.	Geben Sie im Dialogfenster `Schuldatentransferformat `auf der Registerkarte `Export `unter Exportdatei die Exportdatei im Schuldatentransferformat an.
  
-![Dialogfenster für den Export nach MAGELLAN in Untis](/images/berlin/von.untis/von.untis1.png)
+![Dialogfenster für den Export nach MAGELLAN in Untis](../assets/images/berlin/von.untis/von.untis1.png)
 
 3.	Klicken Sie auf `Exportieren `um den Export auszuführen.
 
@@ -40,16 +40,16 @@ Lehrer-Unterricht|Neben der eigentlichen Kurszuordnung kann auch der Lehrer-Unte
 So starten Sie in MAGELLAN den Import der aus Untis erzeugten Schuldatentransferdatei
 1.	Wählen Sie `Extras > Import > Untis`.
  
-![Startansicht des Assistenten für den MAGELLAN-Datenaustausch mit Untis](/images/berlin/von.untis/von.untis2.png)
+![Startansicht des Assistenten für den MAGELLAN-Datenaustausch mit Untis](../assets/images/berlin/von.untis/von.untis2.png)
 
 2.	Klicken Sie im "MAGELLAN-Datenaustausch mit Untis"-Assistenten auf `Weiter`.
 3.	Wählen Sie unter` Übertrage Daten aus folgender SDTF-Datei` die zuvor aus Untis exportierte Schuldatentransferdatei aus. Die Felder Zeitraum und Mandant sind bereits vorbesetzt. Klicken Sie auf `Weiter`.
  
-![Hier wählen Sie die aus Untis exportierte Schuldatentransferdatei aus.](/images/berlin/von.untis/von.untis3.png)
+![Hier wählen Sie die aus Untis exportierte Schuldatentransferdatei aus.](../assets/images/berlin/von.untis/von.untis3.png)
 
 4.	Sie müssen jetzt entscheiden was Sie importieren wollen. 
  
-![Sie müssen jetzt festlegen, was Sie importieren wollen.](/images/berlin/von.untis/von.untis4.png)
+![Sie müssen jetzt festlegen, was Sie importieren wollen.](../assets/images/berlin/von.untis/von.untis4.png)
 
 Durch den Import der zuvor aus Untis erzeugten Schuldatentransferdatei können folgende Daten für die Oberstufe aus Untis nach MAGELLAN übernommen werden:
 
@@ -65,7 +65,7 @@ Um die Schüler-Kurswahlen aus Untis zu importieren, müssen Sie müssen Sie im 
 
 ### Import ohne weitere Zusatzoptionen
  
-![ Datenimport nach MAGELLAN mit der Standardoption „alle Daten“ ohne weitere Zusatzoptionen](/images/berlin/von.untis/von.untis5.png)
+![ Datenimport nach MAGELLAN mit der Standardoption „alle Daten“ ohne weitere Zusatzoptionen](../assets/images/berlin/von.untis/von.untis5.png)
 
 Wenn Sie keine weiteren Zusatzoptionen auswählen, erfolgt die Übernahme der Schülerkurswahlen nach folgender Regel: 
 
@@ -95,7 +95,7 @@ Tabelle 2: Wertübernahmen je Schüler nach MAGELLAN wenn nur die Schülerkurswa
 Wenn Sie die Zusatzoption `Übertrag auch in die Fachwahlen` auswählen, werden die Einträge unter Ansicht `„Abitur“ > Fachwahl` pro erkanntem Schüler zusätzlich aktualisiert. 
 **Dabei gelten folgende Regeln:** ist das zu übertragende Fach mit seiner Unterrichtsart bereits in der Fachwahl in MAGELLAN vorhanden, so wird die gesamte Fachzeile mit den neuen Werte aus Untis überschrieben. Andernfalls wird eine neue Fachzeile mit den Werten aus Untis eingefügt.
  
-![Datenimport nach MAGELLAN mit der Zusatzoption „Übertrag auch in die Fachwahlen“](/images/berlin/von.untis/von.untis6.png)
+![Datenimport nach MAGELLAN mit der Zusatzoption „Übertrag auch in die Fachwahlen“](../assets/images/berlin/von.untis/von.untis6.png)
 
 > #### primary::Hinweis
 >
@@ -117,11 +117,11 @@ Fach mit der Unterrichtsart ist neu |-	Fach (Kürzel und Schlüssel)<br/>- Unter
 
  
 ![Datenimport nach MAGELLAN mit der Zusatzoption „Bestehende Schülerkurswahlen zuvor nicht löschen“.
-Import mit „Fehlende Klasse anlegen“](/images/berlin/von.untis/von.untis7.png)
+Import mit „Fehlende Klasse anlegen“](../assets/images/berlin/von.untis/von.untis7.png)
 
 Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, wenn diese Untis neu angelegt wurden aber noch nicht in MAGELLAN existieren. Der mit aus Untis übertragene Schüler wird aber noch nicht mit seiner Kurswahl importiert, da er zuerst in MAGELLAN angelegt und in diese neue angelegte Klasse in MAGELLAN eingeschult werden muss.
  
-![Datenimport nach MAGELLAN mit der Zusatzoption „Fehlende Klassen anlegen“.](/images/berlin/von.untis/von.untis8.png)
+![Datenimport nach MAGELLAN mit der Zusatzoption „Fehlende Klassen anlegen“.](../assets/images/berlin/von.untis/von.untis8.png)
 
 > #### primary::Hinweis
 >
@@ -135,13 +135,13 @@ Mit der Option Nur geänderte Daten werden nur solche die Schüler für den Impo
 
 Zur Berücksichtigung reicht ein einzigen solcher Unterschied aus.
  
-![Datenimport nach MAGELLAN mit der Option „Nur geänderte Daten“.](/images/berlin/von.untis/von.untis9.png)
+![Datenimport nach MAGELLAN mit der Option „Nur geänderte Daten“.](../assets/images/berlin/von.untis/von.untis9.png)
 
 ### Lehrer-Unterricht importieren
 
 Der Lehrer-Unterricht ist die Zuordnung, welche Lehrer in welcher Klasse welches Fach bzw. welchen Kurs unterrichtet. Um den Lehrer-Unterricht aus Untis nach MAGELLAN zu importieren, müssen Sie im Assistenten für den MAGELLAN-Datenaustausch mit Untis die Option `Übernehme Lehrer-Unterricht` markieren.
   
- ![Die Übernahme des Lehrer-Unterrichts aus Untis nach MAGELLAN ist aktiviert.](/images/berlin/von.untis/von.untis10.png)
+ ![Die Übernahme des Lehrer-Unterrichts aus Untis nach MAGELLAN ist aktiviert.](../assets/images/berlin/von.untis/von.untis10.png)
  
 Bei der Übernahme des Lehrer-Unterrichts aus Untis werden durch den Import der Schuldatentransferdatei nach MAGELLAN aufgrund der Veranstaltungsliste pro Klasse in Untis die Lehrer übernommen. Es werden bei allen Schülern einer Klasse, die Fächer in MAGELLAN haben, die in der Schuldatentransferdatei zugeordneten Lehrer der gleichen Klasse zugeordnet. 
 

@@ -35,18 +35,18 @@ Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihre
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7`ein. Klicken Sie auf `Weiter`!
 
 
-![Magellan 6 nach MAGELLAN 7](/images/magellan.administrator/mandanten.kopieren5.png)
+![Magellan 6 nach MAGELLAN 7](../assets/images/magellan.administrator/mandanten.kopieren5.png)
 
 Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-Datenbank möglich. Bei der Installation von MAGELLAN 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "Magellan7.fdb". 
-![leere Datenbank im Format für MAGELLAN 7](/images/magellan.administrator/mandanten.kopieren6.png)
+![leere Datenbank im Format für MAGELLAN 7](../assets/images/magellan.administrator/mandanten.kopieren6.png)
 
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/database/Magellan7.fdb)
 
-![Laden Sie ggfs. eine leere Datenbank herunter!](/images/magellan.administrator/mandanten.kopieren7.png)
+![Laden Sie ggfs. eine leere Datenbank herunter!](../assets/images/magellan.administrator/mandanten.kopieren7.png)
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (MAGELLAN 6), im unteren Bereich auf die Zieldatenbank (MAGELLAN 7).
 
-![Eintragungen für die Quell- und Zieldatenbank](/images/magellan.administrator/mandanten.kopieren8.png)
+![Eintragungen für die Quell- und Zieldatenbank](../assets/images/magellan.administrator/mandanten.kopieren8.png)
 
 
 Feld|Anmerkung

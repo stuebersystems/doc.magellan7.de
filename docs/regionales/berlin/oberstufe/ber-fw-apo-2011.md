@@ -23,7 +23,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](/images/berlin/fachwahl/ber.fw.2011.png)
+![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](../assets/images/berlin/fachwahl/ber.fw.2011.png)
 
 
 ## Aufgabenbereiche

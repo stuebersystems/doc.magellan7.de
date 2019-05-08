@@ -20,11 +20,11 @@ Legen Sie bitte unter `Verzeichnisse > Fachtafeln` eine neue Fachtafel an.
 
 Stellen Sie die `Art` der im Anschluss auf `Fachwahltafel`:
 
-![Eine Fachtafel anlegen, die Art auf `Fachwahltafel`abändern](/images/ausland/fachwahltafelbeispiel.01.png)
+![Eine Fachtafel anlegen, die Art auf `Fachwahltafel`abändern](../assets/images/ausland/fachwahltafelbeispiel.01.png)
 
 Wechseln Sie anschließend für Ihre Oberstufenfachwahltafel auf den Reiter `Fächer` und legen die Fachzeilen an. 
 
-![Die Fachwahltafel füllen](/images/ausland/fachwahltafelbeispiel.02.png)
+![Die Fachwahltafel füllen](../assets/images/ausland/fachwahltafelbeispiel.02.png)
 
 > #### warning::Wichtig!
 >
@@ -50,21 +50,21 @@ Um die Schüler zu synchronisieren gehen Sie bitte wie folgt vor:
 * Markieren Sie bitte die Schüler aus dem Jahrgang 10.
 * Weisen Sie ihnen auf der nächsten Karte den `Abschlussjahrgang` und die `Verordnung` zu und führen die Aktion aus.
 
-![Optionen beim Synchronisieren setzen](/images/ausland/FW_sync.png)
+![Optionen beim Synchronisieren setzen](../assets/images/ausland/FW_sync.png)
 
 #### Zuweisen der Fachwahltafel
 
 Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`.
 
-![Fachwahlzuweisen-Assistenten aufrufen](/images/ausland/FW_zuweisen.01.png)
+![Fachwahlzuweisen-Assistenten aufrufen](../assets/images/ausland/FW_zuweisen.01.png)
 
 Markieren Sie Ihre Schüler des Jahrgangs 10, wählen Ihre Oberstufen-Fachwahltafel und weisen E1-Q4  (oder auch möglich Q1-Q4) bitte die entsprechenden Zeiträume zu.
 
-![Zeiträume den Kurshalbjahren zuweisen](/images/ausland/FW_zuweisen.02.png)
+![Zeiträume den Kurshalbjahren zuweisen](../assets/images/ausland/FW_zuweisen.02.png)
 
 Als Ergebnis hat jeder Schüler jetzt eine vorbefüllte Fachwahlkarte, die Sie bitte im nächsten Schritt an die Fachwahl des einzelnen Schülers anpassen. 
 
-![Bitte passen Sie Fachwahlvorbelegung entsprechend der Schülerwahl an](/images/ausland/FW_zuweisen.03.png)
+![Bitte passen Sie Fachwahlvorbelegung entsprechend der Schülerwahl an](../assets/images/ausland/FW_zuweisen.03.png)
 
 #### Übertrag der Fachwahl pro Halbjahr nach `Schüler > Zeugnis > Fächer`
 
@@ -77,11 +77,11 @@ Gehen Sie bitte wie folgt vor:
 * Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`. 
 * Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in MAGELLAN ausgewählte Halbjahr haben.
 
-![Markieren Sie die gewünschten Schüler!](/images/ausland/FW_zuweisen.04.png)
+![Markieren Sie die gewünschten Schüler!](../assets/images/ausland/FW_zuweisen.04.png)
 
 Im unteren Bereich stehen Optionen zur Verfügung:
 
-![wählen Sie die gewünschte Option!](/images/ausland/FW_zuweisen.05.png)
+![wählen Sie die gewünschte Option!](../assets/images/ausland/FW_zuweisen.05.png)
 
 Nr|Hinweis
 --|--
@@ -106,14 +106,14 @@ Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Ko
 Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`
 Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!
 Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)
-Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/images/ausland/verordnungen.png) 
+Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](../assets/images/ausland/verordnungen.png) 
 Verzeichnisse > Zeiträume > Art| Der Wert 1. oder 2. Halbjahr muss gefüllt sein
 Verzeichnisse > Fächer > Kategorie|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)
 Verzeichnisse > Fächer > Aufgabenbereich|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)
-Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/images/ausland/fs.png) 
-Verzeichnisse > weitere Schlüsselverzeichnisse > Sprachreferenzen|(zeugnisrelevant)<br/>Die Sprachreferenzen werden beim Schüler unter `Schüler > Daten 3 > Fremdsprachenfolge` im Feld `Referenz` eingetragen. Sie können dazu auch die Sammelzuweisung unter `Schüler > Bearbeiten > Sammelzuweisung` verwenden. Beispiel: ![Beispiel](/images/ausland/sprachreferenzen.png) 
-Verzeichnisse > weitere Schlüsselverzeichnisse > Kurssprachen|(zeugnisrelevant)<br/>Für vollständig in einer Fremdsprache unterrichtete Fächer lassen Sie den Schlüssel bitte frei, für bilingual unterrichtete Fächer tragen Sie im Schlüssel bitte `bi` ein. Die Kurssprachen können an folgenden Stellen eingegeben werden:<br/>- `Verzeichnisse > Fachtafeln > für Fachwahltafeln (Q1-Q4 Sprache)`<br/>- `Schüler > Zeugnis > Fächer > Sprache` <br/>- `Abitur > Fachwahl > Q1-Q4 Sprache`<br/>- `Abitur > Qualifikation > Q1-Q4 Sprache`<br/>Beispiel: ![Beispiel](/images/ausland/kurssprachen.png) 
-Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/images/ausland/ua.png) 
+Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](../assets/images/ausland/fs.png) 
+Verzeichnisse > weitere Schlüsselverzeichnisse > Sprachreferenzen|(zeugnisrelevant)<br/>Die Sprachreferenzen werden beim Schüler unter `Schüler > Daten 3 > Fremdsprachenfolge` im Feld `Referenz` eingetragen. Sie können dazu auch die Sammelzuweisung unter `Schüler > Bearbeiten > Sammelzuweisung` verwenden. Beispiel: ![Beispiel](../assets/images/ausland/sprachreferenzen.png) 
+Verzeichnisse > weitere Schlüsselverzeichnisse > Kurssprachen|(zeugnisrelevant)<br/>Für vollständig in einer Fremdsprache unterrichtete Fächer lassen Sie den Schlüssel bitte frei, für bilingual unterrichtete Fächer tragen Sie im Schlüssel bitte `bi` ein. Die Kurssprachen können an folgenden Stellen eingegeben werden:<br/>- `Verzeichnisse > Fachtafeln > für Fachwahltafeln (Q1-Q4 Sprache)`<br/>- `Schüler > Zeugnis > Fächer > Sprache` <br/>- `Abitur > Fachwahl > Q1-Q4 Sprache`<br/>- `Abitur > Qualifikation > Q1-Q4 Sprache`<br/>Beispiel: ![Beispiel](../assets/images/ausland/kurssprachen.png) 
+Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](../assets/images/ausland/ua.png) 
 
 ### Schüler synchronisieren
 
@@ -134,29 +134,29 @@ Als Ergebnis sehen Sie die synchronisierten Schüler in der Auswahlliste des Men
 
 Wählen Sie auf der rechte Seite im Feld `Status` den Wert `Gesamtqualifikation berechnen` aus. 
 
-![Status auswählen](/images/ausland/q00.png)
+![Status auswählen](../assets/images/ausland/q00.png)
 
 #### Schaltfläche Initialisieren
 
 Klicken Sie auf die Schaltfläche `Initialisieren`, MAGELLAN markiert die Halbjahresergebnisse, die für die Berechnung in Betracht gezogen werden können.
 
-![Initialisieren](/images/ausland/q01.png) 
+![Initialisieren](../assets/images/ausland/q01.png) 
 
 #### Schaltfläche Vorschlag
 
 Klicken Sie auf die Schaltfläche `Vorschlag`, MAGELLAN schlägt Ihnen eine Markierung vor und gibt Ihnen Meldungen aus. Diese Meldungen können zum Beispiel beinhalten, dass ein bestimmter Aufgabenbereich nicht abgedeckt ist oder nicht ausreichend Kurse davon eingebracht wurden. 
 
-![Vorschlag](/images/ausland/q02.png) 
+![Vorschlag](../assets/images/ausland/q02.png) 
 
 Sie können auch eigene Markierungen vornehmen, aktivieren Sie dazu den Haken vor `manuelles Markieren` und markieren/demarkieren dann die gewünschten Kurse. Klicken Sie anschließend auf die Schaltfläche `Neu Berechnen`, um die Meldungen anhand Ihrer Markierungen gezeigt zu bekommen. 
 
-![manuelles Markieren und `Neu berechnen`](/images/ausland/q03.png) 
+![manuelles Markieren und `Neu berechnen`](../assets/images/ausland/q03.png) 
 
 ### Simulation
 
 Zur Beratung Ihrer Schüler steht Ihnen der Punkt `Simulation` zur Verfügung. Sie können hier die Vorschlags- und Berechnungsautomatik verwenden, um mit dem Schüler das Ergebnis beim Erzielen von verschiedenen Punkten anzusehen.
 
-![Simulationsmodus für die Karten Qualifikation und Prüfung](/images/ausland/q04.png) 
+![Simulationsmodus für die Karten Qualifikation und Prüfung](../assets/images/ausland/q04.png) 
 
 
 ### Karte Prüfung
@@ -167,4 +167,4 @@ Alternativ können die Prüfungsfächer auch unter `Schüler > Zeugnis > Fächer
 
 Auf der Karte `Prüfung` tragen Sie bitte die Prüfungsergebnisse der schriftlichen und mündlichen Prüfungen ein und lösen die Berechnung durch die Schaltfläche `Neu Berechnen` aus.
 
-![Tragen Sie hier die Prüfungsergebnisse ein, lösen Sie die Berechnung über `Neu Berechnen aus`](/images/ausland/q05.png) 
+![Tragen Sie hier die Prüfungsergebnisse ein, lösen Sie die Berechnung über `Neu Berechnen aus`](../assets/images/ausland/q05.png) 

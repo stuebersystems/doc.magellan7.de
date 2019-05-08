@@ -1,6 +1,6 @@
 # Datenaustausch
 
-![Das Fenster `Datenaustausch`](/images/magellan.administrator/datenaustausch.png)
+![Das Fenster `Datenaustausch`](../assets/images/magellan.administrator/datenaustausch.png)
 
 ## Kataloge (Schlüsselverzeichnisse) importieren
 
@@ -17,15 +17,15 @@ Importiere für den folgenden Mandanten |Wählen Sie den Zielmandanten aus
 Importiere folgenden Katalog|Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.
 
 
-[Assistent zum Importieren von Katalogen](/images/magellan.administrator/kataloge.importieren.jpg)
+[Assistent zum Importieren von Katalogen](../assets/images/magellan.administrator/kataloge.importieren.jpg)
 
 ### Eigene Kataloge importieren
 
 Damit Sie eigene oder bearbeitete Katalogdateien (*.keys) importieren können, gibt es ein gesondertes Unterverzeichnis `Benutzer`. Legen Sie eigene Katalogdateien auf dem Serverrechner unter `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Importe\Benutzer`(Pfad gegebenenfalls abweichend) ab und importieren Sie die Dateien über den Assistenten mit dem Eintrag `Benutzer`für `Importiere für folgendes Land/Region`. Das Unterverzeichnis `Benutzer`wird bei Updates nicht verändert.
  
-[Kataloge aus dem Verzeichnis `Benutzer`importieren](/images/magellan.administrator/kataloge.importieren1.jpg)
+[Kataloge aus dem Verzeichnis `Benutzer`importieren](../assets/images/magellan.administrator/kataloge.importieren1.jpg)
 
-![Wählen Sie Bundesland, Art der Schlüssel und den Mandanten](/images/Import_Export.Schluesselimport.png)
+![Wählen Sie Bundesland, Art der Schlüssel und den Mandanten](../assets/images/Import_Export.Schluesselimport.png)
 
 
 
@@ -117,19 +117,19 @@ Feld|Anmerkung
 Importiere für folgendes Land|Aktuell bieten wir Kataloge für folgende Regionen an: <br/> * Deutschland<br/>* Schweiz<br/>* Rheinland-Pfalz <br/>* Berlin
 Importiere folgenden Katalog|alle Kataloge
 
-![Das Fenster `Importiere Postleitzahlen`](/images/magellan.administrator/importiere.plz.png)
+![Das Fenster `Importiere Postleitzahlen`](../assets/images/magellan.administrator/importiere.plz.png)
 
 ## Daten über das MAGELLAN-Importformat importieren
 
 Das MAGELLAN-Importformatist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in dei MAGELLAN-Datenbank. Den Aufbau der einzelnen Dateien und die Einlesereihenfolge um Daten aufeinander aufbauend in die Datenbank zu importieren, beschreiben wir in der Dokumentation des [MAGELLAN-Importformates](https://doc.magellan-import.stueber.de/).
 
-![Verweisen Sie auf die zu importierende CSV-Datei](/images/magellan.administrator/importformatdialog.png)
+![Verweisen Sie auf die zu importierende CSV-Datei](../assets/images/magellan.administrator/importformatdialog.png)
 
-![Geben Sie die Importdatei an, wenn der Dateiname nach der Vorgabe gewählt wurde, wird die Datei schon vormarkiert](/images/magellan.administrator/importformatdialog01.png)
+![Geben Sie die Importdatei an, wenn der Dateiname nach der Vorgabe gewählt wurde, wird die Datei schon vormarkiert](../assets/images/magellan.administrator/importformatdialog01.png)
 
-![Lassen Sie die Datei prüfen oder importieren direkt](/images/magellan.administrator/importformatdialog02.png)
+![Lassen Sie die Datei prüfen oder importieren direkt](../assets/images/magellan.administrator/importformatdialog02.png)
 
-![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](/images/magellan.administrator/importformatdialog03.png)
+![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](../assets/images/magellan.administrator/importformatdialog03.png)
 
 
 

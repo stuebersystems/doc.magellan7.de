@@ -24,7 +24,7 @@ zugewiesen sein, um Schüler dieser Klasse in die Ansicht „Abitur“ zu synchr
 ###	Abiturjahrgang definieren
 Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik „Abitur“ den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs herausfiltern zu können.
  
-![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](/images/berlin/fachwahl/fachwahl1.png)
+![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](../assets/images/berlin/fachwahl/fachwahl1.png)
 
 > #### warning::Wichtig!
 >
@@ -45,7 +45,7 @@ Gültig bis	|ohne Bedeutung für die Berechnungen
 Skript	|Verweisen Sie hier bitte auf die Skriptdatei. Das Skript enthält auch die Berechnung der Fachhochschulreife. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE in Ihrem Bundeslandunterordner.
 
  
-![Verzeichnis der Verordnungen](/images/berlin/fachwahl/fachwahl2.png)
+![Verzeichnis der Verordnungen](../assets/images/berlin/fachwahl/fachwahl2.png)
 
 Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis „Verordnungen“ die jeweilige Fachwahlverordnung und/oder Abiturprüfungsordnung definieren. Klicken Sie dazu auf `Verzeichnisse > Verordnungen` und geben Sie dort die Verordnung wie folgt an:
 
@@ -68,28 +68,28 @@ Beim Synchronisieren extrahiert MAGELLAN für die markierten Schüler die Fachda
 > Für das Erfassen der Fachwahlen der Schüler, müssen vor dem Synchronisieren keine Fächer auf der Registerkarte Ansicht `Schüler > Zeugnis > Fächer` eingetragen werden. Sind dort aber bereits Fächer erfasst gewesen, können Sie die Fächer beim Synchronisieren auch zusätzlich mit in die Fachwahlen übertragen lassen. Wählen Sie dafür vor der Synchronisation die Option `Extras  >  Optionen > Einstellungen > Abgleich Qualifikationen/Fachwahl im Abitur`.
 Indem Sie in MAGELLAN auf die Ansicht „Abitur“ und dann auf die Schaltfläche `Schüler synchronisieren...` auf der oberen Symbolleiste klicken, öffnen Sie das Dialogfenster Daten für Abitur synchronisieren.
  
-![Schaltfläche „Schüler synchronisieren“ in der oberen Symbolleiste der Ansicht „Abitur“](/images/berlin/fachwahl/fachwahl3.png)
+![Schaltfläche „Schüler synchronisieren“ in der oberen Symbolleiste der Ansicht „Abitur“](../assets/images/berlin/fachwahl/fachwahl3.png)
 
 Im Dialogfenster Daten für Abitur synchronisieren müssen Sie nun wie folgt vorgehen:
 1.	Markieren Sie alle die Schüler, die Sie in die Ansicht „Abitur“ synchronisieren wollen. Klicken Sie dann auf `Weiter`.
  
-![ Auswahl der Schüler im Dialogfenster zum Synchronisieren der Daten in die Ansicht „Abitur“](/images/berlin/fachwahl/fachwahl4.png)
+![ Auswahl der Schüler im Dialogfenster zum Synchronisieren der Daten in die Ansicht „Abitur“](../assets/images/berlin/fachwahl/fachwahl4.png)
 
 2.	Wählen Sie bei den weiteren Angaben die zugehörige Abturjahrgang und die entsprechende Prüfungsverordnung für das Abitur aus, die für die zuvor markierten Schüler gelten soll. Klicken Sie dann auf `Weiter`.
  
-![Weitere Angaben im Dialogfenster zum Synchronisieren der Daten in die Ansicht „Abitur“](/images/berlin/fachwahl/fachwahl5.png)
+![Weitere Angaben im Dialogfenster zum Synchronisieren der Daten in die Ansicht „Abitur“](../assets/images/berlin/fachwahl/fachwahl5.png)
 
 3.	Klicken Sie abschließend auf `Fertigstellen`.
 
 Die Schüler werden jetzt in die Ansicht „Abitur“ synchronisiert.
 In der Ansicht „Abitur“ finden Sie alle bereits synchronisierten Schüler in der Auswahlliste. Wenn Sie dort einen Schüler markieren und auf die Registerkarte Fachwahl gehen, sehen Sie dort dessen die Fachwahlinformationen.
  
- ![Die Fachwahlinformationen für den Schüler „Thomas Müller“ auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“](/images/berlin/fachwahl/fachwahl6.png)
+ ![Die Fachwahlinformationen für den Schüler „Thomas Müller“ auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“](../assets/images/berlin/fachwahl/fachwahl6.png)
 
 ##	Fachwahl Layout einstellen
 In der Ansicht „Abitur“ können Sie auf der Registerkarte Fachwahl das Layout der dargestellten Spalten verändern, indem Sie auf die Schaltfläche Layout anpassen klicken. 
  
-![ Hier kann das Layout der Spalten auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ eingestellt werden](/images/berlin/fachwahl/fachwahl7.png)
+![ Hier kann das Layout der Spalten auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ eingestellt werden](../assets/images/berlin/fachwahl/fachwahl7.png)
 
 Im Dialogfenster Layout anpassen können Sie für jede Spalte bestimmen, ob diese sichtbar ist oder nicht. Spaltenüberschriften können Sie ändern, wenn Sie auf den jeweiligen Text unter „Spaltenüberschrift“ klicken.
 Wenn die Einführungsphase keinen Einfluss auf die Fachwahlprüfung hat, sollte man z.B. die Spalten „E1“ und „E2“ ausblenden.
@@ -128,7 +128,7 @@ Eintrag|Hinweis
 **Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul MAGELLAN Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. 
 
 
-![Beispiel für den Inhalt einer Fachwahltafel](/images/gym_oberstufe/fachwahltafel.png)
+![Beispiel für den Inhalt einer Fachwahltafel](../assets/images/gym_oberstufe/fachwahltafel.png)
 
 
 
@@ -146,27 +146,27 @@ So weisen Sie eine Fachwahltafel Schülern in der Ansicht „Abitur“ zu:
 1.	Wechseln Sie in der Ansicht „Abitur“ auf die Registerkarte Fachwahl.
 2.	Klicken Sie im oberen Bereich auf die Schaltfläche` Fachwahltafel zuweisen`.
   
- ![Hier markieren Sie die Schüler, denen Sie eine Fachwahltafel zuweisen wollen.](/images/berlin/fachwahl/fachwahl9.png)
+ ![Hier markieren Sie die Schüler, denen Sie eine Fachwahltafel zuweisen wollen.](../assets/images/berlin/fachwahl/fachwahl9.png)
  
 3.	Markieren Sie die Schüler, denen Sie eine Fachwahltafel zuweisen wollen und klicken Sie dann auf `Weiter`. 
 4.	Markieren Sie die gewünschte Fachwahltafel und ordnen Sie optional im unteren Bereich den Halbjahren die entsprechende Zeiträume zu. Sollen bei der Zuweisung der Fachwahltafeln die eventuell bereits bestehenden Fachwahlen der markierten Schüler nicht zuvor gelöscht werden, so müssen Sie das Kontrollkästchen `Vorhandene Fachwahlen der Schüler nicht löschen` markieren. Klicken Sie auf `Weiter`.
  
-![ Wählen Sie hier die Fahlwahltafel für die markierten Schüler aus.](/images/berlin/fachwahl/fachwahl10.png)
+![ Wählen Sie hier die Fahlwahltafel für die markierten Schüler aus.](../assets/images/berlin/fachwahl/fachwahl10.png)
 
 5.	Geben Sie optional den zuzuordnenden Abiturjahrgang und die Fachwahlverordnung an und klicken Sie dann auf `Weiter`.
  
- ![Ordnen Sie den markierten Schülern optional einen Abiturjahrgang und eine Fachwahlverordnung zu.](/images/berlin/fachwahl/fachwahl11.png)
+ ![Ordnen Sie den markierten Schülern optional einen Abiturjahrgang und eine Fachwahlverordnung zu.](../assets/images/berlin/fachwahl/fachwahl11.png)
  
 6.	Klicken Sie auf `Fertigstellen`, um die Fachwahltafel den markierten Schülern zuzuordnen.
  
-![Darstellung auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ nach der Zuweisung einer Fachwahltafel für den Schüler „Thomas Müller“](/images/berlin/fachwahl/fachwahl12.png)
+![Darstellung auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ nach der Zuweisung einer Fachwahltafel für den Schüler „Thomas Müller“](../assets/images/berlin/fachwahl/fachwahl12.png)
 
 ## Schüler-Fachwahl manuell eingeben
 
 Die Fächer der Fachwahl können auch ohne die Kopiervorlage der Fachwahltafeln dem Schüler zugeordnet werden. Dazu gehen Sie pro Fach wie folgt vor:
 
 1.	Wechseln Sie in der Ansicht „Abitur“ auf die Registerkarte Fachwahl.
-2.	Klicken Sie im oberen Bereich auf das Symbol ![  ](/images/berlin/fachwahl/fachwahl13.png)für eine neue Zeile.
+2.	Klicken Sie im oberen Bereich auf das Symbol ![  ](../assets/images/berlin/fachwahl/fachwahl13.png)für eine neue Zeile.
 3.	Tragen Sie jetzt das Fach und optional die Unterrichtsart und den Fachstatus ein.
 
 > #### warning::Wichtig!
@@ -188,7 +188,7 @@ Wenn Sie die Fachwahl manuell pro Fach auf diese Weise zuordnen, müssen Sie im 
 > Die Fachwahlüberprüfung richtet sich nach der beim Schüler unter „Fachwahlverordnung“ eingestellten Verordnung. Die Verordnung wird durch das Fachwahlskript geprüft. Der Name des verwendeten Fachwahlskripts wird beim Schüler immer unten links ausgegeben, z.B.  „BER-FW-APO-BBS-2011.js“
 Sobald Sie dem Schüler eine Fachwahlverordnung zugeordnet haben, wird die Schaltfläche `Neu prüfen` zur Überprüfung der Fachwahl aktiv. 
  
- ![Aktive Schaltfläche „Neu prüfen“ auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ nach der Zuweisung der Fachwahlverordnung für den Schüler „Thomas Müller“.](/images/berlin/fachwahl/fachwahl14.png)
+ ![Aktive Schaltfläche „Neu prüfen“ auf der Registerkarte „Fachwahl“ in der Ansicht „Abitur“ nach der Zuweisung der Fachwahlverordnung für den Schüler „Thomas Müller“.](../assets/images/berlin/fachwahl/fachwahl14.png)
  
 Das Prüfen der Fachwahl basiert auf Eintragungen:
 *	der Spalte Fach,
@@ -198,16 +198,16 @@ Das Prüfen der Fachwahl basiert auf Eintragungen:
 
 Auf Basis der eingetragenen Fachwahl können Sie durch Wahl der Schaltfläche `Neu prüfen` diese prüfen. Das Ergebnis der Prüfung wird im oberen Bereich der Registerkarte Fachwahl angezeigt. Ist die Anzeige rot unterlegt, handelt es sich um eine (noch) nicht gültige Fachwahl. 
  
- ![Diese Fachwahl ist noch fehlerhaft](/images/berlin/fachwahl/fachwahl15.png)
+ ![Diese Fachwahl ist noch fehlerhaft](../assets/images/berlin/fachwahl/fachwahl15.png)
  
 Bei einer gültigen Fachwahl ist der obere Hinweistext grün hinterlegt mit dem Hinweis „Fachwahl ist gültig“.
  
- ![Diese Fachwahl ist gültig und weist die gültige Fachwahlkombinationsnummer 1 aus.](/images/berlin/fachwahl/fachwahl16.png)
+ ![Diese Fachwahl ist gültig und weist die gültige Fachwahlkombinationsnummer 1 aus.](../assets/images/berlin/fachwahl/fachwahl16.png)
  
 Mit Wahl der Schaltfläche `Neu prüfen` wird oberhalb dieser Schaltfläche der Status Fachwahl geprüft angezeigt. Verändert man die Fachwahl des Schülers, wechselt der Status automatisch auf `Fachwahl nicht geprüft`.
     
-![Dies ist die Anzeige des Prüfstatus „Fachwahl nicht geprüft“](/images/berlin/fachwahl/fachwahl17.png) 
-![bzw. „Fachwahl geprüft“](/images/berlin/fachwahl/fachwahl18.png)
+![Dies ist die Anzeige des Prüfstatus „Fachwahl nicht geprüft“](../assets/images/berlin/fachwahl/fachwahl17.png) 
+![bzw. „Fachwahl geprüft“](../assets/images/berlin/fachwahl/fachwahl18.png)
 
 
 > #### warning::Wichtig!
@@ -232,7 +232,7 @@ Bei der Übernahme der Fachwahl eines Schülers werden nur die Fächer übernomm
 **Beispiel: **
 In MAGELLAN ist der aktuelle Zeitraum das „1. Halbjahr 2013/2014“. Der Schüler hat die nachfolgende Fachwahl:
   
- ![Ein Beispiel für die Fachwahl eines Schülers](/images/berlin/fachwahl/fachwahl19.png)
+ ![Ein Beispiel für die Fachwahl eines Schülers](../assets/images/berlin/fachwahl/fachwahl19.png)
 
 Die Spalte Q3 entspricht dem Zeitraum „1. Halbjahr 2013/2014“. Übernimmt man nun die Fachwahl im aktuellen Zeitraum, so werden alle Fächer der Fachwahl übernommen bis auf das Fach „IN“, da dieses in der Spalte Q3 nicht markiert ist.
 Auf Basis dieser Zuordnung kann nun die Zuweisung der Fachwahlen zu den Fächern der Schüler wie folgt durchgeführt werden:
@@ -241,13 +241,13 @@ Auf Basis dieser Zuordnung kann nun die Zuweisung der Fachwahlen zu den Fächern
 2.	Klicken Sie im oberen Bereich auf die Schaltfläche Fachwahl übernehmen.
 3.	Markieren Sie die Schüler, deren Fachwahl Sie übernehmen wollen. Standardmäßig werden Fachwahlen für einen Schüler übernommen, wenn der Schüler keine Fächer unter Ansicht `„Schüler“ > Zeugnis > Fächer` im aktuellen Zeitraum besitzt. Soll eine Übernahme der Fachwahlen erfolgen, auch in den Fällen, in welchen der Schüler Fächer unter Ansicht `„Schüler“ > Zeugnis > Fächer` im aktuellen Zeitraum besitzt, so müssen Sie die Option `Vorhandene Fächer in der Ansicht „Schüler > Zeugnis > Fächer“ aktualisieren ` auswählen. Sollen bei der Übernahme die eventuell bereits bestehenden Fächer der markierten Schüler nicht zuvor gelöscht werden, so müssen Sie das `Kontrollkästchen Vorhandene Fächer der Schüler nicht löschen` markieren. Klicken Sie dann auf `Weiter`. 
 
- ![Der Assistent zur Übernahme der Fachwahlen](/images/berlin/fachwahl/fachwahl20.png)
+ ![Der Assistent zur Übernahme der Fachwahlen](../assets/images/berlin/fachwahl/fachwahl20.png)
  
 4.	Klicken Sie auf `Fertigstellen`, um die Fachwahlübernahme zu starten.
 
 Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `„Schüler“ > Zeugnis > Fächer`.
 
- ![Nach der Übernahme der Fachwahlen sind die Fächer in der Ansicht „Schüler“ > Zeugnis > Fächer](/images/berlin/fachwahl/fachwahl21.png)
+ ![Nach der Übernahme der Fachwahlen sind die Fächer in der Ansicht „Schüler“ > Zeugnis > Fächer](../assets/images/berlin/fachwahl/fachwahl21.png)
   
 > #### warning::Wichtig!
 >
@@ -268,7 +268,7 @@ Der gewöhnliche Ablauf bestehend aus den Schritten:
 3. Noteneingabe auf der Schülerzeugniskarte
 4. Synchronisieren der Fächer und Noten in den Abiturbereich)
  
-![Die Einstellung der Option „Automatischer Abgleich Qualifikation/Fachwahl“ im Dialogfenster „Optionen“](/images/berlin/fachwahl/fachwahl22.png)
+![Die Einstellung der Option „Automatischer Abgleich Qualifikation/Fachwahl“ im Dialogfenster „Optionen“](../assets/images/berlin/fachwahl/fachwahl22.png)
 
 Durch die Aktivierung dieser Optionen werden Veränderungen an den Fächern auf den Registerkarten Ansicht „Abitur“ > Qualifikation und Ansicht „Abitur“ > Fachwahl automatisch mit der jeweils anderen Registerkarte abgeglichen.
 

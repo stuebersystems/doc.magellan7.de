@@ -34,7 +34,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 
 
 
-![Eintragung im Verzeichnis Verordnungen für Abiturberechnung und Fachwahl](/images/berlin/ber-apo-2017.00.png)
+![Eintragung im Verzeichnis Verordnungen für Abiturberechnung und Fachwahl](../assets/images/berlin/ber-apo-2017.00.png)
 
 
 

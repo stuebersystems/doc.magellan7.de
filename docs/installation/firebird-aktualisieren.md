@@ -24,27 +24,27 @@ Der Assistent zum Datenstrukturanpassen prüft vor der Erweiterung der Datenstru
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 3. Starten Sie die Installation von Firebird per Doppelklick auf die heruntergeladene Datei. Folgen Sie dann bitte der Installation wie nachstehend abgebildet:
 
-![Stoppen Sie bitte den Firebird-Server!](/images/update/fb.1.png)
+![Stoppen Sie bitte den Firebird-Server!](../assets/images/update/fb.1.png)
 
-![Starten Sie Firebird-Installation per Doppelklick!](/images/update/fb.2.png)
+![Starten Sie Firebird-Installation per Doppelklick!](../assets/images/update/fb.2.png)
 
-![Die bestehende Installation wird erkannt, klicken Sie auf "Nein" um die Installation dennoch ausführen zu können!](/images/update/fb.3.png)
+![Die bestehende Installation wird erkannt, klicken Sie auf "Nein" um die Installation dennoch ausführen zu können!](../assets/images/update/fb.3.png)
 
-![Weiter!](/images/update/fb.4.png)
+![Weiter!](../assets/images/update/fb.4.png)
 
-![Akzeptieren Sie bitte!](/images/update/fb.5.png)
+![Akzeptieren Sie bitte!](../assets/images/update/fb.5.png)
 
-![Hier wird der Speicherort gewählt, Sie können den vorgeschlagenen Pfad übernehmen.](/images/update/fb.6.png)
+![Hier wird der Speicherort gewählt, Sie können den vorgeschlagenen Pfad übernehmen.](../assets/images/update/fb.6.png)
 
-![Die voreingestellten Angaben bitte unverändert übernehmen!](/images/update/fb.7.png)
+![Die voreingestellten Angaben bitte unverändert übernehmen!](../assets/images/update/fb.7.png)
 
-![Weiter!](/images/update/fb.8.png)
+![Weiter!](../assets/images/update/fb.8.png)
 
-![Weiter!](/images/update/fb.9.png)
+![Weiter!](../assets/images/update/fb.9.png)
 
-![Fertigstellen!](/images/update/fb.10.png)
+![Fertigstellen!](../assets/images/update/fb.10.png)
 
-![Starten Sie den Firebird-Server wieder](/images/update/fb.11.png)
+![Starten Sie den Firebird-Server wieder](../assets/images/update/fb.11.png)
 
 
 

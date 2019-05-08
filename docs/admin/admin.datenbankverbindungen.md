@@ -6,13 +6,13 @@ Das Programm MAGELLAN kann mit mehreren Datenbanken verbunden werden. Bei der An
 Bei der Installation von MAGELLAN 7 werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das MAGELLAN-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
 Eine neue Verbindung können Sie oben links über die Schaltfläche `Neuer Datensatz`anlegen!
 
-![Klicken Sie auf `Neuer Datensatz`!](/images/magellan.administrator/neuer.datensatz.png)
+![Klicken Sie auf `Neuer Datensatz`!](../assets/images/magellan.administrator/neuer.datensatz.png)
 
 ## Unterpunkt Verbindung
 
 Auf dieser Karte wird standardmäßig der Aliasname "Magellan" vorgeschlagen, passen Sie die Bezeichnung nach Wunsch an, gibt es nur eine Verbindung, muss keine Anpassung erfolgen. Der Alias wird bei der Anmeldung an MAGELLAN im Feld Datenbank bezeichnet. 
 
-![Wählen Sie den `Aliasnamen`!](/images/magellan.administrator/neue.verbindung.png)
+![Wählen Sie den `Aliasnamen`!](../assets/images/magellan.administrator/neue.verbindung.png)
 
 ## Unterpunkt Datenbank
 
@@ -27,11 +27,11 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 **Beispiel für die Eintragungen für einen Clientrechner:**
 
-![Beispiel für eine Anbindung an eine entfernte Datenbank](/images/magellan.administrator/unterkarte.datenbank.server.png)
+![Beispiel für eine Anbindung an eine entfernte Datenbank](../assets/images/magellan.administrator/unterkarte.datenbank.server.png)
 
 **Beispiel für die Eintragungen für einen Server- oder Einzelplatzrechner:**
 
-![Beispiel für eine Anbindung an eine lokale Datenbank](/images/magellan.administrator/unterkarte.datenbank.lokal.png)
+![Beispiel für eine Anbindung an eine lokale Datenbank](../assets/images/magellan.administrator/unterkarte.datenbank.lokal.png)
 
 
 
@@ -39,7 +39,7 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup`oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt [Datensicherung]().
 
-![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/images/magellan.administrator/navi.datenbankverbindungen.png)
+![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](../assets/images/magellan.administrator/navi.datenbankverbindungen.png)
 
 Feld|Anmerkung
 --|--
@@ -48,7 +48,7 @@ Namenskonventionen| Wählen Sie die Benennung für die Sicherung oder wiederherg
 Sicherung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 
-![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](/images/magellan.administrator/unterkarte.datensicherung.png)
+![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](../assets/images/magellan.administrator/unterkarte.datensicherung.png)
 
 > #### warning::Wichtig!
 >
@@ -62,15 +62,15 @@ Feld|Anmerkung
 Gemeinsamer Dateipfad|Tragen Sie hier den Pfad zum Verzeichnis über den Datenordnern Dokumente, Berichte, Skripte, Vorlagen und Importe ein. Möglich ist für Clientinstalltionen ein Netzwerkpfad oder einen Verweis auf ein Netzlaufwerk. Für Server- oder Einzelplatzinstallationen tragen Sie bitte den lokalen Pfad ein. Der Standardpfad für eine Server-/Einzelplatzinstallation wäre:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7`<br/><br/> Wenn hier einen Pfad eintragen und dieser Pfad für alle Verzeichnisse gilt, können Sie die blaue Pfeiltaste am Ende der Zeile verwenden, um den Eintrag in die weiteren Zeilen zu übernehmen.
 Dokumente<br/>Skripte<br/>Berichte<br/>Vorlagen<br/>Importe|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen, die Bezeichnung des Verzeichnisses wird automatisch ergänzt.
 
-![Gemeinsamen Dateipfad übernehmen](/images/magellan.administrator/Datenordner.png)
+![Gemeinsamen Dateipfad übernehmen](../assets/images/magellan.administrator/Datenordner.png)
 
-![Ergebnis](/images/magellan.administrator/Datenordner.gefuellt.png)
+![Ergebnis](../assets/images/magellan.administrator/Datenordner.gefuellt.png)
 
 ## Verbindung testen
 
 Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Sie den Assistenten `Verbindung testen`über die Schaltfläche unter dem Punkt `Datenbankverbindungen`auf. Sollte die Ergebnisanzeige Probleme anzeigen, schauen Sie bitte den Abschnitt [Probleme bei der Installation?](https://doc.magellan7.stueber.de/installation/probleme-bei-der-installation.html)an.
 
-![Assistent zum Testen der Verbindung](/images/magellan.administrator/verbindung.testen.png)
+![Assistent zum Testen der Verbindung](../assets/images/magellan.administrator/verbindung.testen.png)
 
 > #### warning::Wichtig!
 >
@@ -86,7 +86,7 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 > Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktionen zum Sichern oder Wiederherstellen (Sie müssen den Dateinamen der Sicherung und den Speicherort kennen) selbst von einem Clientrechner starten, die Sicherung/Wiederherstellung kann aber nur auf Ihrem Serverrechner abgelegt werden.
 
 
-![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/images/magellan.administrator/datensicherung.png)
+![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](../assets/images/magellan.administrator/datensicherung.png)
 
 > #### danger::Achtung!
 >
@@ -100,7 +100,7 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 
 Der nachstehend beschriebene Assistent kann eine Sicherung Ihrer Datenbank erstellen.
 
-![Sicherung einer Datenbank](/images/magellan.administrator/backup.png)
+![Sicherung einer Datenbank](../assets/images/magellan.administrator/backup.png)
 
 
 Wir beschreiben in der nachstehenden Tabelle die Eingabeoptionen:
@@ -121,7 +121,7 @@ Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte 
 
 Der nachstehend beschriebene Assistent kann aus einer Sicherung Ihrer Datenbank eine neue Datenbankdatei aufbauen.
 
-![Sicherung einer Datenbank](/images/magellan.administrator/restore.png)
+![Sicherung einer Datenbank](../assets/images/magellan.administrator/restore.png)
 
 
 Wir beschreiben in der nachstehenden Tabelle die Eingabeoptionen:

@@ -35,7 +35,7 @@ Unter Windows 95/98/ME gehen Sie dazu wie folgt vor:
 3. Klicken Sie auf ODBC Datenquellen 32-Bit.
 Abbildung 256: Dialogfenster „ODBC-Datenquellen-Administrator“
 
-![ODBC-Datenquellen-Administrator](../images/Import_Export.ODBC2.png)
+![ODBC-Datenquellen-Administrator](../assets/images/Import_Export.ODBC2.png)
 
 
 <figure class="center">
@@ -69,7 +69,7 @@ Password|Hier können Sie ein zum Benutzer passendes Kennwort aus der Benutzerve
 Character Set|Hier müssen Sie den Zeichensatz WIN1251 einstellen.
 
 
-![Das Dialogfenster „FirebirdODBC Setup“](../images/Import_Export.ODBC.png) 
+![Das Dialogfenster „FirebirdODBC Setup“](../assets/images/Import_Export.ODBC.png) 
 
 ## 2. Schritt: Neue Access-Datenbank anlegen
 

@@ -43,17 +43,17 @@ Um Daten von MAGELLAN nach DAVINCI zu übertragen, gehen Sie bitte folgendermaß
 3.	Bestätigen Sie Ihre Auswahl mit `Weiter`.
 4.	Geben Sie im erscheinenden Dialogfenster „MAGELLAN-Anmeldung“ Benutzername und Kennwort des Administratorkontos ein und bestätigen Sie Ihre Zugangsdaten mit OK: der Assistent „MAGELLAN-Datenaustausch“ wird geöffnet.
 
-![ Hier sehen Sie die erste Seite des Assistenten "MAGELLAN-Datenaustausch".](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.01.png)
+![ Hier sehen Sie die erste Seite des Assistenten "MAGELLAN-Datenaustausch".](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.01.png)
 
 5.	Bestätigen Sie auf der ersten Seite des Assistenten die Option „Daten aus MAGELLAN in eine SDTF-Datei schreiben“ mit `Weiter`. 
 6.	Wählen Sie auf der folgenden Assistentenseite in den Feldern „Übertrage Daten aus folgendem Mandanten“ und „Übertrage Daten aus folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
 
-![ Hier legen Sie den Mandanten und den Zeitraum für den Datenübertrag fest.](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.02.png)
+![ Hier legen Sie den Mandanten und den Zeitraum für den Datenübertrag fest.](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.02.png)
 
 7.	Bestätigen Sie Ihre Auswahl mit `Weiter`.
 8.	Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereich nach DAVINCI.
 
-![ Hier wählen Sie die Daten aus, die aus MAGELLAN übernommen werden.](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.03.png)
+![ Hier wählen Sie die Daten aus, die aus MAGELLAN übernommen werden.](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.03.png)
 
 9.	Bestätigen Sie Ihre Auswahl mit `Weiter`. 
 10.	Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
@@ -65,7 +65,7 @@ Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI
 
 Sie können folgende Daten übernehmen:
 
-![ Übernahmeoptionen](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.06.png)
+![ Übernahmeoptionen](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.06.png)
 
 
 ### Abteilungen aus MAGELLAN
@@ -142,13 +142,13 @@ Um Daten von DAVINCI nach MAGELLAN zu übertragen, gehen Sie bitte folgendermaß
 7.	Wählen Sie in den Feldern „Übertrage Daten in folgenden Mandanten“ und „Übertrage Daten in folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
 
 
-![ Hier wählen Sie den Mandanten und den Zeitraum aus, in den die Daten übertragen werden.](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.04.png)
+![ Hier wählen Sie den Mandanten und den Zeitraum aus, in den die Daten übertragen werden.](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.04.png)
 
 
 8.	Bestätigen Sie Ihre Auswahl mit `Weiter`.
 9.	Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereiche nach MAGELLAN.
 
-![ Hier wählen Sie die Daten aus, die nach MAGELLAN übertragen werden.](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.05.png)
+![ Hier wählen Sie die Daten aus, die nach MAGELLAN übertragen werden.](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.05.png)
 
 10.	Bestätigen Sie Ihre Auswahl mit `Weiter`. 
 11.	Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
@@ -162,7 +162,7 @@ Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI
 
 Sie können folgende Daten übernehmen:
 
-![ Übernahmeoptionen](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.07.png)
+![ Übernahmeoptionen](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.07.png)
 
 
 
@@ -239,7 +239,7 @@ Felder|Hinweis
 **Kürzel**<br/>**Bezeichnung**<br/>Fächer der Stundentafel: <br/>**Fachkürzel**<br/>**Unterrichtsart.Kürzel**|Der Austausch erfolgt über das Kürzel. <br/>Ist das Kürzel bereits vorhanden, wird aktualisiert.<br/> Ist das Kürzel nicht vorhanden wird die Stundentafel hinzugefügt. <br/>Die Fächer werden mit Kürzel und Unterrichtart hinzugefügt.<br/>Stundentafeln in DAVINCI werden als Fachtafeln nach MAGELLAN übertragen. <br/>Dabei gelten folgende Voraussetzungen:<br/>•	Fächer in DAVINCI und MAGELLAN müssen identische ID’s und Kürzel haben.<br/>•	Unterrichtsarten in DAVINCI müssen die gleichen Kürzel besitzen wie in MAGELLAN.
 
 
-![ Übernahmeoptionen](/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.07.png)
+![ Übernahmeoptionen](../assets/images/datenaustausch_mit_magellan/Datenaustausch mit Magellan.07.png)
 
 
 ### Schülerkurswahlen aus DAVINCI

@@ -18,14 +18,14 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben 
 
 Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
 
-1. Klicken Sie in der Menüleiste auf das Schaltbild ![ ](/images/seriendruck/seriendruck1.png) oder wählen Sie `Bearbeiten > Seriendruck nach Word` (STRG+W). Der „Serienbriefassistent“ öffnet sich.
+1. Klicken Sie in der Menüleiste auf das Schaltbild ![ ](../assets/images/seriendruck/seriendruck1.png) oder wählen Sie `Bearbeiten > Seriendruck nach Word` (STRG+W). Der „Serienbriefassistent“ öffnet sich.
 
 2. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument ab unter: 
 
 
 
 
-![ Bitte schauen Sie die nachstehende Tabelle zur Bedeutung der Auswahl an!](/images/seriendruck/seriendruck2.png)
+![ Bitte schauen Sie die nachstehende Tabelle zur Bedeutung der Auswahl an!](../assets/images/seriendruck/seriendruck2.png)
 
 
 
@@ -42,7 +42,7 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
 
 3. Hier wählen Sie aus, ob der Brief an die Schüler selbst, an die Sorgeberechtigten oder an die Betriebe adressiert werden soll. Klicken Sie auf `Weiter`.
  
-![Seriendruck-Assistent „Vorlage auswählen“](/images/seriendruck/seriendruck3.png)
+![Seriendruck-Assistent „Vorlage auswählen“](../assets/images/seriendruck/seriendruck3.png)
 
 
 4. Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. 
@@ -55,7 +55,7 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
 
 Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster `Vorlagen organisieren`.
  
-![Fenster „Vorlagen organisieren“](/images/seriendruck/seriendruck4.png)
+![Fenster „Vorlagen organisieren“](../assets/images/seriendruck/seriendruck4.png)
 
 
 Das Fenster `„Vorlagen organisieren“` besteht aus einer Schnellstartleiste auf der linken Seite. Diese bestehen aus Ordnern, die den jeweiligen Kategorien hinterlegt sind. Klicken Sie auf den Ordner Schüler und alle Vorlagen, die Sie für Schüler erstellt und in dem Ordner „Schüler“ abgespeichert haben, erscheinen hier.
@@ -79,15 +79,15 @@ Beim nächsten Aufruf des Seriendrucks finden Sie unter den Beispielvorlagen im 
 Wählen Sie in der Auswahlliste die Schüler, starten den Seriendruck (STRG+W oder über das Wordsymbol in der Menüleiste) und wählen als Adressaten "An den aktuellen Betrieb der markierten Schüler" aus.
 
 
-![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/images/seriendruck/seriendruck.betrieb01.png)
+![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](../assets/images/seriendruck/seriendruck.betrieb01.png)
 
 Da in MAGELLAN einem Schüler mehrere Ausbildungen zugewiesen können, um zum Beispiel eine Wechsel des Ausbildungsbetriebes oder des Ausbildungsberufes darzustellen, muss gekennzeichnet werden, welche Ausbildung die aktuelle Ausbildung des Schüler ist. Diese Eingabe nehmen Sie bitte unter `Schüler > Ausbildung` am unteren Fensterrand vor.
 
-![Wählen Sie bitte die aktuelle Ausbildung aus!](/images/seriendruck/seriendruck.betrieb00.png)
+![Wählen Sie bitte die aktuelle Ausbildung aus!](../assets/images/seriendruck/seriendruck.betrieb00.png)
 
 Nach Word werden pro Schüler Daten über den aktuellen Betrieb, die Ausbildung und den Ausbilder übergeben.
 
-![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/images/seriendruck/seriendruck.betrieb03.png)
+![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](../assets/images/seriendruck/seriendruck.betrieb03.png)
 
 ### Den Ausbilder per Mail anschreiben?
 
@@ -95,11 +95,11 @@ Nach Word werden pro Schüler Daten über den aktuellen Betrieb, die Ausbildung 
  
  Wählen Sie bitte unter "Fertigstellen und zusammenführen" den Unterpunkt "Email-Nachrichten senden..." aus.
  
-![Unter "Fertigstellen und zusammenführen" den Unterpunkt "Email-Nachrichten senden..." wählen.](/images/seriendruck/seriendruck.betrieb04.png)
+![Unter "Fertigstellen und zusammenführen" den Unterpunkt "Email-Nachrichten senden..." wählen.](../assets/images/seriendruck/seriendruck.betrieb04.png)
 
 Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, diese Liste enthält die Mailadressen der den Schüler zugewiesenen Ausbildern der aktuellen Ausbildung.
 
-![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/images/seriendruck/seriendruck.betrieb05.png)
+![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](../assets/images/seriendruck/seriendruck.betrieb05.png)
 
 
 
@@ -116,7 +116,7 @@ Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, dies
 >
 > Im Seriendruck wird pro Sorgeberechtigte ein Dokument erzeugt, der unter `Schüler > Sorgeberechtigter > Benachrichtigung` mit dem Wert „immer“ markiert wurde.
 
-![Die Benachrichtigung "immer" erzeugt einen Serienbriefdatensatz](/images/seriendruck/seriendruck5.png)
+![Die Benachrichtigung "immer" erzeugt einen Serienbriefdatensatz](../assets/images/seriendruck/seriendruck5.png)
 
 
 
@@ -129,7 +129,7 @@ Unter `Schüler > Sorgeberechtigter` werden beim Zuweisen des Sorgeberechtigten 
 
 * **Die Briefanrede** wird aus „Sehr geehrte“ oder „Sehr geehrter“, der Anrede und dem Nachnamen gebildet. Um Eltern mit unterschiedlichen Nachnamen korrekt im Seriendruck ansprechen zu können, ändern Sie bitte die vorbesetzten Felder entsprechend der nachfolgenden Abbildung ab, lassen aber bitte dennoch nur bei einem der Sorgeberechtigten die Benachrichtigung auf „immer“ stehen.
  
-![Über die Felder Briefanrede und Briefempfänger können die Sorgeberechtigten im Seriendruck korrekt angesprochen werden](/images/seriendruck/seriendruck6.png)
+![Über die Felder Briefanrede und Briefempfänger können die Sorgeberechtigten im Seriendruck korrekt angesprochen werden](../assets/images/seriendruck/seriendruck6.png)
 
 
 > #### primary::Hinweis
@@ -147,18 +147,18 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 
 1. Klicken Sie im Menü `Extras `auf `Umschläge und Etiketten`.
  
-![Das Menü „Extras“](/images/seriendruck/seriendruck7.png)
+![Das Menü „Extras“](../assets/images/seriendruck/seriendruck7.png)
 
 2. Klicken Sie auf in der Registerkarte Etiketten auf Optionen.
  
-![Dialog „Etitektten einrichten“](/images/seriendruck/seriendruck8.png)
+![Dialog „Etitektten einrichten“](../assets/images/seriendruck/seriendruck8.png)
 
 
 3. Wählen Sie im Feld Bestellnummer einen Etikettentyp aus, dessen Größe weitgehend mit den von Ihnen verwendeten Etiketten übereinstimmt. Wenn Sie den gewünschten Etikettentyp im Feld Bestellnummer nicht sehen, können Sie eventuell eine andere der aufgeführten Etiketten verwenden, oder Sie können eigene Etiketten erstellen.
 
 4. Klicken Sie auf Details und vergleichen Sie dann die Etikettengröße und die Anzahl der Etiketten pro Blatt (bei Etiketten für Laser- und Tintenstrahldrucker) oder die Anzahl der Spalten des Etikettenformulars (bei Etiketten für Nadeldrucker).
  
-![Dialog zum Einrichten des Etiketts](/images/seriendruck/seriendruck9.png)
+![Dialog zum Einrichten des Etiketts](../assets/images/seriendruck/seriendruck9.png)
 
 5. Führen Sie eine der folgenden Aktionen aus: Verwenden Sie das ausgewählte Etikett, wenn es eine ähnliche Größe und ein vergleichbares Layout wie die von Ihnen verwendeten Etiketten aufweist. Wenn Größe und Layout zu stark abweichen, klicken Sie auf Abbrechen, und fahren Sie mit Schritt 7 fort. Fahren Sie andernfalls bitte mit Schritt 9 fort.
 
@@ -173,7 +173,7 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 >  Messen Sie die Etiketten sorgfältig ab. Die tatsächliche Größe weicht möglicherweise geringfügig von der vom Etikettenhersteller angegebenen Größe ab. Es kann z.B. vorkommen, dass ein 4 x 8 cm großes Etikett in Wirklichkeit nur 3,9 cm hoch und 7,8 cm breit ist.
 Wenn Sie dann in MAGELLAN im Menü Schüler mehrere Schüler markieren und über Bearbeiten|Seriendruck nach Word den Seriendruckassistenten aufrufen, dann können Sie die Daten mit dieser Word-Vorlage verknüpfen. Im Folgenden ein Beispiel, wie diese Vorlage aussehen könnte:
  
-![Seriendruckvorlage](/images/seriendruck/seriendruck10.png)
+![Seriendruckvorlage](../assets/images/seriendruck/seriendruck10.png)
 
 
 
@@ -182,7 +182,7 @@ Wenn Sie dann in MAGELLAN im Menü Schüler mehrere Schüler markieren und über
 > Beachten Sie bitte, dass ab dem 2. Etikett zunächst das Bedingungsfeld <<Nächster Daten-satz>> eingefügt werden muss, bevor Sie die Seriendruckfelder auswählen. Wenn Sie dies nicht tun, erhalten Sie auf jedem Etikett der Seite nur die Angaben eines Schülers und nicht für jeden Schüler ein Etikett.
 Wenn Sie sich die Seriendruck-Vorschau anzeigen lassen, erfolgt die Druckvorschau für die Etiketten gefüllt mit den markierten Schülerdaten:
  
-![Gefüllte Seriendruckvorlage](/images/seriendruck/seriendruck11.png)
+![Gefüllte Seriendruckvorlage](../assets/images/seriendruck/seriendruck11.png)
 
 
 > #### primary::Hinweis
@@ -195,7 +195,7 @@ Sie können die Etiketten entweder sogleich über die Funktion Seriendruck an Dr
 
 Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schü-ler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber. 
  
-![Serienmailassistent](/images/seriendruck/seriendruck12.png)
+![Serienmailassistent](../assets/images/seriendruck/seriendruck12.png)
 
 
 Im unteren Auswahlfeld desselben Fensters können Sie wählen, ob die Nachricht direkt an den Empfän-ger gesandt werden soll An, CC oder BCC.

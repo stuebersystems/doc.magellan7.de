@@ -158,7 +158,7 @@ BER-BS-AZ	|beliebig  |beliebig
 
 ##	Endnotenberechnung vorbereiten
 
- ![Berufsschulmatrix](/images/berlin/bs/bs1.png) 
+ ![Berufsschulmatrix](../assets/images/berlin/bs/bs1.png) 
  
 Für die Endnotenberechnung müssen Sie folgende Daten definieren und je Schüler eingeben:
 
@@ -171,7 +171,7 @@ In den nachfolgenden Abschnitten erfahren Sie mehr zu den einzelnen Punkten.
 
 ###	Abschlussjahrgang definieren
 
-![Abschlussjahrgang definieren](/images/berlin/bs/bs2.png) 
+![Abschlussjahrgang definieren](../assets/images/berlin/bs/bs2.png) 
    
 Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. Damit können Sie jedem Schüler in der Rubrik „Berufsschule“ den entsprechenden Abschlussjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussnotenberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abschlussgangs z.B. für Ausdrucke herausfiltern zu können und die Art der zu synchronisierenden Noten festzulegen.
  
@@ -188,7 +188,7 @@ Bei der Definition eines Abschlussjahrgangs für das Skript „BER-BBS-Matrix-20
 
 ###	Berechnungsverordnung definieren
 
-![Berechnungsverordnung definieren](/images/berlin/bs/bs3.png)
+![Berechnungsverordnung definieren](../assets/images/berlin/bs/bs3.png)
 
    
 Sie müssen für jeden Schüler die Berechnungsverordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis „Verordnungen“ die jeweilige Berechnungsverordnung definieren. Klicken Sie dazu auf `„Verzeichnisse > Verordnungen“ `und geben dort die Verordnung wie folgt an:
@@ -209,7 +209,7 @@ Bei der Definition der Verordnung für das Skript „BER-BBS-Matrix-2007“ müs
 
 ## Berufsschuldaten synchronisieren
  
-![Berufsschuldaten synchronisieren](/images/berlin/bs/bs4.png)
+![Berufsschuldaten synchronisieren](../assets/images/berlin/bs/bs4.png)
 
 
 Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf `„Berufsschule“` klicken und dann auf die Schaltfläche `„Synchronisieren“` oben im MAGELLAN-Fenster klicken. 
@@ -258,7 +258,7 @@ Auf der Karte Matrix haben Sie die Möglichkeit Fachdaten eines Schülers auch a
 3.	Markieren Sie die  Schüler, denen die kopierten Angaben zugewiesen werden sollen.
 4.	Wählen Sie auf der folgenden Karte aus welche Daten übernommen werden sollen und ob bereits vorhandene Daten überschrieben werden sollen.
  
- ![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten](/images/berlin/bs/bs5.png)
+ ![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten](../assets/images/berlin/bs/bs5.png)
 
  
 ## Die Spalte „Position“
@@ -290,7 +290,7 @@ Klicken Sie auf die Schaltfläche `Neu berechnen`, um die Endnoten automatisch d
 
 Im automatisch erzeugten Meldungsfenster werden zusätzliche Statusinformationen zur Berechnung angezeigt. Insbesondere wird hier eine Aussage über die erfolgreiche Durchführung der Berechnung und eventuell notwendige Zwischensummen angezeigt. Die nachfolgende Abbildung zeigt ein Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz.
 
-![ Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz](/images/berlin/bs/bs6.png)
+![ Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz](../assets/images/berlin/bs/bs6.png)
    
 ## Skript BER-BBS-Matrix-2007
 

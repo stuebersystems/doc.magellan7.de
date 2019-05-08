@@ -95,7 +95,7 @@ Für die Menüpunkte Schüler, Bewerber, Klassen, Lehrer, Schulen und Mandanten 
 Die hinterlegten Schlüsselverzeichnisse können unter `Verzeichnisse > Merkmale` editiert werden. Sie wählen den Karteireiter aus, z.b. Schüler legen über das rote Plus eine neue Zeile an und wählen in der Spalte Bereich aus, für welches Merkmalsfeld dieser Wert zur Auswahl angeboten werden soll.
  
  
-![Ein neues Merkmal einrichten](../images/merkmalsfelder/merkmalsfeld1.png)
+![Ein neues Merkmal einrichten](../assets/images/merkmalsfelder/merkmalsfeld1.png)
 
 Beispiel: Für den Schüler/Bewerber wird ein neues Merkmal angelegt, dieses Merkmal wird für MerkmalA1 angezeigt werden.
 
@@ -106,14 +106,14 @@ Die neue und die ehemalige Bezeichnung werden in der Datenbank gespeichert, Sie 
 
 Öffnen Sie in MAGELLAN den Punkt `Extras > Bezeichnungen anpassen`. Bitte achten Sie darauf, die Änderung für die korrekte Ansicht durchzuführen, in diesem Fenster werden alle Merkmalsfelder für alle Ansichten angeboten.
 
-![Eine Bezeichnung anpassen](../images/merkmalsfelder/merkmalsfeld2.png)
+![Eine Bezeichnung anpassen](../assets/images/merkmalsfelder/merkmalsfeld2.png)
 
 
 Beispiel: Für die Schüler-/Bewerberansicht wird die Bezeichnung „MerkmalA1“ durch „Instrument“ ersetzt.
 
 Diese Änderung wird über das Häkchen in der oberen Menüleiste des Fensters Bezeichnungen anpassen gespeichert. Sie können anschließend, je nach Ansicht, die veränderte Bezeichnung an verschiedenen Stellen im Programm ansehen. Zum Beispiel ein verändertes Schülermerkmal ist in der Auswahlliste, auf der Karte `Merkmale `und in der Sammelzuweisung unter `Bearbeiten > Sammelzuweisung` zu sehen.
  
-![Umbenennung wird für alle Benutzer der Datenbank gezeigt](../images/merkmalsfelder/merkmalsfeld3.png)
+![Umbenennung wird für alle Benutzer der Datenbank gezeigt](../assets/images/merkmalsfelder/merkmalsfeld3.png)
 
 Beispiel: Für die Schüler-/Bewerberansicht wird die Bezeichnung „MerkmalA1“ durch „Instrument“ ersetzt.
 

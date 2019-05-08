@@ -31,7 +31,7 @@ Alle Schritte werden in MAGELLAN ausgeführt. Die Aufgaben 1 und 2 sind schon al
 
 ### Berechnungsverordnung definieren
  
-![Geben Sie hier die Berechnungsverordnung mit der Kategorie „Versetzung“ ein.](/images/durchschnitt/durchschnitt1.png)
+![Geben Sie hier die Berechnungsverordnung mit der Kategorie „Versetzung“ ein.](../assets/images/durchschnitt/durchschnitt1.png)
 
 Sie müssen für jeden Schüler die Berechnungsverordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis `Verordnungen` die jeweilige Berechnungsverordnung definieren. Klicken Sie dazu auf `Extras > Schlüsselverzeichnisse > Verordnungen` und geben Sie dort die Verordnung wie folgt an:
 
@@ -48,7 +48,7 @@ Skript      | Geben Sie hier den Namen des Skripts für diese Berechungsverordnu
 
 Beinhaltet Ihre Verordnung die Berechnung/Verwendung von Zwischendurchschnittsnoten, so sind diese möglichen Noten eventuell als zusätzliche Noten in Ihr Verzeichnis der Noten aufzunehmen.
  
-![Die Noten „2,8“ oder „3,7“ in der Spalte "Schriftl. Note 2" können nur eingetragen werden, wenn dies auch im Verzeichnis der Noten „Verzeichnisse > Noten“ definiert sind.](/images/durchschnitt/durchschnitt2.png)
+![Die Noten „2,8“ oder „3,7“ in der Spalte "Schriftl. Note 2" können nur eingetragen werden, wenn dies auch im Verzeichnis der Noten „Verzeichnisse > Noten“ definiert sind.](../assets/images/durchschnitt/durchschnitt2.png)
 
 Welche Verordnung Zwischendurchschnittsnoten bzw. besondere Kommanoten verwenden, können Sie den Berechnungsskripten für die Versetzung in dem entsprechenden Kapitel im Dokument [Landesanpassungen](https://doc.la.stueber.de/) entnehmen.
 
@@ -66,7 +66,7 @@ Geben Sie unter `Prüfungsordnung` die gewünschte Prüfungsordnung zur Versetzu
 
 Die nachfolgende Abbildung zeigt ein Berechnungsbeispiel für die Berufsschule in Baden-Württemberg.
 
-![Meldung nach der automatischen Berechnung der Durchschnittsnote.](/images/durchschnitt/durchschnitt3.png)
+![Meldung nach der automatischen Berechnung der Durchschnittsnote.](../assets/images/durchschnitt/durchschnitt3.png)
 
 ### Manuelle Eingabe/Korrektur der Ergebnisse
 

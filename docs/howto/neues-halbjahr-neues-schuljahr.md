@@ -27,7 +27,7 @@ Wechseln Sie ins zweite Halbjahr des aktuellen Schuljahrs und rufen das Menü `K
 **Schritt 3:**
 Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre Schüler zu versetzen oder neue Schüler einzuschulen. Klicken Sie auf `Weiter`. 
 
-![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](/images/schuljahreswechsel/schuljahreswechsel01.png)
+![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](../assets/images/schuljahreswechsel/schuljahreswechsel01.png)
 
 **Schritt 4:**
  Auf der nächsten Karte haben Sie die Möglichkeit die Klassenkürzel anzupassen. 
@@ -37,18 +37,18 @@ Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre S
 > Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen, hier soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen. 
 Also: 10a bleibt 10a. BüKo2016 wird aber BüKo2017.
 
-![Passen Sie hier ggfs. die Klassenkürzel an](/images/schuljahreswechsel/schuljahreswechsel02.png)
+![Passen Sie hier ggfs. die Klassenkürzel an](../assets/images/schuljahreswechsel/schuljahreswechsel02.png)
 
 **Schritt 5:**
  Gehen Sie auf `Weiter `und `Fertigstellen`! 
 
-![Die Klassen werden kopiert](/images/schuljahreswechsel/schuljahreswechsel03.png)
+![Die Klassen werden kopiert](../assets/images/schuljahreswechsel/schuljahreswechsel03.png)
 
 
 **Schritt 6:**
 Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen aber neuen IDs angelegt.
 
-![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](/images/schuljahreswechsel/schuljahreswechsel04.png)
+![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](../assets/images/schuljahreswechsel/schuljahreswechsel04.png)
 
 
 > #### success::Tipp

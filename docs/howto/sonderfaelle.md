@@ -56,8 +56,8 @@ Sie erstellen eine Kopie des Schülers, dafür gibt es zwei Möglichkeiten:
 
 Möglichkeit|Vorgehen
 --|--
-**aus dem Menü `Schüler`** |Starten Sie bitte den Assistenten `Als Bewerber kopieren` unter `Schüler > Laufbahnprozesse > Als Bewerber kopieren`. Der Assistent zeigt Ihnen alle Schüler und alle ehemaligen Schüler. Markieren Sie den Schüler, hinterlegen ggfs. auf der nächsten Karte noch Ihre Schule als Herkunftsschule und klicken auf `Fertigstellen`. <br/><br/>![Dialog „Schüler als Bewerber kopieren“](/images/sonderfaelle/sonderfaelle2.png)<br/>![eine Herkunftsschule für den Bewerber vorbelegen](/images/sonderfaelle/sonderfaelle11.png)
-**aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/>![„Schüler als Bewerber kopieren“ aus der Doublettenprüfung](/images/sonderfaelle/sonderfaelle9.png)
+**aus dem Menü `Schüler`** |Starten Sie bitte den Assistenten `Als Bewerber kopieren` unter `Schüler > Laufbahnprozesse > Als Bewerber kopieren`. Der Assistent zeigt Ihnen alle Schüler und alle ehemaligen Schüler. Markieren Sie den Schüler, hinterlegen ggfs. auf der nächsten Karte noch Ihre Schule als Herkunftsschule und klicken auf `Fertigstellen`. <br/><br/>![Dialog „Schüler als Bewerber kopieren“](../assets/images/sonderfaelle/sonderfaelle2.png)<br/>![eine Herkunftsschule für den Bewerber vorbelegen](../assets/images/sonderfaelle/sonderfaelle11.png)
+**aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/>![„Schüler als Bewerber kopieren“ aus der Doublettenprüfung](../assets/images/sonderfaelle/sonderfaelle9.png)
 
 
 
@@ -83,7 +83,7 @@ So geht's:
 Schritt|Aktion
 --|--
 1. |Wechseln Sie nun bitte in den aktuellen Zeitraum und rufen das Menü `Bewerber` auf.
-2. |Markieren Sie den Bewerber in der Auswahlliste, starten Sie anschließend per Rechtsklick den Assistenten für das Bewerberverfahren (`F7`) und wählen Sie `Übernahme als Schüler`.<br/><br/>![Aufrufen des Bewerberverfahrens](/images/sonderfaelle/sonderfaelle3.png)
+2. |Markieren Sie den Bewerber in der Auswahlliste, starten Sie anschließend per Rechtsklick den Assistenten für das Bewerberverfahren (`F7`) und wählen Sie `Übernahme als Schüler`.<br/><br/>![Aufrufen des Bewerberverfahrens](../assets/images/sonderfaelle/sonderfaelle3.png)
 
 ### 3. Kopie des Schülers einschulen und ggfs. zusammenführen
 
@@ -95,12 +95,12 @@ Prüfung bei der Einschulung|Folge
 es gibt weitere Schüler<br/>im selben Halbjahr|Wenn Sie die Kopie des Schülers im gleichen Halbjahr einschulen, indem auch der "Urschüler" sich befindet, dann werden die Schüler nicht miteinander verbunden, sondern es gibt den Schüler doppelt. Es wird unterschieden in eine Stamm- und in eine Nebenlaufbahn des Schülers, Sie sehen die Markierung `S` und `N` in der Spalte `Laufbahn` in der Auswahlliste der Schüler.
 es gibt weitere Schüler<br/>in anderen Halbjahren|Existiert der Schüler noch nicht in dem Zeitraum in den der Schüler in seine Klasse einschult wird, verbindet MAGELLAN die beiden Schüler miteinander.<br/> **-** Die Stammdaten sind für den Stammschüler und die Schülerkopie identisch. <br/> **-** Ausbildungsdaten des Bewerbers ergänzen die des bestehenden Schülers.<br/> **-** die bereits besuchten Schulen des Bewerbers ergänzen die des Stammschülers.<br/> **-** Die Laufbahnkarte der Schülerkopie zeigt nur den eigenen Verlauf.<br/> **-** Die Laufbahnkarte des Stammschülers zeigt den gesamten Verlauf, also die STamm- und Nebenlaufbahn.
 
-![Spalte Laufbahn: Stamm- und Nebenlaufbahn des Schülers](/images/laufbahn.png)
+![Spalte Laufbahn: Stamm- und Nebenlaufbahn des Schülers](../assets/images/laufbahn.png)
  
  
 Beide Schüler werden zusammengeführt und die nachstehende Meldung wird ausgegeben. In der Laufbahn sind früheren und die aktuelle Klassenzugehörigkeit vermerkt.
 
-![Meldung zum Abschluss des Zusammenführens](/images/sonderfaelle/sonderfaelle5.png)
+![Meldung zum Abschluss des Zusammenführens](../assets/images/sonderfaelle/sonderfaelle5.png)
 
 ### Welche Daten werden synchronisiert?
  
@@ -125,20 +125,20 @@ Schüler in MAGELLAN haben zeitgleich nur eine Stammklasse (Laufbahn `S`). Denno
 Oder, ein Schüler besucht in einzelnen Fächer den Unterricht in anderen Klassen und soll optional in den Schülerübersichten dieser Klassen sichtbar sein.
 Weisen Sie für die Fächer des Schülers, die er in parallel stattfindenden Klassen besucht unter `Schüler > Zeugnis > Fächer` in der Spalte Zusatzklasse die Klasse zu.
  
-![Der Schüler besucht die 8a, belegt ein Fach zusätzlich in der 8b](/images/sonderfaelle/sonderfaelle6.png)
+![Der Schüler besucht die 8a, belegt ein Fach zusätzlich in der 8b](../assets/images/sonderfaelle/sonderfaelle6.png)
 
 
 Die Auswahlliste der Spalte Zusatzklasse zeigt alle parallel zur Stammklasse existierenden Klassen an. Die Eintragung ist lediglich für in anderen Klassen besuchte Fächer notwendig.
 Rufen Sie das Menü `Klassen` auf, markieren die entsprechende Klasse und wählen die Unterkarte `Daten > Zeiträume > Schüler`. Sie können für diese Ansicht wählen, ob Ihnen wie gewohnt die Stammschüler dieser Klassen angezeigt werden oder auch die Zusatzschüler mit ihren Stammklassen eingeblendet werden sollen. 
 
-![Wird der Haken aktiviert, werden auch Zusatzschüler und ihre Stammklasse angezeigt](/images/sonderfaelle/sonderfaelle7.png)
+![Wird der Haken aktiviert, werden auch Zusatzschüler und ihre Stammklasse angezeigt](../assets/images/sonderfaelle/sonderfaelle7.png)
 
 ## Jahrgangsübergreifende Klassen (JÜL)
 
 Wenn Sie in MAGELLAN Klassen bestehend aus Schülern verschiedener Jahrgänge verwalten möchten, ist das auch möglich. 
 Unter `Schüler > Zeugnis > Details` gibt es das Feld `Jahrgang`, welches anders als der Klassenjahrgang (`Klasse > Zeiträume > Jahrgang`, gilt für die Klasse) für den einzelnen Schüler geführt wird. 
 
-![Das Feld Jahrgänge vermerkt den schülerindividuellen Jahrgang](/images/sonderfaelle/jahrgang07.png)
+![Das Feld Jahrgänge vermerkt den schülerindividuellen Jahrgang](../assets/images/sonderfaelle/jahrgang07.png)
 
 Zum erstmaligen Befüllen stehen Ihnen zwei Varianten zur Verfügung:
 
@@ -147,7 +147,7 @@ Zum erstmaligen Befüllen stehen Ihnen zwei Varianten zur Verfügung:
 
 In der Auswahlliste der Schüler sehen Sie zusätzlich zur Klasse auch den schülerindividuellen Jahrgang:
 
-![Schülerjahrgang in der Auswahlliste von MAGELLAN ](/images/jahrgang01.png)
+![Schülerjahrgang in der Auswahlliste von MAGELLAN ](../assets/images/jahrgang01.png)
 
 > #### primary::Hinweis
 >
@@ -159,7 +159,7 @@ Hier weicht das Vorgehen nicht vom Standard ab:
 
 Sie legen ein neues Halbjahr an und schreiben alle Schüler vom 1. Halbjahr ins 2. Halbjahr fort, die Option zum Erhöhen des Jahrgangs wird hier nicht aktiviert. Alle Schüler werden mit Ihrer Klasse in das nächste Halbjahr fortgeschrieben.
 
-![Beim Fortschreiben zwischen dem 1. und dem 2. Halbjahr wird die Option "Jahrgang erhöhen" nicht gewählt](/images/sonderfaelle/jahrgang04.png)
+![Beim Fortschreiben zwischen dem 1. und dem 2. Halbjahr wird die Option "Jahrgang erhöhen" nicht gewählt](../assets/images/sonderfaelle/jahrgang04.png)
 
 ### Was ist am Ende des 2. Halbjahres zu tun?
 
@@ -174,7 +174,7 @@ Schritt|Aktion
 1. |Wechseln Sie ins zweite Halbjahr des laufenden Schuljahres
 2. |Öffnen Sie bitte aus einem beliebigen Menüpunkt heraus `Extras > Schüler versetzen`.
 3. |Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
-4. |Wählen Sie die Zielklasse und markieren bitte die Option "Schülerjahrgang erhöhen"! Fertig! <br/><br/>![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](/images/sonderfaelle/jahrgang05.png)<br/><br/>![Beim Versetzen ins neue Schuljahr in eine neue Klasse wird die Option "Jahrgang erhöhen" gewählt](/images/sonderfaelle/jahrgang03.png)
+4. |Wählen Sie die Zielklasse und markieren bitte die Option "Schülerjahrgang erhöhen"! Fertig! <br/><br/>![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](../assets/images/sonderfaelle/jahrgang05.png)<br/><br/>![Beim Versetzen ins neue Schuljahr in eine neue Klasse wird die Option "Jahrgang erhöhen" gewählt](../assets/images/sonderfaelle/jahrgang03.png)
 
 Als nächstes schreiben Sie bitte die Schüler fort, die weiterhin in der Klasse bleiben:
 
@@ -185,7 +185,7 @@ Schritt|Aktion
 1.| Wechseln Sie ins zweite Halbjahr des laufenden Schuljahres
 2.| Öffnen Sie bitte aus einem beliebigen Menüpunkt heraus `Extras > Schüler fortschreiben`.
 3.| Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
-4.| Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!<br/><br/>![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](/images/sonderfaelle/jahrgang06.png)<br/><br/>![Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt](/images/sonderfaelle/jahrgang02.png)
+4.| Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!<br/><br/>![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](../assets/images/sonderfaelle/jahrgang06.png)<br/><br/>![Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt](../assets/images/sonderfaelle/jahrgang02.png)
 
 
 

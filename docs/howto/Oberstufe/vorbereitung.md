@@ -40,7 +40,7 @@ Voraussetzung für die Fachwahlüberprüfung und die Abiturqualifikationsberechn
 
 ### Verzeichnis Abschlussjahrgänge
 
-![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](/images/gym_oberstufe/gym_oberstufe01.png)
+![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](../assets/images/gym_oberstufe/gym_oberstufe01.png)
 
 Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgäng` die Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs z.B. für Ausdrucke herausfiltern zu können.
 
@@ -51,7 +51,7 @@ Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrg
 ### Verzeichnis Verordnung 
 
 
-![Verzeichnis der Verordnungen](/images/gym_oberstufe/gym_oberstufe02.png)
+![Verzeichnis der Verordnungen](../assets/images/gym_oberstufe/gym_oberstufe02.png)
 
 Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis `Verordnungen` die jeweilige Fachwahlverordnung und/oder Abiturprüfungsordnung definieren. Bitte prüfen Sie vorab, ob es ein Prüfskript für Ihre Region und Verordnung gibt (["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html)). 
 

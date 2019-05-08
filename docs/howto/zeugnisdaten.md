@@ -12,7 +12,7 @@ Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finde
 
 Bevor Sie mit der Zuweisung von Fächern beginnen, sollten Sie einen Blick in das Schlüsselverzeichnis der Fächer werfen. Das Fächerverzeichnis ist eines von vielen Schlüsselverzeichnissen. Um das Fächerverzeichnis zu bearbeiten, klicken Sie auf Verzeichnisse und auf Fächer. Es öffnet sich das Fenster `Verzeichnis der Fächer`.
  
-![Fächerverzeichnis](/images/zeugnisdaten/zeugnisdaten1.png)
+![Fächerverzeichnis](../assets/images/zeugnisdaten/zeugnisdaten1.png)
 
 Sie sollten dieses Verzeichnis genau durchgehen und die Kürzel oder Bezeichnungen an Ihre Anforderungen anpassen. Sie bearbeiten ein Fach, indem Sie im Verzeichnis in die gewünschte Spalte in die Zeile des Fachs klicken und direkt die Änderung durchführen. Sie können dem Fach eine Kategorie und einen Aufgabenbereich zuweisen. Diese Informationen werden bei der Fachwahlüberprüfung und der Abiturqualifikationsberechnung benötigt. Ansonsten unterscheidet sich die Bearbeitung des Verzeichnisses nicht von der Bearbeitung der übrigen Schlüsselverzeichnisse. 
 Die Fächer aus dem Verzeichnis, die an Ihrer Schule nicht unterrichtet werden, können Sie löschen. Klicken Sie auf die entsprechenden Fächer in der Liste und auf das Symbol `Zeile löschen`. Die Fächer werden gelöscht und die Liste wird dadurch übersichtlicher. Sollten Fächer in der vorhandenen Liste fehlen, klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur Eingabe der Daten. Geben Sie die erforderlichen Daten wie Kürzel, Schlüssel und Bezeichnung und falls das Fach in der Oberstufe unterrichtet wird, bitte noch Kategorie und Aufgabenbereich ein. Welche Fachkategorien und Aufgabenbereiche für das von Ihnen verwendete Berechnungsskript vorausgesetzt werden, beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/allgemeines_spezielle_einstellungen_pro_skript.html) je Skript (eine Skript setzt jeweils eine Verordnung um).  
@@ -28,7 +28,7 @@ Informationen zu Zeugnisberichten finden Sie im Modul MAGELLAN BERICHTE.
 Fachtafeln bestehen aus einer beliebigen Liste von Fächern und dienen der schnellen und bequemen Zuweisung von Fächern sowohl für einzelne Schüler als auch für ganze Klassen. Um in den Schülerdaten sinnvoll mit Fachtafeln zu arbeiten, müssen diese zunächst in einem Schlüsselverzeichnis vordefiniert und hinterlegt werden. Sie definieren Fachtafeln, indem Sie auf Verzeichnisse und dann auf Fachtafeln klicken. Es öffnet sich das Fenster `Verzeichnis der Fachtafeln`. Geben Sie hier die Fächer ein, die für die markierte Jahrgangsstufe relevant sind. So ist es möglich ganzen Klassen oder Schülern eine Fachtafel zuzuweisen.
  
 
-![Übersicht der Fachtafeln](/images/zeugnisdaten/zeugnisdaten2.png)
+![Übersicht der Fachtafeln](../assets/images/zeugnisdaten/zeugnisdaten2.png)
 
 
 Bei den Fachtafeln werden in der Spalte `Art` die folgenden Arten der Fachtafel unterschieden
@@ -46,10 +46,10 @@ Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeic
 Ein neues Fach weisen Sie zu, indem Sie auf das Symbol `Neue Zeile` klicken. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Fach, Fachstatus, Unterrichtsart, Faktor, Position usw. 
  
 
-![Übersicht der Fächer einer Fachtafel](/images/zeugnisdaten/zeugnisdaten3.png)
+![Übersicht der Fächer einer Fachtafel](../assets/images/zeugnisdaten/zeugnisdaten3.png)
 
  
-![In der Spalte `Position` können Sie die Reihenfolge der Fächer festlegen](/images/zeugnisdaten/zeugnisdaten4.png)
+![In der Spalte `Position` können Sie die Reihenfolge der Fächer festlegen](../assets/images/zeugnisdaten/zeugnisdaten4.png)
 
 
 Spalte|Bedeutung
@@ -78,7 +78,7 @@ Mündlich|zur Markierung ob die Zeugnisnote mündlich oder schriftlich erworben 
 
 Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits existierenden Fachtafel basiert, markieren Sie die Vorlage-Fachtafel, klicken auf `Fachtafel kopieren`, geben ein neues Kürzel und eine neue Bezeichnung an. Passen Sie anschließen die neue Fachtafel auf der Unterkarte `Fachtafel-Fächer` an.
 
- ![Erstellen Sie nach Vorlage einer Fachtafel eine Kopie](/images/zeugnisdaten/zeugnisdaten5.png)
+ ![Erstellen Sie nach Vorlage einer Fachtafel eine Kopie](../assets/images/zeugnisdaten/zeugnisdaten5.png)
 
  
 
@@ -93,9 +93,9 @@ Das Zuweisen von Fachtafeln kann alternativ auch direkt beim Einschulen oder bei
 |So geht's:|
 |--|
 |1. Klicken Sie auf Ansicht und dann auf Schüler.  |
-|2. Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer`.<br/><br/>![Wählen Sie die Schaltfläche "Fachtafel zuweisen"](/images/zeugnisdaten/zeugnisdaten6.png) |
+|2. Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer`.<br/><br/>![Wählen Sie die Schaltfläche "Fachtafel zuweisen"](../assets/images/zeugnisdaten/zeugnisdaten6.png) |
 |3. Klicken Sie oben auf `Fachtafel zuweisen`. Es öffnet sich der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`, um zu den nächsten Schritten zu gelangen. |
-|4. Unter `Schüler auswählen` befinden sich alle Schüler des aktuellen Halbjahres. Nutzen Sie die [Gruppierung oder Filterung](https://doc.magellan7.stueber.de/howto/sort-group-filter-search.html) und markieren Sie Schüler, denen Sie dieselbe Fachtafel zuweisen möchten, gruppenweise und klicken Sie auf `Weiter`.<br/><br/>![Unter `Schüler auswählen` müssen Sie die Schüler markieren, denen Sie eine Fachtafel zuweisen wollen.](/images/zeugnisdaten/zeugnisdaten7.png)<br/><br/> ![Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll.](/images/zeugnisdaten/zeugnisdaten8.png) |
+|4. Unter `Schüler auswählen` befinden sich alle Schüler des aktuellen Halbjahres. Nutzen Sie die [Gruppierung oder Filterung](https://doc.magellan7.stueber.de/howto/sort-group-filter-search.html) und markieren Sie Schüler, denen Sie dieselbe Fachtafel zuweisen möchten, gruppenweise und klicken Sie auf `Weiter`.<br/><br/>![Unter `Schüler auswählen` müssen Sie die Schüler markieren, denen Sie eine Fachtafel zuweisen wollen.](../assets/images/zeugnisdaten/zeugnisdaten7.png)<br/><br/> ![Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll.](../assets/images/zeugnisdaten/zeugnisdaten8.png) |
 |5. Markieren Sie eine Fachtafel. Klicken Sie anschließend auf `Weiter`. Dabei richtet sich die Auswahl der Fachtafeln nach der Herkunft der Fachtafel:<br/><br/> * **Fachtafel manuell auswählen:** Es werden alle Fachtafeln angezeigt, die im Verzeichnis Fachtafeln definiert sind.<br/><br/> * **Beim jeweiligen Schüler hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den markierten Schülern auf der Registerkarte `Laufbahn` unter `Fachtafel` definiert sind.<br/><br/> * **Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den Klassen der markierten Schülern auf der Registerkarte `Zeiträume` unter `Fachtafel` definiert sind. |
 |6. Klicken Sie dann auf `Weiter ` und anschließend auf `Fertigstellen`, um die Fachtafel den Schülern zuzuweisen. Sie haben auch die Möglichkeit z.B. erst die Fachtafelzuweisung für alle evangelischen Schüler einer Klasse oder eines Jahrganges zu machen. Gruppieren Sie in diesem Fall nach Klassen und nach Konfession. Markieren Sie alle evangelischen Schüler und klicken Sie auf `Weiter`.  |
 |7. Unter Fachtafel zuweisen können Sie dann die gewünschte Fachtafel für die evangelischen Schüler markieren. Klicken Sie dann auf `Weiter`. Anschließend verfahren Sie analog für die katholischen Schüler und weisen diesen die Fachtafel für die katholischen Schüler zu. |
@@ -170,7 +170,7 @@ Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel 
 
 Über das Extrahieren von Fachtafeln können Sie eine für einen Schüler erstellte Fachliste als Fachtafel extrahieren und somit weiteren Schülern zuweisen. Dies ist eine zusätzliche Möglichkeit Fachtafeln zu erstellen, allerdings diesmal "vor Ort". Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Fachtafel extrahieren`.
  
-![Geben Sie hier ein Kürzel und eine Bezeichnung für die neue Fachtafel ein.](/images/zeugnisdaten/zeugnisdaten10.png)
+![Geben Sie hier ein Kürzel und eine Bezeichnung für die neue Fachtafel ein.](../assets/images/zeugnisdaten/zeugnisdaten10.png)
 
 Die Fachtafel ist jetzt unter dem eingegebenen Kürzel und der Bezeichnung mit den Fächern des konkreten Schülers in dem Verzeichnis `Fachtafeln` gespeichert. Wenn Sie Schülern jetzt eine Fachtafel zuweisen, wird Ihnen die extrahierte Fachtafel ebenfalls als mögliche Fachtafel angeboten.
 
@@ -178,15 +178,15 @@ Die Fachtafel ist jetzt unter dem eingegebenen Kürzel und der Bezeichnung mit d
 
 Über die Schaltfläche `Schwerpunkte…` können Sie eine Sammelzuweisung aufrufen, die ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren. 
  
- ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/images/zeugnisdaten/zeugnisdaten11.png)
+ ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](../assets/images/zeugnisdaten/zeugnisdaten11.png)
 
 ### Sammellöschung
 
 Mit Hilfe der `Sammellöschung` kann bei mehreren Schülern gleichzeitig ein Fach gelöscht werden. Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Sammellöschung`. Ein Assistent ist Ihnen behilflich. Sie können nun mehrere Schüler markieren, bei welchen jeweils das gleiche Fach gelöscht werden soll. Besitzt einer der markierten Schüler nicht das ausgewählte Fach, so hat das Löschen keine Auswirkung auf diesen Schüler.
  
-![Dialog `Sammellöschung eines Fachs`](/images/zeugnisdaten/zeugnisdaten12.png)
+![Dialog `Sammellöschung eines Fachs`](../assets/images/zeugnisdaten/zeugnisdaten12.png)
  
-![ Geben Sie ggf. noch einen Löschfilter ein, z.B. `Lösche Biologie bei den markierten Schülern nur, wenn es die Unterrichtsart GK besitzt und 4. Prüfungsfach ist`.](/images/zeugnisdaten/zeugnisdaten13.png)
+![ Geben Sie ggf. noch einen Löschfilter ein, z.B. `Lösche Biologie bei den markierten Schülern nur, wenn es die Unterrichtsart GK besitzt und 4. Prüfungsfach ist`.](../assets/images/zeugnisdaten/zeugnisdaten13.png)
 
 ## Leistungen eingeben
 
@@ -196,7 +196,7 @@ Für jeden Schüler ist ein Verzeichnis über seine persönlichen Zeugnisdaten h
 
 Als Voraussetzung für die Eingabe von Noten müssen diese im Verzeichnis `Noten` definiert sein. Wählen Sie dazu `Extras> Schlüsselverzeichnisse` und dann `Noten`. Im Dialogfenster `Verzeichnis der Noten` können Sie eine beliebige Anzahl von Noten definieren.
  
-![ Dialog `Verzeichnis der Noten`](/images/zeugnisdaten/zeugnisdaten14.png)
+![ Dialog `Verzeichnis der Noten`](../assets/images/zeugnisdaten/zeugnisdaten14.png)
 
 Für jeden Noteneintrag können Sie dabei in der Spalte `Notenart` zwischen einem `Notenwert`, `Füllwert` (zum Beispiel für "Attest" oder "o.B.") und einem `Punktwert` unterschieden. Zusätzlich können Sie neben der allgemeinen Bezeichnung in der Spalte `Bezeichnung` auch einen alternativen Text in der Spalte `Alternative Bezeichnung` wählen. Wird beim späteren Zeugnisdruck die Bezeichnung der Note ausgegeben, so erfolgt dies im Regelfall über den Wert im Feld `Bezeichnung`. Nur in Ausnahmefällen, wo beispielsweise Abkürzungen für Noten verwendet werden (z.B. bei Allgemeinbildenden Schulen in Baden-Württemberg), wird der Eintrag im Feld `Alternative Bezeichnung` genutzt.
 
@@ -213,7 +213,7 @@ Je nach Auswahl werden in den Notenfeldern der Schüler Noten, Punkte, Prozente 
 >
 > Bitte wählen Sie die Beurteilungsart der Klasse vor der Vergabe der Zeugnisnoten oder -punkte aus! 
 
-![Wählen Sie die Berurteilungsart bei der Klasse aus](/images/zeugnisdaten/zeugnisdaten15.png)
+![Wählen Sie die Berurteilungsart bei der Klasse aus](../assets/images/zeugnisdaten/zeugnisdaten15.png)
 
 > #### success::Tipp
 >
@@ -223,7 +223,7 @@ Je nach Auswahl werden in den Notenfeldern der Schüler Noten, Punkte, Prozente 
 
 Sie geben Noten für einen Schüler ein, indem Sie auf der Registerkarte `Zeugnis` des Schülers die Registerkarte `Leistungen` wählen. Voraussetzung dafür ist, dass diesem Schüler bereits Fächer zugewiesen wurden.
  
-![Auf der Registerkarte `Leistungen` können Sie jedem Schüler vier schriftliche, eine mündliche Note, eine Endnote und eine Endnote (Gesamt) eintragen](/images/zeugnisdaten/zeugnisdaten16.png)
+![Auf der Registerkarte `Leistungen` können Sie jedem Schüler vier schriftliche, eine mündliche Note, eine Endnote und eine Endnote (Gesamt) eintragen](../assets/images/zeugnisdaten/zeugnisdaten16.png)
 
 Je nach der eingestellten Beurteilungsart der Klasse der werden zur Eingabe entweder Noten- oder Punktwerte angeboten. Auf die Eingabe von Beurteilungstexten wird im nachfolgenden Abschnitt näher eingegangen. Aus den schriftlichen und mündlichen Noten berechnet MAGELLAN im Regelfall nicht automatisch die Endnote!
 Auf der Registerkarte `Leistungen` werden also im Regelfall nur die Noten eingetragen, die letztendlich auf dem Zeugnis erscheinen und sie besitzt keine Notenbuchfunktionalität. Im Regelfall sollten Sie in der Spalte `Endnote` die Zeugnisnote eintragen.
@@ -235,27 +235,27 @@ Auf der Registerkarte `Leistungen` werden also im Regelfall nur die Noten einget
 
 Es ist möglich, eine zeitraumübergreifende Notenmatrix für Schüler aufzurufen. Klicken Sie in der Registerkarte `Leistungen` auf die Schaltfläche `Notenübersicht…`. Es werden Ihnen nun entweder alle Fächer und Noten `aktuellen Schülers` oder `aller Schüler der Klasse` mit Angabe des Halbjahres angezeigt. Sie können in der Übersicht wie gewohnt Sortieren und Gruppieren.
  
-![Dies ist die Notenübersicht für den aktuellen Schüler](/images/zeugnisdaten/zeugnisdaten17.png)
+![Dies ist die Notenübersicht für den aktuellen Schüler](../assets/images/zeugnisdaten/zeugnisdaten17.png)
 
 > #### info::Hinweis
 > Die Registerkarte `Leistungen` und die `zeitraumübergreifende Notenmatrix` können nach Excel oder HTML exportiert werden.
 Sie können die zeitraumübergreifende Notenübersicht auch für die gesamte Klasse des ausgewählten Schülers anzeigen lassen. Dafür schalten Sie in der oberen Menüleiste von `Aktueller Schüler` auf `Alle Schüler der Klasse` um.
  
- ![Beispiel: Die  Noten der Schüler der Klasse 13 sind nach der Spalte Fach gruppiert.](/images/zeugnisdaten/zeugnisdaten18.png)
+ ![Beispiel: Die  Noten der Schüler der Klasse 13 sind nach der Spalte Fach gruppiert.](../assets/images/zeugnisdaten/zeugnisdaten18.png)
 
 ### Beurteilungstexte
 
 Haben Sie bei der Klasse die Beurteilungsart `Beurteilungstexte` eingestellt, so haben Sie für die Schüler dieser Klasse ein geändertes Layout auf der Registerkarte `Leistungen`.
  
-: ![Sie können hier neben dem Fach und der Position in der Spalte `Beurteilung` einen freien Beurteilungstext eintragen.](/images/zeugnisdaten/zeugnisdaten19.png)
+: ![Sie können hier neben dem Fach und der Position in der Spalte `Beurteilung` einen freien Beurteilungstext eintragen.](../assets/images/zeugnisdaten/zeugnisdaten19.png)
 
 Um diesen einzutragen, müssen Sie in der Zeile des Fachs entweder einen Doppelklick auf die Spalte `Beurteilung` ausführen oder auf die entsprechende Schaltfläche `Beurteilung editieren..` klicken. Sie haben zusätzlich über die Schaltfläche `Rechtschreibung prüfen…` die Möglichkeit den Text überprüfen zu lassen. Die Einstellmöglichkeiten für die Rechtschreibprüfung finden Sie unter `Datenbank > Optionen > Rechtschreibung`
  
- ![Geben Sie hier einen freien Beurteilungstext ein. Sie können dabei auch auf bereits definierte Textbausteine zurückgreifen, wenn Sie auf `Aus Verzeichnis auswählen` klicken. Klicken Sie anschließend auf OK.](/images/zeugnisdaten/zeugnisdaten21.png)
+ ![Geben Sie hier einen freien Beurteilungstext ein. Sie können dabei auch auf bereits definierte Textbausteine zurückgreifen, wenn Sie auf `Aus Verzeichnis auswählen` klicken. Klicken Sie anschließend auf OK.](../assets/images/zeugnisdaten/zeugnisdaten21.png)
 
 Bei der Eingabe des Beurteilungstextes können Sie auf bereits definierte Textbausteine zurückgreifen. Diese müssen Sie zuvor unter `Extras > Schlüsselverzeichnisse > Zeugnisbeurteilungen` definiert haben.
  
- ![Dies ist das Verzeichnis der Zeugnisbeurteilungen](/images/zeugnisdaten/zeugnisdaten22.png)
+ ![Dies ist das Verzeichnis der Zeugnisbeurteilungen](../assets/images/zeugnisdaten/zeugnisdaten22.png)
 
 > #### primary::Hinweis
 >
@@ -269,7 +269,7 @@ Das Layout auf der Registerkarte `Leistungen` kann individuell angepasst werden.
 >
 > Die Einstellungen unter `Layout anpassen...` beziehen sich auf Ihren Arbeitsplatz, nicht auf andere MAGELLAN-Installationen.
  
- ![Hier können Sie die Spaltenüberschrift verändern und angeben, ob eine Spalte sichtbar ist.](/images/zeugnisdaten/zeugnisdaten23.png)
+ ![Hier können Sie die Spaltenüberschrift verändern und angeben, ob eine Spalte sichtbar ist.](../assets/images/zeugnisdaten/zeugnisdaten23.png)
 
 ## Arbeits- und Sozialverhalten
 
@@ -281,14 +281,14 @@ Vorab müssen die verwendeten Schlüsselverzeichnisse eingerichtet werden. Folge
 
 |Verzeichnisse|
 |--|
-|**Typen:** <br/><br/>Dient als Filter um zwischen `Arbeits- und Sozialverhalten` und `Fachlichen Leistung` zu differenzieren. <br/><br/>![ Verzeichnis `Typen des Arbeits- und Sozialverhalten`](/images/zeugnisdaten/zeugnisdaten24.png) |
-|**Arten:** <br/><br/>Kann als Übergruppierung für die Kategorien verwendet werden, zum Beispiel um zwischen `Sozialverhalten` und `Arbeitsverhalten` zu unterscheiden. Für fachliche Leistungen entspricht die Art zum Beispiel `Deutsch` oder `Biologie`. Jeder Art wird zusätzlich der entsprechende Typ zugeordnet. Als Hilfe beim Erfassen der Arten kann das Verzeichnis zum Beispiel nach dem Typ gefiltert werden.<br/><br/> ![ Verzeichnis `Arten für das Arbeits- und Sozialverhalten`](/images/zeugnisdaten/zeugnisdaten25.png) |
-|**Kategoriegruppen:** <br/><br/>Legen in diesem Verzeichnis die Untergruppen der Arten an. Ein Bespiel für Kategoriegruppen: für die Art `Deutsch` sollen nach `Sprechen und Zuhören` und `Schreiben` getrennte Unterpunkte bewerten werden. Die Kategoriegruppen können Kategorien zugeordnet werden.<br/><br/>![Kategoriegruppen](/images/zeugnisdaten/zeugnisdaten26.png) |
-|**Kategorien:**<br/><br/> Legen Sie in diesem Verzeichnis die an Ihrer Schule zu bewertenden Kategorien an. In der Spalte Art können Sie den einzelnen Kategorien die zuvor angelegten Arten zuordnen. Diese Unterteilung hilft die Kategorien zusätzlich zu den Positionen im Zeugnisdruck korrekt anzuordnen. Jede Kategorie kann einer Kategoriegruppe zugeordnet werden.Der Inhalt des Verzeichnisses kann nach dem Typ gefiltert angezeigt werden. In der nachfolgenden Abbildung ist nach dem Typ `Fachliche Leistung` gefiltert worden.<br/><br/>![Filterung der Kategorien nach der fachlichen Leistung](/images/zeugnisdaten/zeugnisdaten27.png)<br/><br/>![ Filterung der Kategorien nach dem Allgemeinen Lern- und Sozialverhalten](/images/zeugnisdaten/zeugnisdaten28.png) |
-|**Inhaltetafeln:** <br/><br/>Um in Zeugnissen stichpunktartig die im Schuljahr unterrichteten Themen pro Klasse abzubilden, können die Themen in Inhaltetafeln gesammelt werden. Dabei ist es möglich für eine Art (zum Beispiel für Deutsch) verschiedene Inhaltetafeln anzulegen. Die Inhalte unterscheiden sich zwischen den Schuljahren und werden daher in getrennten Inhaltetafeln angelegt. <br/><br/>![Pro Schuljahr werden für die Fächer Inhaltetafeln eingerichtet](/images/zeugnisdaten/zeugnisdaten29.png) |
-|**Inhaltetafel-Kategorien:** <br/><br/>Jede Inhaltetafel enthält Inhaltetafel-Kategorien. Für das Beispiel der Art Deutsch werden in der nachstehenden Abbildung die Themen für das 4. Schuljahr zeilenweise eingerichtet. Über die Position kann die spätere Reihenfolge auf dem Zeugnis gesteuert werden.<br/><br/>![Hier werden die in Deutsch unterrichteten Themen für Klasse 4 aufgeführt](/images/zeugnisdaten/zeugnisdaten30.png) |
-|**Bewertung: **<br/><br/>Legen Sie in diesem Verzeichnis die möglichen Abstufungen der Bewertungen an. Die Bewertungen können jeweils einem Typ zugeordnet werden. Damit können für das `Arbeits- und Sozialverhalten` andere Bewertungsabstufung als für `Fachliche Leistungen` realisiert werden. Je nach Zeugnisbericht kann für die Bewertungen eine Bezeichnung (zum Beispiel `erkennbar`) oder auch ein Kreuz abgeleitet aus dem Wert der Bewertung ausgegeben werden. <br/><br/>![Bewertungen können pro Typ differenziert werden](/images/zeugnisdaten/zeugnisdaten31.png) |
-|**Kategorietafeln:** <br/><br/>Analog zu den Fachtafeln können auch vorbereitete Zusammenstellungen von Kategorien gesammelt den Schülern zugewiesen werden. Legen Sie dazu Kategorietafeln an und füllen sie mit Kategorien. Sie können dabei den Schülern auch die Fachlichen Leistungen und die Bewertungskriterien für das Arbeits- und Sozialverhalten in einem Arbeitsgang zuweisen. ![Übersicht der Kategorietafeln](/images/zeugnisdaten/zeugnisdaten32.png) <br/><br/> ![Inhalt der markierten Kategorietafeln](/images/zeugnisdaten/zeugnisdaten33.png) |
+|**Typen:** <br/><br/>Dient als Filter um zwischen `Arbeits- und Sozialverhalten` und `Fachlichen Leistung` zu differenzieren. <br/><br/>![ Verzeichnis `Typen des Arbeits- und Sozialverhalten`](../assets/images/zeugnisdaten/zeugnisdaten24.png) |
+|**Arten:** <br/><br/>Kann als Übergruppierung für die Kategorien verwendet werden, zum Beispiel um zwischen `Sozialverhalten` und `Arbeitsverhalten` zu unterscheiden. Für fachliche Leistungen entspricht die Art zum Beispiel `Deutsch` oder `Biologie`. Jeder Art wird zusätzlich der entsprechende Typ zugeordnet. Als Hilfe beim Erfassen der Arten kann das Verzeichnis zum Beispiel nach dem Typ gefiltert werden.<br/><br/> ![ Verzeichnis `Arten für das Arbeits- und Sozialverhalten`](../assets/images/zeugnisdaten/zeugnisdaten25.png) |
+|**Kategoriegruppen:** <br/><br/>Legen in diesem Verzeichnis die Untergruppen der Arten an. Ein Bespiel für Kategoriegruppen: für die Art `Deutsch` sollen nach `Sprechen und Zuhören` und `Schreiben` getrennte Unterpunkte bewerten werden. Die Kategoriegruppen können Kategorien zugeordnet werden.<br/><br/>![Kategoriegruppen](../assets/images/zeugnisdaten/zeugnisdaten26.png) |
+|**Kategorien:**<br/><br/> Legen Sie in diesem Verzeichnis die an Ihrer Schule zu bewertenden Kategorien an. In der Spalte Art können Sie den einzelnen Kategorien die zuvor angelegten Arten zuordnen. Diese Unterteilung hilft die Kategorien zusätzlich zu den Positionen im Zeugnisdruck korrekt anzuordnen. Jede Kategorie kann einer Kategoriegruppe zugeordnet werden.Der Inhalt des Verzeichnisses kann nach dem Typ gefiltert angezeigt werden. In der nachfolgenden Abbildung ist nach dem Typ `Fachliche Leistung` gefiltert worden.<br/><br/>![Filterung der Kategorien nach der fachlichen Leistung](../assets/images/zeugnisdaten/zeugnisdaten27.png)<br/><br/>![ Filterung der Kategorien nach dem Allgemeinen Lern- und Sozialverhalten](../assets/images/zeugnisdaten/zeugnisdaten28.png) |
+|**Inhaltetafeln:** <br/><br/>Um in Zeugnissen stichpunktartig die im Schuljahr unterrichteten Themen pro Klasse abzubilden, können die Themen in Inhaltetafeln gesammelt werden. Dabei ist es möglich für eine Art (zum Beispiel für Deutsch) verschiedene Inhaltetafeln anzulegen. Die Inhalte unterscheiden sich zwischen den Schuljahren und werden daher in getrennten Inhaltetafeln angelegt. <br/><br/>![Pro Schuljahr werden für die Fächer Inhaltetafeln eingerichtet](../assets/images/zeugnisdaten/zeugnisdaten29.png) |
+|**Inhaltetafel-Kategorien:** <br/><br/>Jede Inhaltetafel enthält Inhaltetafel-Kategorien. Für das Beispiel der Art Deutsch werden in der nachstehenden Abbildung die Themen für das 4. Schuljahr zeilenweise eingerichtet. Über die Position kann die spätere Reihenfolge auf dem Zeugnis gesteuert werden.<br/><br/>![Hier werden die in Deutsch unterrichteten Themen für Klasse 4 aufgeführt](../assets/images/zeugnisdaten/zeugnisdaten30.png) |
+|**Bewertung: **<br/><br/>Legen Sie in diesem Verzeichnis die möglichen Abstufungen der Bewertungen an. Die Bewertungen können jeweils einem Typ zugeordnet werden. Damit können für das `Arbeits- und Sozialverhalten` andere Bewertungsabstufung als für `Fachliche Leistungen` realisiert werden. Je nach Zeugnisbericht kann für die Bewertungen eine Bezeichnung (zum Beispiel `erkennbar`) oder auch ein Kreuz abgeleitet aus dem Wert der Bewertung ausgegeben werden. <br/><br/>![Bewertungen können pro Typ differenziert werden](../assets/images/zeugnisdaten/zeugnisdaten31.png) |
+|**Kategorietafeln:** <br/><br/>Analog zu den Fachtafeln können auch vorbereitete Zusammenstellungen von Kategorien gesammelt den Schülern zugewiesen werden. Legen Sie dazu Kategorietafeln an und füllen sie mit Kategorien. Sie können dabei den Schülern auch die Fachlichen Leistungen und die Bewertungskriterien für das Arbeits- und Sozialverhalten in einem Arbeitsgang zuweisen. ![Übersicht der Kategorietafeln](../assets/images/zeugnisdaten/zeugnisdaten32.png) <br/><br/> ![Inhalt der markierten Kategorietafeln](../assets/images/zeugnisdaten/zeugnisdaten33.png) |
 
 
 
@@ -314,7 +314,7 @@ Sie können die Kategorien für die Schüler einzeln per Hand zuweisen oder mehr
 
 |So geht's:|
 |--|
-|1.  Wählen Sie in der Auswahlliste `Schüler` den gewünschten Schüler und rufen Sie die Registerkarte `Zeugnis > Arbeits- und Sozialverhalten` auf. <br/><br/> ![Dies ist die noch ungefüllte Registerkarte `Arbeits- u. Sozialverhalten`.](/images/zeugnisdaten/zeugnisdaten34.png) |
+|1.  Wählen Sie in der Auswahlliste `Schüler` den gewünschten Schüler und rufen Sie die Registerkarte `Zeugnis > Arbeits- und Sozialverhalten` auf. <br/><br/> ![Dies ist die noch ungefüllte Registerkarte `Arbeits- u. Sozialverhalten`.](../assets/images/zeugnisdaten/zeugnisdaten34.png) |
 |2. Um eine neue Zeile zu erzeugen wählen Sie das rote Plus `Neue Kategorie` im rechten Bereich der Ansicht. |
 |3. Wählen Sie für die neue Zeile im Feld Kategorie einen Wert aus den zuvor im Schlüsselverzeichnis erfassten Kategorien. |
 |4. In der Spalte `Bewertung` können Sie eine Bewertung hinterlegen.|
@@ -324,7 +324,7 @@ Sie können die Kategorien für die Schüler einzeln per Hand zuweisen oder mehr
 >
 > Die Ansicht kann durch den Typfilter entweder die `Fachlichen Leistungen` oder die Eintragungen zum `Allgemeinen Lern- und Arbeitsverhalten` anzeigen. Aktivieren Sie den Wechsel durch einen Klick auf das Filtersymbol.
  
-![Hier ist die  Ansicht gefiltert nach `Allgemeines Lern- und Arbeitsverhalten`](/images/zeugnisdaten/zeugnisdaten35.png)
+![Hier ist die  Ansicht gefiltert nach `Allgemeines Lern- und Arbeitsverhalten`](../assets/images/zeugnisdaten/zeugnisdaten35.png)
 
 
 #### Sammelzuweisung von Kategorietafeln 
@@ -350,7 +350,7 @@ Gebunden an eine Inhaltetafel kann zusätzlich eine Ergänzung für einen Schül
 |So geht's:|
 |--|
 |1.  Um einen neue Ergänzung anzulegen, klicken Sie auf die Plusschaltfläche im rechten unteren Bereich |
-|2. Wählen Sie eine Inhaltetafel aus und verfassen anschließend im Textfeld `Ergänzungen` die Anmerkung. Speichern Sie bitte über das Häkchen im rechten unteren Bereich. <br/><br/>![Ergänzung für das Fach Deutsch erfasst](/images/zeugnisdaten/zeugnisdaten36.png) |
+|2. Wählen Sie eine Inhaltetafel aus und verfassen anschließend im Textfeld `Ergänzungen` die Anmerkung. Speichern Sie bitte über das Häkchen im rechten unteren Bereich. <br/><br/>![Ergänzung für das Fach Deutsch erfasst](../assets/images/zeugnisdaten/zeugnisdaten36.png) |
 
 
 ## Weitere Zeugnisdaten erfassen
@@ -359,7 +359,7 @@ Gebunden an eine Inhaltetafel kann zusätzlich eine Ergänzung für einen Schül
 
 Auf der Registerkarte `Details` unter der Registerkarte `Zeugnis` des Schülers werden alle weiteren Daten für das Zeugnis erfasst. Hierzu zählen als wichtigste Daten die `Fehltage`, `Fehlstunden`, `Unterrichtstage`, die Noten für `Mitarbeit` und `Verhalten`, das `Zeugnisdatum` und das `Datum der Zeugniskonferenz`. Im Eingabefeld `Tutor` können Sie dem Schüler einen Tutor zuordnen, der zuvor als Lehrer in MAGELLAN aufgenommen worden ist. Dieser wird entsprechend der Eingabe zeitraumbezogen abgelegt.
  
-![Dies ist die Registerkarte mit den Zeugnisdetails](/images/zeugnisdaten/zeugnisdaten37.png)
+![Dies ist die Registerkarte mit den Zeugnisdetails](../assets/images/zeugnisdaten/zeugnisdaten37.png)
 
 
 Die Ausgabe des Klassenlehrers und des Schulleiters auf dem Zeugnis richtet sich nach den entsprechenden Einstellungen unter `Klasse > Zeiträume > Klassenleiter` oder `Mandanten > Daten > Schulleiter`. Sollte nicht der Klassenleiter/Schulleiter selbst ausgegeben werden, sondern nur eine Unterscheidung zwischen Schulleiter und Schulleiterin oder Klassenleiter und Klassenleiterin vorgenommen werden, wird der Eintrag im Feld `Geschlecht` unter `Lehrer > Daten` für die der Klasse oder dem Mandanten zugeordneten Lehrer ausgewertet.
@@ -375,7 +375,7 @@ Schritt|So geht's:|
 |--|
 
 |1.  Markieren Sie unter `Schüler auswählen` die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte `Details` erhalten sollen. |
-|2. Klicken Sie auf `Weiter`. Geben Sie unter `Felder auswählen und Werte zuweisen` die Werte an, die alle zuvor markierten Schüler erhalten sollen.<br/>Wichtig: Setzen Sie nur ein Häkchen, wählen im dazugehörigen Feld aber keienn Wert aus, können Sie auch Einträge aus Felder wieder löschen!<br/><br/>![Hier können alle Felder und deren Werte auswählen, die in der Sammelzuweisung allen markierten Schülern zugeordnet werden.](/images/zeugnisdaten/zeugnisdaten38.png) |
+|2. Klicken Sie auf `Weiter`. Geben Sie unter `Felder auswählen und Werte zuweisen` die Werte an, die alle zuvor markierten Schüler erhalten sollen.<br/>Wichtig: Setzen Sie nur ein Häkchen, wählen im dazugehörigen Feld aber keienn Wert aus, können Sie auch Einträge aus Felder wieder löschen!<br/><br/>![Hier können alle Felder und deren Werte auswählen, die in der Sammelzuweisung allen markierten Schülern zugeordnet werden.](../assets/images/zeugnisdaten/zeugnisdaten38.png) |
 |3. Beispiel: Wählen Sie `Fächer der Schüler ohne Notenangabe löschen`, wenn Sie für alle markierten Schüler die zugewiesenen Fächer in der Registerkarte `Fächer` herauslöschen möchten. Es werden nur die Fächer gelöscht, bei welchen noch keine Noten eingetragen wurden. |
 |4. Klicken Sie jetzt auf `Weiter `und anschließend auf `Fertigstellen`, um die Sammelzuweisung auszuführen.  |
 
@@ -385,14 +385,14 @@ Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die z
 
 Sie können für jeden Schüler individuell Fehlzeiten oder Versäumnisse erfassen. Der Eintrag kann auf der Karte `Details` direkt für den Schüler vorgenommen werden oder kann auch über MyMAGELLAN gefüllt werden. Welche Felder für Ihren Zeugnisbericht gefüllt werden müssen, beschreiben wir pro Zeugnis im Modul MAGELLAN Berichte.
  
-![Tragen Sie hier die Fehlzeiten für den Zeugnisdruck ein](/images/zeugnisdaten/zeugnisdaten39.png)
+![Tragen Sie hier die Fehlzeiten für den Zeugnisdruck ein](../assets/images/zeugnisdaten/zeugnisdaten39.png)
 
 
 ### Zeugnisbemerkungen
 
 Die Zeugnisbemerkungen sind ein weiteres Schlüsselverzeichnis. Um das Verzeichnis der Zeugnisbemerkungen zu bearbeiten, klicken Sie auf `Extras > Schlüsselverzeichnisse > Zeugnisbemerkungen`. Sollten Bemerkungen in der vorhandenen Liste fehlen, klicken Sie auf das Symbol` Neue Zeile`. Es erscheint eine neue Zeile, in die Sie die Daten eintragen können.
  
-![Geben Sie den Text und erforderliche Daten wie Kürzel, Merkmal und Position ein.](/images/zeugnisdaten/zeugnisdaten40.png)
+![Geben Sie den Text und erforderliche Daten wie Kürzel, Merkmal und Position ein.](../assets/images/zeugnisdaten/zeugnisdaten40.png)
 
 
 ### Zeugnisbemerkungen zuweisen
@@ -400,7 +400,7 @@ Die Zeugnisbemerkungen sind ein weiteres Schlüsselverzeichnis. Um das Verzeichn
 
 |So geht's:|
 |--|
-|1. Wählen Sie die Registerkarte Zeugnis des Schülers. Dann wählen Sie dort die untergeordnete Registerkarte Zeugnis. <br/><br/>![Hier können Sie die Zeugnisbemerkungen des Schülers eintragen](/images/zeugnisdaten/zeugnisdaten41.png) |
+|1. Wählen Sie die Registerkarte Zeugnis des Schülers. Dann wählen Sie dort die untergeordnete Registerkarte Zeugnis. <br/><br/>![Hier können Sie die Zeugnisbemerkungen des Schülers eintragen](../assets/images/zeugnisdaten/zeugnisdaten41.png) |
 |2. Klicken Sie auf die Schaltfläche ``Hinzufügen`` neben der Liste der Zeugnisbemerkungen. Es öffnet sich das Dialogfenster `Neue Zeugnisbemerkung`. |
 |3. Wählen Sie hier die entsprechenden zuvor definierten Zeugnisbemerkungen über die Schaltfläche `Aus Verzeichnis wählen` aus oder geben Sie einen freien Text ein. |
 |4. Über das Häkchen `Fortschreiben `können Sie steuern, ob die Zeugnisbemerkung beim Versetzen oder Fortschreiben des Schülers ins kommende Halbjahr übernommen werden soll. |
@@ -418,7 +418,7 @@ Beim Anlegen einer Zeugnisbemerkung mit freiem Text steht Ihnen eine Rechtschrei
 |--|
 |1. Um den Assistenten für Sammelzuweisungen zu starten, müssen Sie links oben auf der Registerkarte `Zeugnis` auf die Schaltfläche` Sammelzuweisung…` klicken. |
 |2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.  Markieren Sie unter Schüler auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte `Zeugnis` erhalten sollen. |
-|3. Klicken Sie auf `Weiter`. Markieren Sie unter `Bemerkungen` auswählen die Einträge, die alle zuvor markierten Schüler erhalten sollen. Es sind hier Bereichsmarkierungen und Einzelmarkierungen möglich. Mit dem Häkchen `Fortschreiben` legen Sie fest, ob die Bemerkung für die Schüler beim Fortschreiben oder Versetzen ins Folgehalbjahr übernommen werden soll.<br/><br/>![Wählen Sie hier die Zeugnisbemerkung(en) aus](/images/zeugnisdaten/zeugnisdaten42.png) |
+|3. Klicken Sie auf `Weiter`. Markieren Sie unter `Bemerkungen` auswählen die Einträge, die alle zuvor markierten Schüler erhalten sollen. Es sind hier Bereichsmarkierungen und Einzelmarkierungen möglich. Mit dem Häkchen `Fortschreiben` legen Sie fest, ob die Bemerkung für die Schüler beim Fortschreiben oder Versetzen ins Folgehalbjahr übernommen werden soll.<br/><br/>![Wählen Sie hier die Zeugnisbemerkung(en) aus](../assets/images/zeugnisdaten/zeugnisdaten42.png) |
 |4. ^Klicken Sie jetzt auf `Weiter `und anschließend auf `Fertigstellen`, um die Sammelzuweisung auszuführen.|
 
 Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die zugewiesenen Daten einzeln beim Schüler abzuändern.
@@ -435,14 +435,14 @@ Außerdem kann ein Außenstehender (z.B. die Sekretärin) ohne die Kenntnis, wer
 
 Um das Verzeichnis der Zeugnisformulare zu bearbeiten, wechseln Sie zu `Extras > Schlüsselverzeichnisse > Zeugnisformulare`. Das Fenster `Verzeichnis der Zeugnisformulare` öffnet sich. Sie fügen Zeugnisdaten hinzu, indem Sie auf das Plus klicken. Es wird eine neue Zeile eingefügt, in die Sie direkt die Daten eingeben können. Geben Sie eine Bezeichnung für das Formular ein und verknüpfen Sie diese unter Dateiname mit dem Zeugnisbericht.
  
-![Optional kann im Verzeichnis der Zeugnisformulare unter `Typ` noch eine Ziffer vergeben werden, nach der man später beim Ausdruck entsprechend filtern kann.](/images/zeugnisdaten/zeugnisdaten44.png)
+![Optional kann im Verzeichnis der Zeugnisformulare unter `Typ` noch eine Ziffer vergeben werden, nach der man später beim Ausdruck entsprechend filtern kann.](../assets/images/zeugnisdaten/zeugnisdaten44.png)
 
 
 > #### success::Tipp
 >
 > Verwenden Sie das Feld `Typ` um später beim Ausdruck die Zeugnisformulare nach den unterschiedlichen Vorlagen (zum Beispiel A3 = Typ 3, A4= Typ 4 o.ä.) filtern zu können.
  
-![Pro Schüler können auf der Registerkarte `Zeugnisse` unter `Zeugnisformulare` die im Verzeichnis der Zeugnisformulare definierten Zeugnisse zugewiesen werden.](/images/zeugnisdaten/zeugnisdaten45.png)
+![Pro Schüler können auf der Registerkarte `Zeugnisse` unter `Zeugnisformulare` die im Verzeichnis der Zeugnisformulare definierten Zeugnisse zugewiesen werden.](../assets/images/zeugnisdaten/zeugnisdaten45.png)
 
 ### Wie wird gedruckt?
 
@@ -454,17 +454,17 @@ Beispiel: Sie haben die Ziffer 4 für A4-Papiervorlagen mit Wasserzeichen reserv
 
 Auf der Registerkarte Laufbahn des Schülers ist die Laufbahn des Schülers an der Schule aufgelistet.
  
-![Diese Auflistung erfolgt für jede Klasse pro Zeitraum.](/images/zeugnisdaten/zeugnisdaten46.png)
+![Diese Auflistung erfolgt für jede Klasse pro Zeitraum.](../assets/images/zeugnisdaten/zeugnisdaten46.png)
 
 
 Markiert man einen Zeitraumeintrag der Liste auf der linken Seite, so werden die entsprechenden Details zu diesem Zeitraum auf der rechten Seite für die  Registerkarten `Allgemein` und `Abschluss` angezeigt. Die Einträge in der Laufbahnliste des Schülers sind teilweise mit Symbolen markiert, welche eine Aussage über die Art des Wechselns machen.
 
 |Bedeutung der Symbole|
 |--|
-|Schüler ist in den nächsten Zeitraum versetzt bzw. fortgeschrieben worden.<br/><br/>![ ](/images/zeugnisdaten/lb01.png) 
-|Parallele Laufbahn des Schülers, der Schüler besucht eine weitere Klasse neben seiner Hauptklasse. <br/><br/>![ ](/images/zeugnisdaten/lb02.png) 
-|Der Schüler innerhalb des gleichen Zeitraums gewechselt. <br/><br/>![ ](/images/zeugnisdaten/lb03.png)
-|Der Schüler ist Wiederholer. <br/><br/> ![ ](/images/zeugnisdaten/lb04.png)
+|Schüler ist in den nächsten Zeitraum versetzt bzw. fortgeschrieben worden.<br/><br/>![ ](../assets/images/zeugnisdaten/lb01.png) 
+|Parallele Laufbahn des Schülers, der Schüler besucht eine weitere Klasse neben seiner Hauptklasse. <br/><br/>![ ](../assets/images/zeugnisdaten/lb02.png) 
+|Der Schüler innerhalb des gleichen Zeitraums gewechselt. <br/><br/>![ ](../assets/images/zeugnisdaten/lb03.png)
+|Der Schüler ist Wiederholer. <br/><br/> ![ ](../assets/images/zeugnisdaten/lb04.png)
 
 
 **Feld `Versetzt`**:
@@ -493,7 +493,7 @@ Auf der Registerkarte `Abschluss` kann der Abschluss des Schülers (z.B. Abitur)
 
 Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die zugewiesenen Daten einzeln abzuändern. Analog ist beim Durchführen einer Sammelzuweisung auf der Registerkarte `Abschluss` vorzugehen.
  
-![ Weisen Sie hier mehreren Schülern gleichzeitig bestimmte Laufbahndaten zu.](/images/zeugnisdaten/zeugnisdaten50.png)
+![ Weisen Sie hier mehreren Schülern gleichzeitig bestimmte Laufbahndaten zu.](../assets/images/zeugnisdaten/zeugnisdaten50.png)
 
 
 

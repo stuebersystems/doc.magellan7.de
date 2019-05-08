@@ -9,7 +9,7 @@ Die Überprüfung der Abiturzulassung gliedert sich in zwei aufeinander folgende
 
 Diese Schritte werden in den nachfolgenden Abschnitten erläutert.
  
- ![Registerkarte „Qualifikation“ in der Ansicht „Abitur.](/images/berlin/abitur/abitur1.png)
+ ![Registerkarte „Qualifikation“ in der Ansicht „Abitur.](../assets/images/berlin/abitur/abitur1.png)
  
 > #### warning::Wichtig!
 >
@@ -45,14 +45,14 @@ Wenn Sie auf die Schaltfläche `Vorschlag` klicken, dann werden von der Vorschla
 > Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
 
 
-![ Das Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik.](/images/berlin/abitur/abitur2.png)
+![ Das Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik.](../assets/images/berlin/abitur/abitur2.png)
 
 
 ### Zulassung berechnen
 
 Klicken Sie auf die Schaltfläche  `Neu berechnen`, um die Zulassung automatisch durch das entsprechende Skript berechnen zu lassen. Im Meldungsfenster werden die Qualifikationspunktzahl für den LK- und den GK-Bereich (letzteres nur bei „Gesamtqualifikation berechnen“) sowie evtl. Fehler angezeigt. Wenn Sie auf die Schaltfläche `Vorschlag` geklickt haben, ist das Meldungsfenster bereits geöffnet und die Qualifikation berechnet worden. Liegt die Summe beider Bereiche über der Mindestpunktzahl und sind keine weiteren Fehler ausgewiesen, dann ist die Abiturzulassung erreicht.
  
-![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](/images/berlin/abitur/abitur3.png)
+![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](../assets/images/berlin/abitur/abitur3.png)
 
 > #### primary::Hinweis
 >
@@ -91,7 +91,7 @@ Sollten Sie in der Qualifikationsphase Q1 bis Q4 auch bilingualen Unterricht hab
 *	pro Qualifikationshalbjahr (pro Zeitraum) bei der Ansicht „Schüler“ > Zeugnis > Fächer in der Spalte Sprache.
 *	in der Qualifikationsmatrix in der Ansicht „Abitur“ > Qualifikation in den Spalte Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache.
  
- ![Registerkarte „Qualifikation“ mit eingeblendeten Spalten für bilingualen Unterricht ](/images/berlin/abitur/abitur4.png)
+ ![Registerkarte „Qualifikation“ mit eingeblendeten Spalten für bilingualen Unterricht ](../assets/images/berlin/abitur/abitur4.png)
 
 > #### warning::Wichtig!
 >
@@ -103,13 +103,13 @@ Sollten Sie in der Qualifikationsphase Q1 bis Q4 auch bilingualen Unterricht hab
 
 Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf `Bearbeiten > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten „Qualifikation“ und „Prüfung“. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
  
-![ Das Dialogfenster mit dem Simulationsmodus ](/images/berlin/abitur/abitur5.png)
+![ Das Dialogfenster mit dem Simulationsmodus ](../assets/images/berlin/abitur/abitur5.png)
 
 ## Die Gesamtqualifikation
 
 Die Berechnung der Gesamtqualifikation bzw. der Abiturnote wird auf der Registerkarte „Prüfung“ durchgeführt.
  
-![Registerkarte „Prüfung“ in der Ansicht „Abitur“](/images/berlin/abitur/abitur6.png)
+![Registerkarte „Prüfung“ in der Ansicht „Abitur“](../assets/images/berlin/abitur/abitur6.png)
 
 Die Gesamtqualifikation ergibt sich, indem zusätzlich zu der schon feststehenden Qualifikation im Leistungs- und Grundfachbereich die Qualifikation im Prüfungsbereich durch die Noten im schriftlichen und mündlichen Abitur festgestellt wird. 
 
@@ -197,37 +197,37 @@ In den nachfolgenden Abbildungen finden Sie Beispiele für Crystal Reports Beric
 
  ### 1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
   
- ![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](/images/berlin/abitur/abitur7.png)
+ ![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../assets/images/berlin/abitur/abitur7.png)
 
  ### 2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
   
- ![2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](/images/berlin/abitur/abitur8.png)
+ ![2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../assets/images/berlin/abitur/abitur8.png)
 
  ### 1. Seite eines Crystal Reports Berichts für eine Kursliste
    
- ![1. Seite eines Crystal Reports Berichts für eine Kursliste ](/images/berlin/abitur/abitur9.png)
+ ![1. Seite eines Crystal Reports Berichts für eine Kursliste ](../assets/images/berlin/abitur/abitur9.png)
 
  ### 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)
    
-![ 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](/images/berlin/abitur/abitur10.png)
+![ 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../assets/images/berlin/abitur/abitur10.png)
 
  ### 2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)
    
- ![2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](/images/berlin/abitur/abitur11.png)
+ ![2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../assets/images/berlin/abitur/abitur11.png)
 
  ### Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe]
  
-![ Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe](/images/berlin/fachwahl/fachwahl12.png)
+![ Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe](../assets/images/berlin/fachwahl/fachwahl12.png)
  
  ### 1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/images/berlin/abitur/abitur13.png)
+ ![1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur13.png)
  
  ### 2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/images/berlin/abitur/abitur14.png)
+ ![2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur14.png)
  
  ### . Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/images/berlin/abitur/abitur15.png)
+ ![3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur15.png)
 

@@ -9,7 +9,7 @@ Bitte wählen Sie einen lokales Verzeichnis, wir empfehlen das Verzeichnis "Back
 
 Beispiel die Benennung: 2016-04-23.fbk
 
-![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](/images/sicherung nicht lokal speichern.jpg)
+![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](../assets/images/sicherung nicht lokal speichern.jpg)
  
 ## Die Magellan-Datenbank-ODS-Version ist nicht aktuell
 
@@ -48,12 +48,12 @@ Starten Sie anschließend die Installation von Firebird per Doppelklick auf das 
 
 Für die Datenstrukturanpassung darf kein Nutzer außer dem sysdba, der die Anpassung durchführt, angemeldet sein. Wenn Sie nicht wissen, wer in Ihrem Netzwerk noch ein Magellan-Modul(Schulverwaltung, Bibliothek, Haushalt&Inventar u.a) gestartet hat, können Sie den Firebird-Dienst stoppen und erneut starten. Öffnen Sie dazu auf Ihrem Server-Rechner in der Systemsteuerung den Punkt Firebird-Server-Manager, stoppen den Dienst und starten ihn erneut. 
 
-![Firebird-Dienst über das Firebird-Control in der Systemsteuerung stoppen](/images/fb_control_stoppen.png)
+![Firebird-Dienst über das Firebird-Control in der Systemsteuerung stoppen](../assets/images/fb_control_stoppen.png)
 
 Alternativ können Sie den Firebird-Server auch unter `Start > Systemsteuerung > Verwaltung > Dienste` anhalten.
 
 
-![Firebird-Dienst stoppen](/images/firebird_stop.jpg)
+![Firebird-Dienst stoppen](../assets/images/firebird_stop.jpg)
 
 Fehlt Ihnen der Aufruf in der Systemsteuerung? Sie können den Dienst auch unter Systemsteuerung|Verwaltung|Dienste|Firebird-Server finden.
 
@@ -61,7 +61,7 @@ Fehlt Ihnen der Aufruf in der Systemsteuerung? Sie können den Dienst auch unter
 
 Sie starten nach dem Update MAGELLAN und erhalten folgende Meldung?
 
-![Fehlermeldung beim Start von MAGELLAN](/images/strukturanpassenfehler2.png)
+![Fehlermeldung beim Start von MAGELLAN](../assets/images/strukturanpassenfehler2.png)
 
 Nr|Ursache
 --|--
@@ -91,7 +91,7 @@ Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Ins
 
 Sie spielen das Update ein und dennoch fehlen Skripte für die Strukturanpassung oder zum Beispiel das in der LiesMich-Datei angekündigte neue Zeugnis?
 
-![Fehlermeldung beim Start von MAGELLAN](/images/strukturanpassenfehler1.png)
+![Fehlermeldung beim Start von MAGELLAN](../assets/images/strukturanpassenfehler1.png)
 
 
 Drei Möglichkeiten können hinter diesem Problem stecken: 
@@ -125,7 +125,7 @@ Wenn bei einem Update die Datenstruktur um eine neue Tabelle erweitert wurde, da
 Bitte rufen Sie den MAGELLAN Administrator auf und führen den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` durch, im Anschluss können die Kollegen sich wieder mit der gewohnten Kennung anmelden.
 
 
-![Führen Sie diesen Punkt aus, um für neue Bestandteile der Datenbank die Zugriffsrechte für Ihre Benutzer zu vergeben](/images/update.zugriffsrechte.synch.png)
+![Führen Sie diesen Punkt aus, um für neue Bestandteile der Datenbank die Zugriffsrechte für Ihre Benutzer zu vergeben](../assets/images/update.zugriffsrechte.synch.png)
 
 ## Meldung "Runtime error ..."
 

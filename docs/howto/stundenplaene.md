@@ -31,9 +31,9 @@ Zum Austausch der Magellandaten mit Untis müssen Sie zunächst eine Schuldatent
 
 3. Wählen Sie im Fenster `Magellan-Export` den Mandanten und das Halbjahr, aus dem Sie die Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, in die Sie exportieren wollen.
 
-![Geben Sie den Mandaten und Das Halbjahr für den Export an.](/images/stundenplandaten/stundenplandaten01.png)
+![Geben Sie den Mandaten und Das Halbjahr für den Export an.](../assets/images/stundenplandaten/stundenplandaten01.png)
 
-![Wählen Sie hier was Sie exportieren wollen](/images/stundenplandaten/stundenplandaten02.png)
+![Wählen Sie hier was Sie exportieren wollen](../assets/images/stundenplandaten/stundenplandaten02.png)
 
 
 4. Wählen Sie hier die Daten aus, die Sie aus MAGELLAN nach Untis exportieren wollen. Klicken Sie auf `Weiter`, um die Daten in die zuvor angegebene Datei zu übertragen.
@@ -98,14 +98,14 @@ Die aus Untis exportierte Schuldatentransferdatei muss nun nach MAGELLAN importi
 1. Wählen Sie in MAGELLAN `Extras `und dann `Import > Untis`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das Willkommen-Fenster mit Weiter.
 
-![Legen Sie hier den Übertragungsrichtung fest.](/images/stundenplandaten/stundenplandaten03.png)
+![Legen Sie hier den Übertragungsrichtung fest.](../assets/images/stundenplandaten/stundenplandaten03.png)
 
 3. Wählen Sie im Fenster `MAGELLAN-Import` den Mandanten und das Halbjahr, in das Sie die Untis-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, die Sie importieren wollen.
 
-![Geben Sie hier die Importdatei, den Mandanten in MAGELLAN und den Zeitraum an, in welchen die Daten importiert werden sollen](/images/stundenplandaten/stundenplandaten04.png)
+![Geben Sie hier die Importdatei, den Mandanten in MAGELLAN und den Zeitraum an, in welchen die Daten importiert werden sollen](../assets/images/stundenplandaten/stundenplandaten04.png)
 
 
-![Wählen Sie hier die Daten aus, die Sie aus Untis nach MAGELLAN importieren wollen.](/images/stundenplandaten/stundenplandaten05.png)
+![Wählen Sie hier die Daten aus, die Sie aus Untis nach MAGELLAN importieren wollen.](../assets/images/stundenplandaten/stundenplandaten05.png)
 
 
 
@@ -179,7 +179,7 @@ Aus dem Menü Abitur heraus können die jahrgangsübergreifenden Fachwahlen in e
 Gehen Sie dazu wie folgt vor:
 1. Wählen Sie in der Ansicht Abitur die Karte Fachwahl eines beliebigen Schülers. Starten Sie den Assistenten unter `Bearbeiten > Fachwahl exportieren`.
 
-![Assistent „Fachwahlen exportieren“](/images/stundenplandaten/stundenplandaten06.png)
+![Assistent „Fachwahlen exportieren“](../assets/images/stundenplandaten/stundenplandaten06.png)
 
 2. Wählen Sie einen Zeitraum aus. Die Schülerliste zeigt nur die Schüler an, für die eine Fachwahl für den gewählten Zeitraum angelegt wurde.
 3. Lassen Sie sich die Ansicht gefiltert anzeigen, indem Sie ein Datum eingeben und nur Schüler mit einer Änderung der Fachwahlen ab dem gewählten Datum angezeigt bekommen.
@@ -197,7 +197,7 @@ Zum Austausch der Daten gehen Sie bitte folgendermaßen vor:
 1. Wählen Sie in MAGELLAN `Extras `und dann `Export > Schuldatentransferformat`. Geben Sie die MAGELLAN-Administrator-Kennung ein. 
 2. Bestätigen Sie das Willkommen-Fenster. Wählen Sie im Fenster `Magellan-Export` den Mandanten und das Halbjahr, aus dem Sie die Magellan-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, in die der Export erfolgen soll.
 
-![Wählen Sie hier die Daten aus, die Sie aus MAGELLAN exportieren wollen.](/images/stundenplandaten/stundenplandaten07.png)
+![Wählen Sie hier die Daten aus, die Sie aus MAGELLAN exportieren wollen.](../assets/images/stundenplandaten/stundenplandaten07.png)
 
 3. Klicken Sie auf `Weiter`, um die Daten in die zuvor angegebene Datei zu übertragen. Sie können folgende Daten übernehmen:
  
@@ -250,7 +250,7 @@ Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus einer Schuldatentransferdat
 1. Wählen Sie in MAGELLAN `Extras `und dann `Import > Schuldatentransferformat`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das `Willkommen-Fenster`. Wählen Sie im Fenster `Magellan-Import` den Mandanten und das Halbjahr, in das Sie die DAVINCI-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, die Sie importieren wollen.
 
-![Wählen Sie hier die Daten aus, die Sie nach MAGELLAN importieren wollen.](/images/stundenplandaten/stundenplandaten08.png)
+![Wählen Sie hier die Daten aus, die Sie nach MAGELLAN importieren wollen.](../assets/images/stundenplandaten/stundenplandaten08.png)
 
 
 3. Klicken Sie auf `Weiter`, um die Daten aus der Schuldatentransferdatei zu übertragen. Sie können folgende Daten übernehmen:

@@ -24,7 +24,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 
 
 
-![Beispiel für Eintragung im Verzeichnis Verordnungen für Abiturberechnung (G8 oder G9)](/images/berlin/abitur/ber.apo.2011.png)
+![Beispiel für Eintragung im Verzeichnis Verordnungen für Abiturberechnung (G8 oder G9)](../assets/images/berlin/abitur/ber.apo.2011.png)
 
 
 

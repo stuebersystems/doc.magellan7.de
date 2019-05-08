@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor:
 2. Wählen Sie `Extras > In Mandanten GUIDs abgleichen...` aus.
 3. Wählen Sie einen Mandanten und den Speicherort für die Logdatei aus, klicken Sie auf `Weiter `und `Fertigstellen`.
 
-![Assistent unter `Extras > In Mandanten GUIDs abgleichen...` ](/images/mandant_guids_abgleichen.png)
+![Assistent unter `Extras > In Mandanten GUIDs abgleichen...` ](../assets/images/mandant_guids_abgleichen.png)
 
 Bei allen Personen, Lehrern oder Sorgeberechtigten des Zielmandanten wurde jetzt die GUID des Startmandanten zugewiesen, vorausgesetzt die fünf oben genannten Felder wurden als identisch erkannt und die GUID war noch unterschiedlich.
 
@@ -42,7 +42,7 @@ Die Logdatei "AbgleichMandantenGUID.log.csv" zeigt für welche Datensätze die G
 
 Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
 
-![Unterkarte Mandanten](/images/optionen_mandanten.png)
+![Unterkarte Mandanten](../assets/images/optionen_mandanten.png)
 
 > #### primary::Tipp
 >
@@ -58,7 +58,7 @@ Option|Was passiert
 Kopie des Lehrers im aktuellen Mandanten anlegen|Die Daten des Lehrers (inklusive GUID) werden kopiert
 Lehrer trotzdem anlegen|Lehrer wird mit neuer GUID angelegt, die weiteren Felder sind leer
 
-![Doublettenprüfung mandantenübergreifend](/images/mandant_lehrer_anlegen.png)
+![Doublettenprüfung mandantenübergreifend](../assets/images/mandant_lehrer_anlegen.png)
 
 #### Ändern
 
@@ -68,7 +68,7 @@ Lehrer trotzdem anlegen|Lehrer wird mit neuer GUID angelegt, die weiteren Felder
 
 Wenn Sie einen Lehrer, eine Person oder einen Sorgeberechtigten löschen, dann kann zusätzlich die Option gewählt werden, ob auch per GUID als zusammengehörig erkannte Lehrer (, Personen oder Sorgeberechtigte) in anderen Mandanten gelöscht werden sollen.
 
-![Abfrage beim Löschen eines Lehrers (genauso für Sorgeberechtigte oder Personen)](/images/mandant_lehrer_loeschen.png)
+![Abfrage beim Löschen eines Lehrers (genauso für Sorgeberechtigte oder Personen)](../assets/images/mandant_lehrer_loeschen.png)
 
 ## Versetzen in einen anderen Mandanten
 

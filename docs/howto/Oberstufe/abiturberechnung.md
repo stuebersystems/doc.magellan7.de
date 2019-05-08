@@ -12,7 +12,7 @@ Folgende Aktionen werden auf diesen Karten abgebildet:
 
 ##  Schüler ins Menü Abitur synchronisieren
 
-![Dialogfenster zum Synchronisieren der Daten für das Abitur](/images/gym_oberstufe/gym_oberstufe03.png)
+![Dialogfenster zum Synchronisieren der Daten für das Abitur](../assets/images/gym_oberstufe/gym_oberstufe03.png)
 
 Bevor Sie die Abiturqualifikationen überprüfen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf `Abitur` klicken und dann auf die Schaltfläche `Schüler synchronisieren` im MAGELLAN-Fenster klicken.
 
@@ -29,7 +29,7 @@ Bevor Sie die Abiturqualifikationen überprüfen können, müssen Sie die Daten 
 > Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 
-![Klassenart für die Oberstufenberechnungen](/images/gym_oberstufe/oberstufe02.png)
+![Klassenart für die Oberstufenberechnungen](../assets/images/gym_oberstufe/oberstufe02.png)
 
 
 ## Die Abiturzulassungsüberprüfung
@@ -41,7 +41,7 @@ Die Überprüfung der Abiturzulassung gliedert sich in zwei aufeinander folgende
 
 Diese Schritte werden in den nachfolgenden Abschnitten erläutert.
 
-![Registerkarte `Qualifikation` in der Ansicht „Abitur“](/images/gym_oberstufe/gym_oberstufe14.png)
+![Registerkarte `Qualifikation` in der Ansicht „Abitur“](../assets/images/gym_oberstufe/gym_oberstufe14.png)
 
 > #### warning::Wichtig!
 >
@@ -78,7 +78,7 @@ Wenn Sie auf `Vorschlag `klicken, dann werden von der Vorschlagsautomatik entspr
 
 Klicken Sie auf `Neu berechnen`, um die Zulassung automatisch durch das entsprechende Skript berechnen zu lassen. Im Meldungsfenster werden die Qualifikationspunktzahl für den LK- und den GK-Bereich (letzteres nur bei `Gesamtqualifikation berechnen`) sowie evtl. Fehler angezeigt. Wenn Sie auf `Vorschlag `geklickt haben, ist das Meldungsfenster bereits geöffnet und die Qualifikation berechnet worden. Liegt die Summe beider Bereiche über der Mindestpunktzahl und sind keine weiteren Fehler ausgewiesen, dann ist die Abiturzulassung erreicht.
 
-![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](/images/gym_oberstufe/gym_oberstufe15.png)
+![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](../assets/images/gym_oberstufe/gym_oberstufe15.png)
 
 Die Hinweise bzw. Fehlermeldungen im Meldungsfenster sind abhängig vom verwendeten Skript. Fehler führen dazu, dass die Zulassung nicht erreicht ist.
 
@@ -124,7 +124,7 @@ Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, u
 
 Die Berechnung der Gesamtqualifikation bzw. der Abiturnote wird auf der Registerkarte `Prüfung` durchgeführt.
 
-![Registerkarte `Prüfung` in der Ansicht „Abitur“](/images/gym_oberstufe/gym_oberstufe16.png)
+![Registerkarte `Prüfung` in der Ansicht „Abitur“](../assets/images/gym_oberstufe/gym_oberstufe16.png)
 
 Die Gesamtqualifikation ergibt sich, indem zusätzlich zu der schon feststehenden Qualifikation im Leistungs- und Grundfachbereich die Qualifikation im Prüfungsbereich durch die Noten im schriftlichen und mündlichen Abitur festgestellt wird. Sie erfolgt in zwei Schritten:
 
@@ -167,11 +167,11 @@ Für die Eingabe mit Hilfe des Assistenten `Schriftliche Prüfungsnoten...` gehe
 
 3. Wählen Sie ein Prüfungsfach aus, die Fächer werden nach den unterrichtenden Lehrern getrennt aufgelistet.
 
-![Auswahl des Faches](/images/gym_oberstufe/gym_oberstufe17.png)
+![Auswahl des Faches](../assets/images/gym_oberstufe/gym_oberstufe17.png)
 
 Ihnen werden alle Schüler gezeigt, die dieses Fach als Prüfungsfach beim gleichen Lehrer haben. Für die Eingabe kann nach der Unterrichtsart und dem Fachstatus gefiltert werden.
 
-![Eingabeliste für die schriftlichen Prüfungsnoten](/images/gym_oberstufe/gym_oberstufe18.png)
+![Eingabeliste für die schriftlichen Prüfungsnoten](../assets/images/gym_oberstufe/gym_oberstufe18.png)
 
 Spalte|Bedeutung
 --|--
