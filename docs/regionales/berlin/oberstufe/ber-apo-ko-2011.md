@@ -29,10 +29,9 @@ Sport |Sport
 
 Die nachfolgenden Fachkategorien werden verwendet.
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Verwendete Fach-Kategorie-Schlüssel
@@ -88,12 +87,9 @@ Kürzel| Schlüssel |Bedeutung
 5PF |5PF| 5. Prüfungsfach
 Pflicht|Pflicht|Pflichtbereich
 
+!!! info "Hinweis"
 
-
-
-> #### primary::Hinweis
->
-> Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
+    Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
 
 
 ## Besondere Lernleistung oder Präsentationsprüfung

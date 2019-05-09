@@ -14,9 +14,9 @@ Um einen neuen Sorgeberechtigten aufzunehmen, klicken Sie in der Startleiste auf
 Geben Sie Vor- und Nachname ein und bestätigen Sie mit `OK`.
 Der neue Sorgeberechtigte wird erstellt. Sie befinden sich automatisch auf der Registerkarte `Daten`. Sollte der Sorgeberechtigte als bereits erfasst erkannt werden, erscheint automatisch das Fenster der Doublettenprüfung (siehe `Doublettenprüfung`). Geben Sie nun die erforderlichen Daten zum Sorgeberechtigten ein. 
 
-> #### danger::Achtung!
->
-> Sie können um auf Ansprechpartner oder Familienmitglieder für einen Schüler zu verweisen, vom Register `Daten1` des Schülers/Bewerbers aus auf Datensätze aus den Menüs `Personen`, `Lehrer` oder `Schüler/Bewerber` verweisen.
+!!! info "Hinweis"
+
+  Sie können um auf Ansprechpartner oder Familienmitglieder für einen Schüler zu verweisen, vom Register `Daten1` des Schülers/Bewerbers aus auf Datensätze aus den Menüs `Personen`, `Lehrer` oder `Schüler/Bewerber` verweisen.
 
 ## Registerkarte `Sorgeberechtigte > Daten`
 
@@ -33,6 +33,6 @@ Auf der Registerkarte `Kinder` werden alle Kinder des Sorgeberechtigten mit dere
 
 Hier werden alle Schüler aufgelistet, die der Sorgeberechtigten `Andrea Antelami` zugewiesen wurden.
 
-> #### primary::Hinweis
->
-> Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Bearbeiten > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keine weiteren aktiven Schüler an der Schule haben.
+!!! info "Hinweis"
+
+  Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Bearbeiten > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keine weiteren aktiven Schüler an der Schule haben.

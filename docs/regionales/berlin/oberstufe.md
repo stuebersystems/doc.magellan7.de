@@ -1,15 +1,15 @@
 # Wichtige Angaben für die Oberstufe
 
-> #### warning::Wichtig!
->
-> Bitte beachten Sie in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/), in der pro Skript alle notwendigen Angaben beschrieben werden.
+!!! info "Hinweis"
+
+     Bitte beachten Sie in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/), in der pro Skript alle notwendigen Angaben beschrieben werden.
 
 
 ## Fächerverzeichnis
 
 Das Verzeichnis der Fächer beinhaltet alle Fächer Ihrer Schule. Sie können das Fächerverzeichnis über `Verzeichnisse > Fächer` aufrufen.
  
-![Das Verzeichnis der Fächer](../assets/images/berlin/oberstufe/oberstufe1.png)
+![Das Verzeichnis der Fächer](../../assets/images/berlin/oberstufe/oberstufe1.png)
 
 Im Verzeichnis der Fächer dient das Fachkürzel dient in der Regel nur der schulinternen Bezeichnung. Für jedes Fach können Sie unter „Schlüssel“ den für etwaige landesspezifische Statistiken relevanten Statistikschlüssel eintragen. Die Fächerkürzel werden in der Regel weder von der Fachwahlüberprüfung noch von den Abiturskripten beachtet. Für die Abiturqualifikation und die Fachwahlüberprüfung sind ausschließlich die Angaben unter „Fachkategorie“ (Spalte „Kategorie“) und „Aufgabenbereich“ (Spalte „Aufgabenbereich“) entscheidend. Sie bestimmen die Semantik des Fachkürzels.
 

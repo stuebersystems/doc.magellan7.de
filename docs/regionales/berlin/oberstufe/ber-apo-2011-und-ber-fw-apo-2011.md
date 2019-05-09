@@ -4,6 +4,7 @@
 Voraussetzung für die Abiturqualifikationsberechnung und Fachwahlüberprüfung ist, dass Sie für jedes in der Oberstufe benutzte Fach die Kategorie und den Aufgabenbereich und bei den Fächern des Schülers die entsprechende Unterrichtsart und den entsprechenden Fachstatus eingegeben haben.
 
 ##Verzeichnis Verordnung
+
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
 
 |Spalte|Wert|
@@ -34,10 +35,9 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 
 Die Aufgabenbereiche sind in MAGELLAN und DAVINCI fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Abkürzung| Bedeutung
@@ -125,10 +125,9 @@ Kürzel |Schlüssel| Bedeutung
 BLL |BLL |5. Prüfungskomponente Besondere Lernleistung
 PRS |PRS |5. Prüfungskomponente Präsentationsprüfung
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
+    Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
 
 
 ## Die 5. Prüfungskomponente

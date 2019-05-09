@@ -6,9 +6,9 @@ Diesen Installationstyp wählen Sie bitte aus, wenn Sie einen Arbeitsplatzrechne
 
 Es werden während der Installation nur Programmdateien abgelegt, im Anschluss wird der Willkommensassistent gestartet, Sie geben die Pfade zu den gemeinsam genutzten Verzeichnissen in Ihrem Netzwerk ein.
 
-> #### success::Tipp
->
-> Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/installation/arbeitsplatz.installlieren.html#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html)) abgelegt werden.
+!!! info "Hinweis"
+
+  Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/installation/arbeitsplatz.installlieren.html#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html)) abgelegt werden.
 
 
 

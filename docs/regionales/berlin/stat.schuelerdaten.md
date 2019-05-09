@@ -9,15 +9,15 @@ Art |Schulform |Dateiname
 ----|----------|--------
 Schülerdaten|Für Allgemeinbildende Schulen|SchuelerABS_2010_xxxxx.csv
 -|Für Berufsbildende Schulen|SchuelerBBS_2010_xxxxx.csv
-Abiturerfassung<br/>[Anleitung](https://doc.magellan6.stueber.de/bundeslaender/berlin/abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
+Abiturerfassung<br/>[Anleitung](https://doc.magellan7.stueber.de/bundeslaender/berlin/abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
 -|Für Berufsbildende Schulen|Abiturerfassung_BBS_2015_xxxxx.csv
 
 Hierbei steht xxxxx für Ihre Schulnummer.
 
 
-> #### warning::Wichtig!
->
-> Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan6.stueber.de/bundeslaender/berlin/abidaten.html).
+!!! info "Hinweis"
+
+     Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan7.stueber.de/bundeslaender/berlin/abidaten.html).
 
 
 
@@ -58,7 +58,9 @@ Zur Datenprüfung gehen Sie bitte wie folgt vor:
 Die Ergebnisse der Datenprüfung werden unter Hinweise aufgelistet. Sind dort keine Hinweise enthalten, sind die Daten für die Abgabe korrekt eingegeben. Die Hinweise werden unterschieden nach Art der Datei, dem betroffenen Daten-satz, Kontroll-Nr. der Plausibilität und dem eigentlichen Meldungstext. Sie können die Hinweise gruppieren und/oder Filtern und über die Schaltfläche „Export nach Excel“ nach Excel exportieren.
 Sie müssen nun die Meldungen in MAGELLAN bearbeiten und dann erneut eine Datenprüfung durchführen.
 
->Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von korrekten Fremdsprachen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
+!!! info "Hinweis"
+
+     Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von korrekten Fremdsprachen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
 
 ## Statistikdaten erstellen
 
@@ -272,57 +274,4 @@ Teil|	Teil II
 **Statistikfeld**|	U_Fremdsprache_Fakultativ						
 MAGELLAN-Feld|	Schüler > Daten 3 > Fremdsprachenfolge > 3	Fremdsprache<br/>Schüler > Daten 3 > Fremdsprachenfolge > 3	Fremdsprache > Zusatz				
 Anmerkung|	Geben Sie die dritte Fremdsprache ein und tragen diese unter Zusatz als „Wahlfach (fakultative FS)“ ein	 (nur BBS)					
-Typ|	-						
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
-							
+Typ|	-	

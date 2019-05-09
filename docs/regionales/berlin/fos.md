@@ -25,9 +25,11 @@ Bevor wir mit der Vorbereitung der Abschlussprüfung beginnen, müssen wir zunä
 
 Die gesamte Abschlussberechnung wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Abschlussberechnungsskript repräsentiert eine Fachoberschulprüfungsordnung (APO-FOS). Es wird im Folgenden jeweils das Veröffentlichungsjahr der entsprechenden Verordnung angeben.
 
-> #### warning::Wichtig!
->
-> Alle zur Verfügung stehenden Skripte finden Sie im [Skriptüberblick](https://doc.magellan6.stueber.de/bundeslaender/berlin/skriptuebersicht.html). Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Für die Skriptdateien [BER-APO-FOS-2006/2013](https://doc.magellan6.stueber.de/bundeslaender/berlin/fos/ber-apo-fos-20062013.html) folgt die Beschreibung im nächsten Kapitel.
+
+
+!!! info "Hinweis"
+
+     Alle zur Verfügung stehenden Skripte finden Sie im [Skriptüberblick](https://doc.magellan7.stueber.de/bundeslaender/berlin/skriptuebersicht.html). Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Für die Skriptdateien [BER-APO-FOS-2006/2013](https://doc.magellan7.stueber.de/bundeslaender/berlin/fos/ber-apo-fos-20062013.html) folgt die Beschreibung im nächsten Kapitel.
 
 Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner „Skripte“. Die MAGELLAN-Skripte berechnen die Fachhochschulreife für die Fachoberschule.
 
@@ -45,9 +47,9 @@ Klassenart|	Oberstufenjahrgang (nur Kurse)
 Jahrgang	|11 oder 12 (pro Zeitraum der Klasse notwendig)
 Beurteilungsart	|Benotung durch Punkte
 
-> #### warning::Wichtig!
->
-> Um die pro Schüler in den Halbjahren erzielten Ergebnisse in die jeweils korrekte Spalte unter `Abitur  >  Qualifikation` zu synchronisieren, werden im Verzeichnis Verordnungen in der Spalte Typ die Werte „FOS2J“ oder „FOS1J“ erwartet. Für einjährige Klassen werden die Ergebnisse der 11 damit in die Spalten Q3 und Q4 gespielt, für zweijährige die Ergebnisse der 11-12 in die Spalten Q1-Q4.
+!!! info "Hinweis"
+
+     Um die pro Schüler in den Halbjahren erzielten Ergebnisse in die jeweils korrekte Spalte unter `Abitur  >  Qualifikation` zu synchronisieren, werden im Verzeichnis Verordnungen in der Spalte Typ die Werte „FOS2J“ oder „FOS1J“ erwartet. Für einjährige Klassen werden die Ergebnisse der 11 damit in die Spalten Q3 und Q4 gespielt, für zweijährige die Ergebnisse der 11-12 in die Spalten Q1-Q4.
 
 
 
@@ -69,21 +71,20 @@ In den nachfolgenden Abschnitten erfahren Sie mehr zu den einzelnen Punkten.
 
 ## Fachoberschuljahrgang definieren
 
-![Fachoberschuljahrgang definieren](../assets/images/berlin/fos/fos1.png)
+![Fachoberschuljahrgang definieren](../../assets/images/berlin/fos/fos1.png)
 
 
 Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Fachoberschuljahrgang. Damit können Sie jedem Schüler in der Rubrik „Abitur“ den entsprechenden Abiturjahrgang (=Fachoberschuljahrgang) zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Fachoberschuljahrgangs z.B. für Ausdrucke herausfiltern zu können. 
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Geben Sie bei der Definition des Fachoberschuljahrgangs im Fenster Verzeichnisse der Abschlussjahrgänge unter „Kategorie“ unbedingt „Abitur“ an.
+     Geben Sie bei der Definition des Fachoberschuljahrgangs im Fenster Verzeichnisse der Abschlussjahrgänge unter „Kategorie“ unbedingt „Abitur“ an.
 
 
 ## Prüfungsordnung definieren
 
 
-![ Prüfungsordnung definieren](../assets/images/berlin/fos/fos2.png)
+![ Prüfungsordnung definieren](../../assets/images/berlin/fos/fos2.png)
 
 
 Sie müssen für jeden Schüler die Fachoberschulverordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis Verordnungen die jeweilige Fachoberschulverordnung definieren. Klicken Sie dazu auf `Verzeichnisse > Verordnungen` und geben Sie dort Verordnung wie folgt an:
@@ -102,7 +103,7 @@ Skript |Geben Sie hier den Namen des Skripts für diese Fachoberschulverordnung 
 
 ## Fachoberschulhalbjahresdaten synchronisieren
 
-![Fachoberschulhalbjahresdaten synchronisieren](../assets/images/berlin/fos/fos3.png)
+![Fachoberschulhalbjahresdaten synchronisieren](../../assets/images/berlin/fos/fos3.png)
 
 
 Bevor Sie den Fachoberschulabschluss überprüfen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf „Abitur“ klicken und dann auf die Schaltfläche` Schüler Synchronisieren...` oben im MAGELLAN-Fenster klicken.
@@ -125,10 +126,9 @@ Jahrgang| Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ 
 
 Ohne diese Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Beim Synchronisieren werden die Noten aus der Spalte „Endnote“ in das Menü „Abitur“ übernommen.
+     Beim Synchronisieren werden die Noten aus der Spalte „Endnote“ in das Menü „Abitur“ übernommen.
 
 
 Beim Synchronisieren sollten Sie für die markierten Schüler die Fachoberschulverordnung und den Fachoberschuljahrgang eingeben.
@@ -167,7 +167,7 @@ In Abhängigkeit vom verwendeten Skript müssen bestimmte Einträge in den Spalt
 
 ## Vornoten auf der Registerkarte „Qualifikation“
 
-![ Vornoten auf der Registerkarte „Qualifikation“](../assets/images/berlin/fos/fos4.png)
+![ Vornoten auf der Registerkarte „Qualifikation“](../../assets/images/berlin/fos/fos4.png)
 
    
 Auf  der Registerkarte „Qualifikation“ können Sie die Fächer und Punkte für die einzelnen Halbjahre des Schülers eingeben.  Sie dienen als Grundlage für die Berechnung der Vornote.  
@@ -178,13 +178,12 @@ Haben Sie die einzelnen Punkte der Fächer bereits in den jeweiligen Zeiträumen
 
 Im Dialogfenster „Layout anpassen“ können Sie auf der Registerkarte „Qualifikation“ die Spaltenüberschriften selbst bestimmen und Spalten auf Wunsch ausblenden.
  
-![ Spalten ausblenden bzw. umbenennen](../assets/images/berlin/fos/fos5.png)
+![ Spalten ausblenden bzw. umbenennen](../../assets/images/berlin/fos/fos5.png)
 
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Sie können einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche    „Layout anpassen“. Für das Skript BER-APO-FOS-2006 oder BER-APO-FOS-2013 muss statt der Spalte „Summe“ die Spalte „Summe2“ eingeblendet werden.
+     Sie können einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche    „Layout anpassen“. Für das Skript BER-APO-FOS-2006 oder BER-APO-FOS-2013 muss statt der Spalte „Summe“ die Spalte „Summe2“ eingeblendet werden.
 
 ### Berechnung der Vornoten
 
@@ -203,7 +202,7 @@ Für die weitere Berechnung wird dann diese Vorschlagsnote anstelle der automati
 
 ## Die Abschlussprüfung
  
- ![Die Abschlussprüfung](../assets/images/berlin/fos/fos7.png)
+ ![Die Abschlussprüfung](../../assets/images/berlin/fos/fos7.png)
 
  
 Die Berechnung der Abschlussnoten aufgrund der Prüfungen und der Durchschnittsnote wird auf der Registerkarte „Prüfung“ durchgeführt. Die Abschlussnoten ergeben sich, indem zusätzlich zu den schon feststehenden Vornoten aus der Qualifikation im Prüfungsbereich noch  Noten in schriftlichen und mündlichen Prüfungen festgestellt werden
@@ -212,7 +211,7 @@ Die Berechnung der Abschlussnoten aufgrund der Prüfungen und der Durchschnittsn
 
 Sie können die Anzahl der angezeigten Prüfungsfächer auf bis zu 11 Prüfungsfächer festlegen, indem Sie auf die Schaltfläche` „Layout anpassen“` klicken und im entsprechenden Dialogfenster die Einstellungen machen.
 
-![Layout anpassen](../assets/images/berlin/fos/fos8.png)
+![Layout anpassen](../../assets/images/berlin/fos/fos8.png)
 
  
 ### Prüfungsdaten eingeben
@@ -228,12 +227,11 @@ Machen Sie  auf der Registerkarte „Prüfung“ folgende Angaben:
 Klicken Sie auf der Registerkarte “Prüfung“ auf die Schaltfläche  `Neu berechnen`, um die Abschlussnoten automatisch durch das entsprechende Skript berechnen zu lassen. 
 Im Meldungsfenster wird das Erreichen bzw. das Nichterreichen der Fachhochschulreife ausgewiesen sowie entsprechende Hinweise und die Durchschnittsnote angezeigt.
  
-![Abschlussnoten der Prüfungen berechnen](../assets/images/berlin/fos/fos9.png)
+![Abschlussnoten der Prüfungen berechnen](../../assets/images/berlin/fos/fos9.png)
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
->  Die Hinweise bzw. Fehlermeldungen im Meldungsfenster sind abhängig vom verwendeten Skript. Fehler führen dazu, dass die Zulassung nicht erreicht ist.
+     Die Hinweise bzw. Fehlermeldungen im Meldungsfenster sind abhängig vom verwendeten Skript. Fehler führen dazu, dass die Zulassung nicht erreicht ist.
 
 Solange keine Note für das mündliche Prüfungsfach eingetragen wurde, wird angezeigt, welche Mindestpunktzahl in der mündlichen Prüfung erreicht werden muss, damit das Abitur bestanden ist. Wenn als Mindestpunktzahl Null angezeigt wird, ist das Abitur bereits unabhängig von der mündlichen Note bestanden.
 

@@ -48,16 +48,14 @@ Das Statistikamt gibt jährlich aktualisierte Schlüssel für die Landesstatisti
 |2.| Öffnen Sie das Modul MAGELLAN- Administrator und wählen die Ansicht `Datenaustausch > Kataloge (Schlüsselverzeichnisse)importieren`.|
 |3.| Wählen Sie Sachsen, Ihrer Schulart und Ihren Mandanten aus und importieren einen ausgewählten oder alle mitgelieferten Kataloge.|
 
-![Import der mitgelieferten MAGELLAN-Schlüssel](../assets/images/sachsen/schluesselimport.png)
+![Import der mitgelieferten MAGELLAN-Schlüssel](../../assets/images/sachsen/schluesselimport.png)
 
 
-> #### danger::Achtung!
->
-> Wenn Sie MAGELLAN im Alltag einsetzen haben Sie bereits Schlüssel in Ihrer Datenbank verwendet, für die Sie eigene oder keine Werte in der Spalte `Schlüssel` eingetragen haben. 
-> Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen. 
-> Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
-> 
->Erhalten Sie eine Fehlermeldung beim Einlesen des Verzeichnisses `Bildungsgaenge`, lesen Sie bitte weiter unten den Abschnitt "Probleme beim Schlüsselimport?"!
+Wenn Sie MAGELLAN im Alltag einsetzen haben Sie bereits Schlüssel in Ihrer Datenbank verwendet, für die Sie eigene oder keine Werte in der Spalte `Schlüssel` eingetragen haben. 
+Durch diese eigenen Werte haben wir nicht die Möglichkeit beim Import der neuen Schlüssel diese mit Ihren Schlüsseln abzugleichen. 
+Es muss mindestens beim ersten Statistikdurchlauf (ab dem nächsten Jahr können dann Schlüssel erkannt werden) ein manuelle Nacharbeit erfolgen. Bitte lesen Sie dazu den nächsten Abschnitt!
+
+Erhalten Sie eine Fehlermeldung beim Einlesen des Verzeichnisses `Bildungsgaenge`, lesen Sie bitte weiter unten den Abschnitt "Probleme beim Schlüsselimport?"!
 
 
 ## Kontrolle und Anpassung der Schlüsselverzeichnisse
@@ -93,7 +91,7 @@ Die Kürzel aus den Verzeichnissen `Schulformen`, `Klassenstufen` und `Organisat
 
 Beispiel: Bildungsgänge in Vollzeit haben in der Spalte `Organisation` ein "v", Teilzeitbildungsgänge ein "t" zu stehen. 
 
-![Verzeichnis `Bildungsgänge`](../assets/images/sachsen/bildungsgaenge.png)
+![Verzeichnis `Bildungsgänge`](../../assets/images/sachsen/bildungsgaenge.png)
 
 Beim Import kann es zu Fehlermeldungen kommen. Hintergrund ist, wir prüfen die Schlüsselwerte beim Einlesen, ändern nie ein Kürzel. Kürzel sind generell dafür da, dass Schulen Ihre Daten nach eigenen Vorstellungen per Kürzel kennzeichnen. Ist der Schlüssel in Ihrer Datenbank vorhanden, Sie verwenden aber ein anderes Kürzel für den Wert, gelingt der Verweis zwischen Verzeichnissen nicht.
 

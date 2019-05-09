@@ -21,13 +21,14 @@ Bevor wir mit der eigentlichen Berechnung beginnen, müssen wir zunächst einige
 
 Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangszeugnissen wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Berufsschulskript repräsentiert eine spezielle Berechnungsvorschrift für die Noten auf dem Abschluss- bzw. Abgangszeugnis der Berufsschule. 
 
-> #### warning::Wichtig!
->
-> Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/alle_skripte_im_uberblick.html#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+!!! info "Hinweis"
+
+    Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/alle_skripte_im_uberblick.html#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner „Skripte“ und dort im jeweiligen Landesordner (z.B. „Skripte\Berlin“ für das Bundesland Berlin). 
 
 ##	Berufsschulklassen einrichten
+
 Eine Klasse in der Berufsschule besteht aus den Jahrgängen 1 (=Grundstufe), 2 (Fachstufe 1), 3 (Fachstufe 2) bzw. 4 (Fachstufe 3). 
 
 In MAGELLAN werden die Daten halbjahresbezogen abgelegt. Sie definieren also eine Klasse mit je zwei Zeiträumen bzw. Halbjahren für die Grundstufe, Fachstufe 1 und evtl. Fachstufe 2 bzw. Fachstufe 3. 
@@ -52,9 +53,11 @@ Bei den einzelnen Berechnungsskripten werden bestimmten Unterscheidungen in den 
 ##	Das Skript BER-BBS-Matrix-2007
 
 ### Fächer
+
 Bei dem Skript „BER-BBS-Matrix-2007“ für das Bundesland Berlin sind die folgenden Angaben für das Fach Sport/Gesundheitsförderung und fakultative Fächer Voraussetzung.
 
 #### Sport/Gesundheitsförderung
+
 Ob ein dem Schüler zugeordnetes Fach das Fach Sport/Gesundheitsförderung ist, richtet sich nach der Definition des Fachs im Verzeichnis der Fächer. 
 
 Kürzel	|Schlüssel	|Bedeutung
@@ -64,6 +67,7 @@ Spo|	beliebig    	|Sport
 Kürzel (im abgebildeten Fall „Spo“ für Sport) und Schlüssel können dabei beliebig gewählt werden, entscheidend ist die Zuordnung des Fachs zur Kategorie „Sport“ im Verzeichnis der Fächer.
 
 #### Religion
+
 Ob ein dem Schüler zugeordnetes Fach das Fach „Religion“ bzw. „Ethik“ ist, richtet sich nach der Definition des Fachs im Verzeichnis der Fächer.
 
 Kürzel	|Schlüssel	|Bedeutung
@@ -74,6 +78,7 @@ Eth	|beliebig   |	Religion/Ethik
 Kürzel (im abgebildeten Fall „Rel“ für Religion bzw. „Eth“ für Ethik) und Schlüssel können dabei beliebig gewählt werden, entscheidend ist die Zuordnung des Fachs zur Kategorie „Religion/Ethik“ im Verzeichnis der Fächer.
 
 #### Fakultative Fächer
+
 Fakultative Fächer werden bei der Zuordnung der Fächer zum Schüler durch den Fachstatus „Wahlb“ gekennzeichnet, wie z.B.:
 
 Fach|	Fachstatus
@@ -89,6 +94,7 @@ Ob ein Schüler im jeweils letzten Zeitraum seiner Laufbahn die Klasse wiederhol
 Für das Skript bedeutet dies, dass er kein Zeugnis zugewiesen bekommt. 
 
 ### Kammerprüfung
+
 Ob ein Schüler bei Berufsschulabschluss die Kammerprüfung bestanden hat, richtet sich nach dem Eintrag unter Ansicht `„Schüler“ > Laufbahn > Allgemein“ im Feld „Entscheidung“. Da dies ein Schlüsselfeld ist, müssen Sie unter `„Verzeichnisse > Entscheidungen“` folgenden Eintrag definieren:
 
 Kürzel	|Schlüssel	|Bedeutung
@@ -151,14 +157,16 @@ BER-BS-AS	|beliebig  |beliebig
 BER-BS-MSA	|beliebig  |beliebig   
 BER-BS-AZ	|beliebig  |beliebig    
 
-> #### warning::Wichtig!
->
-> Die Bezeichnungen BER-BS-AS für das Abschlusszeugnis, BER-BS-MSA für das Zusatzzeugnis Mittlerer Schulabschluss und BER-BS-AZ für das Abgangszeugnis sind fest vorgegeben.
+!!! info "Hinweis"
+
+    Die Bezeichnungen BER-BS-AS für das Abschlusszeugnis, BER-BS-MSA für das Zusatzzeugnis Mittlerer Schulabschluss und BER-BS-AZ für das Abgangszeugnis sind fest vorgegeben.
 
 
 ##	Endnotenberechnung vorbereiten
 
- ![Berufsschulmatrix](../assets/images/berlin/bs/bs1.png) 
+
+
+ ![Berufsschulmatrix](../../assets/images/berlin/bs/bs1.png)
  
 Für die Endnotenberechnung müssen Sie folgende Daten definieren und je Schüler eingeben:
 
@@ -171,7 +179,7 @@ In den nachfolgenden Abschnitten erfahren Sie mehr zu den einzelnen Punkten.
 
 ###	Abschlussjahrgang definieren
 
-![Abschlussjahrgang definieren](../assets/images/berlin/bs/bs2.png) 
+![Abschlussjahrgang definieren](../../assets/images/berlin/bs/bs2.png) 
    
 Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. Damit können Sie jedem Schüler in der Rubrik „Berufsschule“ den entsprechenden Abschlussjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussnotenberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abschlussgangs z.B. für Ausdrucke herausfiltern zu können und die Art der zu synchronisierenden Noten festzulegen.
  
@@ -188,7 +196,7 @@ Bei der Definition eines Abschlussjahrgangs für das Skript „BER-BBS-Matrix-20
 
 ###	Berechnungsverordnung definieren
 
-![Berechnungsverordnung definieren](../assets/images/berlin/bs/bs3.png)
+![Berechnungsverordnung definieren](../../assets/images/berlin/bs/bs3.png)
 
    
 Sie müssen für jeden Schüler die Berechnungsverordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis „Verordnungen“ die jeweilige Berechnungsverordnung definieren. Klicken Sie dazu auf `„Verzeichnisse > Verordnungen“ `und geben dort die Verordnung wie folgt an:
@@ -209,7 +217,7 @@ Bei der Definition der Verordnung für das Skript „BER-BBS-Matrix-2007“ müs
 
 ## Berufsschuldaten synchronisieren
  
-![Berufsschuldaten synchronisieren](../assets/images/berlin/bs/bs4.png)
+![Berufsschuldaten synchronisieren](../../assets/images/berlin/bs/bs4.png)
 
 
 Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf `„Berufsschule“` klicken und dann auf die Schaltfläche `„Synchronisieren“` oben im MAGELLAN-Fenster klicken. 
@@ -227,9 +235,9 @@ Eintrag|Bedeutung
 Zeiträume| Im Verzeichnis der Zeiträume muss das Feld „Art“ mit dem Wert „1. Halbjahr“ bzw. „2. Halbjahr“ gefüllt sein.
 Jahrgang| Bei jeder Klasse der Berufschule muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum  das Feld „Jahrgang“ mit dem Wert „1“ (=Grundstufe), „2“ (=Fachstufe 1), „3“ (=Fachstufe 2) oder „4“ (=Fachstufe 3) angegeben werden.
 
-> #### warning::Wichtig!
->
-> Ohne vorstehenden Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
+!!! info "Hinweis"
+
+    Ohne vorstehenden Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
 
 Beim Synchronisieren sollten Sie für die markierten Schüler die Berechnungsverordnung und den Abschlussjahrgang eingeben.
 Klicken Sie nach dem Synchronisieren auf die Schaltfläche „Berufsschule“ in der Symbolleiste links im MAGELLAN-Fenster. Es werden alle synchronisierten Schüler auf der Registerkarte „Auswahl“ angezeigt.
@@ -258,7 +266,7 @@ Auf der Karte Matrix haben Sie die Möglichkeit Fachdaten eines Schülers auch a
 3.	Markieren Sie die  Schüler, denen die kopierten Angaben zugewiesen werden sollen.
 4.	Wählen Sie auf der folgenden Karte aus welche Daten übernommen werden sollen und ob bereits vorhandene Daten überschrieben werden sollen.
  
- ![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten](../assets/images/berlin/bs/bs5.png)
+ ![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten](../../assets/images/berlin/bs/bs5.png)
 
  
 ## Die Spalte „Position“
@@ -283,14 +291,15 @@ Die Endnoten  für Abschlusszeugnisse kann in zwei Schritte unterteilt werden:
 
 Die folgenden Abschnitte sagen Ihnen, wie Sie genau vorgehen müssen:
 
-### 	Automatische Berechnung
+### Automatische Berechnung
+
 Überprüfen Sie, ob für den Schüler die notwendigen Fächer inkl. der Faktoren für die einzelnen Jahresnoten auf der Registerkarte Notenmatrix eingetragen sind. Zudem muss unter Verordnung die korrekte Endnotenverordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
 
 Klicken Sie auf die Schaltfläche `Neu berechnen`, um die Endnoten automatisch durch das entsprechende Skript berechnen zu lassen. Durch die Berechnungen werden automatisch die Noten in die Spalte Endnote eingetragen. Je nach Skriptinhalt werden auch auf der rechten Seite die Felder BU-Note (=Gesamtnote für den Berufsbezogener Unterricht) bzw. Gesamtnote (=Gesamtnote des Abschluss) berechnet.
 
 Im automatisch erzeugten Meldungsfenster werden zusätzliche Statusinformationen zur Berechnung angezeigt. Insbesondere wird hier eine Aussage über die erfolgreiche Durchführung der Berechnung und eventuell notwendige Zwischensummen angezeigt. Die nachfolgende Abbildung zeigt ein Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz.
 
-![ Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz](../assets/images/berlin/bs/bs6.png)
+![ Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz](../../assets/images/berlin/bs/bs6.png)
    
 ## Skript BER-BBS-Matrix-2007
 

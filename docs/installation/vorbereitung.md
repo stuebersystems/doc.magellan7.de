@@ -14,9 +14,9 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 
 Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](http://doc.MAGELLAN7.stueber.de/changelog.html) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.MAGELLAN7.stueber.de/installation/vorbereitung.html#updates-mit-datenstrukturerweiterung)!
 
-> #### primary::Wichtig
->
-> Wir informieren über neue Ausgaben über unseren [Newsletter](http://www.stueber.de/newsletter.php). 
+!!! info "Hinweis"
+
+     Wir informieren über neue Ausgaben über unseren [Newsletter](http://www.stueber.de/newsletter.php). 
 
 ## Updates ohne Datenstrukturerweiterung
 
@@ -35,9 +35,7 @@ Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue D
 
 ![`Benutzerverwaltung > Zugriffsrechte synchronisieren`](../assets/images/zugriffsrechte.sync.png)
 
-> #### primary::Hinweis
->
-> Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.MAGELLAN7.stueber.de/probleme-beim-update.html) weiter!
+!!! info "Hinweis"
 
-
+    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.MAGELLAN7.stueber.de/probleme-beim-update.html) weiter!
 

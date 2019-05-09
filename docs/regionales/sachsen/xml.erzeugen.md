@@ -33,16 +33,16 @@ Um die fertige XML-Datei mit der Schemadatei prüfen zu können, benötigen Sie 
 ## Statistikdaten erstellen
 
 Für die Erstellung der Exportdatei rufen Sie bitte aus dem Menü `Schüler` den Reiter `Extras` auf und wählen den Unterpunkt `Export`. <br/><br/>
-![Daten aus MAGELLAN exportieren über `Schüler > Export > Export...`](../assets/images/sachsen/export.saxsvs01.png)
+![Daten aus MAGELLAN exportieren über `Schüler > Export > Export...`](../../assets/images/sachsen/export.saxsvs01.png)
 
 Es startet der Exportassistent, bitte wählen Sie die Schnittstelle `SAX-SVS (BBS)` und fügen über das Plus den gewünschten Exportzeitraum hinzu. Klicken Sie auf `Weiter`! <br/><br/>
-![Wählen Sie die Schnittstelle und den Zeitraum aus!](../assets/images/sachsen/export.saxsvs02.png)
+![Wählen Sie die Schnittstelle und den Zeitraum aus!](../../assets/images/sachsen/export.saxsvs02.png)
 
 Auf der Folgekarte wählen Sie einen Speicherort (Exportordner) und klicken auf `Weiter`!<br/><br/>
-![Bitte wählen Sie einen Speicherort!](../assets/images/sachsen/export.saxsvs04.png)
+![Bitte wählen Sie einen Speicherort!](../../assets/images/sachsen/export.saxsvs04.png)
 
 Starten Sie die Erstellung der Exportdatei oder die Prüfung per Klick auf `Fertigstellen`! <br/><br/>
-![Starten Sie die Erstellung!](../assets/images/sachsen/export.saxsvs05.png)
+![Starten Sie die Erstellung!](../../assets/images/sachsen/export.saxsvs05.png)
 
 
 ## Probleme?

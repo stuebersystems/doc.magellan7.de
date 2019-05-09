@@ -7,9 +7,12 @@ Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
 * Lizenzdaten von Hand eingeben
 * Lizenzdaten importieren
 
-> #### primary::Eine Lizenz für alle Rechner?
->
-> Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen lassen. Bitte lesen Sie dazu das Kapitel ["Die Pathdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html).
+
+ 
+ !!! warning "Wichtig"
+ 
+     Eine Lizenz für alle Rechner?
+Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen lassen. Bitte lesen Sie dazu das Kapitel ["Die Pathdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html).
 
 ## Lizenzdaten von Hand eingeben
 
@@ -46,13 +49,5 @@ Um eine „Magellan.lic“-Datei zu importieren, führen Sie bitte folgende Schr
 4. Bestätigen Sie Ihre Auswahl mit ```Öffnen```.
 
 Die Lizenzdaten der importierten Datei werden nun im Dialogfenster „Lizenz“ angezeigt. Die freigeschalteten Module stehen nun auf Ihrem Rechner zur Verfügung.
-
-
-
-
-
-
-
-
 
 

@@ -42,10 +42,9 @@ Nr.|Was ist zu tun?
 2. |Die Bewerberkopie nach erfolgreichem Bewerberverfahren ins Menü `Schüler` übernehmen.
 3. |Kopie des Schülers einschulen und dabei werden beide "Schülerhälften" entweder zusammengeführt (Stammschüler + Kopie in unterschiedlichen Zeiträumen) oder eine neue Schülerlaufbahn(Stammschüler + Kopie im selben Zeitraum) eröffnet.
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Für alle Varianten möchten Sie sicherlich gern die Stamm- oder Laufbahndaten aus den vergangenen Zeiträumen weiterverwenden.
+  Für alle Varianten möchten Sie sicherlich gern die Stamm- oder Laufbahndaten aus den vergangenen Zeiträumen weiterverwenden.
 Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich MAGELLAN den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
 
 
@@ -60,10 +59,9 @@ Möglichkeit|Vorgehen
 **aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/>![„Schüler als Bewerber kopieren“ aus der Doublettenprüfung](../assets/images/sonderfaelle/sonderfaelle9.png)
 
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Die Stammdaten des Schülers werden nun kopiert und im Menü `Bewerber` als neuer Bewerber angelegt. Es erfolgt dabei ein Verweis (interne ID) zwischen dem Schüler- und dem neuen Bewerberdatensatz. Diese „Interne ID“ kann auch als Spalte in der Auswahlliste `Schüler` eingeblendet werden. Bitte öffnen Sie dafür den Punkt `Schüler/Bewerber > Auswahl > Rechtsklick > Spalten bearbeiten` und ziehen die Spalte mit der linken Maustaste auf die gewünschte Position in die Auswahlliste `Schüler`.
+  Die Stammdaten des Schülers werden nun kopiert und im Menü `Bewerber` als neuer Bewerber angelegt. Es erfolgt dabei ein Verweis (interne ID) zwischen dem Schüler- und dem neuen Bewerberdatensatz. Diese „Interne ID“ kann auch als Spalte in der Auswahlliste `Schüler` eingeblendet werden. Bitte öffnen Sie dafür den Punkt `Schüler/Bewerber > Auswahl > Rechtsklick > Spalten bearbeiten` und ziehen die Spalte mit der linken Maustaste auf die gewünschte Position in die Auswahlliste `Schüler`.
 
 ### Welche Daten genau werden für den Bewerber kopiert?
 
@@ -149,9 +147,9 @@ In der Auswahlliste der Schüler sehen Sie zusätzlich zur Klasse auch den schü
 
 ![Schülerjahrgang in der Auswahlliste von MAGELLAN ](../assets/images/jahrgang01.png)
 
-> #### primary::Hinweis
->
-> Der Jahrgang des Schülers kann optional beim Fortschreiben oder Versetzen der Schüler um 1 Jahr hochgesetzt werden.
+!!! info "Hinweis"
+
+  Der Jahrgang des Schülers kann optional beim Fortschreiben oder Versetzen der Schüler um 1 Jahr hochgesetzt werden.
 
 ### Was ist am Ende des 1. Halbjahres zu tun?
 

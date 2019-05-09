@@ -11,10 +11,11 @@ Letztlich besteht die Aktualisierung aber aus zwei Schritten:
 
 Der Assistent zum Datenstrukturanpassen prüft vor der Erweiterung der Datenstruktur um neue Felder, Tabellen usw. die ODS-Version \(on disc struktur\) Ihrer Datenbank und gibt Ihnen eine Meldung, wenn die ODS-Version nicht aktuell ist.
 
-> #### success::Bevor Sie beginnen:
->
-> Bitte prüfen Sie vorab welche Version von Firebird Sie aktuell einsetzen. Die Versionsnummer wird Ihnen auf Ihrem Serverrechner unter `Start > Systemsteuerung > Programme und Funktionen > Firebird` gezeigt.  
-> Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2.5.7,  von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
+
+!!! warning "Wichtig"
+
+    Bitte prüfen Sie vorab welche Version von Firebird Sie aktuell einsetzen. Die Versionsnummer wird Ihnen auf Ihrem Serverrechner unter `Start > Systemsteuerung > Programme und Funktionen > Firebird` gezeigt.  
+Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2.5.7,  von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
 
 
 ## Update von Firebird 2.5.5 auf 2.5.7
@@ -94,6 +95,4 @@ Bitte folgen Sie diesen Schritten:
 2. Rufen Sie im Administrator den Punkt "Datenbankpflege \| Firebird 1.5/Firebird 2.1 Sicherheitsdatenbank konvertieren" auf.
 
 3. Wählen Sie im Feld Format „Firebird 2.1 Sicherheitsdatenbank“ aus. Im Feld Datenbank wird eine Pfad vorgeschlagen. Wird der Pfad rot angezeigt, befindet sich dort keine entsprechende Datei. Bitte verweisen Sie hier auf die zuvor erstellte Sicherung, tragen das Kennwort „masterkey“ und starten den Assistenten. Der Assistent kopiert aus der Firebird 2.1 Sicherheitsdatenbank die Benutzerdaten in die neue Firebird 2.5 Sicherheitsdatenbank. Anschließend können sich Ihre Benutzer mit den gewohnten Zugangsdaten wieder an MAGELLAN anmelden.
-
-
 

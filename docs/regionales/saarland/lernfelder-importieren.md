@@ -4,15 +4,17 @@ Das Saarländische Ministerium stellt ein Liste von Lernfeldern für die Berufli
 
 Die Datei enthält eine vollständige Liste der aktuell möglichen Lernfelder. Diese Lernfelder werden in das Verzeichnis Fächer importiert und enthalten die Werte Kürzel, Bezeichnung und das Merkmal  (Zeugnismerkmal aus ```Verzeichnisse > Fächer > Merkmal```), das von den zur Verfügung stehenden Zeugnisberichten  ausgewertet wird.
  
-> #### warning::Wichtig!
->
-> Wir empfehlen diese Datei nicht vollständig zu importieren, sondern vor dem Import auf die Zeilen zu reduzieren, die an Ihrer Schule benötigt werden. 
+
+
+!!! info "Hinweis"
+
+     Wir empfehlen diese Datei nicht vollständig zu importieren, sondern vor dem Import auf die Zeilen zu reduzieren, die an Ihrer Schule benötigt werden. 
  
 Die Datei ist nicht direkt im Verzeichnis `Importe > Saarland` zu finden, sondern im Unterordner `Lernfelder`, damit nicht versehentlich die gesamte Fächerliste in die Datenbank eingelesen wird. Bitte kürzen Sie die Datei in einem Texteditor, speichern sie und legen sie dann direkt unter `Importe > Saarland` ab.  Anschließend importieren Sie die Datei wie gewohnt über den MAGELLAN-ADMINISTRATOR Unterpunkt `Datenimport > Schlüsselverzeichnisse importieren > Saarland`.
 
-> #### warning::Wichtig!
->
-> Beim Import werden aus Ihrem Verzeichnis Fächer alle bisher nicht verwendeten Fächer entfernt und die neuen Fächer mit eingefügt. Gefüllt werden die Felder Kürzel, Bezeichnung und Merkmal. Im Merkmal wird zum Beispiel der Wert LF1 eingetragen. An diesem Wert erkennen die entsprechend vorbereiteten Zeugnisberichte das Lernfeld 1. 
+!!! info "Hinweis"
+
+      Beim Import werden aus Ihrem Verzeichnis Fächer alle bisher nicht verwendeten Fächer entfernt und die neuen Fächer mit eingefügt. Gefüllt werden die Felder Kürzel, Bezeichnung und Merkmal. Im Merkmal wird zum Beispiel der Wert LF1 eingetragen. An diesem Wert erkennen die entsprechend vorbereiteten Zeugnisberichte das Lernfeld 1. 
 
 Folgende Berichte arbeiten mit diesen Werten (Berichte > Zeugnisse > Saarland > Ministerium):
 
@@ -28,17 +30,17 @@ Die Datei BS_Faecher.keys befindet sich bei Standardinstallationen auf Ihrem Ser
 
 Öffnen Sie einen Editor (Windows Texteditor)und aus dem Programm heraus die Importdatei. 
 
-![Wählen Sie "Alle Dateien" um die BS_Faecher.keys gezeigt zu bekommen](../assets/images/keys_editieren.png)
+![Wählen Sie "Alle Dateien" um die BS_Faecher.keys gezeigt zu bekommen](../../assets/images/keys_editieren.png)
 
 Achten Sie darauf, dass unten rechts im Öffnendialog die Auswahl auf "Alle Dateien (*.*)" steht, um auch die Datei mit der Endung *.keys zu sehen.
 
-![Inhalt der Datei](../assets/images/keys.png)
+![Inhalt der Datei](../../assets/images/keys.png)
 
 Löschen Sie bitte die Zeilen, die an Ihrer Schule nicht benötigt werden oder kopieren Sie (dann bitte auch die Kopfzeile) die benötigten Zeilen in eine neue Textdatei. 
 
-> #### warning::Wichtig!
->
->  Die Lernfelder pro Ausbildungsberuf erkennen Sie am Kürzel. Sie finden eine Kürzel-Beruf-Legende im Abschnitt [**Abkürzungsverzeichnis der Berufe**](../abkurzungsverzeichnis_berufe.md).
+!!! info "Hinweis"
+
+     Die Lernfelder pro Ausbildungsberuf erkennen Sie am Kürzel. Sie finden eine Kürzel-Beruf-Legende im Abschnitt [**Abkürzungsverzeichnis der Berufe**](../abkurzungsverzeichnis_berufe.md).
 
 Achten Sie darauf, dass die Struktur nicht durch Leerzeilen oder ähnliches verändert wird. Speichern Sie das Ergebnis und legen die Datei an folgender Stelle ab:
 
@@ -51,12 +53,11 @@ Für den Import öffnen Sie bitte das Modul MAGELLAN ADMINISTRATOR und wählen d
 Wählen Sie bitte die nachfolgenden Einstellungen um gezielt das bearbeitete Verzeichnis einzulesen. 
 
 
-![Importdialog](../assets/images/keys_importieren.png)
+![Importdialog](../../assets/images/keys_importieren.png)
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Beim Import werden aus Ihrem Verzeichnis Fächer alle bisher nicht verwendeten Fächer entfernt und die neuen Fächer mit eingefügt. Gefüllt werden die Felder Kürzel, Bezeichnung und Merkmal. Im Merkmal wird zum Beispiel der Wert LF1 eingetragen. An diesem Wert erkennen die entsprechend vorbereiteten Zeugnisberichte das Lernfeld 1. 
+     Beim Import werden aus Ihrem Verzeichnis Fächer alle bisher nicht verwendeten Fächer entfernt und die neuen Fächer mit eingefügt. Gefüllt werden die Felder Kürzel, Bezeichnung und Merkmal. Im Merkmal wird zum Beispiel der Wert LF1 eingetragen. An diesem Wert erkennen die entsprechend vorbereiteten Zeugnisberichte das Lernfeld 1. 
 
 ## Abkürzungsverzeichnis Berufe
 

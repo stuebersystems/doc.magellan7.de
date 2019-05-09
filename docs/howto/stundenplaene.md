@@ -54,7 +54,7 @@ Kürzel<br/>Bezeichnung	|Der Austausch erfolgt über das Kürzel. Ist das Kürze
 
 **Lehrer**
 
-Felder	|Hinweis
+Felder|Hinweis
 --|--
 Kürzel<br/>Nachname<br/>Vorname|Es werden nur aktive Lehrer aus MAGELLAN beim Export berücksichtigt.
 
@@ -158,9 +158,9 @@ Nur geänderte Daten|Werden bei einem Schüler Änderungen in den Fachdaten erka
 Bestehende Schülerkurs-wahlen nicht zuvor löschen|	Werden in einer Fachzeile Änderungen erkannt, wird die Zeile geändert. Bisher nicht bestehende Fachzeilen werden neu angelegt.
 Fehlende Klassen anlegen|Existiert eine Klasse der Importdatei nicht in Magellan, wird sie angelegt. Es werden aber keine Schüler versetzt oder neu in MAGELLAN angelegt.
 
-> #### primary::Hinweis
->
->  Das Format der Schuldatentransferdatei wird im Dokument „Schuldatentransferformat.pdf“ beschrieben.
+!!! info "Hinweis"
+
+  Das Format der Schuldatentransferdatei wird im Dokument „Schuldatentransferformat.pdf“ beschrieben.
 
 ## Datenabgleich MAGELLAN über das Schuldatentransferformat
 
@@ -168,9 +168,9 @@ Wenn Sie MAGELLAN mit einem Fremdprogramm (z.B. Stundenplanprogramm) gleichzeiti
 
 Ausführliche Hinweise zum Schuldatentransferformat finden Sie in der Dokumentation [Schuldatentransferformat](https://doc.sdtf.stueber.de/). Von MAGELLAN können die Abteilungen, die Lehrer, die Fächer, die Fachtafeln, die Klassen und die Schüler der Oberstufe in das Schuldatentransferformat übergeben werden. Über das Schuldatentrans-ferformat können die Abteilungen, die Lehrer, die Fächer, die Stundentafeln, die Kurswahlen der Schüler der Oberstufe und der Fach- bzw. Kurslehrer an MAGELLAN übergeben werden. Der Datenaustausch wird grundsätzlich (egal in welche Richtung) von MAGELLAN aus in eine Schuldatentransferdatei (Export) und aus einer Schuldatentransferdatei (Import) gestartet. Sie benötigen die MAGELLAN-Administrator-Kennung, da der Austausch nur mit Administrator-Rechten erfolgen kann.
 
-> #### primary::Hinweis
->
-> Beim Austausch über das Kürzel wird die Groß- und Kleinschreibung beachtet.
+!!! info "Hinweis"
+
+  Beim Austausch über das Kürzel wird die Groß- und Kleinschreibung beachtet.
 
 ## Fachwahlen exportieren
 
@@ -186,9 +186,9 @@ Gehen Sie dazu wie folgt vor:
 4. Verweisen Sie im Feld Exportdatei auf eine Datei, in die die Fachwahlen exportiert werden sollen. Möglich sind CSV- oder TXT-Dateien
 5. Markieren Sie die gewünschten Schüler und klicken auf `Fertigstellen`.
 
-> #### primary::Hinweis
->
-> Nicht alle Stammdatenfelder im Schuldatentransferformat sind auch in MAGELLAN vorhanden und umgekehrt. Werden die vorhandenen Daten beim Austausch aktualisiert (überschrieben), können vorhandene Einträge verloren gehen, z.B. bei den Klassen der Klassenraum oder bei den Stundentafeln die Soll-Stunden. Bitte entscheiden Sie mit Bedacht, welche Daten Sie austauschen.
+!!! info "Hinweis"
+
+  Nicht alle Stammdatenfelder im Schuldatentransferformat sind auch in MAGELLAN vorhanden und umgekehrt. Werden die vorhandenen Daten beim Austausch aktualisiert (überschrieben), können vorhandene Einträge verloren gehen, z.B. bei den Klassen der Klassenraum oder bei den Stundentafeln die Soll-Stunden. Bitte entscheiden Sie mit Bedacht, welche Daten Sie austauschen.
 
 ### MAGELLAN-Daten in eine Schuldatentransferdatei exportieren
 
@@ -245,7 +245,7 @@ Nachname<br/>Vorname<br/>Fachwahl<br/>Fachkürzel<br/>Unterrichtsart.Kürzel<br/
 
 ### Schuldatentransferdatei nach MAGELLAN importieren
 
-Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus einer Schuldatentransferdatei füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte im Abschnitt ["Datenbank vorbereiten"](https://doc.magellan6.stueber.de/howto/preparation.html) nach. Zum Import einer Schuldatentransferdatei nach MAGELLAN gehen Sie bitte folgendermaßen vor:
+Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus einer Schuldatentransferdatei füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte im Abschnitt ["Datenbank vorbereiten"](https://doc.magellan7.stueber.de/howto/preparation.html) nach. Zum Import einer Schuldatentransferdatei nach MAGELLAN gehen Sie bitte folgendermaßen vor:
 
 1. Wählen Sie in MAGELLAN `Extras `und dann `Import > Schuldatentransferformat`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das `Willkommen-Fenster`. Wählen Sie im Fenster `Magellan-Import` den Mandanten und das Halbjahr, in das Sie die DAVINCI-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, die Sie importieren wollen.

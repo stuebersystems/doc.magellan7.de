@@ -9,7 +9,7 @@ Bitte wählen Sie einen lokales Verzeichnis, wir empfehlen das Verzeichnis "Back
 
 Beispiel die Benennung: 2016-04-23.fbk
 
-![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](../assets/images/sicherung nicht lokal speichern.jpg)
+![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](../assets/images/sicherungnichtlokalspeichern.jpg)
  
 ## Die Magellan-Datenbank-ODS-Version ist nicht aktuell
 

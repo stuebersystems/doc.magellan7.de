@@ -36,11 +36,9 @@ Schritt|Aktion
 **5.**|Gehen Sie auf `Weiter `und `Fertigstellen`! <br/><br/>![Die Klassen werden kopiert](../assets/images/schuljahreswechsel/schuljahreswechsel03.png)
 **6.**|Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen aber neuen IDs angelegt.<br/><br/>![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](../assets/images/schuljahreswechsel/schuljahreswechsel04.png)
 
+!!! info "Hinweis"
 
-
-> #### success::Tipp
->
-> Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
+  Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
 
 
 
@@ -74,9 +72,9 @@ Schritt|Aktion
 **3.**|Klicken Sie auf `Weiter`, um Angaben zur neuen ausgewählten Klasse angeben zu können. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` noch den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Die weiteren Angaben zum Kopieren der Fachdaten bzw. beim Einfügen einer Fachtafel sind optional und haben die analoge Bedeutung wie beim Versetzen.
 **4.**|Klicken Sie jetzt auf `Weiter `und anschließend auf `Fertigstellen`, um das Wechseln der Schüler durchzuführen. <br/>![Geben Sie hier den letzten Schultag der bisherigen Klasse und den ersten der neuen Klasse ein.](../assets/images/schuljahreswechsel/schuljahreswechsel4.png)
 
-> #### warning::Wichtig!
->
-> Es ist grundsätzlich möglich, einen Schüler innerhalb eines Zeitraums in die ursprüngliche Klasse „zurückzuwechseln“. (Bsp. Von Klasse „5a“ in die „5b“ und wieder zurück in die „5a“). Allerdings bleibt dann die Klasse „5b“ als aktuellste Klasse links in der Laufbahn bestehen. Es wird aber ein Abgangsdatum in der „5b“ gesetzt, wenn der Schüler in die „5a“ zurückgeht. In der Klasse „5a“ bleibt das ursprüngliche Zugangsdatum bestehen und das Abgangsdatum (in die „5b“) wird wieder herausgenommen. Sollte Sie diese Darstellung stören, können Sie den Schüler korrigieren. Man sieht dann allerdings den „Aufenthalt in der „5b“ nicht.
+!!! info "Hinweis"
+
+  Es ist grundsätzlich möglich, einen Schüler innerhalb eines Zeitraums in die ursprüngliche Klasse „zurückzuwechseln“. (Bsp. Von Klasse „5a“ in die „5b“ und wieder zurück in die „5a“). Allerdings bleibt dann die Klasse „5b“ als aktuellste Klasse links in der Laufbahn bestehen. Es wird aber ein Abgangsdatum in der „5b“ gesetzt, wenn der Schüler in die „5a“ zurückgeht. In der Klasse „5a“ bleibt das ursprüngliche Zugangsdatum bestehen und das Abgangsdatum (in die „5b“) wird wieder herausgenommen. Sollte Sie diese Darstellung stören, können Sie den Schüler korrigieren. Man sieht dann allerdings den „Aufenthalt in der „5b“ nicht.
 
 ## Zusammenfassung Wechseln, Fortschreiben und Versetzen
 
@@ -100,9 +98,9 @@ Schritt|Aktion
 **2.**|Es öffnet sich ein Fenster, in dem Sie die Klasse auswählen können, in die die Schüler wechseln sollen. Geben Sie unter` Weitere Angaben` den letzten Schultag in der alten und den ersten Schultag in der neuen Klasse an. 
 **3.**|Klicken Sie auf `Weiter `und dann auf `Fertigstellen`. Auf der Laufbahnkarte wird für die Schüler die bisherige und die neue Klassenzugehörigkeit dokumentiert.
 
-> #### warning::Wichtig!
->
->  Haben Sie die Klassen erfolgreich zusammengelegt, können Sie die leere Klasse allerdings nicht löschen, da in der Schülerlaufbahn diese Klasse dokumentiert wird und bei einem Löschvorgang diese Verknüpfung der Schüler zu dieser alten Klasse erhalten bleibt.
+!!! info "Hinweis"
+
+  Haben Sie die Klassen erfolgreich zusammengelegt, können Sie die leere Klasse allerdings nicht löschen, da in der Schülerlaufbahn diese Klasse dokumentiert wird und bei einem Löschvorgang diese Verknüpfung der Schüler zu dieser alten Klasse erhalten bleibt.
 
 ## Schüler ausschulen
 
@@ -118,20 +116,17 @@ Schritt|Aktion
 
 Die ausgeschulten Schüler werden nun speziell in der Auswahlliste der Schüler markiert. Sie erhalten jetzt in der Statusspalte im Gegensatz zum blauen Quadrat der aktiven Schüler ein graues Quadrat zur Unterscheidung. Über die entsprechende Gruppierung der Statusspalte können Sie ausgeschulte direkt von aktiven Schülern unterscheiden. 
 
-> #### primary::Hinweis
->
-> Die Sorgeberechtigten werden über die Option „Sorgeberechtigte“ der Schüler inaktiv setzen nur inaktiv gesetzt, wenn kein weiterer aktiver Schülerdatensatz (zum Beispiel ein Geschwisterkind) auf den Sorgeberechtigten verweist.
+!!! info "Hinweis"
+
+  Die Sorgeberechtigten werden über die Option „Sorgeberechtigte“ der Schüler inaktiv setzen nur inaktiv gesetzt, wenn kein weiterer aktiver Schülerdatensatz (zum Beispiel ein Geschwisterkind) auf den Sorgeberechtigten verweist.
 
 ## Versehentlich eingeschult, versetzt, fortgeschrieben oder gewechselt
 
 Haben Sie versehentlich Schüler eingeschult, aus dem Bewerbermenü übernommen oder haben Sie einen sonstigen Fehler beim Fortschreiben, Versetzen oder Einschulen gemacht, dann besteht die Möglichkeit dies zu korrigieren. Sie können den Schüler in seinen Ausgangszustand im vergangenen Zeitraum zurücksetzen.
 
+!!! info "Hinweis"
 
-
-
-> #### warning::Wichtig!
->
-> Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
+  Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
 
 ![Zeigen Sie über den Auswahlfilter die `Vagabunden` oder die eingeschulten Schüler an! ](../assets/images/neues/filter01.png)
 
@@ -158,6 +153,6 @@ Schritt|Aktion
 
 Schüler können (wieder) in Bewerber umgewandelt werden, indem eine Kopie des Schülers als Bewerber erzeugt wird. Klicken Sie dazu auf `Bearbeiten > Als Bewerber kopieren… `. Ein Assistent zeigt Ihnen die notwendigen Schritte. Die ausgewählten Schüler werden im aktuellen Mandanten als neue Bewerber eingefügt. Dabei wird immer eine Kopie der Stammdaten der Schüler als neuer Bewerber angelegt. Die Daten der bisherigen Schüler bleiben bestehen und werden nicht gelöscht!
 
-> #### primary::Hinweis
->
-> Bitte beachten Sie, dass bei diesem Vorgang nur eine Kopie des Schülers als Bewerber erzeugt wird und die bisherigen Daten des Schülers erhalten bleiben!
+!!! info "Hinweis"
+
+  Bitte beachten Sie, dass bei diesem Vorgang nur eine Kopie des Schülers als Bewerber erzeugt wird und die bisherigen Daten des Schülers erhalten bleiben!

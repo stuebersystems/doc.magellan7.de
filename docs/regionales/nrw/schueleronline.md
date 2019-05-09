@@ -22,7 +22,7 @@ Für den Export der Betriebe aus MAGELLAN und den Import der Daten in die aufneh
 5.	Geben Sie unter Exportdatei den Pfad für eine Exportdatei an, in welche Sie die aktiven Betriebe exportieren wollen.
 6.	Klicken Sie auf Fertigstellen. Die Datensätze aller aktiven Betriebe werden jetzt exportiert.
 
-![Legen Sie hier die Exportdatei fest.](../assets/images/nrw01.png)
+![Legen Sie hier die Exportdatei fest.](../../assets/images/nrw01.png)
 
 ## Import der Betriebedatei nach Schüler Online
 
@@ -51,7 +51,7 @@ Um die aktiven Betriebe aus MAGELLAN zu exportieren, müssen Sie wie folgt vorge
 Die Datensätze aller markierten Schüler werden jetzt exportiert.
 
 
-![Legen Sie hier die Exportdatei fest.](../assets/images/nrw02.png)
+![Legen Sie hier die Exportdatei fest.](../../assets/images/nrw02.png)
 
 ## Import der Schülerdatei nach Schüler Online
 
@@ -94,10 +94,10 @@ Gehen Sie dazu wie folgt vor:
 9.	Klicken Sie auf ```Weiter```.
 10.	Klicken Sie auf ```Fertigstellen```.
 
-> #### primary::Hinweis
->
-> Alle Datensätze werden jetzt geprüft, ob die enthalten Schlüsselwerte auch in MAGELLAN vorhanden sind. Existiert ein Wert in der Exportdatei, der nicht in MAGELLAN vorhanden ist bzw. der in seine Stelligkeit nicht nach MAGELLAN importiert werden kann, so wird dazu eine Hinweismeldung unter Hinweise ausgeben.
-Im Rahmen der Prüfung werden noch keine Daten importiert
+!!! info "Hinweis"
+
+      Alle Datensätze werden jetzt geprüft, ob die enthalten Schlüsselwerte auch in MAGELLAN vorhanden sind. Existiert ein Wert in der Exportdatei, der nicht in MAGELLAN vorhanden ist bzw. der in seine Stelligkeit nicht nach MAGELLAN importiert werden kann, so wird dazu eine Hinweismeldung unter Hinweise ausgeben.
+      Im Rahmen der Prüfung werden noch keine Daten importiert
 
 Jede Hinweiszeile beinhaltet:
 •	die Zeilennummer der Exportdatei (Spalte Zeile),
@@ -106,7 +106,9 @@ Jede Hinweiszeile beinhaltet:
 
 Diese Hinweise können Sie nach Abschluss der Prüfung über die Schaltfläche ```Export nach Excel ```nach Excel zu weiteren Auswertung exportieren. Liegen keine Hinweise vor, wird im Bereich Hinweise kein Eintrag ausgegeben.
 
-> Alle im Rahmen der Prüfung festgestellten fehlenden Schlüsselwerte in MAGELLAN werden beim späteren Import automatisch erzeugten. Die Prüfung soll Ihnen die Möglichkeit geben, unterschiedliche Schlüsselwerte in Schüler Online und MAGELLAN für ein und denselben Sachverhalt in MAGELLAN vor dem Import anzupassen. Dies kann beispielweise leicht durch die Umbenennung von Kürzeln für Schlüsselwerte in MAGELLAN erfolgen.
+!!! info "Hinweis"
+
+     Alle im Rahmen der Prüfung festgestellten fehlenden Schlüsselwerte in MAGELLAN werden beim späteren Import automatisch erzeugten. Die Prüfung soll Ihnen die Möglichkeit geben, unterschiedliche Schlüsselwerte in Schüler Online und MAGELLAN für ein und denselben Sachverhalt in MAGELLAN vor dem Import anzupassen. Dies kann beispielweise leicht durch die Umbenennung von Kürzeln für Schlüsselwerte in MAGELLAN erfolgen.
 
 ### Import der Exportdatei
 
@@ -121,16 +123,16 @@ Um die Exportdatei aus Schüler-Online zu exportieren, gehen Sie wie folgt vor:
 
 Alle Datensätze werden jetzt importiert. Werden fehlende Schlüssel in den Schlüsselverzeichnissen ergänzt, so wird dazu eine Hinweismeldung unter Hinweise ausgeben.
 
-![Legen Sie hier die Art des Imports fest.](../assets/images/nrw03.png)
+![Legen Sie hier die Art des Imports fest.](../../assets/images/nrw03.png)
 
-> #### primary::Hinweis
->
-> Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus Schüler Online prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird.
+!!! info "Hinweis"
+
+     Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus Schüler Online prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird.
 
 Ein einmalig aus Schüler Online übernommener Betrieb ist in MAGELLAN eindeutig gekennzeichnet, damit zukünftige Betriebsdatenänderung in Schüler Online mit nach MAGELLAN übernommen werden können.
 Wird im Rahmen des Imports ein Betrieb als schon vorhanden erkannt, werden die in Schüler Online eingetragenen Daten nicht automatisch übernommen. Schon vorhandene Betriebe werden im Anschluss an den Import in einer gesonderten Registerkarte ```Betriebe aktualisieren ```aufgelistet.
 
-![Legen Sie hier in der Spalte „Aktualisieren“ fest, ob und welche Betriebe Sie aktualisieren wollen.](../assets/images/nrw04.png)
+![Legen Sie hier in der Spalte „Aktualisieren“ fest, ob und welche Betriebe Sie aktualisieren wollen.](../../assets/images/nrw04.png)
 
 Um eine Aktualisierung der Betriebe nun explizit durchzuführen, gehen Sie wie folgt auf der Registerkarte Betriebe aktualisieren vor:
 1.	Prüfen Sie jede der angezeigten Zeilen, welche Daten pro Betrieb dort genau geändert worden sind. Der jeweils bisherige Wert ist jeweils nachfolgende in eckigen Klammern angegeben.
@@ -142,18 +144,18 @@ Um eine Aktualisierung der Betriebe nun explizit durchzuführen, gehen Sie wie f
 Ein einmalig aus Schüler Online übernommener Betrieb ist in MAGELLAN eindeutig gekennzeichnet, damit zukünftige Betriebsdatenänderung in Schüler Online mit nach MAGELLAN übernommen werden können.
 Welche Felder der Exportdatei aus Schüler Online genau nach MAGELLAN eingelesen werden, können Sie dem nachfolgenden Abschnitt entnehmen.
 
-###Importierte Felder
+### Importierte Felder
 
 Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche Felder der Exportdatei MAGELLAN-Export.csv in welche Felder in MAGELLAN übernommen werden.
 
-> #### primary::Hinweis
->
-> Bereits in MAGELLAN vorhandene Schüler können anhand der SchuelerID (MAGELLANID) und der Schulnummer erkannt werden. Bei Übereinstimmung wird der bestehende Schülerdatensatz als Bewerberdatensatz dupliziert und das Feld IDExtern wird gefüllt, um ein anschließendes Zusammenführen beim Einschulen zu ermöglichen. 
->Voraussetzung dafür ist, dass Sie Ihre Abgänger vorab nach SchülerOnline übergeben haben, dabei wird die MAGELLANID im Programm mit gespeichert.
->
->**Das Einlesen und Prüfen der Inhalte erfolgt anhand der Position der Spalten (Beispiel: der Nachname wird als zweites erwartet), bitte verändern Sie die Anordnung nicht.**
->
->Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
+!!! info "Hinweis"
+
+      Bereits in MAGELLAN vorhandene Schüler können anhand der SchuelerID (MAGELLANID) und der Schulnummer erkannt werden. Bei Übereinstimmung wird der bestehende Schülerdatensatz als Bewerberdatensatz dupliziert und das Feld IDExtern wird gefüllt,um ein anschließendes Zusammenführen beim Einschulen zu ermöglichen. 
+      Voraussetzung dafür ist, dass Sie Ihre Abgänger vorab nach SchülerOnline übergeben haben, dabei wird die MAGELLANID im Programm mit gespeichert.
+      
+      Das Einlesen und Prüfen der Inhalte erfolgt anhand der Position der Spalten (Beispiel: der Nachname wird als zweites erwartet), bitte verändern Sie die Anordnung nicht.
+      
+      Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
 
 
 

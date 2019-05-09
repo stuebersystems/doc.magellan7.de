@@ -9,10 +9,3 @@ Wir veröffentlichen neue Funktionen, neue Berichte oder Skripte usw. per Servic
   * [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7.html)
   * [Probleme beim Update?](https://doc.magellan7.stueber.de/installation/probleme-beim-update.html)
 
-
-
-
-.
-
-
-

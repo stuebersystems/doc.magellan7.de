@@ -48,9 +48,9 @@ Bedingung|Im aktuellen Zeitraum 2. Halbjahr 2017/2018 muss das Feld den Wert 12 
 
 ### Abiturjahrgang
 
-> #### warning::Wichtig!
->
-> Es werden nur die Schüler in der Ansicht „Abitur“ exportiert, die einen Abiturjahrgang zugeordnet haben. Dieser Abiturjahrgang muss im Verzeichnis der Abschlussjahrgänge mit einem „Bis-Datum“ definiert sein, welches in 2018 liegt.
+!!! info "Hinweis"
+
+     Es werden nur die Schüler in der Ansicht „Abitur“ exportiert, die einen Abiturjahrgang zugeordnet haben. Dieser Abiturjahrgang muss im Verzeichnis der Abschlussjahrgänge mit einem „Bis-Datum“ definiert sein, welches in 2018 liegt.
 
 
 Feld|Bedingung
@@ -92,15 +92,15 @@ Zum Erstellen der Statistikdaten gehen Sie bitte wie folgt vor:
 2.	Klicken Sie im Menü `Extras `auf `Statistik`.
 3.	Wählen Sie als Bundesland Berlin und als Schulart Allgemeinbildende Schule (ABS) oder Berufsbildende Schulen (BBS). Klicken Sie dann auf `Weiter`.
 
-![ ](../assets/images/berlin/abidaten/abidaten1.png)
+![ ](../../assets/images/berlin/abidaten/abidaten1.png)
 
 4.	Wählen Sie als Art der Erstellung `Nur Statistikdateien` erstellen. Markieren Sie die gewünschte Statistikdatei. Unter Statistikzeiträume auswählen stellen Sie den aktuellen Zeitraum ein. Klicken Sie dann auf `Weiter`. 
 
- ![ ](../assets/images/berlin/abidaten/abidaten2.png)
+ ![ ](../../assets/images/berlin/abidaten/abidaten2.png)
  
 5.	Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf `Weiter`. 
 
-![ ](../assets/images/berlin/abidaten/abidaten3.png)	
+![ ](../../assets/images/berlin/abidaten/abidaten3.png)	
  
 6. Klicken Sie auf `Start`, um die Erstellung der Statistikdatei zu starten.
 
@@ -114,9 +114,9 @@ In der nachfolgend aufgelisteten Tabelle zur Statistik erhalten Sie eine Übersi
 **Statistikfeld in der Statistikdatei: **In der erzeugten CSV-Statistikdatei sind die Daten in einer bestimmten Struktur abgelegt. Den Inhalt der CSV-Datei können Sie mit Microsoft Excel ansehen. Über den hier angegeben Pfad zum entsprechenden Statistikfeld, können Sie eine abgespeicherte Statistikinformation gezielt in der CSV-Datei finden.
 
 
-> #### success::Tipp
->
-> Sie wollen überprüfen, ob in der CSV-Datei die Schulnummer korrekt enthalten ist? In der Spalte Statistikfeld finden Sie dazu den Wert 01 – Schul-Nr. Beim Öffnen der CSV-Datei finden Sie die Information dann aufgrund der Listenbeschreibung, als erstes Feld.
+!!! info "Hinweis"
+
+     Sie wollen überprüfen, ob in der CSV-Datei die Schulnummer korrekt enthalten ist? In der Spalte Statistikfeld finden Sie dazu den Wert 01 – Schul-Nr. Beim Öffnen der CSV-Datei finden Sie die Information dann aufgrund der Listenbeschreibung, als erstes Feld.
 
 Feld|Bedeutung
 ---|---

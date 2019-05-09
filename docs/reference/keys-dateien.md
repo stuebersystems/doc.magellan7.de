@@ -18,14 +18,15 @@ Die Felder entsprechen dem sog. System Data Format (SDF), d.h. bei einem Semikol
 ;“ 1. Prüfungsfach und Besondere Lernleistung“;... und nicht ; 1. Prüfungsfach und Besondere Lernleistung;... geschrieben.
 Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeichen anzugeben. Welche Felder pro Datei eingelesen werden, ist den nachfolgenden Abschnitten pro Datei zu entnehmen.
 
-> #### info::Hinweis
-> Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden.
+!!! info "Hinweis"
+
+    Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden.
 Ändern Sie bitte vor dem Import die Dateiendung in *.keys.
 
 
 Nachstehend finden Sie die Kopfzeilen der CSV-Dateien für den Import nach MAGELLAN. 
 
-Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan6.stueber.de/admin/import-export.html#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
+Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/admin/import-export.html#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
 
 ## Abgangsarten
 ````

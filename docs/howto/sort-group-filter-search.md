@@ -168,6 +168,6 @@ Man kann zwischen den Menüs durch Doppelklick in bestimmten Registerkarten unmi
 
 * Im Menü `Betriebe`: Auf der Registerkarte `Auszubildende` kann man durch Doppelklick auf den Eintrag eines Auszubildenden direkt in das Menü `Schüler` bzw. `Bewerber` wechseln.
 
-> #### primary::Hinweis
->
->  Wechselt man innerhalb der Menüs wie oben beschrieben, ist der angeklickte Datensatz im gewechselten Menü sogleich markiert.
+!!! info "Hinweis"
+
+   Wechselt man innerhalb der Menüs wie oben beschrieben, ist der angeklickte Datensatz im gewechselten Menü sogleich markiert.

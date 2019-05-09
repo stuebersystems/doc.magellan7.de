@@ -2,9 +2,9 @@
 
 Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finden diese Schülerdaten auf den Registerkarten `Laufbahn` und `Zeugnis` des Schülers. In diesem Kapitel werden sämtliche Eingaben der notwendigen Daten für den Zeugnisdruck beschrieben. Die Noteneingabe kann über zweierlei Wege erfolgen: zentral über MAGELLAN und dezentral über MyMAGELLAN. In diesem Kapitel wird die zentrale Noteneingabe beschrieben. Wie Sie auf Grundlage der erfassten Zeugnisdaten die Zeugnisse ausdrucken können, erfahren Sie im Kapitel `Formulare, Listen und Zeugnisse`.
 
-> #### warning::Wichtig!
->
-> Die Zeugnisberichte erwarten bestimmte Eingaben in den Programmfeldern. Bitte schauen Sie als erstes im automatisch mitinstalliertem Modul MAGELLAN BERICHTE nach, welche Einstellungen und Eingaben der von Ihnen verwendete Zeugnisbericht erwartet!
+!!! info "Hinweis"
+
+  Die Zeugnisberichte erwarten bestimmte Eingaben in den Programmfeldern. Bitte schauen Sie als erstes im automatisch mitinstalliertem Modul MAGELLAN BERICHTE nach, welche Einstellungen und Eingaben der von Ihnen verwendete Zeugnisbericht erwartet!
 
 ## Fächer und Fachtafeln definieren
 
@@ -18,8 +18,9 @@ Sie sollten dieses Verzeichnis genau durchgehen und die Kürzel oder Bezeichnung
 Die Fächer aus dem Verzeichnis, die an Ihrer Schule nicht unterrichtet werden, können Sie löschen. Klicken Sie auf die entsprechenden Fächer in der Liste und auf das Symbol `Zeile löschen`. Die Fächer werden gelöscht und die Liste wird dadurch übersichtlicher. Sollten Fächer in der vorhandenen Liste fehlen, klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur Eingabe der Daten. Geben Sie die erforderlichen Daten wie Kürzel, Schlüssel und Bezeichnung und falls das Fach in der Oberstufe unterrichtet wird, bitte noch Kategorie und Aufgabenbereich ein. Welche Fachkategorien und Aufgabenbereiche für das von Ihnen verwendete Berechnungsskript vorausgesetzt werden, beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/allgemeines_spezielle_einstellungen_pro_skript.html) je Skript (eine Skript setzt jeweils eine Verordnung um).  
 
 
-> #### danger::Wichtig
-> Alle Berechnungsskripte und auch ein Teil der Zeugnisse setzen Eintragungen im Verzeichnis Fächer voraus. Bitte informieren Sie sich **vor** dem Erstellen der Fachtafeln über die notwendigen Eingaben, da das Verteilen per Fachtafel der bequemste Weg ist.
+!!! info "Hinweis"
+
+  Alle Berechnungsskripte und auch ein Teil der Zeugnisse setzen Eintragungen im Verzeichnis Fächer voraus. Bitte informieren Sie sich **vor** dem Erstellen der Fachtafeln über die notwendigen Eingaben, da das Verteilen per Fachtafel der bequemste Weg ist.
 Informationen zu Zeugnisberichten finden Sie im Modul MAGELLAN BERICHTE. 
 > Was pro Skript an Eingaben voraussetzt wird, können Sie in der Dokumentation [Landesanpassungen](http://doc.la.stueber.de/) nachlesen.
 
@@ -110,9 +111,9 @@ Auf dieselbe Art können Sie dem Fach die `Unterrichtsart` und den `Status` zuwe
 
 In der Spalte `Position` können Sie jedem Fach eine fortlaufende Zahl zuordnen. Diese Zahl bestimmt die Position auf dem Zeugnis. 
 
-> #### danger::Achtung!
->
-> Bitte beachten Sie, dass die meisten Berichte ohne die Angabe einer Position keine Fächer zeigen. Bitte prüfen Sie die Hinweise für Ihre Zeugnisberichte im Modul MAGELLAN BERICHTE!
+!!! info "Hinweis"
+
+  Bitte beachten Sie, dass die meisten Berichte ohne die Angabe einer Position keine Fächer zeigen. Bitte prüfen Sie die Hinweise für Ihre Zeugnisberichte im Modul MAGELLAN BERICHTE!
 
 In der Spalte `Faktor` können Sie Berechnungsfaktoren eingeben. Dies ist allerdings nur für Berufsschulen relevant. 
 
@@ -142,9 +143,9 @@ Für das Zuweisen der Fächer sind mehrere Wege möglich, Ziel ist, dass jeder S
 
 Einfachste Variante:** Alle Schüler der Klasse belegen die gleichen Fächer**, legen Sie pro Jahrgang eine Fachtafel an, die Sie jedes Jahr wiederverwenden können. Diese Fachtafel kann man auch für die Klasse vormerken und mit der Option `Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen` zuordnen. Lesen Sie dazu den Punkt `Fachtafeln zuweisen`.
 
-> #### primary::Hinweis
->
-> Ändert sich etwas an diesen Fächern, können Sie unbesorgt die Änderung an den Fachtafeln vornehmen, da die Fachtafeln lediglich als Vorlage zu Zuweisen der Fächer dient, es gibt im Anschluss keine Verbindung zwischen den Schülerfächern und den Inhalten der Fachtafeln.
+!!! info "Hinweis"
+
+  Ändert sich etwas an diesen Fächern, können Sie unbesorgt die Änderung an den Fachtafeln vornehmen, da die Fachtafeln lediglich als Vorlage zu Zuweisen der Fächer dient, es gibt im Anschluss keine Verbindung zwischen den Schülerfächern und den Inhalten der Fachtafeln.
 
 Ist der **überwiegende Teil der Schülerfächer innerhalb einer Klasse gleich**, einige Fächer unterscheiden sich aber, gibt es mehrere Wege:
 
@@ -162,9 +163,9 @@ Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel 
 
 5. Zusätzlich können Sie jederzeit per Hand auf der Fächerkarte einzelne Fachzeilen ergänzen, ändern oder löschen. 
 
-> #### primary::Hinweis
->
-> Fachtafeln, sind nur der geeignete Weg, wenn es eine Übereinstimmung in den Schülerfächern gibt. Für Oberstufenschüler, deren Fachwahl individuell erfolgt, eignet sich der Punkt `Abitur > Fachwahl` oder es können Schülerfachwahlen aus dem Kursplanmodul von daVinci übernommen werden. Informationen zum Punkt `Fachwahl` lesen Sie bitte im Abschnitt `Fachwahl-/Qualifikationsüberprüfungen vorbereiten` nach.
+!!! info "Hinweis"
+
+  Fachtafeln, sind nur der geeignete Weg, wenn es eine Übereinstimmung in den Schülerfächern gibt. Für Oberstufenschüler, deren Fachwahl individuell erfolgt, eignet sich der Punkt `Abitur > Fachwahl` oder es können Schülerfachwahlen aus dem Kursplanmodul von daVinci übernommen werden. Informationen zum Punkt `Fachwahl` lesen Sie bitte im Abschnitt `Fachwahl-/Qualifikationsüberprüfungen vorbereiten` nach.
 
 ### Fachtafel extrahieren
 
@@ -209,15 +210,15 @@ Die angebotene Beurteilungsart unter `Schüler > Zeugnis > Leistungen` richtet s
 
 Je nach Auswahl werden in den Notenfeldern der Schüler Noten, Punkte, Prozente oder auch Eingabemöglichkeiten für Beurteilungstexte eingeblendet.
 
-> #### danger::Achtung!
->
-> Bitte wählen Sie die Beurteilungsart der Klasse vor der Vergabe der Zeugnisnoten oder -punkte aus! 
+!!! info "Hinweis"
+
+  Bitte wählen Sie die Beurteilungsart der Klasse vor der Vergabe der Zeugnisnoten oder -punkte aus! 
 
 ![Wählen Sie die Berurteilungsart bei der Klasse aus](../assets/images/zeugnisdaten/zeugnisdaten15.png)
 
-> #### success::Tipp
->
->  Um Ausfälle auf einen Blick erkennen zu können, weisen Sie den Noten unter `Extras > Schlüsselverzeichnisse > Noten` in der Spalte `Hintergrundfarbe `eine individuelle Farbe zu. Die Farbe wird unter `Schüler > Zeugnis > Leistungen `und auch in der Notenübersicht gezeigt. Zusätzlich muss bitte unter `Datenbank > Optionen > Einstellungen` die `Hintergrundfarbe für Benotungen` aktiviert werden.
+!!! info "Hinweis"
+
+  Um Ausfälle auf einen Blick erkennen zu können, weisen Sie den Noten unter `Extras > Schlüsselverzeichnisse > Noten` in der Spalte `Hintergrundfarbe `eine individuelle Farbe zu. Die Farbe wird unter `Schüler > Zeugnis > Leistungen `und auch in der Notenübersicht gezeigt. Zusätzlich muss bitte unter `Datenbank > Optionen > Einstellungen` die `Hintergrundfarbe für Benotungen` aktiviert werden.
 
 ### Noteneingabe
 
@@ -228,8 +229,9 @@ Sie geben Noten für einen Schüler ein, indem Sie auf der Registerkarte `Zeugni
 Je nach der eingestellten Beurteilungsart der Klasse der werden zur Eingabe entweder Noten- oder Punktwerte angeboten. Auf die Eingabe von Beurteilungstexten wird im nachfolgenden Abschnitt näher eingegangen. Aus den schriftlichen und mündlichen Noten berechnet MAGELLAN im Regelfall nicht automatisch die Endnote!
 Auf der Registerkarte `Leistungen` werden also im Regelfall nur die Noten eingetragen, die letztendlich auf dem Zeugnis erscheinen und sie besitzt keine Notenbuchfunktionalität. Im Regelfall sollten Sie in der Spalte `Endnote` die Zeugnisnote eintragen.
 
-> #### primary::Hinweis>
-> Wenn Sie innerhalb eines Zeitraums aufgrund der eingetragenen Noten Versetzungen, Abschlüsse bzw. Durchschnittsnoten berechnen wollen, müssen Sie das Optionsfeld `Durchschnitt einblenden` markieren.
+!!! info "Hinweis"
+
+  Wenn Sie innerhalb eines Zeitraums aufgrund der eingetragenen Noten Versetzungen, Abschlüsse bzw. Durchschnittsnoten berechnen wollen, müssen Sie das Optionsfeld `Durchschnitt einblenden` markieren.
 
 #### Zeitraumübergreifende Notenübersicht für einzelne Schüler oder eine Klasse
 
@@ -237,8 +239,9 @@ Es ist möglich, eine zeitraumübergreifende Notenmatrix für Schüler aufzurufe
  
 ![Dies ist die Notenübersicht für den aktuellen Schüler](../assets/images/zeugnisdaten/zeugnisdaten17.png)
 
-> #### info::Hinweis
-> Die Registerkarte `Leistungen` und die `zeitraumübergreifende Notenmatrix` können nach Excel oder HTML exportiert werden.
+!!! info "Hinweis"
+
+   Die Registerkarte `Leistungen` und die `zeitraumübergreifende Notenmatrix` können nach Excel oder HTML exportiert werden.
 Sie können die zeitraumübergreifende Notenübersicht auch für die gesamte Klasse des ausgewählten Schülers anzeigen lassen. Dafür schalten Sie in der oberen Menüleiste von `Aktueller Schüler` auf `Alle Schüler der Klasse` um.
  
  ![Beispiel: Die  Noten der Schüler der Klasse 13 sind nach der Spalte Fach gruppiert.](../assets/images/zeugnisdaten/zeugnisdaten18.png)
@@ -257,17 +260,17 @@ Bei der Eingabe des Beurteilungstextes können Sie auf bereits definierte Textba
  
  ![Dies ist das Verzeichnis der Zeugnisbeurteilungen](../assets/images/zeugnisdaten/zeugnisdaten22.png)
 
-> #### primary::Hinweis
->
->  Die Beurteilung nach Beurteilungstexten wird häufig in den ersten Klassen der Grundschule verwendet.
+!!! info "Hinweis"
+
+  Die Beurteilung nach Beurteilungstexten wird häufig in den ersten Klassen der Grundschule verwendet.
 
 ### Layout bei Noteneingabe anpassen
 
 Das Layout auf der Registerkarte `Leistungen` kann individuell angepasst werden. Sie können sowohl nicht benötigte Spalten ausblenden als auch die Spaltenbezeichnungen umbenennen. Zur Anpassung des Layouts müssen Sie links oben auf der Registerkarte `Leistungen` auf die Schaltfläche `Layout anpassen…` klicken. Klicken Sie im Dialogfenster `Layout anpassen` auf die Häkchen in der Spalte `Sichtbar`, um die Spalte ein- bzw. auszublenden. Klicken Sie in der Spalte `Bezeichnung` auf den Begriff in der entsprechenden Zeile. Sie können diesen jetzt direkt überschreiben. 
 
-> #### primary::Hinweis
->
-> Die Einstellungen unter `Layout anpassen...` beziehen sich auf Ihren Arbeitsplatz, nicht auf andere MAGELLAN-Installationen.
+!!! info "Hinweis"
+
+  Die Einstellungen unter `Layout anpassen...` beziehen sich auf Ihren Arbeitsplatz, nicht auf andere MAGELLAN-Installationen.
  
  ![Hier können Sie die Spaltenüberschrift verändern und angeben, ob eine Spalte sichtbar ist.](../assets/images/zeugnisdaten/zeugnisdaten23.png)
 
@@ -320,9 +323,9 @@ Sie können die Kategorien für die Schüler einzeln per Hand zuweisen oder mehr
 |4. In der Spalte `Bewertung` können Sie eine Bewertung hinterlegen.|
 |5. Bestätigen Sie die Auswahl abschließend mit dem orangen Häkchen für Speichern auf der rechten Seite.|
 
-> #### primary::Hinweis
->
-> Die Ansicht kann durch den Typfilter entweder die `Fachlichen Leistungen` oder die Eintragungen zum `Allgemeinen Lern- und Arbeitsverhalten` anzeigen. Aktivieren Sie den Wechsel durch einen Klick auf das Filtersymbol.
+!!! info "Hinweis"
+
+  Die Ansicht kann durch den Typfilter entweder die `Fachlichen Leistungen` oder die Eintragungen zum `Allgemeinen Lern- und Arbeitsverhalten` anzeigen. Aktivieren Sie den Wechsel durch einen Klick auf das Filtersymbol.
  
 ![Hier ist die  Ansicht gefiltert nach `Allgemeines Lern- und Arbeitsverhalten`](../assets/images/zeugnisdaten/zeugnisdaten35.png)
 
@@ -334,9 +337,9 @@ Wählen Sie die Schüler aus, Sie können dabei die Funktionen [`Sortieren`, `Gr
 
 Wählen Sie die gewünschte Kategorietafel aus. Mit der Option `Vorhandene Kategorie der Schüler nicht löschen` können Sie steuern, ob die Kategorien der neuen Tafel ergänzt werden sollen oder anstelle der vorhandenen Kategorien zugewiesen werden sollen. Schließen Sie den Assistenten mit `Weiter` und `Fertigstellen` ab.
 
-> #### primary::Hinweis
->
-> Mit dem Zuweisen einer Kategorietafel können Einträge für die `Fachliche Leistungen` und das `Allgemeine Lern- und Arbeitsverhalten` für alle Schüler eines Jahrgangs in einem Arbeitsgang zugewiesen werden.
+!!! info "Hinweis"
+
+   Mit dem Zuweisen einer Kategorietafel können Einträge für die `Fachliche Leistungen` und das `Allgemeine Lern- und Arbeitsverhalten` für alle Schüler eines Jahrgangs in einem Arbeitsgang zugewiesen werden.
 
 #### Kategorietafeln extrahieren
 
@@ -427,9 +430,9 @@ Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die z
 
 Sie haben in MAGELLAN die Möglichkeit, allen Schülern einzelne oder klassenweise (über `Sammelzuweisung`) Zeugnisformulare zuzuweisen. Durch diese Zuweisung können Sie den Zeugnisdruck automatisieren. Die `Zeugnisformulare` sind ein weiteres Schlüsselverzeichnis unter `Extras > Schlüsselverzeichnisse > Zeugnisformulare` und müssen dort erfasst werden. 
 
-> #### warning::Wichtig!
->
->  Die Zuweisung der Zeugnisformulare zu den einzelnen Schülern ist optional und macht  z.B. dann Sinn, wenn die Schüler einer Klasse verschiedene Zeugnisse (BBS) oder mehrere Zeugnisse erhalten. 
+!!! info "Hinweis"
+
+  Die Zuweisung der Zeugnisformulare zu den einzelnen Schülern ist optional und macht  z.B. dann Sinn, wenn die Schüler einer Klasse verschiedene Zeugnisse (BBS) oder mehrere Zeugnisse erhalten. 
 
 Außerdem kann ein Außenstehender (z.B. die Sekretärin) ohne die Kenntnis, wer welches Zeugnis bekommt, den Druck automatisch starten, da die Zeugnisse beim Schüler hinterlegt sind. Bekommen die Schüler in der Mehrheit immer das gleiche Formular ist der standardmäßige Ausdruck der Zeugnisse vorzuziehen.
 
@@ -437,10 +440,9 @@ Um das Verzeichnis der Zeugnisformulare zu bearbeiten, wechseln Sie zu `Extras >
  
 ![Optional kann im Verzeichnis der Zeugnisformulare unter `Typ` noch eine Ziffer vergeben werden, nach der man später beim Ausdruck entsprechend filtern kann.](../assets/images/zeugnisdaten/zeugnisdaten44.png)
 
+!!! info "Hinweis"
 
-> #### success::Tipp
->
-> Verwenden Sie das Feld `Typ` um später beim Ausdruck die Zeugnisformulare nach den unterschiedlichen Vorlagen (zum Beispiel A3 = Typ 3, A4= Typ 4 o.ä.) filtern zu können.
+   Verwenden Sie das Feld `Typ` um später beim Ausdruck die Zeugnisformulare nach den unterschiedlichen Vorlagen (zum Beispiel A3 = Typ 3, A4= Typ 4 o.ä.) filtern zu können.
  
 ![Pro Schüler können auf der Registerkarte `Zeugnisse` unter `Zeugnisformulare` die im Verzeichnis der Zeugnisformulare definierten Zeugnisse zugewiesen werden.](../assets/images/zeugnisdaten/zeugnisdaten45.png)
 
@@ -494,8 +496,4 @@ Auf der Registerkarte `Abschluss` kann der Abschluss des Schülers (z.B. Abitur)
 Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die zugewiesenen Daten einzeln abzuändern. Analog ist beim Durchführen einer Sammelzuweisung auf der Registerkarte `Abschluss` vorzugehen.
  
 ![ Weisen Sie hier mehreren Schülern gleichzeitig bestimmte Laufbahndaten zu.](../assets/images/zeugnisdaten/zeugnisdaten50.png)
-
-
-
-
 

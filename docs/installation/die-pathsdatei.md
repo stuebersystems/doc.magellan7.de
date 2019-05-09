@@ -11,12 +11,10 @@ Die Statistiklizenz wird nur an einer einzigen Stelle im Netzwerk eingespielt, i
 Auch beim Einrichten einer neuen Arbeitsplatzsituation spart man sich einzelne Schritte: es genügt die Installation durchzuführen und die Magellan.paths im Programmverzeichnis abzulegen.
 
 
+!!! warning "Wichtig"
 
-> #### warning::Wichtig!
->
->** Arbeitsplatzrechner:** Die Verbindungsinformationen aus Sicht der Arbeitsplatzrechner sind sicher immer gleich, insofern ist es sinnvoll für Ihre Arbeitsplatzrechner Paths-Dateien zum Verweis auf ein Verzeichnis in Ihrem Netzwerk zu verwenden.
-> 
-> **Serverrechner:** Wir empfehlen für den Serverrechner **nicht** auf eine Pathsdatei zu verweisen, hier genügt es die lokalen Dateien zu verwenden.
+  >** Arbeitsplatzrechner:** Die Verbindungsinformationen aus Sicht der Arbeitsplatzrechner sind sicher immer gleich, insofern ist es sinnvoll für Ihre Arbeitsplatzrechner Paths-Dateien zum Verweis auf ein Verzeichnis in Ihrem Netzwerk zu verwenden.
+ **Serverrechner:** Wir empfehlen für den Serverrechner **nicht** auf eine Pathsdatei zu verweisen, hier genügt es die lokalen Dateien zu verwenden.
 
 Folgende Dateien werden beim Programmstart gelesen:
 
@@ -64,9 +62,10 @@ Weiter geht's:
 
 2. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur MAGELLAN.exe) ab. Beim Programmstart von MAGELLAN wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
 
-> #### warning::Wichtig!
->
-> Wenn Sie per MAGELLAN.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der der Ablagestelle der MAGELLAN.opt Änderungen vorzunehmen.
+
+!!! warning "Wichtig"
+
+   Wenn Sie per MAGELLAN.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der der Ablagestelle der MAGELLAN.opt Änderungen vorzunehmen.
 
 Über Neuerungen im Programm informieren wir im Abschnitt [Was ist neu?](http://doc.magellan7.stueber.de/changelog.html)
 

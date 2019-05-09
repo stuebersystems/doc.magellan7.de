@@ -10,20 +10,17 @@
 
 Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und der dazugehörigen Firebird-Installation eingesetzt werden.
 
-> #### warning::Wichtig!
->
-> Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan6.stueber.de/changelog.html) der MAGELLAN 6-Dokumentation!
-> 
->Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan6.stueber.de/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
+!!! info "Hinweis"
+
+     Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/changelog.html) der MAGELLAN 6-Dokumentation!
+     Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan7.stueber.de/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan7.stueber.de/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
 
 ## MAGELLAN 7 installieren
 
+!!! info "Hinweis"
 
-
-> #### warning::Wichtig!
->
-> Sollten Sie eine Datenübernahme wiederholen wollen, benötigen Sie eine "frische" leere MAGELLAN 7 Datenbank. 
-> Diese könnten Sie [hier](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/database/MAGELLAN7.FDB) herunterladen.
+    Sollten Sie eine Datenübernahme wiederholen wollen, benötigen Sie eine "frische" leere MAGELLAN 7 Datenbank. 
+    Diese könnten Sie [hier](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/database/MAGELLAN7.FDB) herunterladen.
 
 Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.magellan7.stueber.de/installation/).
 

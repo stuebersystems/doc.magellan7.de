@@ -6,18 +6,16 @@ Für das Bundesland Berlin sind in den Ansichten „Schüler“, „Bewerber“,
 
 Dieser Abschnitt erläutert die Nutzung der Schüler– und Bewerbermasken in den Ansichten „Schüler“ und „Bewerber“ für das Bundesland Berlin.
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Voraussetzung für die Nutzung der Schüler- und Bewerbermasken für Berlin ist eine entsprechende Installation von MAGELLAN für das Bundesland Berlin. Dazu müssen Sie im Rahmen der Installation im Willkommen-Assistenten das Bundesland „Berlin“ auswählen.
+     Voraussetzung für die Nutzung der Schüler- und Bewerbermasken für Berlin ist eine entsprechende Installation von MAGELLAN für das Bundesland Berlin. Dazu müssen Sie im Rahmen der Installation im Willkommen-Assistenten das Bundesland „Berlin“ auswählen.
  
-![Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../assets/images/berlin/masken/masken1.png)
+![Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../../assets/images/berlin/masken/masken1.png)
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter `Datenpflege > Bundesland` korrigieren. MAGELLAN selbst muss während der Änderung dieser Angabe bitte geschlossen sein.
-> Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vorausgesetzt, damit die Masken ohne zusätzliches Scrollen oder Blättern genutzt werden können. 
+     Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter `Datenpflege > Bundesland` korrigieren. MAGELLAN selbst muss während der Änderung dieser Angabe bitte geschlossen sein.
+     Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vorausgesetzt, damit die Masken ohne zusätzliches Scrollen oder Blättern genutzt werden können. 
 
 ## Prinzip
 
@@ -33,10 +31,11 @@ Für jede Schulstufe steht eine Bewerber- und eine Schüleransicht zur Verfügun
 Diese Bewerber- und Schüleransichten pro Schulstufe können in den Ansichten „Schüler/in“ und „Bewerber/in“ automatisch je Schüler bzw. Bewerber angezeigt werden oder manuell ausgewählt werden.
 
 ## Aufbau der Bildschirmmasken
+
 Im Unterschied zu der MAGELLAN-Standardmaske sind die 4 Bewerber- und die 4 Schülermasken für Berlin dreispaltig aufgebaut. Damit werden die Registerkarten „Daten 1“, „Sorgeberechtigte“ und „Ausbildung“ der MAGELLAN-Standardmaske durch eine einzige Registerkarte ersetzt.
 Alle 8 Bildschirmmasken sind zur Übersichtlichkeit in Datenblöcke unterteilt, wobei die jeweils linke Spalte bei allen Masken identisch aufgebaut ist.
  
-![Dies ist die dreispaltige Schülermaske für die Sekundarstufe I.](../assets/images/berlin/masken/masken2.png)
+![Dies ist die dreispaltige Schülermaske für die Sekundarstufe I.](../../assets/images/berlin/masken/masken2.png)
 
 ## Automatische Zuordnung der Bildschirmmaske
 
@@ -47,13 +46,13 @@ Zu jeder Klasse in MAGELLAN kann eine damit verbundene Standardmaske für die Sc
 3.	Wählen Sie im Feld `Standardmaske `einer der möglichen Masken für die Schüler der Klasse aus. 
 
  
-![ Hier stellen Sie die Standardmaske für die Schüler der Klasse ein.](../assets/images/berlin/masken/masken3.png)
+![ Hier stellen Sie die Standardmaske für die Schüler der Klasse ein.](../../assets/images/berlin/masken/masken3.png)
 
 Befinden Sie sich in der Ansicht „Schüler/in“, so wird bei Auswahl eines Schülers immer die Bildschirmmaske angezeigt, die der damit verbundenen Klasse zugeordnet ist.
 
-> #### primary::Hinweis
->
-> Eine automatische Zuordnung der Bildschirmmaske in der Ansicht „Bewerber“ ist nicht pro Bewerber möglich, da der Bewerber noch nicht einer Klasse zugeordnet ist.
+!!! info "Hinweis"
+
+     Eine automatische Zuordnung der Bildschirmmaske in der Ansicht „Bewerber“ ist nicht pro Bewerber möglich, da der Bewerber noch nicht einer Klasse zugeordnet ist.
 
 ## Manuelle Zuordnung der Bildschirmmaske
 
@@ -62,11 +61,11 @@ Um neben der automatischen Zuordnung der Bildschirmmasken eine andere Bildschirm
 1.	Klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Schüler/in` bzw. `Bewerber/in` oder wählen Sie `Ansicht  >  Schüler/in` bzw. `Ansicht  >  Bewerber/in`.
 2.	Wählen Sie in der oberen Symbolleiste die gewünschte Maske aus, indem Sie auf das Aufklappfeld der aktuellen Maske klicken.
  
-![Hier ist die aktuelle Maske „Sekundarstufe I“ in der oberen Symbolleiste eingestellt.](../assets/images/berlin/masken/masken4.png)
+![Hier ist die aktuelle Maske „Sekundarstufe I“ in der oberen Symbolleiste eingestellt.](../../assets/images/berlin/masken/masken4.png)
 
 3.	Wählen Sie im Dialogfenster `Maske auswählen `die gewünschte andere Maske aus.
  
-![Wählen Sie hier die andere Maske aus.](../assets/images/berlin/masken/masken5.png)
+![Wählen Sie hier die andere Maske aus.](../../assets/images/berlin/masken/masken5.png)
 
 ## Konfiguration der Masken
 
@@ -80,13 +79,13 @@ So öffnen Sie die Registerkarte Masken im Dialogfenster Optionen:
 1.	Klicken Sie auf `Extras `und dann auf `Optionen`.
 2.	Wählen Sie die Registerkarte `Masken`.
  
- ![Dies ist die Registerkarte „Masken“ im Dialogfenster „Optionen“.](../assets/images/berlin/masken/masken6.png)
+ ![Dies ist die Registerkarte „Masken“ im Dialogfenster „Optionen“.](../../assets/images/berlin/masken/masken6.png)
  
 Unter `Anzuzeigende Masken` können Sie festlegen, welche Masken zur Auswahl für das Feld Standardmaske auf Registerkarte Daten 1 einer Klasse zur Verfügung stehen.
 
-> #### primary::Hinweis
->
-> Die anzuzeigenden Masken können nur durch den ADMINISTRATOR geändert werden. 
+!!! info "Hinweis"
+
+     Die anzuzeigenden Masken können nur durch den ADMINISTRATOR geändert werden. 
 Zusätzlich können Sie unter `Standardmaske der angepassten Masken` festlegen, welche Maske angezeigt wird wenn
 
 *	ein Schüler ohne Klassenzuordnung ausgewählt ist,
@@ -101,21 +100,22 @@ So öffnen Sie die Registerkarte `Bewerberverfahren  >  Berlin` im Dialogfenster
 1.	Klicken Sie auf `Extras `und dann auf `Optionen`.
 2.	Wählen Sie die Registerkarte `Bewerberverfahren` und dann die Registerkarte `Berlin`.
  
- ![Dies ist die Registerkarte „Bewerberverfahren > Berlin“ im Dialogfenster „Optionen“.](../assets/images/berlin/masken/masken7.png)
+ ![Dies ist die Registerkarte „Bewerberverfahren > Berlin“ im Dialogfenster „Optionen“.](../../assets/images/berlin/masken/masken7.png)
 
 Stellen Sie hier die entsprechenden Maximalwerte für die Punkte ein.
 Die eingestellten Punkte können dann in der Ansicht „Bewerber“ für einen Bewerber in der Maske „Sekundarstufe I“ verwendet werden.
  
-![In diesem Block der Maske „Sekundarstufe I“ in der Ansicht „Bewerber“ können Sie die Einstellungen zur Aufnahme für Klasse 7 verwenden.](../assets/images/berlin/masken/masken8.png)
+![In diesem Block der Maske „Sekundarstufe I“ in der Ansicht „Bewerber“ können Sie die Einstellungen zur Aufnahme für Klasse 7 verwenden.](../../assets/images/berlin/masken/masken8.png)
 
 ## Anwendung der Masken
 
 Die je vier Bewerber- und Schülermasken für Berlin stehen bei der Eingabe und beim Editieren von Bewerbern und Schülern zur Verfügung.
 
 ### Ansicht „Bewerber“
+
 In der Ansicht Bewerber wird bei Auswahl oder Neueintrag eines Bewerbers automatisch die Bewerbermaske angezeigt, die im Dialogfenster Optionen auf der Registerkarte Masken unter Standardmaske der angepassten Masken eingestellt ist.
  
-![Dies ist die Bewerbermaske für die Grundstufe.](../assets/images/berlin/masken/masken9.png)
+![Dies ist die Bewerbermaske für die Grundstufe.](../../assets/images/berlin/masken/masken9.png)
 
 Optional kann man manuell eine andere Bildschirmmaske über die obere Symbolleiste auswählen.
 
@@ -139,12 +139,12 @@ In der Ansicht Schüler bzw. Bewerber zeigen die Auswahllisten in den Spalten ei
 
 Unter `Schüler  >  Bearbeiten und unter Bewerber  >  Bearbeiten` können Sammelzuweisungen für verschiedene Felder des Programms aufgerufen werden. Um die teilweise nur für Berlin zur Verfügung stehenden Felder komfortabel füllen zu können, gibt es die Möglichkeit pro Maske eine Sammelzuweisung aufzurufen. Die in der Sammelzuweisung angebotenen Felder richten sich nach der in der Menüleiste eingestellten Maske.
  
-![Entsprechend der hier ausgewählten Maske bietet die Sammelzuweisung Felder an.](../assets/images/berlin/masken/masken10.png)
+![Entsprechend der hier ausgewählten Maske bietet die Sammelzuweisung Felder an.](../../assets/images/berlin/masken/masken10.png)
 
 Wählen Sie MAGELLAN-Standardmaske stehen Ihnen ausgewählte Felder der Registerkarten Daten1 bis Zugang/Abgang zur Verfügung, wählen Sie einer der Berliner Masken aus, werden Ihnen gezielt die Felder der jeweiligen Karte angeboten. 
 Für beide Auswahlen werden zusätzlich Merkmalsfelder und, bei entsprechender Lizenzierung, auch Felder der Ausbildungskarte angeboten.
  
-![Beispiel: Sammelzuweisung für die Auswahl "Sekundarstufe I"](../assets/images/berlin/masken/masken11.png)
+![Beispiel: Sammelzuweisung für die Auswahl "Sekundarstufe I"](../../assets/images/berlin/masken/masken11.png)
 
 ### Klassenmaske für Berlin
 
@@ -154,11 +154,11 @@ Dieser Abschnitt erläutert die Nutzung der Klassenmaske in der Ansichten Klasse
 
 Voraussetzung für die Nutzung der Klassenmaske für Berlin ist eine entsprechende Installation von MAGELLAN für das Bundesland Berlin. Dazu müssen Sie im Rahmen der Installation im Willkommen-Assistenten das Bundesland „Berlin“ auswählen.
  
-![ Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../assets/images/berlin/masken/masken12.png)
+![ Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../../assets/images/berlin/masken/masken12.png)
 
-> #### warning::Wichtig!
->
-> Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter dem Punkt `Datenbankpflege > Land/Bundesland ändern` korrigieren.
+!!! info "Hinweis"
+
+     Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter dem Punkt `Datenbankpflege > Land/Bundesland ändern` korrigieren.
 Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vorausgesetzt, damit die Masken ohne zusätzliches Scrollen oder Blättern genutzt werden können.
 
 ### Änderungen auf der Registerkarte „Daten“
@@ -166,7 +166,7 @@ Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vora
 Durch die Auswahl des Bundeslandes Berlin wird Standardanzeige auf der Registerkarte Daten in der Ansicht Klassen verändert. Hierzu ist im Gegensatz zu den Schüler- und Bewerbermasken für Berlin keine spezielle Maskenauswahl notwendig.
 Im Vergleich zur Standardmaske gibt es folgende Änderungen auf der Registerkarte Daten der Ansicht Klassen: Im unteren Teil der Registerkarte können Sie zusätzlich die Alphakürzel, die Integration, die Klassenorganisation und die Standardmaske der Klasse angeben.
  
-![Dies ist die Registerkarte „Daten“ der Ansicht „Klassen“ für das Bundesland Berlin.](../assets/images/berlin/masken/masken13.png)
+![Dies ist die Registerkarte „Daten“ der Ansicht „Klassen“ für das Bundesland Berlin.](../../assets/images/berlin/masken/masken13.png)
 
 ###	Mandantenmaske für Berlin
 
@@ -175,12 +175,12 @@ Dieser Abschnitt erläutert die Nutzung der Mandantenmaske in der Ansicht Mandan
 #### Voraussetzung
 
 Voraussetzung für die Nutzung der Klassenmaske für Berlin ist eine entsprechende Installation von MAGELLAN für das Bundesland Berlin. Dazu müssen Sie im Rahmen der Installation im Willkommen-Assistenten das Bundesland „Berlin“ auswählen.
-![ Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../assets/images/berlin/masken/masken12.png)
+![ Wählen Sie im Willkommen-Assistenten das Bundesland Berlin aus.](../../assets/images/berlin/masken/masken12.png)
 
-> #### warning::Wichtig!
->
-> Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter dem Punkt `Datenbankpflege > Land/Bundesland ändern` korrigieren.
-Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vorausgesetzt, damit die Masken ohne zusätzliches Scrollen oder Blättern genutzt werden können.
+!!! info "Hinweis"
+
+     Sollten Sie im Willkommens-Assistenten irrtümlich das falsche Bundesland eingestellt haben, so können Sie dieses nachträglich im MAGELLAN-ADMINISTRATOR unter dem Punkt `Datenbankpflege > Land/Bundesland ändern` korrigieren. 
+     Zusätzlich wird eine Bildschirmauflösung von mindestens 1280 x 1024 Pixel vorausgesetzt, damit die Masken ohne zusätzliches Scrollen oder Blättern genutzt werden können.
 
 #### Änderungen auf den Registerkarten „Daten 1“ und „Daten 2“
 
@@ -191,7 +191,5 @@ Im Vergleich zur Standardmaske gibt es folgende Änderungen auf den Registerkart
 1.	Auf der Registerkarte Daten 1 ist das Feld „Kategorie“ in „Schulform“ umbenannt worden.
 2.	Auf der Registerkarte Daten 2 entfällt der obere Bereich der Schulformen und im unteren Bereich kommt das Feld „Logo“ für Schullogo hinzu. Dieses Logo dient u.a. für die dynamische Ausgabe des Schullogos auf Berichten wie z.B. Zeugnissen.
  
-![Dies ist die Registerkarte „Daten 1“ der Ansicht „Mandanten“ für das Bundesland Berlin.](../assets/images/berlin/masken/masken15.png)
-
-
+![Dies ist die Registerkarte „Daten 1“ der Ansicht „Mandanten“ für das Bundesland Berlin.](../../assets/images/berlin/masken/masken15.png)
 

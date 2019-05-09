@@ -32,11 +32,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig bis|leer|
 
 
-
-
 ![Eintragung im Verzeichnis Verordnungen für Abiturberechnung und Fachwahl](../assets/images/berlin/ber-apo-2017.00.png)
-
-
 
 
 ## Fachkategorien
@@ -149,7 +145,7 @@ Im Menü ``Abitur`` wird auf der Registerkarte ``Prüfung`` im Feld ``5. PF`` da
 |mündliche Note|Note der **Präsentation**|
 |2. mündl. Note| Note des **Prüfungsgespräches**|
 
-![Noteneingabe Präsentationsprüfung](../assets/BER-APO-2017_praesentationspruefung1.png)
+![Noteneingabe Präsentationsprüfung](../../../assets/images/berlin/bs/BER-APO-2017_praesentationspruefung1.png)
 
 #### Besondere Lernleistung
 
@@ -160,7 +156,4 @@ Die **besondere Lernleistung** kann auch eines der ersten 4 Prüfungsfächer sei
 - statt "4PF" nutzen Sie "4PFBLL"
 
 Falls die Besondere Lernleistung nicht eines der Prüfungsfächer 1.-4. ist, weisen Sie dem Fach den Fachstatus "BLL" zu und führen das entsprechende Skript aus. Im Menü ```Abitur >  Prüfung`` wird im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen.
-
-
-
 

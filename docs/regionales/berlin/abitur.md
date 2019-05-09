@@ -9,11 +9,11 @@ Die Überprüfung der Abiturzulassung gliedert sich in zwei aufeinander folgende
 
 Diese Schritte werden in den nachfolgenden Abschnitten erläutert.
  
- ![Registerkarte „Qualifikation“ in der Ansicht „Abitur.](../assets/images/berlin/abitur/abitur1.png)
+ ![Registerkarte „Qualifikation“ in der Ansicht „Abitur.](../../assets/images/berlin/abitur/abitur1.png)
  
-> #### warning::Wichtig!
->
-> Überprüfen Sie, ob für den Schüler unter „Prüfungsordnung“ die korrekte Prüfungsordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
+!!! info "Hinweis"
+
+    Überprüfen Sie, ob für den Schüler unter „Prüfungsordnung“ die korrekte Prüfungsordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
 >Sie können auf der Registerkarte „Qualifikation“ einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche `Layout anpassen…`.
 
 
@@ -32,27 +32,28 @@ Klicken Sie auf `Initialisieren`. Entsprechend des Skripts geschieht beim Initia
 
 Markieren Sie die eingebrachten Kurse des Schülers, d.h. markieren Sie `Manuelles Markieren`, wählen Sie die Option `Kurse einbringen` und klicken Sie die entsprechenden Kurse an. Die eingebrachten Kurse werden gelb markiert.
 
-> #### primary::Hinweis
->
-> Das letzte Halbjahr im Leistungskursbereich darf bei Skripten mit Leistungs- und Grundkursunterscheidung nicht als „eingebracht“ markiert werden. Es wird automatisch in den Prüfungsbereich übernommen und geht somit in die Berechnung ein.
+!!! info "Hinweis"
+
+    Das letzte Halbjahr im Leistungskursbereich darf bei Skripten mit Leistungs- und Grundkursunterscheidung nicht als „eingebracht“ markiert werden. Es wird automatisch in den Prüfungsbereich übernommen und geht somit in die Berechnung ein.
 
 ### Die Vorschlagsautomatik
+
 Wenn Sie auf die Schaltfläche `Vorschlag` klicken, dann werden von der Vorschlagsautomatik entsprechend der Abiturverordnung die Kurse automatisch gelb markiert, die die maximale Qualifikationspunktzahl in den ersten beiden Qualifikationsbereichen erbringen.
 
-> #### warning::Wichtig!
->
-> Voraussetzung für die Vorschlagsautomatik ist, dass Sie über die Angaben in der Spalte „Fachstatus“ die vier Prüfungsfächer bzw. 5. Prüfungskomponente bestimmt haben.
-> Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
+!!! info "Hinweis"
+
+    Voraussetzung für die Vorschlagsautomatik ist, dass Sie über die Angaben in der Spalte „Fachstatus“ die vier Prüfungsfächer bzw. 5. Prüfungskomponente bestimmt haben.
+     Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
 
 
-![ Das Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik.](../assets/images/berlin/abitur/abitur2.png)
+![ Das Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik.](../../assets/images/berlin/abitur/abitur2.png)
 
 
 ### Zulassung berechnen
 
 Klicken Sie auf die Schaltfläche  `Neu berechnen`, um die Zulassung automatisch durch das entsprechende Skript berechnen zu lassen. Im Meldungsfenster werden die Qualifikationspunktzahl für den LK- und den GK-Bereich (letzteres nur bei „Gesamtqualifikation berechnen“) sowie evtl. Fehler angezeigt. Wenn Sie auf die Schaltfläche `Vorschlag` geklickt haben, ist das Meldungsfenster bereits geöffnet und die Qualifikation berechnet worden. Liegt die Summe beider Bereiche über der Mindestpunktzahl und sind keine weiteren Fehler ausgewiesen, dann ist die Abiturzulassung erreicht.
  
-![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](../assets/images/berlin/abitur/abitur3.png)
+![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](../../assets/images/berlin/abitur/abitur3.png)
 
 > #### primary::Hinweis
 >
@@ -79,9 +80,9 @@ Wenn Sie die Zulassungsdaten nicht skriptgesteuert eingeben möchten, können Si
 
 Kurse des Schülers, die nicht auf dem Abiturzeugnis erscheinen sollen, müssen Sie entsprechend markieren. Markieren Sie dazu `Manuelles Markieren`, wählen Sie die Option `Nicht auf Zeugnis drucken` und klicken Sie die entsprechenden Kurse an. Die ausgenommenen Kurse werden standardmäßig grau markiert.
 
-> #### success::Tipp
->
-> Die Farben in der Oberstufe im Menü „Abitur“ sind individuell einstellbar. Unter `Extras > Farben…` legen Sie fest, welche Hintergrundfarben in der Ansicht verwendet werden sollen.
+!!! info "Hinweis"
+
+    Die Farben in der Oberstufe im Menü „Abitur“ sind individuell einstellbar. Unter `Extras > Farben…` legen Sie fest, welche Hintergrundfarben in der Ansicht verwendet werden sollen.
 
 ### Bilingualer Unterrricht
 
@@ -91,25 +92,25 @@ Sollten Sie in der Qualifikationsphase Q1 bis Q4 auch bilingualen Unterricht hab
 *	pro Qualifikationshalbjahr (pro Zeitraum) bei der Ansicht „Schüler“ > Zeugnis > Fächer in der Spalte Sprache.
 *	in der Qualifikationsmatrix in der Ansicht „Abitur“ > Qualifikation in den Spalte Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache.
  
- ![Registerkarte „Qualifikation“ mit eingeblendeten Spalten für bilingualen Unterricht ](../assets/images/berlin/abitur/abitur4.png)
+ ![Registerkarte „Qualifikation“ mit eingeblendeten Spalten für bilingualen Unterricht ](../../assets/images/berlin/abitur/abitur4.png)
 
-> #### warning::Wichtig!
->
->  Sollten die Spalten Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache in der Ansicht „Abitur“ > Qualifikation nicht sichtbar sein, so können Sie diese Spalten über die Schaltfläche Layout anpassen anzeigen lassen.
-> Das Schlüsselverzeichnis „Kurssprachen“ unter `Verzeichnisse > Weitere Schlüsselverzeichnisse > Kurssprachen` muss mit entsprechenden Fremdsprachen gefüllt sein, damit Sie in den Spalten Sprache bzw. Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache einen Wert für die Unterrichtssprache auswählen können.
+!!! info "Hinweis"
+
+    Sollten die Spalten Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache in der Ansicht „Abitur“ > Qualifikation nicht sichtbar sein, so können Sie diese Spalten über die Schaltfläche Layout anpassen anzeigen lassen.
+     Das Schlüsselverzeichnis „Kurssprachen“ unter `Verzeichnisse > Weitere Schlüsselverzeichnisse > Kurssprachen` muss mit entsprechenden Fremdsprachen gefüllt sein, damit Sie in den Spalten Sprache bzw. Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache einen Wert für die Unterrichtssprache auswählen können.
 
 
 ##	Der Simulationsmodus
 
 Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf `Bearbeiten > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten „Qualifikation“ und „Prüfung“. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
  
-![ Das Dialogfenster mit dem Simulationsmodus ](../assets/images/berlin/abitur/abitur5.png)
+![ Das Dialogfenster mit dem Simulationsmodus ](../../assets/images/berlin/abitur/abitur5.png)
 
 ## Die Gesamtqualifikation
 
 Die Berechnung der Gesamtqualifikation bzw. der Abiturnote wird auf der Registerkarte „Prüfung“ durchgeführt.
  
-![Registerkarte „Prüfung“ in der Ansicht „Abitur“](../assets/images/berlin/abitur/abitur6.png)
+![Registerkarte „Prüfung“ in der Ansicht „Abitur“](../../assets/images/berlin/abitur/abitur6.png)
 
 Die Gesamtqualifikation ergibt sich, indem zusätzlich zu der schon feststehenden Qualifikation im Leistungs- und Grundfachbereich die Qualifikation im Prüfungsbereich durch die Noten im schriftlichen und mündlichen Abitur festgestellt wird. 
 
@@ -118,9 +119,9 @@ Sie erfolgt in zwei Schritten:
 1.	Eingabe der schriftlichen Abiturnoten und Qualifikationsüberprüfung für das schriftliche Abitur
 2.	Eingabe der mündlichen Abiturnoten und Abiturnotenberechnung
 
-> #### primary::Hinweis
->
-> Einige Bundesländer haben fünf Prüfungsfächer. Standardmäßig werden 4 Prüfungsfächer angezeigt. Sie können die Anzeige auf fünf Prüfungsfächer erweitern, indem Sie auf die Schaltfläche `Layout anpassen` klicken.
+!!! info "Hinweis"
+
+    Einige Bundesländer haben fünf Prüfungsfächer. Standardmäßig werden 4 Prüfungsfächer angezeigt. Sie können die Anzeige auf fünf Prüfungsfächer erweitern, indem Sie auf die Schaltfläche `Layout anpassen` klicken.
 
 ### Layout anpassen
 
@@ -153,9 +154,9 @@ Außerdem werden automatisch folgende Berechnungen bzw. Zuordnungen durchgeführ
 
 Nach dem mündlichen Abitur tragen Sie die mündlichen Prüfungsnoten auf der Registerkarte „Prüfung“ ein. Klicken Sie danach wieder auf `Neu berechnen`, um die Abiturnote zu berechnen.
 
-> #### primary::Hinweis
->
-> Über die Schaltfläche „Sammelzuweisung“ können Sie mehreren Abiturienten das gleiche Konferenz- bzw. Zeugnisdatum zuweisen.
+!!! info "Hinweis"
+
+    Über die Schaltfläche „Sammelzuweisung“ können Sie mehreren Abiturienten das gleiche Konferenz- bzw. Zeugnisdatum zuweisen.
 
 
 ### Prüfungsqualifikationsdaten manuell eingeben
@@ -180,7 +181,7 @@ Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von 
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen in der Dokumentation [MAGELLAN 6](https://doc.magellan6.stueber.de/).
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen in der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/).
 
 ### Zeugnisse über mehrere Zeiträume
 
@@ -197,37 +198,37 @@ In den nachfolgenden Abbildungen finden Sie Beispiele für Crystal Reports Beric
 
  ### 1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
   
- ![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../assets/images/berlin/abitur/abitur7.png)
+ ![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../../assets/images/berlin/abitur/abitur7.png)
 
  ### 2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
   
- ![2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../assets/images/berlin/abitur/abitur8.png)
+ ![2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](../../assets/images/berlin/abitur/abitur8.png)
 
  ### 1. Seite eines Crystal Reports Berichts für eine Kursliste
    
- ![1. Seite eines Crystal Reports Berichts für eine Kursliste ](../assets/images/berlin/abitur/abitur9.png)
+ ![1. Seite eines Crystal Reports Berichts für eine Kursliste ](../../assets/images/berlin/abitur/abitur9.png)
 
  ### 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)
    
-![ 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../assets/images/berlin/abitur/abitur10.png)
+![ 1. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../../assets/images/berlin/abitur/abitur10.png)
 
  ### 2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)
    
- ![2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../assets/images/berlin/abitur/abitur11.png)
+ ![2. Seite des Crystal Reports Berichts für den Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO)](../../assets/images/berlin/abitur/abitur11.png)
 
  ### Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe]
  
-![ Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe](../assets/images/berlin/fachwahl/fachwahl12.png)
+![ Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe](../../assets/images/berlin/fachwahl/fachwahl12.png)
  
  ### 1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur13.png)
+ ![1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../../assets/images/berlin/abitur/abitur13.png)
  
  ### 2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur14.png)
+ ![2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../../assets/images/berlin/abitur/abitur14.png)
  
  ### . Seite eines Crystal Reports Berichts für ein Abiturzeugnis
  
- ![3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../assets/images/berlin/abitur/abitur15.png)
+ ![3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](../../assets/images/berlin/abitur/abitur15.png)
 

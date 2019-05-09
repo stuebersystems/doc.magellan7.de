@@ -4,9 +4,9 @@
 
 MAGELLAN gibt über eine Schnittstelle Daten an MS Word für den Seriendruck. Welche Daten genau übergeben werden richtet sich nach dem Menüpunkt aus dem der Seriendruck gestartet wird, teilweise werden auch Datenmengen je nach Adressat generiert. Nachstehend listen wir die erzeugten Daten auf.
 
-> #### primary::Hinweis
->
-> Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan6.stueber.de/howto/seriendruck.html).
+!!! info "Hinweis"
+
+    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan7.stueber.de/howto/seriendruck.html).
 
 ## Menü Schüler
 
@@ -1006,17 +1006,3 @@ Nr|Seriendruckfeld
 10.|«Adresse_Telefon»
 11.|«Adresse_Telefax»
 12.|«Adresse_Internet»
-
-
-
-
-
-
-
-
-
-
-
-
-
-

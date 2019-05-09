@@ -10,13 +10,14 @@ Die Aufnahme von neuen Schülern an der Schule erfolgt in zwei Schritten:
 
 Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in MAGELLAN erfolgen:
 
-Art|Vorgehen
---|--
-Mit Bewerberaufnahme| Der neue Schüler wird zunächst als Bewerberim Menü `Bewerber` aufgenommen. Im Rahmen eines Bewerberverfahrens wird der Bewerber dann als Schüler übernommen. Bitte lesen Sie dazu das gesonderte Kapitel [Bewerber](https://doc.magellan7.stueber.de/howto/bewerber.html)! Der Schritt
-Ohne Bewerberaufnahme|Wenn Sie einen neuen Schüler anlegen möchten, von dem Sie sicher wissen, dass er Schüler Ihrer Schule wird, legen Sie ihn bitte direkt im Menü `Schüler` an.
+| Art                   | Vorgehen                                                                                                                                                                                                                                                                               |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mit Bewerberaufnahme  | Der neue Schüler wird zunächst als Bewerberim Menü `Bewerber` aufgenommen. Im Rahmen eines Bewerberverfahrens wird der Bewerber dann als Schüler übernommen. Bitte lesen Sie dazu das gesonderte Kapitel [Bewerber](https://doc.magellan7.stueber.de/howto/bewerber.html)! Der Schritt |
+| Ohne Bewerberaufnahme | Wenn Sie einen neuen Schüler anlegen möchten, von dem Sie sicher wissen, dass er Schüler Ihrer Schule wird, legen Sie ihn bitte direkt im Menü `Schüler` an.                                                                                                                           |
 
 
 ## Neuen Schüler aufnehmen
+
 Sollten Sie den Schüler nicht über das Bewerberverfahren neu erzeugt haben, können Sie auch direkt einen Schüler in MAGELLAN aufnehmen. Um einen neuen Schüler aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf Schüler oder wählen Sie `Ansicht > Schüler`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neuer Schüler`.
  
 ![Geben Sie Vor- und Nachname ein und bestätigen Sie mit OK](../assets/images/schueler/schueler_27neuer.schueler.png)
@@ -24,9 +25,9 @@ Sollten Sie den Schüler nicht über das Bewerberverfahren neu erzeugt haben, k�
 
 Nun wird der  neue Schüler erstellt. Sie befinden sich automatisch auf der Registerkarte `Daten 1` des Schülers. Geben Sie nun die erforderlichen Daten zum Schüler ein. 
 
-> #### primary::Hinweis
->
-> Der neu erzeugte Schüler ist noch keiner Klasse zugeordnet. Entsprechend ist diesem Schüler noch kein Status in der Statusspalte zugeordnet. Dies erfolgt erst mit dem Einschulen des. Erst dann können Sie auch dessen Zeugnisdaten wie Fächer, Noten, Abschlüsse usw. erfassen.
+!!! info "Hinweis"
+
+   Der neu erzeugte Schüler ist noch keiner Klasse zugeordnet. Entsprechend ist diesem Schüler noch kein Status in der Statusspalte zugeordnet. Dies erfolgt erst mit dem Einschulen des. Erst dann können Sie auch dessen Zeugnisdaten wie Fächer, Noten, Abschlüsse usw. erfassen.
 
 ### Doublettenprüfung
 
@@ -34,10 +35,9 @@ Gibt es einen Schüler bereits als Abgänger, Bewerber oder aktiven Schüler, er
  
 ![Fenster der Doublettenprüfung](../assets/images/schueler/schueler_28doublettenpruefung.png)
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
-> Die Doublettenprüfung wird für neue Schüler, Bewerber, Lehrer, Klassen, Sorgeberechtigte und Personen durchgeführt.
+  Die Doublettenprüfung wird für neue Schüler, Bewerber, Lehrer, Klassen, Sorgeberechtigte und Personen durchgeführt.
 
 ## Registerkarte `Schüler > Daten 1`
 
@@ -52,9 +52,9 @@ Die Zugangsdaten werden auch auf dieser Registerkarte festgehalten. Dazu können
 
 ![Registerkarte `Daten2`](../assets/images/schueler/daten2.png)
 
-> #### success::Tipp
->
-> Unter `Bewerber > Schüler > Sammelzuweisung` haben Sie die Möglichkeit für mehrere Bewerber in einem Arbeitsschritt Felder zu befüllen.
+!!! info "Hinweis"
+
+  Unter `Bewerber > Schüler > Sammelzuweisung` haben Sie die Möglichkeit für mehrere Bewerber in einem Arbeitsschritt Felder zu befüllen.
 
 ### Bereich `Zugang und Abgang`
 
@@ -80,12 +80,12 @@ Dieser Bereich ist gedacht um bereits erreichte Abschlüsse des Schülers zu erf
 
 Dem jeweiligen Feld `Abschluss`  (also ABS oder BBS) sind die Daten des Schlüsselverzeichnisses `Abschlüsse extern` zugeordnet. Sie können die Inhalte Ihres Verzeichnisses über das Verzeichnisfeld `Kategorie` filtern.
 
-Kategoriefeld|Anzeige
---|--
-ABS|Anzeige nur für Abschluss ABS
-BBS|Anzeige nur für Abschluss BBS
-ABS+BBS|Anzeige für Abschluss ABS und BBS
-kein Wert|Anzeige für Abschluss ABS und BBS
+| Kategoriefeld | Anzeige                           |
+| ------------- | --------------------------------- |
+| ABS           | Anzeige nur für Abschluss ABS     |
+| BBS           | Anzeige nur für Abschluss BBS     |
+| ABS+BBS       | Anzeige für Abschluss ABS und BBS |
+| kein Wert     | Anzeige für Abschluss ABS und BBS |
 
 ![Extras > Schlüsselverzeichnisse > Abschlüsse (Extern) > Kategorie ](../assets/images/schueler/abschluesse.extern.png)
  
@@ -103,11 +103,10 @@ Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewie
 
 Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/howto/merkmalsfelder.html)beschrieben.
 
-> #### warning::Wichtig!
->
-> Die Feldbezeichner der Felder der beiden Karten können für Ihre Datenbank angepasst werden, die Inhalte der Verzeichnisfelder kann in den Schlüsselverzeichnissen editiert werden. 
->
-> Wichtig zu beachten ist, dass einige dieser Felder, speziell die Felder auf der Karte `Statistik` für statistische Eingaben reserviert sein können und nicht mit eigenen Angaben belegt werden können. Ob das für Ihr Bundesland und Ihre Schulform zutrifft wird im jeweiligen Statistikabschnitt im Dokument [Landesstatistiken](https://doc.ls.stueber.de/) beschrieben.
+!!! info "Hinweis"
+
+  Die Feldbezeichner der Felder der beiden Karten können für Ihre Datenbank angepasst werden, die Inhalte der Verzeichnisfelder kann in den Schlüsselverzeichnissen editiert werden. 
+ Wichtig zu beachten ist, dass einige dieser Felder, speziell die Felder auf der Karte `Statistik` für statistische Eingaben reserviert sein können und nicht mit eigenen Angaben belegt werden können. Ob das für Ihr Bundesland und Ihre Schulform zutrifft wird im jeweiligen Statistikabschnitt im Dokument [Landesstatistiken](https://doc.ls.stueber.de/) beschrieben.
 
 ![Unterkarte Merkmale](../assets/images/schueler/merkmale01.png)
 ![Unterkarte Statistik](../assets/images/schueler/merkmale02.png)
@@ -136,10 +135,9 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 ![Dialog Sammelzuweisung `Bewerbungsdaten...`](../assets/images/schueler/sammelzuweisung07.png)
 
+!!! info "Hinweis"
 
- > #### warning::Wichtig!
- >
- > Sie können die Sammelzuweisung nutzen um Felder für mehrere Schüler in einem Arbeitsschritt zu füllen oder auch zu leeren. Wenn Sie ein Feld per Häkchen aktivieren, aber keinen Wert im Feld vergeben, wird der Eintrag für die ausgewählten Schüler gelöscht.
+  Sie können die Sammelzuweisung nutzen um Felder für mehrere Schüler in einem Arbeitsschritt zu füllen oder auch zu leeren. Wenn Sie ein Feld per Häkchen aktivieren, aber keinen Wert im Feld vergeben, wird der Eintrag für die ausgewählten Schüler gelöscht.
 
 
 ## Registerkarte `Schüler > Ausbildung`
@@ -161,15 +159,15 @@ Die Registerkarten `Laufbahn` und `Zeugnis` enthalten zeitraumbezogene Daten. Di
 
 Nachdem Sie die Daten der neuen Schüler erfasst haben, müssen Sie diese einer Klasse zuweisen, das heißt, sie müssen unter MAGELLAN `eingeschult` werden. Mit der Zuordnung zu einer Klasse beginnt für den Schüler in MAGELLAN die zeitraumbezogene Dokumentation seines Werdegangs. Bitte beachten Sie, dass vor dem Einschulen die entsprechenden Klassen eingerichtet sein müssen (siehe `Klassen eingeben`). 
 
-Nr.|So geht's
---|--
-1. |Klicken Sie auf `Laufbahnprozesse` und dann auf `Schüler einschulen`. Es erscheint der Assistent `Schüler einschulen`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. 
-2. |Unter Schüler auswählen werden alle Schüler aufgelistet, die noch nicht eingeschult worden sind.<br/><br/>![Dialog `Schüler einschulen`](../assets/images/schueler/schueler_34einschulen.png)
-3. |Schüler werden klassenweise eingeschult. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten ([Sortieren, Gruppieren, Filtern und Suchen](https://doc.MAGELLAN7.stueber.de/howto/sort-group-filter-search.html)). Haben Sie z.B. ein Einschulungskriterium vergeben, können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen. Markieren Sie die Schüler, die Sie z.B. der Klasse 5a zuweisen möchten und klicken Sie auf `Weiter`. 
-4. |Unter `Klassen auswählen` werden die Klassen angezeigt, die Sie für das neue Schuljahr angelegt haben. <br/><br/>![Wählen Sie die Klasse aus, in die Sie die markierten Schüler einschulen möchten, indem Sie einmal auf die Klasse klicken.](../assets/images/schueler/schueler_35einschulen2.png)
-5. |Markieren Sie die gewünschte Klasse, in welche die zuvor markierten Schüler eingeschult werden sollen und klicken Sie dann auf `Weiter`. 
-6. |Unter `Weitere Angaben` können Sie weitere Angaben per Sammelzuweisung allen ausgewählten Schülern zuordnen. Hierbei muss mindestens das `Zugangsdatum` angegeben werden. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um die Einschulung der Schüler durchzuführen. Die eingeschulten Schüler werden jetzt in der Auswahlliste der Schüler mit einem blau gefüllten Kreis in der Statusspalte von den noch nicht eingeschulten Schülern unterschieden, die kein Symbol in der Spalte `Status` haben. Sie sehen noch nicht eingeschulte Schüler, wenn Sie den Filter der Auswahlliste auf `Vagabunden` umstellen.<br/><br/> ![Filter der Auswahlliste](../assets/images/schueler/vagabundenfilter.png)
-7. |Starten Sie erneut den Einschulungsassistenten um weitere Schüler klassenweise einzuschulen. In dieser Liste sind nun die Schüler, die Sie gerade eingeschult haben, nicht mehr enthalten. Dies verhindert, dass Schüler aus Versehen mehrfach eingeschult werden. Sie können jetzt im nächsten Schritt die Schüler, die noch nicht eingeschult wurden, einer anderen Klasse, beispielsweise der Klasse 5b, zuweisen.
+| Nr. | So geht's                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.  | Klicken Sie auf `Laufbahnprozesse` und dann auf `Schüler einschulen`. Es erscheint der Assistent `Schüler einschulen`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 2.  | Unter Schüler auswählen werden alle Schüler aufgelistet, die noch nicht eingeschult worden sind.<br/><br/>![Dialog `Schüler einschulen`](../assets/images/schueler/schueler_34einschulen.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 3.  | Schüler werden klassenweise eingeschult. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten ([Sortieren, Gruppieren, Filtern und Suchen](https://doc.MAGELLAN7.stueber.de/howto/sort-group-filter-search.html)). Haben Sie z.B. ein Einschulungskriterium vergeben, können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen. Markieren Sie die Schüler, die Sie z.B. der Klasse 5a zuweisen möchten und klicken Sie auf `Weiter`. |
+| 4.  | Unter `Klassen auswählen` werden die Klassen angezeigt, die Sie für das neue Schuljahr angelegt haben. <br/><br/>![Wählen Sie die Klasse aus, in die Sie die markierten Schüler einschulen möchten, indem Sie einmal auf die Klasse klicken.](../assets/images/schueler/schueler_35einschulen2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 5.  | Markieren Sie die gewünschte Klasse, in welche die zuvor markierten Schüler eingeschult werden sollen und klicken Sie dann auf `Weiter`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 6.  | Unter `Weitere Angaben` können Sie weitere Angaben per Sammelzuweisung allen ausgewählten Schülern zuordnen. Hierbei muss mindestens das `Zugangsdatum` angegeben werden. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um die Einschulung der Schüler durchzuführen. Die eingeschulten Schüler werden jetzt in der Auswahlliste der Schüler mit einem blau gefüllten Kreis in der Statusspalte von den noch nicht eingeschulten Schülern unterschieden, die kein Symbol in der Spalte `Status` haben. Sie sehen noch nicht eingeschulte Schüler, wenn Sie den Filter der Auswahlliste auf `Vagabunden` umstellen.<br/><br/> ![Filter der Auswahlliste](../assets/images/schueler/vagabundenfilter.png)     |
+| 7.  | Starten Sie erneut den Einschulungsassistenten um weitere Schüler klassenweise einzuschulen. In dieser Liste sind nun die Schüler, die Sie gerade eingeschult haben, nicht mehr enthalten. Dies verhindert, dass Schüler aus Versehen mehrfach eingeschult werden. Sie können jetzt im nächsten Schritt die Schüler, die noch nicht eingeschult wurden, einer anderen Klasse, beispielsweise der Klasse 5b, zuweisen.                                                                                                                                                                                                                                                                                                              |
 
 
 ## Registerkarte `Schüler > Laufbahn`
@@ -204,7 +202,7 @@ Legen Sie über `Neue Unfallanzeige` einen neuen Datensatz an. Sie können auch 
 Anschließend können Sie die Daten drucken oder wahlweise auch parallel als PDF im Schülerunterordner ablegen lassen. 
 Die erfassten Daten werden gespeichert, Sie können jederzeit auch ältere Vorgänge wieder pro Schüler einsehen.
 
-> #### success::Tipp
->
-> Die Daten der Unfallanzeige werden beim Druck mit Hilfe des Berichtes `Unfallanzeige.rpt` ausgegeben. Dieser Bericht liegt standardmäßig auf Ihrem Server unter `Berichte > Schueler`. Zusätzlich gibt es den Bericht `Unfallanzeige (mit Erläuterungen).rpt`, der eine zweite Seite mit Erläuterungen zu den Eingaben des Berichtes beinhaltet. Um diesen Bericht zu verwenden müssten Sie ihn in `Unfallanzeige.rpt` umbenennen.
+!!! info "Hinweis"
+
+  Die Daten der Unfallanzeige werden beim Druck mit Hilfe des Berichtes `Unfallanzeige.rpt` ausgegeben. Dieser Bericht liegt standardmäßig auf Ihrem Server unter `Berichte > Schueler`. Zusätzlich gibt es den Bericht `Unfallanzeige (mit Erläuterungen).rpt`, der eine zweite Seite mit Erläuterungen zu den Eingaben des Berichtes beinhaltet. Um diesen Bericht zu verwenden müssten Sie ihn in `Unfallanzeige.rpt` umbenennen.
 

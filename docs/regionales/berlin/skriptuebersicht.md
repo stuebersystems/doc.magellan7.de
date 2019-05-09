@@ -22,12 +22,12 @@ In der nachfolgenden Übersicht werden alle für Berlin verfügbaren Skripte auf
 
 Einige Skriptdateien werden zusätzlich in der nachfolgenden Dokumentation beschrieben:
 
-* [BER-APO-2017](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-apo-2017.html)
-* [BER-FW-APO-2017](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-2017.html)
-* [BER-APO-KO-2017](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-apo-ko-2017.html)
-* [BER-APO-2011 und BER-FW-APO-2011](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-apo-2011-und-ber-fw-apo-2011.html)
-* [BER-FW-APO-BBS-2011](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-bbs-2011.html)
-* [BER-APO-KO-2011](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-apo-ko-2011.html)
-* [BER-APO-FOS-2006/2013](https://doc.magellan6.stueber.de/regionales/berlin/fos/ber-apo-fos-20062013.html)
+* [BER-APO-2017](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-apo-2017.html)
+* [BER-FW-APO-2017](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-2017.html)
+* [BER-APO-KO-2017](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-apo-ko-2017.html)
+* [BER-APO-2011 und BER-FW-APO-2011](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-apo-2011-und-ber-fw-apo-2011.html)
+* [BER-FW-APO-BBS-2011](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-bbs-2011.html)
+* [BER-APO-KO-2011](https://doc.magellan7.stueber.de/regionales/berlin/oberstufe/ber-apo-ko-2011.html)
+* [BER-APO-FOS-2006/2013](https://doc.magellan7.stueber.de/regionales/berlin/fos/ber-apo-fos-20062013.html)
 
                                                                             

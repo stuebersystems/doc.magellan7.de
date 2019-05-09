@@ -5,6 +5,7 @@ Voraussetzung für die Abiturqualifikationsberechnung und Fachwahlüberprüfung 
 
 
 ## Verzeichnis Verordnung in MAGELLAN
+
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
 
 |Spalte|Wert|
@@ -23,7 +24,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](../assets/images/berlin/fachwahl/ber.fw.2011.png)
+![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](../../../assets/images/berlin/fachwahl/ber.fw.2011.png)
 
 
 ## Aufgabenbereiche
@@ -32,9 +33,9 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 Die Aufgabenbereiche sind in MAGELLAN und DAVINCI fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+!!! info "Hinweis"
+
+     Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Abkürzung| Bedeutung
@@ -51,14 +52,15 @@ Sport |Sport
 
 Die nachfolgenden Fachkategorien werden durch die Skripte BER-APO-2011.dws bzw. BER-FW-APO-2011.js verwendet.
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Verwendete Fach-Kategorie-Schlüssel
+
 ## Fachkategorien
+
 Jedem Fach, dass Sie in der Oberstufe verwenden, müssen Sie eine Kategorie unter ```Verzeichnisse > Fächer > Kategorie``` zuweisen.
 Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, bitte verwenden Sie nur die gekennzeichneten Fachkategorien.
 
@@ -132,9 +134,9 @@ BLL |BLL |5. Prüfungskomponente Besondere Lernleistung
 PRS |PRS |5. Prüfungskomponente Präsentationsprüfung
 
 
-> #### primary::Hinweis
->
-> Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
+!!! info "Hinweis"
+
+     Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
 
 
 ## Die 5. Prüfungskomponente

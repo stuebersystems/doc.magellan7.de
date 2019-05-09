@@ -10,7 +10,7 @@ Für die Berufsschule existieren unterschiedliche Berechnungsvorschriften für d
 
 In der Berufsschule sind verschiedene Arten von Zeugnissen zu unterscheiden. Verlässt der Schüler die Klasse vorzeitig, so erhält er ein Abgangszeugnis. Verlässt er die Klasse erfolgreich zum Abschluss seiner Ausbildung, so erhält er ein Abschlusszeugnis. 
 
-Die Halbjahres-, Zwischen- und Jahreszeugnisse des Schülers zum Ende eines Halbjahres beziehen sich fast ausschließlich auf die Noten des aktuellen Zeitraums. In diesem Fall greift ein Zeugnisbericht immer auf die Noten des aktuellen Zeitraums zu. Die Noten der Schüler werden dann in MAGELLAN pro Schüler unter den Leistungen auf der Registerkarte `Zeugnis` eingetragen (siehe [Zeugnisdaten erfassen](https://doc.magellan6.stueber.de/howto/zeugnisdaten.html)). 
+Die Halbjahres-, Zwischen- und Jahreszeugnisse des Schülers zum Ende eines Halbjahres beziehen sich fast ausschließlich auf die Noten des aktuellen Zeitraums. In diesem Fall greift ein Zeugnisbericht immer auf die Noten des aktuellen Zeitraums zu. Die Noten der Schüler werden dann in MAGELLAN pro Schüler unter den Leistungen auf der Registerkarte `Zeugnis` eingetragen (siehe [Zeugnisdaten erfassen](https://doc.magellan7.stueber.de/howto/zeugnisdaten.html)). 
 
 Bei den meisten Abgangs- bzw. Abschlusszeugnissen werden die Noten auf der Basis der Noten der einzelnen Schuljahre festgelegt. Dies erfolgt durch ein vorgegebenes Berechnungsschema, bei dem Noten sowohl innerhalb eines Schuljahres als auch im Verhältnis der Schuljahre zueinander berechnet werden. Diese Berechnungen erfolgen aufgrund der MAGELLAN-Scripting-Technologie ( [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de/)). 
 

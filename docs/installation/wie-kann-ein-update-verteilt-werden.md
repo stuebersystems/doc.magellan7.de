@@ -115,9 +115,9 @@ Alle Dokumente (Datenbank, Berichte etc.)| C:\Dokumente und Einstellungen\All Us
 
 Es wird das Recht benötigt in die Registry zu schreiben!
 
-> #### primary::Hinweis
->
-> Die Angaben variieren je nach Betriebssystem.Im oberen Beispiel beziehen sich die Angaben auf Windows XP (unter Vista wäre der zweite Pfad zum Beispiel: C:\Users\Public\Documents\Stueber Systems).
+!!! info "Hinweis"
+
+    Die Angaben variieren je nach Betriebssystem.Im oberen Beispiel beziehen sich die Angaben auf Windows XP (unter Vista wäre der zweite Pfad zum Beispiel: C:\Users\Public\Documents\Stueber Systems).
 
 Für die Installation von MAGELLAN  wie auch für das Update von MAGELLAN benötigt der Benutzer Administratorenrechte bzw. er benötigt das Recht in Systemverzeichnisse ("C:\Programme" und "C:\Windows") zu schreiben und in die Registry unter HKEY-LOCAL-MACHINE zur schreiben. Das bedeutet, es könnte auch eine andere Benutzergruppe installieren, sofern diese die oben genannten Zugriffsrechte haben.
 Technisch gesehen sind Erstinstallation und Update gleich.
@@ -143,13 +143,10 @@ Serverinstallation|msiexec /i "C:\MySetup\MAGELLAN7.msi" /q INSTALLMODE="Server"
 Clientinstallation|msiexec /i "C:\MySetup\MAGELLAN7.msi" /q INSTALLMODE="Client" APPDIR="C:\MyFolder\MAGELLAN"
 Deinstallation|msiexec /x "C:\MySetup\MAGELLAN7.msi" /q
 
-> #### primary::Hinweise
->
-> /i bedeutet immer Installation und /x immer Deinstallation.
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
->  Bitte starten Sie die Kommandozeilenaufrufe mit Administratorenrechten!
+    /i bedeutet immer Installation und /x immer Deinstallation.
+    Bitte starten Sie die Kommandozeilenaufrufe mit Administratorenrechten!
 
 ![Eingabeaufforderung per Rechtsklick mit administrativen Rechten starten](../assets/images/updates.verteilen/eingabeaufforderung.als.admin.png)
 
@@ -158,6 +155,3 @@ Deinstallation|msiexec /x "C:\MySetup\MAGELLAN7.msi" /q
 
 Bitte schauen Sie hierzu den Abschnitt ["Aktionen im Silentmode"](https://doc.MAGELLAN7.stueber.de/installation/MAGELLAN-administrator-im-silentmode-starten.html) an!
  
-
-
-

@@ -6,10 +6,10 @@ die die Schnittstelle abfragt, in MAGELLAN auch gefüllt sein. Die nachstehenden
 Nachstehend finden Sie eine Auflistung der relevanten Felder und der jeweiligen Stelle, an der Sie in MAGELLAN eingepflegt werden.
 Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
-> #### warning::Wichtig!
->
-> Die XML-Knoten werden in der Dokumentation wie folgt benannt: `<Knotenname>`
-> Unterknoten können dann z.B. so aussehen `<saxsvs-bbs><schueler>`
+!!! warning "Wichtig"
+
+   Die XML-Knoten werden in der Dokumentation wie folgt benannt: `<Knotenname>`
+    Unterknoten können dann z.B. so aussehen `<saxsvs-bbs><schueler>`
 
 ## Legende
 
@@ -45,7 +45,7 @@ weil Sie mitten in der Erfassung der Daten stecken und erst einmal einen Teil de
 
 Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das Verzeichnis `BS_SchuelerMerkmale.keys` erneut oder legen unter `Extras > Schlüsselverzeichnisse > Merkmale (Schüler)` eine Schlüsselzeile entsprechend der nachfolgenden Abbildung an. Der Wert kann auch per Sammelzuweisung verteilt werden.
 
-![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](../assets/images/sachsen/kein.saxsvs.png)
+![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](../../assets/images/sachsen/kein.saxsvs.png)
 
 ### Schüler zum Löschen vorsehen `<saxsvs-bbs><schueler_loeschen>`
 
@@ -139,7 +139,7 @@ einzutragen, oder die Sammelzuweisung unter `Schüler > Schüler (Ribbontab) > S
 |2. |Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.|
 |3. |Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!|
 
-![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](../assets/images/sachsen/sammelzuweisung01.png)
+![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](../../assets/images/sachsen/sammelzuweisung01.png)
 
 ### Berufliches Gymnasium - Oberstufenschüler
 
@@ -318,13 +318,11 @@ SAXSVS erlaubt die Angabe von bis zu vier Sorgeberechtigten.
 In MAGELLAN verwalten wir Familienmitglieder. Diese können `Schüler`, `Lehrer`, `Personen` und `Sorgeberechtigte` sein. Die Personendaten
 werden in den jeweils einzelnen Ansichten eingetragen. Die Verbindung zum Schüler wird unter `Schüler > Daten 1 > Familie` angegeben.
 
+!!! warning "Wichtig"
 
-
-> #### warning::Wichtig!
->
-> Für den Export nach SAXSVS setzen wir die MAGELLAN-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
-> Für einige unserer Verhältnisse gibt es Entsprechungen als Schlüssel, für einige leider nicht. 
-> Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) dürfen nicht verwendet werden.
+    Für den Export nach SAXSVS setzen wir die MAGELLAN-Sorgeberechtigten-Verhältnisse in Schlüssel um. 
+    Für einige unserer Verhältnisse gibt es Entsprechungen als Schlüssel, für einige leider nicht. 
+    Diese Verhältnisse (Eltern, Erziehungsberechtigte(r), Sorgeberechtigte(r), Ansprechpartner(in), Eheleute, Verhältnis1 - Verhältnis10) dürfen nicht verwendet werden.
 
 
 
@@ -435,17 +433,17 @@ In MAGELLAN 6 können für die Felder `Förderbedarf`, `Schwerpunkt1`,`Schwerpun
 Diese Einzelwerte werden bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank als eine Zeile (mit den einzelnen Angaben) einer Liste dargestellt. 
 Sie haben damit die Möglichkeit ab MAGELLAN 7 mehrere Förderungen mit Bedarfen und Schwerpunkten (mehrere Zeilen in einer Liste) im Programm zu erfassen.
 
-> #### warning::Wichtig!
->
-> Bitte prüfen Sie, ob in Ihrem Verzeichnis `Extras > Schlüsselverzeichnisse > Förderbedarf` die nachfolgenden abgebildeten Schlüsselzeilen vorhanden sind. Wenn nicht, dann können Sie die Zeilen von Hand eingeben oder im MAGELLAN ADMINISTRATOR unter `Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren > Bundesland Sachsen und Schlüssel für berufsbildende Schulen` das Verzeichnis `SopaedFoerderungen` einlesen.
+!!! warning "Wichtig"
 
-![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Förderbedarf](../assets/images/sachsen/schluessel01.png)
+    Bitte prüfen Sie, ob in Ihrem Verzeichnis `Extras > Schlüsselverzeichnisse > Förderbedarf` die nachfolgenden abgebildeten Schlüsselzeilen vorhanden sind. Wenn nicht, dann können Sie die Zeilen von Hand eingeben oder im MAGELLAN ADMINISTRATOR unter `Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren > Bundesland Sachsen und Schlüssel für berufsbildende Schulen` das Verzeichnis `SopaedFoerderungen` einlesen.
+
+![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Förderbedarf](../../assets/images/sachsen/schluessel01.png)
 
 
 Nachstehend sehen Sie auf der linken Seite die alte Ansicht aus MAGELLAN 6 unter Daten 4, hier gibt es nur die Möglichkeit jeweils einen Wert zu erfassen. 
 Auf der rechten Seite die neue Möglichkeit mehrere Einträge in einer Liste anzulegen.
 
-![Linke Seite MAGELLAN 6 und rechte Seite MAGELLAN 7](../assets/images/sachsen/foerderungen.png)
+![Linke Seite MAGELLAN 6 und rechte Seite MAGELLAN 7](../../assets/images/sachsen/foerderungen.png)
 
 
 ## Vorbildung ABS  `<saxsvs-bbs><schueler><abs>` 

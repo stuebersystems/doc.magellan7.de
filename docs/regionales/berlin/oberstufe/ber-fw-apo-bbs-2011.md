@@ -8,10 +8,9 @@ Voraussetzung für die Fachwahlüberprüfung ist, dass Sie für jedes in der Obe
 
 Die Aufgabenbereiche sind in MAGELLAN und DAVINCI fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Abkürzung| Bedeutung
@@ -30,10 +29,9 @@ Sport |Sport
 
 Die nachfolgenden Fachkategorien werden durch die Skripte BER-APO-2011.dws bzw. BER-FW-APO-2011.js verwendet.
 
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Verwendete Fach-Kategorie-Schlüssel
@@ -95,12 +93,9 @@ Kürzel |Schlüssel| Bedeutung
 BLL |BLL |5. Prüfungskomponente Besondere Lernleistung
 PRS |PRS |5. Prüfungskomponente Präsentationsprüfung
 
+!!! info "Hinweis"
 
-
-
-> #### primary::Hinweis
->
-> Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
+    Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
 
 
 ## Die 5. Prüfungskomponente“
