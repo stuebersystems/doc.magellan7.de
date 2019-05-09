@@ -41,9 +41,9 @@ Auf dieser Registerkarte sind alle Zeiträume der Klasse in einer Liste eingetra
 ![Übersicht der Klassenzeiträume](../assets/images/lehrer.klassen_10zeitraeume.png)
 
 
-> #### primary::Hinweis
->
->  Klassen in Allgemeinbildenden Schulen besitzen im Regelfall zwei Zeiträume (1. und 2. Halbjahr des Schuljahres).
+!!! info "Hinweis"
+
+	Klassen in Allgemeinbildenden Schulen besitzen im Regelfall zwei Zeiträume (1. und 2. Halbjahr des Schuljahres).
 Klassen in Berufsbildenden Schulen besitzen im Regelfall zwei (einjährige Klasse), vier (zweijährige Klasse) oder sechs (dreijährige Klasse) Zeiträume.
 
 Unter `Klassenleiter 1` und `Klassenleiter 2` können Sie den Klassenleiter und seinen Vertreter eintragen. Diese Eintragung ist wichtig für die Benutzerverwaltung: anhand dieser Zuordnung wird die Eintragung der Leistungen (für Schüler dieser Klasse) für den erfassten Kollegen ermöglicht.
@@ -61,9 +61,9 @@ Die Felder `Elternsprecher/Schülersprecher/Wahlvertreter` können erst gewählt
 
 Im Feld `Fachtafel` kann für die Klasse pro Klassenzeitraum eine Fachtafel vorgemerkt werden. Die in der Fachtafel enthaltenen Felder können später den Schülern der Klasse über Sammelzuweisung zugewiesen werden.
 
-> #### warning::Wichtig!
->
->  Der Inhalt dieses Feldes beinhaltet noch keine Zuweisung der Fächer zu den einzelnen Schülern der Klasse!
+!!! info "Hinweis"
+
+	Der Inhalt dieses Feldes beinhaltet noch keine Zuweisung der Fächer zu den einzelnen Schülern der Klasse!
 
 
 ![Auf der untergeordneten Registerkarte Schüler sehen Sie zum aktuell markierten Zeitraum alle Schüler der Klasse inkl. deren Aufsummierung im Fuß der Registerkarte.](../assets/images/lehrer.klassen_11zeitraeume2.png)

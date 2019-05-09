@@ -149,7 +149,7 @@ Im Menü ``Abitur`` wird auf der Registerkarte ``Prüfung`` im Feld ``5. PF`` da
 |mündliche Note|Note der **Präsentation**|
 |2. mündl. Note| Note des **Prüfungsgespräches**|
 
-![Noteneingabe Präsentationsprüfung](/assets/BER-APO-2017_praesentationspruefung1.png)
+![Noteneingabe Präsentationsprüfung](../assets/BER-APO-2017_praesentationspruefung1.png)
 
 #### Besondere Lernleistung
 

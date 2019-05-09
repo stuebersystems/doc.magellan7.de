@@ -10,19 +10,19 @@ Tragen Sie als erstes die für Ihre Schule relevanten Gründe unter `Extras > Sc
 In der Schülerauswahlliste markieren Sie den Schüler und wählen `Rechtsklick > Status zuweisen`.
 Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten Fehlgründe gezeigt) und ein Startdatum!
 
-![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](/assets/pausieren01.png)
+![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](../assets/pausieren01.png)
 
 Der oder die ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
 
 |Status|Bedeutung|
 |-|-|
-|![](/assets/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
-|![](/assets/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
-|![](/assets/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
+|![](../assets/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
+|![](../assets/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
+|![](../assets/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
 
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
-![Die Eintragungen können auf der Laufbahnkarte editiert werden](/assets/pausieren05.png)
+![Die Eintragungen können auf der Laufbahnkarte editiert werden](../assets/pausieren05.png)
 
 Kehrt der Schüler zurück an Ihre Schule, können Sie ihn auf zwei Wegen wieder als aktiven Schüler markieren.
 

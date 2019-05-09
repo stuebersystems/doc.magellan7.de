@@ -9,7 +9,7 @@ Bitte wählen Sie einen lokales Verzeichnis, wir empfehlen das Verzeichnis "Back
 
 Beispiel die Benennung: 2016-04-23.fbk
 
-![](/assets/images/sicherung nicht lokal speichern.jpg)
+![](../assets/images/sicherung nicht lokal speichern.jpg)
  
 ## Die Magellan-Datenbank-ODS-Version ist nicht aktuell
 
@@ -45,7 +45,7 @@ Starten Sie anschließend die Installation von Firebird per Doppelklick auf das 
 #Andere Benutzer sind noch angemeldet{#Andere Benutzer sind noch angemeldet}
 Für die Datenstrukturanpassung darf kein Nutzer außer dem sysdba, der die Anpassung durchführt, angemeldet sein. Wenn Sie nicht wissen, wer in Ihrem Netzwerk noch ein Magellan-Modul(Schulverwaltung, Bibliothek, Haushalt&Inventar u.a) gestartet hat, können Sie den Firebird-Dienst stoppen und erneut starten. Öffnen Sie dazu auf Ihrem Server-Rechner in der Systemsteuerung den Punkt Firebird-Server-Manager, stoppen den Dienst und starten ihn erneut. 
 
-![](/assets/images/fb-server-control.jpg)
+![](../assets/images/fb-server-control.jpg)
 
 Fehlt Ihnen der Aufruf in der Systemsteuerung? Sie können den Dienst auch unter Systemsteuerung|Verwaltung|Dienste|Firebird-Server finden.
 
@@ -78,7 +78,7 @@ Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann es dam
 
 Eventuell wurde bei der Installation kein oder nicht der korrekte Pfad zu dem Skripteordner erfasst. Bitte rufen Sie das Anmeldefenster des Administrators auf und wählen die folgende Einstellung:
 
-![](/assets/images/admin_ohne_anmeldung.jpg)
+![](../assets/images/admin_ohne_anmeldung.jpg)
    
 Anschließend rufen Sie im Administrator den Punkt Server-Verwaltung|Verbindungen verwalten|Starten|Verbindung markieren|Bearbeiten|Unterkarte "Datenordner" auf. Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
   

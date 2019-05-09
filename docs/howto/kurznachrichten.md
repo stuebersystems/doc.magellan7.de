@@ -1,14 +1,14 @@
 # Kurznachrichten versenden
 
-> #### warning::Wichtig!
->
-> Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls MAGELLAN LIVEMESSAGE voraus. Eine LIVEMESSAGE Lizenz kann sowohl in MAGELLAN wie auch in daVinci verwendet werden.
+!!! info "Hinweis"
+
+	Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls MAGELLAN LIVEMESSAGE voraus. Eine LIVEMESSAGE Lizenz kann sowohl in MAGELLAN wie auch in daVinci verwendet werden.
 
 MAGELLAN erlaubt es Ihnen  Kurznachrichten an Schüler, Lehrer, Personen und Sorgeberechtigte per E-Mail oder SMS zu versenden. 
 
-> #### danger::Achtung!
->
-> Bitte prüfen Sie vorab, ob alle Einstellungen in den Optionen für den Versand von [SMS-Nachrichten und E-Mails](https://doc.magellan6.stueber.de/admin/preferences.html#extras--optionen---sms-nachrichten) vorgenommen wurden. Außerdem müssen Sie bei den betreffenden Personen die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. 
+!!! info "Hinweis"
+
+	Bitte prüfen Sie vorab, ob alle Einstellungen in den Optionen für den Versand von [SMS-Nachrichten und E-Mails](https://doc.magellan6.stueber.de/admin/preferences.html#extras--optionen---sms-nachrichten) vorgenommen wurden. Außerdem müssen Sie bei den betreffenden Personen die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. 
 
 ## Mitteilung senden
  
@@ -56,6 +56,6 @@ Erfolgt das Versenden der Kurznachricht der SMS, so werden alle gesendeten SMS m
 
 Zusätzlich zur Übersicht der versendeten SMS sehen Sie im Dialogfenster SMS Protokoll auch Ihren aktuellen Status der verfügbaren Kreditpunkte für die Versendung vom SMS Nachrichten aufgrund Ihres erworbenen SMS-Pakets.
 
-> #### primary::Hinweis
->
-> Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LIVEMESSAGE Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.
+!!! info "Hinweis"
+
+	Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LIVEMESSAGE Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.

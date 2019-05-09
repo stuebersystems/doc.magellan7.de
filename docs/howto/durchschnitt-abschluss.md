@@ -2,9 +2,9 @@
 
 Für die Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zeitraums existieren unterschiedliche Berechnungsvorschriften. MAGELLAN stellt sehr ausgefeilte Funktionen für die gesamte Durchschnitts- bzw. Abschlussberechnung zur Verfügung. Diese Berechnungen werden mit den grundlegenden Merkmalen in diesem Kapitel vorgestellt. 
 
-> #### warning::Wichtig!
->
-> Für welche Bundesländer entsprechende Berechnungsskripte für die Versetzung vorliegen, finden Sie in dem entsprechenden Kapitel in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+!!! info "Hinweis"
+
+	Für welche Bundesländer entsprechende Berechnungsskripte für die Versetzung vorliegen, finden Sie in dem entsprechenden Kapitel in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 ## Grundlagen
 

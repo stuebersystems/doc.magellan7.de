@@ -13,7 +13,7 @@ Zum Schuljahreswechsel müssen Sie die neuen Zeiträume einrichten, die Klassen 
 Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu verwenden Sie die Schaltfläche `Schuljahre anlegen`. Wenn Ihr Schuljahr mit dem Kalenderjahr startet (also nicht am 01.08), können Sie die Schaltfläche `Schuljahre anlegen` nicht verwenden, drücken Sie stattdessen auf das Plussymbol und tippen die Angaben ein.
 
 
-![Schaltfläche zum Anlegen eines neuen Schuljahres](/assets/images/dialog-zeitraeumeverz-neu.png)
+![Schaltfläche zum Anlegen eines neuen Schuljahres](../assets/images/dialog-zeitraeumeverz-neu.png)
 
 
 ### 2. neue Klassen anlegen

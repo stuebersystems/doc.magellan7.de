@@ -34,5 +34,5 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 	Für den Fall das noch keine Verbindung zu einer Datenbank angelegt worden ist, oder die angelegte Verbindung korrigiert werden soll, kann man den MAGELLAN ADMINISTRATOR auch ohne Anmeldung starten. In diesem Fall kann nur das Menü Datenbankverbindungen bedient werden.
 
-![Start des MAGELLAN ADMINISTRATORs ohne Anmeldung ](/assets/images/admin_ohne_anmeldung.jpg) 
+![Start des MAGELLAN ADMINISTRATORs ohne Anmeldung ](../assets/images/admin_ohne_anmeldung.jpg) 
 

@@ -13,7 +13,7 @@ Zu 2.: Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann
 
 Zu 3. und 4.: Eventuell wurde bei der Installation kein oder nicht der korrekte Pfad zu dem Skripteordner erfasst. Bitte rufen Sie das Anmeldefenster des Administrators auf und wählen die folgende Einstellung:
 
-![](/assets/images/admin_ohne_anmeldung.jpg)
+![](../assets/images/admin_ohne_anmeldung.jpg)
    
 Anschließend rufen Sie im Administrator den Punkt Server-Verwaltung|Verbindungen verwalten|Starten|Verbindung markieren|Bearbeiten|Unterkarte "Datenordner" auf. Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
   

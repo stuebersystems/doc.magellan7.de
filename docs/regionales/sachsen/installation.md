@@ -63,8 +63,8 @@ Wenn Sie Ihren Schulverwaltungsserver nutzen möchten, dann stellen Sie bitte si
 |Informieren Sie Ihre Kollegen darüber, dass MAGELLAN 6 kurzzeitig nicht genutzt werden kann und die Module geschlossen werden sollen|
 |Stoppen Sie unter `Systemsteuerung > Verwaltung > Dienste` Ihren Firebird-Server-Manager. <br/><br/>![Firebirddienst stoppen](../assets/images/sachsen/fb.stoppen.png) |
 | Laden Sie das aktuelle Installationspaket von Firebird herunter: [Firebird-Download](ftp://ftp.stueber.de/pub/bin/de/magellan/v6/Firebird-2.5.8.27089_0_Win32.exe) | 
-| Starten Sie anschließend die Firebird-Installation durch einen Doppelklick auf die Datei `Firebird-2.5.8......Win32.exe`. <br/>Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte „Komponenten auswählen“ die voreingestellten Optionen.<br/><br/>![Komponenten auswählen](/assets/images/fb-components.png)|
-| Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die Optionen und aktivieren zusätzlich das Häkchen „Die Firebird Client-Bibliothek ins Systemverzeichnis kopieren“. <br/><br/>![Zusätzliche Aufgaben auswählen](/assets/images/fb-tasks.png) |
+| Starten Sie anschließend die Firebird-Installation durch einen Doppelklick auf die Datei `Firebird-2.5.8......Win32.exe`. <br/>Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte „Komponenten auswählen“ die voreingestellten Optionen.<br/><br/>![Komponenten auswählen](../assets/images/fb-components.png)|
+| Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die Optionen und aktivieren zusätzlich das Häkchen „Die Firebird Client-Bibliothek ins Systemverzeichnis kopieren“. <br/><br/>![Zusätzliche Aufgaben auswählen](../assets/images/fb-tasks.png) |
 
 > #### danger::Wichtig
 >

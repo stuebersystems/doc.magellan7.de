@@ -23,7 +23,7 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 	Für den Fall, dass noch keine Verbindung zu einer Datenbank angelegt worden ist oder die angelegte Verbindung korrigiert werden soll, kann man den MAGELLAN ADMINISTRATOR auch ohne Anmeldung starten. In diesem Fall kann nur das Menü Datenbankverbindungen bedient werden.
 
-![Start des MAGELLAN ADMINISTRATORs ohne Anmeldung](/assets/images/magellan.administrator/admin_ohne_anmeldung.jpg) 
+![Start des MAGELLAN ADMINISTRATORs ohne Anmeldung](../assets/images/magellan.administrator/admin_ohne_anmeldung.jpg) 
 
 ## Reiter Datenbank
 
@@ -61,5 +61,5 @@ Das Ticketsystem erreichen Sie unter der URL [https://support.stueber.de](https:
 
 Über diese Fenster wird die eingesetzte Version und die Lizenzausbaustufe gezeigt. Über die Schaltflächen `Lizenz ändern...`oder `Lizenz importieren...` können Sie eine neue Lizenz einfügen.
 
-![Das Fenster Version und Lizenz](/assets/images/magellan.administrator/version-und-lizenz.jpg)
+![Das Fenster Version und Lizenz](../assets/images/magellan.administrator/version-und-lizenz.jpg)
 

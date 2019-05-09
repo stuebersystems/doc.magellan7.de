@@ -117,6 +117,6 @@ Diese Änderung wird über das Häkchen in der oberen Menüleiste des Fensters B
 
 Beispiel: Für die Schüler-/Bewerberansicht wird die Bezeichnung „MerkmalA1“ durch „Instrument“ ersetzt.
 
-> #### primary::Hinweis
->
-> Wenn Sie während des Umbenennens auf der Karte Merkmale eines Schülers sind, kann es sein, dass die Umbenennung nicht sofort gezeigt wird. Bitte wechseln Sie in einen anderen Menüpunkt, zum Beispiel ins Menü Klassen.  Rufen Sie dann erneut `Schüler > Merkmale` auf, jetzt konnte die Ansicht aktualisiert werden und Ihre Umbenennung wird gezeigt.
+!!! info "Hinweis"
+
+	Wenn Sie während des Umbenennens auf der Karte Merkmale eines Schülers sind, kann es sein, dass die Umbenennung nicht sofort gezeigt wird. Bitte wechseln Sie in einen anderen Menüpunkt, zum Beispiel ins Menü Klassen.  Rufen Sie dann erneut `Schüler > Merkmale` auf, jetzt konnte die Ansicht aktualisiert werden und Ihre Umbenennung wird gezeigt.

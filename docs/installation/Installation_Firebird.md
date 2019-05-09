@@ -7,11 +7,11 @@
 
 Laden Sie bitte das Firebird-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://magellan.stueber.de/download.php). Starten Sie anschließend die Firebird Installation durch einen Doppelklick auf die Datei `Firebird-2.5......Win32.exe`. Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte „Komponenten auswählen“ die voreingestellten Optionen.
 
-![Komponenten auswählen](/assets/images/fb-components.png)
+![Komponenten auswählen](../assets/images/fb-components.png)
 
 Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die Optionen und aktivieren zusätzlich das Häkchen „Die Firebird Client-Bibliothek ins Systemverzeichnis kopieren“.
 
-![Zusätzliche Aufgaben auswählen](/assets/images/fb-tasks.png)
+![Zusätzliche Aufgaben auswählen](../assets/images/fb-tasks.png)
 
 !!! warning "Wichtig"
 

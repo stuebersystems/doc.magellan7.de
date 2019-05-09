@@ -70,7 +70,7 @@ Nr|Ursache
 
 Eventuell wurde bei der Installation kein oder nicht der korrekte Pfad zu dem Skripteordner erfasst. Bitte rufen Sie das Anmeldefenster des Administrators auf und wählen die folgende Einstellung:
 
-![Magellan Administrator starten ohne Anmeldung](/assets/images/admin-ohne-anmeldung.png)
+![Magellan Administrator starten ohne Anmeldung](../assets/images/admin-ohne-anmeldung.png)
    
 Anschließend rufen Sie im Administrator den Punkt Server-Verwaltung|Verbindungen verwalten|Starten|Verbindung markieren|Bearbeiten|Unterkarte "Datenordner" auf. Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
   

@@ -12,9 +12,9 @@ Sie können auch manuell erstellte und bereits versendete Dokumente (z.B. Briefe
 
 Suchen Sie hier das gewünschte Dokument aus und klicken Sie auf `Öffnen`. Das ausgewählte Dokument erscheint ab sofort als weiteres Symbol in der persönlichen Dokumentenverwaltung der ausgewählten Person. Um das Dokument zu öffnen, klicken Sie mit einem Doppelklick darauf.
 
-> #### success::Tipp
->
-> Alternativ können Sie Dateien auch vom Speicherort kopieren und in dem Fenster über `STRG+V` oder `Rechtsklick > Einfügen` einfügen.
+!!! info "Hinweis"
+
+	Alternativ können Sie Dateien auch vom Speicherort kopieren und in dem Fenster über `STRG+V` oder `Rechtsklick > Einfügen` einfügen.
 
 ## Dokumente aus Digitalquellen
 

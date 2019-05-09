@@ -8,7 +8,7 @@ Wir beschreiben das Vorgehen für Allgemeinbildende Schulen: Jede Ihrer Klassen 
 
 Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu verwenden Sie die Schaltfläche `Schuljahre anlegen`.
 
-![Schaltfläche zum Anlegen eines neuen Schuljahres](/assets/images/dialog-zeitraeumeverz-neu.png)
+![Schaltfläche zum Anlegen eines neuen Schuljahres](../assets/images/dialog-zeitraeumeverz-neu.png)
 
 ### Klassen
 
@@ -32,9 +32,9 @@ Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre S
 **Schritt 4:**
  Auf der nächsten Karte haben Sie die Möglichkeit die Klassenkürzel anzupassen. 
 
-> #### warning::Wichtig!
->
-> Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen, hier soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen. 
+!!! info "Hinweis"
+
+	Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen, hier soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen. 
 Also: 10a bleibt 10a. BüKo2016 wird aber BüKo2017.
 
 ![Passen Sie hier ggfs. die Klassenkürzel an](../assets/images/schuljahreswechsel/schuljahreswechsel02.png)
@@ -50,10 +50,9 @@ Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen 
 
 ![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](../assets/images/schuljahreswechsel/schuljahreswechsel04.png)
 
+!!! info "Hinweis"
 
-> #### success::Tipp
->
-> Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
+	Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
 
 
 ### Schüler
@@ -76,19 +75,10 @@ Es werden keine neuen Klassen benötigt.
 
 2. Alle weiteren Schüler werden mit `Extras > Schüler fortschreiben` fortgeschrieben. Sie müssen hierbei nicht klassenweise vorgehen, sondern markieren alle Schüler und schreiben sie fort.
 
-> #### info::Hinweis
-> Wenn ein Schüler innerhalb eines Halbjahres die Klasse wechselt, wird das per `Extras > Schüler wechseln` durchgeführt. 
+!!! info "Hinweis"
 
-> Die Gründe dafür können zum Beispiel sein: 
-
-> * Der Schüler wechselt in eine Parallelklasse
-> * Freiwilliger Rücktritt im Jahr
-> * Der Schüler wechselt seinen Bildungsgang (berufsbildender Bereich)
-
-> Versehentlich einer Klasse zugeordnete Schüler werden NICHT gewechselt, dafür gibt es für die jeweils als letztes in der Schülerlaufbahn durchgeführte Aktion die Möglichkeit "Schüler korrigieren". Wird in diesem Assistenten ein Schüler nicht angezeigt, hat seine letzte Laufbahnaktion nicht in diesem Halbjahr stattgefunden. 
-
- 
-
-
-
-
+	 Wenn ein Schüler innerhalb eines Halbjahres die Klasse wechselt, wird das per `Extras > Schüler wechseln` durchgeführt. Die Gründe dafür können zum Beispiel sein:
+      * Der Schüler wechselt in eine Parallelklasse
+      * Freiwilliger Rücktritt im Jahr
+      * Der Schüler wechselt seinen Bildungsgang (berufsbildender Bereich)
+ Versehentlich einer Klasse zugeordnete Schüler werden NICHT gewechselt, dafür gibt es für die jeweils als letztes in der Schülerlaufbahn durchgeführte Aktion die Möglichkeit "Schüler korrigieren". Wird in diesem Assistenten ein Schüler nicht angezeigt, hat seine letzte Laufbahnaktion nicht in diesem Halbjahr stattgefunden.

@@ -15,11 +15,10 @@ Um einen neuen Lehrer aufzunehmen, klicken Sie in der Startleiste auf der linken
 
 Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulinternes Kürzel an. Anhand des Kürzels werden Sie den Lehrer in Zukunft identifizieren.
 
-> #### danger::Achtung!
->
-> Das Lehrerkürzel wird in der Regel auch später für die Anmeldung verwendet. In der Benutzerverwaltung dürfen in den Kennungen (beim Lehrer ist das dann das Kürzel) keine Umlaute und kein ß verwendet werden. Beim Anlegen in MAGELLAN selbst erhalten Sie auch eine entsprechende Meldung. Sollten Sie die Lehrer allerdings per Import nach MAGELLAN einlesen, achten Sie bitte darauf, die Zeichen im Lehrerkürzel nicht zu verwenden oder anzupassen. 
+!!! info "Hinweis"
 
-Um einen neuen Lehrer in MAGELLAN aufnehmen zu können, müssen Sie dessen Namen und Kürzel in das Dialogfenster eintragen und dann auf OK klicken. Der Lehrer ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte `Daten 1` dieses Lehrers, um dessen weitere Daten zu erfassen. Ist ein Datensatz mit dem gleichen Vor- und Zunamen oder dem gleichen Lehrerkürzel bereits angelegt erscheint folgender Hinweis:
+	Das Lehrerkürzel wird in der Regel auch später für die Anmeldung verwendet. In der Benutzerverwaltung dürfen in den Kennungen (beim Lehrer ist das dann das Kürzel) keine Umlaute und kein ß verwendet werden. Beim Anlegen in MAGELLAN selbst erhalten Sie auch eine entsprechende Meldung. Sollten Sie die Lehrer allerdings per Import nach MAGELLAN einlesen, achten Sie bitte darauf, die Zeichen im Lehrerkürzel nicht zu verwenden oder anzupassen. 
+    Um einen neuen Lehrer in MAGELLAN aufnehmen zu können, müssen Sie dessen Namen und Kürzel in das Dialogfenster eintragen und dann auf OK klicken. Der Lehrer ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte `Daten 1` dieses Lehrers, um dessen weitere Daten zu erfassen. Ist ein Datensatz mit dem gleichen Vor- und Zunamen oder dem gleichen Lehrerkürzel bereits angelegt erscheint folgender Hinweis:
  
 ![Prüfung auf Doubletten](../assets/images/lehrer.klassen_02doublettenpruefung.png)
 
@@ -30,10 +29,9 @@ Auf der Registerkarte `Daten 1` des Lehrers befinden sich verschiedene Eingabefe
  
 ![Ansicht `Lehrer`, Registerkarte `Daten 1`](../assets/images/lehrer.klassen_03daten1.png)
 
+!!! info "Hinweis"
 
-> #### primary::Hinweis
->
->  Die verschiedenen Registerkarten der Lehrer bieten Ihnen eine Fülle von Eintragsmöglichkeiten. Diese Einträge sind optional und nicht zwingend, d.h. Sie müssen nicht alle Eintragungsmöglichkeiten füllen, sondern nur die, die Sie tatsächlich benötigen. Dabei müssen Sie insbesondere die notwendigen Angaben für die Landesstatistik berücksichtigen. Näheres hierzu finden Sie im Dokument [Landesstatistiken](https://doc.ls.stueber.de/).
+	Die verschiedenen Registerkarten der Lehrer bieten Ihnen eine Fülle von Eintragsmöglichkeiten. Diese Einträge sind optional und nicht zwingend, d.h. Sie müssen nicht alle Eintragungsmöglichkeiten füllen, sondern nur die, die Sie tatsächlich benötigen. Dabei müssen Sie insbesondere die notwendigen Angaben für die Landesstatistik berücksichtigen. Näheres hierzu finden Sie im Dokument [Landesstatistiken](https://doc.ls.stueber.de/).
 
 Auf der Registerkarte `Daten 1` tragen Sie die wichtigsten Grunddaten des Lehrers ein. Bei den Schlüsselfeldern, wie z.B. der Staatsangehörigkeit des Lehrers, können Sie die möglichen Kürzel durch Anwahl des Pfeils hinter dem Eingabefeld und der Auswahl aus der dann geöffneten Liste vornehmen. Alternativ können Sie auch direkt das Ihnen bereits bekannte zutreffende Kürzel eintragen, da sich der jeweils passende Eintrag dann automatisch einstellt, wie bei einer inkrementellen Suche. Besonders hervorzuheben sind hier zwei automatische Einstellungen:
 
@@ -41,9 +39,9 @@ Auf der Registerkarte `Daten 1` tragen Sie die wichtigsten Grunddaten des Lehrer
 
 * **Postleitzahlautomatik:** Wenn Sie die Postleitzahlen für Ihre Datenbank importiert haben, können Sie das gesamte Postleitzahlverzeichnis von Deutschland nutzen. Geben Sie die Postleitzahl ein und drücken dann die Eingabetaste, so werden die Felder `Länderkennzeichen`, `Ort`, `Ortsteil`, `Gemeinde` und `Vorwahl` automatisch vor besetzt. Als Voraussetzung für die automatische Zuordnung dürfen die Felder `Gemeinde` und `Ort` keinen Eintrag besitzen. Geben Sie nur den Ort ein und drücken dann die Eingabetaste, werden die Felder `Länderkennzeichen`, `PLZ`, `Ortsteil`, `Gemeinde` und `Vorwahl` automatisch vor besetzt. Als Voraussetzung für die automatische Zuordnung dürfen die Felder `PLZ` und `Gemeinde` keinen Eintrag besitzen. 
 
-> #### primary::Hinweis
->
-> Die Postleitzahlautomatik steht in MAGELLAN überall dort zur Verfügung, wo Postleitzahl und Ort bei der Datenaufnahme eingegeben werden müssen.
+!!! info "Hinweis"
+
+	Die Postleitzahlautomatik steht in MAGELLAN überall dort zur Verfügung, wo Postleitzahl und Ort bei der Datenaufnahme eingegeben werden müssen.
 
 Für jeden Lehrer können Sie optional dessen Passfoto in MAGELLAN aufnehmen. Wählen Sie dazu `Bearbeiten > Passfoto` und dann `Passfoto aus Datei` oder `Passfoto aus Digitalquelle`.  Über den Menüpunkt `Passfoto aus Digitalquelle` können Sie direkt angeschlossene digitale Geräte (wie z.B. Digitalkamera, Scanner) nutzen, um die Bilder ohne Zwischenspeicherung in eine Datei nach MAGELLAN übernehmen zu können. Voraussetzung hierfür ist die Einstellung einer Digitalquelle unter `Datenbank  > Optionen > Digitalquelle`. Haben Sie das letzte Feld der Registerkarte gewählt und drücken dann die Eingabetaste, wechseln Sie automatisch zur nächsten Registerkarte.
 
@@ -74,9 +72,9 @@ Zur Auswahl müssen Sie jetzt den `Lehramtstyp` einstellen und anschließend die
 ![Ansicht `Lehrer`, Registerkarte `Daten 3`, Merkmalsfelder](../assets/images/lehrer.klassen_05merkmal.png)
 
 
-> #### primary::Hinweis
->
-> Die Inhalte der Lehrermerkmale A1-A6 und S1-S4 können Sie sich über die `Extras > Schlüsselverzeichnisse > Gruppenfilter Merkmale` definieren. Lehrermerkmal B1-B5 lassen sich direkt in dem jeweiligen Feld eingeben. Diese Merkmalsfelder gibt es auch analog für Schüler, Bewerber und Klassen.
+!!! info "Hinweis"
+
+	Die Inhalte der Lehrermerkmale A1-A6 und S1-S4 können Sie sich über die `Extras > Schlüsselverzeichnisse > Gruppenfilter Merkmale` definieren. Lehrermerkmal B1-B5 lassen sich direkt in dem jeweiligen Feld eingeben. Diese Merkmalsfelder gibt es auch analog für Schüler, Bewerber und Klassen.
 
 ### Lehrer auswählen, editieren oder löschen
 
@@ -95,6 +93,6 @@ Für jeden Lehrer können in MAGELLAN Fehlzeiten erfasst werden. Sie können das
 ![Fehlzeitenfenster der Lehrer](../assets/images/lehrer.klassen_07fehlzeiten.png)
 
 
-> #### primary::Hinweis
->
-> Für Rheinland-Pfälzische Berufsschulen stehen spezielle Berichte zur Auswertung der Fehlzeiten unter `Start > Drucken > Berichte drucken... > Rheinland-Pfalz` zur Verfügung. Wie genau diese Berichte genutzt werden können, wird im Modul MAGELLAN-Berichte beschrieben.
+!!! info "Hinweis"
+
+	Für Rheinland-Pfälzische Berufsschulen stehen spezielle Berichte zur Auswertung der Fehlzeiten unter `Start > Drucken > Berichte drucken... > Rheinland-Pfalz` zur Verfügung. Wie genau diese Berichte genutzt werden können, wird im Modul MAGELLAN-Berichte beschrieben.
