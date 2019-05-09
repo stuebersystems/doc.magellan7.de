@@ -50,6 +50,7 @@ Starten Sie die Erstellung der Exportdatei oder die Prüfung per Klick auf `Fert
 Sollte Ihnen in der Auswahl im Exportassistenten nicht der Punkt `SAXSVS` gezeigt werden, ist vermutlich im Willkommensassistenten nicht die Bundeslandauswahl "Sachsen" getroffen worden. 
 
 **So geht's**
+
 1. Schließen Sie bitte MAGELLAN und starten Sie bitte den MAGELLAN ADMINISTRATOR und wechseln in den Menüpunkt `Datenbankverbindungen`. 
 2. Klicken Sie doppelt auf Ihre Verbindungszeile, es öffnet sich das Fenster `Verbindungsdetails`.
 3. Rufen Sie den Punkt `Datenbank` auf und tragen im Feld `Region` "Sachsen" ein. <br/>Im Anschluss starten Sie MAGELLAN wieder, unter `Extras > Export > Export...` sollte jetzt auch die Auswahl `SAXSVS` zur Verfügung stehen!
