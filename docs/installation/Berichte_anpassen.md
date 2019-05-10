@@ -33,17 +33,17 @@ Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugr
 1. Starten Sie den ODBC-Datenquellen-Administrator (32-Bit) in Windows.<br>
 Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 installierten Treiber. Da muss mindestens die im Bild angegeben Version stehen.
 
-    ![](../assets/images/odbc_1_Treiber.png)
+    ![Einstellungen ODBC](../assets/images/odbc_1_Treiber.png)
 
 
 2. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
 
-    ![](../assets/images/odbc_2_BenutzerDSN.png)
+    ![Einstellungen ODBC](../assets/images/odbc_2_BenutzerDSN.png)
 
 
 3. Im Konfigurationsfenster geben Sie bei ```Character Set``` den Wert ```NONE``` ein, oder wählen diesen aus. Im Bereich ```Extended identifiert properties``` setzen Sie bitte **alle** Häkchen. 
 
- ![](../assets/images/odbc_3_KonfigurationKorrektur.png)
+ ![Einstellungen ODBC](../assets/images/odbc_3_KonfigurationKorrektur.png)
 
 > #### warning::Wichtig!
 >
@@ -56,17 +56,17 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
 
 Ein Bericht zeigt die Felder, die beim Erstellen des Berichtes in der Datenstruktur zur Verfügung standen. Um die neuen Datenbankfelder einzufügen, wechseln Sie bitte auf `Datenbank > Datenbank überprüfen`. Im Folgenden kann mehrfach eine Meldung gezeigt werden, die erscheint weil eine Tabelle nicht gefunden wird. Sie wählen bitte immer `NEIN` aus.
 
-![](../assets/images/berichte.anpassen1.png)
+![Aktualisieren](../assets/images/berichte.anpassen1.png)
 
 ## 3. Datenquellenpfad festlegen
 
 
 Fehlermeldungen:
 
-![](../assets/images/cr_error_msg1.png) 
+![Meldung](../assets/images/cr_error_msg1.png) 
 
 
-![](../assets/images/cr_error_msg2.png)
+![Meldung](../assets/images/cr_error_msg2.png)
 
 So gehen Sie vor:
 
