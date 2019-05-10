@@ -1,6 +1,6 @@
 # Sonderzeichen
 
-Dieses Kapitel erläutert die Verwendung von Sonderzeichen  in den Eingabefeldern von Magellan. 
+Dieses Kapitel erläutert die Verwendung von Sonderzeichen  in den Eingabefeldern von Magellan.
 
 ## Zeichensatz
 
@@ -9,14 +9,12 @@ In MAGELLAN wird die Schriftart „Tahoma“ zur Anzeige verwendet. Welche Zeich
 So rufen Sie die Zeichentabelle in Windows auf:
 
 1. Klicken Sie auf `Start > Alle Programme > Zubehör > Systemprogramme > Zeichentabelle`.
- 
+
 2. Wählen Sie unter Schriftart "Tahoma" aus.
 
 3. Markieren Sie `Erweiterte Ansicht`.
 
 4. Wählen Sie unter Zeichensatz „Windows: Westlich“ und unter Gruppierung „(keine Gruppierung)“ aus.
- 
-
 
 ![Hier sehen Sie alle zur Verfügung stehenden Eingabezeichen](../assets/images/dialog-shortcuts.png)
 
@@ -34,7 +32,7 @@ Im oberen Teil des Dialogfensters Zeichentabelle sehen Sie jetzt alle zur Verfü
 
 4. Wählen Sie unter Zeichensatz „Windows: Westlich“ und unter Gruppierung „(keine Gruppierung)“ aus.
 
-5. Wählen Sie im oberen Teil das gewünschte Sonderzeichen durch Markieren und drücken der Schaltfläche `Auswählen` oder durch Doppelklick aus. Es erscheint dann im Feld `Zeichenauswahl`. 
+5. Wählen Sie im oberen Teil das gewünschte Sonderzeichen durch Markieren und drücken der Schaltfläche `Auswählen` oder durch Doppelklick aus. Es erscheint dann im Feld `Zeichenauswahl`.
 
 6. Klicken Sie auf die Schaltfläche `Kopieren`, damit das Sonderzeichen in den Zwischenablage von Windows übernommen werden kann.
 

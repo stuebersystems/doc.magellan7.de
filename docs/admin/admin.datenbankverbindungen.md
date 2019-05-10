@@ -37,7 +37,7 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 ## Unterpunkt Datensicherung
 
-Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup`oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt [Datensicherung]().
+Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup`oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt "Datensicherung"!
 
 ![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](../assets/images/magellan.administrator/navi.datenbankverbindungen.png)
 

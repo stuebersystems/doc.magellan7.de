@@ -108,8 +108,8 @@ Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale
   Die Feldbezeichner der Felder der beiden Karten können für Ihre Datenbank angepasst werden, die Inhalte der Verzeichnisfelder kann in den Schlüsselverzeichnissen editiert werden. 
  Wichtig zu beachten ist, dass einige dieser Felder, speziell die Felder auf der Karte `Statistik` für statistische Eingaben reserviert sein können und nicht mit eigenen Angaben belegt werden können. Ob das für Ihr Bundesland und Ihre Schulform zutrifft wird im jeweiligen Statistikabschnitt im Dokument [Landesstatistiken](https://doc.ls.stueber.de/) beschrieben.
 
-![Unterkarte Merkmale](../assets/images/schueler/merkmale01.png)
-![Unterkarte Statistik](../assets/images/schueler/merkmale02.png)
+![Unterkarte Merkmale](../assets/images/schueler/merkmal01.png)
+![Unterkarte Statistik](../assets/images/schueler/merkmal02.png)
 
 ## Sammelzuweisung für `Daten1`,`Daten 2`,`Daten3`, `Merkmale` und `Statistik`
 

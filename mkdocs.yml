@@ -37,8 +37,8 @@ extra_css:
     - assets/css/custom.css
 
 # Plugins    
-plugins:
-    - img2fig
+#plugins:
+#    - img2fig
 
 # Extensions    
 markdown_extensions:
@@ -48,10 +48,9 @@ markdown_extensions:
 nav:
 - Überblick: index.md
 - Einführung: introduction.md
-- Was ist neu?:
-  - Änderungen: changelog.md
-  - Geplante Änderungen: changelog-next.md
-  - Neu in MAGELLAN 7: neu.mag7.md
+- Was ist neu: changelog.md
+- Geplante Änderungen: changelog-next.md
+- Neu in MAGELLAN 7: neu.mag7.md
 - Installation: 
   - Übersicht: installation/README.md
   - Systemvoraussetzungen: installation/systemvoraussetzungen.md
@@ -62,12 +61,12 @@ nav:
   - Die Pathsdatei: installation/die-pathsdatei.md
   - Probleme bei der Installation?: installation/probleme-bei-der-installation.md
 - Update: 
-  - Update: update/update.md
+  - Übersicht: update/README.md
   - Vorbereitung: update/vorbereitung.md
   - Updates verteilen: update/wie-kann-ein-update-verteilt-werden.md
   - Firebird aktualisieren: update/firebird-aktualisieren.md
   - Umstieg von 6 auf 7: update/umstieg-von-6-auf-7.md
-  - Eigene Berichte anpassen auf 7: update/Berichte_anpassen.md
+  - Eigene Berichte anpassen: update/Berichte_anpassen.md
   - Probleme beim Update?: update/probleme-beim-update.md
 - So gehen Sie vor: 
   - Übersicht: howto/README.md
@@ -88,7 +87,7 @@ nav:
   - Prüfungsnummer generieren: howto/pruefungsnummer.md
   - Durchschnitt/Abschluss berechnen: howto/durchschnitt-abschluss.md
   - Gymnasiale Oberstufe: 
-    - Übersicht: howto/Oberstufe/gymnasium.md
+    - Übersicht: howto/Oberstufe/gymnasium.md 
     - Vorbereitung: howto/Oberstufe/vorbereitung.md
     - Fachwahl: howto/Oberstufe/fachwahl.md
     - Abiturberechnung: howto/Oberstufe/abiturberechnung.md
@@ -106,6 +105,7 @@ nav:
     - Übersicht: admin/magellan.administrator.md
     - Datenbankverbindungen: admin/admin.datenbankverbindungen.md
     - Benutzerverwaltung: admin/users.md
+    - MyMAGELLAN Center: admin/mymagellan-center.md
     - Datenbankpflege: admin/datenbankpflege.md
     - Datenaustausch: admin/datenaustausch.md
     - Logbuch: admin/logbuch.md
@@ -117,8 +117,7 @@ nav:
     - Access-Anbindung: admin/access.anbindung.md
     - Protokollierung: admin/protocol.md
     - Aktionen im Silentmode: installation/magellan-administrator-im-silentmode-starten.md
-  - MyMAGELLAN Center: admin/mymagellan-center.md
-  - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
+    - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
 - Referenz: 
   - Übersicht: reference/README.md
   - Tastaturkürzel: reference/shortcuts.md

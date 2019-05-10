@@ -23,16 +23,16 @@ Hierbei steht xxxxx für Ihre Schulnummer.
 
 ## Notwendige Schritte
 
-1.	Schritt: [Statistikschlüssel aktualisieren](../magellan/schluessel-importieren.md) 
+1.	Schritt: Statistikschlüssel aktualisieren
 2.	Schritt: Dateneingabe
-3.	Schritt: [Datenprüfung](../datenpruefung.md)
+3.	Schritt: Datenprüfung
 4.	Schritt: Statistikdateien erstellen
 
 Diese Schritte werden nachfolgend ausführlich erklärt.
 
 ## Statistikschlüssel aktualisieren
 
-Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt [Schlüsselverzeichnisse importieren](schlusselverzeichnisse_importieren.md).
+Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEMS in Form von Schlüsselverzeichnissen zur Verfügung stellt. Bitte lesen Sie dazu den Abschnitt "Schlüsselverzeichnisse importieren"!
 
 ## Statistisch relevante Daten eingeben
 

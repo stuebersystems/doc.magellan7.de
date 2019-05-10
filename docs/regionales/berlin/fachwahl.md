@@ -4,7 +4,8 @@
 
     Die Schüler-Fachwahlen können anstatt in MAGELLAN auch in DAVINCI KURSPLAN erfasst werden. Die Fachwahlüberprüfung in MAGELLAN und DAVINCI erfolgt mit dem gleichen Fachwahlskript.  In DAVINCI können im Gegensatz zu MAGELLAN noch zusätzlich die Stundenzahlen je Halbjahr erfasst werden.
 
-##	Voraussetzung für die Fachwahlen
+## Voraussetzung für die Fachwahlen
+
 Um Fachwahlen für Schüler in MAGELLAN zu erfassen, muss der jeweilige Schüler:
 
 *	in MAGELLAN angelegt und einer Klasse zugeordnet und
@@ -121,7 +122,7 @@ Die nachstehenden Hinweise eine Empfehlung, damit Sie möglichst wenig nach dem 
 
 Eintrag|Hinweis
 ---|---
-**Fach**|Legen Sie in der Fachwahltafel jedes in der Oberstufe wählbare Fach als nur eine Zeile an. Es gibt nur eine Zeile für Deu,  nicht Deu als GK und Deu als LK usw. <br/>Das ist besonders wichtig, wenn Sie im Anschluss zum Beispiel einen Kurswahlbogen nutzen möchten, Berichte sind für eine Höchstzahl von Zeilen ausgelegt (oder erwarten genau eine Zeile für ein bestimmtes Fach), anderenfalls gelingt die korrekte Darstellung eventuell nicht mehr.  
+**Fach**|Legen Sie in der Fachwahltafel jedes in der Oberstufe wählbare Fach als nur eine Zeile an. Es gibt nur eine Zeile für Deu,  nicht Deu als GK und Deu als LK usw. <br/> Das ist besonders wichtig, wenn Sie im Anschluss zum Beispiel einen Kurswahlbogen nutzen möchten, Berichte sind für eine Höchstzahl von Zeilen ausgelegt (oder erwarten genau eine Zeile für ein bestimmtes Fach), anderenfalls gelingt die korrekte Darstellung eventuell nicht mehr.  
 **Unterrichtsart**|Weisen Sie jedem Fach die am ehesten zutreffende Unterrichtsart zu, zum Beispiel alle Fächer erhalten die Unterrichtsart GK.
 **Fachstatus**|Tragen Sie hier nur etwas ein, wenn es eine definitive Zuordung zwischen Fach und Fachstatus gibt.
 **Markieren**|Legen Sie hier das häufigste Belegungsmuster fest.
@@ -129,7 +130,7 @@ Eintrag|Hinweis
 **Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul MAGELLAN Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. 
 
 
-![Beispiel für den Inhalt einer Fachwahltafel](../../assets/images/gym_oberstufe/fachwahltafel.png)
+![Beispiel für den Inhalt einer Fachwahltafel](../../assets/images/berlin/fachwahl/fachwahltafel.png)
 
 !!! info "Hinweis"
 

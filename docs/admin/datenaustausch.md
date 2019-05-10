@@ -17,13 +17,13 @@ Für MAGELLAN existieren Anpassungen an die Bestimmungen einzelner Bundesländer
 | Importiere folgenden Katalog             | Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.                                                                                                                                                                                                                       |
 
 
-[Assistent zum Importieren von Katalogen](../assets/images/magellan.administrator/kataloge.importieren.jpg)
+[Assistent zum Importieren von Katalogen](../assets/images/magellan.administrator/kataloge.importieren.png)
 
 ### Eigene Kataloge importieren
 
 Damit Sie eigene oder bearbeitete Katalogdateien (*.keys) importieren können, gibt es ein gesondertes Unterverzeichnis `Benutzer`. Legen Sie eigene Katalogdateien auf dem Serverrechner unter `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Importe\Benutzer`(Pfad gegebenenfalls abweichend) ab und importieren Sie die Dateien über den Assistenten mit dem Eintrag `Benutzer`für `Importiere für folgendes Land/Region`. Das Unterverzeichnis `Benutzer`wird bei Updates nicht verändert.
  
-[Kataloge aus dem Verzeichnis `Benutzer`importieren](../assets/images/magellan.administrator/kataloge.importieren1.jpg)
+[Kataloge aus dem Verzeichnis `Benutzer`importieren](../assets/images/magellan.administrator/kataloge.importieren1.png)
 
 ![Wählen Sie Bundesland, Art der Schlüssel und den Mandanten](../assets/images/Import_Export.Schluesselimport.png)
 
