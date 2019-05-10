@@ -52,7 +52,7 @@ Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht
 
 ## Bewerberverfahren
 
-Wählen Sie hier die gewünschten Einstellungen für Ihr Bewerberverfahren. Bitte lesen Sie hierzu den Abschnitt [„Bewerberverfahren durchführen“](https://doc.magellan7.stueber.de/howto/schueler.html#bewerberverfahren-durchf%C3%BChren).
+Wählen Sie hier die gewünschten Einstellungen für Ihr Bewerberverfahren. Bitte lesen Sie hierzu den Abschnitt [„Bewerberverfahren durchführen“](https://doc.magellan7.stueber.de/howto/schueler.html/#bewerberverfahren-durchf%C3%BChren).
 
 ![Unterkarte Bewerberverfahren](../assets/images/optionen_bewerberverfahren.png)
 

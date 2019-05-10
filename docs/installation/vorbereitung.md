@@ -12,7 +12,7 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 7.0.0|700
 
 
-Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](http://doc.MAGELLAN7.stueber.de/changelog.html) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.MAGELLAN7.stueber.de/installation/vorbereitung.html#updates-mit-datenstrukturerweiterung)!
+Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](http://doc.MAGELLAN7.stueber.de/changelog.html) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.MAGELLAN7.stueber.de/installation/vorbereitung.html/#updates-mit-datenstrukturerweiterung)!
 
 !!! info "Hinweis"
 

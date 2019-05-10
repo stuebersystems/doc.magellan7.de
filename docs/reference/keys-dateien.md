@@ -26,7 +26,7 @@ Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeiche
 
 Nachstehend finden Sie die Kopfzeilen der CSV-Dateien für den Import nach MAGELLAN. 
 
-Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/admin/import-export.html#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
+Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/admin/import-export.html/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
 
 ## Abgangsarten
 ````
