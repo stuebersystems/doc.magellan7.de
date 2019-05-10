@@ -62,13 +62,13 @@ nav:
   - Die Pathsdatei: installation/die-pathsdatei.md
   - Probleme bei der Installation?: installation/probleme-bei-der-installation.md
 - Update: 
-  - Übersicht: installation/update.md
-  - Vorbereitung: installation/vorbereitung.md
-  - Updates verteilen: installation/wie-kann-ein-update-verteilt-werden.md
-  - Firebird aktualisieren: installation/firebird-aktualisieren.md
-  - Umstieg von 6 auf 7: installation/umstieg-von-6-auf-7.md
-  - Eigene Berichte anpassen auf 7: installation/Berichte_anpassen.md
-  - Probleme beim Update?: installation/probleme-beim-update.md
+  - Update: update/update.md
+  - Vorbereitung: update/vorbereitung.md
+  - Updates verteilen: update/wie-kann-ein-update-verteilt-werden.md
+  - Firebird aktualisieren: update/firebird-aktualisieren.md
+  - Umstieg von 6 auf 7: update/umstieg-von-6-auf-7.md
+  - Eigene Berichte anpassen auf 7: update/Berichte_anpassen.md
+  - Probleme beim Update?: update/probleme-beim-update.md
 - So gehen Sie vor: 
   - Übersicht: howto/README.md
   - Datenbank vorbereiten: howto/preparation.md

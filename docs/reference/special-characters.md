@@ -16,6 +16,8 @@ So rufen Sie die Zeichentabelle in Windows auf:
 
 4. Wählen Sie unter Zeichensatz „Windows: Westlich“ und unter Gruppierung „(keine Gruppierung)“ aus.
  
+
+
 ![Hier sehen Sie alle zur Verfügung stehenden Eingabezeichen](../assets/images/dialog-shortcuts.png)
 
 Im oberen Teil des Dialogfensters Zeichentabelle sehen Sie jetzt alle zur Verfügung stehenden Zeichen.

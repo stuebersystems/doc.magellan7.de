@@ -12,7 +12,7 @@ MAGELLAN gibt über eine Schnittstelle Daten an MS Word für den Seriendruck. We
 
 Je nachdem welche Datenmenge im Seriendruckassistenten ausgewählt wird, stehen Ihnen die nachfolgenden Felder zur Verfügung.
 
-![Wählen Sie die aus welche Daten nach Word übergeben werden sollen](/reference/image/referenz1.png)
+![Wählen Sie die aus welche Daten nach Word übergeben werden sollen](../assets/images/referenz1.png)
 
 
 
