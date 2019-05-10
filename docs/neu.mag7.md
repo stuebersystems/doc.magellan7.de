@@ -18,19 +18,19 @@ Vergeben Sie pro Grund bitte mindestens ein Kürzel und eine Bezeichnung.
 In der Schülerauswahlliste markieren Sie den Schüler und wählen `Rechtsklick > Status zuweisen`.
 Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten Fehlgründe gezeigt) und ein Startdatum!
 
-![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](../assets/images/neues/pausieren01.png)
+![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](assets/images/neues/pausieren01.png)
 
 Alle ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
 
 |Status|Bedeutung|
 |-|-|
-|![](../assets/images/neues/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
-|![](../assets/images/neues/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
-|![](../assets/images/neues/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
+|![](assets/images/neues/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
+|![](assets/images/neues/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
+|![](assets/images/neues/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
 
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
-![Die Eintragungen können auf der Laufbahnkarte editiert werden](../assets/images/neues/pausieren05.png)
+![Die Eintragungen können auf der Laufbahnkarte editiert werden](assets/images/neues/pausieren05.png)
 
 
 Kehrt der Schüler zurück an Ihre Schule, können Sie ihn auf zwei Wegen wieder als aktiven Schüler markieren.
@@ -56,16 +56,16 @@ Ein Beispiel:
 
 Die Schülerin Monika Ehrenberg (Stammschüler) besucht aktuell die Klasse BK_01:
 
-![die Schülerin in ihrer `Stammklasse`](../assets/images/neues/lb01.png)
+![die Schülerin in ihrer `Stammklasse`](assets/images/neues/lb01.png)
 
 Zusätzlich soll sie der Klasse Abendschule zugeordnet werden. Dafür wird die Schülerin als Bewerberin ins Menü `Bewerber` kopiert (Bewerberkopie) .
 
-![Schüler als Bewerber kopieren](../assets/images/neues/lb02.png)
+![Schüler als Bewerber kopieren](assets/images/neues/lb02.png)
 
 Bei diesem Schritt wird eine Kopie der Stammdaten von der Karte `Daten1` bis `Extras` extrahiert und mit einer neuen ID im Menü `Bewerber` angelegt. Zusätzlich wird im Feld `IDIntern` die Schüler-ID des originalen Schülerdatensatzes gespeichert. 
 Es werden für den Bewerber nicht die Daten des Reiters `Ausbildung` und  `bereits besuchten Schulen` (Reiter `Zugang/Abgang`) übernommen. Für den Bewerber anschließend erfasste Daten des Reiters `Ausbildung` und  `bereits besuchten Schulen`, werden später beim Einschulen des Bewerbers mit den Einträgen des Stammschülers und etwaigen Schülerkopien verbunden.
 
-![Bewerberkopie](../assets/images/neues/lb03.png)
+![Bewerberkopie](assets/images/neues/lb03.png)
 
 Im nächsten Schritt wird die Bewerberkopie wie gewohnt mit dem Bewerberverfahren `F7` wieder ins Menü `Schüler` übernommen. Schulen Sie die Schülerin in die gewünschte Klasse (aus der Bewerberkopie wird eine Schülerkopie) ein, den Haken `Schüler zusammenführen` gibt es nicht mehr, es wird jetzt generell das Feld `IDIntern` überwacht.
 
@@ -73,7 +73,7 @@ Es kann jetzt zwei Situationen beim Einschulen geben:
 
 Situation|Was passiert
 --|--
-Stammschüler und Schülerkopie sind im selben Halbjahr|Wenn der Stammschüler bereits in dem Halbjahr indem Sie die Kopie einschulen existiert, werden die beiden Schüler nicht miteinander verbunden, sondern die Schülerkopie wird mit dem Laufbahneintrag `N` für Nebenklasse zusätzlich in der Auswahliste gezeigt. Auf der Laufbahnkarte des Stammschülers ist aber die Nebenlaufbahn mit sichtbar.<br/>![Darstellung in der Auswahlliste](../assets/images/neues/lb05.png)<br/> ![Laufbahnkarte](../assets/images/neues/lb06.png)<br/><br/> Die S- und N-Schüler werden beim Fortschreiben jeweils in ihren Klassen fortgeschrieben oder versetzt. Schult man den Schüler einer Stammlaufbahn aus, wird eine der Nebenlaufbahnen als neue Stammlaufbahn markiert. Möchten Sie für die  Schüler Zeugnisse drucken, ist das problemlos möglich, zu jeder Laufbahn hat man eine dazugehörige Zeugniskarte, die individuell pro Zeitraum gefüllt wird. 
+Stammschüler und Schülerkopie sind im selben Halbjahr|Wenn der Stammschüler bereits in dem Halbjahr indem Sie die Kopie einschulen existiert, werden die beiden Schüler nicht miteinander verbunden, sondern die Schülerkopie wird mit dem Laufbahneintrag `N` für Nebenklasse zusätzlich in der Auswahliste gezeigt. Auf der Laufbahnkarte des Stammschülers ist aber die Nebenlaufbahn mit sichtbar.<br/>![Darstellung in der Auswahlliste](assets/images/neues/lb05.png)<br/> ![Laufbahnkarte](assets/images/neues/lb06.png)<br/><br/> Die S- und N-Schüler werden beim Fortschreiben jeweils in ihren Klassen fortgeschrieben oder versetzt. Schult man den Schüler einer Stammlaufbahn aus, wird eine der Nebenlaufbahnen als neue Stammlaufbahn markiert. Möchten Sie für die  Schüler Zeugnisse drucken, ist das problemlos möglich, zu jeder Laufbahn hat man eine dazugehörige Zeugniskarte, die individuell pro Zeitraum gefüllt wird. 
 Stammschüler und Schülerkopie sind in unterschiedlichen Halbjahren| Der Stammschüler und die Schülerkopie werden miteinander verbunden, es existiert nur eine Zeile in der Schülerliste mit dem Laufbahneintrag `S`
 
 
@@ -91,9 +91,10 @@ Wird beim Stammschüler, bei der Bewerberkopie oder bei der Schülerkopie ein Fe
 
 Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die `Familiendaten` werden für die Schülerkopie immer die Daten es Stammschüler gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 
-> #### primary::Hinweis
->
-> Eine Ausnahme ist das Feld `Schüler > Ausbildung > Ausbildung`, in dem Feld wird die aktuelle Ausbildung des Schüler hinterlegt, die wird individuell pro Stammschüler oder Schülerkopie gespeichert.
+
+!!! info "Hinweis"
+
+  Eine Ausnahme ist das Feld `Schüler > Ausbildung > Ausbildung`, in dem Feld wird die aktuelle Ausbildung des Schüler hinterlegt, die wird individuell pro Stammschüler oder Schülerkopie gespeichert.
 
 **Bewerber:**
 Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters `Ausbildung` und die der `bereits besuchten Schulen` übernommen. Pflegen Sie diese Daten im Bewerbungszeitraums für den Bewerber, werden diese Daten dann beim späteren Einschulen des Bewerbers in seine Zielklasse mit den beim Stammschüler gespeicherten Daten ergänzt.
@@ -115,17 +116,17 @@ In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten
 
 Unter `Schüler > Laufbahn` ist die Spalte mit den Laufbahninformationen in der Breite veränderbar oder kann auch geschlossen werden.
 
-![Eingaben für Mitglieder](../assets/images/neues/lb07.png)
+![Eingaben für Mitglieder](assets/images/neues/lb07.png)
 
 ### "Als Bewerber kopieren": Vorbelegung der Herkunftsschule
 
 Im Menü `Schulen` können Schulen als Favoriten markiert werden. Wechseln Sie ins Menü `Schulen`, klicken eine Schule mit rechter Maustaste an und wählen im Kontextmenü `Zu Favoriten hinzufügen`. In der Liste der Schulen werden favorisierte Schulen mit einem gefüllten Herz dargestellt. Die Schulenliste wird standardmäßig nach diesem Merkmal sortiert. 
 
-![Per `Rechtsklick > zu Favoriten hinzufügen` können Schulen als Favoriten hervorgehoben werden](../assets/images/neues/fav01.png)
+![Per `Rechtsklick > zu Favoriten hinzufügen` können Schulen als Favoriten hervorgehoben werden](assets/images/neues/fav01.png)
 
 In der Funktion "Als Bewerber kopieren", die Ihnen aus einem Schüler eine Kopie im Menü `Bewerber` erzeugt, können Herkunftsschulen vorbelegt werden, dabei wird Ihnen die gesamte Schulenliste gezeigt, Ihre favorisierten Schulen werden immer oben angezeigt.
 
-![Der Bewerberkopie wird eine Herkunftsschule zugeordnet](../assets/images/neues/fav02.png)
+![Der Bewerberkopie wird eine Herkunftsschule zugeordnet](assets/images/neues/fav02.png)
 
 
 Beispiel: Ein Schüler Ihrer Schule bewirbt sich auf einen anderen Bildungsgang Ihrer Schule, Sie legen Ihre Schule in der Schulenliste an und favorisieren sie. Dann können Sie beim Erzeugen des Bewerbers Ihre Schule bereits auswählen. Der Bewerber hat dann unter `Bewerber > Zugang > bereits besuchte Schulen` bereits Ihre Schule als Eintrag.
@@ -144,17 +145,17 @@ Bislang waren die Laufbahneinträge der Schüler nach den Zugangs- und Abgangsda
 
 Sie können sich für die tägliche Arbeit mehr Platz auf Ihrem Bildschirm schaffen, indem Sie die Navigationsleiste minimieren.
 
-![Navigation minimieren](../assets/images/neues/navi01.png)
+![Navigation minimieren](assets/images/neues/navi01.png)
 
-![Navigation minimiert](../assets/images/neues/navi02.png)
+![Navigation minimiert](assets/images/neues/navi02.png)
 
 ### Spaltensichtbarkeit und Spaltenreihenfolge
 
 In jeder Auswahlliste finden Sie jetzt links vor dem ersten Spaltenkopf ein kleines Listensymbol. Klicken Sie das Listensymbol an, Sie sehen eine Übersicht aller Spalten, die per Häkchen ein- oder ausgeblendet werden können. Die Spaltenposition in der Auswahlliste können Sie hier auch neu vergeben: Ziehen Sie per Maus in der Liste eine Spaltenüberschrift an ihre neue Position.
 
-![Öffnen Sie über das Listensymbol die Organisationsansicht](../assets/images/neues/spalte01.png)
+![Öffnen Sie über das Listensymbol die Organisationsansicht](assets/images/neues/spalte01.png)
 
-![Ändern Sie per Drag and Drop die Spaltenreihenfolge!](../assets/images/neues/spalte02.png)
+![Ändern Sie per Drag and Drop die Spaltenreihenfolge!](assets/images/neues/spalte02.png)
 
 ### Menüband (Ribbon)
 
@@ -162,42 +163,42 @@ MAGELLAN 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktion
 Wir haben je nach ausgewähltem Menüpunkt die Funktionalitäten zu Gruppen zusammengefasst. Im Bereich Schüler gibt es beispielsweise jetzt die Gruppen `Datenbank`, `Start`, `Extras`, `Hilfe`, `Schüler` und `Laufbahnprozesse`. `Schlüsselverzeichnisse` finden Sie jetzt gesammelt unter in der Gruppe `Extras` im Punkt `Schlüsselverzeichnisse`.
 Beispiele:
 
-![Gruppe `Start`](../assets/images/neues/ribbon01.png)
+![Gruppe `Start`](assets/images/neues/ribbon01.png)
 
-![Gruppe `Datenbank` mit dem Aufruf der `Optionen`](../assets/images/neues/ribbon02.png)
+![Gruppe `Datenbank` mit dem Aufruf der `Optionen`](assets/images/neues/ribbon02.png)
 
-![Gruppe `Extras`](../assets/images/neues/ribbon03.png)
+![Gruppe `Extras`](assets/images/neues/ribbon03.png)
 
-![Gruppe `Hilfe`](../assets/images/neues/ribbon04.png)
+![Gruppe `Hilfe`](assets/images/neues/ribbon04.png)
 
-![Gruppe `Schüler`](../assets/images/neues/ribbon05.png)
+![Gruppe `Schüler`](assets/images/neues/ribbon05.png)
 
-![Gruppe `Laufbahnprozesse`](../assets/images/neues/ribbon06.png)
+![Gruppe `Laufbahnprozesse`](assets/images/neues/ribbon06.png)
 
 ### Schlüsselverzeichnisse
 
 Alle Schlüsselverzeichnisse finden Sie unter der Gruppe `Extras` unter dem Punkt `Schlüsselverzeichnisse` zusammengefasst. 
 
-![Fenster `Schlüsselverzeichnisse`](../assets/images/neues/sv01.png)
+![Fenster `Schlüsselverzeichnisse`](assets/images/neues/sv01.png)
 
 Aufgrund der Vielzahl der Schlüsselverzeichnisse, gibt es auswählbare Untergruppen, die beim Aufruf Ihnen Verzeichnisse zu einem bestimmten Thema zusammengefasst darstellen. In der nachstehenden Abbildung ist die Gruppe `Merkmale` gewählt worden.
 
- ![Gruppenfilter für die Gruppe `Merkmale` ausgewählt](../assets/images/neues/sv02.png)
+ ![Gruppenfilter für die Gruppe `Merkmale` ausgewählt](assets/images/neues/sv02.png)
 
 Im unteren Bereich des Schlüsselverzeichnisfensters finden Sie zwei Schaltflächen, einmal um alle Datensätze im markierten Verzeichnis auszuwählen und rechts daneben, eine neue Schaltfläche um die optimale Spaltenbreite im Verzeichnis einstellen zu können. Die gewählte Spaltenbreite wird gespeichert und beim Neustart wieder dargestellt.
 
-![Schaltfläche am unteren Rand](../assets/images/neues/sv03.png)
+![Schaltfläche am unteren Rand](assets/images/neues/sv03.png)
 
 Die Schaltfläche zum Editieren der Inhalte eines Verzeichnisses finden Sie links oben, hier können Sie in den Editiermodus wechseln oder zum Beispiel eine neue Zeile erzeugen. Wenn Sie ein Verzeichnis verlassen, indem Sie beispielsweise auf einen anderen Verzeichnisaufruf klicken, wird gegebenenfalls nachgefragt, ob gespeichert werden soll. Das gilt auch für das Verlassen des Fensters.
 
-![Schaltflächen zum Editieren](../assets/images/neues/sv04.png)
+![Schaltflächen zum Editieren](assets/images/neues/sv04.png)
 
 
 In der Liste der Verzeichnisse und auch im Gruppenfilterfeld können Sie Einträge per inkrementeller Suche finden. Aktivieren Sie die Liste oder das Feld per Klick, tippen Sie anschließend Ihren Suchbegriff ein, es wird der gefundene Eintrag gezeigt.
 
-> #### primary::Hinweis
->
-> Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in MAGELLAN verfügbaren Schlüsselverzeichnisse aufgelistet.
+!!! info "Hinweis"
+
+   Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in MAGELLAN verfügbaren Schlüsselverzeichnisse aufgelistet.
 
 
 ### Schülerfilter für eingeschulte/ausgeschulte Schüler und Vagabunden
@@ -205,45 +206,45 @@ In der Liste der Verzeichnisse und auch im Gruppenfilterfeld können Sie Einträ
 Wenn Sie die Schülerliste aufrufen, sind erst einmal standardmäßig nur aktive oder inaktive Schüler sichtbar, die einer Klasse zugeordnet wurden. Möchten Sie gern Schüler sehen, die noch keine Klassenzuordnung haben, schalten Sie im Filterfenster von "Eingeschult" auf "Vagabunden". 
 Durch die neue Aufteilung reduziert sich die Ladezeit für die Auswahlliste im Menü `Schüler`.
 
-![Auswahl `Eingeschult` ](../assets/images/neues/eingeschult01.png)
+![Auswahl `Eingeschult` ](assets/images/neues/eingeschult01.png)
 
-![Auswahl `Vagabunden` ](../assets/images/neues/eingeschult02.png)
+![Auswahl `Vagabunden` ](assets/images/neues/eingeschult02.png)
 
 ### Vagabunden können in das Menü Bewerber korrigiert werden
 
 Sollte ein Bewerber versehentlich ins Schülermenü übernommen worden sein, können Sie das mit dem Assistenten `Schüler korrigieren` wieder rückgängig machen. Wählen Sie im Menü `Schüler` in der Auswahliste im Filter `Status` den Wert `Vagabunden`. Es werden statt der eingeschulten Schüler alle noch nicht einer Klasse zugeordneten Schüler gezeigt. Rufen Sie anschließend `Laufbahnprozesse > Schüler korrigieren` auf, es werden Ihnen nur die Vagabunden gezeigt. Korrigieren Sie Vagabunden, werden diese wieder als Bewerber im Menü `Bewerber` gezeigt.
 
-![Zeigen Sie über den Auswahlfilter die `Vagabunden` an! ](../assets/images/neues/filter01.png)
+![Zeigen Sie über den Auswahlfilter die `Vagabunden` an! ](assets/images/neues/filter01.png)
 
-> #### warning::Wichtig!
->
-> Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
+!!! info "Hinweis"
+
+  Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
 
 
 ### Namen können zusätzlich in der Landessprache erfasst werden
 
  In den Menüpunkten `Schüler`, `Bewerber`, `Personen`, `Lehrer` und `Sorgeberechtigte` gibt unter `Daten1` die Möglichkeit auf die Unterkarte `Alternativ` zu wechseln um dort Namen in Landessprache einzugeben, zum Beispiel um Sie im Zeugnisdruck zu verwenden.
 
-![Unterkarte `Alternativ` unter `Schüler > Daten1` ](../assets/images/neues/s01.png)
+![Unterkarte `Alternativ` unter `Schüler > Daten1` ](assets/images/neues/s01.png)
 
 
 ### Zusammengefasst: Schüler > Daten 1 und Schüler > Sorgeberechtigte
 
 Es gibt unter `Bewerber` oder unter `Schüler` nicht mehr die Karte `Sorgeberechtigte`/`Familie`, stattdessen sind die Inhalte der alten Karten `Sorgeberechtigte`/`Familie` mit unter `Schüler/Bewerber > Daten1` zu finden.
 
-![neue Daten 1-Karte im Schülermenü](../assets/images/neues/daten01.png)
+![neue Daten 1-Karte im Schülermenü](assets/images/neues/daten01.png)
 
 ### Zusammengefasst: unter Klassen > Zeiträume > Zeitraum und Schüler
 
 Die beiden bislang getrennten Unterkarten unter `Klassen > Zeiträume > Zeitraum und Schüler` sind mit einander verbunden worden.
 
-![neue Karte `Klassen > Zeiträume`](../assets/images/neues/k01.png)
+![neue Karte `Klassen > Zeiträume`](assets/images/neues/k01.png)
 
 ### Zusammengefasst: Schüler > Daten2 und Schüler > Zugang/Abgang
 
 Es gibt unter `Schüler` oder unter `Bewerber` nicht mehr die Karte `Zugang/Abgang` bzw. `Zugang`, stattdessen sind die Inhalte der beiden Karten zusammengefasst unter `Schüler/Bewerber > Daten2` zu finden.
 
-![neue Karte `Schüler/Bewerber > Daten2`](../assets/images/neues/daten2.png)
+![neue Karte `Schüler/Bewerber > Daten2`](assets/images/neues/daten2.png)
 
 
 ### Drittes Geschlecht für Bewerber und Schüler
@@ -256,7 +257,7 @@ Unter `Bewerber/Schüler > Daten1 > Geschlecht` kann der Wert `divers` gewählt 
 
 Beim Aufruf der Schülerfehlzeiten werden jetzt immer alle bisher erfassten Fehlzeiten gezeigt, den Standardfilter können Sie über die Schaltfläche `Anpassen` weiter eingrenzen.
 
-![Fehlzeitenfenster, aufrufbar in der Schülerauswahlliste mit STRG+F](../assets/images/neues/schueler_36fehlzeiten.png)
+![Fehlzeitenfenster, aufrufbar in der Schülerauswahlliste mit STRG+F](assets/images/neues/schueler_36fehlzeiten.png)
 
 
 
@@ -266,7 +267,7 @@ Im Menü `Sorgeberechtigte` werden auf der Unterkarte `Kinder` sämtliche jemals
 
 Per Doppelklick auf eine der Kinderzeilen wechselt MAGELLAN die Ansicht (Menü `Schüler` oder `Bewerber`) und ggfs. auch den Zeitraum.
 
-![](../assets/images/neues/sb.png)
+![](assets/images/neues/sb.png)
 
 ### Neue Runtime-Version von Crystal Reports integriert
 
@@ -277,17 +278,19 @@ Mit MAGELLAN 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Report
 Der neue Bereich `Gruppen` dient der Verwaltung von Gruppen oder Gremien, deren Mitglieder aus den Menüpunkten `Schüler`, `Lehrer`, `Personen` oder `Sorgeberechtigte` bestehen können.
 Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, den Elternbeirat, eine Arbeitsgemeinschaft, einen Lehrer-Eltern-Chor usw. Für eine Gruppe sind folgende Angaben möglich:
 
- ![Eingaben für Gruppen](../assets/images/neues/g01.png)
+ ![Eingaben für Gruppen](assets/images/neues/g01.png)
  
  Anschließend wählen Sie die Mitglieder der Gruppe aus. Einem Mitglied kann auch ein Typ zugewiesen werden, Sie definieren vorab selbst eine Liste von möglichen Typen, beispielsweise: Kassenwart, Leiter, ruhendes Mitglied usw.
  
-  ![Eingaben für Mitglieder](../assets/images/neues/g02.png)
+  ![Eingaben für Mitglieder](assets/images/neues/g02.png)
   
   Selbstverständlich können Mitglieder auch verschiedenen Gruppen angehören.
   
-  > #### warning::Wichtig!
-  >
-  > Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
+
+
+!!! warning "Wichtig"
+
+   Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
 
 
 ## MAGELLAN 7 Administrator
@@ -310,9 +313,9 @@ Der MAGELLAN ADMINISTRATOR ist auch ohne Datenbankanmeldung startbar, allerdings
 
 Unter `Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren` gibt es unter "Importiere für Land/Bundesland" zusätzlich auch die Auswahlen "Benutzer" und "Ausland".
 
-![Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](../assets/images/neues/a01.png)
+![Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](assets/images/neues/a01.png)
 
-![Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](../assets/images/neues/a02.png)
+![Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](assets/images/neues/a02.png)
 
 Speicherort des Verzeichnisse ist standardmäßig unter C:\Users\Public\Documents\Stueber Systems\Magellan 7\Importe\Benutzer. Legen Sie in diesem Verzeichnis Ihre editierten Kataloge ab und importieren sie dann in die Datenbank.
 
@@ -320,9 +323,9 @@ Speicherort des Verzeichnisse ist standardmäßig unter C:\Users\Public\Document
 
 Sie können sich für die tägliche Arbeit mehr Platz auf Ihrem Bildschirm schaffen, indem Sie die Navigationsleiste minimieren.
 
-![Navigation minimieren](../assets/images/neues/a03.png)
+![Navigation minimieren](assets/images/neues/a03.png)
 
-![Navigation minimiert](../assets/images/neues/a04.png)
+![Navigation minimiert](assets/images/neues/a04.png)
 
 ### Menüband (Ribbon)
 
@@ -334,19 +337,19 @@ Wir haben je nach ausgewähltem Menüpunkt die Funktionalitäten zu Gruppen zusa
 
 Der Dialog zum Anlegen von Datenbankverbindungen wurde vollständig überarbeitet. Es gibt zusätzlich die Möglichkeit jetzt pro Verbindung die Bundeslandauswahl zu treffen, je Datenbank Angaben für die Datensicherung vorzunehmen, beim Eintrag der Datenordnerpfade sich eine Menge Tipparbeit zu sparen, eine neue Übersicht mit Verbindungsinformationen und die unkomplizierte Möglichkeit in der Übersicht mit einem Häkchen eine neue Standardverbindung auszuwählen. 
 
-![Neuer Dialog zum Anlegen von Verbindungen](../assets/images/neues/a05.png)
+![Neuer Dialog zum Anlegen von Verbindungen](assets/images/neues/a05.png)
 
-![Voreinstellungen zur Datensicherung pro Verbindung](../assets/images/neues/a07.png)
+![Voreinstellungen zur Datensicherung pro Verbindung](assets/images/neues/a07.png)
 
-![Neuer Verbindungsübersicht](../assets/images/neues/a06.png)
+![Neuer Verbindungsübersicht](assets/images/neues/a06.png)
 
-![Markieren Sie per Häkchen Ihre neue Standardanmeldung](../assets/images/neues/a08.png)
+![Markieren Sie per Häkchen Ihre neue Standardanmeldung](assets/images/neues/a08.png)
 
 ### Verbindungen kopieren
 
 Wenn Sie eine neue Datenbankverbindung aus einer Kopie, einer bereits gespeicherten Verbindung anlegen möchten, dann ist das möglich. Klicken Sie bitte mit der rechten Maustaste auf eine Verbindung und wählen `Verbindung kopieren`, es öffnet sich die Verbindungskopie. Im Anschluss passen Sie die kopierte Verbindung entsprechend an.
 
-![Klicken Sie per rechter Maustaste (oder mit `STRG+C`) auf die zu kopierende Verbindung](../assets/images/verbindung.kopieren.png)
+![Klicken Sie per rechter Maustaste (oder mit `STRG+C`) auf die zu kopierende Verbindung](assets/images/verbindung.kopieren.png)
 
 ### Logbuch
 
@@ -355,12 +358,4 @@ In der MAGELLAN-Datenbank gibt es neue Trigger, die jedes Einfügen, Ändern ode
 ### Datacenter
 
 Das MAGELLAN DATACENTER ist ein Werkzeug um aus Datenquellen (Excel, CSV-Dateien, Firebird-Datenbanken, MSSQL-Datenbanken, DBASE-Datenbanken) Daten in ein frei zu definierendes Zielformat (CSV-Format) aufzubereiten. Dabei können die erfolgten Schritte als Projekt gespeichert und bei Bedarf erneut ausgeführt werden.
-
-
-
-
-
-
-
-
 
