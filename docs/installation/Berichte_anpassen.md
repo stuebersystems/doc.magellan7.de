@@ -45,10 +45,12 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
 
  ![Einstellungen ODBC](../assets/images/odbc_3_KonfigurationKorrektur.png)
 
-> #### warning::Wichtig!
->
-> Wenn Sie zwischenzeitlich MAGELLAN auf dem Rechner (Druckvorschau!) verwendet haben, ändert sich diese Einstellung wieder. 
-> Bitte kontrollieren Sie vor dem erneuten Start von Crystal Reports diese Einstellungen.
+
+
+!!! info "Hinweis"
+
+     Wenn Sie zwischenzeitlich MAGELLAN auf dem Rechner (Druckvorschau!) verwendet haben, ändert sich diese Einstellung wieder. 
+     Bitte kontrollieren Sie vor dem erneuten Start von Crystal Reports diese Einstellungen.
 
 
 ### 2. Datenbankfelder aktualisieren
@@ -72,30 +74,30 @@ So gehen Sie vor:
 
 1. Klicken Sie im Menü auf ```Datenbank > Datenquellenpfad festlegen...```<br>
 
-    ![](../assets/images/cr_fix_step2_1.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_1.png)
 
 2. Im Dialogfenster wählen Sie wie im Bild beschrieben zuerst oben die erste Ansicht/Tabelle aus.<br> Dann öffnen Sie unten die bestehende Verbindung und melden sich an.
 
-    ![](../assets/images/cr_fix_step2_2.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_2.png)
 
 3. Im Beispiel ist das erste Element ```AuswahlZeugnisse``` eine Ansicht.<br> Das heißt, sie öffnen im unteren Bereich ```Ansichten```
     
-    ![](../assets/images/cr_fix_step2_3.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_3.png)
 
     und wählen die Ansicht auch im unteren Bereich aus. Dann klicken Sie auf ```Aktualisieren```.
     > ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet, bitte nutzen Sie die Schaltfläche `Aktualisieren` oder die Taste `Enter`.
     
-    ![](../assets/images/cr_fix_step2_4.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_4.png)
 
 4. Den Vorgang wiederholen Sie mit allen Ansichten/Tabellen die in Ihrem Bericht vorhanden sind.<br>Auch mit den Ansichten/Tabellen von Unterberichten.
 
-    ![](../assets/images/cr_fix_step2_5.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_5.png)
 
-    ![](../assets/images/cr_fix_step2_6.png)
+    ![Datenquellenpfad festlegen](../assets/images/cr_fix_step2_6.png)
     
 5. Sonderfall ```SchuelerKlassen```<br>Die SchuelerKlassen haben eine neue Datenstruktur und Crystal-Reports kennt im bestehenden Bericht lediglich die alte Datenstruktur. Damit kann die Tabelle nicht einfach neu verknüpft werden. Sie erhalten deshalb ein weiteres Dialogfenster, dass Sie lediglich mit ```OK``` quittieren. 
 
-    ![](../assets/images/cr_fix_step2_7.png)
+    ![SchuelerKlassen](../assets/images/cr_fix_step2_7.png)
 
 Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einmal in den Datenbank-Assistenten gehen und wie bereits erwähnt, die Verknüpfung der Tabelle "SchuelerKlassen" korrigieren (Fehlende Verknüpfung auf Feld ```SchuelerZeitraumID``` ergänzen).
     
@@ -140,7 +142,7 @@ SchülerZeitraeume|-|SchuelerAusbildung
 Mandant|linke äußere Verknüpfung<br/>(left outer join)|Mandant
 Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
-![](../assets/images/cr_fix_schuelerAusbildung.png)
+![SchuelerAusbildung](../assets/images/cr_fix_schuelerAusbildung.png)
 
 ###	Tabelle "Schueler" - Felder "SopaedFoerderungen", "Foerderschwerpunkt1", "Foerderschwerpunkt2", "Behinderung"
 
@@ -150,12 +152,12 @@ Diese sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 
-![](../assets/images/cr_error_msg3.png)
+![SchuelerKlassen](../assets/images/cr_error_msg3.png)
 
 Die Verknüpfung wird wie folgt korrigiert:
 
 
-![](../assets/images/cr_fix_schuelerKlassen.png)
+![SchuelerKlassen](../assets/images/cr_fix_schuelerKlassen.png)
 
 Tabelle und Feld|Art der Verbindung|Tabelle und Feld
 --|--|--
@@ -173,7 +175,7 @@ Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen di
 
 Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitung.
 
-![](../assets/images/berichte.anpassen2.png)
+![Meldung](../assets/images/berichte.anpassen2.png)
 
 
 ## 6. Datenbankverbindung aktualisieren
@@ -191,16 +193,16 @@ Gehen Sie wie folgt vor:
 
 1. Klicken Sie im Menu auf ```Datenbank > Bei Server an-/abmelden...```
 
-    ![](../assets/images/berichte.anpassen3.png)
+![Bei Server an-/abmelden...](../assets/images/berichte.anpassen3.png)
     
 
 2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
 
-    ![](../assets/images/cr_fix_step1_2.png)
+    ![Bei Server an-/abmelden...](../assets/images/cr_fix_step1_2.png)
 
 3. Im Daten-Explorer sollte unter `Meine Verbindungen` nur eine Verbindung stehen.<br>Wenn Sie mehrere Verbindungen finden, löschen Sie alle (bei denen es möglich ist), wie folgt heraus:
 
-    ![](../assets/images/cr_fix_step1_3.png)
+    ![Bei Server an-/abmelden...](../assets/images/cr_fix_step1_3.png)
     
 4. Benennen Sie die verkehrte(n) Datenbankverbindung um (Rechtsklick > Umbenennen), damit keine der bisherigen Verbindungen mehr "MAGELLAN-CR" heißt und legen anschließend eine neue Datenbankverbindung an. 
 
@@ -208,7 +210,7 @@ Gehen Sie wie folgt vor:
 
 6. Öffnen Sie die neue Datenbankverbindung, indem Sie auf das Plus vor "MAGELLAN-CR" und anschließend auf das Plus vor "Tabellen" klicken.
 
-![](../assets/images/berichte.anpassen7.png)
+![Bei Server an-/abmelden...](../assets/images/berichte.anpassen7.png)
 
 7. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!
 
