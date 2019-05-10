@@ -35,7 +35,7 @@ Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslands
 
 !!! info "Hinweis"
 
-  Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/admin/import-export.html/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren)!
+  Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/admin/import-export/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren)!
 
 Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der bundesweit eindeutigen Gemeindeschlüssel und dem Bankleitzahlverzeichnis. Wenn Sie das Postleitzahlverzeichnis importieren, können Sie die automatische Zuordnung von Postleitzahl zu einem Ort bzw. Ort zu einer Postleitzahl nutzen. 
 
@@ -147,7 +147,7 @@ Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor 
 
 !!! info "Hinweis"
 
-  Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/admin/preferences.html/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
+  Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
 
 
 ## Zeiträume eingeben

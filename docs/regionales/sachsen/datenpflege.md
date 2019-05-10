@@ -406,7 +406,7 @@ Die Schwächen sind ein gesonderter Teil der Förderungen und werden für bestim
 ## Förderung  `<saxsvs-bbs><schueler><foerderung>` 
 
 Wird ausgegeben, wenn der Schüler eine Integrationsform eingetragen hat.
-Seit MAGELLAN 7 sind mehrere Einträge für Förderungen möglich. Lesen Sie dazu bitte auch den kommenden Abschnitt [Unterschiede in MAGELLAN 6 und MAGELLAN 7](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege.html/#unterschiede-in-magellan-6-und-magellan-7)!
+Seit MAGELLAN 7 sind mehrere Einträge für Förderungen möglich. Lesen Sie dazu bitte auch den kommenden Abschnitt [Unterschiede in MAGELLAN 6 und MAGELLAN 7](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege/#unterschiede-in-magellan-6-und-magellan-7)!
 
 |Titel|Inhalt|
 |----|-------|

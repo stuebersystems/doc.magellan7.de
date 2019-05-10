@@ -40,7 +40,7 @@ Der neue Bewerber wird erstellt. Sie befinden sich automatisch auf der Registerk
 
 !!! info "Hinweis"
 
-	 Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan7.stueber.de/howto/schueler.html/#bewerber-in-schüler-umwandeln))
+	 Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan7.stueber.de/howto/schueler/#bewerber-in-schüler-umwandeln))
 
 ### Bewerbervorlagen anlegen und verwenden
 

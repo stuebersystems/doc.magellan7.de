@@ -8,7 +8,7 @@ MAGELLAN erlaubt es Ihnen  Kurznachrichten an Schüler, Lehrer, Personen und Sor
 
 !!! info "Hinweis"
 
-	Bitte prüfen Sie vorab, ob alle Einstellungen in den Optionen für den Versand von [SMS-Nachrichten und E-Mails](https://doc.magellan7.stueber.de/admin/preferences.html/#extras--optionen---sms-nachrichten) vorgenommen wurden. Außerdem müssen Sie bei den betreffenden Personen die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. 
+	Bitte prüfen Sie vorab, ob alle Einstellungen in den Optionen für den Versand von [SMS-Nachrichten und E-Mails](https://doc.magellan7.stueber.de/admin/preferences/#extras--optionen---sms-nachrichten) vorgenommen wurden. Außerdem müssen Sie bei den betreffenden Personen die E-Mail-Adressen bzw. die Mobiltelefonnummern eingegeben haben. 
 
 ## Mitteilung senden
  

@@ -49,13 +49,13 @@ Beschreibung| `MAGELLAN > Schüler > Ausbildung > Bildungsgang [BS_Bildungsgaeng
 **Statistikfeld**| **... > saxsvs-bbs > schueler > al_schulart** 
 Beschreibung| `MAGELLAN > Schüler > Ausbildung > Schulform [BS_Schulformen]`<br/>Nur in MAGELLAN 7<br/>. Bitte lesen Sie ["Datenpflege in MAGELLAN 7"](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege7.html)
 **Statistikfeld**| **... > saxsvs-bbs > schueler > al_zeitform** 
-Beschreibung| `MAGELLAN > Schüler > Ausbildung > Organisation [BS_Organisationen]`<br/>Nur in MAGELLAN 7<br/>Bitte lesen Sie den Abschnitt ["Ausbildung in MAGELLAN 6 und MAGELLAN 7"](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege7.html/#ausbildung-in-magellan-6-und-magellan-7)
+Beschreibung| `MAGELLAN > Schüler > Ausbildung > Organisation [BS_Organisationen]`<br/>Nur in MAGELLAN 7<br/>Bitte lesen Sie den Abschnitt ["Ausbildung in MAGELLAN 6 und MAGELLAN 7"](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege7/#ausbildung-in-magellan-6-und-magellan-7)
 
 
 #### Förderbedarf
 
  Ab MAGELLAN 7 sind mehrere Einträge für Förderungen möglich (Stichwort: Liste der Förderungen). <br/>
- Bitte lesen zum Förderbedarf auch den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege7.html/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
+ Bitte lesen zum Förderbedarf auch den Abschnitt ["Förderbedarf in MAGELLAN 6 und MAGELLAN 7"](https://doc.magellan7.stueber.de/regionales/sachsen/datenpflege7/#f%C3%B6rderbedarf-in-magellan-6-und-magellan-7)
 
 Titel|Inhalt
 ---|--- 

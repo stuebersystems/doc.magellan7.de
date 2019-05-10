@@ -108,7 +108,7 @@ Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, dies
   In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`. 
 
 
- Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan7.stueber.de/howto/schueler.html/#registerkarte-„familie).
+ Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan7.stueber.de/howto/schueler/#registerkarte-„familie).
 
 !!! info "Hinweis"
 

@@ -3,8 +3,8 @@
 
 |Notwendige Schritte |
 |-|
-|[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7.html/#magellan-6-und-firebird-aktualisieren)|
-|[2. MAGELLAN 7 installieren](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7.html/#magellan-7-installieren)|
+|[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
+|[2. MAGELLAN 7 installieren](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7/#magellan-7-installieren)|
 
 
 

@@ -109,7 +109,7 @@ Die Prüfungsnoten der Schüler können Sie über ein gesondertes Fenster pro Kl
 
 !!! info "Hinweis"
 
-	Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/admin/users.html/#allgemeine-rechte).
+	Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/admin/users/#allgemeine-rechte).
  
 ![Geben Sie pro Fach pro Klasse die Prüfungsnoten ein.](../assets/images/berufsschulmatrix/berufsschulmatrix6.png)
 
@@ -147,5 +147,5 @@ Klicken Sie bei den Berufsschuldaten des Schülers auf die Registerkarte `Zeugni
 
 ### Zeugnisformulare aus dem Berufsschulmenü drucken
 
-Um die beim Schüler hinterlegten [Zeugnisformulare](https://doc.magellan7.stueber.de/howto/zeugnisdaten.html/#zeugnisformulare) (`Schüler > Zeugnis > Zeugnisformulare`) automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der Auswahlliste `Berufsschule` markieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen. 
+Um die beim Schüler hinterlegten [Zeugnisformulare](https://doc.magellan7.stueber.de/howto/zeugnisdaten/#zeugnisformulare) (`Schüler > Zeugnis > Zeugnisformulare`) automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der Auswahlliste `Berufsschule` markieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen. 
 
