@@ -42,7 +42,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* NEW:
+* FIX: SAC-BS-AS (A.02.05) 2spaltig.rpt (Ausgabe des Ausbildungsberufes)
+* FIX: SAC-BS-AS (A.02.04).rpt (Ausgabe des Ausbildungsberufes)
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
