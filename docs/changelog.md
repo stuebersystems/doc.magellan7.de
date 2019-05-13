@@ -97,14 +97,14 @@ FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 
 * Fix: Datenbankanmeldung beim Druck von Quittungen korrigiert
 * CHANGE: die Abfragen beim Aufruf der Menüpunkte `Schüler` und `Vorgänge` wurden optimiert, damit die Daten in den Menüpunkten schneller aufrufbar sind
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
-* FIX: Quittung\(DIN A4\).rpt
-* FIX: Quittung\(DIN A4\).rpt
+* FIX: Quittung(DIN A4).rpt
+* FIX: Quittung(DIN A4).rpt
 * FIX: Zeugnisse\Nordrhein-Westfalen
 
 
@@ -139,7 +139,7 @@ XML-Auszug: ....
 * FIX: Der Aufruf für `Status ändern` wurde in den Menüpunkten `Personen`, `Sorgeberechtigte`, `Betriebe`, `Schulen` unter `Auswahlliste > Datensatz auswählen > Rechtsklick` ergänzt.
 
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
@@ -215,7 +215,7 @@ aktualisiert das Feld `Laufbahn > Schulformeintritt`|Ja|Ja
 
 ![Bewerberausbildung als aktuelle Ausbildung hinterlegen](assets/images/changelog/7.0.4.01.png)
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
@@ -304,7 +304,7 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur in MAGELLAN 7 angepa
  ![Neue Korrekturmöglichkeit im MAGELLAN ADMINISTRATOR](assets/images/changelog/mandanten.korr.png) 
 
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
@@ -433,7 +433,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 ### Skripte
 
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
@@ -473,6 +473,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 ### Skripte
 
 
-### Berichte \(NEW oder CHANGE\)
+### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
