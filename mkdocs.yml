@@ -128,6 +128,8 @@ nav:
   - Vorlagenfelder: reference/vorlagenfelder.md
 - Regionales: 
   - Übersicht: regionales/README.md
+  - Ausland:
+    - Oberstufe: regionales/ausland/oberstufe.md
   - Berlin: 
     - Übersicht: regionales/berlin/berlin.md
     - Spezielle Eingabeformulare: regionales/berlin/masken.md
@@ -155,10 +157,8 @@ nav:
     - Statistik Abiturdaten: regionales/berlin/stat.abidaten.md
     - Statistik Schülerdaten: regionales/berlin/stat.schuelerdaten.md
   - Nordrhein-Westfalen: 
-    - Übersicht: regionales/nrw/nordrhein-westfalen.md
     - Abgleich mit SchülerOnline: regionales/nrw/schueleronline.md
   - Saarland: 
-    - Übersicht: regionales/saarland/saarland.md
     - Lernfelder importieren: regionales/saarland/lernfelder-importieren.md
     - Zeugnisse mit Lernfeldern: regionales/saarland/zeugnisse.md
   - Sachsen: 
@@ -166,5 +166,4 @@ nav:
     - 1. Schlüsselpflege: regionales/sachsen/schluessel.md
     - 2. Datenpflege: regionales/sachsen/datenpflege.md
     - 3. XML-Datei erzeugen: regionales/sachsen/xml.erzeugen.md
-    - Aktuelle Version: regionales/sachsen/changelog.md
 - Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de

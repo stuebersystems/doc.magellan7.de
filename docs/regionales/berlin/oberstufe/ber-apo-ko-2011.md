@@ -96,9 +96,9 @@ Pflicht|Pflicht|Pflichtbereich
 
 
 Für die besondere Lernleistung tragen Sie bitte das entsprechende Fach auf der Karte Prüfung auf der Karte „Lernleistung“ ein, tragen den erreichten Punktwert im ersten Punktfeld ein und aktivieren das Häkchen für „Lernleistung einbringen“.
-![Bereich Lernleistung](../../assets/images/berlin/oberstufe/oberstufe2.png)
+![Bereich Lernleistung](../../../assets/images/berlin/oberstufe/oberstufe2.png)
 
 
 Für die Präsentationsprüfung erfassen Sie die Note bitte für das 5.PF im Feld für die mündliche Note. Im nachfolgenden Beispiel wurden für GEO 10 Punkte für die Präsentationsprüfung eingetragen.
-![Note für die Präsentationsprüfung erfasst](../../assets/images/berlin/oberstufe/oberstufe3.png)
+![Note für die Präsentationsprüfung erfasst](../../../assets/images/berlin/oberstufe/oberstufe3.png)
 

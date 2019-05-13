@@ -24,7 +24,7 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 3. Starten Sie die Installation von Firebird per Doppelklick auf die heruntergeladene Datei. Folgen Sie dann bitte der Installation wie nachstehend abgebildet:
 
-![test!](../../assets/images/update/fb.1.png)
+![test!](../assets/images/update/fb.1.png)
 
 ![Stoppen Sie bitte den Firebird-Server!](../assets/images/update/fb.1.png)
 
