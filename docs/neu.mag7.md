@@ -360,13 +360,3 @@ Das MyMAGELLAN CENTER ist Teil des Administrators geworden. Sie finden den Aufru
 
 ![Das neue MyMAGELLAN CENTER](assets/images/neues/myma.png)
 
-## Coming soon
-
-### Logbuch
-
-In der MAGELLAN-Datenbank gibt es neue Trigger, die jedes Einfügen, Ändern oder Löschen registrieren können. Im Menüpunkt `Logbuch` können Sie diese Funktion aktivieren, Sie erhalten eine Übersicht der Bearbeitungsschritte pro Benutzer. 
-
-### Datacenter
-
-Das MAGELLAN DATACENTER ist ein Werkzeug um aus Datenquellen (Excel, CSV-Dateien, Firebird-Datenbanken, MSSQL-Datenbanken, DBASE-Datenbanken) Daten in ein frei zu definierendes Zielformat (CSV-Format) aufzubereiten. Dabei können die erfolgten Schritte als Projekt gespeichert und bei Bedarf erneut ausgeführt werden.
-
