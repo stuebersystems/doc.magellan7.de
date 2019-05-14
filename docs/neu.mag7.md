@@ -4,7 +4,7 @@
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
-### Datenbank und Oberfläche unterstützen UTF8
+###  UTF8
 
 Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben. 
 Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
@@ -42,7 +42,7 @@ Ansicht|Vorgehen
 
 
 
-### Schüler besucht mehrere Klassen zeitgleich
+### Klassen parallel besuchen
 
 Sollte es an Ihrer Schule notwendig sein, dass ein Schüler zeitgleich mehreren Klassen zugeordnet wird, können Sie das jetzt in MAGELLAN darstellen. Es gibt immer eine Stammklasse (H), der die Schüler als erstes zugeordnet werden. Zusätzlich kann ein Schüler weitere Nebenklassen (N) besuchen. Ob die Schülerzeile zur Stamm- oder Nebenlaufbahn gehört, sehen Sie in der neuen Spalte `Laufbahn` in der Auswahlliste `Schüler` Nach diesem Eintrag können Sie auch wie gewohnt Filtern oder Sortieren usw.
 
@@ -80,14 +80,15 @@ Stammschüler und Schülerkopie sind in unterschiedlichen Halbjahren| Der Stamms
 
 #### Stammdaten
 
-**Stammschüler, Bewerber, Schülerkopie:**
+##### Stammschüler, Bewerber, Schülerkopie
+
 Mit Stammdaten sind die Einträge des Reiters `Daten1` bis zur Karte `Extras` gemeint, eine Ausnahme bilden die Daten zu den `bereits besuchten Schulen` auf der Karte `Zugang/Abgang`.
 Wird beim Stammschüler, bei der Bewerberkopie oder bei der Schülerkopie ein Feld geändert, wird beim Speichern geprüft, ob es den Schüler mehrfach gibt, der geänderte Wert wird dann mit für alle weiteren gefundenen Schüler übernommen. Die Daten sind also bei allen drei Varianten identisch, egal von wem aus etwas geändert wird.
 
-#### Ausbildung, Bereits besuchte Schulen***
+#### Ausbildung, Bereits besuchte Schulen
 
 
-**Stammschüler,Schülerkopie:**
+##### Stammschüler,Schülerkopie
 
 Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die `Familiendaten` werden für die Schülerkopie immer die Daten es Stammschüler gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 
@@ -96,12 +97,14 @@ Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die
 
   Eine Ausnahme ist das Feld `Schüler > Ausbildung > Ausbildung`, in dem Feld wird die aktuelle Ausbildung des Schüler hinterlegt, die wird individuell pro Stammschüler oder Schülerkopie gespeichert.
 
-**Bewerber:**
+##### Bewerber
+
 Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters `Ausbildung` und die der `bereits besuchten Schulen` übernommen. Pflegen Sie diese Daten im Bewerbungszeitraums für den Bewerber, werden diese Daten dann beim späteren Einschulen des Bewerbers in seine Zielklasse mit den beim Stammschüler gespeicherten Daten ergänzt.
 
-#### Familiendaten:***
+#### Familiendaten
 
-**Stammschüler, Bewerber, Schülerkopie:**
+##### Stammschüler, Bewerber, Schülerkopie
+
 Für die `Familiendaten` werden für den Stammschüler, Schülerkopien und Bewerber immer die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 
 #### Zeugnisdaten
@@ -118,7 +121,7 @@ Unter `Schüler > Laufbahn` ist die Spalte mit den Laufbahninformationen in der 
 
 ![Eingaben für Mitglieder](assets/images/neues/lb07.png)
 
-### "Als Bewerber kopieren": Vorbelegung der Herkunftsschule
+### Vorbelegung der Herkunftsschule beim Kopieren
 
 Im Menü `Schulen` können Schulen als Favoriten markiert werden. Wechseln Sie ins Menü `Schulen`, klicken eine Schule mit rechter Maustaste an und wählen im Kontextmenü `Zu Favoriten hinzufügen`. In der Liste der Schulen werden favorisierte Schulen mit einem gefüllten Herz dargestellt. Die Schulenliste wird standardmäßig nach diesem Merkmal sortiert. 
 
@@ -131,7 +134,7 @@ In der Funktion "Als Bewerber kopieren", die Ihnen aus einem Schüler eine Kopie
 
 Beispiel: Ein Schüler Ihrer Schule bewirbt sich auf einen anderen Bildungsgang Ihrer Schule, Sie legen Ihre Schule in der Schulenliste an und favorisieren sie. Dann können Sie beim Erzeugen des Bewerbers Ihre Schule bereits auswählen. Der Bewerber hat dann unter `Bewerber > Zugang > bereits besuchte Schulen` bereits Ihre Schule als Eintrag.
 
-### "Als Bewerber kopieren": auch ehemalige Schüler
+### ehemalige Schüler als Bewerber kopieren
 
 Bislang hat der Assistent immer die Schüler und ehemaligen Schüler des ausgewählten Zeitraums gezeigt, jetzt stehen im Assistentenfenster `als Bewerber kopieren` sämtliche Schüler oder ehemaligen Schüler zur Auswahl, Sie müssen nicht mehr den Zeitraum wechseln.
 
@@ -201,7 +204,7 @@ In der Liste der Verzeichnisse und auch im Gruppenfilterfeld können Sie Einträ
    Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in MAGELLAN verfügbaren Schlüsselverzeichnisse aufgelistet.
 
 
-### Schülerfilter für eingeschulte/ausgeschulte Schüler und Vagabunden
+### Schülerfilter
 
 Wenn Sie die Schülerliste aufrufen, sind erst einmal standardmäßig nur aktive oder inaktive Schüler sichtbar, die einer Klasse zugeordnet wurden. Möchten Sie gern Schüler sehen, die noch keine Klassenzuordnung haben, schalten Sie im Filterfenster von "Eingeschult" auf "Vagabunden". 
 Durch die neue Aufteilung reduziert sich die Ladezeit für die Auswahlliste im Menü `Schüler`.
@@ -210,7 +213,7 @@ Durch die neue Aufteilung reduziert sich die Ladezeit für die Auswahlliste im M
 
 ![Auswahl `Vagabunden` ](assets/images/neues/eingeschult02.png)
 
-### Vagabunden können in das Menü Bewerber korrigiert werden
+### Vagabunden korrigieren
 
 Sollte ein Bewerber versehentlich ins Schülermenü übernommen worden sein, können Sie das mit dem Assistenten `Schüler korrigieren` wieder rückgängig machen. Wählen Sie im Menü `Schüler` in der Auswahliste im Filter `Status` den Wert `Vagabunden`. Es werden statt der eingeschulten Schüler alle noch nicht einer Klasse zugeordneten Schüler gezeigt. Rufen Sie anschließend `Laufbahnprozesse > Schüler korrigieren` auf, es werden Ihnen nur die Vagabunden gezeigt. Korrigieren Sie Vagabunden, werden diese wieder als Bewerber im Menü `Bewerber` gezeigt.
 
@@ -221,20 +224,20 @@ Sollte ein Bewerber versehentlich ins Schülermenü übernommen worden sein, kö
   Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
 
 
-### Namen können zusätzlich in der Landessprache erfasst werden
+### Namen in Landessprache
 
  In den Menüpunkten `Schüler`, `Bewerber`, `Personen`, `Lehrer` und `Sorgeberechtigte` gibt unter `Daten1` die Möglichkeit auf die Unterkarte `Alternativ` zu wechseln um dort Namen in Landessprache einzugeben, zum Beispiel um Sie im Zeugnisdruck zu verwenden.
 
 ![Unterkarte `Alternativ` unter `Schüler > Daten1` ](assets/images/neues/s01.png)
 
 
-### Zusammengefasst: Schüler > Daten 1 und Schüler > Sorgeberechtigte
+### Zusammengefasst: Daten1 und Familie
 
 Es gibt unter `Bewerber` oder unter `Schüler` nicht mehr die Karte `Sorgeberechtigte`/`Familie`, stattdessen sind die Inhalte der alten Karten `Sorgeberechtigte`/`Familie` mit unter `Schüler/Bewerber > Daten1` zu finden.
 
 ![neue Daten 1-Karte im Schülermenü](assets/images/neues/daten01.png)
 
-### Zusammengefasst: unter Klassen > Zeiträume > Zeitraum und Schüler
+### Zusammengefasst: Klassen > Zeiträume > Zeitraum und Schüler
 
 Die beiden bislang getrennten Unterkarten unter `Klassen > Zeiträume > Zeitraum und Schüler` sind mit einander verbunden worden.
 
@@ -301,15 +304,15 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6, wir möc
 
 Der MAGELLAN ADMINISTRATOR wurde vollständig überarbeitet und neu gestaltet. Nicht mehr verwendete Teile sind entfernt worden, alle Punkte wurden übersichtlich zusammengefasst.
 
-### Datenbank und Oberfläche unterstützen UTF8
+### UTF8
 
 Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion im MAGELLAN Administrator Ihre Schulverwaltungsdaten übergeben. Durch den von der Datenbank auch von der neuen Oberfläche unterstützten Zeichensatz können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch zum Beispiel für den Zeugnisdruck wieder ausgegeben werden.
 
-### Nachträgliches Anmelden an einer Datenbankanbindung
+### Nachträgliches Anmelden
 
 Der MAGELLAN ADMINISTRATOR ist auch ohne Datenbankanmeldung startbar, allerdings sind dann nur die Punkte `Server-Verwaltung` und `Datensicherung` verwendbar. Neu ist, dass man sich jetzt aus der Oberfläche heraus noch nachträglich an einer Datenbank anmelden kann, der MAGELLAN ADMINISTRATOR muss dafür nicht neu gestartet werden.
 
-### Extrapunkt fürs Importieren eigener Kataloge
+### Importieren eigener Kataloge
 
 Unter `Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren` gibt es unter "Importiere für Land/Bundesland" zusätzlich auch die Auswahlen "Benutzer" und "Ausland".
 
