@@ -351,6 +351,14 @@ Wenn Sie eine neue Datenbankverbindung aus einer Kopie, einer bereits gespeicher
 
 ![Klicken Sie per rechter Maustaste (oder mit `STRG+C`) auf die zu kopierende Verbindung](assets/images/verbindung.kopieren.png)
 
+## MyMAGELLAN CENTER 
+
+Das MyMAGELLAN CENTER ist Teil des Administrators geworden. Sie finden den Aufruf mit in der Menüleiste.
+
+![Das neue MyMAGELLAN CENTER](assets/images/neues/myma.png)
+
+## Coming soon
+
 ### Logbuch
 
 In der MAGELLAN-Datenbank gibt es neue Trigger, die jedes Einfügen, Ändern oder Löschen registrieren können. Im Menüpunkt `Logbuch` können Sie diese Funktion aktivieren, Sie erhalten eine Übersicht der Bearbeitungsschritte pro Benutzer. 
