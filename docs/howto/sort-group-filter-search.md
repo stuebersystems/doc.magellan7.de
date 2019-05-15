@@ -13,13 +13,13 @@ In MAGELLAN haben Sie die Möglichkeit, den Inhalt der Auswahllisten zu sortiere
 
 Um nach einem Kriterium zu sortieren, müssen Sie den entsprechenden Spaltenkopf anklicken. Diese Daten der Auswahlliste werden dann nach der Spalte aufsteigend sortiert. Ein nochmaliger Klick auf den Spaltenkopf bewirkt eine absteigende Sortierung.
 
-#### Beispiel 1:
+Beispiel 1:
  
 ![Beispiel 1](../assets/images/sortieren/sortieren_11kleine.liste.png)
 
 In diesem Fall wurde die gesamte Liste nach dem Nachnamen der Schüler sortiert. Der kleine Pfeil nach oben stellt eine Sortierung in aufsteigender Reihenfolge dar.
 
-#### Beispiel 2:
+Beispiel 2:
 
 ![Beispiel 2](../assets/images/sortieren/sortieren_12.png)
 
@@ -138,7 +138,7 @@ In jeder Auswahlliste finden Sie jetzt links vor dem ersten Spaltenkopf ein klei
 
 
 
-## Zeitraum- und mandantenübergreifende Suche
+## Suche
 
 Es ist möglich, Schüler, Bewerber, Lehrer, Sorgeberechtigte oder Personen in der Datenbank zeitraum- oder auch mandantenübergreifend zu suchen. Klicken Sie dazu auf `Extras > Suchen` oder rufen Sie die Suche per F3 auf. Je nachdem in welchem Menü Sie sich befinden, erscheint die Schüler-, Bewerber-, .... Lehrersuche. 
 Ein Assistent ist Ihnen bei der Suche behilflich. Bitte beachten Sie bei der Suche Groß- und Kleinschreibung.
