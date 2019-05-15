@@ -53,8 +53,20 @@ Schritt|Aktion
 **2.**|^Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.<br/><br/>![Es bietet sich an, die Liste nach Klassen zu sortieren oder zu gruppieren, da das Versetzen klassenweise durchgeführt wird.](../assets/images/schuljahreswechsel/schuljahreswechsel1.png)
 **3.**|Markieren Sie die Schüler einer Klasse, die Sie versetzen möchten, und klicken Sie auf `Weiter`. Unter Klassen auswählen werden die Klassen angezeigt, in die Sie die markierten Schüler versetzen können. <br/><br/>![Wählen Sie die bereits vorbereitete Klasse aus.](../assets/images/schuljahreswechsel/schuljahreswechsel2.png)
 **4.**| Wählen Sie die Klasse aus, in die Sie die markierten Schüler versetzen möchten und klicken Sie auf `Weiter`. Geben Sie unter `Weitere Angaben` zusätzliche Merkmale an. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Des Weiteren können Sie optional Angaben zur Versetzung bzw. Wiederholung machen oder angeben, ob es sich um einen Überspringer handelt. Die weiteren Angaben sind optional und haben folgende Bedeutung:<br/><br/> * **Fachdaten kopieren.** Mit dieser Option werden alle Fächer der markierten Schüler des aktuellen Zeitraums mit übertragen.<br/> * **Fachtafel.** Sie können über die Option allen Schülern direkt eine Fachtafel zuweisen.<br/>**Jahrgang erhöhen.** Markieren Sie dieses Option, wenn für alle zum Versetzen markierten Schüler der Jahrgang unter `Schüler > Zeugnis > Details > Jahrgang` erhöht werden soll.<br/> * **Schulbesuchsjahr erhöhen.** Eine Auswahl dieser Option bewirkt eine Erhöhung des Schulbesuchsjahrs der Schüler im neuen Zeitraum.<br/> * **Ausbildungsjahr erhöhen.** Eine Auswahl dieser Option bewirkt eine Erhöhung des Ausbildungsjahrs der Schüler im neuen Zeitraum.<br/> * **Datum des Schulformeintritts neu setzen: **Eine Auswahl dieser Option bewirkt bei allen markierten Schülern eine Abgleichung des Eintrittsdatums für die Schulform an das Eintrittsdatum der neuen Klasse.<br/> * **Tutor nicht versetzen.** Eine Auswahl dieser Option bewirkt, dass bei allen markierten Schülern der Tutor nicht ins neue Schuljahr übernommen wird.<br/><br/>![Wählen Sie weitere Optionen für das neue Halbjahr](../assets/images/schuljahreswechsel/schuljahreswechsel3.png)
-**5.**|Klicken Sie jetzt auf `Weiter `und anschließend auf `Fertigstellen`, um das Versetzen der Schüler durchzuführen. Sollten einige Schüler einer Klasse das Klassenziel nicht erreicht haben, so dürfen diese nicht markiert werden. Die Schüler, die von der Markierung ihrer Klasse ausgenommen sind, werden separat versetzt, z.B. in die gleiche Klassenstufe, falls die Schüler die Stufe wiederholen müssen. Die nicht versetzten Schüler werden nach der Versetzung der Klasse wieder angezeigt. 
+**5.**|Klicken Sie jetzt auf `Weiter `und anschließend auf `Fertigstellen`, um das Versetzen der Schüler durchzuführen. <br/>**Wiederholer** <br/>Sollten einige Schüler einer Klasse das Klassenziel nicht erreicht haben, so dürfen diese nicht markiert werden. Die Schüler, die von der Markierung ihrer Klasse ausgenommen sind, werden separat versetzt, z.B. in die gleiche Klassenstufe, falls die Schüler die Stufe wiederholen müssen. Die nicht versetzten Schüler werden nach der Versetzung der Klasse wieder angezeigt. 
 **6.**|Markieren Sie nun diese Schüler und versetzen Sie diese in den nächsten Zeitraum, aber in die gleiche Klassenstufe. Sie haben die Möglichkeit, diese Schüler als Wiederholer zu markieren.
+
+## Wiederholer
+
+Einen Wiederholer versetzen Sie mit dem Assistenten unter `Schüler > Laufbahnprozess > Schüler versetzen` in mitunter gleichnamige Klasse mit der selben Jahrgangsstufe. Ein Beispiel: Einen Schüler, der die Klasse 5a besucht, das Schuljahr aber in diesem Jahrgang wiederholen wird, versetzen Sie aus der alten Klasse 5a in die neue Klasse 5 (oder auch 5b), die Sie für das neue Schuljahr angelegt haben. Bitte wählen Sie für den Schüler die nachfolgend markierten Eigenschaften!
+
+Feld|Wert
+--|--
+Versetzt |Schüler wurd nicht versetzt
+Wiederholer |Ja
+
+
+![](../assets/images/schuljahreswechsel/wiederholer.png)
 
 ## Schüler wechseln
 
