@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.9 - 703
+## 7.0.9 - 704
 
 ### MAGELLAN
 
@@ -20,6 +20,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### SAXSVS
 
+* CHANGE: Neue Prüfungen für Schüler, Betriebe und Sorgeberechtigte für die Felder Land und Gemeinde
 * FIX: 
 
 ### Importe
