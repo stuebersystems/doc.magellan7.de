@@ -46,7 +46,6 @@ markdown_extensions:
   
 # Navigation  
 nav:
-- Überblick: index.md
 - Einführung: introduction.md
 - Was ist neu: changelog.md
 - Geplante Änderungen: changelog-next.md
@@ -167,3 +166,4 @@ nav:
     - 2. Datenpflege: regionales/sachsen/datenpflege.md
     - 3. XML-Datei erzeugen: regionales/sachsen/xml.erzeugen.md
 - Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de
+- Weitere Dokumentationen: index.md

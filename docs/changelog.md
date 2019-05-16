@@ -2,15 +2,6 @@
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7.
 
-#### Weitere Änderungsverläufe finden Sie wie folgt
-
-* [Geplante Änderungen der nächsten Ausgaben](/changelogs/changelog-next.md)
-* [Neuerung zwischen MAGELLAN 6 und 7](/neu.mag7.md)
-
-#### Hilfreiche Dokumentation zur Installation/Update
-
-* [Anleitung zum Einspielen eines Serviceupdate.](/installation/update.md)
-* [Probleme beim Einspielen des Updates?](/installation/probleme-beim-update.md)
 
 ### LEGENDE
 
