@@ -21,7 +21,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### SAXSVS
 
 * CHANGE: Neue Prüfungen für Schüler, Betriebe und Sorgeberechtigte für die Felder Land und Gemeinde
-* FIX: 
+* FIX: Laufbalken wird beim Durchlauf von Beginn an gezeigt, nicht erst bei der Anzeige der Meldungen
+* FIX: beim Auslesen der Ausbildungs-GUID von Nebenschülern
 
 ### Importe
 

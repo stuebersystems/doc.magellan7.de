@@ -8,8 +8,7 @@ Ggf. haben wir nach XML-Elementen (Knoten) aufgeteilt.
 
 !!! warning "Wichtig"
 
-   Die XML-Knoten werden in der Dokumentation wie folgt benannt: `<Knotenname>`
-    Unterknoten können dann z.B. so aussehen `<saxsvs-bbs><schueler>`
+    Die XML-Knoten werden in der Dokumentation wie folgt benannt: `<Knotenname>`. Unterknoten können dann z.B. so aussehen `<saxsvs-bbs><schueler>`
 
 ## Legende
 
