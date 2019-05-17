@@ -24,7 +24,18 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### Importe
 
-* CHANGE: 
+* CHANGE: Postleitzahlverzeichnis geändert, nach dem Import des Verzeichnisses stehen Ihnen folgende Änderungen für neue Zuweisungen zur Verfügung. Bereits erfolgte Zuweisungen werden nicht geändert, sondern müssten bitte manuell angepasst werden.
+* 
+  Alt | Neu
+  --|--
+  02727 Neugersdorf|02727 Ebersbach-Neugersdorf
+  02730 Ebersbach |02730 Ebersbach-Neugersdorf
+  01738 Klingenberg | 01774 Klingenberg
+
+  
+    Klingenberg muss lauten 01774 (in Magellan ist 01738)
+    Die ehemals eigenständigen Gemeinden Neugersdorf (02727) und Ebersbach (02730) sind inzwischen eine Gemeinde "Ebersbach-Neugersdorf", aber mit beiden vorn benannten Postleitzahlen gültig
+
 
 ### Skripte
 
