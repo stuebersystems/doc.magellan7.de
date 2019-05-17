@@ -32,10 +32,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
   02730 Ebersbach |02730 Ebersbach-Neugersdorf
   01738 Klingenberg | 01774 Klingenberg
 
-  
-    Klingenberg muss lauten 01774 (in Magellan ist 01738)
-    Die ehemals eigenständigen Gemeinden Neugersdorf (02727) und Ebersbach (02730) sind inzwischen eine Gemeinde "Ebersbach-Neugersdorf", aber mit beiden vorn benannten Postleitzahlen gültig
-
 
 ### Skripte
 
