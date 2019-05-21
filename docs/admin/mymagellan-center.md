@@ -250,6 +250,14 @@ Im nächsten Schritt sind die Dateien an die Kollegen zur Eingabe zur Übermitte
 
 Zusätzlich zur Datei brauchen die Kollegen zum Bearbeiten der mym-Datei auch das Programm MyMAGELLAN, dass lizenzfrei auf unserer Webseite geladen werden kann. Die Installation des Programms ist schnell und unkompliziert. Allerdings sollte die verwendete MyMAGELLAN-Version auch der zu lesenden Datei entsprechen, insofern ist es sinnvoll den Kollegen auch die Installationsdatei zur Verfügung zu stellen.
 
+
+
+!!! warning "Wichtig"
+
+	Bitte übergeben Sie den Kollegen jeweils die mym-Datei und auch das MyMAGELLAN-Installationspaket. Damit stellen Sie sicher, dass Ihre Kollegen die korrekte Ausgabe von MyMagellan zur Verfügung haben.
+	MyMAGELLAN läuft, anders als in vorangegangenen Versionen, immer mit paralleler Versionsnummer zu MAGELLAN. Beispiel: 
+	Wird MAGELLAN 7.0.22 veröffentlicht, gibt passend dazu auch MyMAGELLAN 7.0.22.
+
 Für die Übermittlung werden von den Schulen die unterschiedlichsten Wege gewählt, Beispiele:
 
 * Die Kollegen erhalten jeweils einen Stick mit der eigenen mym-Datei, zusätzlich kann man auf dem Stick auch das jeweils aktuelle Installationspaket des Noteneingabeprogrammes MyMAGELLAN mit geben.
