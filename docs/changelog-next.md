@@ -16,11 +16,12 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX:
+* FIX: Beim Seriendruck an Betriebe wird der aktuelle Ausbildungsbetrieb korrekt ermittelt
 
 ### SAXSVS
 
-* CHANGE:
+* CHANGE: Bei den erweiterten Prüfungen Land/PLZ/Gemeindekennziffer für Betriebe, Schüler und Sorgeberechtigte werden ausländische Adressen berücksichtigt
+* FIX: Bei Nebenschülern wird das Abgangsdatum zum Auswerten eines eventuellen Abbruchs korrekt berücksichtigt
 
 ### Importe
 
