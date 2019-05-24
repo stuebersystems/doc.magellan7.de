@@ -26,7 +26,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### Importe
 
 * CHANGE: Postleitzahlverzeichnis geändert, nach dem Import des Verzeichnisses stehen Ihnen folgende Änderungen für neue Zuweisungen zur Verfügung. Bereits erfolgte Zuweisungen werden nicht geändert, sondern müssten bitte manuell angepasst werden.
-* 
+ 
   Alt | Neu
   --|--
   02727 Neugersdorf|02727 Ebersbach-Neugersdorf
