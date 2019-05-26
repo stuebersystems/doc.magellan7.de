@@ -46,12 +46,12 @@ markdown_extensions:
   
 # Navigation  
 nav:
+- Allgemein: 
+    - Einführung: index.md
+    - Was ist neu?: changelog.md
+    - Geplante Änderungen: changelog-next.md
+    - Neu in Version 7: neu.mag7.md
 - Schulverwaltung:
-    - Überblick: schulverwaltung/index.md
-    - Was ist neu?: 
-        - Aktuelle Änderungen: schulverwaltung/changelog.md
-        - Geplante Änderungen: schulverwaltung/changelog-next.md
-        - Neu in Version 7: schulverwaltung/neu.mag7.md
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
@@ -169,7 +169,6 @@ nav:
         - 3. XML-Datei erzeugen: schulverwaltung/regionales/sachsen/xml.erzeugen.md
     - Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de
 - Bibliotheksverwaltung:
-    - Überblick: bibliothek/index.md
     - Installation und Updates: bibliothek/installation/installation_und_updates.md
     - Tutorial: 
         - Überblick: bibliothek/tutorial/tutorial.md
