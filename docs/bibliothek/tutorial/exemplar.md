@@ -16,9 +16,10 @@ Um den Zustand eines oder mehrerer Exemplare einzugeben bzw. anzupassen, führen
 4. Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
    Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Der aktualisierte Zustand kann in der Ansicht `Bücher/ Medien` in der Spalte `Zustand` des Tabellenblatts `Exemplare` eingesehen werden.
 
-> #### primary::Hinweis
->
->  Die Einträge, die Ihnen im Auswahlfeld `Exemplarzustand` zur Verfügung stehen, sind im Schlüsselverzeichnis `Medienzustände` hinterlegt. Wie Sie dieses Verzeichnis an Ihre Bedürfnisse anpassen können, entnehmen Sie bitte dem Kapitel `Effizient mit Listen und Tabellen arbeiten` dieses Tutorials.
+
+!!! info "Hinweis"
+
+    Die Einträge, die Ihnen im Auswahlfeld `Exemplarzustand` zur Verfügung stehen, sind im Schlüsselverzeichnis `Medienzustände` hinterlegt. Wie Sie dieses Verzeichnis an Ihre Bedürfnisse anpassen können, entnehmen Sie bitte dem Kapitel `Effizient mit Listen und Tabellen arbeiten` dieses Tutorials.
 
 ### Aufgabe 16
 
@@ -28,23 +29,23 @@ Setzen Sie den Zustand von 5 Exemplaren des Titels `Die Räuber` auf `Gebraucht`
 
 Die Funktion `Exemplare in Katalog verschieben` ermöglicht Ihnen einzelne oder mehrere Exemplare schnell und unkompliziert von einem Medienkatalog in einen anderen zu verschieben. So können Sie z.B. verschiedene Exemplare aus Ihrem allgemeinen Katalog in einen Spezialkatalog verschieben, der nur den Schülern einer bestimmten Veranstaltung zur Verfügung steht.
 
-> #### primary::Hinweis
->
->  Sollte die Bezeichnung des Medienkatalogs ein Bestandteil der Signaturvorgabe sein, müssen Sie beim Verschieben in einen anderen Katalog die Signatur des Exemplars manuell anpassen. Die Bezeichnung des neuen Medienkatalogs wird nicht automatisch in die Signaturvorgabe des verschobenen Exemplars integriert. Wenn Sie bereits Signaturetiketten erstellt und angebracht haben, müssen diese ebenfalls korrigiert werden.
+!!! info "Hinweis"
+
+    Sollte die Bezeichnung des Medienkatalogs ein Bestandteil der Signaturvorgabe sein, müssen Sie beim Verschieben in einen anderen Katalog die Signatur des Exemplars manuell anpassen. Die Bezeichnung des neuen Medienkatalogs wird nicht automatisch in die Signaturvorgabe des verschobenen Exemplars integriert. Wenn Sie bereits Signaturetiketten erstellt und angebracht haben, müssen diese ebenfalls korrigiert werden.
 
 Um einzelne oder mehrere Exemplare in einen Katalog zu verschieben, führen Sie bitte die folgenden Schritte aus:
 
-1. Wählen Sie im Menü `Ausleihe `Auswahlfeld `Sammelaktion` den Eintrag `Exemplare in Katalog verschieben` aus dem Aufklappmenü: das Auswahlfeld `Vorgabe: Exemplarkatalog` wird aktiv gesetzt.
+1. Wählen Sie im Menü `Ausleihe` Auswahlfeld `Sammelaktion` den Eintrag `Exemplare in Katalog verschieben` aus dem Aufklappmenü: das Auswahlfeld `Vorgabe: Exemplarkatalog` wird aktiv gesetzt.
 2. Betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Vorgabe: Exemplarkatalog` und wählen Sie den gewünschten Katalog aus dem Aufklappmenü. 
 3. Platzieren Sie den Cursor in das Feld `Barcode` und geben Sie nacheinander die Barcodenummer der Exemplare ein: In der Vorgangsliste erscheint nun eine Zeile für jedes ausgewählte Exemplar.
 4. Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
    Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die verschobenen Exemplare werden im jeweiligen Zielkatalog in der Exemplarliste der Ansicht `Bücher/ Medien` gespeichert.
-   
-   ![Wählen Sie die Sammelaktion, anschließend den Zielkatalog, setzen den Cursor ins Barcodefeld und scannen die gewünschten Exemplare ein!](/images/exemplare.in.katalog.verschieben.png)
-   
-> #### primary::Hinweis
->
-> Wählen Sie unter `Vorgabe "Exemplarkatalog"` den Zielkatalog aus oder ändern Sie pro eingescanntem Exemplar den Katalog direkt im Feld "Neuer Katalog".
+
+![Wählen Sie die Sammelaktion, anschließend den Zielkatalog, setzen den Cursor ins Barcodefeld und scannen die gewünschten Exemplare ein!](../../assets/images/bibliothek/exemplare.in.katalog.verschieben.png)
+
+!!! info "Hinweis"
+
+    Wählen Sie unter `Vorgabe "Exemplarkatalog"` den Zielkatalog aus oder ändern Sie pro eingescanntem Exemplar den Katalog direkt im Feld "Neuer Katalog".
 
 ### Aufgabe 17
 
@@ -60,6 +61,3 @@ Um einzelne oder mehrere Medienexemplare aus Ihrer Datenbank zu löschen, führe
 2. Platzieren Sie den Cursor in das Feld `Barcode` und geben Sie nacheinander die Barcodenummer der Exemplare ein: In der Vorgangsliste erscheint nun eine Zeile für jedes ausgewählte Exemplar
 3. Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
    Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die ausgewählten Exemplare werden aus der Exemplarliste der Ansicht `Bücher/ Medien` entfernt.
-
-
-

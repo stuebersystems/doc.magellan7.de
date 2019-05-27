@@ -41,17 +41,11 @@ Um Ihre Leihvorgangsquittungen elektronisch zu archivieren, gehen Sie bitte folg
 4. Tragen Sie den Namen des gewünschten Zielverzeichnisses in die drei Eingabefelder neben `Quittungen für … (Schüler/Lehrer/Personen) im PDF-Format speichern im Unterordner`.
 5. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
-
-
-
 In der MAGELLAN Dokumentenverwaltung passiert dabei Folgendes:
-
 
 Sobald Sie eine Leihvorgangsquittung drucken, wird für den Ausleiher im zugehörigen Unterverzeichnis der Ausleihergruppe ein Unterverzeichnis mit seiner ID angelegt. In diesem Unterverzeichnis wird wiederum ein Ordner angelegt, der den gewünschten Namen des Quittungsordners trägt. Alle ausgedruckten Leihvorgangsquittungen dieses Ausleihers werden von nun ab als PDF-Duplikat in diesem Ordner gespeichert.
 
-
 ## Mahnungen archivieren
-
 
 Um Ihre Mahnungen elektronisch zu archivieren, gehen Sie bitte folgendermaßen vor:
 1. Führen Sie den Menüpunkt `Extras > Optionen` aus und öffnen Sie die Registerkarte `Dokumente`.
@@ -63,12 +57,9 @@ Um Ihre Mahnungen elektronisch zu archivieren, gehen Sie bitte folgendermaßen v
 In der MAGELLAN Dokumentenverwaltung passiert dabei Folgendes:
 Sobald Sie eine Mahnung drucken, wird für den Ausleiher im zugehörigen Unterverzeichnis der Ausleihergruppe ein weiteres Unterverzeichnis mit seiner ID angelegt. In diesem Unterverzeichnis wird wiederum ein Ordner angelegt, der den gewünschten Namen des Mahnungsordners trägt. Alle ausgedruckten Mahnungen dieses Ausleihers werden von nun ab als PDF-Duplikat in diesem Ordner gespeichert.
 
-
 ## Leihvorgänge pro Ausleiher archivieren
 
-
 Wenn Sie in der Ansicht Vorgänge den Bericht `Medienvorgänge (Standard)` ausdrucken, können Sie diesen Bericht bei allen markierten Ausleihern ebenfalls elektronisch archivieren lassen. Gehen Sie dazu bitte folgendermaßen vor:
-
 
 1. Führen Sie den Menüpunkt `Extras > Optionen` aus und öffnen Sie die Registerkarte `Dokumente`.
 2. Lassen Sie den Reiter `Crystal Reports` aktiviert.
@@ -76,18 +67,8 @@ Wenn Sie in der Ansicht Vorgänge den Bericht `Medienvorgänge (Standard)` ausdr
 4. Tragen Sie den Namen des gewünschten Zielverzeichnisses in das Eingabefeld neben `Vorgänge pro Ausleiher im PDF-Format speichern im Unterordner`.
 5. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
-
-
-
 In der MAGELLAN Dokumentenverwaltung passiert dabei Folgendes:
-
 
 Sobald Sie den Bericht `Medienvorgänge (Standard)` drucken, werden für alle markierten Ausleiher Unterverzeichnisse mit ihrer ID angelegt. In diesen Unterverzeichnissen wird wiederum ein Ordner angelegt, der den gewünschten Namen des Vorgangsordners trägt. Alle ausgedruckten Berichte `Medienvorgänge (Standard)`, welche Leihvorgänge dieser Ausleiher enthalten, werden in der Folge in diesem Ordner gespeichert.
 
-
-
-
-![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ](../../assets/images/optionen2.png)
-
-
-
+![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ](../../assets/images/bibliothek/optionen2.png)
