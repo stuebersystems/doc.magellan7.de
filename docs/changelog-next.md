@@ -20,7 +20,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### SAXSVS
 
-* CHANGE: 
+* CHANGE: <bzsort_neu> `Übergang an Schule` wird ausgespielt, wenn eine Schule unter `Schüler > Daten2 > An Schule` erfasst wurde, die unter `Schule > Daten > Schulnummer` einen Eintrag (7-stellige Schulnummer) hat.
 
 ### Importe
 
