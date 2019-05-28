@@ -9,11 +9,19 @@ Der Biologie-Fachlehrer erhält nur die Bio-Fachzeilen der von ihm unterrichtete
 
 Jeder Lehrer füllt seine Datei aus und bringt sie wieder mit in die Schule, dort werden die Daten der Lehrerdateien in die MAGELLAN-Datenbank übergeben.
 
-Für diese Alternative gibt es das zweiteilige Modul MyMAGELLAN, das aus dem MyMAGELLAN Center (für die Erzeugung der Lehrerdateien und den Import der später gefüllten Lehrerdateien) und MyMAGELLAN (Werkzeug der Lehrer zum Füllen der Lehrerdatei) besteht.
+Für diese Alternative gibt es das zweiteilige Modul MyMAGELLAN, das aus dem **MyMAGELLAN Center** (für die Erzeugung der Lehrerdateien und den Import der später gefüllten Lehrerdateien) und **MyMAGELLAN** (Werkzeug der Lehrer zum Füllen der Lehrerdatei) besteht.
 
-Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus.
+Modul|Funktion
+--|--
+**MyMAGELLAN CENTER** |- Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach MAGELLAN eingelesen wurden<br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein
+**MyMAGELLAN** |Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/>Ist das Programm, mit dem der Lehrer seine Notendatei füllt
 
-In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
+
+!!! info "Hinweis"
+
+	Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus.
+
+Die unten gezeigten Abschnitte beschreiben die Funktionalitäten des MyMAGELLAN CENTERs, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
 
 * [Einführung](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
 * [Verteilen](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/)
