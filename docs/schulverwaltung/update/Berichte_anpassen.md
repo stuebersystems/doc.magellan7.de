@@ -33,17 +33,17 @@ Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugr
 1. Starten Sie den ODBC-Datenquellen-Administrator (32-Bit) in Windows.<br>
 Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 installierten Treiber. Da muss mindestens die im Bild angegeben Version stehen.
 
-    ![Einstellungen ODBC](../../assets/images/odbc_1_Treiber.png)
+![Einstellungen ODBC](../../assets/images/odbc_1_Treiber.png)
 
 
-2. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
+1. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
 
-    ![Einstellungen ODBC](../../assets/images/odbc_2_BenutzerDSN.png)
+![Einstellungen ODBC](../../assets/images/odbc_2_BenutzerDSN.png)
 
 
-3. Im Konfigurationsfenster geben Sie bei ```Character Set``` den Wert ```NONE``` ein, oder wählen diesen aus. Im Bereich ```Extended identifiert properties``` setzen Sie bitte **alle** Häkchen. 
+2. Im Konfigurationsfenster geben Sie bei ```Character Set``` den Wert ```NONE``` ein, oder wählen diesen aus. Im Bereich ```Extended identifiert properties``` setzen Sie bitte **alle** Häkchen. 
 
- ![Einstellungen ODBC](../../assets/images/odbc_3_KonfigurationKorrektur.png)
+![Einstellungen ODBC](../../assets/images/odbc_3_KonfigurationKorrektur.png)
 
 
 
@@ -74,30 +74,30 @@ So gehen Sie vor:
 
 1. Klicken Sie im Menü auf ```Datenbank > Datenquellenpfad festlegen...```<br>
 
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_1.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_1.png)
 
 2. Im Dialogfenster wählen Sie wie im Bild beschrieben zuerst oben die erste Ansicht/Tabelle aus.<br> Dann öffnen Sie unten die bestehende Verbindung und melden sich an.
 
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_2.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_2.png)
 
 3. Im Beispiel ist das erste Element ```AuswahlZeugnisse``` eine Ansicht.<br> Das heißt, sie öffnen im unteren Bereich ```Ansichten```
     
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_3.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_3.png)
 
-    und wählen die Ansicht auch im unteren Bereich aus. Dann klicken Sie auf ```Aktualisieren```.
-    > ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet, bitte nutzen Sie die Schaltfläche `Aktualisieren` oder die Taste `Enter`.
+und wählen die Ansicht auch im unteren Bereich aus. Dann klicken Sie auf ```Aktualisieren```.
+ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet, bitte nutzen Sie die Schaltfläche `Aktualisieren` oder die Taste `Enter`.
     
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_4.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_4.png)
 
 4. Den Vorgang wiederholen Sie mit allen Ansichten/Tabellen die in Ihrem Bericht vorhanden sind.<br>Auch mit den Ansichten/Tabellen von Unterberichten.
 
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_5.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_5.png)
 
-    ![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_6.png)
+![Datenquellenpfad festlegen](../../assets/images/cr_fix_step2_6.png)
     
 5. Sonderfall ```SchuelerKlassen```<br>Die SchuelerKlassen haben eine neue Datenstruktur und Crystal-Reports kennt im bestehenden Bericht lediglich die alte Datenstruktur. Damit kann die Tabelle nicht einfach neu verknüpft werden. Sie erhalten deshalb ein weiteres Dialogfenster, dass Sie lediglich mit ```OK``` quittieren. 
 
-    ![SchuelerKlassen](../../assets/images/cr_fix_step2_7.png)
+![SchuelerKlassen](../../assets/images/cr_fix_step2_7.png)
 
 Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einmal in den Datenbank-Assistenten gehen und wie bereits erwähnt, die Verknüpfung der Tabelle "SchuelerKlassen" korrigieren (Fehlende Verknüpfung auf Feld ```SchuelerZeitraumID``` ergänzen).
     
@@ -108,10 +108,6 @@ Danach können Sie das Dialogfenster ```Schließen``` und den Bericht in der Vor
 
 Außerdem sind mit MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen. 
 Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Verknüpfungen` auf.
-
-
-
-
 
 
 !!! info "Hinweis"
@@ -126,8 +122,6 @@ SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magella
 SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
 
 > Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
-
-
 
 ### Tabelle SchuelerZeitraeume und Tabelle SchuelerAusbildung 
 
@@ -156,7 +150,6 @@ Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie
 
 Die Verknüpfung wird wie folgt korrigiert:
 
-
 ![SchuelerKlassen](../../assets/images/cr_fix_schuelerKlassen.png)
 
 Tabelle und Feld|Art der Verbindung|Tabelle und Feld
@@ -165,13 +158,9 @@ SchülerZeitraeume|-|SchuelerKlassen
 Mandant|linke äußere Verknüpfung<br/>(left outer join)|Mandant
 ID|linke äußere Verknüpfung<br/>(left outer join)|SchuelerZeitraumID
 
-
-
 ## 5. Test
 
 Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen die Vorschau über das Symbol auf). Wird die Vorschau gefüllt (bei mehrseitigen Berichten bitte auch einmal blättern)? Dann ist der Bericht jetzt für MAGELLAN 7 vorbereitet.
-
-
 
 Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitung.
 
@@ -179,7 +168,6 @@ Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitun
 
 
 ## 6. Datenbankverbindung aktualisieren
-
 
 Wenn Sie auf einem Rechner arbeiten, mit dem Sie üblicherweise Ihre Crystal-Reports Berichte bearbeiten, dann legt Crystal-Reports gerne mehrere Datenquellen zur ODBC-Verbindung an. Um da für die Korrektur nicht durcheinander zu kommen, räumen wir an der Stelle auf. 
 Die vorstehende Meldung taucht allerdings auf, weil in der Datenbankverbindung, mit der Sie gerade angemeldet sind, nicht der korrekte Zeichensatz verwendet wird. 
@@ -194,7 +182,7 @@ Gehen Sie wie folgt vor:
 1. Klicken Sie im Menu auf ```Datenbank > Bei Server an-/abmelden...```
 
 ![Bei Server an-/abmelden...](../../assets/images/berichte.anpassen3.png)
-    
+
 
 2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
 
@@ -226,12 +214,10 @@ Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorsc
 
 ### MAGELLAN-Vorschau meldet "Die Tabelle wurde nicht gefunden"
 
-In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"? 
-
+In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"?
 
 ![Meldung "Die Tabelle wurde nicht gefunden"](../../assets/images/berichte.anpassen9.png)
 
 Dann öffnen Sie bitte den Bericht in Crystal Reports und stellen sicher, dass unter `Datei > Berichtsoptionen > Allgemeine Einstellungen` das Häkchen vor `Beim ersten Regenerieren überprüfen` **nicht** aktiviert ist. Wichtig: diese Einstellungen muss bitte für den Bericht und auch für alle Unterberichte deaktiviert sein.
 
 ![Dieses Häkchen darf NICHT aktiviert sein](../../assets/images/berichte.anpassen8.png)
-
