@@ -15,7 +15,7 @@ Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus.
 
 In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
 
-* [Verteilen]()
-* [Organisation]()
-* [Importlogik]()
-* [Einsammeln]()
+* [Verteilen](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/)
+* [Organisation](https://doc.magellan7.stueber.de/mymagellancenter/organisation/)
+* [Importlogik](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/)
+* [Einsammeln](https://doc.magellan7.stueber.de/mymagellancenter/einsammeln/)
