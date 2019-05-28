@@ -37,8 +37,8 @@ extra_css:
     - assets/css/custom.css
 
 # Plugins    
-#plugins:
-#    - img2fig
+plugins:
+    - img2fig
 
 # Extensions    
 markdown_extensions:
@@ -168,6 +168,12 @@ nav:
         - 2. Datenpflege: schulverwaltung/regionales/sachsen/datenpflege.md
         - 3. XML-Datei erzeugen: schulverwaltung/regionales/sachsen/xml.erzeugen.md
     - Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de
+- MyMAGELLAN Center: 
+    - Einführung: mymagellancenter/einfuehrung.md
+    - Verteilen: mymagellancenter/verteilen.md    
+    - Organisation: mymagellancenter/organisation.md
+    - Importlogik: mymagellancenter/importlogik.md
+    - Einsammeln: mymagellancenter/einsammeln.md
 - Bibliotheksverwaltung:
     - Installation und Updates: bibliothek/installation/installation_und_updates.md
     - Tutorial: 
