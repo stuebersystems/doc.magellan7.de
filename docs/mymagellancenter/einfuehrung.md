@@ -23,7 +23,7 @@ Modul|Funktion
 
 In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
 
-* [Verteilen](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/)
-* [Organisation](https://doc.magellan7.stueber.de/mymagellancenter/organisation/)
-* [Importlogik](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/)
-* [Einsammeln](https://doc.magellan7.stueber.de/mymagellancenter/einsammeln/)
+* [Verteilen](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/verteilen/)
+* [Organisation](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/organisation/)
+* [Importlogik](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/importlogik/)
+* [Einsammeln](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/einsammeln/)

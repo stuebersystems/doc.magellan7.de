@@ -37,8 +37,8 @@ extra_css:
     - assets/css/custom.css
 
 # Plugins    
-plugins:
-    - img2fig
+#plugins:
+    #- img2fig
 
 # Extensions    
 markdown_extensions:
@@ -175,6 +175,7 @@ nav:
     - Importlogik: mymagellancenter/importlogik.md
     - Einsammeln: mymagellancenter/einsammeln.md
 - Bibliotheksverwaltung:
+    - Überblick: bibliothek/index.md
     - Installation und Updates: bibliothek/installation/installation_und_updates.md
     - Tutorial: 
         - Überblick: bibliothek/tutorial/tutorial.md
@@ -198,3 +199,48 @@ nav:
         - Berichte und Vorlagen: bibliothek/tutorial/bericht_vorlage.md
         - Archivieren: bibliothek/tutorial/archivieren.md
         - Supportanfragen: bibliothek/tutorial/support.md
+- Knowledgebase:
+    - Installation: 
+      - Server Voraussetzungen: knowledgebase/voraussetzungen.md
+      - Erste Schritte in MAGELLAN: knowledgebase/ersteschritte.md
+      - Installationsprobleme unter Citrix: knowledgebase/citrixinstallation.md
+      - Serverumzug: knowledgebase/admin-serverumzug.md
+      - MAGELLAN ADMINISTRATOR im Silent-Mode starten: knowledgebase/admin_silentmode.md
+      - Pathsdatei:/*.lic,/*.evm,/*.opt zentral ablegen: knowledgebase/pathsdatei.md
+      - Hinweis Access-Anbindung: knowledgebase/Access-Anbindung.md
+      - Regelmäßige Sicherung der DB per Taskplaner: knowledgebase/admin_sicherung.taskplaner.md
+      - MAGELLAN und Linux: knowledgebase/admin.linux.md
+      - Probleme mit dem PDF-Export: knowledgebase/pdf_fehler.md
+    - MAGELLAN Handhabung:
+      - PLZ und Gemeinden aktualisieren: knowledgebase/plz.aktualisieren.md
+      - ABS - knowledgebase/Neues Halbjahr, neues Schuljahr: knowledgebase/neues-halbjahr-neues-schuljahr.md
+      - BBS - knowledgebase/Neues Halbjahr, neues Schuljahr: knowledgebase/bbs-neues-halbjahr-neues-schuljahr-was-ist-zu-tun.md
+      - Schlüsselverzeichnisse hinter Feldern: knowledgebase/Schluesselverzeichnisse.md
+      - MAGELLAN und DAVINCI: knowledgebase/abgleich.stammdaten.md
+      - MAGELLAN und Untis: knowledgebase/import_mag.untis.md
+      - Jahrgangsübergreifende Klassen: knowledgebase/jahrgangsubergreifende-klassen-in-magellan.md
+      - Fachwahlkarte: knowledgebase/fachwahl.md
+      - Tastaturkürzel: knowledgebase/Shortcuts_Tastaturkuerzel.md
+      - Positionen nachträglich setzen: knowledgebase/mag_positionen_nachpflegen.md
+    - Crystal Reports:
+      - Berichte für MAGELLAN 7 anpassen: knowledgebase/cr/berichte_fuer_7_anpassen.md
+      - Vor- und Nachname in Berichten: knowledgebase/cr/cr-vor-und-nachname.md
+      - Personalisieren von Zeugnisbemerkungen: knowledgebase/cr/cr-zeugnisbemerkungen-personalisieren.md
+      - ODBC-Anbindung unter Windows 64 bit: knowledgebase/cr/cr-odbc-64bit.md
+      - Tabelle '' nicht gefunden: knowledgebase/cr/cr-tabelle.nicht.gefunden.md
+      - Standarddrucker für CR-Berichte: knowledgebase/cr/cr-drucker.md
+      - Fächer mit hochgestellter Ziffer für einen Verweis auf eine Fußnote: knowledgebase/cr/cr-hochgestellt.md
+      - Felder im Bericht aktualisieren: knowledgebase/cr/felder-im-bericht-aktualisieren.md
+    - Import und Export:
+      - CSV-Dateien mit Texttrennzeichen speichern: knowledgebase/import-csvdateien.md
+      - Gemeindekennziffern nachträglich setzen: knowledgebase/import-gemeindekennziffern_nachsetzen.md
+      - ODBC-Anbindung unter 64 bit Betriebssystemen: knowledgebase/Import_odbc-3264.md
+    - MAGELLAN Seriendruck:
+      - Makrospeicher konnte nicht geöffnet werden: knowledgebase/seriendruck/makrospeicher.md
+      - Word stellt Umlaute nicht korrekt dar: knowledgebase/seriendruck/umlaute.md
+    - MAGELLAN BIBLIOTHEK:
+      - Optimale Hardware für MAGELLAN BIBLIOTHEK: knowledgebase/bib/Bib_Hardware.md
+      - OPAC Unterstützung: knowledgebase/bib/bib.opac.md
+    - Archiv:
+      - Änderung in der Tabelle SchuelerAusbildung: knowledgebase/cr/schuelerausbildung.md
+      - Fehler in Crystal Reports 9: knowledgebase/cr/CR9_Fehler.md

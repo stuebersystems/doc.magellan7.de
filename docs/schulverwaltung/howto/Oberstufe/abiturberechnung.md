@@ -217,7 +217,7 @@ Wenn Sie die Gesamtqualifikation nicht skriptgesteuert eingeben möchten, könne
 
 ### Zeugnisbemerkungen eingeben
 
-Geben Sie auf der Registerkarte „Zeugnis“ evtl. Zeugnisbemerkungen ein, die auf dem Abiturzeugnis gedruckt werden sollen. Sie können die Zeugnisbemerkung eintippen, auf das Verzeichnis Zeugnisbemerkungen zugreifen und die Rechtschreibprüfung nutzen. Bitte lesen Sie dazu auch den Abschnitt [Zeugnisbemerkungen](https://doc.magellan7.stueber.de/howto/zeugnisdaten/#zeugnisbemerkungen).
+Geben Sie auf der Registerkarte „Zeugnis“ evtl. Zeugnisbemerkungen ein, die auf dem Abiturzeugnis gedruckt werden sollen. Sie können die Zeugnisbemerkung eintippen, auf das Verzeichnis Zeugnisbemerkungen zugreifen und die Rechtschreibprüfung nutzen. Bitte lesen Sie dazu auch den Abschnitt [Zeugnisbemerkungen](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisbemerkungen).
 
 ## Oberstufenzeugnisse
 
@@ -228,7 +228,7 @@ Zeugnisse über mehrere Zeiträume: Diese Zeugnisse beziehen sich auf Daten aus 
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen aus Kapitel [Zeugnisdaten erfassen](https://doc.magellan7.stueber.de/howto/zeugnisdaten/#zeugnisdaten-erfassen).
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen aus Kapitel [Zeugnisdaten erfassen](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisdaten-erfassen).
 
 ### Zeugnisse über mehrere Zeiträume
 

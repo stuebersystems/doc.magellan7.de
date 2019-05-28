@@ -1,7 +1,7 @@
 
 ### Per Vorlage ausfüllbare Felder
 
-Nachfolgend finden Sie eine Auflistung der per Vorlage vorbesetzbaren Felder, die Funktionalität wird im Abschnitt [Bewerbervorlagen anlegen und verwenden](https://doc.magellan7.stueber.de/howto/schueler/#bewerbervorlagen-anlegen-und-verwenden) erläutert.
+Nachfolgend finden Sie eine Auflistung der per Vorlage vorbesetzbaren Felder, die Funktionalität wird im Abschnitt [Bewerbervorlagen anlegen und verwenden](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#bewerbervorlagen-anlegen-und-verwenden) erläutert.
 
 
 |mögliche Felder|

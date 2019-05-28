@@ -181,7 +181,7 @@ Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von 
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen in der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/).
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen in der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/).
 
 ### Zeugnisse über mehrere Zeiträume
 

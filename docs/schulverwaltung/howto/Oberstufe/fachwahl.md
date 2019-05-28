@@ -60,7 +60,7 @@ Prüfen Sie, ob unter `Extras > Schlüsselverzeichnisse > Verordnungen` die Vero
 
 !!! info "Hinweis"
 
-	Bitte lesen Sie dazu auch den Abschnitt ["Vorbereitung"](https://doc.magellan7.stueber.de/howto/Oberstufe/vorbereitung.html)!
+	Bitte lesen Sie dazu auch den Abschnitt ["Vorbereitung"](https://doc.magellan7.stueber.de/schulverwaltung/howto/Oberstufe/vorbereitung.html)!
 
 ### Zeiträume
 
@@ -196,7 +196,7 @@ Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `Schüler >
 
 ### Nutzung der Fachwahlen in Stundenplanprogrammen
 
-Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können diese Daten im Stundenplanprogramm DAVINCI oder anderen Stundenplanprogrammen zur weiteren Stundenplanung verwendet werden. Nähere Informationen zum Datenabgleich finden Sie im Kapitel [„Stundenplandaten“](https://doc.magellan7.stueber.de/howto/stundenplaene.html).
+Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können diese Daten im Stundenplanprogramm DAVINCI oder anderen Stundenplanprogrammen zur weiteren Stundenplanung verwendet werden. Nähere Informationen zum Datenabgleich finden Sie im Kapitel [„Stundenplandaten“](https://doc.magellan7.stueber.de/schulverwaltung/howto/stundenplaene.html).
 
 ## Wie geht es weiter?
 

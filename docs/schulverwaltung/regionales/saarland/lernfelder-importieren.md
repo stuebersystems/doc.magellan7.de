@@ -40,7 +40,7 @@ Löschen Sie bitte die Zeilen, die an Ihrer Schule nicht benötigt werden oder k
 
 !!! info "Hinweis"
 
-     Die Lernfelder pro Ausbildungsberuf erkennen Sie am Kürzel. Sie finden eine Kürzel-Beruf-Legende im Abschnitt [**Abkürzungsverzeichnis der Berufe**]([../abkurzungsverzeichnis_berufe.md](https://doc.magellan7.stueber.de/regionales/saarland/lernfelder-importieren/#abkurzungsverzeichnis-berufe)).
+     Die Lernfelder pro Ausbildungsberuf erkennen Sie am Kürzel. Sie finden eine Kürzel-Beruf-Legende im Abschnitt [**Abkürzungsverzeichnis der Berufe**]([../abkurzungsverzeichnis_berufe.md](https://doc.magellan7.stueber.de/schulverwaltung/regionales/saarland/lernfelder-importieren/#abkurzungsverzeichnis-berufe)).
 
 Achten Sie darauf, dass die Struktur nicht durch Leerzeilen oder ähnliches verändert wird. Speichern Sie das Ergebnis und legen die Datei an folgender Stelle ab:
 

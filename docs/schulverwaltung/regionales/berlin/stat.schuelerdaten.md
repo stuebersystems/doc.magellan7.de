@@ -9,7 +9,7 @@ Art |Schulform |Dateiname
 ----|----------|--------
 Schülerdaten|Für Allgemeinbildende Schulen|SchuelerABS_2010_xxxxx.csv
 -|Für Berufsbildende Schulen|SchuelerBBS_2010_xxxxx.csv
-Abiturerfassung<br/>[Anleitung](https://doc.magellan7.stueber.de/bundeslaender/berlin/abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
+Abiturerfassung<br/>[Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
 -|Für Berufsbildende Schulen|Abiturerfassung_BBS_2015_xxxxx.csv
 
 Hierbei steht xxxxx für Ihre Schulnummer.
@@ -17,7 +17,7 @@ Hierbei steht xxxxx für Ihre Schulnummer.
 
 !!! info "Hinweis"
 
-     Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan7.stueber.de/bundeslaender/berlin/abidaten.html).
+     Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/abidaten.html).
 
 
 

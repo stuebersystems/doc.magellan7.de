@@ -68,13 +68,13 @@ Dokumente<br/>Skripte<br/>Berichte<br/>Vorlagen<br/>Importe|Tragen Sie hier den 
 
 ## Verbindung testen
 
-Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Sie den Assistenten `Verbindung testen`über die Schaltfläche unter dem Punkt `Datenbankverbindungen`auf. Sollte die Ergebnisanzeige Probleme anzeigen, schauen Sie bitte den Abschnitt [Probleme bei der Installation?](https://doc.magellan7.stueber.de/installation/probleme-bei-der-installation.html)an.
+Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Sie den Assistenten `Verbindung testen`über die Schaltfläche unter dem Punkt `Datenbankverbindungen`auf. Sollte die Ergebnisanzeige Probleme anzeigen, schauen Sie bitte den Abschnitt [Probleme bei der Installation?](https://doc.magellan7.stueber.de/schulverwaltung/installation/probleme-bei-der-installation.html)an.
 
 ![Assistent zum Testen der Verbindung](../../assets/images/magellan.administrator/verbindung.testen.png)
 
 !!! info "Hinweis"
 
-	 MAGELLAN-Arbeitsplatzrechner und MAGELLAN-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von MAGELLAN (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan7.stueber.de/installation/die-pathsdatei.html)!
+	 MAGELLAN-Arbeitsplatzrechner und MAGELLAN-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von MAGELLAN (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html)!
 
 
 ## Datensicherung

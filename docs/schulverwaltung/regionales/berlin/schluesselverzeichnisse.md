@@ -1,6 +1,6 @@
 #	Berliner Schlüsselverzeichnisse
 
-In den Berliner Masken gibt es zusätzliche oder anders benannte Felder. Nachstehend finden Sie eine Übersicht welches Schlüsselverzeichnis hinter den einzelnen Feldern liegt. Für die MAGELLAN-Standardansicht wird diese Zuordnung im MAGELLAN-Benutzerhandbuch im Abschnitt [Referenz > Schlüsselverzeichnisse](https://doc.magellan7.stueber.de/reference/catalogs.html) beschrieben. 
+In den Berliner Masken gibt es zusätzliche oder anders benannte Felder. Nachstehend finden Sie eine Übersicht welches Schlüsselverzeichnis hinter den einzelnen Feldern liegt. Für die MAGELLAN-Standardansicht wird diese Zuordnung im MAGELLAN-Benutzerhandbuch im Abschnitt [Referenz > Schlüsselverzeichnisse](https://doc.magellan7.stueber.de/schulverwaltung/reference/catalogs.html) beschrieben. 
 
 ## Legende
 

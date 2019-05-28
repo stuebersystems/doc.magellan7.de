@@ -5,7 +5,7 @@ Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- 
 
 | Name                   | Zweck                                                                                                                                                                                                                                                                                                                                                                          |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MAGELLAN7.fdb          | Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.MAGELLAN7.stueber.de/installation/umstieg-von-6-auf-7.html)! |
+| MAGELLAN7.fdb          | Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7.html)! |
 | MAGELLAN7_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.                                                                                                                                                                                                                                                                                          |
 
 ## MAGELLAN starten
@@ -14,11 +14,11 @@ Klicken Sie auf `Start > Programme > STÜBER SYSTEMS > MAGELLAN`. Die MAGELLAN-D
  
 ![MAGELLAN-Anmeldung](../../assets/images/dialog-anmeldung.png)
 
-Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan7.stueber.de/admin/users.html).
+Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan7.stueber.de/schulverwaltung/admin/users.html).
 
 ## Datenbank für den Alltag vorbereiten
  
-Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.MAGELLAN7.stueber.de/admin/admin.datenbankverbindungen.html).
+Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen.html).
 
 
 ## Postleitzahl- und Schlüsselverzeichnisse importieren
@@ -35,7 +35,7 @@ Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslands
 
 !!! info "Hinweis"
 
-  Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/admin/import-export/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren)!
+  Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/schulverwaltung/admin/import-export/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren)!
 
 Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der bundesweit eindeutigen Gemeindeschlüssel und dem Bankleitzahlverzeichnis. Wenn Sie das Postleitzahlverzeichnis importieren, können Sie die automatische Zuordnung von Postleitzahl zu einem Ort bzw. Ort zu einer Postleitzahl nutzen. 
 
@@ -147,7 +147,7 @@ Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor 
 
 !!! info "Hinweis"
 
-  Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
+  Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
 
 
 ## Zeiträume eingeben

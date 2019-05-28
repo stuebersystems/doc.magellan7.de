@@ -4,7 +4,7 @@ MAGELLAN-BIBLIOTHEK ist Bestandteil des Installationspaketes von MAGELLAN. Wenn 
 
 ## Installation von MAGELLAN
 
-Das Kapitel zur Installation von MAGELLAN finden Sie im [MAGELLAN Benutzerhandbuch](https://doc.magellan7.stueber.de/schulverwaltung/installation/).
+Das Kapitel zur Installation von MAGELLAN finden Sie im [MAGELLAN Benutzerhandbuch](https://doc.magellan7.stueber.de/schulverwaltung/schulverwaltung/installation/).
 
 Wenn Sie MAGELLAN installiert und lizenziert haben, sollten Sie, sofern Sie eine MAGELLAN-BIBLIOTHEK Lizenz Ihr eigen nennen, MAGELLAN-BIBLIOTHEK nutzen können.
 

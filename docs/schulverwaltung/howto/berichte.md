@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt das Drucken von Formularen, Listen und Zeugnissen mit 
 
 !!! info "Hinweis"
 
-	Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw. HTML werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/howto/seriendruck.html) vorgestellt.
+	Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw. HTML werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck.html) vorgestellt.
 
 ## MAGELLAN Crystal-Reports
 
@@ -79,7 +79,7 @@ Klicken Sie dann auf `Drucken` und der gewünschte Report wird gedruckt. Wenn Si
 
 So drucken Sie beim Schüler hinterlegte Zeugnisse: 
 
-Um die beim Schüler hinterlegten Zeugnisse automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler im  Menü `Schüler` markieren und dann mit der rechten Maustaste den Befehl `Zeugnisformulare drucken` wählen. Weitere Informationen finden Sie dazu im Abschnitt ["Zeugnisformulare"](https://doc.magellan7.stueber.de/howto/zeugnisdaten/#zeugnisformulare).
+Um die beim Schüler hinterlegten Zeugnisse automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler im  Menü `Schüler` markieren und dann mit der rechten Maustaste den Befehl `Zeugnisformulare drucken` wählen. Weitere Informationen finden Sie dazu im Abschnitt ["Zeugnisformulare"](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisformulare).
  
 ![Es kann ggf. nach einem Typ gefiltert werden, wenn Sie diesen im Schlüsselverzeichnis „Zeugnisformulare“ bei den Formularen hinterlegt haben.](../../assets/images/formulare/formulare8.png)
 

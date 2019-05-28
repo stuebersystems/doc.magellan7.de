@@ -96,7 +96,7 @@ Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazu
 ### Variante 3: Magellan 6 nach MAGELLAN 7
 
 
-Bitte lesen Sie dazu den Abschnitt [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/installation/umstieg-von-6-auf-7.html)!
+Bitte lesen Sie dazu den Abschnitt [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7.html)!
 
 ## Anrede setzen
 

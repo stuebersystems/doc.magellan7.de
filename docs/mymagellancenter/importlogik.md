@@ -3,8 +3,6 @@
 
 Nachstehend wird beschrieben was genau beim Import passiert, falls Daten in MAGELLAN und/oder in in MyMAGELLAN vorhanden sind.
 
-
-
 !!! warning "Wichtig"
 
 	Bitte ändern Sie in MAGELLAN keine Verzeichniswerte oder Daten auf der Unterkarte `Schüler > Zeugnis` solange MyMAGELLAN-Dateien für die Kollegen verteilt wurden.

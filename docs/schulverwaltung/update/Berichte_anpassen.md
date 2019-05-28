@@ -19,12 +19,12 @@ Während der ältere ODBC-Treiber, der in MAGELLAN 6/6.5 Verwendung findet dahin
 
 Nr.|Was ist zu tun
 --|--
-1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#1-odbc-treiber-einstellungen)
-2.|[Datenbankfelder aktualisieren](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#2-datenbankfelder-aktualisieren)
-3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#3-datenquellenpfad-festlegen)
-4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#4-tabellenverkn%C3%BCpfungen-anpassen)
-5.|[Test](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#5-test)
-6.| [ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
+1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#1-odbc-treiber-einstellungen)
+2.|[Datenbankfelder aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#2-datenbankfelder-aktualisieren)
+3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#3-datenquellenpfad-festlegen)
+4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#4-tabellenverkn%C3%BCpfungen-anpassen)
+5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#5-test)
+6.| [ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
 
 ### 1. ODBC-Treiber-Einstellungen
 
@@ -120,10 +120,10 @@ Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Ver
 
 Tabelle |Feld
 --|--
-Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
-Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#tabelle-schueler---felder-sopaedfoerderungen-foerderschwerpunkt1-foerderschwerpunkt2-behinderung)
-SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#tabelle-schuelerklassen)
-SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
+Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
+Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schueler---felder-sopaedfoerderungen-foerderschwerpunkt1-foerderschwerpunkt2-behinderung)
+SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerklassen)
+SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
 
 > Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
 

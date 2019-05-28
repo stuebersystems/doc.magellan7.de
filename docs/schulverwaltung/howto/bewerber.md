@@ -40,7 +40,7 @@ Der neue Bewerber wird erstellt. Sie befinden sich automatisch auf der Registerk
 
 !!! info "Hinweis"
 
-	 Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan7.stueber.de/howto/schueler/#bewerber-in-schüler-umwandeln))
+	 Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#bewerber-in-schüler-umwandeln))
 
 ### Bewerbervorlagen anlegen und verwenden
 
@@ -135,7 +135,7 @@ Beim Anlegen eines neuen Bewerbers werden Ihnen bereits gespeicherte Vorlagen zu
 
 ## Registerkarte `Bewerber > Auswahl`
 
-Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher auch als `Bewerberliste` bezeichnet. Sie dient der Übersicht über alle Bewerber. Markiert man einen Bewerber darin und führt einen Doppelklick aus, so wechselt die Ansicht automatisch auf die Registerkarte `Daten 1` des Formulars des Bewerbers. Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.MAGELLAN7.stueber.de/howto/sort-group-filter-search.html](https://doc.MAGELLAN7.stueber.de/howto/sort-group-filter-search.html).
+Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher auch als `Bewerberliste` bezeichnet. Sie dient der Übersicht über alle Bewerber. Markiert man einen Bewerber darin und führt einen Doppelklick aus, so wechselt die Ansicht automatisch auf die Registerkarte `Daten 1` des Formulars des Bewerbers. Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html).
 
 ![Bewerber > Auswahl](../../assets/images/bewerber/bewerberauswahl.png) 
 
@@ -300,7 +300,7 @@ Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und F�
 
 ## Registerkarten `Bewerber > Merkmale` und `Statistik`
 
-Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/howto/merkmalsfelder.html)beschrieben.
+Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder.html)beschrieben.
 
 !!! info "Hinweis"
 
@@ -730,7 +730,7 @@ Die zuvor markierten Bewerber werden jetzt aus der Bewerberliste gelöscht und i
 
 !!! info "Hinweis"
 
-	 Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan7.stueber.de/howto/schueler.html) ) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
+	 Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler.html) ) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
      Für Schulen in SCHLESWIG-HOLSTEIN
      Bewerber, die nach Abschluss des Bewerberverfahrens abgelehnt worden sind bzw. bei denen kein weiterer Wunsch einer erneuten Bewerbung besteht, müssen nach dem Erforderlichkeitsprinzip nach spätestens 3 Jahren manuell aus der Liste der Bewerber gelöscht werden. 
       Die Schule ist verpflichtet, hierfür entsprechende organisatorische Maßnahmen zu treffen.

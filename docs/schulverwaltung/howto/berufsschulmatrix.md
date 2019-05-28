@@ -10,7 +10,7 @@ Für die Berufsschule existieren unterschiedliche Berechnungsvorschriften für d
 
 In der Berufsschule sind verschiedene Arten von Zeugnissen zu unterscheiden. Verlässt der Schüler die Klasse vorzeitig, so erhält er ein Abgangszeugnis. Verlässt er die Klasse erfolgreich zum Abschluss seiner Ausbildung, so erhält er ein Abschlusszeugnis. 
 
-Die Halbjahres-, Zwischen- und Jahreszeugnisse des Schülers zum Ende eines Halbjahres beziehen sich fast ausschließlich auf die Noten des aktuellen Zeitraums. In diesem Fall greift ein Zeugnisbericht immer auf die Noten des aktuellen Zeitraums zu. Die Noten der Schüler werden dann in MAGELLAN pro Schüler unter den Leistungen auf der Registerkarte `Zeugnis` eingetragen (siehe [Zeugnisdaten erfassen](https://doc.magellan7.stueber.de/howto/zeugnisdaten.html)). 
+Die Halbjahres-, Zwischen- und Jahreszeugnisse des Schülers zum Ende eines Halbjahres beziehen sich fast ausschließlich auf die Noten des aktuellen Zeitraums. In diesem Fall greift ein Zeugnisbericht immer auf die Noten des aktuellen Zeitraums zu. Die Noten der Schüler werden dann in MAGELLAN pro Schüler unter den Leistungen auf der Registerkarte `Zeugnis` eingetragen (siehe [Zeugnisdaten erfassen](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten.html)). 
 
 Bei den meisten Abgangs- bzw. Abschlusszeugnissen werden die Noten auf der Basis der Noten der einzelnen Schuljahre festgelegt. Dies erfolgt durch ein vorgegebenes Berechnungsschema, bei dem Noten sowohl innerhalb eines Schuljahres als auch im Verhältnis der Schuljahre zueinander berechnet werden. Diese Berechnungen erfolgen aufgrund der MAGELLAN-Scripting-Technologie ( [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de/)). 
 
@@ -109,7 +109,7 @@ Die Prüfungsnoten der Schüler können Sie über ein gesondertes Fenster pro Kl
 
 !!! info "Hinweis"
 
-	Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/admin/users/#allgemeine-rechte).
+	Ein Kollege gibt die Noten in die Spalte `Prüfungsnote` ein, ein zweiter Kollege gibt in die Spalte `Prüfungsnoten (Kontrolle)` ein. Die zweite Spalte ist währen der Eingabe jeweils ausgeblendet und kann später zur Kontrolle eingeblendet werden. Bitte beachten Sie hierzu den Abschnitt [„Allgemeine Rechte“](https://doc.magellan7.stueber.de/schulverwaltung/admin/users/#allgemeine-rechte).
  
 ![Geben Sie pro Fach pro Klasse die Prüfungsnoten ein.](../../assets/images/berufsschulmatrix/berufsschulmatrix6.png)
 
@@ -147,5 +147,5 @@ Klicken Sie bei den Berufsschuldaten des Schülers auf die Registerkarte `Zeugni
 
 ### Zeugnisformulare aus dem Berufsschulmenü drucken
 
-Um die beim Schüler hinterlegten [Zeugnisformulare](https://doc.magellan7.stueber.de/howto/zeugnisdaten/#zeugnisformulare) (`Schüler > Zeugnis > Zeugnisformulare`) automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der Auswahlliste `Berufsschule` markieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen. 
+Um die beim Schüler hinterlegten [Zeugnisformulare](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisformulare) (`Schüler > Zeugnis > Zeugnisformulare`) automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der Auswahlliste `Berufsschule` markieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen. 
 
