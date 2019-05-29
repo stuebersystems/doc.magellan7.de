@@ -122,6 +122,13 @@ Beurteilung sind in beiden Programmen|Beurteilung aus MyMAGELLAN wird eingelesen
 
 ## Zeugnisbemerkungen
 
+
+
+!!! warning "Wichtig"
+
+	Zeugnisbemerkungen können nur für Schüler editiert und importiert werden, für die der Kollege entweder als Klassenleiter in MAGELLAN hinterlegt wurde, oder als Tutor. 
+
+
 Stand in MAGELLAN/MyMAGELLAN |Ergebnis
 -|-
 Bemerkung in MAGELLAN existiert, MyMAGELLAN-Datei wird erzeugt|Bemerkung wird mit in die MyMAGELLAN-Datei übergeben

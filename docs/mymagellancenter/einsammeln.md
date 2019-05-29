@@ -85,6 +85,7 @@ Beim erneuten Einlesen werden die Bemerkungen in MAGELLAN gelöscht und durch di
 ![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
 
+
 Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.
 
 Gut geeignet ist die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben".
