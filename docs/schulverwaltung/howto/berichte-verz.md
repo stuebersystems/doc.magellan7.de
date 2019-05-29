@@ -19,7 +19,7 @@ Innerhalb des MAGELLAN-Berichtsverzeichnisses können Sie nach den aktuellen Ber
 
 2. Wählen Sie unter Region "Zeugnisse"
 
-![Hier sehen Sie Zeugnisse des Bundeslandes Rheinland-Pfalz.](../../assets/images/berichteverz/berichteverz1.png)
+![Hier sehen Sie Zeugnisse des Bundeslandes Rheinland-Pfalz.](/assets/images/berichteverz/berichteverz1.png)
 
 
 !!! info "Hinweis"
@@ -30,7 +30,7 @@ Innerhalb des MAGELLAN-Berichtsverzeichnisses können Sie nach den aktuellen Ber
 
 Berichte besitzen im Regelfall Anmerkungen aus den hervorgeht, welche Einstellungen in MAGELLAN notwendig sind, damit der Bericht korrekt ausgedruckt wird. Um die Anmerkungen eines Berichts anzuzeigen, markieren Sie den Bericht und wählen dann `Anmerkungen anzeigen`. Über die Schaltfläche `Reports anzeigen` gelangen Sie wieder zur Ansicht der ausgewählten Berichte.
  
-![Dies sind die Anmerkungen zum Zeugnis „RLP-GY-HJZ (Klasse 11-13) 2006“.](../../assets/images/berichteverz/berichteverz2.png)
+![Dies sind die Anmerkungen zum Zeugnis „RLP-GY-HJZ (Klasse 11-13) 2006“.](/assets/images/berichteverz/berichteverz2.png)
 
 ## Abkürzung bei der Benennung von Berichten
 

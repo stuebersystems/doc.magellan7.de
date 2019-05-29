@@ -11,7 +11,7 @@ Lehrerdaten besitzen im Gegensatz zu Klassendaten keinen Zeitraumbezug. Sie müs
 Um einen neuen Lehrer aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf Lehrer oder wählen Sie `Ansicht > Lehrer`. Wählen Sie dann das Symbol in der oberen Symbolleiste oder `Bearbeiten > Neuer Datensatz`. Es öffnet sich das Dialogfenster `Neuer Lehrer`.
  
 
-![Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulinternes Kürzel an. Anhand des Kürzels werden Sie den Lehrer in Zukunft identifizieren.](../../assets/images/lehrer.klassen_01neu.png)
+![Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulinternes Kürzel an. Anhand des Kürzels werden Sie den Lehrer in Zukunft identifizieren.](/assets/images/lehrer.klassen_01neu.png)
 
 Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulinternes Kürzel an. Anhand des Kürzels werden Sie den Lehrer in Zukunft identifizieren.
 
@@ -20,14 +20,14 @@ Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulintern
 	Das Lehrerkürzel wird in der Regel auch später für die Anmeldung verwendet. In der Benutzerverwaltung dürfen in den Kennungen (beim Lehrer ist das dann das Kürzel) keine Umlaute und kein ß verwendet werden. Beim Anlegen in MAGELLAN selbst erhalten Sie auch eine entsprechende Meldung. Sollten Sie die Lehrer allerdings per Import nach MAGELLAN einlesen, achten Sie bitte darauf, die Zeichen im Lehrerkürzel nicht zu verwenden oder anzupassen. 
     Um einen neuen Lehrer in MAGELLAN aufnehmen zu können, müssen Sie dessen Namen und Kürzel in das Dialogfenster eintragen und dann auf OK klicken. Der Lehrer ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte `Daten 1` dieses Lehrers, um dessen weitere Daten zu erfassen. Ist ein Datensatz mit dem gleichen Vor- und Zunamen oder dem gleichen Lehrerkürzel bereits angelegt erscheint folgender Hinweis:
  
-![Prüfung auf Doubletten](../../assets/images/lehrer.klassen_02doublettenpruefung.png)
+![Prüfung auf Doubletten](/assets/images/lehrer.klassen_02doublettenpruefung.png)
 
 
 ### Registerkarte `Daten 1`
 
 Auf der Registerkarte `Daten 1` des Lehrers befinden sich verschiedene Eingabefelder. Durch Betätigen der Eingabetaste oder der Tabulatortaste (TAB) gelangen Sie zum nächsten Eingabefeld. In ein vorheriges Eingabefeld gelangen Sie über die Tastenkombination UMSCHALT und TAB. Diese Art der Navigation auf den Registerkarten ist in MAGELLAN überall einheitlich.
  
-![Ansicht `Lehrer`, Registerkarte `Daten 1`](../../assets/images/lehrer.klassen_03daten1.png)
+![Ansicht `Lehrer`, Registerkarte `Daten 1`](/assets/images/lehrer.klassen_03daten1.png)
 
 !!! info "Hinweis"
 
@@ -49,19 +49,19 @@ Für jeden Lehrer können Sie optional dessen Passfoto in MAGELLAN aufnehmen. W�
 
 Auf der Registerkarte `Daten 2` sind die Abteilungen, dienstlichen Bezeichnungen und die Zugangs-/Abgangsdaten des Lehrers festgehalten.
  
-![Ansicht `Lehrer`, Registerkarte `Daten 2`](../../assets/images/lehrer.klassen_04daten2.png)
+![Ansicht `Lehrer`, Registerkarte `Daten 2`](/assets/images/lehrer.klassen_04daten2.png)
 
 
 ### Registerkarte `Daten 3`
 
 Hier können Lehrämter inklusive eventueller Lehrbefähigung, Unterrichtserlaubnis, Unterrichtsauftrag bzw. Unterrichtsbefugnis erfasst werden.
  
-![Ansicht `Lehrer`, Registerkarte `Daten 3`](../../assets/images/lehrer.klassen_05daten3.png)
+![Ansicht `Lehrer`, Registerkarte `Daten 3`](/assets/images/lehrer.klassen_05daten3.png)
 
 
 Klicken Sie neben der Lehrämterliste auf `Hinzufügen`, um das Dialogfenster `Lehrämter zuweisen` zu öffnen.
  
-![Ansicht `Lehrer`, Registerkarte `Daten 3`, Lehrämter hinzufügen](../../assets/images/lehrer.klassen_06lehraemter.png)
+![Ansicht `Lehrer`, Registerkarte `Daten 3`, Lehrämter hinzufügen](/assets/images/lehrer.klassen_06lehraemter.png)
 
 Zur Auswahl müssen Sie jetzt den `Lehramtstyp` einstellen und anschließend die entsprechenden Fächer für diesen Typ auswählen. Dabei ist eine Mehrfachmarkierung in der Liste der Fächer möglich. Unter den Funktionen 1 - 8 können Sie dem Lehrer besondere Funktionen innerhalb der Schule (z.B. Vertrauenslehrer) mit entsprechenden Zeitdauerangaben zuordnen. Ist ein Lehrer an mehr als einer Schule tätig, so können Sie im unteren Teil der Registerkarte die `Berichtende Schule` und die `Abordnungen` inklusive der `Abordnungsart` festhalten.
 
@@ -69,7 +69,7 @@ Zur Auswahl müssen Sie jetzt den `Lehramtstyp` einstellen und anschließend die
 
 Über die Registerkarte `Merkmale` können Sie weitere Merkmale eintragen. Prinzipiell sind diese Merkmale beliebig zu nutzen. In Abhängigkeit von der jeweiligen Landesstatistik haben diese Felder teilweise auch statistische Bedeutungen. Sie sollten daher vor der Verwendung dieser Felder zunächst das für Ihr Bundesland relevante Kapitel unter [Landesstatistiken](https://doc.ls.stueber.de/) lesen. Es wird dort genau beschrieben, welche der Merkmalsfelder statistisch verwendet werden und somit nur fest definierte Werte besitzen dürfen. Ihnen stehen zehn Merkmalsfelder (A1 bis A6, S1 bis S4) zur Verfügung, deren mögliche Werte Sie in den entsprechenden Schlüsselverzeichnissen eintragen können. Dabei können die Merkmalsfelder A1 bis A6 eine statistische Bedeutung haben. Die Merkmalsfelder S1 bis S4 haben ausschließlich statistische Bedeutung. Die vier Merkmalsfelder (B1 bis B4) können eine statistische Bedeutung haben. Sie sind nicht mit einer Liste von Werten hinterlegt, sondern frei editierbar. Zusätzlich können Sie dem Lehrer einen beliebigen Bemerkungstext zuordnen.
  
-![Ansicht `Lehrer`, Registerkarte `Daten 3`, Merkmalsfelder](../../assets/images/lehrer.klassen_05merkmal.png)
+![Ansicht `Lehrer`, Registerkarte `Daten 3`, Merkmalsfelder](/assets/images/lehrer.klassen_05merkmal.png)
 
 
 !!! info "Hinweis"
@@ -84,13 +84,13 @@ Zur Auswahl müssen Sie jetzt den `Lehramtstyp` einstellen und anschließend die
 
 Jeder Lehrer verfügt über einen Status. MAGELLAN unterscheidet dazu den Status `aktiver Lehrer` und `inaktiver Lehrer`. Inaktive Lehrer können beispielsweise ehemalige Lehrer, Lehrer mit einem längeren Auslandsaufenthalt usw. sein. In der Auswahlliste werden aktive Lehrer mit einem blauen gefüllten Kreis und inaktive Lehrer mit einem blauen ungefüllten Kreis angezeigt. Wird ein Lehrer neu angelegt, so besitzt er standardmäßig den Status aktiver Lehrer. Um den Status eines Lehrers zu ändern, müssen Sie diesen über die rechte Maustaste `Status zuweisen` wählen. Hier stehen Ihnen die Status `Aktive(r) Lehrer` oder `Inaktive(r) Lehrer`zur Auswahl.
 
-![aktiver oder inaktiver Status für Lehrer in der Auswahlliste](../../assets/images/lehrer.klassen_05lehrerliste.png)
+![aktiver oder inaktiver Status für Lehrer in der Auswahlliste](/assets/images/lehrer.klassen_05lehrerliste.png)
 
 ### Fehlzeiten eines Lehrers erfassen
 
 Für jeden Lehrer können in MAGELLAN Fehlzeiten erfasst werden. Sie können das Eingabefenster die Registerkarte `Lehrer` über die dafür vorgesehen Schaltfläche `Fehlzeiten` für den markierten Lehrer aufrufen.
  
-![Fehlzeitenfenster der Lehrer](../../assets/images/lehrer.klassen_07fehlzeiten.png)
+![Fehlzeitenfenster der Lehrer](/assets/images/lehrer.klassen_07fehlzeiten.png)
 
 
 !!! info "Hinweis"

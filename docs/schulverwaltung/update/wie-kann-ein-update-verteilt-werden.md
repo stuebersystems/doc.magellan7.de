@@ -15,7 +15,7 @@ Nachfolgend einige Herangehensweisen:
 Über ein neues Update können Sie sich von uns per Newsletter informieren lassen oder Sie aktivieren in MAGELLAN unter `Datenbank > Optionen > Update` die folgende Einstellung:
 
 
-![Die Karte `Update `unter `MAGELLAN > Datenbank > Optionen`](../../assets/images/datenbank_optionen_update.png)
+![Die Karte `Update `unter `MAGELLAN > Datenbank > Optionen`](/assets/images/datenbank_optionen_update.png)
 
 Mit dieser Auswahl prüft MAGELLAN bei jedem Programmstart, ob ein neues Update zur Verfügung steht.
 
@@ -148,7 +148,7 @@ Deinstallation|msiexec /x "C:\MySetup\MAGELLAN7.msi" /q
     /i bedeutet immer Installation und /x immer Deinstallation.
     Bitte starten Sie die Kommandozeilenaufrufe mit Administratorenrechten!
 
-![Eingabeaufforderung per Rechtsklick mit administrativen Rechten starten](../../assets/images/updates.verteilen/eingabeaufforderung.als.admin.png)
+![Eingabeaufforderung per Rechtsklick mit administrativen Rechten starten](/assets/images/updates.verteilen/eingabeaufforderung.als.admin.png)
 
 
 ## Weitere Aktionen per Silentmode

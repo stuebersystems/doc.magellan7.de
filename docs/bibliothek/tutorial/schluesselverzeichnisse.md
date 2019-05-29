@@ -24,11 +24,11 @@ Es stehen Ihnen insgesamt 16 Schlüsselverzeichnisse zur Verfügung. Um diese au
 
 1. Führen Sie den Menüpunkt `Extras > Schlüsselverzeichnisse` aus: Sie sehen eine Liste mit sieben Verzeichnissen.
 
-![Unter dem Menüpunkte `Verzeichnisse` stehen Ihnen 7 Schlüsselverzeichnisse zur Verfügung](../../assets/images/bibliothek/schlüsselverzeichnis.png)
+![Unter dem Menüpunkte `Verzeichnisse` stehen Ihnen 7 Schlüsselverzeichnisse zur Verfügung](/assets/images/bibliothek/schlüsselverzeichnis.png)
 
 2. Klicken Sie mit der linken Maustaste auf den Namen eines Verzeichnisses, auf der rechten Seite wird das dazugehörige Verzeichnis angezeigt.
 
-![Hier sehen Sie das Dialogfenster des Schlüsselverzeichnisses `Verzeichnis der Banken`.](../../assets/images/bibliothek/verzeichnis_banken.png)
+![Hier sehen Sie das Dialogfenster des Schlüsselverzeichnisses `Verzeichnis der Banken`.](/assets/images/bibliothek/verzeichnis_banken.png)
 
 ## Eintrag hinzufügen
 

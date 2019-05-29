@@ -191,7 +191,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: "Zuweisen von Zugriffsrechten.dws":  Fehlende Rechte auf "BewerberVerfahren", "BewerberFachdaten" und "BewerberUnterlagen" berücksichtigt , bitte führen Sie im MAGELLAN ADMINISTRATOR das "Zugriffsrechte synchronisieren" im Menüpunkt `Benutzerverwaltung` aus.
 
-![Zugriffsrechte synchronisieren](assets/images/changelog/7.0.7.01.png)
+![Zugriffsrechte synchronisieren](/assets/images/changelog/7.0.7.01.png)
 
 * FIX: Zeichenlänge auf 20 für die Kürzel der Verzeichnisse Anschluesse Extern und Abschluesse Intern erhöht.
 FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 4 > Adresse/Förderung`
@@ -214,7 +214,7 @@ FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 
 
   Bitte öffnen Sie `MAGELLAN > Extras > Schlüsselverzeichnisse > Schulformen (Herkunft)`. Wechseln Sie zur Zeile mit dem Schlüssel 115 und schalten den Bearbeitenmodus über das Stiftsymbol am oberen Fensterrand ein. Ändern Sie die Bezeichnung bitte auf das Wort **"Berufsvorbereitungsjahr"** und speichern diese Änderung.
 
-![Bitte die Bezeichnung des Schlüssels 115 anpassen!](assets/images/changelog/7.0.6.01.png)
+![Bitte die Bezeichnung des Schlüssels 115 anpassen!](/assets/images/changelog/7.0.6.01.png)
 
 ### Importe
 
@@ -307,14 +307,14 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Datenstrukturanpassungsassistent: Sicherungspfad wird aus den eigenen Einstellungen im Willkommensassistenten oder aus dem MAGELLAN Administrator vorbelegt. Sollte die Sicherung nicht lokal erfolgen, muss der Pfad vorab existieren.
 * FIX: Datenstrukturanpassungsassistent: Schaltfläche zum Erstellen der Sicherung eingeblendet.
 
-![Sicherung erstellen](assets/images/changelog/7.0.4.00.png)
+![Sicherung erstellen](/assets/images/changelog/7.0.4.00.png)
 
 * FIX: Datenstrukturanpassungsassistent: Assistent kann nur als sysdba gestartet werden
 * FIX: Problem beim Eintragen von Schülerfehlzeiten korrigiert
 * FIX: Anzeige der Statistikmerkmale für Schüler und Bewerber in der Unterkarte `Statistik` behoben.
 * FIX: In den Zugriffsrechten der Benutzern wurden die Rechte für die Tabellen `Medienausleiher` (Änderungen bei Lehrerdatensätzen) und `SchuelerAbwesenheiten` korrigiert. Bitte führen Sie im MAGELLAN Administrator einmal den Punkt `Benutzerverwaltung > Zugriffsrechte synchronisieren` aus, das Skriptdatum im Ergebnisfenster müsste den 26.03.2019 zeigen.
 
-![`MAGELLAN Administrator > Benutzerverwaltung > Zugriffsrechte synchronisieren`](assets/images/changelog/7.0.4.04.png)
+![`MAGELLAN Administrator > Benutzerverwaltung > Zugriffsrechte synchronisieren`](/assets/images/changelog/7.0.4.04.png)
 
 * FIX: Mehrfachdarstellung von Schülern beim Fachtafel-zuweisen behoben.
 * FIX: Ein neuer Eintrag unter `Bewerber > Ausbildung` wird automatisch als aktueller Ausbildungsdatensatz übernommen. Das gilt nur für den ersten Eintrag, ab dem zweiten Eintrag ändern Sie ggfs. den Eintrag über das Feld `aktuelle Ausbildung` am unteren Menürand.
@@ -329,11 +329,11 @@ aktualisiert das Feld `Daten2 > ZugangAm`|Ja|Nein
 aktualisiert das Feld `Laufbahn > Zugang`|Ja|Ja
 aktualisiert das Feld `Laufbahn > Schulformeintritt`|Ja|Ja
 
-![Zugang am](assets/images/changelog/7.0.4.02.png)
+![Zugang am](/assets/images/changelog/7.0.4.02.png)
 
 * NEW: Neue Sammelzuweisungsmöglichkeit zum Aktivieren oder Deaktivieren des Feldes `Schüler > Ausbildung > Ausbildung editieren > Neuanfänger im Bildungsgang`
 
-![Neuanfänger im Bildungsgang](assets/images/changelog/7.0.4.03.png)
+![Neuanfänger im Bildungsgang](/assets/images/changelog/7.0.4.03.png)
 
 * FIX: Verzeichnisfelder unter ´Schüler > Daten 2` aktualisiert
 * CHANGE: Von- und Bis-Datum der Ausbildung auf `Schüler > Daten1` eingeblendet
@@ -353,7 +353,7 @@ aktualisiert das Feld `Laufbahn > Schulformeintritt`|Ja|Ja
 
 * NEW: Neue Funktionalität, um Bewerbern, wenn sie nur eine Ausbildung haben, diese als aktuelle Ausbildung zuzuweisen. Hintergrund: die Zuweisung als aktuelle Ausbildung ist die Voraussetzung für den Seriendruck an diesen Betrieb.
 
-![Bewerberausbildung als aktuelle Ausbildung hinterlegen](assets/images/changelog/7.0.4.01.png)
+![Bewerberausbildung als aktuelle Ausbildung hinterlegen](/assets/images/changelog/7.0.4.01.png)
 
 ### Berichte (NEW oder CHANGE)
 
@@ -436,12 +436,12 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur in MAGELLAN 7 angepa
   * bei bestehenden Administratoren kann das Passwort geändert werden
   * Aufruf der Funktionalitäten per Doppelklick auf den Administratorendatensatz oder über den Punkt `Extras`
   
-![nachträgliches Anlegen eines sysdba-Nutzers](assets/images/changelog/sysdba.anlegen.png)  
+![nachträgliches Anlegen eines sysdba-Nutzers](/assets/images/changelog/sysdba.anlegen.png)  
 
 * FIX: `Datenbankpflege > Mandanten kopieren > 6 nach 7`: (Gilt für Umstiege mit MAGELLAN bis zur 7.0.2, für spätere Versionen nicht mehr nötig.) Die IDIntern bei Schülern zu denen das Original nicht mehr existiert, wird entfernt.
 * NEW: Unter `Datenbankpflege` finden Sie den neuen Punkt `Korrektur Mandanten kopieren`. Die Korrektur überträgt Ausbildungsdaten eines Nebenschülers in die Liste des Stammschülers. Die gesamte Liste wird für Stamm- und Nebenschüler gezeigt.
 
- ![Neue Korrekturmöglichkeit im MAGELLAN ADMINISTRATOR](assets/images/changelog/mandanten.korr.png) 
+ ![Neue Korrekturmöglichkeit im MAGELLAN ADMINISTRATOR](/assets/images/changelog/mandanten.korr.png) 
 
 
 ### Berichte (NEW oder CHANGE)

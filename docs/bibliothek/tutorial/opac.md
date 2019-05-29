@@ -12,7 +12,7 @@ Soweit Sie in den Optionen von MAGELLAN-BIBLIOTHEK die Online-Recherche aktivier
 
 ## Einrichten von OPAC-Research
 
-![Einrichten von OPAC-Research](../../assets/images/bibliothek/opac.png)
+![Einrichten von OPAC-Research](/assets/images/bibliothek/opac.png)
 
 Beim ersten Start von OPAC-Research landen Sie auf der Registerkarte zum Verwalten der OPAC-Server. Über die Schaltfläche 1 (siehe Bild) können Sie die von uns bereits getesteten OPAC-Server direkt hinzufügen.
 
@@ -22,15 +22,15 @@ Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://p
 
 Die neue Technik erlaubt uns Anmeldungen an die jeweiligen Server durchzuführen. Im Falle der DNB benötigen Sie einen `Zugriffstoken`, den Sie nach der Registrierung im Portal anfragen können.
 
-![Unterkarte Authentifizierung](../../assets/images/bibliothek/opac1.png)
+![Unterkarte Authentifizierung](/assets/images/bibliothek/opac1.png)
 
 Auf der Registerkarte `Authentifizierung` können Sie den Zugriffstoken einfügen.
 
-![Zugriffstoken einfügen](../../assets/images/bibliothek/opac2.png)
+![Zugriffstoken einfügen](/assets/images/bibliothek/opac2.png)
 
 Speichern Sie danach den Eintrag. Sie haben somit erfolgreich den ersten Server eingetragen. Die Serverdaten werden in eine Konfigurationsdatei gespeichert.
 
-![Speichern Sie die Daten](../../assets/images/bibliothek/opac3.png)
+![Speichern Sie die Daten](/assets/images/bibliothek/opac3.png)
 
 Wechseln Sie auf die Registerkarte `Recherche`, um mit der Recherche des Medium fortfahren. Zukünftig wird die Konfigurationsdatei geladen und die vorhandenen Server für die Recherche verwendet. Sie landen dann automatisch auf der Registerkarte `Recherche` und die Suche wird aufgrund des Einscannens des Barcodes in MAGELLAN-BIBLIOTHEK automatisch ausgeführt.
 
@@ -42,6 +42,6 @@ Wenn Sie mehrere Server eintragen, dann werden alle Server nacheinander angefrag
 
 In manchen Fällen gibt es mehrere Ergebnisse. Markieren Sie den gewünschten Eintrag und klicken Sie auf die Schaltfläche `Übernehmen und Zurück`, um den Eintrag nach MAGELLAN-BIBLIOTHEK zu übertragen und OPAC-Research zu beenden. Wenn Sie auf `Schließen` klicken, wird der Eintrag nicht übernommen und OPAC-Research beendet.
 
-![Neues Medium](../../assets/images/bibliothek/opac4.png)
+![Neues Medium](/assets/images/bibliothek/opac4.png)
 
 Der ausgewählte Eintrag wird nach MAGELLAN-BIBLIOTHEK übertragen und die verwertbaren Informationen noch einmal zur manuellen Bearbeitung dargestellt. Ab hier arbeiten Sie wie gewohnt in MAGELLAN-BIBLIOTHEK weiter.

@@ -17,15 +17,15 @@ In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, 
 Einen neuen Benutzer können Sie über die Schaltfläche `Hinzufügen` anlegen, einen bestehenden durch Doppelklick auf den Benutzer auf der Karte „MAGELLAN Benutzerliste“ bearbeiten. Für bereits angelegte Benutzer können Rechte exportiert, angepasst und wieder importiert werden. Zum Beispiel, um einer Gruppe von Benutzer schnell und einfach ein neues Recht zu zuweisen oder den Teilnehmern am MYMAGELLAN-Verfahren einen neuen Ablagepfad für die mym-Datei zu hinterlegen.
 
 Dafür stehen in der oberen Menüleiste der Benutzerverwaltung auf der rechten Seite drei Schaltflächen zur Verfügung.
-![Dies ist die Liste der Benutzer in der Benutzerverwaltung](../../assets/images/users_benutzerliste.png)
+![Dies ist die Liste der Benutzer in der Benutzerverwaltung](/assets/images/users_benutzerliste.png)
 
 ## Benutzer exportieren und importieren
 
 Mit Hilfe eines Assistenten werden alle bereits angelegten Benutzer in eine CSV-Datei exportiert. Bitte geben Sie einen Speicherort und einen Dateinamen an, die Endung „.csv“ wird automatisch ergänzt.
 
-![Schaltflächen in der oberen Menüleiste](../../assets/images/magellan.administrator/users_benutzer.exportieren.png)
+![Schaltflächen in der oberen Menüleiste](/assets/images/magellan.administrator/users_benutzer.exportieren.png)
 
-![Die erzeugte Datei kann mit Excel geöffnet und bearbeitet werden.](../../assets/images/magellan.administrator/users_benutzer.exportieren1.png)
+![Die erzeugte Datei kann mit Excel geöffnet und bearbeitet werden.](/assets/images/magellan.administrator/users_benutzer.exportieren1.png)
 
 !!! info "Hinweis"
 
@@ -63,7 +63,7 @@ Anschließend: Klicken Sie auf die Schaltfläche` Benutzer importieren` um die v
  
 Einen neuen Benutzer erzeugen Sie über die Schaltfläche `Neuer Datensatz` oben links in der Menüleiste. 
 
-![Einen neuen MAGELLAN-Benutzer anlegen](../../assets/images/magellan.administrator/neuer.benutzer.png)
+![Einen neuen MAGELLAN-Benutzer anlegen](/assets/images/magellan.administrator/neuer.benutzer.png)
 
 
 ### Registerkarte „Allgemein“
@@ -81,7 +81,7 @@ Bestätigung|Tragen Sie zur Bestätigung bitte das Passwort erneut ein.
 Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann auch später als Passwort für die MYMAGELLAN-Datei des Benutzers übernommen werden.
 
 
-![Legen Sie hier die Grunddaten des Benutzers fest](../../assets/images/magellan.administrator/benutzer.anlegen.png)
+![Legen Sie hier die Grunddaten des Benutzers fest](/assets/images/magellan.administrator/benutzer.anlegen.png)
 
 
 !!! info "Hinweis"
@@ -92,7 +92,7 @@ Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann au
 
 ## Registerkarte „Rechte“
 
-![Legen Sie die Rechte für den Benutzer fest](../../assets/images/magellan.administrator/users_rechtekarte.png)
+![Legen Sie die Rechte für den Benutzer fest](/assets/images/magellan.administrator/users_rechtekarte.png)
 
 ### Allgemeine Rechte
 
@@ -143,9 +143,9 @@ Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort` ände
 
 ## Registerkarte „MYMAGELLAN“
 
-![Sie können auf dieser Karte festlegen, ob der Benutzer Noten mit MYMAGELLAN erfassen darf, ein MYMAGELLAN-Kennwort besitzt und den späteren Speicherort seiner MYMAGELLAN-Datei angeben.](../../assets/images/magellan.administrator/users_mymagkarte.png)
+![Sie können auf dieser Karte festlegen, ob der Benutzer Noten mit MYMAGELLAN erfassen darf, ein MYMAGELLAN-Kennwort besitzt und den späteren Speicherort seiner MYMAGELLAN-Datei angeben.](/assets/images/magellan.administrator/users_mymagkarte.png)
 
 Alle Angaben der Benutzers zu MYMAGELLAN werden aus Gründen der Übersichtlichkeit unter dem Reiter `MYMAGELLAN` aufgelistet. Markieren Sie einen der Benutzer werden für ihn im unteren Bereich zusätzlich die MAGELLAN-Rechte eingeblendet. 
 
-![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](../../assets/images/magellan.administrator/users_mymag.liste.png) 
+![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](/assets/images/magellan.administrator/users_mymag.liste.png) 
 

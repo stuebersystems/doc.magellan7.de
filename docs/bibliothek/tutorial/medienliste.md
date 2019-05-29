@@ -16,7 +16,7 @@ Um die Anzeige Ihrer Medientitel nach einzelnen oder mehreren Kriterien zu filte
 1. Betätigen Sie die Schaltfläche `Anzeigefilter` in der Symbolleiste des Programmfensters.
 2. Füllen Sie im erscheinenden Dialogfenster `Anzeigefilter` ein oder mehrere Eingabe-feld/er mit Ihren Suchbegriffen.
 
-![Im Dialogfenster `Anzeigefilter` können Sie die Anzeige der Medientitel nach verschiedenen Kriterien filtern.](../../assets/images/bibliothek/medienfilter.png)
+![Im Dialogfenster `Anzeigefilter` können Sie die Anzeige der Medientitel nach verschiedenen Kriterien filtern.](/assets/images/bibliothek/medienfilter.png)
 
 3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 4. In der Liste `Bücher/Medien` werden nun nur noch die Titel angezeigt, die den verwendeten Suchbegriffen entsprechen. Die gewählten Begriffe müssen dabei den für einen Titel hinterlegten Mediendaten nicht vollständig entsprechen. Die beiden Platzhalter `*` (steht für eine beliebige Zeichenkette) sowie `?` (steht für ein beliebiges Zeichen) erlauben den Einsatz unvollständiger bzw. abgekürzter Suchbegriffe.
@@ -37,4 +37,4 @@ Es erscheint nun wieder die vollständige Liste `Bücher/Medien` mit allen Titel
 
 Filtern Sie die Medienliste der Beispieldatenbank nach dem Stichwort `Sturm und Drang`. Setzen Sie die Liste `Bücher/Medien` im Anschluss wieder auf den Ausgangszustand zurück.
 
-![Diese Anzeige erhalten Sie, wenn Sie die Liste `Bücher/Medien` der Beispieldatenbank nach dem Stichwort `Sturm und Drang` filtern](../../assets/images/bibliothek/BuecherMedienansicht.png)
+![Diese Anzeige erhalten Sie, wenn Sie die Liste `Bücher/Medien` der Beispieldatenbank nach dem Stichwort `Sturm und Drang` filtern](/assets/images/bibliothek/BuecherMedienansicht.png)

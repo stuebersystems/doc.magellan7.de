@@ -23,7 +23,7 @@ formula = formula + " " + {Schueler.Nachname}
 > #### info::Hinweis
 >
 > Sollten Sie in Ihrem Bericht in den Berichtsoptionen unter "Allgemeine Einstellungen" den Haken nicht vor "Null Werte in Datenbank zu Standard konvertieren" aktiviert haben, verwenden Sie bitte folgende Formel:  
-> ![!\[\]\(/assets/CR.Berichtsoptionen01.png\)](../assets/CR.Berichtsoptionen02.png)
+> ![!\[\]\(/assets/CR.Berichtsoptionen01.png\)](/assets/CR.Berichtsoptionen02.png)
 
 ```
 ' Ergebnis ist Vorname

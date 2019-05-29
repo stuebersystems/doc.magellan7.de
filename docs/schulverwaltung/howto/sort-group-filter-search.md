@@ -6,7 +6,7 @@ Dieses Kapitel beschreibt die Möglichkeiten im Umgang mit den Auswahllisten und
 
 In MAGELLAN haben Sie die Möglichkeit, den Inhalt der Auswahllisten zu sortieren, wobei die Kriterien, nach denen sortiert wird, die einzelnen Spaltenköpfe sind. Dies ermöglicht Ihnen beispielsweise bei der Auswahlliste `Schüler` nach Nachname, Vorname, Ort, Geschlecht usw. zu sortieren.
 
-![Sortierung der Ansicht nach den Nachnamen der Schüler](../../assets/images/sortieren/sortieren_10liste.png) 
+![Sortierung der Ansicht nach den Nachnamen der Schüler](/assets/images/sortieren/sortieren_10liste.png) 
 
 
 ### Sortieren nach einen Kriterium 
@@ -15,13 +15,13 @@ Um nach einem Kriterium zu sortieren, müssen Sie den entsprechenden Spaltenkopf
 
 Beispiel 1:
  
-![Beispiel 1](../../assets/images/sortieren/sortieren_11kleine.liste.png)
+![Beispiel 1](/assets/images/sortieren/sortieren_11kleine.liste.png)
 
 In diesem Fall wurde die gesamte Liste nach dem Nachnamen der Schüler sortiert. Der kleine Pfeil nach oben stellt eine Sortierung in aufsteigender Reihenfolge dar.
 
 Beispiel 2:
 
-![Beispiel 2](../../assets/images/sortieren/sortieren_12.png)
+![Beispiel 2](/assets/images/sortieren/sortieren_12.png)
 
 
 Gleiche Situation wie in Beispiel 1, nur dass diesmal die Sortierung in absteigender Reihenfolge durchgeführt wurde.
@@ -39,11 +39,11 @@ In der Auswahlliste können Sie auch nach mehreren Kriterien gleichzeitig sortie
 
 #### Sortierung:
 
-![Sortierung nach der Spalte Klasse](../../assets/images/sortieren/sortieren_13.png)
+![Sortierung nach der Spalte Klasse](/assets/images/sortieren/sortieren_13.png)
 
 In diesem Fall wurde die gesamte Liste nach den Klassen der Schüler sortiert
  
-![Sortierung nach der Spalte Klasse und anschließend nach den Nachnamen](../../assets/images/sortieren/sortieren_14.png)
+![Sortierung nach der Spalte Klasse und anschließend nach den Nachnamen](/assets/images/sortieren/sortieren_14.png)
 
 Die Liste ist jetzt zunächst nach den Klassen und innerhalb der Klassen nach den Nachnamen sortiert.
 
@@ -69,11 +69,11 @@ Möchten Sie die Auswahlliste der Schüler gruppieren, so klicken Sie auf den ge
 
 Bei einer Mehrfachgruppierung ziehen Sie nacheinander zwei Spaltenköpfe in den dunkleren Bereich. Die Gruppierung wird dann noch mal nach einem zweiten Gruppierungsaspekt untergliedert, so könnte man die Gruppierung nach Klassen z.B. noch mal nach dem Geschlecht gruppieren.
  
-![Beispiel 1: Gruppierung nach der Klasse](../../assets/images/sortieren/sortieren_15.png)
+![Beispiel 1: Gruppierung nach der Klasse](/assets/images/sortieren/sortieren_15.png)
 
  Beispiel 1: Die Schüler sind hier nach Klassen gruppiert, d.h. alle Schüler sind unter ihrer entsprechenden Klasse gruppiert.
  
- ![Beispiel 2: Gruppierung nach der Klasse und dem Geschlecht](../../assets/images/sortieren/sortieren_01gruppieren.png)
+ ![Beispiel 2: Gruppierung nach der Klasse und dem Geschlecht](/assets/images/sortieren/sortieren_01gruppieren.png)
 
 
 Beispiel 2: Sie können Gruppierungen auch beliebig verschachteln. In diesem Beispiel wurden alle Schüler der einzelnen Klassen noch einmal nach dem Geschlecht gruppiert.
@@ -82,14 +82,14 @@ Beispiel 2: Sie können Gruppierungen auch beliebig verschachteln. In diesem Bei
 
 Um für einen Ausdruck einer Liste oder eines Zeugnisses oder auch für den Excelexport die Schüler (oder Lehrer, Klassen…) in der Auswahlliste zu markieren, gibt es mehrere Möglichkeiten. Markieren nicht zusammenstehender Datensätze. Der erste Datensatz wird mit der linker Maustaste angeklickt, dann die STRG-Taste halten und alle anderen gewünschten Datensätze markieren.
  
-![Beispiel: Nicht zusammenstehende Datensätze wurden markiert](../../assets/images/sortieren/sortieren_02markieren.png)
+![Beispiel: Nicht zusammenstehende Datensätze wurden markiert](/assets/images/sortieren/sortieren_02markieren.png)
 
 
 ### Markieren zusammenstehender Datensätze
 
 Der erste Datensatz wird mit der linken Maustaste angeklickt, dann die Shift-Taste auf der Tastatur gedrückt halten und den letzten Datensatz anklicken.
 
-![Beispiel: Aufeinanderfolgende Datensätze wurden markiert.](../../assets/images/sortieren/sortieren_03markieren2.png)
+![Beispiel: Aufeinanderfolgende Datensätze wurden markiert.](/assets/images/sortieren/sortieren_03markieren2.png)
 
 
 
@@ -97,7 +97,7 @@ Der erste Datensatz wird mit der linken Maustaste angeklickt, dann die Shift-Tas
 
 Unten links im Auswahllistenfenster finden Sie ein kleines schwarzes Viereck. Klicken Sie darauf, es sind alle Datensätze in der Auswahlliste markiert.
  
-![Beispiel: Über das schwarze Kästchen wurden alle Datensätze der Auswahlliste markiert.](../../assets/images/sortieren/sortieren_07markieren3.png)
+![Beispiel: Über das schwarze Kästchen wurden alle Datensätze der Auswahlliste markiert.](/assets/images/sortieren/sortieren_07markieren3.png)
 
 
 
@@ -105,20 +105,20 @@ Unten links im Auswahllistenfenster finden Sie ein kleines schwarzes Viereck. Kl
 
 Ab der Version 6 können in MAGELLAN die Daten in allen Auswahllisten auch gefiltert werden. Die Filterfunktion kann in der Kopfzeile über das schwarze Dreieck in der zu filternden Spalte aufgerufen werden.  
 
-![Filtern der Liste](../../assets/images/sortieren/sortieren_05filter.png)
+![Filtern der Liste](/assets/images/sortieren/sortieren_05filter.png)
 
 Beispiel: Der Filter kann pro Spalte in der Auswahlliste aufgerufen werden.
 
 Es ist auch eine Mehrfachfilterung möglich. So können Sie zum Beispiel in der Auswahlliste der Schüler erst nach aktiven Schülern filtern (Spalte Status), dann nach einer Klasse und innerhalb dieser Klasse kann nach weiteren Eigenschaften gefiltert werden. Als Zeichen dafür, dass die Auswahlliste gefiltert angezeigt wird, sieht man im unteren Bereich die Filterleiste. 
 
-![Filterung aktive Schüler der Klasse 5a](../../assets/images/sortieren/sortieren_06filter2.png)
+![Filterung aktive Schüler der Klasse 5a](/assets/images/sortieren/sortieren_06filter2.png)
 
    
 Beispiel: Die Schülerauswahlliste wurde erst nach aktiven Schülern und anschließend nach Schülern der Klasse 5a gefiltert.
 
 Hier kann der Filter über das rote Kreuz geschlossen werden oder auch über die Schaltfläche  `Anpassen `bearbeitet werden. Sie erhalten im Bearbeiten-Fenster auch die Möglichkeit einen Filter zu speichern oder einen gespeicherten Filter neu aufzurufen. 
  
-![Filterfenster](../../assets/images/sortieren/sortieren_04filter3.png)
+![Filterfenster](/assets/images/sortieren/sortieren_04filter3.png)
 
 
 Beispiel: Über die Schaltfläche `Speichern unter…` kann ein Filter gespeichert werden, über die Schaltfläche `Laden` können eigene Filter neu aufgerufen werden.
@@ -132,9 +132,9 @@ Ein neu aufgerufener Filter, zeigt keine feste Auswahl von Datensätzen, sondern
 In den Auswahllisten der Ansichten `Schüler`, `Bewerber`, `Personen`, `Lehrer`, `Klassen`, `Betriebe`, `Sorgeberechtigte` und `Schulen` können Sie individuell festlegen, welche Spalten pro Ansicht angezeigt werden sollen. 
 In jeder Auswahlliste finden Sie jetzt links vor dem ersten Spaltenkopf ein kleines Listensymbol. Klicken Sie das Listensymbol an, Sie sehen eine Übersicht aller Spalten, die per Häkchen ein- oder ausgeblendet werden können. Die Spaltenposition in der Auswahlliste können Sie hier auch neu vergeben: Ziehen Sie per Maus in der Liste eine Spaltenüberschrift an ihre neue Position.
 
-![Öffnen Sie über das Listensymbol die Organisationsansicht](../../assets/images/neues/spalte01.png)
+![Öffnen Sie über das Listensymbol die Organisationsansicht](/assets/images/neues/spalte01.png)
 
-![Ändern Sie per Drag and Drop die Spaltenreihenfolge!](../../assets/images/neues/spalte02.png)
+![Ändern Sie per Drag and Drop die Spaltenreihenfolge!](/assets/images/neues/spalte02.png)
 
 
 
@@ -143,12 +143,12 @@ In jeder Auswahlliste finden Sie jetzt links vor dem ersten Spaltenkopf ein klei
 Es ist möglich, Schüler, Bewerber, Lehrer, Sorgeberechtigte oder Personen in der Datenbank zeitraum- oder auch mandantenübergreifend zu suchen. Klicken Sie dazu auf `Extras > Suchen` oder rufen Sie die Suche per F3 auf. Je nachdem in welchem Menü Sie sich befinden, erscheint die Schüler-, Bewerber-, .... Lehrersuche. 
 Ein Assistent ist Ihnen bei der Suche behilflich. Bitte beachten Sie bei der Suche Groß- und Kleinschreibung.
 
- ![Dialog `Suchen`](../../assets/images/sortieren/sortieren_08suchen.png)
+ ![Dialog `Suchen`](/assets/images/sortieren/sortieren_08suchen.png)
 
 
  Sie können wählen, ob Sie z.B. zum Schüler wechseln möchten oder das Suchergebnis nach Excel exportieren. Bei Schülern (zeitraumabhängig) wird der Schüler dann immer im aktuellsten Zeitraum angezeigt, in welchem er gefunden wurde.
 
-![Dialog `Suchen` für Schüler](../../assets/images/sortieren/sortieren_09suchen2.png)
+![Dialog `Suchen` für Schüler](/assets/images/sortieren/sortieren_09suchen2.png)
 
 
 

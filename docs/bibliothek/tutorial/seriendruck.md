@@ -13,7 +13,7 @@ Um aus den verschiedenen Listen einen Serienbrief an Ausleiher, Lieferanten, Ver
 1. Markieren Sie die Zeilen der gewünschten Personen bzw. Institutionen und betätigen Sie die Schaltfläche `Seriendruck nach Word` : der Assistent für den Seriendruck wird geöffnet.
 2. Setzen Sie auf der ersten Seite des Seriendruck-Assistenten den Punkt im Kontrollkreis vor `Daten mit einer Word-Vorlage verknüpfen` Belassen Sie im Eingabefeld `Vorlage` den Eintrag `Leere Vorlage` oder wählen eine der angebotenen Vorlagen aus.
 
-![Auf der ersten Seite des Seriendruck-Assistenten wählen Sie eine Word-Vorlage oder ein Word-Dokument für den Seriendruck aus](../../assets/images/bibliothek/seriendruck.png)
+![Auf der ersten Seite des Seriendruck-Assistenten wählen Sie eine Word-Vorlage oder ein Word-Dokument für den Seriendruck aus](/assets/images/bibliothek/seriendruck.png)
 
 Oder
 Setzen Sie auf der ersten Seite des Seriendruck-Assistenten den Punkt im Kontrollkreis vor `Daten mit einem vorhandenen Word-Dokument verknüpfen`.

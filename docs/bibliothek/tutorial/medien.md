@@ -27,7 +27,7 @@ Die neuen Einstellungen werden beim nächsten Start des Eingabeassistenten wirks
 
 Auf der Signaturseite des Eingabeassistenten werden Sie gebeten, anzugeben wie die Signatur der Exemplare für das soeben erfasste bzw. ausgewählte Medium aufgebaut sein soll. Die Signatur eines Exemplars dient dem Zweck, das Exemplar gemäß der bibliotheksinternen Systematik eindeutig klassifizieren zu können. Sie besteht grundsätzlich aus der allgemeinen Signaturvorgabe, die Sie für einen bestimmten Medientitel festlegen, sowie der Exemplarnummer.
 
-![Auf der Signaturseite des Eingabeassistenten erstellen Sie die Signatur ihres Medienexemplars.](../../assets/images/bibliothek/medien_anlegen1.png)
+![Auf der Signaturseite des Eingabeassistenten erstellen Sie die Signatur ihres Medienexemplars.](/assets/images/bibliothek/medien_anlegen1.png)
 
 Für den Aufbau der Signaturvorgabe eines Mediums stehen Ihnen unter `Auswahl der Signaturelemente` verschiedene mögliche Bestandteile zur Verfügung.
 
@@ -102,7 +102,7 @@ Auf der letzten Seite des Eingabeassistenten nehmen Sie keine weiteren Eingaben 
 3. Klicken Sie auf die Schaltfläche `Fertigstellen`, um die Medienexemplare mit den von Ihnen eingegebenen Daten in der Datenbank zu speichern.
 Nach dem Bestätigen der Option `Fertigstellen` weist Sie ein grüner Fortschrittsbalken auf den Stand der Erstellung Ihrer Medienexemplare hin.
 
-![Auf der Erstellungsseite des Eingabeassistenten weist Sie ein grüner Fer-tigstellungsbalken auf den Stand der Erstellung Ihrer Medienexemplare hin.](../../assets/images/bibliothek/medien_anlegen2.png)
+![Auf der Erstellungsseite des Eingabeassistenten weist Sie ein grüner Fer-tigstellungsbalken auf den Stand der Erstellung Ihrer Medienexemplare hin.](/assets/images/bibliothek/medien_anlegen2.png)
 
 Sobald Ihre Exemplare vollständig erstellt sind, schließt sich der Eingabeassistent für neue Medien automatisch und Sie befinden sich in der Ansicht `Bücher/Medien` auf der Registerkarte `Daten1`. Dort können Sie Angaben ergänzen oder ändern. Wenn Sie ein weiteres Medium erfassen möchten, müssen Sie den Eingabeassistenten erneut öffnen.
 

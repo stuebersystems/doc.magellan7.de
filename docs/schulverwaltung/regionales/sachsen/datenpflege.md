@@ -44,7 +44,7 @@ weil Sie mitten in der Erfassung der Daten stecken und erst einmal einen Teil de
 
 Steht Ihnen in dem Feld keine Auswahl zur Verfügung, importieren Sie bitte das Verzeichnis `BS_SchuelerMerkmale.keys` erneut oder legen unter `Extras > Schlüsselverzeichnisse > Merkmale (Schüler)` eine Schlüsselzeile entsprechend der nachfolgenden Abbildung an. Der Wert kann auch per Sammelzuweisung verteilt werden.
 
-![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](../../../assets/images/sachsen/kein.saxsvs.png)
+![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Merkmale (Schüler)](/assets/images/sachsen/kein.saxsvs.png)
 
 ### Schüler zum Löschen vorsehen `<saxsvs-bbs><schueler_loeschen>`
 
@@ -138,7 +138,7 @@ einzutragen, oder die Sammelzuweisung unter `Schüler > Schüler (Ribbontab) > S
 |2. |Markieren Sie die Gruppe von Schülern, für die die gleichen Eigenschaften vergeben werden sollen.|
 |3. |Klicken Sie `Weiter` bis zur dritten Karte, hier können Ausbildungsinformationen neu oder ergänzend zugewiesen werden.<br/>Wichtig: bitte wählen Sie `Neue Ausbildung anlegen` oder `ggfs. aktuelle Ausbildung bearbeiten`!|
 
-![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](../../../assets/images/sachsen/sammelzuweisung01.png)
+![MAGELLAN 7 > Menü Schüler > Tab Schüler> Sammelzuweisung](/assets/images/sachsen/sammelzuweisung01.png)
 
 ### Berufliches Gymnasium - Oberstufenschüler
 
@@ -436,13 +436,13 @@ Sie haben damit die Möglichkeit ab MAGELLAN 7 mehrere Förderungen mit Bedarfen
 
     Bitte prüfen Sie, ob in Ihrem Verzeichnis `Extras > Schlüsselverzeichnisse > Förderbedarf` die nachfolgenden abgebildeten Schlüsselzeilen vorhanden sind. Wenn nicht, dann können Sie die Zeilen von Hand eingeben oder im MAGELLAN ADMINISTRATOR unter `Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren > Bundesland Sachsen und Schlüssel für berufsbildende Schulen` das Verzeichnis `SopaedFoerderungen` einlesen.
 
-![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Förderbedarf](../../../assets/images/sachsen/schluessel01.png)
+![MAGELLAN 7 > Extras > Schlüsselverzeichnisse > Förderbedarf](/assets/images/sachsen/schluessel01.png)
 
 
 Nachstehend sehen Sie auf der linken Seite die alte Ansicht aus MAGELLAN 6 unter Daten 4, hier gibt es nur die Möglichkeit jeweils einen Wert zu erfassen. 
 Auf der rechten Seite die neue Möglichkeit mehrere Einträge in einer Liste anzulegen.
 
-![Linke Seite MAGELLAN 6 und rechte Seite MAGELLAN 7](../../../assets/images/sachsen/foerderungen.png)
+![Linke Seite MAGELLAN 6 und rechte Seite MAGELLAN 7](/assets/images/sachsen/foerderungen.png)
 
 
 ## Vorbildung ABS  `<saxsvs-bbs><schueler><abs>` 

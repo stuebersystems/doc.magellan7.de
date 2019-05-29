@@ -33,7 +33,7 @@ In MAGELLAN können Sie einen möglichen Schüler für das nächste Schuljahr zu
 
 Um einen neuen Bewerber aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Bewerber` oder wählen Sie `Ansicht > Bewerber`. Wählen Sie dann das Plus in der oberen Symbolleiste oder drücken STRG+N. Es öffnet sich das Dialogfenster `Neuer Bewerber`.
  
-![Geben Sie Vor- und Nachname ein und bestätigen Sie mit OK.](../../assets/images/schueler_03bewerber.neu.png)
+![Geben Sie Vor- und Nachname ein und bestätigen Sie mit OK.](/assets/images/schueler_03bewerber.neu.png)
  
 
 Der neue Bewerber wird erstellt. Sie befinden sich automatisch auf der Registerkarte `Daten 1` des Bewerbers. Geben Sie nun die erforderlichen Daten zum Bewerber ein. 
@@ -50,7 +50,7 @@ Sie können um Stammdateneinträge für neue Bewerber vorzubelegen, eigene Vorla
 
 Wählen Sie einen bestehenden oder extra dafür angelegten Bewerber aus und rufen die Karte `Bewerber > Daten1` auf. Wählen Sie `Bearbeiten > Vorlage speichern `oder drücken Sie die Taste `F8` Ihrer Tastatur. Es erscheint ein Speicherfenster, tragen Sie eine Bezeichnung für Ihre Vorlage ein und bestätigen Sie mit `OK`.
  
-![Geben Sie den Titel für Ihre Vorlage ein!](../../assets/images/schueler_04vorlage.speichern.png)
+![Geben Sie den Titel für Ihre Vorlage ein!](/assets/images/schueler_04vorlage.speichern.png)
 
 
 Unter `Bearbeiten > Vorlagen bearbeiten` werden bereits gespeicherte Vorlagen angezeigt. Hier kann die Bezeichnung bearbeitet werden oder eine Vorlage gelöscht werden.
@@ -59,7 +59,7 @@ Unter `Bearbeiten > Vorlagen bearbeiten` werden bereits gespeicherte Vorlagen an
 
 Beim Anlegen eines neuen Bewerbers werden Ihnen bereits gespeicherte Vorlagen zur Auswahl angeboten.
  
-![Wählen Sie eine Vorlage aus, werden alle Stammdatenfelder durch die in der Vorlage gespeicherten Werte vorbesetzt.](../../assets/images/schueler_05neu.bewerber.mit.vorlage.png)
+![Wählen Sie eine Vorlage aus, werden alle Stammdatenfelder durch die in der Vorlage gespeicherten Werte vorbesetzt.](/assets/images/schueler_05neu.bewerber.mit.vorlage.png)
 
 
 !!! info "Hinweis"
@@ -137,36 +137,36 @@ Beim Anlegen eines neuen Bewerbers werden Ihnen bereits gespeicherte Vorlagen zu
 
 Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher auch als `Bewerberliste` bezeichnet. Sie dient der Übersicht über alle Bewerber. Markiert man einen Bewerber darin und führt einen Doppelklick aus, so wechselt die Ansicht automatisch auf die Registerkarte `Daten 1` des Formulars des Bewerbers. Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html).
 
-![Bewerber > Auswahl](../../assets/images/bewerber/bewerberauswahl.png) 
+![Bewerber > Auswahl](/assets/images/bewerber/bewerberauswahl.png) 
 
 ## Registerkarte `Bewerber > Daten 1`
 
 Analog zur Eingabe der Lehrer usw. können Sie auch hier die automatischen Einstellungen für Anrede und Postleitzahl.
  
-![Bewerber > Daten1](../../assets/images/bewerber/daten1.png) 
+![Bewerber > Daten1](/assets/images/bewerber/daten1.png) 
 
 ### Standard oder Alternativ
 
 Für die Namens- und Adressfelder gibt es zwei Karten, die Karte `Standard`, die immer von Ihnen mit den notwendigen Angaben gefüllt werden sollte und die Karte `Alternativ`. Die Karte `Alternativ` ist für Deutsche Auslandsschulen gedacht, hier können die Namens- und Adressfelder noch einmal mit den vor Ort üblichen Schriftzeichen gefüllt werden, um diese beispielsweise für Briefanschrift verwenden zu können.
 
 
-![Standard oder Alternativ](../../assets/images/bewerber/alternativ.png) 
+![Standard oder Alternativ](/assets/images/bewerber/alternativ.png) 
 
 ### Bereich `Einschulmerkmale`
 
 Für jeden Bewerber können Sie bei seiner Aufnahme direkt ein Einschulmerkmal vergeben.  Beispielweise können Sie alle Schüler, die in die Klassenstufe 5 eingeschult werden sollen, einem bestimmten Schlüssel für die Klassenstufe 5 zuordnen. Vergebene Einschulmerkmale erleichtern Ihnen später das Einschulen der Schüler in die Klassen, da Sie dann einfach Schüler mit dem gleichen Einschulmerkmal für eine bestimmte Klasse auswählen können.
 
-![Einschulmerkmale](../../assets/images/bewerber/einschul01.png) 
+![Einschulmerkmale](/assets/images/bewerber/einschul01.png) 
 
 Einschulmerkmale werden in den Schlüsselverzeichnissen (`Extras > Schlüsselverzeichnisse > Einschulmerkmale`) definiert.
 
-![Einschulmerkmale definieren](../../assets/images/bewerber/einschul02.png) 
+![Einschulmerkmale definieren](/assets/images/bewerber/einschul02.png) 
 
 ### Bereich `Bewerbung`
 
 Die Bewerbungsdaten des Bewerbers finden Sie unter Bewerbung. Hier können Sie insbesondere eine Punktzahl, eine Gesamtnote, ein Hauptfachnote und bis zu 4 Bewerbungsziele eingeben. Punktzahl, Gesamtnote und Hauptfachnote ergeben je nach Bundesland und Verordnung auf Basis unterschiedlich erfasster Einzeldaten. Wie Sie diese Daten im Rahmen des Bewerberverfahrens erfasst und genutzt werden, erfahren Sie im anschließenden Abschnitt `Bewerberverfahren durchführen`. Die Bewerbungsziele werden im gleichnamigen unter `Extras > Schlüsselverzeichnis` definiert.
 
-![Bereich Bewerbung](../../assets/images/bewerber/b.bewerbung.png) 
+![Bereich Bewerbung](/assets/images/bewerber/b.bewerbung.png) 
 
 !!! info "Hinweis"
 
@@ -177,7 +177,7 @@ Die Bewerbungsdaten des Bewerbers finden Sie unter Bewerbung. Hier können Sie i
 Ist der Bewerber noch minderjährig, so können Sie diesem einen oder mehrere Sorgeberechtigte im Bereich 'Familie' zuordnen. 
 Hier kann auch auf Datensätze aus den Menüs `Personen` oder `Lehrer` verwiesen werden, wenn Mitarbeiter Eltern der Schüler sind. Um Geschwisterkinder erkennbar zu verbinden, kann auch auf andere `Schüler` verwiesen werden.
  
- ![Klicken Sie auf `Hinzufügen`, um einen neuen Sorgeberechtigten hinzuzufügen. Sie können auf Daten aus den Menüs Schüler, Bewerber, Lehrer, Personen und Sorgeberechtigte verweisen.](../../assets/images/bewerber/schuelersorge.png)
+ ![Klicken Sie auf `Hinzufügen`, um einen neuen Sorgeberechtigten hinzuzufügen. Sie können auf Daten aus den Menüs Schüler, Bewerber, Lehrer, Personen und Sorgeberechtigte verweisen.](/assets/images/bewerber/schuelersorge.png)
 
 
 Im Dialogfenster `Neuer Sorgeberechtigter` können Sie entweder einen bereits verzeichneten Sorgeberechtigten (Personen, Lehrer, Schüler) suchen oder direkt einen neuen Sorgeberechtigten aufnehmen. 
@@ -188,7 +188,7 @@ Im Dialogfenster `Neuer Sorgeberechtigter` können Sie entweder einen bereits ve
 
 Nachdem Sie den Sorgeberechtigten festgelegt haben, müssen Sie noch das `Verhältnis` zwischen dem Schüler und dem Sorgeberechtigten festlegen. Einige Werte sind hierfür vorgegeben, 10 weitere Werte können Sie für Ihre Datenbank anpassen. Diese Möglichkeit finden Sie unter `Extras > Bezeichnungen anpassen`. Vergeben Sie hier in der Spalte `durch` eigene Verhältniswerte.
  
-![Verzeichnisse > Bezeichnungen anpassen](../../assets/images/schueler_10bezeichnungen.anpassen.png)
+![Verzeichnisse > Bezeichnungen anpassen](/assets/images/schueler_10bezeichnungen.anpassen.png)
 
 #### Sorgeberechtigte für den Seriendruck korrekt erfassen
 
@@ -217,7 +217,7 @@ Die Sorgeberechtigten selbst legen Sie bitte als zwei Datensätze an, weisen bei
  
 Durch die Nutzung der Felder `Seriendruckname 1` und `Seriendruckname 2` bei dem Vater wird im Seriendruck nur ein Dokument an `Frau Gottsched-Wald, Herrn Gottsched` gesendet.
 
-![Eltern sind getrennt erfasst, im Seriendruck können sie gemeinsam angeschrieben werden](../../assets/images/bewerber/schuelersorge1.png)
+![Eltern sind getrennt erfasst, im Seriendruck können sie gemeinsam angeschrieben werden](/assets/images/bewerber/schuelersorge1.png)
 
 
 Wie Sie einen Sorgeberechtigten unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt `Sorgeberechtigte eingeben`.
@@ -233,7 +233,7 @@ Anhand Ihrer Eintragungen auf der Karte `Familie` beim Schüler oder Bewerber we
 
 
 
-![Das Fenster erscheint bei einer Adressänderung (Beispiel: ein Lehrer, der auch ein Kind an der Schule hat), die neue Adresse kann in einem Schritt für weitere Familienmitglieder übernommen werden. Für als identisch erkannte Adresse wird das Häkchen zur Änderung vorbelegt.](../../assets/images/adressaenderung00.png)
+![Das Fenster erscheint bei einer Adressänderung (Beispiel: ein Lehrer, der auch ein Kind an der Schule hat), die neue Adresse kann in einem Schritt für weitere Familienmitglieder übernommen werden. Für als identisch erkannte Adresse wird das Häkchen zur Änderung vorbelegt.](/assets/images/adressaenderung00.png)
 
 
 Das Optionshäkchen wird erst einmal für alle als deaktiviert voreingestellt, Sie entscheiden durch das Aktivieren des Häkchens für welchen Datensatz die Daten auch geändert werden soll.
@@ -248,7 +248,7 @@ Das Optionshäkchen wird erst einmal für alle als deaktiviert voreingestellt, S
 Auf der Registerkarte `Daten 2` geben Sie die `Religion`, die `Staatsangehörigkeiten`, die `Muttersprache`, die `Sprachgruppen`, den `Grundschuleintritt` und die erworbenen `Abschlüsse` an. 
 Die Zugangsdaten werden auch auf dieser Registerkarte festgehalten. Dazu können neben dem Zugangs- und voraussichtlichen Abgangsdatum zur Schule auch die gesamten bisherigen Schulbesuche des Bewerbers festgehalten werden. Ein zweites Zugangsdatum kann eingegeben werden, falls eine Schülerin z.B. die Schule für eine Babypause unterbricht.
 
-![Bewerber > Daten2](../../assets/images/bewerber/daten2.png)
+![Bewerber > Daten2](/assets/images/bewerber/daten2.png)
 
 
 !!! info "Hinweis"
@@ -261,13 +261,13 @@ Um eine besuchte Schule einzufügen, müssen Sie auf `Hinzufügen `klicken. Sie 
 
 Existiert die Herkunftsschule noch nicht, können Sie sie aber auch über das Pluszeichen im Assistent aus dieser Ansicht heraus ergänzen.
  
-![Bereich `bereits besuchte Schulen` ](../../assets/images/bewerber/bereits.besuchte.schulen.png)
+![Bereich `bereits besuchte Schulen` ](/assets/images/bewerber/bereits.besuchte.schulen.png)
 
 ### Bereich `höchster Abschluss ABS und BBS`
 
 Dieser Bereich ist gedacht um bereits erreichte Abschlüsse des Schülers zu erfassen. Unterteilt wird hier in einen allgemeinbildenden Abschluss und ggfs. einen berufsbildenden Abschluss. 
 
-![Bereich `höchster Abschluss ABS/BBS` ](../../assets/images/bewerber/hoechster.abschluss.png)
+![Bereich `höchster Abschluss ABS/BBS` ](/assets/images/bewerber/hoechster.abschluss.png)
 
 Dem jeweiligen Feld `Abschluss`  (also ABS oder BBS) sind die Daten des Schlüsselverzeichnisses `Abschlüsse extern` zugeordnet. Sie können die Inhalte Ihres Verzeichnisses über das Verzeichnisfeld `Kategorie` filtern.
 
@@ -279,13 +279,13 @@ ABS+BBS|Anzeige für Abschluss ABS und BBS
 kein Wert|Anzeige für Abschluss ABS und BBS
 
 
-![Extras > Schlüsselverzeichnisse > Abschlüsse (Extern) > Kategorie ](../../assets/images/bewerber/abschluesse.extern.png)
+![Extras > Schlüsselverzeichnisse > Abschlüsse (Extern) > Kategorie ](/assets/images/bewerber/abschluesse.extern.png)
 
 ## Registerkarte`Bewerber > Daten 3`
 
 Auf der Registerkarte `Daten 3` wird die `Fremdsprachenfolge` eingetragen. `Fremdsprachen` müssen zuvor im Schlüsselverzeichnis der Fächer als solche (Auswahl `Fremdsprache` im Feld `Kategorie`) ausgewiesen sein, da sie ansonsten nicht zur Auswahl angeboten werden. Auf der Registerkarte `Daten 3` können Sie dem Bewerber Funktionen zuordnen. Diese Funktionen müssen ebenfalls zuvor im Schlüsselverzeichnis `Funktion (Schüler)` editiert werden. Zusätzlich werden die ärztlichen Angaben festgehalten. Die Felder `Gastschüler` bzw. `Gastschulgeld überwiesen` dienen dem Festhalten von Schülern, für die die Schule Gastschulgeld bzw. Schulgeld von den Gemeinden erhält. Aufgrund der Markierung können Gastschulgeld bzw. Schulgeldlisten ausgedruckt werden. 
 
-![Bewerber > Daten3](../../assets/images/bewerber/daten3.png)
+![Bewerber > Daten3](/assets/images/bewerber/daten3.png)
 
 
 
@@ -294,7 +294,7 @@ Auf der Registerkarte `Daten 3` wird die `Fremdsprachenfolge` eingetragen. `Frem
 Auf der Registerkarte `Daten 4` können Sie unter `Betreuung` die Art und den Ort der Betreuung festlegen. Die auszuwählende Adresse wird unter den Stammdaten für Adressen eingetragen. Zusätzlich können Sie Angaben zur `Förderung` und `Beförderung` des Bewerbers machen.
 Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und Fördermaßnahmen`. 
 
-![Bewerber > Daten4](../../assets/images/bewerber/daten4.png)
+![Bewerber > Daten4](/assets/images/bewerber/daten4.png)
 
 
 
@@ -307,9 +307,9 @@ Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale
 	 Die Feldbezeichner der Felder der beiden Karten können für Ihre Datenbank angepasst werden, die Inhalte der Verzeichnisfelder kann in den Schlüsselverzeichnissen editiert werden. 
       Wichtig zu beachten ist, dass einige dieser Felder, speziell die Felder auf der Karte `Statistik` für statistische Eingaben reserviert sein können und nicht mit eigenen Angaben belegt werden können. Ob das für Ihr Bundesland und Ihre Schulform zutrifft wird im jeweiligen Statistikabschnitt im Dokument [Landesstatistiken](https://doc.ls.stueber.de/) beschrieben.
 
-![Unterkarte Merkmale](../../assets/images/bewerber/merkmale.png)
+![Unterkarte Merkmale](/assets/images/bewerber/merkmale.png)
 
-![Unterkarte Statistik](../../assets/images/bewerber/statistik.png)
+![Unterkarte Statistik](/assets/images/bewerber/statistik.png)
 
 ## Sammelzuweisung für `Daten1`,`Daten 2`, `Daten3`, `Merkmale` und `Statistik`
 
@@ -321,19 +321,19 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. 
 3. Markieren Sie unter Schüler auswählen bzw. Bewerber auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge in den Stammdaten erhalten sollen. 
  
-![Dialog Sammelzuweisung `Allgemeine Felder…`](../../assets/images/bewerber/sammelzuweisung01.png)
+![Dialog Sammelzuweisung `Allgemeine Felder…`](/assets/images/bewerber/sammelzuweisung01.png)
 
-![Dialog Sammelzuweisung `Fremdsprachendaten…`](../../assets/images/bewerber/sammelzuweisung02.png)
+![Dialog Sammelzuweisung `Fremdsprachendaten…`](/assets/images/bewerber/sammelzuweisung02.png)
 
-![Dialog Sammelzuweisung `Ausbildungsdaten…`](../../assets/images/bewerber/sammelzuweisung03.png)
+![Dialog Sammelzuweisung `Ausbildungsdaten…`](/assets/images/bewerber/sammelzuweisung03.png)
 
-![Dialog Sammelzuweisung `allgemeine Merkmale…`](../../assets/images/bewerber/sammelzuweisung04.png)
+![Dialog Sammelzuweisung `allgemeine Merkmale…`](/assets/images/bewerber/sammelzuweisung04.png)
 
-![Dialog Sammelzuweisung `Statistik-Merkmale…`](../../assets/images/bewerber/sammelzuweisung05.png)
+![Dialog Sammelzuweisung `Statistik-Merkmale…`](/assets/images/bewerber/sammelzuweisung05.png)
 
-![Dialog Sammelzuweisung `Wahlfächer/Kurse und sonstige Daten`](../../assets/images/bewerber/sammelzuweisung06.png)
+![Dialog Sammelzuweisung `Wahlfächer/Kurse und sonstige Daten`](/assets/images/bewerber/sammelzuweisung06.png)
 
-![Dialog Sammelzuweisung `Bewerbungsdaten...`](../../assets/images/bewerber/sammelzuweisung07.png)
+![Dialog Sammelzuweisung `Bewerbungsdaten...`](/assets/images/bewerber/sammelzuweisung07.png)
 
  !!! info "Hinweis"
 
@@ -343,25 +343,25 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 Die Registerkarte `Extras` ist standardmäßig ausgeblendet. Über das Dialogfenster Optionen kann sie optional eingeblendet werden. Sie können weitere Daten zur Betreuung von Schülern angegeben werden, wie sie in manchen Bundesländern benötigt werden.
 
-![Registerkarte `Extras`](../../assets/images/bewerber/extras.png)
+![Registerkarte `Extras`](/assets/images/bewerber/extras.png)
 
 ## Registerkarte `Bewerber > Ausbildung`
 
 Die Registerkarte `Ausbildung` wendet sich ausschließlich an Berufsbildende Schulen oder Schulen, deren Schüler ein Praktikum absolvieren.
  
 
-![Schüler > Ausbildung](../../assets/images/bewerber/ausbildung01.png)
+![Schüler > Ausbildung](/assets/images/bewerber/ausbildung01.png)
 
 Klicken Sie auf `Hinzufügen`, um neue Ausbildungsdaten hinzuzufügen.
  
-![neuer Ausbildungsdatensatz](../../assets/images/bewerber/ausbildung02.png)
+![neuer Ausbildungsdatensatz](/assets/images/bewerber/ausbildung02.png)
 
 Im Dialogfenster `Neue Ausbildung` können Sie für den aktuellen Bewerber dessen Ausbildungsbetrieb, seinen Ausbildungsberuf und -bildungsgang sowie weitere Ausbildungsdetails festhalten.
 
 Analog zu den Sorgeberechtigten können Sie einen schon verzeichneten Betrieb auswählen (`Betrieb suchen`...) oder direkt einen neuen Betrieb anlegen (`Neuen Betrieb anlegen`...). Betriebe werden als Stammdaten zentral verwaltet. Wie Sie einen Betrieb unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt `Betriebe eingeben`. Einem Betrieb können mehrere Schüler zugeordnet werden, genauso können Sie einem Schüler mehrere Betriebe zuordnen.
 Für die Suche von Ausbildungsbetrieben stehen Ihnen Filter zur Verfügung.
  
-![Im Dialogfenster `Betrieb auswählen` stehen Ihnen für die Suche zwei Filter zur Verfügung](../../assets/images/bewerber/ausbildung03.png)
+![Im Dialogfenster `Betrieb auswählen` stehen Ihnen für die Suche zwei Filter zur Verfügung](/assets/images/bewerber/ausbildung03.png)
 
 
 !!! info "Hinweis"
@@ -374,11 +374,11 @@ Bedenken Sie beim Drucken diverser Berichte, wie z.B. Schülerpersonalblatt mit 
 
 Rufen Sie den Assistenten `Bewerbungsdaten` über die Taste `F6` oder über die Schaltfläche im Menüband unter `Bewerber > Bewerbungsdaten` auf.
 
-![Aufruf des Assistenten](../../assets/images/bewerber/Bewerbungsdaten/01.png)
+![Aufruf des Assistenten](/assets/images/bewerber/Bewerbungsdaten/01.png)
 
 Der Assistent zeigt links in der Spalte alle Bewerber, auf der rechten Seite sind die Karten `Noten und Durchschnitt`, `Allgemein`, `Fachdaten`, `Unterlagen` und `Verfahren`.
 
-![Aufruf des Assistenten](../../assets/images/bewerber/Bewerbungsdaten/02.png)
+![Aufruf des Assistenten](/assets/images/bewerber/Bewerbungsdaten/02.png)
 
 !!! info "Hinweis"
 
@@ -401,14 +401,14 @@ Der Assistent zeigt links in der Spalte alle Bewerber, auf der rechten Seite sin
 Die Angaben für die Werte `Bonus`, `Noten Hauptfächer ` und `Noten GesamtZeugnis`  können Sie entweder als bereits berechnete Werte direkt auf der Karte `Daten 1` eingegeben werden oder Sie erfassen alle Detaildaten über `Bewerber > Bewerbungsdaten > Noten und Durchschnitt` (Funktionstaste F6). Bitte prüfen Sie im ersten Schritt, ob die korrekten Optionen voreingestellt sind.
 
 
-![Unterkarte `Noten und Durchschnitt`](../../assets/images/bewerber/Bewerbungsdaten/02.png)
+![Unterkarte `Noten und Durchschnitt`](/assets/images/bewerber/Bewerbungsdaten/02.png)
 
 
 #### Optionen zur Berechnung
 
 Unter `Datenbank > Optionen` legen Sie auf der Registerkarte `Bewerberverfahren` die Einstellung für die automatische Punkteberechnung, den automatisch berechneten Durchschnitt der Hauptfächer und den automatisch berechneten Durchschnitt des Gesamtzeugnisses fest.
  
-![Legen Sie hier die Einstellungen für die automatischen Berechnungen beim Bewerberverfahren fest](../../assets/images/bewerber/schueler_17bewerberverfahren.png)
+![Legen Sie hier die Einstellungen für die automatischen Berechnungen beim Bewerberverfahren fest](/assets/images/bewerber/schueler_17bewerberverfahren.png)
 
 
 | Option                     | Bedeutung                                |
@@ -422,13 +422,13 @@ Unter `Datenbank > Optionen` legen Sie auf der Registerkarte `Bewerberverfahren`
 #### Bedienung der Unterkarte "Noten und Durchschnitt"
 
  
-![Geben Sie hier die einzelnen Bonusangaben bzw. Noten ein](../../assets/images/bewerber/Bewerbungsdaten/03.png)
+![Geben Sie hier die einzelnen Bonusangaben bzw. Noten ein](/assets/images/bewerber/Bewerbungsdaten/03.png)
 
 
 Unter `Bonus` können Sie für `Wartezeit`, `Vorbildung`, `Härtefall` und `Sonstiges` Bonuswerte eintragen, die automatisch zum Gesamtbonus aufaddiert werden. Diese Bonusangaben können Sie für die Berechnung der Hautfachnote bzw. Gesamtnote individuell berücksichtigen. Bei den Noten der Hauptfächer können Sie die Noten für Deutsch, Mathematik und die Fremdsprache eingeben. Weiter Hauptfachnoten können über erfasst werden. Der Durchschnitt der Hauptfächer wird entweder automatisch berechnet (siehe `Optionen zur Berechnung`) oder Sie geben diesen selbst ein. Bei Bedarf können Sie den Gesamtbonus über `Bonus aktiv` in die Berechnung der Hauptfachnote einfließen lassen. Andernfalls entspricht der Durchschnitt der Hautfachnote.
  
 
-![Geben Sie hier die einzelnen Noten der Hauptfächer ein](../../assets/images/bewerber/Bewerbungsdaten/04.png)
+![Geben Sie hier die einzelnen Noten der Hauptfächer ein](/assets/images/bewerber/Bewerbungsdaten/04.png)
 
 Die Noten des Gesamtzeugnis können Sie über die Schaltfläche `Details` im Fenster `Zeugnisfächer` erfassen. 
 
@@ -440,7 +440,7 @@ Bei Bedarf können Sie den Gesamtbonus über `Bonus aktiv` in die Berechnung der
 Nach dem Schließen des Fensters wird der berechnete Durchschnitt für den Bewerber in das Feld `Durchschnitt` und `Gesamtnote` übergeben. 
  
 
-![Hier können Sie schnell alle Noten des Zeugnisses eingeben, um den Durchschnitt automatisch errechnen zu lassen](../../assets/images/bewerber/Bewerbungsdaten/05.png)
+![Hier können Sie schnell alle Noten des Zeugnisses eingeben, um den Durchschnitt automatisch errechnen zu lassen](/assets/images/bewerber/Bewerbungsdaten/05.png)
 
  
 Schließen Sie das Dialogfenster `Bewerbungsdaten`; um die Werte unter `Hauptfachnote` und `Gesamtnote` in die gleichnamigen Felder in der Ansicht `Bewerber` auf die Registerkarte `Daten 1` zu übernehmen. Die darauf resultierende Punktzahl wird automatisch in das Feld `Punkte` eingetragen, wenn die entsprechende Berechnungsvorschrift dafür eingestellt worden ist.
@@ -449,7 +449,7 @@ Schließen Sie das Dialogfenster `Bewerbungsdaten`; um die Werte unter `Hauptfac
 
 Auf der Unterkarte `Allgemein` können pro Bewerber die Einstellungen für die `Feststellungsprüfung`, den `Qualifikationsvermerk` und das `Aufnahmehalbjahr` gewählt werden.
 
-![Unterkarte "Allgemein"](../../assets/images/bewerber/Bewerbungsdaten/06.png)
+![Unterkarte "Allgemein"](/assets/images/bewerber/Bewerbungsdaten/06.png)
 
 Folgende Werte stehen fest vorgegeben zur Verfügung:
 
@@ -472,21 +472,21 @@ Folgende Werte stehen fest vorgegeben zur Verfügung:
 
 Auf der Unterkarte `Fachdaten` können Sie Ihren Bewerbern die zuvor belegten Fächer oder Fremdsprachen zuordnen. 
 
-![Unterkarte "Fachdaten"](../../assets/images/bewerber/Bewerbungsdaten/07.png)
+![Unterkarte "Fachdaten"](/assets/images/bewerber/Bewerbungsdaten/07.png)
 
 In der linken Spalte werden alle Fächer aus dem Verzeichnis `Fächer` mit der jeweils gewählten Fachkategorie gezeigt. Markieren Sie ein Fach oder eine Gruppe von Fächern und übergeben Sie diese mit der Plusschaltfläche in den Bereich auf der rechten Seite. Sie können für die übernommenen Fächern eine Note und für Fremdsprachen auch die Jahrgangstufen (von/bis belegt) eintragen.
 
-![Fächer zuweisen](../../assets/images/bewerber/Bewerbungsdaten/08.png)
+![Fächer zuweisen](/assets/images/bewerber/Bewerbungsdaten/08.png)
 
 Am unteren Fensterrand kann zusätzlich erfasst werden, ob der Bewerber eine externe Prüfung für eine Fremdsprache belegt hatoder ein Quereinsteiger in einer der Fremdsprachen ist.
 
-![weitere Einträge](../../assets/images/bewerber/Bewerbungsdaten/09.png)
+![weitere Einträge](/assets/images/bewerber/Bewerbungsdaten/09.png)
 
 ### Unterkarte "Unterlagen"
 
 Das Fenster `Unterlagen` teilt sich in die Bereiche `Unterlagen` und `Dokumentenverwaltung` auf.
 
-![Unterkarte "Unterlagen"](../../assets/images/bewerber/Bewerbungsdaten/10.png)
+![Unterkarte "Unterlagen"](/assets/images/bewerber/Bewerbungsdaten/10.png)
 
 #### Bereich "Unterlagen"
 
@@ -494,20 +494,20 @@ Dieser Bereich dient dazu, für die Bewerber zu erfassen, was Sie an Unterlagen 
 Beispiel: Sie brauchen von allen Bewerbern ein Zeugnis und ein Passbild und von einigen beispielsweise noch eine weitere Bescheinigung.
 Diese Unterlagen können pro Schüler mit einem Häkchen versehen werden um den Überblick zu behalten, welche Unterlage Sie bereits von welchem Bewerber erhalten haben.
 
-![Liste der Bewerberunterlagen](../../assets/images/bewerber/Bewerbungsdaten/16.png)
+![Liste der Bewerberunterlagen](/assets/images/bewerber/Bewerbungsdaten/16.png)
 
 ##### Allen Bewerbern eine oder mehrere Unterlagen zuweisen
 
 So geht's:
 1. Klicken Sie aufs Plus im Bereich `Unterlagen > Unterlagen`. Es erscheint das Fenster `Bewerberunterlagen hinzufügen`.
 
-![eine neue Unterlage in die Liste übernehmen](../../assets/images/bewerber/Bewerbungsdaten/11.png)
+![eine neue Unterlage in die Liste übernehmen](/assets/images/bewerber/Bewerbungsdaten/11.png)
 
 2. Tippen Sie die gewünschte Unterlage ein, in diesem Fall "Zeugnis". Drücken Sie `Enter` oder bestätigen mit dem Plus am Ende der Zeile.
 3. Verfahren Sie für "Passfoto" genauso, also Passfoto eintippen und mit `Enter` bestätigen.
 4. Den Inhalt der Liste können Sie jetzt allen Bewerbern zuweisen, dafür klicken Sie oben in der Leiste auf `Allen zuweisen`!
 
-![Inhalt der Liste allen zuweisen](../../assets/images/bewerber/Bewerbungsdaten/12.png)
+![Inhalt der Liste allen zuweisen](/assets/images/bewerber/Bewerbungsdaten/12.png)
 
 !!! info "Hinweis"
 
@@ -522,24 +522,24 @@ So geht's:
 1. Wählen Sie einen der Bewerber aus und wechseln auf `Unterlagen`. Rufen Sie über das Plus das Fenster `Bewerberunterlagen hinzufügen` auf.
 2. In dem Fenster wird die Liste der verwendeten Unterlagen gezeigt. Markieren Sie "Zegnis" und löschen es über die Minusschaltfläche. 
 
-![eine Unterlage aus der Liste entfernen](../../assets/images/bewerber/Bewerbungsdaten/14.png)
+![eine Unterlage aus der Liste entfernen](/assets/images/bewerber/Bewerbungsdaten/14.png)
 
 3. Tippen Sie nun "Zeugnis" ein und übernehmen es mit `Enter` in die untere Liste. 
 
 4. Aktivieren Sie oben im Fenster die Checkbox für `Abweichende Unterlagen löschen` und klicken dann auf `Allen zuweisen`. "Zegnis" wird bei allen Bewerbern gelöscht und "Zeugnis" wird ergänzt.
 
-!["Abweichende Unterlagen löschen" und "Allen zuweisen"](../../assets/images/bewerber/Bewerbungsdaten/15.png)
+!["Abweichende Unterlagen löschen" und "Allen zuweisen"](/assets/images/bewerber/Bewerbungsdaten/15.png)
 
 
 ##### Einem Bewerber eine Unterlage zuweisen
 
 So geht's:
 1. Wählen Sie den Bewerber aus und klicken Sie aufs Plus im Bereich `Unterlagen > Unterlagen`. Es erscheint das Fenster `Bewerberunterlagen hinzufügen`.
-![](../../assets/images/bewerber/Bewerbungsdaten/11.png)
+![](/assets/images/bewerber/Bewerbungsdaten/11.png)
 2. Tippen Sie die gewünschte Unterlage ein, in diesem Fall "Bescheinigung Typ A". Drücken Sie `Enter` oder bestätigen mit dem Plus am Ende der Zeile.
 3. Weisen Sie die Bescheinigung dem ausgewählten Bewerber zu indem Sie auf die Schaltfläche `Ausgewähltem zuweisen` anklicken. Fertig!
 
-![einem Bewerber eine Unterlage zuweisen](../../assets/images/bewerber/Bewerbungsdaten/13.png)
+![einem Bewerber eine Unterlage zuweisen](/assets/images/bewerber/Bewerbungsdaten/13.png)
 
 
 
@@ -551,13 +551,13 @@ Sie können die Unterordner aus den jeweiligen Menüpunkten für den markierten 
 Wir blenden für die Bewerber zusätzlich den Inhalt des Verzeichnisses im unteren Bereich dieser Karte ein. 
 Sie können über dieses Fenster eine Ordnerstruktur anlegen, Dateien von Ihrem Rechner importieren, per `Copy and Paste` oder `Drag and Drop` einfügen oder auch über einen in den Optionen hinterlegten Scanner als Tif-Datei einfügen.
 
-![Bereich "Dokumentenverwaltung"](../../assets/images/bewerber/Bewerbungsdaten/17.png)
+![Bereich "Dokumentenverwaltung"](/assets/images/bewerber/Bewerbungsdaten/17.png)
 
 ### Unterkarte "Verfahren"
 
 Auf der Unterkarte `Verfahren` können verschiedene Informationen gespeichert werden, zum Beispiel ein Lehrer- oder Schülereinschätzung, die Anzahl der Brückenkurse, die Bewerbungs- und Aufnahmefächer und weitere Informationen. Wir beschreiben nachstehend die einzelnen Bereiche.
 
-![Unterkarte "Verfahren"](../../assets/images/bewerber/Bewerbungsdaten/18.png)
+![Unterkarte "Verfahren"](/assets/images/bewerber/Bewerbungsdaten/18.png)
 
 #### Bereich "Bewerbungsverfahren"
 
@@ -574,35 +574,35 @@ Folgende Angaben sind möglich:
 
 Erfassen Sie die Anzahl der belegten Brückenkurse für die Fächer Deutsch, Mathematik und/oder Englisch.
 
-![Brückenkurse](../../assets/images/bewerber/Bewerbungsdaten/19.png)
+![Brückenkurse](/assets/images/bewerber/Bewerbungsdaten/19.png)
 
 Erfassen Sie die Einschätzung der Lehrkraft und/oder des Bewerbers. Beide Spalten können abweichende Werte beinhalten, sobald Sie aber eine Einschätzung der Lehrkraft vornehmen, wird die gleiche Einschätzung für den Bewerber eingetragen. Sollten die Einschätzungen voneinander abweichen, wählen Sie bitte anschließend eine andere Bewerbereinschätzung.
 
-![Einschätzung](../../assets/images/bewerber/Bewerbungsdaten/20.png)
+![Einschätzung](/assets/images/bewerber/Bewerbungsdaten/20.png)
 
 
 Freie Bemerkungen können im unteren Teil der Karte in den beiden Infofeldern `Termin-Information` und `Bemerkungen` erfasst werden.
-![Bemerkungen](../../assets/images/bewerber/Bewerbungsdaten/21.png)
+![Bemerkungen](/assets/images/bewerber/Bewerbungsdaten/21.png)
 
 #### Bereich "Fächer"
 
 Weisen Sie pro Bewerber die Bewerbungsfächer und die Aufnahmefächer zu.
 
-![Bereich "Fächer"](../../assets/images/bewerber/Bewerbungsdaten/22.png)
+![Bereich "Fächer"](/assets/images/bewerber/Bewerbungsdaten/22.png)
 
 ##### Vorbereitung
 
 Auf der linken Seite der Fächerkarte können Ihnen Listen von Fächern gezeigt werden. Diese Fächerliste gehören jeweils zu einer oder mehreren Fachwahltafeln. Diese Fachwahltafel bereiten Sie unter `Extras > Schlüsselverzeichnisse > Fachtafeln` vor. Legen Sie in dem Verzeichnis eine neue Fachtafel über das Plus an oder kopieren Sie eine der bereits vorhandenen Fachtafeln über das Symbol am oberen Fensterrand und passen diese dann im nächsten Schritt an.
 
-![Kopiersymbol am oberen Fensterrand](../../assets/images/bewerber/Bewerbungsdaten/23.png)
+![Kopiersymbol am oberen Fensterrand](/assets/images/bewerber/Bewerbungsdaten/23.png)
 
 Anschließend ändern Sie die Spalte `Art` von Fachtafel auf Fachwahltafel.
 
-![Art anpassen](../../assets/images/bewerber/Bewerbungsdaten/24.png)
+![Art anpassen](/assets/images/bewerber/Bewerbungsdaten/24.png)
 
 Wenn Sie eine Fachwahltafeln anklicken, können Sie über die Unterkarte `FachtafelFächer` wechseln um die enthaltenen Fächer anzupassen, zu reduzieren oder weitere anzufügen.
 
-![Wechsel auf FachtafelFächer](../../assets/images/bewerber/Bewerbungsdaten/25.png)
+![Wechsel auf FachtafelFächer](/assets/images/bewerber/Bewerbungsdaten/25.png)
 
 ##### Zuweisen von Bewerbungs- und Aufnahmefächern
 
@@ -612,7 +612,7 @@ Stellen Sie unter `Fachwahl` die gewünschte Fachwahltafel ein, markieren Sie ei
 
 	 Mehrere Zeilen können Sie mit der Maus und der Taste STRG markieren, einen Fächerblock markieren Sie mit einem Mausklick auf das erste Fach, dann SHIFT halten, Mausklick auf das letzte Fach.
 
-![Bewerbungsfächer übernehmen](../../assets/images/bewerber/Bewerbungsdaten/26.png)
+![Bewerbungsfächer übernehmen](/assets/images/bewerber/Bewerbungsdaten/26.png)
 
 
 ## Das Bewerberverfahren durchführen
@@ -624,7 +624,7 @@ Bevor Sie Bewerberdaten erfassen, müssen Sie zunächst das Schlüsselverzeichni
 
 Unter `Extras > Schlüsselverzeichnisse > Bewerbungsziele` müssen Sie die Ziele angeben, für die sich die Bewerber anmelden können. Für jedes Bewerbungsziel müssen für die Erstellung des Bewerberrankings festlegen, welche Prioritäten dabei der Hauptfachnote, der Gesamtnote und dem Anmeldedatum zukommen.
  
-![Legen Sie hier für jedes Bewerbungsziel die Prioritäten von Hauptfachnote, Gesamtnote und Anmelddatum fest.](../../assets/images/bewerber/schueler_16bewerbungsziele.png)
+![Legen Sie hier für jedes Bewerbungsziel die Prioritäten von Hauptfachnote, Gesamtnote und Anmelddatum fest.](/assets/images/bewerber/schueler_16bewerbungsziele.png)
 
 
 
@@ -634,7 +634,7 @@ Markieren Sie mehrere Bewerber in der Auswahlliste und rufen den Assistenten `Be
 
 Neben den in Abschnitt `Bewerber eingeben` erläuterten allgemeinen Stammdaten des Bewerbers können weitere Informationen unter `Bewerbung` auf der Registerkarte `Daten 1` erfasst werden.
  
-![Bewerber > Daten1](../../assets/images/bewerber/schueler_18bewerber.daten1.png)
+![Bewerber > Daten1](/assets/images/bewerber/schueler_18bewerber.daten1.png)
 
 
 
@@ -663,10 +663,10 @@ Auswerten der erfassten Bewerber: Sind alle Bewerber der Schule bis zu einem bes
 Die zuvor markierten Bewerber erhalten jetzt den Status `Angenommen für Bildungsziel 1` und können als Schüler übernommen werden.
  
 
-![Wählen Sie hier die Option `Änderung des Bewerberstatus`](../../assets/images/bewerber/23bewerberverfahren.png)
+![Wählen Sie hier die Option `Änderung des Bewerberstatus`](/assets/images/bewerber/23bewerberverfahren.png)
 
 
-![Wählen Sie hier z.B. den Status `Angenommen für Bildungsziel 1` und geben Sie das Datum der Statusänderung ein](../../assets/images/bewerber/24bewerbungsverfahren2.png)
+![Wählen Sie hier z.B. den Status `Angenommen für Bildungsziel 1` und geben Sie das Datum der Statusänderung ein](/assets/images/bewerber/24bewerbungsverfahren2.png)
 
 
 **Fall: Nicht alle Bewerber können angenommen werden:** Hier müssen Sie zunächst eine Bewerberrangliste erstellen. Auf deren Grundlage werden dann einige Bewerber abgelehnt, andere werden aufgenommen. 
@@ -690,7 +690,7 @@ Ranking pro Bewerbungsziel erstellen: Für jedes Bewerbungsziel müssen Sie ein 
 
 Beispiel:  Ein Schüler wählt für `Bewerbungsziel 1` `EH` (Einzelhandelskaufmann/-frau), ein anderer Schüler wählt `EH` als `Bewerbungsziel 2`. Beim Ranking wird das Ergebnis für alle markierten Bewerber für das Bewerbungsziel `EH` ermittelt, die jeweilige Rangzahl wird pro Bewerber in der zum Bewerbungsziel zugehörigen `Rangzahl Bewerbungsziel 1...4` abgebildet.
  
-![Ranking im Bewerbermenü](../../assets/images/bewerber/schueler_25bewerberliste.png)
+![Ranking im Bewerbermenü](/assets/images/bewerber/schueler_25bewerberliste.png)
 
 
 Dazu gehen Sie wie folgt vor:
@@ -710,7 +710,7 @@ Dazu gehen Sie wie folgt vor:
 Eine Übersicht der Rangfolge pro Bildungsziel können erhalten Sie im Menü `Mandanten` unter `Drucken`. 
  
 
-![Beispiel eines Berichts für eine Bewerberrangliste](../../assets/images/bewerber/schueler_26bericht.rangliste.png)
+![Beispiel eines Berichts für eine Bewerberrangliste](/assets/images/bewerber/schueler_26bericht.rangliste.png)
 
  Über die Seitenvorschau können Sie entscheiden, welche Bewerber für einen Bildungsgang angenommen, auf Warteliste stehen bzw. abgelehnt werden. Entsprechend dem 1. Fall können Sie den Bewerbern einen neuen Status zuweisen.
 

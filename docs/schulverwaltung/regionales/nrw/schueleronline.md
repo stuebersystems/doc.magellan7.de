@@ -22,7 +22,7 @@ Für den Export der Betriebe aus MAGELLAN und den Import der Daten in die aufneh
 5.	Geben Sie unter Exportdatei den Pfad für eine Exportdatei an, in welche Sie die aktiven Betriebe exportieren wollen.
 6.	Klicken Sie auf Fertigstellen. Die Datensätze aller aktiven Betriebe werden jetzt exportiert.
 
-![Legen Sie hier die Exportdatei fest.](../../../assets/images/nrw01.png)
+![Legen Sie hier die Exportdatei fest.](/assets/images/nrw01.png)
 
 ## Import der Betriebedatei nach Schüler Online
 
@@ -51,7 +51,7 @@ Um die aktiven Betriebe aus MAGELLAN zu exportieren, müssen Sie wie folgt vorge
 Die Datensätze aller markierten Schüler werden jetzt exportiert.
 
 
-![Legen Sie hier die Exportdatei fest.](../../../assets/images/nrw02.png)
+![Legen Sie hier die Exportdatei fest.](/assets/images/nrw02.png)
 
 ## Import der Schülerdatei nach Schüler Online
 
@@ -123,7 +123,7 @@ Um die Exportdatei aus Schüler-Online zu exportieren, gehen Sie wie folgt vor:
 
 Alle Datensätze werden jetzt importiert. Werden fehlende Schlüssel in den Schlüsselverzeichnissen ergänzt, so wird dazu eine Hinweismeldung unter Hinweise ausgeben.
 
-![Legen Sie hier die Art des Imports fest.](../../../assets/images/nrw03.png)
+![Legen Sie hier die Art des Imports fest.](/assets/images/nrw03.png)
 
 !!! info "Hinweis"
 
@@ -132,7 +132,7 @@ Alle Datensätze werden jetzt importiert. Werden fehlende Schlüssel in den Schl
 Ein einmalig aus Schüler Online übernommener Betrieb ist in MAGELLAN eindeutig gekennzeichnet, damit zukünftige Betriebsdatenänderung in Schüler Online mit nach MAGELLAN übernommen werden können.
 Wird im Rahmen des Imports ein Betrieb als schon vorhanden erkannt, werden die in Schüler Online eingetragenen Daten nicht automatisch übernommen. Schon vorhandene Betriebe werden im Anschluss an den Import in einer gesonderten Registerkarte ```Betriebe aktualisieren ```aufgelistet.
 
-![Legen Sie hier in der Spalte „Aktualisieren“ fest, ob und welche Betriebe Sie aktualisieren wollen.](../../../assets/images/nrw04.png)
+![Legen Sie hier in der Spalte „Aktualisieren“ fest, ob und welche Betriebe Sie aktualisieren wollen.](/assets/images/nrw04.png)
 
 Um eine Aktualisierung der Betriebe nun explizit durchzuführen, gehen Sie wie folgt auf der Registerkarte Betriebe aktualisieren vor:
 1.	Prüfen Sie jede der angezeigten Zeilen, welche Daten pro Betrieb dort genau geändert worden sind. Der jeweils bisherige Wert ist jeweils nachfolgende in eckigen Klammern angegeben.

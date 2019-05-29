@@ -15,21 +15,21 @@ Das MyMAGELLAN CENTER zeigt Ihnen per Symbol, wessen Datei erzeugt wurde oder ni
 
 Symbol|Bedeutung
 --|--
-![](../assets/images/mymagellan/close-circle-red.png) | Datei fehlt
-![](../assets/images/mymagellan/export.png) | Datei erzeugt
-![](../assets/images/mymagellan/pencil-blue.png) | Datei bearbeitet
-![](../assets/images/mymagellan/import-green.png) | Datei nach MAGELLAN importiert
+![](/assets/images/mymagellan/close-circle-red.png) | Datei fehlt
+![](/assets/images/mymagellan/export.png) | Datei erzeugt
+![](/assets/images/mymagellan/pencil-blue.png) | Datei bearbeitet
+![](/assets/images/mymagellan/import-green.png) | Datei nach MAGELLAN importiert
 
 ## Dateien einsammeln
 
 Wenn die Dateien der Kollegen wieder vorliegen, können sie einzeln oder gesammelt wieder in die Datenbank übertragen werden. Markieren Sie dazu die Zeilen der Kollegen, deren gefüllte Dateien Sie einsammeln möchten und aktivieren den Prozess über die Schaltfläche am oberen Fensterrand des MAGELLAN ADMINISTRATORS:
 
 
-![Starten Sie das Einsammeln der Zeugnisdaten](../assets/images/mymagellan/22.png)
+![Starten Sie das Einsammeln der Zeugnisdaten](/assets/images/mymagellan/22.png)
 
 Es startet der Assistent, bitte bestätigen Sie das Einlesen der Daten in die Datenbank mit `Fertigstellen`.
 
-![Schließen Sie den Assistenten über `Fertigstellen` ab!](../assets/images/mymagellan/23.png)
+![Schließen Sie den Assistenten über `Fertigstellen` ab!](/assets/images/mymagellan/23.png)
 
 
 
@@ -82,7 +82,7 @@ Beim erneuten Einlesen werden die Bemerkungen in MAGELLAN gelöscht und durch di
 
 ### Fehlzeiten
 
-![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](../assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
+![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
 
 Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.

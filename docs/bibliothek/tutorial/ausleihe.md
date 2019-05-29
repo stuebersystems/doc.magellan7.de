@@ -5,7 +5,7 @@ Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzungen, um
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
-![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](../../assets/images/bibliothek/ausleihe_rueckgabe.png)
+![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe.png)
 
 Die Datenmaske Ausleihe & Rückgabe ist in verschiedene Segmente unterteilt, die Sie bei der Durchführung der folgenden Teilschritte unterstützen:
 
@@ -50,7 +50,7 @@ Bevor Sie das Exemplar festlegen können, müssen Sie dieses in der Datenbank su
 * Geben Sie im Eingabefeld `Barcode` die Barcodenummer des Exemplars ein. Lesen Sie dazu mit Hilfe eines Barcodescanners den Strichcode ein, der sich auf dem Signaturetikett des Exemplars befindet. Ist die Barcodenummer in der Datenbank vorhanden, findet die Auswahl des Exemplars automatisch statt. Die zugehörigen Angaben werden in den Datenfeldern des Segments `Buch/ Medium` hinterlegt. Möchten Sie die getroffene Auswahl korrigieren, so lesen Sie einfach den Barcode eines anderen Exemplars ein.
 * Betätigen Sie die Schaltfläche `Exemplare` und geben Sie im erscheinenden Dialogfenster eines oder mehrere der vorgegebenen Suchkriterien ein. Bestätigen Sie Ihre Suchkriterien mit `Weiter` und markieren Sie im erscheinenden Dialogfenster die zugehörige Zeile des Exemplars in der Trefferliste. Bestätigen Sie Ihre Auswahl abschließend mit `Fertigstellen` und die zugehörigen Angaben des Exemplars werden in den Datenfeldern des Segments `Buch/ Medium` hinterlegt.
 
-![In den Segmenten `Ausleiher` sowie `Buch/ Medien` der Datenmaske `Ausleihe & Rückgabe` werden die Daten des Ausleihers und des Medien-titels hinterlegt](../../assets/images/bibliothek/ausleihe_rueckgabe1.png)
+![In den Segmenten `Ausleiher` sowie `Buch/ Medien` der Datenmaske `Ausleihe & Rückgabe` werden die Daten des Ausleihers und des Medien-titels hinterlegt](/assets/images/bibliothek/ausleihe_rueckgabe1.png)
 
 ## Aktion auswählen und bestätigen
 
@@ -60,7 +60,7 @@ Es besteht darüber hinaus die Möglichkeit, die ausgewählte bzw. voreingestell
 • Wählen Sie aus dem Aufklappmenü die gewünschte Aktion aus.
 Damit die gewählte Aktion durchgeführt wird, betätigen Sie bitte die Schaltfläche `Aktionen ausführen`.
 
-![Im Segment `Vorgang` der Datenmaske `Ausleihe & Rückgabe` wählen Sie die Aktion, die Sie mit einem Exemplar durchführen möchten, und bestätigen diese.](../../assets/images/bibliothek/vorgang.png)
+![Im Segment `Vorgang` der Datenmaske `Ausleihe & Rückgabe` wählen Sie die Aktion, die Sie mit einem Exemplar durchführen möchten, und bestätigen diese.](/assets/images/bibliothek/vorgang.png)
 
 
 !!! info "Hinweis"
@@ -83,7 +83,7 @@ Um diese Berichtsdatei festzulegen, gehen Sie bitte folgendermaßen vor:
 Die ausgewählte Berichtsdatei ist nun als Quittungsvorlage hinterlegt und wird gemäß den getroffenen Einstellungen ausgegeben.
 
 
-![Auf der Registerkarte `Quittungen` des Dialogfensters `Optionen` stellen Sie die Berichtsdatei ein, die als Vorlage für den Quittungsdruck benutzt wird.](../../assets/images/bibliothek/quittungen.png)
+![Auf der Registerkarte `Quittungen` des Dialogfensters `Optionen` stellen Sie die Berichtsdatei ein, die als Vorlage für den Quittungsdruck benutzt wird.](/assets/images/bibliothek/quittungen.png)
 
 
 !!! info "Hinweis"
@@ -128,7 +128,7 @@ Suchen und bestimmen Sie im Segment `Barcode` das Exemplar: in der Vorgangsliste
 Oder
 Setzen Sie im erscheinenden Dialogfenster den Punkt im Kontrollkreis vor `Verlängern` oder `Zurückgeben`. Passen Sie ggf. im Eingabefeld unter `Verlängern` das Datum an , bis zu dem die Verlängerung gelten soll.
 
-![Im Dialogfenster `Aktion auswählen` treffen Sie die Entscheidung, ob ein bereits entliehenes Exemplar verlängert oder zurückgegeben werden soll](../../assets/images/bibliothek/aktion_auswaehlen.png)
+![Im Dialogfenster `Aktion auswählen` treffen Sie die Entscheidung, ob ein bereits entliehenes Exemplar verlängert oder zurückgegeben werden soll](/assets/images/bibliothek/aktion_auswaehlen.png)
 
 Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen.`
 
@@ -148,7 +148,7 @@ Gehen Sie dazu bitte folgendermaßen vor:
 4. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 Die neuen Einstellungen sind nun hinterlegt und werden mit dem nächsten Aufruf der Ansicht `Ausleihe` wirksam.
 
-![Auf der Registerkarte `Ausleihe` des Dialogfensters `Optionen` bestimmen Sie den Ver-längerungszeitraum und die Anzahl der möglichen Verlängerungen.](../../assets/images/bibliothek/optionen_ausleihe.png)
+![Auf der Registerkarte `Ausleihe` des Dialogfensters `Optionen` bestimmen Sie den Ver-längerungszeitraum und die Anzahl der möglichen Verlängerungen.](/assets/images/bibliothek/optionen_ausleihe.png)
 
 ### Aufgabe 14
 
@@ -231,7 +231,7 @@ Um mehrere Medientitel an einen Lehrer auszuleihen, gehen Sie bitte folgenderma�
 
 Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die Vorgangsdaten werden aus der Datenmaske gelöscht und in den Vorgangslisten bei den Ausleihern, sowie den Ansichten `Bücher/ Medien` und `Vorgänge` gespeichert.
 
-![Ausleihen eines Lehrersatzes](../../assets/images/bibliothek/Lehrersatz_verleihen.png)
+![Ausleihen eines Lehrersatzes](/assets/images/bibliothek/Lehrersatz_verleihen.png)
 
 ## Exemplare für mehrere Ausleiher zurückgeben
 

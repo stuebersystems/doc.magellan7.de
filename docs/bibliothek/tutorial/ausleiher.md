@@ -27,7 +27,7 @@ Damit Sie in MAGELLAN-BIBLIOTHEK Lehrer, Schüler und Personen aus dem Basismodu
 
 Außerdem muss in MAGELLAN-BIBLIOTHEK der Systemzeitraum Ihres Arbeitsrechners eingestellt sein. Der aktuell jeweils ausgewählte Zeitraum wird in der Schaltfläche `Aktueller Zeitraum` der Symbolleiste des Programmfensters angezeigt.
 
-![Der ausgewählte Zeitraum ist in der Schaltfläche `Aktueller Zeitraum` der Symbolleiste zu sehen.](../../assets/images/bibliothek/zeitraum.png)
+![Der ausgewählte Zeitraum ist in der Schaltfläche `Aktueller Zeitraum` der Symbolleiste zu sehen.](/assets/images/bibliothek/zeitraum.png)
 
 
 Beim Programmstart ist standardmäßig der Zeitraum voreingestellt, in den das Systemdatum Ihres Arbeitsrechners fällt. Für die Arbeit in MAGELLAN-BIBLIOTHEK sollten Sie an dieser Standardvorgabe nichts ändern.

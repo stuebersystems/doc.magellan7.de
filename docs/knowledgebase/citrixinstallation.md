@@ -34,11 +34,11 @@ MAGELLAN ist eine Anwendung, die nicht mit dieser Optimierung genutzt werden kan
 Bei der Speicheroptimierung unter Citrix können bestimmte Anwendungen von der Optimierung ausgeschlossen werden. 
 Sie müssen dazu MAGELLAN als eine von der Optimierung ausgeschlossene Anwendung definieren, wie die nachfolgende Abbildung zeigt
  
- ![MAGELLAN von der Speicheroptimierung ausschließen](../assets/images/knowledgebase/citrix01.png)
+ ![MAGELLAN von der Speicheroptimierung ausschließen](/assets/images/knowledgebase/citrix01.png)
  
 Tragen Sie dazu unter 'Speicheroptimierung > Anwendungen ausschließen' den lokalen Pfad zur Datei „MAGELLAN.exe“ auf dem Citrixserver ein (in der Abbildung als „D:\Stueber Systems\MAGELLAN 6\MAGELLAN.exe“).
 
-![MAGELLAN von der Speicheroptimierung ausschließen: Pfad eingeben](../assets/images/knowledgebase/citrix02.png)
+![MAGELLAN von der Speicheroptimierung ausschließen: Pfad eingeben](/assets/images/knowledgebase/citrix02.png)
 
 ## Problem C: Installationpaket konnte nicht geöffnet werden
 

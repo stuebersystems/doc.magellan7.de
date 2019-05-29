@@ -12,7 +12,7 @@ Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- 
 
 Klicken Sie auf `Start > Programme > STÜBER SYSTEMS > MAGELLAN`. Die MAGELLAN-Datenbank ist grundsätzlich kennwortgeschützt. Wenn Sie MAGELLAN bzw. den MAGELLAN-Administrator starten, müssen Sie in einem Anmeldedialog Ihre Benutzerkennung und Ihr Kennwort angeben.
  
-![MAGELLAN-Anmeldung](../../assets/images/dialog-anmeldung.png)
+![MAGELLAN-Anmeldung](/assets/images/dialog-anmeldung.png)
 
 Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan7.stueber.de/schulverwaltung/admin/users.html).
 
@@ -26,7 +26,7 @@ Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen lee
 Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslandspezifischen Schlüsselverzeichnisse und das Postleitzahlverzeichnis importieren. Die Schlüsselverzeichnisse beinhalten je nach Bundesland und Schulart die für die Statistik vorgeschriebenen möglichen Schlüssel. Sollten Sie Ihre leere Datenbank bereits für einen Versuch gefüllt haben, erhalten Sie im MAGELLAN ADMINISTRAROR im Unterpunkt `Datenbankpflege > Mandanten kopieren > MAGELLAN 6 nach MAGELLAN 7 ` über folgende Schaltfläche jederzeit eine neue leere Datenbank im aktuellen Format.
 
 
-  ![Datenbankpflege > Mandanten kopieren > Mag6 nach Mag7](../../assets/images/neue.leere.db.png)
+  ![Datenbankpflege > Mandanten kopieren > Mag6 nach Mag7](/assets/images/neue.leere.db.png)
 
 
 
@@ -45,13 +45,13 @@ Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der b
 
 3. Anschließend können Sie MAGELLAN starten und mit der Eingabe wichtiger Grunddaten in MAGELLAN beginnen.
   
-  ![Importassistent für Schlüsselverzeichnisse](../../assets/images/dialog-import-schluesselverz.png)
+  ![Importassistent für Schlüsselverzeichnisse](/assets/images/dialog-import-schluesselverz.png)
 
 !!! info "Hinweis"
 
   Sie können im Assistenten „Importiere Schlüsselverzeichnisse/Kataloge“ im Feld „Importiere folgenden Katalog“ auch einzelne Kataloge zum Import auswählen.
 
-![Importassistent für Postleitzahlen](../../assets/images/dialog-import-plz.png)
+![Importassistent für Postleitzahlen](/assets/images/dialog-import-plz.png)
 
 !!! info "Hinweis"
 
@@ -81,13 +81,13 @@ Sie sollten also, wenn Sie anfangen mit MAGELLAN zu arbeiten, diese Verzeichniss
 
 2. Es öffnet sich das Dialogfenster Schlüsselverzeichnisse.
   
-  ![Weitere Schlüsselverzeichnisse](../../assets/images/dialog-schluesselverz.png)
+  ![Weitere Schlüsselverzeichnisse](/assets/images/dialog-schluesselverz.png)
 
 3. Im Fenster „Schlüsselverzeichnisse“ sind alle Schlüsselverzeichnisse aufgelistet, die es in MAGELLAN gibt, allerdings sind nicht alle in der Startansicht zu sehen, sondern werden erst mit der Auswahl des jeweiligen Gruppenfilters gezeigt. Den Gruppenfilter finden Sie links oben im Fenster, hier sind Verzeichnisse nach bestimmten Gruppen zusammengefasst, zum Beispiel alle Merkmalsverzeichnisse sind in der Gruppe Merkmale.
 
 4. Wählen Sie das gewünschte Schlüsselverzeichnis aus, z.B. „Dienstbezeichnungen“, und klicken Sie auf das Stiftsymbol um es zu bearbeiten. Das gewünschte Schlüsselverzeichnis kann jetzt editiert werden.
   
-  ![Verzeichnis der Dienstbezeichnungen](../../assets/images/dialog-dienstbez.png)
+  ![Verzeichnis der Dienstbezeichnungen](/assets/images/dialog-dienstbez.png)
 
 5. Wenn nicht schon die einzelnen Schlüssel voreingestellt sind, haben Sie hier die Möglichkeit Schlüssel einzutragen, indem Sie auf das Plus für` Neue Zeile` klicken. Sie können dann direkt in der neu eingefügten Zeile die notwendigen Angaben wie z.B. Kürzel (Mindesteingabe), Schlüssel und Bezeichnung angeben. 
 
@@ -99,7 +99,7 @@ Der Schlüssel wird in dem Verzeichnis geändert. Alle Einträge in den Schlüss
 
 * Möchten Sie ein Schlüsselverzeichnis nach Excel exportieren, so klicken Sie auf das Symbol für den Export nach Excel (schwarzes Kästchen mit einem X). Es öffnet sich das Dialogfenster Liste exportieren nach Excel.
 
-![Schlüsselverzeichnisse exportieren](../../assets/images/dialog-schluesselverz-speichern.png)
+![Schlüsselverzeichnisse exportieren](/assets/images/dialog-schluesselverz-speichern.png)
 
 Wählen Sie eine Pfadangabe nach Ihren Wünschen, vergeben Sie einen Dateinamen und klicken Sie auf Speichern. Excel startet automatisch und öffnet die soeben angelegte Datei. 
 
@@ -124,7 +124,7 @@ Alle anderen Schlüsselverzeichnisse gelten für alle Mandanten.
 
 In MAGELLAN muss mindestens ein Mandant definiert sein. Wie schon früher erwähnt, ist der Mandant in der Regel Ihre eigene Schule. In der Standardversion von MAGELLAN können Sie nur einen Mandanten eintragen. Dieser Mandant entspricht Ihrer Schule. Besitzen Sie eine SchoolCentral-Lizenz für mehrere Mandanten, können Sie mehr als einen Mandanten in MAGELLAN erfassen. Alle Stammdaten in MAGELLAN sind automatisch einem Mandanten zugeordnet. Alle Betrachtungen in MAGELLAN erfolgen auf Basis des aktuell ausgewählten Mandanten.
 
-![Mandant auswählen](../../assets/images/select-mandanten-zeitraeume.png)
+![Mandant auswählen](/assets/images/select-mandanten-zeitraeume.png)
 
 Besitzen Sie eine mandantenfähige Version von MAGELLAN, so müssen Sie bei Bedarf zwischen den Mandanten wechseln, um die gewünschten Daten zum jeweiligen Mandanten zu sehen.
 
@@ -154,7 +154,7 @@ Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor 
 
 Um einen neuen Zeitraum zu definieren, klicken Sie im Menü `Extras > Schlüsselverzeichnisse` auf `Zeiträume`. 
 
-![Verzeichnis der Zeiträume](../../assets/images/dialog-zeitraeume.png)
+![Verzeichnis der Zeiträume](/assets/images/dialog-zeitraeume.png)
 
 ### Halbjahre
 
@@ -192,13 +192,13 @@ Wenn Sie sich entschieden haben mit Trimestern zu arbeiten, steht Ihnen der Assi
 
 Sie haben die Möglichkeit, sich einen aktuellen Zeitraum zu definieren. Beim Öffnen von MAGELLAN wird standardmäßig der höchste eingegebene Zeitraum geöffnet. Wenn Sie sich einen aktuellen Zeitraum definieren, wird dieser automatisch nach dem Start angezeigt. Klicken Sie dazu auf `Extras` und dann auf `Optionen`. Auf der Registerkarte `Start` können Sie unter `Zeitraum` den aktuellen Zeitraum auswählen.
 
-![Den Startzeitraum in den Optionen einstellen](../../assets/images/dialog-optionen-1.png)
+![Den Startzeitraum in den Optionen einstellen](/assets/images/dialog-optionen-1.png)
 
 ## Zeitraum auswählen
 
 Sie können die Zeiträume wechseln, um beispielsweise historische Daten anzusehen oder für das kommende Schuljahr schon mit der Dateneingabe zu beginnen. In der Symbolleiste oben links wird Ihnen der Zeitraum angezeigt, in dem Sie arbeiten.
 
-![Den aktuellen Zeitraum auswählen (hier: 2. Halbjahr 2010/2011)](../../assets/images/select-mandanten-zeitraeume.png)
+![Den aktuellen Zeitraum auswählen (hier: 2. Halbjahr 2010/2011)](/assets/images/select-mandanten-zeitraeume.png)
 
 ## Daten importieren
 

@@ -4,7 +4,7 @@
 
 Die Berechnung der Fachhochschulreife erfolgt wie die Abiturzulassungsberechnung auf der Registerkarte `Qualifikation `in der Ansicht „Abitur“. Die Berechnungsvorschrift ist im gleichen Skript realisiert wie die Berechnungen für die Abiturqualifikation. Als Voraussetzung müssen Sie dazu die Schüler vorher in die Ansicht „Abitur“ synchronisieren (siehe „Schülerdaten in die Ansicht „Abitur“ synchronisieren“).
  
-![ Registerkarte „Qualifikation“ in der Ansicht „Abitur“ mit der Berechnung der Fachhochschulreife](../../../assets/images/berlin/fhs/fhs1.png)
+![ Registerkarte „Qualifikation“ in der Ansicht „Abitur“ mit der Berechnung der Fachhochschulreife](/assets/images/berlin/fhs/fhs1.png)
 
 ##	Fachhochschulreife automatisch berechnen
 

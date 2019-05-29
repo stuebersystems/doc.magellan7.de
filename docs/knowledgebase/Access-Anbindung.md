@@ -61,7 +61,7 @@ Unter Windows 95/98/ME gehen Sie dazu wie folgt vor:
 | 3.  | Klicken Sie auf ODBC Datenquellen 32-Bit. |
 
 
-![ODBC-Datenquellen-Administrator](../assets/images/knowledgebase/Import_Export.ODBC2.png)
+![ODBC-Datenquellen-Administrator](/assets/images/knowledgebase/Import_Export.ODBC2.png)
 
 Im Dialogfenster „ODBC-Datenquellen-Administrator“ können Sie nun unterschiedliche Möglichkeiten wählen, um eine ODBC-Verbindung aufzubauen.
 
@@ -80,7 +80,7 @@ Bei der benutzerabhängigen ODBC-Datenquelle wird die Einrichtung pro Benutzer a
 
 4. |Füllen Sie im Dialogfenster „Firebird ODBC Setup“ mindestens die nachfolgenden Felder aus.
 
-![Das Dialogfenster „FirebirdODBC Setup“](../assets/images/knowledgebase/fb-odbc.png)
+![Das Dialogfenster „FirebirdODBC Setup“](/assets/images/knowledgebase/fb-odbc.png)
 
 
 | Feld                  | Eintrag                                  |

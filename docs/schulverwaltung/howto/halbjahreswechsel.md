@@ -22,9 +22,9 @@ Um Schüler fortzuschreiben:
 Schritt|Aktion
 --|--
 **1.**|Klicken Sie auf `Laufbahnprozess `und dann auf `Schüler fortschreiben`. 
-**2.**|Es öffnet sich der Assistent` Schüler fortschreiben`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.<br/><br/>![Dialog „Schüler fortschreiben](../../assets/images/halbjahreswechsel/halbjahreswechsel.png) 
+**2.**|Es öffnet sich der Assistent` Schüler fortschreiben`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.<br/><br/>![Dialog „Schüler fortschreiben](/assets/images/halbjahreswechsel/halbjahreswechsel.png) 
 **3.**|Markieren Sie unter `Schüler auswählen` die Schüler, die Sie in das zweite Halbjahr fortschreiben möchten. Sie haben die Möglichkeit, die Schüler aller Klassen auf einmal in das zweite Halbjahr fortzuschreiben. Klicken Sie auf `Weiter`.
-**4.**|Geben Sie unter `Weitere Angaben` zusätzliche Merkmale an, die sich auf den nächsten Zeitraum beziehen. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Fortschreiben der Schüler durchzuführen.<br/><br/>![Beim Fortschreiben zwischen den Halbjahren können diese Angaben optional erhöht werden](../../assets/images/halbjahreswechsel/halbjahreswechsel2.png)
+**4.**|Geben Sie unter `Weitere Angaben` zusätzliche Merkmale an, die sich auf den nächsten Zeitraum beziehen. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Fortschreiben der Schüler durchzuführen.<br/><br/>![Beim Fortschreiben zwischen den Halbjahren können diese Angaben optional erhöht werden](/assets/images/halbjahreswechsel/halbjahreswechsel2.png)
 
 !!! info "Hinweis"
 

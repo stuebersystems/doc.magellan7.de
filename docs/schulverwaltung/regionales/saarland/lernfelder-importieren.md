@@ -30,11 +30,11 @@ Die Datei BS_Faecher.keys befindet sich bei Standardinstallationen auf Ihrem Ser
 
 Öffnen Sie einen Editor (Windows Texteditor)und aus dem Programm heraus die Importdatei. 
 
-![Wählen Sie "Alle Dateien" um die BS_Faecher.keys gezeigt zu bekommen](../../../assets/images/keys_editieren.png)
+![Wählen Sie "Alle Dateien" um die BS_Faecher.keys gezeigt zu bekommen](/assets/images/keys_editieren.png)
 
 Achten Sie darauf, dass unten rechts im Öffnendialog die Auswahl auf "Alle Dateien (*.*)" steht, um auch die Datei mit der Endung *.keys zu sehen.
 
-![Inhalt der Datei](../../../assets/images/keys.png)
+![Inhalt der Datei](/assets/images/keys.png)
 
 Löschen Sie bitte die Zeilen, die an Ihrer Schule nicht benötigt werden oder kopieren Sie (dann bitte auch die Kopfzeile) die benötigten Zeilen in eine neue Textdatei. 
 
@@ -53,7 +53,7 @@ Für den Import öffnen Sie bitte das Modul MAGELLAN ADMINISTRATOR und wählen d
 Wählen Sie bitte die nachfolgenden Einstellungen um gezielt das bearbeitete Verzeichnis einzulesen. 
 
 
-![Importdialog](../../../assets/images/keys_importieren.png)
+![Importdialog](/assets/images/keys_importieren.png)
 
 !!! info "Hinweis"
 

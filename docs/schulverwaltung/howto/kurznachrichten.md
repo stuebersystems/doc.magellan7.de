@@ -12,7 +12,7 @@ MAGELLAN erlaubt es Ihnen  Kurznachrichten an Schüler, Lehrer, Personen und Sor
 
 ## Mitteilung senden
  
-![Geben Sie hier die Kurznachricht als Mitteilung für bestimmte Empfängergruppen ein](../../assets/images/sms/sms1.png)
+![Geben Sie hier die Kurznachricht als Mitteilung für bestimmte Empfängergruppen ein](/assets/images/sms/sms1.png)
 
 Um bestimmte Gruppen mit einer Kurznachricht mittels E-Mail und/oder SMS zu informieren, müssen Sie wie folgt vorgehen.
 
@@ -28,7 +28,7 @@ Um bestimmte Gruppen mit einer Kurznachricht mittels E-Mail und/oder SMS zu info
 
 ## Notfall senden
  
-![Geben Sie hier die Notfallmitteilung ein](../../assets/images/sms/sms2.png)
+![Geben Sie hier die Notfallmitteilung ein](/assets/images/sms/sms2.png)
 
 
 
@@ -46,7 +46,7 @@ In Notfällen, z.B. einem Feueralarm, können Sie mit einem einzigen Dialogfenst
 
 ## SMS Protokoll
  
-![Hier sehen Sie das Protokoll aller versendeten SMS](../../assets/images/sms/sms3.png)
+![Hier sehen Sie das Protokoll aller versendeten SMS](/assets/images/sms/sms3.png)
 
 
 

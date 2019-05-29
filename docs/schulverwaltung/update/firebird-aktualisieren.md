@@ -24,29 +24,29 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 3. Starten Sie die Installation von Firebird per Doppelklick auf die heruntergeladene Datei. Folgen Sie dann bitte der Installation wie nachstehend abgebildet:
 
-![test!](../../assets/images/update/fb.1.png)
+![test!](/assets/images/update/fb.1.png)
 
-![Stoppen Sie bitte den Firebird-Server!](../../assets/images/update/fb.1.png)
+![Stoppen Sie bitte den Firebird-Server!](/assets/images/update/fb.1.png)
 
-![Starten Sie Firebird-Installation per Doppelklick!](../../assets/images/update/fb.2.png)
+![Starten Sie Firebird-Installation per Doppelklick!](/assets/images/update/fb.2.png)
 
-![Die bestehende Installation wird erkannt, klicken Sie auf "Nein" um die Installation dennoch ausführen zu können!](../../assets/images/update/fb.3.png)
+![Die bestehende Installation wird erkannt, klicken Sie auf "Nein" um die Installation dennoch ausführen zu können!](/assets/images/update/fb.3.png)
 
-![Weiter!](../../assets/images/update/fb.4.png)
+![Weiter!](/assets/images/update/fb.4.png)
 
-![Akzeptieren Sie bitte!](../../assets/images/update/fb.5.png)
+![Akzeptieren Sie bitte!](/assets/images/update/fb.5.png)
 
-![Hier wird der Speicherort gewählt, Sie können den vorgeschlagenen Pfad übernehmen.](../../assets/images/update/fb.6.png)
+![Hier wird der Speicherort gewählt, Sie können den vorgeschlagenen Pfad übernehmen.](/assets/images/update/fb.6.png)
 
-![Die voreingestellten Angaben bitte unverändert übernehmen!](../../assets/images/update/fb.7.png)
+![Die voreingestellten Angaben bitte unverändert übernehmen!](/assets/images/update/fb.7.png)
 
-![Weiter!](../../assets/images/update/fb.8.png)
+![Weiter!](/assets/images/update/fb.8.png)
 
-![Weiter!](../../assets/images/update/fb.9.png)
+![Weiter!](/assets/images/update/fb.9.png)
 
-![Fertigstellen!](../../assets/images/update/fb.10.png)
+![Fertigstellen!](/assets/images/update/fb.10.png)
 
-![Starten Sie den Firebird-Server wieder](../../assets/images/update/fb.11.png)
+![Starten Sie den Firebird-Server wieder](/assets/images/update/fb.11.png)
 
 ## Update von Firebird 2.5.1/2.5.2 auf 2.5.5
 
@@ -54,7 +54,7 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2
    Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.5](ftp://ftp.stueber.de/pub/bin/de/magellan/v6/Firebird-2.5.5.26952_0_Win32.exe)
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 
-![Firebird-Server-Dienst stoppen](../../assets/images/firebird_stop.jpg)
+![Firebird-Server-Dienst stoppen](/assets/images/firebird_stop.jpg)
 
 1. Starten Sie die Installation per Doppelklick auf das Installationspaket. Folgen Sie dem Installationsassistenten.
 2. Starten Sie den Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Neu starten`.
@@ -82,11 +82,11 @@ Bitte folgen Sie diesen Schritten:
 
 6. Melden Sie sich als sysdba am Magellan-Administrator an und erstellen unter `Datenbanksicherung > Sicherungskopie erstellen` eine Sicherung der Datenbank. Der Speicherort der Sicherung muss sich auf dem Rechner befinden, auf dem sich Ihre Magellan-Datenbank befindet. Wir empfehlen die Sicherung im Verzeichnis Datenbank &gt; Backup zu erstellen und als Dateinamen das Tagesdatum zu verwenden.
 
-![Datenbank sichern](../../assets/images/db_sichern.jpg)
+![Datenbank sichern](/assets/images/db_sichern.jpg)
 
 1. Stellen Sie anschließend aus der Sicherung eine neue Datenbank wiederher, verwenden Sie dafür den Punkt `Datenbanksicherung > Sicherungskopie wiederherstellen`. Sie können mit der neuen Datenbank nicht Ihre aktuelle Datenbank überschreiben, verwenden Sie bitte einen neuen Datennamen.
 
-![](../../assets/images/db_neu.jpg)
+![](/assets/images/db_neu.jpg)
 
 1. Tauschen Sie bitte die aktuelle Datenbank gegen die mit der aktuellen Firebirdversion wiederhergestellte Datenbank aus. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`. Benennen Sie die aktuelle Datenbank um (z.B. in alt\_Magellan6.fdb} und geben der wiederhergestellten Datenbank den bisherigen Datenbanknamen.Starten Sie den Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Neu starten`. Anschließend starten Sie Magellan und folgen bitte dem Assistenten zur Datenstrukturanpassung.
 

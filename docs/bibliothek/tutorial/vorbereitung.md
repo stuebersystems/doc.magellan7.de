@@ -42,11 +42,11 @@ Um MAGELLAN-BIBLIOTHEK das erste Mal zu starten, gehen Sie bitte folgendermaßen
 
 Es öffnet sich das Dialogfenster  `MAGELLAN-Anmeldung `, in das Sie einen Benutzernamen und ein Kennwort eintragen müssen. Tragen Sie hier bitte den Benutzernamen sysdba und das Kennwort masterkey \(gilt nur für neuinstallierte Testsysteme\) ein, die als Zugangsdaten bei jeder Installation standardmäßig hinterlegt werden. Außerdem müssen Sie in diesem Anmeldedialog den Namen der Datenbank, die Sie nutzen möchten, angeben. Beim ersten Programmstart steht Ihnen hier nur der Eintrag  `Magellan ` zur Verfügung. Unter diesem Namen ist die mitgelieferte Demo-Datenbank für den Zugriff in Magellan registriert.
 
-![Das Dialogfenster  `Magellan-Anmeldung ` erscheint vor jedem Programmstart ](../../assets/images/bibliothek/bib.anmeldung.png)
+![Das Dialogfenster  `Magellan-Anmeldung ` erscheint vor jedem Programmstart ](/assets/images/bibliothek/bib.anmeldung.png)
 
 Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem  `Willkommensfenster` geöffnet.
  
-![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von MAGELLAN-BIBLIOTHEK und verweist Sie auf weiterführende Informationen und Services.](../../assets/images/bibliothek/willkommen.png)
+![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von MAGELLAN-BIBLIOTHEK und verweist Sie auf weiterführende Informationen und Services.](/assets/images/bibliothek/willkommen.png)
 
  Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladministrator persönliche Zugangsdaten erhalten hatten, können Sie nach dem Programmstart Ihr persönliches Anmeldekennwort festlegen. Gehen Sie dazu bitte folgendermaßen vor:
 
@@ -67,7 +67,7 @@ Unsere Demo-Datenbank enthält bereits eine ganze Reihe von Medientiteln, so das
 Zur Liste der bereits eingegebenen Medien gelangen Sie, indem Sie über die blaue Navigationsleiste am linken Rand des Programmfensters die Ansicht  `Bücher/ Medien` aufrufen. Die Programmansicht  `Bücher/ Medien` enthält eine Reihe miteinander verknüpfter Registerkarten, die über das Anklicken des jeweiligen Reiters aufgerufen werden können. Die Registerkarte  `Auswahl ` enthält die Liste der Bücher- und Medientitel.
 
 
-![Die Registerkarte  `Auswahl ` der Ansicht  `Bücher/ Medien ` enthält die Liste der Bücher- und Medientitel](../../assets/images/bibliothek/medien.png)
+![Die Registerkarte  `Auswahl ` der Ansicht  `Bücher/ Medien ` enthält die Liste der Bücher- und Medientitel](/assets/images/bibliothek/medien.png)
 
 Damit Sie dieser Liste ein neues Medium hinzufügen können, müssen Sie die folgenden drei Arbeitsschritte ausführen:
 
@@ -80,7 +80,7 @@ Damit Sie dieser Liste ein neues Medium hinzufügen können, müssen Sie die fol
 Bei der Durchführung dieser Schritte unterstützt Sie der Eingabeassistent  `Neue Medien und Exemplare anlegen`, den Sie über die Programmansicht  `Bücher/Medien` erreichen. Diesen Assistenten rufen Sie auf, indem Sie z.B. den Befehl  `Bearbeiten\|Neuer Datensatz` ausführen oder mit der linken Maustaste auf die Schaltfläche  `Neuer Datensatz` in der Symbolleiste des Programmfensters klicken.
 
 
-![Über die erste Seite des Eingabeassistenten  `Neue Medien und Exemplare anlegen ` wählen Sie den Weg, über den Sie die Mediendaten erfassen möchten](../../assets/images/bibliothek/neue.medien.png)
+![Über die erste Seite des Eingabeassistenten  `Neue Medien und Exemplare anlegen ` wählen Sie den Weg, über den Sie die Mediendaten erfassen möchten](/assets/images/bibliothek/neue.medien.png)
 
 ### Mediendaten eingeben
 

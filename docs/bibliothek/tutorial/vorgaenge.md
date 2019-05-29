@@ -21,7 +21,7 @@ Wenn Sie den Wert 0 Tage eintragen, werden Ihre abgeschlossenen Vorgänge zu kei
 Bestätigen Sie Ihre Angaben mit `OK`. Die geänderten Einstellungen werden mit dem nächsten Aufruf der Ansicht `Vorgänge` wirksam.
 Hinweis Auf der Registerkarte `Historie` kann sich mit der Zeit eine beträchtliche Anzahl von Einträgen ansammeln. Eine große Masse von Einträgen verlängert die Ladezeiten und beeinträchtigt die Übersichtlichkeit. Wählen Sie deshalb eine möglichst kurze Vorhaltezeit für Ihre abgeschlossenen Leihvorgänge. Diese sollte in Abhängigkeit von der Verleihaktivität in Ihrer Bibliothek gewählt werden.
 
-![Die Registerkarte `Aktuell` der Ansicht `Vorgänge` bietet die zentrale Übersicht zu allen laufenden Leihvorgängen.](../../assets/images/bibliothek/aktuelle_Vorgaenge.png)
+![Die Registerkarte `Aktuell` der Ansicht `Vorgänge` bietet die zentrale Übersicht zu allen laufenden Leihvorgängen.](/assets/images/bibliothek/aktuelle_Vorgaenge.png)
 
 ## Ansicht `Bücher/Medien`
 

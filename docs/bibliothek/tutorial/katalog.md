@@ -31,7 +31,7 @@ Ihre Veränderungen sind nun im Verzeichnis der Medienkataloge hinterlegt. Sollt
 
 Legen Sie einen neuen Medienkatalog mit der Bezeichnung `Lehrerkatalog` und dem Kürzel `Lehrer` an.
 
-![Im Dialogfenster `Verzeichnis der Medienkataloge` legen Sie neue Kataloge an.](../../assets/images/bibliothek/medienkataloge.png)
+![Im Dialogfenster `Verzeichnis der Medienkataloge` legen Sie neue Kataloge an.](/assets/images/bibliothek/medienkataloge.png)
 
 ## Medienkatalog für eine Aktion auswählen
 
@@ -56,7 +56,7 @@ Um einen Katalog für eine bestimmte Aktion auszuwählen, führen Sie bitte die 
 
 Ändern Sie für die nachfolgenden Aufgaben die Einstellung des aktuellen Medienkatalogs von `Alle Medienkataloge` in `Standardkatalog`.
 
-![Im Dialogfenster `Medienkatalog auswählen` stellen Sie den aktuellen Medienkatalog ein.](../../assets/images/bibliothek/medienkataloge2.png)
+![Im Dialogfenster `Medienkatalog auswählen` stellen Sie den aktuellen Medienkatalog ein.](/assets/images/bibliothek/medienkataloge2.png)
 
 ## Benutzerrechte für Medienkataloge zuweisen
 

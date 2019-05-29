@@ -15,7 +15,7 @@ Mandant  | Mandanten starten MAGELLAN als Voreinstellung.
 Zeitraum | Der gewählte Zeitraum wird beim Programmstart vorausgewählt
 
 
-![Unterkarte Start](../../assets/images/optionen_start.png)
+![Unterkarte Start](/assets/images/optionen_start.png)
 
 ## Ein-/Ausblenden
 
@@ -48,13 +48,13 @@ Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht
 	Die Funktion des Ein- und Ausblendens von Bereichen ist abhängig von Ihrer Lizenzierung. Besitzen Sie beispielsweise nicht das Modul „MAGELLAN Berufsbildende Schule“, können Sie den Bereich „Berufsschule“ in MAGELLAN nicht einblenden. 
 
 
-![Geben Sie hier an, welche Bereiche ein- bzw. ausgeblendet werden sollen.](../../assets/images/optionen_einausblenden.png)
+![Geben Sie hier an, welche Bereiche ein- bzw. ausgeblendet werden sollen.](/assets/images/optionen_einausblenden.png)
 
 ## Bewerberverfahren
 
 Wählen Sie hier die gewünschten Einstellungen für Ihr Bewerberverfahren. Bitte lesen Sie hierzu den Abschnitt [„Bewerberverfahren durchführen“](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#bewerberverfahren-durchf%C3%BChren).
 
-![Unterkarte Bewerberverfahren](../../assets/images/optionen_bewerberverfahren.png)
+![Unterkarte Bewerberverfahren](/assets/images/optionen_bewerberverfahren.png)
 
 ## Einstellungen
 
@@ -72,13 +72,13 @@ Durchschnitt in Berufsschule |Wählen Sie, ob die Halbjahresdurchschnitte unter 
 Abgleich Qualifikation/Fachwahl im Abitur |Wählen Sie aus, ob beim Synchronisieren der Schüleroberstufendaten die Fachwahldaten entsprechend ergänzt werden sollen. Beide Ansichten, `Abitur > Fachwahl` und `Abitur > Qualifikation` aktualisieren sich anschließend bei Änderungen von Fächern oder deren Eigenschaften. Bitte beachten Sie dazu den Abschnitt „Abgleich der Karte Qualifikation und Karte Fachwahl im Menü Abitur“. Diese Option kann nur mit der sysdba-Anmeldung verändert werden.
 Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro Note eine Farbe festlegen, die den Hintergrund des Notenfeldes unter `Schüler > Zeugnis > Leistungen `und in der Notenübersicht füllt. Ob diese Auswahl mit gezeigt werden soll, können Sie hier optional festlegen. Diese Option kann nur mit der sysdba-Anmeldung verändert werden.
 
-![Einstellungen](../../assets/images/optionen_einstellungen.png)
+![Einstellungen](/assets/images/optionen_einstellungen.png)
 
 ## Update
 
 Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan7.stueber.de/schulverwaltung/update.html).
 
-![Unterkarte Update](../../assets/images/optionen_update.png)
+![Unterkarte Update](/assets/images/optionen_update.png)
 
 
 ## Digitalquelle
@@ -91,7 +91,7 @@ Passfotos für Bewerber, Schüler, Lehrer oder Personen können direkt über die
 
 Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumente einzuscannen, so können Sie eine Digitalquelle unter Aktuell Digitalquelle für Dokumente auswählen. Zur Auswahl werden alle Digitalquellen des Rechners angeboten, die eine Twain-Schnittstelle besitzen und deren Twain-Treiber installiert ist.
 
-![Geben Sie hier die Digitalquellen an, die Sie für das Erfassen von Passbildern bzw. Dokumenten nutzen wollen.](../../assets/images/optionen_digitalquelle.png)
+![Geben Sie hier die Digitalquellen an, die Sie für das Erfassen von Passbildern bzw. Dokumenten nutzen wollen.](/assets/images/optionen_digitalquelle.png)
 
 ## Dokumente
 
@@ -109,7 +109,7 @@ Für den Druck von Crystal Reports Berichten gehen Sie wie folgt vor:
 
 4. Markieren Sie pro Ansicht, ob nach dem Druck der gefüllte Berichte in der Dokumentenverwaltung gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die PDF-Datei gespeichert werden soll.
 
-![Hier ist für die Ansicht „Klassen“ angegeben, dass neben dem Ausdruck zusätzlich eine PDF-Datei in der Dokumentenverwaltung im Unterordner „Berichte“ erzeugt werden soll](../../assets/images/optionen_dok_cr.png)
+![Hier ist für die Ansicht „Klassen“ angegeben, dass neben dem Ausdruck zusätzlich eine PDF-Datei in der Dokumentenverwaltung im Unterordner „Berichte“ erzeugt werden soll](/assets/images/optionen_dok_cr.png)
 
 ### Einstellung für Word-Seriendruck
 
@@ -123,7 +123,7 @@ Für den Druck von Worddokumenten im Rahmen des Seriendrucks gehen Sie wie folgt
 
 4. Markieren Sie pro Ansicht, ob vor dem Word-Seriendruck in der Dokumentenverwaltung eine Word-Datei gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die Word-Datei gespeichert werden soll.
 
-![Hier ist für die Ansicht „Klassen“ angegeben, dass neben vor dem eigentlichen Word-Seriendruck das gefüllte Worddokumente in der Dokumentenverwaltung im Unterordner „Word“ erzeugt werden soll.](../../assets/images/optionen_dok_word.png)
+![Hier ist für die Ansicht „Klassen“ angegeben, dass neben vor dem eigentlichen Word-Seriendruck das gefüllte Worddokumente in der Dokumentenverwaltung im Unterordner „Word“ erzeugt werden soll.](/assets/images/optionen_dok_word.png)
 
 !!! info "Hinweis"
 
@@ -142,7 +142,7 @@ Word-Seriendruckdokumente:
 * [Datum, Uhrzeit] Name Vorlagenname
 * [Datum, Uhrzeit] Vorlagenname
 
-![Dateinamenkonventionen für die MAGELLAN-Dokumentenverwaltung](../../assets/images/optionen_dok_dateinamen.png) 
+![Dateinamenkonventionen für die MAGELLAN-Dokumentenverwaltung](/assets/images/optionen_dok_dateinamen.png) 
 
 ## Rechtschreibung
 
@@ -151,21 +151,21 @@ Es steht Ihnen optional eine Rechtschreibprüfung an zwei Stellen im Programm zu
 * Für Zeugnisbemerkungen unter `Schüler > Zeugnis > Zeugnis > Zeugnisbemerkungen`.
 * Für Zeugnisbeurteilungen unter `Schüler > Zeugnis > Leistungen`. Hierbei müsste als Beurteilungsart der Klasse unter `Klassen > Daten > Beurteilungsart` „Beurteilungstexte“ gewählt werden.
 
-![Unterkarte Rechtschreibung](../../assets/images/optionen_rechtschreibung.png) 
+![Unterkarte Rechtschreibung](/assets/images/optionen_rechtschreibung.png) 
 
 ## Masken
 
 Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/masken.html) beschrieben.
 
 
-![Unterpunkt `Masken`](../../assets/images/optionen_masken.png)
+![Unterpunkt `Masken`](/assets/images/optionen_masken.png)
 
 ## E-Mail
 
 Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewählte Gruppen E-Mails versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter informiert werden. Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die E-Mailadressen einpflegen. Auf der nachfolgenden Karte erfassen Sie bitte dazu die Verbindungsdetails.
 
 
-![Hier sehen Sie ein Beispiel für die Eintragungen dieser Karte](../../assets/images/optionen.01.png)
+![Hier sehen Sie ein Beispiel für die Eintragungen dieser Karte](/assets/images/optionen.01.png)
 
 
 !!! info "Hinweis"
@@ -184,7 +184,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 	Auf dieser Karte erfassen Sie bitte dazu die Verbindungsdetails, die Sie beim Erwerb eines SMS-Pakets von uns erhalten.
 
-![Es sind keine Daten erfasst, die Einträge für Ihre Schule teilen wir Ihnen beim Erwerb des Moduls LIVEMESSAGE mit](../../assets/images/optionen.02.png)
+![Es sind keine Daten erfasst, die Einträge für Ihre Schule teilen wir Ihnen beim Erwerb des Moduls LIVEMESSAGE mit](/assets/images/optionen.02.png)
 
 
 !!! info "Hinweis"
@@ -205,6 +205,6 @@ ENBREA ist ein webbasiertes Schulportal, das bestehende Anwendungen wie z.b. DAV
 Wählen Sie hier die Einstellungen für zusätzliche Funktionen, die im Rahmen der ENBREA Entwicklung in MAGELLAN zur Verfügung gestellt werden.
 
 
-![Unterkarte ENBREA](../../assets/images/optionen_enbrea.png)
+![Unterkarte ENBREA](/assets/images/optionen_enbrea.png)
 
 

@@ -68,7 +68,7 @@ Um eine Liste nach einer einzelnen Spalte zu gruppieren, führen Sie bitte folge
 3. Platzieren Sie den Spaltenkopf in den grauen Bereich, indem Sie die linke Maustaste freigeben
 Sie erhalten nun eine veränderte Listendarstellung.
 
-![Hier wurde die Liste der Bücher/ Medien nach der Spalte `Autor` gruppiert. Sie sehen einen Gruppierungsbalken für jeden Autor. Der Gruppierungsbalken für den Autor `Johann W. von Goethe` ist zu einer Teilliste mit den vollständigen Listendaten zu diesem Spaltenelement aufgeklappt.](../../assets/images/bibliothek/gruppierung.png)
+![Hier wurde die Liste der Bücher/ Medien nach der Spalte `Autor` gruppiert. Sie sehen einen Gruppierungsbalken für jeden Autor. Der Gruppierungsbalken für den Autor `Johann W. von Goethe` ist zu einer Teilliste mit den vollständigen Listendaten zu diesem Spaltenelement aufgeklappt.](/assets/images/bibliothek/gruppierung.png)
 
 Die gesamte Liste besteht nun aus einer Reihe grauer Gruppierungsbalken, auf denen jeweils nur die Listenelemente der gruppierten Spalte ausgewiesen sind. Die Informationen aus allen anderen Spalten bleiben hingegen ausgeblendet. Die einzelnen Gruppierungsbalken können jeweils zu Teillisten auf- und wieder zugeklappt werden, welche die ausgeblendeten Informationen zu dem betreffenden Spaltenelement enthalten.
 
@@ -76,7 +76,7 @@ Um den Gruppierungsbalken eines Spaltenelements zur Teilliste aufzuklappen, bet�
 
 Sie können außerdem eine Liste nach mehreren Spalten gruppieren. Ziehen Sie dafür einfach noch weitere Spaltenköpfe in den dunkelgrauen Bereich über den Spalten. Auf diese Weise erhalten Sie eine mehrfach verschachtelte Darstellung.
 
-![Hier wurde die Liste der Bücher/ Medien nach den Spalten `Autor` und `Kategorie` gruppiert. Der Gruppierungsbalken für den Autor Friedrich von Schiller enthält selbst wiederum zwei Gruppierungsbalken für die Kategorien `Bellet` und `Klassik`, die jeweils zu einer Teilliste aufgeklappt sind. ](../../assets/images/bibliothek/gruppierung1.png)
+![Hier wurde die Liste der Bücher/ Medien nach den Spalten `Autor` und `Kategorie` gruppiert. Der Gruppierungsbalken für den Autor Friedrich von Schiller enthält selbst wiederum zwei Gruppierungsbalken für die Kategorien `Bellet` und `Klassik`, die jeweils zu einer Teilliste aufgeklappt sind. ](/assets/images/bibliothek/gruppierung1.png)
 
 Die Gruppierungsbalken der erstgruppierten Spalte enthalten die Gruppierungsbalken der nachfolgend gruppierten Spalten. Die Gruppierungsbalken der letztgruppierten Spalte können zur Teilliste aufgeklappt werden.
 
@@ -94,13 +94,13 @@ Wenn Sie nach den ganzen Zellinhalten einer Spalte filtern, dann werden Ihnen al
 2. Klicken Sie mit der linken Maustaste auf diese Pfeilschaltfläche und setzen Sie im Aufklappmenü den Haken im Kontrollkästchen vor einem oder mehreren der gewünschten Zellinhalten
 Die Liste verkleinert sich automatisch auf einen Ausschnitt der Zeilen, die die ausgewählten Zellinhalte aufweisen. Wenn Sie mehrere Zellinhalte auswählen, dann geschieht die Verknüpfung dieser Zellinhalte mit dem Suchoperator `oder`. Das bedeutet, dass eine Zeile einen der angekreuzten Zellinhalte aufweisen muss, um angezeigt zu werden.
 
-![Hier sehen Sie die Liste der Bücher/ Medien, die nach dem Autor `Friedrich von Schiller` gefiltert wird.](../../assets/images/bibliothek/filtern.png)
+![Hier sehen Sie die Liste der Bücher/ Medien, die nach dem Autor `Friedrich von Schiller` gefiltert wird.](/assets/images/bibliothek/filtern.png)
 
 Sie können diese Liste nun weiter Filtern, indem Sie zusätzliche Zellinhalte aus anderen Spalten der Liste hinzufügen. Wählen Sie dazu einfach auf die oben beschriebene Weise einen oder mehrere Zellinhalt/e der nächsten Spalte aus.
 
 So können Sie z.B. die bereits nach einem bestimmten Autor gefilterte Liste zusätzlich nach dem Titel einschränken. Die Verknüpfung der Zellinhalte zu einem Filter geschieht dabei mit dem Suchoperator `und`. Dies bedeutet, dass eine Zeile einen der angekreuzten Zellinhalte der Spalte A sowie einen der angehakten Zellinhalte der Spalte B aufweisen muss, um angezeigt zu werden.
 
-![Hier sehen Sie die Liste der Bücher/ Medien, die nach dem Autor `Friedrich von Schiller` und dem Titel `Die Räuber` gefiltert wird.](../../assets/images/bibliothek/filtern1.png)
+![Hier sehen Sie die Liste der Bücher/ Medien, die nach dem Autor `Friedrich von Schiller` und dem Titel `Die Räuber` gefiltert wird.](/assets/images/bibliothek/filtern1.png)
 
 Die aktuell gesetzten Filterparameter erscheinen in einem grauen Balken am unteren Rand des Listen-fensters. Um den gesetzten Filter zu entfernen, betätigen Sie einfach die rote `Schließen`-Schaltfläche am linken Rand dieses Balkens.
 
@@ -112,7 +112,7 @@ Sie haben darüberhinaus die Möglichkeit nach Teilen von Zellinhalten zu filter
 2. Betätigen Sie diese Pfeilschaltfläche und klicken Sie im Aufklappmenü mit der linken Maustaste auf den Eintrag `(Benutzerdefiniert…)`
 3. Es erscheint das Dialogfenster `Benutzerdefinierter Filter`, in dem Sie einen Filter erzeugen können.
 
-![Hier sehen Sie das Dialogfenster `Benutzerdefinierter Filter`, in dem Sie Ihre Filterkriterien individuell anpassen können.](../../assets/images/bibliothek/filtern2.png)
+![Hier sehen Sie das Dialogfenster `Benutzerdefinierter Filter`, in dem Sie Ihre Filterkriterien individuell anpassen können.](/assets/images/bibliothek/filtern2.png)
 
 Im Dialogfenster `Benutzerdefinierter Filter` stehen Ihnen auf der rechten Seite zwei Felder für die Eingabe eines Suchbegriffs zur Verfügung. Auf der linken Seite befinden sich zwei Auswahlfelder, mit denen Sie jeweils festlegen können, wie sich Ihre Suchbegriffe zu den vorliegenden Zellinhalten einer Spalte verhalten sollen.
 
@@ -150,7 +150,7 @@ alle Einträge|Wählen Sie alle Vertreter aus, indem Sie die Schaltfläche `Alle
 
 Mit den ausgewählten Einträgen können Sie nachfolgend bestimmte Aktionen durchführen z.B. entfernen oder ausdrucken.
 
-![Hier wurden mithilfe der Schalfläche `Alles markieren` alle Einträge der Liste `Aktuelle Vorgänge` ausgewählt. ](../../assets/images/bibliothek/alles_markieren.png)
+![Hier wurden mithilfe der Schalfläche `Alles markieren` alle Einträge der Liste `Aktuelle Vorgänge` ausgewählt. ](/assets/images/bibliothek/alles_markieren.png)
 
 ## Berichte ausdrucken
 
@@ -165,7 +165,7 @@ Um einen Listenbericht auszudrucken, gehen Sie bitte folgendermaßen vor:
 
 Der gewünschte Bericht wird nun für den ausgewählten Listenbereich gedruckt.
 
-![ Hier sehen Sie einen Ausschnitt der Seitenvorschau des Druckberichts `Medienlis-te1.rpt`, der für die Liste der Bücher/ Medien angefertigt werden kann ](../../assets/images/bibliothek/berichtsvorschau.png)
+![ Hier sehen Sie einen Ausschnitt der Seitenvorschau des Druckberichts `Medienlis-te1.rpt`, der für die Liste der Bücher/ Medien angefertigt werden kann ](/assets/images/bibliothek/berichtsvorschau.png)
 
 ## Listen exportieren
 
@@ -179,7 +179,7 @@ Um einen bestimmten Listenbereich nach Excel zu exportieren, führen Sie bitte f
 
 Die Export-Datei wird nun erstellt und automatisch in Excel geöffnet. Von hier aus können Sie die Liste nun weiter bearbeiten oder ausdrucken.
 
-![Hier sehen Sie einen Excel-Export der Liste `Aktuelle-Vorgänge`.](../../assets/images/bibliothek/excelexport.png)
+![Hier sehen Sie einen Excel-Export der Liste `Aktuelle-Vorgänge`.](/assets/images/bibliothek/excelexport.png)
 
 Um einen bestimmten Listenbereich nach HTML zu exportieren, gehen Sie bitte folgendermaßen vor:
 
@@ -188,4 +188,4 @@ Um einen bestimmten Listenbereich nach HTML zu exportieren, gehen Sie bitte folg
 3. Bestätigen Sie Ihre Eingaben mit `Speichern`
 4. Die Export-Datei wird nun erstellt und automatisch in Ihrem Standardbrowser geöffnet.
 
-![Hier sehen Sie einen HTML-Export der Liste `Aktuelle Vorgänge`.](../../assets/images/bibliothek/htmlexport.png)
+![Hier sehen Sie einen HTML-Export der Liste `Aktuelle Vorgänge`.](/assets/images/bibliothek/htmlexport.png)

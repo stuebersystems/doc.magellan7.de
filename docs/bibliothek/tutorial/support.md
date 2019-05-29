@@ -12,7 +12,7 @@ Damit Sie Supportanfragen in MAGELLAN-BIBLIOTHEK erstellen können, müssen Sie 
 
 Für die Erfassung Ihrer Schuldaten steht in MAGELLAN-BIBLIOTHEK eine eigene Datenmaske zur Verfügung. Damit Ihre Supportanfragen korrekt abgewickelt werden können, müssen alle Felder der Datenmaske ausgefüllt sein, die nicht explizit als optional gekennzeichnet sind. Optionale Felder werden durch das Symbol `*` markiert.
 
-![Im Dialogfenster `Schuldaten` geben Sie die Kontaktinformationen ein, die für die Ab-wicklung von Supportanfragen benötigt werden. ](../../assets/images/bibliothek/schuldaten.png)
+![Im Dialogfenster `Schuldaten` geben Sie die Kontaktinformationen ein, die für die Ab-wicklung von Supportanfragen benötigt werden. ](/assets/images/bibliothek/schuldaten.png)
 
 Um Ihre Schuldaten zu erfassen, gehen Sie bitte folgendermaßen vor:
 

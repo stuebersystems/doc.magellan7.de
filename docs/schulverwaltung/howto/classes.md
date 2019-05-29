@@ -16,7 +16,7 @@ BBS|An Berufsbildenden Schulen können Klassen länger existieren, so kann beisp
 
 Um eine neue Klasse anzulegen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Klassen `oder wählen Sie `Ansicht > Klassen`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neue Klasse`.
 
-![Hier geben Sie eine neue Klasse ein.](../../assets/images/lehrer.klassen_08neu.klasse.png)
+![Hier geben Sie eine neue Klasse ein.](/assets/images/lehrer.klassen_08neu.klasse.png)
 
 
 Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. Die Klasse ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte „Daten“ dieser Klasse, um deren weitere Daten zu erfassen. Optional können Sie im Dialogfenster `Neue Klasse` auch direkt einen Langnamen in den Feldern „Langname 1“ und „Langname 2“ bzw. eventuell das für die Statistik verwendete Statistikkürzel der Klasse eintragen. Diese Angaben können Sie aber auch zu einem späteren Zeitpunkt auf der Registerkarte „Daten“ der Klasse angeben.
@@ -25,7 +25,7 @@ Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. 
 
 Auf der Registerkarte „Daten“ sind insbesondere die Einstellungen bei „Klassenart“ und „Beurteilungsart“ wichtig.
 
-![Ansicht "Klassen > Daten"](../../assets/images/lehrer.klassen_09daten.png)
+![Ansicht "Klassen > Daten"](/assets/images/lehrer.klassen_09daten.png)
 
 
 Bei der `Klassenart `müssen Sie die Art der Klasse festlegen. Diese Einstellungen haben insbesondere Auswirkungen auf den Bereich „Abitur“ und „Berufsschule“ in MAGELLAN. 
@@ -38,7 +38,7 @@ Die Felder `Beruf`, `Bildungsgang `und `Berufsfeld `sind nur für Berufsbildende
 
 Auf dieser Registerkarte sind alle Zeiträume der Klasse in einer Liste eingetragen. Pro Zeitraum werden die Schüler der Klasse angezeigt werden. Pro Zeitraum können auf der rechten Seite auf der Registerkarte Zeitraum bestimmte Angaben vorgenommen werden.
 
-![Übersicht der Klassenzeiträume](../../assets/images/lehrer.klassen_10zeitraeume.png)
+![Übersicht der Klassenzeiträume](/assets/images/lehrer.klassen_10zeitraeume.png)
 
 
 !!! info "Hinweis"
@@ -66,7 +66,7 @@ Im Feld `Fachtafel` kann für die Klasse pro Klassenzeitraum eine Fachtafel vorg
 	Der Inhalt dieses Feldes beinhaltet noch keine Zuweisung der Fächer zu den einzelnen Schülern der Klasse!
 
 
-![Auf der untergeordneten Registerkarte Schüler sehen Sie zum aktuell markierten Zeitraum alle Schüler der Klasse inkl. deren Aufsummierung im Fuß der Registerkarte.](../../assets/images/lehrer.klassen_11zeitraeume2.png)
+![Auf der untergeordneten Registerkarte Schüler sehen Sie zum aktuell markierten Zeitraum alle Schüler der Klasse inkl. deren Aufsummierung im Fuß der Registerkarte.](/assets/images/lehrer.klassen_11zeitraeume2.png)
 
 
 ## Assistent für den Schuljahreswechsel
@@ -80,16 +80,16 @@ Für den Schuljahreswechsel steht Ihnen ein Assistent zur Verfügung, der Ihnen 
 
 Öffnen Sie in dem Zeitraum, in dem die zu kopierenden Klassen vorhanden sind, den Punkt `Klassen > Auswahlliste > Rechtsklick > Schuljahreswechselassistent`.
 
-![Aufruf des Schuljahreswechselassistenten](../../assets/images/lehrer.klassen_12schuljahreswechsel1.png)
+![Aufruf des Schuljahreswechselassistenten](/assets/images/lehrer.klassen_12schuljahreswechsel1.png)
 
 
 
-![Auswählen der Klassen im Schuljahreswechselassistent](../../assets/images/lehrer.klassen_12schuljahreswechsel.png)
+![Auswählen der Klassen im Schuljahreswechselassistent](/assets/images/lehrer.klassen_12schuljahreswechsel.png)
 
 
 Wählen Sie die zu kopierenden Klassen aus.
 
-![Anpassen der Kürzel für die neuen Klassen](../../assets/images/lehrer.klassen_13schuljahreswechsel2.png)
+![Anpassen der Kürzel für die neuen Klassen](/assets/images/lehrer.klassen_13schuljahreswechsel2.png)
 
 
 Sie können auf dieser Karte die Kürzel und die Statistikkürzel der neuen Klassen (nur für den berufsbildenden Bereich) festlegen. Diese Eingaben könnten Sie aber auch später unter `Klassen > Daten` vornehmen.

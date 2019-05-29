@@ -13,7 +13,7 @@ Auf der Basis dieser Informationen entscheiden Sie, ob Sie für die aufgelistete
 * Mahnstufe zuweisen
 * Mahnung ausdrucken
 
-![Die Registerkarte `Überzogene Bücher/ Medien` der Ansicht `Mahnungen` zeigt die überzogenen Medienexemplare.](../../assets/images/bibliothek/überzogene Medien.png)
+![Die Registerkarte `Überzogene Bücher/ Medien` der Ansicht `Mahnungen` zeigt die überzogenen Medienexemplare.](/assets/images/bibliothek/überzogene Medien.png)
 
 ## Mahnstufe zuweisen 
 
@@ -27,7 +27,7 @@ Um diese Abstände zu ändern, gehen Sie bitte folgendermaßen vor:
 4. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 Die geänderten Einstellungen sind nun gespeichert und werden beim nächsten Aufruf der Ansicht `Mahnungen` wirksam.
 
-![Auf der Registerkarte `Mahnwesen` des Dialogfensters `Optionen` bestimmen Sie die Fristen für die unterschiedlichen Mahnstufen. ](../../assets/images/bibliothek/optionen.png)
+![Auf der Registerkarte `Mahnwesen` des Dialogfensters `Optionen` bestimmen Sie die Fristen für die unterschiedlichen Mahnstufen. ](/assets/images/bibliothek/optionen.png)
 
 Um nun eine Mahnstufe zuzuweisen, führen Sie bitte die folgenden Schritte aus:
 

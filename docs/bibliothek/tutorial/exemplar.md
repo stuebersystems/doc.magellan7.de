@@ -41,7 +41,7 @@ Um einzelne oder mehrere Exemplare in einen Katalog zu verschieben, führen Sie 
 4. Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
    Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die verschobenen Exemplare werden im jeweiligen Zielkatalog in der Exemplarliste der Ansicht `Bücher/ Medien` gespeichert.
 
-![Wählen Sie die Sammelaktion, anschließend den Zielkatalog, setzen den Cursor ins Barcodefeld und scannen die gewünschten Exemplare ein!](../../assets/images/bibliothek/exemplare.in.katalog.verschieben.png)
+![Wählen Sie die Sammelaktion, anschließend den Zielkatalog, setzen den Cursor ins Barcodefeld und scannen die gewünschten Exemplare ein!](/assets/images/bibliothek/exemplare.in.katalog.verschieben.png)
 
 !!! info "Hinweis"
 

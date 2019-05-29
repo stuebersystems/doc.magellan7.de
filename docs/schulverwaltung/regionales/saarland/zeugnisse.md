@@ -13,7 +13,7 @@ Zusätzlich zu den von uns gelieferten Berichten liefern wir vom Ministerium fü
 
 
 
-![Filterung nach der Region Saarland unter der Kategorie Zeugnisse](../../../assets/images/saarland/saar2.png)
+![Filterung nach der Region Saarland unter der Kategorie Zeugnisse](/assets/images/saarland/saar2.png)
 
 
 
@@ -23,7 +23,7 @@ Zusätzlich zu den von uns gelieferten Berichten liefern wir vom Ministerium fü
 Zeugnisse, die STÜBER SYSTEMS mitliefert, werden im Modul MAGELLAN BERICHTE beschrieben. Das Modul wird gemeinsam mit MAGELLAN installiert und kann über `Start > Programme > Stüber Systems > MAGELLAN Berichte` aufgerufen werden.
 Im Modul gibt es die Möglichkeit die beschriebenen Berichte zu filtern. 
 
-![Filterung nach der Region Saarland unter der Kategorie Zeugnisse](../../../assets/images/saarland/saar1.png)
+![Filterung nach der Region Saarland unter der Kategorie Zeugnisse](/assets/images/saarland/saar1.png)
 
 Per Doppelklick auf eine der angezeigten Zeilen werden Ihnen die Anmerkungen pro Bericht gezeigt. Über die Schaltfläche `Reports anzeigen` wechseln Sie zurück in die Auflistung der gefilterten Berichte.
 

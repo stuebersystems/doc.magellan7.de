@@ -2,7 +2,7 @@
 
 Dies ist die elektronische Dokumentation für [MAGELLAN 7](https://magellan.stueber.de).
 
-Die Dokumentation ist unterteilt in die Bereiche
+Die Dokumentation ist unterteilt in die Bereiche:
 
 * [Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
 * [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)

@@ -164,7 +164,7 @@ Folgende Felder sind gemeint:
 |Unterrichtstage|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.
 |Versäumnisse|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.|
 
-![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](../assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
+![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
 
 Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.

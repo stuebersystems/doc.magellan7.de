@@ -71,4 +71,4 @@ In der MAGELLAN Dokumentenverwaltung passiert dabei Folgendes:
 
 Sobald Sie den Bericht `Medienvorgänge (Standard)` drucken, werden für alle markierten Ausleiher Unterverzeichnisse mit ihrer ID angelegt. In diesen Unterverzeichnissen wird wiederum ein Ordner angelegt, der den gewünschten Namen des Vorgangsordners trägt. Alle ausgedruckten Berichte `Medienvorgänge (Standard)`, welche Leihvorgänge dieser Ausleiher enthalten, werden in der Folge in diesem Ordner gespeichert.
 
-![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ](../../assets/images/bibliothek/optionen2.png)
+![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ](/assets/images/bibliothek/optionen2.png)

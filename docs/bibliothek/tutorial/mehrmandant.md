@@ -25,6 +25,6 @@ Um diese Einstellung vorzunehmen, gehen Sie bitte folgendermaßen vor:
 3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 Der gewählte Mandant wird nun beim nächsten Programmstart automatisch als aktueller Mandant voreingestellt.
 
-![Auf der Registerkarte `Start` des Dialogfensters `Optionen` stellen Sie den Startmandanten sowie den Startzeitraum ein.](../../assets/images/bibliothek/optionen1.png)
+![Auf der Registerkarte `Start` des Dialogfensters `Optionen` stellen Sie den Startmandanten sowie den Startzeitraum ein.](/assets/images/bibliothek/optionen1.png)
 
 Die Liste der in MAGELLAN angelegten Mandanten können Sie in der Ansicht `Mandanten` auf der Registerkarte `Auswahl` einsehen. Auf der Registerkarte `Daten` ist für jeden Mandanten eine Karteikarte mit den wesentlichen Kontaktinformationen hinterlegt.

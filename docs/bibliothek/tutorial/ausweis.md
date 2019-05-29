@@ -4,15 +4,15 @@ MAGELLAN-BIBLIOTHEK hält eine Reihe von Formatvorlagen bereit, mit denen Sie au
 
 1. `Bibliotheksausweis (klein)`: dieses Format enthält Felder für die Schulzugehörigkeit, Vor- und Nachname sowie Geburtsdatum des Ausleihers.
 
-![Das Ausweisformat `Bibliotheksausweis (mit Passfoto)`](../../assets/images/bibliothek/rpt.png)
+![Das Ausweisformat `Bibliotheksausweis (mit Passfoto)`](/assets/images/bibliothek/rpt.png)
 
 2. `Bibliotheksausweis (mit Foto)`: dieses Format enthält Felder für die Schulzugehörigkeit, Vor- und Nachname, Geburtsdatum sowie für ein Passfoto und die Unterschrift des Ausleihers.
 
-![Das Ausweisformat `Bibliotheksformat (klein)`](../../assets/images/bibliothek/rpt3.png)
+![Das Ausweisformat `Bibliotheksformat (klein)`](/assets/images/bibliothek/rpt3.png)
 
 3. `Bibliotheksausweis (Standard`): dieses Format enthält Felder für die Schulzugehörigkeit, Vor- und Nachname, Geburtsdatum sowie für die Unterschrift des Ausleihers.
 
-![Das Ausweisformat `Bibliotheksausweis (Standard)`](../../assets/images/bibliothek/rpt2.png)
+![Das Ausweisformat `Bibliotheksausweis (Standard)`](/assets/images/bibliothek/rpt2.png)
 
 Die in den unterschiedlichen Ausweisformaten vorhandenen Felder müssen bzw. können nicht von Hand gefüllt werden. Sie sind mit den entsprechenden Feldern in der Datenbank verknüpft und werden automatisch mit den jeweils verfügbaren Angaben bzw. Inhalten versehen. Die Formatvorlagen für Bibliotheksausweise sind in Ihrem Programmordner MAGELLAN-BIBLIOTHEK als Berichtsdateien mit der Dateiendung `.rpt` gespeichert.
 

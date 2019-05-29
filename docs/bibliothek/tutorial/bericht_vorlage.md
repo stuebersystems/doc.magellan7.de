@@ -34,7 +34,7 @@ Um einen neuen Ordner für Ihre Berichts- bzw. Vorlagendateien anzulegen gehen S
 
 Der neue Ordner ist nun angelegt und kann als Speicherort für Dateien genutzt werden.
 
-![Im Dialogfenster `Berichte organisieren` wurde im Verzeichnis `Mahnungen` ein neuer Ordner angelegt.](../../assets/images/bibliothek/neuer_ordner.png)
+![Im Dialogfenster `Berichte organisieren` wurde im Verzeichnis `Mahnungen` ein neuer Ordner angelegt.](/assets/images/bibliothek/neuer_ordner.png)
 
 Wenn Sie den Ordner wieder löschen möchten, markieren Sie diesen bitte zunächst und betätigen Sie die Schaltfläche `Löschen` in der Symbolleiste des Dialogfensters. Der Ordner und sein gesamter Inhalt wird in der Folge aus dem Berichte-Verzeichnis gelöscht.
 
