@@ -6,8 +6,7 @@ Nachstehend wird beschrieben was genau beim Import passiert, falls Daten in MAGE
 !!! warning "Wichtig"
 
 	Bitte ändern Sie in MAGELLAN keine Verzeichniswerte oder Daten auf der Unterkarte `Schüler > Zeugnis` solange MyMAGELLAN-Dateien für die Kollegen verteilt wurden.
-	 
-	 
+
 
 !!! warning "Wichtig"
 
@@ -18,6 +17,7 @@ In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie
 
 Feld | wahlweise<br/> editierbar | wahlweise<br/>ausblendbar | Importverhalten
 -- | -- | -- |--
+Fach | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
 Schriftl. Note 1 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Schriftl. Note 2 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Schriftl. Note 3 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
@@ -25,15 +25,15 @@ Schriftl. Note 4 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueb
 Mündl. Note | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Endnote | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Endnote(Gesamt) | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
-Position | JA |JA
-Merkmal | JA |JA
-Schwerpunkt | JA |NEIN
-Fachstatus | JA |JA
-Unterrichtsart | JA |JA
-Tutor | JA |NEIN
-Fachlehrer | JA |NEIN
-Niveau | JA |JA
-Mahnung | JA |JA
+Position | JA |JA | siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Merkmal | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Schwerpunkt | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
+Fachstatus | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Unterrichtsart | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Tutor | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
+Fachlehrer | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
+Niveau | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Mahnung | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Zusatznote 1 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Zusatznote 2 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Zusatznote 3 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
@@ -43,14 +43,14 @@ Zusatznote 6 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.d
 Zusatznote 7 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Zusatznote 8 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Zusatznote 9 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
-Beurteilung | JA |siehe Abschnitt [Beurteilungen](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#beurteilungen)
+Beurteilung | JA | JA |siehe Abschnitt [Beurteilungen](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#beurteilungen)
 Vornote | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
-Vergessene Hausaufgaben | JA |JA
-Vergessene Arbeitsmaterialien | JA |JA
-Personalnummer | JA |JA
+Vergessene Hausaufgaben | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Vergessene Arbeitsmaterialien | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Personalnummer | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Abschluss 1 | JA |JA|siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 Abschlussart 1 | JA |JA |siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
-Vergessene Hausaufgaben | JA |JA
+Vergessene Hausaufgaben | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Abschlussdatum 1 | JA |JA |siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 Abschlussnote 1 | JA |JA |siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 Abschluss 2 | JA |JA |siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
@@ -74,9 +74,9 @@ Fehltage Praktikum | JA |JA| siehe Abschnitt [Fehlzeiten](https://doc.magellan7.
 Fehltage Praktikum (unentschuldigt) | JA |JA| siehe Abschnitt [Fehlzeiten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#fehlzeiten)
 Leistungsanforderung | JA |JA | siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 
-## Fachlehrer, Tutor, Schwerpunkt
+## Informationsfelder
 
-Die Inhalte dieser Felder werden nur für eine einfachere Sortierung nach MyMAGELLAN übertragen, es ist keine Änderung dieser Inhalte über MyMAGELLAN möglich.
+Die Inhalte dieser Felder werden nur zur Information udn für eine einfachere Sortierung nach MyMAGELLAN übertragen, es ist keine Änderung dieser Inhalte über MyMAGELLAN möglich.
 
 ## Noten
 
