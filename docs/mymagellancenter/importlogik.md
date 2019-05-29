@@ -47,7 +47,6 @@ Beurteilung | JA | JA |siehe Abschnitt [Beurteilungen](https://doc.magellan7.stu
 Vornote | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Vergessene Hausaufgaben | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Vergessene Arbeitsmaterialien | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
-Personalnummer | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Abschluss 1 | JA |JA|siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 Abschlussart 1 | JA |JA |siehe Abschnitt [Zeugnisdaten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#zeugnisdaten)
 Vergessene Hausaufgaben | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
