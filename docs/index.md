@@ -2,6 +2,14 @@
 
 Dies ist die elektronische Dokumentation für [MAGELLAN 7](https://magellan.stueber.de).
 
+Die Dokumentation ist unterteilt in die Bereiche
+
+* [Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
+* [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
+* [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/)
+* [MAGELLAN Knowledgebase](https://doc.magellan7.stueber.de/knowledgebase/voraussetzungen/)
+
+
 ## MAGELLAN 7
 
 MAGELLAN ist die Schulverwaltungssoftware von STÜBER SYSTEMS. Mit MAGELLAN verwalten Sie Ihre Lehrer- und Schülerdaten, drucken Zeugnisse, verwalten die gymnasiale Oberstufe und machen den Statistikabgleich. 
@@ -28,4 +36,4 @@ Der Einsatz von MAGELLAN-BIBLIOTHEK erfordert aber umgekehrt nicht, dass Sie das
 * [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de)
 * [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
 * [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
-* [MAGELLAN Knowledgebase](https://doc.magellan7-kb.stueber.de)
+
