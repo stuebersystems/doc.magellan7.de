@@ -37,8 +37,8 @@ extra_css:
     - assets/css/custom.css
 
 # Plugins    
-#plugins:
-    #- img2fig
+plugins:
+    - img2fig
 
 # Extensions    
 markdown_extensions:
@@ -244,3 +244,7 @@ nav:
     - Archiv:
       - Änderung in der Tabelle SchuelerAusbildung: knowledgebase/cr/schuelerausbildung.md
       - Fehler in Crystal Reports 9: knowledgebase/cr/CR9_Fehler.md
+- Test:
+    - Test: test/test.md
+    - Test 1: test/test1/test1.md
+    - Test 2: test/test1/test2/test2.md

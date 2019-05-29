@@ -164,7 +164,6 @@ Folgende Felder sind gemeint:
 |Unterrichtstage|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.
 |Versäumnisse|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.|
 
-
 ![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](../assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
 
