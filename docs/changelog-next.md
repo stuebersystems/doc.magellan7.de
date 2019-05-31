@@ -22,6 +22,13 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * CHANGE: <bzsort_neu> `Übergang an Schule` wird ausgespielt, wenn eine Schule unter `Schüler > Daten2 > An Schule` erfasst wurde, die unter `Schule > Daten > Schulnummer` einen Eintrag (7-stellige Schulnummer) hat.
 
+
+### MyMAGELLAN
+
+* NEW: Mit dieser Version veröffentlichen wir auch die erste Ausgabe von MyMAGELLAN. Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Es ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie unter: [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
+Die Dokumentation aus Sicht des eingebenden Kollegen finden Sie hier: [MyMAGELLAN CENTER](https://doc.mymagellan7.stueber.de/)
+
+
 ### Importe
 
 * CHANGE: 
