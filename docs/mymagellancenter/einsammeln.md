@@ -12,13 +12,12 @@ Wenn die von den Kollegen mit Zeugnisdaten befüllten Dateien wieder an der Stel
 Das MyMAGELLAN CENTER zeigt Ihnen per Symbol, wessen Datei erzeugt wurde oder nicht, wessen Datei bereits gefüllt ist und wessen Datei bereits wieder nach MAGELLAN eingelesen wurde. Sie haben so jederzeit den Überblick, ob alle für den Zeugnisdruck notwendigen Daten bereits übermittelt wurden.
 
 
-
 |Symbol | Bedeutung |
 |--|-- |
-| ![](/assets/images/mymagellan/close-circle-red.png) | Datei fehlt |
-| ![](/assets/images/mymagellan/export.png) | Datei erzeugt |
-| ![](/assets/images/mymagellan/pencil-blue.png) | Datei bearbeitet |
-| ![](/assets/images/mymagellan/import-green.png) | Datei nach MAGELLAN importiert |
+| ![Datei fehlt](/assets/images/mymagellan/close-circle-red.png) | Datei fehlt |
+| ![Datei erzeugt](/assets/images/mymagellan/export.png) | Datei erzeugt |
+| ![Datei bearbeitet](/assets/images/mymagellan/pencil-blue.png) | Datei bearbeitet |
+| ![Datei importiert](/assets/images/mymagellan/import-green.png) | Datei nach MAGELLAN importiert |
 
 ## Dateien einsammeln
 
