@@ -25,8 +25,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MyMAGELLAN
 
-* NEW: Mit dieser Version veröffentlichen wir auch die erste Ausgabe von MyMAGELLAN. Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Es ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie unter: [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
-Die Dokumentation aus Sicht des eingebenden Kollegen finden Sie hier: [MyMAGELLAN CENTER](https://doc.mymagellan7.stueber.de/)
+* NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMAGELLAN. 
+  * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/).
+  * Die Dokumentation des Eingabemoduls MyMAGELLAN (Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
 
 
 ### Importe
@@ -39,7 +40,7 @@ Die Dokumentation aus Sicht des eingebenden Kollegen finden Sie hier: [MyMAGELLA
 
 ### MAGELLAN Administrator
 
-* CHANGE: 
+* NEW: Neuer Aufruf für das MyMAGELLAN CENTER
 
 ### MAGELLAN Bibliothek
 
