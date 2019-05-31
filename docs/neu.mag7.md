@@ -360,3 +360,16 @@ Das MyMAGELLAN CENTER ist Teil des Administrators geworden. Sie finden den Aufru
 
 ![Das neue MyMAGELLAN CENTER](/assets/images/neues/myma.png)
 
+## MyMAGELLAN
+
+Neue vereinfachte Übersicht nach Schülern und nach Fächern:
+
+![Eingabe nach Fächern](/assets/images/neues/01.png)
+
+![Eingabe nach Schülern](/assets/images/neues/02.png)
+
+![Eingabe von Zeugnisdaten](/assets/images/neues/03.png)
+
+![Sammelzuweisung für Zeugnisdaten](/assets/images/neues/04.png)
+
+![Eingabe von Zeugnisbemerkungen](/assets/images/neues/05.png)
