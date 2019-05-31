@@ -370,6 +370,12 @@ Neue vereinfachte Übersicht nach Schülern und nach Fächern:
 
 ![Eingabe von Zeugnisdaten](/assets/images/neues/03.png)
 
+![Eingabe von Zeugnisbemerkungen](/assets/images/neues/05.png)
+
+### Neue Sammelzuweisung
+
+Für die Eingabe der weiteren Zeugnisdaten steht eine Sammelzuweisung für die Unterblöcke `Abschlussdaten` und `Versetzungs- und Zeugnisdaten` zu Verfügung.
+
 ![Sammelzuweisung für Zeugnisdaten](/assets/images/neues/04.png)
 
-![Eingabe von Zeugnisbemerkungen](/assets/images/neues/05.png)
+
