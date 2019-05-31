@@ -40,7 +40,7 @@ So starten Sie das Einsammeln der MyMAGELLAN-Dateien:
 
 1. Markieren Sie die Teilnehmer, deren MyMAGELLAN-Dateien Sie einsammeln wollen.
 
-2. Klicken Sie auf `Umgebung `und dann auf `Daten einsammeln`.
+2. Klicken Sie auf `Umgebung` und dann auf `Daten einsammeln`.
 
 3. Klicken Sie im Assistenten auf `Weiter`.
 
