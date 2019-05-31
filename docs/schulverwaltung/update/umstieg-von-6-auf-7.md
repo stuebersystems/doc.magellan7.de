@@ -1,5 +1,12 @@
 # Umstieg von MAGELLAN 6 auf MAGELLAN 7
 
+
+
+!!! warning "Wichtig"
+
+    Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 7 nicht auf einem Rechner** zu verwenden, da es Probleme bei der Anzeige von Berichten geben kann. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. Ein paralleles Arbeiten ist nicht sinnvoll, da beide Programme jeweils eigene Datenbanken verwenden.
+
+
 |Notwendige Schritte |
 |-|
 |[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
