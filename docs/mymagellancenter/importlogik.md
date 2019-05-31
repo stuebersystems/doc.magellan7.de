@@ -26,6 +26,7 @@ Mündl. Note | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.d
 Endnote | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Endnote(Gesamt) | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Position | JA |JA | siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
+Faktor | JA |JA | siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Merkmal | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
 Schwerpunkt | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
 Fachstatus | JA |JA| siehe Abschnitt [Weitere Listenfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#weitere-listenfelder)
