@@ -30,13 +30,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
   * Die Dokumentation des Eingabemoduls MyMAGELLAN (Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
 
 
-### Importe
-
-* CHANGE: 
-
-### Skripte
-
-* FIX: 
 
 ### MAGELLAN Administrator
 
