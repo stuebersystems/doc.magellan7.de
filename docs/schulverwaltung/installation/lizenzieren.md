@@ -12,7 +12,7 @@ Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
  !!! warning "Wichtig"
  
      Eine Lizenz für alle Rechner?
-Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen lassen. Bitte lesen Sie dazu das Kapitel ["Die Pathdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html).
+Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen lassen. Bitte lesen Sie dazu das Kapitel ["Die Pathdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 
 ## Lizenzdaten von Hand eingeben
 

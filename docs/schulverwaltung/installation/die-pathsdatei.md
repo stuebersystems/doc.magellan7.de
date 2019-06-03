@@ -67,5 +67,5 @@ Weiter geht's:
 
    Wenn Sie per MAGELLAN.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der der Ablagestelle der MAGELLAN.opt Änderungen vorzunehmen.
 
-Über Neuerungen im Programm informieren wir im Abschnitt [Was ist neu?](http://doc.magellan7.stueber.de/changelog.html)
+Über Neuerungen im Programm informieren wir im Abschnitt [Was ist neu?](http://doc.magellan7.stueber.de/changelog/)
 
