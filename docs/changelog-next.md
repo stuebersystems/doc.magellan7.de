@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.11 - 704
+## 7.0.12 - 704
 
 ### MAGELLAN
 
@@ -20,16 +20,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### SAXSVS
 
-* CHANGE: <bzsort_neu> `Übergang an Schule` wird ausgespielt, wenn eine Schule unter `Schüler > Daten2 > An Schule` erfasst wurde, die unter `Schule > Daten > Schulnummer` einen Eintrag (7-stellige Schulnummer) hat.
-* NEW: Für das Feld <an_geschlecht> wird zusätzlich für `weiblich` und `männlich` auch die Auswahl `divers` mit der Ziffer 3 für SAXSVS übergeben.
+* CHANGE: 
 
 ### MyMAGELLAN
 
-* NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMAGELLAN. 
-  * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/).
-  * Die Dokumentation des Eingabemoduls MyMAGELLAN (Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
-
-
+* NEW: 
 
 ### MAGELLAN Administrator
 
