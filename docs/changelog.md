@@ -24,7 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMAGELLAN. 
   * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/).
-  * Die Dokumentation des Eingabemoduls MyMAGELLAN (Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
+  * Die Dokumentation des Eingabemoduls MyMAGELLAN (aus Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
 
 ### MAGELLAN Administrator
 
