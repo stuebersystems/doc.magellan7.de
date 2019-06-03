@@ -9,9 +9,9 @@
 
 |Notwendige Schritte |
 |-|
-|[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
-|[2. MAGELLAN 7 installieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7/#magellan-7-installieren)|
-|[3. Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7/#daten-aus-magellan-6-nach-magellan-7-%C3%BCbernehmen)|
+|[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
+|[2. MAGELLAN 7 installieren](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#magellan-7-installieren)|
+|[3. Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#daten-aus-magellan-6-nach-magellan-7-%C3%BCbernehmen)|
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
@@ -19,7 +19,7 @@ Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen
 
 !!! info "Hinweis"
 
-     Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/schulverwaltung/changelog.html) der MAGELLAN 6-Dokumentation!
+     Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/schulverwaltung/changelog/) der MAGELLAN 6-Dokumentation!
      Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan7.stueber.de/schulverwaltung/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
 
 ## MAGELLAN 7 installieren
