@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.10 - 704
+## 7.0.11 - 704
 
 ### MAGELLAN
 
@@ -21,7 +21,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### SAXSVS
 
 * CHANGE: <bzsort_neu> `Übergang an Schule` wird ausgespielt, wenn eine Schule unter `Schüler > Daten2 > An Schule` erfasst wurde, die unter `Schule > Daten > Schulnummer` einen Eintrag (7-stellige Schulnummer) hat.
-
+* NEW: Für das Feld <an_geschlecht> wird zusätzlich für `weiblich` und `männlich` auch die Auswahl `divers` mit der Ziffer 3 für SAXSVS übergeben.
 
 ### MyMAGELLAN
 
