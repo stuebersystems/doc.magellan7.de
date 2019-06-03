@@ -12,7 +12,7 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 7.0.0|700
 
 
-Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](http://doc.MAGELLAN7.stueber.de/changelog.html) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan7.stueber.de/schulverwaltung/installation/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](http://doc.MAGELLAN7.stueber.de/changelog/) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 !!! info "Hinweis"
 
@@ -37,5 +37,5 @@ Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue D
 
 !!! info "Hinweis"
 
-    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan7.stueber.de/schulverwaltung/probleme-beim-update.html) weiter!
+    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update.html) weiter!
 
