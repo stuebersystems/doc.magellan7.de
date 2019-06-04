@@ -8,7 +8,7 @@ Setzt die Generatoren zur Erstellung der automatisch hochgezählten Ids auf den 
 
 ## Gemeinden synchronisieren
 
-Setzt für Schüler, Betriebe, Lehrer und Schulen die Gemeindekennziffern anhand der PLZ und des Ortes, wenn damit nicht mehrere Gemeinden gekennzeichnet sind. 
+Setzt für Schüler, Betriebe, Lehrer, Schulen und Sorgeberechtigte (Sorgeberechtigte neu ab 7.0.12) die Gemeindekennziffern anhand der PLZ und des Ortes, wenn damit nicht mehrere Gemeinden gekennzeichnet sind. 
 Es werden nur nicht vorhandene Gemeinden gesetzt.
 
 ![Klicken Sie auf `Ausführen`oder doppelt auf `Gemeinden synchronisieren`](/assets/images/magellan.administrator/gemeinden.sync.png)

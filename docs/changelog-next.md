@@ -12,11 +12,18 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.12 - 704
+## 7.0.12 - 705
+
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+   
+
 
 ### MAGELLAN
 
-* FIX:
+* FIX: `Schüler korrigieren`
 
 ### SAXSVS
 
@@ -28,7 +35,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* NEW: Neuer Aufruf für das MyMAGELLAN CENTER
+  * CHANGE: Die Skriptdatei `Zugriffsrechte zuweisen` wurde um neue Bestandteile der Datenbank ergänzt. Bitte synchronisieren Sie die Zugriffsrechte über die Schaltfläche im `MAGELLAN-ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte` synchronisieren.
+  
+  ![Zugriffsrechte synchronisieren](assets/images/changelog/7.0.12.01.png)
+
+* NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
 
 ### MAGELLAN Bibliothek
 

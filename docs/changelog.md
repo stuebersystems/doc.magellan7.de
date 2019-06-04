@@ -30,8 +30,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Neuer Aufruf für das MyMAGELLAN CENTER
 
-
-
 ## 7.0.10 - 704 (24.05.2019)
 
 ### MAGELLAN
@@ -187,8 +185,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: Besondere Berücksichtigung von Stamm- und Nebenschülern
 
-
-
 ## 7.0.7 - 703 (29.04.2019)
 
 ### MAGELLAN
@@ -199,7 +195,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 ### SAXSVS
 
 * FIX: Export von Sorgeberechtigten angepasst
-
 
 ### MAGELLAN Administrator
 
