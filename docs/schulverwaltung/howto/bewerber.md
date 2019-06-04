@@ -135,7 +135,7 @@ Beim Anlegen eines neuen Bewerbers werden Ihnen bereits gespeicherte Vorlagen zu
 
 ## Registerkarte `Bewerber > Auswahl`
 
-Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher auch als `Bewerberliste` bezeichnet. Sie dient der Übersicht über alle Bewerber. Markiert man einen Bewerber darin und führt einen Doppelklick aus, so wechselt die Ansicht automatisch auf die Registerkarte `Daten 1` des Formulars des Bewerbers. Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search.html).
+Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher auch als `Bewerberliste` bezeichnet. Sie dient der Übersicht über alle Bewerber. Markiert man einen Bewerber darin und führt einen Doppelklick aus, so wechselt die Ansicht automatisch auf die Registerkarte `Daten 1` des Formulars des Bewerbers. Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/).
 
 ![Bewerber > Auswahl](/assets/images/bewerber/bewerberauswahl.png) 
 
@@ -300,7 +300,7 @@ Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und F�
 
 ## Registerkarten `Bewerber > Merkmale` und `Statistik`
 
-Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder.html)beschrieben.
+Die Funktionalität dieser beiden Karten wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder/beschrieben.
 
 !!! info "Hinweis"
 
