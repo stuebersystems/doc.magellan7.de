@@ -54,6 +54,10 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+* FIX: 
+
+Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
+
 * FIX: Klassenliste mit Klassendaten.rpt
 * FIX: Klassenliste (Sorgeberechtigte und Geburtsdatum).rpt
 * FIX: Klassenliste inkl. ausgeschulter Schüler.rpt
@@ -69,7 +73,3 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Berichte\Klassen\Rheinland-Pfalz\Klassenliste mit Endnoten.rpt
 * FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS (nur für Minderjährige).rpt
 * FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS.rpt
-
-Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
-
-* FIX: 
