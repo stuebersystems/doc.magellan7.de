@@ -126,8 +126,14 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 ### Tabelle SchuelerZeitraeume und Tabelle SchuelerAusbildung 
 
 Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab. 
-> Bitte löschen Sie die Verknüpfungen zwischen der Tabelle "Schueler" und der Tabelle "SchuelerAusbildung".
-Setzen Sie stattdessen die Verbindungen zwischen der Tabelle "SchuelerZeitraeume" und der Tabelle "SchuelerAusbildung"
+
+
+
+!!! warning "Wichtig"
+
+     Bitte löschen Sie die Verknüpfungen zwischen der Tabelle "Schueler" und der Tabelle "SchuelerAusbildung". 
+     Setzen Sie stattdessen die Verbindungen zwischen der Tabelle "SchuelerZeitraeume" und der Tabelle "SchuelerAusbildung".
+     
 Die neue Verknüpfung muss wie folgt aussehen:
 
 Tabelle und Feld|Art der Verbindung|Tabelle und Feld
