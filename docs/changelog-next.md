@@ -54,7 +54,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: Klassenliste inkl. ausgeschulter Schüler.rpt
+* FIX: Klassenliste mit Klassendaten.rpt"
+* FIX: Klassenliste (Sorgeberechtigte und Geburtsdatum).rpt"
+* FIX: Klassenliste inkl. ausgeschulter Schüler.rpt"
+* FIX: Klassenliste mit Eltern2.rpt"
+* FIX: Klassenliste mit Endnoten.rpt"
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
