@@ -28,6 +28,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: im Lehrermenü kann `Auswahlliste > Lehrer markieren > Rechtsklick` das Fehlzeitenfenster aufgerufen werden
 * FIX: Die Funktionalitäten unter `Schüler > Zeugnis > Bemerkungen` wurden überarbeitet
 * FIX: `Abitur > Bemerkungen > Sammelzuweisung`: zur Auswahl stehende Schüler werden korrekt gefiltert
+* FIX: Unter das Schnittstellenfenster unter `Extras > Export > Export` gibt entsprechende Meldungen aus oder lässt Sie den Assistenten nicht weiterbedienen, wenn keine Schnittstelle oder kein Zeitraum gewählt wurde.
 
 ### SAXSVS
 
