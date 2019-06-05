@@ -24,6 +24,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN
 
 * FIX: `Schüler korrigieren`
+* FIX: Passfotofunktion unter `Bewerber > Daten1` und unter `Lehrer > Daten1` ergänzt
+* FIX: im Lehrermenü kann `Auswahlliste > Lehrer markieren > Rechtsklick` das Fehlzeitenfenster aufgerufen werden
+* FIX: Die Funktionalitäten unter `Schüler > Zeugnis > Bemerkungen` wurden überarbeitet
 
 ### SAXSVS
 
@@ -49,7 +52,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: 
+* FIX: Klassenliste inkl. ausgeschulter Schüler.rpt
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
