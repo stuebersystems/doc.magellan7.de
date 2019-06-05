@@ -27,6 +27,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Passfotofunktion unter `Bewerber > Daten1` und unter `Lehrer > Daten1` ergänzt
 * FIX: im Lehrermenü kann `Auswahlliste > Lehrer markieren > Rechtsklick` das Fehlzeitenfenster aufgerufen werden
 * FIX: Die Funktionalitäten unter `Schüler > Zeugnis > Bemerkungen` wurden überarbeitet
+* FIX: `Abitur > Bemerkungen > Sammelzuweisung`: zur Auswahl stehende Schüler werden korrekt gefiltert
 
 ### SAXSVS
 
