@@ -33,6 +33,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Erste bereits besuchte Schule des Bewerbers (`Bewerber > Daten2`) wird standardmäßig als Herkunftsschule gesetzt
 * FIX: Beschriftung des Doublettenprüfungsfensters für Lehrer korrigiert
 * FIX: Korrektur der Anzeige des Status (S und N statt H und N für Stamm- und Nebenschüler) unter `Sorgeberechtigte > Kinder`
+* FIX: Aufruf der Serienmail aus dem Menü `Bewerber` ergänzt
+* FIX: Aufruf `Abitur > Drucken > Zeugnisse` ergänzt
 
 ### SAXSVS
 
