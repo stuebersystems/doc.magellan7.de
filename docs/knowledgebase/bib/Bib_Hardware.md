@@ -1,6 +1,7 @@
 # Optimale Hardware für MAGELLAN BIBLIOTHEK
 
 ## Stand
+
 07. März 2016
 
 Alle hier gemachten Aussagen repräsentieren den aktuellen Stand der Entwicklung - Irrtümer vorbehalten - und können im Rahmen der Fortentwicklung der Software revidiert werden.
@@ -38,6 +39,7 @@ Optimale Bedingungen erhalten Sie, wenn Sie folgende Komponenten nutzen:
 Beispiel für den Thermotransferdruck ist der Zebra/Eltron TLP 2844. Der Drucker kann Etiketten in den Größen zwischen 25,4 mm – 108 mm drucken und liegt im Preis zwi-schen 300 – 400 € netto.
 
 ## Bondrucker
+
 Sie haben die Möglichkeit, den Ausleihern eine Quittung bzw. eine Ausleih- oder Rückgabebestätigung auszudrucken. Wenn Sie diese Funktion eher selten nutzen, können Sie diese bequem über Ihren Drucker drucken. Sobald Sie den Druck von Bestätigungen häufig anwenden, sollten Sie einen Bondrucker einsetzen. Der Einsatz eines Bondruckers ermöglicht Ihnen den schnellen Druck von Quittungen, wie Sie ihn von Ihrem Einkauf her kennen. Klein, wenig Papier und Tinte, leicht aufzubewahren.
 Optimale Bedingungen erhalten Sie, wenn Sie einen Nadeldrucker einsetzen. Übliche Bondrucker arbeiten mit Thermodruck, dessen Papier leider sehr lichtempfindlich ist und der Druck nach kurzer Zeit verblasst oder vergilbt. Quittungen, die auf Nadeldruckern gedruckt wurden, halten hingegen sehr lange.
 Beispiel für Bondrucke sind Samsung SRP 275 oder Epson TM-U 220 A-D. Sie drucken dokumentenecht und liegen im Preis zwischen 200 – 300 € netto.

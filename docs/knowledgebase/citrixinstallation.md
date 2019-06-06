@@ -1,24 +1,23 @@
 # MAGELLAN und Citrix
 
-
 MAGELLAN ist unter Citrix bzw. Terminalserver lauffähig.
 Dieses Infoblatt ist für Sie nur relevant, wenn Sie MAGELLAN unter Citrix einrichten möchten. Es behandelt zwei typische Probleme und deren Lösungen:
 
 ## Problem A: Keine Verbindung zur Datenbank
 
 Bei der Server-, Einzelplatz- oder Arbeitsplatzinstallation von MAGELLAN unter Citrix (z.B. Citrix Presentationserver) führt die Angabe einer lokalen Verbindung zur MAGELLAN-Datenbank immer zu einer fehlerhaften Verbindung.
- 
+
 Der Fehler liegt hierbei in der Wahl des Protokolls „Lokal“. Unter Citrix müssen Sie immer die eindeutige Kennung im Netzwerk wählen, typischerweise über das Netzwerkprotokoll „TCP/IP“
 
 ### Lösung zu Problem A
+
 Wählen Sie unter Citrix grundsätzlich eine Netzwerkverbindung bei der Server-, Einzelplatz oder Arbeitsplatzinstallation von MAGELLAN.
 Gehen Sie dazu wie folgt vor:
 
-1.	Öffnen Sie den MAGELLAN::Administrator.
-2.	Wählen Sie „Ansicht|Server-Verwaltung|Verbindung verwalten“.
-3.	Markieren Sie die gewünschte Verbindung und klicken Sie dann auf „Bearbeiten“.
-4.	Wählen Sie auf der Registerkarte „Datenbank“ das Netz-werkprotokoll (z.B. „TCP/IP“), den Servernamen und die lokalen Dateipfad auf dem Server aus. 
-
+1. Öffnen Sie den MAGELLAN::Administrator.
+2. Wählen Sie „Ansicht|Server-Verwaltung|Verbindung verwalten“.
+3. Markieren Sie die gewünschte Verbindung und klicken Sie dann auf „Bearbeiten“.
+4. Wählen Sie auf der Registerkarte „Datenbank“ das Netz-werkprotokoll (z.B. „TCP/IP“), den Servernamen und die lokalen Dateipfad auf dem Server aus. 
 
 Diese Einstellungen der Verbindung zur Datenbank können Sie auch analog direkt über den Willkommensassistent bei der Installation vornehmen.
 
@@ -131,11 +130,4 @@ Der Windows Installer Dienst verwaltet (hinzufügen, modifizieren und löschen) 
 
   nicht 0 ist, führen Sie einen Rechtsklick auf `DWORD` aus, wählen Sie `Bearbeiten` aus und setzen Sie den Wert auf "0".
 
-6. Nach dem Schließen des Registry-Editor führen Sie die Installation erneut aus.
-
-
-
-
-
-
-
+6.Nach dem Schließen des Registry-Editor führen Sie die Installation erneut aus.

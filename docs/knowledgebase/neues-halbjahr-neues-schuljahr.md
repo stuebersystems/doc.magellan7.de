@@ -9,7 +9,7 @@ Jede Ihrer Klassen existiert nur zwei Halbjahre lang und anschließend wird eine
 
 Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu verwenden Sie die Schaltfläche `Schuljahre anlegen`.
 
-![Schaltfläche zum Anlegen eines neuen Schuljahres](images/dialog-zeitraeumeverz-neu.png)
+![Schaltfläche zum Anlegen eines neuen Schuljahres](/assets/images/knowledgebase/dialog-zeitraeumeverz-neu.png)
 
 ### Klassen
 
@@ -25,30 +25,29 @@ Schritt 2: Öffnen Sie den Punkt `Klassen > Bearbeiten > Schuljahreswechsel`. De
 
 Schritt 3: Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre Schüler zu versetzen oder neue Schüler einzuschulen. Klicken Sie auf `Weiter`. 
 
-![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](images/schuljahreswechsel01.png)
+![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](/assets/images/knowledgebase/schuljahreswechsel01.png)
 
 Schritt 4: Auf der nächsten Karte haben Sie die Möglichkeit die Klassenkürzel anzupassen. 
 
-> #### warning::Wichtig!
->
-> Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen. Für allgemeinbildende Schulen soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen. 
+
+!!! warning "Wichtig"
+
+     Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen. Für allgemeinbildende Schulen soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen. 
 >Also: 10a bleibt 10a. BüKo2016 wird aber BüKo2017.
 
-![Passen Sie hier ggfs. die Klassenkürzel an](images/schuljahreswechsel02.png)
+![Passen Sie hier ggfs. die Klassenkürzel an](/assets/images/knowledgebase/schuljahreswechsel02.png)
 
-Schritt 5: Gehen Sie auf `Weiter `und `Fertigstellen`! 
+Schritt 5: Gehen Sie auf `Weiter` und `Fertigstellen`!
 
-![Die Klassen werden kopiert](images/schuljahreswechsel03.png)
+![Die Klassen werden kopiert](/assets/images/knowledgebase/schuljahreswechsel03.png)
 
 Schritt 6: Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen aber neuen IDs angelegt.
-![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](images/schuljahreswechsel04.png)
+![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](/assets/images/knowledgebase/schuljahreswechsel04.png)
 
 
-> #### success::Tipp
->
-> Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
+!!! info "Hinweis"
 
-
+    Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
 
 
 ### Schüler
@@ -62,7 +61,7 @@ Führen Sie folgende Schritte durch. Gehen Sie in dieser Reihenfolge vor, damit 
 3. Bleibt jemand sitzen, wird er in die neu angelegt gleichnamige Klasse versetzt, also zum Beispiel aus der alten 5a in die neu angelegte 5a.
 
 4. Ihre Bestandsschüler werden klassenweises mit `Extras > Schüler versetzen` aus dem alten Halbjahr in die neue höhere Klasse versetzt. 
-	
+
 ## Halbjahreswechsel
 
 Es werden keine neuen Klassen benötigt. 
@@ -71,19 +70,15 @@ Es werden keine neuen Klassen benötigt.
 
 2. Alle weiteren Schüler werden mit `Extras > Schüler fortschreiben` fortgeschrieben. Sie müssen hierbei nicht klassenweise vorgehen, sondern markieren alle Schüler und schreiben sie fort.
 
-> #### info::Hinweis
-> Wenn ein Schüler innerhalb eines Halbjahres die Klasse wechselt, wird das per `Extras > Schüler wechseln` durchgeführt. 
 
-> Die Gründe dafür können zum Beispiel sein: 
+!!! info "Hinweis"
 
-> * Der Schüler wechselt in eine Parallelklasse
-> * Freiwilliger Rücktritt im Jahr
-> * Der Schüler wechselt seinen Bildungsgang (berufsbildender Bereich)
+    Wenn ein Schüler innerhalb eines Halbjahres die Klasse wechselt, wird das per `Extras > Schüler wechseln` durchgeführt. 
 
-> Versehentlich einer Klasse zugeordnete Schüler werden NICHT gewechselt, dafür gibt es für die jeweils als letztes in der Schülerlaufbahn durchgeführte Aktion die Möglichkeit "Schüler korrigieren". Wird in diesem Assistenten ein Schüler nicht angezeigt, hat seine letzte Laufbahnaktion nicht in diesem Halbjahr stattgefunden. 
+ Die Gründe dafür können zum Beispiel sein: 
 
- 
+* Der Schüler wechselt in eine Parallelklasse
+* Freiwilliger Rücktritt im Jahr
+* Der Schüler wechselt seinen Bildungsgang (berufsbildender Bereich)
 
-
-
-
+Versehentlich einer Klasse zugeordnete Schüler werden NICHT gewechselt, dafür gibt es für die jeweils als letztes in der Schülerlaufbahn durchgeführte Aktion die Möglichkeit "Schüler korrigieren". Wird in diesem Assistenten ein Schüler nicht angezeigt, hat seine letzte Laufbahnaktion nicht in diesem Halbjahr stattgefunden. 

@@ -4,9 +4,7 @@ Erfasst man Adressdaten über die MAGELLAN-Oberfläche kann nach dem Eintippen d
 
 Ist die Postleitzahl nicht eindeutig, also gehören zur Postleitzahl mehrere Zeilen im Postleitzahlverzeichnis, erscheint ein Fenster und Sie können aus den angezeigten Einträgen die korrekte Zeile wählen.
 
-![Auswahlfenster, wenn die Eingabe mehreren Einträgen zugeordnet werden könnte](images/gemeinde.png)
-
-
+![Auswahlfenster, wenn die Eingabe mehreren Einträgen zugeordnet werden könnte](/assets/images/knowledgebase/gemeinde.png)
 
 Importieren Sie Daten über unser MAGELLAN-Importformat oder spielen Sie ein neues Postleitzahlverzeichnis ein, ist die Verbindung zwischen den Adressdaten des Schülers (Lehrers, Betriebs) erst einmal nicht vorhanden. Die Gemeindekennziffer ist für statistische Abfragen aus MAGELLAN in vielen Bundesländern die Grundlage. Ein Nachtragen per Hand wäre sehr aufwändig.
 
@@ -21,5 +19,4 @@ Der Assistent prüft die Postleitzahl und den Ort, stimmt beides mit einem Eintr
 
 Um Einträge in der Datenbank finden zu können, die eine ungültige Postleitzahl oder einen ungültigen Ort hinterlegt haben, gibt es einen Prüfbericht. Bitte öffnen Sie MAGELLAN und rufen das Druckfenster im Menü `Mandanten` auf. Sie finden den Bericht "Mandanten (Ausgabe Schueler ohne Gemeindekennziffer).rpt". Der Bericht zeigt Ihnen pro Halbjahr die Schüler an, deren Adressdaten Sie bitte prüfen und korrigieren sollten. Lassen Sie im Anschluss den Assistenten unter `Datenbankpflege > Datenbank überprüfen > Gemeinden synchronisieren` bitte erneut laufen. Ist der Prüfbericht im Anschluss leer, sind bei allen Schülern die Gemeindekennziffern gesetzt.
 
-![Prüfbericht im Menü Mandanten](images/gemeinde1.png)
-
+![Prüfbericht im Menü Mandanten](/assets/images/knowledgebase/gemeinde1.png)

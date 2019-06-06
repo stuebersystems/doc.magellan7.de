@@ -13,7 +13,7 @@ Eine Installationsanleitung finden Sie hier: [Installationsanleitung](https://do
 
 ## Wichtige Dateien, die übernommen werden sollten
 
-### Magellan6.fdb
+### Magellan7.fdb
 
 Das ist die Datenbank, in der Ihre gesamten Schulverwaltungsdaten gespeichert sind. Diese Datei finden Sie bei Standardinstallation je nach Betriebssystem unter:
 
@@ -31,25 +31,6 @@ Das ist die Datenbank, in der Ihre gesamten Schulverwaltungsdaten gespeichert si
 !!! warning "Wichtig"
 
     Sollten Sie sich nicht sicher sein, wo genau sich diese Datenbank befindet, können Sie den genauen Pfad auch im MAGELLAN Administratormodul nachsehen. Sie finden den genauen Ablageort unter: `Server-Verwaltung > Verbindung verwalten > Starten > Verbindung markieren (heißt bestimmt "Magellan") > Bearbeiten > Datenbank`.
-
-
-### Magellan6DWH.fdb
-
-Das ist die Datenbank, in der Daten für einige Bundesländer für die Erstellung der Statistik gespeichert werden. Diese Datei finden Sie je nach Betriebssystem unter:
-
-Betriebssystem|Speicherpfad
----|---
-Vista|C:\Users\Public\Documents\Magellan 7\Datenbank\Magellan6.fdb
-XP|C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Datenbank\Magellan6DWH.fdb
-Windows 2000|C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Datenbank\Magellan6DWH.fdb
-Windows 7|C:\Users\Public\Documents\Stueber Software\Magellan 7\Datenbank\Magellan6DWH.fdb
-Windows Server2000|C:\ProgramData\Documents\Stueber Software\Magellan 7\Datenbank\Magellan6DWH.fdb
-Win10|C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan6DWH.fdb
-
-
-!!! warning "Wichtig"
-
-    Sollten Sie sich nicht sicher sein, wo genau sich diese Datenbank befindet, können Sie den genauen Pfad auch im Magellan 7 Administratormodul nachsehen. Sie finden den genauen Ablageort unter: `Server-Verwaltung > Verbindung verwalten > Starten > Verbindung markieren (heißt bestimmt "Magellan") > Bearbeiten > Data Warehouse`.
 
 
 ### security2.fdb

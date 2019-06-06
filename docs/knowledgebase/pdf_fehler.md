@@ -11,7 +11,7 @@ Wenn Sie in MAGELLAN im Rahmen des Druckens von Crystal Reports Berichten
 *	aus der Vorschau heraus ins PDF-Format exportieren wollen
 können Sie die folgende Fehlermeldung erhalten: 
  
-![Fehlermeldung](images/pdf_fehler00.png) 
+![Fehlermeldung](/assets/images/knowledgebase/pdf_fehler00.png) 
 
 ## Die Ursache
 
@@ -27,9 +27,9 @@ Diese Lösung basiert auf der Idee, das Microsoft Serviceupdate KB3102429 zu dei
 Prüfen Sie dazu zunächst, ob das Microsoft Serviceupdate KB3102429 bereist auf Ihrem Rechner installiert ist. Dazu gehen Sie exemplarisch unter Windows 8 wie folgt vor: 
  
 Rufen Sie `Systemsteuerung > Windows Update > Updateverlauf anzeigen` auf.
-1.	Prüfen Sie in der Liste, ob Update für Windows 8.1 für x64-Systeme (KB3102429) installiert ist.
+1.Prüfen Sie in der Liste, ob Update für Windows 8.1 für x64-Systeme (KB3102429) installiert ist.
 
-![Updateliste](images/pdf_fehler01.png) 
+![Updateliste](/assets/images/knowledgebase/pdf_fehler01.png) 
  
 
 ### Fall A: Serviceupdate KB3102429 ist installiert
@@ -38,27 +38,27 @@ Ist das Serviceupdate bereits installiert, gehen Sie wie folgt vor:
 1.	Rufen Sie `Systemsteuerung > Windows Update > Einstellungen ändern` auf.
 2.	Wenn unter Wichtige Updates der Wert Updates automatisch installieren eingestellt ist, so müssen die Einstellung ändern auf Updates herunterladen, aber Installation manuell durchführen.
 
-![ Updates herunterladen, aber Installation manuell durchführen](/images/pdf_fehler02.png)  
+![ Updates herunterladen, aber Installation manuell durchführen](/assets/images/knowledgebase/pdf_fehler02.png)  
 
 3.	Gehen Sie zurück auf `Systemsteuerung > Windows-Update`.
 4.	Wählen Sie Updateverlauf anzeigen und klicken Sie auf den im oberen Text blau markierten Link `Installierte Updates` (siehe nachfolgende Abbildung).
 
- ![Installierte Updates](/images/pdf_fehler03.png)  
+ ![Installierte Updates](/assets/images/knowledgebase/pdf_fehler03.png)  
 
 5.	Markieren Sie den Eintrag Update für Windows 8.1 für x64-Systeme (KB3102429) in der Microsoft Gruppe und klicken Sie auf Deinstallieren, um das Serviceupdate zu deinstallieren.
 6.	Starten Sie anschließend den Computer neu
 7.	Rufen Sie nach dem Neustart Systemsteuerung > Windows Update > Nach Updates suchen auf.
 
-![ Nach Updates suchen](/images/pdf_fehler04.png)  
+![ Nach Updates suchen](/assets/images/knowledgebase/pdf_fehler04.png)  
  
 
 8.	Das Serviceupdate Update für Windows 8.1 für x64-Systeme (KB3102429) wird erneut als verfügbar angezeigt.
 
- ![ Wichtiges Update ist verfügbar](/images/pdf_fehler05.png) 
+ ![ Wichtiges Update ist verfügbar](/assets/images/knowledgebase/pdf_fehler05.png) 
 
 9.	Markieren Sie unter Wichtig den Eintrag Update für Windows 8.1 für x64-Systeme (KB3102429) und wählen Sie über die rechte Maustaste den Menüpunkt Update ausblenden.
 
-  ![ Update ausblenden](/images/pdf_fehler06.png) 
+  ![ Update ausblenden](/assets/images/knowledgebase/pdf_fehler06.png) 
 
 10.	Wenn unter Punkt 2 zuvor unter Wichtige Updates den Wert Updates automatisch installieren eingestellt hat-ten, so müssen diese Einstellung dort wieder auf den ursprünglichen Wert Updates automatisch installieren zu-rückstellen.
 

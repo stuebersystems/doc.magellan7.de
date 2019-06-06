@@ -6,9 +6,7 @@ Sie können aber leicht über Crystal Reports die Felder einfügen. Starten Sie 
 
 Melden Sie sich anschließend an der Verbindung mit dem `sysdba`und entsprechendem Passwort an. Die im Bericht enthaltenen Tabellen werden aktualisiert und zeigen anschließend im Feldexplorer alle Felder an.
 
-> #### warning::Wichtig!
->
-> Manchmal erscheint die Meldung, dass eine Tabelle nicht gefunden wird und es wird gefragt, ob sie entfernt werden soll. Bitte beantworten Sie die Frage immer mit NEIN.
 
+!!! warning "Wichtig"
 
-
+    Manchmal erscheint die Meldung, dass eine Tabelle nicht gefunden wird und es wird gefragt, ob sie entfernt werden soll. Bitte beantworten Sie die Frage immer mit NEIN.

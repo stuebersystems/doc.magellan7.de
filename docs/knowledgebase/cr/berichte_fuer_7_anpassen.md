@@ -5,4 +5,4 @@ Aufgrund technischer Ver채nderungen in MAGELLAN 7 m체ssen bestehende Berichte f�
 Berichte, die von Schulen ver채ndert worden sind oder selbsterstellte Berichte liegen im Verantwortungsbereich der Schulen. Im Folgenden erl채utern wir die Gr체nde und die notwendigen Anpassungen.
 
 
-Eine vollst채ndige Anleitung finden Sie im MAGELLAN 7 Handbuch im Abschnitt [Eigene Berichte anpassen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen.html#tabelle-schueler---feld-ausbildung). 
+Eine vollst채ndige Anleitung finden Sie im MAGELLAN 7 Handbuch im Abschnitt [Eigene Berichte anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/). 

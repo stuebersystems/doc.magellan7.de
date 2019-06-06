@@ -7,9 +7,10 @@ Aufgrund häufiger Nachfragen zum Thema Hardware für den Firebird Datenbank-Ser
 Das Firebird-System selbst benötigt einen Festplattenspeicher von ca. 25 MB.   
 Eine leere MAGELLAN-Datenbank liegt derzeit bei ca. 20 MB und hat bei großen Schulen erfahrungsgemäß eine Größe bis zu 800 MB. Sollten Sie für Ihre Schüler (auch für ehemalige Schüler) oder Lehrer Passfotos in der Datenbank speichern, kann die Datenbankgröße auf mehrere Gibabyte anwachsen. 
 
-> #### success::Tipp
->
-> Im MAGELLAN-Administrator (ab Version 6.5.32) können per Assistent Passbilder inaktiver Schüler entfernt werden.
+
+!!! warning "Wichtig"
+
+    Im MAGELLAN-Administrator (seit Version 6.5.32) können per Assistent Passbilder inaktiver Schüler entfernt werden.
 
 ## BENÖTIGTER RAM
 
@@ -38,4 +39,3 @@ Es kommt also nicht so sehr darauf an, welche Hardware für die Einrichtung eine
 ## Quellen
 
 [FirebirdSQL.org Handbuch](https://firebirdsql.org/manual/ufb-about-sysreq.html)
-
