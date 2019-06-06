@@ -226,7 +226,7 @@ Sollte ein Bewerber versehentlich ins Schülermenü übernommen worden sein, kö
 
 ### Namen in Landessprache
 
- In den Menüpunkten `Schüler`, `Bewerber`, `Personen`, `Lehrer` und `Sorgeberechtigte` gibt unter `Daten1` die Möglichkeit auf die Unterkarte `Alternativ` zu wechseln um dort Namen in Landessprache einzugeben, zum Beispiel um Sie im Zeugnisdruck zu verwenden.
+ In den Menüpunkten `Schüler`, `Bewerber`, `Personen`, `Lehrer` und `Sorgeberechtigte` gibt unter `Daten1` die Möglichkeit auf die Unterkarte `Alternativ` zu wechseln um dort Namen in Landessprache einzugeben, zum Beispiel um sie im Zeugnisdruck zu verwenden.
 
 ![Unterkarte `Alternativ` unter `Schüler > Daten1` ](/assets/images/neues/s01.png)
 
