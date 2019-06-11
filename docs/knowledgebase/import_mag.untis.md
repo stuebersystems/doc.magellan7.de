@@ -2,9 +2,10 @@
 
 MAGELLAN unterstützt neben dem Datenabgleich zu unserem Stundenplanprogramm daVinci auch den Datenabgleich zum Stundenplanprogramm Untis. Dadurch können Sie mit MAGELLAN und Untis arbeiten, ohne Daten doppelt eingeben zu müssen.
 
-> #### warning::Wichtig!
->
-> Ein genauere Anleitung finden Sie in der MAGELLAN-Dokumentation im Abschnitt [Datenabgleich MAGELLAN und Untis](https://doc.magellan7.stueber.de/schulverwaltung/howto/stundenplaene.html#datenabgleich-magellan-untis).
+
+!!! warning "Wichtig"
+
+    Ein genauere Anleitung finden Sie in der MAGELLAN-Dokumentation im Abschnitt [Datenabgleich MAGELLAN und Untis](https://doc.magellan7.stueber.de/schulverwaltung/howto/stundenplaene.html#datenabgleich-magellan-untis).
 
 Die Schnittstelle MAGELLAN-Untis ist in Kooperation mit dem Hersteller von Untis entwickelt worden.
 Der Datenabgleich kann entweder von MAGELLAN nach Untis bzw. von Untis nach MAGELLAN erfolgen. Im ersten Fall werden die Datenänderungen vom Stundenplaner in Untis mit MAGELLAN abgeglichen. Im anderen Fall werden Veränderungen in Magellan auf die Daten in Untis übertragen.

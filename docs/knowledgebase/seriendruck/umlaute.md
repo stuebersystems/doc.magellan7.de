@@ -24,8 +24,3 @@ Prüfen Sie im Problemfall bitte, ob im Registrierungseditor unter `HKEY_CURRENT
 | 10.0           | Word XP     |
 | 11.0           | Word 2003   |
 | 12.0           | Word 2007   |
-
-
-
-
-

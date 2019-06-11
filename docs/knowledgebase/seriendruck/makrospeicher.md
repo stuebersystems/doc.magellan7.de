@@ -6,7 +6,7 @@ Teilweise öffnet Word Dokumente in einer `geschützten Ansicht`. Das ist bei he
 Folgende Fehlermeldung kann das Ergebnis sein:
 
 
-![Meldung beim Start des Seriendrucks](../images/word.01.png)
+![Meldung beim Start des Seriendrucks](/assets/images/knowledgebase/word.01.png)
 
 
 Wenn sich Microsoft Word nicht sicher ist, ob ein zu öffnendes Dokument vertrauenswürdig ist, wechselt das Programm beim Laden der Datei in die sogenannte «geschützte Ansicht». 

@@ -4,11 +4,9 @@ Einige Werte im Verzeichnis `Postleitzahlen` können sich zum Beispiel durch Geb
 
 
 | Folgende Schritte sind notwendig         |
-|-----------------------------------------:|
+|-----------------------------------------|
 | 2. Gemeinden synchronisieren             |
 | 3. Vollständigkeit der Gemeindekennziffern für Schüler überprüfen |
-
-
 
 ## Postleitzahlverzeichnis importieren
 
@@ -16,13 +14,13 @@ Prüfen Sie bitte, ob in Ihrem Schulnetzwerk (Serverrechner und Arbeitsplatzrech
 Öffnen Sie anschließend bitte im MAGELLAN Administrator den Punkt `Datenimporte > Postleitzahlverzeichnis importieren`. 
 Wählen Sie im Assistenten für `für folgendes Land` den Wert `Deutschland` aus und für `importiere folgenden Katalog` bitte `alle Kataloge`. Starten Sie den Assistenten über die Schaltfläche `Fertigstellen`.
 
-![Importieren des Postleitzahlverzeichnisses](images/RLP_PLZ_importieren.png)
+![Importieren des Postleitzahlverzeichnisses](/assets/images/knowledgebase/RLP_PLZ_importieren.png)
 
 ## Gemeinden synchronisieren
 
 Wenn das Einlesen der Postleitzahlen abgeschlossen ist, müssen die neuen Einträge im Verzeichnis mit den bestehenden Werten der Schüler, Lehrer, Schulen und Betriebe abgeglichen werden. Dabei wird die Postleitzahl und der Ort des jeweiligen Datensatzes (je Schüler, Lehrer usw.) mit den Inhalten des Postleitzahlverzeichnisses verglichen und falls eine Übereinstimmung vorliegt mit der Gemeindekennziffer ergänzt.
 
-![Synchronisieren der Gemeinden](images/RLP_Gemeinden_sync.png)
+![Synchronisieren der Gemeinden](/assets/images/knowledgebase/RLP_Gemeinden_sync.png)
 
 ## Vollständigkeit der Gemeindekennziffern für Schüler überprüfen
 

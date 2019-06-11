@@ -3,8 +3,7 @@
 Wenn Sie in MAGELLAN Klassen bestehend aus Schülern verschiedener Jahrgänge verwalten möchten, ist das auch möglich. 
 Unter `Schüler > Zeugnis > Details` gibt es das Feld `Jahrgang`, welches anders als der Klassenjahrgang (`Klasse > Zeiträume > Jahrgang`, gilt für die Klasse) für den einzelnen Schüler geführt wird. 
 
-![Tragen Sie im Feld "Jahrgang" den schülerindividuellen Jahrgang ein](images/jahrgang07.png)
-
+![Tragen Sie im Feld "Jahrgang" den schülerindividuellen Jahrgang ein](/assets/images/knowledgebase/jahrgang07.png)
 
 Zum erstmaligen Befüllen stehen Ihnen zwei Varianten zur Verfügung:
 
@@ -13,12 +12,11 @@ Zum erstmaligen Befüllen stehen Ihnen zwei Varianten zur Verfügung:
 
 In der Auswahlliste der Schüler sehen Sie zusätzlich zur Klasse auch den schülerindividuellen Jahrgang:
 
-![Schülerjahrgang in der Auswahlliste von MAGELLAN ](images/jahrgang01.png)
+![Schülerjahrgang in der Auswahlliste von MAGELLAN ](/assets/images/knowledgebase/jahrgang01.png)
 
+!!! warning "Wichtig"
 
-> #### primary::Hinweis
->
-> Der Jahrgang des Schülers kann optional beim Fortschreiben oder Versetzen der Schüler um 1 Jahr hochgesetzt werden.
+    Der Jahrgang des Schülers kann optional beim Fortschreiben oder Versetzen der Schüler um 1 Jahr hochgesetzt werden.
 
 ### Was ist am Ende des 1. Halbjahres zu tun?
 
@@ -26,7 +24,7 @@ Hier weicht das Vorgehen nicht vom Standard ab:
 
 Sie legen ein neues Halbjahr an und schreiben alle Schüler vom 1. Halbjahr ins 2. Halbjahr fort, die Option zum Erhöhen des Jahrgangs wird hier nicht aktiviert. Alle Schüler werden mit Ihrer Klasse in das nächste Halbjahr fortgeschrieben.
 
-![Beim Fortschreiben zwischen dem 1. und dem 2. Halbjahr wird die Option "Jahrgang erhöhen" nicht gewählt](images/jahrgang04.png)
+![Beim Fortschreiben zwischen dem 1. und dem 2. Halbjahr wird die Option "Jahrgang erhöhen" nicht gewählt](/assets/images/knowledgebase/jahrgang04.png)
 
 ### Was ist am Ende des 2. Halbjahres zu tun?
 
@@ -39,11 +37,10 @@ Wir beginnen mit den Schülern, die in die nächsthöhere Klasse aufsteigen:
 3. Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
 4. Wählen Sie die Zielklasse und markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!
 
-![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](images/jahrgang05.png)
+![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](/assets/images/knowledgebase/jahrgang05.png)
 
 
-
-![Beim Versetzen ins neue Schuljahr in eine neue Klasse wird die Option "Jahrgang erhöhen" gewählt](images/jahrgang03.png)
+![Beim Versetzen ins neue Schuljahr in eine neue Klasse wird die Option "Jahrgang erhöhen" gewählt](/assets/images/knowledgebase/jahrgang03.png)
 
 Als nächstes schreiben Sie bitte die Schüler fort, die weiterhin in der Klasse bleiben:
 
@@ -52,11 +49,6 @@ Als nächstes schreiben Sie bitte die Schüler fort, die weiterhin in der Klasse
 3. Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
 4. Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!
 
-![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](images/jahrgang06.png)
+![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](/assets/images/knowledgebase/jahrgang06.png)
 
-
-
-![Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt](images/jahrgang02.png)
-
-
-
+![Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt](/assets/images/knowledgebase/jahrgang02.png)
