@@ -38,6 +38,12 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * CHANGE: 
 
+### MAGELLAN BIBLIOTHEK
+
+* CHANGE: neue Symbole in der Medienansicht
+* FIX: Verschieben in anderen Katalog korrigiert
+* 
+
 ### MyMAGELLAN
 
 * NEW: 
@@ -49,10 +55,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ![Zugriffsrechte synchronisieren](assets/images/changelog/7.0.12.01.png)
 
 * NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
-
-### MAGELLAN Bibliothek
-
-* FIX: 
+* FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
+* FIX: Unter `Datenbankverbindung > Wiederherstellen` wird beim Öffnen eines Pfades (Schaltfläche am Ende des Pfadfeldes) direkt der eingestellte Zielpfad geöffnet.
+* 
 
 ### Berichte (NEW oder CHANGE)
 
