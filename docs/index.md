@@ -8,7 +8,7 @@ Die Dokumentation ist unterteilt in die Bereiche:
 * [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
 * [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/)
 * [MAGELLAN Knowledgebase](https://doc.magellan7.stueber.de/knowledgebase/voraussetzungen/)
-* [MAGELLAN Datenstruktur](https://doc.magellan7.stueber.de/datenstruktur/einleitung/)
+* [MAGELLAN Datenstruktur](https://doc.magellan7.stueber.de/datenstruktur/)
 
 ## MAGELLAN 7
 
