@@ -82,3 +82,29 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Klassen\Rheinland-Pfalz\Klassenliste mit Endnoten.rpt
 * FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS (nur für Minderjährige).rpt
 * FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS.rpt
+* FIX: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GY-FHReife (Bescheinigung).rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GY-ABI (2014).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-Studienbuch (Qualifikationsphase - zweite Seite).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-ABI-Meldung-MdlAbitur (Profil 2011).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-ABI (2015).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-Abi (Leistungskarte 2011).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AS (Klasse 5-10)(G8).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AS (Klasse 5-10)(G9).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AZ (A3)(2015).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AZ (A3).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-FHReife (2011).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-FHReife (2015).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-HJZ (2008).rpt
+* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-HJZ (Profil).rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
+* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2)
+* FIX: Berichte\Zeugnisse\Schweiz\CH-Notenausweis-E-Profil-2003.rpt
+* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-ABI-Reifepruefung 2017.rpt
+* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
+* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
+* FIX: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
+* FIX: Berichte\Schueler\Unfallanzeige (mit Erläuterungen).rpt
+* FIX: Berichte\Schueler\Schülerstammblatt (Belegung der Arbeitsgemeinschaften).rpt
