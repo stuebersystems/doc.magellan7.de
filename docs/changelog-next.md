@@ -100,4 +100,6 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-ABI-Reifepruefung 2017.rpt
 * FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
 * FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
-* FIX: \Berichte\Klassen\Jahresnotenliste-BVJ.rpt
+* FIX: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
+* FIX: Berichte\Schueler\Unfallanzeige (mit Erläuterungen).rpt
+* FIX: Berichte\Schueler\Schülerstammblatt (Belegung der Arbeitsgemeinschaften).rpt
