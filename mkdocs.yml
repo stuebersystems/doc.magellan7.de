@@ -244,10 +244,9 @@ nav:
       - Änderung in der Tabelle SchuelerAusbildung: knowledgebase/cr/schuelerausbildung.md
       - Fehler in Crystal Reports 9: knowledgebase/cr/CR9_Fehler.md  
 - Datenstruktur:
-    - Allgemeines:
-      - Einleitung: datenstruktur/einleitung.md
-      - Struktur: datenstruktur/die-struktur.md
-      - Abkürzungen: datenstruktur/die-struktur/abkuerzungen.md
+    - Einleitung: datenstruktur/einleitung.md
+    - Struktur: datenstruktur/die-struktur.md
+    - Abkürzungen: datenstruktur/die-struktur/abkuerzungen.md
     - Auswahltabellen: 
       - Allgemeines: datenstruktur/auswahltabellen-und-ansichten.md
       - tblAuswahlAdressen: datenstruktur/auswahltabellen-und-ansichten/tabelle-tblauswahladressen.md
