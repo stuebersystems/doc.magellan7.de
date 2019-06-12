@@ -207,15 +207,14 @@ nav:
       - Installationsprobleme unter Citrix: knowledgebase/citrixinstallation.md
       - Serverumzug: knowledgebase/admin-serverumzug.md
       - MAGELLAN ADMINISTRATOR im Silent-Mode starten: knowledgebase/admin_silentmode.md
-      - Pathsdatei:/*.lic,/*.evm,/*.opt zentral ablegen: knowledgebase/pathsdatei.md
-      - Hinweis Access-Anbindung: knowledgebase/Access-Anbindung.md
-      - Regelmäßige Sicherung der DB per Taskplaner: knowledgebase/admin_sicherung.taskplaner.md
-      - MAGELLAN und Linux: knowledgebase/admin.linux.md
-      - Probleme mit dem PDF-Export: knowledgebase/pdf_fehler.md
+      - Pathsdatei: knowledgebase/pathsdatei.md
+      - Access-Anbindung: knowledgebase/Access-Anbindung.md
+      - Sicherungper Taskplaner: knowledgebase/admin_sicherung.taskplaner.md
+      - Linux: knowledgebase/admin.linux.md    
     - MAGELLAN Handhabung:
       - PLZ und Gemeinden aktualisieren: knowledgebase/plz.aktualisieren.md
-      - ABS - knowledgebase/Neues Halbjahr, neues Schuljahr: knowledgebase/neues-halbjahr-neues-schuljahr.md
-      - BBS - knowledgebase/Neues Halbjahr, neues Schuljahr: knowledgebase/bbs-neues-halbjahr-neues-schuljahr-was-ist-zu-tun.md
+      - ABS - Neues Halbjahr, neues Schuljahr: knowledgebase/neues-halbjahr-neues-schuljahr.md
+      - BBS - Neues Halbjahr, neues Schuljahr: knowledgebase/bbs-neues-halbjahr-neues-schuljahr-was-ist-zu-tun.md
       - MAGELLAN und DAVINCI: knowledgebase/abgleich.stammdaten.md
       - MAGELLAN und Untis: knowledgebase/import_mag.untis.md
       - Jahrgangsübergreifende Klassen: knowledgebase/jahrgangsubergreifende-klassen-in-magellan.md
@@ -230,10 +229,11 @@ nav:
       - Standarddrucker für CR-Berichte: knowledgebase/cr/cr-drucker.md
       - Fächer mit hochgestellter Ziffer für einen Verweis auf eine Fußnote: knowledgebase/cr/cr-hochgestellt.md
       - Felder im Bericht aktualisieren: knowledgebase/cr/felder-im-bericht-aktualisieren.md
+      - ODBC-Anbindung unter 64 bit Betriebssystemen: knowledgebase/Import_odbc-3264.md
     - Import und Export:
+      - PDF-Export: knowledgebase/pdf_fehler.md
       - CSV-Dateien mit Texttrennzeichen speichern: knowledgebase/import-csvdateien.md
       - Gemeindekennziffern nachträglich setzen: knowledgebase/import-gemeindekennziffern_nachsetzen.md
-      - ODBC-Anbindung unter 64 bit Betriebssystemen: knowledgebase/Import_odbc-3264.md
     - MAGELLAN Seriendruck:
       - Makrospeicher konnte nicht geöffnet werden: knowledgebase/seriendruck/makrospeicher.md
       - Word stellt Umlaute nicht korrekt dar: knowledgebase/seriendruck/umlaute.md
