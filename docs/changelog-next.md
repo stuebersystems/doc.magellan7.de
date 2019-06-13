@@ -60,6 +60,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert
 * FIX: Assistent zur Übernahme neuer Lehrer korrigiert
 * FIX: neue Symbole für die Auswahl der Exemplare in der Ausleihe
+* FIX: Rückgabe per eingescanntem Buch korrigiert
 
 
 ### MyMAGELLAN

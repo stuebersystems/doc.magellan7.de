@@ -1,0 +1,19 @@
+/* CSS for website */
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+dl {
+    padding: 1em;
+    border: 1px solid #eee;
+}
+dt {
+    padding: 0 .85em!important;
+}
+.book .book-summary .exc-trigger:before {
+    content: "\f0da";
+}
+.book .book-summary .expanded > a .exc-trigger:before,
+.book .book-summary .expanded > span .exc-trigger:before {
+    content: "\f0d7";
+}

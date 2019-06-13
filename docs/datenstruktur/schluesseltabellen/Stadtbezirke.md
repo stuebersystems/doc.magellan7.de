@@ -1,0 +1,10 @@
+# Tabelle Stadtbezirke
+
+
+
+| Feldname    | Typ | Größe | Funktion | Bemerkung |
+|-------------|-----|-------|----------|-----------|
+| Kuerzel     | A   | 20    | P        | -         |
+| Schluessel  | A   | 10    | -        | -         |
+| Bezeichnung | A   | 100   | -        | -         |
+
