@@ -124,3 +124,10 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
 * FIX: Berichte\Schueler\Unfallanzeige (mit Erläuterungen).rpt
 * FIX: Berichte\Schueler\Schülerstammblatt (Belegung der Arbeitsgemeinschaften).rpt
+* FIX: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt (Betriebe -Querformat).rpt
+* FIX: Berichte\Schueler\Schülerpersonalblatt (nur mit Eltern und Vorbildung).rpt
+* FIX: Berichte\Schueler\Schülerliste (zeitraumübergreifende Fehlzeiten).rpt
+* FIX: Berichte\Schueler\Schülerausweis ohne Photo.rpt
+* FIX: Berichte\Schueler\Schüler-Abi (Antrag mündliche Prüfung).rpt
+* FIX: Berichte\Schueler\Schüler mit Herkunftsschulen.rpt
+* FIX: Berichte\Schueler\Schüler mit Herkunftsschulen u. letzte Klasse.rpt
