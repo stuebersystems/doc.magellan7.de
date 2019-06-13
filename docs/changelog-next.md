@@ -46,9 +46,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: Auf den Registerkarten im Menü `Schüler` werden jeweils am oberen Rand Symbole für den Status (aktiv, inaktiv, pausierend), ggfs. die Volljährigkeit (Berechnet anhand des Tagesdatums und des Geburtsdatums) und/oder der Status `Geheim` (Häkchen von Daten 3) eingeblendet.
 
 ![Symbole auf den Schülerregisterkarten](assets/images/changelog/7.0.12.02.png)
+
 ### SAXSVS
 
-* CHANGE: 
+* CHANGE: Wenn bei einem Schüler der Haken unter `Schüler > Daten 2 > NdH` aktiviert/wieder deaktiviert wird, wird entsprechend der Knoten für Migration erzeugt/nicht erzeugt.
+
 
 ### MAGELLAN BIBLIOTHEK
 
