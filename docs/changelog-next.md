@@ -21,7 +21,12 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX: `Schüler korrigieren`
+* FIX: `Schüler > Laufbahnprozesse > Schüler korrigieren` mit abgestuften Benutzerrechten wurde angepasst
+  
+!!! info "Hinweis"
+  
+      Bitte beachten Sie, dass das `Zugriffsrechte synchronisieren` im Modul MAGELLAN ADMINISTRATOR (Menüpunkt Benutzerverwaltung) vorab durchgeführt werden muss!
+
 * FIX: Passfotofunktion unter `Bewerber > Daten1` und unter `Lehrer > Daten1` ergänzt
 * FIX: im Lehrermenü kann `Auswahlliste > Lehrer markieren > Rechtsklick` das Fehlzeitenfenster aufgerufen werden
 * FIX: Die Funktionalitäten unter `Schüler > Zeugnis > Bemerkungen` wurden überarbeitet
@@ -33,7 +38,14 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Korrektur der Anzeige des Status (S und N statt H und N für Stamm- und Nebenschüler) unter `Sorgeberechtigte > Kinder`
 * FIX: Aufruf der Serienmail aus dem Menü `Bewerber` ergänzt
 * FIX: Aufruf `Abitur > Drucken > Zeugnisse` ergänzt
+* FIX: `Schüler > Daten2 > Abgangsart` Kürzellänge von 20 Zeichen wird akzeptiert
+* FIX: `Schüler > Laufbahnprozesse > Ausschulen > Abgangsart` Kürzellänge von 20 Zeichen wird akzeptiert
+* FIX: Geschwindigkeit beim Zuweisen des Status (aktiv, inaktiv, pausierend) in der Schülerauswahlliste optimiert
+* FIX: `Klassen > Daten > Abteilung` Problem beim Speichern behoben
+* FIX: Unter `Extras > Schlüsselverzeichnisse > Noten` wurden die Spalten `Von` und `Bis` ergänzt.
+* NEW: Auf den Registerkarten im Menü `Schüler` werden jeweils am oberen Rand Symbole für den Status (aktiv, inaktiv, pausierend), ggfs. die Volljährigkeit (Berechnet anhand des Tagesdatums und des Geburtsdatums) und/oder der Status `Geheim` (Häkchen von Daten 3) eingeblendet.
 
+![Symbole auf den Schülerregisterkarten](assets/images/changelog/7.0.12.02.png)
 ### SAXSVS
 
 * CHANGE: 
@@ -42,7 +54,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * CHANGE: neue Symbole in der Medienansicht
 * FIX: Verschieben in anderen Katalog korrigiert
-* 
+* FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert
+* FIX: Assistent zur Übernahme neuer Lehrer korrigiert
+
 
 ### MyMAGELLAN
 
