@@ -43,6 +43,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Geschwindigkeit beim Zuweisen des Status (aktiv, inaktiv, pausierend) in der Schülerauswahlliste optimiert
 * FIX: `Klassen > Daten > Abteilung` Problem beim Speichern behoben
 * FIX: Unter `Extras > Schlüsselverzeichnisse > Noten` wurden die Spalten `Von` und `Bis` ergänzt.
+* FIX: Korrektur der Sammelzuweisung unter `Schüler > Abitur > Zeugnisbemerkung`
 * NEW: Auf den Registerkarten im Menü `Schüler` werden jeweils am oberen Rand Symbole für den Status (aktiv, inaktiv, pausierend), ggfs. die Volljährigkeit (Berechnet anhand des Tagesdatums und des Geburtsdatums) und/oder der Status `Geheim` (Häkchen von Daten 3) eingeblendet.
 
 ![Symbole auf den Schülerregisterkarten](assets/images/changelog/7.0.12.02.png)
@@ -58,6 +59,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Verschieben in anderen Katalog korrigiert
 * FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert
 * FIX: Assistent zur Übernahme neuer Lehrer korrigiert
+* FIX: neue Symbole für die Auswahl der Exemplare in der Ausleihe
 
 
 ### MyMAGELLAN
