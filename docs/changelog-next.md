@@ -46,7 +46,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Korrektur der Sammelzuweisung unter `Schüler > Abitur > Zeugnisbemerkung`
 * NEW: Auf den Registerkarten im Menü `Schüler` werden jeweils am oberen Rand Symbole für den Status (aktiv, inaktiv, pausierend), ggfs. die Volljährigkeit (Berechnet anhand des Tagesdatums und des Geburtsdatums) und/oder der Status `Geheim` (Häkchen von Daten 3) eingeblendet.
 
-![Symbole auf den Schülerregisterkarten](assets/images/changelog/7.0.12.02.png)
+![Symbole auf den Schülerregisterkarten](/assets/images/changelog/7.0.12.02.png)
 
 ### SAXSVS
 
