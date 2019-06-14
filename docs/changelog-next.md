@@ -55,6 +55,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN BIBLIOTHEK
 
+* NEW: Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
 * CHANGE: neue Symbole in der Medienansicht
 * FIX: Verschieben in anderen Katalog korrigiert
 * FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert

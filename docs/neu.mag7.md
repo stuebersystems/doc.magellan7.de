@@ -263,7 +263,6 @@ Beim Aufruf der Schülerfehlzeiten werden jetzt immer alle bisher erfassten Fehl
 ![Fehlzeitenfenster, aufrufbar in der Schülerauswahlliste mit STRG+F](/assets/images/neues/schueler_36fehlzeiten.png)
 
 
-
 ### Sorgeberechtigte: Kinder-Karte ohne Zeitraumfilterung
 
 Im Menü `Sorgeberechtigte` werden auf der Unterkarte `Kinder` sämtliche jemals dem Sorgeberechtigten zugeordneten Schüler oder Bewerber gezeigt. Um zwischen den aktuellen Schülern, den Bewerbern und den Schülern, die die Schule inzwischen nicht mehr besuchen unterscheiden zu können, wird der `Status` einblendet. Zusätzlich gibt es eine Spalte `Zeitraum`, die den durch den Schüler zuletzt besuchten Zeitraum einblendet. Bei Bewerbern ist das Feld `Status` und das Feld `Zeitraum` nicht gefüllt.
@@ -378,4 +377,15 @@ Für die Eingabe der weiteren Zeugnisdaten steht eine Sammelzuweisung für die U
 
 ![Sammelzuweisung für Zeugnisdaten](/assets/images/neues/04.png)
 
+## MAGELLAN BIBLIOTHEK
 
+Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
+Sie können inaktive Schüler aus der Bibliothek löschen, der Schüler wird aus der Datenbank nur als Bibliotheksausleiher entfernt, der Schüler in der Schulverwaltungsansicht bleibt davon unberührt. 
+
+
+
+!!! warning "Wichtig"
+
+    Schüler, denen noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
+
+![nach einem Zeitraum gefilterte Schüleransicht](/assets/images/neues/06.png)
