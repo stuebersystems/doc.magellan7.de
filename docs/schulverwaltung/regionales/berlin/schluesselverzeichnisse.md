@@ -1,6 +1,6 @@
-#	Berliner Schlüsselverzeichnisse
+# Berliner Schlüsselverzeichnisse
 
-In den Berliner Masken gibt es zusätzliche oder anders benannte Felder. Nachstehend finden Sie eine Übersicht welches Schlüsselverzeichnis hinter den einzelnen Feldern liegt. Für die MAGELLAN-Standardansicht wird diese Zuordnung im MAGELLAN-Benutzerhandbuch im Abschnitt [Referenz > Schlüsselverzeichnisse](https://doc.magellan7.stueber.de/schulverwaltung/reference/catalogs.html) beschrieben. 
+In den Berliner Masken gibt es zusätzliche oder anders benannte Felder. Nachstehend finden Sie eine Übersicht welches Schlüsselverzeichnis hinter den einzelnen Feldern liegt. Für die MAGELLAN-Standardansicht wird diese Zuordnung im MAGELLAN-Benutzerhandbuch im Abschnitt [Referenz > Schlüsselverzeichnisse](https://doc.magellan7.stueber.de/schulverwaltung/reference/catalogs/) beschrieben. 
 
 ## Legende
 
@@ -118,37 +118,37 @@ Ansicht|Schüler > Extras > Außerschulisch 1<br/>Schüler > Extras > Außerschu
 *.keys|Ja
 **Verzeichnis**|**Betreuungen innerschulisch (Schüler)**
 Datenstruktur|BetreuungenInnerschulisch
-Mandant|	Nein
-Ansicht|	Schüler > Extras > Innerschulisch 1<br/>Schüler > Extras > Innerschulisch 2<br/>Schüler > Extras > Innerschulisch 3<br/>Bewerber > Extras > Innerschulisch 1<br/>Bewerber > Extras > Innerschulisch 2<br/>Bewerber > Extras > Innerschulisch 3
-*.keys|	Ja
+Mandant| Nein
+Ansicht| Schüler > Extras > Innerschulisch 1<br/>Schüler > Extras > Innerschulisch 2<br/>Schüler > Extras > Innerschulisch 3<br/>Bewerber > Extras > Innerschulisch 1<br/>Bewerber > Extras > Innerschulisch 2<br/>Bewerber > Extras > Innerschulisch 3
+*.keys| Ja
 **Verzeichnis**|**Betreuungsformen(Mandanten)**
 Datenstruktur|Betreuungsformen
 Mandant|Nein
-Ansicht|	Mandant > Daten1 > Betreungsform
+Ansicht| Mandant > Daten1 > Betreungsform
 *.keys|Nein
 **Verzeichnis**|**Bevollmächtigungen**
 Datenstruktur|Bevollmaechtigungen
-Mandant|	Nein
-Ansicht|	Lehrkraft > Daten2 > Bevollmächtigung
+Mandant| Nein
+Ansicht| Lehrkraft > Daten2 > Bevollmächtigung
 *.keys|Nein
 **Verzeichnis**|**Bewerbungsempfehlungen**
 Datenstruktur|Bewerbungsempfehlungen
-Mandant|	Nein
-Ansicht|	Bewerber > SekII > Vornoten > OG-Berechtigungen<br/>Bewerber > SekI > Anmeldung/Förderprognose > Empfehlung
-*.keys|	Ja
+Mandant| Nein
+Ansicht| Bewerber > SekII > Vornoten > OG-Berechtigungen<br/>Bewerber > SekI > Anmeldung/Förderprognose > Empfehlung
+*.keys| Ja
 **Verzeichnis**|**Bewerbungsziele**
 Datenstruktur|Bewerbungsziele
 Mandant|Nein
-Ansicht|	Bewerber > Daten1 > Für Ziel 1-Für Ziel 4<br/>Bewerber > SekII > Anmeldung > Für Ziel 1-Für Ziel 4<br/>Bewerber > Berufsbildung > Für Ziel 1-Für Ziel 2
+Ansicht| Bewerber > Daten1 > Für Ziel 1-Für Ziel 4<br/>Bewerber > SekII > Anmeldung > Für Ziel 1-Für Ziel 4<br/>Bewerber > Berufsbildung > Für Ziel 1-Für Ziel 2
 *.keys|Nein
 **Verzeichnis**|**Bewertungen**
 Datenstruktur|ASVBewertungen
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten
 *.keys|Nein
 **Verzeichnis**|**Bildungsgänge**
 Datenstruktur|Bildungsgaenge
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Betriebe > Daten2 > Bildungsgänge<br/>Klassen > Daten > Bildungsgang<br/>Schüler > Ausbildung > Bildungsgang<br/>Schüler > Daten2 > Höchster Abschluss ABS > Bildungsgang<br/>Schüler > Daten2 > Höchster Abschluss BBS > Bildungsgang<br/>Bewerber > Ausbildung > Bildungsgang<br/>Bewerber > Berufsbildung > Ausbildung/Praktikum > Bildungsgang<br/>Schüler > Berufsbildung > Ausbildung/Praktikum > Bildungsgang
 *.keys|Ja
 **Verzeichnis**|**Branchen**
@@ -159,7 +159,7 @@ Ansicht|Betriebe > Daten1 > Betriebe
 **Verzeichnis**|**Dienstbezeichnungen**
 Datenstruktur|Dienstbez
 Mandant|Nein
-Ansicht|Lehrkraft > Daten2 > Dienstbez	
+Ansicht|Lehrkraft > Daten2 > Dienstbez 
 *.keys|Ja
 **Verzeichnis**|**Dienstherren**
 Datenstruktur|Dienstherren
@@ -169,7 +169,7 @@ Ansicht|Lehrkraft > Daten2 > Dienstherr
 **Verzeichnis**|**Dienstverhältnisse**
 Datenstruktur|Dienstverh
 Mandant|Nein
-Ansicht|Lehrkraft > Daten2 > Dienstver	
+Ansicht|Lehrkraft > Daten2 > Dienstver 
 *.keys|Ja
 **Verzeichnis**|**Disziplinen**
 Datenstruktur|Disziplinen
@@ -178,181 +178,181 @@ Ansicht|Sportfeste > Disziplinen und Ergebnisse
 *.keys|Nein
 **Verzeichnis**|**Einschulmerkmale**
 Datenstruktur|Einschulmerkmale
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Daten1 > Einschulmerkmal<br/>Schüler > Grundstufe > Einschulmerkmal<br/>Schüler > SekI > Einschulmerkmal<br/>Schüler > SekII > Einschulmerkmal<br/>Schüler > Berufsbildung > Einschulmerkmal<br/>Bewerber > Daten1 > Einschulmerkmal<br/>Bewerber > Grundstufe > Einschulmerkmal<br/>Bewerber > SekI > Einschulmerkmal<br/>Bewerber > SekII > Einschulmerkmal<br/>Bewerber > Berufsbildung > Einschulmerkmal
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Empfehlungen**
 Datenstruktur|Empfehlungen
-Mandant|Nein	
+Mandant|Nein 
 Ansicht|Schüler > Laufbahn > Empfehlung
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Entscheidungen**
-Datenstruktur|Entscheidungen	
-Mandant|Nein	
+Datenstruktur|Entscheidungen 
+Mandant|Nein 
 Ansicht|Schüler > Laufbahn > Entscheidung
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Fächer**
 Datenstruktur|Faecher
 Mandant|Ja
 Ansicht|Schüler > Zeugnis > Fächer > Fach<br/>Bewerber/Schüler > Daten3 > Fremdspachenfolge > 1.FS- 4.FS<br/>Bewerber/Schüler > Daten3 > Fremdspachenfolge > 1.FS- 4.FS<br/>Bewerber/Schüler > Grundstufe > Kurs1-Kurs2<br/>Bewerber/Schüler > SekI > Profilfächer > Fach 1-Fach 6<br/>Bewerber/Schüler > SekI > Sprachenfolge und Sprachenwahl > FS1 –FS4<br/>Bewerber/Schüler > SekII > Sprachenfolge und Sprachenwahl > FS1 –FS4<br/>Bewerber/Schüler > SekII > Wahlpflichtfächer und Kurse > Wahlfach 1-6<br/>Bewerber/Schüler > Berufsbildung > Sprachenfolge und Sprachenwahl > FS1 –FS4<br/>Bewerber/Schüler > Berufsbildung > Wahlpflichtfächer und Kurse > Wahlfach 1-4
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Fachgruppen**
 Datenstruktur|Fachgruppen
-Mandant|	Nein
-Ansicht|	Verzeichnisse > Fächer > Gruppe
-*.keys|	Nein
+Mandant| Nein
+Ansicht| Verzeichnisse > Fächer > Gruppe
+*.keys| Nein
 **Verzeichnis**|**Fachniveaus**
-Datenstruktur|Fachniveaus	
-Mandant|Nein	
+Datenstruktur|Fachniveaus 
+Mandant|Nein 
 Ansicht|Schüler > Zeugnis > Fächer > Niveau
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Fachrichtungen**
 Datenstruktur|Fachrichtungen
-Mandant|	Nein
-Ansicht|	Verzeichnisse > Bildungsgänge > Fachrichtung<br/>Verzeichnisse > Berufe > Fachrichtung
+Mandant| Nein
+Ansicht| Verzeichnisse > Bildungsgänge > Fachrichtung<br/>Verzeichnisse > Berufe > Fachrichtung
 *.keys|Ja
 **Verzeichnis**|**Fachschwerpunkte**
 Datenstruktur|Fachschwerpunkte
-Mandant|	Nein
-Ansicht|	Schüler > Zeugnis > Fächer > Schwerpunkt
-*.keys|	Nein
+Mandant| Nein
+Ansicht| Schüler > Zeugnis > Fächer > Schwerpunkt
+*.keys| Nein
 **Verzeichnis**|**Fachstatus**
-Datenstruktur|Fachstati	
+Datenstruktur|Fachstati 
 Mandant|Nein
-Ansicht|	Schüler > Zeugnis > Fächer > Fachstatus<br/>Abitur > Qualifikation > Fachstatus<br/>Berufsschule > Matrix > Fachstatus<br/>Verzeichnisse > Fachtafeln > Fachtafelfächer > Fachstatus	
+Ansicht| Schüler > Zeugnis > Fächer > Fachstatus<br/>Abitur > Qualifikation > Fachstatus<br/>Berufsschule > Matrix > Fachstatus<br/>Verzeichnisse > Fachtafeln > Fachtafelfächer > Fachstatus 
 *.keys|Ja
 **Verzeichnis**|**Fachtafeln**
-Datenstruktur|Fachtafel	
+Datenstruktur|Fachtafel 
 Mandant|Ja
-Ansicht|	Verzeichnisse > Fachtafeln
-*.keys|	Nein
-**Verzeichnis**|**Fachthemen**	
+Ansicht| Verzeichnisse > Fachtafeln
+*.keys| Nein
+**Verzeichnis**|**Fachthemen** 
 Datenstruktur|FaecherThemen
-Mandant|Ja	
-Ansicht|Verzeichnisse > Fachthemen	
+Mandant|Ja 
+Ansicht|Verzeichnisse > Fachthemen 
 *.keys|Nein
 **Verzeichnis**|**Fahrkarten**
 Datenstruktur|Fahrkarten
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Daten4 > Fahrkarten<br/>Bewerber > Daten4 > Fahrkarten
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Fehlgründe (Lehrer)**
 Datenstruktur|LehrerFehlgruende
-Mandant|	Nein	
-Ansicht|Lehrkraft > Fehlzeiten > Grund	
+Mandant| Nein 
+Ansicht|Lehrkraft > Fehlzeiten > Grund 
 *.keys|Nein
 **Verzeichnis**|**Förderbedarf**
 Datenstruktur|SopaedFoerderungen
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Daten4 > Sonstige Daten > Förderbedarf<br/>Bewerber > Daten4 > Sonstige Daten > Förderbedarf<br/>Schüler > Sekundarstufe II > Besondere Schülerdaten > Schularzt
 *.keys|Nein
 **Verzeichnis**|**Förderungen**
 Datenstruktur|Foerderungen
-Mandant|Nein	
-Ansicht|Schüler > Daten4 > Förderung > Förderung<br/>Bewerber > Daten4 > Förderung > Förderung	
+Mandant|Nein 
+Ansicht|Schüler > Daten4 > Förderung > Förderung<br/>Bewerber > Daten4 > Förderung > Förderung 
 *.keys|Nein
 **Verzeichnis**|**Funktionen (Lehrer)**
 Datenstruktur|LehrerFunktionen
-Mandant|	Nein	
-Ansicht|Lehrkraft > Daten3 > Funktion1-8	
+Mandant| Nein 
+Ansicht|Lehrkraft > Daten3 > Funktion1-8 
 *.keys|Nein
 **Verzeichnis**|**Funktionen (Schüler)**
 Datenstruktur|SchuelerFunktionen
-Mandant|	Nein	
-Ansicht|Schüler > Daten3 > Funktion1-8<br/>Bewerber > Daten3 > Funktion1-8	
+Mandant| Nein 
+Ansicht|Schüler > Daten3 > Funktion1-8<br/>Bewerber > Daten3 > Funktion1-8 
 *.keys|Nein
 **Verzeichnis**|**Funktionen (Sorgeberechtigte)**
 Datenstruktur|SorgebeFunktionen
-Mandant|Nein	
-Ansicht|Sorgeberechtigte > Daten > Funktion1-8	
+Mandant|Nein 
+Ansicht|Sorgeberechtigte > Daten > Funktion1-8 
 *.keys|Nein
 **Verzeichnis**|**Härtefälle**
 Datenstruktur|Haertefaelle
-Mandant|Nein	
-Ansicht|Bewerber > SekI > Anmelde/Förderprognose	
+Mandant|Nein 
+Ansicht|Bewerber > SekI > Anmelde/Förderprognose 
 *.keys|Nein
 **Verzeichnis**|**Herkunftsarten**
 Datenstruktur|Herkunftsarten
-Mandant|Nein	
+Mandant|Nein 
 Ansicht|Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunftsart<br/>Bewerber > Zugang > Bereits besuchte Schulen > Herkunftsart<br/>Bewerber > Grundstufe > Laufbahn > Herkunftsart<br/>Bewerber > SekI > Laufbahn > Herkunftsart<br/>Bewerber > SekII > Laufbahn > Herkunftsart<br/>Bewerber > Berufsbildung > Laufbahn > Herkunftsart<br/>Schüler > Grundstufe > Laufbahn > Herkunftsart<br/>Schüler > SekI > Laufbahn > Herkunftsart<br/>Schüler > SekII > Laufbahn > Herkunftsart<br/>Schüler > Berufsbildung > Laufbahn > Herkunftsart
 *.keys|Ja
 **Verzeichnis**|**Herkunftsunterlagen**
-Datenstruktur|Herkunftsunterlagen	
-Mandant|Nein	
+Datenstruktur|Herkunftsunterlagen 
+Mandant|Nein 
 Ansicht|Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunftsunterlagen<br/>Bewerber > Zugang > Bereits besuchte Schulen > Herkunftsunterlagen<br/>Bewerber > Grundstufe > Laufbahn > Herkunftsunterlagen<br/>Bewerber > SekI > Laufbahn > Herkunftsunterlagen<br/>Bewerber > SekII > Laufbahn > Herkunftsunterlagen<br/>Bewerber > Berufsbildung > Laufbahn > Herkunftsunterlagen<br/>Schüler > Grundstufe > Laufbahn > Herkunftsunterlagen<br/>Schüler > SekI > Laufbahn > Herkunftsunterlagen<br/>Schüler > SekII > Laufbahn > Herkunftsunterlagen<br/>Schüler > Berufsbildung > Laufbahn > Herkunftsunterlagen
 *.keys|Nein
 **Verzeichnis**|**Inhaltetafeln**
 Datenstruktur|ASVInhaltetafeln
 Mandant|Ja
 Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Integrationsmerkmale**
 Datenstruktur|Integrationsmerkmale
-Mandant|Nein	
+Mandant|Nein 
 |Klassen > Daten > Integration
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Kammern**
 Datenstruktur|Kammern
-Mandant|Nein	
-Ansicht|Betriebe > Daten1 > Kammern	
+Mandant|Nein 
+Ansicht|Betriebe > Daten1 > Kammern 
 *.keys|Nein
 **Verzeichnis**|**Kategoriegruppen**
-Datenstruktur|ASVKategoriegruppen	
-MandantMandant|Nein	
+Datenstruktur|ASVKategoriegruppen 
+MandantMandant|Nein 
 Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten
 *.keys|Nein
 **Verzeichnis**|**Kategorien**
-Datenstruktur|ASVKategorien	
-Mandant|Nein	
-Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten	
+Datenstruktur|ASVKategorien 
+Mandant|Nein 
+Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten 
 *.keys|Nein
 **Verzeichnis**|**Kategorien (Adressen)**
 Datenstruktur|Adressenkategorien
 Mandant|Nein
 Ansicht|Adressen > Daten > Kategorie
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Kategorien (Lehrer)**
 Datenstruktur|Lehrerkategorien
 Mandant|Nein
 Ansicht|Lehrkraft > Daten1 > Kategorie
 *.keys|Nein
 **Verzeichnis**|**Kategorien (Mandanten)**
-Datenstruktur|Mandantenkategorien	
-Mandant|Nein	
-Ansicht|Mandant > Daten1 > Schulform	
+Datenstruktur|Mandantenkategorien 
+Mandant|Nein 
+Ansicht|Mandant > Daten1 > Schulform 
 *.keys|Nein
 **Verzeichnis**|**Kategorien (Personen)**
-Datenstruktur|Personenkategorien	
+Datenstruktur|Personenkategorien 
 Mandant|Nein
-Ansicht|Personen > Daten > Kategorie	
+Ansicht|Personen > Daten > Kategorie 
 *.keys|Nein
 **Verzeichnis**|**Kategorietafeln**
-Datenstruktur|ASVTafelkategorien	
-Mandant|Ja	
+Datenstruktur|ASVTafelkategorien 
+Mandant|Ja 
 Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten
 *.keys|Nein
 **Verzeichnis**|**Klassenmerkmale**
-Datenstruktur|Klassenmerkmale	
-Mandant|Ja	
+Datenstruktur|Klassenmerkmale 
+Mandant|Ja 
 Ansicht|Klassen > Merkmale > Merkmal A1-A6<br/>Klassen > Merkmale > Merkmal S1-S4
 *.keys|Nein
 **Verzeichnis**|**Klassenorganisationen**
-Datenstruktur|Klassenorganisationen	
-Mandant|Nein	
+Datenstruktur|Klassenorganisationen 
+Mandant|Nein 
 Ansicht|Klassen > Daten > KL-Organisation
 *.keys|Ja
 **Verzeichnis**|**Klassenstufen**
-Datenstruktur|Klassenstufen	
-Mandant|Nein	
-Ansicht|Klasse > Zeiträume > Allgemein > Klassenstufen	
+Datenstruktur|Klassenstufen 
+Mandant|Nein 
+Ansicht|Klasse > Zeiträume > Allgemein > Klassenstufen 
 *.keys|Ja
 **Verzeichnis**|**Konfessionen**
-Datenstruktur|Konfessionen	
-Mandant|Nein	
-Ansicht|Schüler > Daten1 > Konfession<br/>Bewerber > Daten1 > Konfession<br/>Schüler > Grundstufe > Besondere Schülerdaten > Konfession<br/>Bewerber > Grundstufe > Besondere Schülerdaten > Konfession<br/>Schüler > SekI > Besondere Schülerdaten > Konfession<br/>Bewerber > SekI > Besondere Schülerdaten > Konfession<br/>Schüler > SekIIBesondere Schülerdaten > Konfession<br/>Bewerber > SekII > Besondere Schülerdaten > Konfession<br/>Schüler > Berufsbildung > Besondere Schülerdaten > Konfession<br/>Bewerber > Berufsbildung > Besondere Schülerdaten > Konfession	
+Datenstruktur|Konfessionen 
+Mandant|Nein 
+Ansicht|Schüler > Daten1 > Konfession<br/>Bewerber > Daten1 > Konfession<br/>Schüler > Grundstufe > Besondere Schülerdaten > Konfession<br/>Bewerber > Grundstufe > Besondere Schülerdaten > Konfession<br/>Schüler > SekI > Besondere Schülerdaten > Konfession<br/>Bewerber > SekI > Besondere Schülerdaten > Konfession<br/>Schüler > SekIIBesondere Schülerdaten > Konfession<br/>Bewerber > SekII > Besondere Schülerdaten > Konfession<br/>Schüler > Berufsbildung > Besondere Schülerdaten > Konfession<br/>Bewerber > Berufsbildung > Besondere Schülerdaten > Konfession 
 *.keys|Ja
 **Verzeichnis**|**Krankenkassen**
-Datenstruktur|Krankenkassen	
+Datenstruktur|Krankenkassen 
 Mandant|Nein
 Ansicht|Schüler > Daten4 > Krankenkasse<br/>Bewerber > Daten4 > Krankenkasse
 *.keys|Nein
@@ -363,7 +363,7 @@ Ansicht|Lehrkraft > Daten3 > Lehrämter > Lehramt
 *.keys|Ja
 **Verzeichnis**|**Lehrermerkmale**
 Datenstruktur|Lehrermerkmale
-Mandant|Ja	
+Mandant|Ja 
 Ansicht|Lehrkraft > Merkmale > MerkmalA1-A6<br/>Lehrkraft > Merkmale > MerkmalS1-S4
 *.keys|Nein
 **Verzeichnis**|**Lehrer-Soll-Schlüssel**
@@ -372,9 +372,9 @@ Mandant|Ja
 Ansicht|Lehrkraft > Sollberechnung
 *.keys|Nein
 **Verzeichnis**|**Mandantenmerkmale**
-Datenstruktur|MandantenMerkmale	
+Datenstruktur|MandantenMerkmale 
 Mandant|Nein
-Ansicht|Mandanten > Merkmale > A1-A6	
+Ansicht|Mandanten > Merkmale > A1-A6 
 *.keys|Nein
 **Verzeichnis**|**Muttersprachen**
 Datenstruktur|Muttersprachen
@@ -383,68 +383,68 @@ Ansicht|Schüler > Daten2 > Muttersprache<br/>Bewerber > Daten2 > Muttersprache
 *.keys|Ja
 **Verzeichnis**|**Nachprüfungen**
 Datenstruktur|Nachpruefungen
-Mandant|	Nein	
-Ansicht|Schüler > Laufbahn > Allgemein > Nachprüfung	
+Mandant| Nein 
+Ansicht|Schüler > Laufbahn > Allgemein > Nachprüfung 
 *.keys|Nein
-**Verzeichnis**|**Noten**	
-Datenstruktur|Noten	
-Mandant|Ja	
+**Verzeichnis**|**Noten** 
+Datenstruktur|Noten 
+Mandant|Ja 
 Ansicht|Schüler > Zeugnis > Leistungen > Endnote<br/>Schüler > Zeugnis > Leistungen > Schriftl.Note1-4<br/>Schüler > Zeugnis > Leistungen > Mündl.Note<br/>Schüler > Zeugnis > Leistungen > Zusatz Note 1-3<br/>Schüler > Zeugnis > Leistungen > Endnote (Gesamt)<br/>Abitur > Qualifikation > 11/1-13/2<br/>Abitur > Prüfung > Prüfungsfächer<br/>Zeugnis > Details > Verhalten<br/>Zeugnis > Details > Mitarbeit<br/>Berufsschule > Matrix > J1 Note –J9 Note<br/>Berufsschule > Matrix > Zusatznote1-5
 *.keys|Ja
 **Verzeichnis**|**Organisationen**
-Datenstruktur|Organisationen	
-Mandant|Nein	
+Datenstruktur|Organisationen 
+Mandant|Nein 
 Ansicht|Klasse > Daten > Organisation
 *.keys|Ja
 **Verzeichnis**|**Postleitzahlen**
 Datenstruktur|Postleitzahlen
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Schüler > Daten1 > Postleitzahl<br/>Schüler > Grundstufe > Postleitzahl<br/>Schüler > SekI > Postleitzahl<br/>Schüler > SekII > Postleitzahl<br/>Schüler > Berufsbildung > Postleitzahl<br/>Bewerber > Daten1 > Postleitzahl<br/>Bewerber > Grundstufe > Postleitzahl<br/>Bewerber > SekI > Postleitzahl<br/>Bewerber > SekII > Postleitzahl<br/>Bewerber > Berufsbildung > Postleitzahl<br/>Lehrkraft > Daten1 > Postleitzahl<br/>Betriebe > Daten > Postleitzahl<br/>Mandanten > Daten > Postleitzahl<br/>Personen > Daten > Postleitzahl<br/>Sorgeberechtigte > Postleitzahl<br/>Adressen > Daten > Postleitzahl
 *.keys|Ja
 **Verzeichnis**|**Profile (Schüler)**
 Datenstruktur|SchuelerProfile
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Daten3 > Verschiedenes > Profil<br/>Bewerber > Daten3 > Verschiedenes > Profil
 *.keys|Nein
 **Verzeichnis**|**Prüfungsbezüge (Lehrer)**
 Datenstruktur|LehrerPruefungsbezuege
-Mandant|	Nein
-Ansicht|	Lehrkraft > Daten3 > Lehrämter > Prüfungsbezug
+Mandant| Nein
+Ansicht| Lehrkraft > Daten3 > Lehrämter > Prüfungsbezug
 *.keys|Nein
 **Verzeichnis**|**Qualifikationsniveaus**
 Datenstruktur|Qualifikationsniveaus
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Verzeichnisse > Bildungsgänge > DQR-Stufe<br/>Verzeichnisse > Berufe > DQR-Stufe
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Räume**
-Datenstruktur|Raeume	
+Datenstruktur|Raeume 
 Mandant|Ja
-Ansicht|	Klassen > Zeiträume > Klassenraum
-*.keys|	Nein
+Ansicht| Klassen > Zeiträume > Klassenraum
+*.keys| Nein
 **Verzeichnis**|**Religion (Teilnahmen)**
-Datenstruktur|RelTeilnahmen	
+Datenstruktur|RelTeilnahmen 
 Mandant|Nein
-Ansicht|	Schüler > Daten1 > Rel.-Teilnahme<br/>Bewerber > Daten1 > Rel.-Teilnahme	
+Ansicht| Schüler > Daten1 > Rel.-Teilnahme<br/>Bewerber > Daten1 > Rel.-Teilnahme 
 *.keys|Nein
 **Verzeichnis**|**Religion (Wahlgründe)**
 Datenstruktur|RelGruende
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Daten1 > Rel.-Grund<br/>Bewerber > Daten1 > Rel.-Grund
 *.keys|Nein
 **Verzeichnis**|**Religion (Wünsche)**
 Datenstruktur|*RelWuensche
-Mandant|	Nein
-Ansicht|	Schüler > Daten1 > Rel.-Wunsch<br/>Bewerber > Daten1 > Rel.-Wunsch
+Mandant| Nein
+Ansicht| Schüler > Daten1 > Rel.-Wunsch<br/>Bewerber > Daten1 > Rel.-Wunsch
 *.keys|Nein
 **Verzeichnis**|**Schulenmerkmale**
 Datenstruktur|SchulenMerkmale
-Mandant|	Nein	
-Ansicht|Schulen > Daten > Merkmal A1-A6	
+Mandant| Nein 
+Ansicht|Schulen > Daten > Merkmal A1-A6 
 *.keys|Nein
 **Verzeichnis**|**Schülerarten**
-Datenstruktur|SchuelerArten	
+Datenstruktur|SchuelerArten 
 Mandant|Nein
-Ansicht|	Schüler/Bewerber > Extras > Schülerart > Schülerart
+Ansicht| Schüler/Bewerber > Extras > Schülerart > Schülerart
 *.keys|Nein
 **Verzeichnis**|**Schularten**
 Datenstruktur|Schularten
@@ -453,143 +453,143 @@ Ansicht|Schüler > Laufbahn > Allgemein > Schulart<br/>Klassen > Daten > Schular
 *.keys|Ja
 **Verzeichnis**|**Schularten (Herkunft)**
 Datenstruktur|SchulartenHerkunft
-Mandant|Nein	
-Ansicht|Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulart<br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulart<br/>Bewerber > Grundstufe > Laufbahn > Schulart<br/>Bewerber > SekI > Laufbahn > Schulart<br/>Bewerber > SekII > Laufbahn > Schulart<br/>Bewerber > Berufsbildung > Laufbahn > Schulart<br/>Schüler > Grundstufe > Laufbahn > Schulart<br/>Schüler > SekI > Laufbahn > Schulart<br/>Schüler > SekII > Laufbahn > Schulart<br/>Schüler > Berufsbildung > Laufbahn > Schulart	
+Mandant|Nein 
+Ansicht|Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulart<br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulart<br/>Bewerber > Grundstufe > Laufbahn > Schulart<br/>Bewerber > SekI > Laufbahn > Schulart<br/>Bewerber > SekII > Laufbahn > Schulart<br/>Bewerber > Berufsbildung > Laufbahn > Schulart<br/>Schüler > Grundstufe > Laufbahn > Schulart<br/>Schüler > SekI > Laufbahn > Schulart<br/>Schüler > SekII > Laufbahn > Schulart<br/>Schüler > Berufsbildung > Laufbahn > Schulart 
 *.keys|Ja
 **Verzeichnis**|**Schülermerkmale**
 Datenstruktur|SchuelerMerkmale
-Mandant|Ja	
+Mandant|Ja 
 Ansicht|Schüler/Bewerber > Merkmale > Merkmale A1-A6<br/>Schüler/Bewerber > Statistik > Merkmale S1-S10
 *.keys|Ja
 **Verzeichnis**|**Schulformen**
-Datenstruktur|Schulformen	
+Datenstruktur|Schulformen 
 Mandant|Nein
-Ansicht|	Klassen > Daten > Schulform<br/>Verzeichnisse > Bildungsgänge > Schulform	
+Ansicht| Klassen > Daten > Schulform<br/>Verzeichnisse > Bildungsgänge > Schulform 
 *.keys|Ja
 **Verzeichnis**|**Schulformen (Herkunft)**
 Datenstruktur|SchulformenHerkunft
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulform<br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulform<br/>Bewerber > Grundstufe > Laufbahn > Schulform<br/>Bewerber > SekI > Laufbahn > Schulform<br/>Bewerber > SekII > Laufbahn > Schulform<br/>Bewerber > Berufsbildung > Laufbahn > Schulform<br/>Schüler > Grundstufe > Laufbahn > Schulform<br/>Schüler > SekI > Laufbahn > Schulform<br/>Schüler > SekII > Laufbahn > Schulform<br/>Schüler > Berufsbildung > Laufbahn > Schulform
 *.keys|Ja
 **Verzeichnis**|**Schulformen (Übergang)**
 Datenstruktur|SchulformenUebergang
-Mandant|	Nein
-Ansicht|	Schüler > Zugang/Abgang > Abgang > an Schulform
-*.keys|	Ja
+Mandant| Nein
+Ansicht| Schüler > Zugang/Abgang > Abgang > an Schulform
+*.keys| Ja
 **Verzeichnis**|**Schulstati**<
-Datenstruktur|Schulstati	
+Datenstruktur|Schulstati 
 Mandant|Nein
 Ansicht|Mandant > Daten1 > Schulstatus
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Schulstellen**
 Datenstruktur|Schulstellen
-Mandant|	Nein
-Ansicht|	Klasse > Daten > Schulstelle	
+Mandant| Nein
+Ansicht| Klasse > Daten > Schulstelle 
 *.keys|Nein
 **Verzeichnis**|**Schulträger**
 Datenstruktur|Schultraeger
 Mandant|Nein
 Ansicht|Mandant > Daten1 > Schulträger
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Schulzweige**
-Datenstruktur|Schulzweige	
-Mandant|Nein	
-Ansicht|Lehrer > Daten2 > Schulzweig	
+Datenstruktur|Schulzweige 
+Mandant|Nein 
+Ansicht|Lehrer > Daten2 > Schulzweig 
 *.keys|Nein
 **Verzeichnis**|**Schwerpunkte**
 Datenstruktur|Schwerpunkte
-Mandant|Nein	
-Ansicht|Verzeichnis > Bildungsgänge > Schwerpunkt 1<br/>Verzeichnis > Bildungsgänge > Schwerpunkt 2	
+Mandant|Nein 
+Ansicht|Verzeichnis > Bildungsgänge > Schwerpunkt 1<br/>Verzeichnis > Bildungsgänge > Schwerpunkt 2 
 *.keys|Nein
 **Verzeichnis**|**Sportfeste**
 Datenstruktur|Sportfeste
-Mandant|	Ja
-Ansicht|Sportfeste > Disziplinen und Ergebnisse > Sportfest	
+Mandant| Ja
+Ansicht|Sportfeste > Disziplinen und Ergebnisse > Sportfest 
 *.keys|Nein
 **Verzeichnis**|**Sprachgruppen**
 Datenstruktur|Sprachgruppen
 Mandant|Nein
-Ansicht|Schüler/Bewerber > Daten2 > Sprachgruppe	
+Ansicht|Schüler/Bewerber > Daten2 > Sprachgruppe 
 *.keys|Ja
 **Verzeichnis**|**Sprachreferenzen**
 Datenstruktur|Sprachreferenzen
-Mandant|	Nein	
-Ansicht|Schüler/Bewerber > Daten3 > Referenz	
+Mandant| Nein 
+Ansicht|Schüler/Bewerber > Daten3 > Referenz 
 *.keys|Ja
 **Verzeichnis**|**Staatsangehörigkeiten**
 Datenstruktur|Staatsangehoerigkeiten
-Mandant|	Nein
-Ansicht|	Schüler/Bewerber > Daten2 > Staatsangehörigkeit > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > Daten1 > Geburtsland<br/>Schüler/Bewerber > Grundstufe > Geburtsland<br/>Schüler/Bewerber > Grundstufe > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > SekI > Geburtsland<br/>Schüler/Bewerber > SekI > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > SekII > Geburtsland<br/>Schüler/Bewerber > SekII > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > Berufsbildung > Geburtsland<br/>Schüler/Bewerber > Berufsbildung > Staatsangeh.1 und Staatsangeh.2<br/>Lehrkraft > Daten1 > Staatsangeh.
-*.keys|	Ja
+Mandant| Nein
+Ansicht| Schüler/Bewerber > Daten2 > Staatsangehörigkeit > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > Daten1 > Geburtsland<br/>Schüler/Bewerber > Grundstufe > Geburtsland<br/>Schüler/Bewerber > Grundstufe > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > SekI > Geburtsland<br/>Schüler/Bewerber > SekI > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > SekII > Geburtsland<br/>Schüler/Bewerber > SekII > Staatsangeh.1 und Staatsangeh.2<br/>Schüler/Bewerber > Berufsbildung > Geburtsland<br/>Schüler/Bewerber > Berufsbildung > Staatsangeh.1 und Staatsangeh.2<br/>Lehrkraft > Daten1 > Staatsangeh.
+*.keys| Ja
 **Verzeichnis**|**Typen**
-Datenstruktur|ASVTypen	
-Mandant|Nein	
+Datenstruktur|ASVTypen 
+Mandant|Nein 
 Ansicht|Schüler > Zeugnis > Arbeits- und Sozialverhalten
-*.keys|	Nein
+*.keys| Nein
 **Verzeichnis**|**Übergangsarten**
 Datenstruktur|Uebergangsarten
 Mandant|Nein
 Ansicht|Schüler > Zugang/Abgang > Abgang > Übergang
 *.keys|Ja
 **Verzeichnis**|**Umschulungsmerkmale**
-Datenstruktur|Umschulungsmerkmale	
-Mandant|Nein	
-Ansicht|Schüler/Bewerber > Daten2 > Umschulung	
+Datenstruktur|Umschulungsmerkmale 
+Mandant|Nein 
+Ansicht|Schüler/Bewerber > Daten2 > Umschulung 
 *.keys|Nein
 **Verzeichnis**|**Unterrichtsarten**
 Datenstruktur|Unterrichtsarten
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Schüler > Zeugnis > Fächer > Unterrichtsarten<br/>Verzeichnisse > Fachtafeln > Fachtafelfächer > Unterrichtsart<br/>Abitur > Qualifikation > Unterrichtsart<br/>Berufsschule > Matrix > Unterrichtsart
 *.keys|Ja
 **Verzeichnis**|**Unterrichtsformen**
 Datenstruktur|Unterrichtsformen
 Mandant|Nein
-Ansicht|	Klassen > Zeiträume > Zeitraum > Unterrichtsform
-*.keys|	Nein
+Ansicht| Klassen > Zeiträume > Zeitraum > Unterrichtsform
+*.keys| Nein
 **Verzeichnis**|**Unterstützungen**
 Datenstruktur|Unterstuetzungen
 Mandant|Nein
-Ansicht|	Schüler/Bewerber > Daten3 > Verschiedenes > Unterstützung	
+Ansicht| Schüler/Bewerber > Daten3 > Verschiedenes > Unterstützung 
 *.keys|Nein
 **Verzeichnis**|**Verkehrsmittel**
 Datenstruktur|Verkehrsmittel
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler/Bewerber > Daten4 > Beförderung > Verkehrsmittel
 *.keys|Nein
 **Verzeichnis**|**Verordnungen**
 Datenstruktur|Verordnungen
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Abitur > Prüfung > Prüfungsverordnung<br/>Abitur > Qualifikation > Prüfungsverordnung<br/>Berufsschule > Matrix > Verordnung<br/>Schüler > Zeugnis > Leistungen > Prüfungsordnung
 *.keys|Nein
 **Verzeichnis**|**Versetzungsarten**
 Datenstruktur|Versetzungsarten
-Mandant|	Nein
+Mandant| Nein
 Ansicht|Schüler > Laufbahn > Allgemein > Versetzungsart
 *.keys|Nein
 **Verzeichnis**|**Versicherungsarten**
 Datenstruktur|Versicherungsarten
-Mandant|	Nein
-Ansicht|	Schüler > Daten4 > Sonstige Daten > Versicherungart	
+Mandant| Nein
+Ansicht| Schüler > Daten4 > Sonstige Daten > Versicherungart 
 *.keys|Nein
 **Verzeichnis**|**Vertragsarten**
 Datenstruktur|Vertragsarten
-Mandant|	Nein	
+Mandant| Nein 
 Ansicht|Schüler/Bewerber > Ausbildung > Vertragsart<br/>Schüler > Berufsbildung > Ausbildung/Praktikum > Vertragsart
 *.keys|Nein
 **Verzeichnis**|**Wettkämpfe**
-Datenstruktur|Wettkaempfe	
+Datenstruktur|Wettkaempfe 
 Mandant|Ja
-Ansicht|	Sportfeste > Disziplinen und Ergebnisse > Wettkämpfe
-*.keys|	Nein
+Ansicht| Sportfeste > Disziplinen und Ergebnisse > Wettkämpfe
+*.keys| Nein
 **Verzeichnis**|**Wiederholungsarten**
 Datenstruktur|Wiederholungsarten
-Mandant|Nein	
+Mandant|Nein 
 Ansicht|Schüler > Laufbahn > Allgemein > Wiederholungsart
-*.keys|	Ja
+*.keys| Ja
 **Verzeichnis**|**Wohnformen**
-Datenstruktur|Wohnformen	
-Mandant|Nein	
-ansicht|Schüler/Bewerber > Daten1 > Wohnform	
+Datenstruktur|Wohnformen 
+Mandant|Nein 
+ansicht|Schüler/Bewerber > Daten1 > Wohnform 
 *.keys|Nein
 **Verzeichnis**|**Zeiträume**
 Datenstruktur|Zeitraeume
@@ -613,7 +613,7 @@ Ansicht|Schüler > Zeugnis > Zeugnis > Zeugnisformulare
 *.keys|Nein
 **Verzeichnis**|**Zugangsarten (Lehrer)**
 Datenstruktur|LehrerZugaenge
-Mandant|	Nein
-Ansicht|	Lehrkraft > Daten2 > Zugangsart
-*.keys|	Ja
+Mandant| Nein
+Ansicht| Lehrkraft > Daten2 > Zugangsart
+*.keys| Ja
 

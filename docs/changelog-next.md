@@ -136,3 +136,19 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Schueler\Schüler-Abi (Antrag mündliche Prüfung).rpt
 * FIX: Berichte\Schueler\Schüler mit Herkunftsschulen.rpt
 * FIX: Berichte\Schueler\Schüler mit Herkunftsschulen u. letzte Klasse.rpt
+* FIX: Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
+* FIX: Rheinland-Pfalz\RLP-BF-AS.rpt
+* FIX: Rheinland-Pfalz\RLP-BF-AZ.rpt
+* FIX: Rheinland-Pfalz\RLP-BF-HJZ (1. Variante).rpt
+* FIX: Rheinland-Pfalz\RLP-BF-HJZ (2. Variante).rpt
+* FIX: Rheinland-Pfalz\RLP-BF-HJZ (3. Variante).rpt
+* FIX: Rheinland-Pfalz\RLP-BF-JZ (Oberstufe).rpt
+* FIX: Rheinland-Pfalz\RLP-BF-JZ (Unterstufe).rpt
+* FIX: Rheinland-Pfalz\RLP-BG (Punktekreditkarte-2010).rpt
+* FIX: Rheinland-Pfalz\RLP-BG-ABI (2010).rpt
+* FIX: Rheinland-Pfalz\RLP-BG-ABI (2010)A4.rpt
+* FIX: Rheinland-Pfalz\RLP-BG-AS (Anlage D 48).rpt
+* FIX: Rheinland-Pfalz\RLP-BGJ-AS.rpt
+* FIX: Rheinland-Pfalz\RLP-BGJ-AZ (mit Zusatzbemerkung).rpt
+* FIX: Rheinland-Pfalz\RLP-BGJ-AZ (ohne Zusatzbemerkung).rpt
+* FIX: Rheinland-Pfalz\RLP-BGJ-HJZ (Variante 2).rpt

@@ -1,6 +1,5 @@
 # BER-APO-FOS-2013/2006
 
-
 ## Verzeichnis Verordnung
 
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
@@ -22,7 +21,6 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Notenart BBS|leer|
 |Gültig von |leer|
 |Gültig bis|leer|
-
 
 ## Fachkategorien
 
@@ -63,7 +61,6 @@ Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, b
 |Recht||
 |Literatur|||
 
-
 ## Aufgabenbereiche
 
 Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnisse > Fächer > Spalte Aufgabenbereich``` verwendet werden:
@@ -75,7 +72,6 @@ Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnis
 |mathem.-nat.-technisch|
 |Religion|
 |Sport|
-
 
 ## Fachstatus
 
@@ -100,7 +96,6 @@ Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Fac
 
 Das Merkmal muss unter ```Abitur > Qualifikation > Merkmal``` eingetragen sein. Er kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus ```Schüler > Zeugnis > Fächer > Merkmal``` übernommen werden. 
 
-|Merkmal	|Bedeutung|
+|Merkmal | Bedeutung|
 |--|--|
 |2FS|2. Fremdsprache|
-

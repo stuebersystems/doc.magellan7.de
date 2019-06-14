@@ -1,8 +1,6 @@
 # Fachwahlskript BER-FW-APO-2011.dws 
 
-
 Voraussetzung für die Abiturqualifikationsberechnung und Fachwahlüberprüfung ist, dass Sie für jedes in der Oberstufe benutzte Fach die Kategorie und den Aufgabenbereich und bei den Fächern des Schülers die entsprechende Unterrichtsart und den entsprechenden Fachstatus eingegeben haben.
-
 
 ## Verzeichnis Verordnung in MAGELLAN
 
@@ -24,8 +22,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](../../../../assets/images/berlin/fachwahl/ber.fw.2011.png)
-
+![Eintragung im Verzeichnis Verordnungen für Fachwahl (G8 oder G9)](/assets/images/berlin/fachwahl/ber.fw.2011.png)
 
 ## Aufgabenbereiche
 
@@ -57,9 +54,7 @@ Die nachfolgenden Fachkategorien werden durch die Skripte BER-APO-2011.dws bzw. 
     Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
-Verwendete Fach-Kategorie-Schlüssel
-
-## Fachkategorien
+### Verwendete Fach-Kategorie-Schlüssel
 
 Jedem Fach, dass Sie in der Oberstufe verwenden, müssen Sie eine Kategorie unter ```Verzeichnisse > Fächer > Kategorie``` zuweisen.
 Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, bitte verwenden Sie nur die gekennzeichneten Fachkategorien.
@@ -98,13 +93,9 @@ Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, b
 |Recht||
 |Literatur|||
 
-
-
 ## Spalte „Unterrichtsart“
 
-
 Folgende Unterrichtsarten werden durch das Abiturqualifikations- bzw. Fachwahlskript verwendet:
-
 
 Kürzel| Schlüssel| Bedeutung
 ---|---|---
@@ -113,12 +104,9 @@ GK |GK |Grundkurs
 Z |Z |Zusatzkurs
 ME |ME |Musik Ensemble
 
-
 ## Spalte „Fachstatus“
 
-
 Folgende Fachstatus werden durch das Abiturqualifikations- bzw. Fachwahlskript verwendet:
-
 
 Kürzel |Schlüssel| Bedeutung
 ---|---|---
@@ -133,35 +121,26 @@ Kürzel |Schlüssel| Bedeutung
 BLL |BLL |5. Prüfungskomponente Besondere Lernleistung
 PRS |PRS |5. Prüfungskomponente Präsentationsprüfung
 
-
 !!! info "Hinweis"
 
      Für das mitgelieferte Skript müssen die entsprechenden Schlüssel vorhanden sein. Das Kürzel wird nur zur Anzeige verwendet und kann daher beliebig gewählt werden.
 
-
 ## Die 5. Prüfungskomponente
-
 
 Bei der 5. Prüfungskomponente wird zwischen einer „Präsentationprüfung“ und der „Besonderen Lernleistung“ unterschieden. Gehen Sie in MAGELLAN jeweils wie folgt vor:
 
-
 ### Präsentationprüfung
-
 
 Bei der "Präsentationsprüfung" weisen Sie dem entsprechenden Fach im Menü „Abitur“ Registerkarte „Qualifikation“ in der Spalte „Fachstatus“ den Wert „PRS“ zu und führen das entsprechende Skript aus.
 Im Menü „Abitur“ wird auf der Registerkarte „Prüfung“ im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen.
 
-
 ### Besondere Lernleistung
 
-
 Die "besondere Lernleistung" kann auch eines der ersten 4 Prüfungsfächer sein. In diesem Fall müssen Sie den Fachstatus auf der Registerkarte „Qualifikation“ wie folgt modifizieren:
-
 
 - statt "1PF" nutzen Sie "1PFBLL"
 - statt „2PF" nutzen Sie "2PFBLL"
 - statt "3PF" nutzen Sie "3PFBLL" oder
 - statt "4PF" nutzen Sie "4PFBLL"
 
-
-Falls die Besondere Lernleistung nicht eines der Prüfungsfächer 1.-4. ist, weisen Sie dem Fach den Fachstatus "BLL" zu und führen das entsprechende Skript aus. Im Menü „Abitur“ wird auf der Registerkarte „Prüfung“ im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen. 
+Falls die Besondere Lernleistung nicht eines der Prüfungsfächer 1.-4. ist, weisen Sie dem Fach den Fachstatus "BLL" zu und führen das entsprechende Skript aus. Im Menü „Abitur“ wird auf der Registerkarte „Prüfung“ im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen.

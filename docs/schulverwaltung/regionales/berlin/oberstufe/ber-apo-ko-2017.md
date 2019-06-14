@@ -1,23 +1,12 @@
 # BER-APO-KO-2017
 
-
-
-
 ## Allgemein
-
 
 In diesem Skript werden für die korrekte Berechnung unter `Abitur > Qualifikation` drei als Leistungskurse markierte Fachzeilen erwartet, die nicht als 1. oder 2.Prüfungsfach erfasst wurden (Unterrichtsart LK und nicht Fachstatus 1PF oder 2PF). Der 3.Leistungskurs wird in der Berechnung wie ein Grundkurs behandelt.
 
-
-
-
-
-
 ## Verzeichnis Verordnung
 
-
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
-
 
 |Spalte|Wert|
 |--|--|
@@ -35,18 +24,12 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-
-
-
 ![Eingetragene Verordnungszeile unter Verzeichnisse > Verordnungen](../../../../assets/images/ber-apo-ko-2017.00.png)
-
 
 ## Fachkategorien
 
-
 Jedem Fach, dass Sie in der Oberstufe verwenden, müssen Sie eine Kategorie unter ```Verzeichnisse > Fächer > Kategorie``` zuweisen.
 Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, bitte verwenden Sie nur die gekennzeichneten Fachkategorien.
-
 
 |Fachkategorien|Wird vom Skript berücksichtigt|
 |--|--|--|
@@ -82,12 +65,9 @@ Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, b
 |Recht||
 |Literatur|||
 
-
 ## Aufgabenbereiche
 
-
 Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnisse > Fächer > Spalte Aufgabenbereich``` verwendet werden:
-
 
 |Aufgabenbereich|
 |--|
@@ -97,13 +77,10 @@ Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnis
 |Religion|
 |Sport|
 
-
 ## Unterrichtsart
-
 
 Die Unterrichtsart muss unter ```Abitur > Qualifikation > Unterrichtsart``` zugeordnet sein. Sie kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus ```Schüler > Zeugnis > Fächer > Unterrichtsart``` übernommen werden.
 Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten```, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
-
 
 |Kürzel| Schlüssel |Bedeutung|
 |--|--|--|
@@ -112,11 +89,7 @@ Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Unt
 |Z|Z|Zusatz-/und Ergänzungskurse|
 |M|M|Musik-Ensemble|
 
-
-
-
 ## Fachstatus
-
 
 Der Fachstatus muss unter ```Abitur > Qualifikation > Fachstatus``` zugeordnet sein. Er kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus ```Schüler > Zeugnis > Fächer > Fachstatus``` übernommen werden.
 Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus```, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
@@ -131,29 +104,19 @@ Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Fac
 |5PF|5PF|5. Prüfungsfach (nur verwenden wenn es eine Präsentationsprüfung ist), BLL siehe unten|
 |Pflicht|Pflicht|Pflichtbereich (kein Eintrag wird wie Pflicht gewertet)|
 
-
 ## 5. Prüfungskomponente
-
 
 Bei der 5 Prüfungskomponente wird zwischen einer „Präsentation“ und der „Besonderen Lernleistung“ unterschieden. Gehen Sie jeweils wie folgt vor:
 
-
 ## Präsentationprüfung
-
 
 Bei der "Präsentation" weisen Sie dem entsprechenden Fach im Menü „Abitur“ Registerkarte „Qualifikation“ in der Spalte „Fachstatus“ den Wert „5 PF“ zu und führen das entsprechende Skript aus.
 Durch das Berechnungskript wird im Menü „Abitur“ Registerkarte „Prüfung“ im Feld „5. PF“ das Fach eingetragen. Dort tragen die mündliche Note im Feld "Mündliche Note" ein.
 
-
 ## Besondere Lernleistung
 
-
 Zur Ausgabe der besonderen Lernleistung müssen Sie im Menü `„Abitur“` unter der Registerkarte `„Prüfung“` in der Registerkarte „Lernleistung“ das entsprechende Fach zuweisen und das Optionsfeld `„Lernleistung einbringen“` markieren.
-
-
-
 
 Die schriftl Note für das "1. Gutachten bzw. schriftliche Note für die besondere Lernleistung" tragen Sie im 1. Punktefeld ganz links ein.
 Die mdl. Note für die besondere Lernleistung tragen Sie im 2. Punktefeld ein.
 Das Berechnungsskript fügt automatisch im 3. Punktfeld die Gesamtnote für die Besondere Lernleistung ein.
-
