@@ -2,13 +2,23 @@
 
 Dies ist die elektronische Dokumentation für [MAGELLAN 7](https://magellan.stueber.de).
 
-Die Dokumentation ist unterteilt in die Bereiche:
+Diese Dokumentation ist unterteilt in die Bereiche:
 
 * [Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
 * [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
 * [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/)
 * [MAGELLAN Knowledgebase](https://doc.magellan7.stueber.de/knowledgebase/voraussetzungen/)
 * [MAGELLAN Datenstruktur](https://doc.magellan7.stueber.de/datenstruktur/)
+
+Weitere Dokumentationen finden Sie unter nachfolgenden Links:
+
+* [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
+* [MAGELLAN Importe](https://doc.magellan-import.stueber.de)
+* [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de)
+* [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
+* [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
+
+
 
 ## MAGELLAN 7
 
@@ -28,12 +38,4 @@ In den klar geordneten Programmansichten können Sie Ihren Medienbestand erfasse
 MAGELLAN-BIBLIOTHEK ist Bestandteil der MAGELLAN-Programmfamilie. Dies bedeutet zum Einen, dass es nur gemeinsam mit dem Basismodul MAGELLAN betrieben werden kann. Es bedeutet zum Anderen aber auch, dass viele Daten, die bereits in MAGELLAN erfasst wurden, in MAGELLAN-BIBLIOTHEK nicht erneut eingegeben werden müssen. Dies spart insbesondere bei der Erfassung Ihrer Ausleiher sehr viel Zeit, da diese aus dem Basismodul übernommen werden. Desweiteren können Sie in MAGELLAN-BIBLIOTHEK auf Berichtsdateien und Wordvorlagen zurückgreifen, die Sie bereits in MAGELLAN erstellt haben. Überdies lehnt sich die Benutzerführung des Bibliotheksmoduls stark an das Basismodul an. Der erfahrene MAGELLAN Benutzer wird so sehr schnell mit dem neuen Softwaremodul zurechtkommen. 
 
 Der Einsatz von MAGELLAN-BIBLIOTHEK erfordert aber umgekehrt nicht, dass Sie das Programm MAGELLAN ebenfalls beherrschen. Die Arbeit mit dem Bibliotheksmodul basiert zwar teilweise auf Daten, die im Basismodul eingegeben werden. In aller Regeln sind diese Daten aber in Ihrer Schulverwaltungsdatenbank bereits vorhanden, so dass Sie diese nicht eigens eingeben müssen. Wie Sie in MAGELLAN-BIBLIOTHEK auf die erforderlichen Daten aus dem Basismodul zugreifen können, wird in diesem Handbuch ausführlich beschrieben. Einem arbeitsteiligen Einsatz beider Module steht deshalb nichts entgegen.
-
-## Weitere Dokumentationen
-
-* [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
-* [MAGELLAN Importe](https://doc.magellan-import.stueber.de)
-* [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de)
-* [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
-* [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
 

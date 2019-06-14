@@ -1,5 +1,11 @@
 # MyMAGELLAN - dezentrale Notenerfassung
 
+!!! info "Hinweis"
+
+	Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus. 
+	In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
+
+
 Aus MAGELLAN heraus können Zeugnisse gedruckt werden. Als Voraussetzung für Zeugnisse müssen Halbjahres- oder Jahresergebnisse (Noten, Punkte oder auch Beurteilungstexte für Grundschüler) und weitere Zeugnisdaten (Zeugnisbemerkungen, Fehlzeiten, Zeugnisdatum usw) in MAGELLAN vorhanden sein.
 Das kann direkt über MAGELLAN erfolgen, allerdings müsste dann jeder Kollege während der Notenerfassung auf die Datenbank im Schulverwaltungsnetz zugreifen können.
 
@@ -17,11 +23,6 @@ Modul|Funktion
 **MyMAGELLAN** |Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/>Ist das Programm, mit dem der Lehrer seine Notendatei füllt
 
 
-!!! info "Hinweis"
-
-	Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus.
-
-In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
 
 * [Verteilen](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/verteilen/)
 * [Organisation](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/organisation/)
