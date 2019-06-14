@@ -4,7 +4,7 @@
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
-###  UTF8
+### UTF8
 
 Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben. 
 Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
