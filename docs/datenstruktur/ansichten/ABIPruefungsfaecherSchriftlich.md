@@ -2,11 +2,11 @@
 
 Grundlagen sind:
 
-*  Schueler
-*  Klassen
-*  SchuelerAnsicht
-*  SchuelerAbi
-*  SchuelerAbiDetails
+*  [Schueler](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Schueler/)
+*  [Klassen](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Klassen/)
+*  [SchuelerAnsicht](https://doc.magellan7.stueber.de/datenstruktur/ansichten/SchuelerAnsicht/)
+*  [SchuelerAbi](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerABI/)
+*  [SchuelerAbiDetails](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerABIDetails/)
 
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung |
