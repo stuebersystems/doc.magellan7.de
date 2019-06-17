@@ -186,3 +186,7 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: RLP-BS-AZ (alte Form nf ohne Wahlpflicht).rpt
 * FIX: RLP-BS-AZ (alte Form nf).rpt
 * FIX: RLP-BS-AZ (alte Form ohne Wahlpflicht).rpt
+* FIX: RLP-BS-JZ (ohne Wahlpflicht Ziel erreicht).rpt
+* FIX: RLP-BS-AZ (neue Form 2. Variante).rpt
+* FIX: RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
+* FIX: RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
