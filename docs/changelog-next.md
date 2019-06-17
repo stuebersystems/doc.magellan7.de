@@ -164,3 +164,25 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-2.rpt"
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-1.rpt"
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 11-1.rpt"
+* FIX: RLP-BS-AZ (neue Form 1. Variante).rpt
+* FIX: RLP-BGJ-HJZ.rpt
+* FIX: RLP-BGJ-JZ.rpt
+* FIX: RLP-BGYM-ABI (2010).rpt
+* FIX: RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 1).rpt
+* FIX: RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 2).rpt
+* FIX: RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 1).rpt
+* FIX: RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 2).rpt
+* FIX: RLP-BS-AS (1. Variante).rpt
+* FIX: RLP-BS-AS (2. Ausdruck).rpt
+* FIX: RLP-BS-AS (2. Variante).rpt
+* FIX: RLP-BS-AS (neue Form 1. Variante ohne Wahlpflicht).rpt
+* FIX: RLP-BS-AS (neue Form 1. Variante).rpt
+* FIX: RLP-BS-AS (neue Form 2. Variante ohne Wahlpflicht).rpt
+* FIX: RLP-BS-AS (neue Form 2. Variante).rpt
+* FIX: RLP-BS-AS (ohne Wahlpflicht).rpt
+* FIX: RLP-BS-AZ (2. Ausdruck alte Form 1. Variante).rpt
+* FIX: RLP-BS-AZ (alte Form 1. Variante).rpt
+* FIX: RLP-BS-AZ (alte Form 2. Variante).rpt
+* FIX: RLP-BS-AZ (alte Form nf ohne Wahlpflicht).rpt
+* FIX: RLP-BS-AZ (alte Form nf).rpt
+* FIX: RLP-BS-AZ (alte Form ohne Wahlpflicht).rpt
