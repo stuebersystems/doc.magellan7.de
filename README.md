@@ -14,9 +14,11 @@ Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). 
 
 4. Tippe die Befehle `python --version` und `pip --version` ein, um die Python-Installation zu überprüfen. In beiden Fällen sollte eine Versionsnummer als Ausgabe in der Eingabeaufforderung erscheinen.
 
-5. Tippe jetzt den Befehl `pip install mkdocs`, um das Python-Package MkDocs zu installieren.
+5. Tippe jetzt den Befehl `pip install mkdocs` ein, um das Python-Package MkDocs zu installieren.
 
-6. Ein letzter Test: Tippe den Befehl `mkdocs --version` ein. Eine Versionsnummer in der Eingabeaufforderung zeigt Dir erneut, dass alles korrekt installiert wurde.
+6. Tippe anschließend Befehl `pip install mkdocs-img2fig-plugin` ein, um das MkDocs-Plugin [mkdocs-img2fig-plugin](https://github.com/stuebersystems/mkdocs-img2fig-plugin) zu installieren.
+
+7. Ein letzter Test: Tippe den Befehl `mkdocs --version` ein. Eine Versionsnummer in der Eingabeaufforderung zeigt Dir erneut, dass alles korrekt installiert wurde.
 
 ## Repository klonen
 
