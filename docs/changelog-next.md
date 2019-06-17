@@ -150,3 +150,17 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Rheinland-Pfalz\RLP-BGJ-AZ (mit Zusatzbemerkung).rpt
 * FIX: Rheinland-Pfalz\RLP-BGJ-AZ (ohne Zusatzbemerkung).rpt
 * FIX: Rheinland-Pfalz\RLP-BGJ-HJZ (Variante 2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-Punktekreditkarte.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-2.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-1.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 12-2.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 12-1.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 11-2.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 13).rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 11-1.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 12).rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 11).rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 13-1.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-2.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-1.rpt"
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 11-1.rpt"
