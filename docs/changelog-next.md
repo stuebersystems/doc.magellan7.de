@@ -63,6 +63,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: neue Symbole für die Auswahl der Exemplare in der Ausleihe
 * FIX: Rückgabe per eingescanntem Buch korrigiert
 * FIX: angezeigte Punkte unter `Extras > Berichte organisieren` und `Extras > Vorlagen organisieren` angepasst
+* FIX: Schüler ( = Ausleiher aus Bibliothek) löschen korrigiert
+* FIX: Personen hinzufügen korrigiert
 
 
 ### MyMAGELLAN
