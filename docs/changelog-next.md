@@ -216,3 +216,17 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (neue Form 2. Variante).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-HJZ (Klassen 7-10).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (ohne Wahlpflicht Ziel nicht erreicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FO (HJZ-JZ-AZ).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FO-FHReife (DIN A3).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FS-AS (Sozialpädagogik DIN A3).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES (Abschlussprognose).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES (Beiblatt).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (9.Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse mit Ü 11).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse).rpt.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (Zeugnis für die Realschule).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AZ.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-HJZ (Klassen 5 und 6).rpt
