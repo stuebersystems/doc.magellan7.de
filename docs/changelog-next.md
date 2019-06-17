@@ -2,7 +2,7 @@
 
 Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und Korrekturen für das nächste Serviceupdate. Die nachfolgend gelisteten Änderungen wurden noch nicht veröffentlicht.
 
-### LEGENDE
+## LEGENDE
 
 | Abkürzung | Bedeutung |
 | --- | --- |
@@ -13,7 +13,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ---
 
 ## 7.0.12 - 705
-
 
 !!! warning "Wichtig"
 
@@ -52,7 +51,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * CHANGE: Wenn bei einem Schüler der Haken unter `Schüler > Daten 2 > NdH` aktiviert/wieder deaktiviert wird, wird entsprechend der Knoten für Migration erzeugt/nicht erzeugt.
 
-
 ### MAGELLAN BIBLIOTHEK
 
 * NEW: Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
@@ -66,10 +64,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Schüler ( = Ausleiher aus Bibliothek) löschen korrigiert
 * FIX: Personen hinzufügen korrigiert
 
-
 ### MyMAGELLAN
 
-* NEW: 
+* NEW:
 
 ### MAGELLAN Administrator
 
@@ -80,7 +77,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
 * FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
 * FIX: Unter `Datenbankverbindung > Wiederherstellen` wird beim Öffnen eines Pfades (Schaltfläche am Ende des Pfadfeldes) direkt der eingestellte Zielpfad geöffnet.
-* 
 
 ### Berichte (NEW oder CHANGE)
 
