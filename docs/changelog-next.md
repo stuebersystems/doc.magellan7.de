@@ -230,3 +230,26 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (Zeugnis für die Realschule).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AZ.rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-HJZ (Klassen 5 und 6).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-JZ (Klassen 5 und 6).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-JZ (Klassen 7-10).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abgangszeugnis 1. Klasse – 1 seitig - dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abgangszeugnis 2. und 3. Klasse – 2 seitig - ohne Noten dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abschlusszeugnis – 2 seitig- dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (HJZ und JZ - 3. und 4. Klasse - 2 seitig dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Jahreszeugnis 1. Klasse – 1 seitig - dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Jahreszeugnis 2. und 3. Klasse – 2 seitig - ohne Noten dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS (1. Klasse – 1 seitig - dynamisch 2012).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS (1. und 2. Klasse - 1 oder 2 seitig).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (1. Klasse – 1 seitig - dynamisch 2012).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig - dynamisch 2012).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig - dynamisch).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ (2. Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ (3. und 4. Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ_JZ (3. und 4. Klassen-2 seitig dynamisch 2012).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (1. und 2. Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (2. Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (3. und 4. Klasse).rpt
