@@ -134,22 +134,22 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Schueler\Schüler-Abi (Antrag mündliche Prüfung).rpt
 * FIX: Berichte\Schueler\Schüler mit Herkunftsschulen.rpt
 * FIX: Berichte\Schueler\Schüler mit Herkunftsschulen u. letzte Klasse.rpt
-* FIX: Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
-* FIX: Rheinland-Pfalz\RLP-BF-AS.rpt
-* FIX: Rheinland-Pfalz\RLP-BF-AZ.rpt
-* FIX: Rheinland-Pfalz\RLP-BF-HJZ (1. Variante).rpt
-* FIX: Rheinland-Pfalz\RLP-BF-HJZ (2. Variante).rpt
-* FIX: Rheinland-Pfalz\RLP-BF-HJZ (3. Variante).rpt
-* FIX: Rheinland-Pfalz\RLP-BF-JZ (Oberstufe).rpt
-* FIX: Rheinland-Pfalz\RLP-BF-JZ (Unterstufe).rpt
-* FIX: Rheinland-Pfalz\RLP-BG (Punktekreditkarte-2010).rpt
-* FIX: Rheinland-Pfalz\RLP-BG-ABI (2010).rpt
-* FIX: Rheinland-Pfalz\RLP-BG-ABI (2010)A4.rpt
-* FIX: Rheinland-Pfalz\RLP-BG-AS (Anlage D 48).rpt
-* FIX: Rheinland-Pfalz\RLP-BGJ-AS.rpt
-* FIX: Rheinland-Pfalz\RLP-BGJ-AZ (mit Zusatzbemerkung).rpt
-* FIX: Rheinland-Pfalz\RLP-BGJ-AZ (ohne Zusatzbemerkung).rpt
-* FIX: Rheinland-Pfalz\RLP-BGJ-HJZ (Variante 2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-AS.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-AZ.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-HJZ (1. Variante).rpt
+* FIX: Berichte\Zeugnisse\heinland-Pfalz\RLP-BF-HJZ (2. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-HJZ (3. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-JZ (Oberstufe).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-JZ (Unterstufe).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG (Punktekreditkarte-2010).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-ABI (2010).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-ABI (2010)A4.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-AS (Anlage D 48).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AS.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AZ (mit Zusatzbemerkung).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AZ (ohne Zusatzbemerkung).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-HJZ (Variante 2).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-Punktekreditkarte.rpt"
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-2.rpt"
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-1.rpt"
@@ -190,3 +190,29 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: RLP-BS-AZ (neue Form 2. Variante).rpt
 * FIX: RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
 * FIX: RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (neue Form 1. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-HJZ.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-JZ.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGYM-ABI (2010).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 1).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 1).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (1. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (2. Ausdruck).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (2. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 1. Variante ohne Wahlpflicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 1. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 2. Variante ohne Wahlpflicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 2. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (ohne Wahlpflicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (2. Ausdruck alte Form 1. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form 1. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form 2. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form nf ohne Wahlpflicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form nf).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form ohne Wahlpflicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (ohne Wahlpflicht Ziel erreicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (neue Form 2. Variante).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
