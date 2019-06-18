@@ -47,6 +47,10 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ![Symbole auf den Schülerregisterkarten](/assets/images/changelog/7.0.12.02.png)
 
+* FIX: Löschen von PDF-Dateien aus Dokumenteverzeichnissen der Schüler/Bewerber korrigiert
+* CHANGE: Unter `Schüler > Dokumente` ist als Standardansicht die Sortierung nach Details und die optimale Spaltenbreite vorbelegt
+* FIX: Anzeige der Daten unter `Klassen > Zeiträume` korrigiert
+
 ### SAXSVS
 
 * CHANGE: Wenn bei einem Schüler der Haken unter `Schüler > Daten 2 > NdH` aktiviert/wieder deaktiviert wird, wird entsprechend der Knoten für Migration erzeugt/nicht erzeugt.
@@ -72,7 +76,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * CHANGE: Die Skriptdatei `Zugriffsrechte zuweisen` wurde um neue Bestandteile der Datenbank ergänzt. Bitte synchronisieren Sie die Zugriffsrechte über die Schaltfläche im `MAGELLAN-ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte` synchronisieren.
   
-![Zugriffsrechte synchronisieren](assets/images/changelog/7.0.12.01.png)
+![Zugriffsrechte synchronisieren](/assets/images/changelog/7.0.12.01.png)
 
 * NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
 * FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
@@ -82,7 +86,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: 
+* FIX:
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
