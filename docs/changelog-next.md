@@ -265,3 +265,20 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 1. Seite ohne Wappen)2006.rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 2. Seite ohne Wappen)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ 11-1.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 ohne Logo)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 ohne Wappen)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 1. Seite ohne Logo)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 1. Seite)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 2. Seite)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 ohne Wappen und Rand)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4-altsprachlich)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AS (11-13).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AZ (2006).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AZ (2016).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-FHReife (Jahrgangstufe 11-13).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (2spaltig mit FSP).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (2spaltig ohne FSP).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (11-13).rpt
