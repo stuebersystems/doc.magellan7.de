@@ -257,3 +257,11 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (1. und 2. Klasse).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (2. Klasse).rpt
 * FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (3. und 4. Klasse).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 2. Seite)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 1) (ohne Wappen).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 1).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 2).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9).rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 1. Seite ohne Wappen)2006.rpt
+* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 2. Seite ohne Wappen)2006.rpt
