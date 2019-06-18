@@ -67,12 +67,20 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: angezeigte Punkte unter `Extras > Berichte organisieren` und `Extras > Vorlagen organisieren` angepasst
 * FIX: Schüler ( = Ausleiher aus Bibliothek) löschen korrigiert
 * FIX: Personen hinzufügen korrigiert
+* NEW: in der Auswahlliste der `Schüler`  werden am unteren Rand zwei Ziffern eingeblendet, die linke zeigt alle (auch ehemalige) Ausleiher, die rechte zeigt je nach Filterung der Liste die gezeigte Anzahl der Ausleiher.
+* FIX: Sammelzuweisung für Exemplare überarbeitet
+* FIX: `Bücher/Medien` Anzahlen und Symbole in der Statusleiste angepasst
 
 ### MyMAGELLAN
 
 * NEW:
 
 ### MAGELLAN Administrator
+
+
+!!! warning "Wichtig"
+
+    Die Funktion `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird aktuell überarbeitet und wurde daher vorübergehend deaktiviert.
 
 * CHANGE: Die Skriptdatei `Zugriffsrechte zuweisen` wurde um neue Bestandteile der Datenbank ergänzt. Bitte synchronisieren Sie die Zugriffsrechte über die Schaltfläche im `MAGELLAN-ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte` synchronisieren.
   
