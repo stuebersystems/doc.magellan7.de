@@ -81,6 +81,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MyMAGELLAN
 
 * NEW: Die Bemerkung, die zum Start gezeigt wird, hat eine Scrollbar erhalten, um auch längere Texte bequem lesen zu können
+* NEW: In den Auswahlen (Fächer, Schüler) und in den Eingabeübersichten (Fächer, Schüler) wird die jeweils letzte Sortierung in der Registry des verwendeten Rechners gespeichert.
 
 ### MyMAGELLAN CENTER
 
