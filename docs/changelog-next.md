@@ -50,6 +50,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Löschen von PDF-Dateien aus Dokumenteverzeichnissen der Schüler/Bewerber korrigiert
 * CHANGE: Unter `Schüler > Dokumente` ist als Standardansicht die Sortierung nach Details und die optimale Spaltenbreite vorbelegt
 * FIX: Anzeige der Daten unter `Klassen > Zeiträume` korrigiert
+* FIX: Schaltfläche `Fertigstellen` wird beim erneuten Korrigieren von Schülern aktiviert
+* FIX: gewählte Größe des Druckvorschaufensters wird gespeichert
+* FIX: `Datenbank > Optionen > Ein-/Ausblenden` Beschriftung angepasst
+* FIX: Versionsanzeige unter `Hilfe > Version und Lizenz` angepasst
+* FIX: `Betriebe > Daten 2` Berufe zuzuweisen korrigiert
 
 ### SAXSVS
 
@@ -70,10 +75,16 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: in der Auswahlliste der `Schüler`  werden am unteren Rand zwei Ziffern eingeblendet, die linke zeigt alle (auch ehemalige) Ausleiher, die rechte zeigt je nach Filterung der Liste die gezeigte Anzahl der Ausleiher.
 * FIX: Sammelzuweisung für Exemplare überarbeitet
 * FIX: `Bücher/Medien` Anzahlen und Symbole in der Statusleiste angepasst
+* FIX: die gewählten Filterungen in den Menüpunkten werden gespeichert
+* NEW: Unter `Ausleihe > Ausleiher > alle auswählen (*)` wird die Klasse und der Status eingeblendet, zusätzlich kann die Liste gefiltert werden
 
 ### MyMAGELLAN
 
-* NEW:
+* NEW: Die Bemerkung, die zum Start gezeigt wird, hat eine Scrollbar erhalten, um auch längere Texte bequem lesen zu können
+
+### MyMAGELLAN CENTER
+
+* NEW: In die MyMAGELLAN-Dateien ausschließlich Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben werden, deren Bis-Datum im MAGELLAN-Verzeichnis (MAGELLAN > Extras > Schlüsselverzeichnisse) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt. Ungültige Werte stehen somit den Kollegen bei der Eingabe in MyMAGELLAN nicht mehr zur Verfügung.
 
 ### MAGELLAN Administrator
 
@@ -89,6 +100,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
 * FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
 * FIX: Unter `Datenbankverbindung > Wiederherstellen` wird beim Öffnen eines Pfades (Schaltfläche am Ende des Pfadfeldes) direkt der eingestellte Zielpfad geöffnet.
+* FIX: `Datenbankpflege > Code 128` generieren korrigiert
 
 ### Berichte (NEW oder CHANGE)
 

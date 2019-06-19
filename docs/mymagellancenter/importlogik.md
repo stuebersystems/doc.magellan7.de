@@ -12,8 +12,7 @@ Nachstehend wird beschrieben was genau beim Import passiert, falls Daten in MAGE
 
 	Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach Magellan übernommen.
 
-In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie können beim Erzeugen der Dateien jedes der Felder gezielt ausblenden, für ausgeblendete Daten wird kein Wert in die MyMAGELLAN-Datei gespielt und auch nichts wieder importiert.	
-
+In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie können beim Erzeugen der Dateien jedes der Felder gezielt ausblenden, für ausgeblendete Daten wird kein Wert in die MyMAGELLAN-Datei gespielt und auch nichts wieder importiert.
 
 Feld | wahlweise<br/> editierbar | wahlweise<br/>ausblendbar | Importverhalten
 -- | -- | -- |--

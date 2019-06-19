@@ -359,6 +359,14 @@ Das MyMAGELLAN CENTER ist Teil des Administrators geworden. Sie finden den Aufru
 
 ![Das neue MyMAGELLAN CENTER](/assets/images/neues/myma.png)
 
+### Verzeichniswerte
+
+Beim Erstellen der MyMAGELLAN-Dateien werden auch Inhalte aus den Schlüsselverzeichnissen übergeben.
+
+!!! info "Hinweis"
+
+	In die MyMAGELLAN-Dateien werden ausschließlich aktuelle Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben. Das bedeutet Verzeichniswerte,  deren `Bis-Datum` im MAGELLAN-Verzeichnis (`MAGELLAN > Extras > Schlüsselverzeichnisse`) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt.
+
 ## MyMAGELLAN
 
 Neue vereinfachte Übersicht nach Schülern und nach Fächern:

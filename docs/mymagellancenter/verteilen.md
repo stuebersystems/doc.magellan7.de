@@ -61,6 +61,13 @@ Die Datei kann mit einem Passwort belegt werden, das beim Öffnen der Datei eing
 
 Grundsätzlich gilt: Alle Schüler, deren Noten über MyMAGELLAN erfasst werden sollen, müssen in MAGELLAN erfasst sein. Hierzu zählt neben der eigentlichen Definition des Schülers auch dessen Zuordnung zu einer Klasse. Zusätzlich müssen den Schülern Fächer zugeordnet werden, deren Noten mit MyMAGELLAN erfasst werden sollen, da eine Eingabe der Fächer in MyMAGELLAN nicht möglich ist.
 
+### Verzeichniswerte
+
+Beim Erstellen der MyMAGELLAN-Dateien werden auch Inhalte aus den Schlüsselverzeichnissen übergeben. Stellen Sie vorab sicher, dass in den Verzeichnissen die notwendigen Daten vorhanden sind, die die Kollegen später bei der Eingabe verwenden sollen.
+
+!!! info "Hinweis"
+
+	In die MyMAGELLAN-Dateien werden ausschließlich aktuelle Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben. Das bedeutet Verzeichniswerte,  deren `Bis-Datum` im MAGELLAN-Verzeichnis (`MAGELLAN > Extras > Schlüsselverzeichnisse`) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt.
 ### Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern
 
 Die Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern erfolgt über die Aufgaben der Teilnehmer in der Schule:
