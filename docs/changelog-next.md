@@ -85,6 +85,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MyMAGELLAN CENTER
 
 * NEW: In die MyMAGELLAN-Dateien ausschließlich Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben werden, deren Bis-Datum im MAGELLAN-Verzeichnis (MAGELLAN > Extras > Schlüsselverzeichnisse) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt. Ungültige Werte stehen somit den Kollegen bei der Eingabe in MyMAGELLAN nicht mehr zur Verfügung.
+* FIX: Problem mit passwortgeschützten Dateien behoben
 
 ### MAGELLAN Administrator
 
