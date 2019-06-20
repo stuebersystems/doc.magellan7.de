@@ -63,6 +63,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN BIBLIOTHEK
 
 * NEW: Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
+* NEW: Ausleiher, die nicht mehr als Schüler in MAGELLAN existieren, werden mit einem eigenen Status (roter Kreis) dargestellt. Durch die Anzeige der offenen Vorgänge und diesem Status oder des Status inaktiv können Sie diese Ausleiher gezielt aus der Liste löschen.
 * CHANGE: neue Symbole in der Medienansicht
 * FIX: Verschieben in anderen Katalog korrigiert
 * FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert

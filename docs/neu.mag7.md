@@ -387,13 +387,15 @@ Für die Eingabe der weiteren Zeugnisdaten steht eine Sammelzuweisung für die U
 
 ## MAGELLAN BIBLIOTHEK
 
+### Zeitraumbezug entfernt
+
 Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
-Sie können inaktive Schüler aus der Bibliothek löschen, der Schüler wird aus der Datenbank nur als Bibliotheksausleiher entfernt, der Schüler in der Schulverwaltungsansicht bleibt davon unberührt. 
 
+### neuer Status
 
+In der Ansicht `Schüler` wird als dritter Status (zusätzlich zu aktiv und inaktiv) ein roter gefüllter Kreis für Schüler gezeigt, die nur noch in der Bibliothek als Ausleiher existieren, in MAGELLAN aber gelöscht wurden.
+Durch diese Anzeige (und auch den Status für inaktive) Schüler, können Sie gezielt nach dem Status und auch nach dem Symbol für Vorgänge filtern und diese Ausleiher aus der Bibliothek entfernen.
 
-!!! warning "Wichtig"
+!!! info "Hinweis"
 
-    Schüler, denen noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
-
-![nach einem Zeitraum gefilterte Schüleransicht](/assets/images/neues/06.png)
+  Ausleiher, den noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
