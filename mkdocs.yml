@@ -163,10 +163,7 @@ nav:
         - Lernfelder importieren: schulverwaltung/regionales/saarland/lernfelder-importieren.md
         - Zeugnisse mit Lernfeldern: schulverwaltung/regionales/saarland/zeugnisse.md
       - Sachsen: 
-        - Übersicht: schulverwaltung/regionales/sachsen/sachsen.md
-        - 1. Schlüsselpflege: schulverwaltung/regionales/sachsen/schluessel.md
-        - 2. Datenpflege: schulverwaltung/regionales/sachsen/datenpflege.md
-        - 3. XML-Datei erzeugen: schulverwaltung/regionales/sachsen/xml.erzeugen.md
+        - SAXSVS: schulverwaltung/regionales/sachsen/sachsen.md
     - Knowledge Base (FAQ): https://doc.magellan7-kb.stueber.de
 - MyMAGELLAN Center: 
     - Einführung: mymagellancenter/einfuehrung.md
