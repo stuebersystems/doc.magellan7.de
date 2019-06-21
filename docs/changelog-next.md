@@ -60,7 +60,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Im Menü `Abitur` kann die Simulation nicht mehr aus der Auswahlliste aufgerufen werden, sondern aus den Unterkarten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl`.
 * FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Berufe` (Berufsfelder, Fachrichtungen, Qualifikationsniveau) korrigiert
 * FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Bildungsgänge` (Berufsfelder, Schwerpunkte, Fachrichtungen, Qualifikationsniveau ) korrigiert
-* FIX: Verzeichnisfelder im Assistenten `Schüler ausschulen` korrigiert: `Abgangsart`, `Übergang`, `An Schule`, `An Schulform` 
+* FIX: Verzeichnisfelder im Assistenten `Schüler ausschulen` korrigiert: `Abgangsart`, `Übergang`, `An Schule`, `An Schulform`
+* FIX: Die Bezeichnung der Fachspalte unter `Abitur > Qualifikation` wurde angepasst.
+* FIX: Die Anzeige des am unteren Rand eingeblendeten Skriptnamens im Menü `Abitur` auf den Karten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl` wurde angepasst.
+* FIX: Unter `Extras > Schlüsselverzeichnisse > Zeugnisformular > Datei` wird im Bearbeitenmodus die Schaltfläche zum Auswählen per Verzeichnisbaum gezeigt
+* FIX: Beim Verschieben der Fenstergröße der zweigeteilten Ansicht unter `Schüler > Laufbahn` erscheinen keine "Schatten" mehr.
 
 ### SAXSVS
 
@@ -92,6 +96,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: Die Spaltenreihenfolge der Eingabeübersichten (Fächer, Schüler) wird in der Registry des verwendeten Rechners gespeichert.
 * FIX: Öffnen einer bereits zuvor genutzten Datei über `Datei > Zuletzt geöffnete Dokumente` behoben.
 * NEW: `Datei > Öffnen` speichert das zuletzt geöffnete Verzeichnis für den nächsten Zugriff.
+* FIX: Problem beim Öffnen per Doppelklick auf Passwort-geschützte mym-Dateien behoben.
 
 ### MyMAGELLAN CENTER
 
@@ -112,7 +117,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
 * FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
 * FIX: Unter `Datenbankverbindung > Wiederherstellen` wird beim Öffnen eines Pfades (Schaltfläche am Ende des Pfadfeldes) direkt der eingestellte Zielpfad geöffnet.
-* FIX: `Datenbankpflege > Code 128` generieren korrigiert
+* FIX: `Datenbankpflege > Code 128` generieren korrigiert.
+* FIX: Problem beim Abruch des nachträglichen Anmelden in den Menüs `Datenbankpflege` und `Datenaustausch` behoben.
 
 ### Berichte (NEW oder CHANGE)
 
