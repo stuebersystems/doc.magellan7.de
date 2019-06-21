@@ -58,6 +58,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
 * FIX: In der Sammelzuweisung unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
 * FIX: Im Menü `Abitur` kann die Simulation nicht mehr aus der Auswahlliste aufgerufen werden, sondern aus den Unterkarten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl`.
+* FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Berufe` (Berufsfelder, Fachrichtungen, Qualifikationsniveau) korrigiert
+* FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Bildungsgänge` (Berufsfelder, Schwerpunkte, Fachrichtungen, Qualifikationsniveau ) korrigiert
+* FIX: Verzeichnisfelder im Assistenten `Schüler ausschulen` korrigiert: `Abgangsart`, `Übergang`, `An Schule`, `An Schulform` 
 
 ### SAXSVS
 
