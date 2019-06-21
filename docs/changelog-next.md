@@ -55,6 +55,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: `Datenbank > Optionen > Ein-/Ausblenden` Beschriftung angepasst
 * FIX: Versionsanzeige unter `Hilfe > Version und Lizenz` angepasst
 * FIX: `Betriebe > Daten 2` Berufe zuzuweisen korrigiert
+* FIX: Unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
+* FIX: In der Sammelzuweisung unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
+* FIX: Im Menü `Abitur` kann die Simulation nicht mehr aus der Auswahlliste aufgerufen werden, sondern aus den Unterkarten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl`.
 
 ### SAXSVS
 
@@ -83,6 +86,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * NEW: Die Bemerkung, die zum Start gezeigt wird, hat eine Scrollbar erhalten, um auch längere Texte bequem lesen zu können
 * NEW: In den Auswahlen (Fächer, Schüler) und in den Eingabeübersichten (Fächer, Schüler) wird die jeweils letzte Sortierung in der Registry des verwendeten Rechners gespeichert.
+* NEW: Die Spaltenreihenfolge der Eingabeübersichten (Fächer, Schüler) wird in der Registry des verwendeten Rechners gespeichert.
+* FIX: Öffnen einer bereits zuvor genutzten Datei über `Datei > Zuletzt geöffnete Dokumente` behoben.
+* NEW: `Datei > Öffnen` speichert das zuletzt geöffnete Verzeichnis für den nächsten Zugriff.
 
 ### MyMAGELLAN CENTER
 
