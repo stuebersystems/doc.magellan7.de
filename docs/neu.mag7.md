@@ -399,3 +399,6 @@ Durch diese Anzeige (und auch den Status für inaktive) Schüler, können Sie ge
 !!! info "Hinweis"
 
   Ausleiher, den noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
+
+
+![Ansicht `Schüler` in der Bibliothek](../assets/images/neues/07.png)  
