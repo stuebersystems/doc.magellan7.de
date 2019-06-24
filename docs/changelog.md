@@ -67,6 +67,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Unter `Extras > Schlüsselverzeichnisse > Zeugnisformular > Datei` wird im Bearbeitenmodus die Schaltfläche zum Auswählen per Verzeichnisbaum gezeigt
 * FIX: Bei der Auswahl einer Formulardatei unter `Extras > Schlüsselverzeichnisse > Zeugnisformular > Datei` wird das Öffnen von Crystal Reports unterbunden
 * FIX: Beim Verschieben der Fenstergröße der zweigeteilten Ansicht unter `Schüler > Laufbahn` erscheinen keine "Schatten" mehr.
+* FIX: Hilfeverweise auf neue Dokumentationspfade angepasst
+* FIX: Meldung beim Umschalten mit nicht korrekt hinterlegtem Fachwahlskript von `Abitur > Fachwahl` eine andere Unterkarte behoben
 
 ### SAXSVS
 
