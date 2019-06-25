@@ -19,6 +19,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
+
+
+
+!!! warning "Wichtig"
+
+    Bitte beachten Sie, dass Sie dieses Update nicht einspielen durfen, wenn Sie im MyMAGELLAN-Prozess sind, also mym7-Dateien verteilt haben, diese aber noch nicht wieder nach MAGELLAN importiert wurden! 
+    Wenn die Dateien über den Aufruf im MAGELLAN ADMINISTRATOR wieder eingesammelt wurden, kann MAGELLAN auf die neue Ausgabe aktualisiert werden.
+    
+
 ### MAGELLAN
 
 * FIX: `Schüler > Laufbahnprozesse > Schüler korrigieren` mit abgestuften Benutzerrechten wurde angepasst
