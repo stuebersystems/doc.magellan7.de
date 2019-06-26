@@ -20,7 +20,7 @@ Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen
 !!! info "Hinweis"
 
      Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/schulverwaltung/changelog/) der MAGELLAN 6-Dokumentation!
-     Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan7.stueber.de/schulverwaltung/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
+     Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan6.stueber.de/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
 
 ## MAGELLAN 7 installieren
 
@@ -31,12 +31,11 @@ Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen
 
 Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.magellan7.stueber.de/schulverwaltung/installation/).
 
-
 ## Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen
 
 Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihrer MAGELLAN 6-Datenbank übergeben. 
 
-Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7`ein. Klicken Sie auf `Weiter`!
+Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
 
 ![Magellan 6 nach MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren5.png)
