@@ -382,8 +382,6 @@ Für die Eingabe der weiteren Zeugnisdaten steht eine Sammelzuweisung für die U
 
 Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
 
-
-
 ### neuer Status
 
 In der Ansicht `Schüler` wird als dritter Status (zusätzlich zu aktiv und inaktiv) ein roter gefüllter Kreis für Schüler gezeigt, die nur noch in der Bibliothek als Ausleiher existieren, in MAGELLAN aber gelöscht wurden.
