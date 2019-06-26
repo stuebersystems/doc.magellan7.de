@@ -6,7 +6,7 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möc
 
 ### UTF8
 
-Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben. 
+Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben.
 Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
 
 ### Schüler pausiert
@@ -23,10 +23,10 @@ Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten
 Alle ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
 
 |Status|Bedeutung|
-|-|-|
-|![](/assets/images/neues/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
-|![](/assets/images/neues/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
-|![](/assets/images/neues/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
+|--|--|
+|![](/assets/images/neues/pausieren02.png) | Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
+|![](/assets/images/neues/pausieren03.png) | Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
+|![](/assets/images/neues/pausieren04.png) | Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
 
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
@@ -40,7 +40,16 @@ Ansicht|Vorgehen
 `Schüler > Auswahlliste`|`pausierend -> aktiv`<br/>Markieren Sie den Schüler und wählen `Rechtsklick > Status zuweisen`. Sie wählen `aktiv` und werden gefragt, ob das aktuelle Datum als Ende der Pause erfasst werden soll. Alternativ können Sie auch ein abweichendes Datum direkt auf der Laufbahnkarte vergeben.<br/> <br/>`pausierend -> inaktiv`<br/>Kehrt der Schüler nach der Pause nicht an Ihre Schule zurück, können Sie auch den Wert `inaktiv` wählen, bitte tragen Sie anschließend noch ein Abgangsdatum ein.
 `Schüler > Laufbahn`|`pausierend -> aktiv`<br/>Sie tragen das `Bis-Datum` ein, beim Speichern (Hakensymbol im Abwesenheitsfenster) wird gefragt, ob Sie den Schüler gleich wieder aktivieren möchten.
 
+### Anzeige des Status
 
+Auf den einzelnen Registerkarten werden oben links weitere Informationen in Form von Symbolen eingeblendet. Links wird der Status des Schülers gezeigt (aktiv, inaktiv, pausierend), daneben kann mit einem "V" die Volljährigkeit (berechnet aus dem Tagesdatum und dem Geburtsdatum des Schülers) gezeigt werden. Ein Kreis mit einem Ausrufezeichen soll Sie darauf hinweisen, dass unter `Daten 3` das Häkchen für `Geheim` aktiviert wurde.
+
+|Status|Bedeutung|
+|--|--|
+|![](/assets/images/neues/09.png) | Schüler ist volljährig|
+|![](/assets/images/neues/10.png) | Schüler wurde als `geheim` markiert|
+
+![Anzeige des Status auf den Unterregisterkarten der Schüler](/assets/images/neues/08.png)
 
 ### Klassen parallel besuchen
 
@@ -76,8 +85,6 @@ Situation|Was passiert
 Stammschüler und Schülerkopie sind im selben Halbjahr|Wenn der Stammschüler bereits in dem Halbjahr indem Sie die Kopie einschulen existiert, werden die beiden Schüler nicht miteinander verbunden, sondern die Schülerkopie wird mit dem Laufbahneintrag `N` für Nebenklasse zusätzlich in der Auswahliste gezeigt. Auf der Laufbahnkarte des Stammschülers ist aber die Nebenlaufbahn mit sichtbar.<br/>![Darstellung in der Auswahlliste](/assets/images/neues/lb05.png)<br/> ![Laufbahnkarte](/assets/images/neues/lb06.png)<br/><br/> Die S- und N-Schüler werden beim Fortschreiben jeweils in ihren Klassen fortgeschrieben oder versetzt. Möchten Sie für die  Schüler Zeugnisse drucken, ist das problemlos möglich, zu jeder Laufbahn hat man eine dazugehörige Zeugniskarte, die individuell pro Zeitraum gefüllt wird. 
 Stammschüler und Schülerkopie sind in unterschiedlichen Halbjahren| Der Stammschüler und die Schülerkopie werden miteinander verbunden, es existiert nur eine Zeile in der Schülerliste mit dem Laufbahneintrag `S`
 
-
-
 #### Stammdaten
 
 ##### Stammschüler, Bewerber, Schülerkopie
@@ -87,11 +94,9 @@ Wird beim Stammschüler, bei der Bewerberkopie oder bei der Schülerkopie ein Fe
 
 #### Ausbildung, Bereits besuchte Schulen
 
-
-##### Stammschüler,Schülerkopie
+##### Stammschüler, Schülerkopie
 
 Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die `Familiendaten` werden für die Schülerkopie immer die Daten es Stammschüler gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
-
 
 !!! info "Hinweis"
 
@@ -138,11 +143,9 @@ Beispiel: Ein Schüler Ihrer Schule bewirbt sich auf einen anderen Bildungsgang 
 
 Bislang hat der Assistent immer die Schüler und ehemaligen Schüler des ausgewählten Zeitraums gezeigt, jetzt stehen im Assistentenfenster `als Bewerber kopieren` sämtliche Schüler oder ehemaligen Schüler zur Auswahl, Sie müssen nicht mehr den Zeitraum wechseln.
 
-
 ### Laufbahnsortierung nach Zeiträumen
 
 Bislang waren die Laufbahneinträge der Schüler nach den Zugangs- und Abgangsdaten zur jeweiligen Klasse sortiert, ab der Version 7 ist die Sortierung an die Zeiträume gebunden. Damit werden die Einträge auch korrekt sortiert, wenn verkehrte oder keine Zugangs- und Abgangsdaten hinterlegt wurden.
-
 
 ### Navigationleiste
 
@@ -196,13 +199,11 @@ Die Schaltfläche zum Editieren der Inhalte eines Verzeichnisses finden Sie link
 
 ![Schaltflächen zum Editieren](/assets/images/neues/sv04.png)
 
-
 In der Liste der Verzeichnisse und auch im Gruppenfilterfeld können Sie Einträge per inkrementeller Suche finden. Aktivieren Sie die Liste oder das Feld per Klick, tippen Sie anschließend Ihren Suchbegriff ein, es wird der gefundene Eintrag gezeigt.
 
 !!! info "Hinweis"
 
    Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in MAGELLAN verfügbaren Schlüsselverzeichnisse aufgelistet.
-
 
 ### Schülerfilter
 
@@ -223,13 +224,11 @@ Sollte ein Bewerber versehentlich ins Schülermenü übernommen worden sein, kö
 
   Der Assistent zum `Schüler korrigieren` bietet zum Korrigieren eingeschulte Schüler oder Vagabunden an. Was gezeigt wird, steuert man mit der Auswahl im Filter `Status` in der Schülerauswahlliste.
 
-
 ### Namen in Landessprache
 
  In den Menüpunkten `Schüler`, `Bewerber`, `Personen`, `Lehrer` und `Sorgeberechtigte` gibt unter `Daten1` die Möglichkeit auf die Unterkarte `Alternativ` zu wechseln um dort Namen in Landessprache einzugeben, zum Beispiel um sie im Zeugnisdruck zu verwenden.
 
 ![Unterkarte `Alternativ` unter `Schüler > Daten1` ](/assets/images/neues/s01.png)
-
 
 ### Zusammengefasst: Daten1 und Familie
 
@@ -249,19 +248,15 @@ Es gibt unter `Schüler` oder unter `Bewerber` nicht mehr die Karte `Zugang/Abga
 
 ![neue Karte `Schüler/Bewerber > Daten2`](/assets/images/neues/daten2.png)
 
-
 ### Drittes Geschlecht für Bewerber und Schüler
 
 Unter `Bewerber/Schüler > Daten1 > Geschlecht` kann der Wert `divers` gewählt werden. 
-
-
   
 ### Schülerfehlzeiten
 
 Beim Aufruf der Schülerfehlzeiten werden jetzt immer alle bisher erfassten Fehlzeiten gezeigt, den Standardfilter können Sie über die Schaltfläche `Anpassen` weiter eingrenzen.
 
 ![Fehlzeitenfenster, aufrufbar in der Schülerauswahlliste mit STRG+F](/assets/images/neues/schueler_36fehlzeiten.png)
-
 
 ### Sorgeberechtigte: Kinder-Karte ohne Zeitraumfilterung
 
@@ -288,12 +283,9 @@ Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, d
   
   Selbstverständlich können Mitglieder auch verschiedenen Gruppen angehören.
   
-
-
 !!! warning "Wichtig"
 
-   Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
-
+    Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
 
 ## MAGELLAN 7 Administrator
 
@@ -333,7 +325,6 @@ Sie können sich für die tägliche Arbeit mehr Platz auf Ihrem Bildschirm schaf
 
 MAGELLAN 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktionalitäten. 
 Wir haben je nach ausgewähltem Menüpunkt die Funktionalitäten zu Gruppen zusammengefasst. Im Bereich Schüler gibt es beispielsweise jetzt die Gruppen `Datenbank`, `Start` und `Hilfe`.
-
 
 ### Verbindungen anlegen
 
@@ -396,8 +387,8 @@ Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und
 In der Ansicht `Schüler` wird als dritter Status (zusätzlich zu aktiv und inaktiv) ein roter gefüllter Kreis für Schüler gezeigt, die nur noch in der Bibliothek als Ausleiher existieren, in MAGELLAN aber gelöscht wurden.
 Durch diese Anzeige (und auch den Status für inaktive) Schüler, können Sie gezielt nach dem Status und auch nach dem Symbol für Vorgänge filtern und diese Ausleiher aus der Bibliothek entfernen.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Ausleiher, den noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
+    Ausleiher, den noch offene Ausleihvorgänge zugeordnet sind, können nicht gelöscht werden.
 
-![Ansicht `Schüler` in der Bibliothek](../assets/images/neues/07.png)  
+![Ansicht `Schüler` in der Bibliothek](/assets/images/neues/07.png)  
