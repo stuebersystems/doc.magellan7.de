@@ -14,9 +14,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ## 7.0.13 - 705
 
-!!! warning "Wichtig"
-
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### MAGELLAN
 
@@ -28,17 +25,10 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN BIBLIOTHEK
 
-* NEW: 
+* NEW: Problem beim Aufruf des Menüpunkts `Schüler behoben`
 
 ### MyMAGELLAN
 
-* NEW: Die Bemerkung, die zum Start gezeigt wird, hat eine Scrollbar erhalten, um auch längere Texte bequem lesen zu können
-* NEW: In den Auswahlen (Fächer, Schüler) und in den Eingabeübersichten (Fächer, Schüler) wird die jeweils letzte Sortierung in der Registry des verwendeten Rechners gespeichert.
-* NEW: Die Spaltenreihenfolge der Eingabeübersichten (Fächer, Schüler) wird in der Registry des verwendeten Rechners gespeichert.
-* FIX: Öffnen einer bereits zuvor genutzten Datei über `Datei > Zuletzt geöffnete Dokumente` behoben.
-* NEW: `Datei > Öffnen` speichert das zuletzt geöffnete Verzeichnis für den nächsten Zugriff.
-* FIX: Problem beim Öffnen per Doppelklick auf Passwort-geschützte mym-Dateien behoben.
-* CHANGE: Startfenstergröße vorgegeben
 
 ### MyMAGELLAN CENTER
 
