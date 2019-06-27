@@ -39,6 +39,12 @@ Ansicht|Vorgehen
 
 Auf den einzelnen Registerkarten werden oben links weitere Informationen in Form von Symbolen eingeblendet. Links wird der Status des Schülers gezeigt (aktiv, inaktiv, pausierend), daneben kann mit einem "V" die Volljährigkeit (berechnet aus dem Tagesdatum und dem Geburtsdatum des Schülers) gezeigt werden. Ein Kreis mit einem Ausrufezeichen soll Sie darauf hinweisen, dass unter `Daten 3` das Häkchen für `Geheim` aktiviert wurde.
 
+| Status                                  | Bedeutung                           |
+| --------------------------------------- | ----------------------------------- |
+| <img src="/assets/images/neues/09.png"> | Schüler ist volljährig              |
+| <img src="/assets/images/neues/10.png"> | Schüler wurde als `geheim` markiert |
+
+
 ![Status auf den Registerkarten](/assets/images/neues/12.png)
 
 ![Anzeige des Status auf den Unterregisterkarten der Schüler](/assets/images/neues/08.png)
