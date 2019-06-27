@@ -9,18 +9,22 @@
 
 |Notwendige Schritte |
 |-|
-|[1. MAGELLAN 6 und Firebird aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
+|[1. ggfs. MAGELLAN 6 und ggfs. Firebird aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#magellan-6-und-firebird-aktualisieren)|
 |[2. MAGELLAN 7 installieren](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#magellan-7-installieren)|
 |[3. Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#daten-aus-magellan-6-nach-magellan-7-%C3%BCbernehmen)|
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
-Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und der dazugehörigen Firebird-Installation eingesetzt werden.
+Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und der dazugehörigen Firebird-Installation eingesetzt werden. 
 
 !!! info "Hinweis"
 
-     Bitte vergleichen Sie die angezeigte Version unter `MAGELLAN > Hilfe > Info über` und `Systemsteuerung > Firebird Server Manager (32-Bit)` mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/schulverwaltung/changelog/) der MAGELLAN 6-Dokumentation!
-     Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan6.stueber.de/installation/update.html) und [älteren Firebirdversionen](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html), da für den Wechsel auf MAGELLAN 7 zuvor die aktuellste MAGELLAN 6-Ausgabe vorausgesetzt wird!  
+     Wenn Sie die letzte Ausgabe von MAGELLAN 6 eingespielt haben und die empfohlene Ausgabe von Firebird (2.5.8) verwenden, ist hier nichts weiter zu tun.
+
+Programm| Wo kann ich die Version überprüfen?
+--|--
+MAGELLAN | Bitte vergleichen Sie die angezeigte Version (am besten der Serverrechner-Installation) unter `MAGELLAN > Hilfe > Info über`  mit den angezeigten Version auf im [Downloadbereich](https://magellan.stueber.de/download.php) oder im Abschnitt ["Was ist neu?"](https://doc.magellan7.stueber.de/schulverwaltung/changelog/) der MAGELLAN 6-Dokumentation!<br/> Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.magellan6.stueber.de/installation/update.html)
+FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die 2.5.8? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html) der MAGELLAN 6-Dokumentation eine Anleitung für das Aktualisieren.
 
 ## MAGELLAN 7 installieren
 
