@@ -22,7 +22,11 @@ Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten
 
 Alle ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
 
-![Status in der Auswahlliste](/assets/images/neues/10.png)
+| Status                                  | Bedeutung                           |
+| --------------------------------------- | ----------------------------------- |
+| <img src="/assets/images/neues/pausieren02.png"> | Aktiv, der Schüler besucht aktuell die Schule und wurde nicht ausgeschult |
+| <img src="/assets/images/neues/pausieren03.png"> | Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und wurde ausgeschult |
+| <img src="/assets/images/neues/pausieren04.png"> | Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult |
 
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
@@ -39,7 +43,10 @@ Ansicht|Vorgehen
 
 Auf den einzelnen Registerkarten werden oben links weitere Informationen in Form von Symbolen eingeblendet. Links wird der Status des Schülers gezeigt (aktiv, inaktiv, pausierend), daneben kann mit einem "V" die Volljährigkeit (berechnet aus dem Tagesdatum und dem Geburtsdatum des Schülers) gezeigt werden. Ein Kreis mit einem Ausrufezeichen soll Sie darauf hinweisen, dass unter `Daten 3` das Häkchen für `Geheim` aktiviert wurde.
 
-![Status auf den Registerkarten](/assets/images/neues/12.png)
+| Status                                  | Bedeutung                           |
+| --------------------------------------- | ----------------------------------- |
+| <img src="/assets/images/neues/09.png"> | Schüler ist volljährig              |
+| <img src="/assets/images/neues/10.png"> | Schüler wurde als `geheim` markiert |
 
 ![Anzeige des Status auf den Unterregisterkarten der Schüler](/assets/images/neues/08.png)
 
