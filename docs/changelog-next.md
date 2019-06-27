@@ -36,6 +36,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
+* CHANGE: Ergänzung in der Datenübernahme: Für Schüler (Status 3 und 4), die in Version 6 kopiert, aber trotzdem nicht wieder zu einem Datensatz beim Einschulen zusammengeführt wurden, werden bei der Datenübernahme nach MAGELLAN 7 die Einträge aus `IDIntern` entfernt.
 
 !!! warning "Wichtig"
 
