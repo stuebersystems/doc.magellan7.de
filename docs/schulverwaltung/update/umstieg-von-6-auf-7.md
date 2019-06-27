@@ -15,7 +15,7 @@
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
-Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und der dazugehörigen Firebird-Installation eingesetzt werden. 
+Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und die dazugehörige Firebird-Ausgabe eingesetzt werden. 
 
 !!! info "Hinweis"
 
