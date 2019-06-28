@@ -25,7 +25,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN BIBLIOTHEK
 
-* NEW: Problem beim Aufruf des Menüpunkts `Schüler behoben`
+* NEW: Problem beim Aufruf des Menüpunkts `Schüler` behoben
 
 ### MyMAGELLAN
 
