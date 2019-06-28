@@ -17,8 +17,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX: 
-
+* NEW: neuer Welcome-Screen mit RSS 2.0 Feed (https://feeds.stueber.de)
+  
 ### SAXSVS
 
 * CHANGE: 
