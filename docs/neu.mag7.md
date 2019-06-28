@@ -288,7 +288,7 @@ Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, d
 
 ### Neue Nachrichtenfunktion
 
-Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden.
+Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auf beim Aufruf des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
 
 ![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
   
