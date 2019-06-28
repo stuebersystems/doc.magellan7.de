@@ -286,6 +286,13 @@ Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, d
 
     Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
 
+### Neue Nachrichtenfunktion
+
+Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden.
+
+![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
+  
+
 ## MAGELLAN 7 Administrator
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6, wir möchten gern eine Übersicht über die offensichtlichsten Änderungen geben.
