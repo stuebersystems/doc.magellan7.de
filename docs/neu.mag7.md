@@ -1,13 +1,21 @@
 # Was ist neu?
 
-## MAGELLAN 7
-
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
+
+## Allgemeines
 
 ### UTF8
 
 Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben.
 Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
+
+### Neue Nachrichtenfunktion
+
+Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auf beim Aufruf des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
+
+![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
+  
+## MAGELLAN 7
 
 ### Schüler pausiert
 
@@ -86,34 +94,28 @@ Stammschüler und Schülerkopie sind in unterschiedlichen Halbjahren| Der Stamms
 
 #### Stammdaten
 
-##### Stammschüler, Bewerber, Schülerkopie
-
-Mit Stammdaten sind die Einträge des Reiters `Daten1` bis zur Karte `Extras` gemeint, eine Ausnahme bilden die Daten zu den `bereits besuchten Schulen` auf der Karte `Zugang/Abgang`.
-Wird beim Stammschüler, bei der Bewerberkopie oder bei der Schülerkopie ein Feld geändert, wird beim Speichern geprüft, ob es den Schüler mehrfach gibt, der geänderte Wert wird dann mit für alle weiteren gefundenen Schüler übernommen. Die Daten sind also bei allen drei Varianten identisch, egal von wem aus etwas geändert wird.
+Wer | Wie wird verfahren?
+--|--
+Stammschüler, Bewerber, Schülerkopie | Mit Stammdaten sind die Einträge des Reiters `Daten1` bis zur Karte `Extras` gemeint, eine Ausnahme bilden die Daten zu den `bereits besuchten Schulen` auf der Karte `Zugang/Abgang`. <br/>Wird beim Stammschüler, bei der Bewerberkopie oder bei der Schülerkopie ein Feld geändert, wird beim Speichern geprüft, ob es den Schüler mehrfach gibt, der geänderte Wert wird dann mit für alle weiteren gefundenen Schüler übernommen. Die Daten sind also bei allen drei Varianten identisch, egal von wem aus etwas geändert wird.
 
 #### Ausbildung, Bereits besuchte Schulen
 
-##### Stammschüler, Schülerkopie
-
-Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die `Familiendaten` werden für die Schülerkopie immer die Daten es Stammschüler gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
-
-!!! info "Hinweis"
-
-  Eine Ausnahme ist das Feld `Schüler > Ausbildung > Ausbildung`, in dem Feld wird die aktuelle Ausbildung des Schüler hinterlegt, die wird individuell pro Stammschüler oder Schülerkopie gespeichert.
-
-##### Bewerber
-
-Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters `Ausbildung` und die der `bereits besuchten Schulen` übernommen. Pflegen Sie diese Daten im Bewerbungszeitraums für den Bewerber, werden diese Daten dann beim späteren Einschulen des Bewerbers in seine Zielklasse mit den beim Stammschüler gespeicherten Daten ergänzt.
+Wer | Wie wird verfahren?
+--|--
+Stammschüler, Schülerkopie|Für die Daten in den Bereichen `Ausbildung`, `Bereits besuchte Schulen` und die `Familiendaten` werden für die Schülerkopie immer die Daten es Stammschüler gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an. <br/> **Wichtig:**<br/> Eine Ausnahme ist das Feld `Schüler > Ausbildung > Ausbildung`, in dem Feld wird die aktuelle Ausbildung des Schüler hinterlegt, die wird individuell pro Stammschüler oder Schülerkopie gespeichert.
+Bewerber | Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters `Ausbildung` und die der `bereits besuchten Schulen` übernommen. Pflegen Sie diese Daten im Bewerbungszeitraums für den Bewerber, werden diese Daten dann beim späteren Einschulen des Bewerbers in seine Zielklasse mit den beim Stammschüler gespeicherten Daten ergänzt.
 
 #### Familiendaten
 
-##### Stammschüler, Bewerber, Schülerkopie
-
-Für die `Familiendaten` werden für den Stammschüler, Schülerkopien und Bewerber immer die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
+ Wer | Wie wird verfahren?
+--|--
+ Stammschüler, Bewerber, Schülerkopie |Für die `Familiendaten` werden für den Stammschüler, Schülerkopien und Bewerber immer die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 
 #### Zeugnisdaten
 
-Auf sämtlichen Unterkarten unter `Schüler > Zeugnis` sind die Daten pro einzelner Schülerkopie gespeichert, hier hat der Schüler je Klassenzugehörigkeit individuelle Daten.
+Wer | Wie wird verfahren?
+--|--
+Stammschüler, Schülerkopie |Auf sämtlichen Unterkarten unter `Schüler > Zeugnis` sind die Daten pro einzelner Schülerkopie gespeichert, hier hat der Schüler je Klassenzugehörigkeit individuelle Daten.
 
 #### Dokumentenverzeichnis
 
@@ -286,12 +288,6 @@ Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, d
 
     Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
 
-### Neue Nachrichtenfunktion
-
-Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auf beim Aufruf des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
-
-![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
-  
 
 ## MAGELLAN 7 Administrator
 
