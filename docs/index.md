@@ -13,7 +13,7 @@ Diese Dokumentation ist unterteilt in die Bereiche:
 Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
 * [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
-* [MAGELLAN Importe](https://doc.magellan-import.stueber.de)
+* [MAGELLAN Datenstruktur und Importe](https://doc.magellan7-ds.stueber.de)
 * [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de)
 * [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
 * [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
