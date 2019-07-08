@@ -1,13 +1,12 @@
 # Umstieg von MAGELLAN 6 auf MAGELLAN 7
 
-
 !!! warning "Wichtig"
 
     Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 7 nicht auf einem Rechner** zu verwenden, da es Probleme bei der Anzeige von Berichten geben kann. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. Ein paralleles Arbeiten ist nicht sinnvoll, da beide Programme jeweils eigene Datenbanken verwenden.
 
 ## Schüler und Schülerkopien
 
-   In MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung) 
+   In MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
 
 Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue MAGELLAN7.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in MAGELLAN 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
 
@@ -37,7 +36,7 @@ Was könnten Sie tun?
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
-Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und die dazugehörige Firebird-Ausgabe eingesetzt werden. 
+Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und die dazugehörige Firebird-Ausgabe eingesetzt werden.
 
 !!! info "Hinweis"
 
@@ -59,14 +58,13 @@ Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide 
 
 ## Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen
 
-Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihrer MAGELLAN 6-Datenbank übergeben. 
+Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihrer MAGELLAN 6-Datenbank übergeben.
 
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
-
 ![MAGELLAN 6 nach MAGELLAN 7](/assets/images/MAGELLAN.administrator/mandanten.kopieren5.png)
 
-Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-Datenbank möglich. Bei der Installation von MAGELLAN 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.fdb". 
+Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-Datenbank möglich. Bei der Installation von MAGELLAN 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.fdb".
 ![leere Datenbank im Format für MAGELLAN 7](/assets/images/MAGELLAN.administrator/mandanten.kopieren6.png)
 
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.fdb)
