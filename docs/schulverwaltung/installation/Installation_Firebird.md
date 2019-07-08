@@ -1,7 +1,6 @@
 ﻿
 # Installation von Firebird 2.5
 
-
 !!! warning "Wichtig"
 
 	Diese Installation wird einmalig im Netzwerk auf dem Rechner, auf dem später Ihre MAGELLAN-Datenbank liegen wird ausgeführt. 
