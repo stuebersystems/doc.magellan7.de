@@ -39,6 +39,6 @@ Im Feld Protokoll sollte TCP/IP gewählt werden, im Feld Server tragen Sie bitte
 Die Meldung erscheint wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden, das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter. 
 Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut .
 
-![Fehlermeldung](/assets/images/fehler_cr.png)
+![Fehlermeldung](/assets/images/installation/fehler_cr.png)
 
 [ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
