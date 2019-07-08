@@ -89,6 +89,10 @@ Benutzernamen <br/> Kennwort|Tragen Sie als Benutzer bitte den sysdba und das da
 
 Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 
+!!! info "Hinweis"
+
+     Die Datenübernahme aus Ihrer MAGELLAN 6-Datenbank in die neue MAGELLAN 7-Datenbank kann je nach Datenvolumen auch mehrere Stunden dauern. Bitte stellen Sie sicher, dass der verwendete Rechner auch aktiviert bleibt.
+
 ## Wortersetzungen
 
 Bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in die MAGELLAN 7-Datenbank können Ihre geänderten Feldbezeichnungen aus technischen Gründen nicht übernommen werden. Bitte tragen Sie  unter `MAGELLAN 7 > Extras > Bezeichnungen anpassen > Spalte "durch"` Ihre gewünschten Bezeichnungen neu ein!
