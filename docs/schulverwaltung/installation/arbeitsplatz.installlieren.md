@@ -1,7 +1,6 @@
 ﻿
 # Arbeitsplatzinstallation
 
-
 Diesen Installationstyp wählen Sie bitte aus, wenn Sie einen Arbeitsplatzrechner einrichten möchten. Das bedeutet, MAGELLAN als Programm wird auf diesem Rechner installiert, auf alle gemeinsam verwendeten Dateien (zb. Berichte, Vorlagen, Skripte usw.) wird über das Netzwerk zugriffen.
 
 Es werden während der Installation nur Programmdateien abgelegt, im Anschluss wird der Willkommensassistent gestartet, Sie geben die Pfade zu den gemeinsam genutzten Verzeichnissen in Ihrem Netzwerk ein.
@@ -9,8 +8,6 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 !!! info "Hinweis"
 
   Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/arbeitsplatz.installlieren/#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html)) abgelegt werden.
-
-
 
 ## Download und Installationstypen
 
@@ -23,7 +20,6 @@ Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien w
 ![Installationart festlegen](/assets/images/setup-type.png)
 
 Wählen Sie die `Arbeitsplatzinstallation` aus! Es wird nur das Programm installiert, es werden keine Datenbank abgelegt oder sogenannten Datenordner erzeugt.
-
 
 ![Bitte wählen Sie den Installationstyp Arbeitsplatz aus!](/assets/images/setup-type.png)
 
@@ -102,19 +98,19 @@ Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. 
 
 Die im Willkommensassistenten eingegebenen Daten werden als Dateien auf dem Arbeitsplatz gespeichert. 
 
-Bevor Sie diese Dateien für einen weiteren Rechner kopieren und weiterverwenden, sollten Sie kurz testen, ob Ihre Eingaben korrekt waren. 
+Bevor Sie diese Dateien für einen weiteren Rechner kopieren und weiterverwenden, sollten Sie kurz testen, ob Ihre Eingaben korrekt waren.
 
 !!! info "Hinweis"
 
 	Die zu kopierenden Dateien unterscheiden sich hinsichtlich der Pfadangaben zwischen einer Server-/Einzelplatzinstallation und einem Arbeitsplatzrechner. Sie können also nur die Dateien des Arbeitsplatzrechners für einen weiteren Arbeitsplatzrechner verwenden.
 
-Melden Sie sich bitte an MAGELLAN an, wenn Sie MAGELLAN erstmalig einsetzen sollten der Benutzer "sysdba" und das Standardpasswort "masterkey" funktionieren. 
+Melden Sie sich bitte an MAGELLAN an, wenn Sie MAGELLAN erstmalig einsetzen sollten der Benutzer "sysdba" und das Standardpasswort "masterkey" funktionieren.
 Öffnet sich MAGELLAN? Dann stimmt der Pfad zur Datenbank.
 Um zu schauen, ob auch die Pfade zu den Datenordner korrekt waren, testen Sie bitte am Beispiel des Berichte-Ordners.
 Wechseln Sie bitte ins Menü `Schüler`, wählen eine Schüler, klicken auf `Drucken > Berichte`. Wird eine Liste von Dateien mit der Endung *.rpt gezeigt? Dann können wir davon ausgehen, dass auch die Pfade zu den Verzeichnissen stimmen.  
 
 Öffnen Sie bitte auf dem Rechner den Pfad `C:\ProgramData\Stueber Systems\Magellan 7`. Sollten Sie das Verzeichnis `ProgramData` nicht sehen, kopieren Sie den oben genannten Pfad, fügen ihn in die Adressleiste eines beliebigen Ordnerfensters ein und drücken Enter.
-Sie sollten im korrekten Verzeichnis landen: 
+Sie sollten im korrekten Verzeichnis landen:
 
 ![`C:\ProgramData\Stueber Systems\Magellan 7`](/assets/images/installation/programdata.png)
 

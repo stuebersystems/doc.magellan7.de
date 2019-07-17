@@ -2,24 +2,48 @@
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7.
 
-
 ### LEGENDE
 
-Abkürzung | Bedeutung     
+Abkürzung | Bedeutung
 ----------|----------
-FIX       | Korrektur bestehender Funktionalität              
-NEW       | Neue Funktionalität                              
+FIX       | Korrektur bestehender Funktionalität
+NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
+
+## 7.0.13 - 705 (28.06.2019)
+
+### Allgemein
+
+* NEW: Neue Nachrichtenfunktion: Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von MAGELLAN, des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
+
+![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
+  
+### MAGELLAN BIBLIOTHEK
+
+* FIX: Problem beim Aufruf des Menüpunkts `Schüler` behoben
+
+### MAGELLAN Administrator
+
+* CHANGE: Ergänzung in der Datenübernahme: Für Schüler (Status 3 und 4), die in Version 6 kopiert, aber trotzdem nicht wieder zu einem Datensatz beim Einschulen zusammengeführt wurden, werden bei der Datenübernahme nach MAGELLAN 7 die Einträge aus `IDIntern` entfernt.
+
+!!! warning "Wichtig"
+
+    Die Funktion `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird aktuell überarbeitet und wurde daher vorübergehend deaktiviert.
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: SAC-FOS-FHReife (D.01.04).rpt (Satz am Seitenende von Seite 2 aktualisiert)
+* NEW: SAC-BS-AS (A.01.07)neu.rpt
 
 ## 7.0.12 - 705 (24.06.2019)
 
 !!! warning "Wichtig"
 
     Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
-
-
 
 
 !!! warning "Wichtig"

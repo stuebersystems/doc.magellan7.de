@@ -1,9 +1,12 @@
 ﻿
 # Berichte für MAGELLAN 7 anpassen
 
-Aufgrund technischer Veränderungen in MAGELLAN 7 müssen bestehende Berichte für die neue Version angepasst werden. Alle mitgelieferten Originalberichte von STÜBER SYSTEMS werden über Service-Updates nach und nach angepasst ausgeliefert. 
+Aufgrund technischer Veränderungen in MAGELLAN 7 müssen bestehende Berichte für die neue Version angepasst werden. Alle mitgelieferten Originalberichte von STÜBER SYSTEMS werden über Service-Updates nach und nach angepasst ausgeliefert.
 Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte liegen im Verantwortungsbereich der Schulen. Im Folgenden erläutern wir die Gründe und die notwendigen Anpassungen.
 
+!!! warning "Wichtig"
+
+    Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe CRYSTAL REPORTS 2013. 
 
 ## MAGELLAN 7 unterstützt Unicode
 

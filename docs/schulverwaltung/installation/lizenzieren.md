@@ -7,8 +7,6 @@ Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
 * Lizenzdaten von Hand eingeben
 * Lizenzdaten importieren
 
-
- 
  !!! warning "Wichtig"
  
      Eine Lizenz für alle Rechner?
@@ -18,19 +16,19 @@ Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen las
 
 Um Ihre Lizenzdaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor
 
-1. Starten Sie MAGELLAN und führen Sie den Menüpunkt``` Hilfe > Lizenz``` aus.
+1. Starten Sie MAGELLAN und führen Sie den Menüpunkt ```Hilfe > Lizenz``` aus.
 
-2. Betätigen Sie im erscheinenden Dialogfenster „Lizenz" die Schaltfläche ```Neue Lizenz```. 
+2. Betätigen Sie im erscheinenden Dialogfenster „Lizenz" die Schaltfläche ```Neue Lizenz```.
 
 3. Tragen Sie im erscheinenden Dialogfenster „Lizenz ändern“ Ihre Lizenzdaten ein. Diese umfassen den    Namen, den Standort und den Schlüssel des Lizenznehmers.
 
 4. Bestätigen Sie Ihre Eingaben abschließend mit ```OK```.
 
-Im Dialogfenster „Lizenz" werden anschließend neue Module bei bei den aktiven Modulen angezeigt und steht Ihnen nun fortan auf Ihrem Rechner zur Verfügung. 
+Im Dialogfenster „Lizenz" werden anschließend neue Module bei bei den aktiven Modulen angezeigt und steht Ihnen nun fortan auf Ihrem Rechner zur Verfügung.
 
 ## Lizenzdaten importieren
 
-Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von MAGELLAN automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen „Magellan.lic“ standardmäßig in folgenden Windows-Verzeichnissen abgelegt: 
+Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von MAGELLAN automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen „Magellan.lic“ standardmäßig in folgenden Windows-Verzeichnissen abgelegt:
 
 Betriebssystem | Pfad
 -------------- | ----
@@ -49,5 +47,3 @@ Um eine „Magellan.lic“-Datei zu importieren, führen Sie bitte folgende Schr
 4. Bestätigen Sie Ihre Auswahl mit ```Öffnen```.
 
 Die Lizenzdaten der importierten Datei werden nun im Dialogfenster „Lizenz“ angezeigt. Die freigeschalteten Module stehen nun auf Ihrem Rechner zur Verfügung.
-
-

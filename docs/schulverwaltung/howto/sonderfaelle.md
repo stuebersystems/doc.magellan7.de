@@ -14,11 +14,13 @@ Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten
 
 Der oder die ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
 
+
+
 |Status|Bedeutung|
 |-|-|
-|![](/assets/images/neues/pausieren02.png)|Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
-|![](/assets/images/neues/pausieren03.png)|Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
-|![](/assets/images/neues/pausieren04.png)|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
+|<img src="(/assets/images/neues/pausieren02.png"> |Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
+|<img src="/assets/images/neues/pausieren03.png"> |Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
+|<img src="/assets/images/neues/pausieren04.png">|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
 
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
@@ -48,15 +50,15 @@ Nr.|Was ist zu tun?
 Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich MAGELLAN den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
 
 
-
 ### 1. Bewerberkopie erstellen
 
 Sie erstellen eine Kopie des Schülers, dafür gibt es zwei Möglichkeiten:
 
 Möglichkeit|Vorgehen
 --|--
-**aus dem Menü `Schüler`** |Starten Sie bitte den Assistenten `Als Bewerber kopieren` unter `Schüler > Laufbahnprozesse > Als Bewerber kopieren`. Der Assistent zeigt Ihnen alle Schüler und alle ehemaligen Schüler. Markieren Sie den Schüler, hinterlegen ggfs. auf der nächsten Karte noch Ihre Schule als Herkunftsschule und klicken auf `Fertigstellen`. <br/><br/>![Dialog „Schüler als Bewerber kopieren“](/assets/images/sonderfaelle/sonderfaelle2.png)<br/>![eine Herkunftsschule für den Bewerber vorbelegen](/assets/images/sonderfaelle/sonderfaelle11.png)
-**aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/>![„Schüler als Bewerber kopieren“ aus der Doublettenprüfung](/assets/images/sonderfaelle/sonderfaelle9.png)
+**aus dem Menü `Schüler`** |Starten Sie bitte den Assistenten `Als Bewerber kopieren` unter `Schüler > Laufbahnprozesse > Als Bewerber kopieren`. Der Assistent zeigt Ihnen alle Schüler und alle ehemaligen Schüler. Markieren Sie den Schüler, hinterlegen ggfs. auf der nächsten Karte noch Ihre Schule als Herkunftsschule und klicken auf `Fertigstellen`. <br/> <img src="/assets/images/sonderfaelle/sonderfaelle2.png"> <br/><img src="/assets/images/sonderfaelle/sonderfaelle11.png"> 
+**aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/><img src="/assets/images/sonderfaelle/sonderfaelle9.png">
+
 
 
 !!! info "Hinweis"
@@ -81,11 +83,13 @@ So geht's:
 Schritt|Aktion
 --|--
 1. |Wechseln Sie nun bitte in den aktuellen Zeitraum und rufen das Menü `Bewerber` auf.
-2. |Markieren Sie den Bewerber in der Auswahlliste, starten Sie anschließend per Rechtsklick den Assistenten für das Bewerberverfahren (`F7`) und wählen Sie `Übernahme als Schüler`.<br/><br/>![Aufrufen des Bewerberverfahrens](/assets/images/sonderfaelle/sonderfaelle3.png)
+2. |Markieren Sie den Bewerber in der Auswahlliste, starten Sie anschließend per Rechtsklick den Assistenten für das Bewerberverfahren (`F7`) und wählen Sie `Übernahme als Schüler`.<br/><br/><img src="/assets/images/sonderfaelle/sonderfaelle3.png">
 
 ### 3. Kopie des Schülers einschulen und ggfs. zusammenführen
 
  Wechseln Sie ins Menü `Schüler` zurück und rufen Sie `Laufbahnprozesse > Schüler einschulen` auf, um den Schüler seiner Zielklasse zuzuweisen. Schulen Sie den Schüler wie gewohnt ein. Der Assistent prüft immer im Hintergrund, ob es eventuell noch einen Verweis auf einen weiteren Schüler gibt und ob dieser Schüler sich im selben Halbjahr befindet.
+
+
 
 
 Prüfung bei der Einschulung|Folge
@@ -183,7 +187,5 @@ Schritt|Aktion
 1.| Wechseln Sie ins zweite Halbjahr des laufenden Schuljahres
 2.| Öffnen Sie bitte aus einem beliebigen Menüpunkt heraus `Extras > Schüler fortschreiben`.
 3.| Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
-4.| Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!<br/><br/>![Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus!](/assets/images/sonderfaelle/jahrgang06.png)<br/><br/>![Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt](/assets/images/sonderfaelle/jahrgang02.png)
-
-
+4.| Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!<br/><img src="/assets/images/sonderfaelle/jahrgang06.png"><br/><br/>Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus<br/><br/><img src="/assets/images/sonderfaelle/jahrgang02.png"><br/><br/>Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt
 

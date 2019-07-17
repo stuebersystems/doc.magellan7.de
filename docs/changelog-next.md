@@ -14,41 +14,36 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ## 7.0.13 - 705
 
-
 ### MAGELLAN
 
-* FIX: 
-
-### SAXSVS
-
-* CHANGE: 
+* FIX: `Betriebe > Daten2`: Berufe und Bildungsgänge (mit voller Zeichenlänge Kürzel und Bezeichnung) können gespeichert werden
+* FIX: Schüler, die in einem vergangenen Zeitraum mehrfach eine Klasse besucht haben (Beispiel Klasse 1a, Wechsel in Klasse 1b, erneuter Wechsel in Klasse 1a) werden korrekt in den Auswahlliste gezeigt
+* FIX: pausierende Schüler werden über die F3-Suche (zeitraumübergreifende Suche) gefunden
+* FIX: Unter `Klassen > Zeiträume` können Klassenzeiträume, denen noch kein Schüler zugewiesen wurde, gelöscht werden.
 
 ### MAGELLAN BIBLIOTHEK
 
-* NEW: Problem beim Aufruf des Menüpunkts `Schüler behoben`
+* FIX: `Bücher/Medien > Daten2 > Erscheinungsland`: Problem beim Speichern behoben
+* FIX: `Bücher/Medien > Daten2 > Format`: Problem beim Speichern behoben
+* CHANGE: Link unter `Hilfe > Handbuch` aktualisiert
+* FIX: Das Verhalten beim Markieren in Schülerauswahlliste wurde überarbeitet (Markierungen bleiben nicht nur funktionell, sondern auch sichtbar bestehen)
 
 ### MyMAGELLAN
 
-
 ### MyMAGELLAN CENTER
 
-* NEW: 
+* NEW:
 
 ### MAGELLAN Administrator
 
-
-!!! warning "Wichtig"
-
-    Die Funktion `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird aktuell überarbeitet und wurde daher vorübergehend deaktiviert.
-
-* CHANGE: 
+* CHANGE:
 
 ### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: SAC-FOS-FHReife (D.01.04).rpt (Satz am Seitenende von Seite 2 aktualisiert)
+* FIX:
 
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
-* FIX: 
+* FIX:
