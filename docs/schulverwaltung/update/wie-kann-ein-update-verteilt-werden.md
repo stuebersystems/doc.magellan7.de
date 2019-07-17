@@ -14,14 +14,13 @@ Nachfolgend einige Herangehensweisen:
 
 Über ein neues Update können Sie sich von uns per Newsletter informieren lassen oder Sie aktivieren in MAGELLAN unter `Datenbank > Optionen > Update` die folgende Einstellung:
 
-
 ![Die Karte `Update `unter `MAGELLAN > Datenbank > Optionen`](/assets/images/datenbank_optionen_update.png)
 
 Mit dieser Auswahl prüft MAGELLAN bei jedem Programmstart, ob ein neues Update zur Verfügung steht.
 
-Das Installationspaket finden Sie hier: http://MAGELLAN.stueber.de/download.php 
+Das Installationspaket finden Sie hier: [http://MAGELLAN.stueber.de/download.php](http://MAGELLAN.stueber.de/download.php)
 
-Bitte laden Sie es herunter und führen es per Doppelklick auf allen MAGELLAN-Rechnern in Ihrem Netzwerk aus. 
+Bitte laden Sie es herunter und führen es per Doppelklick auf allen MAGELLAN-Rechnern in Ihrem Netzwerk aus.
 
 ## Variante 2
 
@@ -31,28 +30,27 @@ Vorteil:
 
 * Sie müssen lediglich die Server-Installation selbst aktualisieren, alle weiteren MAGELLAN-Installationen werden von den Anwendern aktualisiert.
 
-Nachteile: 
+Nachteile:
 
-* Sie können nicht sicherstellen, dass alle Nutzer die Aktualisierung durchführen. 
-* Jeder Anwender lädt einzeln das Updatepaket herunter. 
+* Sie können nicht sicherstellen, dass alle Nutzer die Aktualisierung durchführen.
+* Jeder Anwender lädt einzeln das Updatepaket herunter.
 * Die Nutzer müssen über Installationsrechte verfügen.
 
 ## Variante 3
 
-Aus Sicht des Anwenders scheint diese Alternative genau wie Variante 2.: 
+Aus Sicht des Anwenders scheint diese Alternative genau wie Variante 2.:
 
 Beim Programmstart wird dem Anwender ein neues Update signalisiert, er kann es mit Hilfe eines Assistenten einspielen.
 Was hierbei im Hintergrund verändert wird, ist der Zeitpunkt zu dem das Update signalisiert wird und der Speicherort des Updatepaketes.
 
 
-Jedes Installationspaket von MAGELLAN besitzt eine korrespondierende Update-Infodatei. Dies ist eine kleine XML-Datei, die es MAGELLAN ermöglicht, eine neuere Version automatisch zu erkennen, herunterzuladen und zu installieren. 
+Jedes Installationspaket von MAGELLAN besitzt eine korrespondierende Update-Infodatei. Dies ist eine kleine XML-Datei, die es MAGELLAN ermöglicht, eine neuere Version automatisch zu erkennen, herunterzuladen und zu installieren.
 
-### Wozu dient die Update-Infodatei?
+### Wozu dient die Update-Infodatei
 
 Beim Programmstart wird die Versionsnummer aus der Registrierungsdatenbank Ihres Rechners mit der Versionsnummer in der Update-Infodatei auf unserem Server abgeglichen. Wird festgestellt, dass ein neueres Update vorliegt, kann das Updatepaket von dem ebenfalls in der Datei gespeicherten Pfad von unserem Server heruntergeladen werden.
 
-
-###  Was können Sie selbst beeinflussen?
+### Was können Sie selbst beeinflussen
 
 Sie können steuern wann den Anwendern das neue Update angeboten wird und von welcher Stelle das Updatepaket heruntergeladen wird.
 
@@ -68,13 +66,13 @@ Für alle folgenden Updates führen Sie bitte nur noch die Schritte 4. und 5. au
 
 ### Anpassen der Clients
 
-Damit MAGELLAN "weiß", dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Datenbank > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen. 
+Damit MAGELLAN "weiß", dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Datenbank > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
 
 [Update-Infodatei für MAGELLAN-Setup](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/MAGELLAN7.updateinfo)
 
 ### Herunterladen des Updatepaketes
 
-Das Installationspaket finden Sie hier: http://MAGELLAN.stueber.de/download.php 
+Das Installationspaket finden Sie hier: [http://MAGELLAN.stueber.de/download.php](http://MAGELLAN.stueber.de/download.php)
 Bitte laden Sie es herunter und speichern es in Ihrem Netzwerkverzeichnis.
 
 ### Editieren der Update-Infodatei
@@ -100,24 +98,24 @@ SetupSize="243156992" />
 ```
 
 Passen Sie den Pfad in der Zeile "SetupURL" auf den Speicherort des heruntergeladenen Updatepaktes an und speichern die Änderung. Fertig!
- 
+
 ## Variante 4
 
 ### Aktualisieren per Gruppenrichtlinien oder Softwareverteilung
 
 MAGELLAN 6 installiert sich in drei Ordner, für diese drei Ordner (und die Registry) müssten Zugriffsrechte gewährt werden:
- 
+
 Was|Pfad am Beispiel Windows 10
 --|--
-Alle Programmdateien (EXE etc.))|  C:\Program Files (x86)\Stueber Systems\MAGELLAN 7
-Alle Konfigurationsdaten (LIC, EVM etc.)|C:\ProgramData\Stueber System\MAGELLAN 7 
-Alle Dokumente (Datenbank, Berichte etc.)| C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 7 
+Alle Programmdateien (EXE etc.))|  `C:\Program Files (x86)\Stueber Systems\MAGELLAN 7`
+Alle Konfigurationsdaten (LIC, EVM etc.)|`C:\ProgramData\Stueber System\MAGELLAN 7`
+Alle Dokumente (Datenbank, Berichte etc.)| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 7`
 
 Es wird das Recht benötigt in die Registry zu schreiben!
 
 !!! info "Hinweis"
 
-    Die Angaben variieren je nach Betriebssystem.Im oberen Beispiel beziehen sich die Angaben auf Windows XP (unter Vista wäre der zweite Pfad zum Beispiel: C:\Users\Public\Documents\Stueber Systems).
+    Die Angaben variieren je nach Betriebssystem. Im oberen Beispiel beziehen sich die Angaben auf Windows XP (unter Vista wäre der zweite Pfad zum Beispiel: `C:\Users\Public\Documents\Stueber Systems`).
 
 Für die Installation von MAGELLAN  wie auch für das Update von MAGELLAN benötigt der Benutzer Administratorenrechte bzw. er benötigt das Recht in Systemverzeichnisse ("C:\Programme" und "C:\Windows") zu schreiben und in die Registry unter HKEY-LOCAL-MACHINE zur schreiben. Das bedeutet, es könnte auch eine andere Benutzergruppe installieren, sofern diese die oben genannten Zugriffsrechte haben.
 Technisch gesehen sind Erstinstallation und Update gleich.
@@ -133,7 +131,7 @@ b. Professionelle Software-Verteilung
 
 Grundsätzlich basiert unsere Installation auf der MSI-Technologie. Mit dieser MSI-Technologie wird beispielsweise auch MS Office installiert.
 
-Folgenden Parameter sind möglich: 
+Folgenden Parameter sind möglich:
 
 Silent-Setup für MAGELLAN 7:
 
@@ -145,13 +143,11 @@ Deinstallation|msiexec /x "C:\MySetup\MAGELLAN7.msi" /q
 
 !!! info "Hinweis"
 
-    /i bedeutet immer Installation und /x immer Deinstallation.
+    /i bedeutet immer Installation und /x immer Deinstallation. 
     Bitte starten Sie die Kommandozeilenaufrufe mit Administratorenrechten!
 
 ![Eingabeaufforderung per Rechtsklick mit administrativen Rechten starten](/assets/images/updates.verteilen/eingabeaufforderung.als.admin.png)
 
-
 ## Weitere Aktionen per Silentmode
 
-Bitte schauen Sie hierzu den Abschnitt ["Aktionen im Silentmode"](https://doc.magellan7.stueber.de/schulverwaltung/installation/magellan-administrator-im-silentmode-starten/) an!
- 
+Bitte schauen Sie hierzu den Abschnitt ["Aktionen im Silentmode"](/schulverwaltung/installation/magellan-administrator-im-silentmode-starten.md) an!
