@@ -9,6 +9,18 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möc
 Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben.
 Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
 
+### Neue Runtime-Version von Crystal Reports integriert
+
+Mit MAGELLAN 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Reports eingebunden worden, damit können jetzt auch aktuellere Funktionen von Crystal Reports in der Druckvorschau von MAGELLAN angezeigt werden.
+
+!!! warning "Wichtig"
+
+    Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe Crystal Reports 2013. 
+
+!!! warning "Wichtig"
+
+    Durch die neue implementierte Runtimeversion von Crystal Reports müssen selbst erstellte Berichte angepasst werden. Die Berichte in unserer Auslieferung sind umgestellt worden. Eine Anleitung welche Schritte für die Umstellung notwendig sind, finden Sie im Abschnitt ["Berichte für MAGELLAN 7 anpassen"](/schulverwaltung/update/Berichte_anpassen.md)
+
 ### Neue Nachrichtenfunktion
 
 Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auch auf beim Aufruf des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
@@ -266,10 +278,6 @@ Im Menü `Sorgeberechtigte` werden auf der Unterkarte `Kinder` sämtliche jemals
 Per Doppelklick auf eine der Kinderzeilen wechselt MAGELLAN die Ansicht (Menü `Schüler` oder `Bewerber`) und ggfs. auch den Zeitraum.
 
 ![](/assets/images/neues/sb.png)
-
-### Neue Runtime-Version von Crystal Reports integriert
-
-Mit MAGELLAN 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Reports eingebunden worden, damit können auch aktuellere Funktionen von Crystal Reports in der Druckvorschau von MAGELLAN angezeigt werden.
 
 ### Neues Modul "Gruppen"
 
