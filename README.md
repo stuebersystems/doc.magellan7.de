@@ -2,6 +2,8 @@
 
 # MAGELLAN 7 Dokumentation
 
+Testeintrag, a.c.
+
 Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
 
 ## MkDocs unter Windows installieren
