@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.13 - 705
+## 7.0.14 - 705
 
 ### MAGELLAN
 
