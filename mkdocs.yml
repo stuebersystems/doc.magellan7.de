@@ -197,6 +197,7 @@ nav:
         - Archivieren: bibliothek/tutorial/archivieren.md
         - Supportanfragen: bibliothek/tutorial/support.md
 - Knowledgebase:
+    - Übersicht: knowledgebase/index.md
     - Installation: 
       - Server Voraussetzungen: knowledgebase/voraussetzungen.md
       - Erste Schritte: knowledgebase/ersteschritte.md
