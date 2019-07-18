@@ -9,7 +9,7 @@ Diesen Installationstyp wählen Sie bitte aus, wenn Sie entweder eine netzwerkun
 
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/beta/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
+Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v7/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
 
 Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien werden entpackt.
 
