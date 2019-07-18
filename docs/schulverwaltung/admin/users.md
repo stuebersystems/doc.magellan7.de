@@ -38,7 +38,7 @@ Spaltentitel | Mögliche Werte
 -------------------------- | --------------
 Kennung | Enthalten ist die Benutzerkennung, dieser Wert ist nicht veränderbar
 Status | Für die Teilnahme am MYMAGELLAN-Verfahren: Teilnehmer; (Kein Teilnehmer)
-Schulverwaltung | Für den Zugriff auf MAGELLAN: (Kein Zugriff), Schulverwaltung 1, Schulverwaltung 2, Sekretariat 1,Sekretariat 2, Kollegium 1, Kollegium 2, Kollegium 3, Kollegium 4, Gast 1, Gast 2, Statistik-Administrator
+Schulverwaltung | Für den Zugriff auf MAGELLAN: (Kein Zugriff), Schulverwaltung 1, Schulverwaltung 2, Sekretariat 1, Sekretariat 2, Kollegium 1, Kollegium 2, Kollegium 3, Kollegium 4, Gast 1, Gast 2, Statistik-Administrator
 Bibliothek/Lernmittel | (Kein Zugriff), Schulleitung, Bibliothekar, Kollegium, Gast
 Medienkatalog | <Alle Kataloge> oder selbst im Schlüsselverzeichnis angelegte Kataloge (Modul Bibliothek/Lernmittel > Verzeichnisse > Schlüsselverzeichnis Kataloge)
 MYMAGELLAN-Datei | Tragen Sie hier den Speicherpfad und den Dateinamen für die MYMAGELLAN-Datei ein, die später mit dem Modul MYMAGELLANCenter erzeugt wird, zum Beispiel:C:\MAGELLAN 6\MYMAGELLAN\Lehrer1.mym
@@ -52,7 +52,7 @@ Dokumente | Zum Zugriff auf die Dokumentenverwaltung: Ja, Nein
 Berufsschule | Ermöglicht den Zugriff des Benutzers auf den Menüpunkt Berufsschule. Mögliche Werte: Editierbar, Nicht editierbar
 Berufsschule-Prüfungsnoten | Regelt die Sichtbarkeit der Spalten Prüfungsnote und Prüfungsnote (Kontrolle) im Menüpunkt Berufsschule Unterkarte Matrix. Mögliche Werte sind: Kein Recht, Nur Prüfungsnote (Kontrolle), Prüfungsnote + Prüfungsnote (Kontrolle)
 
-Anschließend: Klicken Sie auf die Schaltfläche` Benutzer importieren` um die veränderte Benutzerliste wieder zu importieren. Bitte führen Sie zum Abschluss den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` aus.
+Anschließend: Klicken Sie auf die Schaltfläche `Benutzer importieren` um die veränderte Benutzerliste wieder zu importieren. Bitte führen Sie zum Abschluss den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` aus.
 
 ## Export nach Excel/HTML
 
@@ -114,13 +114,13 @@ Schulleitung 1 | * Zugriff auf alle Daten außer auf die Datenbankstruktur und d
 Schulleitung 2 | * Wie Schulleitung 1, aber mit der Einschränkung, keine Fächer oder Noten der Schüler zu ändern<br/>* Keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Sekretariat 1 | * Zugriff auf alle Daten außer auf die Datenbankstruktur und Benutzerverwaltung<br/>* Keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Sekretariat 2 | * Wie Sekretariat 1 aber mit folgenden Einschränkungen: Kein Zugriff auf `Zeugnis > Fächer/Leistungen/Details/Bemerkungen und Formulare/Arbeits- und Sozialverhalten`<br/>keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
-Kollegium 1 | * Stammdaten der Schüler können gelesen, aber nicht verändert werden.<br/>Noten der Schüler, die unterrichtet werden, dürfen als Fachlehrer, Tutor, Klassenleiter1 oder Klassenleiter2 erfasst bzw. geändert werden. <br/>Weitere Zeugnisdaten können als Tutor, Klassenleiter1 oder Klassenleiter2 verändert werden.<br/> Ansonsten bestehen nur Leserechte.<br/>Das Menü „Lehrer“ zeigt nur die eigenen Personaldaten an.<br/> Kollegiumsrechte müssen zugewiesen sein, damit man MYMAGELLAN-Dateien bearbeiten kann. Welche Voraussetzungen hierfür des Weiteren gegeben sein müssen, erfahren Sie im Abschnitt „Das MYMAGELLAN Center“ unter „Voraussetzungen“.<br/>keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
+Kollegium 1 | * Stammdaten der Schüler können gelesen, aber nicht verändert werden<br/>* Noten der Schüler, die unterrichtet werden, dürfen als Fachlehrer, Tutor, Klassenleiter1 oder Klassenleiter2 erfasst bzw. geändert werden <br/>* Weitere Zeugnisdaten können als Tutor, Klassenleiter1 oder Klassenleiter2 verändert werden<br/> Ansonsten bestehen nur Leserechte.<<br/>* Menü „Lehrer“ zeigt nur die eigenen Personaldaten<br/>* Kollegiumsrechte müssen zugewiesen sein, damit man MYMAGELLAN-Dateien bearbeiten kann. Welche Voraussetzungen hierfür des Weiteren gegeben sein müssen, erfahren Sie im Abschnitt „Das MYMAGELLAN Center“ unter „Voraussetzungen“.<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Kollegium 2 | * Wie Kollegium 1, als Tutor, Klassenleiter1 oder Klassenleiter2 zusätzlich auch Laufbahndaten und Fehlzeiten des Schülers editierbar
 Kollegium 3 | * Wie Kollegium 2, aber keine Zeugnisformulare der Schüler editierbar
 Kollegium 4 | * Wie Kollegium 2, aber keine Zeugnisformulare und Zeugnisbemerkungen editierbar
-Kollegium 5 | * Wie Kollegium 2, als Tutor, Klassenleiter1 oder Klassenleiter2zusätzlich auch das Abiturmenü für alle Schüler editierbar
-Gast 1 | * Leserechte.<br/>*  Schreibzugriff ist nicht möglich. <br/>* Das Menü „Lehrer“ zeigt nur die eigenen Personaldaten.<br/>* Keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
-Gast 2 | * Leserechte. <br/>* Schreibzugriff ist nicht möglich. <br/>* Das Menü „Lehrer“ zeigt die Personaldaten aller Lehrer an.<br/>* Keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
+Kollegium 5 | * Wie Kollegium 2, als Tutor, Klassenleiter1 oder Klassenleiter2 zusätzlich auch das Abiturmenü für alle Schüler editierbar
+Gast 1 | * Leserechte<br/>*  Schreibzugriff ist nicht möglich <br/>* Menü „Lehrer“ zeigt nur die eigenen Personaldaten<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
+Gast 2 | * Leserechte <br/>* Schreibzugriff ist nicht möglich <br/>* Menü „Lehrer“ zeigt die Personaldaten aller Lehrer<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Statistik-Administrator | Wie Schulleitung 1 zusätzlich können die folgenden Punkte ausgeführt werden: <br/> *  im Administratormodul „Schlüsselverzeichnisse importieren“<br/> * „Mach-Export“<br/> * den Abgleich zwischen MAGELLAN und daVinci<br/> *  Starten des DWH-Explorers
 
 !!! info "Hinweis"
@@ -132,20 +132,19 @@ Statistik-Administrator | Wie Schulleitung 1 zusätzlich können die folgenden P
 Rechtegruppe |	Rechte
 ------------ | ------
 Bibliothekar |	Zugriff auf alle Daten der Bibliotheksverwaltung
-Schulleitung | wie Bibliothekar, aber kein Zugriff auf die Optionsunterkarten: Ausleihe, Quittung, Mahnwesen und Dokumente.
+Schulleitung | wie Bibliothekar, aber kein Zugriff auf die Optionsunterkarten: Ausleihe, Quittung, Mahnwesen und Dokumente
 Kollegium | wie Schulleitung
 Gast | nur Leserechte
 
 !!! info "Hinweis"
 
 	Beim Anlegen der Kennung bitten wir Sie, auf Abkürzungen wie „Do“ und „If“ zu verzichten, da diese Kürzel gleich lautend mit Programmierbefehlen sind und von Firebird fehl interpretiert werden. Es gibt noch weitere so genannte „reservierte“ Worte, die Sie in der Dokumentation [„MAGELLAN-Scripting“](https://doc.magellan-scripting.stueber.de/) in Kapitel „Die Skriptsprache“ nachschlagen können.
-Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort` ändern selbst anpassen. Dafür werden mindestens 8 Zeichen erwartet. Sollte die Schaltfläche Kennwort ändern inaktiv bleiben, ist der Benutzer als Datenbankadministrator(„sysdba“) angemeldet. Dieses Kennwort kann nur im MAGELLAN-Administrator verändert werden.
+Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort ändern...` selbst anpassen. Dafür werden mindestens 8 Zeichen erwartet. Sollte die Schaltfläche `Kennwort ändern...` inaktiv bleiben, ist der Benutzer als Datenbankadministrator („sysdba“) angemeldet. Dieses Kennwort kann nur im MAGELLAN-Administrator verändert werden.
 
 ## Registerkarte „MYMAGELLAN“
 
 ![Sie können auf dieser Karte festlegen, ob der Benutzer Noten mit MYMAGELLAN erfassen darf, ein MYMAGELLAN-Kennwort besitzt und den späteren Speicherort seiner MYMAGELLAN-Datei angeben.](/assets/images/magellan.administrator/users_mymagkarte.png)
 
-Alle Angaben der Benutzers zu MYMAGELLAN werden aus Gründen der Übersichtlichkeit unter dem Reiter `MYMAGELLAN` aufgelistet. Markieren Sie einen der Benutzer werden für ihn im unteren Bereich zusätzlich die MAGELLAN-Rechte eingeblendet. 
+Alle Angaben der Benutzer zu MYMAGELLAN werden aus Gründen der Übersichtlichkeit unter dem Reiter `MYMAGELLAN` aufgelistet. Markieren Sie einen der Benutzer, werden für ihn im unteren Bereich zusätzlich die MAGELLAN-Rechte eingeblendet.
 
-![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](/assets/images/magellan.administrator/users_mymag.liste.png) 
-
+![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](/assets/images/magellan.administrator/users_mymag.liste.png)
