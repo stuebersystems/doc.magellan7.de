@@ -9,7 +9,7 @@
 Aus MAGELLAN heraus können Zeugnisse gedruckt werden. Als Voraussetzung für Zeugnisse müssen Halbjahres- oder Jahresergebnisse (Noten, Punkte oder auch Beurteilungstexte für Grundschüler) und weitere Zeugnisdaten (Zeugnisbemerkungen, Fehlzeiten, Zeugnisdatum usw) in MAGELLAN vorhanden sein.
 Das kann direkt über MAGELLAN erfolgen, allerdings müsste dann jeder Kollege während der Notenerfassung auf die Datenbank im Schulverwaltungsnetz zugreifen können.
 
-Alternativ können pro Lehrer, in ihrer jeweiligen Rolle als Fachlehrer, Klassenlehrer und/oder Tutor, Dateien erzeugt werden, die die notwendigen Schülerdaten enthalten. 
+Alternativ können pro Lehrer, in ihrer jeweiligen Rolle als Fachlehrer, Klassenlehrer und/oder Tutor, Dateien erzeugt werden, die die notwendigen Schülerdaten enthalten.
 Beispiel:
 Der Biologie-Fachlehrer erhält nur die Bio-Fachzeilen der von ihm unterrichteten Schüler, der Klassenleiter erhält alle Fachzeilen der Schüler seiner Klasse.
 

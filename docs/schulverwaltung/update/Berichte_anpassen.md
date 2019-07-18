@@ -22,12 +22,12 @@ Während der ältere ODBC-Treiber, der in MAGELLAN 6/6.5 Verwendung findet dahin
 
 Nr.|Was ist zu tun
 --|--
-1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#1-odbc-treiber-einstellungen)
-2.|[Datenbankfelder aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#2-datenbankfelder-aktualisieren)
-3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#3-datenquellenpfad-festlegen)
-4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#4-tabellenverkn%C3%BCpfungen-anpassen)
-5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#5-test)
-6.| [ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
+1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#1-odbc-treiber-einstellungen)
+2.|[Datenbankfelder aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#2-datenbankfelder-aktualisieren)
+3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#3-datenquellenpfad-festlegen)
+4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
+5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
+6.| [ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
 
 ### 1. ODBC-Treiber-Einstellungen
 

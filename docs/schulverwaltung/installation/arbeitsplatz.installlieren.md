@@ -7,11 +7,11 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 
 !!! info "Hinweis"
 
-  Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/arbeitsplatz.installlieren/#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html)) abgelegt werden.
+    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/arbeitsplatz.installlieren/#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html)) abgelegt werden.
 
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/beta/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
+Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v7/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
 
 Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien werden entpackt.
 
@@ -49,7 +49,7 @@ Wählen Sie „Entfernte Datenbank“.
 ![Wahl der Datenbank](/assets/images/welcome-database.png)
 
 Sie werden zur Eingabe des Servernamens und des Datenbank-Pfads aufgefordert.
-Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** ein, auf dem sich die MAGELLAN 7 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad \(aus Sicht des Servers\) zur MAGELLAN 7 Datenbank an.
+Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** ein, auf dem sich die MAGELLAN 7 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad (aus Sicht des Servers) zur MAGELLAN 7 Datenbank an.
 
 !!! info "Hinweis"
 
@@ -96,7 +96,7 @@ Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. 
 
 ## Einstellungen vom Arbeitsplatz kopieren
 
-Die im Willkommensassistenten eingegebenen Daten werden als Dateien auf dem Arbeitsplatz gespeichert. 
+Die im Willkommensassistenten eingegebenen Daten werden als Dateien auf dem Arbeitsplatz gespeichert.
 
 Bevor Sie diese Dateien für einen weiteren Rechner kopieren und weiterverwenden, sollten Sie kurz testen, ob Ihre Eingaben korrekt waren.
 
