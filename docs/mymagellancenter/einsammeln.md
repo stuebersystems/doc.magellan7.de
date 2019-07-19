@@ -14,10 +14,10 @@ Das MyMAGELLAN CENTER zeigt Ihnen per Symbol, wessen Datei erzeugt wurde oder ni
 
 |Symbol | Bedeutung |
 |--|-- |
-| ![Datei fehlt](/assets/images/mymagellan/close-circle-red.png) | Datei fehlt |
-| ![Datei erzeugt](/assets/images/mymagellan/export.png) | Datei erzeugt |
-| ![Datei bearbeitet](/assets/images/mymagellan/pencil-blue.png) | Datei bearbeitet |
-| ![Datei importiert](/assets/images/mymagellan/import-green.png) | Datei nach MAGELLAN importiert |
+| <img src="/assets/images/mymagellan/close-circle-red.png"> | Datei fehlt |
+| <img src="/assets/images/mymagellan/export.png"> | Datei erzeugt |
+| <img src="/assets/images/mymagellan/pencil-blue.png"> | Datei bearbeitet |
+| <img src="/assets/images/mymagellan/import-green.png">  | Datei nach MAGELLAN importiert |
 
 ## Dateien einsammeln
 
