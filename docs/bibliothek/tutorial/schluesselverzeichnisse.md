@@ -20,34 +20,34 @@ Aber die Bedienung bzw. Bearbeitung aller Schlüsselverzeichnisse entspricht dem
 
 ## Schlüsselverzeichnis aufrufen
 
-Es stehen Ihnen insgesamt 16 Schlüsselverzeichnisse zur Verfügung. Um diese aufzurufen, gehen Sie bitte folgendermaßen vor:
+Alle Schlüsselverzeichnisse finden Sie unter `Extras` unter dem Punkt `Schlüsselverzeichnisse` zusammengefasst. Es stehen Ihnen insgesamt 18 Schlüsselverzeichnisse zur Verfügung. 
 
-1. Führen Sie den Menüpunkt `Extras > Schlüsselverzeichnisse` aus: Sie sehen eine Liste mit sieben Verzeichnissen.
+![Auflistung aller Schlüsselverzeichnisse](/assets/images/bibliothek/schluesselverzeichnis_uebersicht.png)
 
-![Unter dem Menüpunkte `Verzeichnisse` stehen Ihnen 7 Schlüsselverzeichnisse zur Verfügung](/assets/images/bibliothek/schlüsselverzeichnis.png)
-
-2. Klicken Sie mit der linken Maustaste auf den Namen eines Verzeichnisses, auf der rechten Seite wird das dazugehörige Verzeichnis angezeigt.
-
-![Hier sehen Sie das Dialogfenster des Schlüsselverzeichnisses `Verzeichnis der Banken`.](/assets/images/bibliothek/verzeichnis_banken.png)
+Um ein Schlüsselverzeichnis zu öffnen, klicken Sie mit der linken Maustaste auf den Namen eines Verzeichnisses, auf der rechten Seite wird das dazugehörige Verzeichnis angezeigt.
 
 ## Eintrag hinzufügen
 
 Um einem Schlüsselverzeichnis einen neuen Eintrag hinzuzufügen, gehen Sie bitte folgendermaßen vor:
 
-1. Betätigen Sie die Schaltfläche `Neue Zeile` oder `STRG+N` im Dialogfenster des gewählten Schlüsselverzeichnisses: eine leere Zeile wird der Tabelle angefügt.
+1. Betätigen Sie die Schaltfläche `Neuer Datensatz` oder `STRG+N` im Dialogfenster des gewählten Schlüsselverzeichnisses: eine leere Zeile wird der Tabelle angefügt.
 2. Tippen Sie Ihre Angaben in die Spaltenfelder der Zeile. Lassen Sie das Feld `ID` leer, es wird automatisch gefüllt.
 3. Betätigen Sie abschließend die Schaltfläche `Änderungen speichern` in der Symbolleiste des Dialogfensters.
 
 Der neue Eintrag ist nun gespeichert und steht in den Datenfeldern, die diesem Schlüsselverzeichnis zugeordnet sind, zur Auswahl.
+
+![Eintrag hinzufügen](/assets/images/bibliothek/schluesselverzeichnis_neuer_datensatz.png)
 
 ## Eintrag löschen
 
 Um einen Eintrag aus einem Schlüsselverzeichnis zu entfernen, führen Sie bitte die folgenden Schritte aus:
 
 1. Markieren Sie die Zeile des betreffenden Eintrags in Ihrem Verzeichnis.
-2. Betätigen Sie die Schaltfläche `Zeile löschen` im Dialogfenster des gewählten Schlüsselverzeichnisses.
+2. Betätigen Sie die Schaltfläche `Datensatz löschen` im Dialogfenster des gewählten Schlüsselverzeichnisses.
 3. Bestätigen Sie Ihre Auswahl im erscheinenden Dialogfenster mit `Ja`.
 Die Zeile des betreffenden Eintrags wird nun aus der Tabelle gelöscht. Außerdem wird der Eintrag aus allen Datenfeldern entfernt, denen das Schlüsselverzeichnis zugeordnet ist.
+
+![Eintrag löschen](/assets/images/bibliothek/schluesselverzeichnis_datensatz_loeschen.png)
 
 ## Zwischen Zeilen navigieren
 
@@ -58,14 +58,7 @@ Für das Navigieren zwischen Zeilen stehen Ihnen in der Symbolleiste des Dialogf
 * Betätigen Sie die Schaltfläche `Nächster Datensatz` , um zur nächsten Listenzeile zu gelangen.
 * Betätigen Sie die Schaltfläche `Letzter Datensatz` , um zur letzten Listenzeile zu gelangen.
 
-## Spalten verschieben
-
-Sie können die Reihenfolge der Spalten verändern, indem Sie einzelne Spalten an eine neue Position verschieben. Um eine Spalte zu verschieben, führen Sie bitte die folgenden Schritte aus:
-
-1. Klicken Sie mit der linken Maustaste auf den Spaltenkopf und halten Sie die Taste gedrückt.
-2. Bewegen Sie die Maus seitwärts an den anderen Spaltenköpfen entlang: ein transparentes Duplikat des angeklickten Spaltenkopfes wird mitgezogen. Jeweils am Ende eines Spaltenkopfes erscheinen zwei grüne Pfeile. Diese Pfeile zeigen an, dass Sie den angeklickten Spaltenkopf hier einfügen können.
-3. Lassen Sie die linke Maustaste los, sobald Sie die gewünschte Stelle erreichen und die zwei grünen Pfeile erscheinen.
-Die ausgewählte Spalte wird nun an diese Stelle verschoben.
+![Zwischen Zeilen navigieren](/assets/images/bibliothek/schluesselverzeichnis_navigation.png)
 
 ## Verzeichnis sortieren
 
@@ -75,21 +68,31 @@ Um eine Liste nach einer einzelnen Spalte zu sortieren, klicken Sie mit der link
 
 ## Verzeichnis filtern
 
-Die Tabellen Ihrer Schlüsselverzeichnisse können Sie auf die gleiche Weise filtern wie Ihre Stammdaten- und Vorgangslisten. Bitte vergleichen Sie für die Vorgehensweise beim Filtern von Tabellen den Abschnitt `Listen filtern` im Kapitel `Mit Stammdaten- und Vorgangslisten arbeiten`.
+Die Tabellen Ihrer Schlüsselverzeichnisse können Sie auf die gleiche Weise filtern wie Ihre Stammdaten- und Vorgangslisten. Bitte vergleichen Sie für die Vorgehensweise beim Filtern von Tabellen den Abschnitt `Listen filtern` im Kapitel [Effizient mit Listen/Tabellen arbeiten](/bibliothek/tutorial/listen.md).
 
 ## Verzeichnis exportieren
 
 Sie können alle Schlüsselverzeichnisse nach Excel oder HTML exportieren.
 Um einen bestimmten Listenbereich nach Excel zu exportieren, führen Sie bitte folgende Schritte aus:
 
-1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Export nach Excel` .
+1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach Excel exportiern` .
 2. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und geben Sie im Feld `Dateiname` den Namen der Exportdatei an.
 3. Bestätigen Sie Ihre Eingaben mit `Speichern`.
 Die Export-Datei wird nun erstellt und automatisch in Excel geöffnet. Von hier aus können Sie die Liste nun weiter bearbeiten oder ausdrucken.
 
+![Daten nach Excel exportieren](/assets/images/bibliothek/schluesselverzeichnis_export_excel.png)
+
 Um einen bestimmten Listenbereich nach HTML zu exportieren gehen Sie bitte folgendermaßen:
 
-1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Export nach HTML` .
+1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach HTML exportieren` .
 2. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und geben Sie im Feld `Dateiname` den Namen der Exportdatei an.
 3. Bestätigen Sie Ihre Eingaben mit `Speichern`.
 Die Export-Datei wird nun erstellt und automatisch in Ihrem Standardbrowser geöffnet.
+
+![Daten nach HTML exportieren](/assets/images/bibliothek/schluesselverzeichnis_export_html.png)
+
+## Markierung / optimale Spaltenbreite
+
+Im unteren Bereich des Schlüsselverzeichnisfensters finden Sie zwei Schaltflächen, einmal um alle Datensätze im markierten Verzeichnis auszuwählen und rechts daneben, eine neue Schaltfläche um die optimale Spaltenbreite im Verzeichnis einstellen zu können. Die gewählte Spaltenbreite wird gespeichert und beim Neustart wieder dargestellt.
+
+![Schaltflächen unterer Rand](/assets/images/bibliothek/schluesselverzeichnis_unterer_rand.png)

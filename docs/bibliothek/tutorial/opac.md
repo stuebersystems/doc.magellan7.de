@@ -8,7 +8,9 @@
 
 ## OPAC-Research
 
-Soweit Sie in den Optionen von MAGELLAN-BIBLIOTHEK die Online-Recherche aktiviert haben, wird beim Eintragen neuer Medien über die ISBN-Suche die Anwendung OPAC-Research gestartet. Beim ersten Start der Anwendung müssen entsprechende OPAC-Server eingerichtet werden, über die gesucht werden kann.
+Soweit Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die Online Suche aktiviert haben, wird beim Eintragen neuer Medien über die ISBN-Suche die Anwendung OPAC-Research gestartet. Beim ersten Start der Anwendung müssen entsprechende OPAC-Server eingerichtet werden, die gesucht werden.
+
+![MAGELLAN Optionen](/assets/images/bibliothek/optionen_online_suche.png)
 
 ## Einrichten von OPAC-Research
 

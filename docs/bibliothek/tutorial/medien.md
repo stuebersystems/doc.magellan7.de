@@ -7,19 +7,21 @@ Wenn Sie ein neues Exemplar eines Medientitels anlegen möchten, der bereits in 
 
 
 1. Setzen sie auf der Startseite des Eingabeassistenten den Punkt im Kontrollkreis vor `Lokal nach Titel`.
-2. Klicken Sie mit der linken Maustaste auf das Pfeilsymbol des Auswahlfeldes `Lokal nach Titel`.
+2. Klicken Sie mit der linken Maustaste auf das Pfeilsymbol des Auswahlfeldes hinter `Lokal nach Titel`.
 3. Wählen Sie in dem sich öffnenden Aufklappmenü den passenden Titel aus der Medienliste aus.
 4. Bestätigen Sie bitte mit `Weiter`.
 
-Sie überspringen nun die Eingabemaske für Mediendaten und gelangen direkt zur Signaturseite des Eingabeassistenten. Dies passiert auch, wenn Sie den Barcode eines bereits gespeicherten Mediums einscannen, - allerdings nur sofern die Barcodenummer des Medientitels bereits hinterlegt ist.
+Sie überspringen nun die Eingabemaske für Mediendaten und gelangen direkt zur Signaturseite `Signatur aufbauen`des Eingabeassistenten. Dies passiert auch, wenn Sie den Barcode eines bereits gespeicherten Mediums einscannen, allerdings nur sofern die Barcodenummer des Medientitels bereits hinterlegt ist.
 
 !!! info "Hinweis"
 
      Wenn Sie bei der Erfassung von Exemplaren bereits vorhandener Titel die Signaturseite des Eingabeassistenten überspringen möchten, so können Sie dies im Vorfeld einstellen. Führen Sie dazu bitte die folgenden Schritte aus:
 
-1. Führen Sie den Menüpunkt `Extras > Optionen` aus und öffnen Sie die Registerkarte `Allgemein`.
+1. Klicken Sie auf `Datenbank > Optionen` und wählen Sie hier die Unterkarte `Allgemein`.
 2. Entfernen Sie den Haken im Kontrollkästchen vor `Signaturassistent anzeigen`.
 3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
+
+![Unterkarte Allgemein](/assets/images/bibliothek/optionen_allgemein.png)
 
 Die neuen Einstellungen werden beim nächsten Start des Eingabeassistenten wirksam. Bei der Erfassung von Exemplaren bereits vorhandener Titel wird nun das Signaturfenster übersprungen und automatisch die bereits erstellte Signaturvorgabe benutzt.
 
@@ -29,25 +31,31 @@ Auf der Signaturseite des Eingabeassistenten werden Sie gebeten, anzugeben wie d
 
 ![Auf der Signaturseite des Eingabeassistenten erstellen Sie die Signatur ihres Medienexemplars.](/assets/images/bibliothek/medien_anlegen1.png)
 
-Für den Aufbau der Signaturvorgabe eines Mediums stehen Ihnen unter `Auswahl der Signaturelemente` verschiedene mögliche Bestandteile zur Verfügung.
+Für den Aufbau der Signaturvorgabe eines Mediums stehen Ihnen im oberen Bereich eine Auswahl von Elementen zur Verfügung, die in der Signatur verwendet werden sollen.
 
-Feld|Beschreibung
---|--
-Differenzierung| Im Eingabefeld `Differenzierung` tragen Sie eine frei wählbare Zeichenfolge ein.
-Jahrgang von `und Jahrgang bis > Mit den Auswahlfeldern` Jahrgang von` und Jahrgang bis` integrieren Sie die Kürzel der niedrigsten und höchsten Jahrgangsstufe, in denen ein Titel Verwendung findet
-Fach| Mit dem Auswahlfeld `Fach` fügen Sie ein Fachkürzel ein.
-Medienkatalog| Mit der Option `Medienkatalog` ergänzen Sie die Signatur um den Namen des Medienkatalogs, in dem Sie sich aktuell befinden.<br/>Um die genannten Optionen und Felder zu aktivieren, setzen Sie einfach den Haken im jeweiligen Kontrollkästchen vor diesen Elementen. Darüberhinaus bieten sich folgende Einstellungsoptionen an:
-Allgemeines Trennzeichen| Im Feld `Allgemeines Trennzeichen` legen Sie das Zeichen fest, das die verschiedenen Elemente der Signaturvorgabe voneinander abgrenzt.
-Trennzeichen vor Exemplarnummer| Im Feld `Trennzeichen vor Exemplarnummer` legen Sie das Zeichen fest, das die Signaturvorgabe von der Exemplarnummer abgrenzt.
-Laufende Nummer| Im Feld `Laufende Nummer` bestimmen Sie den Ausgangswert von dem aus die Signaturnummern der neuen Exemplare hochgezählt werden.
-Neue Signatur/Auswahl der Signaturvorgabe|Die Signatur, die sich aus Ihrer Auswahl der Signaturelemente ergibt, sehen Sie unter `Auswahl der Signaturvorgabe` im Anzeigefeld `Neue Signatur`. Setzen Sie den Haken im Kontrollkreis vor diesem Anzeigefeld, wenn Sie möchten, dass die erstellte Signatur übernommen werden soll.
-Als Standardvorgabe für dieses Medium|Mit dem Haken im Kontrollkästchen vor `Als Standardvorgabe für dieses Medium` speichern, legen Sie fest, dass die erstellte Signatur auch in Zukunft für weitere Exemplare des erfassten Medientitels verwendet werden soll.
+| Feld                                         | Beschreibung |
+| -------------------------------------------- | -------------------------------------- |
+| Medienkatalog                                | Mit der Option `Medienkatalog (Standardkatalog` ergänzen Sie die Signatur um den Namen des Medienkatalogs, in dem Sie sich aktuell befinden.<br/>Um die genannten Optionen und Felder zu aktivieren, setzen Sie einfach den Haken im jeweiligen Kontrollkästchen vor diesen Elementen. Darüberhinaus bieten sich folgende Einstellungsoptionen an: |
+| Fach                                         | Mit dem Auswahlfeld `Fach` fügen Sie ein Fachkürzel ein.|
+| Jahrgang von und Jahrgang bis                | Mit den Auswahlfeldern `Jahrgang von` und `Jahrgang bis` integrieren Sie die Kürzel der niedrigsten und höchsten Jahrgangsstufe, in denen ein Titel Verwendung findet   |
+| Differenzierung                              | Im Eingabefeld `Differenzierung` tragen Sie eine frei wählbare Zeichenfolge ein.  |
+| Trennzeichen, allgemein                      | Im Feld `Trennzeichen, allgemein` legen Sie das Zeichen fest, das die verschiedenen Elemente der Signaturvorgabe voneinander abgrenzt.|
+| Trennzeichen vor Exemplarnummer              | Im Feld `vor Exemplarnummer` legen Sie das Zeichen fest, das die Signaturvorgabe von der Exemplarnummer abgrenzt.  |
+| Laufende Exemplarnummer                      | Im Feld `Laufende Exemplarnummer` bestimmen Sie den Ausgangswert von dem aus die Signaturnummern der neuen Exemplare hochgezählt werden.|
+
+Durch die Auswahl der Signaturelemente ergibt sich folgende Signaturvorgabe, aus der sich die Signatur zusammensetzt. Wenn das Medium bereits eine Signaturvorgabe enthält, können Sie zwischen der alten Signaturvorgabe und der neuen im unteren Bereich unter `Auswahl der Signaturvorgabe` auswählen.
+
+| Feld                                         | Beschreibung |
+| -------------------------------------------- | -------------------------------------- |
+| Neue Signatur | Die Signatur, die sich aus Ihrer Auswahl der Signaturelemente ergibt, sehen Sie unter `Auswahl der Signaturvorgabe` im Anzeigefeld `Neue Signatur`. Setzen Sie den Haken im Kontrollkreis vor diesem Anzeigefeld, wenn Sie möchten, dass die erstellte Signatur übernommen werden soll. |
+| Als Standardvorgabe für das Medium speichern | Mit dem Haken im Kontrollkästchen vor `Als Standardvorgabe für das Medium speichern`, legen Sie fest, dass die erstellte Signatur auch in Zukunft für weitere Exemplare des erfassten Medientitels verwendet werden soll.|
+| Aktuelle Vorgabe | |
 
 !!! info "Hinweis"
 
     Für die Erfassung von Exemplaren bereits vorhandener Titel können Sie im Vorfeld festlegen, dass die Signaturseite des Eingabeassistenten übersprungen wird. Führen Sie dazu bitte die folgenden Schritte aus:
 
-1. Führen Sie den Menüpunkt `Extras > Optionen` aus und öffnen Sie die Registerkarte `Allgemein`.
+1. Klicken Sie auf `Datenbank > Optionen` und wählen Sie hier die Unterkarte `Allgemein`.
 2. Entfernen Sie den Haken im Kontrollkästchen vor `Signaturassistent anzeigen`.
 3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 
@@ -55,7 +63,7 @@ Die neuen Einstellungen werden beim nächsten Start des Eingabeassistenten wirks
 
 Die Signaturen in der Medienliste der Beipieldatenbank sind einfach aufgebaut und bestehen aus der Eingabe einer frei gewählten Zeichenfolge im Eingabefeld `Differenzierung`.
 
-### Aufgabe 2
+### Aufgabe 1
 
 Erstellen Sie eine vergleichsweise komplexe Signaturvorgabe für den soeben erfassten Medientitel. Führen Sie dazu bitte folgende Arbeitsschritte aus:
 
@@ -77,9 +85,13 @@ Bestätigen Sie bitte abschließend mit `Weiter`. Auf diese Weise gelangen Sie z
 
 ## Exemplardaten erfassen
 
-Die Exemplardatenseite des Eingabeassistenten ist zweigeteilt. Im ersten Teil `Exemplardaten für neue Exemplare` werden Sie gebeten, Angaben zur Anzahl und zum Zustand der zu erfassenden Exemplare zu machen. Außerdem erhalten Sie Gelegenheit, im Eingabefeld `Bemerkung` einen Text einzutragen. Im zweiten Teil `Haushaltsdaten für neue Exemplare` können Sie das Eingangsdatum, den Anschaffungsbetrag und den Lieferanten der Exemplare angeben.
+Die Exemplardatenseite des Eingabeassistenten ist zweigeteilt. Im ersten Teil `Exemplardaten neuer Exemplare` werden Sie gebeten, Angaben zur Anzahl und zum Zustand der zu erfassenden Exemplare zu machen. Außerdem erhalten Sie Gelegenheit, im Eingabefeld `Bemerkung` einen Text einzutragen. 
 
-### Aufgabe 3
+Im zweiten Teil `Haushaltsdaten für neue Exemplare` können Sie das Eingangsdatum, den Anschaffungsbetrag und den Lieferanten der Exemplare angeben.
+
+![Neue Medien und Exemplare erfassen > Exemplardaten neuer Medien](/assets/images/bibliothek/Exemplardaten_neuer_Exemplare.png)
+
+### Aufgabe 2
 
 Legen Sie für den Medientitel, dessen Medien- und Signaturdaten Sie bereits erfasst haben, die fehlenden Exemplar- und Haushaltsdaten an. Führen Sie dabei bitte die folgenden Schritte aus:
 
@@ -89,7 +101,6 @@ Legen Sie für den Medientitel, dessen Medien- und Signaturdaten Sie bereits erf
 4. Ändern Sie im Eingabefeld `Eingangsdatum` das Datum, nehmen Sie z.B. den 31.09.2007.
 5. Tragen Sie im Eingabefeld `Betrag` einen beliebigen Euro-Wert als Anschaf-fungspreis ein.
 6. Klicken Sie mit der linken Maustaste auf das Auswahlfeld `Lieferant` und markieren Sie einen Eintrag, z.B. `Bero`.
-
 
 Sie haben nun die Exemplar- und Haushaltsdaten des neuen Mediums vollständig erfasst. Damit haben Sie alle erforderlichen Schritte absolviert, um den Erfassungsvorgang des neuen Mediums abzuschließen. Bestätigen Sie bitte Ihre Angaben zu den Exemplar- und Haushaltsdaten mit `Weiter`, um zur letzen Seite des Eingabeassistenten zu gelangen.
 
@@ -127,7 +138,7 @@ In den Datenfeldern dieser Eingabemasken sind die bibliographischen Daten, die S
 
 Außerdem können Sie hier die Signaturvorgabe eines Titels frei ändern. Unter `Daten2` erhalten Sie Gelegenheit z.B. die Sprache eines Mediums und seine Auflage zu erfassen.
 
-### Aufgabe 4
+### Aufgabe 3
 
 Ergänzen Sie unter `Daten2` für den von Ihnen erstellten Medientitel die Angaben `Auflage` und `Sprache`. Führen Sie dazu bitte folgende Schritte aus:
 
@@ -164,7 +175,6 @@ Um ein oder mehrere dieser Angaben anzupassen, führen Sie bitte die folgenden S
 * platzieren Sie den Cursor in das Eingabefeld `Einkaufsbetrag korrigieren` und tippen Sie den Betrag ein und/ oder
 * betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Exemplarzustand anpassen` und wählen Sie den zutreffenden Eintrag aus und/ oder
 * platzieren Sie den Cursor in das Eingabefeld `Signaturnr. anpassen` und tippen Sie die gewünschte Zahl ein.
-
 
 5. Bestätigen Sie Ihre Angaben abschließend mit `OK`
 
