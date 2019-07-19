@@ -12,7 +12,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## 7.0.14 - 705 (19.07.2019)
+## 7.0.14 - 706 (19.07.2019)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### MAGELLAN
 
