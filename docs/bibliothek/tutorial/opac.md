@@ -20,7 +20,7 @@ Beim ersten Start von OPAC-Research landen Sie auf der Registerkarte zum Verwalt
 
 Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (Weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen.
 
-Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm?method=showRegisterFormExtern&view=redirect%3A%2FmyAccount%2Fregister.htm&dodServiceUrl=https%3A%2F%2Fportal.dnb.de%2Fdod```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
+Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
 
 Die neue Technik erlaubt uns Anmeldungen an die jeweiligen Server durchzuführen. Im Falle der DNB benötigen Sie einen `Zugriffstoken`, den Sie nach der Registrierung im Portal anfragen können.
 

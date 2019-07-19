@@ -36,7 +36,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* CHANGE:
+* FIX: Korrektur der Datenübernahme von 6 -> 7 (`Datenbankpflege > Mandanten kopieren`). Wer vorher bereits Schüler übernommen hat, kann die Korrektur auch in der bestehenden MAGELLAN 7-Datenbank mit dem Punkt `Datenbankpflege > Verwaiste Stammschüler-Verweise entfernen` ausführen.
 
 ### Berichte (NEW oder CHANGE)
 
