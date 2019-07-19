@@ -62,18 +62,18 @@ Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihre
 
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
-![MAGELLAN 6 nach MAGELLAN 7](/assets/images/MAGELLAN.administrator/mandanten.kopieren5.png)
+![MAGELLAN 6 nach MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren5.png)
 
 Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-Datenbank möglich. Bei der Installation von MAGELLAN 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.fdb".
-![leere Datenbank im Format für MAGELLAN 7](/assets/images/MAGELLAN.administrator/mandanten.kopieren6.png)
+![leere Datenbank im Format für MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren6.png)
 
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.fdb)
 
-![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/MAGELLAN.administrator/mandanten.kopieren7.png)
+![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/magellan.administrator/mandanten.kopieren7.png)
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (MAGELLAN 6), im unteren Bereich auf die Zieldatenbank (MAGELLAN 7).
 
-![Eintragungen für die Quell- und Zieldatenbank](/assets/images/MAGELLAN.administrator/mandanten.kopieren8.png)
+![Eintragungen für die Quell- und Zieldatenbank](/assets/images/magellan.administrator/mandanten.kopieren8.png)
 
 Feld|Anmerkung
 --|--
@@ -90,6 +90,18 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 !!! info "Hinweis"
 
      Die Datenübernahme aus Ihrer MAGELLAN 6-Datenbank in die neue MAGELLAN 7-Datenbank kann je nach Datenvolumen auch mehrere Stunden dauern. Bitte stellen Sie sicher, dass der verwendete Rechner auch aktiviert bleibt.
+
+## Meldungen
+
+Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Diese Meldungen können Sie nutzen um anschließend die Punkte in MAGELLAN 7 nachzupflegen.
+
+## Pflege
+
+!!! warning "Wichtig"
+
+    Nachdem Sie Ihre Datenbank übernommen haben, führen Sie bitte im MAGELLAN ADMINISTRATOR unter `Datenpflege` noch die Punkte `Aktuelle Bewerber-Ausbildung setzen` und `Verwaiste Stammschüler-Verweise entfernen` aus!
+
+![Bitte diese beiden Punkte abschließend ausführen!](/assets/images/magellan.administrator/01.png)
 
 ## Wortersetzungen
 
