@@ -12,6 +12,26 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
+## 7.0.14 - 705 (19.07.2019)
+
+### MAGELLAN
+
+* FIX: `Betriebe > Daten2`: Berufe und Bildungsgänge (mit voller Zeichenlänge Kürzel und Bezeichnung) können gespeichert werden
+* FIX: Schüler, die in einem vergangenen Zeitraum mehrfach eine Klasse besucht haben (Beispiel Klasse 1a, Wechsel in Klasse 1b, erneuter Wechsel in Klasse 1a) werden korrekt in den Auswahlliste gezeigt
+* FIX: pausierende Schüler werden über die F3-Suche (zeitraumübergreifende Suche) gefunden
+* FIX: Unter `Klassen > Zeiträume` können Klassenzeiträume, denen noch kein Schüler zugewiesen wurde, gelöscht werden.
+
+### MAGELLAN BIBLIOTHEK
+
+* FIX: `Bücher/Medien > Daten2 > Erscheinungsland`: Problem beim Speichern behoben
+* FIX: `Bücher/Medien > Daten2 > Format`: Problem beim Speichern behoben
+* CHANGE: Link unter `Hilfe > Handbuch` aktualisiert
+* FIX: Das Verhalten beim Markieren in Schülerauswahlliste wurde überarbeitet (Markierungen bleiben nicht nur funktionell, sondern auch sichtbar bestehen)
+
+### MAGELLAN Administrator
+
+* FIX: Korrektur der Datenübernahme von 6 -> 7 (`Datenbankpflege > Mandanten kopieren`). Wer vorher bereits Schüler übernommen hat, kann die Korrektur auch in der bestehenden MAGELLAN 7-Datenbank mit dem Punkt `Datenbankpflege > Verwaiste Stammschüler-Verweise entfernen` ausführen.
+
 ## 7.0.13 - 705 (28.06.2019)
 
 ### Allgemein
