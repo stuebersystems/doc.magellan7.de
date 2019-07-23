@@ -90,13 +90,11 @@ Sie verfügen jeweils über die Registerkarten `Auswahl`, `Daten` und `Vorgänge
 
 !!! info "Hinweis"
 
-    Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen.
-
-Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel `Effizient mit Listen und Tabellen arbeiten` des vorliegenden Tutorials.
+    Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen. Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel `Effizient mit Listen und Tabellen arbeiten` des vorliegenden Tutorials.
 
 ## Ausleiherdaten bearbeiten
 
-Es ist in den Ansichten `Schüler`, `Lehrer` und `Personen` nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in MAGELLAN-BIBLIOTHEK zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
+In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in MAGELLAN-BIBLIOTHEK zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
 
 Sie können allerdings auf der Registerkarte `Daten` die Angaben zur Dauer der Ausleihberechtigung, die Sie im Ubernahmeassistenten festgelegt haben, verändern. Tragen Sie einfach unter `Ausleihe Erlaubnis` die gewünschten Werte in die Eingabefelder `Gültig von` und `Gültig bis` und bestätigen Sie Ihre Angaben abschließend mit der Schaltfläche `Änderungen speichern` .
 

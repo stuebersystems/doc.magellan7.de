@@ -2,9 +2,8 @@
 
 Die Daten der Leihvorgänge werden an mehreren Stellen abgelegt. Wenn Sie diese Daten einsehen möchten, haben Sie die Auswahl zwischen den folgenden drei Anlaufpunkten:
 
-* Ansicht`Bücher/Medien`
-* Ansicht`Bücher/Medien`
-* Ansichten`Schüler`,`Lehrer` und `Personen`
+* Ansicht `Bücher/Medien`
+* Ansichten `Schüler`, `Lehrer` und `Personen`
 
 ## Ansicht `Vorgänge`
 
