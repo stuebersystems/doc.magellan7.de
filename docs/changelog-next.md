@@ -16,7 +16,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX: 
+* FIX: Durchblättern der Datensätze funktioniert auch mit PgUp und PageDown
+* FIX: Befehl "Änderungen verwerfen" ist aktiv
+* FIX: Skalierungsproblem beim Vergrößern und Verkleinern der Ansicht behoben
 
 ### MAGELLAN BIBLIOTHEK
 
