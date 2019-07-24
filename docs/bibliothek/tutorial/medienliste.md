@@ -35,6 +35,6 @@ Es erscheint nun wieder die vollständige Liste `Bücher/Medien` mit allen Titel
 
 ## Aufgabe 8
 
-Filtern Sie die Medienliste der Beispieldatenbank nach dem Stichwort `Sturm und Drang`. Setzen Sie die Liste `Bücher/Medien` im Anschluss wieder auf den Ausgangszustand zurück.
+Filtern Sie die Medienliste der Beispieldatenbank nach dem Stichwort `Die Räuber`. Setzen Sie die Liste `Bücher/Medien` im Anschluss wieder auf den Ausgangszustand zurück.
 
-![Diese Anzeige erhalten Sie, wenn Sie die Liste `Bücher/Medien` der Beispieldatenbank nach dem Stichwort `Sturm und Drang` filtern](/assets/images/bibliothek/BuecherMedienansicht.png)
+![Diese Anzeige erhalten Sie, wenn Sie die Liste `Bücher/Medien` der Beispieldatenbank nach dem Stichwort `Sturm und Drang` filtern](/assets/images/bibliothek/ausleihe22.png)
