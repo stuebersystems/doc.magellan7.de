@@ -1,4 +1,3 @@
-
 # Betriebe und Schulen
 
 ## Betriebe 

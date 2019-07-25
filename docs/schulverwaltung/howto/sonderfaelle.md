@@ -2,7 +2,6 @@
 
 In diesem Kapitel werden Sonderfälle in Schülerlaufbahnen behandelt.
 
-
 ## Schüler pausiert
 
 Ab MAGELLAN 7 gibt es einen neuen Status um Schüler, die vorübergehend Ihre Schule nicht besuchen (zum Beispiel weil ein Auslandsjahr absolviert wird), markieren zu können.
@@ -13,8 +12,6 @@ Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten
 ![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](/assets/images/neues/pausieren01.png)
 
 Der oder die ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie in der Auswahlliste zwischen den Status aktiv, inaktiv und pausierend unterscheiden können.
-
-
 
 |Status|Bedeutung|
 |-|-|

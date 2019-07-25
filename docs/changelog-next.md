@@ -19,6 +19,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Durchblättern der Datensätze funktioniert auch mit PgUp und PageDown
 * FIX: Befehl "Änderungen verwerfen" ist aktiv
 * FIX: Skalierungsproblem beim Vergrößern und Verkleinern der Ansicht behoben
+* FIX: 
 
 ### MAGELLAN BIBLIOTHEK
 
@@ -32,7 +33,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX:
+* FIX: Restore (Wiederherstellen) einer Sicherungskopie korrigiert
 
 ### Berichte (NEW oder CHANGE)
 

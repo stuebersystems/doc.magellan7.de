@@ -2,23 +2,16 @@
 
 ## Berichte archivieren
 
-
 MAGELLAN-BIBLIOTHEK unterstützt Sie bei der Archivierung Ihrer Dokumente. Sie haben die Möglichkeit verschiedene Berichte, die Sie im Zusammenhang mit dem Leihbetrieb und dem Mahnwesen erstellen, standardmäßig in elektronischer Form zu speichern. Wenn Sie diese Funktion aktivieren wird von Ihren gedruckten Berichten automatisch ein Duplikat als PDF-Dokument erstellt und in einem von Ihnen bestimmten Verzeichnis abgelegt.
-
 
 Auf diese Weise erübrigt sich das Führen eines Papierarchivs für einen wesentlichen Teil der in Ihrer BIBLIOTHEK anfallenden Dokumente.
 Diese Funktion des elektronischen Archivierens steht für folgende Berichtsarten zur Verfügung:
-
 
 * Quittungen
 * Mahnungen
 * Leihvorgänge pro Ausleiher
 
-
-
-
 Diese Berichtsarten werden jeweils pro Ausleiher in der MAGELLAN-Dokumentenverwaltung archiviert. Die MAGELLAN-Dokumentenverwaltung befindet sich standardmäßig unter folgenden Pfaden:
-
 
 Betriebssystem|Pfad
 --|--
