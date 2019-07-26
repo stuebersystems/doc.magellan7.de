@@ -24,8 +24,8 @@ Um diese Einstellung vorzunehmen, gehen Sie bitte folgendermaßen vor:
 
 1. Rufen Sie den Menüpunkt `Datenbank > Optionen` auf
 2. Bleiben Sie in der Navigation links auf `Start`.
-2. Betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Startmandant` und markieren Sie im Aufklappmenü den gewünschten Eintrag.
-3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
+3. Betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Mandant` und markieren Sie im Aufklappmenü den gewünschten Eintrag.
+4. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 Der gewählte Mandant wird nun beim nächsten Programmstart automatisch als aktueller Mandant voreingestellt.
 
 ![In der Navigation `Start` des Dialogfensters `Optionen` stellen Sie den Startmandanten ein.](/assets/images/bibliothek/mandanten02.png)

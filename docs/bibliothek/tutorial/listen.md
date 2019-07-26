@@ -30,10 +30,13 @@ In den vorherigen Abschnitten haben Sie bereits einige Kenntnisse erlangt, die d
 ## Zwischen Listenzeilen navigieren
 
 Für das Navigieren zwischen Zeilen stehen Ihnen in der Symbolleiste des Programmfensters vier Schaltflächen zur Verfügung. Sie können alternativ auch Tastaturbefehle nutzen, um sich zwischen Zeilen zu bewegen.
-• Betätigen Sie die Schaltfläche `Erster Datensatz` oder die Tastenkombination Strg+Start, um zur ersten Listenzeile zu gelangen.
-• Betätigen Sie die Schaltfläche `Vorheriger Datensatz` oder die Tastenkombination Strg+BildAuf, um zur vorherigen Listenzeile zu gelangen.
-• Betätigen Sie die Schaltfläche `Nächster Datensatz` oder die Tastenkombination Strg+BildAb, um zur nächsten Listenzeile zu gelangen.
-• Betätigen Sie die Schaltfläche `Letzter Datensatz` und die Tastenkombination Strg+Ende, um zur letzten Listenzeile zu gelangen.
+
+* Betätigen Sie die Schaltfläche `Erster Datensatz` oder die Tastenkombination `Strg+Start`, um zur ersten Listenzeile zu gelangen.
+* Betätigen Sie die Schaltfläche `Vorheriger Datensatz` oder die Tastenkombination `Strg+BildAuf`, um zur vorherigen Listenzeile zu gelangen.
+* Betätigen Sie die Schaltfläche `Nächster Datensatz` oder die Tastenkombination `Strg+BildAb`, um zur nächsten Listenzeile zu gelangen.
+* Betätigen Sie die Schaltfläche `Letzter Datensatz` und die Tastenkombination `Strg+Ende`, um zur letzten Listenzeile zu gelangen.
+
+![Navigation zwischen den Listenzeilen](/assets/images/bibliothek/listen10.png)
 
 ## Spalten verschieben
 
@@ -43,6 +46,8 @@ Sie können die Reihenfolge der Spalten verändern, indem Sie einzelne Spalten a
 2. Bewegen Sie die Maus seitwärts an den anderen Spaltenköpfen entlang: ein transparentes Duplikat des angeklickten Spaltenkopfes wird mitgezogen. Jeweils am Ende eines Spaltenkopfes erscheinen zwei grüne Pfeile. Diese Pfeile zeigen an, dass Sie den angeklickten Spaltenkopf hier einfügen können.
 3. Lassen Sie die linke Maustaste los, sobald Sie die gewünschte Stelle erreichen und die zwei grünen Pfeile erscheinen.
 Die ausgewählte Spalte wird nun an diese Stelle verschoben.
+
+![Hier wird per Drag&Drop die Spalte Art verschoben](/assets/images/bibliothek/listen11.png)
 
 ## Listen sortieren
 
@@ -56,6 +61,8 @@ Wenn Sie eine Liste nach mehreren Spalten gleichzeitig sortieren möchten, so ge
 2. Halten Sie die `Shift-Taste` gedrückt und klicken Sie mit der linken Maustaste auf den Kopf einer zweiten Spalte, nach der sortiert werden soll.
 
 Auf diese Weise wird innerhalb der ersten Sortierung eine weitere Sortierung vorgenommen. So können Sie z.B. in der Liste der ausleihberechtigten Schüler zunächst nach Klassenzugehörigkeit und dann zusätzlich nach Nachname sortieren.
+
+![Hier ist die Ansicht nach der Spalte Autor sortiert, die erkennen Sie am schwarzen Dreieck im Spaltenkopf](/assets/images/bibliothek/listen12.png)
 
 ## Listen gruppieren
 
