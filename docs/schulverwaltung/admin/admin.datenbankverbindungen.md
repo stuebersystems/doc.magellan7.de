@@ -1,10 +1,10 @@
 # Datenbankverbindungen
 
-
 Das Programm MAGELLAN kann mit mehreren Datenbanken verbunden werden. Bei der Anmeldung an dem Schulverwaltungsmodul wird später eine Verbindung ausgewählt, die auf eine bestimmte Datenbank und Datenordner (Skripte, Berichte, Vorlagen usw.) verweist. Damit könnten auf einem Serverrechner mehrere Datenbanken (zum Beispiel mehrerer Schulen)parallel abgelegt werden, der Nutzer erhält über die Rechtevergabe in der Benutzerverwaltung dann das Recht sich an einer oder an mehreren Verbindungen anzumelden.
 
 Bei der Installation von MAGELLAN 7 werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das MAGELLAN-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
 Eine neue Verbindung können Sie oben links über die Schaltfläche `Neuer Datensatz`anlegen!
+
 
 ![Klicken Sie auf `Neuer Datensatz`!](/assets/images/magellan.administrator/neuer.datensatz.png)
 
@@ -21,9 +21,7 @@ Feld|Anmerkung
 Protokoll|`TCP/IP`: <br/>Wählen Sie diesen Wert, wenn die Datenbank nicht auf dem lokalen Rechner liegt.<br/> `Lokal`:<br/> Wählen Sie diesen Typ, wenn die Datenbank sich auf dem lokalen Rechner befindet. Diese Auswahl ist für die Installationstypen `Server-/Einzelplatz` gedacht.
 Server|Wenn Sie für das `Protokoll` `TCP/IP` gewählt haben, tragen Sie bitte den Namen des Servers oder die IP-Adresse des Servers ein. <br/>Haben Sie für das Feld `Protokoll` den Wert `Lokal` gewählt, ist das Feld `Server` ausgegraut.
 Dateipfad auf dem Serverrechner|Tragen Sie hier Pfad zur Datenbank und die Bezeichnung der Datenbank ein. <br/>Wichtig ist, dass der Pfad immer aus Sicht des Servers erwartet wird. <br/>In den meisten Fällen steht in diesem Feld in der Verbindung des Servers der identische Pfad wie in der Verbindung des Clientrechners
-Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschland <br/>- die Bundesländer<br/>- Schweiz<br/>- Deutsche Auslandsschulen 
-
-
+Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschland <br/>- die Bundesländer<br/>- Schweiz<br/>- Deutsche Auslandsschulen
 
 **Beispiel für die Eintragungen für einen Clientrechner:**
 
@@ -37,14 +35,14 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 ## Unterpunkt Datensicherung
 
-Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup`oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt "Datensicherung"!
+Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt "Datensicherung"!
 
 ![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/assets/images/magellan.administrator/ribbon.datenbankverbindungen.png)
 
 Feld|Anmerkung
 --|--
-Gemeinsamer Dateipfad|Tragen Sie hier Ihren Wunschpfad für Datenbankbackups ein, der Pfad sollte auf dem Verzeichnis `Datenbank`enden.<br/>Beispiel für den Standardpfad:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank`<br/>  Dieser Vorgabepfad kann über die `blaue Pfeiltaste`am Ende der Zeile als Vorgabe in die Zeilen `Sicherung`und `Wiederherstellung` übernommen werden. Die Vorgaben werden wie folgt ergänzt:<br/>`Sicherung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Backup`<br/>`Wiederherstellung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Restore`<br/>Diese Unterverzeichnisse werden durch die Installation im Verzeichnis `Datenbank`angelegt.
-Namenskonventionen| Wählen Sie die Benennung für die Sicherung oder wiederhergestellte Sicherung:<br/>[Datum, Uhrzeit]Verbindungsalias - Benutzer<br/>[Datum, Uhrzeit]Verbindungsalias
+Gemeinsamer Dateipfad|Tragen Sie hier Ihren Wunschpfad für Datenbankbackups ein, der Pfad sollte auf dem Verzeichnis `Datenbank` enden.<br/>Beispiel für den Standardpfad:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank`<br/>  Dieser Vorgabepfad kann über die `blaue Pfeiltaste` am Ende der Zeile als Vorgabe in die Zeilen `Sicherung` und `Wiederherstellung` übernommen werden. Die Vorgaben werden wie folgt ergänzt:<br/>`Sicherung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Backup`<br/>`Wiederherstellung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Restore`<br/>Diese Unterverzeichnisse werden durch die Installation im Verzeichnis `Datenbank` angelegt.
+Namenskonventionen| Wählen Sie die Benennung für die Sicherung oder wiederhergestellte Sicherung:<br/>[Datum, Uhrzeit] Verbindungsalias - Benutzer<br/>[Datum, Uhrzeit] Verbindungsalias
 Sicherung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 
@@ -52,8 +50,7 @@ Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später ers
 
 !!! info "Hinweis"
 
-	Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktion zum Sichern selbst von einem Clientrechner starten, die Sicherung kann aber nur auf Ihrem Serverrechner abgelegt werden.
-
+	Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktion zum Sichern selbst von einem Clientrechner starten, die Sicherung kann aber nur auf Ihrem Serverrechner abgelegt werden, es sei denn Sie haben Zugriff auf den Serverrechner.
 
 ## Unterpunkt Datenordner
 
@@ -68,7 +65,7 @@ Dokumente<br/>Skripte<br/>Berichte<br/>Vorlagen<br/>Importe|Tragen Sie hier den 
 
 ## Verbindung testen
 
-Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Sie den Assistenten `Verbindung testen`über die Schaltfläche unter dem Punkt `Datenbankverbindungen`auf. Sollte die Ergebnisanzeige Probleme anzeigen, schauen Sie bitte den Abschnitt [Probleme bei der Installation?](https://doc.magellan7.stueber.de/schulverwaltung/installation/probleme-bei-der-installation.html)an.
+Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Sie den Assistenten `Verbindung testen`über die Schaltfläche unter dem Punkt `Datenbankverbindungen` auf. Sollte die Ergebnisanzeige Probleme anzeigen, schauen Sie bitte den Abschnitt [Probleme bei der Installation?](https://doc.magellan7.stueber.de/schulverwaltung/installation/probleme-bei-der-installation.html) an.
 
 ![Assistent zum Testen der Verbindung](/assets/images/magellan.administrator/verbindung.testen.png)
 
@@ -79,12 +76,11 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 
 ## Datensicherung
 
-Über den Punkt `Datenbankverbindungen` kommen Sie zu den Datensicherungsmöglichkeiten in MAGELLAN. In dieser Funktion wird das Sicherungstool der Firebird-Datenbank ausgeführt. Sie können mit diesem Tool Sicherungskopien der Schulverwaltungsdatenbank (MAGELLAN.fdb) erstellen und aus Sicherungsdateien (*.fbk)eine neue Datenbank wiederherstellen.
+Über den Punkt `Datenbankverbindungen` kommen Sie zu den Datensicherungsmöglichkeiten in MAGELLAN. In dieser Funktion wird das Sicherungstool der Firebird-Datenbank ausgeführt. Sie können mit diesem Tool Sicherungskopien der Schulverwaltungsdatenbank (MAGELLAN.fdb) erstellen und aus Sicherungsdateien (*.fbk) eine neue Datenbank wiederherstellen.
 
 > #### warning::Wichtig!
 >
-> Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktionen zum Sichern oder Wiederherstellen (Sie müssen den Dateinamen der Sicherung und den Speicherort kennen) selbst von einem Clientrechner starten, die Sicherung/Wiederherstellung kann aber nur auf Ihrem Serverrechner abgelegt werden.
-
+> Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktionen zum Sichern oder Wiederherstellen (Sie müssen den Dateinamen der Sicherung und den Speicherort kennen) selbst von einem Clientrechner starten, die Sicherung/Wiederherstellung kann aber nur auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft, wenn Sie Zugriff auf diesen Ornder haben ansonsten werden diese auf Ihrem Serverrechner abgelegt.
 
 ![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/assets/images/magellan.administrator/datensicherung.png)
 
@@ -95,13 +91,11 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 >
 > Das Herstellen einer Sicherungskopie und anschließende Wiederherstellen dieser Sicherungskopie hat eine reparierende und zugleich komprimierende Funktion. Die wiederhergestellte Sicherungskopie ist meist kleiner als die Ausgangsdatenbank, da "Lücken" in der Datenbank beseitigt werden und so die Datenmenge „abgespeckt“ wird.
 
-
 ## Sicherungskopie erstellen
 
 Der nachstehend beschriebene Assistent kann eine Sicherung Ihrer Datenbank erstellen.
 
 ![Sicherung einer Datenbank](/assets/images/magellan.administrator/backup.png)
-
 
 Wir beschreiben in der nachstehenden Tabelle die Eingabeoptionen:
 
@@ -111,10 +105,10 @@ Verbindung|Welche Verbindung soll gesichert werden?|Es wird Ihnen eine Liste Ihr
 Datenbank|Protokoll|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Server|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Datei|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
+Sicherung|Sicherung|Hier wird der in der Verbindung unter der Unterkarte `Sicherung` erfasst Pfad vorbelegt. <br/>Sollten Sie die Verbindungsdaten nicht entsprechend befüllt haben:<br/>Tragen Sie hier bitte einen lokalen Pfad auf Ihrem MAGELLAN-Server ein, damit dort die Sicherungskopie erzeugt werden kann. Wir empfehlen die Sicherung in das Backupverzeichnis im Datenbankordner abzulegen. <br/>Der Pfad könnte dafür wie folgt aussehen:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Datensicherung\Backup`<br/><br/>Der Name der Sicherung wird vom Programm ergänzt und beinhaltet: <br/>`[Datum, Uhrzeit]Verbindungsname - Benutzer.fbk` oder <br/> Beispiel: <br/>[2019-07-25, 10-32-21] Magellan - sysdba.fbk<br/><br/>Wenn Sie das Modul MAGELLAN ADMINISTRATOR auf dem MAGELLAN-Server aufrufen, steht Ihnen die Schaltfläche zur Auswahl per Datenexplorer zur Verfügung.
+Sicherung|Wiederherstellung|Hier wird der in der Verbindung unter der Unterkarte `Sicherung` erfasst Pfad vorbelegt. <br/>Sollten Sie die Verbindungsdaten nicht entsprechend befüllt haben:<br/>Tragen Sie hier bitte einen lokalen Pfad auf Ihrem MAGELLAN-Server ein, damit dort die Sicherungskopie erzeugt werden kann. Wir empfehlen die Sicherung in das Backupverzeichnis im Datenbankordner abzulegen. <br/>Der Pfad könnte dafür wie folgt aussehen:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Restore`<br/><br/>Der Name der Sicherung wird vom Programm ergänzt und beinhaltet: <br/>` [Datum, Uhrzeit]Verbindungsname - Benutzer.fdb` oder <br/> Beispiel: <br/>[2019-07-25, 10-32-21] Magellan - sysdba.fdb<br/><br/>Wenn Sie das Modul MAGELLAN ADMINISTRATOR auf dem MAGELLAN-Server aufrufen, steht Ihnen die Schaltfläche zur Auswahl per Datenexplorer zur Verfügung.
 Anmeldung|Benutzer|Tragen Sie bitte die sysdba-Kennung ein!
 Anmeldung|Kennwort|Tragen Sie bitte Ihr sysdba-Passwort ein!
-Sicherung|Sicherung|Hier wird der in der Verbindung unter der Unterkarte`Sicherung`erfasst Pfad vorbelegt. <br/>Sollten Sie die Verbindungsdaten nicht entsprechend befüllt haben:<br/>Tragen Sie hier bitte einen lokalen Pfad auf Ihrem MAGELLAN-Server ein, damit dort die Sicherungskopie erzeugt werden kann. Wir empfehlen die Sicherung in das Backupverzeichnis im Datenbankordner abzulegen. <br/>Der Pfad könnte dafür wie folgt aussehen:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup`<br/><br/>Der Name der Sicherung wird vom Programm ergänzt und beinhaltet: <br/>` [Datum, Uhrzeit]Verbindungsname - Benutzer.fbk` oder <br/> Beispiel: <br/>[2017-06-26, 14-07-16] Magellan.local - sysdba.fbk<br/><br/>Wenn Sie das Modul MAGELLAN ADMINISTRATOR auf dem MAGELLAN-Server aufrufen, steht Ihnen die Schaltfläche zur Auswahl per Datenexplorer zur Verfügung.
-Sicherung|Wiederherstellung|Hier wird der in der Verbindung unter der Unterkarte`Sicherung`erfasst Pfad vorbelegt. <br/>Sollten Sie die Verbindungsdaten nicht entsprechend befüllt haben:<br/>Tragen Sie hier bitte einen lokalen Pfad auf Ihrem MAGELLAN-Server ein, damit dort die Sicherungskopie erzeugt werden kann. Wir empfehlen die Sicherung in das Backupverzeichnis im Datenbankordner abzulegen. <br/>Der Pfad könnte dafür wie folgt aussehen:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup`<br/><br/>Der Name der Sicherung wird vom Programm ergänzt und beinhaltet: <br/>` [Datum, Uhrzeit]Verbindungsname - Benutzer.fbk` oder <br/> Beispiel: <br/>[2017-06-26, 14-07-16] Magellan.local - sysdba.fbk<br/><br/>Wenn Sie das Modul MAGELLAN ADMINISTRATOR auf dem MAGELLAN-Server aufrufen, steht Ihnen die Schaltfläche zur Auswahl per Datenexplorer zur Verfügung.
 Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte Aktion!
 
 ## Sicherungskopie wiederherstellen
@@ -133,10 +127,10 @@ Verbindung|Verbindung|Um eine Sicherung wiederherstellen zu können, muss eine F
 Datenbank|Protokoll|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Server|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Datei|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
+Sicherung|Sicherung|Der Pfad zum Backupverzeichnis wird auch Ihren Eintragungen für die Verbindung gelesen. Klicken Sie bitte auf die Schaltfläche am Ende der Zeile und verweisen auf die konkrete Sicherungsdatei!<br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Datensicherung\Backup\[2019-07-25, 10-32-21] Magellan - sysdba.fbk`
+Sicherung|Wiederherstellung|Der Pfad zum Restore-Ordner wird aus den Einstellungen der Verbindung gelesen, der neue Datenbankname wird aus dem Namen der Sicherung vom Programm selbst generiert.
 Anmeldung|Benutzer|Tragen Sie bitte die sysdba-Kennung ein!
 Anmeldung|Kennwort|Tragen Sie bitte Ihr sysdba-Passwort ein!
-Sicherung|Sicherung|Der Pfad zum Backupverzeichnis wird auch Ihren Eintragungen für die Verbindung gelesen. Klicken Sie bitte auf die Schaltfläche am Ende der Zeile und verweisen auf die konkrete Sicherungsdatei!<br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Datensicherung\Backup\[2018-03-29, 14-07-16] Magellan.local - sysdba.fbk`
-Sicherung|Wiederherstellung|Der Pfad zum Restore-Ordner wird aus den Einstellungen der Verbindung gelesen, der neue Datenbankname wird aus dem Namen der Sicherung vom Programm selbst generiert.
 Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte Aktion!
 
 

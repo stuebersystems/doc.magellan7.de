@@ -18,9 +18,9 @@ Die in den unterschiedlichen Ausweisformaten vorhandenen Felder müssen bzw. kö
 
 Um einen Bibliotheksausweis in einem der möglichen Formate zu erstellen, gehen Sie bitte folgendermaßen vor:
 
-1. Rufen Sie die Ansicht `Schüler`, `Lehrer` oder `Personen` auf.
+1. Rufen Sie eine der Ansichten `Schüler`, `Lehrer` oder `Personen` auf.
 2. Markieren Sie auf der Registerkarte `Auswahl` einen oder mehrere Ausleiher.
-3. Rufen Sie über den Menüpunkt `Bearbeiten > Berichte drucken` das Dialogfenster `Bericht drucken` auf.
+3. Rufen Sie über den Menüpunkt `Start > Berichte drucken` oder über `rechte Maustaste` das Dialogfenster `Bericht drucken` auf.
 4. Klicken Sie mit der linken Maustaste auf die Berichtsdatei mit dem gewünschten Ausweisformat, z.B. die Datei `Bibliotheksausweis (Standard).rpt`.
 5. Betätigen Sie die Schaltfläche `Drucken` in der Symbolleiste des Dialogfensters `Bericht drucken`.
 6. Bestätigen Sie im erscheinenden Dialogfenster `Drucken` die voreingestellten Werte mit `OK`.

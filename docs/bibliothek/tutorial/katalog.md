@@ -1,4 +1,5 @@
 # Medienbestand nach Katalogen organisieren
+
 MAGELLAN-BIBLIOTHEK unterstützt Sie dabei, Ihren gesamten Medienbestand nach unterschiedlichen Teilkatalogen zu organisieren. So bietet sich die Möglichkeit Ihren Medienbestand nach Ausleihergruppen zu trennen, indem Sie z.B. einen gesonderten Lehrer- und Schülerkatalog führen.
 
 Außerdem können Sie Lehrbücher nach Fachgesichtspunkten ordnen. In diesem Abschnitt erfahren Sie, wie Sie einen neuen Medienkatalog anlegen, einen Medienkatalog für eine bestimmte Aktion auswählen und Benutzerrechte für bestimmte Medienkataloge zuweisen können.
@@ -9,29 +10,29 @@ Wenn Sie damit beginnen, in MAGELLAN-BIBLIOTHEK Ihre Medien und Exemplare zu erf
 
 Wenn Sie einen neuen Medienkatalog anlegen möchten, dann führen Sie bitte die folgenden Schritte aus:
 
-1. Führen Sie in der Menüleiste des Programmfensters den Befehl `Verzeichnisse > Kataloge` aus.
-2. Betätigen Sie in der Symbolleiste des erscheinenden Dialogfensters die Schaltfläche `Neue Zeile` .
+1. Öffen Sie über die Menüleiste `Extras > Schlüsselverzeichnisse` das Verzeichnis `Medienkataloge`.
+2. Betätigen Sie in der Symbolleiste des erscheinenden Dialogfensters die Schaltfläche `Neuer Datensatz`.
 3. Tragen Sie in der neuen Zeile das Kürzel und die Bezeichnung des neuen Medienkatalogs ein.
 4. Betätigen Sie die Schaltfläche `Änderungen speichern` und schließen Sie das Dialogfenster.
 Der neue Eintrag ist nun im Verzeichnis Ihrer Medienkataloge angelegt.
 
-!!! info "Hinweis"
+![Schlüsselverzeichnis Medienkataloge, neuen Datensatz anlegen](/assets/images/bibliothek/ausleihe15.png)
 
-    Sie können die Bezeichnung und das Kürzel des voreingestellten Standardkatalogs beliebig verändern.
+Sie können die Bezeichnung und das Kürzel des voreingestellten Standardkatalogs beliebig verändern. Gehen Sie dazu bitte folgendermaßen vor:
 
-Gehen Sie dazu bitte folgendermaßen vor:
-
-1. Führen Sie in der Menüleiste des Programmfensters den Befehl `Verzeichnisse > Kataloge` aus.
+1. Öffen Sie über die Menüleiste `Extras > Schlüsselverzeichnisse` das Verzeichnis `Medienkataloge`.
 2. Geben Sie in den Spalten `Kürzel` bzw. `Bezeichnung` der entsprechenden Listenzeile die gewünschten Änderungen ein.
 3. Betätigen Sie die Schaltfläche `Änderungen speichern` und schließen Sie das Dialogfenster.
 
-Ihre Veränderungen sind nun im Verzeichnis der Medienkataloge hinterlegt. Sollte die Bezeichnung des Katalogs ein Bestandteil der Signaturvorgabe Ihrer Medienexemplare sein, müssen Sie die Signaturvorgabe für die betroffenen Exemplare manuell ändern. Die neue Bezeichnung des Standardkatalogs wird nicht automatisch in die Signaturvorgabe der betroffenen Exemplare integriert
+!!! warning "Wichtig"
+
+    Ihre Veränderungen sind nun im Verzeichnis der Medienkataloge hinterlegt. Sollte die Bezeichnung des Katalogs ein Bestandteil der Signaturvorgabe Ihrer Medienexemplare sein, müssen Sie die Signaturvorgabe für die betroffenen Exemplare manuell ändern. Die neue Bezeichnung des Standardkatalogs wird nicht automatisch in die Signaturvorgabe der betroffenen Exemplare integriert
 
 ### Aufgabe 9
 
 Legen Sie einen neuen Medienkatalog mit der Bezeichnung `Lehrerkatalog` und dem Kürzel `Lehrer` an.
 
-![Im Dialogfenster `Verzeichnis der Medienkataloge` legen Sie neue Kataloge an.](/assets/images/bibliothek/medienkataloge.png)
+![Im Dialogfenster `Verzeichnis der Medienkataloge` legen Sie neue Kataloge an.](/assets/images/bibliothek/ausleihe16.png)
 
 ## Medienkatalog für eine Aktion auswählen
 

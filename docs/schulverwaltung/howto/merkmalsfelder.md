@@ -1,8 +1,6 @@
 # Merkmalsfelder einrichten und umbenennen
 
-
 Für die Menüpunkte Schüler, Bewerber, Klassen, Lehrer, Schulen und Mandanten gibt es jeweils die Möglichkeit auch eigene Daten zu erfassen, für die MAGELLAN kein spezielles Feld anbietet. Merkmalsfelder gibt es in verschiedenen Feldtypen, einige zur freien Verwendung, andere sind zum Beispiel für aktuelle oder auch zukünftige statistische Angaben reserviert.
-
 
 ## Welche Merkmalsfelder gibt es?
 

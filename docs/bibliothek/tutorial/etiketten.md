@@ -1,4 +1,3 @@
-
 # Signatur-Etiketten für Exemplare erstellen
 
 Damit Medienexemplare in den Fluren einer Bibliothek schnell gefunden werden können, versieht man sie üblicherweise mit Etiketten, auf denen die Signatur gut lesbar aufgedruckt ist.
@@ -20,10 +19,12 @@ Um Signaturetiketten mit einer bestimmten Formatvorlage zu drucken, führen Sie 
 3. Führen Sie über die Menüleiste den Befehl `Bearbeiten|Berichte drucken` aus.
 4. Markieren Sie im erscheinenden Dialogfenster `Bericht drucken` eine der Vorlagen mit dem Dateinamen `Etiketten (…).rpt`, z.B. die Datei `Etiketten (508x254).rpt`.
 
+![Etikettendruck](/assets/images/bibliothek/etikettendruck01.png)
+
 
 !!! info "Hinweis"
 
-    Betätigen Sie die Schaltfläche `Vorschau` , wenn Sie sich vor dem Ausdruck ein Bild von den einzelnen Formatvorlagen machen möchten.
+    Betätigen Sie die Schaltfläche `Vorschau`, wenn Sie sich vor dem Ausdruck ein Bild von den einzelnen Formatvorlagen machen möchten.
 
 1. Klicken Sie mit der linken Maustaste auf die Schaltfläche `Drucken` in der Symbolleiste des Dialogfensters.
 2. Belassen Sie im erscheinenden Dialogfenster `Drucken` die voreingestellten Werte oder passen Sie diese an Ihre Bedürfnisse an
@@ -32,5 +33,5 @@ Die Signaturetiketten werden nun in dem gewünschten Format für die von Ihnen m
 
 ### Aufgabe 7
 
-Erstellen Sie für alle 10 Exemplare des Titels `Die Räuber` Signaturetiketten im Format `Etiketten (508x254)`. 
+Erstellen Sie für alle 10 Exemplare des Titels `Die Räuber` Signaturetiketten im Format `Etiketten (508x254)`.
 Schneiden Sie bitte die Etiketten nicht aus, sondern bewahren Sie für die Zwecke dieses Tutorials die DIN-A4-Seite mit allen Etiketten auf.

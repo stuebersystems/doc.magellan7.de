@@ -1,4 +1,3 @@
-
 # Medien und Exemplare
 
 ## Mediendaten lokal nach Titel suchen

@@ -4,6 +4,8 @@
 
 In der Datenmaske `Ausleihe & Rückgabe` können Sie über den unmittelbaren Leihbetrieb hinaus auch verschiedene Aufgaben durchführen, die regelmäßig in direktem Zusammenhang mit dem Ausleihen, Verlängern und Zurückgeben von Medien anfallen. Dafür stehen Ihnen drei unterschiedliche Funktionen zur Verfügung: `Exemplarzustand anpassen`, `Exemplare in Katalog verschieben` und `Exemplare löschen`. Auch hier erfolgt die Auswahl der durchzuführenden Aktion stets über das Auswahlfeld `Sammelaktion`.
 
+![Datenmaske `Ausleihe & Rückgabe` > Auswahlfeld `Sammelaktion`](/assets/images/bibliothek/ausleihe21.png)
+
 ## Exemplarzustand anpassen
 
 Die Funktion `Exemplarzustand anpassen` ermöglicht Ihnen für jedes Exemplar eine Zustandsbeschreibung zu hinterlegen. So können Sie z.B. bei der Rückgabe eines beschädigten Mediums einschätzen, ob sich der Zustand während der Leihfrist verschlechtert hat oder ob der Ausleiher das Exemplar bereits in diesem Zustand erhalten hat.
@@ -60,4 +62,5 @@ Um einzelne oder mehrere Medienexemplare aus Ihrer Datenbank zu löschen, führe
 1. Wählen Sie im Auswahlfeld `Sammelaktion` den Eintrag `Exemplare löschen` aus dem Aufklappmenü.
 2. Platzieren Sie den Cursor in das Feld `Barcode` und geben Sie nacheinander die Barcodenummer der Exemplare ein: In der Vorgangsliste erscheint nun eine Zeile für jedes ausgewählte Exemplar
 3. Bestätigen Sie Ihre Auswahl durch Betätigen der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
-   Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die ausgewählten Exemplare werden aus der Exemplarliste der Ansicht `Bücher/ Medien` entfernt.
+
+Eine farbig hinterlegte Infozeile über dem Segment `Vorgang` weist Sie auf den erfolgreichen Abschluss des Vorgangs hin. Die ausgewählten Exemplare werden aus der Exemplarliste der Ansicht `Bücher/ Medien` entfernt.

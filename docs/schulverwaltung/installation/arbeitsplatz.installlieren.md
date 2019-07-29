@@ -15,13 +15,13 @@ Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter
 
 Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien werden entpackt.
 
-![Startdialog der Installation](/assets/images/setup-start.png)
+![Startdialog der Installation](/assets/images/setup_start.png)
 
-![Installationart festlegen](/assets/images/setup-type.png)
+![Installationart festlegen](/assets/images/setup_type.png)
 
 Wählen Sie die `Arbeitsplatzinstallation` aus! Es wird nur das Programm installiert, es werden keine Datenbank abgelegt oder sogenannten Datenordner erzeugt.
 
-![Bitte wählen Sie den Installationstyp Arbeitsplatz aus!](/assets/images/setup-type.png)
+![Bitte wählen Sie den Installationstyp Arbeitsplatz aus!](/assets/images/setup_type.png)
 
 ## Der Willkommensassistent
 
