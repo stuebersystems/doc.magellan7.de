@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.15 - 705
+## 7.0.15 - 706
 
 ### MAGELLAN
 
@@ -44,4 +44,3 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
 
 * FIX:
-
