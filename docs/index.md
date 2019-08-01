@@ -7,11 +7,12 @@ Diese Dokumentation ist unterteilt in die Bereiche:
 * [Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
 * [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
 * [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/)
-* [MAGELLAN Knowledgebase](https://doc.magellan7.stueber.de/knowledgebase/voraussetzungen/)
 
 Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
+* [MAGELLAN  und DAVINCI Knowledgebase](https://doc.mymagellan7.stueber.de)
 * [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
+* [Knowledgebase](https://doc.kb.stueber.de)
 * [MAGELLAN Datenstruktur](https://doc.magellan7-toolbox.stueber.de/)
 * [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/)
 * [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/)
