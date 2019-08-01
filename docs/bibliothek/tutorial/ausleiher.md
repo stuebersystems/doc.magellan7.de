@@ -98,10 +98,6 @@ In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die 
 
 Sie können allerdings auf der Registerkarte `Daten` die Angaben zur Dauer der Ausleihberechtigung, die Sie im Ubernahmeassistenten festgelegt haben, verändern. Tragen Sie einfach unter `Ausleihe Erlaubnis` die gewünschten Werte in die Eingabefelder `Gültig von` und `Gültig bis` und bestätigen Sie Ihre Angaben abschließend mit der Schaltfläche `Änderungen speichern` .
 
-!!! info "Hinweis"
-
-    Wie Sie im Basismodul die persönlichen Daten Ihrer Schüler, Lehrer und Personen eingeben können, entnehmen Sie bitte den Kapiteln [Lehrer](..\..\schulverwaltung/howto/lehrer.md) [Schüler](..\..\schulverwaltung/howto/schueler.md) und [Bewerber](..\..\schulverwaltung/howto/bewerber.md) des MAGELLAN Benutzerhandbuches.
-
 Die Angaben, die unter der Registerkarte `Vorgänge` gespeichert werden, können ebenfalls nicht von Hand korrigiert oder ergänzt werden. Es handelt sich um leihbezogene Daten, die für jeden einzelnen Nutzer automatisch gefüllt werden, wenn er z.B. in der Ansicht `Ausleihe` als Ausleiher eines Medienexemplars vermerkt wird oder ihm in der Ansicht `Mahnungen` eine Mahnstufe zugewiesen wird.
 
 !!! info "Hinweis"
