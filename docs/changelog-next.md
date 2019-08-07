@@ -23,6 +23,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Anzeige eines Berufes oder Bildungsgangs ohne Betrieb/Praxisbetriebs auf `Ausbildung` und `Daten1` beim Schüler
 * FIX: Abfrage für angezeigte Datensätze unter `Schüler > Auswahl` angepasst
 
+
 ### Skripte
 
 * FIX: Anpassung von `Schueler wechseln`
@@ -40,6 +41,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN Administrator
 
 * FIX: Restore (Wiederherstellen) einer Sicherungskopie korrigiert
+* FIX: Übernahme der Daten von MAGELLAN 6 nach MAGELLAN 7 (Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum)
 
 ### Berichte (NEW oder CHANGE)
 
