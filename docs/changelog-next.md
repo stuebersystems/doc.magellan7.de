@@ -23,7 +23,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Anzeige eines Berufes oder Bildungsgangs ohne Betrieb/Praxisbetriebs auf `Ausbildung` und `Daten1` beim Schüler
 * FIX: Abfrage für angezeigte Datensätze unter `Schüler > Auswahl` angepasst
 
-
 ### Skripte
 
 * FIX: Anpassung von `Schueler wechseln`
