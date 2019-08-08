@@ -5,7 +5,6 @@ Von MAGELLAN können die Abteilungen, die Lehrer, die Fächer, die Fachtafeln, d
 
 Von DAVINCI können die Abteilungen, die Lehrer, die Fächer, die Stundentafeln, die Kurswahlen der Schüler der Oberstufe und der Fach- bzw. Kurslehrer an MAGELLAN übergeben werden.
 
-
 !!! info "Hinweis"
 
 	Der Datenaustausch wird grundsätzlich (egal in welche Richtung) von DAVINCI aus gestartet.
@@ -21,7 +20,7 @@ Wenn Sie MAGELLAN und DAVINCI einsetzen, sollten Sie wie folgt vorgehen:
 !!! info "Hinweis"
 
 	Bitte beachten Sie beim Datenabgleich zwischen MAGELLAN und DAVINCI allgemein die folgenden Hinweise:
-	Vor jedem Datenaustausch sollten Sie eine Datensicherung der MAGELLAN-Datenbank (MAGELLAN6.fdb) und der DAVINCI-Plandatei (*.DAVINCI) durchführen. Ein versehentlicher Übertrag kann nicht rückgängig gemacht werden.
+	Vor jedem Datenaustausch sollten Sie eine Datensicherung der MAGELLAN-Datenbank (MAGELLAN.fdb) und der DAVINCI-Plandatei (*.DAVINCI) durchführen. Ein versehentlicher Übertrag kann nicht rückgängig gemacht werden.
 
 Was|Wichtige Hinweise
 ---|---
@@ -46,18 +45,18 @@ Um Daten von MAGELLAN nach DAVINCI zu übertragen, gehen Sie bitte folgendermaß
 
 ![ Hier sehen Sie die erste Seite des Assistenten "MAGELLAN-Datenaustausch".](/assets/images/datenaustausch_mit_magellan/01.png)
 
-6.Bestätigen Sie auf der ersten Seite des Assistenten die Option „Daten aus MAGELLAN in eine SDTF-Datei schreiben“ mit `Weiter`.
-7.Wählen Sie auf der folgenden Assistentenseite in den Feldern „Übertrage Daten aus folgendem Mandanten“ und „Übertrage Daten aus folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
+6. Bestätigen Sie auf der ersten Seite des Assistenten die Option „Daten aus MAGELLAN in eine SDTF-Datei schreiben“ mit `Weiter`.
+7. Wählen Sie auf der folgenden Assistentenseite in den Feldern „Übertrage Daten aus folgendem Mandanten“ und „Übertrage Daten aus folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
 
 ![ Hier legen Sie den Mandanten und den Zeitraum für den Datenübertrag fest.](/assets/images/datenaustausch_mit_magellan/02.png)
 
-8.Bestätigen Sie Ihre Auswahl mit `Weiter`.
-9.Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereich nach DAVINCI.
+8. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+9. Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereich nach DAVINCI.
 
 ![ Hier wählen Sie die Daten aus, die aus MAGELLAN übernommen werden.](/assets/images/datenaustausch_mit_magellan/03.png)
 
-10.Bestätigen Sie Ihre Auswahl mit `Weiter`. 
-11.Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
+10. Bestätigen Sie Ihre Auswahl mit `Weiter`. 
+11. Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
 
 Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
