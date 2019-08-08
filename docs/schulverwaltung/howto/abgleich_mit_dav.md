@@ -38,26 +38,26 @@ Wenn Sie einen neuen, bisher leeren Plan, mit Daten aus MAGELLAN füllen möchte
 
 Um Daten von MAGELLAN nach DAVINCI zu übertragen, gehen Sie bitte folgendermaßen vor:
 
-1.Klicken Sie im Menüband von `DAVINCI` des Programmfensters auf die Schaltfläche `Plan`.
-1.Wählen Sie im Planmenü den Befehl `Importieren und Exportieren`: der Assistent „Import/ Export-Assistent“ wird geöffnet.
-2.Markieren Sie auf der ersten Assistentenseite im Bereich „Import“ den Eintrag „Von MAGELLAN importieren.“
-3.Bestätigen Sie Ihre Auswahl mit `Weiter`.
-4.Geben Sie im erscheinenden Dialogfenster „MAGELLAN-Anmeldung“ Benutzername und Kennwort des Administratorkontos ein und bestätigen Sie Ihre Zugangsdaten mit OK: der Assistent „MAGELLAN-Datenaustausch“ wird geöffnet.
+1. Klicken Sie im Menüband von `DAVINCI` des Programmfensters auf die Schaltfläche `Plan`.
+2. Wählen Sie im Planmenü den Befehl `Importieren und Exportieren`: der Assistent „Import/ Export-Assistent“ wird geöffnet.
+3. Markieren Sie auf der ersten Assistentenseite im Bereich „Import“ den Eintrag „Von MAGELLAN importieren.“
+4. Bestätigen Sie Ihre Auswahl mit `Weiter`.
+5. Geben Sie im erscheinenden Dialogfenster „MAGELLAN-Anmeldung“ Benutzername und Kennwort des Administratorkontos ein und bestätigen Sie Ihre Zugangsdaten mit OK: der Assistent „MAGELLAN-Datenaustausch“ wird geöffnet.
 
 ![ Hier sehen Sie die erste Seite des Assistenten "MAGELLAN-Datenaustausch".](/assets/images/datenaustausch_mit_magellan/01.png)
 
-5.Bestätigen Sie auf der ersten Seite des Assistenten die Option „Daten aus MAGELLAN in eine SDTF-Datei schreiben“ mit `Weiter`. 
-6.Wählen Sie auf der folgenden Assistentenseite in den Feldern „Übertrage Daten aus folgendem Mandanten“ und „Übertrage Daten aus folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
+6.Bestätigen Sie auf der ersten Seite des Assistenten die Option „Daten aus MAGELLAN in eine SDTF-Datei schreiben“ mit `Weiter`.
+7.Wählen Sie auf der folgenden Assistentenseite in den Feldern „Übertrage Daten aus folgendem Mandanten“ und „Übertrage Daten aus folgendem Zeitraum“ den gewünschten Mandanten und Zeitraum aus dem Aufklappmenü.
 
 ![ Hier legen Sie den Mandanten und den Zeitraum für den Datenübertrag fest.](/assets/images/datenaustausch_mit_magellan/02.png)
 
-7.Bestätigen Sie Ihre Auswahl mit `Weiter`.
-8.Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereich nach DAVINCI.
+8.Bestätigen Sie Ihre Auswahl mit `Weiter`.
+9.Setzen Sie auf der nächsten Assistentenseite den Haken vor den gewünschten Optionen für die Übernahme unterschiedlicher Datenbereich nach DAVINCI.
 
 ![ Hier wählen Sie die Daten aus, die aus MAGELLAN übernommen werden.](/assets/images/datenaustausch_mit_magellan/03.png)
 
-9.Bestätigen Sie Ihre Auswahl mit `Weiter`. 
-10.Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
+10.Bestätigen Sie Ihre Auswahl mit `Weiter`. 
+11.Drücken Sie auf der nächsten Assistentenseite die Schaltfläche `Starten`.
 
 Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
@@ -65,7 +65,7 @@ Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI
 
 Sie können folgende Daten übernehmen:
 
-![ Übernahmeoptionen](/assets/images/datenaustausch_mit_magellan/06.png)
+![Übernahmeoptionen](/assets/images/datenaustausch_mit_magellan/06.png)
 
 ### Abteilungen aus MAGELLAN
 
@@ -97,7 +97,7 @@ Felder|Hinweis
 ---|---
 **Kürzel**<br/>**Bezeichnung**<br/>Fächer der Fachtafel: <br/>   **Kürzel** Unterrichtsart.Kürzel]|Der Austausch erfolgt über das Kürzel.<br/> Ist das Kürzel bereits vorhanden, wird aktualisiert.<br/> Ist das Kürzel nicht vorhanden wird die Fachtafel hinzugefügt.<br/>Fachtafeln aus MAGELLAN entsprechen Stundentafeln in DAVINCI.
 
-### Klassen/ Jahrgänge aus MAGELLAN
+### Klassen/Jahrgänge aus MAGELLAN
 
 Felder|Hinweis
 ---|---
@@ -110,7 +110,6 @@ Felder|Hinweis
 Felder|Hinweis
 ---|---
 Stammdaten:<br/>**Vorname**<br/>**Nachname **<br/>**MAGELLAN.ID**<br/> **Geschlecht **<br/>**Geburtsdatum **<br/>**Klasse **<br/>**Stufe **<br/>**Tutor **<br/>**Email **<br/>**Schulnummer**<br/><br/>Schülerfächer:<br/>**Fach **<br/>**Fachstatus**<br/> **Unterrichtsart**|Es ist möglich nur einen Teil der Schüler zur Übernahme auszuwählen.<br/> Der Austausch erfolgt über ID, Nachname und Vorname.<br/> Bei gleicher Daten wird aktualisiert.<br/> Schülerfächer werden als Schülerfachwahlen übernommen. Werden Schüler erneut übernommen, werden die eventuell bestehenden Fachwahlen in DAVINCI gelöscht und mit den Daten aus MAGELLAN überschrieben.<br/><br/>Tutor und Klasse, genau wie die Fachwahlen können nur zugeordnet werden, wenn die zugrunde liegenden Daten in DAVINCI vorhanden sind (Lehrer.Kürzel, Klassen.Kürzel, Fach.Kürzel, Unterrichtsart.Kürzel, Fachstatus.Kürzel).
-
 
 !!! info "Hinweis"
 
@@ -178,7 +177,6 @@ Felder|Hinweis
 ---|---
 **Zugewiesener Lehrer in der Veranstaltungsliste**|<br/>Dabei prüft MAGELLAN nach folgender Regel:<br/><br/>Unterrichtet der Lehrer<br/>- das gleiche Fach mit<br/>- gleichem Fachstatus und<br/>- gleicher Kursnummer in <br/>- der gleiche Klasse,  <br/> so wird er dem Schüler in diesem Fach zugeordnet.
 
-
 !!! info "Hinweis"
 
 	Der Lehrer-Unterrichts kann nur bei den Schülern in MAGELLAN zuordnet werden, denen bereits Fächer zugeordnet wurden. Die Schülerfächer in MAGELLAN und die Veranstaltungen der Veranstaltungsliste in DAVINCI müssen in Fach, Fachstatus und Unterrichtsart identisch sein.
@@ -189,13 +187,13 @@ Lehrer|Aktualisieren|Feld 4: Lehrerkürzel
 
 Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht übernommen wird in der Schuldatentransferdatei (SDTF)
 
+
 !!! info "Hinweis"
 
- Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
-      Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
+	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
+	Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
 
 ### Beifachlehrer im Datenübertrag
-
 
 !!! info "Hinweis"
 
@@ -215,7 +213,7 @@ Felder|Hinweis
 
 Felder|Hinweis
 ---|---
-**Kürzel**<br/>**Bezeichnung**<br/>Fächer der Stundentafel: <br/>**Fachkürzel**<br/>**Unterrichtsart.Kürzel**|Der Austausch erfolgt über das Kürzel. <br/>Ist das Kürzel bereits vorhanden, wird aktualisiert.<br/> Ist das Kürzel nicht vorhanden wird die Stundentafel hinzugefügt. <br/>Die Fächer werden mit Kürzel und Unterrichtart hinzugefügt.<br/>Stundentafeln in DAVINCI werden als Fachtafeln nach MAGELLAN übertragen. <br/>Dabei gelten folgende Voraussetzungen:<br/>•Fächer in DAVINCI und MAGELLAN müssen identische ID’s und Kürzel haben.<br/>•Unterrichtsarten in DAVINCI müssen die gleichen Kürzel besitzen wie in MAGELLAN.
+**Kürzel**<br/>**Bezeichnung**<br/>Fächer der Stundentafel: <br/>**Fachkürzel**<br/>**Unterrichtsart.Kürzel**|Der Austausch erfolgt über das Kürzel. <br/>Ist das Kürzel bereits vorhanden, wird aktualisiert.<br/> Ist das Kürzel nicht vorhanden wird die Stundentafel hinzugefügt. <br/>Die Fächer werden mit Kürzel und Unterrichtart hinzugefügt.<br/>Stundentafeln in DAVINCI werden als Fachtafeln nach MAGELLAN übertragen. <br/>Dabei gelten folgende Voraussetzungen:<br/>• Fächer in DAVINCI und MAGELLAN müssen identische ID’s und Kürzel haben.<br/>• Unterrichtsarten in DAVINCI müssen die gleichen Kürzel besitzen wie in MAGELLAN.
 
 ![ Übernahmeoptionen](/assets/images/datenaustausch_mit_magellan/07.png)
 
@@ -270,7 +268,6 @@ Fach mit der Unterrichtsart ist bereits vorhanden|- Fachstatus (Schlüssel)<br/>
 Fach mit der Unterrichtsart ist neu |-Fach (Kürzel und Schlüssel)<br/>- Unterrichtsart (Schlüssel)<br/>- Fachstatus (Schlüssel)<br/>- Kursnummer (<kein Eintrag  >  , 0, 1, 2…)<br/>- Position (0, 1, 2…)
 
 Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, wenn diese DAVINCI neu angelegt wurden aber noch nicht in MAGELLAN existieren. Der mit aus DAVINCI übertragene Schüler wird aber noch nicht mit seiner Kurswahl importiert, da er zuerst in MAGELLAN angelegt und in diese neue angelegte Klasse in MAGELLAN eingeschult werden muss.
-
 
 !!! info "Hinweis"
 
