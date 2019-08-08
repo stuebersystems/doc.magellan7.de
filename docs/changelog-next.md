@@ -22,6 +22,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Eingabe eines Leerzeichens unter `Schüler > Daten1 > Straße`
 * FIX: Anzeige eines Berufes oder Bildungsgangs ohne Betrieb/Praxisbetriebs auf `Ausbildung` und `Daten1` beim Schüler
 * FIX: Abfrage für angezeigte Datensätze unter `Schüler > Auswahl` angepasst
+* FIX: Downloadpfad unter `Hilfe > auf Aktualisierung prüfen` angepasst
 
 ### Skripte
 
