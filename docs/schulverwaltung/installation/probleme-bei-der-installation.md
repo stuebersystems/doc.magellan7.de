@@ -42,7 +42,6 @@ Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie 
 
 [ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
 
-
 ## Typeninitialisierer für Crystal.Decisions
 
 ![Fehlermeldung](/assets/images/installation/02.png)
