@@ -40,13 +40,15 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Anpassung von `Schueler wechseln` (um Haupt- und Nebenklasse für Schüler in der Anzeige alter Zeiträume zu setzen)
 * FIX: Anpassung von `Schueler korrigieren` (Status für Vagabunden wird korrekt gesetzt)
 * FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen von Vagabunden)
+* FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen und Zusammenführen von Vagabunden und Stammschüler)
+* FIX: Anpassung von `Schueler einschulen` (Beim eventuellen Zusammenführen von Vagabunden und Stammschüler wird der Status des Schülers ggfs. auf Status 3 (aktiv) gesetzt)
 
 ### MAGELLAN Administrator
 
 * FIX: Restore (Wiederherstellen) einer Sicherungskopie korrigiert
 * FIX: Übernahme der Daten von MAGELLAN 6 nach MAGELLAN 7:
-  * Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum werden ignoriert
-  * Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
+    * Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum werden ignoriert
+    * Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
 
 ### Berichte (NEW oder CHANGE)
 
