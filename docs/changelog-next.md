@@ -12,7 +12,17 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.15 - 706
+## 7.0.15 - 707
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstrukturänderung
+
+* CHANGE: Aktualisierung eines Triggers für ENBREA-Leistungen
+* FIX: Korrektur des Schülerstatus zu Vagabund (Status 2), wenn der Schüler keine Laufbahndaten hat und der Status 3 ist
+* FIX: Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
 
 ### MAGELLAN
 
@@ -24,26 +34,19 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Abfrage für angezeigte Datensätze unter `Schüler > Auswahl` angepasst
 * FIX: Downloadpfad unter `Hilfe > auf Aktualisierung prüfen` angepasst
 * FIX: Eingabe der PLZ und des Ortes bei Betrieben
-* FIX: Setzen des aktuellen Ausbildungsbetriebes beim Einschulen von Vagabunden
 
 ### Skripte
 
 * FIX: Anpassung von `Schueler wechseln`
-
-### MAGELLAN BIBLIOTHEK
-
-* FIX:
-
-### MyMAGELLAN
-
-### MyMAGELLAN CENTER
-
-* NEW:
+* FIX: Anpassung von `Schueler korrigieren` (Status für Vagabunden wird korrekt gesetzt)
+* FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen von Vagabunden)
 
 ### MAGELLAN Administrator
 
 * FIX: Restore (Wiederherstellen) einer Sicherungskopie korrigiert
-* FIX: Übernahme der Daten von MAGELLAN 6 nach MAGELLAN 7 (Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum)
+* FIX: Übernahme der Daten von MAGELLAN 6 nach MAGELLAN 7:
+  * Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum werden ignoriert
+  * Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
 
 ### Berichte (NEW oder CHANGE)
 
