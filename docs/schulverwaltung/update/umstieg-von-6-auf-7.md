@@ -2,7 +2,10 @@
 
 !!! warning "Wichtig"
 
-    Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 7 nicht auf einem Rechner** zu verwenden, da es Probleme bei der Anzeige von Berichten geben kann. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. Ein paralleles Arbeiten ist nicht sinnvoll, da beide Programme jeweils eigene Datenbanken verwenden.
+    Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 7 nicht auf einem Rechner** zu verwenden, solange MAGELLAN 6 noch verwendet wird. Es kann ansonsten Probleme bei der Anzeige von Berichten geben. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. 
+
+    Für den Umstieg von MAGELLAN 6 auf MAGELLAN 7 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
+
 
 ## Schüler und Schülerkopien
 
@@ -59,6 +62,10 @@ Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide 
 ## Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen
 
 Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihrer MAGELLAN 6-Datenbank übergeben.
+
+!!! warning "Wichtig"
+
+    Bitte verwenden Sie einen leistungsstarken Rechner und legen beiden Datenbanken (die leere MAGELLAN7- und die gefüllte MAGELLAN6-Datenbank) auf diesem Rechner ab. Die Übertragung der Daten aus einer großen Datenbank kann viel Zeit in Anspruch nehmen, wenn die Daten dabei noch über Ihr Netzwerk übertragen werden, beeinflussen Sie diesen Prozess ungünstig.
 
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
