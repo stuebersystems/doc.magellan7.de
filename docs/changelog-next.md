@@ -37,7 +37,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### Skripte
 
-* FIX: Anpassung von `Schueler wechseln`
+* FIX: Anpassung von `Schueler wechseln` (um Haupt- und Nebenklasse für Schüler in der Anzeige alter Zeiträume zu setzen)
 * FIX: Anpassung von `Schueler korrigieren` (Status für Vagabunden wird korrekt gesetzt)
 * FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen von Vagabunden)
 
