@@ -20,7 +20,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX:
+### MAGELLAN Bibliothek
+
+* FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
 
 ### Skripte
 
