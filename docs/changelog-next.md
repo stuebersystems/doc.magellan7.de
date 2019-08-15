@@ -20,11 +20,14 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
+* FIX: Betriebe | Kontakte > Neuer Kontakt
+* FIX: Schüler | Laufbahnprozess "Schüler wechseln" die neue Klasse wird wieder angezeigt 
+
 ### MAGELLAN Bibliothek
 
-* FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
+* FIX: Auswahldialog zur Übernahme neuer Schüler als Medienausleiher korrigiert
 
-### Skripte
+### Skripte  
 
 * FIX:
 
