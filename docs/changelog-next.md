@@ -20,13 +20,10 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-<<<<<<< HEAD
-* FIX: Betriebe | Kontakte > Neuer Kontakt
-* FIX: Schüler | Laufbahnprozess "Schüler wechseln" die neue Klasse wird wieder angezeigt 
-=======
+* FIX: `Betriebe > Kontakte > Neuer Kontakt`
+* FIX: `Schüler > Laufbahnprozess > "Schüler wechseln"` die neue Klasse wird wieder angezeigt
 * CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
 * CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
->>>>>>> 0636f82e9ce9acf110c80a356210132e697dc48f
 
 ### MAGELLAN Bibliothek
 
