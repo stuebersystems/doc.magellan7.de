@@ -20,6 +20,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
+* CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
+* CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
+
 ### MAGELLAN Bibliothek
 
 * FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
