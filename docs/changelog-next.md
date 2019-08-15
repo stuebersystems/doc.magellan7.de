@@ -20,11 +20,17 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
+<<<<<<< HEAD
 * FIX: Betriebe | Kontakte > Neuer Kontakt
 * FIX: Schüler | Laufbahnprozess "Schüler wechseln" die neue Klasse wird wieder angezeigt 
+=======
+* CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
+* CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
+>>>>>>> 0636f82e9ce9acf110c80a356210132e697dc48f
 
 ### MAGELLAN Bibliothek
 
+* FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
 * FIX: Auswahldialog zur Übernahme neuer Schüler als Medienausleiher korrigiert
 
 ### Skripte  
@@ -39,4 +45,4 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX:
+* FIX:* FIX:* FIX: Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
