@@ -32,6 +32,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Neue Medien anlegen: `Jahrgang bis` korrigiert
 * FIX: Zur Übernahme als Medienausleiher angebotene Schülermenge angepasst
 * FIX: Unter `Datenbank > Optionen > Start` wurde der Zeitraum entfernt (die Bibliothek hat keinen Zeitraumbezug mehr, insofern ist eine Startzeitraum überflüssig)
+* FIX: Auswahl eines anderen Mandanten korrigiert
 
 ### Skripte  
 
