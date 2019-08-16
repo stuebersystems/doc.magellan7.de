@@ -12,7 +12,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ---
 
-## 7.0.16 - 707
+## 7.0.17 - 707
 
 ### Datenstrukturänderung
 
@@ -20,20 +20,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX: `Betriebe > Kontakte > Neuer Kontakt`
-* FIX: `Schüler > Laufbahnprozess > "Schüler wechseln"` die neue Klasse wird wieder angezeigt
-* CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
-* CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
-* FIX: Anzeige, Speicherung und Auswahl von neu angelegten Gemeinden beim Zuweisen vom Schüler aus (PLZ und Enter) korrigiert
+* FIX: 
 
 ### MAGELLAN Bibliothek
 
-* FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
-* FIX: Neue Medien anlegen: Schaltflächenbenennung korrigiert
-* FIX: Neue Medien anlegen: `Jahrgang bis` korrigiert
-* FIX: Zur Übernahme als Medienausleiher angebotene Schülermenge angepasst
-* FIX: Unter `Datenbank > Optionen > Start` wurde der Zeitraum entfernt (die Bibliothek hat keinen Zeitraumbezug mehr, insofern ist eine Startzeitraum überflüssig)
-* FIX: Wechsel zu einem anderen Mandanten korrigiert
+* FIX: 
 
 ### Skripte  
 
@@ -47,4 +38,4 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
+* FIX: 
