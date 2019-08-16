@@ -24,6 +24,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: `Schüler > Laufbahnprozess > "Schüler wechseln"` die neue Klasse wird wieder angezeigt
 * CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
 * CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
+* FIX: Anzeige, Speicherung und Auswahl von neu angelegten Gemeinden beim Zuweisen vom Schüler aus (PLZ und Enter) korrigiert
 
 ### MAGELLAN Bibliothek
 
@@ -32,7 +33,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Neue Medien anlegen: `Jahrgang bis` korrigiert
 * FIX: Zur Übernahme als Medienausleiher angebotene Schülermenge angepasst
 * FIX: Unter `Datenbank > Optionen > Start` wurde der Zeitraum entfernt (die Bibliothek hat keinen Zeitraumbezug mehr, insofern ist eine Startzeitraum überflüssig)
-* FIX: Auswahl eines anderen Mandanten korrigiert
+* FIX: Wechsel zu einem anderen Mandanten korrigiert
 
 ### Skripte  
 
