@@ -28,7 +28,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN Bibliothek
 
 * FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
-* FIX: Auswahldialog zur Übernahme neuer Schüler als Medienausleiher korrigiert
+* FIX: Neue Medien anlegen: Schaltflächenbenennung korrigiert
+* FIX: Neue Medien anlegen: `Jahrgang bis` korrigiert
+* FIX: Zur Übernahme als Medienausleiher angebotene Schülermenge angepasst
 
 ### Skripte  
 
@@ -42,4 +44,4 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX:* FIX:* FIX: Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
+* FIX: Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
