@@ -32,7 +32,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX:
+* FIX: Übernhame MAGELLAN 6 nach MAGELLAN 7 Unfallanzeigen werden mit übernommen
 
 ### Berichte (NEW oder CHANGE)
 
