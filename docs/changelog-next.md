@@ -20,7 +20,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
-* FIX: 
+* FIX: Korrektur bei Durchlauf der SAXSVS Statistik
 
 ### MAGELLAN Bibliothek
 
@@ -28,11 +28,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### Skripte  
 
-* FIX:
+* FIX: `Exportiere SDTF.dws` und `Importiere SDTF.dws` an neue `MagSDTFSync.exe` angepasst
 
 ### MAGELLAN Administrator
 
-* FIX: Übernhame MAGELLAN 6 nach MAGELLAN 7 Unfallanzeigen werden mit übernommen
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Unfallanzeigen werden mit übernommen
 
 ### Berichte (NEW oder CHANGE)
 
