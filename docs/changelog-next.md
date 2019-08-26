@@ -32,7 +32,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Unfallanzeigen werden mit übernommen
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle SchuelerUnfallberichte werden mit übernommen*
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle Beschäftigungsarten werden mit übernommen
 
 ### Berichte (NEW oder CHANGE)
 
