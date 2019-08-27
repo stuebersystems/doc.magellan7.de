@@ -22,10 +22,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * FIX: Korrektur bei Durchlauf der SAXSVS Statistik
 * FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
+* FIX: Korrektur der Auswahl eines weiteren Mandanten
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
+* FIX:
 
 ### Skripte  
 
@@ -34,7 +35,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Unfallanzeigen werden mit übernommen
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten` 
 
 ### Berichte (NEW oder CHANGE)
 
