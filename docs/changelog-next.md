@@ -21,10 +21,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN
 
 * FIX: Korrektur bei Durchlauf der SAXSVS Statistik
+* FIX: Korrektur der Auswahl eines weiteren Mandanten
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
+* FIX:
 
 ### Skripte  
 
@@ -32,8 +33,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle SchuelerUnfallberichte werden mit übernommen*
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle Beschäftigungsarten werden mit übernommen
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle SchuelerUnfallberichte wird mit übernommen
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7 Tabelle Beschäftigungsarten wird mit übernommen
 
 ### Berichte (NEW oder CHANGE)
 
