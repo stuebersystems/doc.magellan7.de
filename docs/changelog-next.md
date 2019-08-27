@@ -21,6 +21,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN
 
 * FIX: Korrektur bei Durchlauf der SAXSVS Statistik
+* FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
 
 ### MAGELLAN Bibliothek
 
@@ -29,6 +30,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### Skripte  
 
 * FIX: `Exportiere SDTF.dws` und `Importiere SDTF.dws` an neue `MagSDTFSync.exe` angepasst
+* FIX: Am Skript `Schüler einschulen.dws` wurde das Einschulen von Schülern korrigiert, die bereits in älteren Halbjahren Schüler der Schule waren
 
 ### MAGELLAN Administrator
 
