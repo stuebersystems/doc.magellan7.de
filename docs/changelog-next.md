@@ -14,15 +14,12 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ## 7.0.17 - 707
 
-### Datenstrukturänderung
-
-* CHANGE:
-
 ### MAGELLAN
 
 * FIX: Korrektur bei Durchlauf der SAXSVS Statistik
 * FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
 * FIX: Korrektur der Auswahl eines weiteren Mandanten
+* FIX: Angezeigte Anzahl der Schüler(gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
 
 ### MAGELLAN Bibliothek
 
@@ -42,3 +39,6 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
 * FIX: SAR-GEMS-AZ (Klasse 5-10)
+* FIX: Lehrerliste mit Geburtstagen.rpt
+* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
+* FIX: Lehrerliste (Email und Funktion 1-8).rpt
