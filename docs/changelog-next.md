@@ -20,6 +20,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
 * FIX: Korrektur der Auswahl eines weiteren Mandanten
 * FIX: Angezeigte Anzahl der Schüler(gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
+* FIX: Schüler|Daten 1 > Sammelzuweisung Konfessionen
+* FIX: Schüler|Daten3|Fremdsprachen: Aufklappmenü der Fächer
+* FIX: Extras|Schlüsselverzeichnisse|Fächer >  IDs eingeblendet
 
 ### MAGELLAN Bibliothek
 
