@@ -19,8 +19,9 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Korrektur bei Durchlauf der SAXSVS Statistik
 * FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
 * FIX: Korrektur der Auswahl eines weiteren Mandanten
-* FIX: Angezeigte Anzahl der Schüler(gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
+* FIX: Angezeigte Anzahl der Schüler (gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
 * FIX: Bezeichnung des Tabs `Datenbank` wird wieder korrekt dargestellt
+* FIX: Ablage von PDF-Dokumenten in Schülerunterverzeichnissen parallel zum Druck (oder auch ohne Druck) für Schüler mit Nebenlaufbahn angepasst
 
 ### MAGELLAN Bibliothek
 
@@ -33,7 +34,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN Administrator
 
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten` 
+* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
 
 ### Berichte (NEW oder CHANGE)
 
