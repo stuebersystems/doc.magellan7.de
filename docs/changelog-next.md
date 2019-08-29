@@ -20,6 +20,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
 * FIX: Korrektur der Auswahl eines weiteren Mandanten
 * FIX: Angezeigte Anzahl der Schüler(gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
+* FIX: Bezeichnung des Tabs `Datenbank` wird wieder korrekt dargestellt
 
 ### MAGELLAN Bibliothek
 
@@ -42,3 +43,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Lehrerliste mit Geburtstagen.rpt
 * FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
 * FIX: Lehrerliste (Email und Funktion 1-8).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
