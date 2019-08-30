@@ -46,3 +46,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
 * FIX: Lehrerliste (Email und Funktion 1-8).rpt
 * FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+
