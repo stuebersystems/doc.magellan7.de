@@ -23,6 +23,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 * FIX: Bezeichnung des Tabs `Datenbank` wird wieder korrekt dargestellt
 * FIX: Ablage von PDF-Dokumenten in Schülerunterverzeichnissen parallel zum Druck (oder auch ohne Druck) für Schüler mit Nebenlaufbahn angepasst
 * FIX: Die erste dem Schüler unter `Daten2` zugewiesene `Bereits besuchte Schule` wird standardmäßig als `Herkunftsschule` übernommen
+* FIX: `Schüler > Daten1` Kontextmenü Passfoto ergänzt um Passfoto aus Digitalquelle
+* FIX: für Schüler mit Status N können Zeugnisse, Berichte etc. als PDF Dateien im Dokumente Ordner gespeichert werden
 
 ### MAGELLAN Bibliothek
 
