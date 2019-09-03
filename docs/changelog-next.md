@@ -38,6 +38,7 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 ### MAGELLAN Administrator
 
 * FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
+* FIX: SHL > 00_Klassenstufen.keys
 
 ### Berichte (NEW oder CHANGE)
 
