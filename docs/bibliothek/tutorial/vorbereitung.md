@@ -12,11 +12,11 @@ Bevor Sie mit dem Übungsteil beginnen können, müssen drei Startbedingungen er
 
 Die dargestellten Übungen basieren auf Beispieldaten, die in der von uns mitgelieferten Datenbankdatei  `Magellan7.fdb` enthalten sind. Diese Demo-Datenbank wird bei der Installation von MAGELLAN standardmäßig unter folgenden Dateipfaden abgelegt.
 
-Betriebssystem|Pfad
---|--
-Windows Vista |C:\Users\Public\Documents\Stüber Systems\Magellan 6\Datenbank
-Windows XP| C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 6\Datenbank
-Windows 2000 |C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 6\Datenbank
+| Betriebssystem | Pfad                                                                                          |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| Windows Vista  | C:\Users\Public\Documents\Stüber Systems\Magellan 6\Datenbank                                 |
+| Windows XP     | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 6\Datenbank |
+| Windows 2000   | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 6\Datenbank       |
 
 Wenn Sie MAGELLAN-BIBLIOTHEK nach der Installation das erste Mal starten, greifen Sie automatisch auf die dort hinterlegte Beispieldatenbank zurück.
 
@@ -35,10 +35,8 @@ Bei einem Barcodescanner handelt es sich um ein Eingabegerät vergleichbar mit M
 Um MAGELLAN-BIBLIOTHEK das erste Mal zu starten, gehen Sie bitte folgendermaßen vor:
 
 1. Rufen Sie das Startmenü Ihres Windows-Betriebssystems auf und wählen Sie den Aufruf  `Programme` \(XP; 2000\) bzw.  `Alle Programme` \(Vista\).
-
 2. Öffnen Sie den Programmordner  `STÜBER SYSTEMS`.
-
-3. Klicken Sie dort mit der linken Maustaste auf die Programmzeile  `Magellan / Bibliothek`.
+3. Klicken Sie dort mit der linken Maustaste auf die Programmzeile  `Magellan/Bibliothek`.
 
 Es öffnet sich das Dialogfenster  `MAGELLAN-Anmeldung`, in das Sie einen Benutzernamen und ein Kennwort eintragen müssen. Tragen Sie hier bitte den Benutzernamen sysdba und das Kennwort masterkey \(gilt nur für neuinstallierte Testsysteme\) ein, die als Zugangsdaten bei jeder Installation standardmäßig hinterlegt werden. Außerdem müssen Sie in diesem Anmeldedialog den Namen der Datenbank, die Sie nutzen möchten, angeben. Beim ersten Programmstart steht Ihnen hier nur der Eintrag  `Magellan` zur Verfügung. Unter diesem Namen ist die mitgelieferte Demo-Datenbank für den Zugriff in Magellan registriert.
 

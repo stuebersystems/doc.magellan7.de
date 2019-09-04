@@ -193,12 +193,3 @@ Um einen bestimmten Listenbereich nach Excel zu exportieren, führen Sie bitte f
 Die Export-Datei wird nun erstellt und automatisch in Excel geöffnet. Von hier aus können Sie die Liste nun weiter bearbeiten oder ausdrucken.
 
 ![Hier sehen Sie einen Excel-Export der Liste `Aktuelle-Vorgänge`.](/assets/images/bibliothek/listen09.png)
-
-Um einen bestimmten Listenbereich nach HTML zu exportieren, gehen Sie bitte folgendermaßen vor:
-
-1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Export nach HTML`.
-2. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und geben Sie im Feld `Dateiname` den Namen der Exportdatei an.
-3. Bestätigen Sie Ihre Eingaben mit `Speichern`
-4. Die Export-Datei wird nun erstellt und automatisch in Ihrem Standardbrowser geöffnet.
-
-![Hier sehen Sie einen HTML-Export der Liste `Aktuelle Vorgänge`.](/assets/images/bibliothek/htmlexport.png)
