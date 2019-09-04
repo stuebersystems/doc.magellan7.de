@@ -39,6 +39,11 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 * FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
 * FIX: SHL > 00_Klassenstufen.keys
+* NEW: aktualisierte Schlüsselverzeichnisse NRW für die Landesstatistik 2019
+
+### Statistik
+
+* NEW: Schleswig-Holstein Statistikmodul 2019. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse. Bitte beachten Sie die aktualisierte Statistikdokumentation für SHL ["Statistikdokumentation für SHL"](https://doc.ls.stueber.de/schleswig-holstein/einstieg/).
 
 ### Berichte (NEW oder CHANGE)
 

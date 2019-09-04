@@ -19,7 +19,7 @@ Mit MAGELLAN 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Report
 
 !!! warning "Wichtig"
 
-    Durch die neue implementierte Runtimeversion von Crystal Reports müssen selbst erstellte Berichte angepasst werden. Die Berichte in unserer Auslieferung sind bereits umgestellt worden. Eine Anleitung welche Schritte für Ihre eigenen Berichte notwendig sind, finden Sie im Abschnitt ["Berichte für MAGELLAN 7 anpassen"](/schulverwaltung/update/Berichte_anpassen.md)
+    Durch die neue implementierte Runtimeversion von Crystal Reports müssen selbst erstellte Berichte angepasst werden. Die Berichte in unserer Auslieferung sind bereits umgestellt worden. Eine Anleitung welche Schritte für Ihre eigenen Berichte notwendig sind, finden Sie im Abschnitt ["Berichte für MAGELLAN 7 anpassen"](/schulverwaltung/update/Berichte_anpassen)
 
 ### Neue Nachrichtenfunktion
 
