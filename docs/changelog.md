@@ -33,7 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
 * FIX: SHL > 00_Klassenstufen.keys
-* NEW: aktualisierte Schlüsselverzeichnisse NRW für die Landesstatistik 2019
+
 
 ### Statistik
 
