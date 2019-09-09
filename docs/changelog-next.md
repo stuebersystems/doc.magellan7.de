@@ -16,6 +16,8 @@ Sie erhalten hier einen Überblick über die voraussichtlichen Änderungen und K
 
 ### MAGELLAN
 
+* FIX: Standardardpfad zur Updateinfo korrigiert
+
 ### MAGELLAN Bibliothek
 
 ### Skripte  
