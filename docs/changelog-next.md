@@ -41,3 +41,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Lehrerliste (Email und Funktion 1-8).rpt
 * FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
 * FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+* FIX: SAC-BF-JZ (B.03.02).rpt (Unterbericht Zeugnisbemerkungen gibt nun richtig den Versetzungsvermerk und die Bemerkungen aus)
