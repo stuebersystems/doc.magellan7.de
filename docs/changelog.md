@@ -10,6 +10,31 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
+## 7.0.18 - 707 (12.09.2019)
+
+### MAGELLAN
+
+* NEW: Import SchülerOnline freigeschaltet
+* FIX: Standardardpfad zur Updateinfo korrigiert
+* FIX: Abspreichern von Schülerdatensätzen mit Leerzeichen unterbunden
+
+### Statistik
+
+* NEW: Nordrhein-Westfalen Statistikmodul 2019. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse. Bitte beachten Sie die aktualisierte Statistikdokumentation für NRW ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: Lehrerliste mit Geburtstagen.rpt
+* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
+* FIX: Lehrerliste (Email und Funktion 1-8).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+* FIX: SAC-BF-JZ (B.03.02).rpt (Unterbericht Zeugnisbemerkungen gibt nun richtig den Versetzungsvermerk und die Bemerkungen aus)
+
 ## 7.0.17 - 707 (04.09.2019)
 
 ### MAGELLAN
@@ -33,7 +58,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
 * FIX: SHL > 00_Klassenstufen.keys
-
 
 ### Statistik
 
