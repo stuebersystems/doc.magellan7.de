@@ -44,3 +44,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt 
+* FIX: Klassenlehrerliste mit Räumen.rpt 
