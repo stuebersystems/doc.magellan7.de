@@ -24,6 +24,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
+FIX: SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
+
 ### MAGELLAN Bibliothek
 
 * FIX: Anzeige der Daten in Ansicht `Medien > Exemplare` Felder `Zustand` und `Kataloge` wurde korrigiert.
