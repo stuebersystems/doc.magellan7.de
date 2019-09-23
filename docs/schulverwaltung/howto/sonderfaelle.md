@@ -30,7 +30,6 @@ Ansicht|Vorgehen
 `Schüler > Auswahlliste`|`pausierend -> aktiv`<br/>Markieren Sie den Schüler und wählen `Rechtsklick > Status zuweisen`. Sie wählen `aktiv` oder werden gefragt, ob das aktuelle Datum als Ende der Pause erfasst werden soll. Alternativ können Sie auch ein abweichendes Datum direkt auf der Laufbahnkarte vergeben.<br/> <br/>`pausierend -> inaktiv`<br/>Kehrt der Schüler nach der Pause nicht an Ihre Schule zurück, können Sie auch den Wert `inaktiv` wählen, bitte tragen Sie anschließend noch ein Abgangsdatum ein.
 `Schüler > Laufbahn`|`pausierend -> aktiv`<br/>Sie tragen das `Bis-Datum` ein, beim Speichern (Hakensymbol im Abwesenheitsfenster) wird gefragt, ob Sie den Schüler gleich wieder aktivieren möchten.
 
-
 ## Rückkehrer, parallele Laufbahn, parallele Bewerbung
 
 Für alle Fälle ist die Vorgehensweisen gleich:
@@ -39,13 +38,12 @@ Nr.|Was ist zu tun?
 --|--
 1. |Eine Bewerberkopie vom Schüler erstellen
 2. |Die Bewerberkopie nach erfolgreichem Bewerberverfahren ins Menü `Schüler` übernehmen.
-3. |Kopie des Schülers einschulen und dabei werden beide "Schülerhälften" entweder zusammengeführt (Stammschüler + Kopie in unterschiedlichen Zeiträumen) oder eine neue Schülerlaufbahn(Stammschüler + Kopie im selben Zeitraum) eröffnet.
+3. |Kopie des Schülers einschulen und dabei werden beide "Schülerhälften" entweder zusammengeführt (Stammschüler + Kopie in unterschiedlichen Zeiträumen) oder eine neue Schülerlaufbahn (Stammschüler + Kopie im selben Zeitraum) eröffnet.
 
 !!! info "Hinweis"
 
-  Für alle Varianten möchten Sie sicherlich gern die Stamm- oder Laufbahndaten aus den vergangenen Zeiträumen weiterverwenden.
-Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich MAGELLAN den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
-
+    Für alle Varianten möchten Sie sicherlich gern die Stamm- oder Laufbahndaten aus den vergangenen Zeiträumen weiterverwenden. 
+    Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich MAGELLAN den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
 
 ### 1. Bewerberkopie erstellen
 
@@ -56,13 +54,11 @@ Möglichkeit|Vorgehen
 **aus dem Menü `Schüler`** |Starten Sie bitte den Assistenten `Als Bewerber kopieren` unter `Schüler > Laufbahnprozesse > Als Bewerber kopieren`. Der Assistent zeigt Ihnen alle Schüler und alle ehemaligen Schüler. Markieren Sie den Schüler, hinterlegen ggfs. auf der nächsten Karte noch Ihre Schule als Herkunftsschule und klicken auf `Fertigstellen`. <br/> <img src="/assets/images/sonderfaelle/sonderfaelle2.png"> <br/><img src="/assets/images/sonderfaelle/sonderfaelle11.png"> 
 **aus dem Menü `Bewerber`** |Wechseln Sie in Menü `Bewerber` (es ist aber auch aus dem Menü `Schüler` heraus möglich) und legen einen Bewerber mit den gleichen Vor- und Nachnamen an. Die Doublettenprüfung schaut immer anhand des Vornamens und Nachnamens im Datenbestand nach, ob bereits ein Schüler oder Bewerber mit diesem Namen an der Schule war. Das Fenster der Doublettenprüfung erscheint, Sie wählen `Schüler als Bewerber kopieren` aus. <br/><br/><img src="/assets/images/sonderfaelle/sonderfaelle9.png">
 
-
-
 !!! info "Hinweis"
 
   Die Stammdaten des Schülers werden nun kopiert und im Menü `Bewerber` als neuer Bewerber angelegt. Es erfolgt dabei ein Verweis (interne ID) zwischen dem Schüler- und dem neuen Bewerberdatensatz. Diese „Interne ID“ kann auch als Spalte in der Auswahlliste `Schüler` eingeblendet werden. Bitte öffnen Sie dafür den Punkt `Schüler/Bewerber > Auswahl > Rechtsklick > Spalten bearbeiten` und ziehen die Spalte mit der linken Maustaste auf die gewünschte Position in die Auswahlliste `Schüler`.
 
-### Welche Daten genau werden für den Bewerber kopiert?
+### Welche Daten genau werden für den Bewerber kopiert
 
 Reiter|Anmerkung
 --|--
@@ -71,7 +67,6 @@ Ausbildung|Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters
 Bereits besuchte Schulen|Beim Erstellen einer Bewerberkopie werden nicht die Daten des Reiters `bereits besuchten Schulen` übernommen. Pflegen Sie diese Daten im Bewerbungszeitraums für den Bewerber, werden diese Daten dann beim späteren Einschulen des Bewerbers in seine Zielklasse mit den beim Stammschüler gespeicherten Daten ergänzt. Die Daten des Bewerbers werden dann als aktuelle Herkunftsschule markiert.
 Familiendaten|Für die `Familiendaten` werden für den Stammschüler, Schülerkopien und Bewerber immer die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 Zeugnisdaten|Für Bewerber werden keine Daten des Reiters `Zeugnis` kopiert.
-
 
 ### 2. Kopie ins Menü `Schüler` übernehmen
 
@@ -86,9 +81,6 @@ Schritt|Aktion
 
  Wechseln Sie ins Menü `Schüler` zurück und rufen Sie `Laufbahnprozesse > Schüler einschulen` auf, um den Schüler seiner Zielklasse zuzuweisen. Schulen Sie den Schüler wie gewohnt ein. Der Assistent prüft immer im Hintergrund, ob es eventuell noch einen Verweis auf einen weiteren Schüler gibt und ob dieser Schüler sich im selben Halbjahr befindet.
 
-
-
-
 Prüfung bei der Einschulung|Folge
 --|--
 es gibt weitere Schüler<br/>im selben Halbjahr|Wenn Sie die Kopie des Schülers im gleichen Halbjahr einschulen, indem auch der "Urschüler" sich befindet, dann werden die Schüler nicht miteinander verbunden, sondern es gibt den Schüler doppelt. Es wird unterschieden in eine Stamm- und in eine Nebenlaufbahn des Schülers, Sie sehen die Markierung `S` und `N` in der Spalte `Laufbahn` in der Auswahlliste der Schüler.
@@ -96,36 +88,33 @@ es gibt weitere Schüler<br/>in anderen Halbjahren|Existiert der Schüler noch n
 
 ![Spalte Laufbahn: Stamm- und Nebenlaufbahn des Schülers](/assets/images/laufbahn.png)
  
- 
 Beide Schüler werden zusammengeführt und die nachstehende Meldung wird ausgegeben. In der Laufbahn sind früheren und die aktuelle Klassenzugehörigkeit vermerkt.
 
 ![Meldung zum Abschluss des Zusammenführens](/assets/images/sonderfaelle/sonderfaelle5.png)
 
-### Welche Daten werden synchronisiert?
- 
- Befindet sich der Schüler im selben Halbjahr, indem die Bewerberkopie eingeschult und mit dem Schüler wieder zusammengeführt werden soll, bleiben der Stammschüler und die Schülerkopie getrennt erhalten, beide werden in der Spalte `Laufbahn` mit `S` (Stammlaufbahn) und `N` Nebenlaufbahn gekennzeichnet. Die Kopien des Stammschülers haben in der Spalte IDIntern einen Verweis auf die ID des Stammschülers. Diese Information wird genutzt um Daten zwischen den Kopien auf dem aktuellen Stand zu halten. Zusätzlich werden für Schülerkopien aber auch teilweise Daten des Stammschülers eingeblendet, welche das genau sind, sehen Sie in der nachfolgenden Tabelle.
- 
- Reiter|Anmerkung
+### Welche Daten werden synchronisiert
+
+Befindet sich der Schüler im selben Halbjahr, indem die Bewerberkopie eingeschult und mit dem Schüler wieder zusammengeführt werden soll, bleiben der Stammschüler und die Schülerkopie getrennt erhalten, beide werden in der Spalte `Laufbahn` mit `S` (Stammlaufbahn) und `N` Nebenlaufbahn gekennzeichnet.
+Die Kopien des Stammschülers haben in der Spalte IDIntern einen Verweis auf die ID des Stammschülers. Diese Information wird genutzt um Daten zwischen den Kopien auf dem aktuellen Stand zu halten. Zusätzlich werden für Schülerkopien aber auch teilweise Daten des Stammschülers eingeblendet, welche das genau sind, sehen Sie in der nachfolgenden Tabelle.
+
+Reiter|Anmerkung
 --|--
 Auswahlliste > Feld `Laufbahn`| Der Stammschüler wird immer mit `S` für Stammlaufbahn gekennzeichnet, die Schülerkopien werden mit `N` für Nebenlaufbahn markiert.<br/>Diese Information wird auch auf den Reitern für den ausgewählten Schüler neben seinem Namen hinter der Klasse dargestellt.
 Stammdaten|Mit Stammdaten sind die Einträge des Reiters `Daten1` bis zur Karte `Extras` gemeint, eine Ausnahme bilden die Daten zu den `bereits besuchten Schulen` auf der Karte `Zugang/Abgang`.<br/>Wird beim Stammschüler und bei Schülerkopien ein Feld geändert, wird beim Speichern geprüft, ob es den Schüler mehrfach gibt, der geänderte Wert wird dann mit für alle weiteren gefundenen Schüler übernommen. Die Daten sind also bei allen drei Varianten identisch, egal von wem aus etwas geändert wird.
-Ausbildung|Hier wird für die Schülerkopien der Inhalt der Ausbildungskarte des Stammschülers gezeigt, aber es können von den Schülerkopien aus Einträge und Änderungen vorgenommen werden. Die Inhalte sind also für den Stammschüler und die Schülerkopien(Laufbahn N) identisch.
+Ausbildung|Hier wird für die Schülerkopien der Inhalt der Ausbildungskarte des Stammschülers gezeigt, aber es können von den Schülerkopien aus Einträge und Änderungen vorgenommen werden. Die Inhalte sind also für den Stammschüler und die Schülerkopien (Laufbahn N) identisch.
 Bereits besuchte Schulen|Hier wird für die Schülerkopien der Inhalt der `Schüler > Zugang/Abgang > bereits besuchten Schulen` des Stammschülers gezeigt, aber es können von den Schülerkopien aus Einträge und Änderungen vorgenommen werden. Die Inhalte sind also für den Stammschüler und die Schülerkopien(Laufbahn N) identisch.
 Familiendaten|Für die `Familiendaten` werden für den Stammschüler und Schülerkopien die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
-Zeugnisdaten|Der Stammschüler und jede Kopie hat eine von den anderen unabhängige Zeugniskarte, Sie können für jede Schülerzeile ein individuelles Zeugnis füllen. 
+Zeugnisdaten|Der Stammschüler und jede Kopie hat eine von den anderen unabhängige Zeugniskarte, Sie können für jede Schülerzeile ein individuelles Zeugnis füllen.
 Laufbahnkarte|Die Schülerkopien haben jeweils nur die eigenen Laufbahneinträge, der Stammschüler hat Einträge über alle parallelen Laufbahnen, also die Stammlaufbahn und die Nebenlaufbahnen.
-Dokumentenverzeichnis|In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte ) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt. 
+Dokumentenverzeichnis|In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte ) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
 
-
-
-## Ein Schüler belegt ein Fach in einer anderen Klasse?
+## Ein Schüler belegt ein Fach in einer anderen Klasse
 
 Schüler in MAGELLAN haben zeitgleich nur eine Stammklasse (Laufbahn `S`). Dennoch kann es sein, dass an Ihrer Schule Zusatzkurse angeboten werden, die Sie gern wie Klassen in Ihrem Datenbestand verwalten möchten. 
 Oder, ein Schüler besucht in einzelnen Fächer den Unterricht in anderen Klassen und soll optional in den Schülerübersichten dieser Klassen sichtbar sein.
 Weisen Sie für die Fächer des Schülers, die er in parallel stattfindenden Klassen besucht unter `Schüler > Zeugnis > Fächer` in der Spalte Zusatzklasse die Klasse zu.
- 
-![Der Schüler besucht die 8a, belegt ein Fach zusätzlich in der 8b](/assets/images/sonderfaelle/sonderfaelle6.png)
 
+![Der Schüler besucht die 8a, belegt ein Fach zusätzlich in der 8b](/assets/images/sonderfaelle/sonderfaelle6.png)
 
 Die Auswahlliste der Spalte Zusatzklasse zeigt alle parallel zur Stammklasse existierenden Klassen an. Die Eintragung ist lediglich für in anderen Klassen besuchte Fächer notwendig.
 Rufen Sie das Menü `Klassen` auf, markieren die entsprechende Klasse und wählen die Unterkarte `Daten > Zeiträume > Schüler`. Sie können für diese Ansicht wählen, ob Ihnen wie gewohnt die Stammschüler dieser Klassen angezeigt werden oder auch die Zusatzschüler mit ihren Stammklassen eingeblendet werden sollen. 
@@ -185,4 +174,3 @@ Schritt|Aktion
 2.| Öffnen Sie bitte aus einem beliebigen Menüpunkt heraus `Extras > Schüler fortschreiben`.
 3.| Markieren Sie die Schüler, die versetzt werden sollen, bei der Auswahl hilft Ihnen die Spalte `Schülerjahrgang` (siehe Abbildung).
 4.| Markieren bitte die Option "Schülerjahrgang erhöhen" (siehe Abbildung)! Fertig!<br/><img src="/assets/images/sonderfaelle/jahrgang06.png"><br/><br/>Wählen Sie die Schüler anhand der Spalte "Jahrgang Schüler" aus<br/><br/><img src="/assets/images/sonderfaelle/jahrgang02.png"><br/><br/>Beim Fortschreiben ins neue Schuljahr mit der "alten" Klasse wird die Option "Jahrgang erhöhen" gewählt
-
