@@ -20,6 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstrukturänderung
 
+* FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese wieder bearbeitet werden.
 * FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese Felder wieder bearbeitet werden.
 
 ### MAGELLAN
@@ -34,9 +35,7 @@ CHANGE: In den Menüs `Personen`, `Lehrer` und `Sorgeberechtigte` wurden die Rei
 FIX: Aufruf des Punktes `Abitur > Prüfung > Schriftliche Prüfungsnoten` überarbeitet
 FIX: Aktualsierung der Anzeige der Schüler beim Aufruf und beim Blättern zur nächsten Klasse unter `Klassen > Zeiträume > Schüler` überarbeitet
 FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleiter` unter `Klasse > Zeiträume > Klassenleiter 1/2` korrigiert
-
-
-
+FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
 
 ### MAGELLAN Bibliothek
 
@@ -59,5 +58,14 @@ FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleit
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt 
-* FIX: Klassenlehrerliste mit Räumen.rpt 
+* FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt
+* FIX: Klassenlehrerliste mit Räumen.rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt
+* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: SAR-GEMS-AZ (Klasse 5-10)
+* FIX: Lehrerliste mit Geburtstagen.rpt
+* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
+* FIX: Lehrerliste (Email und Funktion 1-8).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
