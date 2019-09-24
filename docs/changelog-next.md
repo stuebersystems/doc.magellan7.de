@@ -49,3 +49,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt 
 * FIX: Klassenlehrerliste mit Räumen.rpt 
+* FIX: Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt 
