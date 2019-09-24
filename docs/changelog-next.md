@@ -25,6 +25,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 FIX: SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
+FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
+CHANGE: Überarbeitung der Tabulatorreihenfolge im Menü `Schüler > Daten 2`
 
 ### MAGELLAN Bibliothek
 
