@@ -36,6 +36,7 @@ FIX: SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei über
 
 ### Statistik
 
+* FIX: ABI.TXT - Ausgabe der Abiturnote im Format n.n (Punkt)
 * FIX: SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen. Das führte zu Leereinträgen in der Spalte.
 * FIX: NRW - SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
 * FIX: NRW - SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
