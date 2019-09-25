@@ -24,7 +24,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
-* FIX: SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
 * FIX: Anzeige des Kürzels unter `Daten2 > Bereits besuchte Schulen` für die Felder `Schule` und `Schulform` angepasst.
 * FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
 * FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
@@ -42,8 +41,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Im Assistenten unter `Laufbahnprozess > Schüler wechseln` wurde die Schaltfläche `Weiter` nicht beim erneuten Ausführen aktiv.
 * FIX: Beim Anpassen von Werten unter `Extras > Schlüsselverzeichnisse > Zeiträume` wird beim Speichern nicht mehr der Inhalt der Schülerliste gewechselt.
 * FIX: Beim Einschulen eines Nebenschülers wird der aktuelle Ausbildungsbetrieb wie folgt gesetzt:
-    * Ein Nebenschüler wird im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler nicht miteinander verbunden, beide haben die gleiche Liste an Ausbildungen, aber individuelle Einträge als `aktueller Ausbildungsbetrieb`.
-    * Ein Nebenschüler wird nicht im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler  miteinander verbunden, beide haben die gleiche Liste an Ausbildungen und denselben Eintrag als `aktueller Ausbildungsbetrieb`.
+    * Ein Nebenschüler wird im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler nicht miteinander verbunden, beide haben die gleiche Liste an Ausbildungen, aber individuelle Einträge als aktuelle Ausbildung.
+    * Ein Nebenschüler wird nicht im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler  miteinander verbunden, beide haben die gleiche Liste an Ausbildungen und denselben Eintrag als aktuelle Ausbildung.
+* FIX: Beim Einschulen eines Vagabunden (kein Nebenschüler), wird die unter `Bewerber > Ausbildung > Ausbildung` gewählte aktuelle Ausbildung für den Schüler übernommen.
+* FIX: Der Postleitzahlautomatismus und das Speichern der Daten wurde für das Menü Betriebe überarbeitet.
 
 ### MAGELLAN Bibliothek
 
@@ -57,7 +58,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Statistik
 
-* FIX: SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen, das führte zu Leereinträgen in der Spalte.
+* FIX: SAC - SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
+* FIX: NRW - SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen, das führte zu Leereinträgen in der Spalte.
 * FIX: NRW - SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
 * FIX: NRW - SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
 * FIX: NRW - SIM.TXT - Die Kopfzeilen für Adressmerkmal und Internat am Ende der SIM.TXT haben gefehlt
