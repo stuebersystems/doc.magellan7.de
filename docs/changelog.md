@@ -10,6 +10,78 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
+## 7.0.19 - 708 (25.09.2019)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstrukturänderung
+
+* FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese Felder wieder bearbeitet werden.
+
+### MAGELLAN
+
+* FIX: Anzeige des Kürzels unter `Daten2 > Bereits besuchte Schulen` für die Felder `Schule` und `Schulform` angepasst.
+* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
+* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
+* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
+* FIX: Beim Blättern zwischen Schülern von der Unterkarte `Daten2 > Bereits besuchte Schulen` wird für den nächsten Schüler die korrekte zuletzt besuchte Herkunftsschule geladen.
+* FIX: Fehlende Aktualisierung beim Ausführen von `Laufbahnprozess > Als Bewerber kopieren` während man in der Ansicht `Bewerber` ist korrigiert
+* CHANGE: Die Schaltfläche `Weiter` im Dialog `Laufbahnprozess > Schüler wechseln > Weitere Angaben` wird erst nach dem Eintrag der Daten für `Bisherige Klasse beendet am` und `Eintritt in die neue Klasse am` aktiv
+* CHANGE: In den Menüs `Personen`, `Lehrer` und `Sorgeberechtigte` wurden die Reiter `Nativ` und `Latein` umbenannt in `Standard` und `Alternativ`
+* FIX: Aufruf des Punktes `Abitur > Prüfung > Schriftliche Prüfungsnoten` überarbeitet
+* FIX: Aktualsierung der Anzeige der Schüler beim Aufruf und beim Blättern zur nächsten Klasse unter `Klassen > Zeiträume > Schüler` überarbeitet
+* FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleiter` unter `Klasse > Zeiträume > Klassenleiter 1/2` korrigiert
+* FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
+* FIX: Korrigiert wurde der Eintrag für Daten unter `Betriebe > Daten 2` für neu angelegte Betriebe
+* FIX: Wird ein inaktiver Schüler als Bewerber kopiert, als Vagabund übernommen und in einem späteren Zeitraum wieder eingeschult, dann wird er mit dem inaktiven Schüler verbunden und (das ist die Änderung) der * Status auf aktiv geändert.
+* FIX: Im Assistenten unter `Laufbahnprozess > Schüler wechseln` wurde die Schaltfläche `Weiter` nicht beim erneuten Ausführen aktiv.
+* FIX: Beim Anpassen von Werten unter `Extras > Schlüsselverzeichnisse > Zeiträume` wird beim Speichern nicht mehr der Inhalt der Schülerliste gewechselt.
+* FIX: Beim Einschulen eines Nebenschülers wird der aktuelle Ausbildungsbetrieb wie folgt gesetzt:
+    * Ein Nebenschüler wird im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler nicht miteinander verbunden, beide haben die gleiche Liste an Ausbildungen, aber individuelle Einträge als aktuelle Ausbildung.
+    * Ein Nebenschüler wird nicht im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler  miteinander verbunden, beide haben die gleiche Liste an Ausbildungen und denselben Eintrag als aktuelle Ausbildung.
+* FIX: Beim Einschulen eines Vagabunden (kein Nebenschüler), wird die unter `Bewerber > Ausbildung > Ausbildung` gewählte aktuelle Ausbildung für den Schüler übernommen.
+* FIX: Der Postleitzahlautomatismus und das Speichern der Daten wurde für das Menü Betriebe überarbeitet.
+* FIX: Die Nutzung eines eigenen Unterverzeichnisses (Benutzer) als Quelle für den Schlüsselimport wurde überarbeitet. Bitte beachten Sie in unserer Dokumentation den Punkt [Eigene Kataloge importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer)!
+
+### MAGELLAN Bibliothek
+
+* FIX: Anzeige der Daten in Ansicht `Medien > Exemplare` Felder `Zustand` und `Kataloge` wurde korrigiert.
+
+### Skripte
+
+* FIX: Zuweisen von Zugriffsrechten.dws (für Gast2 fehlte die Aussage über den Zugriff auf SchuelerAbwesenheiten), bitte synchronisieren Sie die Zugriffsrechte erneut, um Benutzern mit dieser Rechtegruppe die korrekten Rechte zuzuweisen.
+
+### MAGELLAN Administrator
+
+### Statistik
+
+* FIX: SAC - SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
+* FIX: NRW - ABI.TXT - Die Abiturnote wird jetzt mit einem Punkt, nicht wie versehentlich mit einem Komma ausgegeben
+* FIX: NRW - SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen, das führte zu Leereinträgen in der Spalte.
+* FIX: NRW - SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
+* FIX: NRW - SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
+* FIX: NRW - SIM.TXT - Die Kopfzeilen für Adressmerkmal und Internat am Ende der SIM.TXT haben gefehlt
+* CHANGE: NRW - SIM.TXT - Die beiden Spalten `Produktname` und `Produktversion` dienen lediglich Supportzwecken. Beide Informationen wurden in die Spalte Produktname verschoben. In der Spalte `Produktversion` geben wir jetzt die Datensatzart aus, dies hilft dem Support bei der Suche nach Problemlösungen.
+* CHANGE: NRW - SIM.TXT - Kein Fehler aber eine Eingabehilfe. Einige Kunden geben keine Versetzungart ein, sondern setzen lediglich das Merkmal Versetzt. Wir tragen dem Folge und berechnen entsprechend die Versetzung anders als zuvor. Nachzulesen in der Dokumentation unter [SIM.TXT - Dateneingabe - Feld "Versetzung"](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/#dateneingabe).
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt
+* FIX: Klassenlehrerliste mit Räumen.rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt
+* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: SAR-GEMS-AZ (Klasse 5-10)
+* FIX: Lehrerliste mit Geburtstagen.rpt
+* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
+* FIX: Lehrerliste (Email und Funktion 1-8).rpt
+* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+
 ## 7.0.18 - 707 (12.09.2019)
 
 ### MAGELLAN
