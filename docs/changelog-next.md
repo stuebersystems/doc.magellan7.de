@@ -36,12 +36,15 @@ FIX: Aufruf des Punktes `Abitur > Prüfung > Schriftliche Prüfungsnoten` übera
 FIX: Aktualsierung der Anzeige der Schüler beim Aufruf und beim Blättern zur nächsten Klasse unter `Klassen > Zeiträume > Schüler` überarbeitet
 FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleiter` unter `Klasse > Zeiträume > Klassenleiter 1/2` korrigiert
 FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
+FIX: Korrigiert wurde der Eintrag für Daten unter `Betriebe > Daten 2` für neu angelegte Betriebe
 
 ### MAGELLAN Bibliothek
 
 * FIX: Anzeige der Daten in Ansicht `Medien > Exemplare` Felder `Zustand` und `Kataloge` wurde korrigiert.
 
-### Skripte  
+### Skripte
+
+* FIX: Zuweisen von Zugriffsrechten.dws (für Gast2 fehlte die Aussage über den Zugriff auf SchuelerAbwesenheiten), bitte synchronisieren Sie die Zugriffsrechte erneut, um Benutzern mit dieser Rechtegruppe die korrekten Rechte zuzuweisen.
 
 ### MAGELLAN Administrator
 
