@@ -42,6 +42,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Im Assistenten unter `Laufbahnprozess > Schüler wechseln` wurde die Schaltfläche `Weiter` nicht beim erneuten Ausführen aktiv.
 * FIX: Beim Anpassen von Werten unter `Extras > Schlüsselverzeichnisse > Zeiträume` wird beim Speichern nicht mehr der Inhalt der Schülerliste gewechselt.
 * FIX: Beim Einschulen eines Nebenschülers wird der aktuelle Ausbildungsbetrieb wie folgt gesetzt:
+    * Ein Nebenschüler wird im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler nicht miteinander verbunden, beide haben die gleiche Liste an Ausbildungen, aber individuelle Einträge als `aktueller Ausbildungsbetrieb`.
+    * Ein Nebenschüler wird nicht im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler  miteinander verbunden, beide haben die gleiche Liste an Ausbildungen und denselben Eintrag als `aktueller Ausbildungsbetrieb`.
 
 ### MAGELLAN Bibliothek
 
