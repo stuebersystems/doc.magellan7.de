@@ -20,7 +20,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstrukturänderung
 
-* FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese wieder bearbeitet werden.
 * FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese Felder wieder bearbeitet werden.
 
 ### MAGELLAN
@@ -35,6 +34,7 @@ CHANGE: In den Menüs `Personen`, `Lehrer` und `Sorgeberechtigte` wurden die Rei
 FIX: Aufruf des Punktes `Abitur > Prüfung > Schriftliche Prüfungsnoten` überarbeitet
 FIX: Aktualsierung der Anzeige der Schüler beim Aufruf und beim Blättern zur nächsten Klasse unter `Klassen > Zeiträume > Schüler` überarbeitet
 FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleiter` unter `Klasse > Zeiträume > Klassenleiter 1/2` korrigiert
+
 FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
 FIX: Korrigiert wurde der Eintrag für Daten unter `Betriebe > Daten 2` für neu angelegte Betriebe
 
@@ -50,7 +50,12 @@ FIX: Korrigiert wurde der Eintrag für Daten unter `Betriebe > Daten 2` für neu
 
 ### Statistik
 
+<<<<<<< HEAD
+* FIX: ABI.TXT - Ausgabe der Abiturnote im Format n.n (Punkt)
+* FIX: SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen. Das führte zu Leereinträgen in der Spalte.
+=======
 * FIX: SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen, das führte zu Leereinträgen in der Spalte.
+>>>>>>> 2850c550e30908b779e78bfca5bafbeacbebbca9
 * FIX: NRW - SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
 * FIX: NRW - SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
 * FIX: NRW - SIM.TXT - Die Kopfzeilen für Adressmerkmal und Internat am Ende der SIM.TXT haben gefehlt
@@ -63,12 +68,3 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt
 * FIX: Klassenlehrerliste mit Räumen.rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt
-* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: SAR-GEMS-AZ (Klasse 5-10)
-* FIX: Lehrerliste mit Geburtstagen.rpt
-* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
-* FIX: Lehrerliste (Email und Funktion 1-8).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
