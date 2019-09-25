@@ -72,17 +72,17 @@ Auf den einzelnen Registerkarten werden oben links weitere Informationen in Form
 
 ### Klassen parallel besuchen
 
-Sollte es an Ihrer Schule notwendig sein, dass ein Schüler zeitgleich mehreren Klassen zugeordnet wird, können Sie das jetzt in MAGELLAN darstellen. Es gibt immer eine Stammklasse (H), der die Schüler als erstes zugeordnet werden. Zusätzlich kann ein Schüler weitere Nebenklassen (N) besuchen. Ob die Schülerzeile zur Stamm- oder Nebenlaufbahn gehört, sehen Sie in der neuen Spalte `Laufbahn` in der Auswahlliste `Schüler` Nach diesem Eintrag können Sie auch wie gewohnt Filtern oder Sortieren usw.
+Sollte es an Ihrer Schule notwendig sein, dass ein Schüler zeitgleich mehreren Klassen zugeordnet wird, können Sie das jetzt in MAGELLAN darstellen. Es gibt immer eine Stammklasse (S), der die Schüler als erstes zugeordnet werden. Zusätzlich kann ein Schüler weitere Nebenklassen (N) besuchen. Ob die Schülerzeile zur Stamm- oder Nebenlaufbahn gehört, sehen Sie in der neuen Spalte `Laufbahn` in der Auswahlliste `Schüler` Nach diesem Eintrag können Sie auch wie gewohnt Filtern oder Sortieren usw.
 
 Benennung|Was ist gemeint|Kennzeichnung/Menü
 --|--|--
-**Stammschüler**|Ist der Schüler, der einmalig angelegt wurde<br/>über seine ID werden Schüler- oder Bewerberkopien verknüpft werden|Menü `Schüler`<br/> Laufbahn mit `H` gekennzeichnet 
+**Stammschüler**|Ist der Schüler, der einmalig angelegt wurde<br/>über seine ID werden Schüler- oder Bewerberkopien verknüpft werden|Menü `Schüler`<br/> Laufbahn mit `S` gekennzeichnet 
 **Bewerberkopie**|Ist eine Kopie, die über die Funktion `Als Bewerber kopieren` angelegt wurde|befindet sich im Menü `Bewerber`<br/>hat einen Eintrag in der Spalte `IDIntern`
 **Schülerkopie**|Ist ein ins Schülermenü übernommener und<br/> parallel zum Stammschüler in eine andere Klasse als zuvor eingeschulter Schüler|Menü `Schüler`<br/> Laufbahn mit `N` gekennzeichnet 
 
 Ein Beispiel:
 
-Die Schülerin Monika Ehrenberg (Stammschüler) besucht aktuell die Klasse BK_01:
+Die Schülerin Monika Ehrenberg (Stammschüler) besucht aktuell die Klasse BK2017A:
 
 ![die Schülerin in ihrer `Stammklasse`](/assets/images/neues/lb01.png)
 
@@ -90,7 +90,7 @@ Zusätzlich soll sie der Klasse Abendschule zugeordnet werden. Dafür wird die S
 
 ![Schüler als Bewerber kopieren](/assets/images/neues/lb02.png)
 
-Bei diesem Schritt wird eine Kopie der Stammdaten von der Karte `Daten1` bis `Extras` extrahiert und mit einer neuen ID im Menü `Bewerber` angelegt. Zusätzlich wird im Feld `IDIntern` die Schüler-ID des originalen Schülerdatensatzes gespeichert. 
+Bei diesem Schritt wird eine Kopie der Stammdaten von der Karte `Daten1` bis `Extras` extrahiert und mit einer neuen ID im Menü `Bewerber` angelegt. Zusätzlich wird im Feld `IDIntern` die Schüler-ID des originalen Schülerdatensatzes gespeichert.
 Es werden für den Bewerber nicht die Daten des Reiters `Ausbildung` und  `bereits besuchten Schulen` (Reiter `Zugang/Abgang`) übernommen. Für den Bewerber anschließend erfasste Daten des Reiters `Ausbildung` und  `bereits besuchten Schulen`, werden später beim Einschulen des Bewerbers mit den Einträgen des Stammschülers und etwaigen Schülerkopien verbunden.
 
 ![Bewerberkopie](/assets/images/neues/lb03.png)
@@ -131,7 +131,7 @@ Stammschüler, Schülerkopie |Auf sämtlichen Unterkarten unter `Schüler > Zeug
 
 #### Dokumentenverzeichnis
 
-In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte ) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt. 
+In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
 
 ### Schülerlaufbahnkarte
 
