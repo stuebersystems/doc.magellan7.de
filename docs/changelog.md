@@ -10,7 +10,7 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
-## 7.0.19 - 708 (25.09.2019)
+## 7.0.19 - 708 (26.09.2019)
 
 !!! warning "Wichtig"
 
