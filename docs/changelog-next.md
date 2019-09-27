@@ -18,6 +18,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX:
 
+### MAGELLAN Administrator
+
+* FIX: Problem beim Einlesen des Schlüsselverzeichnisses `Schulformen` [Schüler > Daten 2 > Höchster Abschluss ABS/BBS > Schulform] gelöst
+
 ### MAGELLAN Bibliothek
 
 * FIX:
@@ -25,8 +29,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Skripte
 
 * FIX:
-
-### MAGELLAN Administrator
 
 ### Statistik
 
