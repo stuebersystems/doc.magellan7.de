@@ -12,7 +12,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ---
 
-## 7.0.20 - 708
+## 7.0.21 - 708
 
 ### MAGELLAN
 
@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Administrator
 
-* FIX: Problem beim Einlesen des Schlüsselverzeichnisses `Schulformen` [Schüler > Daten 2 > Höchster Abschluss ABS/BBS > Schulform] gelöst
+* FIX:
 
 ### MAGELLAN Bibliothek
 
