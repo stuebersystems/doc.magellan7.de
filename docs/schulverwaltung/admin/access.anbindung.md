@@ -1,71 +1,59 @@
 # Access-Anbindung an die Firebird-Datenbank
 
-Möchten Sie Bescheinigungen, Listen oder Zeugnisse drucken, so bietet Ihnen MAGELLAN standardmäßig die Ausdruckmöglichkeit über Crystal Reports an. 
-Alternativ können Sie auch Abfragen oder Berichte unter Microsoft Access erstellen. Hierzu müssen Sie auf Basis einer ODBC-Verbindung eine Verknüpfung zwischen Access und der Firebird-Datenbank herstellen, um mit Access auf die Daten zugreifen zu können. Für Access müssen die folgenden Schritte berücksichtigen, die in den nachfolgenden Abschnitten dieses Kapitels ausführlich erläutert werden:
-
-1. Schritt: Erstellen einer ODBC-Verbindung zu Firebird-Datenbank
-2. Schritt: Ein neue Access-Datenbank anlegen
-3. Schritt: Berichte erstellen
+Möchten Sie Bescheinigungen, Listen oder Zeugnisse drucken, so bietet Ihnen MAGELLAN standardmäßig die Ausdruckmöglichkeit über Crystal Reports an.
+Alternativ können Sie auch Abfragen oder Berichte unter Microsoft Access erstellen. Hierzu müssen Sie auf Basis einer ODBC-Verbindung eine Verknüpfung zwischen Access und der Firebird-Datenbank herstellen,um mit Access auf die Daten zugreifen zu können.
 
 !!! info "Hinweis"
 
 	 Um einen unbefugten Zugriff per Access auf die MAGELLAN-Datenbank zu verhindern, muss auf die Anzahl der Benutzer von Access bereits über das Betriebssystem eingeschränkt werden.
 
-## 1. Schritt: ODBC-Verbindung zur Firebird-Datenbank erstellen
+Für Access müssen die folgenden Schritte berücksichtigen, die in den nachfolgenden Abschnitten dieses Kapitels ausführlich erläutert werden:
 
-Um eine ODBC-Verbindung zu erstellen, müssen Sie über die Systemsteuerung Ihres Rechners eine neue ODBC-Datenquelle einrichten.
+1. Schritt: Prüfen ob mit 32- oder 64-Bit-Access gearbeitet wird.
+2. Schritt: Erstellen einer ODBC-Verbindung zu Firebird-Datenbank
+3. Schritt: Ein neue Access-Datenbank anlegen
+4. Schritt: Berichte erstellen
 
-Unter Windows NT/Windows 2000 gehen Sie dazu wie folgt vor:
+## Access als 32- oder 64-Bit-Ausgabe
 
-1. Öffnen Sie das Windows-Startmenü.
+Als erstes müssen Sie prüfen, ob Sie mit einer 32- oder 64-Bit-Officeversion arbeiten. Je nach Officeversion kann die Stelle dazu abweichen, wir beschreiben hier die Stelle für Office 365.
+Öffnen Sie bitte Access und wechseln auf `Datei > Konto > Infos zu Access`. Noch über der `Product ID` wird die Version gezeigt, am Ende der Zeile gibt es den Hinweis auf 32- oder 64-Bit.
 
-2. Klicken Sie auf Systemsteuerung.
+!!! warning "Wichtig"
 
-3. Klicken Sie auf Verwaltung.
+    Wenn mit einer 64-Bit Officeausgabe arbeiten, führen Sie bitte diese Schritt aus. Nutzen Sie eine 32-Bit-Ausgabe, überspringen Sie bitte den nächsten Punkt.
 
-4. Klicken Sie auf Datenquellen ODBC.
+## 64-Bit Ausgabe von Access mit Firebird verknüpfen
 
-Unter Windows 95/98/ME gehen Sie dazu wie folgt vor:
+Installieren Sie bitte **parallel** zur 32-Bit-Ausgabe von Firebird eine 64-Bit Ausgabe, das Installationpaket finden Sie unter [64-bit Classic, Superclassic & Superserver](https://firebirdsql.org/en/firebird-2-5-9/#Win64).
 
-1. Öffnen Sie das Windows-Startmenü.
+Zusätzlich brauchen Sie noch den passenden ODBC-Treiber, dieser darf natürlich **nicht** den von MAGELLAN verwendeten Treiber ersetzen, sondern soll zusätzlich an einem anderen Ort Ihrer Wahl abgelegt werden.
+Die zur Verfügung stehenden Dateien finden Sie hier: [https://firebirdsql.org/en/odbc-driver/](https://firebirdsql.org/en/odbc-driver/). Bitte wählen Sie ein Ziparchiv (keine *.exe), in der rechten Spalte der Tabelle steht `Win 64-bit DLL`. Dieses Paket entpacken Sie an beliebiger Stelle. Im Unterverzeichnis `bin` finden Sie den Treiber `fbclient.dll`. 
 
-2. Klicken Sie auf Systemsteuerung.
+!!! warning "Wichtig"
 
-3. Klicken Sie auf ODBC Datenquellen 32-Bit.
-Abbildung 256: Dialogfenster „ODBC-Datenquellen-Administrator“
+    Auf diese Datei werden Sie im folgenden beim Einrichten der ODBC-Anbindung verweisen, wählen Sie als Ablagestelle **NICHT** `C:\WINDOWS\system32\` um nicht versehentlich den von MAGELLAN verwendeten Treiber zu überschreiben.
 
-![ODBC-Datenquellen-Administrator](/assets/images/Import_Export.ODBC2.png)
+## ODBC-Verbindung zur Firebird-Datenbank erstellen
 
+Öffnen Sie in der Systemsteuerung den Punkt `Verwaltung > ODBC-Datenquellen`. Fügen Sie eine neue `ODBC-Verbindung` hinzu.
 
+![ODBC-Datenquellen-Administrator](/assets/images/magellan.administrator/02.png)
 
-
-Im Dialogfenster „ODBC-Datenquellen-Administrator“ können Sie nun unterschiedliche Möglichkeiten wählen, um eine ODBC-Verbindung aufzubauen.
-
-### Benutzerabhängige ODBC-Datenquelle
-
-Bei der benutzerabhängigen ODBC-Datenquelle wird die Einrichtung pro Benutzer abgespeichert. Sie müssen pro MAGELLAN-Benutzer auf dem Rechner die Einrichtung vornehmen. Sie haben den Vorteil, dass Sie in diesem Fall auch die in MAGELLAN eingetragenen Kennungen direkt mit abspeichern können. Beim Aufruf der Access-Berichte müssen Sie dann nicht mehr die Kennungen pro Benutzer ändern.
-
-1. Klicken Sie im Dialogfenster ODBC-Datenquellen-Administrator auf die Registerkarte Benutzer-DSN.
-
-2. Klicken Sie auf Hinzufügen.
-
-3. Wählen Sie im Dialogfenster Neue Datenquelle erstellen den Namen „Firebird/InterBase(r) driver“ aus und klicken Sie dann auf Fertigstellen.
-
-4. Füllen Sie im Dialogfenster „Firebird ODBC Setup“ mindestens die folgenden Felder aus:
-
-Feld|Anmerkung
+Feld|Eintrag
 --|--
-DSN| Geben Sie hier eine freie festzulegenden Namen für Ihre ODBC-verbindung an. Für die weiteren Betrachtungen wählen wir hier die Bezeichnung „MAGELLANAccess“.
-Database|Hier geben Sie den lokalen Pfad der MAGELLAN-Datenbank an, analog zur Installation von MAGELLAN. Dies ist entweder der lokale Pfad der MAGELLAN-Datenbank auf Ihrem Einzelplatzrechner (z.B. LOCALHOST:C:\Users\Public\Documents\Stueber Software\MAGELLAN 7\Datenbank\MAGELLAN7.fdb) oder der lokale Pfad des Servers inkl. Servernamen der MAGELLAN-Datenbank auf einer Arbeitsstation im Netzwerk (z.B. MeinServer: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7\Datenbank\MAGELLAN7.fdb)
-Client|Hier geben Sie bitte den folgenden Pfad zur Treiberdatei fbclient.dll an (C:\WINDOWS\system32\fbclient.dll)
-Database Account|Hier können Sie einen Benutzer aus der Benutzerverwaltung von MAGELLAN angeben. Standardmäßig ist dies „sysdba“. Geben Sie hier keinen Wert an, werden Sie beim ersten Aufruf eines Access-Berichtes aus MAGELLAN automatisch nach dem Benutzer gefragt.
-Password|Hier können Sie ein zum Benutzer passendes Kennwort aus der Benutzerverwaltung von MAGELLAN angeben, der das Recht zum Drucken hat. Standardmäßig ist dies „masterkey“ für den Benutzer „sysdba“. Geben Sie hier keinen Wert an, werden Sie beim ersten Aufruf eines Access-Berichtes aus MAGELLAN automatisch nach dem Kennwort gefragt.
-Character Set|Hier müssen Sie den Zeichensatz UTF8 einstellen.
+Data Source Name (DNS) |freiwählbare Bezeichnung
+Descritption | frei wählbar
+Database | Nutzen Sie die Schaltfläche `Browse` und verweisen auf die gewünschte Datenbank.
+Client | Nutzen Sie die Schaltfläche `Browse` und verweisen Sie auf die gesondert gespeicherte 64-bit `fbclient.dll`
+Database Account | Tragen Sie Ihre MAGELLAN-Anmeldedaten ein, das Feld `Role` bleibt leer.
+Character Set | Wählen Sie hier bitte `UTF8` aus.
+Options / Transaction | keine Auswahl treffen
+Options / Extendet identifier properties |Bitte alle aktivieren
 
+Testen Sie abschließend die Verbindung, indem Sie auf `Test connection` klicken.
 
-![Das Dialogfenster „FirebirdODBC Setup“](/assets/images/Import_Export.ODBC.png) 
-
-## 2. Schritt: Neue Access-Datenbank anlegen
+## Neue Access-Datenbank anlegen
 
 Nachdem Sie die ODBC-Verbindung im ersten Schritt erstellt haben, müssen Sie jetzt eine Access-Datenbank anlegen, welche mit der neuen ODBC-Verbindung eine Verknüpfung zur MAGELLAN-Datenbank aufbaut. Die Vorgehensweise wird exemplarisch unter Microsoft Access 2000 vorgestellt:
 
@@ -75,29 +63,25 @@ Nachdem Sie die ODBC-Verbindung im ersten Schritt erstellt haben, müssen Sie je
 
 3. Wählen Sie im Dialog `Neu` auf der Registerkarte `Allgemein `die Option `Datenbank` und klicken Sie dann auf `OK`.
 
-4. Speichern Sie die neue Datenbank unter einem Namen ab, z.B. unter` C:\Stueber Software\MAGELLAN 7\Datenbank\MAGELLAN7.mdb`.
+4. Speichern Sie die neue Datenbank unter einem Namen ab, z.B. unter `C:\Stueber System\MAGELLAN 7\Datenbank\MAGELLAN7.accdb`.
 
-5. Wählen Sie unter `Objekte `den Bereich `Tabellen`. Hier sind noch keine Tabellen eingetragen.
+## Leere Access-Datenbank mit Firebirddatenbank verknüpfen
 
-6. Klicken Sie im weißen Bereich der Anzeigefläche der Tabellen auf die rechte Maustaste und klicken Sie dann auf `Tabellen verknüpfen`.
+1. Wählen Sie bitte `Externe Daten > Neue Datenquelle > aus anderen Quellen > ODBC-Datenbank`.
 
-7. Wählen Sie im Dialogfenster `Verknüpfen `den Dateityp `ODBC Databases ()` aus.
+2. Wählen Sie im nächsten Fenster bitte die Option `Erstellen Sie eine Verknüpfung zur Datenquelle, indem Sie eine verknüpfte Tabelle erstellen`.
+3. Im nächsten Fenster wechseln Sie bitte auf den Reiter `Computerdatenquelle` und wählen die von Ihnen vorab erstellte ODBC-Anbindung aus.
 
-8. Wählen Sie im Dialogfenster `Datenquelle `auswählen die neu definierte Datenquelle `MAGELLANAccess` auf der Registerkarte `Computerdatenquellen` aus.
+4.  Im Dialogfenster `Tabellen verknüpfen` werden Ihnen jetzt alle Tabellen der MAGELLAN-Datenbank zur Auswahl angeboten. Markieren Sie hier durch Mehrfachmarkierung alle Tabellen, die nicht den Präfix „tbl“ (z.B. tblLehrer) besitzen. Wenn Sie das Kennwort der ODBC-Verbindung nicht bei jedem Aufruf eines Access-Berichts später eingeben wollen, müssen Sie zusätzlich das Optionsfeld `Kennwort speichern` anwählen. Klicken Sie abschließend auf `OK`.
 
-9. Im Dialogfenster `Tabellen verknüpfen` werden Ihnen jetzt alle Tabellen der MAGELLAN-Datenbank zur Auswahl angeboten. Markieren Sie hier durch Mehrfachmarkierung alle Tabellen, die nicht den Präfix „tbl“ (z.B. tblLehrer) besitzen. Wenn Sie das Kennwort der ODBC-Verbindung nicht bei jedem Aufruf eines Access-Berichts später eingeben wollen, müssen Sie zusätzlich das Optionsfeld `Kennwort speichern` anwählen. Klicken Sie abschließend auf `OK`.
+Während der Erstellung der Tabellenverknüpfungen werden Sie bei einigen Tabellen aufgefordert, eindeutige Datensatzbezeichner auszuwählen. Hier können Sie jeweils auf `Abbrechen` klicken, da diese Einstellungen für das Drucken nicht relevant sind.
 
-Während der Erstellung der Tabellenverknüpfungen werden Sie bei einigen Tabellen aufgefordert, eindeutige Datensatzbezeichner auszuwählen. Hier können Sie jeweils auf `Abbrechen `klicken, da diese Einstellungen für das Drucken nicht relevant sind.
+Die Verknüpfung zwischen der Firebirddatenbank und der Access-Datenbank ist jetzt erstellt. Über die Tabellen haben Sie einen direkten Zugriff auf die originale Firebird MAGELLAN-Datenbank MAGELLAN7.fdb.
 
-Die Access-Datenbank MAGELLAN7.mdb ist jetzt erstellt und besitzt über die Tabellen einen direkten Zugriff auf die originale Firebird MAGELLAN-Datenbank MAGELLAN7.fdb.
+!!! warning "Wichtig"
 
-
-
+    Bitte denken Sie daran, dass das nicht der Weg ist um Daten in MAGELLAN einzupflegen, der ID-Generator innerhalb von Magellan "weiß" nichts von diesem Zugriff. Legen Sie beispielweise hier eine Klasse an und versuchen anschließend eine Klasse in MAGELLAN an, wird versucht die über Access genutzte ID erneut zu verwenden. Diese Anbindung ist rein zur Auswertung gedacht!
 
 !!! info "Hinweis"
 
       Beim Erstellen der Verknüpfungen zu der Tabelle „Schueler“ unter Microsoft Access erhalten Sie von Access die Rückmeldung, dass eine Verknüpfung nicht möglich ist. Die Tabellen „Schueler“ und „Lehrer“ enthalten mehr als 32 Datenbankindizes. Microsoft Access kann maximal 32 Datenbankindizes verarbeiten. Eine Verknüpfung über den von uns mitgelieferten aktuellen Firebird Open Source Treiber erzeugt daher die korrekte Fehlermeldung. Sie können in der MAGELLAN-Datenbank anstelle der Tabellen „Schueler“ bzw. „Lehrer“ das View „Schueler2“ bzw. „Lehrer2“ verwenden. Beim Verknüpfen von Views werden in Access keine Indizes erzeugt, so dass es keine Probleme mehr gibt. Die beiden View „Schueler2“ bzw. „Lehrer2“ verweisen auf alle Felder der Tabelle „Schueler“ bzw. „Lehrer“.
-
-
-
-
