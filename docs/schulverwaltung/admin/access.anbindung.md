@@ -12,7 +12,7 @@ Für Access müssen die folgenden Schritte berücksichtigen, die in den nachfolg
 1. Schritt: Prüfen ob mit 32- oder 64-Bit-Access gearbeitet wird.
 2. Schritt: Erstellen einer ODBC-Verbindung zu Firebird-Datenbank
 3. Schritt: Ein neue Access-Datenbank anlegen
-4. Schritt: Berichte erstellen
+4. Schritt: Tabellen verknüpfen
 
 ## Access als 32- oder 64-Bit-Ausgabe
 
@@ -72,7 +72,7 @@ Nachdem Sie die ODBC-Verbindung im ersten Schritt erstellt haben, müssen Sie je
 2. Wählen Sie im nächsten Fenster bitte die Option `Erstellen Sie eine Verknüpfung zur Datenquelle, indem Sie eine verknüpfte Tabelle erstellen`.
 3. Im nächsten Fenster wechseln Sie bitte auf den Reiter `Computerdatenquelle` und wählen die von Ihnen vorab erstellte ODBC-Anbindung aus.
 
-4.  Im Dialogfenster `Tabellen verknüpfen` werden Ihnen jetzt alle Tabellen der MAGELLAN-Datenbank zur Auswahl angeboten. Markieren Sie hier durch Mehrfachmarkierung alle Tabellen, die nicht den Präfix „tbl“ (z.B. tblLehrer) besitzen. Wenn Sie das Kennwort der ODBC-Verbindung nicht bei jedem Aufruf eines Access-Berichts später eingeben wollen, müssen Sie zusätzlich das Optionsfeld `Kennwort speichern` anwählen. Klicken Sie abschließend auf `OK`.
+4. Im Dialogfenster `Tabellen verknüpfen` werden Ihnen jetzt alle Tabellen der MAGELLAN-Datenbank zur Auswahl angeboten. Markieren Sie hier durch Mehrfachmarkierung alle Tabellen, die nicht den Präfix „tbl“ (z.B. tblLehrer) besitzen. Wenn Sie das Kennwort der ODBC-Verbindung nicht bei jedem Aufruf eines Access-Berichts später eingeben wollen, müssen Sie zusätzlich das Optionsfeld `Kennwort speichern` anwählen. Klicken Sie abschließend auf `OK`.
 
 Während der Erstellung der Tabellenverknüpfungen werden Sie bei einigen Tabellen aufgefordert, eindeutige Datensatzbezeichner auszuwählen. Hier können Sie jeweils auf `Abbrechen` klicken, da diese Einstellungen für das Drucken nicht relevant sind.
 
