@@ -110,6 +110,11 @@ Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihne
 
 ![Bitte diese beiden Punkte abschließend ausführen!](/assets/images/magellan.administrator/01.png)
 
+## Benutzeranmeldung
+
+Wenn die Version 7 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.fdb) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
+Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
+
 ## Wortersetzungen
 
 Bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in die MAGELLAN 7-Datenbank können Ihre geänderten Feldbezeichnungen aus technischen Gründen nicht übernommen werden. Bitte tragen Sie  unter `MAGELLAN 7 > Extras > Bezeichnungen anpassen > Spalte "durch"` Ihre gewünschten Bezeichnungen neu ein!
