@@ -15,12 +15,12 @@ Der Assistent zum Datenstrukturanpassen prüft vor der Erweiterung der Datenstru
 
     Bitte prüfen Sie vorab welche Version von Firebird Sie aktuell einsetzen. Die Versionsnummer wird Ihnen auf Ihrem Serverrechner unter `Start > Systemsteuerung > Programme und Funktionen > Firebird` gezeigt.  
 
-Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2.5.7,  von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
+Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2.5.9,  von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
 
-## Update von Firebird 2.5.5 auf 2.5.7
+## Update von Firebird 2.5.5 auf 2.5.9
 
 1. Bitte gehen Sie wie folgt vor:
-   Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.7](ftp://ftp.stueber.de/pub/bin/de/magellan/v6/Firebird-2.5.7.27050_0_Win32.exe)
+   Laden Sie die aktuelle Version von Firebird herunter: [Datenbanksystem Firebird](https://magellan.stueber.de/download.php)
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 3. Starten Sie die Installation von Firebird per Doppelklick auf die heruntergeladene Datei. Folgen Sie dann bitte der Installation wie nachstehend abgebildet:
 
