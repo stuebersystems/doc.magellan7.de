@@ -45,7 +45,7 @@ Feld|Eintrag
 Data Source Name (DNS) |freiwählbare Bezeichnung
 Descritption | frei wählbar
 Database | Nutzen Sie die Schaltfläche `Browse` und verweisen auf die gewünschte Datenbank.
-Client | Nutzen Sie die Schaltfläche `Browse` und verweisen Sie auf die gesondert gespeicherte 64-bit `fbclient.dll`
+Client | **Access-32 Bit:** Nutzen Sie die Schaltfläche `Browse` und verweisen Sie auf  `C:\WINDOWS\system32\FBCLIENT.DLL`<br/>**Access-64 Bit:** Nutzen Sie die Schaltfläche `Browse` und verweisen Sie auf die gesondert gespeicherte 64-bit `FBCLIENT.DLL`
 Database Account | Tragen Sie Ihre MAGELLAN-Anmeldedaten ein, das Feld `Role` bleibt leer.
 Character Set | Wählen Sie hier bitte `UTF8` aus.
 Options / Transaction | keine Auswahl treffen
