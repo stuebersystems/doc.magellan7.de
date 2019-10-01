@@ -12,7 +12,7 @@ Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
 * [MAGELLAN  und DAVINCI Knowledgebase](https://doc.kb.stueber.de)
 * [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
-* [Knowledgebase](https://doc.kb.stueber.de)
+* [Knowledgebase](https://doc.kb.stueber.de/)
 * [MAGELLAN Datenstruktur](https://doc.magellan7-toolbox.stueber.de/)
 * [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/)
 * [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/)
