@@ -21,30 +21,25 @@ Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu 
 Alle Klassen, die es im neuen Schuljahr gibt, werden neu angelegt. Das erledigen Sie entweder in dem Sie in das neue 1. Halbjahr wechseln und dort im Klassenmenü über das Plus die Klassen neu anlegen. 
 Oder besser: Sie bleiben im alten zweiten Halbjahr, gehen ins Klassenmenü und wählen `Auswahlliste > Rechtsklick > Schuljahreswechsel`. Dieser Assistent ermöglicht Ihnen auf der Basis Ihrer alten Klassen Kopien ins neue Halbjahr erstellen zu können. Die Kürzel bleiben wie sie sind, Sie nutzen den Assistent lediglich um nicht von Hand neue Klassen anlegen zu müssen. 
 
-
 #### Assistent "Schuljahreswechsel" erstellt neue Klassen
-
 
 Um auf der Basis der bereits im 2.Halbjahr existierenden Klassen neue Klassen für das neue Schuljahr erzeugen zu können, bieten wir Ihnen einen Assistenten mit an. Dieser Assistent kopiert Klassen mit allen getroffenen Einstellungen (aber ohne Schüler!) ins Folgehalbjahr und legt sie dort als neue Klassen mit einer neuen ID an.
 
-Schritt|Aktion
---|--
-**1.**| Wechseln Sie ins zweite Halbjahr des aktuellen Schuljahrs und rufen das Menü `Klassen` auf!
-**2.**|Öffnen Sie den Punkt `Klassen > Bearbeiten > Schuljahreswechsel`. Der Assistent zeigt Ihnen die Klassen des Halbjahres an.
-**3.**|Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre Schüler zu versetzen oder neue Schüler einzuschulen. Klicken Sie auf `Weiter`.^<br/><br/>![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](/assets/images/schuljahreswechsel/schuljahreswechsel01.png)
-**4.**|Auf der nächsten Karte haben Sie die Möglichkeit die Klassenkürzel anzupassen.<br/><br/>Wichtig: Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen, hier soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen.<br/><br/>Also: 10a bleibt 10a. BüKo2018 wird aber BüKo2019.<br/>![Passen Sie hier ggfs. die Klassenkürzel an](/assets/images/schuljahreswechsel/schuljahreswechsel02.png)
-**5.**|Gehen Sie auf `Weiter `und `Fertigstellen`! <br/><br/>![Die Klassen werden kopiert](/assets/images/schuljahreswechsel/schuljahreswechsel03.png)
-**6.**|Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen aber neuen IDs angelegt.<br/><br/>![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](/assets/images/schuljahreswechsel/schuljahreswechsel04.png)
+|Aktion|
+|--|
+|1. Wechseln Sie ins zweite Halbjahr des aktuellen Schuljahrs und rufen das Menü `Klassen` auf!
+|2. Öffnen Sie den Punkt `Klassen > Bearbeiten > Schuljahreswechsel`. Der Assistent zeigt Ihnen die Klassen des Halbjahres an.
+|3. Markieren Sie die Klassen, die Sie fürs nächste Schuljahr benötigen um Ihre Schüler zu versetzen oder neue Schüler einzuschulen. Klicken Sie auf `Weiter`.<br/>![Markieren Sie die Klassen, von denen Sie eine Kopie fürs nächste Halbjahr wünschen](/assets/images/schuljahreswechsel/schuljahreswechsel01.png)
+4. Auf der nächsten Karte haben Sie die Möglichkeit die Klassenkürzel anzupassen.<br/><br/>Wichtig: Diese Möglichkeit richtet sich NICHT an allgemeinbildende Schulen, hier soll auf der Basis der Eintragungen der alten 10a (zum Beispiel die Klassenstufe) eine neue 10a erzeugt werden. Berufsbildende Schulen können aber hier bei Klassenkürzeln die aus einer Abkürzung der Bildungsgangbezeichnung und des Startkalenderjahres das neue Kürzel anpassen.<br/><br/>Also: 10a bleibt 10a. BüKo2018 wird aber BüKo2019.<br/>![Passen Sie hier ggfs. die Klassenkürzel an](/assets/images/schuljahreswechsel/schuljahreswechsel02.png)
+5. Gehen Sie auf `Weiter `und `Fertigstellen`! <br/><br/>![Die Klassen werden kopiert](/assets/images/schuljahreswechsel/schuljahreswechsel03.png)
+6. Ergebnis: Es werden im Folgehalbjahr Klassen mit den Eingaben der alten Klassen aber neuen IDs angelegt.<br/><br/>![Links das alte Halbjahr, rechts das neue Halbjahr, die Klassen wurden kopiert und mit neuen IDs als neue Klassen angelegt](/assets/images/schuljahreswechsel/schuljahreswechsel04.png)
 
 !!! info "Hinweis"
 
   Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
 
-
-
-
 ### 3. Schüler in neue Klassen versetzen
- 
+
 So versetzen Sie einen Schüler:
 
 Schritt|Aktion
