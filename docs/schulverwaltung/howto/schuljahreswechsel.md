@@ -76,12 +76,13 @@ Sie haben die Möglichkeit, Schüler innerhalb desselben Zeitraumes in eine ande
 **Gründe im berufsbildenden Bereich** könnte der Wechsel einen neuen Bildungsgang oder eine Klasse des gleichen Bildungsgangs mit anderen Berufsschultagen sein.
 Gehen Sie folgendermaßen vor:
 
-Schritt|Aktion
---|--
-**1.**|Klicken Sie dazu auf `Extras`, dann auf `Schüler wechseln`. In dem Assistenten „Schüler wechseln“ markieren Sie die Schüler, die Sie wechseln möchten.
-**2.**|Klicken Sie auf `Weiter`, und Sie können die entsprechende Klasse auswählen, in die der Schüler wechseln soll.
-**3.**|Klicken Sie auf `Weiter`, um Angaben zur neuen ausgewählten Klasse angeben zu können. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` noch den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Die weiteren Angaben zum Kopieren der Fachdaten bzw. beim Einfügen einer Fachtafel sind optional und haben die analoge Bedeutung wie beim Versetzen.
-**4.**|Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Wechseln der Schüler durchzuführen. <br/>![Geben Sie hier den letzten Schultag der bisherigen Klasse und den ersten der neuen Klasse ein.](/assets/images/schuljahreswechsel/schuljahreswechsel4.png)
+|Aktion|
+|:--|
+|1. Klicken Sie dazu auf `Extras`, dann auf `Schüler wechseln`. In dem Assistenten „Schüler wechseln“ markieren Sie die Schüler, die Sie wechseln möchten.|
+|2. Klicken Sie auf `Weiter`, und Sie können die entsprechende Klasse auswählen, in die der Schüler wechseln soll.|
+|3. Klicken Sie auf `Weiter`, um Angaben zur neuen ausgewählten Klasse angeben zu können. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` noch den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Die weiteren Angaben zum Kopieren der Fachdaten bzw. beim Einfügen einer Fachtafel sind optional und haben die analoge Bedeutung wie beim Versetzen.|
+|4. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Wechseln der Schüler durchzuführen.|
+| **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel4.png> |
 
 !!! info "Hinweis"
 
@@ -101,13 +102,13 @@ Schüler wechseln |Ja, neue Klasse |Nein, gleicher Zeitraum
 
 ## Klassen auflösen im Halbjahr
 
-Sie müssen Klassen auflösen, wenn Sie z.B. innerhalb des Schuljahres zwei Klassen zusammenlegen. 
+Sie müssen Klassen auflösen, wenn Sie z.B. innerhalb des Schuljahres zwei Klassen zusammenlegen.
 
-Schritt|Aktion
---|--
-**1.**|Klicken Sie dazu auf `Extras` und auf `Schüler wechseln`. Markieren Sie im Assistenten die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`.
-**2.**|Es öffnet sich ein Fenster, in dem Sie die Klasse auswählen können, in die die Schüler wechseln sollen. Geben Sie unter `Weitere Angaben` den letzten Schultag in der alten und den ersten Schultag in der neuen Klasse an.
-**3.**|Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. Auf der Laufbahnkarte wird für die Schüler die bisherige und die neue Klassenzugehörigkeit dokumentiert.
+|Aktion|
+|:--|
+|1. Klicken Sie dazu auf `Extras` und auf `Schüler wechseln`. Markieren Sie im Assistenten die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`.|
+|2. Es öffnet sich ein Fenster, in dem Sie die Klasse auswählen können, in die die Schüler wechseln sollen. Geben Sie unter `Weitere Angaben` den letzten Schultag in der alten und den ersten Schultag in der neuen Klasse an.|
+|3. Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. Auf der Laufbahnkarte wird für die Schüler die bisherige und die neue Klassenzugehörigkeit dokumentiert.|
 
 !!! info "Hinweis"
 
@@ -117,12 +118,13 @@ Schritt|Aktion
 
 Schüler, die Ihre Schule verlassen, weil Sie einen Abschluss erfolgreich erworben haben, oder die die Schule wechseln, werden in MAGELLAN ausgeschult. Ausgeschulte Schüler bleiben in der MAGELLAN-Datenbank. Die Schüler werden dann im nächsten Halbjahr nicht mehr angezeigt, Sie können aber noch jederzeit auf deren Daten zugreifen, indem Sie den Zeitraum wechseln. So schulen Sie Schüler aus:
 
-Schritt|Aktion
---|--
-**1.**|Klicken Sie auf `Extras` und dann auf `Schüler ausschulen`. Der Assistent „Schüler ausschulen“ öffnet sich.
-**2.**|Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.<br/><br/> ![Markieren Sie die Schüler, die Ihre Schule verlassen und klicken Sie auf „Weiter“.](/assets/images/schuljahreswechsel/schuljahreswechsel5.png)
-**3.**|Unter `Weitere Angaben` können Sie das Abgangsdatum und optionale Übergangsdaten vermerken. Markieren Sie das Optionsfeld `Sorgeberechtigte der Schüler inaktiv setzen`, wenn die Sorgeberechtigten der Schüler inaktiv gesetzt werden sollen. 
-**4.**|Klicken Sie dann auf `Weiter` und dann auf `Fertigstellen`, um die markierten Schüler auszuschulen.
+|Aktion|
+|:--|
+|1. Klicken Sie auf `Extras` und dann auf `Schüler ausschulen`. Der Assistent „Schüler ausschulen“ öffnet sich.|
+|2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
+| **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel5.png> |
+|3. Unter `Weitere Angaben` können Sie das Abgangsdatum und optionale Übergangsdaten vermerken. Markieren Sie das Optionsfeld `Sorgeberechtigte der Schüler inaktiv setzen`, wenn die Sorgeberechtigten der Schüler inaktiv gesetzt werden sollen.|
+|4. Klicken Sie dann auf `Weiter` und dann auf `Fertigstellen`, um die markierten Schüler auszuschulen.|
 
 Die ausgeschulten Schüler werden nun speziell in der Auswahlliste der Schüler markiert. Sie erhalten jetzt in der Statusspalte im Gegensatz zum blauen Quadrat der aktiven Schüler ein graues Quadrat zur Unterscheidung. Über die entsprechende Gruppierung der Statusspalte können Sie ausgeschulte direkt von aktiven Schülern unterscheiden.
 
@@ -140,20 +142,22 @@ Haben Sie versehentlich Schüler eingeschult, aus dem Bewerbermenü übernommen 
 
 ![Zeigen Sie über den Auswahlfilter die `Vagabunden` oder die eingeschulten Schüler an! ](/assets/images/neues/filter01.png)
 
-Schritt|Aktion
---|--
-**1.**|Klicken Sie dazu auf `Extras` und dann auf `Schüler korrigieren`. Es öffnet sich der Assistent `Schüler korrigieren`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.<br/><br/>![Dialog „Schüler korrigieren“](/assets/images/schuljahreswechsel/schuljahreswechsel6.png)
-**2.**|Unter `Schüler auswählen` können Sie den oder die Schüler markieren, die Sie versehentlich eingeschult, fortgeschrieben, gewechselt oder versetzt haben.
-**3.**|Klicken Sie dann auf `Weiter`. Bevor der Vorgang rückgängig gemacht wird, werden Sie noch mal gefragt, ob Sie den Vorgang wirklich zurücksetzen möchten. Wenn Sie sich sicher sind, dann klicken Sie auf `Fertigstellen`.
+|Aktion|
+|:--|
+|1. Klicken Sie dazu auf `Extras` und dann auf `Schüler korrigieren`. Es öffnet sich der Assistent `Schüler korrigieren`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
+| **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel6.png> |
+|2. Unter `Schüler auswählen` können Sie den oder die Schüler markieren, die Sie versehentlich eingeschult, fortgeschrieben, gewechselt oder versetzt haben. |
+|3. Klicken Sie dann auf `Weiter`. Bevor der Vorgang rückgängig gemacht wird, werden Sie noch mal gefragt, ob Sie den Vorgang wirklich zurücksetzen möchten. Wenn Sie sich sicher sind, dann klicken Sie auf `Fertigstellen`.|
 
 ## Versehentlich ausgeschult
 
 Wenn Sie einen Schüler versehentlich ausgeschult haben und können Sie ihn wieder in einen aktiven Schüler ändern:
 
-Schritt|Aktion
---|--
-**1.**|Markieren Sie diesen Schüler bitte in der Registerkarte Auswahl. Bitte klicken Sie auf `Bearbeiten` und auf `Status zuweisen`(oder `Rechtsklick > Status zuweisen` in der Auswahlliste).
-**2.**|Es öffnet sich nun das Fenster `Status zuweisen`. Im Auswahlfeld `Neuer Status` wird nun die Option `Aktive(r) Schüler` ausgewählt. Klicken Sie anschließend bitte auf `OK`. Das Statussymbol des Schülers wird wieder blau und das Feld `Abgang `am unter `Schüler > Zugang/Abgang` wird geleert.<br/><br/>![Status zuweisen](/assets/images/schuljahreswechsel/schuljahreswechsel7.png)
+|Aktion|
+|:--|
+|1. Markieren Sie diesen Schüler bitte in der Registerkarte Auswahl. Bitte klicken Sie auf `Bearbeiten` und auf `Status zuweisen`(oder `Rechtsklick > Status zuweisen` in der Auswahlliste).
+|2. Es öffnet sich nun das Fenster `Status zuweisen`. Im Auswahlfeld `Neuer Status` wird nun die Option `Aktive(r) Schüler` ausgewählt. Klicken Sie anschließend bitte auf `OK`. Das Statussymbol des Schülers wird wieder blau und das Feld `Abgang `am unter `Schüler > Zugang/Abgang` wird geleert.|
+| **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel7.png> |
 
 ## Schüler in Bewerber umwandeln
 
