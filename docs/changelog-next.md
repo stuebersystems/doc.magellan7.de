@@ -24,7 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Administrator
 
-* FIX:
+* FIX: Datenübernahme 6 => 7: Die Tabelle Sponsoren und das gleichnamige Feld in der Tabelle Betriebe wurden ergänzt
 
 ### MAGELLAN Bibliothek
 
