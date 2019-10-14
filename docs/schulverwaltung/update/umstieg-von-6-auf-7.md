@@ -6,7 +6,6 @@
 
     Für den Umstieg von MAGELLAN 6 auf MAGELLAN 7 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
 
-
 ## Schüler und Schülerkopien
 
    In MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
@@ -48,7 +47,7 @@ Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen
 Programm| Wo kann ich die Version überprüfen?
 --|--
 MAGELLAN | Bitte vergleichen Sie die angezeigte Version (am besten der Serverrechner-Installation) unter `MAGELLAN > Hilfe > Info über`  mit den angezeigten Version auf im [Downloadbereich](https://MAGELLAN.stueber.de/download.php) oder im Abschnitt ["Was ist neu?"](https://doc.MAGELLAN7.stueber.de/changelog/) der MAGELLAN 6-Dokumentation!<br/> Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.MAGELLAN6.stueber.de/installation/update.html)
-FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die 2.5.8? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.MAGELLAN6.stueber.de/installation/firebird-aktualisieren.html) der MAGELLAN 6-Dokumentation eine Anleitung für das Aktualisieren.
+FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die -Ausgabe, die wir im [Downloadbereich](https://magellan.stueber.de/download.php) anbieten? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.MAGELLAN6.stueber.de/installation/firebird-aktualisieren.html) der MAGELLAN 6-Dokumentation eine Anleitung für das Aktualisieren.
 
 ## MAGELLAN 7 installieren
 
