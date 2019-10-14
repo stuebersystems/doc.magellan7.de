@@ -150,4 +150,4 @@ Deinstallation|msiexec /x "C:\MySetup\MAGELLAN7.msi" /q
 
 ## Weitere Aktionen per Silentmode
 
-Bitte schauen Sie hierzu den Abschnitt ["Aktionen im Silentmode"](/schulverwaltung/installation/magellan-administrator-im-silentmode-starten.md) an!
+Bitte schauen Sie hierzu den Abschnitt ["Aktionen im Silentmode"](/schulverwaltung/installation/magellan-administrator-im-silentmode-starten/) an!
