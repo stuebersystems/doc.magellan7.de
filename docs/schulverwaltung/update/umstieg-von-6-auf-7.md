@@ -6,6 +6,10 @@
 
     Für den Umstieg von MAGELLAN 6 auf MAGELLAN 7 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
 
+## Sächsische Schulen
+
+In MAGELLAN 7 werden Schüler und Ihre Ausbildungen mittels einer GUID eindeutig gekennzeichnet, damit Sie später wiederkehrend Daten nach SAXSVS übergeben können und die Schüler anhand dieses Merkmals eindeutig identifiziert werden können. Wenn Sie die Datenübernahme aber nur für den Export nach SAXSVS durchführen, dann in MAGELLAN 6 weiterarbeiten und später erst auf MAGELLAN 7 umsteigen, dann wird beim späteren Umstieg auch die GUID neu erzeugt. Diese weicht dann natürlich von der in SAXSVS erwarteten GUID ab, eine Identifikation ist so nicht möglich. Ab dem Zeitpunkt, ab dem Sie Daten aus MAGELLAN 7 nach SAXSVS übergeben, muss auch im Alltag auf MAGELLAN 7 umgestiegen werden.
+
 ## Schüler und Schülerkopien
 
    In MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
@@ -113,6 +117,19 @@ Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihne
 
 Wenn die Version 7 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.fdb) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
 Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
+
+## Datenordner
+
+Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordnern dürfen Daten NICHT übernommen werden, weil MAGELLAN 7 hier beispielsweise eine anderen Aufbau erwartet.
+
+Datenordner | Übernahme | Hinweise
+--|--|--
+Berichte|Nein| Unsere originalen Berichte sind für die Nutzung in MAGELLAN 7 angepasst, [eigene Berichte müssen entsprechend angepasst werden](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/).
+Datenbank|Nein| Die Daten aus Ihrer Datenbank werden in die neue Datenbank übertragen.
+Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 7 ab.
+Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von MAGELLAN 7 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
+Skripte|Nein| Aufgrund der geänderten Datenstruktur können Skripte aus MAGELLAN 6 nicht unter MAGELLAN 7 funktionieren, eine Übernahme würde hier schaden.
+Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 7 ab.
 
 ## Wortersetzungen
 
