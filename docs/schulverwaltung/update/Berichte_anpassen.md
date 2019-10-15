@@ -180,7 +180,6 @@ Gehen Sie wie folgt vor:
 
 ![Bei Server an-/abmelden...](/assets/images/berichte.anpassen3.png)
 
-
 2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
 
     ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_2.png)
