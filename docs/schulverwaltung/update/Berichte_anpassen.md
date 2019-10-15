@@ -38,26 +38,20 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
 
 ![Einstellungen ODBC](/assets/images/odbc_1_Treiber.png)
 
-
 1. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
 
 ![Einstellungen ODBC](/assets/images/odbc_2_BenutzerDSN.png)
 
-
 2. Im Konfigurationsfenster geben Sie bei ```Character Set``` den Wert ```NONE``` ein, oder wählen diesen aus. Im Bereich ```Extended identifiert properties``` setzen Sie bitte **alle** Häkchen. 
 
 ![Einstellungen ODBC](/assets/images/odbc_3_KonfigurationKorrektur.png)
-
-
 
 !!! info "Hinweis"
 
      Wenn Sie zwischenzeitlich MAGELLAN auf dem Rechner (Druckvorschau!) verwendet haben, ändert sich diese Einstellung wieder. 
      Bitte kontrollieren Sie vor dem erneuten Start von Crystal Reports diese Einstellungen.
 
-
 ### 2. Datenbankfelder aktualisieren
-
 
 Ein Bericht zeigt die Felder, die beim Erstellen des Berichtes in der Datenstruktur zur Verfügung standen. Um die neuen Datenbankfelder einzufügen, wechseln Sie bitte auf `Datenbank > Datenbank überprüfen`. Im Folgenden kann mehrfach eine Meldung gezeigt werden, die erscheint weil eine Tabelle nicht gefunden wird. Sie wählen bitte immer `NEIN` aus.
 
@@ -65,11 +59,9 @@ Ein Bericht zeigt die Felder, die beim Erstellen des Berichtes in der Datenstruk
 
 ## 3. Datenquellenpfad festlegen
 
-
 Fehlermeldungen:
 
 ![Meldung](/assets/images/cr_error_msg1.png) 
-
 
 ![Meldung](/assets/images/cr_error_msg2.png)
 
@@ -106,8 +98,7 @@ Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einm
     
 Danach können Sie das Dialogfenster ```Schließen``` und den Bericht in der Vorschau anzeigen. Die Fehlermeldung sollte jetzt nicht mehr auftauchen. Ggf. aktualisieren Sie die Datenstruktur des Berichtes über ```Datenbank > Datenbank überprüfen``` und speichern den korrigierten Bericht.
 
-##	4. Tabellenverknüpfungen anpassen
-
+## 4. Tabellenverknüpfungen anpassen
 
 Außerdem sind mit MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen. 
 Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Verknüpfungen` auf.
@@ -129,8 +120,6 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 ### Tabelle SchuelerZeitraeume und Tabelle SchuelerAusbildung 
 
 Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab. 
-
-
 
 !!! warning "Wichtig"
 
