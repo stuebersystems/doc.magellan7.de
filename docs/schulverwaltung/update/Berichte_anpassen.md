@@ -140,7 +140,7 @@ Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
 Diese sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
 
-###	Tabelle "SchuelerKlassen" 
+###	Tabelle "SchuelerKlassen"
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 
@@ -163,7 +163,6 @@ Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen di
 Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitung.
 
 ![Meldung](/assets/images/berichte.anpassen2.png)
-
 
 ## 6. Datenbankverbindung aktualisieren
 
