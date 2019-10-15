@@ -217,3 +217,10 @@ In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde 
 Dann öffnen Sie bitte den Bericht in Crystal Reports und stellen sicher, dass unter `Datei > Berichtsoptionen > Allgemeine Einstellungen` das Häkchen vor `Beim ersten Regenerieren überprüfen` **nicht** aktiviert ist. Wichtig: diese Einstellungen muss bitte für den Bericht und auch für alle Unterberichte deaktiviert sein.
 
 ![Dieses Häkchen darf NICHT aktiviert sein](/assets/images/berichte.anpassen8.png)
+
+### Failed to save document
+
+Manche Berichte lassen sich nicht speichern, auch kein Speichern unter.
+Eine Ursache ist, dass ein Unterbericht im Detailbereich eingebunden wurde. Ändert man das, lässt sich der Bericht auch normal speichern.
+
+![Failed to save document](assets/images/cr.nicht.speicherbar.png)
