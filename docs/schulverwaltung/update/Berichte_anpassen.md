@@ -223,4 +223,4 @@ Dann öffnen Sie bitte den Bericht in Crystal Reports und stellen sicher, dass u
 Manche Berichte lassen sich nicht speichern, auch kein Speichern unter.
 Eine Ursache ist, dass ein Unterbericht im Detailbereich eingebunden wurde. Ändert man das, lässt sich der Bericht auch normal speichern.
 
-![Failed to save document](assets/images/cr.nicht.speicherbar.png)
+![Failed to save document](/assets/images/cr.nicht.speicherbar.png)
