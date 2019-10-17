@@ -30,7 +30,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden
 * FIX: Ändern eines Kürzels im Verzeichnis `Unterrichtsart` für bereits verwendete Werte
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
-
+* FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben
+* CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 erhöht
 
 ### MAGELLAN Administrator
 
