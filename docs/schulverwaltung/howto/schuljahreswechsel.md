@@ -24,10 +24,12 @@ Dieser Assistent ermöglicht Ihnen auf der Basis Ihrer "alten" Klassen Kopien f�
 Der Assistent legt Ihnen auf der Grundlage bereits im Vorhalbjahr existierender Klassen neue Klassen (also mit neuer ID) mit fast allen Einstellungen der alten Klasse an.
 Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird kein Elternvertreter oder Klassensprecher übernommen.
 
-**Allgemeinbildende Schulen:**
+##### Allgemeinbildende Schulen
+
 Sie benötigen je nach Schulart jedes Schuljahr neue Klassen von der 1. Klasse bis zur 13.Klasse um neue Schüler einschulen zu können und um Ihre bestehenden Schüler in die nächsthöhere Klasse (Wiederholer dann beispielsweise von der alten Klasse 5 in dei neue Klasse 5) versetzen zu können. Am Kürzel ändern Sie im nachstehend erklärten Assistenten nichts, aus der alten 5a wird einfach eine neue 5a erzeugt - die in der alten Klasse gewählten Einstellungen (Jahrgang, Fachtafel usw) passen dann und werden übernommen.
 
-**Berufsbildende Schulen:**
+##### Berufsbildende Schulen
+
 Sie benötigen in der Regel nicht für Schüler eine neue Klasse, da die meisten Schüler solange ein Bildungsgang dauert in derselben Klasse bleiben. Sie benötigen aber neue Klasse für neue Bildungsgänge. Sollten Sie ein berufliches Gymnasium sein, kann es auch hier, dass Sie die Schüler nicht durchgehend fortschreiben, sondern wie im allgemeinbildenden Bereich im Wechsel Fortschreiben und Versetzen (Beispiel: Noten in der 11, Punkte ab der 12, in diesem Fall würden die Schüler versetzt werden müssen, um die geänderte Benotung darstellen zu können).
 Wenn Sie Ihre Klassenkürzel wie folgt aufbauen, kann der Assistent auch die Jahreszahlen im Klassenkürzel/Statistikkürzel anpassen:
 
@@ -47,7 +49,6 @@ Diese Vorbelegung kann man später im Assistenten einfach austauschen lassen.
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen02.png>|
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen03.png>|
 |4. Auf der rechten Seite haben Sie die Möglichkeit die Klassenkürzel oder Bezeichnungen anzupassen. Sollten Sie versehentlich zu viele Klassen übernommen haben, können Sie die Klassen auch auf der rechten Seite markieren und über das Minus links oben wieder entfernen. Wenn die Auswahl stimmt klicken Sie bitte auf `Fertigstellen`, die neuen Klassen werden angelegt.|
-
 
 !!! info "Hinweis"
 

@@ -47,6 +47,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN Administrator
 
 * FIX: Datenübernahme 6 => 7: Die Tabelle `Sponsoren` und das gleichnamige Feld in der Tabelle `Betriebe` wurden ergänzt
+* CHANGE: Das MAGELLAN-Importformat ist überarbeitet worden und steht aber dieser Ausgabe wieder zur Verfügung!
 
 ### MAGELLAN Bibliothek
 
