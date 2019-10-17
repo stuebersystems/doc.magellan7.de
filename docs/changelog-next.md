@@ -27,11 +27,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
 * FIX: Bei der Übernahme einer Adressänderung eines Schülers oder Sorgeberechtigten, werden die Änderungen für den jeweils anderen korrekt übernommen.
 * CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden
-* CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden
-* FIX: Ändern eines Kürzels im Verzeichnis `Unterrichtsart` für bereits verwendete Werte
+* CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden.
+* FIX: Ändern eines Kürzels im Verzeichnis `Unterrichtsart` für bereits verwendete Werte.
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
-* FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben
-* CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 erhöht
+* FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben.
+* CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 Klassen erhöht.
+* FIX: Das Ablegen von Dokumenten beim Seriendruck für Nebenschüler wurde korrigiert.
+* FIX: Das Ablegen von Dokumenten beim Druck für Nebenschüler wurde korrigiert.
+* FIX: Trägt man eine neue Herkunftsschule unter `Schüler > Daten2 > Bereits besuchte Schulen` ein wird der Speicherung der Eintrag und die Herkunftsschule direkt aktualisiert.
+* CHANGE: Filtern des Feldes `Status` in den Verzeichnisfeldern unter `Schüler > Daten2 > Höchster Abschluss ABS/BBS`  ergänzt.
+* FIX: Das Feld `Sprache` [Kurssprachen] ist eingebbar unter `Schüler > Zeugnis > Fächer`.
+* CHANGE: Der Style sämtlicher Verzeichnisfelder unter `Schüler > Zeugnis > Fächer/Leistungen` wurde aktualisiert.
+* CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahrprozesse > Klassen übernehmen` aufrufbar.
 
 ### MAGELLAN Administrator
 

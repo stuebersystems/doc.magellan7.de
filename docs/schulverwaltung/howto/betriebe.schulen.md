@@ -1,6 +1,6 @@
 # Betriebe und Schulen
 
-## Betriebe 
+## Betriebe
 
 ### Neuen Betrieb aufnehmen
 
