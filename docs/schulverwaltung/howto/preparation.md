@@ -1,43 +1,37 @@
 # Datenbank vorbereiten
 
-Dieses Kapitel beschreibt die grundlegenden vorbereitenden Schritte für die Arbeit mit MAGELLAN.  Weitere Detailinformationen zur Administration von MAGELLAN finden Sie im Kapitel Administration.
-Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7\Datenbank) zwei Datenbanken abgelegt. 
+Dieses Kapitel beschreibt die grundlegenden vorbereitenden Schritte für die Arbeit mit MAGELLAN, wenn Sie zuvor noch nicht MAGELLAN eingesetzt haben.  
+Weitere Detailinformationen zur Administration von MAGELLAN finden Sie im Kapitel [Administration](https://doc.magellan7.stueber.de/schulverwaltung/admin/administration/).
+Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7\Datenbank) zwei Datenbanken abgelegt.
 
-| Name                   | Zweck                                                                                                                                                                                                                                                                                                                                                                          |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MAGELLAN7.fdb          | Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/)! |
-| MAGELLAN7_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.                                                                                                                                                                                                                                                                                          |
+| Name| Zweck|
+| -- | -- |
+| MAGELLAN7.fdb| Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/)! |
+| MAGELLAN7_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.|
 
 ## MAGELLAN starten
 
 Klicken Sie auf `Start > Programme > STÜBER SYSTEMS > MAGELLAN`. Die MAGELLAN-Datenbank ist grundsätzlich kennwortgeschützt. Wenn Sie MAGELLAN bzw. den MAGELLAN-Administrator starten, müssen Sie in einem Anmeldedialog Ihre Benutzerkennung und Ihr Kennwort angeben.
- 
+
 ![MAGELLAN-Anmeldung](/assets/images/dialog-anmeldung.png)
 
 Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan7.stueber.de/schulverwaltung/admin/users/).
 
 ## Datenbank für den Alltag vorbereiten
- 
-Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
 
+Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
 
 ## Postleitzahl- und Schlüsselverzeichnisse importieren
 
-Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslandspezifischen Schlüsselverzeichnisse und das Postleitzahlverzeichnis importieren. Die Schlüsselverzeichnisse beinhalten je nach Bundesland und Schulart die für die Statistik vorgeschriebenen möglichen Schlüssel. Sollten Sie Ihre leere Datenbank bereits für einen Versuch gefüllt haben, erhalten Sie im MAGELLAN ADMINISTRAROR im Unterpunkt `Datenbankpflege > Mandanten kopieren > MAGELLAN 6 nach MAGELLAN 7 ` über folgende Schaltfläche jederzeit eine neue leere Datenbank im aktuellen Format.
+Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslandspezifischen Schlüsselverzeichnisse und das Postleitzahlverzeichnis importieren. Die Schlüsselverzeichnisse beinhalten je nach Bundesland und Schulart die für die Statistik vorgeschriebenen möglichen Schlüssel. Sollten Sie Ihre leere Datenbank bereits für einen Versuch gefüllt haben, erhalten Sie im MAGELLAN ADMINISTRAROR im Unterpunkt `Datenbankpflege > Mandanten kopieren > MAGELLAN 6 nach MAGELLAN 7` über folgende Schaltfläche jederzeit eine neue leere Datenbank im aktuellen Format.
 
+![Datenbankpflege > Mandanten kopieren > Mag6 nach Mag7](/assets/images/neue.leere.db.png)
 
-  ![Datenbankpflege > Mandanten kopieren > Mag6 nach Mag7](/assets/images/neue.leere.db.png)
+!!! warning "Wichtig"
 
+    Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren/)!
 
-
-
-
-
-!!! info "Hinweis"
-
-  Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren/)!
-
-Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der bundesweit eindeutigen Gemeindeschlüssel und dem Bankleitzahlverzeichnis. Wenn Sie das Postleitzahlverzeichnis importieren, können Sie die automatische Zuordnung von Postleitzahl zu einem Ort bzw. Ort zu einer Postleitzahl nutzen. 
+Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der bundesweit eindeutigen Gemeindeschlüssel und dem Bankleitzahlverzeichnis. Wenn Sie das Postleitzahlverzeichnis importieren, können Sie die automatische Zuordnung von Postleitzahl zu einem Ort bzw. Ort zu einer Postleitzahl nutzen.
 
 1. Klicken Sie auf `Ansicht > Datenaustausch` und dann auf `Kataloge (Schlüsselverzeichnisse) importieren` bzw. auf `Postleitzahlen und Banken importieren`, um das jeweilige Verzeichnis zu importieren. 
 
@@ -47,15 +41,15 @@ Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der b
   
   ![Importassistent für Schlüsselverzeichnisse](/assets/images/dialog-import-schluesselverz.png)
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Sie können im Assistenten „Importiere Schlüsselverzeichnisse/Kataloge“ im Feld „Importiere folgenden Katalog“ auch einzelne Kataloge zum Import auswählen.
+    Sie können im Assistenten „Importiere Schlüsselverzeichnisse/Kataloge“ im Feld „Importiere folgenden Katalog“ auch einzelne Kataloge zum Import auswählen.
 
 ![Importassistent für Postleitzahlen](/assets/images/dialog-import-plz.png)
 
-!!! info "Hinweis"
+!!! danger "Achtung"
 
-  Der Assistent liest Postleitzahlen, Bezirke, Kreise, Bundesländer, Gemeindeschlüssel, Banken und für die Auswahl „Berlin“ auch Stadtbezirke ein.
+    Der Assistent liest Postleitzahlen, Bezirke, Kreise, Bundesländer, Gemeindeschlüssel, Banken und für die Auswahl „Berlin“ auch Stadtbezirke ein.
 
 ## Bankenverzeichnis importieren
 
@@ -67,9 +61,9 @@ Sie können das Verzeichnis der Banken auch getrennt einlesen. Dazu gehen Sie im
 
 3. Wählen Sie unter `Importiere` folgenden Katalog den Wert `Banken` aus und klicken Sie dann auf `Fertigstellen`.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Im Rahmen der Änderung im Zahlungsverkehr ab 2014 müssen Sie im Bankenverzeichnis auch den BIC-Wert der jeweiligen Bank berücksichtigten. Durch das erneute Einlesen nur des Bankenverzeichnisses können Sie Ihr bisheriges Bankenverzeichnis um den BIC-Wert ergänzen.
+    Im Rahmen der Änderung im Zahlungsverkehr ab 2014 müssen Sie im Bankenverzeichnis auch den BIC-Wert der jeweiligen Bank berücksichtigten. Durch das erneute Einlesen nur des Bankenverzeichnisses können Sie Ihr bisheriges Bankenverzeichnis um den BIC-Wert ergänzen.
 
 ## Schlüsselverzeichnisse editieren
 
@@ -103,9 +97,9 @@ Der Schlüssel wird in dem Verzeichnis geändert. Alle Einträge in den Schlüss
 
 Wählen Sie eine Pfadangabe nach Ihren Wünschen, vergeben Sie einen Dateinamen und klicken Sie auf Speichern. Excel startet automatisch und öffnet die soeben angelegte Datei. 
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Eventuell sind schon einige Schlüsselverzeichnisse in MAGELLAN über den MAGELLAN-Administrator importiert worden. Wenn Sie mit einem solchen voreingestellten Verzeichnis arbeiten, sollten Sie sich sicherheitshalber vergewissern, ob die Schlüssel und die Kürzel korrekt sind. Kürzel sind von der Bezeichnung her beliebig, die Schlüssel dürfen nicht verändert werden, da sie sonst nicht mehr mit den Statistikschlüsseln übereinstimmen. 
+    Eventuell sind schon einige Schlüsselverzeichnisse in MAGELLAN über den MAGELLAN-Administrator importiert worden. Wenn Sie mit einem solchen voreingestellten Verzeichnis arbeiten, sollten Sie sich sicherheitshalber vergewissern, ob die Schlüssel und die Kürzel korrekt sind. Kürzel sind von der Bezeichnung her beliebig, die Schlüssel dürfen nicht verändert werden, da sie sonst nicht mehr mit den Statistikschlüsseln übereinstimmen. 
 
 Wenn Sie mit einer mandantenfähigen Version arbeiten, beachten Sie bitte, dass folgende Schlüsselverzeichnisse mandantenabhängig sind:
 
@@ -128,9 +122,9 @@ In MAGELLAN muss mindestens ein Mandant definiert sein. Wie schon früher erwäh
 
 Besitzen Sie eine mandantenfähige Version von MAGELLAN, so müssen Sie bei Bedarf zwischen den Mandanten wechseln, um die gewünschten Daten zum jeweiligen Mandanten zu sehen.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Mandanten sollten grundsätzlich nur durch den Administrator angelegt werden.
+    Mandanten sollten grundsätzlich nur durch den Administrator angelegt werden.
 
 Um sich an einer  Datenbank anzumelden, muss mindestens ein Mandant vorhanden, bitte übeschreiben Sie gegebenenfalls die Daten unter `MAGELLAN > Mandanten > Daten` mit den Daten Ihrer Schule überschrieben. 
 
@@ -138,17 +132,15 @@ Um sich an einer  Datenbank anzumelden, muss mindestens ein Mandant vorhanden, b
 2. Wählen Sie den Menüpunkt `Mandanten`und doppelklicken Sie auf die Zeile des Beispielmandanten.
 3. Sie befinden sich automatisch auf der Registerkarte `Daten 1` des Mandanten. Ersetzen Sie nun die erforderlichen Daten in den Feldern durch Ihre eigenen Schuldaten. Fertig!
 
-
 Auf der Registerkarte `Daten 1` können Sie neben der Anschrift der Schule auch den Schulleiter und den Stellvertreter eintragen. Beide Einträge basieren auf der Auswahl der bisher erfassten Lehrer. Der Eintrag des Schulleiters ist insbesondere für den Ausdruck der Zeugnisse wichtig. Die verschiedenen Schulformen Ihrer Schule können Sie auf der Registerkarte `Daten 2` erfassen. Zusätzlich können Sie mit der Schule bis zu drei Adressen verbinden. Dies kann z.B. das Schulamt oder der Schulträger sein. Diese Adressen müssen zuvor in den Stammdaten der Adressen eingetragen worden sein.
 
 ## Zeiträume definieren
 
 Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor der eigentlichen Eingabe der anderen Daten in MAGELLAN die notwendigen Zeiträume definieren. Ein Zeitraum ist definiert durch ein Anfangs- und ein Enddatum. Zusätzlich sollten noch einige weitere Angaben pro Zeitraum eingetragen werden. In der Regel werden Sie Zeiträume halbjahresweise eingeben (z.B. 1. Halbjahr 2017/2018, 2. Halbjahr 2017/2018). Dieses Intervall empfiehlt sich, wenn halbjahresweise Zeugnisse geschrieben werden.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-  Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
-
+    Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
 
 ## Zeiträume eingeben
 
@@ -166,26 +158,24 @@ Um einen neuen Zeitraum einzustellen, klicken Sie auf `Schuljahre anlegen` . Der
 
   Auslandsschulen, bei denen das 1.Schulhalbjahr vom 01.01.-31.07. und das 2.Schulhalbjahr vom 01.08.-31.12. läuft, nutzen bitte nicht die Schaltfläche `Schuljahre anlegen`, sondern legen die Schulhalbjahre bitte manuell über die Plus-Schaltfläche an. Nachfolgend die Eintragungen beispielhaft pro Feld:
 
-| Feld           | Eintragungen                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ID             | Wird beim Speichern automatisch besetzt                                                                                                                                                                                                                                                                                                                                                                                  |
-| Bezeichnung    | Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet. (zb. 1. Halbjahr 2018/19)                                                                                                                                                                                                                                                                                 |
-| Art            | Bitte jeweils die Zeilen mit den Werten 1. Halbjahr bzw. 2. Halbjahr versehen. Diese Eintragungen sind wichtig um später die Halbjahresergebnisse der Schüler korrekt ins Menü `Abitur` zu synchronisieren.                                                                                                                                                                                                              |
-| Von - Bis      | Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.01.-31.07.<br />2. Halbjahr 01.08.-31.01.                                                                                                                                                                                                                                                                                                              |
+| Feld| Eintragungen|
+| -- | -- |
+| ID| Wird beim Speichern automatisch besetzt|
+| Bezeichnung| Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet. (zb. 1. Halbjahr 2018/19)|
+| Art| Bitte jeweils die Zeilen mit den Werten 1. Halbjahr bzw. 2. Halbjahr versehen. Diese Eintragungen sind wichtig um später die Halbjahresergebnisse der Schüler korrekt ins Menü `Abitur` zu synchronisieren.|
+| Von - Bis| Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.01.-31.07.<br />2. Halbjahr 01.08.-31.01.|
 | Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2008/2009) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2008/2009). |
-
-
 
 ### Trimester
 
 Wenn Sie sich entschieden haben mit Trimestern zu arbeiten, steht Ihnen der Assistent leider nicht zur Verfügung. Bitte legen Sie über das Plus in der Menüleiste des Zeiträume-Fensters eine neue Zeile an und füllen die nachstehenden Felder:
 
-| Feld           | Bedeutung                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ID             | Wird beim Speichern automatisch besetzt                                                                                                                                                                                                                                                                                                                                                                                  |
-| Bezeichnung    | Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet.                                                                                                                                                                                                                                                                                                           |
-| Art            | Wenn Sie die Zeiträume als Halbjahr definiert haben (`Extras > Optionen > Einstellungen > Zeiträume`) können Sie in der Spalte Art die Werte 1. Halbjahr bzw. 2. Halbjahr auswählen. Wenn die Zeiträume als Trimester definiert sind, können Sie in der Spalte Art die Werte 1. Trimester, 2. Trimester bzw. 3. Trimester auswählen.                                                                                     |
-| Von - Bis      | Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.08.-31.01.<br />2. Halbjahr 01.02.-31.07.<br />Für Trimester wählen Sie bitte standardmäßig:<br />1. Trimester 01.08.-31.12.<br />2. Trimester 01.01.-30.04.<br />3. Trimester 01.05.-31.07.                                                                                                                                                           |
+| Feld| Bedeutung|
+| -- | -- |
+| ID| Wird beim Speichern automatisch besetzt|
+| Bezeichnung| Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet.|
+| Art| Wenn Sie die Zeiträume als Halbjahr definiert haben (`Extras > Optionen > Einstellungen > Zeiträume`) können Sie in der Spalte Art die Werte 1. Halbjahr bzw. 2. Halbjahr auswählen. Wenn die Zeiträume als Trimester definiert sind, können Sie in der Spalte Art die Werte 1. Trimester, 2. Trimester bzw. 3. Trimester auswählen.                                                                                     |
+| Von - Bis| Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.08.-31.01.<br />2. Halbjahr 01.02.-31.07.<br />Für Trimester wählen Sie bitte standardmäßig:<br />1. Trimester 01.08.-31.12.<br />2. Trimester 01.01.-30.04.<br />3. Trimester 01.05.-31.07.|
 | Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2008/2009) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2008/2009). |
 
 ## Aktuellen Zeitraum definieren

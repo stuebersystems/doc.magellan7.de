@@ -14,17 +14,14 @@ Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu 
 
 ### 2. neue Klassen anlegen
 
-Alle Klassen, die es im neuen Schuljahr gibt, werden neu angelegt. Das erledigen Sie entweder in dem Sie in das neue 1. Halbjahr wechseln und dort im Klassenmenü über das Plus die Klassen neu anlegen.
+Neue Klassen können Sie aus dem Menü `Klassen` per `STRG+N` oder über die Plusschaltfläche erzeugen.
 
-Oder besser: Sie wechseln in den neuen Zeitraum und wählen `Laufbahnprozesse > Klassenübernehmen`.
-Dieser Assistent ermöglicht Ihnen auf der Basis Ihrer "alten" Klassen Kopien fürs neue Halbjahr erstellen zu können.
+Wenn Sie aber bereits mit MAGELLAN arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
+Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird beispielsweise kein Elternvertreter oder Klassensprecher übernommen.
 
-#### Assistent "Klassen übernehmen" erstellt neue Klassen
+Es gibt noch einen Unterschied zwischen ABS- und BBS-Klassen:
 
-Der Assistent legt Ihnen auf der Grundlage bereits im Vorhalbjahr existierender Klassen neue Klassen (also mit neuer ID) mit fast allen Einstellungen der alten Klasse an.
-Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird kein Elternvertreter oder Klassensprecher übernommen.
-
-##### Allgemeinbildende Schulen
+#### Allgemeinbildende Schulen
 
 Sie benötigen je nach Schulart jedes Schuljahr neue Klassen von der 1. Klasse bis zur 13.Klasse um neue Schüler einschulen zu können und um Ihre bestehenden Schüler in die nächsthöhere Klasse (Wiederholer dann beispielsweise von der alten Klasse 5 in dei neue Klasse 5) versetzen zu können. Am Kürzel ändern Sie im nachstehend erklärten Assistenten nichts, aus der alten 5a wird einfach eine neue 5a erzeugt - die in der alten Klasse gewählten Einstellungen (Jahrgang, Fachtafel usw) passen dann und werden übernommen.
 

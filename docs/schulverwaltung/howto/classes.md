@@ -16,7 +16,7 @@ BBS|An Berufsbildenden Schulen können Klassen länger existieren, so kann beisp
 
 Um eine neue Klasse anzulegen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Klassen `oder wählen Sie `Ansicht > Klassen`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neue Klasse`.
 
-![Hier geben Sie eine neue Klasse ein.](/assets/images/lehrer.klassen_08neu.klasse.png)
+![Hier geben Sie eine neue Klasse ein.](/assets/images/klassen/lehrer.klassen_08neu.klasse.png)
 
 
 Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. Die Klasse ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte „Daten“ dieser Klasse, um deren weitere Daten zu erfassen. Optional können Sie im Dialogfenster `Neue Klasse` auch direkt einen Langnamen in den Feldern „Langname 1“ und „Langname 2“ bzw. eventuell das für die Statistik verwendete Statistikkürzel der Klasse eintragen. Diese Angaben können Sie aber auch zu einem späteren Zeitpunkt auf der Registerkarte „Daten“ der Klasse angeben.
@@ -25,7 +25,7 @@ Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. 
 
 Auf der Registerkarte „Daten“ sind insbesondere die Einstellungen bei „Klassenart“ und „Beurteilungsart“ wichtig.
 
-![Ansicht "Klassen > Daten"](/assets/images/lehrer.klassen_09daten.png)
+![Ansicht "Klassen > Daten"](/assets/images/klassen/lehrer.klassen_09daten.png)
 
 
 Bei der `Klassenart `müssen Sie die Art der Klasse festlegen. Diese Einstellungen haben insbesondere Auswirkungen auf den Bereich „Abitur“ und „Berufsschule“ in MAGELLAN. 
@@ -38,7 +38,7 @@ Die Felder `Beruf`, `Bildungsgang `und `Berufsfeld `sind nur für Berufsbildende
 
 Auf dieser Registerkarte sind alle Zeiträume der Klasse in einer Liste eingetragen. Pro Zeitraum werden die Schüler der Klasse angezeigt werden. Pro Zeitraum können auf der rechten Seite auf der Registerkarte Zeitraum bestimmte Angaben vorgenommen werden.
 
-![Übersicht der Klassenzeiträume](/assets/images/lehrer.klassen_10zeitraeume.png)
+![Übersicht der Klassenzeiträume](/assets/images/klassen/lehrer.klassen_10zeitraeume.png)
 
 
 !!! info "Hinweis"
@@ -65,31 +65,43 @@ Im Feld `Fachtafel` kann für die Klasse pro Klassenzeitraum eine Fachtafel vorg
 
 	Der Inhalt dieses Feldes beinhaltet noch keine Zuweisung der Fächer zu den einzelnen Schülern der Klasse!
 
+![Auf der untergeordneten Registerkarte Schüler sehen Sie zum aktuell markierten Zeitraum alle Schüler der Klasse inkl. deren Aufsummierung im Fuß der Registerkarte.](/assets/images/klassen/lehrer.klassen_11zeitraeume2.png)
 
-![Auf der untergeordneten Registerkarte Schüler sehen Sie zum aktuell markierten Zeitraum alle Schüler der Klasse inkl. deren Aufsummierung im Fuß der Registerkarte.](/assets/images/lehrer.klassen_11zeitraeume2.png)
+## Assistent "Klassen übernehmen"
 
+Neue Klassen können Sie aus dem Menü `Klassen` per `STRG+N` oder über die Plusschaltfläche erzeugen.
 
-## Assistent für den Schuljahreswechsel
+Wenn Sie aber bereits mit MAGELLAN arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
+Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird beispielsweise kein Elternvertreter oder Klassensprecher übernommen.
 
-Für den Schuljahreswechsel steht Ihnen ein Assistent zur Verfügung, der Ihnen Kopien ausgewählter oder aller Klassen des aktuellen Zeitraums für den nachfolgenden Zeitraum erzeugt. Dabei werden neue Klassen, mit neuer ID erzeugt, die die bereits voreingestellten Angaben der „alten“ Klassen übernehmen. 
+Es gibt noch einen Unterschied zwischen ABS- und BBS-Klassen:
 
-> #### warning::Wichtig!
->
-> **allgemeinbildender Bereich**: Sie verwenden den Assistenten um auf der Basis der bereits existierenden Klassen sich neue Klassen anlegen zu lassen. Beispiel: alle Klassen von der 1a bis zur 10b existieren auch im Folgejahr, daher erzeugen Sie mit dem Assistenten Kopien der bestehenden Klassen um dort neue Schüler einzuschulen und Bestandsschüler zu versetzen. Ein Abändern der Kürzel erfolgt nicht, da die Einstellungen der alten Klassen auch für die neuen Klassen gelten.
->**berufsbildender Bereich:** Für alle im neuen Schuljahr neu startenden Bildungsgänge werden Klassen benötigt. Markieren Sie im Assistenten die Klassen der alten entsprechenden Klassen, vergeben dann die neuen Klassenkürzel/Statistikkürzel (Beispiel: aus BüKo2016 wird Büko2017) und lassen die Klassen neu erzeugen. Bitte passen Sie dann für die neuen Klassen noch die Klassenjahrgänge/-stufen unter `Klassen > Zeiträume` an.
+### Allgemeinbildende Schulen
 
-Öffnen Sie in dem Zeitraum, in dem die zu kopierenden Klassen vorhanden sind, den Punkt `Klassen > Auswahlliste > Rechtsklick > Schuljahreswechselassistent`.
+Sie benötigen je nach Schulart jedes Schuljahr neue Klassen von der 1. Klasse bis zur 13. Klasse um neue Schüler einschulen zu können und um Ihre bestehenden Schüler in die nächsthöhere Klasse (Wiederholer dann beispielsweise von der alten Klasse 5 in dei neue Klasse 5) versetzen zu können. Am Kürzel ändern Sie im nachstehend erklärten Assistenten nichts, aus der alten 5a wird einfach eine neue 5a erzeugt - die in der alten Klasse gewählten Einstellungen (Jahrgang, Fachtafel usw) passen dann und werden übernommen.
 
-![Aufruf des Schuljahreswechselassistenten](/assets/images/lehrer.klassen_12schuljahreswechsel1.png)
+### Berufsbildende Schulen
 
+Sie benötigen in der Regel nicht für Schüler eine neue Klasse, da die meisten Schüler solange ein Bildungsgang dauert in derselben Klasse bleiben. Sie benötigen aber neue Klasse für neue Bildungsgänge. Sollten Sie ein berufliches Gymnasium sein, kann es auch hier, dass Sie die Schüler nicht durchgehend fortschreiben, sondern wie im allgemeinbildenden Bereich im Wechsel Fortschreiben und Versetzen (Beispiel: Noten in der 11, Punkte ab der 12, in diesem Fall würden die Schüler versetzt werden müssen, um die geänderte Benotung darstellen zu können).
+Wenn Sie Ihre Klassenkürzel wie folgt aufbauen, kann der Assistent auch die Jahreszahlen im Klassenkürzel/Statistikkürzel anpassen:
 
+Maler_2019 oder Maler_19
 
-![Auswählen der Klassen im Schuljahreswechselassistent](/assets/images/lehrer.klassen_12schuljahreswechsel.png)
+Tragen Sie den Teil des Kürzels, der später als Alpha erkannt werden soll im gleichnamigen Feld unter Klassen > Daten > Alpha ein.
 
+![Alpha vorbelegen bei den Klassen](/assets/images/schuljahreswechsel/klassen_uebernehmen01.png)
 
-Wählen Sie die zu kopierenden Klassen aus.
+Diese Vorbelegung kann man später im Assistenten einfach austauschen lassen.
 
-![Anpassen der Kürzel für die neuen Klassen](/assets/images/lehrer.klassen_13schuljahreswechsel2.png)
+|Aktion|
+|:--|
+|1. Wechseln Sie ins neue Schulhalbjahr und rufen das Menü ``Laufbahnprozesse > Klassenübernehmen`` auf!|
+|2. Der Assistent zeigt Ihnen die Klassen des letzten Halbjahres an. <br/>**Berufsbildende Schulen:**<br/>Wenn Sie das Klassenalpha anpassen möchten, müssen Sie vor der Übernahme der Klassen auf der rechten Seite ins Feld `Alpha` bitte Ihr neues `Alpha` (Beispiel: 2020) eintragen!|
+|3. Markieren Sie die Klassen, die Sie fürs dieses Schuljahr benötigen und klicken auf das Plus oben links, um Ihre Auswahl in die rechte Fensterhälfte zu übernehmen.|
+|**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen02.png>|
+|**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen03.png>|
+|4. Auf der rechten Seite haben Sie die Möglichkeit die Klassenkürzel oder Bezeichnungen anzupassen. Sollten Sie versehentlich zu viele Klassen übernommen haben, können Sie die Klassen auch auf der rechten Seite markieren und über das Minus links oben wieder entfernen. Wenn die Auswahl stimmt klicken Sie bitte auf `Fertigstellen`, die neuen Klassen werden angelegt.|
 
+!!! info "Hinweis"
 
-Sie können auf dieser Karte die Kürzel und die Statistikkürzel der neuen Klassen (nur für den berufsbildenden Bereich) festlegen. Diese Eingaben könnten Sie aber auch später unter `Klassen > Daten` vornehmen.
+  Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
