@@ -57,7 +57,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Das MAGELLAN-Importformat wurde an die Datenstruktur von MAGELLAN 7 angepasst. Bitte lesen hierzu die aktualisierte [Dokumentation](https://doc.magellan7-toolbox.stueber.de/importe/)!
 * CHANGE: Das Skript hinter der Funktion `Synchronisiere Zugriffsrechte` wurde optimiert
 
-
 ### MAGELLAN Bibliothek
 
 * FIX:
