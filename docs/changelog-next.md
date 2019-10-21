@@ -30,8 +30,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ![Aufrufen des Infofensters](/assets/images/changelog/7.0.21.01.png)
 
-![Infofensters](/assets/images/changelog/7.0.21.02.png)
-
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
 * CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden
@@ -48,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Das Feld `Sprache` [Kurssprachen] ist eingebbar unter `Schüler > Zeugnis > Fächer`.
 * FIX: Unter `Datenbank > Optionen > Ein- und Ausblenden > Schüler/Bewerber Extras ausblenden` wird bei gesetztem Haken die Karte ausgeblendet
 * FIX: Wenn im Menü Sorgeberechtigte die Postleitzahl oder der Ort eingegeben werden und mit TAB oder ENTER bestätigt wird, wird das Feld Gemeinde entsprechend der hinterlegten Schlüssels befüllt.
-* FIX: Ist die Postleitzahl oder der Ort beim Sorgeberechtigten nicht eindeutig, wird bei der Wahl eines Wertes aus dem Unterfenster auch die Gemeindekennziffer befüllt. 
+* FIX: Ist die Postleitzahl oder der Ort beim Sorgeberechtigten nicht eindeutig, wird bei der Wahl eines Wertes aus dem Unterfenster auch die Gemeindekennziffer befüllt.
 * FIX: Bei der Übernahme einer Adressänderung eines Schülers oder Sorgeberechtigten, werden die Änderungen für den jeweils anderen korrekt übernommen.
 * FIX: Ändern eines Kürzels im Verzeichnis `Unterrichtsart` für bereits verwendete Werte.
 
