@@ -73,3 +73,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: DAS-GS (Klasse 1-2).rpt
 * FIX: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt
 * FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt (ergänzt um das Feld "Ausbilder" im Bereich der Ausbildung)
+* FIX: Schulbescheinigung für die Vergangenheit.rpt
+* FIX: Schulbescheinigung (Vergangenheit mit Klasse).rpt
