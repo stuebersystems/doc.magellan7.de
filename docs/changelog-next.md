@@ -26,9 +26,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: In allen mit Schlüsselverzeichnissen hinterlegten Eingabefeldern (mit eingeblendeter Bezeichnung) wird hinter der Bezeichnung eine Klammer gezeigt. In der Klammer wird der Wert aus der Spalte Schlüssel gezeigt. Ist im Schlüssel kein Wert enthalten, wird stattdessen ein Strich "(-)" gezeigt. Damit können Sie auch ohne direkt im jeweiligen Schlüsselverzeichnis nachzusehen erkennen, ob ein Schlüsselwert und ob der korrekte Schlüsselwert für ggfs. statistische Auswertungen hinterlegt wurde.
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
-* NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Klassen- und Bewerbungsinformationen` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung.
+* NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Weitere Informationen`, über `STRG+I` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung. Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen)!
 
-![Aufrufen des Infofensters](/assets/images/changelog/7.0.21.01.png)
 
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
