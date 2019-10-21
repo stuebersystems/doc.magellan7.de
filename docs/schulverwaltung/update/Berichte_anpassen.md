@@ -33,6 +33,11 @@ Nr.|Was ist zu tun
 
 Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugreifen können. Das funktioniert nur, wenn wir zuvor ein paar Einstellungen an den ODBC-Treiber weitergeben.
 
+!!! info "Hinweis"
+
+    Diese Einstellungen sind nur notwendig um die Anpassungen an Ihren eigenen Berichten vorzunehmen. Für den Druck und die Druckvorschau aus MAGELLAN gibt es andere Voreinstellungen. 
+    Die für MAGELLAN notwendigen Druckeinstellungen in der ODBC-Anbindung werden automatisch beim Aufruf der Druckvorschau gesetzt.
+
 1. Starten Sie den ODBC-Datenquellen-Administrator (32-Bit) in Windows.<br>
 Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 installierten Treiber. Da muss mindestens die im Bild angegeben Version stehen.
 

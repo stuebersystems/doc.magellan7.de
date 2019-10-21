@@ -17,14 +17,13 @@ Jeder Lehrer füllt seine Datei aus und bringt sie wieder mit in die Schule, dor
 
 Für diese Alternative gibt es das zweiteilige Modul MyMAGELLAN, das aus dem **MyMAGELLAN Center** (für die Erzeugung der Lehrerdateien und den Import der später gefüllten Lehrerdateien) und **MyMAGELLAN** (Werkzeug der Lehrer zum Füllen der Lehrerdatei) besteht.
 
-Modul|Funktion
+**MyMAGELLAN CENTER**<br/>Administrationstool|**MyMAGELLAN**<br/>Lehrertool
 --|--
-**MyMAGELLAN CENTER** |- Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach MAGELLAN eingelesen wurden<br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein
-**MyMAGELLAN** |Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/>Ist das Programm, mit dem der Lehrer seine Notendatei füllt
+- Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/><br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach MAGELLAN eingelesen wurden<br/><br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein|- Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/><br/>- Ist das Programm, mit dem der Lehrer seine Notendatei füllt.
 
-
-
-* [Verteilen](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/verteilen/)
-* [Organisation](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/organisation/)
-* [Importlogik](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/importlogik/)
-* [Einsammeln](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/einsammeln/)
+|In den nachfolgenden Kapiteln beschreiben wir die Vorgehensweise:|
+|:--|
+|[Verteilen](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/verteilen/)|
+| [Organisation](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/organisation/)|
+| [Importlogik](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/importlogik/)|
+| [Einsammeln](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/einsammeln/)|
