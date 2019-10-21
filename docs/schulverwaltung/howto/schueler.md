@@ -56,9 +56,17 @@ Aktueller Inhalt:
 * Ausbildungsinformationen
 * Bewerbungsinformationen
 
-Sie können dieses Fenster aus jeder Registerkarte im Menü `Schüler`, also auch aus der Auswahlliste aufrufen. 
+Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`, also auch aus der Auswahlliste aufrufen. 
 
-Markieren Sie einen Schüler und wählen `STRG+I` oder wählen alternativ eine der nachfolgenden Schaltflächen:
+1. Markieren Sie einen Schüler und wählen `STRG+I` 
+
+oder
+
+1. Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.
+
+oder
+
+3.Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I.
 
 ![Aufruf über das Symbol](/assets/images/schueler/01.png)
 
