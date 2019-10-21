@@ -27,6 +27,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: In allen mit Schlüsselverzeichnissen hinterlegten Eingabefeldern (mit eingeblendeter Bezeichnung) wird hinter der Bezeichnung eine Klammer gezeigt. In der Klammer wird der Wert aus der Spalte Schlüssel gezeigt. Ist im Schlüssel kein Wert enthalten, wird stattdessen ein Strich "(-)" gezeigt. Damit können Sie auch ohne direkt im jeweiligen Schlüsselverzeichnis nachzusehen erkennen, ob ein Schlüsselwert und ob der korrekte Schlüsselwert für ggfs. statistische Auswertungen hinterlegt wurde.
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
 * NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Weitere Informationen`, über `STRG+I` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung. Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen)!
+* NEW: Beim Synchronisieren der Schülerfachdaten ins Modul `Berufsschule` werden nur die Daten übertragen, die zur im gewählten Halbjahr aktuellen Ausbildung gehören. Schülerfachdaten (also Fächer und Noten), die nicht für die aktuelle Ausbildung erworben wurden, werden nicht mit synchronisiert.
 
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
@@ -36,7 +37,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Filtern des Feldes `Status` in den Verzeichnisfeldern unter `Schüler > Daten2 > Höchster Abschluss ABS/BBS`  ergänzt.
 * CHANGE: Der Style sämtlicher Verzeichnisfelder unter `Schüler > Zeugnis > Fächer/Leistungen` wurde aktualisiert.
 * CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahrprozesse > Klassen übernehmen` aufrufbar.   Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/#assistent-klassen-ubernehmen-erstellt-neue-klassen)!
-* CHANGE: Das MAGELLAN-Importformat wurde an die Datenstruktur von MAGELLAN 7 angepasst. Bitte lesen hierzu die aktualisierte [Dokumentation](https://doc.magellan7-toolbox.stueber.de/importe/)!
 
 * FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben.
 * FIX: Das Ablegen von Dokumenten beim Seriendruck für Nebenschüler wurde korrigiert.
@@ -48,11 +48,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Ist die Postleitzahl oder der Ort beim Sorgeberechtigten nicht eindeutig, wird bei der Wahl eines Wertes aus dem Unterfenster auch die Gemeindekennziffer befüllt.
 * FIX: Bei der Übernahme einer Adressänderung eines Schülers oder Sorgeberechtigten, werden die Änderungen für den jeweils anderen korrekt übernommen.
 * FIX: Ändern eines Kürzels im Verzeichnis `Unterrichtsart` für bereits verwendete Werte.
+* FIX: Vorlagenfunktion im Menü `Bewerber` ist überarbeitet worden
+* FIX: Fensterbezeichnung korrigiert beim Bearbeiten von `Bereits besuchten Schulen` unter `Schüler > Daten2`.
 
 ### MAGELLAN Administrator
 
 * FIX: Datenübernahme 6 => 7: Die Tabelle `Sponsoren` und das gleichnamige Feld in der Tabelle `Betriebe` wurden ergänzt
-* CHANGE: Das MAGELLAN-Importformat ist überarbeitet worden und steht aber dieser Ausgabe wieder zur Verfügung!
+* CHANGE: Das MAGELLAN-Importformat wurde an die Datenstruktur von MAGELLAN 7 angepasst. Bitte lesen hierzu die aktualisierte [Dokumentation](https://doc.magellan7-toolbox.stueber.de/importe/)!
+* CHANGE: Das Skript hinter der Funktion `Synchronisiere Zugriffsrechte` wurde optimiert
+
 
 ### MAGELLAN Bibliothek
 
