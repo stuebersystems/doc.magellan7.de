@@ -4,11 +4,11 @@ Die folgende Tabelle listet Tastaturkürzel (Shortcuts) für MAGELLAN auf.
 
  Verwendet in Ansicht | Aktion  | Befehl
  -------------------- | ------- | ----- 
+Menü Schüler         | Aufruf Zusatzfenster `Weitere Infos` | STRG+I
 Auswahlliste         | Markiert alle Zeilen | STRG+A
 Auswahlliste         | Öffnet eine Gruppierung | +
 Auswahlliste         | Schließt eine Gruppierung | -
 Aktualisieren        | Neuladen der gewählten Ansicht | F5
-Ansicht              | Aufruf Menüpunkt Ansicht | STRG+A
 Auswahlliste         | nach der inkrementellen Suche Wechsel auf den nächsten Treffer | STRG+Pfeiltaste 
 Auswahlliste         | Aufruf Daten1 | Enter
 Auswahlliste         | Nächster oder vorheriger Datensatz | Pfeiltasten
