@@ -11,7 +11,13 @@ Dieser Abschnitt beschreibt die Installation von MAGELLAN 7 mit den einzelnen In
 
 
 
-## Netzwerk, Einzelarbeitsplatz oder einen Arbeitsplatz einrichten?
+
+
+!!! danger "Achtung"
+
+    Wenn Sie bereits MAGELLAN einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für MAGELLAN 7 anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+
+## Netzwerk, Einzelarbeitsplatz oder einen Arbeitsplatz einrichten
 
 Kurz vorab, je nachdem was Sie einrichten möchten sind unterschiedliche Installationen oder Installationstypen notwendig.
 
