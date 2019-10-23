@@ -131,6 +131,12 @@ Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihne
 Wenn die Version 7 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.fdb) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
 Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
 
+!!! danger "Achtung"
+
+    Bitte beachten Sie, dass durch die veränderte Datenstruktur das Synchronisieren der Zugriffsrechte im Modul Administrator ausgeführt werden muss!
+
+![MAGELLAN ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte synchronisieren](/assets/images/update/01.png)
+
 ## Datenordner
 
 Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordnern dürfen Daten NICHT übernommen werden, weil MAGELLAN 7 hier beispielsweise eine anderen Aufbau erwartet.
