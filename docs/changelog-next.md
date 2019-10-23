@@ -81,3 +81,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt (ergänzt um das Feld "Ausbilder" im Bereich der Ausbildung)
 * FIX: Schulbescheinigung für die Vergangenheit.rpt
 * FIX: Schulbescheinigung (Vergangenheit mit Klasse).rpt
+* FIX: Schulbescheinigung (mit Klasse und vorauss. Ende zweifach).rpt
+* FIX: Schulbescheinigung (mit Klasse und vorauss. Ende einfach).rpt
