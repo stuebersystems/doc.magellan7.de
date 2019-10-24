@@ -32,7 +32,7 @@ Nr.|Was ist zu tun
 4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
 5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
 
-### 1. ODBC-Treiber-Einstellungen
+## 1. ODBC-Treiber-Einstellungen
 
 Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugreifen können. Das funktioniert nur, wenn wir zuvor ein paar Einstellungen an den ODBC-Treiber weitergeben.
 
