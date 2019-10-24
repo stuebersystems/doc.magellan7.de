@@ -59,7 +59,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX:
+* FIX: `Ausleihe > Sammelaktion > Klassensatz auswählen` und Ausleiher auswählen
+* NEW: Wenn im Medienfilter ein Wert eingegeben wird, der zu einer leeren Liste führen würde, dann wird eine entsprechende Meldung ausgegeben.
+* CHANGE: Im Medienfilter wird nach dem erneuten Aufruf das zuletzt gewählte Filterkriterium gezeigt.
+* CHANGE: Die Titelzeilen in den Menüpunkten wurden überarbeitet und den Titelzeilen in MAGELLAN angeglichen (Beispiel: Menü `Lieferant`, Anzeige des in der Liste ausgewählten Lieferanten am oberen Fensterrand)
+* CHANGE: Seriendruck aus dem Menü `Mahnwesen` überarbeitet
+* CHANGE: `Datenbank > Optionen > Autoupdate`: Anzeige überarbeitet
 
 ### Skripte
 
