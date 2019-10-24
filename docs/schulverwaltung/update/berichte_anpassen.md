@@ -46,6 +46,10 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
 
 ![Einstellungen ODBC](/assets/images/odbc_1_Treiber.png)
 
+!!! info "Hinweis"
+
+    Bitte achten Sie darauf, dass Ihr zu ändernder Bericht währenddessen noch nicht in Crystal Reports geladen ist!
+
 1. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
 
 ![Einstellungen ODBC](/assets/images/odbc_2_BenutzerDSN.png)
