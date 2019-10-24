@@ -155,9 +155,9 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 
 > Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
 
-### Tabelle SchuelerZeitraeume und Tabelle SchuelerAusbildung 
+### SchuelerZeitraeume und SchuelerAusbildung
 
-Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab. 
+Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab.
 
 !!! warning "Wichtig"
 
@@ -174,11 +174,16 @@ Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
 ![SchuelerAusbildung](/assets/images/cr_fix_schuelerAusbildung.png)
 
-###	Tabelle "Schueler" - Felder "SopaedFoerderungen", "Foerderschwerpunkt1", "Foerderschwerpunkt2", "Behinderung"
+### Tabelle "Schueler"
 
-Diese sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
+Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
 
-###	Tabelle "SchuelerKlassen"
+* "SopaedFoerderungen"
+* "Foerderschwerpunkt1"
+* "Foerderschwerpunkt2"
+* "Behinderung" 
+
+### SchuelerKlassen
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 
