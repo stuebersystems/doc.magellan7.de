@@ -8,6 +8,10 @@
 
 ## Was ist vorab zu beachten
 
+### Datenübernahme testen
+
+Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
+
 ### Eigene Berichte
 
 MAGELLAN beinhaltet eine aktualisierte Schnittstelle zu Crystal Reports, damit können Sie neue Funktionen in Ihren MAGELLAN-Berichten verwenden.
@@ -116,7 +120,14 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 
 ## Meldungen
 
-Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Diese Meldungen können Sie nutzen um anschließend die Punkte in MAGELLAN 7 nachzupflegen.
+Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Es kann sein, dass die Meldungen dazudienen, Ihnen Datensätze zu zeigen, die Sie in Version 7 nachpflegen müssen.
+
+Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen.
+Mit diesem Meldungen sollten Sie sich an unser [Supportteam](https://support.stueber.de/) wenden, damit gegebenenfalls noch Korrekturen vorab vorgenommen werden können!
+
+!!! info "Hinweis"
+
+    Sollten Sie die Datenstruktur der MAGELLAN 6 Datenbank verändert haben, müssen Sie diese Änderungen zurücksetzen um die Datenübernahme erfolgreich abschließen zu können.
 
 ## Pflege
 
