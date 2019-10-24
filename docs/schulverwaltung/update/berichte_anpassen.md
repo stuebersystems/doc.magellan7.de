@@ -14,7 +14,7 @@ Dies ist grundsätzlich eine erfreuliche Nachricht, da ab Version 7 sämtliche S
 Bedingt durch diese Umstellung benötigt MAGELLAN 7 aber einen aktualisierten ODBC-Treiber, der Unicode verarbeiten kann.
 Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die neuen Anforderungen nicht geeignet.
 
-!!! warning "Wichtig"
+!!! info "Hinweis"
 
     Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 7-Installation einzurichten. 
 
