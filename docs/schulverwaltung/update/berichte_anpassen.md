@@ -14,9 +14,13 @@ Dies ist grundsätzlich eine erfreuliche Nachricht, da ab Version 7 sämtliche S
 Bedingt durch diese Umstellung benötigt MAGELLAN 7 aber einen aktualisierten ODBC-Treiber, der Unicode verarbeiten kann.
 Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die neuen Anforderungen nicht geeignet.
 
-Während Tests mit dem neuen ODBC-Treiber und unseren Berichten ist aufgefallen, dass viele Berichte eine Fehlermeldung produzierten, die nach Recherchen auf problematische Datenbank-Abfragen zurückzuführen sind, die ältere Crystal-Reports Versionen produzieren.
+!!! warning "Wichtig"
 
-Während der ältere ODBC-Treiber, der in MAGELLAN 6/6.5 Verwendung findet dahingehend fehlertolerant zu sein scheint, verweigert der neuere Treiber die Verarbeitung und erzeugt einen Fehler.
+    Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 7-Installation einzurichten. 
+
+!!! warning "Wichtig"
+
+    Während Tests mit dem neuen ODBC-Treiber und unseren Berichten ist aufgefallen, dass viele Berichte eine Fehlermeldung produzierten, die nach Recherchen auf problematische Datenbank-Abfragen zurückzuführen sind, die ältere Crystal-Reports Versionen produzieren. Der ältere ODBC-Treiber, der in MAGELLAN 6/6.5 Verwendung findet, scheint dahingehend fehlertolerant zu sein, verweigert der neuere Treiber die Verarbeitung und erzeugt einen Fehler.
 
 ## Was ist zu tun - eine Übersicht
 
@@ -94,13 +98,13 @@ ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet
 ![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_5.png)
 
 ![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_6.png)
-    
+
 5. Sonderfall ```SchuelerKlassen```<br>Die SchuelerKlassen haben eine neue Datenstruktur und Crystal-Reports kennt im bestehenden Bericht lediglich die alte Datenstruktur. Damit kann die Tabelle nicht einfach neu verknüpft werden. Sie erhalten deshalb ein weiteres Dialogfenster, dass Sie lediglich mit ```OK``` quittieren. 
 
 ![SchuelerKlassen](/assets/images/cr_fix_step2_7.png)
 
 Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einmal in den Datenbank-Assistenten gehen und wie bereits erwähnt, die Verknüpfung der Tabelle "SchuelerKlassen" korrigieren (Fehlende Verknüpfung auf Feld ```SchuelerZeitraumID``` ergänzen).
-    
+
 Danach können Sie das Dialogfenster ```Schließen``` und den Bericht in der Vorschau anzeigen. Die Fehlermeldung sollte jetzt nicht mehr auftauchen. Ggf. aktualisieren Sie die Datenstruktur des Berichtes über ```Datenbank > Datenbank überprüfen``` und speichern den korrigierten Bericht.
 
 ## 4. Tabellenverknüpfungen anpassen
@@ -130,7 +134,7 @@ Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet 
 
      Bitte löschen Sie die Verknüpfungen zwischen der Tabelle "Schueler" und der Tabelle "SchuelerAusbildung". 
      Setzen Sie stattdessen die Verbindungen zwischen der Tabelle "SchuelerZeitraeume" und der Tabelle "SchuelerAusbildung".
-     
+
 Die neue Verknüpfung muss wie folgt aussehen:
 
 Tabelle und Feld|Art der Verbindung|Tabelle und Feld
@@ -204,6 +208,10 @@ Gehen Sie wie folgt vor:
 7. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!
 
 ## weitere Probleme?
+
+### Keine Datenbankverbindung möglich
+
+Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 7-Installation einzurichten.
 
 ### Die Vorschau lädt und lädt....
 
