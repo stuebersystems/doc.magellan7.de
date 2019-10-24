@@ -133,7 +133,7 @@ Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:
 
 !!! danger "Achtung"
 
-    Bitte beachten Sie, dass durch die veränderte Datenstruktur das Synchronisieren der Zugriffsrechte im Modul Administrator ausgeführt werden muss!
+    Bitte beachten Sie, dass durch die veränderte Datenstruktur das `Zugriffsrechte synchronisieren` im Modul `Administrator` ausgeführt werden muss!
 
 ![MAGELLAN ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte synchronisieren](/assets/images/update/01.png)
 
