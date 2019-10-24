@@ -217,11 +217,11 @@ Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 
 
 Wenn Sie alle vorstehenden Punkte befolgt haben, die Vorschau aber noch immer dauerhaft lädt, ist vermutlich eine vergessene Verknüpfung in einem Unterbericht die Ursache. Die Übersicht der Verknüpfungen gilt für den jeweils gewählten Bericht oder Unterbericht. Bitte schauen Sie, ob es Unterbericht in Ihrem Bericht gibt und überprüfen Sie bitte die Verknüpfungen unter `Datenbank > Datenbank-Assistent > Unterkarte Verknüpfungen` während der Unterbericht geöffnet ist.
 
-### Crystal Reports - Operation noch nicht implementiert
+### Operation noch nicht implementiert
 
 Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorschau? Dann handelt es sich vermutlich um einen Bericht, der den Inhalt eines Feldes als Barcode darstellen soll. Für die Darstellung als Barcode wird die Schriftart [Code EAN 13](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/ean13.ttf) verwendet. Die Schriftart fehlt auf Ihrem Rechner oder ist nicht korrekt installiert, bitte laden Sie sie herunter und installieren Sie diese Schriftart per Doppelklick auf dei Datei neu!
 
-### MAGELLAN-Vorschau meldet "Die Tabelle wurde nicht gefunden"
+### Die Tabelle wurde nicht gefunden
 
 In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"?
 
