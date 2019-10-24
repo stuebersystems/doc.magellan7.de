@@ -27,11 +27,10 @@ Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die n
 Nr.|Was ist zu tun
 --|--
 1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#1-odbc-treiber-einstellungen)
-2.|[Datenbankfelder aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#2-datenbankfelder-aktualisieren)
+2.|[ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
 3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#3-datenquellenpfad-festlegen)
 4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
 5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
-6.| [ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
 
 ### 1. ODBC-Treiber-Einstellungen
 
@@ -60,11 +59,38 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
      Wenn Sie zwischenzeitlich MAGELLAN auf dem Rechner (Druckvorschau!) verwendet haben, ändert sich diese Einstellung wieder. 
      Bitte kontrollieren Sie vor dem erneuten Start von Crystal Reports diese Einstellungen.
 
-### 2. Datenbankfelder aktualisieren
+## 2. Datenbankverbindung aktualisieren
 
-Ein Bericht zeigt die Felder, die beim Erstellen des Berichtes in der Datenstruktur zur Verfügung standen. Um die neuen Datenbankfelder einzufügen, wechseln Sie bitte auf `Datenbank > Datenbank überprüfen`. Im Folgenden kann mehrfach eine Meldung gezeigt werden, die erscheint weil eine Tabelle nicht gefunden wird. Sie wählen bitte immer `NEIN` aus.
+Wenn Sie auf einem Rechner arbeiten, mit dem Sie üblicherweise Ihre Crystal-Reports Berichte bearbeiten, dann legt Crystal-Reports gerne mehrere Datenquellen zur ODBC-Verbindung an. Um da für die Korrektur nicht durcheinander zu kommen, räumen wir an der Stelle auf. 
+Die vorstehende Meldung taucht allerdings auf, weil in der Datenbankverbindung, mit der Sie gerade angemeldet sind, nicht der korrekte Zeichensatz verwendet wird. 
+Per `Rechtsklick > Eigenschaften`auf eine Verbindung können Sie den Unterschied sehen.
+Diese Einstellung kann man nicht direkt editieren, letztlich muss eine neue korrekte Verbindung angelegt werden.
 
-![Aktualisieren](/assets/images/berichte.anpassen1.png)
+![Falscher Zeichensatz in der Verbindung](/assets/images/berichte.anpassen4.png)![Richtiger Zeichensatz in der Verbindung](/assets/images/berichte.anpassen5.png)  
+
+Gehen Sie wie folgt vor:
+
+1. Klicken Sie im Menu auf ```Datenbank > Bei Server an-/abmelden...```
+
+![Bei Server an-/abmelden...](/assets/images/berichte.anpassen3.png)
+
+2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
+
+    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_2.png)
+
+3. Im Daten-Explorer sollte unter `Meine Verbindungen` nur eine Verbindung stehen.<br>Wenn Sie mehrere Verbindungen finden, löschen Sie alle (bei denen es möglich ist), wie folgt heraus:
+
+    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_3.png)
+    
+4. Benennen Sie die verkehrte(n) Datenbankverbindung um (Rechtsklick > Umbenennen), damit keine der bisherigen Verbindungen mehr "MAGELLAN-CR" heißt und legen anschließend eine neue Datenbankverbindung an. 
+
+![Neue Datenbankverbindung](/assets/images/berichte.anpassen6.png) 
+
+6. Öffnen Sie die neue Datenbankverbindung, indem Sie auf das Plus vor "MAGELLAN-CR" und anschließend auf das Plus vor "Tabellen" klicken.
+
+![Bei Server an-/abmelden...](/assets/images/berichte.anpassen7.png)
+
+7. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!
 
 ## 3. Datenquellenpfad festlegen
 
@@ -85,12 +111,12 @@ So gehen Sie vor:
 ![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_2.png)
 
 3. Im Beispiel ist das erste Element ```AuswahlZeugnisse``` eine Ansicht.<br> Das heißt, sie öffnen im unteren Bereich ```Ansichten```
-    
+
 ![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_3.png)
 
 und wählen die Ansicht auch im unteren Bereich aus. Dann klicken Sie auf ```Aktualisieren```.
 ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet, bitte nutzen Sie die Schaltfläche `Aktualisieren` oder die Taste `Enter`.
-    
+
 ![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_4.png)
 
 4. Den Vorgang wiederholen Sie mit allen Ansichten/Tabellen die in Ihrem Bericht vorhanden sind.<br>Auch mit den Ansichten/Tabellen von Unterberichten.
@@ -111,7 +137,6 @@ Danach können Sie das Dialogfenster ```Schließen``` und den Bericht in der Vor
 
 Außerdem sind mit MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen. 
 Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Verknüpfungen` auf.
-
 
 !!! info "Hinweis"
 
@@ -173,47 +198,13 @@ Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitun
 
 ![Meldung](/assets/images/berichte.anpassen2.png)
 
-## 6. Datenbankverbindung aktualisieren
-
-Wenn Sie auf einem Rechner arbeiten, mit dem Sie üblicherweise Ihre Crystal-Reports Berichte bearbeiten, dann legt Crystal-Reports gerne mehrere Datenquellen zur ODBC-Verbindung an. Um da für die Korrektur nicht durcheinander zu kommen, räumen wir an der Stelle auf. 
-Die vorstehende Meldung taucht allerdings auf, weil in der Datenbankverbindung, mit der Sie gerade angemeldet sind, nicht der korrekte Zeichensatz verwendet wird. 
-Per `Rechtsklick > Eigenschaften`auf eine Verbindung können Sie den Unterschied sehen.
-Diese Einstellung kann man nicht direkt editieren, letztlich muss eine neue korrekte Verbindung angelegt werden.
-
-![Falscher Zeichensatz in der Verbindung](/assets/images/berichte.anpassen4.png)![Richtiger Zeichensatz in der Verbindung](/assets/images/berichte.anpassen5.png)  
-
-
-Gehen Sie wie folgt vor:
-
-1. Klicken Sie im Menu auf ```Datenbank > Bei Server an-/abmelden...```
-
-![Bei Server an-/abmelden...](/assets/images/berichte.anpassen3.png)
-
-2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
-
-    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_2.png)
-
-3. Im Daten-Explorer sollte unter `Meine Verbindungen` nur eine Verbindung stehen.<br>Wenn Sie mehrere Verbindungen finden, löschen Sie alle (bei denen es möglich ist), wie folgt heraus:
-
-    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_3.png)
-    
-4. Benennen Sie die verkehrte(n) Datenbankverbindung um (Rechtsklick > Umbenennen), damit keine der bisherigen Verbindungen mehr "MAGELLAN-CR" heißt und legen anschließend eine neue Datenbankverbindung an. 
-
-![Neue Datenbankverbindung](/assets/images/berichte.anpassen6.png) 
-
-6. Öffnen Sie die neue Datenbankverbindung, indem Sie auf das Plus vor "MAGELLAN-CR" und anschließend auf das Plus vor "Tabellen" klicken.
-
-![Bei Server an-/abmelden...](/assets/images/berichte.anpassen7.png)
-
-7. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!
-
-## weitere Probleme?
+## Sollte es noch weitere Probleme geben
 
 ### Keine Datenbankverbindung möglich
 
 Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 7-Installation einzurichten.
 
-### Die Vorschau lädt und lädt....
+### Die Vorschau lädt und lädt...
 
 Wenn Sie alle vorstehenden Punkte befolgt haben, die Vorschau aber noch immer dauerhaft lädt, ist vermutlich eine vergessene Verknüpfung in einem Unterbericht die Ursache. Die Übersicht der Verknüpfungen gilt für den jeweils gewählten Bericht oder Unterbericht. Bitte schauen Sie, ob es Unterbericht in Ihrem Bericht gibt und überprüfen Sie bitte die Verknüpfungen unter `Datenbank > Datenbank-Assistent > Unterkarte Verknüpfungen` während der Unterbericht geöffnet ist.
 
