@@ -137,7 +137,7 @@ Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einm
 
 Danach können Sie das Dialogfenster ```Schließen``` und den Bericht in der Vorschau anzeigen. Die Fehlermeldung sollte jetzt nicht mehr auftauchen. Ggf. aktualisieren Sie die Datenstruktur des Berichtes über ```Datenbank > Datenbank überprüfen``` und speichern den korrigierten Bericht.
 
-## 4. Tabellenverknüpfungen anpassen
+## 4. Tabellenverknüpfungen
 
 Außerdem sind mit MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen. 
 Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Verknüpfungen` auf.
@@ -155,7 +155,7 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 
 > Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
 
-### SchuelerZeitraeume und SchuelerAusbildung
+### "SchuelerZeitraeume" und "SchuelerAusbildung"
 
 Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab.
 
@@ -174,16 +174,16 @@ Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
 ![SchuelerAusbildung](/assets/images/cr_fix_schuelerAusbildung.png)
 
-### Tabelle "Schueler"
+### "Schueler"
 
 Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
 
 * "SopaedFoerderungen"
 * "Foerderschwerpunkt1"
 * "Foerderschwerpunkt2"
-* "Behinderung" 
+* "Behinderung"
 
-### SchuelerKlassen
+### "SchuelerKlassen"
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 
