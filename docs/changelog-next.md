@@ -88,3 +88,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Schulbescheinigung (Vergangenheit mit Klasse).rpt
 * FIX: Schulbescheinigung (mit Klasse und vorauss. Ende zweifach).rpt
 * FIX: Schulbescheinigung (mit Klasse und vorauss. Ende einfach).rpt
+* FIX: RLP-GES-JZ (Klassen 5 und 6).rpt
+* FIX: RLP-GES-HJZ (Klassen 5 und 6).rpt
+* FIX: RLP-GES-HJZ (Klassen 7-10).rpt
