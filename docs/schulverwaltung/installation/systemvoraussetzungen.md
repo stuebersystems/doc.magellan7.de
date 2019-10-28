@@ -7,4 +7,4 @@
 |**Office-Versionen**|Office  2007<br/>Office 2010<br/>Office 2013<br/>Office 2016|
 |**Hardware**|MAGELLAN benötigt keine besonderen Hardware-Anforderungen|
 |**Bildschirmauflösung**|Die Bildschirmauflösung sollte 1280x800 Bildpunkte nicht unterschreiten|
-
+|**Servervoraussetzungen**| [Unsere Empfehlungen](https://doc.kb.stueber.de/magellan/system-requirements.html)|
