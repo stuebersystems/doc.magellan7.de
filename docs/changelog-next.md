@@ -28,6 +28,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
 * NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Weitere Informationen`, über `STRG+I` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung. Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen)!
 * NEW: Beim Synchronisieren der Schülerfachdaten ins Modul `Berufsschule` werden nur die Daten übertragen, die zur im gewählten Halbjahr aktuellen Ausbildung gehören. Schülerfachdaten (also Fächer und Noten), die nicht für die aktuelle Ausbildung erworben wurden, werden nicht mit synchronisiert.
+* NEW: Layout aktualisiert
+* NEW: Icons vervollständigt
+* NEW: Alle Menüpunkte haben in der Statusleiste der Auswahlliste eine Schaltfläche um die optimale Spaltenbreite einzustellen.
+* NEW: Fensterposition links und rechts per `Windows + Pfeil links/rechts` steuerbar
 
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
@@ -36,7 +40,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 Klassen erhöht.
 * CHANGE: Filtern des Feldes `Status` in den Verzeichnisfeldern unter `Schüler > Daten2 > Höchster Abschluss ABS/BBS`  ergänzt.
 * CHANGE: Der Style sämtlicher Verzeichnisfelder unter `Schüler > Zeugnis > Fächer/Leistungen` wurde aktualisiert.
-* CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahrprozesse > Klassen übernehmen` aufrufbar.   Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/#assistent-klassen-ubernehmen-erstellt-neue-klassen)!
+* CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahnprozesse > Klassen übernehmen` aufrufbar.   Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/#assistent-klassen-ubernehmen-erstellt-neue-klassen)!
+* CHANGE: CSV-Export für Berlin (Extras > Exporte > Export > Schüler (Berlin)) wurde überarbeitet
 
 * FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben.
 * FIX: Das Ablegen von Dokumenten beim Seriendruck für Nebenschüler wurde korrigiert.

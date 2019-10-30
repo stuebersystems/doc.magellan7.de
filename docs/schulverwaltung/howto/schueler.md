@@ -56,9 +56,9 @@ Aktueller Inhalt:
 * Ausbildungsinformationen
 * Bewerbungsinformationen
 
-Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`, also auch aus der Auswahlliste aufrufen. 
+Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`, also auch aus der Auswahlliste aufrufen.
 
-1. Markieren Sie einen Schüler und wählen `STRG+I` 
+1. Markieren Sie einen Schüler und wählen `STRG+I`
 
 oder
 
@@ -165,7 +165,7 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 1. Um den Assistenten für die Sammelzuweisung der Stammdaten zu starten, müssen Sie auf `Schüler > Sammelzuweisungen…` klicken.
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. 
 3. Markieren Sie unter Schüler auswählen bzw. Bewerber auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge in den Stammdaten erhalten sollen.
- 
+
 ![Dialog Sammelzuweisung `Allgemeine Felder…`](/assets/images/schueler/sammelzuweisung01.png)
 
 ![Dialog Sammelzuweisung `Fremdsprachendaten…`](/assets/images/schueler/sammelzuweisung02.png)

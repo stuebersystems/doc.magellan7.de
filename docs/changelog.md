@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7.
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan7.stueber.de/changelog/](https://doc.mymagellan7.stueber.de/changelog/).
 
 ## LEGENDE
 
