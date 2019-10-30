@@ -6,19 +6,13 @@ Für das Bundesland Berlin können die in den Masken für Berlin erfassten Schü
 
 Um Schülerdaten zu exportieren, gehen Sie wie folgt vor.
 
-1. Wählen Sie die Ansicht „Schüler“.
-2. Markieren Sie in der Liste die Schüler, die Sie exportieren wollen.
-3. Wählen Sie jetzt `Bearbeiten  >  Export  >  Export Schüler Berlin`.
-4. Geben Sie im Export -Assistenten Schüler Berlin den Exportordner an. Wählen Sie zusätzlich, ob bei Schlüsselfeldern das Kürzel oder der Schlüssel ausgegeben werden soll. Klicken Sie dann auf `Weiter`.
-5. Starten Sie mit `Fertigstellen` den Export.
+1. Wählen Sie die Ansicht `Schüler` und wechseln anschließend auf `Extras >  Exporte  >  Export > Schüler (Berlin)`.
+2. Geben Sie im Export-Assistenten den Exportordner an und wählen `Schüler` oder `Bewerber` aus. Wählen Sie zusätzlich, ob bei Schlüsselfeldern das Kürzel oder der Schlüssel ausgegeben werden soll.
+3. Starten Sie mit `Fertigstellen` den Export.
+
+![Exportfenster](/assets/images/berlin/export01.png)
 
 Der Export der Bewerberdaten erfolgt analog.
-
-1. Wählen Sie die Ansicht „Bewerber“.
-2. Markieren Sie in der Liste die Bewerber, die Sie exportieren wollen.
-3. Wählen Sie jetzt `Bearbeiten  >  Export  >  Export Bewerber Berlin`.
-4. Geben Sie im Export-Assistenten Bewerber Berlin den Exportordner an. Wählen Sie zusätzlich, ob bei Schlüsselfeldern das Kürzel oder der Schlüssel ausgegeben werden soll. Klicken Sie dann auf `Weiter`.
-5. Starten Sie mit `Fertigstellen`den Export.
 
 ## Exportformat
 
@@ -243,7 +237,6 @@ BewerbungKompetenzPunkte  |-
 BewerbungPunkteRanking  |-
 SchuelerJahrgang  |-
 
-
 ## Datei (bewerber > schueler)_sorgebe.export.csv
 
 Feld| Bemerkung
@@ -273,7 +266,6 @@ Position |Gibt die Sortierreihenfolge der Sorgeberechtigten an.
 TelefonPrioritaet| Folgende Werte sind möglich: <br/><br/> Wert /Bedeutung<br/>P /Telefon Privat<br/>B /Telefon Beruf<br/>M /Mobil
 Bemerkung|-
 
-
 ## Datei (bewerber  >  schueler)_herkunft.export.csv
 
 Nr. Feld  | Bemerkung
@@ -300,8 +292,6 @@ Klassenleiter     |         -
 Abschluss         |          -
 Herkunftsart     |           -
 Unterlagen       |            -
-
-
 
 ## Datei (bewerber  >  schueler)_ausbildung.export.csv
 
