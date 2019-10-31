@@ -2,8 +2,9 @@
 
 Die folgende Tabelle listet Tastaturkürzel (Shortcuts) für MAGELLAN auf.
 
- Verwendet in Ansicht | Aktion  | Befehl
- -------------------- | ------- | ----- 
+Verwendet in Ansicht | Aktion  | Befehl
+-------------------- | ------- | ----- 
+Programmfenster      | Fenster in der linken oder <br/>rechten Bildschirmhälfte zeigen | Windows-Taste + Pfeil links<br/>Windows-Taste + Pfeil rechts
 Menü Schüler         | Aufruf Zusatzfenster `Weitere Infos` | STRG+I
 Auswahlliste         | Markiert alle Zeilen | STRG+A
 Auswahlliste         | Öffnet eine Gruppierung | +
