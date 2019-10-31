@@ -1,8 +1,8 @@
 # Berliner Felder
 
 Seit MAGELLAN 7 gibt es eine überregional angeglichene Oberfläche, unsere Dokumentation spricht damit alle Anwender an.
-Einige der Felder, der in MAGELLAN 6 verwendeten Berliner Masken, gab es ausschließlich in den Masken.
-Diese Felder sind in die Standardoberfläche integriert worden. Nachstehend finden Sie eine Übersicht: Welche Felder aus welcher Maske Sie in der aktuellen MAGELLAN-Oberfläche an welcher Stelle finden.
+Einige der Felder, der in MAGELLAN 6 verwendeten Berliner Masken, gab es ausschließlich in diesen Masken. Diese Felder sind in die Standardoberfläche integriert worden.
+Nachstehend finden Sie eine Übersicht: Welche Felder aus welcher Maske Sie in der aktuellen MAGELLAN-Oberfläche an welcher Stelle finden.
 
 !!! info "Hinweis"
 
