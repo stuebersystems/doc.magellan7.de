@@ -33,7 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
-* CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden
+* CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden. Eine Übersicht, welches bislang nur für Berlin gezeigte Feld an welcher Stelle der Oberfläche zu finden ist, finden Sie im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/schluesselverzeichnisse/](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/schluesselverzeichnisse/).
 * CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden.
 * CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 Klassen erhöht.
 * CHANGE: Filtern des Feldes `Status` in den Verzeichnisfeldern unter `Schüler > Daten2 > Höchster Abschluss ABS/BBS`  ergänzt.
