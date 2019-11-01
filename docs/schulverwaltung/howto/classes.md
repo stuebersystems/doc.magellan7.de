@@ -12,7 +12,7 @@ Schultyp|Beispiel
 ABS|Eine Klasse 5a existiert genau eine Schuljahr lang, also zwei Halbjahre. Im Jahr darauf wird es eine neue Klasse 5a geben, um die Schüler der 4a zu versetzen oder beispielsweise auch einen Schüler der alten 5a wiederholen zu lassen. MAGELLAN verwaltet alle Datensätze, also auch Ihre Klassen anhand einer eindeutigen ID, hier kann nichts durcheinander geraten. 
 BBS|An Berufsbildenden Schulen können Klassen länger existieren, so kann beispielsweie eine Berufsschulklasse für Bürokaufleute (BüKo2018) aktuell starten und insgesamt 3 Jahre, also 6 Halbjahre lang laufen. Dennoch startet in jedem Jahr eine neue Klasse mit Bürokaufleuten (BüKo2019), die dann ein Jahr länger existiert, als ihre Vorgängerklasse.
 
-### Neue Klasse aufnehmen
+### Neue Klasse anlegen
 
 Um eine neue Klasse anzulegen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Klassen `oder wählen Sie `Ansicht > Klassen`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neue Klasse`.
 
@@ -20,6 +20,14 @@ Um eine neue Klasse anzulegen, klicken Sie in der Startleiste auf der linken Bil
 
 
 Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. Die Klasse ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte „Daten“ dieser Klasse, um deren weitere Daten zu erfassen. Optional können Sie im Dialogfenster `Neue Klasse` auch direkt einen Langnamen in den Feldern „Langname 1“ und „Langname 2“ bzw. eventuell das für die Statistik verwendete Statistikkürzel der Klasse eintragen. Diese Angaben können Sie aber auch zu einem späteren Zeitpunkt auf der Registerkarte „Daten“ der Klasse angeben.
+
+
+
+
+
+!!! danger "Achtung"
+
+	Wenn Sie beginnen mit MAGELLAN zu arbeiten sollten Sie wie vorstehend beschrieben neue Klassen anlegen. Wenn Sie allerdings bereits Klassendaten eingepflegt haben, können Sie diese Klassen als neue Klassen kopieren lassen. Damit sparen Sie Zeit und es können auch keine beispielsweise statistikrelevanten Eintragungen übersehen werden. Bitte lesen hierfür den Abschnitt [Assistent Klassen übernehmen](https://doc.magellan7.stueber.de/schulverwaltung/howto/classes/#assistent-klassen-ubernehmen)!
 
 ### Registerkarte „Daten“
 
