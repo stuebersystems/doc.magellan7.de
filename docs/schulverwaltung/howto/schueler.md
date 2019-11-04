@@ -62,10 +62,10 @@ Aktueller Inhalt:
 
 | Varianten des Aufrufs |
 |:--|
-|1. Variante: Markieren Sie einen Schüler und wählen die Tastenkombination `STRG + I`.|
-|2. Variante: Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.|
+|**1. Variante:** Markieren Sie einen Schüler und wählen die Tastenkombination `STRG + I`.|
+|**2. Variante:**Ü Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.|
 |**Abbildung:** <img src=/assets/images/schueler/02.png>|
-|3. Variante: Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I|
+|**3. Variante:** Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I|
 |**Abbildung:** <img src=/assets/images/schueler/01.png>|
 
 Das aufgerufene Fenster blendet Informationen aus anderen Menüs oder Unterkarten ein:
