@@ -47,7 +47,7 @@ Im Unterschied zur Registerkarte `Daten 1` des Bewerbers, findet man beim Schül
 
     Für Schulen in Schleswig-Holstein sind die Felder Passfoto, Religionswunsch und Religionsgrund nicht sichtbar.
 
-### Weitere Informationen
+### Fenster "Weitere Informationen"
 
 Weiterführende Informationen zu den im Schülermenü markierten Schülern finden Sie im Informationsfenster `Weitere Informationen`.
 Aktueller Inhalt:
