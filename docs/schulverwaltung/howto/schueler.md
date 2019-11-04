@@ -47,7 +47,7 @@ Im Unterschied zur Registerkarte `Daten 1` des Bewerbers, findet man beim Schül
 
     Für Schulen in Schleswig-Holstein sind die Felder Passfoto, Religionswunsch und Religionsgrund nicht sichtbar.
 
-## Weitere Informationen
+### Weitere Informationen
 
 Weiterführende Informationen zu den im Schülermenü markierten Schülern finden Sie im Informationsfenster `Weitere Informationen`.
 Aktueller Inhalt:
@@ -56,21 +56,17 @@ Aktueller Inhalt:
 * Ausbildungsinformationen
 * Bewerbungsinformationen
 
-Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`, also auch aus der Auswahlliste aufrufen.
+!!! info "Hinweis"
 
-1. Markieren Sie einen Schüler und wählen `STRG+I`
+    Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`und aus der Auswahlliste aufrufen.
 
-oder
-
-1. Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.
-
-oder
-
-3.Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I.
-
-![Aufruf über das Symbol](/assets/images/schueler/01.png)
-
-![Aufruf über Schüler > Weitere Informationen](/assets/images/schueler/02.png)
+| Möglichkeiten des Aufrufs |
+|:--|
+|1. Variante: Markieren Sie einen Schüler und wählen die Tastenkombination `STRG+I`.|
+|2. Variante: Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.|
+|**Abbildung:** <img src=/assets/images/schueler/02.png>|
+|3. Variante: Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I|
+|**Abbildung:** <img src=/assets/images/schueler/01.png>|
 
 Das aufgerufene Fenster blendet Informationen aus anderen Menüs oder Unterkarten ein:
 
