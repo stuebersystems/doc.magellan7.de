@@ -58,11 +58,11 @@ Aktueller Inhalt:
 
 !!! info "Hinweis"
 
-    Sie können dieses Fenster auf drei Arten aus jeder Registerkarte im Menü `Schüler`und aus der Auswahlliste aufrufen.
+    Sie können dieses Fenster aus der `Auswahlliste` und aus jeder Registerkarte im Menü `Schüler`.
 
-| Möglichkeiten des Aufrufs |
+| Varianten des Aufrufs |
 |:--|
-|1. Variante: Markieren Sie einen Schüler und wählen die Tastenkombination `STRG+I`.|
+|1. Variante: Markieren Sie einen Schüler und wählen die Tastenkombination `STRG + I`.|
 |2. Variante: Rufen Sie `Schüler > Schüler > Weitere Informationen` im Menüband auf.|
 |**Abbildung:** <img src=/assets/images/schueler/02.png>|
 |3. Variante: Klicken Sie oben links neben dem Statussymbols des Schülers auf den schwarzen Kreis mit dem I|
