@@ -63,6 +63,14 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
      Wenn Sie zwischenzeitlich MAGELLAN auf dem Rechner (Druckvorschau!) verwendet haben, ändert sich diese Einstellung wieder. 
      Bitte kontrollieren Sie vor dem erneuten Start von Crystal Reports diese Einstellungen.
 
+!!! danger "Achtung"
+
+    Ihr Fenster sieht nicht so aus wie in der vorstehenden Abbildung? Dann bitte über den nachstehenden Link das Installationspaket des ODBC-Treibers laden. Anschließende MAGELLAN bitte schließen und die Installation ausführen. 
+
+Downloadseite|Eintrag
+--|--
+https://firebirdsql.org/en/odbc-driver/ | Windows 32-bit Full Install
+
 ## 2. Datenbankverbindung aktualisieren
 
 Wenn Sie auf einem Rechner arbeiten, mit dem Sie üblicherweise Ihre Crystal-Reports Berichte bearbeiten, dann legt Crystal-Reports gerne mehrere Datenquellen zur ODBC-Verbindung an. Um da für die Korrektur nicht durcheinander zu kommen, räumen wir an der Stelle auf. 
