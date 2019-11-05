@@ -257,5 +257,4 @@ Eine mögliche Ursache dfür kann sein, dass ein Unterbericht im Detailbereich e
 
 Sollten Sie in einem Zeugnis das Problem haben, dass der in MAGELLAN in der Vorschau geladene Schüler beim Test der Vorschau in Crystal Reports immer wieder nacheinander gezeigt wird, kontrollieren Sie bitte die Verknüpfungen der Tabellen KlassenZeitraeume und Klassen. 
 
-
 ![Verknüpfung](/assets/images/berichte.anpassen10.png)
