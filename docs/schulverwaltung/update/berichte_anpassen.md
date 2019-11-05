@@ -161,7 +161,13 @@ Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschw
 SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerklassen)
 SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerzeitraeume-und-tabelle-schuelerausbildung)
 
-> Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
+!!! info "Hinweis"
+
+    Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
+
+!!! info "Hinweis"
+
+    Die aktuelle Datenstrukturbeschreibung finden Sie als Teil der Dokumentation [MAGELLAN 7 TOOLBOX](https://doc.magellan7-toolbox.stueber.de/).
 
 ### "SchuelerZeitraeume" und "SchuelerAusbildung"
 
