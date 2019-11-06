@@ -1,25 +1,20 @@
 # Statistik Schülerdaten
 
-Dieser Abschnitt beschreibt für Schulen in Berlin die Schülerdatenerfassung 2009/2010 aus MAGELLAN in die Dateien für den Datenaustausch des eGovernment Projekts des Senates im Schuljahr. Voraussetzung hierfür ist eine Lizenz von MAGELLAN.
-
+Dieser Abschnitt beschreibt für Schulen in Berlin die Schülerdatenerfassung aus MAGELLAN in die Dateien für den Datenaustausch des eGovernment Projekts des Senates im Schuljahr. Voraussetzung hierfür ist eine Lizenz von MAGELLAN.
 
 Der Export kann jederzeit für das aktuelle Halbjahr auf Basis der Daten in MAGELLAN in elektronischer Form vorgenommen werden. Die Statistikdaten werden wie gefordert im Dateiformat CSV aus MAGELLAN erzeugt. Für Sie als Schule bedeutet dies: Sie müssen die folgenden CSV-Dateien je nach Schulart an den Senat übermitteln:
 
-Art |Schulform |Dateiname
-----|----------|--------
-Schülerdaten|Für Allgemeinbildende Schulen|SchuelerABS_2010_xxxxx.csv
--|Für Berufsbildende Schulen|SchuelerBBS_2010_xxxxx.csv
-Abiturerfassung<br/>[Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/abidaten.html)|Für Allgemeinbildende Schulen|Abiturerfassung_ABS_2015_xxxxx.csv
--|Für Berufsbildende Schulen|Abiturerfassung_BBS_2015_xxxxx.csv
+Art             | Schulform | Dateiname
+------------    | --------- | ---------
+Schülerdaten    | ABS       | SchuelerABS_2010_xxxxx.csv
+Schülerdaten    | BBS       | SchuelerBBS_2010_xxxxx.csv
+Abiturerfassung | ABS/BBS   | Abiturerfassung_ABS_2015_xxxxx.csv<br/>Abiturerfassung_BBS_2015_xxxxx.csv
 
 Hierbei steht xxxxx für Ihre Schulnummer.
 
-
 !!! info "Hinweis"
 
-Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Bundesländer > Berlin > Abiturdatenexport](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/abidaten.html).
-
-
+Die Anleitung zum Export der Abiturdaten finden Sie in der MAGELLAN-Dokumentation unter [Regionales > Berlin > Statistik Abiturdaten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/stat.abidaten/).
 
 ## Notwendige Schritte
 
@@ -38,41 +33,18 @@ Statistikämter setzen für einige Felder Wertelisten voraus, die STÜBER SYSTEM
 
 Bei einem Großteil der statistisch relevanten Daten handelt es sich um Stammdaten, die bei der alltäglichen Arbeit bereits erfasst wurden. Einige Daten werden Sie nachtragen müssen. Alle für die Statistik erforderlichen Daten finden Sie nachfolgend im Anhang in einer tabellarischen Übersicht.
 
-## Datenprüfung
-
-
-Vor dem Erstellen der eigentlichen Statistikdateien sollten Sie eine Prüfung der Daten in MAGELLAN vornehmen. Diese Prüfung ist eine Plausibilitätsprüfung, dessen Regelwerk uns größtenteils vom Senat zur Prüfung Ihrer Daten zur Verfügung gestellt wird.
-
-### Datenprüfung für Allgemeinbildende oder Berufsbildende Schulen starten
-
-Zur Datenprüfung gehen Sie bitte wie folgt vor:
-
-1. Starten Sie MAGELLAN.
-2. Klicken Sie im Menü ```Extras``` auf ```Statistik```.
-3. Wählen Sie als Bundesland Berlin und als Schulart Allgemeinbildende Schule (ABS) oder Berufsbildende Schulen (BBS). Klicken Sie dann auf ```Weiter```.
-4. Wählen Sie als Art der Erstellung ```Nur Datenprüfung```. Markieren Sie die Dateien, welche Sie prüfen wollen. Unter Statistikzeiträume müssen Sie den Erhebungszeitpunkt, den aktuellen Zeitraum (1. Halbjahr 2013/2014) und die Zeiträume des Vorjahres (2. Halbjahr 2012/2013 und 1. Halbjahr 2012/2013) einstellen. Klicken Sie dann auf ```Weiter```. 
-5. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf ```Weiter```.
-6. Klicken Sie auf ```Start```, um die Datenprüfung zu starten.
-
-### Datenprüfung auswerten
-
-Die Ergebnisse der Datenprüfung werden unter Hinweise aufgelistet. Sind dort keine Hinweise enthalten, sind die Daten für die Abgabe korrekt eingegeben. Die Hinweise werden unterschieden nach Art der Datei, dem betroffenen Daten-satz, Kontroll-Nr. der Plausibilität und dem eigentlichen Meldungstext. Sie können die Hinweise gruppieren und/oder Filtern und über die Schaltfläche „Export nach Excel“ nach Excel exportieren.
-Sie müssen nun die Meldungen in MAGELLAN bearbeiten und dann erneut eine Datenprüfung durchführen.
-
-!!! info "Hinweis"
-
-Viele in der Prüfung abgefragte Werte werden nicht in den Statistikdateien ausgegeben, dienen aber als Voraussetzung für die Plausibilitätsprüfungen. Beispiel: Zur Prüfung von korrekten Fremdsprachen muss die Schulart angegeben sein. Wurde diese nicht oder fehlerhaft angegeben, gibt die Prüfung eine Fehlermeldung aufgrund dieser Bedingung aus.
-
 ## Statistikdaten erstellen
 
 Zum Erstellen der Statistikdaten gehen Sie bitte wie folgt vor:
 
 1. Starten Sie MAGELLAN.
-2. Klicken Sie im Menü ```Extras``` auf ```Statistik```.
-3. Wählen Sie als Bundesland Berlin und als Schulart Allgemeinbildende Schule (ABS) oder Berufsbildende Schulen (BBS). Klicken Sie dann auf ```Weiter```.
-4. Wählen Sie als Art der Erstellung ```Nur Statistikdateien``` erstellen. Markieren Sie die gewünschte Statistikdatei. Unter Statistikzeiträume auswählen stellen Sie den aktuellen Zeitraum ein. Klicken Sie dann auf ```Weiter```. 
-5. Geben Sie das Erstellungsdatum an und wählen Sie den Ordner für den späteren Export der Statistikdateien aus. Klicken Sie auf ```Weiter```.
-6. Klicken Sie auf ```Start```, um die Erstellung der Statistikdatei zu starten.
+2. Klicken Sie im Menü `Extras > Exporte` auf `Export`.
+3. Wählen Sie als Schnittstelle `Landesstatistik Berlin` aus.
+4. Im Auswahlfeld Exportdateien erhalten Sie alle zur Statistik möglichen Exportdateien für ABS- und BBS. Wählen Sie die entsprechenden Dateien aus. Klicken Sie auf `Weiter`.
+5. Das Feld `Stichtag` hat keine Relevanz für Ihre Statistik und kann ignoriert werden.
+6. Geben Sie im Feld `Erstellungsdatum` das Datum an, mit dem der Dateiname exportiert wird.
+7. Wählen Sie den Ordner aus, in dem die Statistikdateien abgelegt werden sollen. Klicken Sie auf``Weiter`.
+8. Klicken Sie auf `Fertigstellen`, um die Erstellung der Statistikdatei zu starten.
 
 ## Statistikfelder mit Beschreibung
 
@@ -88,8 +60,8 @@ Der Teil II wird nur gefüllt für
 
 Anderenfalls werden Leerfelder in der Datei ausgegeben. Diese sehen sie in Excel als leere Felder, in einem Texteditor als Semikolon.
 
-Feld|Wert
----|---
+Feld | Wert
+---------------- | ----
 **Statistikfeld**| BSN
 MAGELLAN-Feld| Mandant > Daten1 >Schulnummer
 Anmerkung| Bitte tragen Sie hier die Schulnummer Ihrer Schule ein  (Für ABS und BBS)
