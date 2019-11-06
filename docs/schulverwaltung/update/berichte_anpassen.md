@@ -45,7 +45,7 @@ Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugr
 1. Starten Sie den ODBC-Datenquellen-Administrator (32-Bit) in Windows.<br>
 Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 installierten Treiber. Da muss mindestens die im Bild angegeben Version stehen.
 
-![Einstellungen ODBC](/assets/images/odbc_1_Treiber.png)
+![Einstellungen ODBC](/assets/images/berichte.anpassen/odbc_1_Treiber.png)
 
 !!! info "Hinweis"
 
@@ -53,11 +53,11 @@ Auf der Registerkarte ```Treiber``` finden Sie den aktuellen mit MAGELLAN 7 inst
 
 1. Wechseln Sie auf die Registerkarte ```Benutzer-DSN``` und wählen Sie den Eintrag ```Magellan-CR``` aus. Dieser wird von MAGELLAN automatisch erstellt. Finden Sie keinen solchen Eintrag, dann starten Sie MAGELLAN 7 und öffnen einen Bericht in der Vorschau. Danach sollte der Eintrag vorhanden sein. Klicken Sie auf ```Konfigurieren```.
 
-![Einstellungen ODBC](/assets/images/odbc_2_BenutzerDSN.png)
+![Einstellungen ODBC](/assets/images/berichte.anpassen/odbc_2_BenutzerDSN.png)
 
 2. Im Konfigurationsfenster geben Sie bei ```Character Set``` den Wert ```NONE``` ein, oder wählen diesen aus. Im Bereich ```Extended identifiert properties``` setzen Sie bitte **alle** Häkchen. 
 
-![Einstellungen ODBC](/assets/images/odbc_3_KonfigurationKorrektur.png)
+![Einstellungen ODBC](/assets/images/berichte.anpassen/odbc_3_KonfigurationKorrektur.png)
 
 !!! info "Hinweis"
 
@@ -79,29 +79,29 @@ Die vorstehende Meldung taucht allerdings auf, weil in der Datenbankverbindung, 
 Per `Rechtsklick > Eigenschaften`auf eine Verbindung können Sie den Unterschied sehen.
 Diese Einstellung kann man nicht direkt editieren, letztlich muss eine neue korrekte Verbindung angelegt werden.
 
-![Falscher Zeichensatz in der Verbindung](/assets/images/berichte.anpassen4.png)![Richtiger Zeichensatz in der Verbindung](/assets/images/berichte.anpassen5.png)  
+![Falscher Zeichensatz in der Verbindung](/assets/images/berichte.anpassen/berichte.anpassen4.png)![Richtiger Zeichensatz in der Verbindung](/assets/images/berichte.anpassen/berichte.anpassen5.png)  
 
 Gehen Sie wie folgt vor:
 
 1. Klicken Sie im Menu auf ```Datenbank > Bei Server an-/abmelden...```
 
-![Bei Server an-/abmelden...](/assets/images/berichte.anpassen3.png)
+![Bei Server an-/abmelden...](/assets/images/berichte.anpassen/berichte.anpassen3.png)
 
 2. Melden Sie sich zuerst über die ```Abmelden``` Schaltfläche von allen Verbindungen ab. Wenn die Schaltfläche `Abmelden` für alle Verbindungen grau ist, dann sind sie auch nirgends angemeldet. 
 
-    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_2.png)
+    ![Bei Server an-/abmelden...](/assets/images/berichte.anpassen/cr_fix_step1_2.png)
 
 3. Im Daten-Explorer sollte unter `Meine Verbindungen` nur eine Verbindung stehen.<br>Wenn Sie mehrere Verbindungen finden, löschen Sie alle (bei denen es möglich ist), wie folgt heraus:
 
-    ![Bei Server an-/abmelden...](/assets/images/cr_fix_step1_3.png)
+    ![Bei Server an-/abmelden...](/assets/images/berichte.anpassen/cr_fix_step1_3.png)
     
 4. Benennen Sie die verkehrte(n) Datenbankverbindung um (Rechtsklick > Umbenennen), damit keine der bisherigen Verbindungen mehr "MAGELLAN-CR" heißt und legen anschließend eine neue Datenbankverbindung an. 
 
-![Neue Datenbankverbindung](/assets/images/berichte.anpassen6.png) 
+![Neue Datenbankverbindung](/assets/images/berichte.anpassen/berichte.anpassen6.png) 
 
 6. Öffnen Sie die neue Datenbankverbindung, indem Sie auf das Plus vor "MAGELLAN-CR" und anschließend auf das Plus vor "Tabellen" klicken.
 
-![Bei Server an-/abmelden...](/assets/images/berichte.anpassen7.png)
+![Bei Server an-/abmelden...](/assets/images/berichte.anpassen/berichte.anpassen7.png)
 
 7. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!
 
@@ -109,38 +109,38 @@ Gehen Sie wie folgt vor:
 
 Fehlermeldungen:
 
-![Meldung](/assets/images/cr_error_msg1.png) 
+![Meldung](/assets/images/berichte.anpassen/cr_error_msg1.png) 
 
-![Meldung](/assets/images/cr_error_msg2.png)
+![Meldung](/assets/images/berichte.anpassen/cr_error_msg2.png)
 
 So gehen Sie vor:
 
 1. Klicken Sie im Menü auf ```Datenbank > Datenquellenpfad festlegen...```<br>
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_1.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_1.png)
 
 2. Im Dialogfenster wählen Sie wie im Bild beschrieben zuerst oben die erste Ansicht/Tabelle aus.<br> Dann öffnen Sie unten die bestehende Verbindung und melden sich an.
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_2.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_2.png)
 
 3. Im Beispiel ist das erste Element ```AuswahlZeugnisse``` eine Ansicht.<br> Das heißt, sie öffnen im unteren Bereich ```Ansichten```
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_3.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_3.png)
 
 und wählen die Ansicht auch im unteren Bereich aus. Dann klicken Sie auf ```Aktualisieren```.
 ACHTUNG: ein Doppelklick wird hier von Crystal Reports nicht korrekt verarbeitet, bitte nutzen Sie die Schaltfläche `Aktualisieren` oder die Taste `Enter`.
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_4.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_4.png)
 
 4. Den Vorgang wiederholen Sie mit allen Ansichten/Tabellen die in Ihrem Bericht vorhanden sind.<br>Auch mit den Ansichten/Tabellen von Unterberichten.
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_5.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_5.png)
 
-![Datenquellenpfad festlegen](/assets/images/cr_fix_step2_6.png)
+![Datenquellenpfad festlegen](/assets/images/berichte.anpassen/cr_fix_step2_6.png)
 
 5. Sonderfall ```SchuelerKlassen```<br>Die SchuelerKlassen haben eine neue Datenstruktur und Crystal-Reports kennt im bestehenden Bericht lediglich die alte Datenstruktur. Damit kann die Tabelle nicht einfach neu verknüpft werden. Sie erhalten deshalb ein weiteres Dialogfenster, dass Sie lediglich mit ```OK``` quittieren. 
 
-![SchuelerKlassen](/assets/images/cr_fix_step2_7.png)
+![SchuelerKlassen](/assets/images/berichte.anpassen/cr_fix_step2_7.png)
 
 Sie müssen nachdem Sie die Korrektur komplett durchlaufen haben, dann noch einmal in den Datenbank-Assistenten gehen und wie bereits erwähnt, die Verknüpfung der Tabelle "SchuelerKlassen" korrigieren (Fehlende Verknüpfung auf Feld ```SchuelerZeitraumID``` ergänzen).
 
@@ -187,7 +187,7 @@ SchülerZeitraeume|-|SchuelerAusbildung
 Mandant|linke äußere Verknüpfung<br/>(left outer join)|Mandant
 Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
-![SchuelerAusbildung](/assets/images/cr_fix_schuelerAusbildung.png)
+![SchuelerAusbildung](/assets/images/berichte.anpassen/cr_fix_schuelerAusbildung.png)
 
 ### "Schueler"
 
@@ -202,11 +202,11 @@ Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden,
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 
-![SchuelerKlassen](/assets/images/cr_error_msg3.png)
+![SchuelerKlassen](/assets/images/berichte.anpassen/cr_error_msg3.png)
 
 Die Verknüpfung wird wie folgt korrigiert:
 
-![SchuelerKlassen](/assets/images/cr_fix_schuelerKlassen.png)
+![SchuelerKlassen](/assets/images/berichte.anpassen/cr_fix_schuelerKlassen.png)
 
 Tabelle und Feld|Art der Verbindung|Tabelle und Feld
 --|--|--
@@ -218,17 +218,19 @@ ID|linke äußere Verknüpfung<br/>(left outer join)|SchuelerZeitraumID
 
 Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen die Vorschau über das Symbol auf). Wird die Vorschau gefüllt (bei mehrseitigen Berichten bitte auch einmal blättern)? Dann ist der Bericht jetzt für MAGELLAN 7 vorbereitet.
 
-Sie erhalten diese Meldung? Dann folgen Sie bitte dem letzten Punkt der Anleitung.
-
-![Meldung](/assets/images/berichte.anpassen2.png)
-
 ## Sollte es noch weitere Probleme geben
+
+### arithmetic exception, numeric overflow
+
+Sie erhalten diese Meldung? Dann folgen Sie bitte dem  Punkt der Anleitung: [2. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#2-datenbankverbindung-aktualisieren)
+
+![Meldung](/assets/images/berichte.anpassen/berichte.anpassen2.png)
 
 ### Keine Datenbankverbindung möglich
 
 Wir empfehlen für die Änderung der eigenen Berichte sich eine lokale MAGELLAN 7-Installation einzurichten.
 
-### Die Vorschau lädt und lädt...
+### Die Vorschau lädt und lädt
 
 Wenn Sie alle vorstehenden Punkte befolgt haben, die Vorschau aber noch immer dauerhaft lädt, ist vermutlich eine vergessene Verknüpfung in einem Unterbericht die Ursache. Die Übersicht der Verknüpfungen gilt für den jeweils gewählten Bericht oder Unterbericht. Bitte schauen Sie, ob es Unterbericht in Ihrem Bericht gibt und überprüfen Sie bitte die Verknüpfungen unter `Datenbank > Datenbank-Assistent > Unterkarte Verknüpfungen` während der Unterbericht geöffnet ist.
 
@@ -240,11 +242,11 @@ Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorsc
 
 In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"?
 
-![Meldung "Die Tabelle wurde nicht gefunden"](/assets/images/berichte.anpassen9.png)
+![Meldung "Die Tabelle wurde nicht gefunden"](/assets/images/berichte.anpassen/berichte.anpassen9.png)
 
 Dann öffnen Sie bitte den Bericht in Crystal Reports und stellen sicher, dass unter `Datei > Berichtsoptionen > Allgemeine Einstellungen` das Häkchen vor `Beim ersten Regenerieren überprüfen` **nicht** aktiviert ist. Wichtig: diese Einstellungen muss bitte für den Bericht und auch für alle Unterberichte deaktiviert sein.
 
-![Dieses Häkchen darf NICHT aktiviert sein](/assets/images/berichte.anpassen8.png)
+![Dieses Häkchen darf NICHT aktiviert sein](/assets/images/berichte.anpassen/berichte.anpassen8.png)
 
 ### Failed to save document
 
@@ -252,10 +254,23 @@ Manche Berichte lassen sich nicht speichern, auch nicht über `Speichern unter`.
 Eine mögliche Ursache dfür kann sein, dass ein Unterbericht im Detailbereich eingebunden wurde. 
 Ändert man das, lässt sich der Bericht auch normal speichern.
 
-![Failed to save document](/assets/images/cr.nicht.speicherbar.jpg)
+![Failed to save document](/assets/images/berichte.anpassen/cr.nicht.speicherbar.jpg)
 
 ### Schüler wird wiederholt angezeigt
 
 Sollten Sie in einem Zeugnis das Problem haben, dass der in MAGELLAN in der Vorschau geladene Schüler beim Test der Vorschau in Crystal Reports immer wieder nacheinander gezeigt wird, kontrollieren Sie bitte die Verknüpfungen der Tabellen KlassenZeitraeume und Klassen. 
 
-![Verknüpfung](/assets/images/berichte.anpassen10.png)
+![Verknüpfung](/assets/images/berichte.anpassen/berichte.anpassen10.png)
+
+### Der verkehrte Schüler wird angezeigt
+
+  In einigen alten Schulbescheinigungen wurde die Tabelle `SchuelerKlassen` statt der Tabelle `KlassenZeitraeume` verwendet. 
+  Das die Verknüpfung nicht stimmt, kann man z.b. daran bemerken, dass ein verkehrter Schüler statt des ausgewählten Schülers angezeigt wird.
+
+Was können Sie tun:
+
+1. Kontrollieren, ob bereits Felder aus SchuelerKlassen genutzt wurden.
+2. Wenn nicht, dann die Verknüpfungen lösen und KlassenZeitraeume einfügen.
+3. Verknüpfen wie in der Abbildung.
+
+![KlassenZeitraeume verknüpfen](/assets/images/berichte.anpassen/04.png)
