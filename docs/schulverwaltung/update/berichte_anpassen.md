@@ -6,7 +6,8 @@ Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte l
 
 !!! warning "Wichtig"
 
-    Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe CRYSTAL REPORTS 2013. 
+    Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe `CRYSTAL REPORTS 2013`. 
+    Um Ihre eigenen Berichte für MAGELLAN 7 anzupassen benötigen Sie mindestens `CRYSTAL REPORTS 2011`.
 
 ## MAGELLAN 7 unterstützt Unicode
 
