@@ -14,6 +14,69 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
+## 7.1.1 - 709 (07.11.2019)
+
+### MAGELLAN
+
+* CHANGE: Beim Aufruf einen Schülers über die F3-Suche wird nicht mehr in die Auswahlliste gewechselt, sondern für den gefundenen Datensatz wird die gleiche Karte gezeigt.
+* CHANGE: Unter `Schüler > Abitur > Qualifikation` werden beim Export nach Excel immer alle Zeilen übergeben.
+* CHANGE: Unter `Schüler > Abitur > Qualifikation` wurde für den Export nach Excel die Bezeichnung "nach Excel exportieren" ergänzend eingeblendet.
+* CHANGE: Unter `Schüler > Zeugnis > Fächer und Leistungen` werden beim Export nach Excel immer alle Zeilen übergeben.
+* CHANGE: Unter `Schüler > Zeugnis > Fächer und Leistungen` wurde für den Export nach Excel die Bezeichnung "nach Excel exportieren" ergänzend eingeblendet.
+* CHANGE: Schlüsselspalte in der Dropdown-Liste unter `Schüler > Daten3 > Fremdsprachen` ergänzt.
+* CHANGE: Das Fenster "Unfallanzeige" wurde überarbeitet.
+* CHANGE: [NRW] Der Export von Daten für SchülerOnline steht zur Verfügung. Bitte beachten Sie die Anleitung unter: [https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/)  
+* CHANGE: Die Berliner Landesstatistiken (Abiturdatenstatistik, Schülerdatenstatistk) und der CSV-Datenexport wurden nach MAGELLAN 7 übernommen.
+
+* FIX: Notenfilter unter `Schüler > Zeugnis > Leistungen` korrigiert
+* FIX: Seriendruckübergabe an Schüler und Bewerber (Schüler/Bewerber, Sorgeberechtigte, Betriebe) korrigiert
+* FIX: `Schüler > Daten1 > Aufenthaltserlaubnis von` eingebbar
+* FIX: `Extras > Schlüsselverzeichnisse > Wettkämpfe` korrigiert
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Schülerpersonalblatt (mit Vorbildung).rpt
+* CHANGE: MVP-BVJ-AZ.rpt
+* CHANGE: MVP-BF-AS.rpt
+* CHANGE: MVP-BF-AZ (DINA3).rpt
+* CHANGE: MVP-BF-AZ (Variante 2).rpt
+* CHANGE: MVP-BF-AZ.rpt
+* CHANGE: MVP-BF-HJZ.rpt
+* CHANGE: MVP-BF-JZ.rpt
+* CHANGE: MVP-BF-ÜZ.rpt
+* CHANGE: MVP-BS (Individuelle Lebensbewältigung).rpt
+* CHANGE: MVP-BS (Prüfungsakte).rpt
+* CHANGE: MVP-BS-AS (Variante 1).rpt
+* CHANGE: MVP-BS-AS (Variante 2).rpt
+* CHANGE: MVP-BS-AS (Variante 3).rpt
+* CHANGE: MVP-BS-AZ.rpt
+* CHANGE: MVP-BS-HJZ.rpt
+* CHANGE: MVP-BS-JZ (Variante 2).rpt
+* CHANGE: MVP-BS-JZ.rptMVP-BVJ-AZ.rpt
+* CHANGE: MVP-BF-AS.rpt
+* CHANGE: MVP-BF-AZ (DINA3).rpt
+* CHANGE: MVP-BF-AZ (Variante 2).rpt
+* CHANGE: MVP-BF-AZ.rpt
+* CHANGE: MVP-BF-HJZ.rpt
+* CHANGE: MVP-BF-JZ.rpt
+* CHANGE: MVP-BF-ÜZ.rpt
+* CHANGE: MVP-BS (Individuelle Lebensbewältigung).rpt
+* CHANGE: MVP-BS (Prüfungsakte).rpt
+* CHANGE: MVP-BS-AS (Variante 1).rpt
+* CHANGE: MVP-BS-AS (Variante 2).rpt
+* CHANGE: MVP-BS-AS (Variante 3).rpt
+* CHANGE: MVP-BS-AZ.rpt
+* CHANGE: MVP-BS-HJZ.rpt
+* CHANGE: MVP-BS-JZ (Variante 2).rpt
+* CHANGE: MVP-BS-JZ.rpt
+* CHANGE: MVP-FG-ABI (2006).rpt
+* CHANGE: MVP-FG-ABI (2013).rpt
+* CHANGE: MVP-BVJ-HJZ.rpt
+* CHANGE: MVP-Empfangsbescheinigung.rpt
+* CHANGE: MVP-FG (Bescheinigung über den schulischen Teil).rpt
+
 ## 7.1.0 - 709 (30.10.2019)
 
 !!! warning "Wichtig"
