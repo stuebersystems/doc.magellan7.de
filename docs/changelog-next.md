@@ -80,3 +80,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: MVP-BS-HJZ.rpt
 * CHANGE: MVP-BS-JZ (Variante 2).rpt
 * CHANGE: MVP-BS-JZ.rpt
+* CHANGE: MVP-FG-ABI (2006).rpt
+* CHANGE: MVP-FG-ABI (2013).rpt
+* CHANGE: MVP-BVJ-HJZ.rpt
+* CHANGE: MVP-Empfangsbescheinigung.rpt
+* CHANGE: MVP-FG (Bescheinigung über den schulischen Teil).rpt
