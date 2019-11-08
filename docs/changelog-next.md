@@ -53,3 +53,10 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: MVP-FO-JZ.rpt
 * FIX: MVP-FS-AS .rpt
 * FIX: MVP-FS-AZ.rpt
+* FIX: MVP-Schullastenausgleich-Vollzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* FIX: MVP-Schullastenausgleich-Teilzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* FIX: MVP-FS-JZ.rpt
+* FIX: MVP-GES-HJZ (nicht versetzt).rpt
+* FIX: MVP-GES-HJZ (versetzt).rpt
+* FIX: MVP-GES-JZ (nicht versetzt).rpt
+* FIX: MVP-GES-JZ (versetzt).rpt
