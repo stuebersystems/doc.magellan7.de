@@ -42,4 +42,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX:
+* FIX: MVP-FG-FHReife (Bescheinigung 2013).rpt
+* FIX: MVP-FG-ABI.rpt
+* FIX: MVP-FG-AZ  (Qualifikationsphase DINA4).rpt
+* FIX: MVP-FG-AZ (Qualifikationsphase).rpt
+* FIX: MVP-FG-AZ.rpt
+* FIX: MVP-FS-JZ.rpt
+* FIX: MVP-GES-HJZ (nicht versetzt).rpt
+* FIX: MVP-FO-Fhreife.rpt
+* FIX: MVP-FO-JZ.rpt
+* FIX: MVP-FS-AS .rpt
+* FIX: MVP-FS-AZ.rpt
