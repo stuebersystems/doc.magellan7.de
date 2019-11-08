@@ -155,9 +155,10 @@ nav:
           - BER-APO-FOS-2006/2013: schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013.md
         - Schülerdatenexport: schulverwaltung/regionales/berlin/schuelerdaten.md
         - Statistik:
-          - Einstieg: schulverwaltung/regionales/berlin/stat.einstieg.md
-          - Abiturdatenerfassung: schulverwaltung/regionales/berlin/stat.abidaten.md
-          - Schülerdaten: schulverwaltung/regionales/berlin/stat.schuelerdaten.md
+          - Einstieg: schulverwaltung/regionales/berlin/statistik/01.stat.einstieg.md
+          - Schlüsselverzeichnisse: schulverwaltung/regionales/berlin/statistik/02.schluesselverzeichnisse.md
+          - Abiturdatenerfassung: schulverwaltung/regionales/berlin/statistik/03.stat.abidaten.md
+          - Schülerdaten: schulverwaltung/regionales/berlin/statistik/04.stat.schuelerdaten.md
       - Nordrhein-Westfalen: 
         - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
       - Saarland: 

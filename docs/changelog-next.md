@@ -36,7 +36,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Statistik
 
-* FIX:
+* FIX: [BER- SchüDa] Korrektur der Ausgabe des Felds `Geburtsland` und Ausgabe der Dateinamen
 
 ### Berichte (NEW oder CHANGE)
 

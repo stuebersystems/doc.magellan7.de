@@ -2,7 +2,6 @@
 
 Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen [MAGELLAN-Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/).
 
-* [Schlüsselverzeichnisse](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/schluesselverzeichnisse/)
 * [Skriptüberblick](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/skriptuebersicht/)
 * [Angaben für die Oberstufe](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/oberstufe/)
 * [Schülerfachwahlen eingeben und prüfen](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/fachwahl/)
