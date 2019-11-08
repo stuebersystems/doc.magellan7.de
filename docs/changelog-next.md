@@ -42,21 +42,21 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* FIX: MVP-FG-FHReife (Bescheinigung 2013).rpt
-* FIX: MVP-FG-ABI.rpt
-* FIX: MVP-FG-AZ  (Qualifikationsphase DINA4).rpt
-* FIX: MVP-FG-AZ (Qualifikationsphase).rpt
-* FIX: MVP-FG-AZ.rpt
-* FIX: MVP-FS-JZ.rpt
-* FIX: MVP-GES-HJZ (nicht versetzt).rpt
-* FIX: MVP-FO-Fhreife.rpt
-* FIX: MVP-FO-JZ.rpt
-* FIX: MVP-FS-AS .rpt
-* FIX: MVP-FS-AZ.rpt
-* FIX: MVP-Schullastenausgleich-Vollzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
-* FIX: MVP-Schullastenausgleich-Teilzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
-* FIX: MVP-FS-JZ.rpt
-* FIX: MVP-GES-HJZ (nicht versetzt).rpt
-* FIX: MVP-GES-HJZ (versetzt).rpt
-* FIX: MVP-GES-JZ (nicht versetzt).rpt
-* FIX: MVP-GES-JZ (versetzt).rpt
+* CHANGE: MVP-FG-FHReife (Bescheinigung 2013).rpt
+* CHANGE: MVP-FG-ABI.rpt
+* CHANGE: MVP-FG-AZ  (Qualifikationsphase DINA4).rpt
+* CHANGE: MVP-FG-AZ (Qualifikationsphase).rpt
+* CHANGE: MVP-FG-AZ.rpt
+* CHANGE: MVP-FS-JZ.rpt
+* CHANGE: MVP-GES-HJZ (nicht versetzt).rpt
+* CHANGE: MVP-FO-Fhreife.rpt
+* CHANGE: MVP-FO-JZ.rpt
+* CHANGE: MVP-FS-AS .rpt
+* CHANGE: MVP-FS-AZ.rpt
+* CHANGE: MVP-Schullastenausgleich-Vollzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* CHANGE: MVP-Schullastenausgleich-Teilzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* CHANGE: MVP-FS-JZ.rpt
+* CHANGE: MVP-GES-HJZ (nicht versetzt).rpt
+* CHANGE: MVP-GES-HJZ (versetzt).rpt
+* CHANGE: MVP-GES-JZ (nicht versetzt).rpt
+* CHANGE: MVP-GES-JZ (versetzt).rpt
