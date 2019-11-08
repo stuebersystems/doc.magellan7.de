@@ -1,0 +1,164 @@
+# Abiturdaten
+
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/stat.einstieg#datenausgabe)
+
+## Dateneingabe
+
+Art               | Inhalt
+----------------- | -------
+**Statistikfeld** | **01 - BSN**
+Datenfeld         | Mandant > Daten1 > Schulnummer
+Beschreibung      | Bitte tragen Sie hier die Schulnummer Ihrer Schule ein.
+**Statistikfeld** | **02 - Schuljahr Anfang**
+Datenfeld         | Wert wird berechnet
+Beschreibung      | Vierstellige Jahreszahl. Berechnet sich anhand des aktuell eingestellten Schulhalbjahres.
+**Statistikfeld** | **03 - Schuljahr Ende**
+Datenfeld         | Wert wird berechnet
+Beschreibung      | Vierstellige Jahreszahl. Berechnet sich anhand des aktuell eingestellten Schulhalbjahres.
+**Statistikfeld** | **04 - Identifikator**
+Datenfeld         | Schüler > Auswahl > ID
+Beschreibung      | Die ID des Schülers wird vom Statistikmodul ausgelesen und ausgegeben.
+**Statistikfeld** | **05 - Name**
+Datenfeld         | Schüler > Daten 1 > Nachname
+Beschreibung      | Geben Sie den Nachnamen des Schülers ein.
+**Statistikfeld** | **06 - Vorname**
+Datenfeld         | Schüler > Daten 1 > Vorname
+Beschreibung      | Geben Sie den Vorname des Schülers ein.
+**Statistikfeld** | **07 - Geschlecht**
+Datenfeld         | Schüler > Daten 1 > Geschlecht
+Beschreibung      | Wählen Sie das Geschlecht des Schülers aus. ***ACHTUNG***: MAGELLAN 7 unterstützt bereits das Geschlechtsmerkmal `Divers`. Dieses wird mangels Information vom Senat nicht ausgespielt.
+**Statistikfeld** | **08 - Geburtsdatum**
+Datenfeld         | Schüler > Daten 1 > Geburtsdatum
+Beschreibung      | Geben Sie das Geburtsdatum des Schülers ein.
+**Statistikfeld** | **09 - Geburtsort**
+Datenfeld         | Schüler > Daten 1 > Geburtsort
+Beschreibung      | Geben Sie den Geburtsort des Schülers ein.
+**Statistikfeld** | **10 - Geburtsland**
+Datenfeld         | Schüler > Daten 1 > Geburtsland
+Beschreibung      | Geben Sie das Geburtsland des Schülers ein. Wenn kein Eintrag erfolgt, wird automatisch `DE` für Deutschland ausgegeben.
+**Statistikfeld** | **11 - Staatsangehörigkeit**
+Datenfeld         | Schüler > Daten 1 > Staatsagenhörigkeit > Staatsangeh. 1
+Beschreibung      | Wählen sie die 1. Staatsangehörigkeit des Schüler aus.
+**Statistikfeld** | **12 - Herkunftssprache**
+Datenfeld         | Schüler > Daten 1 > Staatsagenhörigkeit > Muttersprache
+Beschreibung      | Wählen sie die Herkunftssprache des Schüler aus.
+**Statistikfeld** | **13 - Familiensprache**
+Datenfeld         | Schüler > Daten 1 > Staatsagenhörigkeit > Verkehrssprache
+Beschreibung      | Wählen sie die Verkehrssprache des Schüler aus.
+**Statistikfeld** | **14 - Lernmittelbefreiung**
+Datenfeld         | Schüler > Extras > Lernmittel > befreit
+Beschreibung      | Markieren Sie, ob der Schüler von der Zahlung der Lernmittelabgabe befreit ist.
+**Statistikfeld** | **15 - Bildungsgang**
+Datenfeld         | Klassen > Zeiträume > Jahrgang
+Beschreibung      | Im aktuellen Zeitraum 2. Halbjahr des Schuljahres muss das Feld den Wert `12` für G8-Abitur oder `13` für G9-Abitur haben.
+**Statistikfeld** | **16 - Ersteinschulung**
+Datenfeld         | Schüler > Daten 2 >  Grundschuleintritt
+Beschreibung      | Geben Sie das Datum der Ersteinschulung ein. Statistisch relevant ist lediglich das korrekte Jahr.
+**Statistikfeld** | **17 - Eintritt E-Phase**
+Datenfeld         | Schüler > Laufbahn > Allgemein > Zugang
+Beschreibung      | Nur für G9-Abitur:<br/>Geben Sie im Jahrgang 11 der Abiturklasse den Schuljahresanfang für den Eintritt in die E-Phase ein.
+**Statistikfeld** | **18 - Eintritt Q-Phase**
+Datenfeld         | Schüler > Laufbahn > Allgemein > Zugang
+Beschreibung      | Geben Sie im Jahrgang 12 der Abiturklasse den Schuljahresanfang für den Eintritt in die Q-Phase ein.
+**Statistikfeld** | **19 - Anzahl Kurshalbjahre**
+Datenfeld         | Klassen > Zeiträume > Zeitraum > Jahrgang
+Beschreibung      | Die Anzahl der Kurshalbjahre errechnet sich durch die korrekte Eingabe der Jahrgänge über alle Halbjahre der Klassen 11-13 hinweg.
+**Statistikfeld** | **20 - Anzahl Wdh. in der Oberstufe**
+Datenfeld         | Klassen > Zeiträume > Zeitraum > Jahrgang<br/>Schüler > Laufbahn > Allgemein > Wiederholer
+Beschreibung      | Die Anzahl der Wiederholer in den Kurshalbjahren errechnet sich durch die korrekte Eingabe der Jahrgänge über alle Halbjahre der Klassen 11-13 hinweg und dem gesetzten Wiederholer Merkmal beim Schüler.
+**Statistikfeld** | **21 - Abiturzulassung**
+Datenfeld         | Abitur > Prüfung > Status<br/>Abitur > Qualifikation > Status
+Beschreibung      | Der Schüler hat die Abiturzulassung erreicht, wenn im Feld `Status` der Wert `Abiturprüfung bestanden` bzw. `Abiturprüfung nicht bestanden` steht.
+**Statistikfeld** | **22 - Nach Zulassungsbescheid zurückgetreten**
+Datenfeld         | Abitur > Qualifikation > Rücktritt nach Zulassung
+Beschreibung      | Geben Sie an, ob der Schüler nach dem Zulassungsbescheid zurückgetreten ist.
+**Statistikfeld** | **23 - Abiturprüfung Wdh.**
+Datenfeld         | Schüler > Merkmale > Statistik Merkmale > Merkmal S2
+Beschreibung      | Geben Sie an, ob der Schüler die Abiturprüfung wiederholt hat.<br/>Wenn Sie nichts eingeben, dann trifft es für den Schüler nicht zu.
+**Statistikfeld** | **24 - 1. LF Kürzel<br/>29 - 2. LF Kürzel<br/>34 - 3. LF Kürzel<br/>39 - 4. LF Kürzel<br/>43 - 5. PK Kürzel**
+Datenfeld         | Abitur > Prüfung > Fach
+Beschreibung      | Ergibt sich durch die Eingaben im Abiturmodul.<br/>Es wird das eingetragene Fach exportiert.
+**Statistikfeld** | **25 - 1. LF Punktzahl<br/>30 - 2. LF Punktzahl<br/>35 - 3. LF. Punktzahl<br/>40 - 4. LF Punktzahl
+Datenfeld         | Abitur > Prüfung > 1. PF - 4. PF
+Beschreibung      | Ergibt sich durch die Eingaben im Abiturmodul und Berechnung der Endnoten.
+**Statistikfeld** | **26 - 1. LF Punkte schriftlich<br/>31 - 2. LF Punkte schriftlich<br/>36 - 3. PF Punkte schriftlich**
+Datenfeld         | Abitur > Prüfung > 1. PF - 3. PF > Schriftliche Note
+Beschreibung      | Geben Sie im Abiturmodul für das entsprechende Prüfungsfach die schriftliche Note ein.
+**Statistikfeld** | **27 - 1. LF Punkte mündlich<br/>32 - 2. LF Punkte mündlich<br/>37 - 3. PF Punkte mündlich**  
+Datenfeld         | Abitur > Prüfung > 1. PF - 3. PF > Mündliche Note
+Beschreibung      | Geben Sie im Abiturmodul für das entsprechende Prüfungsfach die mündliche Note ein.
+**Statistikfeld** | **28 - 1. LF bilingual <br/>33 - 2. LF bilingual<br/>38 - 3. PF bilingual<br/>41 - 4. PF bilingual**
+Datenfeld         | Abitur > Qualifikation > Q1 Sprache - Q4 Sprache
+Beschreibung      | Geben Sie für ein bilingual gehaltenes Fach die Fremdsprache unter Q1 Sprache – Q4 Sprache an.
+**Statistikfeld** | ***42 - 5. PK Art**
+Datenfeld         | Abitur > Qualifikation > Fachstatus<br/>Abitur > Prüfung > Lernleistung > Lernleistung einbringen
+Beschreibung      | Ist `Lernleistung einbringen` markiert hat dies Vorrang zu anderen angaben. Anderenfalls wird der `Fachstatus` entsprechend der Werte `5PF` `BLL` und `PRS` in der Reihenfolge geprüft und ausgewertet.
+**Statistikfeld** | **44 - 5. PK Punktzahl**
+Datenfeld         | Abitur > Prüfung > 5. PF<br/>Abitur > Prüfung > Lernleistung > Lernleistung einbringen<br/>Abitur > Prüfung > Lernleistung > Punkte 1
+Beschreibung      | Ist `Lernleistung einbringen` markiert wird die 1. Note * 4 ausgegeben. Anderenfalls die Endnote des 5. PF.
+**Statistikfeld** | ***45 - Theoretische Prüfung Sport - Mündliche Note**
+Datenfeld         | Abitur > Prüfung > Fachpraxis > Fach<br/>Abitur > Prüfung > Fachpraxis > Note 1
+Beschreibung      | Zum Erfassen der Theoretischen Prüfung in Sport tragen Sie unter Fachpraxis das Fach `Sport` und in Note 1 das Ergebnis der theoretischen Prüfung ein.
+**Statistikfeld** | ***46 - Praktische Prüfung Sport - Praktische Note**
+Datenfeld         | Abitur > Prüfung > Fachpraxis > Fach<br/>Abitur > Prüfung > Fachpraxis > Note 2
+Beschreibung      | Zum Erfassen der Praktischen Prüfung in Sport tragen Sie unter Fachpraxis das Fach `Sport` und in Note 2 das Ergebnis der praktischen Prüfung ein.
+**Statistikfeld** | ***47 - Ausschluss mündl Prüfung**
+Datenfeld         | Abitur > Prüfung > Eigenschaften > Ausschluss Mündliche Prüfung
+Beschreibung      | Markieren Sie das Feld, wenn der Schüler von der Mündlichen Prüfung ausgeschlossen ist.
+**Statistikfeld** | ***48 - Abiturprüfung bestanden**
+Datenfeld         | Abitur > Prüfung > Status<br/>Abitur > Qualifikation > Status<br/>Abitur > Qualifikation > Rücktritt folgenlos
+Beschreibung      | Der Schüler hat die Abiturprüfung bestanden, wenn im Feld `Status` der Wert `Abiturprüfung bestanden` steht.<br/>Möchte der Schüler zurücktreten, so muss das Feld `Rücktritt folgenlos` markiert sein.
+**Statistikfeld** | ***49 - Gesamtpunktzahl des Abiturs**
+Datenfeld         | Abitur > Prüfung > Gesamtpunktzahl
+Beschreibung      | Ergibt sich durch die Eingaben und Berechnungen im Feld Gesamtpunktzahl.
+**Statistikfeld** | **50 - 1 Fremdsprache<br/>54 - 2. Fremdsprache<br/>58 - 3. Fremdsprache<br/>61 - 4. Fremdsprache**  
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 1. - 4. Fremdsprache
+Beschreibung      | Wählen Sie die 1. - 4. Fremdsprache aus.
+**Statistikfeld** | **51 - 1. Fremdsprache andere anerkannt<br/>55 - 2. Fremdsprache andere anerkannt**
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 1. - 4. Fremdsprache
+Beschreibung      | Wählen Sie die 1. - 4. Fremdsprache aus.
+**Statistikfeld** | **52 - 1. Fremdsprache von<br/>56 - 2. Fremdsprache von<br/>59 - 3. Fremdsprache von<br/>62 - 4. Fremdsprache von**  
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 1. - 4. Fremdsprache von
+Beschreibung      | Geben Sie den Jahrgang von für die 1. - 4. Fremdsprache ein.
+**Statistikfeld** | **53 - 1. Fremdsprache bis<br/>57 - 2. Fremdsprache bis<br/>60 - 3. Fremdsprache bis<br/>63 - 4. Fremdsprache bis**  
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 1. - 4. Fremdsprache bis
+Beschreibung      | Geben Sie den Jahrgang bis für die 1. - 4. Fremdsprache ein.
+**Statistikfeld** | **64 - Latinum**  
+Datenfeld         | Abitur > Prüfung > Latinum
+Beschreibung      | Markieren Sie, ob der Schüler das Latinum erreicht hat.
+**Statistikfeld** | **65 - Graecum**  
+Datenfeld         | Abitur > Prüfung > Graecum
+Beschreibung      | Markieren Sie, ob der Schüler das Graecum erreicht hat.
+**Statistikfeld** | **66 - Hebraicum**  
+Datenfeld         | Abitur > Prüfung > Hebraicum
+Beschreibung      | Markieren Sie, ob der Schüler das Hebraicum erreicht hat.
+**Statistikfeld** | **67 - Fach**  
+Datenfeld         | Abitur > Qualifikation > Fach
+Beschreibung      | Hier sind jeweils die Fächer angegeben, die in der Oberstufe verwendet werden.
+**Statistikfeld** | **68 - Zusatzfach**  
+Datenfeld         | Abitur > Qualifikation > Unterrichtsart
+Beschreibung      | Ist bei der Unterrichtsfach `Z` angegeben, gilt das Fach als Zusatzfach.
+**Statistikfeld** | **69 - Punkte 1. KHJ**  
+Datenfeld         | Abitur > Qualifikation > Q1
+Beschreibung      | Geben Sie hier die Punkte in Q1 ein.
+**Statistikfeld** | **70 - Punkte 1. KHJ (eingebracht)**  
+Datenfeld         | Abitur > Qualifikation > Q1 (markiert)
+Beschreibung      | Wenn die Punkte in Q1 eingebracht werden, müssen diese farblich markiert sein (Standardfarbe ist gelb).
+**Statistikfeld** | **71 - Punkte 2. KHJ**  
+Datenfeld         | Abitur > Qualifikation > Q2
+Beschreibung      | Geben Sie hier die Punkte in Q2 ein.
+**Statistikfeld** | **72 - Punkte 2. KHJ (eingebracht)**  
+Datenfeld         | Abitur > Qualifikation > Q2 (markiert)
+Beschreibung      | Wenn die Punkte in Q2 eingebracht werden, müssen diese farblich markiert sein (Standardfarbe ist gelb).
+**Statistikfeld** | **73 - Punkte 3. KHJ**  
+Datenfeld         | Abitur > Qualifikation > Q3
+Beschreibung      | Geben Sie hier die Punkte in Q3 ein.
+**Statistikfeld** | **74 - Punkte 3. KHJ (eingebracht)**  
+Datenfeld         | Abitur > Qualifikation > Q3 (markiert)
+Beschreibung      | Wenn die Punkte in Q3 eingebracht werden, müssen diese farblich markiert sein (Standardfarbe ist gelb).
+**Statistikfeld** | **75 - Punkte 4. KHJ**  
+Datenfeld         | Abitur > Qualifikation > Q4
+Beschreibung      | Geben Sie hier die Punkte in Q4 ein.
+**Statistikfeld** | **76 - Punkte 4. KHJ (eingebracht)**  
+Datenfeld         | Abitur > Qualifikation > Q4 (markiert)
+Beschreibung      | Wenn die Punkte in Q4 eingebracht werden, müssen diese farblich markiert sein (Standardfarbe ist gelb).

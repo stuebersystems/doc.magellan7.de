@@ -1,0 +1,161 @@
+# Schülerdaten
+
+[Beachten Sie bitte die Mindesteingaben für die Statistik!](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/stat.einstieg#datenausgabe)
+
+## Dateneingabe
+
+***Erläuterung:*** Die Schülerdaten werden in zwei Dateien je nach Schulform (Allgmeinbildend, Berufsbildend) in Schüler ABS und Schüler BBS unterteilt. In den nachfolgenden Abschnitten finden Sie entsprechend alle Statistikfelder der jeweiligen Datei. Der erste Abschnitt enthält die Statistikfelder die in beiden Dateien ausgegeben werden.
+
+Die Datei für Berufsbildende Schulen ist unterteilt in Teil I und Teil II. Die Felder von Teil I werden immer ausgegeben, während die Felder von Teil II nur gefüllt werden, wenn folgende Bedinungen erfüllt sind:
+
+* „Berufsschulen mit sonderpäd. Aufgaben“ – Schlüssel 30 der Klasse.Schulform ODER
+* „Berufsschulen“ – Schlüssel 32 der Klasse.Schulform
+* UND „Auszubildenden“ – Schlüssel 01 der Klasse.Bildungsgang
+
+Anderenfalls werden Leerfelder für die Felder von Teill II ausgegeben. Diese erkennen sie in Excel als leere Felder, in einem Texteditor als Semikolon.
+
+Felder die für Teil II relevant sind, werden in den nachfolgenden Tabellen als `BBS Typ | Teil II` gesondert gekennzeichnet.
+
+### Allgemeine Schülerdaten
+
+Dies sind die gemeinsam ausgespielten Statistikfelder der Schülerdaten.
+
+Art               | Inhalt
+----------------- | -------
+**Statistikfeld** | **BSN**
+Datenfeld         | Mandant > Daten1 > Schulnummer
+Beschreibung      | Bitte tragen Sie hier die Schulnummer Ihrer Schule ein.
+**Statistikfeld** | **S_Nummer**
+Datenfeld         | Schüler > Auswahl > ID
+Beschreibung      | Die ID des Schülers wird vom Statistikmodul ausgelesen und ausgegeben.
+**Statistikfeld** | **S_Name**
+Datenfeld         | Schüler > Daten 1 > Nachname
+Beschreibung      | Geben Sie hier den Nachnamen des Schülers ein.
+**Statistikfeld** | **S_Vorname**
+Datenfeld         | Schüler > Daten 1 > Vorname
+Beschreibung      | Geben Sie hier den Vornamen des Schülers ein.
+**Statistikfeld** | **S_Geschlecht**
+Datenfeld         | Schüler > Daten 1 > Geschlecht
+Beschreibung      | Wählen Sie hier das Geschlecht des Schülers aus. ***ACHTUNG***: MAGELLAN 7 unterstützt bereits das Geschlechtsmerkmal `Divers`. Dieses wird mangels Information vom Senat nicht ausgespielt.
+**Statistikfeld** | **S_Geburtsdatum**
+Datenfeld         | Schüler > Daten 1 > Geburtsdatum
+Beschreibung      | Geben Sie hier das Geburtsdatum des Schülers ein.
+**Statistikfeld** | **S_StrasseHNr**
+Datenfeld         | Schüler > Daten 1 > Strasse
+Beschreibung      | Geben Sie hier die Straße und Hausnummer des Wohnortes des Schülers ein.
+**Statistikfeld** | **S_PLZ**
+Datenfeld         | Schüler > Daten 1 > PLZ
+Beschreibung      | Geben Sie hier die PLZ des Wohnortes des Schülers ein.
+**Statistikfeld** | **S_Ort**
+Datenfeld         | Schüler > Daten 1 > Ort
+Beschreibung      | Geben Sie hier den Wohnort des Schülers ein.
+**Statistikfeld** | **S_NDH**
+Datenfeld         | Schüler > Daten 1 > Aufenthalt > NdH
+Beschreibung      | Markieren Sie hier, ob der Schüler nichtdeutscher Herkunftssprache ist.
+**Statistikfeld** | **S_Lernmittelbefreiung**
+Datenfeld         | Schüler > Extras > Lernmittel > befreit
+Beschreibung      | Markieren Sie hier, ob der Schüler von der Zahlung der Lernmittelabgabe befreit ist.
+**Statistikfeld** | **K_Schulzweig**
+Datenfeld         | Klassen > Daten > Schulform
+Beschreibung      | Geben Sie bitte hier die Schulform der Klasse ein.
+**Statistikfeld** | **K_Klassenart**
+BBS-Typ           | Teil II
+Datenfeld         | Klassen > Daten > Schulart
+Beschreibung      | Die Klassenart wird aufgrund der erweiterbaren Werteliste im Feld Schulart der Klasse eingetragen.
+
+### Schülerdaten ABS
+
+Dies sind die Statistikfelder die nur für die allgemeinbildenden Schülerdatei relevant sind.
+
+Art               | Inhalt
+----------------- | -------
+**Statistikfeld** | **S_SaphJuel_JahrgStufe**
+Datenfeld         | Klasse > Zeitraum > Klassenstufe<br/>Schueler > Statistik > Merkmal S2<br/>Klasse > Schulart<br/>Klasse > Zeitraum > Klassenstufe
+Beschreibung      | Für *SAPH* Klassen geben Sie in der `Klassenstufe` der Klasse den Schlüssel `60` an und die eigentliche Klassenstufe des Schülers im Feld `Merkmal S2` der Statistikmerkmale ein.<br/>SAPH Klassen sind Regelklassen (Klassenart)<br/>Für 
+*JUEL* Klassen geben Sie in der `Schulart` der Klasse die `34` an, in der Klassenstufe der Klasse jeweils die höchste Klassenstufe (3 oder 6)<br/>und die eigentliche `Klassenstufe` des Schülers im Feld `Merkmal S2` der Statistikmerkmale ein.<br/>**Nur für Grundschulen Pflicht!**
+**Statistikfeld** | **K_JahrgStufe**
+Datenfeld         | Klasse > Zeitraum > Klassenstufe
+Beschreibung      | Geben Sie bitte hier die Klassenstufe der Klasse ein. Bei Jahrgangsübergreifenden Klassen hier die höchste Klassenstufe eintragen.
+**Statistikfeld** | **K_Alpha**
+Datenfeld         | Klassen > Daten > Statistikkürzel<br/>Klassen > Daten > Alpha
+Beschreibung      | Wenn Sie mit Parallelklassen arbeiten, müssen Sie die Klassen mit einem Parallelitätskennzeichen unterscheiden.<br/>Beispiel: 7A, 7B, 7C, 7D etc.<br/>Sie haben die Möglichkeit in MAGELLAN für die Klasse das Kürzel, das Alpha und das Statistikkürzel anzugeben. Das Kürzel verwenden Sie im schulischen Alltag, das Alpha und das Statistikkürzel verwenden wir für die Statistik. Das Statistikkürzel tragen Sie ein, damit eine Klasse statistisch erfasst und ausgespielt wird. Üblicherweise verwendet man hier das Kürzel der Klasse erneut. Die Ausgabe des Parallelitätskennzeichen berechnen wir wie folgt.<br/>1. Wir geben das Alpha aus, falls angegeben.<br/>2. Wenn nicht schauen wir uns das letzte Zeichen des Statistikkürzels an und prüfen, ob es zwischen A-Z liegt und geben dann dieses aus.<br/>3. Treffen die beiden zuvor genannten Punkte nicht zu, dann wird automatisch `A` ausgegeben.
+**Statistikfeld** | **K_Integrationsmerkmal**
+Datenfeld         | Klassen > Merkmale > Merkmal S1
+Beschreibung      | Geben Sie hier Integrationsmerkmal der Klasse ein.
+**Statistikfeld** | **K_Foerderschwerpunkt**
+Datenfeld         | Klassen > Merkmale > Merkmal S2
+Beschreibung      | Geben Sie hier den Förderschwerpunkt der Klasse ein
+
+### Schülerdaten BBS
+
+Dies sind die Statistikfelder die nur für die berufsbildenden Schülerdatei relevant sind.
+
+Art               | Inhalt
+----------------- | -------
+**Statistikfeld** | **K_Schuelergruppe**
+Datenfeld         | Klassen > Daten > Bildungsgang
+Beschreibung      | Geben Sie hier die Zugehörigkeit des Schülers zu einer Schülergruppe ein.
+**Statistikfeld** | **S_Wohnsitz**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 1 > Gemeinde
+Beschreibung      | Geben Sie im Feld `Gemeinde`, die Wohngemeinde des Schülers ein. Diese wird auch automatisch eingetragen, wenn Sie die Felder `PLZ` und `Wohnort` eintragen.<br/>Der Statistikwert wird automatisch aus der Gemeindekennziffer berechnet.
+**Statistikfeld** | **S_Staat**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 1 > Staatsangehörigkeit > Staatsangeh. 1
+Beschreibung      | Wählen Sie hier die Staatsangehörigkeit des Schülers aus.
+**Statistikfeld** | **S_Behinderung**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Diagnose/Behinderung<br>Schüler > Daten 4 > Beeinträchtigung und Fördermaßnahmen > Position
+Beschreibung      | Wählen Sie in der Liste der Beinträchtigungen im Feld `Diagnose/Behinderung` einen Wert aus. Gibt es dort noch keinen Eintrag, müssen Sie diesen zuerst erzeugen. Haben Sie mehrere Einträge mit ausgewählter Behinderung eingetragen wird die Liste bei der Auswertung nach der `Position` und entsprechend der Sortierung der erste Eintrag ausgegeben.
+**Statistikfeld** | **S_Berufsklasse**
+BBS-Typ           | Teil II
+Datenfeld         | Klassen > Daten > Beruf<br>Schüler > Ausbildung > Ausbildungsbetrieb > Beruf<br>Schüler > Merkmale > Statistik Merkmale > Merkmal T1
+Beschreibung      | Die Ausgabe des Berufs berechnet sich wie folgt:<br/>1. Ein beim Schüler angegebene aktuelle Ausbildung mit Beruf (ungleich `NB`)<br/>2. Ist beim Schüler nichts eingetragen, dann ein evtl. eingetragener Beruf der Klasse.<br/>Ist in beiden Fällen nichts angegeben bleibt das Feld leer. Über einen Eintrag im Statistikmerkmal `Merkmal T1` kann ein Ausbildungsberuf im Klartext eingetragen werden, falls kein Wert in der Werteliste zutrifft. Diese wird aber erst im Statistikfeld **S_Neuer_Beruf** ausgegeben.
+**Statistikfeld** | **S_Neuer_Beruf**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Merkmale > Statistik Merkmale > Merkmal T1
+Beschreibung      | Führt die Berechnung des Berufes im vorigen Statistikfeld **S_Berufsklasse** zu keinem Wert, wird ein ggf. einetragener Wert im Feld `Merkmal T1` als Ausbildugsberuf in Klartext ausgegeben.
+**Statistikfeld** | **S_AusbildungsJahr**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Zeugnis > Details > Ausbildungsjahr
+Beschreibung      | Geben Sie hier das aktuelle Ausbildungsjahr des Schülers ein. Beim Fortschreiben können Sie dies jährlich automatisch erhöhen lassen, dann muss der Wert nicht mehr manuell eingetragen werden.
+**Statistikfeld** | **S_AusbildungsOrt**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Ausbildung > Ausbildungsbetrieb > Betrieb<br/>Betriebe > Daten 1 > Gemeinde
+Beschreibung      | Geben Sie die Aktuelle Ausbildung und den Betriebe an. Geben in den Betriebedaten die Gemeinde an. Der statitische Wert wird dann automatisch berechnet.
+**Statistikfeld** | **S_Schulische_Vorbildung**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss
+Beschreibung      | Geben Sie hier den höchsten erreichten allgemeinbildenbden Schulabschluss des Schülers ein.
+**Statistikfeld** | **S_Beruflische_Vorbildung**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss
+Beschreibung      | Geben Sie hier den höchsten erreichten beruflichen Schulabschluss des Schülers ein.
+**Statistikfeld** | **S_SchulAbSchlussjahr**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 2 > Höchster Abschluss ABS > Erreicht am
+Beschreibung      | Geben Sie hier an, wann der höchste schulische Abschluss erreicht wurde. Relevant ist ein Datum im korrekten Schuljahr. Beispiele:<br/>14.05.2009 = Schuljahr 08/09<br/>02.08.2009 = Schuljahr 09/10
+**Statistikfeld** | **S_Unterrichtsstunden**
+BBS-Typ           | Teil II
+Datenfeld         | Klassen > Merkmale > Merkmal B1
+Beschreibung      | Geben Sie hier die Anzahl der wöchentlichen Unterrichststunden der Auszubildenden ein, wenn es sich nicht um Blockunterricht handelt.
+**Statistikfeld** | **K_Klassenbezeichnung**
+BBS-Typ           | Teil II
+Datenfeld         | Wert wird berechnet
+Beschreibung      | Durchzählung der Ausbildungsklassen im Format 001-300. Wird beim Export automatisch von MAGELLAN berechnet.
+**Statistikfeld** | **K_Blockunterricht**
+BBS-Typ           | Teil II
+Datenfeld         | Klassen > Daten > Organisation
+Beschreibung      | Geben Sie hier die Klassenorganisation ein.
+**Statistikfeld** | **U_Fremdsprache_Pflicht**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 1. Fremdsprache
+Beschreibung      | Wählen Sie die erste Fremdsprache aus.
+**Statistikfeld** | **U_Fremdsprache_Wahlpflicht**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 2. Fremdsprache
+Beschreibung      | Wählen Sie die zweite Fremdsprache aus.
+**Statistikfeld** | **U_Fremdsprache_Wahlpflicht**
+BBS-Typ           | Teil II
+Datenfeld         | Schüler > Daten 3 > Fremdsprachenfolge > 3. Fremdsprache
+Beschreibung      | Wählen Sie die dritte Fremdsprache aus.
