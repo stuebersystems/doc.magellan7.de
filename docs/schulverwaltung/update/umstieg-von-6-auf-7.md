@@ -8,6 +8,15 @@
 
 ## Was ist vorab zu beachten
 
+### Übernahme nicht übers Netzwerk
+
+Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen. 
+Bitte legen Sie beide Datenbanken, also die leere MAGELLAN7.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
+
+!!! danger "Achtung"
+
+    Bevor Sie die MAGELLAN6.fdb kopieren stoppen Sie bitte den Firebirddienst unter `Start > Systemsteuerung > Verwaltung > Dienste`.
+
 ### Datenübernahme testen
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
