@@ -8,14 +8,14 @@ Setzt die Generatoren zur Erstellung der automatisch hochgezählten Ids auf den 
 
 ## Gemeinden synchronisieren
 
-Setzt für Schüler, Betriebe, Lehrer, Schulen und Sorgeberechtigte (Sorgeberechtigte neu ab 7.0.12) die Gemeindekennziffern anhand der PLZ und des Ortes, wenn damit nicht mehrere Gemeinden gekennzeichnet sind. 
+Setzt für Schüler, Betriebe, Lehrer, Schulen und Sorgeberechtigte (Sorgeberechtigte neu ab 7.0.12) die Gemeindekennziffern anhand der PLZ und des Ortes, wenn damit nicht mehrere Gemeinden gekennzeichnet sind.
 Es werden nur nicht vorhandene Gemeinden gesetzt.
 
 ![Klicken Sie auf `Ausführen`oder doppelt auf `Gemeinden synchronisieren`](/assets/images/magellan.administrator/gemeinden.sync.png)
 
 ## Korrektur Mandanten kopieren (702)
 
-MAGELLAN 7 erlaubtz es den Schplern in Stamm- und Nebenschüler zur trennen, um parallel laufende Laufbahnen abzubilden. Die Stammdaten werden jeweils nur beim Stammschüler gespeichert, aber bei Stammschüler oder Nebenschüler eingegeben und gezeigt.
+MAGELLAN 7 erlaubtz es den Schüler in Stamm- und Nebenschüler zur trennen, um parallel laufende Laufbahnen abzubilden. Die Stammdaten werden jeweils nur beim Stammschüler gespeichert, aber bei Stammschüler oder Nebenschüler eingegeben und gezeigt.
 Beim Kopieren der Daten aus MAGELLAN 6 nach MAGELLAN 7.0.2 sind die Ausbildungen und Herkünfte der Nebenschüler nicht zum Stammschüler umgeboten worden, weshalb diese nicht in MAGELLAN 7 gezeigt werden. Diese Funktion korrigiert diesen Umstand.
 
 ![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/korrektur.mandant.png)
@@ -50,7 +50,7 @@ Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank. Zum Beispiel zur
 
 ### Variante 1: Mandantenunabhängig (vollständig)
 
-Das nicht mandantenbezogene Kopieren der MAGELLAN-Daten überträgt alle Daten aller Tabellen in eine neue leere Datenbank. Diese Variante ist besonders bei eventuell korrupten Datenbanken geeignet. 
+Das nicht mandantenbezogene Kopieren der MAGELLAN-Daten überträgt alle Daten aller Tabellen in eine neue leere Datenbank. Diese Variante ist besonders bei eventuell korrupten Datenbanken geeignet.
 
 > #### warning::Wichtig!
 >
@@ -82,7 +82,6 @@ Das mandantenbezogene Kopieren der MAGELLAN Daten überträgt lediglich Tabellen
 
 ![Eintragungen](/assets/images/magellan.administrator/mandanten.kopieren3.png)
 
-
 Feld|Anmerkung
 --|--
 Protokoll|Wählen Sie `lokal`für eine lokale gespeicherte Datenbank, wählen Sie `TCP/Ip`für eine entfernt gespeicherte Datenbank.
@@ -94,7 +93,6 @@ Zieldatenbank|Tragen Sie bitte den lokalen Pfad zur Zieldatenbank und deren Date
 Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazugehörige Passwort ein.
 
 ### Variante 3: Magellan 6 nach MAGELLAN 7
-
 
 Bitte lesen Sie dazu den Abschnitt [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7.html)!
 
@@ -109,7 +107,7 @@ Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht m�
 
 ![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/passfoto.loeschen.png)
 
-Löscht alle Passfotos inaktiver Schüler aus der Datenbank heraus. 
+Löscht alle Passfotos inaktiver Schüler aus der Datenbank heraus.
 Die Größe der Datenbank reduziert sich, wenn Sie anschließend die Datenbank sichern und wiederherstellen.
 
 ## Verwaiste Stammschüler-Verweise entfernen
