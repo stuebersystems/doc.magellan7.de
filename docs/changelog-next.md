@@ -60,3 +60,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: MVP-GES-HJZ (versetzt).rpt
 * CHANGE: MVP-GES-JZ (nicht versetzt).rpt
 * CHANGE: MVP-GES-JZ (versetzt).rpt
+* CHANGE: DAS-GY-ABI (DIA)(2019).rpt (Ausgabe der Jahrgangsstufe/Year unter "V. Languages Sprachen" gemäß Vorlage angepasst)
