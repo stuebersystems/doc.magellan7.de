@@ -61,3 +61,11 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: MVP-GES-JZ (nicht versetzt).rpt
 * CHANGE: MVP-GES-JZ (versetzt).rpt
 * CHANGE: DAS-GY-ABI (DIA)(2019).rpt (Ausgabe der Jahrgangsstufe/Year unter "V. Languages Sprachen" gemäß Vorlage angepasst)
+* FIX: BER Abi-1a – Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO) (01.12).rpt
+* FIX: BER-BF-AS (einjährig).rpt
+* FIX: BER-Abi 8 (01.12).rpt
+* FIX: BER-Abi 8 (01.12) mit Logo2.rpt
+* FIX: BER-Abi 8 (01.12) mit Logo.rpt
+* FIX: BER-ABI (Schul II 929-3)(01.09).rpt
+* FIX: BER-AbdGy-ABI (Schul Z 325)(02.11).rpt
+* FIX: BER-AbdGy (abi_4b_berechnungsbogen_abendgym (03.12.).rpt
