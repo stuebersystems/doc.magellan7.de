@@ -15,7 +15,7 @@ Es werden nur nicht vorhandene Gemeinden gesetzt.
 
 ## Korrektur Mandanten kopieren (702)
 
-MAGELLAN 7 erlaubtz es den Schüler in Stamm- und Nebenschüler zur trennen, um parallel laufende Laufbahnen abzubilden. Die Stammdaten werden jeweils nur beim Stammschüler gespeichert, aber bei Stammschüler oder Nebenschüler eingegeben und gezeigt.
+MAGELLAN 7 erlaubt es den Schüler in Stamm- und Nebenschüler zur trennen, um parallel laufende Laufbahnen abzubilden. Die Stammdaten werden jeweils nur beim Stammschüler gespeichert, aber bei Stammschüler oder Nebenschüler eingegeben und gezeigt.
 Beim Kopieren der Daten aus MAGELLAN 6 nach MAGELLAN 7.0.2 sind die Ausbildungen und Herkünfte der Nebenschüler nicht zum Stammschüler umgeboten worden, weshalb diese nicht in MAGELLAN 7 gezeigt werden. Diese Funktion korrigiert diesen Umstand.
 
 ![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/korrektur.mandant.png)
