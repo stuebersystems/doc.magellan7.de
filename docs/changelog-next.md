@@ -69,3 +69,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: BER-ABI (Schul II 929-3)(01.09).rpt
 * FIX: BER-AbdGy-ABI (Schul Z 325)(02.11).rpt
 * FIX: BER-AbdGy (abi_4b_berechnungsbogen_abendgym (03.12.).rpt
+* FIX: SAC-BG-HJZ (E.01.03).rpt
