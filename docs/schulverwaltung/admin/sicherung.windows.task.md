@@ -1,17 +1,23 @@
 # Sicherung per Windows Task
 
+!!! danger "Achtung"
+
+	Die nachstehenden Hinweise beschreiben keine unserer MAGELLAN-Funktionalitäten, sondern zusätzliche Möglichkeiten, die direkt auf ein Firebird-Tool aufsetzen.
+
 Sie können die Aktion "Datenbanksicherungskopie erstellen" mit in den Taskplaner des Serverrechners einbinden. Damit könnten Sie sicherstellen, dass diese Aktion automatisch einmal täglich ausgeführt wird. Gehen Sie dafür bitte folgendermaßen vor:
 
-Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden Text hinein. 
+Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden Text hinein.
 
 !!! info "Hinweis"
 
 	Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
 
 
-````
-"C:\Program Files (x86)\Firebird\Firebird_2_5\bin\gbak.exe" -v -t -user SYSDBA -password masterkey -y "C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup\MAGELLAN6_%date:~0%.log" "C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\MAGELLAN6.FDB" "C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup\MAGELLAN6_%date:~0%.FBK" pause
-````
+```
+
+"C:\Program Files (x86)\Firebird\Firebird_2_5\bin\gbak.exe" -v -t -user sysdba -password masterkey -y "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Backup\MAGELLAN7_%date:~0%.log" "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\MAGELLAN6.FDB" "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Backup\MAGELLAN7_%date:~0%.FBK" pause
+
+```
 
 Speichern Sie diesen Text und passen die drei Pfade den Gegebenheiten auf Ihrem Serverrechner an. Wir beschreiben nachstehend die Bedeutung der einzelnen Punkte:
 
@@ -32,6 +38,3 @@ Wenn alle Angaben angepasst sind, speichern Sie die Datei und benennen sie ansch
 	Führen Sie die Datei zum Test bitte per `Doppelklick` oder `Rechtsklick > Ausführen` aus.
 
 Hat es funktioniert? Dann richten Sie im Taskplaner bitte einen neuen Task ein, der täglich zu einer bestimmten Zeit diese Datei ausführt. Gehen Sie dazu auf dem Server unter `Start > Programme > Zubehör > Systemprogramme > Geplante Tasks`.
-
-
-
