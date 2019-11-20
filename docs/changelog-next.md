@@ -30,7 +30,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * FIX: Unter `Schüler > Daten2 > Bereits besuchte Schulen` kann wieder direkt eine neue Schule angelegt werden
-* 
 
 ### MAGELLAN Administrator
 
