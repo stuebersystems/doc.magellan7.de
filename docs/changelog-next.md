@@ -34,6 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Zusammenführen von Betrieben werden die Auszubildendenzahlen korrekt angezeigt
 * FIX: Beim Weiterschalten von einem Schüler der Volljährig ist zu einem Minderjährigen wird das Symbol korrekt aktualisiert
 * FIX: Bei der Übergabe von Schüler-Betriebedaten bspsw. für Adressetiketten per Seriendruck, wird nur der aktuelle Ausbildungsbetrieb je Schüler übergeben
+* FIX: Eingabe von Noten unter `Schüler > Zeugnis > Leistungen` optimiert
 
 ### MAGELLAN Administrator
 
@@ -83,3 +84,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: BER-AbdGy-ABI (Schul Z 325)(02.11).rpt
 * FIX: BER-AbdGy (abi_4b_berechnungsbogen_abendgym (03.12.).rpt
 * FIX: SAC-BG-HJZ (E.01.03).rpt
+* FIX: SAC-BG-JZ (E.01.02).rpt
