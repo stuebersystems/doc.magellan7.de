@@ -38,7 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Administrator
 
-* FIX:
+* FIX: Benutzer mit dem Zusatzrecht `Mandanten-Administrator` dürfen für Nutzer ihres Mandanten Benutzer in der `Benutzerverwaltung` verwalten und das MyMAGELLAN CENTER für diese Nutzer verwenden
 
 ### MAGELLAN Bibliothek
 
@@ -46,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Skripte
 
-* FIX:
+* FIX: Das Skript `Zuweisen von Zugriffsrechten.dws` wrude geändert für das Recht `Mandanten-Administrator`
 
 ### Statistik
 
