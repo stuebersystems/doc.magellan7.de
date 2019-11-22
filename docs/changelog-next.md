@@ -39,6 +39,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN Administrator
 
 * FIX: Benutzer mit dem Zusatzrecht `Mandanten-Administrator` dürfen für Nutzer ihres Mandanten Benutzer in der `Benutzerverwaltung` verwalten und das MyMAGELLAN CENTER für diese Nutzer verwenden
+* FIX: `Datenaustausch > Daten über das MAGELLAN Improtformat importieren` => Problem beim Importieren der schueler_laufbahn.import.csv gelöst
 
 ### MAGELLAN Bibliothek
 
