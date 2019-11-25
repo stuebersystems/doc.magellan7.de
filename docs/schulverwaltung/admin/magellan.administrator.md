@@ -11,6 +11,7 @@ Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den ADMINISTRATOR
  * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch.html)
 
 ## Start
+
 So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 1. Klicken Sie auf `Start`, dann auf `Programme` und dann auf `STÜBER SYSTEMS`.

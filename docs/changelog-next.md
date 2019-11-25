@@ -47,7 +47,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Skripte
 
-* FIX: Das Skript `Zuweisen von Zugriffsrechten.dws` wrude geändert für das Recht `Mandanten-Administrator`
+* FIX: Das Skript `Zuweisen von Zugriffsrechten.dws` wurde geändert für das Recht `Mandanten-Administrator`
 
 ### Statistik
 

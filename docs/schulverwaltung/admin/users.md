@@ -31,7 +31,6 @@ Mit Hilfe eines Assistenten werden alle bereits angelegten Benutzer in eine CSV-
 
 	Auf diesem Weg können keine Benutzer neu angelegt oder Passworte geändert werden, sondern es können für bereits angelegte Benutzer Werte geändert.
 
-
 In der Datei sind Kopfzeilen und bereits erfasste Einstellungen. Diese Werte können ergänzt oder verändert werden:
 
 Spaltentitel | Mögliche Werte
@@ -58,13 +57,11 @@ Anschließend: Klicken Sie auf die Schaltfläche `Benutzer importieren` um die v
 
 Über diese Schaltfläche können Sie eine Excelliste oder eine HTML-Datei mit den Benutzerdaten erzeugen. Bitte beachten Sie, dass diese Dateiformate nicht wieder direkt eingelesen werden können, dafür nutzen Sie bitte die Schaltfläche `Benutzer exportieren`.
 
-
 ## einen neuen Benutzer anlegen
- 
+
 Einen neuen Benutzer erzeugen Sie über die Schaltfläche `Neuer Datensatz` oben links in der Menüleiste. 
 
 ![Einen neuen MAGELLAN-Benutzer anlegen](/assets/images/magellan.administrator/neuer.benutzer.png)
-
 
 ### Registerkarte „Allgemein“
 
@@ -80,9 +77,7 @@ Kennwort|Bitte vergeben Sie ein 8-stelliges Passwort, bitte verzichten Sie auf U
 Bestätigung|Tragen Sie zur Bestätigung bitte das Passwort erneut ein.
 Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann auch später als Passwort für die MYMAGELLAN-Datei des Benutzers übernommen werden.
 
-
 ![Legen Sie hier die Grunddaten des Benutzers fest](/assets/images/magellan.administrator/benutzer.anlegen.png)
-
 
 !!! info "Hinweis"
 
@@ -98,7 +93,7 @@ Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann au
 
 Rechtegruppe | Rechte
 -------------------------- | ------
-Mandanten-Administrator | Administratorenrechte, aber kein Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
+Mandanten-Administrator | Administratorenrechte, aber kein umfasssender Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
 Import/Export | Zusätzlich zum Schulverwaltungsrecht kann die Möglichkeit des Importes und Exportes (Seriendruck, Excelexport, Schuldatentransferformat) gesteuert werden.
 Drucken | Zusätzlich zum Benutzerrecht kann das Drucken ermöglicht werden
 Dokumentenverwaltung | Zusätzlich zum Benutzerrecht die Möglichkeit auf die Dokumentenverwaltung zuzugreifen
