@@ -48,6 +48,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Skripte
 
 * FIX: Das Skript `Zuweisen von Zugriffsrechten.dws` wurde geändert für das Recht `Mandanten-Administrator`
+* CHANGE: Fremdskript `NRW-AS-APO-BK-1999.dws` mit auf 7er Datenstruktur angepasst, bitte beachten Sie die Hinweise unter [https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/](https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/)!
 
 ### Statistik
 
