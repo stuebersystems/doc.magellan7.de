@@ -49,7 +49,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Benutzer mit dem Recht `Mandantenadministrator` können das MyMAGELLAN-CENTER bedienen und Rechte bestehender Nutzer ihres Mandanten hinsichtlich der MyMAGELLAN-Nutzung anpassen. Geändert werden kann, ob der Nutzer Teilnehmer ist oder nicht, die Ablagestelle der mym7-Datei und das MyMAGELLAN-Passwort.
 * NEW: Neuer Import und Export für den sysdba und Mandantenadministratoren: es können MyMAGELLAN-Teilnehmer als CSV-Datei exportiert und wieder importiert werden. Es können auf diesem Weg für mehrere Teilnehmer gleichzeitig der Ablagepfad für die mym7-Datei und das MyMAGELLAN-Passwort (späteres Dateipasswort) angepasst werden.
-
+* NEW: Möglichkeit zum Löschen bereits angelegter Dateien aus der Oberfläche des MyMAGELLAN-Centers.
 
 ### MAGELLAN Bibliothek
 
