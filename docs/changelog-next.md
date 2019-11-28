@@ -40,11 +40,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Testlizenzfenster überarbeitet
 * FIX: Beim Wechsel zum Zielschüler (F3-Suche) in der Schülerauswahlliste wechselt auch die Markierung korrekt
 
-
 ### MAGELLAN Administrator
 
 * FIX: Benutzer mit dem Zusatzrecht `Mandanten-Administrator` dürfen für Nutzer ihres Mandanten Benutzer in der `Benutzerverwaltung` verwalten und das MyMAGELLAN CENTER für diese Nutzer verwenden
 * FIX: `Datenaustausch > Daten über das MAGELLAN Improtformat importieren` => Problem beim Importieren der schueler_laufbahn.import.csv gelöst
+
+### MyMAGELLAN-CENTER
+
+* CHANGE: Benutzer mit dem Recht `Mandantenadministrator` können das MyMAGELLAN-CENTER bedienen und Rechte bestehender Nutzer ihres Mandanten hinsichtlich der MyMAGELLAN-Nutzung anpassen. Geändert werden kann, ob der Nutzer Teilnehmer ist oder nicht, die Ablagestelle der mym7-Datei und das MyMAGELLAN-Passwort.
+* NEW: Neuer Import und Export für den sysdba und Mandantenadministratoren: es können MyMAGELLAN-Teilnehmer als CSV-Datei exportiert und wieder importiert werden. Es können auf diesem Weg für mehrere Teilnehmer gleichzeitig der Ablagepfad für die mym7-Datei und das MyMAGELLAN-Passwort (späteres Dateipasswort) angepasst werden.
+
 
 ### MAGELLAN Bibliothek
 

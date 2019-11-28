@@ -93,7 +93,7 @@ Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann au
 
 Rechtegruppe | Rechte
 -------------------------- | ------
-Mandanten-Administrator | Administratorenrechte, aber kein umfasssender Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
+Mandanten-Administrator | Administratorenrechte, aber kein umfasssender Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. Zusätzlich können für bereits angelegte Benutzer des Mandanten die Rechte für MyMAGELLAN (Teilnehmer oder nicht, MyMAGELLAN-Passwort, Ablagepfad für die mym-Datei editiert) werden. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
 Import/Export | Zusätzlich zum Schulverwaltungsrecht kann die Möglichkeit des Importes und Exportes (Seriendruck, Excelexport, Schuldatentransferformat) gesteuert werden.
 Drucken | Zusätzlich zum Benutzerrecht kann das Drucken ermöglicht werden
 Dokumentenverwaltung | Zusätzlich zum Benutzerrecht die Möglichkeit auf die Dokumentenverwaltung zuzugreifen

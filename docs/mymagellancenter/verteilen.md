@@ -10,7 +10,6 @@ Nr.|Voraussetzung
 2. | Eingabe der Fachdaten der Schüler
 3. | Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern in MAGELLAN als Fachlehrer, Klassenlehrer und/oder Tutor
 
-
 ### Einstellungen im MAGELLAN ADMINISTRATOR
 
 Jeder MyMAGELLAN-Teilnehmer muss als Benutzer in der Benutzerverwaltung (MAGELLAN ADMINISTRATOR > Benutzerverwaltung) angelegt sein. Dabei muss er folgende Bedingungen erfüllen:
@@ -20,7 +19,6 @@ Jeder MyMAGELLAN-Teilnehmer muss als Benutzer in der Benutzerverwaltung (MAGELLA
 Der Benutzer muss unter „Schulverwaltung“ der Benutzergruppe „Schulleitung 1“, „Schulleitung 2“, „Sekretariat 1“, „Kollegium 1“, „Kollegium 2“, „Kollegium 3“ oder „Kollegium 4“ zugeordnet sein.
 
 ![Weisen Sie dem Benutzer ein Recht zu](/assets/images/myMAGELLAN/02.png)
-
 
 ### 2. Teilnehmer von MyMAGELLAN
 
@@ -54,10 +52,7 @@ Die Datei kann mit einem Passwort belegt werden, das beim Öffnen der Datei eing
 
 3. Sie vergeben ein Passwort für mehrere Dateien, [diese Möglichkeit wird später beim Erstellen der Dateien angeboten](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#karte-sicherheit-festlegen).
 
-
-
-### Einstellungen in MAGELLAN 
-
+### Einstellungen in MAGELLAN
 
 Grundsätzlich gilt: Alle Schüler, deren Noten über MyMAGELLAN erfasst werden sollen, müssen in MAGELLAN erfasst sein. Hierzu zählt neben der eigentlichen Definition des Schülers auch dessen Zuordnung zu einer Klasse. Zusätzlich müssen den Schülern Fächer zugeordnet werden, deren Noten mit MyMAGELLAN erfasst werden sollen, da eine Eingabe der Fächer in MyMAGELLAN nicht möglich ist.
 
@@ -107,7 +102,7 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 
 1. Markieren Sie die Teilnehmer, deren MyMAGELLAN-Dateien Sie verteilen wollen.
 
-2. Klicken Sie auf die Schaltfläche`Verteilen` im Menüband.
+2. Klicken Sie auf die Schaltfläche `Verteilen` im Menüband.
 
 ![Dateien verteilen](/assets/images/myMAGELLAN/11.png)
 
@@ -126,6 +121,7 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 ### Karte "Teilnehmer auswählen"
 
 5. Wählen Sie aus, aus für welche Rolle oder Rollen Schüler und deren Fachdaten exportiert werden sollen. Bitte beachten Sie hierzu die Abschnitte:
+
 * [Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#zuordnung-der-myMAGELLAN-teilnehmer-zu-den-sch%C3%BClern)
 * [Organisation des zeitlichen Ablaufs](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#organisation-des-zeitlichen-ablaufs)
 * [Mögliche Konflikte](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#m%C3%B6gliche-konflikte)
@@ -134,7 +130,7 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 
 ### Karte "Layout und Rechte auswählen"
 
-6. Wählen Sie auf dieser Karte die Spalten für den Export aus und legen Sie fest, welche Einträge editiert werden können. Es werden sämtliche in MyMAGELLAN verfügbaren Felder/Spalten gezeigt. 
+1. Wählen Sie auf dieser Karte die Spalten für den Export aus und legen Sie fest, welche Einträge editiert werden können. Es werden sämtliche in MyMAGELLAN verfügbaren Felder/Spalten gezeigt.
 
 Feld|Funktion
 --|--
@@ -144,9 +140,7 @@ Feld|Funktion
 **Editierbar** |Setzen Sie das Häkchen zusammen mit dem Häkchen in der Spalte `Sichtbar`, um eine Eingabe zuzulassen. Bei einigen Spalten bietet es sich an, keinen Eintrag zuzulassen, die Spalte aber dennoch zur besseren Sortierbarkeit in der Datei auszugeben, zum Beispiel für die Unterrichtart oder den Fachstatus.
 **Listenspalte** |Diese Option ist fest vorgegeben und soll Ihnen zeigen, welche Einträge später als Liste zur Verfügung stehen (Beispiel Endnote1) und welche als Eingabefelder(Beispiel Versetzungsart oder Abschlussart).
 
-
 ![Layout und Rechte festlegen](/assets/images/myMAGELLAN/15.png)
-
 
 !!! info "Hinweis"
 
@@ -159,7 +153,6 @@ Am unteren Rand der Karte `Layout und Rechte festlegen` stellen Sie bitte ein, w
 
 ![Einsammeloptionen für Fehlzeiten](/assets/images/myMAGELLAN/18.png)
 
-
 Option|Bedeutung
 --|--
 Fehlstunden/-tage in MAGELLAN beim Einsammeln überschrieben|Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in MAGELLAN werden durch Einlesen einer MyMAGELLAN-Datei, mit Daten zu diesem Schüler überschrieben. Ausnahme: Kein Eintrag oder ein Null in MyMAGELLAN überschreiben keinen Wert in MAGELLAN. Eine Korrektur des verkehrten Wertes aus MAGELLAN ist nur im Schulverwaltungsprogramm selbst möglich.
@@ -171,7 +164,6 @@ Fehlstunden/-tage in MAGELLAN beim Einsammeln nicht aktualisieren| Die Werte der
 	 Bitte beachten Sie, dass für den Benutzer der MyMAGELLAN-Datei ausgeblendete Felder weiterhin mit Werten versehen sind. Diese Werte werden beim Zurückspielen der MyMAGELLAN-Dateien in die Quelldatenbank übernommen. Zwischenzeitliche Änderungen in der Quelldatenbank werden dabei überschrieben.
 Und: Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach MAGELLAN übernommen.
 
-
 ### Karte "Sicherheit festlegen"
 
 Sie haben die Möglichkeit ein teilnehmerindividuelles Passwort in der Benutzerverwaltung im MAGELLAN Administrator zu vergeben, die Schritte dafür beschreiben wir im Abschnitt [Dateipasswort](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#dateipasswort). Alternativ können Sie ein Passwort für mehrere Dateien vergeben, wenn kein Passwort im Administrator angelegt wurde. Tragen Sie für diese Situation hier ein Kennwort ein und wiederholen es.
@@ -179,8 +171,6 @@ Sie haben die Möglichkeit ein teilnehmerindividuelles Passwort in der Benutzerv
 Im Feld `Bemerkung`, dass dem Nutzer der Datei später in der Startansicht gezeigt wird, können Sie beispielsweise einen Hinweis für die Rückgabe hinterlegen.
 
 ![Passwort und Bemerkung erfassen](/assets/images/myMAGELLAN/19.png)
-
-
 
 Wechseln Sie auf `Weiter` und `Fertigstellen`! 
 
@@ -190,6 +180,7 @@ Der Assistent erstellt die Dateien, füllt sie individuell mit den in MAGELLAN e
 Sollte es einen Grund geben, warum keine Datei erzeugt werden kann, wird dieser Hinweis in der Ergebnisliste gezeigt.
 
 Häufige Gründe fürs nicht Erzeugen einer Datei sind beispielsweise:
+
 * Schüler, denen keine Fachdaten zugewiesen wurden
 * Lehrer, denen keine Schüler zugeordnet wurden (als Fachlehrer, Tutor oder Klassenleiter)
 * im Zielverzeichnis existiert bereits eine gleichnamige Datei, die nicht überschrieben wird
@@ -206,10 +197,9 @@ Am gewählten Speicherort werden die Dateien erzeugt.
 
 ## Übermittlung der Datei an die eingebenden Kollegen
 
-Im nächsten Schritt sind die Dateien an die Kollegen zur Eingabe zur Übermitteln. Die Datei ist als Binärdatei nicht lesbar, das Passwort ist zwar in der Datei enthalten, aber mit einer kryptografischen Funktion so gesichert, dass es nicht ausgelesen werden kann. 
+Im nächsten Schritt sind die Dateien an die Kollegen zur Eingabe zur Übermitteln. Die Datei ist als Binärdatei nicht lesbar, das Passwort ist zwar in der Datei enthalten, aber mit einer kryptografischen Funktion so gesichert, dass es nicht ausgelesen werden kann.
 
 Zusätzlich zur Datei brauchen die Kollegen zum Bearbeiten der mym-Datei auch das Programm MyMAGELLAN, dass lizenzfrei auf unserer Webseite geladen werden kann. Die Installation des Programms ist schnell und unkompliziert. Allerdings sollte die verwendete MyMAGELLAN-Version auch der zu lesenden Datei entsprechen, insofern ist es sinnvoll den Kollegen auch die Installationsdatei zur Verfügung zu stellen.
-
 
 !!! warning "Wichtig"
 
