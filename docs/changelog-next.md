@@ -30,11 +30,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * FIX: Unter `Schüler > Daten2 > Bereits besuchte Schulen` kann wieder direkt eine neue Schule angelegt werden
+* FIX: Eine unter `Schüler > Daten2 > Bereits besuchte Schulen` neu angelegte Schule wird dem Schüler zugewiesen
+* FIX: Ein unter `Schüler > Ausbildung` neu angelegter Betrieb wird der Schülerausbildung zugewiesen
 * FIX: Beim Aufruf der F3-Suche von einer Schülerunterkarte wird beim Wechsel zum gesuchten Schüler auch der Inhalt der Registerkarte aktualisiert
 * FIX: Beim Zusammenführen von Betrieben werden die Auszubildendenzahlen korrekt angezeigt
 * FIX: Beim Weiterschalten von einem Schüler der Volljährig ist zu einem Minderjährigen wird das Symbol korrekt aktualisiert
 * FIX: Bei der Übergabe von Schüler-Betriebedaten bspsw. für Adressetiketten per Seriendruck, wird nur der aktuelle Ausbildungsbetrieb je Schüler übergeben
 * FIX: Eingabe von Noten unter `Schüler > Zeugnis > Leistungen` optimiert
+* CHANGE: Testlizenzfenster überarbeitet
+* FIX: Beim Wechsel zum Zielschüler (F3-Suche) in der Schülerauswahlliste wechselt auch die Markierung korrekt
+
 
 ### MAGELLAN Administrator
 
