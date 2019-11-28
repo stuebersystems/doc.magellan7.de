@@ -97,3 +97,16 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: BER-AbdGy (abi_4b_berechnungsbogen_abendgym (03.12.).rpt
 * FIX: SAC-BG-HJZ (E.01.03).rpt
 * FIX: SAC-BG-JZ (E.01.02).rpt
+* FIX: MVP-GY-ABI (2010).rpt
+* FIX: MVP-GY-ÜZ (Seite 2 mit Noten).rpt
+* FIX: MVP-GY-JZ (Wahlpflicht 1. + 2. HJ).rpt
+* FIX: MVP-GY-HJZ (Seite 2 mit Noten).rpt
+* FIX: MVP-GY-JZ (Seite 1 Lernentwicklungsbericht).rpt
+* FIX: MVP-GY-HJZ.rpt
+* FIX: MVP-GY-JZ (Seite 2 mit Noten).rpt
+* FIX: MVP-GY-FHReife (Bescheinigung 2006).rpt
+* FIX: MVP-GY-AZ (Wahlpflicht allgemein).rpt
+* FIX: MVP-GY-AZ (Wahlpflicht 1. + 2. HJ).rpt
+* FIX: MVP-GY-AS.rpt
+* FIX: MVP-GY-AS (Jahrgangsstufe 7-10).rpt
+* FIX: MVP-GY-ABI.rpt
