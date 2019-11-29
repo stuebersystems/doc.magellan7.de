@@ -23,7 +23,7 @@ Für diese Alternative gibt es das zweiteilige Modul MyMAGELLAN, das aus dem **M
 
 |In den nachfolgenden Kapiteln beschreiben wir die Vorgehensweise:|
 |:--|
-|[Verteilen](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/verteilen/)|
-| [Organisation](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/organisation/)|
-| [Importlogik](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/importlogik/)|
-| [Einsammeln](https://doc.magellan7.stueber.de/schulverwaltung/mymagellancenter/einsammeln/)|
+|[Verteilen](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/)|
+| [Organisation](https://doc.magellan7.stueber.de/mymagellancenter/organisation/)|
+| [Importlogik](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/)|
+| [Einsammeln](https://doc.magellan7.stueber.de/mymagellancenter/einsammeln/)|
