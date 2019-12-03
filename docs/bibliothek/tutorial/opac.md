@@ -4,7 +4,7 @@
 
 !!! info "Hinweis"
 
-    Diese Dokumentation zur Einricht des OPAC Research gikt für die aktuellen VErsion MAGELLAN 7
+    Diese Dokumentation zur Einricht des OPAC Research gilt für die aktuellen VErsion MAGELLAN 7
 
 ## Einrichten des OPAC-Research
 
@@ -21,14 +21,14 @@ Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier k�
 
 Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (Weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
 
-#### Notwendige Eingaben:
+#### Notwendige Eingaben
 
 Spalte | Eintrag
 -|-
 Aktiv| Bitte den Haken Setzen
 Protokoll| bitte wähle Sie Search Retrieve Url (SRU) aus
 Name|Bitte vergeben Sie hier einen Namen
-Host/Url|http://services.dnb.de/sru
+Host/Url| http://services.dnb.de/sru
 Port|80
 Katalog|dnb
 
@@ -46,7 +46,7 @@ Kennwort/Zugangscode| Im Falle der DNB benötigen Sie hier einen `Zugriffstoken`
 
 Spalte | Eintrag
 -|-
-Indexname zur Suche| 
+Indexname zur Suche|
 Maximale Anzahl der Suchergebnisse| 0
 Schema/ Format Kurzform|
 Schema Format Langform|

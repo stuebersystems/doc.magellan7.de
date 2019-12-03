@@ -41,6 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Wechsel zum Zielschüler (F3-Suche) in der Schülerauswahlliste wechselt auch die Markierung korrekt
 * CHANGE: Mehrzeilige Darstellung im Verzeichnis `Zeugnisbemerkungen` unter `Schüler > Extras > Schlüsselverzeichnisse`
 * CHANGE: ENBREA-Leistungen wurden eingebunden
+* FIX: Beim Aufruf des Seriendruckes ist im Auswahlfenster der Word Dokumente wieder eine Suche über die "Lupe" möglich
 
 ### MAGELLAN Bericht
 
