@@ -140,6 +140,7 @@ interner Code| derzeit nicht in Benutzung
 
 ![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/10.png)
 
+In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note) definiert. Diese Werte können später den Bewertungen der Kurse unter dem Menüpunkt `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
 
 ## Kurse anlegen
 
