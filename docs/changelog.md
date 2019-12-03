@@ -24,6 +24,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Änderung der Datenstruktur für die OPAC-Funktion des Moduls MAGELLAN BIBLIOTHEK
 * CHANGE: Erneute Zuweisung der `SchuelerZeitraumID` in der Tabelle `SchuelerZeugnisbemerkungen`
+* FIX: Korrektur der Importparameter für gespeicherte Prozeduren (zum Beispiel Kopieren der Fachwahltafeln)
+* FIX: Bestehende kopierte Bewerber erhalten zusätzlich Bewerberdaten des Stammschülers
 
 ### MAGELLAN
 
@@ -43,6 +45,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Wenn im Seriendruckassistent auf der Unterkarte `Vorlage auswählen` eine andere Vorlage oder eine andere Datei im den Verzeichnisfeldern gewählt wird, wechselt der aktivierte Radiobutton zu dem geänderten Punkt.
 * CHANGE: Übernimmt man einen Bewerber als Schüler, während eine Registerkarte geöffnet ist, wechselt die Ansicht anschließend zur Auswahlliste
 * FIX: Die Ablage eines Drucks als PDF in den jeweiligen Unterverzeichnissen wurde für die Menüpunkte `Klassen`, `Betriebe`, `Schulen` und `Adressen` aktualisiert.
+* FIX: Kopieren der Fachwahltafeln
+* FIX: `Laufbahnprozesse > Bewerber kopieren`: Bewerberdaten des Stammschülers werden mit übergeben
 
 ### MAGELLAN Bericht
 
@@ -66,7 +70,7 @@ CHANGE:das Modul wurde aktualisiert
 ### Skripte
 
 * FIX: Das Skript `Zuweisen von Zugriffsrechten.dws` wurde geändert für das Recht `Mandanten-Administrator`
-* CHANGE: Fremdskript `NRW-AS-APO-BK-1999.dws` mit auf 7er Datenstruktur angepasst, bitte beachten Sie die Hinweise unter [https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/](https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/)!
+* CHANGE: Fremdskript `NRW-AS-APO-BK-1999.dws` wurde mit auf 7er Datenstruktur angepasst. Bitte beachten Sie die Hinweise unter [https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/](https://doc.la.stueber.de/08.nrw/nrw-as-apo-bk-1999/)!
 
 ### Statistik
 
