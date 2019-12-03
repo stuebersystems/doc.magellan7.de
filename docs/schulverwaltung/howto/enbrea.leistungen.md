@@ -43,7 +43,7 @@ Der Eintrag eines Wertes auf der Unterkarte Bewertungsprofil entspricht im obere
 
 Feld|Bedeutung
 --|--
-Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel dem Eintrag "Mathematik"
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewähltn Kurzform für "Mathematik(01)", also für Mathe in der Klassenstufe 1.
 Bezeichnung| freie Wahl
 Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Beurteilung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
 Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
@@ -66,8 +66,8 @@ Der Eintrag eines Wertes auf der Unterkarte Bewertungsgruppen entspricht im ober
 
 Feld|Bedeutung
 --|--
-Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel dem Eintrag "Mathematik"
-Bezeichnung| freie Wahl
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewähltn Kurzform für die "Zahlen und Optionen"
+Bezeichnung| der Eintrag entspricht im oberen Beispiel dem Eintrag "Zahlen und Optionen"
 Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Beurteilung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
 Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
 Position| Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorgaben für ihr Zeugins (siehe Modul MAGELLAN Berichte) ein
@@ -82,7 +82,7 @@ Der Eintrag eines Wertes auf der Unterkarte `Bewertungseinträge` entspricht im 
 
 Feld|Bedeutung
 --|--
-Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel dem Eintrag "Mathematik"
+Kürzel| Eintrag muss gesetzt werden, einer frei gewähltn Kurzform für den Bewertungseintrag.
 Bezeichnung| freie Wahl
 Gruppe| Tragen Sie bitte eine Bewertungsgruppe ein
 Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
@@ -92,8 +92,49 @@ interner Code| derzeit nicht in Benutzung
 
 ## Notensysteme
 
+![Schlüsselverzeichnis Notensysteme](/assets/images/enbrea.leistungen/07.png)
+
+Öffnen Sie zunächst das `Extras > Schlüsselverzeichnisse > Notensysteme`. Dieses Verzeichnis ist in folgende Registerkarten unterteilt:
+
+* Notensysteme
+* Notensystem-Einträge
+
+Innerhalb Ihrer Schule und bei komplexeren Zeugnisberichten kann es unterschiedliche Systeme zur Beurteilung geben: Noten, Punkte, Prozente, Tendenzen...
+Diese Arten der Beurteilung (Notensysteme) werden mit den einzelnen Beurteilungswerten (Notensystem-Einträge) in diesem Schlüsselverzeichnis angelegt.
+
+### Unterkarte Notensystem
+
+![Unterkarte Notensysteme](/assets/images/enbrea.leistungen/08.png)
+
+Feld|Bedeutung
+--|--
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel zum Beispiel dem Eintrag "Tendenzen"
+Bezeichnung| freie Wahl
+Wertetyp| Mögliche Werte `Zahlen` oder `Texte`
+Beschreibung|freie Wahl
+interner Code| derzeit nicht in Benutzung
+
+### Unterkarte Notensystem-Einträge
+
+![Unterkarte Notensystem-Einträge](/assets/images/enbrea.leistungen/09.png)
+
+Wählen Sie auf der Unterkarte `Notensysteme` einen Wert aus, wechseln Sie anschließend auf die Unterkarte `Notensystem-Einträge` und erfassen die dazugehörigen Einträge. Die vorstehende Abbildung zeigt die Notensystem-Einträge, die zum Notensystem Tendenzen aus unserem Beispiel gehören.
+
+Feld|Bedeutung
+--|--
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel dem Eintrag "Mathematik"
+Bezeichnung| freie Wahl
+Wertetyp| Mögliche Werte `Zahlen` oder `Texte`
+Beschreibung|freie Wahl
+interner Code| derzeit nicht in Benutzung
+
+!!! info "Hinweis"
+
+    Nachdem die Notensysteme definiert wurden, müssen diese im Schlüsselverzeichnis "Bewertungsprofile" pro definiertem Profil hinterlegt werden.
+
 ## Notentypen
 
+![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/10.png)
 
 
 ## Kurse anlegen
