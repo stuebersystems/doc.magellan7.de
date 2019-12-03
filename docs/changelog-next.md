@@ -40,14 +40,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Testlizenzfenster überarbeitet
 * FIX: Beim Wechsel zum Zielschüler (F3-Suche) in der Schülerauswahlliste wechselt auch die Markierung korrekt
 * CHANGE: Mehrzeilige Darstellung im Verzeichnis `Zeugnisbemerkungen` unter `Schüler > Extras > Schlüsselverzeichnisse`
-* CHANGE: ENBREA-Leistungen wurden eingebunden
-* FIX: Beim Aufruf des Seriendruckes ist im Auswahlfenster der Word Dokumente wieder eine Suche über die "Lupe" möglich
+* FIX: Beim Aufruf des Seriendruckes ist im Auswahlfenster der Word-Dokumente wieder eine Suche über die "Lupe" möglich
 * FIX: Aufruf für den Dokumenteunterordner für `Klassen`, `Betriebe`, `Schulen` und `Adressen` ergänzt (per Schaltfläche oder STRG+D aufrufbar)
 * NEW: Wenn im Seriendruckassistent auf der Unterkarte `Vorlage auswählen` eine andere Vorlage oder eine andere Datei im den Verzeichnisfeldern gewählt wird, wechselt der aktivierte Radiobutton zu dem geänderten Punkt.
 * CHANGE: Übernimmt man einen Bewerber als Schüler, während eine Registerkarte geöffnet ist, wechselt die Ansicht anschließend zur Auswahlliste
 * FIX: Die Ablage eines Drucks als PDF in den jeweiligen Unterverzeichnissen wurde für die Menüpunkte `Klassen`, `Betriebe`, `Schulen` und `Adressen` aktualisiert.
 
 ### MAGELLAN Bericht
+
+CHANGE:das Modul wurde aktualisiert
 
 ### MAGELLAN Administrator
 
