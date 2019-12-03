@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Datenstruktur
 
 * CHANGE: Änderung der Datenstruktur für die OPAC-Funktion des Moduls MAGELLAN BIBLIOTHEK
-* CHANGE: Erneute Zuweisung der SchuelerZeitraumID in der Tabelle SchuelerZeugnisbemerkungen
+* CHANGE: Erneute Zuweisung der `SchuelerZeitraumID` in der Tabelle `SchuelerZeugnisbemerkungen`
 
 ### MAGELLAN
 
@@ -39,6 +39,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Eingabe von Noten unter `Schüler > Zeugnis > Leistungen` optimiert
 * CHANGE: Testlizenzfenster überarbeitet
 * FIX: Beim Wechsel zum Zielschüler (F3-Suche) in der Schülerauswahlliste wechselt auch die Markierung korrekt
+* CHANGE: Mehrzeilige Darstellung im Verzeichnis `Zeugnisbemerkungen` unter `Schüler > Extras > Schlüsselverzeichnisse`
+* CHANGE: ENBREA-Leistungen wurden eingebunden
+
+### MAGELLAN Bericht
+
+
 
 ### MAGELLAN Administrator
 
@@ -53,7 +59,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX:
+* CHANGE: Die Opac-Funktionalität wurde überarbeitet
 
 ### Skripte
 
