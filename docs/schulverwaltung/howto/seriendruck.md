@@ -2,19 +2,13 @@
 
 In diesem Kapitel erfahren Sie, wie Sie die Seriendruckfunktionalität von Microsoft Word mit MAGELLAN-Daten nutzen können. Zusätzlich wird die komfortable Dokumentenverwaltung vorgestellt und die Exportmöglichkeit der Schlüsselverzeichnisse und Auswahllisten nach Microsoft Excel.
 
-
-
 ## Seriendruck
 
-Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben an beliebig viele Personen erstellen. Über eine Schnittstelle zu Microsoft Word können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen. Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können. 
-
+Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben an beliebig viele Personen erstellen. Über eine Schnittstelle zu Microsoft Word können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen. Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können.
 
 !!! info "Hinweis"
 
   Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder.html).
-
-
-
 
 Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
 
@@ -22,13 +16,10 @@ Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüle
 
 2. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument ab unter: 
 
-
 ![ Bitte schauen Sie die nachstehende Tabelle zur Bedeutung der Auswahl an!](/assets/images/seriendruck/seriendruck2.png)
 
-
-
 Datenquelle|Bedeutung|Datenmenge
----|---
+-|- | -
 An alle markierten Schüler|ein Brief pro markiertem Schüler|Schülerdaten<br/>Klassendaten
 An alle Sorgeberechtigten der markierten aktiven Schüler|ein Brief pro Sorgeberechtigten, der unter `Schüler > Sorgeberechtigter > Benachrichtigung` auf "Immer" gesetzt wurde|Schülerdaten<br/>Klassendaten<br/>Sorgeberechtigtendaten
 An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schüler, an den Betrieb, der unter `Schüler > Ausbildung` als aktuellen Ausbildungsbetrieb markiert wurde|Schülerdaten<br/>Klassendaten<br/>Betriebedaten<br/>Ausbilderdaten
@@ -36,7 +27,6 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
 !!! info "Hinweis"
 
   Bitte wählen Sie je nach Seriendruckvorlage im Assistenten den korrekten Adressaten aus, da damit eine unterschiedliche Menge an Seriendruckinformationen nach Word übergeben werden. Beispiel: Wenn eine vorbereitete Seriendruckvorlage Felder für die Sorgeberechtigten des Schülers enthält, müssen Sie bitte auch „An alle Sorgeberechtigten der markierten aktiven Schüler“ oder eine eigene Vorlage, die keine anderen Seriendruckfelder erwartet, wählen.
-
 
 3. Hier wählen Sie aus, ob der Brief an die Schüler selbst, an die Sorgeberechtigten oder an die Betriebe adressiert werden soll. Klicken Sie auf `Weiter`.
  
