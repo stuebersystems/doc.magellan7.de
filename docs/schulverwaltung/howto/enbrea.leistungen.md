@@ -133,7 +133,7 @@ Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
 !!! info "Hinweis"
-
+    
     Nachdem die Notensysteme definiert wurden, müssen diese im Schlüsselverzeichnis "Bewertungsprofile" pro definiertem Profil hinterlegt werden.
 
 ## Notentypen
@@ -144,8 +144,33 @@ In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche N
 
 ## Kurse anlegen
 
+Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren` an.
+
+![Kurse definieren](/assets/images/enbrea.leistungen/13.png)
+
+Es öffnet sich das Dialogfenster zum Definieren der Kurse
+
+![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/14.png)
+
+## Leistungsprofile anlegen
+
 ## Kurse zuweisen
+
+Bitte weisen Sie im Menü `Schüler > Zeugnis > ENBREA Kurse`über das Plus Symmbol einem oder mehreren Schülern die Kurse zu.
+
+Im Auswahlfenster können Sie in Schritt 1. die gewünschten Schüler markieren.
+
+![Kurse - Schüler auswählen](/assets/images/enbrea.leistungen/11.png)
+
+Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswählen.
+
+![Kurse - Kurse auswählen](/assets/images/enbrea.leistungen/12.png)
 
 ## Halbjahreswechsel
 
 ## Schuljahreswechsel
+
+Bitte gehenen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernhame neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der KLassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+
+Weitere Informationen zum Schuljahreswechsel finden Sie hier:
+https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/
