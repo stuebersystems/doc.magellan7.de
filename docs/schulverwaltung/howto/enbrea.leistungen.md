@@ -150,7 +150,26 @@ Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofi
 
 Es öffnet sich das Dialogfenster zum Definieren der Kurse
 
-![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/14.png)
+![Kurse definieren](/assets/images/enbrea.leistungen/14.png)
+
+Über das Plus Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden
+
+Spalte | Bedeutung
+-|-
+Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen <br/>- Bearbeiten: Neu anlegen über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
+Fach| Auswahl aus dem Schlüsselverzeichnis "Fächer"
+Unterrichtsart|Auswahl aus dem Schlüsselverzeichnis "Unterrichtsart"
+Fachstatus|Auswahl aus dem Schlüsselverzeichnis "Fachstatus"
+Lehrer|Auswahl aus der Liste der Lehrer mit dem Status "Aktiv"
+Schwerpunkt|Auswahl aus dem Schlüsselverzeichnis "Fachschwerpunkt"
+Niveau|Auswahl aus dem Schlüsselverzeichnis "Fachniveaus"
+Kursnr.|Eingabe einer Kursnr."
+Bilingual|Auswahl aus dem Schlüsselverzeichnis "Kurssprachen"
+Merkmal|Eingabe von Freitext
+
+Kurse mit Leistungprofil duplizieren:
+Kurs duplizieren:
+Übergreifend verwenden:
 
 ## Leistungsprofile anlegen
 
