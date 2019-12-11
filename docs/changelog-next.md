@@ -24,7 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE: 
+* CHANGE:
 
 ### MAGELLAN
 
@@ -40,19 +40,19 @@ CHANGE:das Modul wurde aktualisiert
 
 ### MyMAGELLAN-CENTER
 
-* CHANGE: 
-
+* CHANGE:
+  
 ### MAGELLAN Bibliothek
 
 * CHANGE: Die Opac-Funktionalität wurde überarbeitet
 
 ### Skripte
 
-* FIX: 
+* FIX:
 
 ### Statistik
 
-* FIX: 
+* FIX:
 
 ### Berichte (NEW oder CHANGE)
 
