@@ -187,7 +187,10 @@ Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswä
 
 ## Halbjahreswechsel
 
-1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`
+1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. Nutzen Sie hier den Assisten um alle Schüler fortzuschreiben.
+
+Weitere Informationen zum Schuljahreswechsel finden Sie hier:
+https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
 
 2. ENBREA Leistungen übernehmen im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
 
@@ -195,12 +198,13 @@ Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswä
 
 1. Neuen Zeitraum anlegen
 
-2. Neue KLassen anlegen
-   Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernhame neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. 
-   
-   Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`.
+
+Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
 
 3. Schüler in die neue Klasse versetzen
+
+4. Den Schülern Kurse zuweisen
 
 Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/
