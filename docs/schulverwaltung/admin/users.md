@@ -10,9 +10,20 @@ Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 
 	Benutzerdaten werden mit der Datenbankdatei abgespeichert.  Die Passwortdaten der Benutzer werden verschlüsselt in einer zweiten Firebird-Datenbank gespeichert, die bei der Installation von Firebird mit angelegt wurde.
 
+## Standardkennungen
+
+Standardmäßig sind die Benutzer mit der Kennung "SYSDBA" und "DBADMIN" in der Datenbank hinterlegt. Beide haben die Kennung "masterkey".
+Mit diesen Standardkennung sind volle Administrationsrechte verbunden mit folgendem Unterschied:
+
+Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "SYSDBA" und "DBADMIN"
+
+Der SYSDBA hat für alle Datenbanken, auf dem ein Firebird-Server läuft, das höchste Administrationsrecht.
+
+Der "Besitzer"  einer Datenbank ist derjenige Benutzer, der die Datenbank erstellt hat. Für MAGELLAN 7 haben wir die MAGELLAN-Datenbank mit einem Benutzer namens "DBADMIN" erstellt. Durch diesen erhalten Sie für die "MAGELLAN.7FDB", und nur für diese, mit dem Benutzer "DBADMIN", die gleichen Rechte wie ein SYSDBA sie auf dieser Datenbank hat.
+
 ## Registerkarte „Benutzerliste“
 
-In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel, Inventarisierung und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen. 
+In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel, Inventarisierung und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen.
 
 Einen neuen Benutzer können Sie über die Schaltfläche `Hinzufügen` anlegen, einen bestehenden durch Doppelklick auf den Benutzer auf der Karte „MAGELLAN Benutzerliste“ bearbeiten. Für bereits angelegte Benutzer können Rechte exportiert, angepasst und wieder importiert werden. Zum Beispiel, um einer Gruppe von Benutzer schnell und einfach ein neues Recht zu zuweisen oder den Teilnehmern am MYMAGELLAN-Verfahren einen neuen Ablagepfad für die mym-Datei zu hinterlegen.
 
