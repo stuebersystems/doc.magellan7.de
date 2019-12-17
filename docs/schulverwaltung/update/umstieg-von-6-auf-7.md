@@ -182,6 +182,10 @@ Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespei
 
 Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELLAN-Teilnehmer vergeben und in der aktuellen Chiffrierung wieder eingelesen werden.
 
+!!! tip "Tipp"
+
+    Wenn Sie die bislang verwendeten Passworte weiterverwenden möchten, können wir Ihnen auch im Rahmen des MAGELLAN-Supportvertrages die alten Passworte aus der Magellan6.fdb auslesen und für die Nutzun in der csv-Datei zur Verfügung stellen.
+
 !!! warning "Wichtig"
 
     Diese Schritte müssen **vor** dem Erstellen der MYM-Dateien ausgeführt werden.

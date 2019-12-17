@@ -15,7 +15,7 @@ Um die Funktionalitäten zu aktivieren, setzen Sie bitte das Häkchen unter `Dat
 
 ![Aktivieren Sie das Häkchen!](/assets/images/enbrea.leistungen/01.png)
 
-## Schlüsselverzeichnisse vorbereiten
+## Schlüsselverzeichnisse
 
 * Bewertungsprofile
 * Notensysteme
@@ -94,7 +94,7 @@ Position| Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorg
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-## Notensysteme
+### Notensysteme
 
 ![Schlüsselverzeichnis Notensysteme](/assets/images/enbrea.leistungen/07.png)
 
@@ -106,7 +106,7 @@ interner Code| derzeit nicht in Benutzung
 Innerhalb Ihrer Schule und bei komplexeren Zeugnisberichten kann es unterschiedliche Systeme zur Beurteilung geben: Noten, Punkte, Prozente, Tendenzen...
 Diese Arten der Beurteilung (Notensysteme) werden mit den einzelnen Beurteilungswerten (Notensystem-Einträge) in diesem Schlüsselverzeichnis angelegt.
 
-### Unterkarte Notensystem
+#### Unterkarte Notensystem
 
 ![Unterkarte Notensysteme](/assets/images/enbrea.leistungen/08.png)
 
@@ -118,7 +118,7 @@ Wertetyp| Mögliche Werte `Zahlen` oder `Texte`
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-### Unterkarte Notensystem-Einträge
+#### Unterkarte Notensystem-Einträge
 
 ![Unterkarte Notensystem-Einträge](/assets/images/enbrea.leistungen/09.png)
 
@@ -136,7 +136,7 @@ interner Code| derzeit nicht in Benutzung
     
     Nachdem die Notensysteme definiert wurden, müssen diese im Schlüsselverzeichnis "Bewertungsprofile" pro definiertem Profil hinterlegt werden.
 
-## Notentypen
+### Notentypen
 
 ![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/10.png)
 
@@ -152,10 +152,10 @@ Es öffnet sich das Dialogfenster zum Definieren der Kurse
 
 ![Kurse definieren](/assets/images/enbrea.leistungen/14.png)
 
-Über das Plus Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden
+Über das Plus Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden.
 
 Spalte | Bedeutung
--|-
+--|--
 Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen <br/>- Bearbeiten: Neu anlegen über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
 Fach| Auswahl aus dem Schlüsselverzeichnis "Fächer"
 Unterrichtsart|Auswahl aus dem Schlüsselverzeichnis "Unterrichtsart"
