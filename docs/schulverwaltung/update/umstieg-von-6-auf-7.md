@@ -174,17 +174,19 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
 In MAGELLAN 6 konnte im MAGELLAN ADMINISTRATOR das MAGELLAN-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.fdb gespeichert und bei der Datenübernahme in die Magellan 7-Datenbank auch übergeben.
 
-### Problem
+**Problem**
 
 Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespeichert. Bei der Übernahme der Daten in die neue Magellan7.fdb wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
 
-### Lösung
+**Lösung**
 
 Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELLAN-Teilnehmer vergeben und in der aktuellen Chiffrierung wieder eingelesen werden.
 
 !!! warning "Wichtig"
 
-    Diese Schritte müssen vor dem Erstellen der MYM-Dateien ausgeführt werden.
+    Diese Schritte müssen **vor** dem Erstellen der MYM-Dateien ausgeführt werden.
+
+Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](http://127.0.0.1:8000/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren). Nachstehend eine Kurzanleitung.
 
 |So gehts:|
 |--|
@@ -192,5 +194,3 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELL
 |Wählen Sie in der Menüleiste den Punkt `Benutzer exportiern` und erzeugen eine csv-Datei.|
 |Öffnen Sie diese Datei, beispielsweise mit Excel, pflegen die Passworte ein und speichern das Ergebnis.|
 |Wählen Sie in der Menüleiste den Punkt `Benutzer importieren` und verweisen auf die csv-Datei. Die Passworte werden in der Datenbank gespeichert und werden beim Erzeugen der MYM-Dateien verwendet.|
-
-Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](http://127.0.0.1:8000/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren).
