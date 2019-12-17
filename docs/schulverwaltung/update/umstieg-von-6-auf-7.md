@@ -169,3 +169,28 @@ Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokument
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von MAGELLAN 7 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Aufgrund der geänderten Datenstruktur können Skripte aus MAGELLAN 6 nicht unter MAGELLAN 7 funktionieren, eine Übernahme würde hier schaden.
 Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 7 ab.
+
+## MyMAGELLAN-Passworte
+
+In MAGELLAN 6 konnte im MAGELLAN ADMINISTRATOR das MAGELLAN-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.fdb gespeichert und bei der Datenübernahme in die Magellan 7-Datenbank auch übergeben.
+
+### Problem
+
+Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespeichert. Bei der Übernahme der Daten in die neue Magellan7.fdb wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
+
+### Lösung
+
+Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELLAN-Teilnehmer vergeben und in der aktuellen Chiffrierung wieder eingelesen werden.
+
+!!! warning "Wichtig"
+
+    Diese Schritte müssen vor dem Erstellen der MYM-Dateien ausgeführt werden.
+
+|So gehts:|
+|--|
+|1. Starten Sie bitte den MAGELLAN-Administrator als sysdba oder als Benutzer mit dem Zusatzrecht `Mandantenadministrator` und rufen den Punkt `MyMAGELLAN CENTER` auf. |
+|Wählen Sie in der Menüleiste den Punkt `Benutzer exportiern` und erzeugen eine csv-Datei.|
+|Öffnen Sie diese Datei beispielsweise mit Excel, pflegen die Passworte ein und speichern das Ergebnis.|
+|Wählen Sie in der Menüleiste den Punkt `Benutzer importieren` und verweisen auf die csv-Datei. Die Passworte werden in der Datenbank gespeichert und werden beim Erzeugen der MYM-Dateien verwendet.|
+
+Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](http://127.0.0.1:8000/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren).
