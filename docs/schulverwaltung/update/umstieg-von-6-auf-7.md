@@ -184,7 +184,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELL
 
 !!! tip "Tipp"
 
-    Wenn Sie die bislang verwendeten Passworte weiterverwenden möchten, können wir Ihnen auch im Rahmen des MAGELLAN-Supportvertrages die alten Passworte aus der Magellan6.fdb auslesen und für die Nutzun in der csv-Datei zur Verfügung stellen.
+    Wenn Sie die bislang verwendeten Passworte nutzen möchten, können wir Ihnen auch im Rahmen des MAGELLAN-Supportvertrages die alten Passworte aus der Magellan6.fdb auslesen und für die Nutzung in der csv-Datei zur Verfügung stellen. Bitte melden Sie sich hierfür über unser Ticketsystem.
 
 !!! warning "Wichtig"
 
