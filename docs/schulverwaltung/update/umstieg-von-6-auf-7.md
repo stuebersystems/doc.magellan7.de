@@ -190,7 +190,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELL
 |--|
 |1. Starten Sie bitte den MAGELLAN-Administrator als sysdba oder als Benutzer mit dem Zusatzrecht `Mandantenadministrator` und rufen den Punkt `MyMAGELLAN CENTER` auf. |
 |Wählen Sie in der Menüleiste den Punkt `Benutzer exportiern` und erzeugen eine csv-Datei.|
-|Öffnen Sie diese Datei beispielsweise mit Excel, pflegen die Passworte ein und speichern das Ergebnis.|
+|Öffnen Sie diese Datei, beispielsweise mit Excel, pflegen die Passworte ein und speichern das Ergebnis.|
 |Wählen Sie in der Menüleiste den Punkt `Benutzer importieren` und verweisen auf die csv-Datei. Die Passworte werden in der Datenbank gespeichert und werden beim Erzeugen der MYM-Dateien verwendet.|
 
 Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](http://127.0.0.1:8000/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren).
