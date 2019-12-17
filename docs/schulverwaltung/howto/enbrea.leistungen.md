@@ -133,7 +133,7 @@ Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
 !!! info "Hinweis"
-
+    
     Nachdem die Notensysteme definiert wurden, müssen diese im Schlüsselverzeichnis "Bewertungsprofile" pro definiertem Profil hinterlegt werden.
 
 ## Notentypen
@@ -144,8 +144,67 @@ In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche N
 
 ## Kurse anlegen
 
+Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren` an.
+
+![Kurse definieren](/assets/images/enbrea.leistungen/13.png)
+
+Es öffnet sich das Dialogfenster zum Definieren der Kurse
+
+![Kurse definieren](/assets/images/enbrea.leistungen/14.png)
+
+Über das Plus Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden
+
+Spalte | Bedeutung
+-|-
+Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen <br/>- Bearbeiten: Neu anlegen über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
+Fach| Auswahl aus dem Schlüsselverzeichnis "Fächer"
+Unterrichtsart|Auswahl aus dem Schlüsselverzeichnis "Unterrichtsart"
+Fachstatus|Auswahl aus dem Schlüsselverzeichnis "Fachstatus"
+Lehrer|Auswahl aus der Liste der Lehrer mit dem Status "Aktiv"
+Schwerpunkt|Auswahl aus dem Schlüsselverzeichnis "Fachschwerpunkt"
+Niveau|Auswahl aus dem Schlüsselverzeichnis "Fachniveaus"
+Kursnr.|Eingabe einer Kursnr."
+Bilingual|Auswahl aus dem Schlüsselverzeichnis "Kurssprachen"
+Merkmal|Eingabe von Freitext
+
+Kurse mit Leistungprofil duplizieren:
+Kurs duplizieren:
+Übergreifend verwenden:
+
+## Leistungsprofile anlegen
+
 ## Kurse zuweisen
+
+Bitte weisen Sie im Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern die Kurse zu.
+
+Im Auswahlfenster können Sie in Schritt 1. die gewünschten Schüler markieren.
+
+![Kurse - Schüler auswählen](/assets/images/enbrea.leistungen/11.png)
+
+Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswählen.
+
+![Kurse - Kurse auswählen](/assets/images/enbrea.leistungen/12.png)
 
 ## Halbjahreswechsel
 
+1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. Nutzen Sie hier den Assisten um alle Schüler fortzuschreiben.
+
+Weitere Informationen zum Schuljahreswechsel finden Sie hier:
+https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
+
+2. ENBREA Leistungen übernehmen im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+
 ## Schuljahreswechsel
+
+1. Neuen Zeitraum anlegen
+
+2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`.
+
+Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+
+3. Schüler in die neue Klasse versetzen
+
+4. Den Schülern Kurse zuweisen
+
+Weitere Informationen zum Schuljahreswechsel finden Sie hier:
+https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/

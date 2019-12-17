@@ -40,7 +40,7 @@ Diese Vorbelegung kann man später im Assistenten einfach austauschen lassen.
 
 |Aktion|
 |:--|
-|1. Wechseln Sie ins neue Schulhalbjahr und rufen das Menü ``Laufbahnprozesse > Klassenübernehmen`` auf!|
+|1. Wechseln Sie ins neue Schulhalbjahr und rufen das Menü ``Laufbahnprozesse > Klassen übernehmen`` auf!|
 |2. Der Assistent zeigt Ihnen die Klassen des letzten Halbjahres an. <br/>**Berufsbildende Schulen:**<br/>Wenn Sie das Klassenalpha anpassen möchten, müssen Sie vor der Übernahme der Klassen auf der rechten Seite ins Feld `Alpha` bitte Ihr neues `Alpha` (Beispiel: 2020) eintragen!|
 |3. Markieren Sie die Klassen, die Sie fürs dieses Schuljahr benötigen und klicken auf das Plus oben links, um Ihre Auswahl in die rechte Fensterhälfte zu übernehmen.|
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen02.png>|
@@ -48,8 +48,7 @@ Diese Vorbelegung kann man später im Assistenten einfach austauschen lassen.
 |4. Auf der rechten Seite haben Sie die Möglichkeit die Klassenkürzel oder Bezeichnungen anzupassen. Sollten Sie versehentlich zu viele Klassen übernommen haben, können Sie die Klassen auch auf der rechten Seite markieren und über das Minus links oben wieder entfernen. Wenn die Auswahl stimmt klicken Sie bitte auf `Fertigstellen`, die neuen Klassen werden angelegt.|
 
 !!! info "Hinweis"
-
-  Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
+    Wir empfehlen zum Anlegen von Klassen fürs neue Schuljahr diesen Assistenten zu verwenden, Sie können so gut sicherstellen, dass immer alle relevanten Einstellungen (zum Beispiel die Klassenfachtafel, die Klassenart, der Jahrgang usw.) für die Klassen vergeben wurden.
 
 ### 3. Schüler in neue Klassen versetzen
 

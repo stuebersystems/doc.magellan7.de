@@ -5,6 +5,13 @@
 	Die Nutzung von MyMAGELLAN setzt eine gesonderte Lizenzierung voraus. 
 	In den nachfolgenden Abschnitten beschreiben wir das MyMAGELLAN CENTER, die Verwendung des Lehrerwerkzeugs MyMAGELLAN beschreiben wir in der Dokumentation [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de/).
 
+MyMAGELLAN Center starten
+
+Klicken Sie auf Start > Programme > STÜBER SYSTEMS > MyMAGELLAN Center. Die MAGELLAN-Datenbank ist grundsätzlich kennwortgeschützt. Wenn Sie MAGELLAN, MAGELLAN-Administrator bzw. das MyMagellan Center starten, müssen Sie in einem Anmeldedialog Ihre Benutzerkennung und Ihr Kennwort angeben.
+
+![MAGELLAN-Anmeldung](/assets/images/dialog-anmeldung.png)
+
+Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel „Benutzerverwaltung“.
 
 Aus MAGELLAN heraus können Zeugnisse gedruckt werden. Als Voraussetzung für Zeugnisse müssen Halbjahres- oder Jahresergebnisse (Noten, Punkte oder auch Beurteilungstexte für Grundschüler) und weitere Zeugnisdaten (Zeugnisbemerkungen, Fehlzeiten, Zeugnisdatum usw) in MAGELLAN vorhanden sein.
 Das kann direkt über MAGELLAN erfolgen, allerdings müsste dann jeder Kollege während der Notenerfassung auf die Datenbank im Schulverwaltungsnetz zugreifen können.
