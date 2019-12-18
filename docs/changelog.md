@@ -50,7 +50,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bericht
 
-CHANGE:das Modul wurde aktualisiert
+* CHANGE: Das Modul wurde aktualisiert
 
 ### MAGELLAN Administrator
 
@@ -65,7 +65,7 @@ CHANGE:das Modul wurde aktualisiert
 
 ### MAGELLAN Bibliothek
 
-* CHANGE: Die Opac-Funktionalität wurde überarbeitet
+* CHANGE: Die Opac-Funktionalität wurde überarbeitet, bitte beachten Sie die aktualisierte Anleitung unter [https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
 
 ### Skripte
 
