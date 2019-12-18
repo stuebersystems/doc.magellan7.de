@@ -16,7 +16,6 @@ Wenn Sie MAGELLAN und DAVINCI einsetzen, sollten Sie wie folgt vorgehen:
 2. Geben Sie die Unterrichtsverteilung in DAVINCI ein und erstellen Sie mit DAVINCI den Stundenplan.
 3. Geben Sie ggf. die Schülerfachwahlen in DAVINCI::Kursplan ein und übertragen Sie die Kurswahlen nach MAGELLAN. Wenn Sie Schüler-Fachwahlen nach MAGELLAN übertragen wollen und Sie neue Fächer in DAVINCI eingegeben haben, die noch nicht in MAGELLAN vorhanden sind, dann müssen Sie beim Datenabgleich neben den Schülerfachwahlen auch markieren, dass die Fächer übernommen werden sollen.
 
-
 !!! info "Hinweis"
 
 	Bitte beachten Sie beim Datenabgleich zwischen MAGELLAN und DAVINCI allgemein die folgenden Hinweise:
@@ -172,6 +171,10 @@ Bei der Übernahme des Lehrer-Unterrichts aus DAVINCI werden durch den Import de
 
 Durch die Übernahme des Lehrer-Unterrichts wird pro Schüler unter Ansicht `„Schüler“ > Zeugnis > Fächer` jedem Fach der unterrichtende Fachlehrer aus DAVINCI zugeordnet.
 
+!!! danger "Achtung"
+
+	Bei Veranstaltungszeilen aus DAVINCI, denen mehr als eine Klasse zugewiesen wurde, ist es wichtig, dass diese Veranstaltungen auch eine Blockbezeichnung erhalten um korrekt ausgewertet werden können.
+
 Felder|Hinweis
 ---|---
 **Zugewiesener Lehrer in der Veranstaltungsliste**|<br/>Dabei prüft MAGELLAN nach folgender Regel:<br/><br/>Unterrichtet der Lehrer<br/>- das gleiche Fach mit<br/>- gleichem Fachstatus und<br/>- gleicher Kursnummer in <br/>- der gleiche Klasse,  <br/> so wird er dem Schüler in diesem Fach zugeordnet.
@@ -189,7 +192,7 @@ Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht �
 
 !!! info "Hinweis"
 
-	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
+	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen. Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen, sondern für alle Klassen des gewählte Import-Zeitraums.
 	Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
 
 ### Beifachlehrer im Datenübertrag
