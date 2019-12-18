@@ -58,4 +58,5 @@ CHANGE:das Modul wurde aktualisiert
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE:
+* NEW: BER-Schul Z 620 (09.18).rpt
+* NEW: BER-Schul Z 250 (11.19).rpt
