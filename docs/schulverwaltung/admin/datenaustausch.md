@@ -115,7 +115,7 @@ Importiere folgenden Katalog  | Alle Kataloge
 
 ## Daten über das MAGELLAN-Importformat importieren
 
-Das MAGELLAN-Importformatist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in dei MAGELLAN-Datenbank. Den Aufbau der einzelnen Dateien und die Einlesereihenfolge um Daten aufeinander aufbauend in die Datenbank zu importieren, beschreiben wir in der Dokumentation des [MAGELLAN-Importformates](https://doc.magellan-import.stueber.de/).
+Das MAGELLAN-Importformatist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank. Den Aufbau der einzelnen Dateien und die Einlesereihenfolge um Daten aufeinander aufbauend in die Datenbank zu importieren, beschreiben wir in der Dokumentation des [MAGELLAN-Importformates](https://doc.magellan-import.stueber.de/).
 
 ![Verweisen Sie auf die zu importierende CSV-Datei](/assets/images/magellan.administrator/importformatdialog.png)
 
@@ -126,6 +126,8 @@ Das MAGELLAN-Importformatist die allgemeine Importschnittstelle für die Überna
 ![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](/assets/images/magellan.administrator/importformatdialog03.png)
 
 ## MAGELLAN DataCenter starten
+
+**Derzeit nicht veröffentlich**
 
 Das MAGELLAN DataCenter ermögicht Ihnen die Konvertierung von Daten fremder Anbieter in das MAGELLAN-Importformat. Es werden verschiedene Quelldatenbank- und Quellsysteme untestützt.
 Anhand von Prüfungs- und Konvertierungsregeln können Sie nicht konforme Daten entweder ersetzen oder überspringen. Zusätzlich können komplexe Konvertierungsroutinen per JavaScript-Technologie implementiert werden.
