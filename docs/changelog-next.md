@@ -59,5 +59,26 @@ CHANGE:das Modul wurde aktualisiert
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* NEW: BER-Schul Z 620 (09.18).rpt
+* DAS-GY-AZ mit FHR (Anlage 9b).rpt
+
+### Neu Berichte für Berlin
+
+* NEW: BER-Schul Z 620 (09.18).rpt (Beiblatt zum Zeugnis für ergänzende Bemerkungen (09.18), Bitte beachten Sie, dass Sie dieses Formular gesondert ausgedruckt werden muss. Die Zeugnisbemerkung muss in MAGELLAN das Merkmal "Beiblatt" erhalten)
+
+![Zeugnisbemerkungen](/assets/images/changelog/7.1.3.01.png)
+
+Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt.
+
 * NEW: BER-Schul Z 250 (11.19).rpt
+* NEW: BER-Schul Z 351 (11.19)_Oberstufe.rpt
+* NEW: BER-Schul Z 351 (11.19)_Kolleg.rpt
+* NEW: BER-Schul Z 306 (11.19)(FG).rpt
+* NEW: BER-Schul Z 306 (11.19).rpt
+* NEW: BER-Schul Z 301 (11.19).rpt
+* NEW: BER-Schul Z 300 (11.19).rpt
+* NEW: BER-Schul Z 302 (11.19).rpt
+* NEW:  BER-Schul Z 303 (11.19).rpt
+
+!!! info "Hinweis"
+  
+      Die Ausgabe des Bemerkungstextes: "Ein Beiblatt (Schul Z 620) ist Bestandteil dieses Zeugnisses:     ☐ ja     ☐ nein)." wird wie folgt gesteuert: Liegt eine Zeugnisbemerkung mit dem Merkmal "Beiblatt" beim Schüler vor, kommt der Text in der Bemerkung: “Ein Beiblatt (Schul Z 620) ist Bestandteil dieses Zeugnisses.” Liegt dieses Merkmal nicht vor, kommt der Text in der Bemerkung: “Ein Beiblatt (Schul Z 620) ist nicht Bestandteil dieses Zeugnisses.”
