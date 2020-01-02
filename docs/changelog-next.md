@@ -50,7 +50,8 @@ CHANGE:das Modul wurde aktualisiert
 
 ### Skripte
 
-* FIX:
+* NEW: SAR-APO-2018.dws (diverse Korrekturen)
+* FIX: SAR-APO-2017.dws (diverse Korrekturen)
 
 ### Statistik
 
