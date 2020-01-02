@@ -187,12 +187,15 @@ Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswä
 
 ## Halbjahreswechsel
 
-1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. Nutzen Sie hier den Assisten um alle Schüler fortzuschreiben.
+1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben.
 
 Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
 
 2. ENBREA Leistungen übernehmen im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+
+![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vergangenen Zeitraum](/assets/images/enbrea.leistungen/15.png)
+
 
 ## Schuljahreswechsel
 
