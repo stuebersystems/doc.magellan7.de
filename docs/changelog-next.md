@@ -91,7 +91,7 @@ Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt
 * NEW: BER-Schul Z 301 (11.19).rpt
 * NEW: BER-Schul Z 300 (11.19).rpt
 * NEW: BER-Schul Z 302 (11.19).rpt
-* NEW:  BER-Schul Z 303 (11.19).rpt
+* NEW: BER-Schul Z 303 (11.19).rpt
 
 !!! info "Hinweis"
   
