@@ -70,8 +70,10 @@ CHANGE:das Modul wurde aktualisiert
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* DAS-GY-AZ mit FHR (Anlage 9b).rpt
-* NIE-GY (Studienbuch - Einführungsphase) G9.rpt
+* NEW: DAS-GY-AZ mit FHR (Anlage 9b).rpt
+* NEW: NIE-GY (Studienbuch - Einführungsphase) G9.rpt
+* FIX: DAS-GY-ABI (DIA)(2019).rpt
+* NEW: DAS-GY-ABI (DIA)(2020).rpt
 
 ### Neu Berichte für Berlin
 
