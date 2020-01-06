@@ -65,7 +65,7 @@ Bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in die MAGELLAN 7-Da
 |Notwendige Schritte |
 |-|
 |[1. ggfs. MAGELLAN 6 und ggfs. Firebird aktualisieren](https://doc.MAGELLAN7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#MAGELLAN-6-und-firebird-aktualisieren)|
-|[2. MAGELLAN 6.fdb sichern und wiederherstellen](https://doc.MAGELLAN7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#6er-Datenbank-vorbereiten)|
+|[2. 6er Datenbank vorbereiten](https://doc.MAGELLAN7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#6er-Datenbank-vorbereiten)|
 |[3. MAGELLAN 7 installieren](https://doc.MAGELLAN7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#MAGELLAN-7-installieren)|
 |[4. Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen](https://doc.MAGELLAN7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#daten-aus-MAGELLAN-6-nach-MAGELLAN-7-%C3%BCbernehmen)|
 
