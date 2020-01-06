@@ -12,9 +12,11 @@
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
 
+### 
+
 ### Übernahme nicht übers Netzwerk
 
-Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen. 
+Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen.
 Bitte legen Sie beide Datenbanken, also die leere MAGELLAN7.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
 
 !!! danger "Achtung"
@@ -72,12 +74,17 @@ Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen
 
 !!! info "Hinweis"
 
-     Wenn Sie die letzte Ausgabe von MAGELLAN 6 eingespielt haben und die empfohlene Ausgabe von Firebird (2.5.8) verwenden, ist hier nichts weiter zu tun.
+     Wenn Sie die letzte Ausgabe von MAGELLAN 6 eingespielt haben und die empfohlene Ausgabe von Firebird (2.5.9) verwenden, ist hier nichts weiter zu tun.
 
 Programm| Wo kann ich die Version überprüfen?
 --|--
 MAGELLAN | Bitte vergleichen Sie die angezeigte Version (am besten der Serverrechner-Installation) unter `MAGELLAN > Hilfe > Info über`  mit den angezeigten Version auf im [Downloadbereich](https://MAGELLAN.stueber.de/download.php) oder im Abschnitt ["Was ist neu?"](https://doc.MAGELLAN7.stueber.de/changelog/) der MAGELLAN 6-Dokumentation!<br/> Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [MAGELLAN 6](https://doc.MAGELLAN6.stueber.de/installation/update.html)
 FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die -Ausgabe, die wir im [Downloadbereich](https://magellan.stueber.de/download.php) anbieten? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.MAGELLAN6.stueber.de/installation/firebird-aktualisieren.html) der MAGELLAN 6-Dokumentation eine Anleitung für das Aktualisieren.
+
+## 6er Datenbank für die Übergabe vorbereiten
+
+Falls Sie es noch nicht mit Firebird 2.5.9 durchgeführt haben:
+Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen) der MAGELLAN6.fdb und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
 
 ## MAGELLAN 7 installieren
 
@@ -95,6 +102,7 @@ Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihre
 !!! warning "Wichtig"
 
     Bitte verwenden Sie einen leistungsstarken Rechner und legen beiden Datenbanken (die leere MAGELLAN7- und die gefüllte MAGELLAN6-Datenbank) auf diesem Rechner ab. Die Übertragung der Daten aus einer großen Datenbank kann viel Zeit in Anspruch nehmen, wenn die Daten dabei noch über Ihr Netzwerk übertragen werden, beeinflussen Sie diesen Prozess ungünstig.
+
 
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
