@@ -28,18 +28,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
-<<<<<<< HEAD
-* FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter Bewerber > Daten 1 > Für Ziel 1 als auch unter Bewerber > Auswahlliste > Bewerbungsziel 1
+* FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter `Bewerber > Daten 1 > Für Ziel 1 als auch unter Bewerber > Auswahlliste > Bewerbungsziel 1`
 * FIX: Ein unter `Schüler > Ausbildung` neu angelegter Praktikumsbetrieb wird auch gleich als neuer Praktikumsbetrieb für den Schüler übernommen.
 
 ### MAGELLAN Willkommensassistent
 
 * FIX: Verbindungseingabe beim Anlegen von Verbindungen zu einer entfernten Datenbank überarbeitet
-=======
-* FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter `Bewerber > Daten 1 > Für Ziel 1` als auch unter `Bewerber > Auswahlliste > Bewerbungsziel 1` angezeigt
-* FIX: Aktualisierungproblem im Bereich Schüler beim Wechsel von Eingeschult auf Vagabunden behoben
-* FIX: Symbole `Abitur > Prüfungen angepasst`
->>>>>>> 442cf5087efc5d1f73ffd0637d92844786f599f2
 
 ### MAGELLAN Bericht
 
