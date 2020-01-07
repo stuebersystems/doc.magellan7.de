@@ -24,7 +24,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE:
+* CHANGE: Umstellen des Feldes "Sites" auf Memofeld zur besseren Speicherung der Opac-Daten.
+
+!!! warning "Wichtig"
+
+    Bei der Umstellung gehen bisherige Opac-Server verloren und müssen neu eingetragen werden. Eine Anleitung finden Sie [hier](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
+
+* CHANGE: Korrigieren der Feldlängen für die Eingabeparameter der Prozeduren.  
+* CHANGE: Neues setzen der SchuelerZeitraumID in der Tabelle "SchuelerZeugnisbemerkungen".
+* CHANGE: Setzen von Bewerberinformationen aus dem Stammschüler bei kopierten Bewerbern.
 
 ### MAGELLAN
 
