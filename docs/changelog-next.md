@@ -39,6 +39,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter `Bewerber > Daten 1 > Für Ziel 1 als auch unter Bewerber > Auswahlliste > Bewerbungsziel 1`
 * FIX: Ein unter `Schüler > Ausbildung` neu angelegter Praktikumsbetrieb wird auch gleich als neuer Praktikumsbetrieb für den Schüler übernommen.
+* FIX: `Schüler > Laufbahnprozess > Schüler ausschulen` Ausschulen weiterer Schüler möglich
+* FIX: `Extras > Verzeichnisse > Zeugnisbemerkungen` Editieren der Bemerkung möglich
 
 ### MAGELLAN Willkommensassistent
 
