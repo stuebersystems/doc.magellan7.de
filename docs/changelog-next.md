@@ -78,6 +78,7 @@ CHANGE:das Modul wurde aktualisiert
 
 * NEW: SAR-APO-2018.dws (diverse Korrekturen)
 * FIX: SAR-APO-2017.dws (diverse Korrekturen)
+* FIX: DE-DIAP-2015.dws Vorschlagsautomatik korrigiert (Einbringunsgverpflichtung mind. 2 HJ in Naturwissenschaften, optimale Punktzahl)
 
 ### Statistik
 
@@ -91,6 +92,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * NEW: NIE-GY (Studienbuch - Einführungsphase) G9.rpt
 * FIX: DAS-GY-ABI (DIA)(2019).rpt
 * NEW: DAS-GY-ABI (DIA)(2020).rpt
+* NEW: SHL-GY-ABI (2018).rpt
 
 ### Neu Berichte für Berlin
 
