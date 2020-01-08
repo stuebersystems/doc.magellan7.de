@@ -85,6 +85,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * NEW: NIE-GY (Studienbuch - Einführungsphase) G9.rpt
 * FIX: DAS-GY-ABI (DIA)(2019).rpt
 * NEW: DAS-GY-ABI (DIA)(2020).rpt
+* NEW: SHL-GY-ABI (2018).rpt
 
 ### Neu Berichte für Berlin
 
