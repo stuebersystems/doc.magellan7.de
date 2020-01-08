@@ -28,6 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! warning "Wichtig"
 
+    Bei der Umstellung gehen bisherige Opac-Server verloren und müssen neu eingetragen werden. Eine Anleitung finden Sie [hier](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
     Bei der Umstellung gehen bisherige Opac-Server verloren und müssen neu eingetragen werden. 
     Eine Anleitung finden Sie [hier](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
 
