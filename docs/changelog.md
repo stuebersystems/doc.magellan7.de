@@ -14,7 +14,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-## 7.1.3 - 710 (08.01.2020)
+## 7.1.3 - 710 (8.01.2020)
 
 ### MAGELLAN
 

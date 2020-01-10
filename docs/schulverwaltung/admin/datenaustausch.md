@@ -115,15 +115,45 @@ Importiere folgenden Katalog  | Alle Kataloge
 
 ## Daten über das MAGELLAN-Importformat importieren
 
-Das MAGELLAN-Importformatist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank. Den Aufbau der einzelnen Dateien und die Einlesereihenfolge um Daten aufeinander aufbauend in die Datenbank zu importieren, beschreiben wir in der Dokumentation des [MAGELLAN-Importformates](https://doc.magellan-import.stueber.de/).
+Die nachstehende Beschreibung bezieht sich auf die noch unveröffentlichte Version 7.1.4 (Stand 10.01.2020).
 
-![Verweisen Sie auf die zu importierende CSV-Datei](/assets/images/magellan.administrator/importformatdialog.png)
+Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
 
-![Geben Sie die Importdatei an, wenn der Dateiname nach der Vorgabe gewählt wurde, wird die Datei schon vormarkiert](/assets/images/magellan.administrator/importformatdialog01.png)
+### Vorbereitung
 
-![Lassen Sie die Datei prüfen oder importieren direkt](/assets/images/magellan.administrator/importformatdialog02.png)
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformates](https://doc.magellan7-toolbox.stueber.de/importe/) vor.
 
-![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](/assets/images/magellan.administrator/importformatdialog03.png)
+!!! tip "Tipp"
+
+    Sie können den Dateinamen der *.csv-Dateien frei wählen, es ist aber sinnvoll die vorgeschlagenen Namen je Importdatei zu verwenden, der Assistent erkennt die Namen und sortiert diese automatisch in die inhaltlich aufeinander aufbauende Reihenfolge.
+
+empfohlener Dateiname|Beschreibung
+--|--
+schulen.import.csv | Enthält die Stammdaten der Schulen
+betriebe.import.csv | Enthält die Stammdaten der Betriebe
+lehrer.import.csv | Enthält die Stammdaten der Lehrer
+schueler.import.csv | Enthält die Stammdaten der Schüler und Bewerber
+sorgebe.import.csv | Enthält die Stammdaten der Sorgeberechtigten
+verlage.import.csv | Enthält die Stammdaten der Verlage
+lieferanten.import.csv | Enthält die Stammdaten der Lieferanten
+medien.import.csv | Enthält die Stammdaten der Medien
+exemplare.import.csv | Enthält die Exemplardaten zu den Medien
+klassen.import.csv | Enthält die Stamm- und Zeitraumdaten der Klassen
+schueler_laufbahn.import.csv | Enthält die Laufbahndaten der Schüler
+schueler_fachdaten.import.csv | Enthält die Fachdaten der Schüler
+schueler_sorgebe.import.csv | Enthält die Zuordnung der Sorgeberechtigten zu den Schülern
+schueler_schulen.import.csv | Enthält die bereits besuchten Schulen der Schüler (Stichwort: Herkunftsschulen)
+schueler_ausbildung.import.csv | Enthält die Ausbildungsdaten der Schüler
+
+|So gehen Sie vor:|
+|--|
+|**Importformatdatei wählen**<br/><br/>Klicken Sie auf das `Plus`-Symbol und verweisen auf eine oder mehrere zu importierende csv-Dateien. Erkennt der Assistent die Dateinamen, ordnet er in der ersten Spalte die entsprechende Bezeichnung zu. Ist der Dateiname nicht zuzuordnen, erhält die Zeile den Wert `unbekannt`. Bitte ordnen Sie in diesem Fall die korrekte Auswahl zu. Sobald Sie die Auswahl getroffen haben, sortiert der Assistent die Dateien in die korrekte Reihenfolge für das Einlesen, die `Weiter`-Schaltfläche wird aktiviert.><br/>Eine versehentlich ausgewählte Datei können Sie über das `Minus`-Symbol wieder entfernen.<br/>Klicken Sie auf `Weiter`!|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import01.png">|
+|**Auswahl der Importparameter**<br/><br/>Wählen Sie bitte Ihren Zielmandanten im Feld `Importiere für den folgenden Mandanten` aus!<br/><br/>Je nach Dateiauswahl (Medien-Exemplare) auf der vorangegangenen Karte, kann das Feld `Importiere für den folgenden Medienkatalog` gezeigt werden, treffen Sie hier bitte Ihre Auswahl!<br/><br/>**Datenprüfung und Import**<br/><br/>Setzen Sie den Haken um Ihre gewählten Dateien im Anschluss prüfen zu lassen. Ist der Haken nicht aktiviert, wird versucht die Daten in Ihre Datenbank einzulesen.<br/>Trefefn Sie Ihre Auswahl und klicken bitte auf `Weiter`!|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import02.png">|
+||
+
+
 
 ## MAGELLAN DataCenter starten
 
