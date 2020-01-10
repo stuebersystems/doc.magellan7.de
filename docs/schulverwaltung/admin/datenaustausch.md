@@ -117,7 +117,7 @@ Importiere folgenden Katalog  | Alle Kataloge
 
 !!! warning "Wichtig"
 
-    Die nachstehende Beschreibung bezieht sich auf die noch unveröffentlichte Version 7.1.4 (Stand 10.01.2020).
+    Die nachstehende Beschreibung setzt mindestens die MAGELLAN-Ausgabe 7.1.4 voraus.
 
 Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
 

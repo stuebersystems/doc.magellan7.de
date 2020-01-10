@@ -32,7 +32,7 @@ CHANGE:
 
 ### MAGELLAN Administrator
 
-* FIX:
+* NEW: Der Punkt `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
 
 ### MyMAGELLAN-CENTER
 
