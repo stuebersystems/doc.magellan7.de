@@ -115,19 +115,21 @@ Importiere folgenden Katalog  | Alle Kataloge
 
 ## Daten über das MAGELLAN-Importformat importieren
 
-Die nachstehende Beschreibung bezieht sich auf die noch unveröffentlichte Version 7.1.4 (Stand 10.01.2020).
+!!! warning "Wichtig"
+
+    Die nachstehende Beschreibung bezieht sich auf die noch unveröffentlichte Version 7.1.4 (Stand 10.01.2020).
 
 Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
 
 ### Vorbereitung
 
-Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformates](https://doc.magellan7-toolbox.stueber.de/importe/) vor.
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan7-toolbox.stueber.de/importe/) vor.
 
 !!! tip "Tipp"
 
     Sie können den Dateinamen der *.csv-Dateien frei wählen, es ist aber sinnvoll die vorgeschlagenen Namen je Importdatei zu verwenden, der Assistent erkennt die Namen und sortiert diese automatisch in die inhaltlich aufeinander aufbauende Reihenfolge.
 
-empfohlener Dateiname|Beschreibung
+Empfohlener Dateiname|Beschreibung
 --|--
 schulen.import.csv | Enthält die Stammdaten der Schulen
 betriebe.import.csv | Enthält die Stammdaten der Betriebe
@@ -145,15 +147,16 @@ schueler_sorgebe.import.csv | Enthält die Zuordnung der Sorgeberechtigten zu de
 schueler_schulen.import.csv | Enthält die bereits besuchten Schulen der Schüler (Stichwort: Herkunftsschulen)
 schueler_ausbildung.import.csv | Enthält die Ausbildungsdaten der Schüler
 
+### Einlesen oder Prüfen der Daten
+
 |So gehen Sie vor:|
 |--|
 |**Importformatdatei wählen**<br/><br/>Klicken Sie auf das `Plus`-Symbol und verweisen auf eine oder mehrere zu importierende csv-Dateien. Erkennt der Assistent die Dateinamen, ordnet er in der ersten Spalte die entsprechende Bezeichnung zu. Ist der Dateiname nicht zuzuordnen, erhält die Zeile den Wert `unbekannt`. Bitte ordnen Sie in diesem Fall die korrekte Auswahl zu. Sobald Sie die Auswahl getroffen haben, sortiert der Assistent die Dateien in die korrekte Reihenfolge für das Einlesen, die `Weiter`-Schaltfläche wird aktiviert.><br/>Eine versehentlich ausgewählte Datei können Sie über das `Minus`-Symbol wieder entfernen.<br/>Klicken Sie auf `Weiter`!|
 |**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import01.png">|
-|**Auswahl der Importparameter**<br/><br/>Wählen Sie bitte Ihren Zielmandanten im Feld `Importiere für den folgenden Mandanten` aus!<br/><br/>Je nach Dateiauswahl (Medien-Exemplare) auf der vorangegangenen Karte, kann das Feld `Importiere für den folgenden Medienkatalog` gezeigt werden, treffen Sie hier bitte Ihre Auswahl!<br/><br/>**Datenprüfung und Import**<br/><br/>Setzen Sie den Haken um Ihre gewählten Dateien im Anschluss prüfen zu lassen. Ist der Haken nicht aktiviert, wird versucht die Daten in Ihre Datenbank einzulesen.<br/>Trefefn Sie Ihre Auswahl und klicken bitte auf `Weiter`!|
+|**Auswahl der Importparameter**<br/><br/>Wählen Sie bitte Ihren Zielmandanten im Feld `Importiere für den folgenden Mandanten` aus!<br/><br/>Je nach Dateiauswahl (Medien-Exemplare) auf der vorangegangenen Karte, kann das Feld `Importiere für den folgenden Medienkatalog` gezeigt werden, treffen Sie hier bitte Ihre Auswahl!<br/><br/>**Datenprüfung und Import**<br/><br/>Setzen Sie den Haken um Ihre gewählten Dateien im Anschluss prüfen zu lassen. Ist der Haken nicht aktiviert, wird versucht die Daten in Ihre Datenbank einzulesen.<br/>Treffen Sie Ihre Auswahl und klicken bitte auf `Weiter`!|
 |**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import02.png">|
-||
-
-
+|Klicken Sie auf `Fertigstellen`! Das Einlesen oder Prüfen, je nach Ihrer Auswahl auf der vorangegangenen Seite, geschieht dateiweise. Es werden im Fenster die Meldungen des Einlesens oder des Prüfens für die Dateien gezeigt. Im Anschluss erscheint ein Fenster, in dem Sie entscheiden können, die nächste Datei einlesen oder prüfen zu lassen. Die eventuell zuvor ausgegebenen Meldungen bleiben in der Liste bestehen und werden ggfs. durch weitere Meldungen ergänzt.<br/>Entstandene Meldungen können Sie exportieren.<br/>Nach Abschluss der Prüfung oder des Einlesens schließen Sie den Assistenten.|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import03.png">|
 
 ## MAGELLAN DataCenter starten
 
