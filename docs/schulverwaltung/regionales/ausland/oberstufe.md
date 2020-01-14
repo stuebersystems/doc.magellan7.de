@@ -76,17 +76,17 @@ Gehen Sie bitte wie folgt vor:
 * Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`. 
 * Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in MAGELLAN ausgewählte Halbjahr haben.
 
-![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_zuweisen.04.png)
+![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_übernehmen01.png)
 
 Im unteren Bereich stehen Optionen zur Verfügung:
 
-![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_zuweisen.05.png)
+![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_übernehmen02.png)
 
-Nr|Hinweis
---|--
-1.|Vorhandene Fächer in der Ansicht `Schüler > Zeugnis > Fächer` aktualisieren
-2.|Vorhandene Fächer der Schüler nicht löschen
-3.|und Fachstatus beibehalten
+|Nr|Hinweis|
+|--|--|
+|1.|Vorhandene Fächer in der Ansicht `Schüler > Zeugnis > Fächer` aktualisieren|
+|2.|Vorhandene Fächer der Schüler nicht löschen|
+|3.|und Fachstatus beibehalten|
 
 Wählen Sie die Option und führen den Assistenten aus. Als Ergebnis finden Sie die dem jeweiligen Halbjahr zugeordneten Fachwahlen dann auf der Schülerzeugniskarte.
 
@@ -98,13 +98,13 @@ MAGELLAN richtet sich nicht an eine bestimmte Region oder Schulart. Um MAGELLAN 
 
 ### Einstellungen
 
-Stelle | Hinweis
---|--
-Mandanten > Daten > Schulleiter| (zeugnisrelevant)<br/>Weisen Sie bitte im Feld `Schulleiter` den entsprechenden Kollegen aus dem Lehrermenü zu 
-Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Kollegen das Feld `Geschlecht`. <br/> Beispielergebnis auf Zeugnissen: <br/>Schulleiter oder Schulleiterin<br/>Klassenleiter oder Klassenleiterin
-Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`
-Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!
-Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)
+|Stelle | Hinweis|
+|--|--|
+|Mandanten > Daten > Schulleiter| (zeugnisrelevant)<br/>Weisen Sie bitte im Feld `Schulleiter` den entsprechenden Kollegen aus dem Lehrermenü zu 
+Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Kollegen das Feld `Geschlecht`. <br/> Beispielergebnis auf Zeugnissen: <br/>Schulleiter oder Schulleiterin<br/>Klassenleiter oder Klassenleiterin|
+|Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`|
+|Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!|
+|Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)|
 Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/assets/images/ausland/verordnungen.png) 
 Verzeichnisse > Zeiträume > Art| Der Wert 1. oder 2. Halbjahr muss gefüllt sein
 Verzeichnisse > Fächer > Kategorie|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)
