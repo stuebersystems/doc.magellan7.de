@@ -48,7 +48,7 @@ CHANGE:
 
 ### Skripte
 
-* NEW:
+* CHANGE: Importiere SDTF.dws (Unterrichtsart-Schlüssel "L" ist hinzugekommen)
 
 ### Statistik
 
