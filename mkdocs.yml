@@ -51,8 +51,9 @@ nav:
     - Einführung: index.md
     - Was ist neu?: changelog.md
     - Geplante Änderungen: changelog-next.md
-    - Neu in Version 7: neu.mag7.md
+    - Änderungen 2019: changelog2019.md
 - Schulverwaltung:
+    - Unterschied Version 6 und 7: neu.mag7.md    
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
