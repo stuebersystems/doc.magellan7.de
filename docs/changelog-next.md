@@ -59,4 +59,5 @@ CHANGE:
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* NEW:
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
