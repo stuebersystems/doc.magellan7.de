@@ -21,10 +21,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * FIX: Feldlänge in der Oberfläche für `Bewerber > Daten 1 > Geburtsland` an die Zeichenzahl des Kürzels aus dem Schlüsselverzeichnis `Staatsangehörigkeiten` angepasst
-
-### MAGELLAN Willkommensassistent
-
-* FIX:
+* FIX: Neue oder geänderte Einträge unter `Klassen > Zeiträume` werden korrekt in der Klassenauswahlliste aktualisiert
+* FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
+* FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
+* CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
 
 ### MAGELLAN Bericht
 
@@ -49,6 +49,7 @@ CHANGE:
 ### Skripte
 
 * CHANGE: Importiere SDTF.dws (Unterrichtsart-Schlüssel "L" ist hinzugekommen)
+* CHANGE: Zuweisen von Bewerberstammdaten.dws (Sammelzuweisungen aus dem Bewerber- oder Schüler-Menü): Debugmeldungen wurden unterbunden
 
 ### Statistik
 
