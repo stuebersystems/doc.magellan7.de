@@ -40,7 +40,7 @@ CHANGE:
 
 ### MyMAGELLAN
 
-* NEW:
+* FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
 
 ### MAGELLAN Bibliothek
 
