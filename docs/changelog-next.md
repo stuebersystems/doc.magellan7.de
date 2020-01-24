@@ -67,3 +67,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-HJZ-JZ (Klassenstufen 5-10)+GEMS-HJZ-JZ (Einführungsphase).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (modifiziert Klassenstufen 9 und 10).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (Klassenstufen 5-10)+GEMS-AZ (Einführungsphase).rpt
