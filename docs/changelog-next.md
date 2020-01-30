@@ -27,10 +27,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
 * FIX: Autoupdate korrigiert
 * FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
+* FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
 
-### MAGELLAN Berichte
+### SAXSVS
 
-CHANGE:
+FIX: Ausgabe der Klasse für Nebenschüler
 
 ### MAGELLAN Administrator
 
@@ -45,6 +46,7 @@ CHANGE:
 * FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
 * FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
 * FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
+* FIX: Funktion der Vor- und Zurückschaltfläche im Bereich `Schüler` und `Fächer` überarbeitet
 
 ### MAGELLAN Bibliothek
 
