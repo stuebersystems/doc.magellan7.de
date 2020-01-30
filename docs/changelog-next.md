@@ -25,8 +25,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
 * FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
 * CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
+* FIX: Autoupdate korrigiert
+* FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
 
-### MAGELLAN Bericht
+### MAGELLAN Berichte
 
 CHANGE:
 
@@ -41,6 +43,8 @@ CHANGE:
 ### MyMAGELLAN
 
 * FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
+* FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
+* FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
 
 ### MAGELLAN Bibliothek
 
@@ -68,16 +72,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
 * NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
-  
-<<<<<<< HEAD
-
-#### Berichte für Sachsen
-
 * FIX: SAC-FOS-HJZ (D.01.01).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
 * FIX: SAC-BVJ-HJI (A.01.03).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
 * FIX: SAC-FS-HJZ (C.01.03).rpt (Umbruch bei langen Fachbezeichnung im Pflichbereich korrigiert )
-=======
-* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-HJZ-JZ (Klassenstufen 5-10)+GEMS-HJZ-JZ (Einführungsphase).rpt
-* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (modifiziert Klassenstufen 9 und 10).rpt
-* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (Klassenstufen 5-10)+GEMS-AZ (Einführungsphase).rpt
->>>>>>> bbd32b925d1baf710ea9cee33edb35684eec4e7a
