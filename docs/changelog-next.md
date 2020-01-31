@@ -25,10 +25,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
 * FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
 * CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
+* FIX: Autoupdate korrigiert
+* FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
+* FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
 
-### MAGELLAN Bericht
+### SAXSVS
 
-CHANGE:
+FIX: Ausgabe der Klasse für Nebenschüler
 
 ### MAGELLAN Administrator
 
@@ -41,6 +44,9 @@ CHANGE:
 ### MyMAGELLAN
 
 * FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
+* FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
+* FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
+* FIX: Funktion der Vor- und Zurückschaltfläche im Bereich `Schüler` und `Fächer` überarbeitet
 
 ### MAGELLAN Bibliothek
 
@@ -67,14 +73,14 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
 * FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
-* FIX: BER-Schul Z 306 (11.19)(FG).rpt (Bereich der Zeugnisbemerkungen nun mit variabler Größe)
-* FIX: BER-Schul Z 306 (11.19).rpt (Bereich der Zeugnisbemerkungen nun mit variabler Größe)
-
-#### Berichte für Sachsen
-
+* NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
 * FIX: SAC-FOS-HJZ (D.01.01).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
 * FIX: SAC-BVJ-HJI (A.01.03).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+<<<<<<< HEAD
 * FIX: SAC-FS-HJZ (C.01.03).rpt (Umbruch bei langen Fachbezeichnung im Pflichbereich korrigiert, Layout optimiert)
 * NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
 * NEW: SAC-BF-HJI (B.02.01).rpt (Halbjahresinformation der Berufsfachschule für ...)
   
+=======
+* FIX: SAC-FS-HJZ (C.01.03).rpt (Umbruch bei langen Fachbezeichnung im Pflichbereich korrigiert )
+>>>>>>> ef3cb60d6ca6ebdc145b76af58a9d734fc7e89ef
