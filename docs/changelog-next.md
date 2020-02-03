@@ -32,7 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### SAXSVS
 
-FIX: Ausgabe der Klasse für Nebenschüler
+* FIX: Ausgabe der Klasse für Nebenschüler
 
 ### MAGELLAN Administrator
 
@@ -40,7 +40,7 @@ FIX: Ausgabe der Klasse für Nebenschüler
 
 ### MyMAGELLAN-CENTER
 
-* CHANGE:
+* CHANGE: Standardsortierung der Liste nach `Kennung`
 
 ### MyMAGELLAN
 
