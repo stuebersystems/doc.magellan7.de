@@ -28,6 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Autoupdate korrigiert
 * FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
 * FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
+* FIX: `Extras > Schlüsselverzeichnisse > Fachtafeln`: Fachwahltafeln kopieren
 
 ### SAXSVS
 
