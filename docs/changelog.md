@@ -19,6 +19,82 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
+## 7.1.5 - 710 (05.02.2020)
+
+### MyMAGELLAN
+
+* FIX: Listenfelder unter `Schüler > Zeugnisdaten` sind auswählbar
+* Change: Mym7-Datei kann nicht mehrfach geöffnet werden
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 1).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Hauptschulabschluss).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-HJZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Sekundarabschluss I).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-ÜZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-BF-FHReife (Anlage C17 schulischer Teil).rpt
+
+## 7.1.4 - 710 (03.02.2020)
+
+### MAGELLAN
+
+* FIX: Feldlänge in der Oberfläche für `Bewerber > Daten 1 > Geburtsland` an die Zeichenzahl des Kürzels aus dem Schlüsselverzeichnis `Staatsangehörigkeiten` angepasst
+* FIX: Neue oder geänderte Einträge unter `Klassen > Zeiträume` werden korrekt in der Klassenauswahlliste aktualisiert
+* FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
+* FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
+* CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
+* FIX: Autoupdate korrigiert
+* FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
+* FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
+* FIX: `Extras > Schlüsselverzeichnisse > Fachtafeln`: Fachwahltafeln kopieren
+
+### SAXSVS
+
+* FIX: Ausgabe der Klasse für Nebenschüler
+
+### MAGELLAN Administrator
+
+* NEW: Der Punkt `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
+
+### MyMAGELLAN-CENTER
+
+* CHANGE: Standardsortierung der Liste nach `Kennung`
+
+### MyMAGELLAN
+
+* FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
+* FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
+* FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
+* FIX: Funktion der Vor- und Zurückschaltfläche im Bereich `Schüler` und `Fächer` überarbeitet
+
+### Skripte
+
+* CHANGE: Importiere SDTF.dws (Unterrichtsart-Schlüssel "L" ist hinzugekommen)
+* CHANGE: Zuweisen von Bewerberstammdaten.dws (Sammelzuweisungen aus dem Bewerber- oder Schüler-Menü): Debugmeldungen wurden unterbunden
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt (es werden nur Wahlpflichtfächer ausgegeben, die eine Note im Feld "Endnote" eingetragen haben, Wahlpflichtfächer ohne Benotung werden nun auch in der Fachbezeichnung entwertet auf dem Zeugnis ausgegeben)
+* FIX: Bescheinigung über den Schulbesuch zweifach.rpt
+* FIX: BER-Schul Z 300 (11.19).rpt (Leerzeichen vor Datumsangabe eingefügt)
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
+* FIX: SAC-FOS-HJZ (D.01.01).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-BVJ-HJI (A.01.03).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-BG-HJZ (E.01.01) Verknüpfungen korrigiert
+
 ## 7.1.3 - 710 (08.01.2020)
 
 ### MAGELLAN

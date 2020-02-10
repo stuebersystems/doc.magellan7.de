@@ -16,37 +16,27 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-## 7.1.4 - 710
+## 7.1.6 - 710
 
 ### MAGELLAN
 
-* FIX: Feldlänge in der Oberfläche für `Bewerber > Daten 1 > Geburtsland` an die Zeichenzahl des Kürzels aus dem Schlüsselverzeichnis `Staatsangehörigkeiten` angepasst
-* FIX: Neue oder geänderte Einträge unter `Klassen > Zeiträume` werden korrekt in der Klassenauswahlliste aktualisiert
-* FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
-* FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
-* CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
-* FIX: Autoupdate korrigiert
-* FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
-* FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
+* FIX
 
 ### SAXSVS
 
-FIX: Ausgabe der Klasse für Nebenschüler
+* FIX: 
 
 ### MAGELLAN Administrator
 
-* NEW: Der Punkt `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
+* NEW: 
 
 ### MyMAGELLAN-CENTER
 
-* CHANGE:
+* CHANGE: 
 
 ### MyMAGELLAN
 
-* FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
-* FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
-* FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
-* FIX: Funktion der Vor- und Zurückschaltfläche im Bereich `Schüler` und `Fächer` überarbeitet
+* FIX:
 
 ### MAGELLAN Bibliothek
 
@@ -54,8 +44,7 @@ FIX: Ausgabe der Klasse für Nebenschüler
 
 ### Skripte
 
-* CHANGE: Importiere SDTF.dws (Unterrichtsart-Schlüssel "L" ist hinzugekommen)
-* CHANGE: Zuweisen von Bewerberstammdaten.dws (Sammelzuweisungen aus dem Bewerber- oder Schüler-Menü): Debugmeldungen wurden unterbunden
+* CHANGE:
 
 ### Statistik
 
@@ -65,6 +54,7 @@ FIX: Ausgabe der Klasse für Nebenschüler
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+<<<<<<< HEAD
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt (es werden nur Wahlpflichtfächer ausgegeben, die eine Note im Feld "Endnote" eingetragen haben, Wahlpflichtfächer ohne Benotung werden nun auch in der Fachbezeichnung entwertet auf dem Zeugnis ausgegeben)
@@ -80,3 +70,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
 * NEW: SAC-BF-HJI (B.02.01).rpt (Halbjahresinformation der Berufsfachschule für ...)
   
+=======
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-BG-ABI (Ergebnisliste).rpt
+* NEW: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt: Der Bericht gibt als Schwerpunkt den beim aktuellen Schüler-Bildungsgang hinterlegten Schwerpunkt (Bezeichnung) aus, ist kein Bildungsgang dem Schüler zugeordnet, würde der Schwerpunkt (Bezeichnung) des der Klasse zugeordneten Bildungsgang ausgegeben werden.
+>>>>>>> 62fe12dc5fe78751b6f970a24a204242b23a4fb1
