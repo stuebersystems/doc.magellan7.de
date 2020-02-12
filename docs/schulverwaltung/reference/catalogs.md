@@ -4,7 +4,7 @@ Dieser Abschnitt listet die Schlüsselverzeichnis auf, zeigt hinter welchem Verz
 
 !!! danger "Achtung"
 
-    Die hier gezeigten Bezeichnungen können von den für die [Keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien/) (Import von Schlüsselverzeichniswerten) erwarteten Bezeichnungen abweichen. 
+    Die hier gezeigten Bezeichnungen können von den für die [Keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien/) (Dateien für Import von Schlüsselverzeichniswerten) erwarteten Bezeichnungen abweichen. 
 
 ## Abgangsarten (Lehrer)                  
 
