@@ -29,21 +29,25 @@ Nachstehend finden Sie die Kopfzeilen der CSV-Dateien für den Import nach MAGEL
 Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/import-export/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
 
 ## Abgangsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Abordnungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Abschlussarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## AbschluesseExtern
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"Kategorie";"BedeutungVeraendert"
 ````
@@ -53,11 +57,13 @@ Feld | Inhalt
 Kategorie | 0 = Allgemeinbildender Abschluss<br/>1 = Berufsbildender Abschluss<br/>2 = Allgemeinbildender und Berufsbildender Abschluss
 
 ## AbschluesseIntern
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
 ## Abschlussjahrgaenge
+
 ````
 "Kuerzel";"Bezeichnung";"Kategorie";"Von";"Bis"
 ````
@@ -69,25 +75,31 @@ Von | TT.MM.JJJJ
 Bis | TT.MM.JJJJ
 
 ## Amtsbez
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
+
 ## Arbeitsaemter
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Aufnahmepruefungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Behinderungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Berufe
+
 ````
 "Kuerzel";"Schluessel";"BezeichnungM";"BezeichnungW";"Fachrichtung";"Berufsfeld";"GueltigVon";"GueltigBis"
 ````
@@ -96,56 +108,67 @@ Bis | TT.MM.JJJJ
     Fachrichtung und Berufsfeld sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf oder vorher eingelesen werden müssen. Der Wert im Verzeichnis Berufe muss in diesen beiden Feldern das Kürzel aus den jeweiligen Unterverzeichnissen sein. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Berufsfelder
+
 ````
 Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Beschaeftigungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Beschaeftigungsverh
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Besoldungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## BetreuungenAusserschulisch
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## BetreuungenInnerschulisch
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Betreuungsformen
+
 ````
 Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Bevollmaechtigungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Bewerbungsempfehlungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Bewerbungsziele
+
 ````
 Kuerzel;Schluessel;Bezeichnung;Bezeichnung2;GueltigVon;GueltigBis
 ````
 
 ## Bildungsgaenge
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Bezeichnung2";"Berufsfeld";"Schulform";"Organisation";"Unterrichtsform";"Fachrichtung";"Schwerpunkt";"Klassenstufe";"GueltigVon";"GueltigBis"
 ````
@@ -155,46 +178,55 @@ Kuerzel;Schluessel;Bezeichnung;Bezeichnung2;GueltigVon;GueltigBis
     Die Felder `Fachrichtung`, `Berufsfeld`, `Schulform`, `Organisation`, `Unterrichtsform`, `Klassenstufe` und `Schwerpunkt` sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf (wenn sie importierbar sind) oder vorher eingelesen/angelegt werden müssen. Der Wert im Verzeichnis Bildungsgaenge muss als Kürzel in dem Verzeichnis existieren. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Branchen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Dienstbez
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Dienstherren
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Dienstverh
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Disziplinen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Einschulmerkmale
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Empfehlungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## Entscheidungen|
+## Entscheidungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Faecher
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Kategorie";"Aufgabenbereich";"Gruppe";"GueltigVon";"GueltigBis"
 ````
@@ -245,66 +277,79 @@ Wert|Aufgabenbereich
     Gruppe: Die Fachgruppe (hier Gruppe) ist ein weiteres Schlüsselverzeichnis, das im gleichen Durchlauf oder vorher eingelesen werden muss. Der Wert im Verzeichnis Faecher muss in diesem Feld dem Kürzel aus dem Verzeichnis Fachgruppe entsprechen. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Fachgruppen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Fachniveaus
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Fachrichtungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Fachschwerpunkte
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Fachstati
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Fahrkarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Foerderungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Haertefaelle
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Herkunftsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
 ## Herkunftsunterlagen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
 ## Integrationsmerkmale
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
 ## Kammern
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ## Klassenmerkmale
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Bereich";"GueltigVon";"GueltigBis"
 ````
@@ -323,6 +368,7 @@ Bereichswert|Für Feld
 9 | Merkmal S4
 
 ## Klassenorganisationen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
