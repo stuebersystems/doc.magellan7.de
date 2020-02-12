@@ -20,7 +20,7 @@ Info                   | Wert
 ---------------------- | ----
 Name in Datenstruktur  | Abgangsarten
 Mandantenbezug         | Nein
-Verwendet in Ansichten | `Schüler > Zugang`<br\>`Abgang > Abgangsarten`
+Verwendet in Ansichten | `Schüler > Zugang`<br/>`Abgang > Abgangsarten`
 
 ## Abordnungsarten	
 
@@ -28,7 +28,7 @@ Info                   | Wert
 ---------------------- | ----
 Name in Datenstruktur  | Abordnungsarten
 Mandantenbezug         | Nein
-Verwendet in Ansichten | `Lehrer > Daten3 > Art1`<br\>`Lehrer > Daten3 > Art2`
+Verwendet in Ansichten | `Lehrer > Daten3 > Art1`<br/>`Lehrer > Daten3 > Art2`
 
 ## Abschlussarten	
 
