@@ -91,10 +91,9 @@ Bis | TT.MM.JJJJ
 ````
 "Kuerzel";"Schluessel";"BezeichnungM";"BezeichnungW";"Fachrichtung";"Berufsfeld";"GueltigVon";"GueltigBis"
 ````
+!!! info "Hinweis"
 
-> #### warning::Wichtig!
->
-> Fachrichtung und Berufsfeld sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf oder vorher eingelesen werden müssen. Der Wert im Verzeichnis Berufe muss in diesen beiden Feldern das Kürzel aus den jeweiligen Unterverzeichnissen sein. Ein nachträgliches Zuweisen per Import ist nicht möglich.
+    Fachrichtung und Berufsfeld sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf oder vorher eingelesen werden müssen. Der Wert im Verzeichnis Berufe muss in diesen beiden Feldern das Kürzel aus den jeweiligen Unterverzeichnissen sein. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Berufsfelder
 ````
@@ -151,9 +150,9 @@ Kuerzel;Schluessel;Bezeichnung;Bezeichnung2;GueltigVon;GueltigBis
 "Kuerzel";"Schluessel";"Bezeichnung";"Bezeichnung2";"Berufsfeld";"Schulform";"Organisation";"Unterrichtsform";"Fachrichtung";"Schwerpunkt";"Klassenstufe";"GueltigVon";"GueltigBis"
 ````
 
-> #### warning::Wichtig!
->
-> Die Felder `Fachrichtung`, `Berufsfeld`, `Schulform`, `Organisation`, `Unterrichtsform`, `Klassenstufe` und `Schwerpunkt` sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf (wenn sie importierbar sind) oder vorher eingelesen/angelegt werden müssen. Der Wert im Verzeichnis Bildungsgaenge muss als Kürzel in dem Verzeichnis existieren. Ein nachträgliches Zuweisen per Import ist nicht möglich.
+!!! info "Hinweis"
+
+    Die Felder `Fachrichtung`, `Berufsfeld`, `Schulform`, `Organisation`, `Unterrichtsform`, `Klassenstufe` und `Schwerpunkt` sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf (wenn sie importierbar sind) oder vorher eingelesen/angelegt werden müssen. Der Wert im Verzeichnis Bildungsgaenge muss als Kürzel in dem Verzeichnis existieren. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Branchen
 ````
@@ -241,9 +240,9 @@ Wert|Aufgabenbereich
 3 | Religion
 4 | Sport
 
-> #### warning::Wichtig!
->
-> Gruppe: Die Fachgruppe (hier Gruppe) ist ein weiteres Schlüsselverzeichnis, das im gleichen Durchlauf oder vorher eingelesen werden muss. Der Wert im Verzeichnis Faecher muss in diesem Feld dem Kürzel aus dem Verzeichnis Fachgruppe entsprechen. Ein nachträgliches Zuweisen per Import ist nicht möglich.
+!!! info "Hinweis"
+
+    Gruppe: Die Fachgruppe (hier Gruppe) ist ein weiteres Schlüsselverzeichnis, das im gleichen Durchlauf oder vorher eingelesen werden muss. Der Wert im Verzeichnis Faecher muss in diesem Feld dem Kürzel aus dem Verzeichnis Fachgruppe entsprechen. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
 ## Fachgruppen
 ````
