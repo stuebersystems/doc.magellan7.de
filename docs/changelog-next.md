@@ -36,9 +36,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter `Bewerber > Daten 1 > Für Ziel 1 als auch unter Bewerber > Auswahlliste > Bewerbungsziel 1`
 * FIX: Wechselt man im Schülermenü auf einer Datenkarte mit den Tastenkombination `STRG+BildAuf` oder `STRG+BildAb` wird der nächste Datensatz auch beim Wechsel über einen Gruppierungskopf in der Auswahlliste korrekt gezeigt
 * FIX: Zeugnis als PDF exportieren aus dem Menü `Abitur` korrigiert
+* FIX: Bericht als PDF exportieren aus dem Menü `Abitur` korrigiert
 * FIX: Wechselt man von `Schüler > Daten3 > Fremdsprachen` zu `Bewerber > Daten3 > Fremdsprachen` werden die Inhalte und Verzeichnisliste wieder angezeigt
 * FIX: Beim erneuten `Schüler fortschreiben` wird die Schaltfläche `Weiter` aktiviert
-* FIX: Schreibfehler im Filter korrigiert
+* FIX: Schreibfehler im Filter in der Auswahlliste `Schüler` korrigiert
+* FIX: das Zuweisen von `Kategorietafeln` unter `Schüler > Zeugnis > Arbeits- und Sozialverhalten` wurde überarbeitet
 
 ### SAXSVS
 
@@ -52,7 +54,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   * Beim Import von `schueler_import.csv` werden erkannte Doubletten als Nebenlaufbahn des Schülers erkannt, die Stammdaten des Stammschülers werden mit den Daten des Nebenschülers aktualsiert. Bitte beachten Sie den Abschnitt ["Nebenlaufbahn erzeugen"](https://doc.magellan7-toolbox.stueber.de/importe/MagImp/schuelerimportcsv/).
   * Beim Import von `schueler_import.csv` wird ein leerer Eintrag im Feld `InDeutschlandSeit` korrekt übergeben
 
-
 ### MyMAGELLAN-CENTER
 
 * CHANGE: 
@@ -63,7 +64,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* CHANGE:
+* CHANGE: `Bibliothek > Ausleihe`: Medium suchen mit Umlaut klappt wieder
+* NEW: unter `Bücher/Medien > Vorgänge` wird die Spalte `Klasse` gezeigt
+* FIX: Klasseninformationen beim Schüler werden korrekt angezeigt
+* FIX: `Schüler > Auswahl > Nächster/Vorheriger Datensatz` Sortierung wird berücksichtigt
 
 ### Skripte
 
