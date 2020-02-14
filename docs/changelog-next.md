@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Zeugnis als PDF exportieren aus dem Menü `Abitur` korrigiert
 * FIX: Wechselt man von `Schüler > Daten3 > Fremdsprachen` zu `Bewerber > Daten3 > Fremdsprachen` werden die Inhalte und Verzeichnisliste wieder angezeigt
 * FIX: Beim erneuten `Schüler fortschreiben` wird die Schaltfläche `Weiter` aktiviert
+* FIX: Schreibfehler im Filter korrigiert
 
 ### SAXSVS
 
