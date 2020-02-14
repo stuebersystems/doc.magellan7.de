@@ -99,4 +99,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Zeugnisse\Baden-Württemberg\BAW-BG-ABI (Ergebnisliste).rpt
 * NEW: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt: Der Bericht gibt als Schwerpunkt den beim aktuellen Schüler-Bildungsgang hinterlegten Schwerpunkt (Bezeichnung) aus, ist kein Bildungsgang dem Schüler zugeordnet, würde der Schwerpunkt (Bezeichnung) des der Klasse zugeordneten Bildungsgang ausgegeben werden.
 * NEW: Bibliothek > Berichte\Mahnungen\Mahnungen (mit ISBN).rpt
-* CHANGE: Bibliothek > Berichte\Mahnungen\Mahnungen.rpt
+* CHANGE: Bibliothek > Berichte\Mahnungen\Mahnungen.rpt (kleinere Anpassungen)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (Standard).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (Avery-Zweckfom-Etikett 3658).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (klein).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (mit Passfoto).rpt (Druckreihenfolge korrigiert)
