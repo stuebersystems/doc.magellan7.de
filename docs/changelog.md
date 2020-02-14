@@ -59,8 +59,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: `Bibliothek > Ausleihe`: Medium suchen mit Umlaut klappt wieder
 * NEW: unter `Bücher/Medien > Vorgänge` wird die Spalte `Klasse` gezeigt
 * FIX: Klasseninformationen beim Schüler werden korrekt angezeigt
-* FIX: `Schüler > Auswahl > Nächster/Vorheriger Datensatz` Sortierung wird berücksichtigt
-* FIX: `Medien/Bücher > Auswahl > Nächster/Vorheriger Datensatz` Sortierung wird berücksichtigt
+* FIX: `Medien/Bücher (genau auch für Schüler, Mahnungen,  Vorgänge, Personen, Lehrer, Lieferanten, Mandanten, Verlage) > Auswahl > Nächster/Vorheriger Datensatz` Sortierung wird berücksichtigt
+* Mahnungen Vorgänge Personen Lehrer Lieferanten Mandanten Verlage
 * FIX: Schüler > Auswahl > Ausleihen: das Symbol wird nur noch bei aktiven Ausleihen dargestellt
 
 ### Skripte
