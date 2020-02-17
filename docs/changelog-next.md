@@ -80,3 +80,11 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BBS-JZ-HJ-AG-AS (A05-A06).rpt
 * CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BBS-AG-AS-JZ-HZ (A01-A04).rpt
 * CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-ABI-AZ  (Anlage D42).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D 31).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D30).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI (Bescheinigung Schullaufbahn).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI (Anlage D33).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-JZ (Anlage C14 - 1 Seitig).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (E01-0A).rpt
+* CHANGE:Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D35).rpt
