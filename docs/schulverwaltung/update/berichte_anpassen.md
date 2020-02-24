@@ -190,6 +190,10 @@ SchülerZeitraeume|-|SchuelerKlassen
 Mandant|linke äußere Verknüpfung<br/>(left outer join)|Mandant
 ID|linke äußere Verknüpfung<br/>(left outer join)|SchuelerZeitraumID
 
+### Empfohlene Verknüpfung
+
+Eine Empfehlung finden Sie im Artikel ["Empfohlene Verknüpfung"](https://doc.kb.stueber.de/cr/verknuepfung.html) in unserer Knowledge-Base.
+
 ## 5. Test
 
 Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen die Vorschau über das Symbol auf). Wird die Vorschau gefüllt (bei mehrseitigen Berichten bitte auch einmal blättern)? Dann ist der Bericht jetzt für MAGELLAN 7 vorbereitet.
