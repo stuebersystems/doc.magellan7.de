@@ -133,3 +133,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Niedersachsen\Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
 * CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung zweifach.rpt
 * CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Überweisung).rpt
+* CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung (SHL).rpt
+* CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
