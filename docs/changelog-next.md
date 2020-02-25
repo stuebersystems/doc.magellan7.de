@@ -137,6 +137,13 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung BBS (mit Zugang-Abgang der Klasse).rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung für die Vergangenheit.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung zweifach.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\chülerstammblatt WG12-13 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Unfallbericht.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung BBS (mit Zugang-Abgang der Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung für die Vergangenheit.rpt
 * CHANGE: Berichte\Schueler\Schüler (Anzahl Schüler je Herkunftsschulen).rpt
 * CHANGE: Berichte\Schueler\Schüler (Anzeige Schulpflichtverletzung).rpt
 * CHANGE: Berichte\Schueler\Schüler (Bescheinigung-Laufbahn).rpt
@@ -163,3 +170,4 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Schulbescheinigung (SHL - in word ausfüllbar).rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung (Überweisung).rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung (Vergangenheit mit Klasse).rpt
+
