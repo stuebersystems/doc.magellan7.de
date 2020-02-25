@@ -135,3 +135,15 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Überweisung).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung (SHL).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Abiturergebnisse.rpt
+* CHANGE: Berichte\Schueler\Notfallzettel.rpt
+* CHANGE: Berichte\Schueler\Notfallzettel (A5).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach(mit Wochenstunden).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach mit 31 Wochenstunden.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung Schulbesuch (mit Wochenstunden-Schul II 912).rpt
+* CHANGE: Berichte\Schueler\Fachwahl-Kursliste.rpt
+* CHANGE: Berichte\Schueler\Schülerausweis ABS.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Standard).rpt
+* CHANGE: Berichte\Schueler\Anmeldeschein (weiterführende Schulen).rpt
