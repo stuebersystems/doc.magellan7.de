@@ -135,15 +135,31 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Überweisung).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung (SHL).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung BBS (mit Zugang-Abgang der Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung für die Vergangenheit.rpt
+* CHANGE: Berichte\Schueler\Schüler (Anzahl Schüler je Herkunftsschulen).rpt
+* CHANGE: Berichte\Schueler\Schüler (Anzeige Schulpflichtverletzung).rpt
+* CHANGE: Berichte\Schueler\Schüler (Bescheinigung-Laufbahn).rpt
 * CHANGE: Berichte\Schueler\Abiturergebnisse.rpt
-* CHANGE: Berichte\Schueler\Notfallzettel.rpt
-* CHANGE: Berichte\Schueler\Notfallzettel (A5).rpt
-* CHANGE: Berichte\Schueler\Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
-* CHANGE: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
-* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach(mit Wochenstunden).rpt
-* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach mit 31 Wochenstunden.rpt
-* CHANGE: Berichte\Schueler\Bescheinigung Schulbesuch (mit Wochenstunden-Schul II 912).rpt
-* CHANGE: Berichte\Schueler\Fachwahl-Kursliste.rpt
-* CHANGE: Berichte\Schueler\Schülerausweis ABS.rpt
-* CHANGE: Berichte\Schueler\Schulbescheinigung (Standard).rpt
 * CHANGE: Berichte\Schueler\Anmeldeschein (weiterführende Schulen).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Standard).rpt
+* CHANGE: Berichte\Schueler\Schülerausweis ABS.rpt
+* CHANGE: Berichte\Schueler\Fachwahl-Kursliste.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung Schulbesuch (mit Wochenstunden-Schul II 912).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach mit 31 Wochenstunden.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach(mit Wochenstunden).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
+* CHANGE: Berichte\Schueler\Notfallzettel (A5).rpt
+* CHANGE: Berichte\Schueler\Notfallzettel.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Anmeldung weiterführende Schule).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Elternwunsch Schulform).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Empfangsbestätigung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und Ausbildungsdauer).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und vorauss. Ende einfach).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und vorauss. Ende zweifach).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Schullaufbahnempfehlung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (SHL - in word ausfüllbar).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Überweisung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Vergangenheit mit Klasse).rpt
