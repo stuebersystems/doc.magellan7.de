@@ -135,3 +135,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Überweisung).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung (SHL).rpt
 * CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung zweifach.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\chülerstammblatt WG12-13 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Unfallbericht.rpt
