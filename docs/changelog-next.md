@@ -177,4 +177,9 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Schulbescheinigung (SHL - in word ausfüllbar).rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung (Überweisung).rpt
 * CHANGE: Berichte\Schueler\Schulbescheinigung (Vergangenheit mit Klasse).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-ZAS (Schul II 929-9)(12.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-JZ (Schul Z 251)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 620 (09.18).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 510 (12.13).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 508.rpt
 
