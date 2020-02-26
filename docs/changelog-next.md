@@ -182,4 +182,14 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 620 (09.18).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 510 (12.13).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 508.rpt
-
+* CHANGE: Berichte\Klassen\Klassenlehrerliste.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten(akt.FS-Folge).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten (DIN A5).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülerzahl.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten Ausländer.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Var 1).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Religion).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Religion und Fremdsprachen).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Klassenstufe und Klassenlehrer).rpt
