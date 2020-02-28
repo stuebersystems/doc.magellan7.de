@@ -201,4 +201,17 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Klassenstufe und Klassenlehrer).rpt
 * CHANGE: Berichte\Mandanten\Schülerliste (inaktive Schüler mit Ausleihvorgängen).rpt (letzte Klasse ergänzt)
 * CHANGE: Berichte\Schueler\Schülerliste (inaktive Schüler mit Felder min. 1 Feld leer AbgangAm Abschluss1 Abschluss1Datum Abgangsart).rpt (letzte Klasse ergänzt)
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Anwesenheit Ags).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Abitur).rpt
+* CHANGE: Berichte\Schueler\Schülerliste ( Klasse, Tutor, Merkmal B1, B2, B3, B4).rpt
+* CHANGE: Berichte\Schueler\Schülerliste ( Klasse, Geburtsdaten, Konfession, Geschlecht).rpt
+* CHANGE: Berichte\Schueler\Schüler-BBS (Bescheinigung-Laufbahn).rpt
+* CHANGE: Berichte\Schueler\Schülerkarteikarte (DIN A5).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-Verhaltenszeugnis.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-HJZ-JZ (Klassenstufen 5-10)+GEMS-HJZ-JZ (Einführungsphase).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (modifiziert Klassenstufen 9 und 10).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (Klassenstufen 5-10)+GEMS-AZ (Einführungsphase).rpt
 
