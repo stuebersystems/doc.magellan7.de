@@ -217,37 +217,37 @@ Nr.|Feldname|Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 43.| **Ezb2_Wohnort**| Sorgeberechtigte.Ort| `Sorgeberechtigte > Daten > Ort`| Nein
 44.| **Ezb2_Telefon**| Sorgeberechtigte.TelefonPrivat| `Sorgeberechtigte > Daten > Tel. (privat)`| Nein
 45.| **Ezb2_Email**| Sorgeberechtigte.Email| `Bewerber > Sorgeberechtigte > Email`| Nein
-46.| Ezb2_Art| SchuelerSorgebe.Verhaeltnis| `Bewerber > Sorgeberechtigte > Verhältnis`| Nein
-47.| Schulnr| Schule.Schulnr| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Nein
-48.| SchulBez| Schule.Name1| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Ja
-49.| Schulform| SchuelerSchulen.Schulform| `Bewerber > Zugang > Bereits besuchte Schulen > Schulform`| Ja
-50.| Schulgliederung| SchuelerSchulen.Schulart| `Bewerber > Zugang > Bereits besuchte Schulen > Schulart`| Nein
-51.| AbschlussSchule| HoechsterAbschlussABS| `Bewerber > Daten 2 > HoechsterAbschlussABS<br/>Schüler > Daten 2 > HoechsterAbschlussABS`
-52.| AbschlussBeruf| HoechsterAbschlussBBS|`Bewerber > Daten 2 > HoechsterAbschlussBBS<br/>Schüler > Daten 2 > HoechsterAbschlussBBS`| Nein
-53.| Klasse| Schueler.Einschulmerkmal oder Schueler.Bewerbungsziel1| In Anhängigkeit von der Einstellung unter „1. Bildungsgang und Klasse“ evtl. unter `Bewerber > Daten 1 > Einschulmerkmal` oder `- Bewerbungsziel1`| Ja
-54.| Bildungsgang| SchuelerAusbildung.Bildungsgang<br/>Schueler.Einschulmerkmal<br/>Schueler.Bewerbungsziel1| `Bewerber > Ausbildung > Bildungsgang` <br/>In Anhängigkeit von der Einstellung unter „1. Bildungsgang und Klasse“ <br/>evtl. auch unter:<br/> `- Bewerber > Daten 1 > ` oder<br/> `- Einschulmerkmal 1 `oder<br/>` - Bewerber > Daten 1 > Bewerbungsziel 1`| Nein
-55.| Aufnahmestatus| Schueler.Bewerberstatus| Erklärung: Die verschiedenen Werte für den Aufnahmestatus werden in MAGELLAN wie folgt abgebildet:<br/><br/> - aufgenommen (Wert=1)<br/>Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus„Angenommen für Bewerbungsziel 1“<br/><br/> - Warteliste (Wert=2)<br/>Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus <br/><br/> -  abgelehnt (Wert=3)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „nicht angenommen“„Auf Warteliste“<br/><br/> - nicht erschienen (Wert=4)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „Nicht zum Gespräch/Test erschienen“<br/><br/> - abgemeldet (Wert=5)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „Abgemeldet“| Nein
-56.| Unterlagen| Unterlagen| `Schüler > Zugang/Abgang > bereits besuchte Schulen`| Ja
-57.| Beratung| | `Schüler > Merkmale > Bemerkung`| Nein
-58.| Notiz| Schueler.Bemerkung| `Bewerber > Merkmale > Bemerkung<br/>Bewerber > Daten 1 > Bewerbung am`| Nein
-59.| Anmeldedatum| Schueler.BewerbungAm| `Bewerber > Zugang/Abgang > Zugang am`| Nein
-60.| Aufnahmedatum| Schueler.ZugangAm| `Bewerber > Ausbildung > Ausbildung von`| Ja
-61.| Ausbildungbeginn| SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung von`<br/>`Bewerber > Ausbildung > Ausbildung bis`| Nein
-62.| Ausbildungende| SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung bis`| Nein
-63.| Klassenlehrer| | `Betriebe > Daten 1 > Name 1`| 
-64.| Betrieb| Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 2`<br/>`Name 2`| Nein
-65.| BetriebStrasse| Betrieb.Strasse|`Betriebe > Daten 1 > Strasse` | Nein
-66.| BetriebLand| | `Betriebe > Daten 1 > Postleitzahl`| 
-67.| BetriebPLZ| Betrieb.PLZ| `Betriebe > Daten 1 > Ort`| Nein
-68.| BetriebOrt| Betrieb.Ort| `Betriebe > Daten 1 > Telefon`| Nein
-69.| BetriebTelefon| Betrieb.Telefon| `Betriebe > Daten 1 > Telefax`| Nein
-70.| BetriebFax| Betrieb.Fax| `Betriebe > Daten 1 > E-Mail`| Nein
-71.| BetriebEmail| Betrieb.Email| `Betriebe > Kontakte > Kontakt > Nachname`| Nein
-72.| BetriebKontakt| BetriebeKontakte.Nachname| `Betriebe > Kontakte > Kontakt > Nachname`| 
-73.| BetriebKammer| Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
-74.| BetriebMitgliedsnummer|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
-75.| BetriebIdExtern|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
-76.| KrzBetriebeid|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+46.| **Ezb2_Art**| SchuelerSorgebe.Verhaeltnis| `Bewerber > Sorgeberechtigte > Verhältnis`| Nein
+47.| **Schulnr**| Schule.Schulnr| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Nein
+48.| **SchulBez**| Schule.Name1| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Ja
+49.| **Schulform**| SchuelerSchulen.Schulform| `Bewerber > Zugang > Bereits besuchte Schulen > Schulform`| Ja
+50.| **Schulgliederung**| SchuelerSchulen.Schulart| `Bewerber > Zugang > Bereits besuchte Schulen > Schulart`| Nein
+51.| **AbschlussSchule**| HoechsterAbschlussABS| `Bewerber > Daten 2 > HoechsterAbschlussABS<br/>Schüler > Daten 2 > HoechsterAbschlussABS`
+52.| **AbschlussBeruf**| HoechsterAbschlussBBS|`Bewerber > Daten 2 > HoechsterAbschlussBBS<br/>Schüler > Daten 2 > HoechsterAbschlussBBS`| Nein
+53.| **Klasse**| Schueler.Einschulmerkmal oder Schueler.Bewerbungsziel1| In Anhängigkeit von der Einstellung unter „1. Bildungsgang und Klasse“ evtl. unter `Bewerber > Daten 1 > Einschulmerkmal` oder `- Bewerbungsziel1`| Ja
+54.| **Bildungsgang**| SchuelerAusbildung.Bildungsgang<br/>Schueler.Einschulmerkmal<br/>Schueler.Bewerbungsziel1| `Bewerber > Ausbildung > Bildungsgang` <br/>In Anhängigkeit von der Einstellung unter „1. Bildungsgang und Klasse“ <br/>evtl. auch unter:<br/> `- Bewerber > Daten 1 > ` oder<br/> `- Einschulmerkmal 1 `oder<br/>` - Bewerber > Daten 1 > Bewerbungsziel 1`| Nein
+55.| **Aufnahmestatus**| Schueler.Bewerberstatus| Erklärung: Die verschiedenen Werte für den Aufnahmestatus werden in MAGELLAN wie folgt abgebildet:<br/><br/> - aufgenommen (Wert=1)<br/>Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus„Angenommen für Bewerbungsziel 1“<br/><br/> - Warteliste (Wert=2)<br/>Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus <br/><br/> -  abgelehnt (Wert=3)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „nicht angenommen“„Auf Warteliste“<br/><br/> - nicht erschienen (Wert=4)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „Nicht zum Gespräch/Test erschienen“<br/><br/> - abgemeldet (Wert=5)<br/> Datensatz wird als Bewerber in MAGELLAN aufgenommen mit dem Bewerberstatus „Abgemeldet“| Nein
+56.| **Unterlagen**| Unterlagen| `Schüler > Zugang/Abgang > bereits besuchte Schulen`| Ja
+57.| **Beratung**| | `Schüler > Merkmale > Bemerkung`| Nein
+58.| **Notiz**| Schueler.Bemerkung| `Bewerber > Merkmale > Bemerkung<br/>Bewerber > Daten 1 > Bewerbung am`| Nein
+59.| **Anmeldedatum**| Schueler.BewerbungAm| `Bewerber > Zugang/Abgang > Zugang am`| Nein
+60.| **Aufnahmedatum**| Schueler.ZugangAm| `Bewerber > Ausbildung > Ausbildung von`| Ja
+61.| **Ausbildungbeginn**| SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung von`<br/>`Bewerber > Ausbildung > Ausbildung bis`| Nein
+62.| **Ausbildungende**| SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung bis`| Nein
+63.| **Klassenlehrer**| | `Betriebe > Daten 1 > Name 1`| 
+64.| **Betrieb**| Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 2`<br/>`Name 2`| Nein
+65.| **BetriebStrasse**| Betrieb.Strasse|`Betriebe > Daten 1 > Strasse` | Nein
+66.| **BetriebLand**| | `Betriebe > Daten 1 > Postleitzahl`| 
+67.| **BetriebPLZ**| Betrieb.PLZ| `Betriebe > Daten 1 > Ort`| Nein
+68.| **BetriebOrt**| Betrieb.Ort| `Betriebe > Daten 1 > Telefon`| Nein
+69.| **BetriebTelefon**| Betrieb.Telefon| `Betriebe > Daten 1 > Telefax`| Nein
+70.| **BetriebFax**| Betrieb.Fax| `Betriebe > Daten 1 > E-Mail`| Nein
+71.| **BetriebEmail**| Betrieb.Email| `Betriebe > Kontakte > Kontakt > Nachname`| Nein
+72.| **BetriebKontakt**| BetriebeKontakte.Nachname| `Betriebe > Kontakte > Kontakt > Nachname`| 
+73.| **BetriebKammer**| Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+74.| **BetriebMitgliedsnummer**|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+75.| **BetriebIdExtern**|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+76.| **KrzBetriebeid**|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 
 ## Wie sieht eine korrekte Kopfzeile aus
 
