@@ -171,24 +171,24 @@ Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche
 
 Nr.|Feldname|Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 --|--|--|--|--|--
-1.|SchuelerID|Schueler.ID|Siehe Hinweis über der Tabelle|-
-2.|Nachname|Schueler.Nachname|`Bewerber > Daten 1 > Nachname`|-
-3.|Vorname|Schueler.Vorname|`Bewerber > Daten 1 > Vorname`|-
-4.| Geburtsort| Schueler.Geburtsort| `Bewerber > Daten1 > Geburtsort`| Nein
-5.|Geburtsdatum|Schueler.Geburtsdatum|`Bewerber > Daten 1 > Geboren am`|  Nein
-6.| Strasse|Schueler.Strasse|`Bewerber > Daten 1 > Straße`| Nein
-7.| Land|Schueler.Land|`Bewerber > Daten 1 > Land`| Nein
-8.| Plz|Schueler.PLZ|`Bewerber > Daten 1 > Postleitzahl`| Nein
-9.| Wohnort| Schueler.Ort| `Bewerber > Daten 1 > Ort`| Nein
-10.| Ortsteil| Schueler.Ortsteil| `Bewerber > Daten 1 > Ortsteil`| Nein
-11.| Telefon| Schueler.Telefon| `Bewerber > Daten 1 > Telefon`| Nein
-12.| Telefon2| Schueler.Mobil| `Bewerber > Daten 1 > Mobil`| Nein
-13.| Email| Schueler.Email| Bewerber > Daten 1 > E-Mail| Nein
-14.| Geburtsname| Schueler.Geburtsname| `Bewerber > Daten 1 > Geburtsname`| Nein
-15.| Geschlecht| Schueler.Geschlecht| `Bewerber > Daten 1 > Geschlecht`| Ja
-16.| Nationalitaet| Schueler.Staatsangehörigkeit1| `Bewerber > Daten 2 > Staatsangeh. 1`| Ja
-17.| Nationalitaet2| Schueler.Staatsangehörigkeit2| `Bewerber > Daten 2 > Staatsangeh. 2`| Ja
-18.| Konfession| Schueler.Konfession| `Bewerber > Daten 1 > Konfession`| Nein
+1.|**SchuelerID**|Schueler.ID|Siehe Hinweis über der Tabelle|-
+2.|**Nachname**|Schueler.Nachname|`Bewerber > Daten 1 > Nachname`|-
+3.|**Vorname**|Schueler.Vorname|`Bewerber > Daten 1 > Vorname`|-
+4.| **Geburtsort**| Schueler.Geburtsort| `Bewerber > Daten1 > Geburtsort`| Nein
+5.|**Geburtsdatum**|Schueler.Geburtsdatum|`Bewerber > Daten 1 > Geboren am`|  Nein
+6.| **Strasse**|Schueler.Strasse|`Bewerber > Daten 1 > Straße`| Nein
+7.| **Land**|Schueler.Land|`Bewerber > Daten 1 > Land`| Nein
+8.| **Plz**|Schueler.PLZ|`Bewerber > Daten 1 > Postleitzahl`| Nein
+9.| **Wohnort**| Schueler.Ort| `Bewerber > Daten 1 > Ort`| Nein
+10.| **Ortsteil**| Schueler.Ortsteil| `Bewerber > Daten 1 > Ortsteil`| Nein
+11.| **Telefon**| Schueler.Telefon| `Bewerber > Daten 1 > Telefon`| Nein
+12.| **Telefon2**| Schueler.Mobil| `Bewerber > Daten 1 > Mobil`| Nein
+13.| **Email**| Schueler.Email| Bewerber > Daten 1 > E-Mail| Nein
+14.| **Geburtsname**| Schueler.Geburtsname| `Bewerber > Daten 1 > Geburtsname`| Nein
+15.| **Geschlecht**| Schueler.Geschlecht| `Bewerber > Daten 1 > Geschlecht`| Ja
+16.| **Nationalitaet**| Schueler.Staatsangehörigkeit1| `Bewerber > Daten 2 > Staatsangeh. 1`| Ja
+17.| **Nationalitaet2**| Schueler.Staatsangehörigkeit2| `Bewerber > Daten 2 > Staatsangeh. 2`| Ja
+18.| **Konfession**| Schueler.Konfession| `Bewerber > Daten 1 > Konfession`| Nein
 19.| Einschulung| Schueler.Grundschuleintritt| `Bewerber > Daten 2 > Grundschuleintritt`| Nein
 20.| Migration| Migration| | Nein
 21.| ZuzugsJahr| Schueler.InDeutschlandSeit| `Bewerber > Daten 2 > In Deutschland seit`| Nein
