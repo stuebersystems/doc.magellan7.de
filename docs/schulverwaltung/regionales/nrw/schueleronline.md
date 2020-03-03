@@ -189,33 +189,33 @@ Nr.|Feldname|Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 16.| **Nationalitaet**| Schueler.Staatsangehörigkeit1| `Bewerber > Daten 2 > Staatsangeh. 1`| Ja
 17.| **Nationalitaet2**| Schueler.Staatsangehörigkeit2| `Bewerber > Daten 2 > Staatsangeh. 2`| Ja
 18.| **Konfession**| Schueler.Konfession| `Bewerber > Daten 1 > Konfession`| Nein
-19.| Einschulung| Schueler.Grundschuleintritt| `Bewerber > Daten 2 > Grundschuleintritt`| Nein
-20.| Migration| Migration| | Nein
-21.| ZuzugsJahr| Schueler.InDeutschlandSeit| `Bewerber > Daten 2 > In Deutschland seit`| Nein
-22.| Geburtsland| Schueler.Geburtsland| `Bewerber > Daten 1 > Geburtsland`| Ja
-23.| GeburtslandVater| Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!|     -| -
-24.| GeburtslandMutter|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!|   -|-
-25.| Verkehrssprache| Schueler.Verkehrssprache| `Bewerber > Daten 2 > Verkehrsprache`| Ja
-26.| KeyExtern|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -|- 
-27.| Ezb1_Anrede| Sorgeberechtigte.Anrede| `Sorgeberechtigte > Daten > Anrede`| Nein
-28.| Ezb1_Nachname| Sorgeberechtigte.Nachname| `Sorgeberechtigte > Daten > Name`| Nein
-29.| Ezb1_Vorname| Sorgeberechtigte.Vorname| `Sorgeberechtigte > Daten > Vorname`| Nein
-30.| Ezb1_Strasse| Sorgeberechtigte.Strasse| `Sorgeberechtigte > Daten > Straße`| Nein
-31.| Ezb1_Land| Sorgeberechtigte.Land| `Sorgeberechtigte > Daten > Land`| Nein
-32.| Ezb1_PLZ| Sorgeberechtigte.PLZ| `Sorgeberechtigte > Daten > Postleitzahl`| Nein
-33.| Ezb1_Wohnort| Sorgeberechtigte.Ort| `Sorgeberechtigte > Daten > Ort`| Nein
-34.| Ezb1_Telefon| Sorgeberechtigte.TelefonPrivat| `Sorgeberechtigte > Daten > Tel. (privat)`| Nein
-35.| Ezb1_Email| Sorgeberechtigte.Email| `Bewerber > Sorgeberechtigte > Email`| Nein
-36.| Ezb1_Art| SchuelerSorgebe.Verhaeltnis| `Bewerber > Sorgeberechtigte > Verhältnis`| Nein
-37.| Ezb2_Anrede| Sorgeberechtigte.Anrede|` Sorgeberechtigte > Daten > Anrede`| Nein
-38.| Ezb2_Nachname| Sorgeberechtigte.Nachname| `Sorgeberechtigte > Daten > Name`| Nein
-39.| Ezb2_Vorname| Sorgeberechtigte.Vorname| `Sorgeberechtigte > Daten > Vorname`| Nein
-40.| Ezb2_Strasse| Sorgeberechtigte.Strasse| `Sorgeberechtigte > Daten > Straße`| Nein
-41.| Ezb2_Land| Sorgeberechtigte.Land| `Sorgeberechtigte > Daten > Land`| Nein
-42.| Ezb2_PLZ| Sorgeberechtigte.PLZ| `Sorgeberechtigte > Daten > Postleitzahl`| Nein
-43.| Ezb2_Wohnort| Sorgeberechtigte.Ort| `Sorgeberechtigte > Daten > Ort`| Nein
-44.| Ezb2_Telefon| Sorgeberechtigte.TelefonPrivat| `Sorgeberechtigte > Daten > Tel. (privat)`| Nein
-45.| Ezb2_Email| Sorgeberechtigte.Email| `Bewerber > Sorgeberechtigte > Email`| Nein
+19.| **Einschulung**| Schueler.Grundschuleintritt| `Bewerber > Daten 2 > Grundschuleintritt`| Nein
+20.| **Migration**| Migration| | Nein
+21.| **ZuzugsJahr**| Schueler.InDeutschlandSeit| `Bewerber > Daten 2 > In Deutschland seit`| Nein
+22.| **Geburtsland**| Schueler.Geburtsland| `Bewerber > Daten 1 > Geburtsland`| Ja
+23.| **GeburtslandVater**| Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!|     -| -
+24.| **GeburtslandMutter**|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!|   -|-
+25.| **Verkehrssprache**| Schueler.Verkehrssprache| `Bewerber > Daten 2 > Verkehrsprache`| Ja
+26.| **KeyExtern**|Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -|- 
+27.| **Ezb1_Anrede**| Sorgeberechtigte.Anrede| `Sorgeberechtigte > Daten > Anrede`| Nein
+28.| **Ezb1_Nachname**| Sorgeberechtigte.Nachname| `Sorgeberechtigte > Daten > Name`| Nein
+29.| **Ezb1_Vorname**| Sorgeberechtigte.Vorname| `Sorgeberechtigte > Daten > Vorname`| Nein
+30.| **Ezb1_Strasse**| Sorgeberechtigte.Strasse| `Sorgeberechtigte > Daten > Straße`| Nein
+31.| **Ezb1_Land**| Sorgeberechtigte.Land| `Sorgeberechtigte > Daten > Land`| Nein
+32.| **Ezb1_PLZ**| Sorgeberechtigte.PLZ| `Sorgeberechtigte > Daten > Postleitzahl`| Nein
+33.| **Ezb1_Wohnort**| Sorgeberechtigte.Ort| `Sorgeberechtigte > Daten > Ort`| Nein
+34.| **Ezb1_Telefon**| Sorgeberechtigte.TelefonPrivat| `Sorgeberechtigte > Daten > Tel. (privat)`| Nein
+35.| **Ezb1_Email**| Sorgeberechtigte.Email| `Bewerber > Sorgeberechtigte > Email`| Nein
+36.| **Ezb1_Art**| SchuelerSorgebe.Verhaeltnis| `Bewerber > Sorgeberechtigte > Verhältnis`| Nein
+37.| **Ezb2_Anrede**| Sorgeberechtigte.Anrede|` Sorgeberechtigte > Daten > Anrede`| Nein
+38.| **Ezb2_Nachname**| Sorgeberechtigte.Nachname| `Sorgeberechtigte > Daten > Name`| Nein
+39.| **Ezb2_Vorname**| Sorgeberechtigte.Vorname| `Sorgeberechtigte > Daten > Vorname`| Nein
+40.| **Ezb2_Strasse**| Sorgeberechtigte.Strasse| `Sorgeberechtigte > Daten > Straße`| Nein
+41.| **Ezb2_Land**| Sorgeberechtigte.Land| `Sorgeberechtigte > Daten > Land`| Nein
+42.| **Ezb2_PLZ**| Sorgeberechtigte.PLZ| `Sorgeberechtigte > Daten > Postleitzahl`| Nein
+43.| **Ezb2_Wohnort**| Sorgeberechtigte.Ort| `Sorgeberechtigte > Daten > Ort`| Nein
+44.| **Ezb2_Telefon**| Sorgeberechtigte.TelefonPrivat| `Sorgeberechtigte > Daten > Tel. (privat)`| Nein
+45.| **Ezb2_Email**| Sorgeberechtigte.Email| `Bewerber > Sorgeberechtigte > Email`| Nein
 46.| Ezb2_Art| SchuelerSorgebe.Verhaeltnis| `Bewerber > Sorgeberechtigte > Verhältnis`| Nein
 47.| Schulnr| Schule.Schulnr| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Nein
 48.| SchulBez| Schule.Name1| `Bewerber > Zugang > Bereits besuchte Schulen > Schule`| Ja
