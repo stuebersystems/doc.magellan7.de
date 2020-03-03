@@ -169,8 +169,9 @@ Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche
       
       Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
 
+
 Nr.|Feldname|Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
---|--|--|--|--|--
+--|--|--|--|--
 1.|**SchuelerID**|Schueler.ID|Siehe Hinweis über der Tabelle|-
 2.|**Nachname**|Schueler.Nachname|`Bewerber > Daten 1 > Nachname`|-
 3.|**Vorname**|Schueler.Vorname|`Bewerber > Daten 1 > Vorname`|-
