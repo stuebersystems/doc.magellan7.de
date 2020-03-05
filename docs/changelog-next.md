@@ -71,6 +71,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+* NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rptB
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-HJZ (Schul Z 500).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503).rpt
