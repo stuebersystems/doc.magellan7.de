@@ -28,7 +28,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
-* CHANGE: 
+* FIX: Schüler in andere Mandanten versetzen
+* FIX: Ändern von Adressdaten über mehrere Mandanten hinweg (Sorgeberechtigte, Personen, Lehrer)
+* FIX: Korrektur beim Import NRW-SchuelerOnline [EZ2-Felder für wiederkehrende Schüler](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/#importierte-felder)
 
 ### SAXSVS
 
@@ -48,7 +50,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* CHANGE:
+* CHANGE: Korrekturen für den Umgang mit MedienExemplare.BarcodeExtern
 
 ### Skripte
 
