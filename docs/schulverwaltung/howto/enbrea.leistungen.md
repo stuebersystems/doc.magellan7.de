@@ -17,11 +17,11 @@ Um die Funktionalitäten zu aktivieren, setzen Sie bitte das Häkchen unter `Dat
 
 ## Schlüsselverzeichnisse
 
+Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erfassen, müssen die folgenden Schlüsselverzeichnisse entsprechend gefüllt werden.
+
 * Bewertungsprofile
 * Notensysteme
 * Notentypen
-
-Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erfassen, müssen die o.g. Schlüsselverzeichnisse entsprechend gefüllt werden. 
 
 Folgender Auszug einer Zeugnisvorlage für das Fach Mathematik soll uns als Beispiel für die Dateneingabe in MAGELLAN dienen:
 
@@ -187,15 +187,17 @@ Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswä
 
 ## Halbjahreswechsel
 
-1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben.
-
-Weitere Informationen zum Schuljahreswechsel finden Sie hier:
+1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. 
+Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
 
-2. ENBREA Leistungen übernehmen im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+2. Zugewiesene ENBREA Leistungen des Schülers werden aus dem 1. HJ in das 2. HJ übernommen. im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
 
-![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vergangenen Zeitraum](/assets/images/enbrea.leistungen/15.png)
+!!! info "Hinweis"
+    
+    Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zuwiesen. Diese können über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernommen werden.
 
+![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
 
 ## Schuljahreswechsel
 
@@ -208,6 +210,5 @@ Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA L
 3. Schüler in die neue Klasse versetzen
 
 4. Den Schülern Kurse zuweisen
-
 Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/
