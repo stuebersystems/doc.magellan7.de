@@ -28,15 +28,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
-* CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
 * NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
-* FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
+* CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
+* CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
+* CHANGE: Unter `Datenbank > Optionen > Dokumente` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der MAGELLAN-Verzeichnisstruktur sichert.
+* FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
 * FIX: `Bewerber > Merkmale` Kürzel werden angezeigt
 * FIX: Schüler in andere Mandanten versetzen
 * FIX: Ändern von Adressdaten über mehrere Mandanten hinweg (Sorgeberechtigte, Personen, Lehrer)
 * FIX: Korrektur beim Import NRW-SchuelerOnline [EZ2-Felder für wiederkehrende Schüler](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/#importierte-felder)
-* CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
+
 
 
 ### SAXSVS
