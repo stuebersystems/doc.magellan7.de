@@ -191,24 +191,24 @@ Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswä
 Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
 
-2. Zugewiesene ENBREA Leistungen des Schülers werden aus dem 1. HJ in das 2. HJ übernommen. im Menü `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
-
 !!! info "Hinweis"
     
     Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zuwiesen. Diese können über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernommen werden.
+
+2. Bitte gehen Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` den  `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
 
 ![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
 
 ## Schuljahreswechsel
 
-1. Neuen Zeitraum anlegen
+1. Neuen Zeitraum anlegen (`Extras > Schlüsselverzeichnisse > Zeiträume`)
 
 2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`.
 
 Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
 
-3. Schüler in die neue Klasse versetzen
+3. Schüler in die neue Klasse versetzen (`Laufbahnprozess > Schüler versetzen`)
 
-4. Den Schülern Kurse zuweisen
+4. Den Schülern Kurse zuweisen (Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern die Kurse zuweisen.)
 Weitere Informationen zum Schuljahreswechsel finden Sie hier:
 https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/
