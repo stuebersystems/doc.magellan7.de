@@ -43,6 +43,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Lehrer > Soll-Berechnung`Auswahl aus dem Schlüsselverzeichnis Lehrer-Sollschlüssel möglich
 * FIX: `Lehrer > Merkmale` Auswahl aus dem Schlüsselverzeichniss Lehrer Merkmale möglich
 * FIX: `MAGELLAN > Abitur > Fachwahl`:Aktualisierungsproblem behoben
+* FIX: `MAGELLAN > Schüler`Aktualisieren der Ansicht nach Schüler korrigieren
+* FIX: `MAGELLAN > Schüler > Daten1` Reihenfolge bei Nutzung der Tabulatorentaste angepasst
 
 ### SAXSVS
 
