@@ -69,6 +69,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Skripte
 
 * FIX: NRW-APO-2012.dws - Überprüfung für das Fach Musik, ob mehr als 5 Kurse eingebracht wurden für den Fall: dass ein Schüler Musik außerhalb des Abiturbereiches belegt, es können von den 5 möglichen eingebrachten Grundkursen auch max. zwei instrumental- oder vokalpraktischen Kurse sein
+* FIX: Korrektur von `Synchronisiere Abi.dws`. Die Zählung der Trimester für wiederholende Schüler wurde angepasst.
 
 ### Statistik
 
