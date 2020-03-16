@@ -30,6 +30,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
 * NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
+* NEW: Wird ein neuer Sorgeberechtigter von `Schüler > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
