@@ -29,6 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
+* NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
@@ -42,9 +43,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Abitur > Fachwahl`Anzeige der belegten Kurse
 * FIX: `Lehrer > Soll-Berechnung`Auswahl aus dem Schlüsselverzeichnis Lehrer-Sollschlüssel möglich
 * FIX: `Lehrer > Merkmale` Auswahl aus dem Schlüsselverzeichniss Lehrer Merkmale möglich
-* FIX: `MAGELLAN > Abitur > Fachwahl`:Aktualisierungsproblem behoben
+* FIX: `Abitur > Fachwahl`:Aktualisierungsproblem behoben
 * FIX: `MAGELLAN > Schüler`Aktualisieren der Ansicht nach Schüler korrigieren
-* FIX: `MAGELLAN > Schüler > Daten1` Reihenfolge bei Nutzung der Tabulatorentaste angepasst
+* FIX: `Schüler > Daten1` Reihenfolge bei Nutzung der Tabulatorentaste angepasst
+* FIX: `Abitur > Prüfungen > Prüfungsnoten eingeben`: Layout anpassen ist inaktiv
+* FIX: `Lehrer > Merkmale` Auswahl der im Schlüsselverzeichnis Merkmale (Lehrer) eingetragenen Werte korrigiert
+* FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`: Kategorietafel zuweisen
+* FIX: Korrektur beim Auswahlfilter der Gemdeinden für Schüler/Sorgeberechtigte/Betriebe bei Auswahl Sachsen und NRW 
 
 ### SAXSVS
 
