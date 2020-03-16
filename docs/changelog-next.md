@@ -50,6 +50,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Lehrer > Merkmale` Auswahl der im Schlüsselverzeichnis Merkmale (Lehrer) eingetragenen Werte korrigiert
 * FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`: Kategorietafel zuweisen
 * FIX: Korrektur beim Auswahlfilter der Gemdeinden für Schüler/Sorgeberechtigte/Betriebe bei Auswahl Sachsen und NRW 
+* FIX: `MAGELLAN > Extras > Exporte > Landesstatistik Berlin`
 
 ### SAXSVS
 
@@ -266,3 +267,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Schueler\Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
 * CHANGE: Berichte\Schueler\Schülerliste (mit Betrieben und Geburtsdatum).rpt
 * CHANGE: Berichte\Schueler\Schülerliste (mit Betrieben).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-AS (Z 522a)(04.11).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-AZ (Schul Z 523a).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
