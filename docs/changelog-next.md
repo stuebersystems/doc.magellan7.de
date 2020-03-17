@@ -270,3 +270,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\BER-BFS-AS (Z 522a)(04.11).rpt
 * CHANGE: Berichte\Zeugnisse\BER-BFS-AZ (Schul Z 523a).rpt
 * CHANGE: Berichte\Zeugnisse\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 202 (07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 102 (11.10).rpt
