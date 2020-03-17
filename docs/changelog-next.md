@@ -32,10 +32,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
 * NEW: Wird ein neuer Sorgeberechtigter von `Schüler > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
 * NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld "aktuelle Ausbildung" auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
+* 
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
 * CHANGE: Unter `Datenbank > Optionen > Dokumente` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der MAGELLAN-Verzeichnisstruktur sichert.
+
 * FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
 * FIX: `Bewerber > Merkmale` Kürzel werden angezeigt
 * FIX: Schüler in andere Mandanten versetzen
@@ -55,7 +57,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `MAGELLAN > Extras > Exporte > Landesstatistik Berlin`
 * FIX: `NRW > Extras > Export > SchülerOnline`: Hier wurde versehentlich die Statistiklizenz mit abgefragt
 * FIX: Wenn ein Bewerber einen weiteren Ausbildungsdatensatz bekommt, fehlte das Häkchen für `als neue Ausbildung übernehmen`.  
-
+* FIX: Beim Import aus SchuelerOnline wird das Feld Schulnr korrekt eingelesen
 
 
 ### SAXSVS
