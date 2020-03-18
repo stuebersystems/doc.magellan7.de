@@ -101,6 +101,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 ## Sachsen
 
 * CHANGE: SAC-FS-HJI (C.01.01).rpt (Berichtsverknüpfungen aktualisiert)
+* CHANGE: SAC-FS-JZ (C.01.02).rpt
 
 * NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rpt
