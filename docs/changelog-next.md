@@ -24,7 +24,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE:  
+* CHANGE:  Änderung für die Anzeige des aktuellen Betriebes für Vagabunden
+
+### MyMAGELLAN
+
+* FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
+* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf `alle Beurteilungsarten` gestellt
 
 ### MAGELLAN
 
