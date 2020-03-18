@@ -284,3 +284,6 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 350 (10.07).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 303 (11.19).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 302 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 300 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 255 (09.17).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 251b (05.16).rpt
