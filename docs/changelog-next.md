@@ -24,12 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE:  Änderung für die Anzeige des aktuellen Betriebes für Vagabunden
-
-### MyMAGELLAN
-
-* FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
-* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf `alle Beurteilungsarten` gestellt
+* CHANGE:  
 
 ### MAGELLAN
 
@@ -42,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
 * CHANGE: Unter `Datenbank > Optionen > Dokumente` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der MAGELLAN-Verzeichnisstruktur sichert.
+* CHANGE: Darstellung der Verzeichnisfelder unter `Berufsschule > Matrix` und `Berufsschule > Abschluss` aktualisiert 
 
 * FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
 * FIX: `Bewerber > Merkmale` Kürzel werden angezeigt
@@ -98,13 +94,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+<<<<<<< HEAD
 ## Sachsen
 
 * CHANGE: SAC-FS-HJI (C.01.01).rpt (Berichtsverknüpfungen aktualisiert)
 * CHANGE: SAC-FS-JZ (C.01.02).rpt
 
+=======
+>>>>>>> 72e684c46adf3dc14596c07312e767ae6677929f
 * NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
-* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rptB
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-HJZ (Schul Z 500).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503).rpt
 * CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D35).rpt
@@ -290,3 +289,10 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 202 (07.10).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 102 (11.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 351 (11.19)_Kolleg.rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 350 (10.07).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 303 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 302 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 300 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 255 (09.17).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 251b (05.16).rpt
