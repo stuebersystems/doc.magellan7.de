@@ -94,14 +94,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-<<<<<<< HEAD
 ## Sachsen
 
 * CHANGE: SAC-FS-HJI (C.01.01).rpt (Berichtsverknüpfungen aktualisiert)
 * CHANGE: SAC-FS-JZ (C.01.02).rpt
+* CHANGE: SAC-FS-HJZ (C.01.03).rpt.
 
-=======
->>>>>>> 72e684c46adf3dc14596c07312e767ae6677929f
 * NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rptB
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-HJZ (Schul Z 500).rpt
