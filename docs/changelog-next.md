@@ -30,6 +30,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
 * CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf `alle Beurteilungsarten` gestellt
+* NEW: In der Ansicht `Schüler` ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
+
+![Symbol zum Ein- und Ausblenden von Spalten verfügbar](/assets/images/changelog/7.1.7.00.png)
 
 ### MAGELLAN
 
@@ -37,7 +40,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
 * NEW: Wird ein neuer Sorgeberechtigter von `Schüler > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
 * NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld "aktuelle Ausbildung" auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
-* 
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
