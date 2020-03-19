@@ -31,7 +31,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
 * NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
 * NEW: Wird ein neuer Sorgeberechtigter von `Schüler > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
-* NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld "aktuelle Ausbildung" auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
+* NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld `aktuelle Ausbildung` auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
 
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
@@ -59,12 +59,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `NRW > Extras > Export > SchülerOnline`: Hier wurde versehentlich die Statistiklizenz mit abgefragt
 * FIX: Wenn ein Bewerber einen weiteren Ausbildungsdatensatz bekommt, fehlte das Häkchen für `als neue Ausbildung übernehmen`.  
 * FIX: Beim Import aus SchuelerOnline wird das Feld Schulnr korrekt eingelesen
-* Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen 
+* FIX: `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+* FIX: Für `Extras > Schlüsselverzeichnisse > Bewerbungsziele > Hauptfachnote` ist die Priorität auswählbar
 
 
 ### SAXSVS
 
-* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in MAGELLAN existiert und dami kein Export stattfinden kann
+* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in MAGELLAN existiert und damit kein Export stattfinden kann
 
 ### MAGELLAN Administrator
 
@@ -76,7 +77,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN
 
-* FIX:
+* FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
+* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf alle Beurteilungsarten gestellt
+* NEW: In der Ansicht Schüler ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
+
+![](/assets/images/changelog/7.1.7.00.png)
+
 
 ### MAGELLAN Bibliothek
 
