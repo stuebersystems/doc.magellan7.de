@@ -24,7 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE:  
+* CHANGE: Anzeige der aktuellen Vagabunden-Ausbildung möglich
 
 ### MAGELLAN
 
