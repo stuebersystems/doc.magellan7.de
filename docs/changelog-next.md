@@ -299,3 +299,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\BER-RS-AZ (Schul Z 242)(06.08).rpt
 * CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 241)(07.10).rpt
 * CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 240)(03.08).rpt
+* CHANGE: Berichte\Zeugnisse\BER-KO-ZAS (Schul Z 371)(02.12).rpt
+* CHANGE: Berichte\Zeugnisse\BER-KO-ZAS (Schul Z 371)(02.12).rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY (abi_4_berechnungsbogen)(10.16)
+* CHANGE: Berichte\Zeugnisse\BER-GS-JZ (Schul Z 103)(11.05)
+* CHANGE: Berichte\Zeugnisse\BER-GS-JZ (Schul Z 103)(11.05) (französ. Gymn)
