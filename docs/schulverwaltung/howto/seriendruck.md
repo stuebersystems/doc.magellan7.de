@@ -89,14 +89,11 @@ Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, dies
 
 ![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/assets/images/seriendruck/seriendruck.betrieb05.png)
 
-
-
 ### An die Sorgeberechtigten des Schülers
 
 !!! info "Hinweis"
 
-  In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`. 
-
+  In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`.
 
  Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#registerkarte-„familie).
 
@@ -106,17 +103,15 @@ Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, dies
 
 ![Die Benachrichtigung "immer" erzeugt einen Serienbriefdatensatz](/assets/images/seriendruck/seriendruck5.png)
 
-
-
 Unter `Schüler > Sorgeberechtigter` werden beim Zuweisen des Sorgeberechtigten zum Schüler zwei Felder vorbesetzt: 
 
-* das Feld Briefempfänger 
+* das Feld Briefempfänger
 * das Feld Briefanrede.
 
 * **Der Briefempfänger** wird für Ihre Schreiben für das Adressfeld vorbefüllt, als mit der Anrede und dem Nachnamen des Sorgeberechtigten. Ist es eine männliche Anrede wird aus „Herr“ automatisch „Herrn“.
 
 * **Die Briefanrede** wird aus „Sehr geehrte“ oder „Sehr geehrter“, der Anrede und dem Nachnamen gebildet. Um Eltern mit unterschiedlichen Nachnamen korrekt im Seriendruck ansprechen zu können, ändern Sie bitte die vorbesetzten Felder entsprechend der nachfolgenden Abbildung ab, lassen aber bitte dennoch nur bei einem der Sorgeberechtigten die Benachrichtigung auf „immer“ stehen.
- 
+
 ![Über die Felder Briefanrede und Briefempfänger können die Sorgeberechtigten im Seriendruck korrekt angesprochen werden](/assets/images/seriendruck/seriendruck6.png)
 
 !!! info "Hinweis"
@@ -177,10 +172,9 @@ Sie können die Etiketten entweder sogleich über die Funktion Seriendruck an Dr
 
 ## Serienemail
 
-Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schü-ler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber. 
- 
-![Serienmailassistent](/assets/images/seriendruck/seriendruck12.png)
+Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schüler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber. 
 
+![Serienmailassistent](/assets/images/seriendruck/seriendruck12.png)
 
 Im unteren Auswahlfeld desselben Fensters können Sie wählen, ob die Nachricht direkt an den Empfän-ger gesandt werden soll An, CC oder BCC.
 
@@ -188,5 +182,8 @@ Im unteren Auswahlfeld desselben Fensters können Sie wählen, ob die Nachricht 
 
   „Cc“ ist die Abkürzung für "Carbon copy". Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, wobei der Name des Empfängers für andere Empfänger der Nachricht sichtbar ist. „Bcc“ ist die Abkürzung für "Blind carbon copy".  Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, der Name des Empfängers ist jedoch für andere Empfänger der Nachricht nicht sichtbar.
 
-Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in MAGELLAN hinterlegten Emailadressen bereits eingefügt. 
+Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in MAGELLAN hinterlegten Emailadressen bereits eingefügt.
 
+!!! danger "Achtung"
+
+  Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/magellan/mapi2.html).
