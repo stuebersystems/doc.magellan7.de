@@ -59,11 +59,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `NRW > Extras > Export > SchülerOnline`: Hier wurde versehentlich die Statistiklizenz mit abgefragt
 * FIX: Wenn ein Bewerber einen weiteren Ausbildungsdatensatz bekommt, fehlte das Häkchen für `als neue Ausbildung übernehmen`.  
 * FIX: Beim Import aus SchuelerOnline wird das Feld Schulnr korrekt eingelesen
+* Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen 
 
 
 ### SAXSVS
 
-* FIX: 
+* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in MAGELLAN existiert und dami kein Export stattfinden kann
 
 ### MAGELLAN Administrator
 
@@ -93,6 +94,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+## Sachsen
+
+* CHANGE: SAC-FS-HJI (C.01.01).rpt (Berichtsverknüpfungen aktualisiert)
+* CHANGE: SAC-FS-JZ (C.01.02).rpt
+* CHANGE: SAC-FS-HJZ (C.01.03).rpt.
 
 * NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rptB
@@ -288,3 +295,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 300 (11.19).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 255 (09.17).rpt
 * CHANGE: Berichte\Zeugnisse\BER-Schul Z 251b (05.16).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 240 (09.17).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AZ (Schul Z 242)(06.08).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 241)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 240)(03.08).rpt
