@@ -25,6 +25,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Datenstruktur
 
 * CHANGE: Anzeige der aktuellen Vagabunden-Ausbildung möglich
+* CHANGE: Nicht erfasste Fehlzeiteneinträge werden für bereits erfasste Schüler nicht mehr mit 0 sondern leer gezeigt (Zeugnisse können 0 darstellen, egal ob eine 0 oder kein Eintrag vorliegt)
+* CHANGE: Für neu eingeschulte Schüler werden diese Felder nicht mehr mit einer 0 vorbelegt
 
 ### MAGELLAN
 

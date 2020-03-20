@@ -101,7 +101,6 @@ Wert ist in beiden Programmen | Wert aus MyMAGELLAN wird eingelesen
 
 	Das bedeutet, wenn in MAGELLAN ein Wert besteht, die Sie in der MyMAGELLAN-Datei entfernen, dann bleibt der Wert weiterhin nach dem Einlesen in MAGELLAN bestehen.
 
-
 ## Beurteilungen
 
 Gemeint sind die Beurteilungen unter `Schüler > Zeugnis > Leistungen` im Feld `Beurteilungen`. Hier können zusätzlich zur Benotung (per Punkt- oder Notenwert) schriftliche Beurteilungen pro Fach erfolgen.
@@ -118,22 +117,17 @@ Beurteilung sind in beiden Programmen|Beurteilung aus MyMAGELLAN wird eingelesen
 	Trägt nur einer der beiden in seine Datei eine Leistungsbeurteilung für Mathe ein, wird dessen Eintragung nach MAGELLAN importiert. 
 	Tragen beide Kollegen (also der Fachlehrer und der Klassenlehrer tragen etwas für die Mathezeile ein) ein oder wurde bereits eine Eintragung in die MyMAGELLAN-Dateien exportiert, werden die Eingaben nacheinander importiert, die zuletzt importierte Information bleibt in MAGELLAN bestehen.   
 
-
 ## Zeugnisbemerkungen
-
-
 
 !!! warning "Wichtig"
 
 	Zeugnisbemerkungen können nur für Schüler editiert und importiert werden, für die der Kollege entweder als Klassenleiter in MAGELLAN hinterlegt wurde, oder als Tutor. 
-
 
 Stand in MAGELLAN/MyMAGELLAN |Ergebnis
 -|-
 Bemerkung in MAGELLAN existiert, MyMAGELLAN-Datei wird erzeugt|Bemerkung wird mit in die MyMAGELLAN-Datei übergeben
 Bemerkung wird in MyMAGELLAN aktualisiert<br/>Bemerkung wird in MAGELLAN neu angelegt|Bemerkungen werden beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen aus MyMAGELLAN ersetzt
 Neue Bemerkung wird in MAGELLAN erfasst,<br/>während die MyMAGELLAN-Dateien ausgeteilt sind|Bemerkungen wird beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen ersetzt. Sind keine neuen Bemerkungen in MyMAGELLAN erfasst worden, können als Ergebnis auch KEINE Bemerkungen übrig bleiben.
-
 
 !!! warning "Wichtig"
 
@@ -143,13 +137,13 @@ Neue Bemerkung wird in MAGELLAN erfasst,<br/>während die MyMAGELLAN-Dateien aus
 
 Beispiel:
 
-Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMAGELLAN-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen. 
-Eventuell in MAGELLAN bereits existente Zeugnisbemerkungen werden für S1 ausgespielt. 
-L1 vergibt eine neue Zeugnisbemerkung, T1 vergibt keine neue Zeugnisbemerkung. Die Dateien von L1 und T1 werden wieder importiert. 
- 
-Import der Datei von L1: Zeugnisbemerkungen werden für S1 gelöscht, neue und alte Zeugnisbemerkung werden aus der Datei von L1 importiert. 
+Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMAGELLAN-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen.
+Eventuell in MAGELLAN bereits existente Zeugnisbemerkungen werden für S1 ausgespielt.
+L1 vergibt eine neue Zeugnisbemerkung, T1 vergibt keine neue Zeugnisbemerkung. Die Dateien von L1 und T1 werden wieder importiert.
 
-Als nächstes wird die Datei für T1 importiert: die Zeugnisbemerkungen von S1 werden gelöscht (neue und alte reimportierte Zeugnisbemerkungen), nur die alten Zeugnisbemerkungen werden eingelesen. Im Ergebnis fehlen die neuen Zeugnisbemerkungen von L1. 
+Import der Datei von L1: Zeugnisbemerkungen werden für S1 gelöscht, neue und alte Zeugnisbemerkung werden aus der Datei von L1 importiert.
+
+Als nächstes wird die Datei für T1 importiert: die Zeugnisbemerkungen von S1 werden gelöscht (neue und alte reimportierte Zeugnisbemerkungen), nur die alten Zeugnisbemerkungen werden eingelesen. Im Ergebnis fehlen die neuen Zeugnisbemerkungen von L1.
 Sie können den Konflikt nur lösen, indem Sie entweder:
 
 * entweder Schülern nicht einen Klassenleiter UND einen Tutor zuweisen
@@ -161,7 +155,7 @@ Folgende Felder sind gemeint:
 
 |Felder|Anmerkung
 |--|--|
-|Fehltage|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben" gewählt, kann ein Eintrag in MAGELLAN nicht auf NULL durch eine entsprechende Eingabe in MyMAGELLAN zurückgesetzt werden.|
+|Fehltage|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben" gewählt, wird beim Einsammeln ein Unterschied zwischen `kein Eintrag` (NULL) und einer 0 gemacht. Die 0 wird berücksichtigt, überschreibt also gegebenenfalls einen vorher importierten Eintrag. |
 |davon unentschuldigt|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben" gewählt, kann ein Eintrag in MAGELLAN nicht auf NULL durch eine entsprechende Eingabe in MyMAGELLAN zurückgesetzt werden.|
 |Fehlstunden|-|
 |davon unentschuldigt|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben" gewählt, kann ein Eintrag in MAGELLAN nicht auf NULL durch eine entsprechende Eingabe in MyMAGELLAN zurückgesetzt werden.|
@@ -179,10 +173,9 @@ Gut geeignet ist die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln über
 
 Option|Ergebnis
 -|-
-Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben|Der Eintrag aus der MyMAGELLAN überschreibt den Eintrag in MAGELLAN. <br/> **Ausnahme: Es wird nichts oder eine NULL in MyMAGELLAN erfasst, in diesem Fall bleibt der MAGELLAN-Eintrag erhalten.**
-Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren|Fehlstunden/-tage aus allen MyMAGELLAN-Dateien werden aufaddiert. <br/>Bitte beachten Sie, dass das erneute Einlesen einer Datei bei dieser Option auch erneut die Werte addiert.
+Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben|Der Eintrag aus der MyMAGELLAN, auch eine gezielt eingetragene 0, überschreibt den Eintrag in MAGELLAN. <br/> **Ausnahme: Es erfolgt kein Eintrag in MyMAGELLAN, also das Feld bleibt leer, in diesem Fall bleiben der MAGELLAN-Eintrag und ggfs. vorab eingelesene Daten erhalten.**
+Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren|Fehlstunden/-tage aus allen MyMAGELLAN-Dateien werden aufaddiert. <br/>**Bitte beachten Sie, dass das erneute Einlesen einer Datei bei dieser Option auch erneut die Werte addiert.**
 Fehlstunden/-tage in MAGELLAN beim Einsammeln nicht aktualisieren|Es erfolgt keine Änderung in MAGELLAN.
-
 
 ## Zeugnisdaten
 
