@@ -81,8 +81,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
 * FIX: Filterung der Klassen in der linken Spalte der Schüleransicht korrigiert
-* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf alle Beurteilungsarten gestellt
-* NEW: In der Ansicht Schüler ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
+* FIX: Ausgeblendete Spalten werden auch beim Datensatzwechsel beibehalten
+* NEW: veränderter Umgang mit Fehlzeiten
+
+!!! danger "Achtung"
+
+    Bitte beachten Sie die Abschnitt [Importlogik > Fehlzeiten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#fehlzeiten)
+
+* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf `alle Beurteilungsarten` gestellt
+* NEW: In der Ansicht `Schüler` ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
 
 ![](/assets/images/changelog/7.1.7.00.png)
 
