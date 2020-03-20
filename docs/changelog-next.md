@@ -84,7 +84,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
 * FIX: Filterung der Klassen in der linken Spalte der Schüleransicht korrigiert
 * FIX: Ausgeblendete Spalten werden auch beim Datensatzwechsel beibehalten
-* NEW: veränderter Umgang mit Fehlzeiten
+* NEW: veränderter Umgang mit Fehlzeiten und der Option "beim Importieren überschreiben"
 
 !!! danger "Achtung"
 
