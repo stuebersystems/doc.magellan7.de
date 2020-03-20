@@ -44,6 +44,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Bewerber > Merkmale` Kürzel werden angezeigt
 * FIX: Schüler in andere Mandanten versetzen
 * FIX: Ändern von Adressdaten über mehrere Mandanten hinweg (Sorgeberechtigte, Personen, Lehrer)
+* FIX: Für Schüler, die in einen anderen Mandanten versetzt werden, deren Sorgeberechtigte dort bereits einem Schüler zugeordnet wurden, klappt die Verbindung zwischen Schüler und Sorgeberechtigten
+* FIX: Schüler können nicht erneut in einen Mandanten versetzt werden, in des sie bereits versetzt wurden
 * FIX: Korrektur beim Import NRW-SchuelerOnline [EZ2-Felder für wiederkehrende Schüler](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/#importierte-felder)
 * FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`Zuweisen von Kategorietafeln
 * FIX: `Abitur > Fachwahl`Anzeige der belegten Kurse
@@ -82,7 +84,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: In der Ansicht Schüler ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
 
 ![](/assets/images/changelog/7.1.7.00.png)
-
 
 ### MAGELLAN Bibliothek
 

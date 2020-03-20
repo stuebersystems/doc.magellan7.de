@@ -186,5 +186,5 @@ Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailp
 
 !!! danger "Achtung"
 
-  Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/magellan/mapi2.html).
+  Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
   
