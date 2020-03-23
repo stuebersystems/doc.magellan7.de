@@ -65,3 +65,5 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 ## Sachsen
 
 * CHANGE: Berichte\Zeugnisse\BER-GY-JZ (Schul Z 251)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY-AZ (Schul Z 252) (01.07)rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY-FHreife Bescheinigung (Schul Z 350).rpt
