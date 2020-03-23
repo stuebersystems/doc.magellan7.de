@@ -18,14 +18,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## 7.1.8 - 712
 
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
-* CHANGE: 
+* CHANGE:  
 
 ### MAGELLAN
 
-* NEW: 
+* NEW:
 
 ### SAXSVS
 
@@ -43,15 +46,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX:
 
-![](/assets/images/changelog/7.1.7.00.png)
-
 ### MAGELLAN Bibliothek
 
 * CHANGE:
 
 ### Skripte
 
-* FIX:
+* FIX: 
 
 ### Statistik
 
@@ -61,10 +62,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-#### Sachsen
+## Sachsen
 
-
-#### Optimierungen
-
-Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
-
+* CHANGE: Berichte\Zeugnisse\BER-GY-JZ (Schul Z 251)(07.10).rpt
