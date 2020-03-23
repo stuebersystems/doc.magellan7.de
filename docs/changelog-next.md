@@ -87,3 +87,9 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Vorbildung).rpt
 * CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt
 * CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Fremdsprachenfolge).rpt
+* CHANGE: Berichte\Klassen\Zeugnisliste nach Schülerfächern (Kopfnoten).rpt
+* CHANGE: Berichte\Klassen\Klassen (Fax an Betriebe der Schueler).rpt
+* CHANGE: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
+* CHANGE: Berichte\Klassen\Anwesenheitsliste für ganzen Monat.rpt
+* CHANGE: Berichte\Klassen\Anwesenheitsliste für den Tag.rpt
+* CHANGE: Berichte\Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
