@@ -59,6 +59,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+* CHANGE: BER-GES-MSA (Schul Z 202)(02.08)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-MSA (Schul Z 512)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-HJZ (Schul Z 510)(05.06)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-AZ (Schul Z 513)(05.06)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FHReife-Bescheinigung (Schul Z 350)(10.07)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-HJZ (Schul Z 505 b)(BQL FL)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-AZ (Schul Z 507 a)(BGL VZ)
+
 #### Sachsen
 
 * CHANGE: 
