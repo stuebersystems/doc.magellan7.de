@@ -66,6 +66,9 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-FHReife-Bescheinigung (Schul Z 350)(10.07)
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-HJZ (Schul Z 505 b)(BQL FL)
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-AZ (Schul Z 507 a)(BGL VZ)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BV-AS (Schul Z 508)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503)
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (Schul Z 501)
 
 #### Sachsen
 
