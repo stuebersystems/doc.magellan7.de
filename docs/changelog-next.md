@@ -69,6 +69,9 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BV-AS (Schul Z 508).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (Schul Z 501).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (Schul Z 500).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (MSA  Schul Z 502c).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (MSA  Schul Z 502).rpt
 
 #### Sachsen
 
