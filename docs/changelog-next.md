@@ -59,7 +59,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE: BER-GES-MSA (Schul Z 202)(02.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GES-MSA (Schul Z 202)(02.08).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-MSA (Schul Z 512).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-HJZ (Schul Z 510)(05.06).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-AZ (Schul Z 513)(05.06).rpt
@@ -79,8 +79,11 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BOS-AS (Schul Z 533)(03.05).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
 * CHANGE: Berichte\Zeugnisse\Berlin\BER-BFS-AZ (Schul Z 523a).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GY-FHReife (Bescheinigung).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GY (Studienbuch - Einführungsphase) G9.rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
   
-
 #### Sachsen
 
 * CHANGE: 
