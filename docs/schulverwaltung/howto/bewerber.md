@@ -168,7 +168,7 @@ Die Bewerbungsdaten des Bewerbers finden Sie unter Bewerbung. Hier können Sie i
 ### `Familie`
 
 Ist der Bewerber noch minderjährig, so können Sie diesem einen oder mehrere Sorgeberechtigte im Bereich `Familie` zuordnen.
-Hier kann auch auf Datensätze aus den Menüs `Personen` oder `Lehrer` verwiesen werden, wenn Mitarbeiter Eltern der Schüler sind. 
+Hier kann auch auf Datensätze aus den Menüs `Personen` oder `Lehrer` verwiesen werden, wenn Mitarbeiter Eltern der Schüler sind.
 Um Geschwisterkinder erkennbar zu verbinden, kann auch auf andere `Schüler` verwiesen werden.
 
  ![Klicken Sie auf `Hinzufügen`, um einen neuen Sorgeberechtigten hinzuzufügen. Sie können auf Daten aus den Menüs Schüler, Bewerber, Lehrer, Personen und Sorgeberechtigte verweisen.](/assets/images/bewerber/schuelersorge.png)

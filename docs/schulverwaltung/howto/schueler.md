@@ -47,6 +47,10 @@ Im Unterschied zur Registerkarte `Daten 1` des Bewerbers, findet man beim Schül
 
     Für Schulen in Schleswig-Holstein sind die Felder Passfoto, Religionswunsch und Religionsgrund nicht sichtbar.
 
+## Bereich Familie
+
+Die Funktionalitäten sind gleich denen unter `Bewerber > Daten1 > Familie`, bitte lesen Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/bewerber/#familie) weiter.
+
 ### Fenster "Weitere Informationen"
 
 Weiterführende Informationen zu den im Schülermenü markierten Schülern finden Sie im Informationsfenster `Weitere Informationen`.
