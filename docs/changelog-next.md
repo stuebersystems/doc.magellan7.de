@@ -84,9 +84,10 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
 * CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
   
-#### Sachsen
+#### Mecklenburg Vorpommern
 
-* CHANGE: 
+* CHANGE:  MVP-GY-AS (Jahrgangsstufe 7-10).rpt
+
 
 #### Optimierungen
 
