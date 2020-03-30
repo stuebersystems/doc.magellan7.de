@@ -19,13 +19,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## 7.1.9 - 712
 
 
-### SAXSVS
-
-* CHANGE:  
-
 ### MAGELLAN
 
-* NEW:
+* FIX: `Fachdaten kopieren` beim `Schüler versetzen`
 
 ## SAXSVS
 
