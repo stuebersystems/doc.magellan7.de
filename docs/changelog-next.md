@@ -89,4 +89,12 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GY (Studienbuch - Einführungsphase) G9.rpt
 * CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
 * CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
-* *
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-RS-AZ.rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-RS-AS.rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe mit Beurteilung).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Klasse5).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Mittelstufe).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 12).rpt
+* CHANGE: Berichte\Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 11).rpt
