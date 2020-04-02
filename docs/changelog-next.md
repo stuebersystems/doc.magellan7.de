@@ -22,7 +22,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * FIX: `Fachdaten kopieren` beim `Schüler versetzen`
-* NEW: Neue Seriendruckfelder: Für die Auswahl `an den aktuellen Betrieb des Schülers/Bewerbers` wird das Kürzel des `Bildungsgangs` und des `Berufs` für den Schüler übergeben.
+* CHANGE: Spalte Bildungsgang wurd aus der Auswahlliste Schüler entfernt, damit wird auch eine Performanceverbesserung erzielt
+* FIX: `Bewerber > Daten2`: Dateneingabe und dann Auswahl `nächster Datensatz` Fehlermeldung korrigiert
 
 ## SAXSVS
 
