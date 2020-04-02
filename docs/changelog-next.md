@@ -33,7 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Administrator
 
-* FIX: 
+* FIX: Datapump (Datenübertragung von MAGELLAN 6 nach MAGELLAN 7) optimiert
 
 ### MyMAGELLAN-CENTER
 
