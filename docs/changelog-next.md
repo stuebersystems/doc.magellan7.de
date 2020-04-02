@@ -42,7 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* CHANGE:
+* CHANGE: Die nur vom sysdba zu ändernden Optionen sind je Unterkarte unter `Datenbank > Optionen` gekennzeichnet
 
 ### Skripte
 
