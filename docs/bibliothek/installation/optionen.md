@@ -26,7 +26,7 @@ Unterkarte | Wer kann die Einstellungen anpassen
 
 !!! warning "Wichtig"
 
-    Benutzer mit den Rechtegruppen `Kolleigium` oder `Gast` können keine Änderungen der Optionen vornehmen.
+    Benutzer mit den Rechtegruppen `Kollegium` oder `Gast` können keine Änderungen der Optionen vornehmen.
 
 ## Übersicht der Optionen
 
