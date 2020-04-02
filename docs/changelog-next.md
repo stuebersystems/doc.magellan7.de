@@ -42,6 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MyMAGELLAN
 
 * FIX: In der Ansicht  `Fächer` und  `Schüler` sind die Felder `schriftl.Note1` - `Endnote (gesamt)` beschreibbar.
+* CHANGE: in der Ansicht `Schüler` und `Fächer` wird die Spalte `Kurs` eingeblendet, die das Fachkürzel plus die Kursnummer ausgibt.
 
 ### MAGELLAN Bibliothek
 
