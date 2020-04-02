@@ -381,6 +381,8 @@ Nr|Seriendruckfeld
 140.|«PraxisAusbildungVon»
 141.|«PraxisAusbildungBis»
 142.|«Praxisdauer»
+143.|«Bildungsgang»
+144.|«Beruf»
 
 ## Menü Bewerber
 

@@ -22,6 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * FIX: `Fachdaten kopieren` beim `Schüler versetzen`
+* NEW: Neue Seriendruckfelder: Für die Auswahl `an den aktuellen Betrieb des Schülers/Bewerbers` wird das Kürzel des `Bildungsgangs` und des `Berufs` für den Schüler übergeben.
 
 ## SAXSVS
 
