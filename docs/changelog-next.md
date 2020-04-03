@@ -28,6 +28,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Schüler > Daten2 Abschluss` volle Zeichenlänge des Kürzels kann genutzt werden
 * FIX: unter `Abitur > Qualifikation` ist das Feld `Abiturjahrgang` wieder gefüllt und auswählbar 
 * FIX: Unter `Schueler > Daten2 > Abschluss` können Werte verwendet werden, für die unter `Extras > Schlüsselverzeichnisse > Abschlüsse (extern)` die volle Kürzellänge verwendet wurde
+* FIX: das Versetzen von Schülern in Mandanten wurde überarbeitet, dabei wurde auch die Übergabe der Fremdsprache wieder mit eingebunden. Existiert die Fremdsprache (Prüfung anhand des Kürzels) nicht im anderen Mandanten, wird ein neues Fach im Verzeichnis `Fächer` angelegt und dem kopierten Schüler zugewiesen.
+* FIX: Länge der Bezeichnung `Lehrämter` (Überschrift) unter `Lehrer > Daten3` angepasst
+* FIX: Assistent "ENBREA-Leistungen übernehmen" - Textlänge angepasst
 
 ## SAXSVS
 
