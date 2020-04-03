@@ -24,6 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Fachdaten kopieren` beim `Schüler versetzen`
 * CHANGE: Spalte Bildungsgang wurd aus der Auswahlliste Schüler entfernt, damit wird auch eine Performanceverbesserung erzielt
 * FIX: `Bewerber > Daten2`: Dateneingabe und dann Auswahl `nächster Datensatz` Fehlermeldung korrigiert
+* FIX: `Schüler > Daten2 Abschluss` volle Zeichenlänge des Kürzels kann genutzt werden
 
 ## SAXSVS
 
