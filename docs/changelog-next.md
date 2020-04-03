@@ -25,6 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Für den Seriendruck `An den Betrieb des Schülers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
 * NEW: Für den Seriendruck `An den Betrieb des Bewerbers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
 * FIX: `Bewerber > Daten2`: Dateneingabe und dann Auswahl `nächster Datensatz` Fehlermeldung korrigiert
+* FIX: `Schüler > Daten2 Abschluss` volle Zeichenlänge des Kürzels kann genutzt werden
 * FIX: unter `Abitur > Qualifikation` ist das Feld `Abiturjahrgang` wieder gefüllt und auswählbar 
 
 ## SAXSVS
