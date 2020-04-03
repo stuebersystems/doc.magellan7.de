@@ -178,6 +178,7 @@ nav:
 - Bibliotheksverwaltung:
     - Überblick: bibliothek/index.md
     - Installation und Updates: bibliothek/installation/installation_und_updates.md
+    - Optionen: bibliothek/installation/optionen.md 
     - Tutorial: 
         - Überblick: bibliothek/tutorial/tutorial.md
         - Vorbereitung: bibliothek/tutorial/vorbereitung.md
