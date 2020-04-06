@@ -42,7 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN-CENTER
 
-* CHANGE: 
+* NEW: Neues Format für mym-Dateien. Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien können aber weiterhin eingelesen werden.
 
 ### MyMAGELLAN
 

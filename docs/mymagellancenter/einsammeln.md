@@ -4,7 +4,6 @@
 
 Die Noteneingabe in MyMAGELLAN ist der gesonderten Dokumentation [MyMAGELLAN](https://doc.MyMAGELLAN6.stueber.de/) zu entnehmen.
 
-
 ## Aktueller Stand?
 
 Wenn die von den Kollegen mit Zeugnisdaten befüllten Dateien wieder an der Stelle abgelegt werden, an die sie beim Verteilen auch erzeugt wurden, erhalten Sie über das MyMAGELLAN CENTER einen Überblick wessen Datei bereits gefüllt wieder vorliegt. 
@@ -29,8 +28,6 @@ Wenn die Dateien der Kollegen wieder vorliegen, können sie einzeln oder gesamme
 Es startet der Assistent, bitte bestätigen Sie das Einlesen der Daten in die Datenbank mit `Fertigstellen`.
 
 ![Schließen Sie den Assistenten über `Fertigstellen` ab!](/assets/images/mymagellan/23.png)
-
-
 
 ## MyMAGELLAN-Dateien einsammeln
 
@@ -64,11 +61,9 @@ grüner Pfeil|MyMAGELLAN-Datei erfolgreich importiert: MyMAGELLAN-Datei existier
 Im MyMAGELLAN CENTER können Sie keine mym-Dateien löschen und auch nicht beim Neuverteilen überschreiben. Sollten Sie beim Verteilen versuchen eine Datei zu erzeugen, die mit dem eingestellten Dateinamen an dem Speicherort bereits existiert, wird Ihnen eine Meldung ausgegeben. 
 MyMAGELLAN-Dateien können Sie direkt in Ihrem Verzeichnis auf Dateiebene löschen oder in eine anderes Verzeichnis archivieren.
 
-
 ## MyMAGELLAN Dateien erneut importieren
 
 Fällt nach dem Import auf, dass noch weitere Änderungen vorzunehmen sind, können MyMAGELLAN-Dateien auch erneut importiert werden.
-
 
 ### Bemerkungen
 
@@ -83,12 +78,9 @@ Beim erneuten Einlesen werden die Bemerkungen in MAGELLAN gelöscht und durch di
 
 ![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
-
-
 Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.
 
 Gut geeignet ist die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben".
-
 
 !!! warning "Wichtig"
 
