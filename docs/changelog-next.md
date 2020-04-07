@@ -22,7 +22,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Für den Seriendruck `An den Betrieb des Schülers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
 * NEW: Für den Seriendruck `An den Betrieb des Bewerbers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
+* NEW: Überarbeitung der Funktionalitäten für den Gemeindekennziffer- Automatismus in den Bereichen `Bewerber`, `Schüler`, `Sorgeberechtigte`.
+* NEW: Für aus dem Familienmenü unter `Schüler > Daten1` heraus angelegte neue Sorgeberechtigte gibt es das Feld `Gemeindekennziffer`
+* NEW: Wird unter `Schüler > Daten1 > Familie` ein neuer Sorgeberechtigter angelegt, wird die Gemeindekennziffer des Schülers übernommen.
+* NEW: Bei Adressänderungen des Schülers, die auch die Gemeindekennziffer betreffen, wird die Gemeindekennziffer mit zu den zur Änderung markierten verknüpften Datensätzen Schülern oder Sorgeberechtigten übernommen.
+  
 * CHANGE: Spalte Bildungsgang wurde aus der Auswahlliste Schüler entfernt, damit wird eine Performanceverbesserung erzielt
+
 * FIX: `Fachdaten kopieren` beim `Schüler versetzen`
 * FIX: `Bewerber > Daten2`: Dateneingabe und dann Auswahl `nächster Datensatz` Fehlermeldung korrigiert
 * FIX: `Schüler > Daten2 Abschluss` volle Zeichenlänge des Kürzels kann genutzt werden
@@ -47,7 +53,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MyMAGELLAN
 
 * FIX: In der Ansicht  `Fächer` und  `Schüler` sind die Felder `schriftl.Note1` - `Endnote (gesamt)` beschreibbar.
+* FIX: Filter im Bereich
 * CHANGE: in der Ansicht `Schüler` und `Fächer` wird die Spalte `Kurs` eingeblendet, die das Fachkürzel plus die Kursnummer ausgibt.
+
 
 ### MAGELLAN Bibliothek
 
