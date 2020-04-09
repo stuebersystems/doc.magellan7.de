@@ -16,7 +16,8 @@ In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie
 
 Feld | wahlweise<br/> editierbar | wahlweise<br/>ausblendbar | Importverhalten
 -- | -- | -- |--
-Fach | NEIN |JA | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
+Fach | NEIN |NEIN | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
+Kurs<br/>kombinierte Ansicht von Fach und Kursnummer | NEIN |NEIN | siehe Abschnitt [Informationsfelder](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#informationsfelder)
 Schriftl. Note 1 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Schriftl. Note 2 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
 Schriftl. Note 3 | JA | JA | siehe Abschnitt [Noten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#noten)
