@@ -23,6 +23,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW:
 * CHANGE: 
 * FIX: 
+* FIX: Anzeigbare Kürzellänge korrigiert für:
+  * `Bewerber > Höchster Abschluss ABS > Abschluss`
+  * `Bewerber > Höchster Abschluss ABS > Bildungsgang`
+  * `Bewerber > Höchster Abschluss BBS > Abschluss`
+  * `Bewerber > Höchster Abschluss BBS > Beruf`
+  * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
 
 ### MAGELLAN Administrator
 
