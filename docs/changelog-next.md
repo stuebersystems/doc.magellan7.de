@@ -16,6 +16,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
+!!! danger "Achtung"
+
+    Bitte beachten Sie, dass mit der letzten Version das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` aud die Dateiendung .mymx an.
+
 ## 7.1.10 - 712
 
 ### MAGELLAN
@@ -36,7 +40,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN-CENTER
 
-* FIX: MyMagellan DAteien werden zum Einlesen erkannt
+* FIX: MyMagellan Dateien werden zum Einlesen erkannt
+ 
 
 ### MyMAGELLAN
 
