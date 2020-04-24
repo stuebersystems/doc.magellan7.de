@@ -36,7 +36,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN-CENTER
 
-* NEW: 
+* FIX: MyMagellan DAteien werden zum Einlesen erkannt
 
 ### MyMAGELLAN
 
