@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN Administrator
 
 * FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
+* FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
 
 ### MyMAGELLAN-CENTER
 
