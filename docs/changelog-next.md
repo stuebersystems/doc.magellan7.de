@@ -33,6 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   * `Bewerber > Höchster Abschluss BBS > Abschluss`
   * `Bewerber > Höchster Abschluss BBS > Beruf`
   * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
+  * FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
 
 ### MAGELLAN Administrator
 
