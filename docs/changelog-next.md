@@ -25,8 +25,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN
 
 * NEW:
-* CHANGE: 
-* FIX: 
+* CHANGE:
+* FIX: Fertigstellen-Button im `Extras > Exporte > Untis` wird aktiviert  
+* FIX: Beim Anlegen eines neuen Bewerbers, wird die Anzeige der Herkunftsschule unter `Daten2` korrekt aktualisiert.
 * FIX: Anzeigbare Kürzellänge korrigiert für:
   * `Bewerber > Höchster Abschluss ABS > Abschluss`
   * `Bewerber > Höchster Abschluss ABS > Bildungsgang`
@@ -51,7 +52,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* CHANGE: 
+* FIX: Problem beim Übernehmen von Personen als Ausleiher behoben
 
 ### Berichte (NEW oder CHANGE)
 
