@@ -43,9 +43,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN-CENTER
 
-* FIX: MyMagellan Dateien werden zum Einlesen erkannt
+* FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
  
-
 ### MyMAGELLAN
 
 * FIX:
