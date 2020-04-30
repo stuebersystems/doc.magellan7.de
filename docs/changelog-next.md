@@ -44,10 +44,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MyMAGELLAN-CENTER
 
 * FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
- 
+
 ### MyMAGELLAN
 
-* FIX:
+* FIX: Anzeige der Inhalte derVerzeichnisfelder unter `Schüler > Zeugnisdaten korrgiert`
+* CHANGE: Die Anzeige der Beurteilungsarten unter `Fächer` ist angepasst worden. Statt des Drop-Downfeldes, sind jetzt Radio-Buttons verwendet worden, die dem Benutzer die gefilterte Darstellung der Liste nach der Beurteilungsart verdeutlichen.
+* CHANGE: Beim Öffnen der Ansicht `Fächer` ist wie bisher die Vorauswahl so getroffen, dass alle Schülerzeilen zum Fach gezeigt werden. In dieser Ansicht ist kein Editieren möglich. Bitte wählen Sie vor der Eingabe der Ergebnisse die gewünschte Beurteilungsart aus.
+
 
 ### MAGELLAN Bibliothek
 
