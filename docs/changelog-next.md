@@ -35,11 +35,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   * `Bewerber > Höchster Abschluss BBS > Beruf`
   * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
   * FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
+  * FIX: `Schueler > Extras > Importe > SchuelerOnline`Betriebedaten werden importert
 
 ### MAGELLAN Administrator
 
 * FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
 * FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
+  
 
 ### MyMAGELLAN-CENTER
 
