@@ -49,6 +49,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden.
 
+!!! warning "Wichtig"
+
+    Die Dateiendung im MyMagellan-Center muss bitte vor dem neuen Export angepasst werden. Um die Änderung für viele zu machen, nutzen Sie bitte die Möglichkeit des Exports und Imports der Benutzerdaten und ersetzen bitte mit "Suchen und Ersetzen" (z.b. in Excel per STRG+H aufrufbar) in der exportierten Datei und ersetzen ".mym7" (oder ".mym") durch ".mymx".
+
 ### MyMAGELLAN
 
 * NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden
