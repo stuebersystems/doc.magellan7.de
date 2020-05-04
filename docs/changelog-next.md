@@ -35,6 +35,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   * `Bewerber > Höchster Abschluss BBS > Beruf`
   * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
   * FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
+* FIX: `Import > Untis`
 
 ### MAGELLAN Administrator
 
@@ -53,7 +54,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Problem bei der Anzeige der Beurteilungsart in der Ansicht `Fächer` behoben.
 * FIX: Problem bei der Eingabe in der Fächeransicht und Anzeige in der Schüleransicht behoben.
 * FIX: Anzeige von Füllwerten korrigiert
-
 
 ### MAGELLAN Bibliothek
 
