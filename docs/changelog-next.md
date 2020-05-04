@@ -55,6 +55,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Problem bei der Anzeige der Beurteilungsart in der Ansicht `Fächer` behoben.
 * FIX: Problem bei der Eingabe in der Fächeransicht und Anzeige in der Schüleransicht behoben.
 * FIX: Anzeige von Füllwerten korrigiert
+* FIX: spaltenbezogene Filterkriterien in der Ansicht `Fächer` sichtbar
 
 ### MAGELLAN Bibliothek
 
