@@ -35,7 +35,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   * `Bewerber > Höchster Abschluss BBS > Beruf`
   * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
   * FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
-* FIX: `Import > Untis`
+* FIX: `Import > Untis` (korrigiertes Skript `Importiere SDTF.dws`)
+* FIX: `EXport > Untis` (korrigiertes Skript `Exportiere SDTF.dws`)
 * FIX: `Schueler > Extras > Importe > SchuelerOnline` Betriebedaten werden importiert
 
 ### MAGELLAN Administrator
