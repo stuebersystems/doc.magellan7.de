@@ -20,47 +20,29 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Bitte beachten Sie, dass mit der letzten Version das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` aud die Dateiendung .mymx an.
 
-## 7.1.10 - 712
+## 7.1.11 - 712
 
 ### MAGELLAN
 
 * NEW:
 * CHANGE:
-* FIX: Fertigstellen-Button im `Extras > Exporte > Untis` wird aktiviert  
-* FIX: Beim Anlegen eines neuen Bewerbers, wird die Anzeige der Herkunftsschule unter `Daten2` korrekt aktualisiert.
-* FIX: Anzeigbare Kürzellänge korrigiert für:
-  * `Bewerber > Höchster Abschluss ABS > Abschluss`
-  * `Bewerber > Höchster Abschluss ABS > Bildungsgang`
-  * `Bewerber > Höchster Abschluss BBS > Abschluss`
-  * `Bewerber > Höchster Abschluss BBS > Beruf`
-  * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
-  * FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
-* FIX: `Import > Untis` (korrigiertes Skript `Importiere SDTF.dws`)
-* FIX: `EXport > Untis` (korrigiertes Skript `Exportiere SDTF.dws`)
-* FIX: `Schueler > Extras > Importe > SchuelerOnline` Betriebedaten werden importiert
+* FIX: 
 
 ### MAGELLAN Administrator
 
-* FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
-* FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
+* FIX: 
   
 ### MyMAGELLAN-CENTER
 
-* FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
+* FIX: 
 
 ### MyMAGELLAN
 
-* FIX: Anzeige der Inhalte der Verzeichnisfelder unter `Schüler > Zeugnisdaten korrgiert`
-  * CHANGE: Die Anzeige der `Beurteilungsarten` unter `Fächer` ist angepasst worden. Statt des Drop-Downfeldes, sind jetzt Radio-Buttons verwendet worden, die dem Benutzer die gefilterte Darstellung der Liste nach der Beurteilungsart verdeutlichen. Bitte beachten Sie die angepasste Dokumentation unter [https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern](https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern)
-* CHANGE: Beim Öffnen der Ansicht `Fächer` ist wie bisher die Vorauswahl so getroffen, dass alle Schülerzeilen zum Fach gezeigt werden. In dieser Ansicht ist kein Editieren möglich. Bitte wählen Sie vor der Eingabe der Ergebnisse die gewünschte Beurteilungsart aus.
-* FIX: Problem bei der Anzeige der Beurteilungsart in der Ansicht `Fächer` behoben.
-* FIX: Problem bei der Eingabe in der Fächeransicht und Anzeige in der Schüleransicht behoben.
-* FIX: Anzeige von Füllwerten korrigiert
-* FIX: spaltenbezogene Filterkriterien in der Ansicht `Fächer` sichtbar
+* FIX: 
 
 ### MAGELLAN Bibliothek
 
-* FIX: Problem beim Übernehmen von Personen als Ausleiher behoben
+* FIX: 
 
 ### Berichte (NEW oder CHANGE)
 
@@ -72,11 +54,11 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 #### Sachsen
 
-* FIX: SAC-FOS-FHReife (D.01.04).rpt (weitere Zeugnisbemerkungen werden wieder korrekt ausgegeben)
+* FIX: 
 
 ### Nordrhein Westfalen
 
-* CHANGE: NRW-APO-BK-2012 und NRW-APO-2012 Abschaffung der so genannten „Abweichungsprüfungen“, (d.h. verpflichtende mündliche Prüfungen im ersten bis dritten Abiturfach bei einer Abweichung der Prüfungsnote von der Vornote von vier oder mehr Punkten)
+* CHANGE: 
 
 #### Optimierungen
 
