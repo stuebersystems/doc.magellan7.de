@@ -153,7 +153,7 @@ In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche N
 
 ## Kurse anlegen
 
-Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren` an.
+Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren...` an.
 
 ![Kurse definieren](/assets/images/enbrea.leistungen/13.png)
 
@@ -194,29 +194,69 @@ Findet hier aktuell noch keine Verwendung.
 
 ## Leistungsprofile anlegen
 
+Die Leistungsprofile legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Leistungsprofile definieren...` an.
+
+![Aufruf `Leistungsprofile definieren...`](/assets/images/enbrea.leistungen/21.png)
+
+Über das `Plus Symbol` wird eine neue Zeile angelegt werden. Folgende Informationen müssen hinterlegt werden
+
+Spalte | Bedeutung
+--|--
+Kurs | DropDown-Feld - Wählen Sie aus der Liste der Kurse, die vorab für diese Klasse definiert wurden, einen Kurs aus.
+Kürzel | Die Eingabe eines Kürzels ist zwingend erforderlich
+Name | Tragen Sie einen beliebigen Namen ein (in Anlehnung an den Kurs)
+Konfiguration | DropDown-Feld, wählen Sie hier "komplexer Bericht" aus 
+Notensystem | DropDown-Feld, wählen Sie hier "Tendenzen" aus 
+Notentyp | 
+Bewertungsprofil | DropDown-Feld, wählen Sie das gewünschte vorab 
+Bemerkung | Eingabe von Freitext
+interner Code | aktuell keine Bedeutung
+
+![`Leistungsprofile definieren...`](/assets/images/enbrea.leistungen/22.png)
+
+Den Fächer "Arbeitsverhalten" und "Sozialverhalten" wird über den Aufruf `Leistungsprofile definieren...` kein Kurs im Feld "Kurs" zugeordnet.
+
+![Leistungsprofil-Einträge mit und ohne Kurszuweisung](/assets/images/enbrea.leistungen/24.png)
+
 ## Kurse zuweisen
 
-Bitte weisen Sie im Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern die Kurse zu.
+### Schüler > Zeugnis > ENBREA Kurse
 
-Im Auswahlfenster können Sie in Schritt 1. die gewünschten Schüler markieren.
+Bitte weisen Sie im Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern einer Klasse die Kurse zu.
 
-![Kurse - Schüler auswählen](/assets/images/enbrea.leistungen/11.png)
+Es öffnet sich ein Assistent, im Auswahlfenster können Sie im ersten Fenster die gewünschten Schüler markieren.
 
-Betätigen Sie bitte mit `Weiter` dann können Sie die gewünschten Kurse auswählen.
+![Kurse - Schüler auswählen](/assets/images/enbrea.leistungen/25.png)
 
-![Kurse - Kurse auswählen](/assets/images/enbrea.leistungen/12.png)
+Bestätigen Sie bitte mit `Weiter`. Hier wählen Sie die gewünschten Kurse aus.
+
+![Kurse - Kurse auswählen](/assets/images/enbrea.leistungen/26.png)
+
+Bestätigen Sie bitte mit `Weiter`. Es werden den gewählten Schülern jeweils noch nicht existierende Kurse zugewiesen, so dass Kurse nicht doppelt belegt werden können. Insofern die Kurse Leistungsprofile enthalten, werden diese automatisch mit den Schülern synchronisert.  
+
+Beenden Sie den Assisten mit `Fertigstellen`.
+
+Im Menü `Schüler > Zeugnis > ENBREA Kurse` ergibt sich nun folgendes Bild:
+
+![Ergbnis der Kurszuweisung](/assets/images/enbrea.leistungen/27.png)
+
+### Schüler > Zeugnis > ENBREA Leistungen
+
+Wechseln Sie in das Menü `Schüler > Zeugnis > ENBREA Leistungen`. Hier finden Sie Ihre Kurse mit und ohne Leistungsprofilen. Die Benotung erfolgt in dieser Ansicht.
+
+![ENBREA Lernlesitungen](/assets/images/enbrea.leistungen/28.png)
 
 ## Halbjahreswechsel
 
 1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. 
-Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie hier:
-https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
+Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/)
+
 
 !!! info "Hinweis"
     
     Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zuwiesen. Diese können über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernommen werden.
 
-2. Bitte gehen Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` den  `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
+2. Bitte wechseln Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` den `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
 
 ![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
 
@@ -224,12 +264,14 @@ https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/
 
 1. Neuen Zeitraum anlegen (`Extras > Schlüsselverzeichnisse > Zeiträume`)
 
-2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`.
-
-Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
 
 3. Schüler in die neue Klasse versetzen (`Laufbahnprozess > Schüler versetzen`)
 
-4. Den Schülern Kurse zuweisen (Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern die Kurse zuweisen.)
-Weitere Informationen zum Schuljahreswechsel finden Sie hier:
-https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/
+4. Den Schülern Kurse zuweisen (Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.)
+
+Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/)
+
+
+
+
