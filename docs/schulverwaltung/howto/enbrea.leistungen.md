@@ -23,31 +23,33 @@ Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erf
 * Notensysteme
 * Notentypen
 
-Folgender Auszug einer Zeugnisvorlage für das Fach Mathematik soll uns als Beispiel für die Dateneingabe in MAGELLAN dienen:
+Folgender Auszug einer Zeugnisvorlage für das Fach "Mathematik" soll uns als Beispiel für die Dateneingabe in MAGELLAN dienen:
 
 ![Beispiel für eine Zeugnis](/assets/images/enbrea.leistungen/02.png)
 
 ### Bewertungsprofile
 
-Öffnen Sie zunächst das `Extras > Schlüsselverzeichnisse > Bewertungsprofile`. Dieses Verzeichnis ist in folgende Registerkarten unterteilt:
+Öffnen Sie zunächst das `Schlüsselverzeichnis > Bewertungsprofile` . Dieses Verzeichnis ist in folgende Registerkarten unterteilt:
 
-* Bewertungsprofil
-* Bewertungsprofil-Gruppen
-* Bewertungsprofil-Einträge
+* Bewertungsprofile
+* Bewertungsgruppen
+* Bewertungseinträge
+
+![Beispiel für `Schlüsselverzeichnis > Bewertungsprofile`](/assets/images/enbrea.leistungen/17.png)
 
 Die Bewertung eines Faches wird wie folgt differenziert:
 
-![Beispiel für das Schlüsselverzeichnis Bewertungsprofil](/assets/images/enbrea.leistungen/03.png)
+![Differenzierung des Faches Mathematik](/assets/images/enbrea.leistungen/18.png)
 
-#### Unterkarte Bewertungsprofil
+#### Bewertungsprofile > Bewertungsprofile
 
 ![Unterkarte Bewertungsprofile](/assets/images/enbrea.leistungen/04.png)
 
-Der Eintrag eines Wertes auf der Unterkarte Bewertungsprofil entspricht im oberen Beispiel dem Eintrag "Mathematik".
+Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungsprofile` entspricht im oberen Beispiel dem Eintrag "Mathematik". 
 
 Feld|Bedeutung
 --|--
-Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewähltn Kurzform für "Mathematik(01)", also für Mathe in der Klassenstufe 1.
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewählten Kurzform für "Mathematik (01)", also für Mathe in der Klassenstufe 1.
 Bezeichnung| freie Wahl
 Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Beurteilung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
 Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
@@ -58,15 +60,22 @@ interner Code| derzeit nicht in Benutzung
 
     Weichen die Bewertungsprofile pro Klassenstufe ab, legen Sie hier für jedes Fach entsprechend der Klassenstufe ein Bewertungsprofil an. Zunächst genügen die Einträge in den Spalten "Kürzel" und "Bezeichnung". Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Kürzel und Bezeichnung.
 
-#### Unterkarte Bewertungsgruppen
+#### Bewertungsprofile > Bewertungsgruppen
 
 ![Unterkarte Bewertungsgruppen](/assets/images/enbrea.leistungen/05.png)
 
-Der Eintrag eines Wertes auf der Unterkarte Bewertungsgruppen entspricht im oberen Beispiel einem Eintrag unterhalb von "Mathematik", in diesem Beispiel dem Eintrag "Zahlen und Optionen". Es könnte unterhalb von Mathematik auch mehr als eine Unterteilung (mehr als eine Bewertungsgruppe) geben.
+Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungsgruppen` entspricht im oberen Beispiel einem Eintrag unterhalb von "Mathematik", in diesem Beispiel den Einträgen:
+
+* Zahlen und Operationen
+* Raum und Form
+* Größen und Messen
+* Daten, Häufigkeit und Wahrscheinlichkeit
+
+Ein Bewertungsprofil (hier: Mathematik) kann in beliebig viele Bewertungsgruppen unterteilt werden. Es kann auch sein, dass es für ein Bewertungsprofil keine Bewertungsgruppe gibt. (Wie im Beispiel "indische Landeskunde")
 
 !!! tip "Tipp"
 
-    Um eine Bewertungsgruppe anzulegen, müssen Sie auf der ersten Karte das Bewertungsprofil markieren, dann auf die Unterkarte Bewertungsgruppen wechseln und einen Eintrag anlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
+    Um eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Karte das Bewertungsprofil markieren, dann auf die Unterkarte Bewertungsgruppen wechseln und einen Eintrag anlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
 
 Feld|Bedeutung
 --|--
@@ -78,11 +87,11 @@ Position| Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorg
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-#### Unterkarte Bewertungseinträge
+#### Bewertungsprofile > Bewertungseinträge
 
 ![Unterkarte Bewertungseinträge](/assets/images/enbrea.leistungen/06.png)
 
-Der Eintrag eines Wertes auf der Unterkarte `Bewertungseinträge` entspricht im oberen Beispiel einem Eintrag unterhalb von "Zahlen und Optionen". Es kann unterhalb von "Zahlen und Optionen" auch mehrere Einträge geben. Jeder Bewertungseintrag ist einer Bewertungsgruppe zuzuweisen. 
+Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungseinträge` entspricht im oberen Beispiel einem Eintrag unterhalb von "Zahlen und Optionen". Es kann unterhalb von "Zahlen und Optionen" auch mehrere Einträge geben. Jeder Bewertungseintrag ist einer Bewertungsgruppe zuzuweisen.
 
 Feld|Bedeutung
 --|--
@@ -98,7 +107,7 @@ interner Code| derzeit nicht in Benutzung
 
 ![Schlüsselverzeichnis Notensysteme](/assets/images/enbrea.leistungen/07.png)
 
-Öffnen Sie zunächst das `Extras > Schlüsselverzeichnisse > Notensysteme`. Dieses Verzeichnis ist in folgende Registerkarten unterteilt:
+Öffnen Sie über `Extras > Schlüsselverzeichnisse > Notensysteme` das Verzeichnis der Notensystem. Dieses ist in folgende Registerkarten unterteilt:
 
 * Notensysteme
 * Notensystem-Einträge
@@ -106,7 +115,7 @@ interner Code| derzeit nicht in Benutzung
 Innerhalb Ihrer Schule und bei komplexeren Zeugnisberichten kann es unterschiedliche Systeme zur Beurteilung geben: Noten, Punkte, Prozente, Tendenzen...
 Diese Arten der Beurteilung (Notensysteme) werden mit den einzelnen Beurteilungswerten (Notensystem-Einträge) in diesem Schlüsselverzeichnis angelegt.
 
-#### Unterkarte Notensystem
+#### Notensysteme > Notensysteme
 
 ![Unterkarte Notensysteme](/assets/images/enbrea.leistungen/08.png)
 
@@ -118,7 +127,7 @@ Wertetyp| Mögliche Werte `Zahlen` oder `Texte`
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-#### Unterkarte Notensystem-Einträge
+#### Notensysteme > Notensystem-Einträge
 
 ![Unterkarte Notensystem-Einträge](/assets/images/enbrea.leistungen/09.png)
 
@@ -150,26 +159,38 @@ Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofi
 
 Es öffnet sich das Dialogfenster zum Definieren der Kurse
 
-![Kurse definieren](/assets/images/enbrea.leistungen/14.png)
+![Kurse definieren](/assets/images/enbrea.leistungen/19.png)
 
-Über das Plus Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden.
+Über das `Plus Symbol` kann ein neuer Kurs mit folgenden Informationen angelegt werden.
 
 Spalte | Bedeutung
 --|--
-Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen <br/>- Bearbeiten: Neu anlegen über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
-Fach| Auswahl aus dem Schlüsselverzeichnis "Fächer"
-Unterrichtsart|Auswahl aus dem Schlüsselverzeichnis "Unterrichtsart"
-Fachstatus|Auswahl aus dem Schlüsselverzeichnis "Fachstatus"
-Lehrer|Auswahl aus der Liste der Lehrer mit dem Status "Aktiv"
-Schwerpunkt|Auswahl aus dem Schlüsselverzeichnis "Fachschwerpunkt"
-Niveau|Auswahl aus dem Schlüsselverzeichnis "Fachniveaus"
-Kursnr.|Eingabe einer Kursnr."
-Bilingual|Auswahl aus dem Schlüsselverzeichnis "Kurssprachen"
-Merkmal|Eingabe von Freitext
+Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen:  über das `Plus Symbol` <br/>- Bearbeiten: über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
+Fach| Auswahl aus dem `Schlüsselverzeichnis > Fächer`
+Unterrichtsart|Auswahl aus dem `Schlüsselverzeichnis > Unterrichtsart`
+Fachstatus|Auswahl aus dem `Schlüsselverzeichnis  > Fachstatus`
+Lehrer|Auswahl aus der Menü Lehrer mit dem Status "Aktiv"
+Schwerpunkt | Auswahl aus dem `Schlüsselverzeichnis > Fachschwerpunkt`
+Niveau | Auswahl aus dem `Schlüsselverzeichnis  > Fachniveaus `
+Kursnr.| Eingabe einer Kursnummer
+Bilingual|Auswahl aus dem `Schlüsselverzeichnis > Kurssprachen`
+Merkmal | Eingabe von Freitext
 
-Kurse mit Leistungprofil duplizieren:
-Kurs duplizieren:
-Übergreifend verwenden:
+### Kurs duplizieren
+
+Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs in ihre gewählte Klasse übernehmen. Wählen Sie zunächst im unteren Bereich des Fenster den gewünschten Kurs und wählen dann in der Menüleiste des Fensters `Kurs duplizieren`.
+
+![Kurse duplizieren](/assets/images/enbrea.leistungen/20.png)
+
+!!! info "Hinweis"
+    
+    Sie können auch mehrere Kurse in einem Schritt duplizieren. Markieren Sie über `Strg + linke Maustaste` die gewünschte Kurse und wählen Sie dann den Aufruf `Kurs duplizieren`.
+
+### Kurse mit Leistungprofil duplizieren
+
+### Übergreifend verwenden
+
+Findet hier aktuell noch keine Verwendung.
 
 ## Leistungsprofile anlegen
 
