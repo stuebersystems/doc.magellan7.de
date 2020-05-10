@@ -58,7 +58,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ### Auslandsschule
 
-* FIX: DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt (Korrektur Seite 2, Ausgabe Schüler/In )
+* FIX: DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt (Korrektur Seite 2, Ausgabe Schüler/In)
+* NEW: DAS-GY-ABI (DIA)(2020)(keine mdl. Prüfung möglich).rpt
 
 ### Nordrhein Westfalen
 
