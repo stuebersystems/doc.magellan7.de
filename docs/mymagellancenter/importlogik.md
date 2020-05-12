@@ -76,7 +76,7 @@ Leistungsanforderung | JA |JA | siehe Abschnitt [Zeugnisdaten](https://doc.magel
 
 ## Informationsfelder
 
-Die Inhalte dieser Felder werden nur zur Information udn für eine einfachere Sortierung nach MyMAGELLAN übertragen, es ist keine Änderung dieser Inhalte über MyMAGELLAN möglich.
+Die Inhalte dieser Felder werden nur zur Information und für eine einfachere Sortierung nach MyMAGELLAN übertragen, es ist keine Änderung dieser Inhalte über MyMAGELLAN möglich.
 
 ## Noten
 
