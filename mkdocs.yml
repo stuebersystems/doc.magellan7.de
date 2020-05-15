@@ -108,6 +108,7 @@ nav:
       - MAGELLAN ADMINISTRATOR: 
         - Übersicht: schulverwaltung/admin/magellan.administrator.md
         - Datenbankverbindungen: schulverwaltung/admin/admin.datenbankverbindungen.md
+        - Datenbanksicherungen: schulverwaltung/admin/sicherung.md
         - Benutzerverwaltung: schulverwaltung/admin/users.md
         - MyMAGELLAN Center: schulverwaltung/admin/mymagellan-center.md
         - Datenbankpflege: schulverwaltung/admin/datenbankpflege.md
