@@ -31,8 +31,6 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 ![Beispiel für eine Anbindung an eine lokale Datenbank](/assets/images/magellan.administrator/unterkarte.datenbank.lokal.png)
 
-
-
 ## Unterpunkt Datensicherung
 
 Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt "Datensicherung"!
@@ -133,13 +131,13 @@ Anmeldung|Benutzer|Tragen Sie bitte die sysdba-Kennung ein!
 Anmeldung|Kennwort|Tragen Sie bitte Ihr sysdba-Passwort ein!
 Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte Aktion!
 
-
 !!! info "Hinweis"
 
 	Wenn Sie von einem Client aus die Sicherung der Datenbank auf dem Server durchführen, haben Sie nicht die Möglichkeit (Schaltfläche mit den drei Punkten am Ende der Zeile) den Pfad auszusuchen. Sie können lediglich manuell den entsprechenden Pfad eintragen. Erwartet wird immer lokaler Pfad auf dem Rechner, auf dem auch der Firebirdserver läuft. Sie können keine Sicherung auf einen anderen Rechner in Ihrem Netzwerk erstellen lassen.Eine Sicherungskopie kann im laufenden Betrieb von MAGELLAN durchgeführt werden. Von der Sicherungskopie sind alle Dokumente, Word-Vorlagen und Berichte ausgenommen.
 
+!!! danger "Achtung"
 
-
+	Achten Sie bitte darauf, dass die Verzeichnisse, die in den Pfaden angegebnen werden auch existieren. Legen Sie ggfs. bitte `Datenbank > **Datensicherung** > **Backup**` und `Datenbank > **Datensicherung** > **Restore**` an.
 
 ## Einbinden der Sicherung in den Windows Taskplaner
 
