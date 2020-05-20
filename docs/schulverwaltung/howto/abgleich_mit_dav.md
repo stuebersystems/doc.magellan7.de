@@ -279,7 +279,18 @@ Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, we
 
 Mit der Option `Nur geänderte Daten` werden nur solche die Schüler für den Import berücksichtigt, deren Daten sich zwischen MAGELLAN und der zu importierenden Schuldatentransferdatei in der Kurswahl unterscheiden. Die Unterscheidung erfolgt auf Basis der Unterschiede
 
-* in der Fachkombinationsnummer oder
-* oder in der Kombination aus Fach, Unterrichtsart, Fachstatus, Kursummer, Schwerpunkt und Merkmal 
+Unterschied|Ergebnis
+--|--
+erste Variante|**Fachkombinationsnummer**
+Programmstellen|`MAGELLAN > Schüler > Zeugnis > Details > Fachkombination`<br/><br/>`MAGELLAN > Schüler > Zeugnis > Details > Tutor`<br/>`DAVINCI > Kursplan > Fachwahl`<br/>`DAVINCI > Kursplan > Schüler > Schlüssel`
+Ergebnis|Hat sich die Fachkombinationnummer durch die Fachwahlprüfung geändert, wird diese übertragen und der Tutor übertragen.
+zweite Variante| **Unterschied in der Schülerkurswahl**
+Programmstellen|`MAGELLAN > Schüler > Zeugnis > Fächer`<br/>`MAGELLAN > Schüler > Zeugnis > Leistungen`<br/>`DAVINCI > Kursplan > Schüler/Fachwahlen`
+Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart<br/>* Fachstatus<br/>* Kursummer<br/>* Schwerpunkt<br/>* Merkmal <br/><br/> Hat sich eine Änderung bei den Schülerfachdaten (`Schüler > Zeugnis > Fächer`) gegeben, werden die Fach- und Leistungsdaten des Zeitraums gelöscht und neu mit den Daten aus DAVINCI gefüllt.
 
-Zur Berücksichtigung reicht ein einziger Unterschied aus.
+!!! danger "Achtung"
+
+	Werden die Schülerfächer in MAGELLAN durch den Abgleich gelöscht können zwei Folgeprobleme entstehen.
+	1. Die Schülerfächer sind die Grundlage für die Halbjahresnoten. Werden die Fächer durch den Übertrag entfernt, werden auch gegebenenfalls bereits erfasste Noten gelöscht.
+	2. Für MyMagellan-Dateien werden die Inhalte aus `Schüler > Zeugnis > Fächer` verwendet. Dabei werden die Daten anhand der ID aus der Tabelle SchuelerFachdaten gespeichert. Werden die Fächer in MAGELLAN gelöscht und neu angelegt, wird auch eine neue ID für die Fachzeilen in der Tabelle SchuelerFachdaten vergeben. Damit können die Daten aus den zuvor erzeugten MyMagellan-Dateien nicht mehr zugeordnet werden.
+
