@@ -279,7 +279,7 @@ Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, we
 
 Mit der Option `Nur geänderte Daten` werden nur solche die Schüler für den Import berücksichtigt, deren Daten sich zwischen MAGELLAN und der zu importierenden Schuldatentransferdatei in der Kurswahl unterscheiden. Die Unterscheidung erfolgt auf Basis der Unterschiede
 
-Unterschied|Ergebnis
+Bezeichnung|Inhalt
 --|--
 erste Variante|**Fachkombinationsnummer**
 Programmstellen|`MAGELLAN > Schüler > Zeugnis > Details > Fachkombination`<br/><br/>`MAGELLAN > Schüler > Zeugnis > Details > Tutor`<br/>`DAVINCI > Kursplan > Fachwahl`<br/>`DAVINCI > Kursplan > Schüler > Schlüssel`
@@ -291,6 +291,8 @@ Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart
 !!! danger "Achtung"
 
 	Werden die Schülerfächer in MAGELLAN durch den Abgleich gelöscht können zwei Folgeprobleme entstehen.
+	
 	1. Die Schülerfächer sind die Grundlage für die Halbjahresnoten. Werden die Fächer durch den Übertrag entfernt, werden auch gegebenenfalls bereits erfasste Noten gelöscht.
+	
 	2. Für MyMagellan-Dateien werden die Inhalte aus `Schüler > Zeugnis > Fächer` verwendet. Dabei werden die Daten anhand der ID aus der Tabelle SchuelerFachdaten gespeichert. Werden die Fächer in MAGELLAN gelöscht und neu angelegt, wird auch eine neue ID für die Fachzeilen in der Tabelle SchuelerFachdaten vergeben. Damit können die Daten aus den zuvor erzeugten MyMagellan-Dateien nicht mehr zugeordnet werden.
 
