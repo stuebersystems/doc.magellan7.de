@@ -39,6 +39,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   
 * FIX: BER-APO-KO-2017.dws
 
+### MAGELLAN-Skripteditor
+
+* CHANGE: überarbeitete Version
+
 ### MyMAGELLAN-CENTER
 
 * FIX: 
