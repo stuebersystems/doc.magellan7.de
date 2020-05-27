@@ -26,7 +26,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
-<<<<<<< HEAD
 ### Datenstruktur
 
 * NEW: Tabelle `Leistungsarten` 
@@ -35,26 +34,33 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   *  `HJ1_Bestanden` bis `HJ6_Bestanden`
   *  NEW: Schuelerfachdaten: `Leistungsart`
 
-=======
->>>>>>> e6298011908a0a2798d8c89800f6812c43b07097
 ### MAGELLAN
 
 * NEW: Schlüsselverzeichnis `Leistungsarten` mit Arten (Schriftlich, mündlich, praktisch) und gleichnamiges Feld unter `Schüler > Zeugnis > Leistungen`.
   * Dieses Feld wird für die Oberstufe in NRW benötigt. Man legt sich seine Arten der Leistung an (Beispiel Vortrag, Klausur usw) und markiert sie mit der korrekten Art (Beispiel: Klausur = schriftlich). Bei den Schülern wird unter `Schüler > Zeugnis > Leistungen` jedes Fach mit der vom Schüler gewählten Leistungsart markiert. Diese Leistungsart wird je Kurshalbjahr beim Synchronisieren der Daten mit ins Menü `Abitur > Qualifikation` übernommen. Die Leistungsart wird nur für benotete Fächer übernommen.
 * NEW: Unter `Abitur > Qualifikation` kann je Fach und Kurshalbjahr der Kurs als bestanden markiert werden. Diese Eingabe ist für die Oberstufe in NRW gedacht.
+
 * CHANGE: `Bewerber > Bewerbungsdaten > Fachdaten > Externe Prüfung der Fremdsprache(n)` Aus der Checkbox wurde eine Werteliste mit den Werten `bereits absolviert` und `angestrebt` eingefügt. 
 * CHANGE: `Bewerber > Bewerbungsdaten > Verfahren > Einschätzung` Die Benennung der rechten Spalte wurde von `Bewerber` in `Kollegiat/in` geändert.
-* FIX: Unter `Extras > Schlüsselverzeichnisse > Fächer` kann ein versehentlich erfasster Aufgabenbereich entfernt werden.
+
+* FIX: Unter `Extras > Schlüsselverzeichnisse > Fächer` kann ein versehentlich erfasster `Aufgabenbereich` entfernt werden.
 * FIX: Import SchuelerOnline
 * FIX: `Schüler > Laufbahnprozess > Schüler einschulen` bei der Kopie eines Schülers wird beim Einschulen die Herkunftsschule aktualisiert
+* FIX: Bei der Änderung eines Schlüsselverzeichnisses während der Bereich `Schüler > Zeugnis` geöffnet war, erschien eine Meldung 
+* FIX: Problem beim Synchronisieren von Schülern in die Berufsschulmatrix behoben (`Synchronisiere BBS.dws`)
+
+### MAGELLAN ADMINISTRATOR
+
+* FIX: Reihenfolge beim Einlesen der Dateien aus dem MAGELLAN Importformat korrigiert
 
 ### Skripte
 
-* FIX: `Importe SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
 * CHANGE: `Importe SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DAVINCI nach MAGELLAN werden die Schülerfachdaten in MAGELLAN nicht mehr geändert, wenn die Fachkombinationsnummer in DAVINCI verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DAVINCI: Schülerkurswahlen mit der Option "nur geänderte Daten" ](https://doc.magellan7.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
-* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen.
-  
+* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen. 
+
+* FIX: `Importe SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
 * FIX: BER-APO-KO-2017.dws: Anpassungen für MAGELLAN 7
+* FIX: `Synchronisiere BBS.dws`
 
 ### MAGELLAN-Skripteditor
 
