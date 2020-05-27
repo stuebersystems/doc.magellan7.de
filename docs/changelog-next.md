@@ -59,8 +59,28 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen. 
 
 * FIX: `Importe SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
+=======
+* FIX: `Schüler > Daten 1 > Familie` - Die Anzeige des `Verhältnis` zeigt jetzt zusätzliche Verhältnisse an
+* FIX: `Sorgeberechtigte > Arbeitgeber` - Schaltflächen werden jetzt korrekt aktiviert
+* FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile > Dialogfenster Kurse definieren`  - Die Überschriften wurden überarbeitet, der blaue Hintergrund entfernt
+
+### Skripte
+
+* FIX: `Importe SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
+* CHANGE: `Importe SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DAVINCI nach MAGELLAN werden die Schülerfachdaten in MAGELLAN nicht mehr geändert, wenn die Fachkombinationsnummer in DAVINCI verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DAVINCI: Schülerkurswahlen mit der Option "nur geänderte Daten"](https://doc.magellan7.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
+* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen.
+  
+>>>>>>> 4b4e66049dcd6e0323f34b19e15a39ef8c0935bb
 * FIX: BER-APO-KO-2017.dws: Anpassungen für MAGELLAN 7
 * FIX: `Synchronisiere BBS.dws`
+
+### Schnittstellen
+
+* NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
+* NEW: SAC - SAXSVS - Schnittstelle um Exportdatei mit  Abgängern/Abschlüssen erweitert
+* CHANGE: SAC - SAXSVS - Export der Betriebedaten auch, wenn nur Ausbildungs- oder Praxisbetrieb angegeben wurde.
+* FIX: SAC - SAXSVS - Detailverbesserungen und Sonderfälle beim Export berücksichtigt
+* NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben
 
 ### MAGELLAN-Skripteditor
 
@@ -68,15 +88,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN-CENTER
 
-* FIX: 
+* FIX:
 
 ### MyMAGELLAN
 
-* FIX: 
+* FIX:
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
+* FIX: Löschen von Exemplaren funktioniert wieder
 
 ### Berichte (NEW oder CHANGE)
 
