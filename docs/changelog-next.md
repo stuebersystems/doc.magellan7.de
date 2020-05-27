@@ -48,6 +48,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Schüler > Laufbahnprozess > Schüler einschulen` bei der Kopie eines Schülers wird beim Einschulen die Herkunftsschule aktualisiert
 * FIX: Bei der Änderung eines Schlüsselverzeichnisses während der Bereich `Schüler > Zeugnis` geöffnet war, erschien eine Meldung 
 * FIX: Problem beim Synchronisieren von Schülern in die Berufsschulmatrix behoben (`Synchronisiere BBS.dws`)
+* FIX:Eintrag unter `Sorgeberechtigte > Arbeitgeber` wieder möglich
 
 ### MAGELLAN ADMINISTRATOR
 
