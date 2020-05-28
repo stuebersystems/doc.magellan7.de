@@ -82,7 +82,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: SAC - SAXSVS - Export der Betriebedaten auch, wenn nur Ausbildungs- oder Praxisbetrieb angegeben wurde.
   
 * FIX: SAC - SAXSVS - Detailverbesserungen und Sonderfälle beim Export berücksichtigt
-* FIX: SAC - SAXSVS - Fehlermeldung betreff SchuelerID doppelter Schlüssel
 
 
 ### MAGELLAN-Skripteditor
