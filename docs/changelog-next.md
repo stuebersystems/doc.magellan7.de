@@ -107,6 +107,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: SAC-BG-ABI (E.01.06).rpt (Zeugnisbemerkungen aus dem Menü Abitur > Zeugnisbemerkungen werden nun im Bericht angezeigt, Ausgabe der Fachrichtung des Schülers erweitert. Für die Ausgabe der Fachrichtung müssen Sie entweder das Berufsfeld einer Klasse definieren oder das des Schülers.)
 * FIX: SAC-FOS-AZ (D.01.03).rpt (Umbruch bei den Fachbezeichnungen im Pflichtbereich korrigiert)
+* NEW: SAC-BVJ-AS (A.01.10).rpt (Zeugnis der Berufsschule Berufsvorbereitungsjahr)
+* NEW: SAC-BGJ-AS (A.01.11).rpt (Zeugnis der Berufsschule Berufsgrundbildungsjahr)
 
 #### Niedersachsen
 
@@ -114,8 +116,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ### Auslandsschule
 
-* FIX: DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt (Korrektur Seite 2, Ausgabe Schüler/In, Anpassungen gemäß der Vorgaben *Handreichungen für die Sekundarstufe I an Deutschen Schulen im Ausland für Zeugnisse und Statistik
-(Beschluss des Bund-Länder-Ausschusses vom 25.09.2019)*)
+* FIX: DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt (Korrektur Seite 2, Ausgabe Schüler/In, Anpassungen gemäß der Vorgaben *Handreichungen für die Sekundarstufe I an Deutschen Schulen im Ausland für Zeugnisse und Statistik (Beschluss des Bund-Länder-Ausschusses vom 25.09.2019)*)
 * NEW: DAS-GY-ABI (DIA)(2020)(keine mdl. Prüfung möglich).rpt
 
 ### Nordrhein Westfalen
