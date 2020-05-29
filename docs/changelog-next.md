@@ -57,7 +57,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Skripte
 
 * CHANGE: `Importe SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DAVINCI nach MAGELLAN werden die Schülerfachdaten in MAGELLAN nicht mehr geändert, wenn die Fachkombinationsnummer in DAVINCI verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DAVINCI: Schülerkurswahlen mit der Option "nur geänderte Daten" ](https://doc.magellan7.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
-* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen. 
+* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen.
 
 * FIX: `Importe SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
 * FIX: `Schüler > Daten 1 > Familie` - Die Anzeige des `Verhältnis` zeigt jetzt zusätzliche Verhältnisse an
@@ -69,7 +69,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Schnittstellen
 
 * NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben*
- NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
+* NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
 * NEW: SAC - SAXSVS - Schnittstelle um Exportdatei mit  Abgängern/Abschlüssen erweitert
   
 * CHANGE: SAC - SAXSVS - Export der Betriebedaten auch, wenn nur Ausbildungs- oder Praxisbetrieb angegeben wurde.
