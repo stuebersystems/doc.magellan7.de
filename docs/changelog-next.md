@@ -103,6 +103,10 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * CHANGE:  
 
+#### Berlin
+
+* NEW: BER-Schul Z 256 (2019.2020).rpt
+
 #### Sachsen
 
 * FIX: SAC-BG-ABI (E.01.06).rpt (Zeugnisbemerkungen aus dem Menü Abitur > Zeugnisbemerkungen werden nun im Bericht angezeigt, Ausgabe der Fachrichtung des Schülers erweitert. Für die Ausgabe der Fachrichtung müssen Sie entweder das Berufsfeld einer Klasse definieren oder das des Schülers.)
