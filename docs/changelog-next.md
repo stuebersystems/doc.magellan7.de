@@ -99,6 +99,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN Bibliothek
 
 * FIX: Löschen von Exemplaren funktioniert wieder
+* FIX: Optionen können von Benutzern mit Rechten für die Bibliothek geändert werden
 
 ### Berichte (NEW oder CHANGE)
 
