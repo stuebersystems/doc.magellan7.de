@@ -105,6 +105,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
+* CHANGE: Schülerpersonalblatt (Überprüfung Stammdaten).rpt (PraxisBetrieb Name 1 und Name 2 werden ausgegeben)
+
 #### Mecklenburg Vorpommern
 
 * CHANGE:  
@@ -116,7 +118,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 #### Niedersachsen
 
-* FIX: NIE-GY (Studienbuch - Einführungsphase) G9.rpt (m Bereich Sport wird nun die Null beim Punktwert vorangestellt, Wahlb-Fächer werden wieder korrekt nur im Bereich der Wahlfächer ausgegeben)
+* FIX: NIE-GY (Studienbuch - Einführungsphase) G9.rpt (im Bereich Sport wird nun die Null beim Punktwert vorangestellt, Wahlb-Fächer (Fachstatus = Wahlb) werden wieder korrekt nur im Bereich der Wahlfächer ausgegeben)
 
 ### Auslandsschule
 
