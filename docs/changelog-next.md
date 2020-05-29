@@ -68,7 +68,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Schnittstellen
 
-* NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben*
+* NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben
 * NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
 * NEW: SAC - SAXSVS - Schnittstelle um Exportdatei mit  Abgängern/Abschlüssen erweitert
   
