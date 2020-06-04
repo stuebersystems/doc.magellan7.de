@@ -26,6 +26,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
+* FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
+* FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
+
 ### MAGELLAN ADMINISTRATOR
 
 ### Skripte
@@ -56,7 +59,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 #### Berlin
 
-* NEW:
+* NEW: BER-Schul Z 255 (2019.2020).rpt
+* FIX: BER-Schul Z 256 (2019.2020).rpt
 
 #### Sachsen
 

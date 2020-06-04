@@ -51,6 +51,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Sorgeberechtigte > Arbeitgeber` - Schaltflächen werden jetzt korrekt aktiviert
 * FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile > Dialogfenster Kurse definieren`  - Die Überschriften wurden überarbeitet, der blaue Hintergrund entfernt  
 
+
 ### MAGELLAN ADMINISTRATOR
 
 * FIX: Reihenfolge beim Einlesen der Dateien aus dem MAGELLAN Importformat korrigiert
