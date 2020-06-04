@@ -26,6 +26,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN
 
+* FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
+* FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
+
 ### MAGELLAN ADMINISTRATOR
 
 ### Skripte
