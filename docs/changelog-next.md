@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Skripte
 
 * FIX: SHL-APO-2018: Anpassung Fachanforderungen Sport: kaufmännische Rundung nur am Schluss: ((schr. Note des 3. Prüfungsfaches x 2) plus Note1 (Fachpraxis) plus Note2 (Fachpraxis)) geteilt durch 4.
+* FIX: SAC-APO-BGY-2017: Mit den Änderungen durch Artikel 2 der Verordnung vom 24. Juli 2018 entfällt jegliche Unterscheidung nach den Fachrichtungen.Somit muss in MAGELLAN im Schlüsselverzeichnis > Verordnungen auch nicht mehr der Wert für "Typ" eingetragen werden.
 
 ### Schnittstellen
 
@@ -49,7 +50,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MyMAGELLAN
 
-* FIX:
+* FIX: Installationspaket vervollständigt, bei reinen MyMAGELLAN-Installationen erschien beim Eintrag von Schülerbemerkungen eine Meldung, die auf eine fehlende Datei hinwies.
 
 ### MAGELLAN Bibliothek
 
