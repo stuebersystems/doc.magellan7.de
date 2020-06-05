@@ -31,6 +31,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Bewerber > Daten 1` beim Anlegen eines neuen Sorgeberechtigten, wird die Gemeindekennziffer vorbelegt
 * FIX: Nebenschüler mit Ausbildungsbtriebe werden als Auszubildende beim Betrieb angezeigt
 
+#### MAGELLAN Berichte
+
+* NEW: Das Modul `MAGELLAN Berichte` fällt weg, die Dokumentation der Berichte erfolgt ab dieser Version ausschließlich im Bereich Berichte der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)!
+
 ### MAGELLAN ADMINISTRATOR
 
 * FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar 
