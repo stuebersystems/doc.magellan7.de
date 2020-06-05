@@ -28,8 +28,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
 * FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
+* FIX: `Bewerber > Daten 1` beim Anlegen eines neuen Sorgeberechtigten, wird die Gemeindekennziffer vorbelegt
+* FIX: Nebenschüler mit Ausbildungsbtriebe werden als Auszubildende beim Betrieb angezeigt
 
 ### MAGELLAN ADMINISTRATOR
+
+* FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar 
 
 ### Skripte
 
