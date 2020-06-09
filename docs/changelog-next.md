@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN ADMINISTRATOR
 
-* FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar 
+* FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar
 
 ### Skripte
 
@@ -70,6 +70,8 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * NEW: BER-Schul Z 255 (2019.2020).rpt
 * FIX: BER-Schul Z 256 (2019.2020).rpt
+* FIX: BER-GY (Abi-18a - Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.12).rpt
+* FIX: BER-GY (abi_4_berechnungsbogen)(10.16).rpt
 
 #### Sachsen
 
