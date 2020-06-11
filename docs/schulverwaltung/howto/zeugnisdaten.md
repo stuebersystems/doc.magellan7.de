@@ -222,6 +222,12 @@ Auf der Registerkarte `Leistungen` werden also im Regelfall nur die Noten einget
 
     Wenn Sie innerhalb eines Zeitraums aufgrund der eingetragenen Noten Versetzungen, Abschlüsse bzw. Durchschnittsnoten berechnen wollen, müssen Sie das Optionsfeld `Durchschnitt einblenden` markieren.
 
+#### Leistungsarten
+
+Die Angabe der Lesitungsarten wird für bestimmte Berechnungsskripte benötigt. 
+
+Bitte geben Sie die Leistungsarten bei den Schülern unter `Schüler > Zeugnis > Leistungen` für jedes Fach mit der vom Schüler gewählten Leistungsart an. Diese Leistungsart wird je Kurshalbjahr beim Synchronisieren der Daten mit ins Menü `Abitur > Qualifikation` übernommen. Die Leistungsart wird nur für benotete Fächer übernommen. Grundlage ist das Schlüsselverzeichnis `Verzeichnisse > Leistungsarten` mit Arten (Schriftlich, mündlich, praktisch) Sie legen sich hier die Arten der Leistung an (Beispiel Vortrag, Klausur usw.) und Sie markieren diese dann mit der korrekten Art (Beispiel: Klausur = schriftlich).
+
 #### Zeitraumübergreifende Notenübersicht für einzelne Schüler oder eine Klasse
 
 Es ist möglich, eine zeitraumübergreifende Notenmatrix für Schüler aufzurufen. Klicken Sie in der Registerkarte `Leistungen` auf die Schaltfläche `Notenübersicht…`. Es werden Ihnen nun entweder alle Fächer und Noten `aktuellen Schülers` oder `aller Schüler der Klasse` mit Angabe des Halbjahres angezeigt. Sie können in der Übersicht wie gewohnt Sortieren und Gruppieren.
