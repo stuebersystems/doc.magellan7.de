@@ -76,7 +76,8 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 
 #### Sachsen
 
-* FIX:
+* FIX: SAC-BG-ABI (E.01.06).rpt (`Schüler > Daten 3 > 1./2./3./4. Fremdsprache`, haben Sie im Menü `Schüler > Daten 3` keine 2 Fremdsprache hinterlegt, wird folgender Satz unter den Bemerkungen auf dem Zeugnis unterdrückt: *"Das in *ZWEITE FREMDSPRACHE* erreichte Sprachniveau entspricht der Stufe <B1/B2> des Gemeinsamen europäischen Referenzrahmens."*)
+* FIX: SAC-BS-AS (A.02.05).rpt (Formel zur Ausgabe der Berufsbezeichnung (männlich/weiblich) überarbeitet)
 
 #### Niedersachsen
 
