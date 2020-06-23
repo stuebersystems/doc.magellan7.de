@@ -73,13 +73,17 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 * FIX: BER-GY (Abi-18a - Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.12).rpt (Ausgabe Punktsumme 5 PK und Note für PK, Seite 2: Da im 4. und 5. Prüfungsfach keine Nachprüfungen möglich, wird auf Seite 2 in der 2. und 3. Tabelle im 4. PF (Spalte 2) das Ergebnis der absolvierten Prüfung ausgegeben, ebenso steht die Gesamtpunktzahl für diese Prüfungen fest und wird nun auch in Spalte 3 genauso wie bei der 5. PK ausgegeben)
 * FIX: BER-GY (abi_4_berechnungsbogen)(10.16).rpt
 * FIX: BER-Schul Z 300 (11.19).rpt (Versetzungsvermerk korrigiert, wird ein Schüler nicht versetzt, gibt des Zeugnis "Nicht versetzt...." aus)
-* FIX: BER-Schul Z 306 (11.19).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt)
-* FIX: BER-Schul Z 306 (11.19)(FG).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt)
+* FIX: BER-Schul Z 306 (11.19).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt, fehlerhafte Linien enfternt)
+* FIX: BER-Schul Z 306 (11.19)(FG).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt, fehlerhafte Linien enfternt)
 
 #### Sachsen
 
 * FIX: SAC-BG-ABI (E.01.06).rpt (`Schüler > Daten 3 > 1./2./3./4. Fremdsprache`, haben Sie im Menü `Schüler > Daten 3` keine 2 Fremdsprache hinterlegt, wird folgender Satz unter den Bemerkungen auf dem Zeugnis unterdrückt: *"Das in *ZWEITE FREMDSPRACHE* erreichte Sprachniveau entspricht der Stufe <B1/B2> des Gemeinsamen europäischen Referenzrahmens."*)
 * FIX: SAC-BS-AS (A.02.05).rpt (Formel zur Ausgabe der Berufsbezeichnung (männlich/weiblich) überarbeitet)
+* FIX: SAC-BS-JZ (A.02.01).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
+* SAC-BG-JZ (E.01.02).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
+* FIX: SAC-FO-JZ (D.01.02).rpt (Zeilenumbruch Pflichtunterricht korrigiert)
+* NEW: SAC-BF-JZ (B.02.02).rpt (B.02.02 Jahreszeugnis der Berufsfachschule)
 
 #### Saarland
 
