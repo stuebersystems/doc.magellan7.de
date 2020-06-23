@@ -82,6 +82,7 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 * FIX: SAC-BS-AS (A.02.05).rpt (Formel zur Ausgabe der Berufsbezeichnung (männlich/weiblich) überarbeitet)
 * FIX: SAC-BS-JZ (A.02.01).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
 * SAC-BG-JZ (E.01.02).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
+* SAC-FO-JZ (D.01.02).rpt (Zeilenumbruch Pflichtunterricht korrigiert)
 
 #### Niedersachsen
 
