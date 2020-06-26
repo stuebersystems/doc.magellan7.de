@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
-    Bitte beachten Sie, dass mit der letzten Version das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung .mymx an.
+    Bitte beachten Sie, dass mit der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung .mymx an.
 
 ## 7.1.12 -
 
@@ -29,7 +29,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
 * FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
 * FIX: `Bewerber > Daten 1` beim Anlegen eines neuen Sorgeberechtigten, wird die Gemeindekennziffer vorbelegt
-* FIX: Nebenschüler mit Ausbildungsbtriebe werden als Auszubildende beim Betrieb angezeigt
+* FIX: Nebenschüler mit Ausbildungsbetriebe werden als Auszubildende beim Betrieb angezeigt
+* FIX:  Bei Änderungen der Laufbahn (ohne Speicherung über den laufbahnkarten-bezogenen Speicherhaken) und auf den nächsten Datensatz weiterschalten. Hier erschien die Meldung "Kein Änderungsrecht"
 
 #### MAGELLAN Berichte
 
