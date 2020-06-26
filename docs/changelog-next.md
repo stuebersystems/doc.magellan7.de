@@ -85,6 +85,9 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 * FIX:SAC-BG-JZ (E.01.02).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
 * FIX: SAC-FO-JZ (D.01.02).rpt (Zeilenumbruch Pflichtunterricht korrigiert)
 * NEW: SAC-BF-JZ (B.02.02).rpt (B.02.02 Jahreszeugnis der Berufsfachschule)
+* NEW: SAC-FS-AZ (C.01.04).rpt (C.01.04 Abgangszeugnis Fachschule)
+* NEW: SAC-FS-AS mit FHReife (C.01.06).rpt (C.01.06 Abschlusszeugnis Fachschule mit FHReife)
+* NEW: SAC-FS-AS (C.01.05).rpt (C.01.05 Abschlusszeugnis Fachschule)
 
 #### Saarland
 
