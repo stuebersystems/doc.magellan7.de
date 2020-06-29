@@ -32,6 +32,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Nebenschüler mit Ausbildungsbetriebe werden als Auszubildende beim Betrieb angezeigt
 * FIX:  Bei Änderungen der Laufbahn (ohne Speicherung über den laufbahnkarten-bezogenen Speicherhaken) und auf den nächsten Datensatz weiterschalten. Hier erschien die Meldung "Kein Änderungsrecht"
 
+#### Statistik
+
+* NEW: Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
+
 #### MAGELLAN Berichte
 
 * NEW: Das Modul `MAGELLAN Berichte` fällt weg, die Dokumentation der Berichte erfolgt ab dieser Version ausschließlich im Bereich Berichte der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)!
