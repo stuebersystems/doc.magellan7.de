@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Statistik
 
-* NEW: Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
+* NEW: BBS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
 
 #### MAGELLAN Berichte
 
