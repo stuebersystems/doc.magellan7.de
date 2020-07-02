@@ -42,7 +42,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Skripte
 
-* FIX: 
+* NEW: BER-BFS-Matrix-2016 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-bfs-matrix-2016dws/)
+* NEW: BER-IBA-HJ-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/)
+* BER-IBA-AS-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/)
 
 ### Schnittstellen
 
