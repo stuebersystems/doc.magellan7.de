@@ -62,7 +62,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)
 
-* CHANGE:  
+* FIX: SAC-FS-JZ (C.01.02).rpt
 
 #### Optimierungen
 
