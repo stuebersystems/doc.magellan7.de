@@ -35,7 +35,7 @@ Schulbezeichnung|**SchulBez**
 
 ### MAGELLAN
 
-* FIX: NRW > Import > SchuelerOnline > Betriebe aktualsieren: Die Funktion wurde aktualisiert
+* FIX: `NRW > Import > SchuelerOnline > Betriebe aktualsieren`: Die Funktion wurde aktualisiert
 
 #### Statistik
 
