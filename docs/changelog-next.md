@@ -24,9 +24,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
+### SchuelerOnline
+
+* INFO: Wir haben SchuelerOnline gemeldet, dass aktuell die beiden Felder Schulnr und Schulbez nicht korrekt übergeben werden. Es wird in Kürze in SchuelerOnline angepasst, bis dahin passen Sie bitte die Spaltenköpfe für dem Import per Hand an.
+
+Verkehrt|Korrekt
+--|--
+Schulnummer|**Schulnr**
+Schulbezeichnung|**SchulBez**
+
 ### MAGELLAN
 
-* FIX: 
+* FIX: NRW > Import > SchuelerOnline > Betriebe aktualsieren: Die Funktion wurde aktualisiert
 
 #### Statistik
 

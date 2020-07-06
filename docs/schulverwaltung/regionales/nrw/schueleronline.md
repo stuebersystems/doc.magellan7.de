@@ -190,7 +190,7 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 17.| **Nationalitaet2**<br/> Schueler.Staatsangehörigkeit2| `Bewerber > Daten 2 > Staatsangeh. 2`| Ja
 18.| **Konfession**<br/> Schueler.Konfession| `Bewerber > Daten 1 > Konfession`| Nein
 19.| **Einschulung**<br/> Schueler.Grundschuleintritt| `Bewerber > Daten 2 > Grundschuleintritt`| Nein
-20.| **Migration**<br/> Migration| | Nein
+20.| **Migration**<br/> Migration|  Nein
 21.| **ZuzugsJahr**<br/> Schueler.InDeutschlandSeit| `Bewerber > Daten 2 > In Deutschland seit`| Nein
 22.| **Geburtsland**<br/> Schueler.Geburtsland| `Bewerber > Daten 1 > Geburtsland`| Ja
 23.| **GeburtslandVater**<br/> Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!|     -| -
@@ -233,8 +233,8 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 60.| **Aufnahmedatum**<br/> Schueler.ZugangAm| `Bewerber > Ausbildung > Ausbildung von`| Ja
 61.| **Ausbildungbeginn**<br/> SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung von`<br/>`Bewerber > Ausbildung > Ausbildung bis`| Nein
 62.| **Ausbildungende**<br/> SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung bis`| Nein
-63.| **Klassenlehrer**<br/> | `Betriebe > Daten 1 > Name 1`| 
-64.| **Betrieb**<br/> Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 2`<br/>`Name 2`| Nein
+63.| **Klassenlehrer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein! | -| 
+64.| **Betrieb**<br/> Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 1 <br/>`Betriebe > Daten 1 > Name 2` <br/> `Name 2`| Nein
 65.| **BetriebStrasse**<br/> Betrieb.Strasse|`Betriebe > Daten 1 > Strasse` | Nein
 66.| **BetriebLand**<br/> | `Betriebe > Daten 1 > Postleitzahl`| 
 67.| **BetriebPLZ**<br/> Betrieb.PLZ| `Betriebe > Daten 1 > Ort`| Nein
@@ -242,7 +242,7 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 69.| **BetriebTelefon**<br/> Betrieb.Telefon| `Betriebe > Daten 1 > Telefax`| Nein
 70.| **BetriebFax**<br/> Betrieb.Fax| `Betriebe > Daten 1 > E-Mail`| Nein
 71.| **BetriebEmail**<br/> Betrieb.Email| `Betriebe > Kontakte > Kontakt > Nachname`| Nein
-72.| **BetriebKontakt**<br/> BetriebeKontakte.Nachname| `Betriebe > Kontakte > Kontakt > Nachname`| 
+72.| **BetriebKontakt**<br/> BetriebeKontakte.Nachname| `Betriebe > Kontakte > Kontakt > Nachname`| -
 73.| **BetriebKammer**<br/> Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 74.| **BetriebMitgliedsnummer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 75.| **BetriebIdExtern**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
