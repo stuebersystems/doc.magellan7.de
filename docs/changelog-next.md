@@ -33,10 +33,19 @@ Verkehrt|Korrekt
 Schulnummer|**Schulnr**
 Schulbezeichnung|**SchulBez**
 
+* FIX: `NRW > Import > SchuelerOnline > Betriebe aktualisieren`: Die Funktion wurde aktualisiert
+* CHANGE: HTML-Breaks (`<br/>`) werden beim Einlesen aus SchülerOnline-Dateien ignoriert
+
 ### MAGELLAN
 
-* FIX: `NRW > Import > SchuelerOnline > Betriebe aktualsieren`: Die Funktion wurde aktualisiert
-* 
+* CHANGE: Aus der Filterung der Schülerauswahliste nach Vagabunden steht `Rechtsklick > Status` nicht mehr zur Verfügung
+* FIX: Rechtegruppe Kollegium5: Änderungen der Laufbahn werden auch beim Weiterschalten zum nächsten Datensatz gespeichert.
+* FIX: Problem beim Anlegen `Unterpunkten` im Verzeichnis `Fächer (Themen)`behoben 
+
+### MAGELLAN BIBLIOTHEK
+
+* FIX: Passbilder, die für bereits als Medienausleiher angelegte Schüler in der Schulverwaltung aktualisiert wurden, werden auch in der Anzeige in der Bibliothek angepasst
+* FIX: Klasse und Klassendaten werden nach Änderung in der Schulverwaltung auch für die Bibliothek übergeben.    
 
 #### Statistik
 
