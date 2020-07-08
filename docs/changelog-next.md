@@ -22,56 +22,24 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## 7.1.14 - 714
 
-
 ### Datenstruktur
 
-### MAGELLAN
-
-* CHANGE: 
+### MAGELLAN SCHULVERWALTUNG
 
 ### MAGELLAN BIBLIOTHEK
 
-* FIX: 
-
-#### Statistik
-
-* NEW: 
-
-#### MAGELLAN Berichte
-
-Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/).
-
-
 ### MAGELLAN ADMINISTRATOR
-
-* FIX:
-
-### Skripte
-
-* NEW: 
-
-### Schnittstellen
-
-### MAGELLAN-Skripteditor
 
 ### MyMAGELLAN-CENTER
 
-* FIX:
-
 ### MyMAGELLAN
-
-* FIX: 
 
 ### MAGELLAN Bibliothek
 
-### Berichte (NEW oder CHANGE)
+### Skripte
 
-Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: SAC-FS-JZ (C.01.02).rpt
+### Berichte
 
-#### Optimierungen
-
-Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
-
-* CHANGE:
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).

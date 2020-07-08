@@ -72,9 +72,11 @@ Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueb
 
 ### Skripte
 
-* NEW: BER-BFS-Matrix-2016 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-bfs-matrix-2016dws/)
-* NEW: BER-IBA-HJ-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/)
-* NEW: BER-IBA-AS-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/)
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* NEW: BER-BFS-Matrix-2016 
+* NEW: BER-IBA-HJ-2020 
+* NEW: BER-IBA-AS-2020 
 * CHANGE: SAC-APO-BGY-2017 (Schulfremde).dws
 * CHANGE: SAC-APO-BGY-2017.dws
 
