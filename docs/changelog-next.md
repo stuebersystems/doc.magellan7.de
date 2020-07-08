@@ -60,7 +60,17 @@ Schulbezeichnung|**SchulBez**
 
 #### MAGELLAN Berichte
 
-* NEW: 
+Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/).
+
+* CHANGE: In den nachfolgend genannten Berichten wurde die Ausgabe der Fremdsprachenreferenzen ergänzt.
+
+  * Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe mit Beurteilung).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 11).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+
+![Ausgabe der Fremdsprachen und Referenzen](/assets/images/changelog/7.1.13.01.png)
+
 
 ### MAGELLAN ADMINISTRATOR
 
