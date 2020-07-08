@@ -19,6 +19,65 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
+## 7.1.13 - 714 (08.07.2020)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstruktur
+
+* NEW: Tabelle SchuelerFachdaten: neues Feld `Durchschnitt` 
+* NEW: Tabelle SchuelerFachdaten: neue Felder `HJ1_Bestanden` bis `HJ6_Bestanden`
+
+### SchuelerOnline
+
+* INFO: Wir haben SchuelerOnline gemeldet, dass aktuell die beiden Felder Schulnr und Schulbez nicht korrekt übergeben werden. Es wird in Kürze in SchuelerOnline angepasst, bis dahin passen Sie bitte die Spaltenköpfe für dem Import per Hand an.
+
+Verkehrt|Korrekt
+--|--
+Schulnummer|**Schulnr**
+Schulbezeichnung|**SchulBez**
+
+* FIX: `NRW > Import > SchuelerOnline > Betriebe aktualisieren`: Die Funktion wurde aktualisiert
+* CHANGE: HTML-Breaks (`<br/>`) werden beim Einlesen aus SchülerOnline-Dateien ignoriert
+
+### MAGELLAN
+
+* CHANGE: Aus der Filterung der Schülerauswahliste nach Vagabunden steht `Rechtsklick > Status` nicht mehr zur Verfügung
+* FIX: Rechtegruppe Kollegium5: Änderungen der Laufbahn werden auch beim Weiterschalten zum nächsten Datensatz gespeichert.
+* FIX: Problem beim Anlegen `Unterpunkten` im Verzeichnis `Fächer (Themen)`behoben 
+
+### MAGELLAN BIBLIOTHEK
+
+* FIX: Passbilder, die für bereits als Medienausleiher angelegte Schüler in der Schulverwaltung aktualisiert wurden, werden auch in der Anzeige in der Bibliothek angepasst
+* FIX: Klasse und Klassendaten werden nach Änderung in der Schulverwaltung auch für die Bibliothek übergeben.    
+
+#### Statistik
+
+* NEW: ABS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
+
+#### MAGELLAN Berichte
+
+Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/).
+
+* CHANGE: In den nachfolgend genannten Berichten wurde die Ausgabe der Fremdsprachenreferenzen ergänzt.
+
+  * Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe mit Beurteilung).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 11).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+
+![Ausgabe der Fremdsprachen und Referenzen](/assets/images/changelog/7.1.13.01.png)
+
+### Skripte
+
+* NEW: BER-BFS-Matrix-2016 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-bfs-matrix-2016dws/)
+* NEW: BER-IBA-HJ-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/)
+* NEW: BER-IBA-AS-2020 (Dokumentation hier: https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/)
+* CHANGE: SAC-APO-BGY-2017 (Schulfremde).dws
+* CHANGE: SAC-APO-BGY-2017.dws
+
 ## 7.1.12 - 713 (30.06.2020)
 
 ### MAGELLAN
@@ -96,8 +155,8 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 
 * NEW: Tabelle `Leistungsarten`
 * NEW: SchuelerAbiDetails:
-  * *  `HJ1_Leistungsart` bis `HJ6_Leistungsart`
-  * *  `HJ1_Bestanden` bis `HJ6_Bestanden`
+  * `HJ1_Leistungsart` bis `HJ6_Leistungsart`
+  * `HJ1_Bestanden` bis `HJ6_Bestanden`
 * NEW: Schuelerfachdaten: `Leistungsart`
 
 ### MAGELLAN
