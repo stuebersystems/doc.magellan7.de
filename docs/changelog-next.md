@@ -26,6 +26,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
+* FIX: Unter Schüler > Zeugnis > Details werden für Verhalten und Mitarbeit Noten und Füllwerte gezeigt.
+
 ### MAGELLAN BIBLIOTHEK
 
 ### MAGELLAN ADMINISTRATOR
