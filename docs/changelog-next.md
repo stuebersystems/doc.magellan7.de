@@ -32,6 +32,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN ADMINISTRATOR
 
+* FIX: Beim Übertrag von MAGELLAN 6 nach MAGELLAN 7 wird die Datenstruktur 674 erwartet 
+
 ### MyMAGELLAN-CENTER
 
 ### MyMAGELLAN
