@@ -72,12 +72,12 @@ Option|Auswirkung
 getrennt nach Unterrichstart| Der Assistent würde für ein Fach, dass mehrfach mit verschiedenen Unterrichtsarten für den Schüler geführt wurde eigentlich nur eine Fachzeile anlegen. Wählen Sie dieses Häkchen wird das Fach mehrfach getrennt nach Unterrichtsart auf der Qualifikationskarte angelegt.
 Fachstatus nicht überschreiben|Ohne diese Option würde der Fachstatus, der in den Halbjahresdaten des Schülers unter Schüler > Zeugnis > Fächer/Leistungen geführt wurde auf die Karte Qualifikation übergeben werden. Wenn Sie diese Eintragung direkt auf der Karte `Qualifikation` vorgenommen haben, setzen Sie das Häkchen um diese Eintragung trotz Synchronisation beizubehalten.
 
-## Bestanden und Leistungsart
+## "Bestanden" und "Leistungsart"
 
 Für Nordrhein-Westfalen gibt es die Felder `Bestanden` und `Leistungsart`, die wahlweise bereits beim Schüler unter `Schüler > Zeugnis > Leistungen` je Halbjahr erfasst werden können. Diese Daten werden beim Synchronisieren mit auf die Karte `Qualifikation` übertragen und dort je Kurshalbjahr (E1-Q4) dargestellt.
-
-![Schüler > Zeugnis > Leistungen](/assets/images/gym_oberstufe/03sync.png)
 
 !!! warning "Wichtig"
 
     Bitte entscheiden Sie sich für den Eintrag unter `Schüler > Zeugnis > Leistungen` ODER direkt im Abitur. Eine gemischte Erfassung ist nicht möglich, da rein logisch beim Synchronisieren der Daten keine Unterscheidung möglich ist. Daher würden die Daten auf der Qualifikationskarte stets durch die Daten aus `Schüler > Zeugnis > Leistungen` überschrieben.
+
+![Schüler > Zeugnis > Leistungen](/assets/images/gym_oberstufe/03sync.png)
