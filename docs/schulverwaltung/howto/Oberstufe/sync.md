@@ -29,13 +29,24 @@ Deutlich komplexer ist der Prozess, wenn die Klassenart `Oberstufenjahrgang (Gru
 Wenn  diese Auswahl getroffen wurde, werden für die Schüler alle Fach- und Leistungsdaten der Oberstufenjahrgänge extrahiert. 
 
 Momentan passiert Folgendes:
-Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sollten (Klassenart, Klassenjahrgang), dann ergibt sich eine Liste mit Daten, nachfolgende als Beispiel eine Fachzeile für ein Halbjahr:
+Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sollten (Klassenart, Klassenjahrgang), dann ergibt sich eine Liste mit Daten, nachfolgende ein Beispiel für ein Fach für ein Halbjahr:
 
-G9 anhand der Eintragung `11`in der Spalte Jahrgang im Verzeichnis Verordnungen, Fach Deu, Jahrgang 11, Endnote 15, Zeitraumart 1. Halbjahr
+* Jahrgang im Verzeichnis `Verordnungen`: 11
+* Fach: Deu
+* Klassenjahrgang: 11
+* Endnote: 15
+* Zeitraumart: 1. Halbjahr
+* Unterrichtsart: GK
+* Fachstatus: leer
+* Merkmal: leer
+* Lehrer: Bru
+* Bestanden: leer
+* Leistungsart: Klausur
 
-Anhand dieser Daten kann die Information jetzt in der Matrix der eingetragen werden, bei G9 wäre die 11.1 die Spalte `E1`. Die Daten des Halbjahres werden der Reihe übertragen.
+Anhand dieser Daten kann die Information jetzt in der Matrix der eingetragen werden, bei G9 ( Wert 11 Jahrgang im Verzeichnis `Verordnungen`) wäre die 11.1 die Spalte `E1`. Die Daten des Halbjahres werden der Reihe übertragen.
 
-Wird im Anschluss beim Druchlauf des nächsten Halbjahres wieder eine Zeile mit dem Fach Deu gefunden, wird keine neue Zeile eröffnet, sondern nur der Notenwert aus der Spalte Endnote in das passende Kurshalbjahr eingetragen.
+Wird im Anschluss beim Durchlauf des nächsten Halbjahres wieder eine Zeile mit dem Fach Deu gefunden, wird keine neue Zeile eröffnet, sondern nur der Notenwert aus der Spalte Endnote in das passende Kurshalbjahr eingetragen.
+Wäre die Unterrichtsart oder der Fachstatus abweichend, würde der zuerst erfasste Wert überschrieben, am Ende des Durchlaufs würde der letzte Wert erhalten bleiben (Ausnahmen im Abschnitt "Besondere Optionen").
 
 ### Wiederholer
 
