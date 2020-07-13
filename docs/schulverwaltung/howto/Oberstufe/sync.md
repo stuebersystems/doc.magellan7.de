@@ -25,9 +25,16 @@ Verordnungen | Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Veror
 Als erstes ist zu unterscheiden welche Klassenart die Klassen haben, denen der Schüler zugewiesen ist. Ist es `Standard mit Oberstufensynchronisation` werden die Schüler mit dem Klassenkürzel ins Menü `Abitur` synchronisiert, Fach- oder Leistungdaten spielen hier keine Rolle.
 
 Deutlich komplexer ist der Prozess, wenn die Klassenart `Oberstufenjahrgang (Grund- und Leistungskurse)` oder `Oberstufenjahrgang (nur Kurse)` zugewiesen wurde. Beide Klassenarten sind funktionell absolut gleichwertig, der Unterschied liegt tatsächlich nur in der Benennung.
-Wenn  diese Auswahl getroffen wurde, werden für die Schüler alle Fach- und Leistungsdaten der Oberstufenjahrgänge extrahiert. Momentan passiert Folgendes:
-Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sollten (Klassenart, Klassenjahrgang), dann ergibt sich eine Liste mit Daten, nachfolgende als Beispiel eine Fachzeile für ein Halbjahr: G9 anhand der Eintragung `11`in der Spalte Jahrgang im Verzeichnis Verordnungen, Fach Deu, Jahrgang 11, Endnote 15, Zeitraumart 1. Halbjahr.
+
+Wenn  diese Auswahl getroffen wurde, werden für die Schüler alle Fach- und Leistungsdaten der Oberstufenjahrgänge extrahiert. 
+
+Momentan passiert Folgendes:
+Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sollten (Klassenart, Klassenjahrgang), dann ergibt sich eine Liste mit Daten, nachfolgende als Beispiel eine Fachzeile für ein Halbjahr:
+
+G9 anhand der Eintragung `11`in der Spalte Jahrgang im Verzeichnis Verordnungen, Fach Deu, Jahrgang 11, Endnote 15, Zeitraumart 1. Halbjahr
+
 Anhand dieser Daten kann die Information jetzt in der Matrix der eingetragen werden, bei G9 wäre die 11.1 die Spalte `E1`. Die Daten des Halbjahres werden der Reihe übertragen.
+
 Wird im Anschluss beim Druchlauf des nächsten Halbjahres wieder eine Zeile mit dem Fach Deu gefunden, wird keine neue Zeile eröffnet, sondern nur der Notenwert aus der Spalte Endnote in das passende Kurshalbjahr eingetragen.
 
 ### Wiederholer
