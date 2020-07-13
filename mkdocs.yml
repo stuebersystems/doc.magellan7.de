@@ -93,6 +93,7 @@ nav:
       - Gymnasiale Oberstufe: 
         - Übersicht: schulverwaltung/howto/Oberstufe/gymnasium.md 
         - Vorbereitung: schulverwaltung/howto/Oberstufe/vorbereitung.md
+        - Schüler synchronisieren: schulverwaltung/howto/Oberstufe/sync.md
         - Fachwahl: schulverwaltung/howto/Oberstufe/fachwahl.md
         - Abiturberechnung: schulverwaltung/howto/Oberstufe/abiturberechnung.md
       - Berufsschulmatrix: schulverwaltung/howto/berufsschulmatrix.md

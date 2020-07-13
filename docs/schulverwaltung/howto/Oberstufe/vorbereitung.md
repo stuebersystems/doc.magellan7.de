@@ -78,8 +78,6 @@ Gültig von | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
 Skript | Geben Sie hier den Namen des Skripts für diese Abiturprüfungsordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "APO".
 
-
-
 #### Fachwahlskript hinterlegen
 
 Alle verfügbaren Fachwahlskripte werden im Abschnitt ["Die Fachwahlskripte"](https://doc.la.stueber.de/fachwahl/die_fachwahlskripte.html) beschrieben. Fachwahlskripte enthalten die Buchstaben "FW" für Fachwahl im Dateinamen.

@@ -10,27 +10,9 @@ Folgende Aktionen werden auf diesen Karten abgebildet:
 4. Fachhochschulreife berechnen
 5. Zeugnisbemerkungen eingeben und Zeugnisse drucken
 
-##  Schüler ins Menü Abitur synchronisieren
+## Schüler ins Menü Abitur synchronisieren
 
-![Dialogfenster zum Synchronisieren der Daten für das Abitur](/assets/images/gym_oberstufe/gym_oberstufe03.png)
-
-Bevor Sie die Abiturqualifikationen überprüfen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf `Abitur` klicken und dann auf die Schaltfläche `Schüler synchronisieren` im MAGELLAN-Fenster klicken.
-
-|Beim Synchronisieren prüft MAGELLAN die `Klassenart` unter `Klasse > Daten`|
-|--|
-|** Oberstufenjahrgang (Leistungs- und Grundkurse)** <br/> **Oberstufenjahrgang (nur Kurse)**<br/><br/>MAGELLAN synchronisiert die Schülerdaten, Schülerfachdaten und in den Halbjahren erfassten Leistungen.|
-|** Standard mit Oberstufensynchronisation**<br/><br/>MAGELLAN synchronisiert die Schülerdaten als Voraussetzung für die Fachwahl, keine Fächer oder Leistungen. In der Regel trägt man diese Klassenart für den Jahrgang 10 ein, da die Schüler sich in der Jahrgangsstufe 10 für die Fachwahl in der Oberstufe entscheiden.
-
-
-
-!!! info "Hinweis"
-
-	 MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
-      Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
-
-
-![Klassenart für die Oberstufenberechnungen](/assets/images/gym_oberstufe/oberstufe02.png)
-
+Bitte beachten Sie die Beschreibungen im vorangegangenen Abschnitt [Schüler syncrhonisieren]()!
 
 ## Die Abiturzulassungsüberprüfung
 
