@@ -52,3 +52,5 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* CHANGE: SAC-FS-AS mit FHReife (C.01.06).rpt (automatische Durchschnittsnoteberechnung korrigiert, die Durchschnittsnote ergibt sich aus allen Zeugnisnoten mit Ausnahme der Fächer Sport, Religion und Ethik sowie mit Ausnahme aller nachrichtlich ausgewiesenen Fächer (Noten))
