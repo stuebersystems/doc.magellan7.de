@@ -13,10 +13,10 @@ Für diese komplexe Aktion werden einige Eintragungen vorausgesetzt:
 Eintrag|Bedeutung
 --|--
 Zeitraumart<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Art`| Das Feld „Art“ muss mit dem Wert „1. Halbjahr“ bzw. “2. Halbjahr“ gefüllt sein.
-Klassenart<br/>`Klassen > Daten > Klassenart`| `Oberstufenjahrgang (Leistungs- und Grundkurse)`<br/>`Oberstufenjahrgang (nur Kurse)`<br/>Synchronisation der Schüler-, Fach- und Leistungsdaten der Oberstufenhalbjahre. <br/><br/> `Standardklasse mit Oberstufensynchronisation`: Synchronisation ohne Fach- und Leistungsdaten (als Vorbereitung für die Fachwahl des Schülers). 
-Jahrgang<br/>`Klassen > Zeiträume > Jahrgang`|`Klassen > Daten > Klassenart` | Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum das Feld „Jahrgang“ mit dem Wert "10",„11“, „12“ oder „13“ angegeben werden. 
-Abschlussjahrgänge<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Abschlussjahrgänge` |  Bitte legen Sie unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).
-Verordnungen<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Verordnungen` | Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung [http://doc.la.stueber.de/](http://doc.la.stueber.de/) ein.
+Klassenart<br/>`Klassen > Daten > Klassenart`|`Oberstufenjahrgang (Leistungs- und Grundkurse)` oder`Oberstufenjahrgang (nur Kurse)`:<br/>Synchronisation der Schüler-, Fach- und Leistungsdaten der Oberstufenhalbjahre. <br/><br/>`Standardklasse mit Oberstufensynchronisation`: Synchronisation ohne Fach- und Leistungsdaten (als Vorbereitung für die Fachwahl des Schülers).
+Jahrgang<br/>`Klassen > Zeiträume > Jahrgang`|Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum das Feld „Jahrgang“ mit dem Wert "10",„11“, „12“ oder „13“ angegeben werden. | Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum das Feld „Jahrgang“ mit dem Wert "10",„11“, „12“ oder „13“ angegeben werden.
+Abschlussjahrgänge<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Abschlussjahrgänge` |  Bitte legen Sie die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).
+Verordnungen<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Verordnungen` | Richten Sie bitte pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung [http://doc.la.stueber.de/](http://doc.la.stueber.de/) ein.
 
 ## Was passiert beim Synchronisieren
 
@@ -24,9 +24,9 @@ Als erstes ist zu unterscheiden welche Klassenart die Klassen haben, denen der S
 
 Deutlich komplexer ist der Prozess, wenn die Klassenart `Oberstufenjahrgang (Grund- und Leistungskurse)` oder `Oberstufenjahrgang (nur Kurse)` zugewiesen wurde. Beide Klassenarten sind funktionell absolut gleichwertig, der Unterschied liegt tatsächlich nur in der Benennung.
 
-Wenn  diese Auswahl getroffen wurde, werden für die Schüler alle Fach- und Leistungsdaten der Oberstufenjahrgänge extrahiert. 
+Wenn  diese Auswahl getroffen wurde, werden für die Schüler alle Fach- und Leistungsdaten der Oberstufenjahrgänge extrahiert.
 
-Momentan passiert Folgendes:
+Folgender Ablauf:
 Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sollten (Klassenart, Klassenjahrgang), dann ergibt sich eine Liste mit Daten, nachfolgende ein Beispiel für ein Fach für ein Halbjahr:
 
 * Jahrgang im Verzeichnis `Verordnungen`: 11
@@ -41,10 +41,10 @@ Es wird geprüft, welche Halbjahresdaten für den Schüler ausgelesen werden sol
 * Bestanden: leer
 * Leistungsart: Klausur
 
-Anhand dieser Daten kann die Information jetzt in der Matrix der eingetragen werden, bei G9 ( Wert 11 Jahrgang im Verzeichnis `Verordnungen`) wäre die 11.1 die Spalte `E1`. Die Daten des Halbjahres werden der Reihe übertragen.
+Anhand dieser Daten kann die Information in der Qualifikationsmatrix eingetragen werden, bei G9 ( Wert 11 Jahrgang im Verzeichnis `Verordnungen`) wäre die 11.1 die Spalte `E1`. Die Daten des Halbjahres werden der Reihe nach übertragen.
 
-Wird im Anschluss beim Durchlauf des nächsten Halbjahres wieder eine Zeile mit dem Fach Deu gefunden, wird keine neue Zeile eröffnet, sondern nur der Notenwert aus der Spalte Endnote in das passende Kurshalbjahr eingetragen.
-Wäre die Unterrichtsart oder der Fachstatus abweichend, würde der zuerst erfasste Wert überschrieben, am Ende des Durchlaufs würde der letzte Wert erhalten bleiben (Ausnahmen im Abschnitt "Besondere Optionen").
+Wird im Anschluss beim Durchlauf des nächsten Halbjahres wieder eine Zeile mit dem Fach Deu gefunden, wird keine neue Zeile eröffnet, sondern nur der Notenwert 
+aus der Spalte Endnote in das passende Kurshalbjahr eingetragen. Wäre die Unterrichtsart oder der Fachstatus abweichend, würde der zuerst erfasste Wert überschrieben, am Ende des Durchlaufs würde der letzte Wert erhalten bleiben (Ausnahmen im Abschnitt "Besondere Optionen").
 
 ### Wiederholer
 
