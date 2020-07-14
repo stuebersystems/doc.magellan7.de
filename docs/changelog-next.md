@@ -39,6 +39,8 @@ FIX: SAXSVS: Problem beim Ausspielen der Förderschwerpunkte für Schüler mit I
 
 ### MyMAGELLAN-CENTER
 
+* FIX: Mym-Datei mit mit pauschalem Kennwort erstellen
+
 ### MyMAGELLAN
 
 ### MAGELLAN Bibliothek
