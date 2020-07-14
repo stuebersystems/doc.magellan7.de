@@ -1,24 +1,22 @@
 # Schüler synchronisieren
 
-Bevor Schülerdaten für die Fachwahl oder beispielsweise für die Abiturberechnung im Modul `Abitur` sichtbar werden, müssen die Daten synchronisiert werden. Bei der Synchronisation werden Daten, die Sie zuvor im Menü `Schüler`, im Menü `Klassen` und in einigen Schlüsselfeldern angelegt haben ausgewertet und je nach gefundenen Eintragungen und Menü `Abitur` dargestellt.
+Bevor Schülerdaten für die Fachwahl oder beispielsweise für die Abiturberechnung im Modul `Abitur` sichtbar werden, müssen die Daten synchronisiert werden. Bei der Synchronisation werden Daten, die Sie zuvor im Menü `Schüler`, im Menü `Klassen` und in einigen Schlüsselfeldern angelegt haben ausgewertet und je nach gefundenen Eintragungen im Menü `Abitur` dargestellt.
 
-Wollen Sie zum Beispiel Schülerdaten für die Karte `Fachwahl` des Schülers synchronisieren, werden nur die Schülerdaten und die Schülerklasse synchronisiert, Fachdaten oder Noten spielen hier noch keine Rolle.
+Wollen Sie Schülerdaten für die Karte `Fachwahl` des Schülers synchronisieren, werden nur die Schülerdaten und die Schülerklasse synchronisiert, Fachdaten oder Noten spielen hier noch keine Rolle und werden nicht übertragen.
 
-Wollen Sie Schüler synchronisieren um im nächsten Schritt eine Abiturberechnung auszuführen, werden Fach- und Leistungsdaten der Oberstufenhalbjahre extrahiert und in das Menü `Abitur` synchronisiert.
-
+Wollen Sie Schüler synchronisieren um im nächsten Schritt eine Abiturberechnung auszuführen, werden zusätzlich Fach- und Leistungsdaten der Oberstufenhalbjahre extrahiert und in das Menü `Abitur` synchronisiert.
 
 ## Voraussetzungen zum Synchronisieren
-
 
 Für diese komplexe Aktion werden einige Eintragungen vorausgesetzt:
 
 Eintrag|Bedeutung
 --|--
-Zeitraumart | Im Verzeichnis der Zeiträume (`Extras > Schlüsselverzeichnisse > Zeiträume > Art`) muss das Feld „Art“ mit dem Wert „1. Halbjahr“ bzw. “2. Halbjahr“ gefüllt sein.
-Klassenart | Synchronisation mit Fach- und Leistungsdaten der Oberstufenhalbjahre: <br/>Unter `Klasse > Daten` muss im Feld `Klassenart` die Auswahl `Oberstufenjahrgang (Leistungs- und Grundkurse)` oder `Oberstufenjahrgang (nur Kurse)` gewählt werdne.<br/> Synchronisation ohne Fach- und Leistungsdaten (als Vorbereitung für die Fachwahl des Shülers):<br/> `Standardklasse mit Oberstufensynchronisation` 
-Jahrgang | Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum das Feld „Jahrgang“ mit dem Wert "10",„11“, „12“ oder „13“ angegeben werden. 
-Abschlussjahrgänge |  Bitte legen Sie unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).
-Verordnungen | Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung http://doc.la.stueber.de/ ein.
+Zeitraumart<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Art`| Das Feld „Art“ muss mit dem Wert „1. Halbjahr“ bzw. “2. Halbjahr“ gefüllt sein.
+Klassenart<br/>`Klassen > Daten > Klassenart`| `Oberstufenjahrgang (Leistungs- und Grundkurse)`<br/>`Oberstufenjahrgang (nur Kurse)`<br/>Synchronisation der Schüler-, Fach- und Leistungsdaten der Oberstufenhalbjahre. <br/><br/> `Standardklasse mit Oberstufensynchronisation`: Synchronisation ohne Fach- und Leistungsdaten (als Vorbereitung für die Fachwahl des Schülers). 
+Jahrgang<br/>`Klassen > Zeiträume > Jahrgang`|`Klassen > Daten > Klassenart` | Bei jeder Klasse/Jahrgang muss auf der Registerkarte „Zeiträume“ für jeden Zeitraum das Feld „Jahrgang“ mit dem Wert "10",„11“, „12“ oder „13“ angegeben werden. 
+Abschlussjahrgänge<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Abschlussjahrgänge` |  Bitte legen Sie unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).
+Verordnungen<br/>`Extras > Schlüsselverzeichnisse > Zeiträume > Verordnungen` | Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung [http://doc.la.stueber.de/](http://doc.la.stueber.de/) ein.
 
 ## Was passiert beim Synchronisieren
 
