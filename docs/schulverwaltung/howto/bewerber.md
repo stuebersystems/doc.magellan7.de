@@ -429,19 +429,17 @@ Folgende Werte stehen fest vorgegeben zur Verfügung:
 
     Die Werte in den Listen sind fest vorgegeben und können nicht abgeändert werden.
 
-### Unterkarte "Fachdaten"
+### Unterkarte "Fremdsprachen"
 
-Auf der Unterkarte `Fachdaten` können Sie Ihren Bewerbern die zuvor belegten Fächer oder Fremdsprachen zuordnen.
+Auf der Unterkarte `Fremdsprachen` können Sie Ihren Bewerbern die Fremdsprachen (1-4) und die Dauer, die diese belegt wurden zuordnen.
 
-![Unterkarte "Fachdaten"](/assets/images/bewerber/Bewerbungsdaten/07.png)
+![Unterkarte "Fremdsprachen"](/assets/images/bewerber/Bewerbungsdaten/07.png)
 
-In der linken Spalte werden alle Fächer aus dem Verzeichnis `Fächer` mit der jeweils gewählten Fachkategorie gezeigt. Markieren Sie ein Fach oder eine Gruppe von Fächern und übergeben Sie diese mit der Plusschaltfläche in den Bereich auf der rechten Seite. Sie können für die übernommenen Fächern eine Note und für Fremdsprachen auch die Jahrgangstufen (von/bis belegt) eintragen.
+Die Auswahl der Fächer hinter den Feldern Fremdsprache 1 bis Fremdsprache 4 ist eine Auswahl aus dem Verzeichnis Fächer. Sie können die Menge der Fächer selbst festlegen, indem Sie im Verzeichnis Fächer (`Extras > Schlüsselverzeichnisse > Fächer`) den gewünschten Fachzeilen in der Spalte `Kategorie` den Wert `Fremdsprache` zuweisen.
 
-![Fächer zuweisen](/assets/images/bewerber/Bewerbungsdaten/08.png)
+Am unteren Fensterrand kann zusätzlich erfasst werden, ob der Bewerber eine externe Prüfung für eine Fremdsprache belegt hat oder ein Quereinsteiger in einer der Fremdsprachen ist.
 
-Am unteren Fensterrand kann zusätzlich erfasst werden, ob der Bewerber eine externe Prüfung für eine Fremdsprache belegt hatoder ein Quereinsteiger in einer der Fremdsprachen ist.
-
-![weitere Einträge](/assets/images/bewerber/Bewerbungsdaten/09.png)
+![Unterkarte "Fremdsprachen"](/assets/images/bewerber/Bewerbungsdaten/09.png)
 
 ### Unterkarte "Unterlagen"
 
