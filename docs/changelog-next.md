@@ -32,7 +32,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-FIX: SAXSVS: Problem beim Ausspielen der Förderschwerpunkte für Schüler mit IDIntern behoben.
+* FIX: SAXSVS: Problem beim Ausspielen der Förderschwerpunkte für Schüler mit IDIntern behoben.
+* CHANGE: Hinweise,  wie mit erneut auftauchenden Schülern im Import umgegangen wird, überarbeitet: [https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten](https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten)
 
 ### MAGELLAN ADMINISTRATOR
 
