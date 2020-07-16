@@ -29,7 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* NEW: Tabelle SchuelerFachdaten: `HJ1_Bestanden` bis `HJ6_Bestanden` entfernt udn duehch `Bestanden` ersetzt
+* NEW: Tabelle SchuelerFachdaten: `HJ1_Bestanden` bis `HJ6_Bestanden` entfernt und durch `Bestanden` ersetzt
 
 ### MAGELLAN SCHULVERWALTUNG
 
