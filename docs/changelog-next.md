@@ -24,6 +24,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
+* NEW:
+
 ### MAGELLAN SCHULVERWALTUNG
 
 * FIX:
