@@ -278,4 +278,4 @@ Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzung
 
 Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem Stichwort "Kurzeinweisung: Bericht für Magellan 7 umstellen" an [office@stueber.de](office@stueber.de), wir erstellen Ihnen gern ein Angebot.
 
-Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen und anschließend in einer Teamviewer-Sitzung mit Ihnen gemeinsam umstellen.
+Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen, wir vereinbaren einen Termin mit Ihnen und stellen den Bericht dann mit Ihnen gemeinsam in einer Teamviewer-Sitzung um.
