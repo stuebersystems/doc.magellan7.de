@@ -271,3 +271,11 @@ Eine mögliche Ursache kann folgender Punkt sein:
 CR optimiert vor dem Aufruf des Berichtes selbständig (und nicht unterdrückbar) die Abfrage. Gerade bei sehr einfachen Berichten kann das eigenständige Optimieren zu merkwürdigen Nebeneffekten führen. Was hilft, ist ein Feld im oberen Bereich des Berichtes einzufügen und dann zu unterdrücken.
 
 ![Feld einfügen und ausblenden](/assets/images/berichte.anpassen/01.png)
+
+## Kurze Einweisung per Teamviewer
+
+Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen (110,- € netto die Stunde, Abrechnung im Halbstundentakt) anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
+
+Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem Stichwort "Kurzeinweisung: Bericht für Magellan 7 umstellen" an [office@stueber.de](office@stueber.de), wir erstellen Ihnen gern ein Angebot.
+
+Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen und anschließend in einer Teamviewer-Sitzung mit Ihnen gemeinsam umstellen.

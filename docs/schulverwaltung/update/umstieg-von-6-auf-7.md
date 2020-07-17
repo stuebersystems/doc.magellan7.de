@@ -12,8 +12,6 @@
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
 
-### 
-
 ### Übernahme nicht übers Netzwerk
 
 Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen.
@@ -145,6 +143,7 @@ leere MAGELLAN7 ([aktuelle leere Datenbank](https://download.stueber.de/bin/de/m
 
 Ein Beispiel für Meldungen:
 
+```
 [FireDAC][Phys][FB]validation error for column "Schularten"."Kuerzel", value "*** null ***"
 Fehler beim Einfügen von Daten in die Tabelle "Schularten"
 Kuerzel: 
@@ -154,7 +153,9 @@ Bezeichnung:
 StatistikID: 
 GueltigVon: NULL
 GueltigBis: NULL
+```
 
+```
 [FireDAC][Phys][FB]validation error for column "Sprachgruppen"."Kuerzel", value "*** null ***"
 Fehler beim Einfügen von Daten in die Tabelle "Sprachgruppen"
 Kuerzel: 
@@ -163,6 +164,7 @@ Bezeichnung:
 StatistikID: 
 GueltigVon: NULL
 GueltigBis: NULL
+```
 
 In diesem Fall ist die Ursache das in den genannten Verzeichnissen (Schularten, Sprachgruppen) Einträge ohne Kürzel enthalten sind oder Leerzeilen. Entfernen Sie diese Einträge und starten einen neuen Übertrag.
 
