@@ -140,8 +140,34 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 
 Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Es kann sein, dass die Meldungen dazudienen, Ihnen Datensätze zu zeigen, die Sie in Version 7 nachpflegen müssen.
 
-Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen.
-Mit diesem Meldungen sollten Sie sich an unser [Supportteam](https://support.stueber.de/) wenden, damit gegebenenfalls noch Korrekturen vorab vorgenommen werden können!
+Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in MAGELLAN 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan7.fdb. 
+leere MAGELLAN7 ([aktuelle leere Datenbank](https://download.stueber.de/bin/de/magellan/v7/database/MAGELLAN7.FDB)).
+
+Ein Beispiel für Meldungen:
+
+[FireDAC][Phys][FB]validation error for column "Schularten"."Kuerzel", value "*** null ***"
+Fehler beim Einfügen von Daten in die Tabelle "Schularten"
+Kuerzel: 
+EnbreaID: 
+Schluessel: 
+Bezeichnung: 
+StatistikID: 
+GueltigVon: NULL
+GueltigBis: NULL
+
+[FireDAC][Phys][FB]validation error for column "Sprachgruppen"."Kuerzel", value "*** null ***"
+Fehler beim Einfügen von Daten in die Tabelle "Sprachgruppen"
+Kuerzel: 
+Schluessel: 
+Bezeichnung: 
+StatistikID: 
+GueltigVon: NULL
+GueltigBis: NULL
+
+In diesem Fall ist die Ursache das in den genannten Verzeichnissen (Schularten, Sprachgruppen) Einträge ohne Kürzel enthalten sind oder Leerzeilen. Entfernen Sie diese Einträge und starten einen neuen Übertrag.
+
+
+Mit Meldungen, die Sie nicht selbst zuordnen können, sollten Sie sich an unser [Supportteam](https://support.stueber.de/) wenden, damit gegebenenfalls noch Korrekturen vorab vorgenommen werden können!
 
 !!! info "Hinweis"
 
