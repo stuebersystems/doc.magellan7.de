@@ -60,8 +60,17 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+#### Baden Württemberg
+
 * NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung)
 * NEW: BAW-GY-ABI (2019 mit KF-LK).rpt (Abiturzeugnis gültig ab Abitur 2019)
 * NEW: BAW-GY-JZ (Mittelstufe).rpt
 * NEW: BAW-GY-JZ (Mittelstufe mit GER)(A5).rpt (Jahreszeugnis für die Mittelstufe mit Ausgabe der Sprachreferenz, DIN A5)
 * CHANGE: BAW-GY (Mitteilung Prüfungsergebnisse).rpt (Ausgabe Schuljahr)
+
+#### Sachsen
+
+* NEW: SAC-BVJ-HJI (A.01.03).rpt (A.01.03 Halbjahresinformation der Berufsschule - Berufsvorbereitungsjahr)
+* CHANGE: SAC-BS-HJI (A.01.02).rpt
+* CHANGE: SAC-BVJ-AS mit HS (A.01.09).rpt (Hauptschulabschluss wird nun beim `Schüler > Laufbahn > Abschluss` im Bereich „Abschluss1“ im Feld „Abschlussart“ abgefragt. Grundlage bildet das `Schlüsselverzeichnis > Abschlussarten`.)
+* CHANGE: SAC-BF-JZ (B.02.02).rpt
