@@ -1,3 +1,5 @@
+![Deployment status](https://vsrm.dev.azure.com/stuebersystems/_apis/public/Release/badge/2cc87afa-9a3b-472b-8a3c-3eca48b22dd6/10/11)
+
 # MAGELLAN 7 Dokumentation
 
 Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert.
