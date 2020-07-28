@@ -5,6 +5,10 @@
 
     Die Installation des Datenbankservers \(Firebird\) wird für die Installationsarten Server und Einzelplatz vorausgesetzt.
 
+!!! danger "Achtung"
+
+    Wenn Sie bereits MAGELLAN einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für MAGELLAN 7 anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+
 Diesen Installationstyp wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen (zum Beispiel um MAGELLAN zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
 
 ## Download und Installationstypen

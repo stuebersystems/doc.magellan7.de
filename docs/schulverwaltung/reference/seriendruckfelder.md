@@ -6,7 +6,7 @@ MAGELLAN gibt über eine Schnittstelle Daten an MS Word für den Seriendruck. We
 
 !!! info "Hinweis"
 
-    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck.html).
+    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck/).
 
 ## Menü Schüler
 
@@ -381,6 +381,8 @@ Nr|Seriendruckfeld
 140.|«PraxisAusbildungVon»
 141.|«PraxisAusbildungBis»
 142.|«Praxisdauer»
+143.|«Bildungsgang»
+144.|«Beruf»
 
 ## Menü Bewerber
 

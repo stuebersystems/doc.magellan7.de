@@ -1,5 +1,11 @@
 # Schlüsselverzeichnisse
 
+Dieser Abschnitt listet die Schlüsselverzeichnis auf, zeigt hinter welchem Verzeichnisfeld der Oberfläche welches Verzeichnis genutzt wird.
+
+!!! danger "Achtung"
+
+    Die hier gezeigten Bezeichnungen können von den für die [Keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien/) (Dateien für Import von Schlüsselverzeichniswerten) erwarteten Bezeichnungen abweichen. 
+
 ## Abgangsarten (Lehrer)                  
 
 Info                   | Wert
@@ -14,7 +20,7 @@ Info                   | Wert
 ---------------------- | ----
 Name in Datenstruktur  | Abgangsarten
 Mandantenbezug         | Nein
-Verwendet in Ansichten | `Schüler > Zugang`<br\>`Abgang > Abgangsarten`
+Verwendet in Ansichten | `Schüler > Zugang`<br/>`Abgang > Abgangsarten`
 
 ## Abordnungsarten	
 
@@ -22,7 +28,7 @@ Info                   | Wert
 ---------------------- | ----
 Name in Datenstruktur  | Abordnungsarten
 Mandantenbezug         | Nein
-Verwendet in Ansichten | `Lehrer > Daten3 > Art1`<br\>`Lehrer > Daten3 > Art2`
+Verwendet in Ansichten | `Lehrer > Daten3 > Art1`<br/>`Lehrer > Daten3 > Art2`
 
 ## Abschlussarten	
 

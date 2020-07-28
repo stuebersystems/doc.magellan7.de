@@ -57,8 +57,9 @@ nav:
     - Einführung: index.md
     - Was ist neu?: changelog.md
     - Geplante Änderungen: changelog-next.md
-    - Neu in Version 7: neu.mag7.md
+    - Änderungen 2019: changelog2019.md
 - Schulverwaltung:
+    - Unterschied Version 6 und 7: neu.mag7.md    
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
@@ -74,7 +75,7 @@ nav:
       - Updates verteilen: schulverwaltung/update/wie-kann-ein-update-verteilt-werden.md
       - Firebird aktualisieren: schulverwaltung/update/firebird-aktualisieren.md
       - Umstieg von 6 auf 7: schulverwaltung/update/umstieg-von-6-auf-7.md
-      - Eigene Berichte anpassen: schulverwaltung/update/Berichte_anpassen.md
+      - Eigene Berichte anpassen: schulverwaltung/update/berichte_anpassen.md
       - Probleme beim Update?: schulverwaltung/update/probleme-beim-update.md
     - So gehen Sie vor: 
       - Übersicht: schulverwaltung/howto/README.md
@@ -92,11 +93,13 @@ nav:
       - Schuljahreswechsel: schulverwaltung/howto/schuljahreswechsel.md
       - Sonderfälle in der Schullaufbahn: schulverwaltung/howto/sonderfaelle.md
       - Zeugnisdaten: schulverwaltung/howto/zeugnisdaten.md
+      - ENBREA Leistungen: schulverwaltung/howto/enbrea.leistungen.md
       - Prüfungsnummer generieren: schulverwaltung/howto/pruefungsnummer.md
       - Durchschnitt/Abschluss berechnen: schulverwaltung/howto/durchschnitt-abschluss.md
       - Gymnasiale Oberstufe: 
         - Übersicht: schulverwaltung/howto/Oberstufe/gymnasium.md 
         - Vorbereitung: schulverwaltung/howto/Oberstufe/vorbereitung.md
+        - Schüler synchronisieren: schulverwaltung/howto/Oberstufe/sync.md
         - Fachwahl: schulverwaltung/howto/Oberstufe/fachwahl.md
         - Abiturberechnung: schulverwaltung/howto/Oberstufe/abiturberechnung.md
       - Berufsschulmatrix: schulverwaltung/howto/berufsschulmatrix.md
@@ -112,6 +115,7 @@ nav:
       - MAGELLAN ADMINISTRATOR: 
         - Übersicht: schulverwaltung/admin/magellan.administrator.md
         - Datenbankverbindungen: schulverwaltung/admin/admin.datenbankverbindungen.md
+        - Datenbanksicherungen: schulverwaltung/admin/sicherung.md
         - Benutzerverwaltung: schulverwaltung/admin/users.md
         - MyMAGELLAN Center: schulverwaltung/admin/mymagellan-center.md
         - Datenbankpflege: schulverwaltung/admin/datenbankpflege.md
@@ -129,7 +133,6 @@ nav:
     - Referenz: 
       - Übersicht: schulverwaltung/reference/README.md
       - Tastaturkürzel: schulverwaltung/reference/shortcuts.md
-      - Sonderzeichen: schulverwaltung/reference/special-characters.md
       - Schlüsselverzeichnisse: schulverwaltung/reference/catalogs.md
       - keys-Dateien: schulverwaltung/reference/keys-dateien.md
       - Seriendruckfelder: schulverwaltung/reference/seriendruckfelder.md
@@ -140,7 +143,7 @@ nav:
         - Oberstufe: schulverwaltung/regionales/ausland/oberstufe.md
       - Berlin: 
         - Übersicht: schulverwaltung/regionales/berlin/berlin.md
-        - Schlüsselverzeichnisse: schulverwaltung/regionales/berlin/schluesselverzeichnisse.md
+        - Berliner Felder: schulverwaltung/regionales/berlin/felder.md
         - Skriptüberblick: schulverwaltung/regionales/berlin/skriptuebersicht.md
         - Angaben für die Oberstufe: 
           - Übersicht: schulverwaltung/regionales/berlin/oberstufe.md
@@ -161,8 +164,11 @@ nav:
           - Übersicht: schulverwaltung/regionales/berlin/fos.md
           - BER-APO-FOS-2006/2013: schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013.md
         - Schülerdatenexport: schulverwaltung/regionales/berlin/schuelerdaten.md
-        - Statistik Abiturdaten: schulverwaltung/regionales/berlin/stat.abidaten.md
-        - Statistik Schülerdaten: schulverwaltung/regionales/berlin/stat.schuelerdaten.md
+        - Statistik:
+          - Einstieg: schulverwaltung/regionales/berlin/statistik/01.stat.einstieg.md
+          - Schlüsselverzeichnisse: schulverwaltung/regionales/berlin/statistik/02.schluesselverzeichnisse.md
+          - Abiturdatenerfassung: schulverwaltung/regionales/berlin/statistik/03.stat.abidaten.md
+          - Schülerdaten: schulverwaltung/regionales/berlin/statistik/04.stat.schuelerdaten.md
       - Nordrhein-Westfalen: 
         - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
       - Saarland: 
@@ -180,6 +186,7 @@ nav:
 - Bibliotheksverwaltung:
     - Überblick: bibliothek/index.md
     - Installation und Updates: bibliothek/installation/installation_und_updates.md
+    - Optionen: bibliothek/installation/optionen.md 
     - Tutorial: 
         - Überblick: bibliothek/tutorial/tutorial.md
         - Vorbereitung: bibliothek/tutorial/vorbereitung.md

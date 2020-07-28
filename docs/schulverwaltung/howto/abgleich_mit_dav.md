@@ -16,7 +16,6 @@ Wenn Sie MAGELLAN und DAVINCI einsetzen, sollten Sie wie folgt vorgehen:
 2. Geben Sie die Unterrichtsverteilung in DAVINCI ein und erstellen Sie mit DAVINCI den Stundenplan.
 3. Geben Sie ggf. die Schülerfachwahlen in DAVINCI::Kursplan ein und übertragen Sie die Kurswahlen nach MAGELLAN. Wenn Sie Schüler-Fachwahlen nach MAGELLAN übertragen wollen und Sie neue Fächer in DAVINCI eingegeben haben, die noch nicht in MAGELLAN vorhanden sind, dann müssen Sie beim Datenabgleich neben den Schülerfachwahlen auch markieren, dass die Fächer übernommen werden sollen.
 
-
 !!! info "Hinweis"
 
 	Bitte beachten Sie beim Datenabgleich zwischen MAGELLAN und DAVINCI allgemein die folgenden Hinweise:
@@ -172,6 +171,10 @@ Bei der Übernahme des Lehrer-Unterrichts aus DAVINCI werden durch den Import de
 
 Durch die Übernahme des Lehrer-Unterrichts wird pro Schüler unter Ansicht `„Schüler“ > Zeugnis > Fächer` jedem Fach der unterrichtende Fachlehrer aus DAVINCI zugeordnet.
 
+!!! danger "Achtung"
+
+	Bei Veranstaltungszeilen aus DAVINCI, denen mehr als eine Klasse zugewiesen wurde, ist es wichtig, dass diese Veranstaltungen auch eine Blockbezeichnung erhalten um korrekt ausgewertet werden können.
+
 Felder|Hinweis
 ---|---
 **Zugewiesener Lehrer in der Veranstaltungsliste**|<br/>Dabei prüft MAGELLAN nach folgender Regel:<br/><br/>Unterrichtet der Lehrer<br/>- das gleiche Fach mit<br/>- gleichem Fachstatus und<br/>- gleicher Kursnummer in <br/>- der gleiche Klasse,  <br/> so wird er dem Schüler in diesem Fach zugeordnet.
@@ -189,7 +192,7 @@ Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht �
 
 !!! info "Hinweis"
 
-	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen sondern für alle Klassen des gewählte Import-Zeitraums.
+	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen. Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen, sondern für alle Klassen des gewählte Import-Zeitraums.
 	Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
 
 ### Beifachlehrer im Datenübertrag
@@ -276,7 +279,20 @@ Mit der Zusatzoption können Klassen automatisch in MAGELLAN angelegt werden, we
 
 Mit der Option `Nur geänderte Daten` werden nur solche die Schüler für den Import berücksichtigt, deren Daten sich zwischen MAGELLAN und der zu importierenden Schuldatentransferdatei in der Kurswahl unterscheiden. Die Unterscheidung erfolgt auf Basis der Unterschiede
 
-* in der Fachkombinationsnummer oder
-* oder in der Kombination aus Fach, Unterrichtsart, Fachstatus, Kursummer, Schwerpunkt und Merkmal 
+Bezeichnung|Inhalt
+--|--
+erste Variante|**Fachkombinationsnummer**
+Programmstellen|`MAGELLAN > Schüler > Zeugnis > Details > Fachkombination`<br/><br/>`MAGELLAN > Schüler > Zeugnis > Details > Tutor`<br/>`DAVINCI > Kursplan > Fachwahl`<br/>`DAVINCI > Kursplan > Schüler > Schlüssel`
+Ergebnis|Hat sich die Fachkombinationnummer durch die Fachwahlprüfung geändert, wird diese übertragen und der Tutor übertragen.
+zweite Variante| **Unterschied in der Schülerkurswahl**
+Programmstellen|`MAGELLAN > Schüler > Zeugnis > Fächer`<br/>`MAGELLAN > Schüler > Zeugnis > Leistungen`<br/>`DAVINCI > Kursplan > Schüler/Fachwahlen`
+Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart<br/>* Fachstatus<br/>* Kursummer<br/>* Schwerpunkt<br/>* Merkmal <br/><br/> Hat sich eine Änderung bei den Schülerfachdaten (`Schüler > Zeugnis > Fächer`) gegeben, werden die Fach- und Leistungsdaten des Zeitraums gelöscht und neu mit den Daten aus DAVINCI gefüllt.
 
-Zur Berücksichtigung reicht ein einziger Unterschied aus.
+!!! danger "Achtung"
+
+	Werden die Schülerfächer in MAGELLAN durch den Abgleich gelöscht können zwei Folgeprobleme entstehen.
+	
+	1. Die Schülerfächer sind die Grundlage für die Halbjahresnoten. Werden die Fächer durch den Übertrag entfernt, werden auch gegebenenfalls bereits erfasste Noten gelöscht.
+	
+	2. Für MyMagellan-Dateien werden die Inhalte aus `Schüler > Zeugnis > Fächer` verwendet. Dabei werden die Daten anhand der ID aus der Tabelle SchuelerFachdaten gespeichert. Werden die Fächer in MAGELLAN gelöscht und neu angelegt, wird auch eine neue ID für die Fachzeilen in der Tabelle SchuelerFachdaten vergeben. Damit können die Daten aus den zuvor erzeugten MyMagellan-Dateien nicht mehr zugeordnet werden.
+

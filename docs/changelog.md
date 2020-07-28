@@ -1,6 +1,11 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7.
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 7. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan7.stueber.de/changelog/](https://doc.mymagellan7.stueber.de/changelog/).
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle Änderungen in MAGELLAN 6.
+
+* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2019](changelog2019.md)
+
+* Was wir für die nächste Ausgabe planen, sehen Sie im Kapitel ["Voraussichtliche Änderungen"](changelog-next.md).
 
 ## LEGENDE
 
@@ -14,1249 +19,994 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-## 7.0.20 - 708 (27.09.2019)
+## 7.1.14 - 715 (16.07.2020)
 
-### MAGELLAN Administrator
-
-* FIX: Problem beim Einlesen des Schlüsselverzeichnisses `Schulformen` [Schüler > Daten 2 > Höchster Abschluss ABS/BBS > Schulform] gelöst
-
-## 7.0.19 - 708 (26.09.2019)
+### Datenstruktur
 
 !!! warning "Wichtig"
 
     Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
-### Datenstrukturänderung
+### Datenstruktur
 
-* FIX: Fehlende Trigger für die Ansicht "MedizinDaten" hinzugefügt. Damit können diese Felder wieder bearbeitet werden.
+* NEW: Tabelle SchuelerFachdaten: `HJ1_Bestanden` bis `HJ6_Bestanden` entfernt und durch `Bestanden` ersetzt
 
-### MAGELLAN
+### MAGELLAN SCHULVERWALTUNG
 
-* FIX: Anzeige des Kürzels unter `Daten2 > Bereits besuchte Schulen` für die Felder `Schule` und `Schulform` angepasst.
-* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
-* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
-* FIX: Unter `Abitur > Qualifikation` und unter `Abitur > Fachwahl` wird für den Aufruf des Excelexports der Listeninhalte das korrekte Symbol verwendet.
-* FIX: Beim Blättern zwischen Schülern von der Unterkarte `Daten2 > Bereits besuchte Schulen` wird für den nächsten Schüler die korrekte zuletzt besuchte Herkunftsschule geladen.
-* FIX: Fehlende Aktualisierung beim Ausführen von `Laufbahnprozess > Als Bewerber kopieren` während man in der Ansicht `Bewerber` ist korrigiert
-* CHANGE: Die Schaltfläche `Weiter` im Dialog `Laufbahnprozess > Schüler wechseln > Weitere Angaben` wird erst nach dem Eintrag der Daten für `Bisherige Klasse beendet am` und `Eintritt in die neue Klasse am` aktiv
-* CHANGE: In den Menüs `Personen`, `Lehrer` und `Sorgeberechtigte` wurden die Reiter `Nativ` und `Latein` umbenannt in `Standard` und `Alternativ`
-* FIX: Aufruf des Punktes `Abitur > Prüfung > Schriftliche Prüfungsnoten` überarbeitet
-* FIX: Aktualsierung der Anzeige der Schüler beim Aufruf und beim Blättern zur nächsten Klasse unter `Klassen > Zeiträume > Schüler` überarbeitet
-* FIX: Zuweisen von Klassenleitern ohne Eintrag im Feld `Vorname` als `Klassenleiter` unter `Klasse > Zeiträume > Klassenleiter 1/2` korrigiert
-* FIX: Menü `Schüler > Daten 2` - das Filtern von Aktiv und Inaktiv in den Feldern »Höchster Abschluss ABS - Abschluss« und auch in »Höchster Abschluss BBS - Abschluss« ist wieder gegeben
-* FIX: Korrigiert wurde der Eintrag für Daten unter `Betriebe > Daten 2` für neu angelegte Betriebe
-* FIX: Wird ein inaktiver Schüler als Bewerber kopiert, als Vagabund übernommen und in einem späteren Zeitraum wieder eingeschult, dann wird er mit dem inaktiven Schüler verbunden und (das ist die Änderung) der * Status auf aktiv geändert.
-* FIX: Im Assistenten unter `Laufbahnprozess > Schüler wechseln` wurde die Schaltfläche `Weiter` nicht beim erneuten Ausführen aktiv.
-* FIX: Beim Anpassen von Werten unter `Extras > Schlüsselverzeichnisse > Zeiträume` wird beim Speichern nicht mehr der Inhalt der Schülerliste gewechselt.
-* FIX: Beim Einschulen eines Nebenschülers wird der aktuelle Ausbildungsbetrieb wie folgt gesetzt:
-    * Ein Nebenschüler wird im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler nicht miteinander verbunden, beide haben die gleiche Liste an Ausbildungen, aber individuelle Einträge als aktuelle Ausbildung.
-    * Ein Nebenschüler wird nicht im selben Zeitraum eingeschult, indem der Stammschüler existiert: In diesem Fall werden Stamm- und Nebenschüler  miteinander verbunden, beide haben die gleiche Liste an Ausbildungen und denselben Eintrag als aktuelle Ausbildung.
+* FIX: Unter `Schüler > Zeugnis > Details` werden für `Verhalten` und `Mitarbeit` Noten und Füllwerte gezeigt.
+* NEW: NRW: Unter `Schüler > Zeugnis > Leistungen` gibt es das Feld `Bestanden`. In dem Feld ist festhaltbar, ob der Kurs bestanden, nicht bestanden oder nicht belegt wurde. Diese Eingabe wird beim Synchronisieren der Daten mit ins Menü `Abitur` übergeben und je Halbjahr (E1-Q4) abgebildet. Bitte beachten Sie den Abschnitt ["Bestanden" und "Leistungsart"](https://doc.magellan7.stueber.de/schulverwaltung/howto/Oberstufe/sync/#bestanden-und-leistungsart) im Kapitel [Schüler synchronisieren](https://doc.magellan7.stueber.de/schulverwaltung/howto/Oberstufe/sync/)
+* FIX: `Schüler > Daten4` neue Fahrtstrecke kann gespeichert werden
+* FIX: Filterbezeichnungen korrigiert
+* FIX: Die Zugriffsrechte für das Modul `Abitur` (damit für das Erfassen der schriftlichen Prüfungsnoten) wurden für die Rechtegruppen Schulleitung1, Sekretariat1 erweitert. Zusammengefasst haben hier Änderungsrechte: Kollegium5, Schulleiter1, Schulleiter2, Sekretariat1, Sekretariat2, MandantenAdmin und der sysdba. Bitte führen Sie das Synchronieren der Zugriffsrechte im MAGELLAN Administrator unter `Benutzerverwaltung > Menüleiste "Zugriffsrechte synchronisieren"` aus um die Rechte für bestehende Benutzerkonten zu erweitern.
+* FIX: `Abitur > Prüfungen`: Wenn das Häkchen für "Lernleistungen einbringen" als letzte Aktion vor dem Auslösen der Berechnung gesetzt wird, wird es durch die Aktion des Berechnens nicht deaktiviert.
 
-* FIX: Beim Einschulen eines Vagabunden (kein Nebenschüler), wird die unter `Bewerber > Ausbildung > Ausbildung` gewählte aktuelle Ausbildung für den Schüler übernommen.
-* FIX: Der Postleitzahlautomatismus und das Speichern der Daten wurde für das Menü Betriebe überarbeitet.
-* FIX: Die Nutzung eines eigenen Unterverzeichnisses (Benutzer) als Quelle für den Schlüsselimport wurde überarbeitet. Bitte beachten Sie in unserer Dokumentation den Punkt [Eigene Kataloge importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer)!
+### MAGELLAN Schnittstellen
 
-### MAGELLAN Bibliothek
+* FIX: SAXSVS: Problem beim Ausspielen der Förderschwerpunkte für Schüler mit IDIntern behoben.
+* CHANGE: Hinweise,  wie mit erneut auftauchenden Schülern im Import umgegangen wird, überarbeitet: [https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten](https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten)
 
-* FIX: Anzeige der Daten in Ansicht `Medien > Exemplare` Felder `Zustand` und `Kataloge` wurde korrigiert.
+### MAGELLAN ADMINISTRATOR
 
-### Skripte
+* FIX: Beim Übertrag von MAGELLAN 6 nach MAGELLAN 7 wird die Datenstruktur 674 erwartet 
 
-* FIX: Zuweisen von Zugriffsrechten.dws (für Gast2 fehlte die Aussage über den Zugriff auf SchuelerAbwesenheiten), bitte synchronisieren Sie die Zugriffsrechte erneut, um Benutzern mit dieser Rechtegruppe die korrekten Rechte zuzuweisen.
+### MyMAGELLAN-CENTER
 
-### MAGELLAN Administrator
-
-### Statistik
-
-* FIX: SAC - SAXSVS Export Leerzeichen in Namen werden nicht mehr in die XMl Datei übergeben
-* FIX: NRW - ABI.TXT - Die Abiturnote wird jetzt mit einem Punkt, nicht wie versehentlich mit einem Komma ausgegeben
-* FIX: NRW - SIM.TXT - LSSchulform wurde nicht korrekt ausgelesen, das führte zu Leereinträgen in der Spalte.
-* FIX: NRW - SIM.TXT - LSKlassenart wurde nicht ausgespielt, sondern nur ausgelesen. Das führte bei den Datensatzsarten: "Neuzugang" und "Neuzugang an gleicher Schule" dazu, dass eine Spalte in der Zeile fehlte.
-* FIX: NRW - SIM.TXT - Adressmerkmal wird zwar nicht benötigt wurde aber auch nicht als Leerfeld (Nur Trennzeichen) ausgespielt.
-* FIX: NRW - SIM.TXT - Die Kopfzeilen für Adressmerkmal und Internat am Ende der SIM.TXT haben gefehlt
-* CHANGE: NRW - SIM.TXT - Die beiden Spalten `Produktname` und `Produktversion` dienen lediglich Supportzwecken. Beide Informationen wurden in die Spalte Produktname verschoben. In der Spalte `Produktversion` geben wir jetzt die Datensatzart aus, dies hilft dem Support bei der Suche nach Problemlösungen.
-* CHANGE: NRW - SIM.TXT - Kein Fehler aber eine Eingabehilfe. Einige Kunden geben keine Versetzungart ein, sondern setzen lediglich das Merkmal Versetzt. Wir tragen dem Folge und berechnen entsprechend die Versetzung anders als zuvor. Nachzulesen in der Dokumentation unter [SIM.TXT - Dateneingabe - Feld "Versetzung"](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/#dateneingabe).
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: Klassenlehrerliste mit Räumen (Variante 2).rpt
-* FIX: Klassenlehrerliste mit Räumen.rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt
-* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: SAR-GEMS-AZ (Klasse 5-10)
-* FIX: Lehrerliste mit Geburtstagen.rpt
-* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
-* FIX: Lehrerliste (Email und Funktion 1-8).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
-
-## 7.0.18 - 707 (12.09.2019)
-
-### MAGELLAN
-
-* NEW: Import SchülerOnline freigeschaltet
-* FIX: Standardardpfad zur Updateinfo korrigiert
-* FIX: Abspreichern von Schülerdatensätzen mit Leerzeichen unterbunden
-
-### Statistik
-
-* NEW: Nordrhein-Westfalen Statistikmodul 2019. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse. Bitte beachten Sie die aktualisierte Statistikdokumentation für NRW ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: SAR-GEMS-AZ (Klasse 5-10).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: Lehrerliste mit Geburtstagen.rpt
-* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
-* FIX: Lehrerliste (Email und Funktion 1-8).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
-* FIX: SAC-BF-JZ (B.03.02).rpt (Unterbericht Zeugnisbemerkungen)
-* FIX: SAC-BS-JZ (A.02.01) 2spaltig.rpt (Unterbericht Zeugnisbemerkungen)
-* FIX: SAC-BS-JZ (A.02.01).rpt (Unterbericht Zeugnisbemerkungen)
-
-## 7.0.17 - 707 (04.09.2019)
-
-### MAGELLAN
-
-* FIX: Korrektur bei Durchlauf der SAXSVS Statistik
-* FIX: Unter `Klassen > Zeiträume` wird die Anzeige der einzublendenen Zusatzklasse beim Weiterschalten aktualisiert
-* FIX: Korrektur der Auswahl eines weiteren Mandanten
-* FIX: Angezeigte Anzahl der Schüler (gesamt, aktiv, inaktiv) in der Schülerauswahlliste überarbeitet
-* FIX: Bezeichnung des Tabs `Datenbank` wird wieder korrekt dargestellt
-* FIX: Ablage von PDF-Dokumenten in Schülerunterverzeichnissen parallel zum Druck (oder auch ohne Druck) für Schüler mit Nebenlaufbahn angepasst
-* FIX: Die erste dem Schüler unter `Daten2` zugewiesene `Bereits besuchte Schule` wird standardmäßig als `Herkunftsschule` übernommen
-* FIX: `Schüler > Daten1` Kontextmenü Passfoto ergänzt um Passfoto aus Digitalquelle
-* FIX: für Schüler mit Status N können Zeugnisse, Berichte etc. als PDF Dateien im Dokumente Ordner gespeichert werden
-
-### Skripte  
-
-* FIX: `Exportiere SDTF.dws` und `Importiere SDTF.dws` an neue `MagSDTFSync.exe` angepasst
-* FIX: Am Skript `Schüler einschulen.dws` wurde das Einschulen von Schülern korrigiert, die bereits in älteren Halbjahren Schüler der Schule waren
-
-### MAGELLAN Administrator
-
-* FIX: Übernahme MAGELLAN 6 nach MAGELLAN 7: `SchuelerUnfallberichte` und `Beschäftigungsarten`
-* FIX: SHL > 00_Klassenstufen.keys
-
-### Statistik
-
-* NEW: Schleswig-Holstein Statistikmodul 2019. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse. Bitte beachten Sie die aktualisierte Statistikdokumentation für SHL ["Statistikdokumentation für SHL"](https://doc.ls.stueber.de/schleswig-holstein/einstieg/).
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: SAR-GEMS-AZ (Klasse 5-10)
-* FIX: Lehrerliste mit Geburtstagen.rpt
-* FIX: Lehrerliste mit Geburtstagen (ohne Geburtsjahr).rpt
-* FIX: Lehrerliste (Email und Funktion 1-8).rpt
-* FIX: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
-* FIX: NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
-
-## 7.0.16 - 707 (16.08.2019)
-
-### MAGELLAN
-
-* FIX: `Betriebe > Kontakte > Neuer Kontakt`
-* FIX: `Schüler > Laufbahnprozess > "Schüler wechseln"` die neue Klasse wird wieder angezeigt
-* CHANGE: importierbares PLZ-Verzeichnis ergänzt: D 39615 Aland, 15090003 ergänzt
-* CHANGE: Beispieldaten in Beispieldatenbank reduziert und aktualisiert
-* FIX: Anzeige, Speicherung und Auswahl von neu angelegten Gemeinden beim Zuweisen vom Schüler aus (PLZ und Enter) korrigiert
-
-### MAGELLAN Bibliothek
-
-* FIX: Auswahldialog zur Übernhame neuer Schüler als Medienausleiher korrigiert
-* FIX: Neue Medien anlegen: Schaltflächenbenennung korrigiert
-* FIX: Neue Medien anlegen: `Jahrgang bis` korrigiert
-* FIX: Zur Übernahme als Medienausleiher angebotene Schülermenge angepasst
-* FIX: Unter `Datenbank > Optionen > Start` wurde der Zeitraum entfernt (die Bibliothek hat keinen Zeitraumbezug mehr, insofern ist eine Startzeitraum überflüssig)
-* FIX: Wechsel zu einem anderen Mandanten korrigiert
-
-### Skripte  
-
-* FIX: `Schüler wechseln.dws`
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
-
-## 7.0.15 - 707 (12.08.2019)
-
-!!! warning "Wichtig"
-
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
-
-### Datenstrukturänderung
-
-* CHANGE: Aktualisierung eines Triggers für ENBREA-Leistungen
-* FIX: Korrektur des Schülerstatus zu Vagabund (Status 2), wenn der Schüler keine Laufbahndaten hat und der Status 3 ist
-* FIX: Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
-
-### MAGELLAN
-
-* FIX: Durchblättern der Datensätze funktioniert auch mit PgUp und PageDown
-* FIX: Befehl "Änderungen verwerfen" ist aktiv
-* FIX: Skalierungsproblem beim Vergrößern und Verkleinern der Ansicht behoben
-* FIX: Eingabe eines Leerzeichens unter `Schüler > Daten1 > Straße`
-* FIX: Anzeige eines Berufes oder Bildungsgangs ohne Betrieb/Praxisbetriebs auf `Ausbildung` und `Daten1` beim Schüler
-* FIX: Abfrage für angezeigte Datensätze unter `Schüler > Auswahl` angepasst
-* FIX: Downloadpfad unter `Hilfe > auf Aktualisierung prüfen` angepasst
-* FIX: Eingabe der PLZ und des Ortes bei Betrieben
-
-### Skripte
-
-* FIX: Anpassung von `Schueler wechseln` (um Haupt- und Nebenklasse für Schüler in der Anzeige alter Zeiträume zu setzen)
-* FIX: Anpassung von `Schueler korrigieren` (Status für Vagabunden wird korrekt gesetzt)
-* FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen von Vagabunden)
-* FIX: Anpassung von `Schueler einschulen` (Setzen des aktuellen Ausbildungsbetriebes beim Einschulen und Zusammenführen von Vagabunden und Stammschüler)
-* FIX: Anpassung von `Schueler einschulen` (Beim eventuellen Zusammenführen von Vagabunden und Stammschüler wird der Status des Schülers ggfs. auf Status 3 (aktiv) gesetzt)
-
-### MAGELLAN Administrator
-
-* FIX: Restore (Wiederherstellen) einer Sicherungskopie korrigiert
-* FIX: Übernahme der Daten von MAGELLAN 6 nach MAGELLAN 7:
-    * Klassenzeitraeume.NaechsteKlasse und Klassenzeitraeume.NaechsteKlasseZeitraum werden ignoriert
-    * Setzen der SchuelerZeitraum.ID bei SchuelerZeugnisBemerkungen, falls diese fehlt
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: SAC-BVJ-AS mit HS (A.01.08).rpt (Ausgabe der Klassenmerkmale - Merkmal 1 und Merkmal 2)
-* FIX: Schueler\Nordrhein-Westfalen\Schülerstammblatt.rpt
-* FIX: Schueler\Nordrhein-Westfalen\NRW-Schülerstammblatt.rpt
-
-Für folgende Berichte wurde die Verknüpfung zwischen SchuelerZeitraeume und SchuelerAusbildung geprüft und ggfs. korrigiert:
-
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.02.05).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-HJI (A.01.02).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-Bescheinigung (F.01.01).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AZ (A.02.04).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AZ (A.02.04) 2spaltig.rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AZ (A.02.03).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AZ (A.02.02).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AZ (2 seitig).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.02.06).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.02.05) 2spaltig.rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.02.04).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.01.06).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (2 seitig).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-HJZ (1 seitig).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FS-JZ1 (C.01.02).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FS-JZ2 (C.01.02).rpt
-* FIX: Zeugnisse\Sachsen\Zertifikat (F.01.09).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FS-AZ (C.01.04)(bis 2018).rpt
-* FIX: Zeugnisse\Sachsen\SAC-Fremdsprachenzertifikat (F.01.05).rpt
-* FIX: Zeugnisse\Sachsen\SAC-Fremdsprachenzertifikat (F.01.05)(DIN A3)(bis 2018).rpt
-* FIX: Zeugnisse\Sachsen\SAC-Fremdsprachenzertifikat (F.01.05)(bis 2018).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-JZ (A.02.01).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FOS-FHReife (D.01.04).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FS-HJI (C.01.01).rpt
-* FIX: Zeugnisse\Sachsen\SAC-FS-HJI (C.01.01)(bis 2018).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BVJ-JZ (A.01.08)(2 jähriges BVJ).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BVJ-AS mit HS (A.01.08).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.01.07)(bis 2018).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BG-ABI (E.01.06).rpt
-* FIX: Zeugnisse\Sachsen\SAC-BF-AS (A.02.07).rpt
---
- 
-## 7.0.14 - 706 (19.07.2019)
-
-!!! warning "Wichtig"
-
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
-
-### MAGELLAN
-
-* FIX: `Betriebe > Daten2`: Berufe und Bildungsgänge (mit voller Zeichenlänge Kürzel und Bezeichnung) können gespeichert werden
-* FIX: Schüler, die in einem vergangenen Zeitraum mehrfach eine Klasse besucht haben (Beispiel Klasse 1a, Wechsel in Klasse 1b, erneuter Wechsel in Klasse 1a) werden korrekt in den Auswahlliste gezeigt
-* FIX: pausierende Schüler werden über die F3-Suche (zeitraumübergreifende Suche) gefunden
-* FIX: Unter `Klassen > Zeiträume` können Klassenzeiträume, denen noch kein Schüler zugewiesen wurde, gelöscht werden.
+* FIX: Mym-Datei mit mit pauschalem Kennwort erstellen
 
 ### MAGELLAN BIBLIOTHEK
 
-* FIX: `Bücher/Medien > Daten2 > Erscheinungsland`: Problem beim Speichern behoben
-* FIX: `Bücher/Medien > Daten2 > Format`: Problem beim Speichern behoben
-* CHANGE: Link unter `Hilfe > Handbuch` aktualisiert
-* FIX: Das Verhalten beim Markieren in Schülerauswahlliste wurde überarbeitet (Markierungen bleiben nicht nur funktionell, sondern auch sichtbar bestehen)
+* FIX: Beim Versuch eines mit "Dauerverleih" markierten Buches wird die nachfolgende Meldung ausgegeben. Exemplare können per Sammelzuweisung über das Feld "Bestandsstatus" mit `Dauerverleih` (Sie haben das Buch in eine andere Bibliohtek ausgeliehen) oder als `Dauerleihgabe` (Sie haben das Buch dauerhaft aus einer anderen Bibliothek ausgeliehen) markieren.
 
-### MAGELLAN Administrator
+![Meldung bei der Ausleihe eines mit "Dauerverleih" markierten Exemplares](/assets/images/changelog/7.1.14.01.png)
 
-* FIX: Korrektur der Datenübernahme von 6 -> 7 (`Datenbankpflege > Mandanten kopieren`). Wer vorher bereits Schüler übernommen hat, kann die Korrektur auch in der bestehenden MAGELLAN 7-Datenbank mit dem Punkt `Datenbankpflege > Verwaiste Stammschüler-Verweise entfernen` ausführen.
+### Skripte
 
-## 7.0.13 - 705 (28.06.2019)
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-### Allgemein
+* CHANGE: `Synchronisiere Abi` wurde angepasst, es werden die Daten aus dem Feld `Bestanden` (aus Schüler > Zeugnis > Leistungen) mit ins Abitur synchronisiert
+* CHANGE: `Synchronisiere Zugriffsrechte` wurde angepasst, siehe Hinweise im Abschnitt MAGELLAN SCHULVERWALTUNG:
 
-* NEW: Neue Nachrichtenfunktion: Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick beim Aufruf von MAGELLAN, des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
+### Berichte
 
-![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
-  
-### MAGELLAN BIBLIOTHEK
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: Problem beim Aufruf des Menüpunkts `Schüler` behoben
+* CHANGE: SAC-FS-AS mit FHReife (C.01.06).rpt (automatische Durchschnittsnoteberechnung korrigiert, die Durchschnittsnote ergibt sich aus allen Zeugnisnoten mit Ausnahme der Fächer Sport, Religion und Ethik sowie mit Ausnahme aller nachrichtlich ausgewiesenen Fächer (Noten))
 
-### MAGELLAN Administrator
 
-* CHANGE: Ergänzung in der Datenübernahme: Für Schüler (Status 3 und 4), die in Version 6 kopiert, aber trotzdem nicht wieder zu einem Datensatz beim Einschulen zusammengeführt wurden, werden bei der Datenübernahme nach MAGELLAN 7 die Einträge aus `IDIntern` entfernt.
-
-!!! warning "Wichtig"
-
-    Die Funktion `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird aktuell überarbeitet und wurde daher vorübergehend deaktiviert.
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: SAC-FOS-FHReife (D.01.04).rpt (Satz am Seitenende von Seite 2 aktualisiert)
-* NEW: SAC-BS-AS (A.01.07)neu.rpt
-
-## 7.0.12 - 705 (24.06.2019)
+## 7.1.13 - 714 (08.07.2020)
 
 !!! warning "Wichtig"
 
     Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
+### Datenstruktur
 
-!!! warning "Wichtig"
+* NEW: Tabelle SchuelerFachdaten: neues Feld `Durchschnitt` 
+* NEW: Tabelle SchuelerFachdaten: neue Felder `HJ1_Bestanden` bis `HJ6_Bestanden`
 
-    Bitte beachten Sie, dass Sie dieses Update nicht einspielen durfen, wenn Sie im MyMAGELLAN-Prozess sind, also mym7-Dateien verteilt haben, diese aber noch nicht wieder nach MAGELLAN importiert wurden! 
-    Wenn die Dateien über den Aufruf im MAGELLAN ADMINISTRATOR wieder eingesammelt wurden, kann MAGELLAN auf die neue Ausgabe aktualisiert werden.
-    
+### SchuelerOnline
 
-### MAGELLAN
+* INFO: Wir haben SchuelerOnline gemeldet, dass aktuell die beiden Felder Schulnr und Schulbez nicht korrekt übergeben werden. Es wird in Kürze in SchuelerOnline angepasst, bis dahin passen Sie bitte die Spaltenköpfe für dem Import per Hand an.
 
-* FIX: `Schüler > Laufbahnprozesse > Schüler korrigieren` mit abgestuften Benutzerrechten wurde angepasst
-  
-!!! info "Hinweis"
-  
-      Bitte beachten Sie, dass das `Zugriffsrechte synchronisieren` im Modul MAGELLAN ADMINISTRATOR (Menüpunkt Benutzerverwaltung) vorab durchgeführt werden muss!
-
-* FIX: Passfotofunktion unter `Bewerber > Daten1` und unter `Lehrer > Daten1` ergänzt
-* FIX: im Lehrermenü kann `Auswahlliste > Lehrer markieren > Rechtsklick` das Fehlzeitenfenster aufgerufen werden
-* FIX: Die Funktionalitäten unter `Schüler > Zeugnis > Bemerkungen` wurden überarbeitet
-* FIX: `Abitur > Bemerkungen > Sammelzuweisung`: zur Auswahl stehende Schüler werden korrekt gefiltert
-* FIX: Unter das Schnittstellenfenster unter `Extras > Export > Export` gibt entsprechende Meldungen aus oder lässt Sie den Assistenten nicht weiterbedienen, wenn keine Schnittstelle oder kein Zeitraum gewählt wurde.
-* FIX: Speichern von Schülerfehlzeiten
-* FIX: Erste bereits besuchte Schule des Bewerbers (`Bewerber > Daten2`) wird standardmäßig als Herkunftsschule gesetzt
-* FIX: Beschriftung des Doublettenprüfungsfensters für Lehrer korrigiert
-* FIX: Korrektur der Anzeige des Status (S und N statt H und N für Stamm- und Nebenschüler) unter `Sorgeberechtigte > Kinder`
-* FIX: Aufruf der Serienmail aus dem Menü `Bewerber` ergänzt
-* FIX: Aufruf `Abitur > Drucken > Zeugnisse` ergänzt
-* FIX: `Schüler > Daten2 > Abgangsart` Kürzellänge von 20 Zeichen wird akzeptiert
-* FIX: `Schüler > Laufbahnprozesse > Ausschulen > Abgangsart` Kürzellänge von 20 Zeichen wird akzeptiert
-* FIX: Geschwindigkeit beim Zuweisen des Status (aktiv, inaktiv, pausierend) in der Schülerauswahlliste optimiert
-* FIX: `Klassen > Daten > Abteilung` Problem beim Speichern behoben
-* FIX: Unter `Extras > Schlüsselverzeichnisse > Noten` wurden die Spalten `Von` und `Bis` ergänzt.
-* FIX: Korrektur der Sammelzuweisung unter `Schüler > Abitur > Zeugnisbemerkung`
-* NEW: Auf den Registerkarten im Menü `Schüler` werden jeweils am oberen Rand Symbole für den Status (aktiv, inaktiv, pausierend), ggfs. die Volljährigkeit (Berechnet anhand des Tagesdatums und des Geburtsdatums) und/oder der Status `Geheim` (Häkchen von Daten 3) eingeblendet.
-
-![Symbole auf den Schülerregisterkarten](/assets/images/changelog/7.0.12.02.png)
-
-* FIX: Löschen von PDF-Dateien aus Dokumenteverzeichnissen der Schüler/Bewerber korrigiert
-* CHANGE: Unter `Schüler > Dokumente` ist als Standardansicht die Sortierung nach Details und die optimale Spaltenbreite vorbelegt
-* FIX: Anzeige der Daten unter `Klassen > Zeiträume` korrigiert
-* FIX: Schaltfläche `Fertigstellen` wird beim erneuten Korrigieren von Schülern aktiviert
-* FIX: gewählte Größe des Druckvorschaufensters wird gespeichert
-* FIX: `Datenbank > Optionen > Ein-/Ausblenden` Beschriftung angepasst
-* FIX: Versionsanzeige unter `Hilfe > Version und Lizenz` angepasst
-* FIX: `Betriebe > Daten 2` Berufe zuzuweisen korrigiert
-* FIX: Unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
-* FIX: In der Sammelzuweisung unter `Schüler > Laufbahn > Abschluss` wurde die akzeptierte Kürzellänge der Felder `Abschluss1`, `Abschlussart1`, `Abschluss2` und `Abschlussart2` angepasst.
-* FIX: Im Menü `Abitur` kann die Simulation nicht mehr aus der Auswahlliste aufgerufen werden, sondern aus den Unterkarten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl`.
-* FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Berufe` (Berufsfelder, Fachrichtungen, Qualifikationsniveau) korrigiert
-* FIX: Querverweise auf weitere Verzeichnisse unter `Extras > Schlüsselverzeichnisse > Bildungsgänge` (Berufsfelder, Schwerpunkte, Fachrichtungen, Qualifikationsniveau ) korrigiert
-* FIX: Verzeichnisfelder im Assistenten `Schüler ausschulen` korrigiert: `Abgangsart`, `Übergang`, `An Schule`, `An Schulform`
-* FIX: Die Bezeichnung der Fachspalte unter `Abitur > Qualifikation` wurde angepasst.
-* FIX: Die Anzeige des am unteren Rand eingeblendeten Skriptnamens im Menü `Abitur` auf den Karten `Qualifikation`, `Prüfung`, `Zeugnisbemerkungen` und `Fachwahl` wurde angepasst.
-* FIX: Unter `Extras > Schlüsselverzeichnisse > Zeugnisformular > Datei` wird im Bearbeitenmodus die Schaltfläche zum Auswählen per Verzeichnisbaum gezeigt
-* FIX: Bei der Auswahl einer Formulardatei unter `Extras > Schlüsselverzeichnisse > Zeugnisformular > Datei` wird das Öffnen von Crystal Reports unterbunden
-* FIX: Beim Verschieben der Fenstergröße der zweigeteilten Ansicht unter `Schüler > Laufbahn` erscheinen keine "Schatten" mehr.
-* FIX: Hilfeverweise auf neue Dokumentationspfade angepasst
-* FIX: Meldung beim Umschalten mit nicht korrekt hinterlegtem Fachwahlskript von `Abitur > Fachwahl` eine andere Unterkarte behoben
-
-### SAXSVS
-
-* CHANGE: Wenn bei einem Schüler der Haken unter `Schüler > Daten 2 > NdH` aktiviert/wieder deaktiviert wird, wird entsprechend der Knoten für Migration erzeugt/nicht erzeugt.
-
-### MAGELLAN BIBLIOTHEK
-
-* NEW: Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und inaktiven Ausleiher mit der aktuellen oder zuletzt besuchten Klasse an. Sie können Ihre Liste über die Spalten `Status` und `Zeitraum` individuell filtern.
-* NEW: Ausleiher, die nicht mehr als Schüler in MAGELLAN existieren, werden mit einem eigenen Status (roter Kreis) dargestellt. Durch die Anzeige der offenen Vorgänge und diesem Status oder des Status inaktiv können Sie diese Ausleiher gezielt aus der Liste löschen.
-* CHANGE: neue Symbole in der Medienansicht
-* FIX: Verschieben in anderen Katalog korrigiert
-* FIX: Text im Assistenten zum manuellen Anlegen eines neuen Mediums korrigiert
-* FIX: Assistent zur Übernahme neuer Lehrer korrigiert
-* FIX: neue Symbole für die Auswahl der Exemplare in der Ausleihe
-* FIX: Rückgabe per eingescanntem Buch korrigiert
-* FIX: angezeigte Punkte unter `Extras > Berichte organisieren` und `Extras > Vorlagen organisieren` angepasst
-* FIX: Schüler ( = Ausleiher aus Bibliothek) löschen korrigiert
-* FIX: Personen hinzufügen korrigiert
-* NEW: in der Auswahlliste der `Schüler`  werden am unteren Rand zwei Ziffern eingeblendet, die linke zeigt alle (auch ehemalige) Ausleiher, die rechte zeigt je nach Filterung der Liste die gezeigte Anzahl der Ausleiher.
-* FIX: Sammelzuweisung für Exemplare überarbeitet
-* FIX: `Bücher/Medien` Anzahlen und Symbole in der Statusleiste angepasst
-* FIX: die gewählten Filterungen in den Menüpunkten werden gespeichert
-* NEW: Unter `Ausleihe > Ausleiher > alle auswählen (*)` wird die Klasse und der Status eingeblendet, zusätzlich kann die Liste gefiltert werden
-
-### MyMAGELLAN
-
-* NEW: Die Bemerkung, die zum Start gezeigt wird, hat eine Scrollbar erhalten, um auch längere Texte bequem lesen zu können
-* NEW: In den Auswahlen (Fächer, Schüler) und in den Eingabeübersichten (Fächer, Schüler) wird die jeweils letzte Sortierung in der Registry des verwendeten Rechners gespeichert.
-* NEW: Die Spaltenreihenfolge der Eingabeübersichten (Fächer, Schüler) wird in der Registry des verwendeten Rechners gespeichert.
-* FIX: Öffnen einer bereits zuvor genutzten Datei über `Datei > Zuletzt geöffnete Dokumente` behoben.
-* NEW: `Datei > Öffnen` speichert das zuletzt geöffnete Verzeichnis für den nächsten Zugriff.
-* FIX: Problem beim Öffnen per Doppelklick auf Passwort-geschützte mym-Dateien behoben.
-* CHANGE: Startfenstergröße vorgegeben
-
-### MyMAGELLAN CENTER
-
-* NEW: In die MyMAGELLAN-Dateien ausschließlich Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben werden, deren Bis-Datum im MAGELLAN-Verzeichnis (MAGELLAN > Extras > Schlüsselverzeichnisse) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt. Ungültige Werte stehen somit den Kollegen bei der Eingabe in MyMAGELLAN nicht mehr zur Verfügung.
-* FIX: Problem mit passwortgeschützten Dateien behoben
-
-### MAGELLAN Administrator
-
-
-!!! warning "Wichtig"
-
-    Die Funktion `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird aktuell überarbeitet und wurde daher vorübergehend deaktiviert.
-
-* CHANGE: Die Skriptdatei `Zugriffsrechte zuweisen` wurde um neue Bestandteile der Datenbank ergänzt. Bitte synchronisieren Sie die Zugriffsrechte über die Schaltfläche im `MAGELLAN-ADMINISTRATOR > Benutzerverwaltung > Zugriffsrechte` synchronisieren.
-  
-![Zugriffsrechte synchronisieren](/assets/images/changelog/7.0.12.01.png)
-
-* NEW: `Datenbankpflege > Gemeinden synchronisieren` wurde ergänzt um Sorgeberechtigte, damit können nachträglich Gemeindekennziffern für Sorgeberechtigte ergänzt werden, wenn die PLZ und der Ort einem Eintrag im Verzeichnis der Postleitzahlen zugeordnet werden können.
-* FIX: Anzeige der Rechtegruppe `Statistikadmin` in der Übersicht der Benutzer
-* FIX: Unter `Datenbankverbindung > Wiederherstellen` wird beim Öffnen eines Pfades (Schaltfläche am Ende des Pfadfeldes) direkt der eingestellte Zielpfad geöffnet.
-* FIX: `Datenbankpflege > Code 128` generieren korrigiert.
-* FIX: Problem beim Abruch des nachträglichen Anmelden in den Menüs `Datenbankpflege` und `Datenaustausch` behoben.
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX:
-
-Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
-
-* FIX: Klassenliste mit Klassendaten.rpt
-* FIX: Klassenliste (Sorgeberechtigte und Geburtsdatum).rpt
-* FIX: Klassenliste inkl. ausgeschulter Schüler.rpt
-* FIX: Klassenliste mit Eltern2.rpt
-* FIX: Klassenliste mit Endnoten.rpt
-* FIX: Klassenliste Schüler-Notenmatrix (mit Verhalten und Mitarbeit).rpt
-* FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
-* FIX: Klassenliste Schüler-Notenmatrix.rpt
-* FIX: Prüfungsliste.rpt
-* FIX: Berichte\Klassen\Klassenliste (Sorgeberechtigte und Geburtsdatum).rpt
-* FIX: Berichte\Klassen\Saarland\SAR-Klassen-Notenliste Halbjahr Lernfeld MBK.rpt
-* FIX: Berichte\Klassen\Saarland\SAR-Klassen-Notenliste Abgeschlossene Lernfelder MBK.rpt
-* FIX: Berichte\Klassen\Rheinland-Pfalz\Klassenliste mit Endnoten.rpt
-* FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS (nur für Minderjährige).rpt
-* FIX: Berichte\Klassen\Nordrhein-Westfalen\Zeugnisliste BBS.rpt
-* FIX: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GY-FHReife (Bescheinigung).rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GY-ABI (2014).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-Studienbuch (Qualifikationsphase - zweite Seite).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-ABI-Meldung-MdlAbitur (Profil 2011).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-ABI (2015).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-Abi (Leistungskarte 2011).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AS (Klasse 5-10)(G8).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AS (Klasse 5-10)(G9).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AZ (A3)(2015).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-AZ (A3).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-FHReife (2011).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-FHReife (2015).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-HJZ (2008).rpt
-* FIX: Berichte\Zeugnisse\Schleswig-Holstein\SHL-GY-HJZ (Profil).rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
-* FIX: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2)
-* FIX: Berichte\Zeugnisse\Schweiz\CH-Notenausweis-E-Profil-2003.rpt
-* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-ABI-Reifepruefung 2017.rpt
-* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
-* FIX: Berichte\Zeugnisse\Auslandsschulen\DAS-GY-AZ mit FHR (Anlage 9b).rpt
-* FIX: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
-* FIX: Berichte\Schueler\Unfallanzeige (mit Erläuterungen).rpt
-* FIX: Berichte\Schueler\Schülerstammblatt (Belegung der Arbeitsgemeinschaften).rpt
-* FIX: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt (Betriebe -Querformat).rpt
-* FIX: Berichte\Schueler\Schülerpersonalblatt (nur mit Eltern und Vorbildung).rpt
-* FIX: Berichte\Schueler\Schülerliste (zeitraumübergreifende Fehlzeiten).rpt
-* FIX: Berichte\Schueler\Schülerausweis ohne Photo.rpt
-* FIX: Berichte\Schueler\Schüler-Abi (Antrag mündliche Prüfung).rpt
-* FIX: Berichte\Schueler\Schüler mit Herkunftsschulen.rpt
-* FIX: Berichte\Schueler\Schüler mit Herkunftsschulen u. letzte Klasse.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-AS.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-AZ.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-HJZ (1. Variante).rpt
-* FIX: Berichte\Zeugnisse\heinland-Pfalz\RLP-BF-HJZ (2. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-HJZ (3. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-JZ (Oberstufe).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BF-JZ (Unterstufe).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG (Punktekreditkarte-2010).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-ABI (2010).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-ABI (2010)A4.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BG-AS (Anlage D 48).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AS.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AZ (mit Zusatzbemerkung).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-AZ (ohne Zusatzbemerkung).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-HJZ (Variante 2).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-Punktekreditkarte.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-2.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 13-1.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 12-2.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 12-1.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 11-2.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 13).rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-HJZ 11-1.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 12).rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-FHReife (Jahrgangstufe 11).rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 13-1.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-2.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 12-1.rpt"
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-WG-AZ 11-1.rpt"
-* FIX: RLP-BS-AZ (neue Form 1. Variante).rpt
-* FIX: RLP-BGJ-HJZ.rpt
-* FIX: RLP-BGJ-JZ.rpt
-* FIX: RLP-BGYM-ABI (2010).rpt
-* FIX: RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 1).rpt
-* FIX: RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 2).rpt
-* FIX: RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 1).rpt
-* FIX: RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 2).rpt
-* FIX: RLP-BS-AS (1. Variante).rpt
-* FIX: RLP-BS-AS (2. Ausdruck).rpt
-* FIX: RLP-BS-AS (2. Variante).rpt
-* FIX: RLP-BS-AS (neue Form 1. Variante ohne Wahlpflicht).rpt
-* FIX: RLP-BS-AS (neue Form 1. Variante).rpt
-* FIX: RLP-BS-AS (neue Form 2. Variante ohne Wahlpflicht).rpt
-* FIX: RLP-BS-AS (neue Form 2. Variante).rpt
-* FIX: RLP-BS-AS (ohne Wahlpflicht).rpt
-* FIX: RLP-BS-AZ (2. Ausdruck alte Form 1. Variante).rpt
-* FIX: RLP-BS-AZ (alte Form 1. Variante).rpt
-* FIX: RLP-BS-AZ (alte Form 2. Variante).rpt
-* FIX: RLP-BS-AZ (alte Form nf ohne Wahlpflicht).rpt
-* FIX: RLP-BS-AZ (alte Form nf).rpt
-* FIX: RLP-BS-AZ (alte Form ohne Wahlpflicht).rpt
-* FIX: RLP-BS-JZ (ohne Wahlpflicht Ziel erreicht).rpt
-* FIX: RLP-BS-AZ (neue Form 2. Variante).rpt
-* FIX: RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
-* FIX: RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (neue Form 1. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-HJZ.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGJ-JZ.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BGYM-ABI (2010).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 1).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis mit Wahlpflicht Variante 2).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 1).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS (Zwischenzeugnis ohne Wahlpflicht Variante 2).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (1. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (2. Ausdruck).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (2. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 1. Variante ohne Wahlpflicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 1. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 2. Variante ohne Wahlpflicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (neue Form 2. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AS (ohne Wahlpflicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (2. Ausdruck alte Form 1. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form 1. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form 2. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form nf ohne Wahlpflicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form nf).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (alte Form ohne Wahlpflicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (ohne Wahlpflicht Ziel erreicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-AZ (neue Form 2. Variante).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel erreicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (mit Wahlpflicht Ziel nicht erreicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-HJZ (Klassen 7-10).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-BS-JZ (ohne Wahlpflicht Ziel nicht erreicht).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FO (HJZ-JZ-AZ).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FO-FHReife (DIN A3).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-FS-AS (Sozialpädagogik DIN A3).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES (Abschlussprognose).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES (Beiblatt).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (9.Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse mit Ü 11).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (10.Klasse).rpt.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AS (Zeugnis für die Realschule).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-AZ.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-HJZ (Klassen 5 und 6).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-JZ (Klassen 5 und 6).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GES-JZ (Klassen 7-10).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abgangszeugnis 1. Klasse – 1 seitig - dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abgangszeugnis 2. und 3. Klasse – 2 seitig - ohne Noten dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Abschlusszeugnis – 2 seitig- dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (HJZ und JZ - 3. und 4. Klasse - 2 seitig dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Jahreszeugnis 1. Klasse – 1 seitig - dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS (Jahreszeugnis 2. und 3. Klasse – 2 seitig - ohne Noten dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS (1. Klasse – 1 seitig - dynamisch 2012).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS (1. und 2. Klasse - 1 oder 2 seitig).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AS.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (1. Klasse – 1 seitig - dynamisch 2012).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig - dynamisch 2012).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig - dynamisch).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ (3. und 4. Klasse - 2 seitig).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-AZ.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ (2. Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ (3. und 4. Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-HJZ_JZ (3. und 4. Klassen-2 seitig dynamisch 2012).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (1. und 2. Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (2. Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GS-JZ (3. und 4. Klasse).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 2. Seite)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (2).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 1) (ohne Wappen).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 1).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9) (A4 Seite 2).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (2010-G8-G9).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 1. Seite ohne Wappen)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 - 2. Seite ohne Wappen)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ 11-1.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 ohne Logo)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3 ohne Wappen)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A3)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 1. Seite ohne Logo)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 1. Seite)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 - 2. Seite)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4 ohne Wappen und Rand)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-ABI (DIN A4-altsprachlich)2006.rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AS (11-13).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AZ (2006).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-AZ (2016).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-FHReife (Jahrgangstufe 11-13).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (2spaltig mit FSP).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (2spaltig ohne FSP).rpt
-* FIX: Berichte\Zeugnisse\Rheinland-Pfalz\RLP-GY-HJZ (11-13).rpt
-
-## 7.0.11 - 704 (03.06.2019)
-
-
-### SAXSVS
-
-* CHANGE: <bzsort_neu> `Übergang an Schule` wird ausgespielt, wenn eine Schule unter `Schüler > Daten2 > An Schule` erfasst wurde, die unter `Schule > Daten > Schulnummer` einen Eintrag (7-stellige Schulnummer) hat.
-* NEW: Für das Feld <an_geschlecht> wird zusätzlich für `weiblich` und `männlich` auch die Auswahl `divers` mit der Ziffer 3 für SAXSVS übergeben.
-
-### MyMAGELLAN
-
-* NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMAGELLAN. 
-  * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/).
-  * Die Dokumentation des Eingabemoduls MyMAGELLAN (aus Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
-
-### MAGELLAN Administrator
-
-* NEW: Neuer Aufruf für das MyMAGELLAN CENTER
-
-## 7.0.10 - 704 (24.05.2019)
-
-### MAGELLAN
-
-* FIX: Beim Seriendruck an Betriebe wird der aktuelle Ausbildungsbetrieb korrekt ermittelt
-
-### SAXSVS
-
-* CHANGE: Bei den erweiterten Prüfungen Land/PLZ/Gemeindekennziffer für Betriebe, Schüler und Sorgeberechtigte werden ausländische Adressen berücksichtigt
-* FIX: Bei Nebenschülern wird das Abgangsdatum zum Auswerten eines eventuellen Abbruchs korrekt berücksichtigt
-
-### Importe
-
-* CHANGE: Postleitzahlverzeichnis geändert, nach dem Import des Verzeichnisses stehen Ihnen folgende Änderungen für neue Zuweisungen zur Verfügung. Bereits erfolgte Zuweisungen werden nicht geändert, sondern müssten bitte manuell angepasst werden.
- 
-  Alt | Neu
-  --|--
-  02727 Neugersdorf|02727 Ebersbach-Neugersdorf
-  02730 Ebersbach |02730 Ebersbach-Neugersdorf
-  01738 Klingenberg | 01774 Klingenberg
-
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: Klassenlehrerliste.rpt (Summen korrigiert)
-* FIX: SAC-BS-JZ (A.02.01).rpt
-
-
-
-## 7.0.9 - 704 (17.05.2019)
-
-
-### SAXSVS
-
-* CHANGE: Neue Prüfungen für Schüler, Betriebe und Sorgeberechtigte für die Felder Land und Gemeinde
-* FIX: Laufbalken wird beim Durchlauf von Beginn an gezeigt, nicht erst bei der Anzeige der Meldungen
-* FIX: beim Auslesen der Ausbildungs-GUID von Nebenschülern
-
-
-### Skripte
-
-* FIX: Änderung des Skriptes ``Zuweisen von Zugriffsrechten`` (Fehlende Rechte in der Ansicht SchuelerFamilie auf tblLehrer ergänzt)
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: SAC-BS-AS (A.02.05) 2spaltig.rpt (Ausgabe des Ausbildungsberufes)
-* FIX: SAC-BS-AS (A.02.04).rpt (Ausgabe des Ausbildungsberufes)
-* FIX: SAC-BS-AS (A.02.04).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FOS-JZ (D.01.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FOS-JZ (D.01.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FOS-AZ (D.01.03).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FO-JZ (D.01.02)(bis 2017).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FO-AZ (D.01.04)(bis 2017).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BVJ-AS mit HS (A.01.08).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-JZ (A.02.01) 2spaltig.rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (A.02.05).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-JZ (E.01.02).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-BG-HJZ (E.01.03).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-JZ (E.01.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-HJZ (E.01.01).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AZ (B.03.04).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (A.02.05) 2spaltig.rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (A.02.07).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AZ (A.02.04).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AZ (A.02.04) 2spaltig.rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (2 seitig).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BGJ-AS mit HS (A.01.10).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-AZ (E.01.05).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-ABI (E.01.09).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG (Punktekreditkarte-2010).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-JZ (B.07.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-JZ (B.04.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-JZ (B.03.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJZ (B.04.03).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJI (B.05.01).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (B.01.03).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-JZ (C.01.02).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-JZ (C.01.02)(bis 2017).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-AS_(C.01.09).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-AS (C.01.11).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-AS (C.01.09).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-FS-AS (C.01.08).rpt (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-JZ (A.02.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-HJZ (1 seitig).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-HJI (A.01.04).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-HJI (A.01.02).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-BVB Maßnahme (A.01.05).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-Bescheinigung (F.01.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AZ (A.02.03).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AZ (A.02.02).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AZ (2 seitig).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (A.02.06).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (A.01.07).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BS-AS (A.01.06).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BGJ-AS ohne HS (A.01.11).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BGJ-AS mit HS (A.01.09).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-HJZ (E.01.04).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-HJZ (2010).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-HJZ (2008)2.rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-ABI (E.01.08).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-ABI (E.01.08)(SF).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-ABI (E.01.06).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BG-ABI (E.01.06)(bis 2017).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-ZAS (B.04.04).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJZ (B.07.03).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJZ (B.02.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJI (B.04.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJI (B.03.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJI (B.02.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-HJI (B.01.01).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AZ (B.01.02).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (B.07.05).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (B.04.06).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (B.04.05).rpt  (Kontrolle, ggfs. Korrektur)
-* FIX: SAC-BF-AS (B.03.05).rpt  (Kontrolle, ggfs. Korrektur)  
-* FIX: Zertifikat (F.01.09).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-JZ2 (C.01.02).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-JZ1 (C.01.02).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-HJZ (C.01.03).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-HJI (C.01.01).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AZ (C.01.06).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AZ (C.01.05).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AZ (C.01.04).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AS mit FHR (C.01.14).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AS mit FHR (C.01.13).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AS mit FHR (C.01.12).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AS (C.01.15).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FS-AS (C.01.13).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-Fremdsprachenzertifikat (F.01.05).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-Fremdsprachenzertifikat (F.01.05)(DIN A3).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FOS-HJZ (D.01.01).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FOS-FHReife (D.01.04).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-HJZ (D.01.03)(bis 2017).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-HJI (D01.01).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-HJI (D.01.01)(Fachpraktischer Unterricht).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-HJI (D.01.01)(bis 2017).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-FHReife (D.01.06)(bis 2017).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-FO-FHReife (D.01.05)(bis 2017).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-BVJ-HJI (A.01.03).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-BVJ-AS ohne HS (A.01.10).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-BVJ-AS ohne HS (A.01.09).rpt (Kontrolle, ggfs. Korrektur) 
-* FIX: SAC-BV-HJI (A.01.01).rpt (Kontrolle, ggfs. Korrektur)   
-
-
-## 7.0.8 - 703 (07.05.2019)
-
-### SAXSVS
-
-* FIX: Besondere Berücksichtigung von Stamm- und Nebenschülern
-
-## 7.0.7 - 703 (29.04.2019)
-
-### MAGELLAN
-
-* FIX: Seriendruck an Praxisbetriebe in den Menüpunkten `Bewerber` und `Schüler` überarbeitet
-* FIX: Problem beim Aktualisieren (F5) einer neuen Eingabe behoben 
-
-### SAXSVS
-
-* FIX: Export von Sorgeberechtigten angepasst
-
-### MAGELLAN Administrator
-
-* CHANGE: Export und Import von Benutzern unter `Benutzerverwaltung > Benutzer importieren/Benutzer exportieren` angepasst
-
-## 7.0.6 - 703 (26.04.2019)
-
-### MAGELLAN
-
-* FIX: "Zuweisen von Zugriffsrechten.dws":  Fehlende Rechte auf "BewerberVerfahren", "BewerberFachdaten" und "BewerberUnterlagen" berücksichtigt , bitte führen Sie im MAGELLAN ADMINISTRATOR das "Zugriffsrechte synchronisieren" im Menüpunkt `Benutzerverwaltung` aus.
-
-![Zugriffsrechte synchronisieren](/assets/images/changelog/7.0.7.01.png)
-
-* FIX: Zeichenlänge auf 20 für die Kürzel der Verzeichnisse Anschluesse Extern und Abschluesse Intern erhöht.
-FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 4 > Adresse/Förderung`
-* FIX: `MAGELLAN > Daten4 > Verkehrsmittel`: Anzeige und Sortierung der Verzeichniswerte
-* FIX: Bewerber-Serienmail integriert
-* FIX: Schüler-Serienmail korrigiert
-* FIX: Schüler- und Lehrerfehlzeitenfunktionalität korrigiert
-* NEW: neue Verhältnisse Schüler-/Bewerber-Familien: Onkel, Tante, Bruder, Schwester, Erzieher, Notfall, Gasteltern
-* FIX: Alle Kürzel auf 20 Zeichen in den Schlüsselverzeichnissen und in allen Ansichten angepasst
-* FIX: Unter `Daten2 > Höchster Abschluss ABS/BBS > Abschluss` wurde jeweils die Anzeige im Verzeichnisfeld auf das Kürzel geändert.
-
-### SAXSVS
-
-* FIX: Problem beim Prüfen des Schülerbetriebes behoben
-* CHANGE: In Absprache mit dem LASUB wurde Folgendes geändert: Bei unseren Sorgeberechtigtenprüfungen und beim Erzeugen der XML-Datei werden nur noch Schüler berücksichtigt, die ausgehend vom im Assistenten eingegebenen Stichtag und dem Geburtsdatum nicht volljährig sind. Bitte beachten Sie den Abschnitt [Sorgeberechtigte](https://doc.magellan7.stueber.de/schulverwaltung/regionales/sachsen/datenpflege/#sorgeberechtigte--saxsvs-bbsschuelersorgeberechtigte)!
-* NEW: Im Statistikassistenten unter `MAGELLAN > Extras > Exporte > Export` wird Ihnen beim Erstellen der XML-Datei für die Meldungen eine neue gesonderte Spalte mit dem jeweiligen Feld oder Bereich gezeigt. Damit können Sie nach dem Export der Meldungen diese sortieren und gezielter die Daten nachpflegen.
-
-
-!!! info "Hinweis"
-
-  Bitte öffnen Sie `MAGELLAN > Extras > Schlüsselverzeichnisse > Schulformen (Herkunft)`. Wechseln Sie zur Zeile mit dem Schlüssel 115 und schalten den Bearbeitenmodus über das Stiftsymbol am oberen Fensterrand ein. Ändern Sie die Bezeichnung bitte auf das Wort **"Berufsvorbereitungsjahr"** und speichern diese Änderung.
-
-![Bitte die Bezeichnung des Schlüssels 115 anpassen!](/assets/images/changelog/7.0.6.01.png)
-
-### Importe
-
-* CHANGE: Im Verzeichnis der `Abschluesse (Extern)` unter `MAGELLAN > Extras > Schlüsselverzeichnisse` wurde die Bezeichnung für den Schlüssel 115 geändert, korrekt ist die Bezeichnung: Berufsvorbereitungsjahr
-
-
-### Skripte
-
-* FIX: "Zuweisen von Zugriffsrechten.dws":  Fehlende Rechte auf "BewerberVerfahren", "BewerberFachdaten" und "BewerberUnterlagen" berücksichtigt  
-
-
-### MAGELLAN Administrator
-
-* NEW: Unter `Datenbankpflege` wurden die Funktionen  `Anrede setzen` und  `Passfoto löschen`ergänzt. Alle Aktionen werden in der [Dokumentation im Abschnitt Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege.html) beschrieben.
-* FIX: Duplizieren von Benutzern angepasst
-* NEW: Neue Funktionalität unter `Datenpflege`. Es können die Einträge im Feld IDIntern geleert werden, wenn der Stammschüler, auf den verwiesen wird nicht mehr existiert. Diese Situation kann in MAGELLAN 7 nicht mehr entstehen, kann aber aus MAGELLAN 6 mit übernommen worden sein. Bitte beachten Sie den Abschnitt [Verwaiste Stammschüler-Verweise entfernen](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#verwaiste-stammsch%C3%BCler-verweise-entfernen)!
-
-### MAGELLAN Bibliothek
-
-* Fix: Datenbankanmeldung beim Druck von Quittungen korrigiert
-* CHANGE: die Abfragen beim Aufruf der Menüpunkte `Schüler` und `Vorgänge` wurden optimiert, damit die Daten in den Menüpunkten schneller aufrufbar sind
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
-
-* FIX: Quittung(DIN A4).rpt
-* FIX: Quittung(DIN A4).rpt
-* FIX: Zeugnisse\Nordrhein-Westfalen
-
-
-## 7.0.5 - 703 (11.04.2019)
-
-### MAGELLAN
-
-* FIX: SAXSVS: Problem für `al_abschl_dat` und `al_laufb_kl` behoben
-* CHANGE: SAXSVS: Neue Meldungen und in allen Meldungen werden mehr Detailinformationen gezeigt
-* CHANGE: SAXSVS: Neue Prüfungen, wenn ein Wert ohne Schlüssel vergeben wurde (Beispiel: Staatsangehörigkeit mit Kürzel D zugeordnet, aber kein Schlüssel im Verzeichnis hinterlegt)
-* CHANGE: SAXSVS: XML-Fehlermeldungen werden erst ausgegeben, wenn keine MAGELLAN-Meldungen mehr ausgegeben werden.
-
-Beispiel für eine MAGELLAN-Meldungen:
-
-Art	|Message
+Verkehrt|Korrekt
 --|--
-Fehler|	Ina Müller (549): Das Feld "<abs><av_abs_schart>" darf nicht leer sein.
-Fehler|	Otto Meyer (549): Das Feld "<bbs><av_bbs_schart>" darf nicht leer sein.
-Fehler|	Sebastian Schmidt (2043): Das Feld "<abs><av_abs_schart>" darf nicht leer sein.
+Schulnummer|**Schulnr**
+Schulbezeichnung|**SchulBez**
 
-Beispiel für eine XML-Meldung:
-
-```
-In Zeile "1" an Position "xxx"
-Begründung: 
-  Fehler beim Analysieren von '' als date-Datentyp.
-Analyse des Elements 'al_abschl_dat' mit dem Wert '' fehlgeschlagen.
- 
-XML-Auszug: ....
-```
-* FIX: Problem beim Ändern von Staatsangehörigkeiten behoben, bitte synchronisieren Sie die Zugriffsrechte im Modul `MAGELLAN Administrator > Benutzerverwaltung`.
-* FIX: Der Aufruf für `Status ändern` wurde in den Menüpunkten `Personen`, `Sorgeberechtigte`, `Betriebe`, `Schulen` unter `Auswahlliste > Datensatz auswählen > Rechtsklick` ergänzt.
-
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* NEW:`Berichte\Klassen` Klassenliste mit Schülersummendaten Ausländer.rpt
-* NEW:`Berichte > Klassen` Klassenliste mit Schülersummendaten Ausländer.rpt
-* NEW: `Berichte > Zeugnisse > Berlin` BER-Schul Z 302 (10.18).rpt
-
-Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angepasst:
-
-* CHANGE: `Berichte > Schüler > RLP/NIE/BAW/BER`
-* CHANGE: `Berichte > Mandanten > Allgemein`
-* CHANGE: `Berichte > Zeugnisse > Auslandsschulen`
-* CHANGE: `Berichte > Zeugnisse > Baden-Württemberg`
-* CHANGE: `Berichte > Zeugnisse > Demo`
-* CHANGE: `Berichte > Zeugnisse > Mecklenburg-Vorpommern`
-* CHANGE: `Berichte > Zeugnisse > Hessen`
-* CHANGE: `Berichte > Zeugnisse > Niedersachsen`
-
-
-## 7.0.4 - 703 (01.04.2019)
+* FIX: `NRW > Import > SchuelerOnline > Betriebe aktualisieren`: Die Funktion wurde aktualisiert
+* CHANGE: HTML-Breaks (`<br/>`) werden beim Einlesen aus SchülerOnline-Dateien ignoriert
 
 ### MAGELLAN
 
-* FIX: Datenstrukturanpassungsassistent: Eine Sicherung muss vor der Anpassung erstellt werden
-* FIX: Datenstrukturanpassungsassistent: Sicherungspfad wird aus den eigenen Einstellungen im Willkommensassistenten oder aus dem MAGELLAN Administrator vorbelegt. Sollte die Sicherung nicht lokal erfolgen, muss der Pfad vorab existieren.
-* FIX: Datenstrukturanpassungsassistent: Schaltfläche zum Erstellen der Sicherung eingeblendet.
+* CHANGE: Aus der Filterung der Schülerauswahliste nach Vagabunden steht `Rechtsklick > Status` nicht mehr zur Verfügung
+* FIX: Rechtegruppe Kollegium5: Änderungen der Laufbahn werden auch beim Weiterschalten zum nächsten Datensatz gespeichert.
+* FIX: Problem beim Anlegen `Unterpunkten` im Verzeichnis `Fächer (Themen)`behoben 
 
-![Sicherung erstellen](/assets/images/changelog/7.0.4.00.png)
+### MAGELLAN BIBLIOTHEK
 
-* FIX: Datenstrukturanpassungsassistent: Assistent kann nur als sysdba gestartet werden
-* FIX: Problem beim Eintragen von Schülerfehlzeiten korrigiert
-* FIX: Anzeige der Statistikmerkmale für Schüler und Bewerber in der Unterkarte `Statistik` behoben.
-* FIX: In den Zugriffsrechten der Benutzern wurden die Rechte für die Tabellen `Medienausleiher` (Änderungen bei Lehrerdatensätzen) und `SchuelerAbwesenheiten` korrigiert. Bitte führen Sie im MAGELLAN Administrator einmal den Punkt `Benutzerverwaltung > Zugriffsrechte synchronisieren` aus, das Skriptdatum im Ergebnisfenster müsste den 26.03.2019 zeigen.
+* FIX: Passbilder, die für bereits als Medienausleiher angelegte Schüler in der Schulverwaltung aktualisiert wurden, werden auch in der Anzeige in der Bibliothek angepasst
+* FIX: Klasse und Klassendaten werden nach Änderung in der Schulverwaltung auch für die Bibliothek übergeben.    
 
-![`MAGELLAN Administrator > Benutzerverwaltung > Zugriffsrechte synchronisieren`](/assets/images/changelog/7.0.4.04.png)
+#### Statistik
 
-* FIX: Mehrfachdarstellung von Schülern beim Fachtafel-zuweisen behoben.
-* FIX: Ein neuer Eintrag unter `Bewerber > Ausbildung` wird automatisch als aktueller Ausbildungsdatensatz übernommen. Das gilt nur für den ersten Eintrag, ab dem zweiten Eintrag ändern Sie ggfs. den Eintrag über das Feld `aktuelle Ausbildung` am unteren Menürand.
-* FIX: `Mandanten > Daten2 > Schulformen`, hier können auch Werte mit mehr als 8-Zeichen Kürzellänge verwendet werden.
-* FIX: Korrektur für den Seriendruck an den Betrieb des Schülers
-* CHANGE: Der Eintrag der aktuellen Ausbildung (`Schüler > Ausbildung > Ausbildung`) wird bei Schülerkopien pro Kopie gespeichert. 
-* CHANGE: Beim Einschulen wird der `Zugang am` für Schüler oder Schülerkopien wie folgt übernommen:
+* NEW: ABS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
 
-Feld|Schüler (ohne IDIntern)|Schülerkopie (mit IDIntern)
---|--|--
-aktualisiert das Feld `Daten2 > ZugangAm`|Ja|Nein
-aktualisiert das Feld `Laufbahn > Zugang`|Ja|Ja
-aktualisiert das Feld `Laufbahn > Schulformeintritt`|Ja|Ja
+#### MAGELLAN Berichte
 
-![Zugang am](/assets/images/changelog/7.0.4.02.png)
+Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/).
 
-* NEW: Neue Sammelzuweisungsmöglichkeit zum Aktivieren oder Deaktivieren des Feldes `Schüler > Ausbildung > Ausbildung editieren > Neuanfänger im Bildungsgang`
+* CHANGE: In den nachfolgend genannten Berichten wurde die Ausgabe der Fremdsprachenreferenzen ergänzt.
 
-![Neuanfänger im Bildungsgang](/assets/images/changelog/7.0.4.03.png)
+  * Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe mit Beurteilung).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 11).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+  * Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
 
-* FIX: Verzeichnisfelder unter ´Schüler > Daten 2` aktualisiert
-* CHANGE: Von- und Bis-Datum der Ausbildung auf `Schüler > Daten1` eingeblendet
-* CHANGE: Gruppierung im Verzeichnis `Bildungsgänge` entfernt
-* FIX: Beim Anlegen eines neuen Schülers wechselt der Auswahllistefilter automatisch auf von `Eingeschult` auf `Vagabunden`.
-* FIX: Beim Zuweisen einer neuen Schulform unter `Mandanten > Daten2 > Schulformen` werden Werte mit bis zu 20 Zeichen im Kürzel akzeptiert
-* FIX: Editierbarkeit unter `Schüler > Zeugnis > Details > Tutor und Prüfungsvorsitz` korrigiert
+![Ausgabe der Fremdsprachen und Referenzen](/assets/images/changelog/7.1.13.01.png)
 
-### MAGELLAN Bibliothek
+### Skripte
 
-* FIX: `Datenbank > Optionen > Quittungen`: es gibt keinen vorbelegten Bericht mehr
-* FIX: `Datenbank > Optionen > Quittungen`: `Quittungen/Bestätigungen automatisch drucken` wird korrekt gespeichert
-* FIX: Vor dem Anlegen eines Mediums wird geprüft, ob mindestens ein Katalog angelegt und ausgewählt ist
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+* NEW: BER-BFS-Matrix-2016 
+* NEW: BER-IBA-HJ-2020 
+* NEW: BER-IBA-AS-2020 
+* CHANGE: SAC-APO-BGY-2017 (Schulfremde).dws
+* CHANGE: SAC-APO-BGY-2017.dws
 
-### MAGELLAN Administrator
-
-* NEW: Neue Funktionalität, um Bewerbern, wenn sie nur eine Ausbildung haben, diese als aktuelle Ausbildung zuzuweisen. Hintergrund: die Zuweisung als aktuelle Ausbildung ist die Voraussetzung für den Seriendruck an diesen Betrieb.
-
-![Bewerberausbildung als aktuelle Ausbildung hinterlegen](/assets/images/changelog/7.0.4.01.png)
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-Folgende Berichtsverzeichnisse wurden auf die Datenstruktur in MAGELLAN 7 angepasst:
-
-* CHANGE: `Berichte > Klassen > allgemeine Berichte`
-* CHANGE: `Berichte > Klassen > Baden-Württemberg`
-* CHANGE: `Berichte > Klassen > Berlin`
-* CHANGE: `Berichte > Klassen > Mecklenburg-Vorpommern`
-* CHANGE: `Berichte > Klassen > Nordrhein-Westfalen`
-* CHANGE: `Berichte > Klassen > Rheinland-Pfalz`
-* CHANGE: `Berichte > Schüler > allgemeine Berichte`
-* CHANGE: `Berichte > Schüler > Auslandsschulen`
-* CHANGE: `Berichte > Schüler > Baden-Württemberg`
-* CHANGE: `Berichte > Schüler > Berlin`
-* CHANGE: `Berichte > Schüler > Mecklenburg-Vorpommern`
-* CHANGE: `Berichte > Schüler > Niedersachsen`
-* CHANGE: `Berichte > Schüler > Nordrhein-Westfalen`
-* CHANGE: `Berichte > Schüler > Rheinland-Pfalz`
-* CHANGE: `Berichte > Schüler > Schleswig-Holstein` 
-* CHANGE: `Berichte > Bewerber > allgemeine Berichte`
-* CHANGE: `Berichte > Bewerber > Baden-Württemberg`
-* CHANGE: `Berichte > Betriebe > allgemeine Berichte`
-* CHANGE: `Berichte > Adressen > allgemeine Berichte`
-* CHANGE: `Berichte > Buchungen > allgemeine Berichte`
-* CHANGE: `Berichte > Kurslisten > allgemeine Berichte`
-* CHANGE: `Berichte > Haushaltsstellen > allgemeine Berichte`
-* CHANGE: `Berichte > Inventar > allgemeine Berichte`
-* CHANGE: `Berichte > Lehrer > allgemeine Berichte`
-* CHANGE: `Berichte > Lehrer > Rheinland-Pfalz`
-* CHANGE: `Berichte > Lieferanten > allgemeine Berichte`
-* CHANGE: `Berichte > Verlage > allgemeine Berichte`
-* CHANGE: `Berichte > Sorgeberechtigte > allgemeine Berichte`
-* CHANGE: `Berichte > Schulen > allgemeine Berichte`
-* CHANGE: `Berichte > Quittungen > allgemeine Berichte`
-* CHANGE: `Berichte > Prüfungslisten > Baden-Württemberg`
-* CHANGE: `Berichte > Prüfungslisten > allgemeine Berichte`
-* CHANGE: `Berichte > Personen > allgemeine Berichte`
-* CHANGE: `Berichte > Medienvorgaenge > allgemeine Berichte`
-* CHANGE: `Berichte > Medien > allgemeine Berichte`
-* CHANGE: `Berichte > Mandanten > allgemeine Berichte`
-* CHANGE: `Berichte > Mandanten > Rheinland-Pfalz`
-* CHANGE: `Berichte > Mahnungen > allgemeine Berichte`
-* CHANGE: `Berichte > Zeugnisse > allgemeine Berichte`
-
-## 7.0.3 - 703 (15.03.2019)
+## 7.1.12 - 713 (30.06.2020)
 
 ### MAGELLAN
 
-* NEW: `Schüler/Bewerber > Daten 2 > Aufenthalt > Aufenthaltserlaubnis` - MAGELLAN um Aufenthaltserlaubnis Von- und Bis- Datum erweitert. Im Zuge dessen die Aufteilung der Eingaben auf der Maske angepasst. 
-* CHANGE: Unterkarte `Bewerber` ist nur noch in der Sammelzuweisung aus dem Menü `Bewerber` sichtbar
-* FIX: Alle Neu-Dialoge der Hauptansichten: Abfrage nach Gast1- und Gast2-Rechten, mit entsprechender Meldung
-* FIX: Datenstrukturversion auf 703 angepasst und Skript korrigiert
-* FIX: Bewerber/Schueler: Nach Anlegen neuer Herkunftsschule und gesetztem Haken wird jetzt auch die gesetzte Herkunftsschule in der Combobox dargestellt (Aktualisierungsfehler)
-* FIX: Sammelzuweisung Bewerber/Schüler : Aus- und Einblenden der Bewerberdaten > Karte im Dialogfenster korrigiert
-* FIX: Serienbrief b. Schüler - Ändern der Empfänger (Betrieb/Sorgeberechtigte) hat sich nicht ausgewirkt
-* FIX: Beim Wechsel aus der Auswahlliste `Schüler` nach einer Filterung werden auf `Daten 1` die Ausbildungsdaten und Familiendaten des korrekten Schülers gezeigt.
-* FIX: Seriendruck aus dem Menü `Bewerber`.
-* FIX: Beim Seriendruck aus dem Menü `Schüler` werden die Datenmengen (nur Schüler- und Klassendaten, zusätzlich Sorgeberechtigtendaten oder zusätzlich Betriebedaten) korrekt an Word übergeben.
-* FIX: Die Ausgabe der Datenmenge `An den aktuellen Betrieb der markierten Schüler` für den Seriendruck wurde korrigiert
-* CHANGE: Unter `Bewerber > Ausbildung` wurde die Eingabe des aktuellen Betriebes ergänzt
-* FIX: Aufruf `Drucken > Zeugnisse` wurde im Menü `Berufsschule` eingeblendet
+* FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
+* FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
+* FIX: `Bewerber > Daten 1` beim Anlegen eines neuen Sorgeberechtigten, wird die Gemeindekennziffer vorbelegt
+* FIX: Nebenschüler mit Ausbildungsbetriebe werden als Auszubildende beim Betrieb angezeigt
+* FIX:  Bei Änderungen der Laufbahn (ohne Speicherung über den laufbahnkarten-bezogenen Speicherhaken) und auf den nächsten Datensatz weiterschalten. Hier erschien die Meldung "Kein Änderungsrecht"
+
+#### Statistik
+
+* NEW: BBS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
+
+#### MAGELLAN Berichte
+
+* NEW: Das Modul `MAGELLAN Berichte` fällt weg, die Dokumentation der Berichte erfolgt ab dieser Version ausschließlich im Bereich Berichte der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)!
+
+### MAGELLAN ADMINISTRATOR
+
+* FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar
+
+### Skripte
+
+* FIX: SHL-APO-2018: Anpassung Fachanforderungen Sport: kaufmännische Rundung nur am Schluss: ((schr. Note des 3. Prüfungsfaches x 2) plus Note1 (Fachpraxis) plus Note2 (Fachpraxis)) geteilt durch 4.
+* FIX: SAC-APO-BGY-2017: Mit den Änderungen durch Artikel 2 der Verordnung vom 24. Juli 2018 entfällt jegliche Unterscheidung nach den Fachrichtungen. Somit muss in MAGELLAN im `Schlüsselverzeichnis > Verordnungen` auch nicht mehr der Wert für "Typ" eingetragen werden. Das Skript berücksichtigt, dass die 2. Fremdsprache nicht mehr zwingend belegt werden muss. Beim Markieren werden nur 26 GKs (zuvor 28 GKs) gekennzeichnet. 
+Aktualisierte Beschreibung zum Skript unter https://doc.la.stueber.de/11.sac/sac-apo-bgy-2017/.
+* CHANGE: NRW-APO-BK-2012: Neben der Unterrichtsart DB iwrd nun auch die Unterrichtsart Diff berücksichtigt. Aktualisierte Beschreibung zum Skript unter https://doc.la.stueber.de/08.nrw/nrw-apo-bk-2012/
+
+### MyMAGELLAN
+
+* FIX: Installationspaket vervollständigt, bei reinen MyMAGELLAN-Installationen erschien beim Eintrag von Schülerbemerkungen eine Meldung, die auf eine fehlende Datei hinwies.
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)
 
 
-### MAGELLAN Bibliothek
+#### Berlin
 
-* FIX: Berichte werden in der Vorschau gefüllt
-* FIX: Meldung beim Aufruf der Ausleihe behoben (Cannot focus a disabled or invisible window)
-* FIX: Ausleihe und Rückgabe angepasst
-* FIX: Zuordnung des Berichteverzeichnisses zum Menü `Mahnwesen`
+* NEW: BER-Schul Z 255 (2019.2020).rpt
+* FIX: BER-Schul Z 256 (2019.2020).rpt (Versetzungsart)
+* FIX: BER-GY (Abi-18a - Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.12).rpt (Ausgabe Punktsumme 5 PK und Note für PK, Seite 2: Da im 4. und 5. Prüfungsfach keine Nachprüfungen möglich, wird auf Seite 2 in der 2. und 3. Tabelle im 4. PF (Spalte 2) das Ergebnis der absolvierten Prüfung ausgegeben, ebenso steht die Gesamtpunktzahl für diese Prüfungen fest und wird nun auch in Spalte 3 genauso wie bei der 5. PK ausgegeben)
+* FIX: BER-GY (abi_4_berechnungsbogen)(10.16).rpt
+* FIX: BER-Schul Z 300 (11.19).rpt (Versetzungsvermerk korrigiert, wird ein Schüler nicht versetzt, gibt des Zeugnis "Nicht versetzt...." aus)
+* FIX: BER-Schul Z 306 (11.19).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt, fehlerhafte Linien enternt, Punktsumme aus 24 Grundkursen in einfacher Wertung korrigiert, wenn eines der Prüfungsfächer BLL oder PRS ist)
+* FIX: BER-Schul Z 306 (11.19)(FG).rpt (Leerzeichen auf Seite 4 in der Formel N = 5 2/3 eingefügt, fehlerhafte Linien entfernt, Punktsumme aus 24 Grundkursen in einfacher Wertung korrigiert, wenn eines der Prüfungsfächer BLL oder PRS ist)
+
+#### Sachsen
+
+* FIX: SAC-BG-ABI (E.01.06).rpt (`Schüler > Daten 3 > 1./2./3./4. Fremdsprache`, haben Sie im Menü `Schüler > Daten 3` keine 2 Fremdsprache hinterlegt, wird folgender Satz unter den Bemerkungen auf dem Zeugnis unterdrückt: *"Das in *ZWEITE FREMDSPRACHE* erreichte Sprachniveau entspricht der Stufe <B1/B2> des Gemeinsamen europäischen Referenzrahmens."*)
+* FIX: SAC-BS-AS (A.02.05).rpt (Formel zur Ausgabe der Berufsbezeichnung (männlich/weiblich) überarbeitet)
+* FIX: SAC-BS-JZ (A.02.01).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
+* FIX:SAC-BG-JZ (E.01.02).rpt (Fehltage unentschuldigt, hat ein Schüler "0", wird eine Entwertung auf dem Zeugnis ausgegeben "----")
+* FIX: SAC-FO-JZ (D.01.02).rpt (Zeilenumbruch Pflichtunterricht korrigiert)
+* NEW: SAC-BF-JZ (B.02.02).rpt (B.02.02 Jahreszeugnis der Berufsfachschule)
+* NEW: SAC-FS-AZ (C.01.04).rpt (C.01.04 Abgangszeugnis Fachschule)
+* NEW: SAC-FS-AS mit FHReife (C.01.06).rpt (C.01.06 Abschlusszeugnis Fachschule mit FHReife)
+* NEW: SAC-FS-AS (C.01.05).rpt (C.01.05 Abschlusszeugnis Fachschule)
+
+#### Saarland
+
+* NEW: SAR-FHReife (Nachweis)(GOS2.0) Zweitschrift.rpt
+* NEW: SAR-FHReife (Nachweis)(GOS2.0).rpt
+* NEW: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2020).rpt
+* NEW: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2020).rpt
+
+## 7.1.11 - 713 (02.06.2020)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstruktur
+
+* NEW: Tabelle `Leistungsarten`
+* NEW: SchuelerAbiDetails:
+  * `HJ1_Leistungsart` bis `HJ6_Leistungsart`
+  * `HJ1_Bestanden` bis `HJ6_Bestanden`
+* NEW: Schuelerfachdaten: `Leistungsart`
+
+### MAGELLAN
+
+* NEW: Schlüsselverzeichnis `Leistungsarten` mit Arten (Schriftlich, mündlich, praktisch) und gleichnamiges Feld unter `Schüler > Zeugnis > Leistungen`.
+  * * Dieses Feld wird für die Oberstufe in NRW benötigt. Man legt sich seine Arten der Leistung an (Beispiel Vortrag, Klausur usw) und markiert sie mit der korrekten Art (Beispiel: Klausur = schriftlich). Bei den Schülern wird unter `Schüler > Zeugnis > Leistungen` jedes Fach mit der vom Schüler gewählten Leistungsart markiert. Diese Leistungsart wird je Kurshalbjahr beim Synchronisieren der Daten mit ins Menü `Abitur > Qualifikation` übernommen. Die Leistungsart wird nur für benotete Fächer übernommen.
+* NEW: Unter `Abitur > Qualifikation` kann je Fach und Kurshalbjahr der Kurs als bestanden markiert werden. Diese Eingabe ist für die Oberstufe in NRW gedacht.
+
+* CHANGE: `Bewerber > Bewerbungsdaten > Fachdaten > Externe Prüfung der Fremdsprache(n)` Aus der Checkbox wurde eine Werteliste mit den Werten `bereits absolviert` und `angestrebt` eingefügt.
+* CHANGE: `Bewerber > Bewerbungsdaten > Verfahren > Einschätzung` Die Benennung der rechten Spalte wurde von `Bewerber` in `Kollegiat/in` geändert.
+
+* FIX: Unter `Extras > Schlüsselverzeichnisse > Fächer` kann ein versehentlich erfasster `Aufgabenbereich` entfernt werden.
+* FIX: `Schüler > Extras > Import`Import SchuelerOnline Betriebe und Ausbildungsdaten
+* FIX: `Schüler > Laufbahnprozess > Schüler einschulen` bei der Kopie eines Schülers wird beim Einschulen die Herkunftsschule aktualisiert
+* FIX: Bei der Änderung eines Schlüsselverzeichnisses während der Bereich `Schüler > Zeugnis` geöffnet war, erschien eine Meldung
+* FIX: Problem beim Synchronisieren von Schülern in die Berufsschulmatrix behoben (`Synchronisiere BBS.dws`)
+* FIX:Eintrag unter `Sorgeberechtigte > Arbeitgeber` wieder möglich
+* FIX: `Sorgeberechtigte > Arbeitgeber` - Schaltflächen werden jetzt korrekt aktiviert
+* FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile > Dialogfenster Kurse definieren`  - Die Überschriften wurden überarbeitet, der blaue Hintergrund entfernt  
 
 
-### MAGELLAN Administrator
+### MAGELLAN ADMINISTRATOR
 
-* NEW: Verbindungen können per Kopieren dupliziert werden (Rechtsklick auf die Verbindung > Verbindung kopieren) 
-* NEW: Ansicht `Benutzerverwaltung` > Neue Registerkarte `Administratoren`:  
-  * Fehlende Administratoren können nachträglich angelegt werden
-  * bei bestehenden Administratoren kann das Passwort geändert werden
-  * Aufruf der Funktionalitäten per Doppelklick auf den Administratorendatensatz oder über den Punkt `Extras`
+* FIX: Reihenfolge beim Einlesen der Dateien aus dem MAGELLAN Importformat korrigiert
+
+### Skripte
+
+* CHANGE: `Importier SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DAVINCI nach MAGELLAN werden die Schülerfachdaten in MAGELLAN nicht mehr geändert, wenn die Fachkombinationsnummer in DAVINCI verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DAVINCI: Schülerkurswahlen mit der Option "nur geänderte Daten" ](https://doc.magellan7.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
+* CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen.
+
+* FIX: `Exportiere SDTF.dws` beim Übertrag von Schülerkurswahlen Auswahl nur bestimmter Schüler
+* FIX: `Importiere SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
+* FIX: `BER-APO-KO-2017.dws`: Anpassungen für MAGELLAN 7
+* FIX: `Synchronisiere BBS.dws`
+
+### Schnittstellen
+
+* NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben
+* NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
+* NEW: SAC - SAXSVS - Schnittstelle um Exportdatei mit  Abgängern/Abschlüssen erweitert
   
-![nachträgliches Anlegen eines sysdba-Nutzers](/assets/images/changelog/sysdba.anlegen.png)  
+* CHANGE: SAC - SAXSVS - Export der Betriebedaten auch, wenn nur Ausbildungs- oder Praxisbetrieb angegeben wurde.
+  
+* FIX: SAC - SAXSVS - Detailverbesserungen und Sonderfälle beim Export berücksichtigt
+* NEW: In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
 
-* FIX: `Datenbankpflege > Mandanten kopieren > 6 nach 7`: (Gilt für Umstiege mit MAGELLAN bis zur 7.0.2, für spätere Versionen nicht mehr nötig.) Die IDIntern bei Schülern zu denen das Original nicht mehr existiert, wird entfernt.
-* NEW: Unter `Datenbankpflege` finden Sie den neuen Punkt `Korrektur Mandanten kopieren`. Die Korrektur überträgt Ausbildungsdaten eines Nebenschülers in die Liste des Stammschülers. Die gesamte Liste wird für Stamm- und Nebenschüler gezeigt.
+### MAGELLAN-Skripteditor
 
- ![Neue Korrekturmöglichkeit im MAGELLAN ADMINISTRATOR](/assets/images/changelog/mandanten.korr.png) 
-
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
-* FIX: DAS-GY-ABI (Anlage 7).rpt (Bericht war versehentlich nur für die Darstellung am Bildschirm eingestellt)
-* CHANGE: Klassen\Klassenliste (Betriebe mit Auszubildenden nach Gemeinden).rpt
-* CHANGE: Klassen\Anwesenheitsliste für den Tag.rpt
-* CHANGE: Klassen\Anwesenheitsliste für ganzen Monat.rpt
-* CHANGE: Klassen\Jahresnotenliste-BVJ.rpt
-* CHANGE: Klassen\Klassen (Fax an Betriebe der Schueler).rpt
-* CHANGE: Klassen\Klassenlehrerliste mit Räumen (Variante 2).rpt
-* CHANGE: Klassen\Klassenlehrerliste mit Räumen.rpt
-* CHANGE: Klassen\Klassenlehrerliste.rpt
-* CHANGE: Klassen\Klassenliste (Adressen Schüler und Eltern).rpt
-* CHANGE: Klassen\Klassenliste (ausländische Schüler).rpt
-
-
-## 7.0.2 - 702 (19.02.2019 - 13.30 Uhr) - Achtung erneute Veröffentlichung!!
-
-
-!!! info "Hinweis"
-
-  Aufgrund von Problemen beim Erstellungsprozess mussten wir die Version erneut veröffentlichen.
-  Sollten Sie die Version 7.0.2 bereits installiert haben. Wiederholen Sie bitte den Download und Installation.
-
-## 7.0.2 - 702 (19.02.2019 - 10.00 Uhr)
-
-!!! info "Hinweis"
-
-  Die Datenstruktur von MAGELLAN ist erweitert worden!  
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update.html). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate.html).
-
-
-### MAGELLAN
-
-* NEW: `Schüler > Daten 2 > Höchster Abschluss ABS > Schule`
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss ABS > Schule`
-
-* NEW: `Schüler > Daten 2 > Höchster Abschluss ABS > Schulform`
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss ABS > Schulform`
-
-* NEW: `Schüler > Daten 2 > Höchster Abschluss BBS > Schule`
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss BBS > Schule`
-
-* NEW: `Schüler > Daten 2 > Höchster Abschluss BBS > Schulform`
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss BBS > Schulform`
-
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss BBS > Beruf`
-* NEW: `Bewerber > Daten 2 > Höchster Abschluss BBS > Erreicht am`
-
-* CHANGE: `Schüler > Zugang/Abgang` komplett nach `Schüler > Daten 2` verschoben, Registerkarte entfernt
-* CHANGE: `Bewerber > Zugang/Abgang` komplett nach `Bewerber > Daten 2` verschoben, Registerkarte entfernt
-
-* NEW: SAXSVS - "Vollständige" Abbildung der Schnittstelle
-* NEW: SAXSVS - Schüler zum Löschen (in SAXSVS) vormerken oder 
-                Schüler vom Export in die XML-Datei ausschließen                
-* CHANGE: SAXSVS - Schlüsselverzeichnisse für die Schnittstelle aktualisiert. Bitte neu einlesen! 
-
-
-### MAGELLAN Administrator
-
-* FIX: 
-
+* CHANGE: überarbeitete Version
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
-
-
-### MAGELLAN Skripteditor
-
-* FIX: 
-
-
-### Skripte
-
+* FIX: Löschen von Exemplaren funktioniert wieder
+* FIX: Optionen können von Benutzern mit Rechten für die Bibliothek geändert werden
 
 ### Berichte (NEW oder CHANGE)
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.magellan7-kb.stueber.de/cr/berichte_fuer_7_anpassen.html" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
+* CHANGE: Schülerpersonalblatt (Überprüfung Stammdaten).rpt (PraxisBetrieb Name 1 und Name 2 werden ausgegeben)
 
----
+#### Berlin
 
-## 7.0.1 - 701 (04.01.2019)
+* NEW: BER-Schul Z 256 (2019.2020).rpt
+
+#### Sachsen
+
+* FIX: SAC-BG-ABI (E.01.06).rpt (Zeugnisbemerkungen aus dem Menü Abitur > Zeugnisbemerkungen werden nun im Bericht angezeigt, Ausgabe der Fachrichtung des Schülers erweitert. Für die Ausgabe der Fachrichtung müssen Sie entweder das Berufsfeld einer Klasse definieren oder das des Schülers.)
+* FIX: SAC-FOS-AZ (D.01.03).rpt (Umbruch bei den Fachbezeichnungen im Pflichtbereich korrigiert)
+* NEW: SAC-BVJ-AS (A.01.10).rpt (Zeugnis der Berufsschule Berufsvorbereitungsjahr)
+* NEW: SAC-BGJ-AS (A.01.11).rpt (Zeugnis der Berufsschule Berufsgrundbildungsjahr)
+
+#### Niedersachsen
+
+* FIX: NIE-GY (Studienbuch - Einführungsphase) G9.rpt (im Bereich Sport wird nun die Null beim Punktwert vorangestellt, Wahlb-Fächer (Fachstatus = Wahlb) werden wieder korrekt nur im Bereich der Wahlfächer ausgegeben)
+
+### Auslandsschule
+
+* FIX: DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt (Korrektur Seite 2, Ausgabe Schüler/In, Anpassungen gemäß der Vorgaben *Handreichungen für die Sekundarstufe I an Deutschen Schulen im Ausland für Zeugnisse und Statistik (Beschluss des Bund-Länder-Ausschusses vom 25.09.2019)*)
+* NEW: DAS-GY-ABI (DIA)(2020)(keine mdl. Prüfung möglich).rpt
+
+#### Optimierungen
+
+Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
+
+* CHANGE: Zeugnisse\Berlin\BER-RS-AS (Schul Z 241)(07.10).rpt
+* CHANGE: Zeugnisse\Berlin\Schleswig-Holstein\SHL-GY-AS (Klasse 5-10)(G8).rpt
+
+## 7.1.10 - 712 (05.05.2020)
+
+### MAGELLAN
+
+* FIX: Fertigstellen-Button im `Extras > Exporte > Untis` wird aktiviert  
+* FIX: Beim Anlegen eines neuen Bewerbers, wird die Anzeige der Herkunftsschule unter `Daten2` korrekt aktualisiert.
+* FIX: Anzeigbare Kürzellänge korrigiert für:
+  * `Bewerber > Höchster Abschluss ABS > Abschluss`
+  * `Bewerber > Höchster Abschluss ABS > Bildungsgang`
+  * `Bewerber > Höchster Abschluss BBS > Abschluss`
+  * `Bewerber > Höchster Abschluss BBS > Beruf`
+  * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
+* FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
+* FIX: `Import > Untis` (korrigiertes Skript `Importiere SDTF.dws`)
+* FIX: `EXport > Untis` (korrigiertes Skript `Exportiere SDTF.dws`)
+* FIX: `Schueler > Extras > Importe > SchuelerOnline` Betriebedaten werden importiert
+
+### MAGELLAN Administrator
+
+* FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
+* FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
+  
+### MyMAGELLAN-CENTER
+
+* FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
+
+### MyMAGELLAN
+
+* FIX: Anzeige der Inhalte der Verzeichnisfelder unter `Schüler > Zeugnisdaten korrgiert`
+  * CHANGE: Die Anzeige der `Beurteilungsarten` unter `Fächer` ist angepasst worden. Statt des Drop-Downfeldes, sind jetzt Radio-Buttons verwendet worden, die dem Benutzer die gefilterte Darstellung der Liste nach der Beurteilungsart verdeutlichen. Bitte beachten Sie die angepasste Dokumentation unter [https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern](https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern)
+* CHANGE: Beim Öffnen der Ansicht `Fächer` ist wie bisher die Vorauswahl so getroffen, dass alle Schülerzeilen zum Fach gezeigt werden. In dieser Ansicht ist kein Editieren möglich. Bitte wählen Sie vor der Eingabe der Ergebnisse die gewünschte Beurteilungsart aus.
+* FIX: Problem bei der Anzeige der Beurteilungsart in der Ansicht `Fächer` behoben.
+* FIX: Problem bei der Eingabe in der Fächeransicht und Anzeige in der Schüleransicht behoben.
+* FIX: Anzeige von Füllwerten korrigiert
+* FIX: spaltenbezogene Filterkriterien in der Ansicht `Fächer` sichtbar
+
+### MAGELLAN Bibliothek
+
+* FIX: Problem beim Übernehmen von Personen als Ausleiher behoben
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+#### Sachsen
+
+* FIX: SAC-FOS-FHReife (D.01.04).rpt (weitere Zeugnisbemerkungen werden wieder korrekt ausgegeben)
+
+### Nordrhein Westfalen
+
+* CHANGE: NRW-APO-BK-2012 und NRW-APO-2012 Abschaffung der so genannten „Abweichungsprüfungen“, (d.h. verpflichtende mündliche Prüfungen im ersten bis dritten Abiturfach bei einer Abweichung der Prüfungsnote von der Vornote von vier oder mehr Punkten)
 
 
+## 7.1.9 - 712 (07.04.2020)
+
+### MAGELLAN
+
+* NEW: Für den Seriendruck `An den Betrieb des Schülers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
+* NEW: Für den Seriendruck `An den Betrieb des Bewerbers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
+* NEW: Überarbeitung der Funktionalitäten für den Gemeindekennziffer- Automatismus in den Bereichen `Bewerber`, `Schüler`, `Sorgeberechtigte`.
+* NEW: Für aus dem Familienmenü unter `Schüler > Daten1` heraus angelegte neue Sorgeberechtigte gibt es das Feld `Gemeindekennziffer`
+* NEW: Wird unter `Schüler > Daten1 > Familie` ein neuer Sorgeberechtigter angelegt, wird die Gemeindekennziffer des Schülers übernommen.
+* NEW: Bei Adressänderungen des Schülers, die auch die Gemeindekennziffer betreffen, wird die Gemeindekennziffer mit zu den zur Änderung markierten verknüpften Datensätzen Schülern oder Sorgeberechtigten übernommen.
+  
+* CHANGE: Spalte Bildungsgang wurde aus der Auswahlliste Schüler entfernt, damit wird eine Performanceverbesserung erzielt
+
+* FIX: `Fachdaten kopieren` beim `Schüler versetzen`
+* FIX: `Bewerber > Daten2`: Dateneingabe und dann Auswahl `nächster Datensatz` Fehlermeldung korrigiert
+* FIX: `Schüler > Daten2 Abschluss` volle Zeichenlänge des Kürzels kann genutzt werden
+* FIX: unter `Abitur > Qualifikation` ist das Feld `Abiturjahrgang` wieder gefüllt und auswählbar 
+* FIX: Unter `Schueler > Daten2 > Abschluss` können Werte verwendet werden, für die unter `Extras > Schlüsselverzeichnisse > Abschlüsse (extern)` die volle Kürzellänge verwendet wurde
+* FIX: das Versetzen von Schülern in Mandanten wurde überarbeitet, dabei wurde auch die Übergabe der Fremdsprache wieder mit eingebunden. Existiert die Fremdsprache (Prüfung anhand des Kürzels) nicht im anderen Mandanten, wird ein neues Fach im Verzeichnis `Fächer` angelegt und dem kopierten Schüler zugewiesen.
+* FIX: Länge der Bezeichnung `Lehrämter` (Überschrift) unter `Lehrer > Daten3` angepasst
+* FIX: Assistent "ENBREA-Leistungen übernehmen" - Textlänge angepasst
+
+### MAGELLAN Administrator
+
+* FIX: Datapump (Datenübertragung von MAGELLAN 6 nach MAGELLAN 7) optimiert
+
+### MyMAGELLAN-CENTER
+
+* NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden.
+
+!!! warning "Wichtig"
+
+    Die Dateiendung im MyMagellan-Center muss bitte vor dem neuen Export angepasst werden. Um die Änderung für viele zu machen, nutzen Sie bitte die Möglichkeit des Exports und Imports der Benutzerdaten und ersetzen bitte mit "Suchen und Ersetzen" (z.b. in Excel per STRG+H aufrufbar) in der exportierten Datei und ersetzen ".mym7" (oder ".mym") durch ".mymx".
+
+### MyMAGELLAN
+
+* NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden
+* FIX: In der Ansicht  `Fächer` und  `Schüler` sind die Felder `schriftl.Note1` - `Endnote (gesamt)` beschreibbar.
+* FIX: Filter im Bereich
+* CHANGE: in der Ansicht `Schüler` und `Fächer` wird die Spalte `Kurs` als erste Spalte eingeblendet, die das Fachkürzel plus die Kursnummer ausgibt.
+
+### MAGELLAN Bibliothek
+
+* CHANGE: Sämtliche Optionen in der Bibliothek sind von den Benutzern mit den Bibliothekts-Rechtegruppen `Schulleitung`, `Bibliothekar` oder dem `sysdba` anpassbar. Benutzer mit den Bibliotheks-Rechtegruppen `Kollegium` oder `Gast` können keine Änderungen vornehmen, sondern die Einstellungen nur ansehen. Bitte beachten Sie den neuen Abschnitt [Optionen](https://doc.magellan7.stueber.de/bibliothek/installation/optionen/).
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+#### Mecklenburg Vorpommern
+
+* CHANGE:  MVP-GY-AS (Jahrgangsstufe 7-10).rpt
+
+#### Optimierungen
+
+Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
+
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GES-MSA (Schul Z 202)(02.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-MSA (Schul Z 512).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-HJZ (Schul Z 510)(05.06).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FOS-AZ (Schul Z 513)(05.06).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-FHReife-Bescheinigung (Schul Z 350)(10.07).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-HJZ (Schul Z 505 b)(BQL FL).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BVJ-AZ (Schul Z 507 a)(BGL VZ).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BV-AS (Schul Z 508).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (Schul Z 501).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (Schul Z 500).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (MSA  Schul Z 502c).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AS (MSA  Schul Z 502).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BQL VZ-HJZ (Schul Z 505 a).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BQL VZ-FL-TZ (Schul Z 505 a-b-c).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BQL TZ-AZ (Schul Z 507 c).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BOS-AZ (Schul Z 534)(03.05).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BOS-AS (Schul Z 533)(03.05).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BFS-AZ (Schul Z 523a).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GY-FHReife (Bescheinigung).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GY (Studienbuch - Einführungsphase) G9.rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 3-4).rpt
+* CHANGE: Berichte\Zeugnisse\Niedersachsen\NIE-GS-AS (Klasse 1-2).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW (Notenkonferenzliste).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-ABI (2014 - Kontrolle vor mündlichen Abi).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 11).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 12).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Jahrgangsstufe 13).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-HJZ (Mittelstufe).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Klasse5).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe mit Beurteilung).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-JZ (Mittelstufe).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-RS-AS.rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-RS-AZ.rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-ABI (2014 - Kontrolle vor mündlichen Abi - 2 Seite).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-ABI (2014 - Abschrift).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY-ABI (2014 - Abschrift SuS).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY (Stammkarte).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GY (Mitteilung Prüfungsergebnisse).rpt
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-GS-AS.rpt
+
+## 7.1.8 - 712 (23.03.2020)
+
+### SAXSVS
+
+* CHANGE:  Bedingungen zum Ausspielen des Abbruchknotens und Status angepasst
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+#### Sachsen
+
+* CHANGE: Berichte\Zeugnisse\BER-GY-JZ (Schul Z 251)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY-AZ (Schul Z 252) (01.07)rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY-FHreife Bescheinigung (Schul Z 350).rpt
+
+#### Optimierungen
+
+Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
+
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Fremdsprachen) A5.rpt
+* CHANGE: Berichte\Schueler\Unfallanzeige.rpt
+* CHANGE: Berichte\Schueler\Unfallanzeige (mit Erläuterungen).rpt
+* CHANGE: Berichte\Schueler\Unfallanzeige (in word ausfüllbar).rpt
+* CHANGE: Berichte\Schueler\Schulzeitenbescheinigung (in word ausfüllbar).rpt
+* CHANGE: Berichte\Schueler\Schülerstammblatt (Belegung der Arbeitsgemeinschaften).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt (mit Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt (Betriebe).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt incl. Schuleintritt (Betriebe -Querformat).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (ohne Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (nur mit Eltern und Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt
+* CHANGE: Berichte\Schueler\Schülerpersonalblatt (mit Fremdsprachenfolge).rpt
+* CHANGE: Berichte\Klassen\Zeugnisliste nach Schülerfächern (Kopfnoten).rpt
+* CHANGE: Berichte\Klassen\Klassen (Fax an Betriebe der Schueler).rpt
+* CHANGE: Berichte\Klassen\Jahresnotenliste-BVJ.rpt
+* CHANGE: Berichte\Klassen\Anwesenheitsliste für ganzen Monat.rpt
+* CHANGE: Berichte\Klassen\Anwesenheitsliste für den Tag.rpt
+* CHANGE: Berichte\Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
+
+## 7.1.7 - 712 (20.03.2020)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstruktur
+
+* CHANGE: Anzeige der aktuellen Vagabunden-Ausbildung möglich
+* CHANGE: Nicht erfasste Fehlzeiteneinträge werden für bereits erfasste Schüler nicht mehr mit 0 sondern leer gezeigt (Zeugnisse können 0 darstellen, egal ob eine 0 oder kein Eintrag vorliegt)
+* CHANGE: Für neu eingeschulte Schüler werden diese Felder nicht mehr mit einer 0 vorbelegt
+
+### MAGELLAN
+
+* NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
+* NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
+* NEW: Wird ein neuer Sorgeberechtigter von `Schüler/Bewerber > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
+* NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld `aktuelle Ausbildung` auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
+* NEW: Die MAGELLAN-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
+
+* CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
+* CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
+* CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
+* CHANGE: Unter `Datenbank > Optionen > Dokumente > Crystal Reports/Word-Seriendruck` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der MAGELLAN-Verzeichnisstruktur sichert.
+* CHANGE: Darstellung der Verzeichnisfelder unter `Berufsschule > Matrix` und `Berufsschule > Abschluss` aktualisiert 
+
+* FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
+* FIX: `Bewerber > Merkmale` Kürzel werden angezeigt
+* FIX: Schüler in andere Mandanten versetzen
+* FIX: Ändern von Adressdaten über mehrere Mandanten hinweg (Sorgeberechtigte, Personen, Lehrer)
+* FIX: Für Schüler, die in einen anderen Mandanten versetzt werden, deren Sorgeberechtigte dort bereits einem Schüler zugeordnet wurden, klappt die Verbindung zwischen Schüler und Sorgeberechtigten
+* FIX: Schüler können nicht erneut in einen Mandanten versetzt werden, in des sie bereits versetzt wurden
+* FIX: Korrektur beim Import NRW-SchuelerOnline [EZ2-Felder für wiederkehrende Schüler](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/#importierte-felder)
+* FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`Zuweisen von Kategorietafeln
+* FIX: `Abitur > Fachwahl`Anzeige der belegten Kurse
+* FIX: `Lehrer > Soll-Berechnung`Auswahl aus dem Schlüsselverzeichnis Lehrer-Sollschlüssel möglich
+* FIX: `Lehrer > Merkmale` Auswahl aus dem Schlüsselverzeichniss Lehrer Merkmale möglich
+* FIX: `Abitur > Fachwahl`:Aktualisierungsproblem behoben
+* FIX: `MAGELLAN > Schüler`Aktualisieren der Ansicht nach Schüler korrigieren
+* FIX: `Schüler > Daten1` Reihenfolge bei Nutzung der Tabulatorentaste angepasst
+* FIX: `Abitur > Prüfungen > Prüfungsnoten eingeben`: Layout anpassen ist inaktiv
+* FIX: `Lehrer > Merkmale` Auswahl der im Schlüsselverzeichnis Merkmale (Lehrer) eingetragenen Werte korrigiert
+* FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`: Kategorietafel zuweisen
+* FIX: Korrektur beim Auswahlfilter der Gemdeinden für Schüler/Sorgeberechtigte/Betriebe bei Auswahl Sachsen und NRW 
+* FIX: `MAGELLAN > Extras > Exporte > Landesstatistik Berlin`
+* FIX: `NRW > Extras > Export > SchülerOnline`: Hier wurde versehentlich die Statistiklizenz mit abgefragt
+* FIX: Wenn ein Bewerber einen weiteren Ausbildungsdatensatz bekommt, fehlte das Häkchen für `als neue Ausbildung übernehmen`.  
+* FIX: Beim Import aus SchuelerOnline wird das Feld Schulnr korrekt eingelesen
+* FIX: `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+* FIX: Für `Extras > Schlüsselverzeichnisse > Bewerbungsziele > Hauptfachnote` ist die Priorität auswählbar
+
+### SAXSVS
+
+* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in MAGELLAN existiert und damit kein Export stattfinden kann
+
+### MyMAGELLAN
+
+* FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
+* FIX: Filterung der Klassen in der linken Spalte der Schüleransicht korrigiert
+* FIX: Ausgeblendete Spalten werden auch beim Datensatzwechsel beibehalten
+* NEW: veränderter Umgang mit Fehlzeiten und der Option "beim Importieren überschreiben"
+
+!!! danger "Achtung"
+
+    Bitte beachten Sie die Abschnitt [Importlogik > Fehlzeiten](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/#fehlzeiten)
+
+* CHANGE: beim ersten Aufruf der Fächeransicht ist standardmäßig die Filter für die Beurteilungsart auf `alle Beurteilungsarten` gestellt
+* NEW: In der Ansicht `Schüler` ist in der rechte Fensterhälfte links vor der ersten Spaltenbezeichnung das Symbol zum Aufruf des Untermenüs zum Ein- und Ausblenden von Spalten.
+
+![](/assets/images/changelog/7.1.7.00.png)
+
+### MAGELLAN Bibliothek
+
+* CHANGE: Korrekturen für den Umgang mit MedienExemplare.BarcodeExtern
+
+### Skripte
+
+* FIX: NRW-APO-2012.dws - Überprüfung für das Fach Musik, ob mehr als 5 Kurse eingebracht wurden für den Fall: dass ein Schüler Musik außerhalb des Abiturbereiches belegt, es können von den 5 möglichen eingebrachten Grundkursen auch max. zwei instrumental- oder vokalpraktischen Kurse sein
+* FIX: Korrektur von `Synchronisiere Abi.dws`. Die Zählung der Trimester für wiederholende Schüler wurde angepasst.
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+#### Optimierungen
+
+Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert worden, ggfs. gab es kleinere Korrekturen. Sie finden unsere Empfehlungen unter [https://doc.kb.stueber.de/cr/verknuepfung.html](https://doc.kb.stueber.de/cr/verknuepfung.html). Alle Berichte unserer Auslieferung werden nach und nach darauf angepasst.
+
+* NEW: Berichte\Zeugnisse\Schüler (Zeitraumübergreifende Notenübersicht- nach FachID).rpt
+* CHANGE: SAC-FS-HJI (C.01.01).rpt (Berichtsverknüpfungen aktualisiert)
+* CHANGE: SAC-FS-JZ (C.01.02).rpt
+* CHANGE: SAC-FS-HJZ (C.01.03).rpt.
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 250 (11.19).rptB
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-HJZ (Schul Z 500).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BS-AZ (Schul Z 503).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D35).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (E01-0A).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-JZ (Anlage C14 - 1 Seitig).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-JZ (Anlage C14 - 2 Seitig).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI (Anlage D33).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI (Bescheinigung Schullaufbahn).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI (Bescheinigung Schullaufbahn)_Zeugnisbemerkung_Fachdaten.rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-ABI.rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-AS (2007).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-AZ (2007).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-AZ (E01-0A).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BKO-FHReife (E01-6J).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BS-AS (A01).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-E01-6A-J (Fachschulabschluss +- FHR).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-GES-AS (A3, 10.2).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-GES-JZ-HJZ (5-9.1_10.1).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-GY-ABI (Anlage 12).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-GY-HJZ (Klasse 5-8).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-GY-JZ-HJZ (5-9).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-Zertifikat.rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-ÜZ (Klasse 7-10).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Sekundarabschluss I).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Klasse 7-10).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-HJZ (Klasse 7-10).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Hauptschulabschluss).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-AZ (Klasse 7-10).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 1).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AS (Anlage E4).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D 34).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-ABI-AZ  (Anlage D42).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BBS-AG-AS-JZ-HZ (A01-A04).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BBS-JZ-HJ-AG-AS (A05-A06).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BBS-JZ-HJ-AG-AS (A07).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-Bescheinigung (Nichtzulassung Abitur D37).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BG-AS (Anlage D 48).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BG-HJZ VZ Jahrgangsstufe 11 (Anlage D32).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D33a).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D33b - 2014).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BF-FHReife (Anlage C17 schulischer Teil).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D33b).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D34).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D41 - 2012).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-ABI (Anlage D41).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D 31).rpt
+* CHANGE: Berichte\Zeugnisse\Nordrhein-Westfalen\NRW-BK-AZ (Anlage D30).rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Elternwunsch Schulform).rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Schullaufbahnempfehlung).rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Empfangsbestätigung).rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\Schullastenausgleich Vollzeit-mit ÜA.rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\Schullastenausgleich Vollzeit.rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\Schullastenausgleich Teilzeit-ohne ÜA.rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\Schullastenausgleich Teilzeit.rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt"
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\MVP-Schullastenausgleich-Vollzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* CHANGE: Berichte\Schueler\Mecklenburg-Vorpommern\MVP-Schullastenausgleich-Teilzeit (nicht im Landkreis Mecklenburgische Seenplatte).rpt
+* CHANGE: Berichte\Schueler\Berlin\Schülerliste Berufsschulmatrix BS-BER mit Meldungen.rpt
+* CHANGE: Berichte\Schueler\Berlin\Bescheinigung über den Schulbesuch zweifach.rpt
+* CHANGE: Berichte\Schueler\Berlin\BBS-Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Baden-Württemberg\Schülerkarteikarte.rpt
+* CHANGE: Berichte\Schueler\Baden-Württemberg\Bescheinigung über Schulbesuch.rpt
+* CHANGE: Berichte\Schueler\Baden-Württemberg\Schülerkarteikarte (DIN A5).rpt
+* CHANGE: Berichte\Schueler\Baden-Württemberg\Bescheinigung über Schülerübergabe.rpt
+* CHANGE: Berichte\Schueler\Auslandsschulen\DAS-Übersicht über Prüfungsfächer Abitur (Anlage 6).rpt
+* CHANGE: Berichte\Schueler\Auslandsschulen\DAS-Ergebnisliste Abitur (Anlage 8)(§39_2).rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung zweifach.rpt
+* CHANGE: Berichte\Schueler\Niedersachsen\Schulbescheinigung (Überweisung).rpt
+* CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung (SHL).rpt
+* CHANGE: Berichte\Schueler\Schleswig-Holstein\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung BBS (mit Zugang-Abgang der Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung für die Vergangenheit.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\RLP-BBS (Bescheinigung Niveaustufen).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung zweifach.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt WG12-13 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schulbescheinigung.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Unfallbericht.rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt BGJ 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt BS 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt FO 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt WG12-13 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt FS 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt WG11 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Rheinland-Pfalz\Schülerstammblatt BF 2seitig (mit Zensuren blanko).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung BBS (mit Zugang-Abgang der Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung für die Vergangenheit.rpt
+* CHANGE: Berichte\Schueler\Schüler (Anzahl Schüler je Herkunftsschulen).rpt
+* CHANGE: Berichte\Schueler\Schüler (Anzeige Schulpflichtverletzung).rpt
+* CHANGE: Berichte\Schueler\Schüler (Bescheinigung-Laufbahn).rpt
+* CHANGE: Berichte\Schueler\Abiturergebnisse.rpt
+* CHANGE: Berichte\Schueler\Anmeldeschein (weiterführende Schulen).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Standard).rpt
+* CHANGE: Berichte\Schueler\Schülerausweis ABS.rpt
+* CHANGE: Berichte\Schueler\Fachwahl-Kursliste.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung Schulbesuch (mit Wochenstunden-Schul II 912).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach mit 31 Wochenstunden.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über den Schulbesuch zweifach(mit Wochenstunden).rpt
+* CHANGE: Berichte\Schueler\Bescheinigung über Schülerübergabe.rpt
+* CHANGE: Berichte\Schueler\Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
+* CHANGE: Berichte\Schueler\Notfallzettel (A5).rpt
+* CHANGE: Berichte\Schueler\Notfallzettel.rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Anmeldung weiterführende Schule).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Elternwunsch Schulform).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Empfangsbestätigung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und Ausbildungsdauer).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und vorauss. Ende einfach).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse und vorauss. Ende zweifach).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (mit Klasse).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Schullaufbahnempfehlung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (SHL - in word ausfüllbar).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Überweisung).rpt
+* CHANGE: Berichte\Schueler\Schulbescheinigung (Vergangenheit mit Klasse).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-ZAS (Schul II 929-9)(12.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-JZ (Schul Z 251)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 620 (09.18).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 510 (12.13).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 508.rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-ZAZ (Schul II 929-12)(12.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-ZAS (Schul II 929-11a)(01.09).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-HS-AS (Schul Z 210)(05.08).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Schul Z 513a (12.13).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-GY-ZAS (Schul Z 600).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-KO-ABI (Schul Z 323)(03.11).rpt
+* CHANGE: Berichte\Klassen\Klassenlehrerliste.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten(akt.FS-Folge).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Summendaten (DIN A5).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülerzahl.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten Ausländer.rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Var 1).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Religion).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Religion und Fremdsprachen).rpt
+* CHANGE: Berichte\Klassen\Klassenliste mit Schülersummendaten (Klassenstufe und Klassenlehrer).rpt
+* CHANGE: Berichte\Mandanten\Schülerliste (inaktive Schüler mit Ausleihvorgängen).rpt (letzte Klasse ergänzt)
+* CHANGE: Berichte\Schueler\Schülerliste (inaktive Schüler mit Felder min. 1 Feld leer AbgangAm Abschluss1 Abschluss1Datum Abgangsart).rpt (letzte Klasse ergänzt)
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Anwesenheit Ags).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Abitur).rpt
+* CHANGE: Berichte\Schueler\Schülerliste ( Klasse, Tutor, Merkmal B1, B2, B3, B4).rpt
+* CHANGE: Berichte\Schueler\Schülerliste ( Klasse, Geburtsdaten, Konfession, Geschlecht).rpt
+* CHANGE: Berichte\Schueler\Schüler-BBS (Bescheinigung-Laufbahn).rpt
+* CHANGE: Berichte\Schueler\Schülerkarteikarte (DIN A5).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-Verhaltenszeugnis.rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-HJZ-JZ (Klassenstufen 5-10)+GEMS-HJZ-JZ (Einführungsphase).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (modifiziert Klassenstufen 9 und 10).rpt
+* CHANGE: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (Klassenstufen 5-10)+GEMS-AZ (Einführungsphase).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER Abi-1a – Übersichtsplan über die Schullaufbahn ab 2010 – 12jähriger Bildungsgang (VO-GO) (01.12).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-AbdGy abi_4b_berechnungsbogen_abendgym (03.12.).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-AbdGy-ABI (Schul Z 325)(02.11).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-ABI (Schul II 929-3(01.09).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Abi 8 (01.12)mit Logo.rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Abi 8 (01.12)mit Logo2.rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-Abi 8 (01.12).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BF-AS(einjährig).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BF-AS (Schul Z 522c)(05.06).rpt
+* CHANGE: Berichte\Zeugnisse\Berlin\BER-BF-AS(Z 522-542).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Praxisbetrieben und Geburtsdatum).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Prüfungsfächern inkl. Lehrer).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Sorgeberechtigten deutsch).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Sorgeberechtigten französisch).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Bafög).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Einschulmerkmal1 sortiert nach Bewerber-Gesamtnote, Punkte, HF-Note).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Fehlzeiten nach Klasse gruppiert).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Fehlzeiten nach Schüler gruppiert).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Förderung).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (gruppiert nach Berufen mit Wohnort).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (gruppiert nach Berufen).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (gruppiert nach Betrieben).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (gruppiert nach Bildungsgängen).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Schüler).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (Klasse, Geburtsdatum und Geburtsland).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Ausbildungsbetrieben und Geburtsdatum).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Betrieben und Geburtsdatum).rpt
+* CHANGE: Berichte\Schueler\Schülerliste (mit Betrieben).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-AS (Z 522a)(04.11).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-AZ (Schul Z 523a).rpt
+* CHANGE: Berichte\Zeugnisse\BER-BFS-HJZ (Schul Z 520b)(07.09).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 202 (07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 102 (11.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 351 (11.19)_Kolleg.rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 350 (10.07).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 303 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 302 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 300 (11.19).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 255 (09.17).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 251b (05.16).rpt
+* CHANGE: Berichte\Zeugnisse\BER-Schul Z 240 (09.17).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AZ (Schul Z 242)(06.08).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 241)(07.10).rpt
+* CHANGE: Berichte\Zeugnisse\BER-RS-AS (Schul Z 240)(03.08).rpt
+* CHANGE: Berichte\Zeugnisse\BER-KO-ZAS (Schul Z 371)(02.12).rpt
+* CHANGE: Berichte\Zeugnisse\BER-KO-ZAS (Schul Z 371)(02.12).rpt
+* CHANGE: Berichte\Zeugnisse\BER-GY (abi_4_berechnungsbogen)(10.16)
+* CHANGE: Berichte\Zeugnisse\BER-GS-JZ (Schul Z 103)(11.05)
+* CHANGE: Berichte\Zeugnisse\BER-GS-JZ (Schul Z 103)(11.05) (französ. Gymn)
+
+## 7.1.6 - 711 (14.02.2020)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Datenstruktur
+
+* CHANGE:  Änderungen von Bewerbungsdaten müssen sich auf den kopierten Bewerber auswirken.
+
+### MAGELLAN
+
+* CHANGE: Unter `Schüler > Ausbildung` wird in der Filterung `Vagabunden` die Leiste "aktueller Ausbildungsbetrieb/akuteller Praxisbetrieb" gezeigt
+* CHANGE: Wechselt man von Auswahlliste in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
+* FIX: Problem beim Fortschreiben von Schülern mit gruppierter Liste (doppelter Eintrag des Schülerzeitraums) gelöst
+* FIX: Problem bei Schülern (Eintrag unter `Schüler > Zeugnis > Details`), die mehrfach innerhalb des selben Zeitraums die selbe Klasse besuchen gelöst
+* FIX: erneuten Fortschreiben (`Laufbahnprozesse > Schüler fortschreiben`) wird die "Weiter"-Schaltfläche aktiv
+* FIX: Bei der Übernahme eines Schüler zum Bewerber wird das "alte" Bewerbungsziel sowohl unter `Bewerber > Daten 1 > Für Ziel 1 als auch unter Bewerber > Auswahlliste > Bewerbungsziel 1`
+* FIX: Wechselt man im Schülermenü auf einer Datenkarte mit den Tastenkombination `STRG+BildAuf` oder `STRG+BildAb` wird der nächste Datensatz auch beim Wechsel über einen Gruppierungskopf in der Auswahlliste korrekt gezeigt
+* FIX: Zeugnis als PDF exportieren aus dem Menü `Abitur` korrigiert
+* FIX: Bericht als PDF exportieren aus dem Menü `Abitur` korrigiert
+* FIX: Wechselt man von `Schüler > Daten3 > Fremdsprachen` zu `Bewerber > Daten3 > Fremdsprachen` werden die Inhalte und Verzeichnisliste wieder angezeigt
+* FIX: Beim erneuten `Schüler fortschreiben` wird die Schaltfläche `Weiter` aktiviert
+* FIX: Schreibfehler im Filter in der Auswahlliste `Schüler` korrigiert
+* FIX: das Zuweisen von `Kategorietafeln` unter `Schüler > Zeugnis > Arbeits- und Sozialverhalten` wurde überarbeitet
+
+### MAGELLAN Administrator
+
+* FIX: Im Dialog `Datenaustausch > Postleitzahlen und Banken importieren` wurden die Ergebnisanzeigen ergänzt
+* FIX: `Datenaustausch > Daten über das Magellan-Importformat importieren`:
+  * Import der `schueler_fachdaten.import.csv` wurde überarbeitet
+  * Beim Import von `schueler_import.csv` werden erkannte Doubletten als Nebenlaufbahn des Schülers erkannt, die Stammdaten des Stammschülers werden mit den Daten des Nebenschülers aktualsiert. Bitte beachten Sie den Abschnitt ["Nebenlaufbahn erzeugen"](https://doc.magellan7-toolbox.stueber.de/importe/MagImp/schuelerimportcsv/).
+  * Beim Import von `schueler_import.csv` wird ein leerer Eintrag im Feld `InDeutschlandSeit` korrekt übergeben
+* FIX: `Benutzerverwaltung > Administratoren`: Ändern des DBAdmin-Passwortes korrigiert
+
+### MAGELLAN Bibliothek
+
+* CHANGE: `Bibliothek > Ausleihe`: Medium suchen mit Umlaut klappt wieder
+* NEW: unter `Bücher/Medien > Vorgänge` wird die Spalte `Klasse` gezeigt
+* FIX: Klasseninformationen beim Schüler werden korrekt angezeigt
+* FIX: `Medien/Bücher (genau auch für Schüler, Mahnungen,  Vorgänge, Personen, Lehrer, Lieferanten, Mandanten, Verlage) > Auswahl > Nächster/Vorheriger Datensatz` Sortierung wird berücksichtigt
+* Mahnungen Vorgänge Personen Lehrer Lieferanten Mandanten Verlage
+* FIX: Schüler > Auswahl > Ausleihen: das Symbol wird nur noch bei aktiven Ausleihen dargestellt
+
+### Skripte
+
+* FIX: DE-DIAP-2015.dws > Vorschlagsautomatik für FHR-Berechnung korrigiert, es werden nun die zulässigen 14 Kurse aus 7 Fächern im Vorschlag markiert
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt (es werden nur Wahlpflichtfächer ausgegeben, die eine Note im Feld "Endnote" eingetragen haben, Wahlpflichtfächer ohne Benotung werden nun auch in der Fachbezeichnung entwertet auf dem Zeugnis ausgegeben)
+* FIX: Bescheinigung über den Schulbesuch zweifach.rpt
+* FIX: BER-Schul Z 300 (11.19).rpt (Leerzeichen vor Datumsangabe eingefügt)
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
+* FIX: SAC-FOS-HJZ (D.01.01).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-BVJ-HJI (A.01.03).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-FS-HJZ (C.01.03).rpt (Umbruch bei langen Fachbezeichnung im Pflichbereich korrigiert, Layout optimiert)
+* NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
+* NEW: SAC-BF-HJI (B.02.01).rpt (Halbjahresinformation der Berufsfachschule für ...)
+* FIX: SAC-FS-HJI (C.01.01).rpt (Zeugnisbemerkung "keine" wird nun richtig ausgegeben, wenn dem Schüler keine Bemerkung zugewiesen wurde)
+* CHANGE: Zeugnisse\Baden-Württemberg\BAW-BG-ABI (Ergebnisliste).rpt
+* NEW: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt: Der Bericht gibt als Schwerpunkt den beim aktuellen Schüler-Bildungsgang hinterlegten Schwerpunkt (Bezeichnung) aus, ist kein Bildungsgang dem Schüler zugeordnet, würde der Schwerpunkt (Bezeichnung) des der Klasse zugeordneten Bildungsgang ausgegeben werden.
+* NEW: Bibliothek > Berichte\Mahnungen\Mahnungen (mit ISBN).rpt
+* CHANGE: Bibliothek > Berichte\Mahnungen\Mahnungen.rpt (kleinere Anpassungen)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (Standard).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (Avery-Zweckfom-Etikett 3658).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (klein).rpt (Druckreihenfolge korrigiert)
+* CHANGE: Bibliothek > Berichte\Medienausleiher\Bibliotheksausweis (mit Passfoto).rpt (Druckreihenfolge korrigiert)
+
+## 7.1.5 - 710 (05.02.2020)
+
+### MyMAGELLAN
+
+* FIX: Listenfelder unter `Schüler > Zeugnisdaten` sind auswählbar
+* Change: Mym7-Datei kann nicht mehrfach geöffnet werden
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 1).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Hauptschulabschluss).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-HJZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-JZ (Sekundarabschluss I).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-ÜZ (Klasse 7-10).rpt
+* CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-BF-FHReife (Anlage C17 schulischer Teil).rpt
+
+## 7.1.4 - 710 (03.02.2020)
+
+### MAGELLAN
+
+* FIX: Feldlänge in der Oberfläche für `Bewerber > Daten 1 > Geburtsland` an die Zeichenzahl des Kürzels aus dem Schlüsselverzeichnis `Staatsangehörigkeiten` angepasst
+* FIX: Neue oder geänderte Einträge unter `Klassen > Zeiträume` werden korrekt in der Klassenauswahlliste aktualisiert
+* FIX: Verzeichnis `Fächer > Fachgruppe` editierbar
+* FIX: Verzeichnis `Fachtafel > Fachtafel - Fächer > Lehrer` editierbar
+* CHANGE: Spaltenbezeichung für die Religionsteilnahme in den Auswahllisten für Bewerber und Schüler angeglichen
+* FIX: Autoupdate korrigiert
+* FIX: bei vom Stammschüler kopierten Bewerber werden die Bewerberungsdaten unter `Bewerber > Daten1` und `Bewerber > Auswahl` gleich gezeigt
+* FIX: Unter `Menü Abitur > Abitur > Simulation > Prüfung` werden neu berechnete Durchschnittswerte und -noten angezeigt
+* FIX: `Extras > Schlüsselverzeichnisse > Fachtafeln`: Fachwahltafeln kopieren
+
+### SAXSVS
+
+* FIX: Ausgabe der Klasse für Nebenschüler
+
+### MAGELLAN Administrator
+
+* NEW: Der Punkt `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
+
+### MyMAGELLAN-CENTER
+
+* CHANGE: Standardsortierung der Liste nach `Kennung`
+
+### MyMAGELLAN
+
+* FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
+* FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
+* FIX: Eingabe von Noten mit oder ohne Tendenz per Tastatur korrigiert
+* FIX: Funktion der Vor- und Zurückschaltfläche im Bereich `Schüler` und `Fächer` überarbeitet
+
+### Skripte
+
+* CHANGE: Importiere SDTF.dws (Unterrichtsart-Schlüssel "L" ist hinzugekommen)
+* CHANGE: Zuweisen von Bewerberstammdaten.dws (Sammelzuweisungen aus dem Bewerber- oder Schüler-Menü): Debugmeldungen wurden unterbunden
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
+* FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt (es werden nur Wahlpflichtfächer ausgegeben, die eine Note im Feld "Endnote" eingetragen haben, Wahlpflichtfächer ohne Benotung werden nun auch in der Fachbezeichnung entwertet auf dem Zeugnis ausgegeben)
+* FIX: Bescheinigung über den Schulbesuch zweifach.rpt
+* FIX: BER-Schul Z 300 (11.19).rpt (Leerzeichen vor Datumsangabe eingefügt)
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AGZ Lernfeld MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-AS-Lernfeld A3 MBK.rpt
+* FIX: Berichte\Zeugnisse\Saarland\Ministerium\SAR-BS-HJZ-Lernfeld MBK.rpt
+* NEW: SAC-BF-HJZ (B.01.03).rpt (Halbjahreszeugnis Berufsfachschule)
+* FIX: SAC-FOS-HJZ (D.01.01).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-BVJ-HJI (A.01.03).rpt (Umbruch bei langen Fachbezeichnung korrigiert)
+* FIX: SAC-BG-HJZ (E.01.01) Verknüpfungen korrigiert
+
+## 7.1.3 - 710 (08.01.2020)
+
+### MAGELLAN
+
+* FIX: Ein unter `Schüler > Ausbildung` neu angelegter Praktikumsbetrieb wird auch gleich als neuer Praktikumsbetrieb für den Schüler übernommen.
+* FIX: Beim Einschulen von Nebenschülern (also Stammschülern mit einer Nebenlaufbahn) wird der `ZugangAm` unter `Daten2` nicht verändert. Im Assistenten wird darauf hingewiesen.
+* FIX: `Schüler > Zeugnis > Leistungen`: Note für Schüler1 eingeben und über die Pfeile zu Schüler2 wechseln speichert die Note
+* FIX: `Extras > Schlüsselverzeichnisse > Zeugnisbemerkungen > Bemerkung`: bereits erfasste Texte sind editierbar
+* FIX: `Extras > Schlüsselverzeichnisse > Zeugnisbemerkungen > Bemerkung`: Zeilenhöhe auf 5 erhöht, vertikaler Scrollbalken im Editiermodus
+* FIX: Beim Einschulen von Vagabunden aus dem Vagabundenfilter heraus (aufgeschlagene Registerkarte `Ausbildung`) wird nach dem Einschulen die Ansicht korrekt aktualisiert.
+* CHANGE: Anzeige der eingetragenen Wertes aus dem Feld `Schüler > Daten 4 > Bafög` in der Auswahlliste als Checkbox.
+* FIX: Mehrere Durchläufe des Assistenten `Schüler ausschulen` wieder möglich
+
+### MAGELLAN Willkommensassistent
+
+* FIX: Verbindungseingabe beim Anlegen von Verbindungen zu einer entfernten Datenbank überarbeitet
+
+### MAGELLAN Bericht
+
+CHANGE: Das Modul wurde aktualisiert
+
+### MyMAGELLAN
+
+* NEW: Eingabe der Leistungen per Ziffernblock und Pfeiltasten möglich
+* FIX: Sortierung von Umlauten korrigiert
+* CHANGE: Fachansicht: Die zuletzt gewählte Sortierung wird beim Wechsel zum nächsten Datensatz für die neue Liste wieder ausgeführt
+* CHANGE: Schüleransicht: Die zuletzt gewählte Sortierung wird beim Wechsel zum nächsten Datensatz für die neue Liste wieder ausgeführt
+* CHANGE: Beim Start einer MyMAGELLAN-Datei wird die Beurteilungsart der Fächeransicht standardmäßig mit der Auswahl `Alle Beurteilungsarten` voreingestellt. 
+
+### Skripte
+
+* NEW: SAR-APO-2018.dws (diverse Korrekturen)
+* FIX: SAR-APO-2017.dws (diverse Korrekturen)
+* FIX: DE-DIAP-2015.dws Vorschlagsautomatik korrigiert (Einbringunsgverpflichtung mind. 2 HJ in Naturwissenschaften, optimale Punktzahl)
+* FIX: `Synchronisiere Abi.dws`: Geänderte Auswertung des Eintrags aus `Extras > Schlüsselverzeichnisse > Verordnungen > Jahrgang` (10, 11 oder leer) 
+
+### Berichte (NEW oder CHANGE)
+
+Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+
+* NEW: DAS-GY-AZ mit FHR (Anlage 9b).rpt
+* NEW: NIE-GY (Studienbuch - Einführungsphase) G9.rpt
+* FIX: DAS-GY-ABI (DIA)(2019).rpt
+* NEW: DAS-GY-ABI (DIA)(2020).rpt
+* NEW: SHL-GY-ABI (2018).rpt
+
+### Neu Berichte für Berlin
+
+* NEW: BER-Schul Z 620 (09.18).rpt (Beiblatt zum Zeugnis für ergänzende Bemerkungen (09.18), Bitte beachten Sie, dass Sie dieses Formular gesondert ausgedruckt werden muss. Die Zeugnisbemerkung muss in MAGELLAN das Merkmal "Beiblatt" erhalten)
+
+![Zeugnisbemerkungen](/assets/images/changelog/7.1.3.01.png)
+
+Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt.
+
+* NEW: BER-Schul Z 250 (11.19).rpt
+* NEW: BER-Schul Z 351 (11.19)_Oberstufe.rpt
+* NEW: BER-Schul Z 351 (11.19)_Kolleg.rpt
+* NEW: BER-Schul Z 306 (11.19)(FG).rpt
+* NEW: BER-Schul Z 306 (11.19).rpt
+* NEW: BER-Schul Z 301 (11.19).rpt
+* NEW: BER-Schul Z 300 (11.19).rpt
+* NEW: BER-Schul Z 302 (11.19).rpt
+* NEW: BER-Schul Z 303 (11.19).rpt
 
 !!! info "Hinweis"
+  
+      Die Ausgabe des Bemerkungstextes: "Ein Beiblatt (Schul Z 620) ist Bestandteil dieses Zeugnisses:     ☐ ja     ☐ nein)." wird wie folgt gesteuert: Liegt eine Zeugnisbemerkung mit dem Merkmal "Beiblatt" beim Schüler vor, kommt der Text in der Bemerkung: “Ein Beiblatt (Schul Z 620) ist Bestandteil dieses Zeugnisses.” Liegt dieses Merkmal nicht vor, kommt der Text in der Bemerkung: “Ein Beiblatt (Schul Z 620) ist nicht Bestandteil dieses Zeugnisses.”
 
-  Die Datenstruktur von MAGELLAN ist erweitert worden! 
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update.html). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate.html).
-
-### MAGELLAN
-
-* NEW: Status "Abwesend" mit Speicherung von längerfristigen Abwesenheiten 
-       (z.B. Elternzeit, Auslandsjahr, etc.). Gespeichert werden die Daten in 
-       der Tabelle "SchuelerFehlzeiten", die über das neue Feld "Art" zwischen 
-       Abwesenheit und der bisherigen Fehlzeit unterschieden werden kann. 
-       Dargestellt und bearbeitet können die Abwesenheiten unter 
-       Schueler > Laufbahn. Weitere Infos können der Dokumentation entommen 
-       werden.
-* NEW: Anzeige des Schülerstatus auf den Registerkarten. Aktuell nur Daten 1. 
-       Wird in den kommenden Serviceupdates auf alle Registerkarten erweitert.      
-* FIX: SAXSVS: Auf das neues Schema 2.3 umgestellt. Aktuell wird noch die 
-       Minimalanforderung unterstützt. Wir arbeiten an der vollständigen Umsetzung,
-       siehe, z.B. die neue Funktion "Abwesenheit", die einen Teil der Umsetzung 
-       darstellt, mehr Daten für die Schnittstelle in MAGELLAN erheben zu können.
-       
-
-### MAGELLAN Administrator
-
-* FIX: 
-
-
-### MAGELLAN Bibliothek
-
-* FIX: 
-
-
-### MAGELLAN Skripteditor
-
-* FIX: 
-
-
-### Skripte
-
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
-
----
-
-## 7.0.0 - 700 (21.12.2018)
-
-### MAGELLAN
-
-* FIX: Fehlermeldung bei der Installation, wenn kein Crystal Reports installiert ist \#1024921
-* FIX: Fehler bei der Sammelzuweisung \#1024899
-* FIX: Field Merkmal S1 not found Export SAXSVS \#1024971
-* NEW: Die aktuelle Ausbildung des Schülers wird jetzt pro Schulhalbjahr gespeichert
-* NEW: \#1019480 - Deutsche Auslandsschule als Region im Willkommensassistent wählbar
-* CHANGE: Die bisherige beim Schüler gespeicherte Ausbildung wird nur noch beim Bewerber genutzt und wird bei der Einschulung eines Schülers berücksichtigt.
-* CHANGE: Hinzufügen von Datensätzen in den Schlüsselverzeichnissen wieder mit Pfeiltaste unten auf dem letzten Datensatz möglich
-
-
-### MAGELLAN Administrator
-
-* FIX: Aktualisierte Schlüsselverzeichnisse für Sachsen
-* CHANGE: \#1019441 - Neuer Unterordner `\Benutzer` im Importverzeichnis. Benutzer können dort angepasste Importdateien hineinlegen, die von der Installation nicht überschrieben werden.
-* NEW: \#1019480 - Deutsche Auslandsschule als Region wählbar
-* NEW: Nachträgliches Anmelden an die Datenbank über Menü `Datenbank > Anmelden...` möglich.
-
-
-### MAGELLAN Bibliothek
-
-* FIX: 
-
-
-### MAGELLAN Skripteditor
-
-* FIX: 
-
-
-### Skripte
-
-
-### Berichte (NEW oder CHANGE)
-
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.

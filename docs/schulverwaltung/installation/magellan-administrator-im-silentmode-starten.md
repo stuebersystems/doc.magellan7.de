@@ -61,7 +61,7 @@ Der Dateiname der Importdatei muss der Importspezifikation entsprechen:
 
 ## Beispiel
 
-Den MAGELLAN ADMIMINISTRATOR  im Silent-Mode aufrufen, zum Import von Schüler-Stammdaten mit dem Firebird Standard SYSDBA und Passwort:
+Den MAGELLAN ADMINISTRATOR  im Silent-Mode aufrufen, zum Import von Schüler-Stammdaten mit dem Firebird Standard SYSDBA und Passwort:
 
 ```
 C:\Programme\Stüber Systems\MagAdmin.exe /Login=SYSDBA 

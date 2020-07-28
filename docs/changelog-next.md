@@ -16,37 +16,61 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-## 7.0.21 - 708
+!!! danger "Achtung"
 
-### MAGELLAN
+    Bitte beachten Sie, dass mit der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-* NEU: In allen mit Schlüsselverzeichnissen hinterlegten Eingabefeldern (mit eingeblendeter Bezeichnung) wird hinter der Bezeichnung eine Klammer gezeigt. In der Klammer wird der Wert aus der Spalte Schlüssel gezeigt. Ist im Schlüssel kein Wert enthalten, wird stattdessen ein Strich "(-)" gezeigt. Damit können Sie auch ohne direkt im jeweiligen Schlüsselverzeichnis nachzusehen erkennen, ob ein Schlüsselwert und ob der korrekte Schlüsselwert für ggfs. statistische Auswertungen hinterlegt wurde.
-* CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
-* FIX: Wenn im Menü Sorgeberechtigte die Postleitzahl oder der Ort eingegeben werden und mit TAB oder ENTER bestätigt wird, wird das Feld Gemeinde entsprechend der hinterlegten Schlüssels befüllt.
-* FIX: Ist die Postleitzahl oder der Ort beim Sorgeberechtigten nicht eindeutig, wird bei der Wahl eines Wertes aus dem Unterfenster auch die Gemeindekennziffer befüllt.
-* CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
-* FIX: Bei der Übernahme einer Adressänderung eines Schülers, wird für den Sorgeberechtigten auch das Land korrekt befüllt.
-* CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden
-* CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden
+## 7.1.15 - 715
 
-### MAGELLAN Administrator
+### Datenstruktur
 
-* FIX: Datenübernahme 6 => 7: Die Tabelle `Sponsoren` und das gleichnamige Feld in der Tabelle `Betriebe` wurden ergänzt
+* NEW:
+
+### MAGELLAN SCHULVERWALTUNG
+
+* FIX:
+
+### MAGELLAN Schnittstellen
+
+* FIX: 
+
+### MAGELLAN ADMINISTRATOR
+
+* FIX: 
+
+### MyMAGELLAN-CENTER
+
+* FIX: 
+
+### MyMAGELLAN
 
 ### MAGELLAN Bibliothek
 
-* FIX:
+* FIX: 
+
+![Meldung bei der Ausleihe eines mit "Dauerverleih" markierten Exemplares](/assets/images/changelog/7.1.14.01.png)
 
 ### Skripte
 
-* FIX: Schüler wechseln.dws => Beim Wechsel wird die aktuelle Ausbildung korrekt übernommen
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-### Statistik
+* CHANGE: 
 
-* FIX:
+### Berichte
 
-### Berichte (NEW oder CHANGE)
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+#### Baden Württemberg
 
-* FIX:
+* NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung)
+* NEW: BAW-GY-ABI (2019 mit KF-LK).rpt (Abiturzeugnis gültig ab Abitur 2019)
+* NEW: BAW-GY-JZ (Mittelstufe).rpt
+* NEW: BAW-GY-JZ (Mittelstufe mit GER)(A5).rpt (Jahreszeugnis für die Mittelstufe mit Ausgabe der Sprachreferenz, DIN A5)
+* CHANGE: BAW-GY (Mitteilung Prüfungsergebnisse).rpt (Ausgabe Schuljahr)
+
+#### Sachsen
+
+* NEW: SAC-BVJ-HJI (A.01.03).rpt (A.01.03 Halbjahresinformation der Berufsschule - Berufsvorbereitungsjahr)
+* CHANGE: SAC-BS-HJI (A.01.02).rpt
+* CHANGE: SAC-BVJ-AS mit HS (A.01.09).rpt (Hauptschulabschluss wird nun beim `Schüler > Laufbahn > Abschluss` im Bereich „Abschluss1“ im Feld „Abschlussart“ abgefragt. Grundlage bildet das `Schlüsselverzeichnis > Abschlussarten`.)
+* CHANGE: SAC-BF-JZ (B.02.02).rpt

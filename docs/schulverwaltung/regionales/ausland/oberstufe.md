@@ -20,29 +20,27 @@ Legen Sie bitte unter `Verzeichnisse > Fachtafeln` eine neue Fachtafel an.
 
 Stellen Sie die `Art` der im Anschluss auf `Fachwahltafel`:
 
-![Eine Fachtafel anlegen, die Art auf `Fachwahltafel`abändern](/assets/images/ausland/fachwahltafelbeispiel.01.png)
+![Eine Fachtafel anlegen, die Art auf `Fachwahltafel`abändern](/assets/images/ausland/fachwahltafel01.png)
 
 Wechseln Sie anschließend für Ihre Oberstufenfachwahltafel auf den Reiter `Fächer` und legen die Fachzeilen an. 
 
-![Die Fachwahltafel füllen](/assets/images/ausland/fachwahltafelbeispiel.02.png)
+![Die Fachwahltafel füllen](/assets/images/ausland/fachwahltafel02.png)
 
 !!! info "Hinweis"
 
-    Jedes in der Oberstufe an Ihrer Schule vorkommende Fach wird in der Liste einmal angelegt. Füllen Sie die `Unterrichtsart` und den `Fachstatus` so aus, wie es für die meisten Fälle richtig ist, damit sollten fast alle Fächer mit der `Unterrichtsart` `GK` markiert werden. Setzen Sie die Häkchen für die Fachwahl so vor, wie es in den meisten Fällen zutrifft. 
-    Tragen Sie bitte für jedes Fach die Position so ein, wie die Reihenfolge auf Ihrem Zeugnis sein sollte.
+    Jedes in der Oberstufe an Ihrer Schule vorkommende Fach wird in der Liste einmal angelegt. Tragen Sie bitte für jedes Fach die Position so ein, wie die Reihenfolge auf Ihrem Zeugnis sein sollte.
 
 #### Synchronisation der Schüler für die Fachwahl
 
-Ihre Fachwahltafel weisen Sie den Schülern im Menü Abitur Unterkarte `Fachwah`l zu. Dafür müssen zuvor die Schüler in das Abiturmenü synchronisiert werden. Folgende Einstellungen müssen dafür vorgenommen werden: 
+Ihre Fachwahltafel weisen Sie den Schülern im Menü `Abitur > Fachwahl` zu. Dafür müssen zuvor die Schüler in das Abiturmenü synchronisiert werden. Folgende Einstellungen müssen dafür vorgenommen werden: 
 
-Voraussetzung | Anmerkung 
- ---|---
-Zeiträume|Bitte legen Sie unter `Verzeichnisse > Zeiträume` bereits die Zeiträume soweit in der Zukunft an, dass das Schuljahr existiert, indem Ihre 10er Schüler das Abitur ablegen werden. 
-Klassenart | Unter `Klasse > Daten` muss im Feld `Klassenart` die Auswahl `Standardklasse mit Oberstufensynchronisation` wählen, hierbei werden aber lediglich die Schüler für den Punkt `Abitur > Fachwahl` übertragen, also keine Schülerfachdaten oder Leistungsdaten.
-Jahrgang | Bei der Klasse muss auf der Registerkarte `Zeiträume` für jeden Zeitraum das Feld `Jahrgang` mit dem Wert `10` gefüllt werden. 
-Abschlussjahrgang | Bitte legen Sie unter `Verzeichnisse > Verordnungen` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur). 
-Verordnungen | Richten Sie bitte unter `Verzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung http://doc.la.stueber.de/
-
+|Voraussetzung | Anmerkung|
+| ---|---|
+|Zeiträume|Bitte legen Sie unter `Verzeichnisse > Zeiträume` bereits die Zeiträume soweit in der Zukunft an, dass das Schuljahr existiert, indem Ihre 10er Schüler das Abitur ablegen werden.|
+|Klassenart | Unter `Klasse > Daten` muss im Feld `Klassenart` die Auswahl `Standardklasse mit Oberstufensynchronisation` wählen, hierbei werden aber lediglich die Schüler für den Punkt `Abitur > Fachwahl` übertragen, also keine Schülerfachdaten oder Leistungsdaten.|
+|Jahrgang | Bei der Klasse muss auf der Registerkarte `Zeiträume` für jeden Zeitraum das Feld `Jahrgang` mit dem Wert `10` gefüllt werden. 
+|Abschlussjahrgang | Bitte legen Sie unter `Verzeichnisse > Verordnungen` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).| 
+|Verordnungen | Richten Sie bitte unter `Verzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung http://doc.la.stueber.de/
 
 Um die Schüler zu synchronisieren gehen Sie bitte wie folgt vor:
 
@@ -50,13 +48,13 @@ Um die Schüler zu synchronisieren gehen Sie bitte wie folgt vor:
 * Markieren Sie bitte die Schüler aus dem Jahrgang 10.
 * Weisen Sie ihnen auf der nächsten Karte den `Abschlussjahrgang` und die `Verordnung` zu und führen die Aktion aus.
 
-![Optionen beim Synchronisieren setzen](/assets/images/ausland/FW_sync.png)
+![Optionen beim Synchronisieren setzen](/assets/images/ausland/FW_sync01.png)
 
 #### Zuweisen der Fachwahltafel
 
 Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`.
 
-![Fachwahlzuweisen-Assistenten aufrufen](/assets/images/ausland/FW_zuweisen.01.png)
+![Fachwahlzuweisen-Assistenten aufrufen](/assets/images/ausland/Fachwahl_zuweisen01.png)
 
 Markieren Sie Ihre Schüler des Jahrgangs 10, wählen Ihre Oberstufen-Fachwahltafel und weisen E1-Q4  (oder auch möglich Q1-Q4) bitte die entsprechenden Zeiträume zu.
 
@@ -78,17 +76,17 @@ Gehen Sie bitte wie folgt vor:
 * Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`. 
 * Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in MAGELLAN ausgewählte Halbjahr haben.
 
-![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_zuweisen.04.png)
+![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_übernehmen01.png)
 
 Im unteren Bereich stehen Optionen zur Verfügung:
 
-![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_zuweisen.05.png)
+![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_übernehmen02.png)
 
-Nr|Hinweis
---|--
-1.|Vorhandene Fächer in der Ansicht `Schüler > Zeugnis > Fächer` aktualisieren
-2.|Vorhandene Fächer der Schüler nicht löschen
-3.|und Fachstatus beibehalten
+|Nr|Hinweis|
+|--|--|
+|1.|Vorhandene Fächer in der Ansicht `Schüler > Zeugnis > Fächer` aktualisieren|
+|2.|Vorhandene Fächer der Schüler nicht löschen|
+|3.|und Fachstatus beibehalten|
 
 Wählen Sie die Option und führen den Assistenten aus. Als Ergebnis finden Sie die dem jeweiligen Halbjahr zugeordneten Fachwahlen dann auf der Schülerzeugniskarte.
 
@@ -100,13 +98,13 @@ MAGELLAN richtet sich nicht an eine bestimmte Region oder Schulart. Um MAGELLAN 
 
 ### Einstellungen
 
-Stelle | Hinweis
---|--
-Mandanten > Daten > Schulleiter| (zeugnisrelevant)<br/>Weisen Sie bitte im Feld `Schulleiter` den entsprechenden Kollegen aus dem Lehrermenü zu 
-Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Kollegen das Feld `Geschlecht`. <br/> Beispielergebnis auf Zeugnissen: <br/>Schulleiter oder Schulleiterin<br/>Klassenleiter oder Klassenleiterin
-Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`
-Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!
-Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)
+|Stelle | Hinweis|
+|--|--|
+|Mandanten > Daten > Schulleiter| (zeugnisrelevant)<br/>Weisen Sie bitte im Feld `Schulleiter` den entsprechenden Kollegen aus dem Lehrermenü zu 
+Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Kollegen das Feld `Geschlecht`. <br/> Beispielergebnis auf Zeugnissen: <br/>Schulleiter oder Schulleiterin<br/>Klassenleiter oder Klassenleiterin|
+|Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`|
+|Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!|
+|Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)|
 Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/assets/images/ausland/verordnungen.png) 
 Verzeichnisse > Zeiträume > Art| Der Wert 1. oder 2. Halbjahr muss gefüllt sein
 Verzeichnisse > Fächer > Kategorie|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)

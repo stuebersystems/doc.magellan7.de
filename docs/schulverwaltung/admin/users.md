@@ -10,9 +10,20 @@ Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 
 	Benutzerdaten werden mit der Datenbankdatei abgespeichert.  Die Passwortdaten der Benutzer werden verschlüsselt in einer zweiten Firebird-Datenbank gespeichert, die bei der Installation von Firebird mit angelegt wurde.
 
+## Standardkennungen
+
+Standardmäßig sind die Benutzer mit der Kennung "SYSDBA" und "DBADMIN" in der Datenbank hinterlegt. Beide haben die Kennung "masterkey".
+Mit diesen Standardkennung sind volle Administrationsrechte verbunden mit folgendem Unterschied:
+
+Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "SYSDBA" und "DBADMIN"
+
+Der SYSDBA hat für alle Datenbanken, auf dem ein Firebird-Server läuft, das höchste Administrationsrecht.
+
+Der "Besitzer"  einer Datenbank ist derjenige Benutzer, der die Datenbank erstellt hat. Für MAGELLAN 7 haben wir die MAGELLAN-Datenbank mit einem Benutzer namens "DBADMIN" erstellt. Durch diesen erhalten Sie für die "MAGELLAN.7FDB", und nur für diese, mit dem Benutzer "DBADMIN", die gleichen Rechte wie ein SYSDBA sie auf dieser Datenbank hat.
+
 ## Registerkarte „Benutzerliste“
 
-In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel, Inventarisierung und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen. 
+In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel, Inventarisierung und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen.
 
 Einen neuen Benutzer können Sie über die Schaltfläche `Hinzufügen` anlegen, einen bestehenden durch Doppelklick auf den Benutzer auf der Karte „MAGELLAN Benutzerliste“ bearbeiten. Für bereits angelegte Benutzer können Rechte exportiert, angepasst und wieder importiert werden. Zum Beispiel, um einer Gruppe von Benutzer schnell und einfach ein neues Recht zu zuweisen oder den Teilnehmern am MYMAGELLAN-Verfahren einen neuen Ablagepfad für die mym-Datei zu hinterlegen.
 
@@ -30,7 +41,6 @@ Mit Hilfe eines Assistenten werden alle bereits angelegten Benutzer in eine CSV-
 !!! info "Hinweis"
 
 	Auf diesem Weg können keine Benutzer neu angelegt oder Passworte geändert werden, sondern es können für bereits angelegte Benutzer Werte geändert.
-
 
 In der Datei sind Kopfzeilen und bereits erfasste Einstellungen. Diese Werte können ergänzt oder verändert werden:
 
@@ -58,13 +68,11 @@ Anschließend: Klicken Sie auf die Schaltfläche `Benutzer importieren` um die v
 
 Über diese Schaltfläche können Sie eine Excelliste oder eine HTML-Datei mit den Benutzerdaten erzeugen. Bitte beachten Sie, dass diese Dateiformate nicht wieder direkt eingelesen werden können, dafür nutzen Sie bitte die Schaltfläche `Benutzer exportieren`.
 
-
 ## einen neuen Benutzer anlegen
- 
+
 Einen neuen Benutzer erzeugen Sie über die Schaltfläche `Neuer Datensatz` oben links in der Menüleiste. 
 
 ![Einen neuen MAGELLAN-Benutzer anlegen](/assets/images/magellan.administrator/neuer.benutzer.png)
-
 
 ### Registerkarte „Allgemein“
 
@@ -80,9 +88,7 @@ Kennwort|Bitte vergeben Sie ein 8-stelliges Passwort, bitte verzichten Sie auf U
 Bestätigung|Tragen Sie zur Bestätigung bitte das Passwort erneut ein.
 Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann auch später als Passwort für die MYMAGELLAN-Datei des Benutzers übernommen werden.
 
-
 ![Legen Sie hier die Grunddaten des Benutzers fest](/assets/images/magellan.administrator/benutzer.anlegen.png)
-
 
 !!! info "Hinweis"
 
@@ -98,7 +104,7 @@ Kennwort als MYMAGELLAN-Kennwort übernehmen|Das hier vergebene Passwort kann au
 
 Rechtegruppe | Rechte
 -------------------------- | ------
-Mandanten-Administrator | Administratorenrechte, aber kein Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
+Mandanten-Administrator | Administratorenrechte, aber kein umfasssender Zugriff auf den MAGELLAN-Administrator, dafür aber Zugriff auf das MYMAGELLAN Center für den jeweiligen Mandanten. Zusätzlich können für bereits angelegte Benutzer des Mandanten die Rechte für MyMAGELLAN (Teilnehmer oder nicht, MyMAGELLAN-Passwort, Ablagepfad für die mym-Datei editiert) werden. <br/>Das Verwenden dieses Rechtes erhöht alle Schulverwaltungsrechte. <br/>Ausnahme: Kann der Nutzer mit seiner zugeordneten Rechtegruppe (z.B. einem Kollegiumsrecht) nur seinen eigenen Datensatz im Lehrermenü betrachten, bleibt diese Einschränkung erhalten.
 Import/Export | Zusätzlich zum Schulverwaltungsrecht kann die Möglichkeit des Importes und Exportes (Seriendruck, Excelexport, Schuldatentransferformat) gesteuert werden.
 Drucken | Zusätzlich zum Benutzerrecht kann das Drucken ermöglicht werden
 Dokumentenverwaltung | Zusätzlich zum Benutzerrecht die Möglichkeit auf die Dokumentenverwaltung zuzugreifen

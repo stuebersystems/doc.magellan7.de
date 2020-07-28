@@ -2,22 +2,22 @@
 
 Dies ist die elektronische Dokumentation für [MAGELLAN 7](https://magellan.stueber.de).
 
-Diese Dokumentation ist unterteilt in die Bereiche:
+|Diese Dokumentation ist unterteilt in die Bereiche:|
+|:--|
+|  [MAGELLAN Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/) |
+|  [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/) |
+|  [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/) |
 
-* [Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
-* [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
-* [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/)
-
-Weitere Dokumentationen finden Sie unter nachfolgenden Links:
-
-* [MAGELLAN  und DAVINCI Knowledgebase](https://doc.kb.stueber.de)
-* [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
-* [Knowledgebase](https://doc.kb.stueber.de/)
-* [MAGELLAN Datenstruktur](https://doc.magellan7-toolbox.stueber.de/)
-* [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/)
-* [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/)
-* [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
-* [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
+|Weitere Dokumentationen finden Sie unter nachfolgenden Links:|
+|:--|
+|  [MAGELLAN  und DAVINCI Knowledgebase](https://doc.kb.stueber.de) |
+|  [MyMAGELLAN](https://doc.mymagellan7.stueber.de) |
+|  [Knowledgebase](https://doc.kb.stueber.de/) |
+|  [MAGELLAN Datenstruktur](https://doc.magellan7-toolbox.stueber.de/) |
+|  [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/) |
+|  [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/) |
+|  [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de) |
+|  [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de) |
 
 ## MAGELLAN 7
 
