@@ -62,7 +62,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Baden Württemberg
 
-* NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung)
+* NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung, Fach RELIGION / ETHIK wird nun im Bereich der gesellschaftswissenschaftlichen Fächer mit ausgegeben)
 * NEW: BAW-GY-ABI (2019 mit KF-LK).rpt (Abiturzeugnis gültig ab Abitur 2019)
 * NEW: BAW-GY-JZ (Mittelstufe).rpt
 * NEW: BAW-GY-JZ (Mittelstufe mit GER)(A5).rpt (Jahreszeugnis für die Mittelstufe mit Ausgabe der Sprachreferenz, DIN A5)
