@@ -74,3 +74,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BS-HJI (A.01.02).rpt
 * CHANGE: SAC-BVJ-AS mit HS (A.01.09).rpt (Hauptschulabschluss wird nun beim `Schüler > Laufbahn > Abschluss` im Bereich „Abschluss1“ im Feld „Abschlussart“ abgefragt. Grundlage bildet das `Schlüsselverzeichnis > Abschlussarten`.)
 * CHANGE: SAC-BF-JZ (B.02.02).rpt
+* CHANGE: SAC-BS-BVB Maßnahme (A.01.05).rpt
+* CHANGE: SAC-BS-HJI (A.01.04).rpt
+* CHANGE: SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt
