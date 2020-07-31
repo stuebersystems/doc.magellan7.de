@@ -1,12 +1,12 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/qbn7g4dk3qotwdyu?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-de)
+![Deployment status](https://vsrm.dev.azure.com/stuebersystems/_apis/public/Release/badge/2cc87afa-9a3b-472b-8a3c-3eca48b22dd6/10/11)
 
 # MAGELLAN 7 Dokumentation
 
-Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
+Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert.
 
 ## MkDocs unter Windows installieren
 
-1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. Für die Version 3.7.2 wäre dies beispielsweise der Link [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe).
+1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. 
 
 2. Starte das Installationspaket und beantworte alle Fragen.
 
@@ -14,7 +14,7 @@ Dies ist die deutsche Dokumentation zu [MAGELLAN](https://magellan.stueber.de). 
 
 4. Tippe die Befehle `python --version` und `pip --version` ein, um die Python-Installation zu überprüfen. In beiden Fällen sollte eine Versionsnummer als Ausgabe in der Eingabeaufforderung erscheinen.
 
-5. Tippe jetzt den Befehl `pip install mkdocs` ein, um das Python-Package MkDocs zu installieren.
+5. Tippe jetzt den Befehl `pip install mkdocs mkdocs-material`, um das Python-Package *MkDocs* und das Theme *Material for MkDocs* zu installieren.
 
 6. Tippe anschließend Befehl `pip install mkdocs-img2fig-plugin` ein, um das MkDocs-Plugin [mkdocs-img2fig-plugin](https://github.com/stuebersystems/mkdocs-img2fig-plugin) zu installieren.
 
@@ -51,11 +51,6 @@ Du hast Python und das Package MkDocs installiert, Du hast dieses Repository gek
 3. Um Dir das Ergebnis anzeigen zu lassen, tippe den Befehl `mkdocs serve` ein und öffne die Url `http://127.0.0.1:8000` in Deinem Webbrowser.
 
 Das Inhaltsverzeichnis findest Du in der Datei `mkdocs.yml`, die einzelnen Kapitel im Unterordner `docs`. 
-
-## Weitere Informationen
-
-+ [Alles zum Thema Git](https://git-scm.com/book/de/v2)
-+ [MkDocs Overview](https://www.mkdocs.org/#overview)
 
 ## Kann ich mithelfen?
 

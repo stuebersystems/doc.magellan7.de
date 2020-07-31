@@ -13,24 +13,30 @@ repo_url: 'https://github.com/stuebersystems/doc.magellan7.de'
 
 # Theming
 theme: 
-    name: null
-    custom_dir: 'theme'
+    name: material
+    custom_dir: overrides
     language: de
-    direction:
-    feature:
-        tabs: true
+    features:
+        - tabs
+        - instant
     palette:
         primary: 'blue'
         accent: 'deep orange'
-    font:
-        text: Roboto
-        code: Roboto Mono
+    font: false
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
-    include_search_page: true
+    include_search_page: false
     search_index_only: true
     static_templates:
       - 404.html
+
+# Legal links
+extra:
+  legal:
+    - label: Impressum
+      link: https://www.stueber.de/imprint.php
+    - label: Datenschutz
+      link: https://legal.stueber.de/privacy.php
 
 # Customization
 extra_css:
