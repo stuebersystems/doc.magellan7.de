@@ -46,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
+* FIX: Problem bei der Rückgabe von Büchern behoben
 
 ![Meldung bei der Ausleihe eines mit "Dauerverleih" markierten Exemplares](/assets/images/changelog/7.1.14.01.png)
 
