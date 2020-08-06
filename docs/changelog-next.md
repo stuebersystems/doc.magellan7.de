@@ -77,3 +77,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BS-BVB Maßnahme (A.01.05).rpt
 * CHANGE: SAC-BS-HJI (A.01.04).rpt
 * CHANGE: SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt
+* CHANGE: SAC-BS-JZ (A.02.01).rpt
+* CHANGE: SAC-BS-JZ (A.02.01) 2spaltig.rpt
+* CHANGE: SAC-BS-AZ (A.02.04).rpt
