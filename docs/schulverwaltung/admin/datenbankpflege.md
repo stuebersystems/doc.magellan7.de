@@ -79,9 +79,6 @@ Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazu
 
 Das mandantenbezogene Kopieren der MAGELLAN Daten überträgt lediglich Tabellen und Dateien, die sich auf einen ausgewählten Mandanten beziehen.
 
-> #### warning::Wichtig!
->
-> Übertragen werden können Daten aus einem Mandanten einer MAGELLAN 7 Datenbank in eine leere MAGELLAN 7 Datenbank.
 
 ![Mandantenabhängig](/assets/images/magellan.administrator/mandanten.kopieren4.png)
 
@@ -94,8 +91,22 @@ Server|Falls Sie beim `Protokoll` den Wert `Server`gewählt haben, tragen Sie bi
 Quelldatenbank|Tragen Sie bitte den lokalen Pfad zur Quelldatenbank und deren Dateinamen ein.
 Protokoll|Wählen Sie `lokal`für eine lokale gespeicherte Datenbank, wählen Sie `TCP/Ip`für eine entfernt gespeicherte Datenbank.
 Server|Falls Sie beim `Protokoll` den Wert `Server`gewählt haben, tragen Sie bitte den Namen des Serverrechners oder dessen IP-Adresse ein.
-Zieldatenbank|Tragen Sie bitte den lokalen Pfad zur Zieldatenbank und deren Dateinamen ein. **Bitte beachten Sie, dass eine leere Zieldatenbank erwartet wird. Über das Symbol am Ende der Zeile können Sie eine leere MAGELLAN 7 Datenbank herunterladen.**
+Zieldatenbank|Tragen Sie bitte den lokalen Pfad zur Zieldatenbank und deren Dateinamen ein. 
 Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazugehörige Passwort ein.
+
+Um alle mandantenbezogenen Daten eines Mandanten aus einer MAGELLAN-Datenbank A (=Ausgangsdatenbank) in eine MAGELLAN-Datenbank B (=Zieldatenbank) zu kopieren, gehen Sie wie folgt vor:
+
+
+Vor dem Kopieren der mandantenbezogen Daten in eine andere MAGELLAN-Datenbank müssen folgenden Voraussetzungen erfüllt sein:
+
+* Ausgangs- und Zieldatenbank müssen die gleichen Zeiträume besitzen.
+* Der zu kopierenden Mandant darf noch nicht in der Zieldatenbank existieren.
+* Das Kürzel des zu kopierenden Mandanten darf noch nicht als Kürzel für einen Mandanten der Zieldatenbank verwendet worden sein.
+
+!!! info "Hinweis"
+
+     Über die Funktion „Mandanten kopieren“ können Sie die Inhalte zweier Mandanten aus verschieden MAGELLAN-Datenbanken zu einer einzigen MAGELLAN-Datenbank mit zwei Mandanten zusammenführen. Auf diese Weise können beispielweise zwei Schulen mit bisher getrennt arbeitenden MAGELLAN-Datenbanken auf einer einzigen MAGELLAN-Datenbank arbeiten und die Vorteile einer SchoolCentral-Lösung nutzen.
+
 
 ### Variante 3: Magellan 6 nach MAGELLAN 7
 
