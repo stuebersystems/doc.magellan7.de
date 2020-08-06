@@ -72,6 +72,11 @@ Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazu
 
 ### Variante 2: Mandantenabhängig
 
+
+!!! warning "Wichtig"
+
+    Dieser Abschnitt der Dokumentation ist aktuell nicht gültig und steht in Kürze überarbeitet zur Verfügung!
+
 Das mandantenbezogene Kopieren der MAGELLAN Daten überträgt lediglich Tabellen und Dateien, die sich auf einen ausgewählten Mandanten beziehen.
 
 > #### warning::Wichtig!
