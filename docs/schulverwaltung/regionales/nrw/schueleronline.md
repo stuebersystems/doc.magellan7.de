@@ -253,7 +253,7 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 
 Nach dem Import ist die aus SchülerOnline eingelesene Ausbildung noch nicht als aktuelle Ausbildung gesetzt. Bitte führen Sie abschließend die Aktion `Aktuelle Bewerber-Ausbildung setzen` aus. Wenn Bewerber nur eine Ausbildung haben, wird diese als aktuell gekennzeichnet. Sie finden diese Möglichkeit im MAGELLAN ADMINISTRATOR unter 'Datenbankpflege'.
 
-!aktuelle Ausbildung für Bewerber setzen](/assets/images/regionales/schueleronline01.png)
+[aktuelle Ausbildung für Bewerber setzen](/assets/images/regionales/schueleronline01.png)
 
 ## Wie sieht eine korrekte Kopfzeile aus
 
