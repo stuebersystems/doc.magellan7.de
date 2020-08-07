@@ -28,11 +28,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX:
+* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten
 
 ### MAGELLAN Schnittstellen
 
-* FIX: 
+* FIX: SAC =>  Korrektur beim Erzeugen einer SAXSVS-Datei
 
 ### MAGELLAN ADMINISTRATOR
 
