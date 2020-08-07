@@ -169,6 +169,7 @@ Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche
       
       Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
 
+
 Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 :--|:--|:--|:--
 1.|**SchuelerID**<br/>Schueler.ID|Siehe Hinweis über der Tabelle|-
@@ -247,6 +248,12 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 74.| **BetriebMitgliedsnummer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 75.| **BetriebIdExtern**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 76.| **KrzBetriebeid**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+
+## Aktuelle Ausbildung für Bewerber setzen
+
+Nach dem Import ist die aus SchülerOnline eingelesene Ausbildung noch nicht als aktuelle Ausbildung gesetzt. Bitte führen Sie abschließend die Aktion `Aktuelle Bewerber-Ausbildung setzen` aus. Wenn Bewerber nur eine Ausbildung haben, wird diese als aktuell gekennzeichnet. Sie finden diese Möglichkeit im MAGELLAN ADMINISTRATOR unter 'Datenbankpflege'.
+    
+!aktuelle Ausbildung für Bewerber setzen](/assets/images/regionales/schueleronline01.png)
 
 ## Wie sieht eine korrekte Kopfzeile aus
 
