@@ -12,7 +12,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      pip install mkdocs mkdocs-material mkdocs-img2fig-plugin
+      pip install mkdocs mkdocs-material mkdocs-img2fig-plugin --disable-pip-version-check
     failOnStderr: true
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: PowerShell@2
