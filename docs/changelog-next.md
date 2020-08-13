@@ -85,3 +85,5 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * CHANGE: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2020).rpt
 * CHANGE: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2020).rpt
+* CHANGE: SAR-AS-Verhaltenszeugnis.rpt
+* CHANGE: SAR-AZ-Verhaltenszeugnis.rpt
