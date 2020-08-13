@@ -32,7 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-* FIX: SAC =>  Korrektur beim Erzeugen einer SAXSVS-Datei
+* FIX: SAC =>  Korrektur beim Erzeugen einer SAXSVS-Datei Abschlüsse/Abgänger: doppeltes Ausspielen von Schülern bei gleichzeitigem Abgang und Abschluss in verschiedenen Zeiträumen behoben
 
 ### MAGELLAN ADMINISTRATOR
 
