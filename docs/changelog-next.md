@@ -80,3 +80,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BS-JZ (A.02.01).rpt
 * CHANGE: SAC-BS-JZ (A.02.01) 2spaltig.rpt
 * CHANGE: SAC-BS-AZ (A.02.04).rpt
+
+#### Saarland
+
+* CHANGE: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2020).rpt
+* CHANGE: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2020).rpt
