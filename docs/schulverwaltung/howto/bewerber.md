@@ -149,6 +149,10 @@ Für die Namens- und Adressfelder gibt es zwei Karten, die Karte `Standard`, die
 
 Für jeden Bewerber können Sie bei seiner Aufnahme direkt ein Einschulmerkmal vergeben.  Beispielweise können Sie alle Schüler, die in die Klassenstufe 5 eingeschult werden sollen, einem bestimmten Schlüssel für die Klassenstufe 5 zuordnen. Vergebene Einschulmerkmale erleichtern Ihnen später das Einschulen der Schüler in die Klassen, da Sie dann einfach Schüler mit dem gleichen Einschulmerkmal für eine bestimmte Klasse auswählen können.
 
+!!! danger "Achtung"
+
+    Einschulmerkmale werden vergeben um beim späteren Einschulen, die Schüler gruppenweise anhand dieses Merkmals zusammenfassen udn den Klassen zuordnen zu können. Sie können die vergebenen Einschulmerkmale später auch im Menü `Schüler` in der Auswahlliste oder im Fenster [`Zusatzinformationen`](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#fenster-weitere-informationen) (per `STRG+I`aus der Auswahlliste oder von den Datenkarten aufrufbar ) einsehen, aber nicht mehr verändern.
+
 ![Einschulmerkmale](/assets/images/bewerber/einschul01.png)
 
 Einschulmerkmale werden in den Schlüsselverzeichnissen (`Extras > Schlüsselverzeichnisse > Einschulmerkmale`) definiert.
