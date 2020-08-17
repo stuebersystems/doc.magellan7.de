@@ -60,6 +60,10 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+#### Allgemeine Berichte
+
+* NEW: Mandant (Liste der Schüler ohne aktuelle Ausbildung - trotz gefüllter Ausbildungsliste - im Zeitraum).rpt
+
 #### Baden Württemberg
 
 * NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung, Fach RELIGION / ETHIK wird nun im Bereich der gesellschaftswissenschaftlichen Fächer mit ausgegeben)
