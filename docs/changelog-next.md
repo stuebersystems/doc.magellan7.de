@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN ADMINISTRATOR
 
 * FIX: `schueler_laufbahn.import.csv` Zuordnen zu Klassen korrigiert
-* 
+* FIX: Auffüllen von leeren Datenfeldern korrigiert
 
 ### MyMAGELLAN-CENTER
 
