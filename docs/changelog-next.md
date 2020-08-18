@@ -64,6 +64,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 #### Allgemeine Berichte
 
 * NEW: Mandant (Liste der Schüler ohne aktuelle Ausbildung - trotz gefüllter Ausbildungsliste - im Zeitraum).rpt
+* CHANGE: Abi (Gesamtschnitt nach Punktzahl sortiert).rpt
 
 #### Baden Württemberg
 
