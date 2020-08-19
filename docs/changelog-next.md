@@ -32,7 +32,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-* FIX: SAC =>  Korrektur beim Erzeugen einer SAXSVS-Datei Abschlüsse/Abgänger: doppeltes Ausspielen von Schülern bei gleichzeitigem Abgang und Abschluss in verschiedenen Zeiträumen behoben
+#### SAXSVS
+
+* FIX: Korrektur beim Erzeugen einer SAXSVS-Datei Abschlüsse/Abgänger: doppeltes Ausspielen von Schülern bei gleichzeitigem Abgang und Abschluss in verschiedenen Zeiträumen behoben
+
+#### Statistik NRW
+
+* FIX: Ausgabe in das Feld `Versetzung` korrigiert
+
+#### SchülerOnline
+
+* NEW: Die importierte Ausbildung der Bewerber wird automatisch als aktuelle Ausbildung markiert.
+* CHANGE: Beim Importieren wird der Bildungsgang als Bildungsgang gesetzt
 
 ### MAGELLAN ADMINISTRATOR
 
