@@ -30,6 +30,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
+* CHANGE: NRW-ABS => für die Abi.txt wurden bislang Schüler ausgegeben, die einen Eintrag unter `Daten2|G8/G9` hatten, MAGELLAN liest jetzt nur noch Schüler aus, die diesen Eintrag haben und im Klassenjahrgang 12 (mit Eintrag G8) oder 13 (mit Eintrag G9) sind. Der Klassenjahrgang wird unter `Klasse > Zeiträume > Jahrgang` erwartet.  
+
 
 ### MAGELLAN ADMINISTRATOR
 
