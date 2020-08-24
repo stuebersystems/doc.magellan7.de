@@ -54,3 +54,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Allgemein
+
+* CHANGE: `Klassenliste mit Schülersummendaten.rpt` Jahrgang der Klasse wird mit ausgegeben
