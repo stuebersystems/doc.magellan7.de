@@ -14,13 +14,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
-    Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-!!! danger "Achtung"
+    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-    Bitte beachten Sie, dass mit der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
-
-## 7.1.15 - 715
+## 7.1.16 - 715
 
 ### Datenstruktur
 
@@ -28,16 +26,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten
+* FIX: 
 
 ### MAGELLAN Schnittstellen
 
-* FIX: SAC =>  Korrektur beim Erzeugen einer SAXSVS-Datei Abschlüsse/Abgänger: doppeltes Ausspielen von Schülern bei gleichzeitigem Abgang und Abschluss in verschiedenen Zeiträumen behoben
 
 ### MAGELLAN ADMINISTRATOR
 
-* FIX: `schueler_laufbahn.import.csv` Zuordnen zu Klassen korrigiert
-* FIX: Auffüllen von leeren Datenfeldern korrigiert
+* FIX:
 
 ### MyMAGELLAN-CENTER
 
@@ -47,9 +43,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX: Problem bei der Rückgabe von Büchern behoben
-
-![Meldung bei der Ausleihe eines mit "Dauerverleih" markierten Exemplares](/assets/images/changelog/7.1.14.01.png)
+* FIX: 
 
 ### Skripte
 
@@ -60,36 +54,3 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
-
-#### Allgemeine Berichte
-
-* NEW: Mandant (Liste der Schüler ohne aktuelle Ausbildung - trotz gefüllter Ausbildungsliste - im Zeitraum).rpt
-* CHANGE: Abi (Gesamtschnitt nach Punktzahl sortiert).rpt
-
-#### Baden Württemberg
-
-* NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung, Fach RELIGION / ETHIK wird nun im Bereich der gesellschaftswissenschaftlichen Fächer mit ausgegeben)
-* NEW: BAW-GY-ABI (2019 mit KF-LK).rpt (Abiturzeugnis gültig ab Abitur 2019)
-* NEW: BAW-GY-JZ (Mittelstufe).rpt
-* NEW: BAW-GY-JZ (Mittelstufe mit GER)(A5).rpt (Jahreszeugnis für die Mittelstufe mit Ausgabe der Sprachreferenz, DIN A5)
-* CHANGE: BAW-GY (Mitteilung Prüfungsergebnisse).rpt (Ausgabe Schuljahr)
-
-#### Sachsen
-
-* NEW: SAC-BVJ-HJI (A.01.03).rpt (A.01.03 Halbjahresinformation der Berufsschule - Berufsvorbereitungsjahr)
-* CHANGE: SAC-BS-HJI (A.01.02).rpt
-* CHANGE: SAC-BVJ-AS mit HS (A.01.09).rpt (Hauptschulabschluss wird nun beim `Schüler > Laufbahn > Abschluss` im Bereich „Abschluss1“ im Feld „Abschlussart“ abgefragt. Grundlage bildet das `Schlüsselverzeichnis > Abschlussarten`.)
-* CHANGE: SAC-BF-JZ (B.02.02).rpt
-* CHANGE: SAC-BS-BVB Maßnahme (A.01.05).rpt
-* CHANGE: SAC-BS-HJI (A.01.04).rpt
-* CHANGE: SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt
-* CHANGE: SAC-BS-JZ (A.02.01).rpt
-* CHANGE: SAC-BS-JZ (A.02.01) 2spaltig.rpt
-* CHANGE: SAC-BS-AZ (A.02.04).rpt
-
-#### Saarland
-
-* CHANGE: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2020).rpt
-* CHANGE: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2020).rpt
-* CHANGE: SAR-AS-Verhaltenszeugnis.rpt
-* CHANGE: SAR-AZ-Verhaltenszeugnis.rpt
