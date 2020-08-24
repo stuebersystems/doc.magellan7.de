@@ -137,7 +137,7 @@ Alle Datensätze werden jetzt importiert. Werden fehlende Schlüssel in den Schl
 
 !!! info "Hinweis"
 
-     Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus SchülerOnline prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird.
+     Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus SchülerOnline prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird. Dieser Betrieb wird nur mit den Daten angelegt, die aus der Exportdatei aus SchülerOnline kommen. Sie müssen hier in jedem Fall manuell das Kürzel im Menü Betriebe > Daten 1 zur korrekten Darstellung des Betriebes nachpflegen.
 
 Ein einmalig aus SchülerOnline übernommener Betrieb ist in MAGELLAN eindeutig gekennzeichnet, damit zukünftige Betriebsdatenänderung in SchülerOnline mit nach MAGELLAN übernommen werden können.
 Wird im Rahmen des Imports ein Betrieb als schon vorhanden erkannt, werden die in SchülerOnline eingetragenen Daten nicht automatisch übernommen. Schon vorhandene Betriebe werden im Anschluss an den Import in einer gesonderten Registerkarte `Betriebe aktualisieren` aufgelistet.
