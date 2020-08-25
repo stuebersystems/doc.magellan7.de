@@ -51,6 +51,8 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * CHANGE: 
 
+* FIX: SAR-APO-DFG-2014.dws: PreCheckPruefungsbereichFehler
+
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
