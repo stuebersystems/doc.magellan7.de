@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.16 - 715
+## 7.1.17 - 715
 
 ### Datenstruktur
 
@@ -30,12 +30,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-#### NRW
-
-* CHANGE: ABS => für die ABI.txt wurden bislang Schüler ausgegeben, die einen Eintrag unter `Daten2|G8/G9` hatten, MAGELLAN liest jetzt nur noch Schüler aus, die diesen Eintrag haben und im Klassenjahrgang 12 (mit Eintrag G8) oder 13 (mit Eintrag G9) sind. Der Klassenjahrgang wird unter `Klasse > Zeiträume > Jahrgang` erwartet.  
-* FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
-
-![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
+* CHANGE: 
 
 ### MAGELLAN ADMINISTRATOR
 
@@ -57,12 +52,10 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * CHANGE: 
 
-* FIX: SAR-APO-DFG-2014.dws: PreCheckPruefungsbereichFehler
-
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 #### Allgemein
 
-* CHANGE: `Klassenliste mit Schülersummendaten.rpt` Jahrgang der Klasse wird mit ausgegeben
+* CHANGE: 
