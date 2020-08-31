@@ -30,7 +30,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-* CHANGE: 
+#### Schüler (Berlin) 
+
+* FIX: Schüler (ABS und BBS) bewerber > schueler)_sorgebe.export.csv - bei mehreren eingetragenen Sorgeberechtigten werden auch mehrere Sorgeberechtigte ausgespielt
 
 ### MAGELLAN ADMINISTRATOR
 
