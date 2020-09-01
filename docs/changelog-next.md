@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: 
+* FIX: `Schüler > Laufbahnprozess` "Schüler in  Mandanten versetzen" 
 
 ### MAGELLAN Schnittstellen
 
