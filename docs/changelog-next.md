@@ -35,8 +35,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SIM.TXT: Schüler einer Klasse ohne Statistikkürzel werden beim Export nicht berücksichtigt
 * FIX: SIM.TXT: wenn in Schüler > Extras > Betreuungsarten > Innerschulisch 1 [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
 * FIX: SIM.TXT: Ausgabe von Foerderschwerp, VOfoerderschwerp, VOschwerstbeh, Foerderschwerp2, VOfoerderschwerp2 ohne Eintrag des BIS Datums. Der Eintrag eines BIS-Datum ist nicht zwingend erforderlich, das VON-Datum muss kleiner oder dem dem Anfangsdatum des jeweiligen Zeitraumes sein.
-* CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter Klassen > Zeiträume > Klassenstufe (Schlüssel) Q2 notwendig
- 
+*  CHANGE: ABS => für die ABI.txt wurden bislang Schüler ausgegeben, die einen Eintrag unter `Daten2|G8/G9` hatten, MAGELLAN liest jetzt nur noch Schüler aus, die diesen Eintrag haben und im Klassenjahrgang 12 (mit Eintrag G8) oder 13 (mit Eintrag G9) sind. Der Klassenjahrgang wird unter `Klasse > Zeiträume > Jahrgang` erwartet.  
+  
+#### SAXSVS
+
+FIX: Fehlermeldung Export SAXSVS (SAXSVS BBS) bei fehlenden Eingaben zum Sorgeberechtigten und fehlenden Abschlüsseln werden ausgegeben
 
 #### Schüler (Berlin) 
 

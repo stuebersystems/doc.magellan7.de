@@ -28,7 +28,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### NRW
 
-* CHANGE: ABS => für die ABI.txt wurden bislang Schüler ausgegeben, die einen Eintrag unter `Daten2|G8/G9` hatten, MAGELLAN liest jetzt nur noch Schüler aus, die diesen Eintrag haben und im Klassenjahrgang 12 (mit Eintrag G8) oder 13 (mit Eintrag G9) sind. Der Klassenjahrgang wird unter `Klasse > Zeiträume > Jahrgang` erwartet.  
 * FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
 
 ![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
