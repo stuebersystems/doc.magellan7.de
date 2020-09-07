@@ -33,9 +33,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Statistik NRW
 
 * FIX: SIM.TXT: Schüler einer Klasse ohne Statistikkürzel werden beim Export nicht berücksichtigt
-* FIX: SIM.TXT: wenn in Schüler > Extras > Betreuungsarten > Innerschulisch 1 [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
+* FIX: SIM.TXT: wenn in `Schüler > Extras > Betreuungsarten > Innerschulisch 1` [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
 * FIX: SIM.TXT: Ausgabe von Foerderschwerp, VOfoerderschwerp, VOschwerstbeh, Foerderschwerp2, VOfoerderschwerp2 ohne Eintrag des BIS Datums. Der Eintrag eines BIS-Datum ist nicht zwingend erforderlich, das VON-Datum muss kleiner oder dem dem Anfangsdatum des jeweiligen Zeitraumes sein.
-* CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter Klassen > Zeiträume > Klassenstufe (Schlüssel) Q2 notwendig
+* CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter `Klassen > Zeiträume > Klassenstufe` (Schlüssel) Q2 notwendig
  
 
 #### Schüler (Berlin) 
@@ -75,3 +75,13 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: DAS-HJZ-JZ (3-12).rpt
 * CHANGE: DAS-GS-GY (Klasse 3-10).rpt
 * CHANGE: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt
+
+#### Saarland
+
+* Change: SAR-GEMS-AZ (Klasse 5-10).rpt (folgendes ist nun berücksichtigt und wird durch Setzen oder Nicht-Setzen des Hakens im Menü `Schüler > Daten 3` im Feld "Schulpflicht erfüllt" gesteuert: 
+  
+  1) Abgang vor Erfüllung der Vollzeitschulpflicht: AZ mit Angabe der Fehlzeiten (entschuldigt und unentschuldigt), Noten in Verhalten und Mitarbeit
+  2) Abgang nach Erfüllung der Vollzeitschulpflicht: AZ ohne Verhalten und Mitarbeit und ohne Fehlzeiten, diese erscheinen dann im Verhaltenszeugnis.
+
+![Feld "Schulpflicht erfüllt"](/assets/images/changelog/7.1.17.01.png)
+   
