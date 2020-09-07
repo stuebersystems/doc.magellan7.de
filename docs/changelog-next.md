@@ -69,3 +69,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 #### Allgemein
 
 * CHANGE: 
+
+#### Auslandsschulen
+
+* CHANGE: DAS-HJZ-JZ (3-12).rpt
+* CHANGE: DAS-GS-GY (Klasse 3-10).rpt
+* CHANGE: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt
