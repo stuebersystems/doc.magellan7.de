@@ -79,9 +79,11 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 #### Saarland
 
 * Change: SAR-GEMS-AZ (Klasse 5-10).rpt (folgendes ist nun berücksichtigt und wird durch Setzen oder Nicht-Setzen des Hakens im Menü `Schüler > Daten 3` im Feld "Schulpflicht erfüllt" gesteuert: 
-  
-  1) Abgang vor Erfüllung der Vollzeitschulpflicht: AZ mit Angabe der Fehlzeiten (entschuldigt und unentschuldigt), Noten in Verhalten und Mitarbeit
-  2) Abgang nach Erfüllung der Vollzeitschulpflicht: AZ ohne Verhalten und Mitarbeit und ohne Fehlzeiten, diese erscheinen dann im Verhaltenszeugnis.
+
+Fälle | Auswirkung im Bericht
+-- |-- 
+1) Abgang vor Erfüllung der Vollzeitschulpflicht | AZ mit Angabe der Fehlzeiten (entschuldigt und unentschuldigt), Noten in Verhalten und Mitarbeit
+2) Abgang nach Erfüllung der Vollzeitschulpflicht |  AZ ohne Verhalten und Mitarbeit und ohne Fehlzeiten, diese erscheinen dann im Verhaltenszeugnis.
 
 ![Feld "Schulpflicht erfüllt"](/assets/images/changelog/7.1.17.01.png)
    
