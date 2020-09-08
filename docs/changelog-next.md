@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.17 - 715
+## 7.1.18 - 715
 
 ### Datenstruktur
 
@@ -26,23 +26,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: `Schüler > Laufbahnprozess` "Schüler in  Mandanten versetzen" 
+* FIX: 
 
 ### MAGELLAN Schnittstellen
-
-#### Statistik NRW
-
-* FIX: SIM.TXT: Schüler einer Klasse ohne Statistikkürzel werden beim Export nicht berücksichtigt
-* FIX: SIM.TXT: wenn in `Schüler > Extras > Betreuungsarten > Innerschulisch 1` [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
-* FIX: SIM.TXT: Ausgabe von Foerderschwerp, VOfoerderschwerp, VOschwerstbeh, Foerderschwerp2, VOfoerderschwerp2 ohne Eintrag des BIS Datums. Der Eintrag eines BIS-Datum ist nicht zwingend erforderlich, das VON-Datum muss kleiner oder dem dem Anfangsdatum des jeweiligen Zeitraumes sein.
-* CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter `Klassen > Zeiträume > Klassenstufe` (Schlüssel) Q2 notwendig
-* FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
-
-![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
-
-#### Schüler (Berlin)
-
-* FIX: Schüler (ABS und BBS) bewerber > schueler)_sorgebe.export.csv - bei mehreren eingetragenen Sorgeberechtigten werden auch mehrere Sorgeberechtigte ausgespielt
 
 ### MAGELLAN ADMINISTRATOR
 
@@ -72,20 +58,3 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * CHANGE: 
 
-#### Auslandsschulen
-
-* CHANGE: DAS-HJZ-JZ (3-12).rpt
-* CHANGE: DAS-GS-GY (Klasse 3-10).rpt
-* CHANGE: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt
-
-#### Saarland
-
-* Change: SAR-GEMS-AZ (Klasse 5-10).rpt (folgendes ist nun berücksichtigt und wird durch Setzen oder Nicht-Setzen des Hakens im Menü `Schüler > Daten 3` im Feld "Schulpflicht erfüllt" gesteuert: 
-
-Fälle | Auswirkung im Bericht
--- |-- 
-1) Abgang vor Erfüllung der Vollzeitschulpflicht | AZ mit Angabe der Fehlzeiten (entschuldigt und unentschuldigt), Noten in Verhalten und Mitarbeit
-2) Abgang nach Erfüllung der Vollzeitschulpflicht |  AZ ohne Verhalten und Mitarbeit und ohne Fehlzeiten, diese erscheinen dann im Verhaltenszeugnis.
-
-![Feld "Schulpflicht erfüllt"](/assets/images/changelog/7.1.17.01.png)
-   
