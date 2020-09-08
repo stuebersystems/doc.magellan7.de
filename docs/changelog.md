@@ -26,12 +26,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-#### NRW
-
-* FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
-
-![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
-
 ### Skripte
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).

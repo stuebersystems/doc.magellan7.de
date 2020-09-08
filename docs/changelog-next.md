@@ -36,9 +36,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SIM.TXT: wenn in `Schüler > Extras > Betreuungsarten > Innerschulisch 1` [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
 * FIX: SIM.TXT: Ausgabe von Foerderschwerp, VOfoerderschwerp, VOschwerstbeh, Foerderschwerp2, VOfoerderschwerp2 ohne Eintrag des BIS Datums. Der Eintrag eines BIS-Datum ist nicht zwingend erforderlich, das VON-Datum muss kleiner oder dem dem Anfangsdatum des jeweiligen Zeitraumes sein.
 * CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter `Klassen > Zeiträume > Klassenstufe` (Schlüssel) Q2 notwendig
- 
+* FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
 
-#### Schüler (Berlin) 
+![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
+
+#### Schüler (Berlin)
 
 * FIX: Schüler (ABS und BBS) bewerber > schueler)_sorgebe.export.csv - bei mehreren eingetragenen Sorgeberechtigten werden auch mehrere Sorgeberechtigte ausgespielt
 
