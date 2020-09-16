@@ -30,6 +30,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
+#### SAXSVS
+
+* FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
+
+## SHL
+
+* FIX: Ausgabe der Exportdateien
+
 ### MAGELLAN ADMINISTRATOR
 
 * FIX:
