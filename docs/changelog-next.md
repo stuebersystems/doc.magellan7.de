@@ -30,7 +30,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-* CHANGE: 
+#### NRW
+
+* CHANGE: Für den `Foerderschwerp` ist nur noch der Eintrag des Von-Datums unter `Daten4 > Beeinträchtigungen und Fördermaßnahmen` nötig.
 
 ### MAGELLAN ADMINISTRATOR
 
