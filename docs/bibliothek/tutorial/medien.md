@@ -4,13 +4,15 @@
 
 Wenn Sie ein neues Exemplar eines Medientitels anlegen möchten, der bereits in Ihrer Datenbank vorhanden ist, so können Sie auf die bereits eingegebenen Daten zurück greifen. Scannen sie dazu entweder den Medienbarcode des Exemplars ein oder suchen sie den Titel manuell in Ihrer Medienliste. Um die zweite Option zu nutzen, gehen Sie bitte folgendermaßen vor:
 
+![Neuer Datensatz](/assets/images/bibliothek/12.png)
 
-1. Setzen sie auf der Startseite des Eingabeassistenten den Punkt im Kontrollkreis vor `Lokal nach Titel`.
-2. Klicken Sie mit der linken Maustaste auf das Pfeilsymbol des Auswahlfeldes hinter `Lokal nach Titel`.
-3. Wählen Sie in dem sich öffnenden Aufklappmenü den passenden Titel aus der Medienliste aus.
-4. Bestätigen Sie bitte mit `Weiter`.
+1. Wählen Sie über `Start > Bearbeiten > Neuer Datensatz`
+2. Setzen sie auf der Startseite des Eingabeassistenten den Punkt im Kontrollkreis vor `Lokal nach Titel`.
+3. Klicken Sie mit der linken Maustaste auf das Pfeilsymbol des Auswahlfeldes hinter `Lokal nach Titel`.
+4. Wählen Sie in dem sich öffnenden Aufklappmenü den passenden Titel aus der Medienliste aus.
+5. Bestätigen Sie bitte mit `Weiter`.
 
-Sie überspringen nun die Eingabemaske für Mediendaten und gelangen direkt zur Signaturseite `Signatur aufbauen`des Eingabeassistenten. Dies passiert auch, wenn Sie den Barcode eines bereits gespeicherten Mediums einscannen, allerdings nur sofern die Barcodenummer des Medientitels bereits hinterlegt ist.
+Sie überspringen nun die Eingabemaske für Mediendaten und gelangen direkt zur Signaturseite `Signatur aufbauen` des Eingabeassistenten. Dies passiert auch, wenn Sie den Barcode eines bereits gespeicherten Mediums einscannen, allerdings nur sofern die Barcodenummer des Medientitels bereits hinterlegt ist.
 
 !!! info "Hinweis"
 

@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.17 - 715
+## 7.1.18 - 715
 
 ### Datenstruktur
 
@@ -26,13 +26,23 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: 
+* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
 
 ### MAGELLAN Schnittstellen
 
+<<<<<<< HEAD
 #### NRW
 
 * CHANGE: Für den `Foerderschwerp` ist nur noch der Eintrag des Von-Datums unter `Daten4 > Beeinträchtigungen und Fördermaßnahmen` nötig.
+=======
+#### SAXSVS
+
+* FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
+
+## SHL
+
+* FIX: Ausgabe der Exportdateien
+>>>>>>> 9e7288811f3e742f5dbf6eca8b22cd1274686b34
 
 ### MAGELLAN ADMINISTRATOR
 
@@ -61,3 +71,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 #### Allgemein
 
 * CHANGE: 
+
+#### Berlin
+
+CHANGE: BER-KO-ABI (Schul Z 323)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AZ (Schul Z 321)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+NEW: BER-Schul Z 324 (11.19).rpt (Bericht war bereits in MAGELLAN 6 Auslieferung enthalten, nun auch für MAGELLAN 7 verfügbar)

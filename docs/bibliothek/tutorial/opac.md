@@ -4,7 +4,7 @@
 
 !!! info "Hinweis"
 
-    Diese Dokumentation zur Einricht des OPAC Research gilt für die aktuellen VErsion MAGELLAN 7
+    Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN 7.
 
 ## Einrichten des OPAC-Research
 
@@ -16,7 +16,7 @@ Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > 
 
 ### Einrichten des OPAC Research
 
-Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier können Sie können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
+Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
 ![Opac Server einrichten](/assets/images/bibliothek/opac5.png)
 
 Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
@@ -38,7 +38,7 @@ Katalog|dnb
 
 Spalte | Eintrag
 -|-
-Art der Auhthentifizierung| Bitte wählen Sie  per **Zugangscode** (Access Token) aus
+Art der Authentifizierung| Bitte wählen Sie per **Zugangscode** (Access Token) aus
 Benutzername| bleibt leer
 Kennwort/Zugangscode| Im Falle der DNB benötigen Sie hier einen `Zugriffstoken`, den Sie nach der Registrierung im Portal der DNB anfragen können.
 
@@ -67,7 +67,7 @@ Wenn Sie mehrere Server eintragen, dann werden alle Server nacheinander angefrag
 
 ### Das Ergebnis
 
-War die Recherche erfolgreich, wechselt der Assisttent zur Eingabe neuer Medien direkt auf die nächste Seite. Die gefundenen Informatioanen sind hier bereits vorbelegt, ggf. können Sie weitere Infiormationen für das Medium erfassen.
+War die Recherche erfolgreich, wechselt der Assistent zur Eingabe neuer Medien direkt auf die nächste Seite. Die gefundenen Informatioanen sind hier bereits vorbelegt, ggf. können Sie weitere Infiormationen für das Medium erfassen.
 
 ![Neues Medium erfassen](/assets/images/bibliothek/opac9.png)
 
@@ -77,4 +77,4 @@ Bestätigen Sie die Eingabe mit `Weiter`. Sie gelangen auf die nächste Register
 
 ie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt.
 
-Der ausgewählte Eintrag wird in die MAGELLAN-BIBLIOTHEK übertragen, und die verwertbaren Informationen sowie die manuell eingegebenen gespeichert.
+Der ausgewählte Eintrag wird in die MAGELLAN BIBLIOTHEK übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
