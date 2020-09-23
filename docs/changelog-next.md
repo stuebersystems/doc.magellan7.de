@@ -30,11 +30,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-<<<<<<< HEAD
-#### NRW
-
-* CHANGE: Für den `Foerderschwerp` ist nur noch der Eintrag des Von-Datums unter `Daten4 > Beeinträchtigungen und Fördermaßnahmen` nötig.
-=======
 #### SAXSVS
 
 * FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
@@ -42,7 +37,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## SHL
 
 * FIX: Ausgabe der Exportdateien
->>>>>>> 9e7288811f3e742f5dbf6eca8b22cd1274686b34
 
 ### MAGELLAN ADMINISTRATOR
 
