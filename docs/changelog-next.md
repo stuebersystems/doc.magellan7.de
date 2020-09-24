@@ -67,7 +67,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Allgemein
 
-* CHANGE: 
+* FIX: Schüler > Drucken > Berichte > Schülerliste (Fehlzeiten nach Schüler gruppiert).rpt
+* FIX: Abitur > Drucken > Prüfungslisten drucken > Prüfungsliste (Abitur).rpt
 
 #### Berlin
 
