@@ -8,7 +8,7 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben 
 
 !!! info "Hinweis"
 
-  Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder.html).
+  Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
 
 Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
 
