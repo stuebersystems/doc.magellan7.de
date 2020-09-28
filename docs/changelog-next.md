@@ -36,6 +36,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### SAXSVS
 
 * FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
+* CHANGE: Neue Meldung, wenn das Land des Ausbildungsbetriebs nicht gefüllt ist
+
+Art|Feld|Meldung
+--|--|--
+Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SChülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.
+
 
 ## SHL
 
