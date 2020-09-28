@@ -152,30 +152,32 @@ Ihre Ergänzungen sind nun in der Datenbank gespeichert.
 
 ## Exemplardaten ändern oder ergänzen
 
-Auf der Registerkarte `Exemplare` erhalten Sie Gelegenheit folgende Angaben für ein oder mehrere Exemplare zu ändern bzw. zu ergänzen:
+![`Bücher / Medien > Exemplare`](/assets/images/bibliothek/exemplare02.png)
+
+Auf der Registerkarte `Exemplare` erhalten Sie Gelegenheit, folgende Angaben für ein oder mehrere Exemplare zu ändern bzw. zu ergänzen:
 
 * Kürzel des Lieferanten
 * Höhe des Einkaufspreises
 * Erhaltungszustand des Exemplars
 * Höhe der Signaturnummer
 
-Um ein oder mehrere dieser Angaben anzupassen, führen Sie bitte die folgenden Schritte aus:
+Um eine oder mehrere dieser Angaben anzupassen, führen Sie bitte die folgenden Schritte aus:
 
 1. Wählen Sie in der Exemplarliste eines Medientitels, diejenigen Exemplare, deren Daten Sie verändern möchten.
-2. Betätigen Sie die Schaltfläche `Sammelzuweisung…` in der Symbolleiste der Registerkarte `Exemplare`.
+2. Betätigen Sie die Schaltfläche `Sammelzuweisung` in der Symbolleiste der Registerkarte `Exemplare`.
+
+![`Bücher / Medien > Exemplare > Sammelzuweisung`](/assets/images/bibliothek/exemplare01.png)
+
 3. Wählen Sie im erscheinenden Dialogfenster die Datentypen aus, die Sie ändern oder ergänzen möchten. Setzen Sie dazu jeweils den Haken im Kontrollkästchen vor:
 
-* `Lieferant korrigieren` und/ oder
-* `Einkaufspreis korrigieren` und/ oder
-* `Exemplarzustand anpassen` und/oder
-* `Signaturnr. anpassen`
+* `Lieferant` und/ oder
+* `Einkaufspreis` und/ oder
+* `Exemplarzustand` und/oder
+* `Signaturnummer`und/oder
+* `Bestandsstatus`und/oder
+* `Standort`
 
-4. Tragen Sie in den aktivierten Datenfeldern die gewünschten Angaben ein. Gehen Sie dazu folgendermaßen vor:
-
-* Betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Lieferanten korrigieren` und wählen Sie den zutreffenden Eintrag aus und/ oder
-* platzieren Sie den Cursor in das Eingabefeld `Einkaufsbetrag korrigieren` und tippen Sie den Betrag ein und/ oder
-* betätigen Sie die Pfeilschaltfläche des Auswahlfeldes `Exemplarzustand anpassen` und wählen Sie den zutreffenden Eintrag aus und/ oder
-* platzieren Sie den Cursor in das Eingabefeld `Signaturnr. anpassen` und tippen Sie die gewünschte Zahl ein.
+4. Tragen Sie in den aktivierten Datenfeldern die gewünschten Angaben ein. Betätigen dazu die Pfeilschaltfläche des Auswahlfeldes `Lieferanten`, `Einkaufspreis`,`Exemplarzustand`, `Signaturnummer`, `Bestandsstatus` und/oder `Standort` und wählen Sie den zutreffenden Eintrag aus.
 
 5. Bestätigen Sie Ihre Angaben abschließend mit `OK`
 
@@ -188,25 +190,32 @@ Sie haben in diesem Kapitel bereits die Möglichkeit kennengelernt wie Sie die S
 Für den Fall, dass Sie auch die Mediensignatur bereits angelegter Exemplare verändern möchten, steht Ihnen der Assistent `Signaturen anpassen` zur Verfügung. Dieser Assistent sorgt dafür, dass geänderte Signaturvorgaben und Signaturnummern auch in die Mediensignatur bereits erfasster Exemplare integriert werden. Um die Mediensignaturen bereits erfasster Exemplare zu ändern, gehen Sie bitte folgendermaßen vor:
 
 1. Öffnen Sie die Registerkarte `Auswahl` und markieren Sie das gewünschte Medium, dessen Exemplarsignaturen Sie ändern möchten.
-2. Ändern Sie auf der Registerkarte `Daten1` den Eintrag im Feld Signaturvorgabe.
-Und/ Oder
-Blättern Sie zur Registerkarte `Exemplare` und ändern Sie über das Dialogfenster `Sammelzuweisung Exemplare` die Signaturnummer eines oder mehrerer Exemplare.
-3. Öffnen Sie die Registerkarte `Auswahl` und betätigen Sie die Schaltfläche `Signaturen anpassen`. Der Assistent `Signaturen anpassen` öffnet sich.
-4. Bestätigen Sie auf der ersten Assistentenseite die voreingestellte Option `Signaturen für alle ausgewählten Medien neu aufbauen` mit `OK`.
-5. Starten Sie auf der zweiten Assistentenseite die Anpassung der Signaturen mit `Fertigstellen`.
-Die vorhandenen Exemplarsignaturen des ausgewählten Medientitels werden nun an die neue Signaturvorgabe und die geänderte Nummerierung angepasst.
+2. Ändern Sie auf der Registerkarte `Daten1` den Eintrag im Feld Signaturvorgabe *Und/ Oder*
+Blättern Sie zur Registerkarte `Exemplare` und ändern Sie über das Dialogfenster `Sammelzuweisung` die Signaturnummer eines oder mehrerer Exemplare.
+
+![`Bücher / Medien > Daten 1`](/assets/images/bibliothek/exemplare03.png)
+
+3. Wählen Sie nun über das Menü `Start > Signaturen` den Assistenten zum Anpassen der Signaturen.
+
+![`Bücher / Medien > Signaturen anpassen`](/assets/images/bibliothek/exemplare04.png)
+
+4. Es werden anhand der bestehenden Signaturvorgabe der Medien und vorhandener Signaturnummer der Exemplare die Signatur neu aufgebaut. 
+
+5. Bestätigen Sie den Vorgang durch die Schaltfläche `Fertigstellen`. Die vorhandenen Exemplarsignaturen des ausgewählten Medientitels werden nun an die neue Signaturvorgabe und die geänderte Nummerierung angepasst.
 
 ## Stichworte für einen Medientitel anlegen
 
+![`Bücher / Medien > Stichworte`](/assets/images/bibliothek/exemplare05.png)
 
 Auf der Registerkarte `Stichworte` befindet sich ein Tabellenblatt, in dem Sie für jedes erfasste Medium eine Liste frei wählbarer thematischer Stichworte hinterlegen können. Diese Einträge können später genutzt werden, um die Anzeige der in der Datenbank vorhandenen Medientitel nach bestimmten inhaltlichen Kriterien zu filtern. Um ein neues Stichwort für ein Medium anzulegen, gehen Sie bitte folgendermaßen vor:
 
 1. Markieren Sie die Zeile des betreffenden Mediums auf dem Tabellenblatt unter der Registerkarte `Auswahl`.
 2. Klicken Sie auf die Registerkarte `Stichworte`.
-3. Betätigen Sie im sich öffnenden Tabellenblatt die Schaltfläche `Neues Stichwort anlegen`: es wird eine leere Zeile an den Anfang der Tabelle gefügt.
+3. Betätigen Sie im sich öffnenden Tabellenblatt die Schaltfläche `Neues Stichwort`: es wird eine leere Zeile an den Anfang der Tabelle gefügt.
 4. Platzieren Sie den Cursor in die leere Zeile und tragen Sie das gewünschte Stichwort ein.
-5. Betätigen Sie die Schaltfläche `Änderungen speichern` am oberen linken Rand des Tabellenblatts.
-Das neu eingetragene Stichwort ist nun für alle Medienexemplare in der Datenbank hinterlegt und kann als Filterwert bei der Mediensuche genutzt werden.
+5. Betätigen Sie die Schaltfläche `Stichwort speichern` am oberen linken Rand des Tabellenblatts.Das neu eingetragene Stichwort ist nun für alle Medienexemplare in der Datenbank hinterlegt und kann als Filterwert bei der Mediensuche genutzt werden.
+
+![`Bücher / Medien > Stichwort speichern`](/assets/images/bibliothek/exemplare06.png)
 
 ### Aufgabe 5
 
@@ -223,11 +232,15 @@ Sie können Einträge aus der Liste Ihrer Bücher und Medien entfernen. Die List
 1. Markieren Sie die Zeile des betreffenden Eintrags.
 2. Betätigen sie die Schaltfläche `Datensatz löschen` in der Symbolleiste des Programmfensters.
 
+![`Bücher / Medien > Auswahl > Datensatz löschen`](/assets/images/bibliothek/exemplare07.png)
+
 Die Zeile des betreffenden Eintrags verschwindet nun aus Ihrer Medien- oder Exemplarliste. Bitte beachten Sie, dass Sie ein Medium nur dann löschen können, wenn es nicht auf damit verknüpfte Datensätze in anderen Ansichten verweist. Liegen z.B. noch offene Ausleihvorgänge für eines Buch vor, so kann dieser Titel nicht aus der Datenbank gelöscht werden.
 
 ## Exemplare löschen
 
 Ebenso können Sie einzelne Exemplare eines Medientitels löschen. Zur Liste der Exemplare eines Medientitels gelangen Sie, indem Sie die Zeile des betreffenden Titels in der Tabelle `Auswahl` markieren und danach mit der linken Maustaste auf die Registerkarte `Exemplare` klicken. Um einen Eintrag aus dieser Liste, gehen Sie bitte folgendermaßen vor:
+
+![`Bücher / Medien > Auswahl > Datensatz löschen`](/assets/images/bibliothek/exemplare08.png)
 
 1. Markieren Sie die Zeile des betreffenden Eintrags.
 2. Betätigen sie die Schaltfläche `Exemplare entfernen`, die sich direkt über der Exemplarliste befindet.
