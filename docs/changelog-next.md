@@ -22,7 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* NEW:
+* NEW: 
 
 ### MAGELLAN SCHULVERWALTUNG
 
@@ -41,6 +41,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Art|Feld|Meldung
 --|--|--
 Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SChülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.
+
+* NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
+* NEW: Neue Prüfung für Sorgeberechtigte (aus Deutschland, also Land D, De oder Deu) ohne Gemeindekennziffer.
+* NEW: Neue Betriebeprüfung: Gemeldet werden Betriebe ohne Eintrag im Feld `Land` und `Gemeinde`
+* NEW: Hat ein Betrieb nur einen Eintrag im Feld `Gemeinde` und das Feld `Land` leer, wird für SaxSVS das Land automatisch als `De` ausgespielt.
 
 
 ## SHL
