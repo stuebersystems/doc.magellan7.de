@@ -35,7 +35,7 @@ Den Assistenten zur Übernahme neuer Ausleiher starten Sie folgendermaßen:
 
 ![Ausleiher registrieren](/assets/images/bibliothek/ausleiher_registrieren.png)
 
-Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die Sie nach MAGELLAN-BIBLIOTHEK übernehmen möchten. Für die Auswahl steht Ihnen je nachdem in welcher Ansicht Sie sich befinden eine Liste der Schüler, Lehrer bzw. Personen zur Verfügung, die Sie noch nicht als Ausleiher angelegt haben. Sie haben verschiedene Möglichkeiten einzelne oder mehrere Vertreter aus dieser Liste auszuwählen.
+Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die Sie in die MAGELLAN BIBLIOTHEK übernehmen möchten. Für die Auswahl steht Ihnen je nachdem in welcher Ansicht Sie sich befinden eine Liste der Schüler, Lehrer bzw. Personen zur Verfügung, die Sie noch nicht als Ausleiher angelegt haben. Sie haben verschiedene Möglichkeiten einzelne oder mehrere Vertreter aus dieser Liste auszuwählen.
 
 4. Wählen Sie einzelne Vertreter aus, indem Sie mit der linken Maustaste die betreffende Zeile markieren.
 5. Wählen Sie mehrere Vertreter aus, indem Sie die Taste `Strg` gedrückt halten und mit der linken Maustaste die zugehörigen Zeilen markieren.
@@ -82,10 +82,15 @@ Die mit dem Assistenten `Neue Ausleiher` übertragenen Nutzerdaten werden in den
 
 Sie verfügen jeweils über die Registerkarten `Auswahl`, `Daten` und `Vorgänge`:
 
-1. Die Registerkarte `Auswahl` enthält die wichtigsten Kontaktdaten aller Vertreter einer Nutzergruppe, Nachname, Vorname, Telefon, Telefax, Mobil sowie bei den Schülern die Klassenzugehörigkeit. Außerdem zeigt es den Gültigkeitszeitraum der Ausleiherlaubnis sowie eine Barcodenummer, die für jeden Ausleiher bei der Übernahme automatisch erzeugt wird.
-2. Auf der Registerkarte `Daten` befindet sich eine Karteikarte für den einzelnen Ausleiher, die abgesehen von der Barcodenummer alle Informationen der Auswahlliste enthält. Darüberhinaus ist hier die Postanschrift sowie bei den Schülern der Klassenleiter hinterlegt. Außerdem zeigt Sie, sofern im Basismodul hinterlegt, ein Passfoto des Ausleihers. Es werden jeweils die Daten des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
-3. Die Registerkarte `Vorgänge` enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Ausleihers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
-4. Die in den Ansichten Schüler, Lehrer und Personen erfassten persönlichen Daten bilden eine wichtige Grundlage für die Benutzerverwaltung. Sie dienen der Kommunikation mit den Ausleihern ebenso wie der eindeutigen Zuordnung der Leihvorgänge zu konkreten Individuen.
+![Schüler > Registerkarten](/assets/images/bibliothek/schüler01.png)
+
+Register | Inhalt
+--|--
+`Auswahl` | Enthält die wichtigsten Kontaktdaten aller Vertreter einer Nutzergruppe, Nachname, Vorname, Telefon, Telefax, Mobil sowie bei den Schülern die Klassenzugehörigkeit. Außerdem zeigt es den Gültigkeitszeitraum der Ausleiherlaubnis sowie eine Barcodenummer, die für jeden Ausleiher bei der Übernahme automatisch erzeugt wird.
+`Daten` | Karteikarte für den einzelnen Ausleiher, die abgesehen von der Barcodenummer alle Informationen der Auswahlliste enthält. Darüberhinaus ist hier die Postanschrift sowie bei den Schülern der Klassenleiter hinterlegt. Außerdem zeigt Sie, sofern im Basismodul hinterlegt, ein Passfoto des Ausleihers. Es werden jeweils die Daten des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
+`Vorgänge` | Enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Ausleihers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
+
+Die in den Ansichten Schüler, Lehrer und Personen erfassten persönlichen Daten bilden eine wichtige Grundlage für die Benutzerverwaltung. Sie dienen der Kommunikation mit den Ausleihern ebenso wie der eindeutigen Zuordnung der Leihvorgänge zu konkreten Individuen.
 
 
 !!! info "Hinweis"
@@ -94,9 +99,11 @@ Sie verfügen jeweils über die Registerkarten `Auswahl`, `Daten` und `Vorgänge
 
 ## Ausleiherdaten bearbeiten
 
-In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in MAGELLAN-BIBLIOTHEK zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
+!!! warning "Wichtig"
 
-Sie können allerdings auf der Registerkarte `Daten` die Angaben zur Dauer der Ausleihberechtigung, die Sie im Ubernahmeassistenten festgelegt haben, verändern. Tragen Sie einfach unter `Ausleihe Erlaubnis` die gewünschten Werte in die Eingabefelder `Gültig von` und `Gültig bis` und bestätigen Sie Ihre Angaben abschließend mit der Schaltfläche `Änderungen speichern` .
+    In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in MAGELLAN BIBLIOTHEK zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
+
+Sie können allerdings auf der Registerkarte `Daten` die Angaben zur Dauer der Ausleihberechtigung, die Sie im Übernahmeassistenten festgelegt haben, verändern. Tragen Sie einfach unter `Ausleihe Erlaubnis` die gewünschten Werte in die Eingabefelder `Gültig von` und `Gültig bis` und bestätigen Sie Ihre Angaben abschließend mit der Schaltfläche `Änderungen speichern` .
 
 Die Angaben, die unter der Registerkarte `Vorgänge` gespeichert werden, können ebenfalls nicht von Hand korrigiert oder ergänzt werden. Es handelt sich um leihbezogene Daten, die für jeden einzelnen Nutzer automatisch gefüllt werden, wenn er z.B. in der Ansicht `Ausleihe` als Ausleiher eines Medienexemplars vermerkt wird oder ihm in der Ansicht `Mahnungen` eine Mahnstufe zugewiesen wird.
 
