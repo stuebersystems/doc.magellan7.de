@@ -26,6 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
+* CHANGE: Crystal Reports Runtime-Version aktualisiert
 * FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
 * NEW: Schüler, die in Nachbarmandanten versetzt werden, können optional statt als Vagabunden (Standard) als Bewerber übertragen werden. 
 
