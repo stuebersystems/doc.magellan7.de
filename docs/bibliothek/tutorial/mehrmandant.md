@@ -1,12 +1,12 @@
 # Mit mehreren Mandanten arbeiten
 
-MAGELLAN-BIBLIOTHEK ist wie das Basismodul mandantenfähig. Dies bedeutet, dass Sie die Bibliotheksdaten unterschiedlicher organisatorischer Gliederungen in einer Datenbank verwalten können. Dieses Datenbankkonzept erfordert, dass mindestens ein Mandant angelegt ist, da alle Daten in MAGELLAN bezogen auf bestimmte Mandanten gespeichert werden.
+MAGELLAN BIBLIOTHEK ist wie das Basismodul mandantenfähig. Dies bedeutet, dass Sie die Bibliotheksdaten unterschiedlicher organisatorischer Gliederungen in einer Datenbank verwalten können. Dieses Datenbankkonzept erfordert, dass mindestens ein Mandant angelegt ist, da alle Daten in MAGELLAN bezogen auf bestimmte Mandanten gespeichert werden.
 
 !!! info "Hinweis"
 
     Mandanten können nur im Basismodul angelegt werden. Wie Sie dabei vorgehen, entnehmen Sie bitte dem Kapitel [Datenbank vorbereiten](../../schulverwaltung/howto/preparation.md) im MAGELLAN-Benutzerhandbuch.
 
-Die meisten Anwender von MAGELLAN und MAGELLAN-BIBLIOTHEK arbeiten mit nur einem Mandanten. In diesem Fall müssen Sie im Bibliotheksmodul keine weiteren Einstellungen vornehmen. Der im Basismodul angelegte Mandant wird beim Programmstart automatisch als aktueller Mandant voreingestellt. Der Name des aktivierten Mandanten wird auf der Schaltfläche `Mandant` in der Symbolleiste des Programmfensters angezeigt.
+Die meisten Anwender von MAGELLAN und MAGELLAN BIBLIOTHEK arbeiten mit nur einem Mandanten. In diesem Fall müssen Sie im Bibliotheksmodul keine weiteren Einstellungen vornehmen. Der im Basismodul angelegte Mandant wird beim Programmstart automatisch als aktueller Mandant voreingestellt. Der Name des aktivierten Mandanten wird auf der Schaltfläche `Mandant` in der Symbolleiste des Programmfensters angezeigt.
 
 Wenn Sie allerdings mit mehreren Mandanten arbeiten, müssen Sie im Vorfeld den Mandanten auswählen, dessen Daten Sie bearbeiten wollen.
 

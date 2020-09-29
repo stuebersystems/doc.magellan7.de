@@ -1,10 +1,10 @@
 # Mit Schlüsselverzeichnissen arbeiten
 
-Schlüsselverzeichnisse sind Tabellen, die bestimmten Datenfeldern in MAGELLAN-BIBLIOTHEK als Auswahllisten zugeordnet sind. Diese Datenfelder, können nicht frei editiert, sondern nur durch die Auswahl eines Eintrags aus dem zugehörigen Schlüsselverzeichnis gefüllt werden.
+Schlüsselverzeichnisse sind Tabellen, die bestimmten Datenfeldern in MAGELLAN BIBLIOTHEK als Auswahllisten zugeordnet sind. Diese Datenfelder, können nicht frei editiert, sondern nur durch die Auswahl eines Eintrags aus dem zugehörigen Schlüsselverzeichnis gefüllt werden.
 
 Damit Sie in den betreffenden Eingabe- bzw. Auswahlfeldern Einstellungen vornehmen oder Angaben machen können, muss das jeweils hinterlegte Schlüsselverzeichnis mit Inhalten versehen sein. So können Sie z.B. mit der Schaltfläche `Aktueller Katalog` nur die Medienkataloge auswählen, die Sie zuvor im Verzeichnis `Kataloge` angelegt haben. Ebenso können Sie bei der Erfassung eines neuen Medientitels nur die Jahrgangsinformationen eingeben, die im Verzeichnis `Medienjahrgänge` erfasst wurden.
 
-Wenn Sie zum ersten Mal mit MAGELLAN-BIBLIOTHEK arbeiten, sind die meisten Schlüsselverzeichnisse bereits mit einigen Einträgen gefüllt. Diese Inhalte dienen aber nur der Veranschaulichung und beschränken sich auf wenige Beispiele. Die erstmalige Bearbeitung Ihrer Schlüsselverzeichnisse stellt eine wichtige Aufgabe dar, sobald Sie MAGELLAN-BIBLIOTHEK im Schulalltag einsetzen.
+Wenn Sie zum ersten Mal mit MAGELLAN BIBLIOTHEK arbeiten, sind die meisten Schlüsselverzeichnisse bereits mit einigen Einträgen gefüllt. Diese Inhalte dienen aber nur der Veranschaulichung und beschränken sich auf wenige Beispiele. Die erstmalige Bearbeitung Ihrer Schlüsselverzeichnisse stellt eine wichtige Aufgabe dar, sobald Sie MAGELLAN BIBLIOTHEK im Schulalltag einsetzen.
 
 Sie haben in den vorherigen Kapiteln bereits Schlüsselverzeichnisse kennengelernt, wie z.B. das Verzeichnis `Medienkataloge` oder das Verzeichnis `Opac-Server`. Die einzelnen Verzeichnisse unterscheiden sich zwar in Bezug auf Zahl und Inhalt der Spalten.
 
@@ -44,8 +44,7 @@ Um einen Eintrag aus einem Schlüsselverzeichnis zu entfernen, führen Sie bitte
 
 1. Markieren Sie die Zeile des betreffenden Eintrags in Ihrem Verzeichnis.
 2. Betätigen Sie die Schaltfläche `Datensatz löschen` im Dialogfenster des gewählten Schlüsselverzeichnisses.
-3. Bestätigen Sie Ihre Auswahl im erscheinenden Dialogfenster mit `Ja`.
-Die Zeile des betreffenden Eintrags wird nun aus der Tabelle gelöscht. Außerdem wird der Eintrag aus allen Datenfeldern entfernt, denen das Schlüsselverzeichnis zugeordnet ist.
+3. Bestätigen Sie Ihre Auswahl im erscheinenden Dialogfenster mit `Ja`. Die Zeile des betreffenden Eintrags wird nun aus der Tabelle gelöscht. Außerdem wird der Eintrag aus allen Datenfeldern entfernt, denen das Schlüsselverzeichnis zugeordnet ist.
 
 ![Eintrag löschen](/assets/images/bibliothek/schluesselverzeichnis_datensatz_loeschen.png)
 

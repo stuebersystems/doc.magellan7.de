@@ -1,12 +1,14 @@
 # Medienbestand nach Katalogen organisieren
 
-MAGELLAN-BIBLIOTHEK unterstützt Sie dabei, Ihren gesamten Medienbestand nach unterschiedlichen Teilkatalogen zu organisieren. So bietet sich die Möglichkeit Ihren Medienbestand nach Ausleihergruppen zu trennen, indem Sie z.B. einen gesonderten Lehrer- und Schülerkatalog führen.
+MAGELLAN BIBLIOTHEK unterstützt Sie dabei, Ihren gesamten Medienbestand nach unterschiedlichen Teilkatalogen zu organisieren. So bietet sich die Möglichkeit Ihren Medienbestand nach Ausleihergruppen zu trennen, indem Sie z.B. einen gesonderten Lehrer- und Schülerkatalog führen.
 
 Außerdem können Sie Lehrbücher nach Fachgesichtspunkten ordnen. In diesem Abschnitt erfahren Sie, wie Sie einen neuen Medienkatalog anlegen, einen Medienkatalog für eine bestimmte Aktion auswählen und Benutzerrechte für bestimmte Medienkataloge zuweisen können.
 
+![Medienbestand nach Teilkatalogen organisieren](/assets/images/bibliothek/medienkataloge03.png)
+
 ## Neuen Medienkatalog anlegen
 
-Wenn Sie damit beginnen, in MAGELLAN-BIBLIOTHEK Ihre Medien und Exemplare zu erfassen, werden diese in einem Medienkatalog erfasst, der bei der Installation standardmäßig hinterlegt wird. Dieser von Hause aus voreingestellte Medienkatalog trägt die Bezeichnung `Standardkatalog`. Die Zugehörigkeit eines Exemplars zu diesem Katalog kann, wie Sie bereits gesehen haben, durch das Einfügen des Kürzels `Standard` in die Signatur ausgedrückt werden.
+Wenn Sie damit beginnen, in MAGELLAN BIBLIOTHEK Ihre Medien und Exemplare zu erfassen, werden diese in einem Medienkatalog erfasst, der bei der Installation standardmäßig hinterlegt wird. Dieser von Hause aus voreingestellte Medienkatalog trägt die Bezeichnung `Standardkatalog`. Die Zugehörigkeit eines Exemplars zu diesem Katalog kann, wie Sie bereits gesehen haben, durch das Einfügen des Kürzels `Standard` in die Signatur ausgedrückt werden.
 
 Wenn Sie einen neuen Medienkatalog anlegen möchten, dann führen Sie bitte die folgenden Schritte aus:
 
@@ -46,12 +48,16 @@ Diese Einstellung bewirkt, dass in den Ansichten `Bücher/ Medien` und `Vorgäng
 
     Bitte beachten Sie, dass Exemplare, die in der Einstellung `Alle Medienkataloge` erfasst werden, stets dem Medienkatalog `Standard` zugewiesen werden.
 
-
 Um einen Katalog für eine bestimmte Aktion auszuwählen, führen Sie bitte die folgenden Schritte aus:
-1. Betätigen Sie die Schaltfläche `Aktueller Katalog` in der Symbolleiste Ihres Programmfensters.
+1. Wählen Sie das Aufklappmenü unter `Start > Katalog` in der Symbolleiste Ihres Programmfensters.
 2. Setzen Sie den Punkt im Kontrollkreis vor `Einen Katalog auswählen`.
 3. Markieren Sie den gewünschten Eintrag in der Liste der Medienkataloge und bestätigen Sie mit `OK`.
+
+![Auswahl eines bestimmten Medienkataloges](/assets/images/bibliothek/medienkataloge04.png)
+
 4. Die Bezeichnung des ausgewählten Medienkatalogs wird nun in der Schaltfläche `Aktueller Medienkatalog` der Symbolleiste angezeigt.
+
+![Anzeige des gewählten Medienkataloges](/assets/images/bibliothek/medienkataloge05.png)
 
 ### Aufgabe 10
 
@@ -99,4 +105,4 @@ Die veränderten Einstellungen der Benutzerrechte sind nun für den ausgewählte
 
 !!! info "Hinweis"
 
-    Wie Sie darüberhinaus weitere Einstellungen im Zusammenhang mit der Benutzerverwaltung vornehmen können, z.B. neue Zugangsdaten vergeben, erfahren Sie im Kapitel `MAGELLAN-Administrator` des MAGELLAN-Benutzerhandbuchs.
+    Wie Sie darüberhinaus weitere Einstellungen im Zusammenhang mit der Benutzerverwaltung vornehmen können, z.B. neue Zugangsdaten vergeben, erfahren Sie im Kapitel `MAGELLAN ADMINISTRATO` des MAGELLAN Benutzerhandbuchs.

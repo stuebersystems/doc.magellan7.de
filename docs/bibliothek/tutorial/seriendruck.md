@@ -1,6 +1,6 @@
 # Serienbrief erstellen
 
-Aus MAGELLAN-BIBLIOTHEK heraus können Sie mit Hilfe des Word Seriendrucks aus verschiedenen Listen heraus ein Anschreiben erstellen.
+Aus MAGELLAN BIBLIOTHEK heraus können Sie mit Hilfe des Word Seriendrucks aus verschiedenen Listen heraus ein Anschreiben erstellen.
 
 Diese Funktion steht für folgende Stammdaten und Vorgangslisten zur Verfügung:
 
@@ -15,9 +15,11 @@ Markieren Sie die Zeilen der gewünschten Personen bzw. Institutionen  und klick
 
 Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. Dafür stehen Ihnen diese Auswahl zur Verfügung:
    
-1. Daten mit einer Word-Vorlage verknüpfen und vor dem Start von Word das gefüllte Dokument pro Mahnungen (bzw. Verlage/Lieferanten/Schüler/Lehrer/Personen/Mandanten) in der Dokumentenverwaltung speichern
-2. Daten mit einer Word-Vorlage verknüpfen
-3. Daten mit einem vorhandenen Word-Dokument verknüpfen
+![Seriendruck nach Word, Auswahl der passenden Vorlage](/assets/images/bibliothek/seriendruck06.png)
+
+* Daten mit einer Word-Vorlage verknüpfen und vor dem Start von Word das gefüllte Dokument pro Mahnungen (bzw. Verlage/Lieferanten/Schüler/Lehrer/Personen/Mandanten) in der Dokumentenverwaltung speichern
+* Daten mit einer Word-Vorlage verknüpfen
+* Daten mit einem vorhandenen Word-Dokument verknüpfen
 
 ## Daten mit einer Word-Vorlage verknüpfen und ablegen
 
