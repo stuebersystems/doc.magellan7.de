@@ -27,7 +27,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN SCHULVERWALTUNG
 
 * CHANGE: Crystal Reports Runtime-Version aktualisiert
-* FIX: `Schüler (eingeschult oder Vagabund)/Bewerber > Daten 1 > Familie`: Anlegen von neuen Sorgeberechtigten ohne gefülltes Postleitzahl- oder Gemeindekennzahl-Verzeichnis möglich
 * FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
 * NEW: Schüler, die in Nachbarmandanten versetzt werden, können optional statt als Vagabunden (Standard) als Bewerber übertragen werden. 
 
@@ -47,12 +46,10 @@ Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SchülerID): Das Feld "<
 Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016|Erscheint wenn das Bis-Datum der Ausbildung (`MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
 Fehler|	<sorgeberechtigte>|"Der Sorgebe Vorname Nachname hat fehlerhafte Wohnortangaben (Gemeinde, Land) eingetragen. <br/>Bei Wohnort in Deutschland, muss eine Gemeindekennziffer angegeben werden."|Erscheint für Sorgeberechtigte, denen keine Gemeindekennziffer zugewiesen wurde, der Eintrag im Feld `Land` aber D, De oder Deu ist.
 
-
 * NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
 * NEW: Neue Prüfung für Sorgeberechtigte (aus Deutschland, also Land D, De oder Deu) ohne Gemeindekennziffer.
 * NEW: Neue Betriebeprüfung: Gemeldet werden Betriebe ohne Eintrag im Feld `Land` und `Gemeinde`
 * NEW: Hat ein Betrieb nur einen Eintrag im Feld `Gemeinde` und das Feld `Land` leer, wird für SaxSVS das Land automatisch als `De` ausgespielt.
-
 
 ## SHL
 
@@ -64,7 +61,7 @@ Fehler|	<sorgeberechtigte>|"Der Sorgebe Vorname Nachname hat fehlerhafte Wohnort
 
 ### MyMAGELLAN-CENTER
 
-* FIX: 
+* FIX:
 
 ### MyMAGELLAN
 
