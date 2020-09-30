@@ -2,7 +2,7 @@
 
 Wenn Sie in der Dokumentation keine Antwort auf Ihre Fragen gefunden oder Sie glauben, einen Fehler gefunden zu haben, können Sie sich jederzeit an unser Support-Team wenden.
 
-Über eine Web-Interface können Sie neue Support-Anfragen bzw. Tickets in unserem Ticketsystem stellen. Das Ticketsystem erreichen Sie aus MAGELLAN-BIBLIOTHEK über den Menüpunkt `Hilfe > Supportanfrage` oder direkt über http://support.stueber.de. Voraussetzung für dessen Nutzung ist eine einmalige Registrierung.
+Über eine Web-Interface können Sie neue Support-Anfragen bzw. Tickets in unserem Ticketsystem stellen. Das Ticketsystem erreichen Sie aus MAGELLAN BIBLIOTHEK über den Menüpunkt `Hilfe > Supportanfrage` oder direkt über http://support.stueber.de. Voraussetzung für dessen Nutzung ist eine einmalige Registrierung.
 
 !!! info "Hinweis"
 

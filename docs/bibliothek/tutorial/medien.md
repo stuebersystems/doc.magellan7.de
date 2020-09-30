@@ -217,6 +217,8 @@ Auf der Registerkarte `Stichworte` befindet sich ein Tabellenblatt, in dem Sie f
 
 ![`Bücher / Medien > Stichwort speichern`](/assets/images/bibliothek/exemplare06.png)
 
+![`Bücher / Medien > Filterwert "Stichwort" in der Mediensuche`](/assets/images/bibliothek/exemplare09.png)
+
 ### Aufgabe 5
 
 Legen Sie für den Titel `Die Räuber` in der Beispieldatenbank die Stichworte `Sturm und Drang`, `Tragödie` und `18. Jahrhundert` an.
