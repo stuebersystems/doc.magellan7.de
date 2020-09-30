@@ -38,11 +38,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### SAXSVS
 
 * FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
-* CHANGE: Neue Meldung, wenn das Land des Ausbildungsbetriebs nicht gefüllt ist
+* NEW: Neue Meldung, wenn das `Land` und die `Gemeindekennziffer` des Ausbildungsbetriebs nicht gefüllt sind. Ein nicht gefülltes Land beim Betrieb wird automatisch als `De` interpretiert, es wird für Betriebe aus Deutschland aber der Eintrag einer Gemeindekennziffer erwartet.
 
 Art|Feld|Meldung
 --|--|--
-Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SChülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.
+Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SchülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.
+
+* NEW: Neue Meldung, wenn das Bis-Datum der Ausbildung (`MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
+
+Art|Feld|Meldung
+--|--|--
+Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016
+
 
 * NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
 * NEW: Neue Prüfung für Sorgeberechtigte (aus Deutschland, also Land D, De oder Deu) ohne Gemeindekennziffer.
