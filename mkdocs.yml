@@ -54,158 +54,158 @@ markdown_extensions:
 # Navigation  
 nav:
 - Allgemein: 
-  - Einführung: index.md
-  - Was ist neu?: changelog.md
-  - Geplante Änderungen: changelog-next.md
-  - Änderungen 2019: changelog2019.md
+    - Einführung: index.md
+    - Was ist neu?: changelog.md
+    - Geplante Änderungen: changelog-next.md
+    - Änderungen 2019: changelog2019.md
 - Schulverwaltung:
-  - Unterschied Version 6 und 7: neu.mag7.md    
-  - Installation: 
-    - Übersicht: schulverwaltung/installation/README.md
-    - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
-    - Firebird installieren: schulverwaltung/installation/Installation_Firebird.md
-    - Server/Einzelplatz installieren: schulverwaltung/installation/server.installlieren.md
-    - Arbeitsplatz installieren: schulverwaltung/installation/arbeitsplatz.installlieren.md
-    - Lizenzieren: schulverwaltung/installation/lizenzieren.md
-    - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
-    - Probleme bei der Installation?: schulverwaltung/installation/probleme-bei-der-installation.md
-  - Update: 
-    - Übersicht: schulverwaltung/update/README.md
-    - Vorbereitung: schulverwaltung/update/vorbereitung.md
-    - Updates verteilen: schulverwaltung/update/wie-kann-ein-update-verteilt-werden.md
-    - Firebird aktualisieren: schulverwaltung/update/firebird-aktualisieren.md
-    - Umstieg von 6 auf 7: schulverwaltung/update/umstieg-von-6-auf-7.md
-    - Eigene Berichte anpassen: schulverwaltung/update/berichte_anpassen.md
-  - Probleme beim Update?: schulverwaltung/update/probleme-beim-update.md
-- So gehen Sie vor: 
-  - Übersicht: schulverwaltung/howto/README.md
-  - Datenbank vorbereiten: schulverwaltung/howto/preparation.md
-  - Lehrer: schulverwaltung/howto/lehrer.md
-  - Klassen: schulverwaltung/howto/classes.md
-  - Bewerber: schulverwaltung/howto/bewerber.md
-  - Schüler: schulverwaltung/howto/schueler.md
-  - Sorgeberechtigte: schulverwaltung/howto/sorgeberechtigte.md
-  - Betriebe und Schulen: schulverwaltung/howto/betriebe.schulen.md
-  - Personen und Adressen: schulverwaltung/howto/personen.md
-  - Sortieren, Gruppieren, Filtern, Suchen: schulverwaltung/howto/sort-group-filter-search.md
-  - Merkmalsfelder: schulverwaltung/howto/merkmalsfelder.md
-  - Halbjahreswechsel: schulverwaltung/howto/halbjahreswechsel.md
-  - Schuljahreswechsel: schulverwaltung/howto/schuljahreswechsel.md
-  - Sonderfälle in der Schullaufbahn: schulverwaltung/howto/sonderfaelle.md
-  - Zeugnisdaten: schulverwaltung/howto/zeugnisdaten.md
-  - ENBREA Leistungen: schulverwaltung/howto/enbrea.leistungen.md
-  - Prüfungsnummer generieren: schulverwaltung/howto/pruefungsnummer.md
-  - Durchschnitt/Abschluss berechnen: schulverwaltung/howto/durchschnitt-abschluss.md
-  - Gymnasiale Oberstufe: 
-    - Übersicht: schulverwaltung/howto/Oberstufe/gymnasium.md 
-    - Vorbereitung: schulverwaltung/howto/Oberstufe/vorbereitung.md
-    - Schüler synchronisieren: schulverwaltung/howto/Oberstufe/sync.md
-    - Fachwahl: schulverwaltung/howto/Oberstufe/fachwahl.md
-    - Abiturberechnung: schulverwaltung/howto/Oberstufe/abiturberechnung.md
-  - Berufsschulmatrix: schulverwaltung/howto/berufsschulmatrix.md
-  - Formulare, Listen und Zeugnisse: schulverwaltung/howto/berichte.md
-  - Berichteverzeichnis: schulverwaltung/howto/berichte-verz.md
-  - Seriendruck und Serienmail: schulverwaltung/howto/seriendruck.md
-  - Dokumentenverwaltung/Export: schulverwaltung/howto/dokumentenverwaltung_export.md
-  - Kurznachrichten: schulverwaltung/howto/kurznachrichten.md
-  - Stundenplandaten: schulverwaltung/howto/stundenplaene.md
-  - Abgleich DAVINCI und MAGELLAN: schulverwaltung/howto/abgleich_mit_dav.md
-- Administration: 
-  - Übersicht: schulverwaltung/admin/administration.md
-  - MAGELLAN ADMINISTRATOR: 
-    - Übersicht: schulverwaltung/admin/magellan.administrator.md
-    - Datenbankverbindungen: schulverwaltung/admin/admin.datenbankverbindungen.md
-    - Datenbanksicherungen: schulverwaltung/admin/sicherung.md
-    - Benutzerverwaltung: schulverwaltung/admin/users.md
-    - MyMAGELLAN Center: schulverwaltung/admin/mymagellan-center.md
-    - Datenbankpflege: schulverwaltung/admin/datenbankpflege.md
-    - Datenaustausch: schulverwaltung/admin/datenaustausch.md
-    - Logbuch: schulverwaltung/admin/logbuch.md
-  - Weitere Themen: 
-    - Übersicht: schulverwaltung/admin/weitere.themen.md
-    - Optionen: schulverwaltung/admin/preferences.md
-    - Sicherung per Windows Task: schulverwaltung/admin/sicherung.windows.task.md
-    - Mehrmandantenlösung: schulverwaltung/admin/mehrmandantenloesung.md
-    - Access-Anbindung: schulverwaltung/admin/access.anbindung.md
-    - Protokollierung: schulverwaltung/admin/protocol.md
-    - Aktionen im Silentmode: schulverwaltung/installation/magellan-administrator-im-silentmode-starten.md
-    - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
-- Referenz: 
-  - Übersicht: schulverwaltung/reference/README.md
-  - Tastaturkürzel: schulverwaltung/reference/shortcuts.md
-  - Schlüsselverzeichnisse: schulverwaltung/reference/catalogs.md
-  - keys-Dateien: schulverwaltung/reference/keys-dateien.md
-  - Seriendruckfelder: schulverwaltung/reference/seriendruckfelder.md
-  - Vorlagenfelder: schulverwaltung/reference/vorlagenfelder.md
-- Regionales: 
-  - Übersicht: schulverwaltung/regionales/README.md
-  - Ausland:
-    - Oberstufe: schulverwaltung/regionales/ausland/oberstufe.md
-  - Berlin: 
-    - Übersicht: schulverwaltung/regionales/berlin/berlin.md
-    - Berliner Felder: schulverwaltung/regionales/berlin/felder.md
-    - Skriptüberblick: schulverwaltung/regionales/berlin/skriptuebersicht.md
-    - Angaben für die Oberstufe: 
-      - Übersicht: schulverwaltung/regionales/berlin/oberstufe.md
-      - BER-APO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-apo-2017.md
-      - BER-FW-APO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-2017.md
-      - BER-APO-KO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-apo-ko-2017.md
-      - BER-FW-APO-BBS-2011: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-bbs-2011.md
-      - BER-APO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-apo-2011-und-ber-fw-apo-2011.md
-      - BER-FW-APO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-2011.md
-      - BER-APO-KO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-apo-ko-2011.md
-    - Schülerfachwahlen eingeben und prüfen: schulverwaltung/regionales/berlin/fachwahl.md
-    - Schülerfachwahlen nach Untis übertragen: schulverwaltung/regionales/berlin/nach.untis.md
-    - Schüler-Kurswahlen von Untis übernehmen: schulverwaltung/regionales/berlin/von.untis.md
-    - Das Abitur: schulverwaltung/regionales/berlin/abitur.md
-    - Die Fachhochschulreife: schulverwaltung/regionales/berlin/fhs.md
-    - Berufsschulnoten: schulverwaltung/regionales/berlin/bs.md
-    - Die Fachoberschule: 
-      - Übersicht: schulverwaltung/regionales/berlin/fos.md
-      - BER-APO-FOS-2006/2013: schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013.md
-    - Schülerdatenexport: schulverwaltung/regionales/berlin/schuelerdaten.md
-    - Statistik:
-      - Einstieg: schulverwaltung/regionales/berlin/statistik/01.stat.einstieg.md
-      - Schlüsselverzeichnisse: schulverwaltung/regionales/berlin/statistik/02.schluesselverzeichnisse.md
-      - Abiturdatenerfassung: schulverwaltung/regionales/berlin/statistik/03.stat.abidaten.md
-      - Schülerdaten: schulverwaltung/regionales/berlin/statistik/04.stat.schuelerdaten.md
-  - Nordrhein-Westfalen: 
-    - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
-  - Saarland: 
-    - Lernfelder importieren: schulverwaltung/regionales/saarland/lernfelder-importieren.md
-    - Zeugnisse mit Lernfeldern: schulverwaltung/regionales/saarland/zeugnisse.md
-  - Sachsen: 
-    - SAXSVS: schulverwaltung/regionales/sachsen/sachsen.md
-- Knowledge Base (FAQ): https://doc.kb.stueber.de/
+    - Unterschied Version 6 und 7: neu.mag7.md    
+    - Installation: 
+      - Übersicht: schulverwaltung/installation/README.md
+      - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
+      - Firebird installieren: schulverwaltung/installation/Installation_Firebird.md
+      - Server/Einzelplatz installieren: schulverwaltung/installation/server.installlieren.md
+      - Arbeitsplatz installieren: schulverwaltung/installation/arbeitsplatz.installlieren.md
+      - Lizenzieren: schulverwaltung/installation/lizenzieren.md
+      - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
+      - Probleme bei der Installation?: schulverwaltung/installation/probleme-bei-der-installation.md
+    - Update: 
+      - Übersicht: schulverwaltung/update/README.md
+      - Vorbereitung: schulverwaltung/update/vorbereitung.md
+      - Updates verteilen: schulverwaltung/update/wie-kann-ein-update-verteilt-werden.md
+      - Firebird aktualisieren: schulverwaltung/update/firebird-aktualisieren.md
+      - Umstieg von 6 auf 7: schulverwaltung/update/umstieg-von-6-auf-7.md
+      - Eigene Berichte anpassen: schulverwaltung/update/berichte_anpassen.md
+      - Probleme beim Update?: schulverwaltung/update/probleme-beim-update.md
+    - So gehen Sie vor: 
+      - Übersicht: schulverwaltung/howto/README.md
+      - Datenbank vorbereiten: schulverwaltung/howto/preparation.md
+      - Lehrer: schulverwaltung/howto/lehrer.md
+      - Klassen: schulverwaltung/howto/classes.md
+      - Bewerber: schulverwaltung/howto/bewerber.md
+      - Schüler: schulverwaltung/howto/schueler.md
+      - Sorgeberechtigte: schulverwaltung/howto/sorgeberechtigte.md
+      - Betriebe und Schulen: schulverwaltung/howto/betriebe.schulen.md
+      - Personen und Adressen: schulverwaltung/howto/personen.md
+      - Sortieren, Gruppieren, Filtern, Suchen: schulverwaltung/howto/sort-group-filter-search.md
+      - Merkmalsfelder: schulverwaltung/howto/merkmalsfelder.md
+      - Halbjahreswechsel: schulverwaltung/howto/halbjahreswechsel.md
+      - Schuljahreswechsel: schulverwaltung/howto/schuljahreswechsel.md
+      - Sonderfälle in der Schullaufbahn: schulverwaltung/howto/sonderfaelle.md
+      - Zeugnisdaten: schulverwaltung/howto/zeugnisdaten.md
+      - ENBREA Leistungen: schulverwaltung/howto/enbrea.leistungen.md
+      - Prüfungsnummer generieren: schulverwaltung/howto/pruefungsnummer.md
+      - Durchschnitt/Abschluss berechnen: schulverwaltung/howto/durchschnitt-abschluss.md
+      - Gymnasiale Oberstufe: 
+        - Übersicht: schulverwaltung/howto/Oberstufe/gymnasium.md 
+        - Vorbereitung: schulverwaltung/howto/Oberstufe/vorbereitung.md
+        - Schüler synchronisieren: schulverwaltung/howto/Oberstufe/sync.md
+        - Fachwahl: schulverwaltung/howto/Oberstufe/fachwahl.md
+        - Abiturberechnung: schulverwaltung/howto/Oberstufe/abiturberechnung.md
+      - Berufsschulmatrix: schulverwaltung/howto/berufsschulmatrix.md
+      - Formulare, Listen und Zeugnisse: schulverwaltung/howto/berichte.md
+      - Berichteverzeichnis: schulverwaltung/howto/berichte-verz.md
+      - Seriendruck und Serienmail: schulverwaltung/howto/seriendruck.md
+      - Dokumentenverwaltung/Export: schulverwaltung/howto/dokumentenverwaltung_export.md
+      - Kurznachrichten: schulverwaltung/howto/kurznachrichten.md
+      - Stundenplandaten: schulverwaltung/howto/stundenplaene.md
+      - Abgleich DAVINCI und MAGELLAN: schulverwaltung/howto/abgleich_mit_dav.md
+    - Administration: 
+      - Übersicht: schulverwaltung/admin/administration.md
+      - MAGELLAN ADMINISTRATOR: 
+        - Übersicht: schulverwaltung/admin/magellan.administrator.md
+        - Datenbankverbindungen: schulverwaltung/admin/admin.datenbankverbindungen.md
+        - Datenbanksicherungen: schulverwaltung/admin/sicherung.md
+        - Benutzerverwaltung: schulverwaltung/admin/users.md
+        - MyMAGELLAN Center: schulverwaltung/admin/mymagellan-center.md
+        - Datenbankpflege: schulverwaltung/admin/datenbankpflege.md
+        - Datenaustausch: schulverwaltung/admin/datenaustausch.md
+        - Logbuch: schulverwaltung/admin/logbuch.md
+      - Weitere Themen: 
+        - Übersicht: schulverwaltung/admin/weitere.themen.md
+        - Optionen: schulverwaltung/admin/preferences.md
+        - Sicherung per Windows Task: schulverwaltung/admin/sicherung.windows.task.md
+        - Mehrmandantenlösung: schulverwaltung/admin/mehrmandantenloesung.md
+        - Access-Anbindung: schulverwaltung/admin/access.anbindung.md
+        - Protokollierung: schulverwaltung/admin/protocol.md
+        - Aktionen im Silentmode: schulverwaltung/installation/magellan-administrator-im-silentmode-starten.md
+        - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
+    - Referenz: 
+      - Übersicht: schulverwaltung/reference/README.md
+      - Tastaturkürzel: schulverwaltung/reference/shortcuts.md
+      - Schlüsselverzeichnisse: schulverwaltung/reference/catalogs.md
+      - keys-Dateien: schulverwaltung/reference/keys-dateien.md
+      - Seriendruckfelder: schulverwaltung/reference/seriendruckfelder.md
+      - Vorlagenfelder: schulverwaltung/reference/vorlagenfelder.md
+    - Regionales: 
+      - Übersicht: schulverwaltung/regionales/README.md
+      - Ausland:
+        - Oberstufe: schulverwaltung/regionales/ausland/oberstufe.md
+      - Berlin: 
+        - Übersicht: schulverwaltung/regionales/berlin/berlin.md
+        - Berliner Felder: schulverwaltung/regionales/berlin/felder.md
+        - Skriptüberblick: schulverwaltung/regionales/berlin/skriptuebersicht.md
+        - Angaben für die Oberstufe: 
+          - Übersicht: schulverwaltung/regionales/berlin/oberstufe.md
+          - BER-APO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-apo-2017.md
+          - BER-FW-APO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-2017.md
+          - BER-APO-KO-2017: schulverwaltung/regionales/berlin/oberstufe/ber-apo-ko-2017.md
+          - BER-FW-APO-BBS-2011: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-bbs-2011.md
+          - BER-APO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-apo-2011-und-ber-fw-apo-2011.md
+          - BER-FW-APO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-fw-apo-2011.md
+          - BER-APO-KO-2011: schulverwaltung/regionales/berlin/oberstufe/ber-apo-ko-2011.md
+        - Schülerfachwahlen eingeben und prüfen: schulverwaltung/regionales/berlin/fachwahl.md
+        - Schülerfachwahlen nach Untis übertragen: schulverwaltung/regionales/berlin/nach.untis.md
+        - Schüler-Kurswahlen von Untis übernehmen: schulverwaltung/regionales/berlin/von.untis.md
+        - Das Abitur: schulverwaltung/regionales/berlin/abitur.md
+        - Die Fachhochschulreife: schulverwaltung/regionales/berlin/fhs.md
+        - Berufsschulnoten: schulverwaltung/regionales/berlin/bs.md
+        - Die Fachoberschule: 
+          - Übersicht: schulverwaltung/regionales/berlin/fos.md
+          - BER-APO-FOS-2006/2013: schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013.md
+        - Schülerdatenexport: schulverwaltung/regionales/berlin/schuelerdaten.md
+        - Statistik:
+          - Einstieg: schulverwaltung/regionales/berlin/statistik/01.stat.einstieg.md
+          - Schlüsselverzeichnisse: schulverwaltung/regionales/berlin/statistik/02.schluesselverzeichnisse.md
+          - Abiturdatenerfassung: schulverwaltung/regionales/berlin/statistik/03.stat.abidaten.md
+          - Schülerdaten: schulverwaltung/regionales/berlin/statistik/04.stat.schuelerdaten.md
+      - Nordrhein-Westfalen: 
+        - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
+      - Saarland: 
+        - Lernfelder importieren: schulverwaltung/regionales/saarland/lernfelder-importieren.md
+        - Zeugnisse mit Lernfeldern: schulverwaltung/regionales/saarland/zeugnisse.md
+      - Sachsen: 
+        - SAXSVS: schulverwaltung/regionales/sachsen/sachsen.md
+    - Knowledge Base (FAQ): https://doc.kb.stueber.de/
 - MyMAGELLAN Center: 
-- Einführung: mymagellancenter/einfuehrung.md
-- Verteilen: mymagellancenter/verteilen.md    
-- Organisation: mymagellancenter/organisation.md
-- Importlogik: mymagellancenter/importlogik.md
-- Einsammeln: mymagellancenter/einsammeln.md
+    - Einführung: mymagellancenter/einfuehrung.md
+    - Verteilen: mymagellancenter/verteilen.md    
+    - Organisation: mymagellancenter/organisation.md
+    - Importlogik: mymagellancenter/importlogik.md
+    - Einsammeln: mymagellancenter/einsammeln.md
 - Bibliotheksverwaltung:
-- Überblick: bibliothek/index.md
-- Installation und Updates: bibliothek/installation/installation_und_updates.md
-- Optionen: bibliothek/installation/optionen.md 
-- Tutorial: 
-    - Überblick: bibliothek/tutorial/tutorial.md
-    - Vorbereitung: bibliothek/tutorial/vorbereitung.md
-    - OPAC-Unterstützung: bibliothek/tutorial/opac.md
-    - Medien und Exemplare: bibliothek/tutorial/medien.md
-    - Etiketten: bibliothek/tutorial/etiketten.md
-    - Medienliste: bibliothek/tutorial/medienliste.md
-    - Medienkataloge: bibliothek/tutorial/katalog.md
-    - Ausleiher: bibliothek/tutorial/ausleiher.md
-    - Bibliotheksausweis: bibliothek/tutorial/ausweis.md
-    - Ausleihe und Rückgabe: bibliothek/tutorial/ausleihe.md
-    - Exemplare bearbeiten: bibliothek/tutorial/exemplar.md
-    - Leihvorgänge: bibliothek/tutorial/vorgaenge.md
-    - Mahnungen: bibliothek/tutorial/mahnung.md
-    - Lieferanten und Verlage: bibliothek/tutorial/lieferanten_verlage.md
-    - mehrere Mandanten: bibliothek/tutorial/mehrmandant.md
-    - Mit Listen arbeiten: bibliothek/tutorial/listen.md
-    - Seriendruck: bibliothek/tutorial/seriendruck.md
-    - Schlüsselverzeichnisse: bibliothek/tutorial/schluesselverzeichnisse.md
-    - Berichte und Vorlagen: bibliothek/tutorial/bericht_vorlage.md
-    - Archivieren: bibliothek/tutorial/archivieren.md
-    - Supportanfragen: bibliothek/tutorial/support.md
+    - Überblick: bibliothek/index.md
+    - Installation und Updates: bibliothek/installation/installation_und_updates.md
+    - Optionen: bibliothek/installation/optionen.md 
+    - Tutorial: 
+        - Überblick: bibliothek/tutorial/tutorial.md
+        - Vorbereitung: bibliothek/tutorial/vorbereitung.md
+        - OPAC-Unterstützung: bibliothek/tutorial/opac.md
+        - Medien und Exemplare: bibliothek/tutorial/medien.md
+        - Etiketten: bibliothek/tutorial/etiketten.md
+        - Medienliste: bibliothek/tutorial/medienliste.md
+        - Medienkataloge: bibliothek/tutorial/katalog.md
+        - Ausleiher: bibliothek/tutorial/ausleiher.md
+        - Bibliotheksausweis: bibliothek/tutorial/ausweis.md
+        - Ausleihe und Rückgabe: bibliothek/tutorial/ausleihe.md
+        - Exemplare bearbeiten: bibliothek/tutorial/exemplar.md
+        - Leihvorgänge: bibliothek/tutorial/vorgaenge.md
+        - Mahnungen: bibliothek/tutorial/mahnung.md
+        - Lieferanten und Verlage: bibliothek/tutorial/lieferanten_verlage.md
+        - mehrere Mandanten: bibliothek/tutorial/mehrmandant.md
+        - Mit Listen arbeiten: bibliothek/tutorial/listen.md
+        - Seriendruck: bibliothek/tutorial/seriendruck.md
+        - Schlüsselverzeichnisse: bibliothek/tutorial/schluesselverzeichnisse.md
+        - Berichte und Vorlagen: bibliothek/tutorial/bericht_vorlage.md
+        - Archivieren: bibliothek/tutorial/archivieren.md
+        - Supportanfragen: bibliothek/tutorial/support.md
