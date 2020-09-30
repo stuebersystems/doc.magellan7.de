@@ -15,9 +15,192 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
+
 !!! danger "Achtung"
 
-    Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+
+    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
+
+## 7.1.18 - 715 (30.09.2020)
+
+### MAGELLAN SCHULVERWALTUNG
+
+* CHANGE: Crystal Reports Runtime-Version aktualisiert
+* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
+* NEW: Schüler, die in Nachbarmandanten versetzt werden, können optional statt als Vagabunden (Standard) als Bewerber übertragen werden. 
+
+![Schüler als Bewerber in Nachbarmandanten versetzen](/assets/images/changelog/7.1.18.01.png)
+
+### MAGELLAN Schnittstellen
+
+#### SAXSVS
+
+* FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
+* NEW: Neue Meldungen, siehe Tabelle
+
+Art|Feld|Meldung|Hintergrund
+--|--|--|--
+Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SchülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.|Erscheint wenn das `Land` und die `Gemeindekennziffer` des Ausbildungsbetriebs nicht gefüllt sind. Ein nicht gefülltes Land beim Betrieb wird automatisch als `De` interpretiert, es wird für Betriebe aus Deutschland aber der Eintrag einer Gemeindekennziffer erwartet.
+Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016|Erscheint wenn das Bis-Datum der Ausbildung (`MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
+Fehler|	<sorgeberechtigte>|"Der Sorgebe Vorname Nachname hat fehlerhafte Wohnortangaben (Gemeinde, Land) eingetragen. <br/>Bei Wohnort in Deutschland, muss eine Gemeindekennziffer angegeben werden."|Erscheint für Sorgeberechtigte, denen keine Gemeindekennziffer zugewiesen wurde, der Eintrag im Feld `Land` aber D, De oder Deu ist.
+
+* NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
+* NEW: Neue Prüfung für Sorgeberechtigte (aus Deutschland, also Land D, De oder Deu) ohne Gemeindekennziffer.
+* NEW: Neue Betriebeprüfung: Gemeldet werden Betriebe ohne Eintrag im Feld `Land` und `Gemeinde`
+* NEW: Hat ein Betrieb nur einen Eintrag im Feld `Gemeinde` und das Feld `Land` leer, wird für SaxSVS das Land automatisch als `De` ausgespielt.
+
+## SHL
+
+* FIX: Ausgabe der Exportdateien
+
+### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Allgemein
+
+* FIX: Schüler > Drucken > Berichte > Schülerliste (Fehlzeiten nach Schüler gruppiert).rpt
+* FIX: Abitur > Drucken > Prüfungslisten drucken > Prüfungsliste (Abitur).rpt
+
+#### Berlin
+
+CHANGE: BER-KO-ABI (Schul Z 323)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AZ (Schul Z 321)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+NEW: BER-Schul Z 324 (11.19).rpt (Bericht war bereits in MAGELLAN 6 Auslieferung enthalten, nun auch für MAGELLAN 7 verfügbar)
+
+## 7.1.17 - 715 (08.09.2020)
+
+### MAGELLAN SCHULVERWALTUNG
+
+* FIX: `Schüler > Laufbahnprozess` "Schüler in  Mandanten versetzen"
+
+### MAGELLAN Schnittstellen
+
+#### Statistik NRW
+
+* FIX: SIM.TXT: Schüler einer Klasse ohne Statistikkürzel werden beim Export nicht berücksichtigt
+* FIX: SIM.TXT: wenn in `Schüler > Extras > Betreuungsarten > Innerschulisch 1` [Betreuungen innerschulisch (Schüler)] kein Eintrag vorhanden ist, ist das das Feld Betreuung leer
+* FIX: SIM.TXT: Ausgabe von Foerderschwerp, VOfoerderschwerp, VOschwerstbeh, Foerderschwerp2, VOfoerderschwerp2 ohne Eintrag des BIS Datums. Der Eintrag eines BIS-Datum ist nicht zwingend erforderlich, das VON-Datum muss kleiner oder dem dem Anfangsdatum des jeweiligen Zeitraumes sein.
+* CHANGE: ABI.TXT (ABS) um Schüler aus gemischten Jahrgängen G8 und G9 korrekt auszuspielen, ist eine Eintrag unter `Klassen > Zeiträume > Klassenstufe` (Schlüssel) Q2 notwendig
+* FIX: ABS + BBS: Ausgabe aus dem Feld `Versetzung` angepasst. Auszug aus der Dokumentation unter [https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/](https://doc.ls.stueber.de/nordrhein-westfalen/schuelerdaten/)
+
+![Feld Versetzung](/assets/images/changelog/7.1.16.01.png)
+
+#### Schüler (Berlin)
+
+* FIX: Schüler (ABS und BBS) bewerber > schueler)_sorgebe.export.csv - bei mehreren eingetragenen Sorgeberechtigten werden auch mehrere Sorgeberechtigte ausgespielt
+
+### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Auslandsschulen
+
+* CHANGE: DAS-HJZ-JZ (3-12).rpt
+* CHANGE: DAS-GS-GY (Klasse 3-10).rpt
+* CHANGE: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt
+
+#### Saarland
+
+* Change: SAR-GEMS-AZ (Klasse 5-10).rpt (folgendes ist nun berücksichtigt und wird durch Setzen oder Nicht-Setzen des Hakens im Menü `Schüler > Daten 3` im Feld "Schulpflicht erfüllt" gesteuert:
+
+Fälle | Auswirkung im Bericht
+-- |--
+1) Abgang vor Erfüllung der Vollzeitschulpflicht | AZ mit Angabe der Fehlzeiten (entschuldigt und unentschuldigt), Noten in Verhalten und Mitarbeit
+2) Abgang nach Erfüllung der Vollzeitschulpflicht |  AZ ohne Verhalten und Mitarbeit und ohne Fehlzeiten, diese erscheinen dann im Verhaltenszeugnis.
+
+![Feld "Schulpflicht erfüllt"](/assets/images/changelog/7.1.17.01.png)
+   
+
+
+## 7.1.16 - 715 (26.08.2020)
+
+### MAGELLAN Schnittstellen
+
+### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: SAR-APO-DFG-2014.dws: PreCheckPruefungsbereichFehler
+
+### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Allgemein
+
+* CHANGE: `Klassenliste mit Schülersummendaten.rpt` Jahrgang der Klasse wird mit ausgegeben
+
+## 7.1.15 - 715 (20.08.2020)
+
+### MAGELLAN SCHULVERWALTUNG
+
+* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten
+
+### MAGELLAN Schnittstellen
+
+#### SAXSVS
+
+* FIX: Korrektur beim Erzeugen einer SAXSVS-Datei Abschlüsse/Abgänger: doppeltes Ausspielen von Schülern bei gleichzeitigem Abgang und Abschluss in verschiedenen Zeiträumen behoben
+
+#### Statistik NRW
+
+* FIX: Ausgabe in das Feld `Versetzung` korrigiert
+
+#### SchülerOnline
+
+* NEW: Die importierte Ausbildung der Bewerber wird automatisch als aktuelle Ausbildung markiert.
+* CHANGE: Beim Importieren wird der Bildungsgang als Bildungsgang gesetzt
+
+### MAGELLAN ADMINISTRATOR
+
+* FIX: `schueler_laufbahn.import.csv` Zuordnen zu Klassen korrigiert
+* FIX: Auffüllen von leeren Datumsfeldern korrigiert
+
+### MAGELLAN Bibliothek
+
+* FIX: Problem bei der Rückgabe von Büchern behoben
+
+![Meldung bei der Ausleihe eines mit "Dauerverleih" markierten Exemplares](/assets/images/changelog/7.1.14.01.png)
+
+### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Allgemeine Berichte
+
+* NEW: Mandant (Liste der Schüler ohne aktuelle Ausbildung - trotz gefüllter Ausbildungsliste - im Zeitraum).rpt
+* CHANGE: Abi (Gesamtschnitt nach Punktzahl sortiert).rpt
+
+#### Baden Württemberg
+
+* NEW: BAW-GY-HJZ (Kursstufe mit BLL).rpt (Halbjahreszeugnisse der Kursstufe mit Ausgabe der Besonderen Lernleistung, Fach RELIGION / ETHIK wird nun im Bereich der gesellschaftswissenschaftlichen Fächer mit ausgegeben)
+* NEW: BAW-GY-ABI (2019 mit KF-LK).rpt (Abiturzeugnis gültig ab Abitur 2019)
+* NEW: BAW-GY-JZ (Mittelstufe).rpt
+* NEW: BAW-GY-JZ (Mittelstufe mit GER)(A5).rpt (Jahreszeugnis für die Mittelstufe mit Ausgabe der Sprachreferenz, DIN A5)
+* CHANGE: BAW-GY (Mitteilung Prüfungsergebnisse).rpt (Ausgabe Schuljahr)
+
+#### Sachsen
+
+* NEW: SAC-BVJ-HJI (A.01.03).rpt (A.01.03 Halbjahresinformation der Berufsschule - Berufsvorbereitungsjahr)
+* CHANGE: SAC-BS-HJI (A.01.02).rpt
+* CHANGE: SAC-BVJ-AS mit HS (A.01.09).rpt (Hauptschulabschluss wird nun beim `Schüler > Laufbahn > Abschluss` im Bereich „Abschluss1“ im Feld „Abschlussart“ abgefragt. Grundlage bildet das `Schlüsselverzeichnis > Abschlussarten`.)
+* CHANGE: SAC-BF-JZ (B.02.02).rpt
+* CHANGE: SAC-BS-BVB Maßnahme (A.01.05).rpt
+* CHANGE: SAC-BS-HJI (A.01.04).rpt
+* CHANGE: SAC-BS-AS (Vorbereitungsklasse) (A.01.06).rpt
+* CHANGE: SAC-BS-JZ (A.02.01).rpt
+* CHANGE: SAC-BS-JZ (A.02.01) 2spaltig.rpt
+* CHANGE: SAC-BS-AZ (A.02.04).rpt
+
+#### Saarland
+
+* CHANGE: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2020).rpt
+* CHANGE: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2020).rpt
+* CHANGE: SAR-AS-Verhaltenszeugnis.rpt
+* CHANGE: SAR-AZ-Verhaltenszeugnis.rpt
 
 ## 7.1.14 - 715 (16.07.2020)
 

@@ -1,14 +1,10 @@
-# Tutorial
-
-Dieses Tutorial wird Sie anhand einfacher Übungsbeispiele mit den wesentlichen Funktionen vertraut machen, die Sie bei der Verwaltung Ihrer Lehr- und Lernmedien mit MAGELLAN-BIBLIOTHEK benötigen. Sie lernen zentrale Arbeitsschritte durchzuführen wie z.B. das Erfassen von Büchern und Lernmitteln, das Anlegen von Bibliotheksnutzern sowie das Abwickeln von Ausleihvorgängen. Außerdem erhalten Sie grundlegende Tipps, wie Sie möglichst zeitsparend mit Tabellen und Listen arbeiten können. Wenn Sie alle Übungen absolviert haben, werden Sie in der Lage sein MAGELLAN-BIBLIOTHEK kompetent und effizient im Schulalltag einzusetzen.
-
 ## Vorbereitungen
 
 Bevor Sie mit dem Übungsteil beginnen können, müssen drei Startbedingungen erfüllt sein:
 
-* Die Verbindung zur mitgelieferten Beispieldatenbank ist angelegt.
-* An Ihrem Arbeitsrechner ist ein Barcodescanner installiert.
-* Das Programm ist gestartet.
+1. Die Verbindung zur mitgelieferten Beispieldatenbank ist angelegt.
+2. An Ihrem Arbeitsrechner ist ein Barcodescanner installiert.
+3. Das Programm ist gestartet.
 
 Die dargestellten Übungen basieren auf Beispieldaten, die in der von uns mitgelieferten Datenbankdatei  `Magellan7.fdb` enthalten sind. Diese Demo-Datenbank wird bei der Installation von MAGELLAN standardmäßig unter folgenden Dateipfaden abgelegt.
 

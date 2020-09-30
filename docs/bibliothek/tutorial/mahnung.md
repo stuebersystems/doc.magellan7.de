@@ -5,8 +5,8 @@ Für die Organisation und Abwicklung Ihres Mahnwesens steht Ihnen die Ansicht `M
 ![Die Registerkarte `Überzogene Bücher/ Medien` der Ansicht `Mahnwesen` zeigt die überzogenen Medienexemplare.](/assets/images/bibliothek/mahnwesen01.png)
 
 
-| Spalte                              | Bedeutung                           |
-| --------------------------------------- | ----------------------------------- |
+| Spalte| Bedeutung
+--|--
 | `Ausleihe bis` | Datum, an dem die Leihfrist abgelaufen ist|
 | `Überfällig` | Anzahl der Tage seit Ende der Leihfrist |
 | `Mahnstufe` | Anzeige, ob ein Mahnverfahren eingeleitet wurde sowie ggf. die Anzahl der bereits ausgestellten Mahnungen |
@@ -18,9 +18,9 @@ Auf der Basis dieser Informationen entscheiden Sie, ob Sie für die aufgelistete
 * Mahnstufe zuweisen
 * Mahnung ausdrucken
 
-## Mahnstufe zuweisen 
+## Mahnstufe zuweisen
 
-Das Mahnverfahren in MAGELLAN-BIBLIOTHEK umfasst drei Mahnstufen. Sie leiten das Mahnverfahren ein, indem Sie die erste Mahnstufe zuweisen. Damit Sie eine Mahnstufe zuweisen können, muss im Vorfeld definiert sein, welcher Abstand zwischen dem Leihfristende und der 1. Mahnstufe bzw. zwischen den einzelnen Mahnstufen liegen soll. In MAGELLAN-BIBLIOTHEK ist für diese Abstände von Haus aus ein Wert von 10 Tagen hinterlegt.
+Das Mahnverfahren in MAGELLAN BIBLIOTHEK umfasst drei Mahnstufen. Sie leiten das Mahnverfahren ein, indem Sie die erste Mahnstufe zuweisen. Damit Sie eine Mahnstufe zuweisen können, muss im Vorfeld definiert sein, welcher Abstand zwischen dem Leihfristende und der 1. Mahnstufe bzw. zwischen den einzelnen Mahnstufen liegen soll. In MAGELLAN BIBLIOTHEK ist für diese Abstände von Haus aus ein Wert von 10 Tagen hinterlegt.
 
 Um diese Abstände zu ändern, gehen Sie bitte folgendermaßen vor:
 
@@ -49,7 +49,7 @@ Um eine Mahnstufe zuzuweisen, führen Sie bitte die folgenden Schritte aus:
 
 Schließen Sie zunächst das Vorschaufenster, um den Ausdruck der Mahnung auf später zu verschieben.
 
-In der Spalte `Mahnstufe` des Tabellenblatts `Überzogene Bücher/Medien` wird das Verfahren für diesen Vorgang auf die nächste Stufe hochgesetzt.
+In der Spalte "Mahnstufe" des Tabellenblattes `Überzogene Bücher/Medien` wird das Verfahren für diesen Vorgang auf die nächste Stufe hochgesetzt.
 
 ![Die Mahnstufe wurde durch setzen der nächsten Mahnstufe auf die nächste Stufe hochgesetzt](/assets/images/bibliothek/mahnwesen05.png)
 
@@ -64,10 +64,10 @@ Im vorherigen Abschnitt haben Sie bereits erfahren, wie Sie eine Mahnung im Verl
 1. Rufen Sie den Menüpunkt `Datenbank > Optionen` auf
 2. Wählen Sie in der Navigation links die `Mahnwesen`.
 3. Betätigen Sie im Auswahlfeld `Mahnungenbericht` die Schaltfläche mit den Pünktchen
-3. Stellen Sie im Auswahlfeld `Suchen in` des erscheinenden Dialogfensters das Verzeichnis `Mahnungen` ein
-4. Markieren Sie im ausgewählten Verzeichnis die Datei `Mahnungen.rpt`
-5. Bestätigen Sie Ihre Auswahl mit `Öffnen`: der Dateipfad der Berichtsdatei wird im Feld `Mahnungenbericht` hinterlegt
-6. Bestätigen Sie abschließend mit `OK`
+4. Stellen Sie im Auswahlfeld `Suchen in` des erscheinenden Dialogfensters das Verzeichnis `Mahnungen` ein
+5. Markieren Sie im ausgewählten Verzeichnis die Datei `Mahnungen.rpt`
+6. Bestätigen Sie Ihre Auswahl mit `Öffnen`: der Dateipfad der Berichtsdatei wird im Feld `Mahnungenbericht` hinterlegt
+7. Bestätigen Sie abschließend mit `OK`
 
 Die ausgewählte Berichtsdatei wird nun als Vorlage für den Mahnungsausdruck hinterlegt.
 

@@ -137,7 +137,7 @@ Alle Datensätze werden jetzt importiert. Werden fehlende Schlüssel in den Schl
 
 !!! info "Hinweis"
 
-     Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus SchülerOnline prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird.
+     Beim erstmaligen Import der Betriebedaten aus der Exportdatei aus SchülerOnline prüft MAGELLAN über die Felder Name, Strasse, Postleitzahl und Ort, ob der Betrieb schon in MAGELLAN existiert, damit dieser nicht neu angelegt wird. Dieser Betrieb wird nur mit den Daten angelegt, die aus der Exportdatei aus SchülerOnline kommen. Sie müssen hier in jedem Fall manuell das Kürzel im Menü Betriebe > Daten 1 zur korrekten Darstellung des Betriebes nachpflegen.
 
 Ein einmalig aus SchülerOnline übernommener Betrieb ist in MAGELLAN eindeutig gekennzeichnet, damit zukünftige Betriebsdatenänderung in SchülerOnline mit nach MAGELLAN übernommen werden können.
 Wird im Rahmen des Imports ein Betrieb als schon vorhanden erkannt, werden die in SchülerOnline eingetragenen Daten nicht automatisch übernommen. Schon vorhandene Betriebe werden im Anschluss an den Import in einer gesonderten Registerkarte `Betriebe aktualisieren` aufgelistet.
@@ -168,6 +168,7 @@ Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche
       Das Einlesen und Prüfen der Inhalte erfolgt anhand der Position der Spalten (Beispiel: der Nachname wird als zweites erwartet), bitte verändern Sie die Anordnung nicht.
       
       Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
+
 
 Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 :--|:--|:--|:--
@@ -247,6 +248,12 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 74.| **BetriebMitgliedsnummer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 75.| **BetriebIdExtern**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 76.| **KrzBetriebeid**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
+
+## Aktuelle Ausbildung für Bewerber setzen
+
+Nach dem Import ist die aus SchülerOnline eingelesene Ausbildung noch nicht als aktuelle Ausbildung gesetzt. Bitte führen Sie abschließend die Aktion `Aktuelle Bewerber-Ausbildung setzen` aus. Wenn Bewerber nur eine Ausbildung haben, wird diese als aktuell gekennzeichnet. Sie finden diese Möglichkeit im MAGELLAN ADMINISTRATOR unter 'Datenbankpflege'.
+
+![aktuelle Ausbildung für Bewerber setzen](/assets/images/regionales/schueleronline01.png)
 
 ## Wie sieht eine korrekte Kopfzeile aus
 

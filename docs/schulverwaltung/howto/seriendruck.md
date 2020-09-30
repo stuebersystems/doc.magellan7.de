@@ -8,7 +8,7 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben 
 
 !!! info "Hinweis"
 
-  Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder.html).
+  Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
 
 Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
 
@@ -172,7 +172,7 @@ Sie können die Etiketten entweder sogleich über die Funktion Seriendruck an Dr
 
 ## Serienemail
 
-Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schüler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber. 
+Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schüler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber.
 
 ![Serienmailassistent](/assets/images/seriendruck/seriendruck12.png)
 

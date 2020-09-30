@@ -1,10 +1,14 @@
 # Leihvorgänge abwickeln
 
-Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN-BIBLIOTHEK aufzunehmen. Sie verfügen nun über die Datenbasis, um die dafür erforderlichen Aktionen durchzuführen. In diesem Kapitel lernen Sie die Abwicklung des eigentlichen Leihvorgangs von der Ausleihe bis zur Rückgabe des Mediums kennen. Wie Sie darüberhinaus Mahnungen für überzogene Medienexemplare erstellen können, erfahren Sie im Kapitel [Mahnungen erstellen](mahnung.md).
+Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen. Sie verfügen nun über die Datenbasis, um die dafür erforderlichen Aktionen durchzuführen. 
+
+Wie erfolgt nun die Abwicklung des eigentlichen Leihvorgangs von der Ausleihe bis zur Rückgabe des Mediums? Lesen Sie dazu bitte dieses Kapitel. 
+
+Wie Sie darüberhinaus Mahnungen für überzogene Medienexemplare erstellen können, erfahren Sie im Kapitel [Mahnungen erstellen](mahnung.md).
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
-![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe.png)
+![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe01.png)
 
 Die Datenmaske `Ausleihe & Rückgabe` ist in verschiedene Segmente unterteilt, die Sie bei der Durchführung der folgenden Teilschritte unterstützen:
 
