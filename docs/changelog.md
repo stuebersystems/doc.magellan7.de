@@ -22,6 +22,54 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
+## 7.1.18 - 715 (30.09.2020)
+
+### MAGELLAN SCHULVERWALTUNG
+
+* CHANGE: Crystal Reports Runtime-Version aktualisiert
+* FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
+* NEW: Schüler, die in Nachbarmandanten versetzt werden, können optional statt als Vagabunden (Standard) als Bewerber übertragen werden. 
+
+![Schüler als Bewerber in Nachbarmandanten versetzen](/assets/images/changelog/7.1.18.01.png)
+
+### MAGELLAN Schnittstellen
+
+#### SAXSVS
+
+* FIX: erweiterte Fehlerausgabe beim Export, ID und Klasse des betroffenen Schülers werden ausgegeben
+* NEW: Neue Meldungen, siehe Tabelle
+
+Art|Feld|Meldung|Hintergrund
+--|--|--|--
+Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SchülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.|Erscheint wenn das `Land` und die `Gemeindekennziffer` des Ausbildungsbetriebs nicht gefüllt sind. Ein nicht gefülltes Land beim Betrieb wird automatisch als `De` interpretiert, es wird für Betriebe aus Deutschland aber der Eintrag einer Gemeindekennziffer erwartet.
+Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016|Erscheint wenn das Bis-Datum der Ausbildung (`MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
+Fehler|	<sorgeberechtigte>|"Der Sorgebe Vorname Nachname hat fehlerhafte Wohnortangaben (Gemeinde, Land) eingetragen. <br/>Bei Wohnort in Deutschland, muss eine Gemeindekennziffer angegeben werden."|Erscheint für Sorgeberechtigte, denen keine Gemeindekennziffer zugewiesen wurde, der Eintrag im Feld `Land` aber D, De oder Deu ist.
+
+* NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
+* NEW: Neue Prüfung für Sorgeberechtigte (aus Deutschland, also Land D, De oder Deu) ohne Gemeindekennziffer.
+* NEW: Neue Betriebeprüfung: Gemeldet werden Betriebe ohne Eintrag im Feld `Land` und `Gemeinde`
+* NEW: Hat ein Betrieb nur einen Eintrag im Feld `Gemeinde` und das Feld `Land` leer, wird für SaxSVS das Land automatisch als `De` ausgespielt.
+
+## SHL
+
+* FIX: Ausgabe der Exportdateien
+
+### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+#### Allgemein
+
+* FIX: Schüler > Drucken > Berichte > Schülerliste (Fehlzeiten nach Schüler gruppiert).rpt
+* FIX: Abitur > Drucken > Prüfungslisten drucken > Prüfungsliste (Abitur).rpt
+
+#### Berlin
+
+CHANGE: BER-KO-ABI (Schul Z 323)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AZ (Schul Z 321)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+CHANGE: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
+NEW: BER-Schul Z 324 (11.19).rpt (Bericht war bereits in MAGELLAN 6 Auslieferung enthalten, nun auch für MAGELLAN 7 verfügbar)
+
 ## 7.1.17 - 715 (08.09.2020)
 
 ### MAGELLAN SCHULVERWALTUNG
