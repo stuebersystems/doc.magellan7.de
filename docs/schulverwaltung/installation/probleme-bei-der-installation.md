@@ -38,7 +38,7 @@ Im Feld Protokoll sollte TCP/IP gewählt werden, im Feld Server tragen Sie bitte
 
 Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
 Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
-Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut .
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
 [ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
 
@@ -48,6 +48,6 @@ Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie 
 
 Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
 Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
-Führen Sie die Installation per Doppelklick aus, im Anschluss sollte die Vorschau in MAGELLAN wie gewohnt funktionieren.
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
 [ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
