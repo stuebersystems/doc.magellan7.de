@@ -26,7 +26,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* CHANGE:
+* FIX: Anlegen eines neuen Sorgeberchtigten aus `Schüler|Daten1` und `Bewerber|Daten1`
+* FIX: Anlegen eines neuen Sorgeberchtigten aus `Schüler|Daten1` und `Bewerber|Daten1`  wenn keine Gemeindekennzieffern und Postleitzahlen im Verzeichnis vorhanden sind
 
 ### MAGELLAN Schnittstellen
 
