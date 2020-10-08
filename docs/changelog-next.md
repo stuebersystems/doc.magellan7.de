@@ -51,7 +51,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX: 
+* CHNAGE: Geändertes Verfahren zur Erstellung von Barcodes
 
 ### Skripte
 
