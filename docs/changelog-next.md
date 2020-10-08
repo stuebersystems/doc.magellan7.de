@@ -31,9 +31,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Schnittstellen
 
-#### SAXSVS
+#### NRW
 
-* FIX: 
+* CHANGE: Für Berufskollegs: Wenn der Schüler nicht Status `Neuzugang von einer anderen Schule` ist und keine `Versetzungsart` gewählt ist, wird immer eine `0` ausgegeben, auch wenn die Versetzung nicht gefüllt ist.
 
 ## SHL
 
