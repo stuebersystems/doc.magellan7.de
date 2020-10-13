@@ -28,6 +28,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`  wenn keine Gemeindekennziffern und Postleitzahlen im Verzeichnis vorhanden sind
+* CHANGE: Die Größe des Schülerfehlzeiten-Fenster kann verändert werden
+* FIX: Unter `Schüler > Laufbahn > Allgemein` wurde die Anzeige der Bezeichnungen überarbeitet
+* FIX: Unter `Schulen > Daten` werden Änderungen beim Datensatzwechsel oder Ansichtswechsel gespeichert
 
 ### MAGELLAN Schnittstellen
 
