@@ -211,29 +211,31 @@ Nr|Seriendruckfeld
 100.|«Sorgebe_PLZ»
 101.|«Sorgebe_Ort»
 102.|«Sorgebe_Ortsteil»
-103.|«Sorgebe_Beruf»
-104.|«Sorgebe_TelefonPrivat»
-105.|«Sorgebe_TelefonBeruf»
-106.|«Sorgebe_Mobil»
-107.|«Sorgebe_Email»
-108.|«Sorgebe_Verhaeltnis»
-109.|«Sorgebe_Briefempfaenger»
-110.|«Sorgebe_Briefanrede»
-111.|«Sorgebe_SeriendruckName1»
-112.|«Sorgebe_SeriendruckName2»
-113.|«Sorgebe_HeimatName1»
-114.|«Sorgebe_HeimatName2»
-115.|«Sorgebe_HeimatStrasse»
-116.|«Sorgebe_HeimatAdresszusatz»
-117.|«Sorgebe_HeimatGemeinde»
-118.|«Sorgebe_HeimatLand»
-119.|«Sorgebe_HeimatPLZ»
-120.|«Sorgebe_HeimatOrt»
-121.|«Sorgebe_HeimatOrtsteil»
-122.|«Sorgebe_HeimatAdressgebiet»
-123.|«Klasse_Langname2»
-124.|«Klasse_Langname1»
-125.|«Klasse_Kuerzel»
+103.|«Sorgebe_Adresszusatz» (Ergänzungen)
+104.|«Sorgebe_Beruf»
+105.|«Sorgebe_TelefonPrivat»
+106.|«Sorgebe_TelefonBeruf»
+107.|«Sorgebe_Mobil»
+108.|«Sorgebe_Email»
+109.|«Sorgebe_Verhaeltnis»
+110.|«Sorgebe_Briefempfaenger»
+111.|«Sorgebe_Briefanrede»
+112.|«Sorgebe_SeriendruckName1»
+113.|«Sorgebe_SeriendruckName2»
+114.|«Sorgebe_HeimatName1»
+115.|«Sorgebe_HeimatName2»
+116.|«Sorgebe_HeimatStrasse»
+117.|«Sorgebe_HeimatAdresszusatz»
+118.|«Sorgebe_HeimatGemeinde»
+119.|«Sorgebe_HeimatLand»
+120.|«Sorgebe_HeimatPLZ»
+121.|«Sorgebe_HeimatOrt»
+122.|«Sorgebe_HeimatOrtsteil»
+123.|«Sorgebe_HeimatAdressgebiet»
+124.|«Klasse_Langname2»
+125.|«Klasse_Langname1»
+126.|«Klasse_Kuerzel»
+
 
 ### Auswahl "An den aktuellen Betrieb der markierten Schüler"
 

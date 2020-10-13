@@ -31,6 +31,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Die Größe des Schülerfehlzeiten-Fenster kann verändert werden
 * FIX: Unter `Schüler > Laufbahn > Allgemein` wurde die Anzeige der Bezeichnungen überarbeitet
 * FIX: Unter `Schulen > Daten` werden Änderungen beim Datensatzwechsel oder Ansichtswechsel gespeichert
+* FIX: Sammelzuweisung unter `Schüler > Laufbahn > Allgemein/Abschluss` überarbeitet
+* FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details` überarbeitet
+* NEW: Beim Seriendruck an Sorgeberechtigte vom Schüler aus kann auf das Feld Ergänzungen (`Sorgeberechtigte > Daten > Ergänzungen`) mit dem Seriendruckfeld «Sorgebe_Adresszusatz» zugrgriffen werden
 
 ### MAGELLAN Schnittstellen
 
