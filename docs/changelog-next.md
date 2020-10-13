@@ -34,6 +34,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Sammelzuweisung unter `Schüler > Laufbahn > Allgemein/Abschluss` überarbeitet
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details` überarbeitet
 * NEW: Beim Seriendruck an Sorgeberechtigte vom Schüler aus kann auf das Feld Ergänzungen (`Sorgeberechtigte > Daten > Ergänzungen`) mit dem Seriendruckfeld «Sorgebe_Adresszusatz» zugrgriffen werden
+* NEW: Unter `Schüler/Bewerber/Lehrer/Personen/Sorgeberechtige/Mandanten/Betriebe/Schulen > Daten > PLZ` können auch Postleitzahlen erfasst werden, die nicht im Verzeichnis Postleitzahlen gespeichert wurden oder die dort gespeichert wurden, für die aber kein Verweis auf eine passende Gemeindekennziffer existiert
+* CHANGE: Unter `Berufsschule > Matrix > Sammelzuweisung` wird standardmäßig das Häkchen zum `Fächer kopieren` nicht gesetzt angezeigt
+* NEW: Wenn Betriebe gelöscht werden sollen, erscheint ein Fenster, das die Möglichkeiten bietet aus der markierten Auswahl alle Betriebe zu löschen oder nur die Betriebe, denen keine Auszubildenden zugeordnet wurden. Wird ein Betrieb gelöscht, dem Auszubildende zugeordnet waren, bleibt die Schülerausbildung (`Schüler > Ausbildung`) bestehen, wenn hier weitere Informationen hinterlegt wurden (bspw. Bildungsgang, Beruf usw.)
+* FIX: Unter `Schüler > Merkmal > MerkmalA1` können Merkmale genutzt werden, die bis zu 20 Zeichen im Feld Kürzel verwenden.
 
 ### MAGELLAN Schnittstellen
 
