@@ -20,10 +20,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## 7.1.19 - 715
 
-### Datenstruktur
-
-* NEW: 
-
 ### MAGELLAN SCHULVERWALTUNG
 
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`
