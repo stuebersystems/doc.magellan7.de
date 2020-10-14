@@ -172,6 +172,15 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 ![Dialog Sammelzuweisung `Ausbildungsdaten…`](/assets/images/schueler/sammelzuweisung03.png)
 
+Auf dieser Karte müssen Sie zwischen der Option `Neue Ausbildung anlegen` und `Ggf. aktuelle Ausbildung bearbeiten` wählen.
+
+**Neue Ausbildung anlegen**
+Allen gewählten Schülern wird ein neuer Ausbildungsdatensatz angelegt, dieser Datensatz wird im Feld `Ausbildung` als aktuelle Ausbildung gezeigt.
+
+**Ggf. aktuelle Ausbildung bearbeiten**
+Es wird je Schüler geprüft, ob aktuelle Ausbildung besteht oder nicht. Als aktuelle Ausbildung wird die Ausbildung erkannt, die am unteren Rand des Fensters `Schüler/Bewerber > Ausbildung` im Feld `Ausbildung` hinterlegt ist. Hat der Schüler keine Ausbildung oder keine als aktuell markierte Ausbildung, wird ein neuer Ausbildungsdatensatz angelegt, dieser Datensatz wird im Feld `Ausbildung` als aktuelle Ausbildung gezeigt.
+Wird eine als aktuell markierte Ausbildung gefunden, wird diese Ausbildung mit den neuen Werten bearbeitet.
+
 ![Dialog Sammelzuweisung `allgemeine Merkmale…`](/assets/images/schueler/sammelzuweisung04.png)
 
 ![Dialog Sammelzuweisung `Statistik-Merkmale…`](/assets/images/schueler/sammelzuweisung05.png)
