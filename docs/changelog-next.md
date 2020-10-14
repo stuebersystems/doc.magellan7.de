@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`  wenn keine Gemeindekennziffern und Postleitzahlen im Verzeichnis vorhanden sind
 * CHANGE: Die Größe des Schülerfehlzeiten-Fenster kann verändert werden
-* FIX: Unter `Schüler > Laufbahn > Allgemein` wurde die Anzeige der Bezeichnungen überarbeitet
+* FIX: Unter `Schüler > Laufbahn > Allgemein` wurde die Anzeige der Bezeichnungen der Verzeichnisfelder überarbeitet
 * FIX: Unter `Schulen > Daten` werden Änderungen beim Datensatzwechsel oder Ansichtswechsel gespeichert
 * FIX: Sammelzuweisung unter `Schüler > Laufbahn > Allgemein/Abschluss` überarbeitet
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details` überarbeitet
@@ -36,6 +36,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Unter `Schüler > Merkmal > MerkmalA1` können Merkmale genutzt werden, die bis zu 20 Zeichen im Feld Kürzel verwenden.
 * FIX: Anzeigeverhalten des Feldes und der Verzeichnisliste `Schüler/Bewerber > Daten2 > Bereits besuchte Schule > letzte Klassenstufe` korrigiert
 * FIX: `Menü Bewerber > Register Bewerber > Sammelzuweisung > Ausbildungsdaten`: Ein neuer oder geänderter Ausbildungsdatensatz wird unter `Bewerber > Ausbildung` als aktuelle Ausbildung gesetzt
+* FIX: Schreibfehler im benutzerdefinierten Filter korrigiert
+* FIX: `Schüler > Daten2 > Bereits besuchte Schulen > Herkunftsschule`: Die Auswahl einer neuen Herkunftsschule wird beim Wechsel in ein anderes Register gespeichert
+
 
 ### MAGELLAN Schnittstellen
 
@@ -45,7 +48,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN ADMINISTRATOR
 
-* FIX:
+* CHANGE: `Benutzerverwaltung > Zugriffsrechte synchronisieren` Der Assistent endet mit `Schließen`.
 
 ### MyMAGELLAN-CENTER
 
