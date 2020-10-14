@@ -2,6 +2,11 @@
 
 Aus MAGELLAN BIBLIOTHEK heraus können Sie mit Hilfe des Word Seriendrucks aus verschiedenen Listen heraus ein Anschreiben erstellen.
 
+
+!!! info "Hinweis"
+
+    Alle zur Verfügung stehenden Seriendruckfelder je Menüpunkt finden Sie aufgelistet unter [https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/](https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/).
+
 Diese Funktion steht für folgende Stammdaten und Vorgangslisten zur Verfügung:
 
 * Liste `Überzogene Bücher/Medien` in der Ansicht `Mahnungen`
