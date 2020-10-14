@@ -47,10 +47,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Für Berufskollegs: Wenn der Schüler nicht Status `Neuzugang von einer anderen Schule` hat und keine `Versetzungsart` gewählt ist, wird immer eine `0` ausgegeben, auch wenn die Versetzung nicht gefüllt ist.
 
-## SHL
-
-* FIX: 
-
 ### MAGELLAN ADMINISTRATOR
 
 * FIX:
