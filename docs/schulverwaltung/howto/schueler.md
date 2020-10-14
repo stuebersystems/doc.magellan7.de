@@ -160,6 +160,10 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 !!! info "Hinweis"
 
+    Sie können die Sammelzuweisung nutzen um Felder für mehrere Schüler in einem Arbeitsschritt zu füllen oder auch zu leeren. Wenn Sie ein Feld per Häkchen aktivieren, aber keinen Wert im Feld vergeben, wird der Eintrag für die ausgewählten Schüler gelöscht.
+
+!!! info "Hinweis"
+
     Es gibt noch weitere Sammelzuweisungen in MAGELLAN, diese sind dann direkt auf den Karten für die sie gelten aufrufbar. Beispielsweise auf den Registerkarten `Laufbahn` oder `Zeugnis`.
 
 1. Um den Assistenten für die Sammelzuweisung der Stammdaten zu starten, müssen Sie auf `Schüler > Sammelzuweisungen…` klicken.
@@ -186,10 +190,6 @@ Wird eine als aktuell markierte Ausbildung gefunden, wird diese Ausbildung mit d
 ![Dialog Sammelzuweisung `Statistik-Merkmale…`](/assets/images/schueler/sammelzuweisung05.png)
 
 ![Dialog Sammelzuweisung `Wahlfächer/Kurse und sonstige Daten`](/assets/images/schueler/sammelzuweisung06.png)
-
-!!! info "Hinweis"
-
-    Sie können die Sammelzuweisung nutzen um Felder für mehrere Schüler in einem Arbeitsschritt zu füllen oder auch zu leeren. Wenn Sie ein Feld per Häkchen aktivieren, aber keinen Wert im Feld vergeben, wird der Eintrag für die ausgewählten Schüler gelöscht.
 
 ## Registerkarte `Ausbildung`
 

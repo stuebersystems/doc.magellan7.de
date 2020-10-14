@@ -303,6 +303,10 @@ Sie können für mehrere Schüler oder Bewerber gleichzeitig bestimmte Werte auf
 Auf diese Weise können Sie beispielsweise allen Schülern einer Klasse mit einer Anweisung die gleiche Konfession, Staatsangehörigkeit oder Fremdsprachenfolge zuordnen.
 Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel die Felder für Ihre `Bewerber` sind nur beim Aufruf aus dem Menü zu sehen oder die Berufsschulfelder sind nur mit der Lizenz Berufsschule sichtbar.
 
+!!! info "Hinweis"
+
+    Sie können die Sammelzuweisung nutzen um Felder für mehrere Schüler in einem Arbeitsschritt zu füllen oder auch zu leeren. Wenn Sie ein Feld per Häkchen aktivieren, aber keinen Wert im Feld vergeben, wird der Eintrag für die ausgewählten Schüler gelöscht.
+
 1. Um den Assistenten für die Sammelzuweisung der Stammdaten zu starten, müssen Sie auf `Schüler > Sammelzuweisungen…` klicken.
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.
 3. Markieren Sie unter Schüler auswählen bzw. Bewerber auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge in den Stammdaten erhalten sollen.
