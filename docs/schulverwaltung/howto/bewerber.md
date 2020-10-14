@@ -313,6 +313,20 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 ![Dialog Sammelzuweisung `Ausbildungsdaten…`](/assets/images/bewerber/sammelzuweisung03.png)
 
+Auf dieser Karte müssen Sie zwischen der Option `Neue Ausbildung anlegen` und `Ggf. aktuelle Ausbildung bearbeiten` wählen.
+
+**Neue Ausbildung anlegen**
+Allen gewählten Schülern wird ein neuer Ausbildungsdatensatz angelegt, dieser Datensatz wird im Feld `Ausbildung` als aktuelle Ausbildung gezeigt.
+
+**Ggf. aktuelle Ausbildung bearbeiten**
+Es wird je Schüler geprüft, ob aktuelle Ausbildung besteht oder nicht. Als aktuelle Ausbildung wird die Ausbildung erkannt, die am unteren Rand des Fensters `Schüler/Bewerber > Ausbildung` im Feld `Ausbildung` hinterlegt ist. Hat der Schüler keine Ausbildung oder keine als aktuell markierte Ausbildung, wird ein neuer Ausbildungsdatensatz angelegt, dieser Datensatz wird im Feld `Ausbildung` als aktuelle Ausbildung gezeigt.
+Wird eine als aktuell markierte Ausbildung gefunden, wird diese Ausbildung mit den neuen Werten bearbeitet.
+
+!!! info "Hinweis"
+
+    Sollten Ihre Bewerber durch Importe oder ähnliches zwar einen Ausbildungsdatensatz haben, dieser ist aber nicht als aktueller Ausbildungsdatensatz hinterlegt, können Sie mit einer Funktion im MAGELLAN ADMINISTRATOR für alle Bewerber, die nur einen Ausbildungsdatensatz haben, diesen jeweils als aktuell hinterlegen lassen. Bitte lesen dazu diesen Abschnitt: [https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen)
+
+
 ![Dialog Sammelzuweisung `allgemeine Merkmale…`](/assets/images/bewerber/sammelzuweisung04.png)
 
 ![Dialog Sammelzuweisung `Statistik-Merkmale…`](/assets/images/bewerber/sammelzuweisung05.png)
