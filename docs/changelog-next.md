@@ -38,6 +38,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Unter `Berufsschule > Matrix > Sammelzuweisung` wird standardmäßig das Häkchen zum `Fächer kopieren` nicht gesetzt angezeigt
 * NEW: Wenn Betriebe gelöscht werden sollen, erscheint ein Fenster, das die Möglichkeiten bietet aus der markierten Auswahl alle Betriebe zu löschen oder nur die Betriebe, denen keine Auszubildenden zugeordnet wurden. Wird ein Betrieb gelöscht, dem Auszubildende zugeordnet waren, bleibt die Schülerausbildung (`Schüler > Ausbildung`) bestehen, wenn hier weitere Informationen hinterlegt wurden (bspw. Bildungsgang, Beruf usw.)
 * FIX: Unter `Schüler > Merkmal > MerkmalA1` können Merkmale genutzt werden, die bis zu 20 Zeichen im Feld Kürzel verwenden.
+* FIX: Anzeigeverhalten des Feldes und der Verzeichnisliste `Schüler/Bewerber > Daten2 > Bereits besuchte Schule > letzte Klassenstufe` korrigiert
+* FIX: `Menü Bewerber > Register Bewerber > Sammelzuweisung > Ausbildungsdaten`: Ein neuer oder geänderter Ausbildungsdatensatz wird unter `Bewerber > Ausbildung` als aktuelle Ausbildung gesetzt
 
 ### MAGELLAN Schnittstellen
 
