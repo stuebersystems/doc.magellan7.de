@@ -34,7 +34,7 @@ Katalog|dnb
 
 #### Eintragungen Details/ Registerkarte "Autentifizierung"
 
-![Opac Server einrichten](/assets/images/bibliothek/opac6.png)
+![Registerkarte "Autentifizierung"](/assets/images/bibliothek/opac6.png)
 
 Spalte | Eintrag
 -|-
@@ -44,12 +44,14 @@ Kennwort/Zugangscode| Im Falle der DNB benötigen Sie hier einen `Zugriffstoken`
 
 #### Eintragungen Details/ Registerkarte "Recherche"
 
+![Registerkarte "Recherche"](/assets/images/bibliothek/opac12.png)
+
 Spalte | Eintrag
 -|-
 Indexname zur Suche| nummer (num)
 Maximale Anzahl der Suchergebnisse| 0 (unbegrenzt)
-Schema/ Format Kurzform| B-Titeldaten, ZDB-Titeldaten (bei der Deutschen Nationalbibliothek, da kostenfrei)
-Schema Format Langform| nicht notwendig
+Schema/ Format Kurzform| Auswahl von Dublin-Core-Elementen, DNB-Titeldaten, ZDB-Titeldaten (oai_dc) (bei der Deutschen Nationalbibliothek, da kostenfrei)
+Schema Format Langform| XML-Variante von MARC212 / DNB-Titeldaten, ZDB-Titeldaten, Normdaten (MARC21-xml)
 
 Speichern Sie danach den Eintrag. Sie haben somit erfolgreich den ersten Server eingetragen. Die Serverdaten werden in eine Konfigurationsdatei gespeichert.
 
@@ -64,6 +66,12 @@ Scannen Sie das Medium ein, bzw. geben es über die Tastatur die ISBN Nummer im 
 Wenn Sie mehrere Server eintragen, dann werden alle Server nacheinander angefragt, bis ein Server einen Eintrag zum Barcode auf dem jeweiligen Server findet.
 
 ![Neues Medium erfassen](/assets/images/bibliothek/opac8.png)
+
+!!! info "Hinweis"
+
+    Klappt es nicht? Bitte prüfen Sie, ob unter `Datenbank > Optionen > Online Suche` die Option `Buchdetails im Internet suchen und mit Magellan-Bibliothek synchronisieren` aktiviert ist.
+
+![Online-Suche aktivieren](/assets/images/bibliothek/opac13.png)
 
 ### Das Ergebnis
 

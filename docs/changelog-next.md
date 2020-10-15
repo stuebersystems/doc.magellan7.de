@@ -60,6 +60,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Geändertes Verfahren zur Erstellung von Barcodes
 * NEW: Im Menü `Mahnwesen` stehen für den Seriendruck der Name und die Adressdaten des Schülers zur Auswahl. Alle verfügbaren Seriendruckfelder je Menüpunkt listen wir hier auf: [https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/](https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/)
+* FIX: Ausleihe ohne Bestätigung unterbunden
+
 
 ### Skripte
 
