@@ -74,4 +74,5 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: NRW-ABI-AZ  (Anlage D42).rpt (Korrektur Ausbildung zeitraumbezogen)
+* NEW: BER-Schul Z 251 (11.19).rpt (Schul Z 251 – Zeugnis des Gymnasiums, Jahrgangsstufen 5 und 6 – (11.19))
 
