@@ -222,6 +222,11 @@ Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorsc
 
 Dann handelt es sich vermutlich um einen Bericht, der den Inhalt eines Feldes als Barcode darstellen soll. Für die Darstellung als Barcode wird die Schriftart [Code EAN 13](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/ean13.ttf) verwendet. Die Schriftart fehlt auf Ihrem Rechner oder ist nicht korrekt installiert, bitte laden Sie sie herunter und installieren Sie diese Schriftart per Doppelklick auf dei Datei neu!
 
+
+!!! tip "Tipp"
+
+    Klappt die Vorschau von Berichten mit Barcode direkt nach dem MAGELLMA-Update nicht? Bitte starten Sie Ihren Rechner einmal neu, anschließend sollte die Schriftart, die zur Anzeige von Barcodes verwendet wird, verfügbar sein.
+
 ### Die Tabelle wurde nicht gefunden
 
 In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"?
