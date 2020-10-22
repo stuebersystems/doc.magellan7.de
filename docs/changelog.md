@@ -27,13 +27,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN SCHULVERWALTUNG
 
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`
-* FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`  wenn keine Gemeindekennziffern und Postleitzahlen im Verzeichnis vorhanden sind
+* FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`, wenn keine Gemeindekennziffern und Postleitzahlen im Verzeichnis vorhanden sind
 * CHANGE: Die Größe des Schülerfehlzeiten-Fenster kann verändert werden
 * FIX: Unter `Schüler > Laufbahn > Allgemein` wurde die Anzeige der Bezeichnungen der Verzeichnisfelder überarbeitet
 * FIX: Unter `Schulen > Daten` werden Änderungen beim Datensatzwechsel oder Ansichtswechsel gespeichert
 * FIX: Sammelzuweisung unter `Schüler > Laufbahn > Allgemein/Abschluss` überarbeitet
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details` überarbeitet
-* NEW: Beim Seriendruck an Sorgeberechtigte vom Schüler aus kann auf das Feld Ergänzungen (`Sorgeberechtigte > Daten > Ergänzungen`) mit dem Seriendruckfeld «Sorgebe_Adresszusatz» zugrgriffen werden
+* NEW: Beim Seriendruck an Sorgeberechtigte vom Schüler aus kann auf das Feld Ergänzungen (`Sorgeberechtigte > Daten > Ergänzungen`) mit dem Seriendruckfeld «Sorgebe_Adresszusatz» zugegriffen werden
 * NEW: Unter `Schüler/Bewerber/Lehrer/Personen/Sorgeberechtige/Mandanten/Betriebe/Schulen > Daten > PLZ` können auch Postleitzahlen erfasst werden, die nicht im Verzeichnis Postleitzahlen gespeichert wurden oder die dort gespeichert wurden, für die aber kein Verweis auf eine passende Gemeindekennziffer existiert
 * CHANGE: Unter `Berufsschule > Matrix > Sammelzuweisung` wird standardmäßig das Häkchen zum `Fächer kopieren` nicht gesetzt angezeigt
 * NEW: Wenn Betriebe gelöscht werden sollen, erscheint ein Fenster, das die Möglichkeiten bietet aus der markierten Auswahl alle Betriebe zu löschen oder nur die Betriebe, denen keine Auszubildenden zugeordnet wurden. Wird ein Betrieb gelöscht, dem Auszubildende zugeordnet waren, bleibt die Schülerausbildung (`Schüler > Ausbildung`) bestehen, wenn hier weitere Informationen hinterlegt wurden (bspw. Bildungsgang, Beruf usw.)
