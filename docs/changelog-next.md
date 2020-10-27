@@ -22,7 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: 
+* CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister 
 * 
 ### MAGELLAN Schnittstellen
 
