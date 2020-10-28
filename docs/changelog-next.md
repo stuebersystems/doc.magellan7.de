@@ -23,7 +23,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN SCHULVERWALTUNG
 
 * CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister 
- 
+* NEW: neue Felder in der Sammelzuweisung der `Schüler` und `Bewerber`:
+  * `Daten2 > höchster Abschluss > Schulform`
+  * `Daten2 > höchster Abschluss > Abschluss`
+
+
 ### MAGELLAN Schnittstellen
 
 #### NRW
