@@ -22,6 +22,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
+## 7.1.20 - 715 (29.10.2020)
+
+### MAGELLAN SCHULVERWALTUNG
+
+* CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister 
+* NEW: neue Felder in der Sammelzuweisung der `Schüler` und `Bewerber`:
+  * `Daten2 > höchster Abschluss > Schulform`
+  * `Daten2 > höchster Abschluss > Abschluss`
+
 ## 7.1.19 - 715 (22.10.2020)
 
 ### MAGELLAN SCHULVERWALTUNG
