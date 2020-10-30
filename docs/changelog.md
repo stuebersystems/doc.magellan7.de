@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister 
+* CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister. Der Aufruf von `Schüler > Daten1` dauerte länger als die Aufrufe der weiteren Registerkarten, da bei diesem Aufruf bereits Daten für weitere Karten geladen wurden. Die jeweils aufgerufenen Daten wurden jetzt je Register verteilt. 
 * NEW: neue Felder in der Sammelzuweisung der `Schüler` und `Bewerber`:
   * `Daten2 > höchster Abschluss > Schulform`
   * `Daten2 > höchster Abschluss > Abschluss`
