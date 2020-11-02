@@ -54,4 +54,4 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: 
+* FIX: SAR-GY-ABI (GOS2.0).rpt (Ausgabe Seminarfach, Sprachniveau)
