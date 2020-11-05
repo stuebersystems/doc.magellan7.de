@@ -22,7 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* CHANGE: 
+* FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
 
 ### MAGELLAN Schnittstellen
 
