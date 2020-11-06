@@ -214,7 +214,27 @@ interner Code | aktuell keine Bedeutung
 
 ![`Leistungsprofile definieren...`](/assets/images/enbrea.leistungen/22.png)
 
-Den Fächer "Arbeitsverhalten" und "Sozialverhalten" wird über den Aufruf `Leistungsprofile definieren...` kein Kurs im Feld "Kurs" zugeordnet.
+### Leistungsprofile ohne Bewertungsprofil
+
+Es gibt einige Fächer, die auf dem Zeugnis ohne Bewertungsprofile beurteilt werden. Diese erfassen Sie hier ebenfalls, allerdings bleibt die Spalte "Bewertungsprofil" leer. 
+
+![`Leistungsprofile ohne Bewertungsprofile...`](/assets/images/enbrea.leistungen/30.png)
+
+In unserem Beispiel sind das die Fächer "Sprechen und Zuhören", "Lesen - mit Texten und Medien umgehen", "Rechtschreiben" sowie "Sprache und Sprachgebrauch".
+
+![`Leistungsprofile ohne Bewertungsprofile...`](/assets/images/enbrea.leistungen/29.png)
+
+Da diese dem Kurs "Deutsch" angehören, müssen Sie diese im Feld "Kurs" mit dem entsprechenden Deutschkurs des Jahrganges verknüpfen.
+
+![`Klassen > Zeiträume > ENBREA Leistungsprofile`](/assets/images/enbrea.leistungen/31.png)
+
+### Leistungsprofile ohne Kurszuweisung
+
+Es gibt Fächer, die Bewertungsgruppen benotet werden. In unserem Beispiel sind das die Fächer "Arbeitsverhalten" und "Sozialverhalten". 
+
+![Ausgabe auf dem Zeugnis](/assets/images/enbrea.leistungen/32.png)
+
+Diesen Fächern wird über den Aufruf `Leistungsprofile definieren...` kein Kurs im Feld "Kurs" zugeordnet.
 
 ![Leistungsprofil-Einträge mit und ohne Kurszuweisung](/assets/images/enbrea.leistungen/24.png)
 
