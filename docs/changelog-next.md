@@ -23,6 +23,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN SCHULVERWALTUNG
 
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
+* FIX: Emailversand aus `Extras > Benachrichtigungen` korrigiert
 
 ### MAGELLAN Schnittstellen
 
