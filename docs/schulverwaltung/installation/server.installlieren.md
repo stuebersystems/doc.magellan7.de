@@ -17,9 +17,9 @@ Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter
 
 Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien werden entpackt.
 
-![Startdialog der Installation](/assets/images/setup-start.png)
+![Startdialog der Installation](/assets/images/setup_start.png)
 
-![Installationart festlegen](/assets/images/setup-type.png)
+![Installationart festlegen](/assets/images/setup_type.png)
 
 Wählen Sie die `Server-/Einzelplatzinstallation` aus! Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die sogenannten Datenordner erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
 
@@ -101,8 +101,6 @@ Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließ
 !!! info "Hinweis"
 
     Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren.
-
-
 
 ## Der Willkommensassistent
 
