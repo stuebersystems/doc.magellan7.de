@@ -48,7 +48,6 @@ Bitte achten Sie darauf, dass Sie den kompletten Pfad eintragen. Wenn Sie ledigl
 
 ![Speicherort vorbelegen](/assets/images/mymagellan/04.png)
 
-
 !!! danger "Achtung"
 
 	Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mymx". Sie können die Endungen gesammelt ergänzen. **Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei, nutzen `Suchen und Ersetzen` Ihres Editors und ersetzen `.mym;` mit `.mymx;`. Importieren Sie anschließend die Benutzer aus der Datei wieder.**
