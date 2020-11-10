@@ -238,7 +238,9 @@ Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Cen
 
 ## MyMAGELLAN-Dateiendungen
 
-Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mymx". Sie können die Endungen gesammelt ergänzen. **Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei (Aufruf in der Menüleiste `Benutzer exportieren`), nutzen `Suchen und Ersetzen` Ihres Editors und ersetzen `.mym;` mit `.mymx;`. Importieren (Aufruf in der Menüleiste `Benutzer importieren`) Sie anschließend die Benutzer aus der Datei wieder.**
+Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mymx". Sie können die Endungen gesammelt ergänzen.
+
+Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei (Aufruf in der Menüleiste `Benutzer exportieren`), nutzen `Suchen und Ersetzen` Ihres Editors und ersetzen `.mym;` mit `.mymx;`. Importieren (Aufruf in der Menüleiste `Benutzer importieren`) Sie anschließend die Benutzer aus der Datei wieder.
 
 ## Eigene Berichte
 
