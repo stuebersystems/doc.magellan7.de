@@ -236,6 +236,10 @@ Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Cen
 |Öffnen Sie diese Datei, beispielsweise mit Excel, pflegen die Passworte ein und speichern das Ergebnis.|
 |Wählen Sie in der Menüleiste den Punkt `Benutzer importieren` und verweisen auf die csv-Datei. Die Passworte werden in der Datenbank gespeichert und werden beim Erzeugen der MYM-Dateien verwendet.|
 
+## MyMAGELLAN-Dateiendungen
+
+Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mymx". Sie können die Endungen gesammelt ergänzen. **Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei (Aufruf in der Menüleiste `Benutzer exportieren`), nutzen `Suchen und Ersetzen` Ihres Editors und ersetzen `.mym;` mit `.mymx;`. Importieren (Aufruf in der Menüleiste `Benutzer importieren`) Sie anschließend die Benutzer aus der Datei wieder.**
+
 ## Eigene Berichte
 
 Eigene Berichte müssen für die Nutzung unter MAGELLAN 7  angepasst werden, eine Anleitung finden Sie im Punkt [Eigene Berichte anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/).

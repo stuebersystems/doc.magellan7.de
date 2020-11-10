@@ -43,14 +43,15 @@ Der Benutzer muss unter „MyMAGELLAN“ den Status „Teilnehmer von MyMAGELLAN
 
 ### 3. Speicherort für die Datei vorbelegen
 
-Dem Benutzer muss unter „MyMAGELLAN“ eine „MyMAGELLAN-Datei“ (Datei mit der Endung .mym7) zugeordnet werden. Die Datei muss lediglich benannt werden, jedoch nicht schon existieren. Es geht hier darum die Stelle für die spätere Sammelerstellung der Lehrerdateien vorzubelegen.
+Dem Benutzer muss unter „MyMAGELLAN“ eine „MyMAGELLAN-Datei“ (Datei mit der Endung .mymx) zugeordnet werden. Die Datei muss lediglich benannt werden, jedoch nicht schon existieren. Es geht hier darum die Stelle für die spätere Sammelerstellung der Lehrerdateien vorzubelegen.
 Bitte achten Sie darauf, dass Sie den kompletten Pfad eintragen. Wenn Sie lediglich eine Dateibezeichnung eintragen, führt dies später zu einer Fehlermeldung, da der Speicherort nicht gefunden wird. Nur Benutzer mit diesen Rechten werden im MyMAGELLAN CENTER angezeigt.
 
 ![Speicherort vorbelegen](/assets/images/mymagellan/04.png)
 
-!!! info "Hinweis"
 
-	Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mym7". Sie müssen aber an der Stelle nichts ändern, beim Erstellen wird die korrekte Dateiendung ergänzt.
+!!! danger "Achtung"
+
+	Unter MyMAGELLAN 6 war die Dateiendung "mym", jetzt ist sie "mymx". Sie können die Endungen gesammelt ergänzen. **Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei, nutzen `Suchen und Ersetzen` Ihres Editors und ersetzen `.mym;` mit `.mymx;`. Importieren Sie anschließend die Benutzer aus der Datei wieder.**
 
 ### Dateipasswort
 
@@ -90,7 +91,7 @@ Spaltenkopf| Mögliche Werte
 **Kennung**| Keine Änderung möglich
 **Passwort**|Tragen Sie hier im Klartext das Passwort ein, es wird chiffriert in der MAGELLAM-Datenbank gespeichert. <br/>Ein bereits erfasstes Passwort wird nicht in die Datei ausgespielt.<br/> Ein leeres Feld wird beim Import kein bestehendes Passwort ändern.
 **MyMagellan-Teilnehmer**| Mögliche Werte sind  `Teilnehmer` oder `(Kein Teilnehmer)`. <br/>Das Feld darf nicht leer sein.
-**MyMagellan-Datei**| Tragen Sie hier bitte einen existierenden Pfad und den zukünftigen Dateinamen plus Dateiendung ein. <br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\MyMag-Exporte\SNAPE.mym7`
+**MyMagellan-Datei**| Tragen Sie hier bitte einen existierenden Pfad und den zukünftigen Dateinamen plus Dateiendung ein. <br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\MyMag-Exporte\SNAPE.mymx`
 
 #### Import
 
@@ -237,9 +238,6 @@ Am gewählten Speicherort werden die Dateien erzeugt.
 
 ![Erstellte MyMAGELLAN-Dateien](/assets/images/mymagellan/21.png)
 
-!!! info "Hinweis"
-
-	 Die neue Dateiendung `mym7` erzeugt MAGELLAN unabhängig von der Angabe im Speicherpfad, Sie müssen dafür nichts anpassen.
 
 ## Übermittlung der Datei an die eingebenden Kollegen
 
