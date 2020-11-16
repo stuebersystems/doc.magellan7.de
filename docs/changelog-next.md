@@ -58,3 +58,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt wurde Für MAGELLAN 7 angpasst
 * FIX: SAR-GY-ABI (GOS2.0).rpt (Ausgabe Seminarfach, Sprachniveau)
 * NEW: Schülerbericht "KV09b_Masernschutz.rpt", Anleitung unter [https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt](https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt)
+* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Abschrift).rpt
+* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018).rpt
+* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Neuausstellung).rpt
