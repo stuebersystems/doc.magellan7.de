@@ -61,3 +61,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Abschrift).rpt
 * FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018).rpt
 * FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Neuausstellung).rpt
+* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Abschrift).rpt
+* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021).rpt
+* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Neuausstellung).rpt
