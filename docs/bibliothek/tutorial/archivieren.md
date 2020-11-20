@@ -21,7 +21,24 @@ Diese Berichtsarten werden jeweils pro Ausleiher in der MAGELLAN-Dokumentenverwa
 
 Die Dokumente werden getrennt nach Schüler, Lehrer und Personen verwaltet. Für jede Ausleihergruppe wird in der der MAGELLAN-Dokumentenverwaltung jeweils ein eigenes Unterverzeichnis angelegt.
 
-## Quittungen archivieren
+
+!!! danger "Achtung"
+
+    Damit keine Dokumente der Schulverwaltung einsehbar sind, werden die Dokumente, die aus dem Modul BIBLIOHTHEK erzeugt werden in einem gleichnamigen Unterordner gespeichert. 
+
+    Beispiel: 
+    
+    Dokumente für den Schüler mit der ID 47 würden aus der Schulverwaltung heraus gespeichert werden unter:
+    
+    `...\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\47`
+
+    Bibliotheksdokumente werden gespeichert unter:
+
+     `...\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\47\Bibliothek`
+     
+     Das Wechseln in die nächsthöhere Ebene des Verzeichnisses ist aus der Bibliothek heraus unterbunden.
+    
+    ## Quittungen archivieren
 
 Um Ihre Leihvorgangsquittungen elektronisch zu archivieren, gehen Sie bitte folgendermaßen vor:
 
