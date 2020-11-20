@@ -108,6 +108,7 @@ Mandanten-Administrator | Administratorenrechte, aber kein umfasssender Zugriff 
 Import/Export | Zusätzlich zum Schulverwaltungsrecht kann die Möglichkeit des Importes und Exportes (Seriendruck, Excelexport, Schuldatentransferformat) gesteuert werden.
 Drucken | Zusätzlich zum Benutzerrecht kann das Drucken ermöglicht werden
 Dokumentenverwaltung | Zusätzlich zum Benutzerrecht die Möglichkeit auf die Dokumentenverwaltung zuzugreifen
+Verzeichnisse|Je Benutzer kann für die Schulverwaltung  festgelegt werden, ob der Benutzer die Verzeichnisse in MAGELLAN zu editieren. Das Menü `Extras > Schlüsselverzeichnisse` wird für Benutzer in MAGELLAN ausgeblendet. 
 Berufsschule | Regelt zusätzlich zum Benutzerrecht den Zugriff des Nutzers auf den Menüpunkt Berufsschule
 Berufsschule-Prüfungsnoten | Regelt zusätzlich zum Benutzerrecht die Sichtbarkeit der Spalten Prüfungsnote und Prüfungsnote (Kontrolle) im Menüpunkt Berufsschule auf der Registerkarte Matrix
 Administratorenrechte | Keine Zugriffseinschränkungen (Administratorenkennung mit Benutzer: sysdba)
@@ -127,11 +128,9 @@ Kollegium 4 | * Wie Kollegium 2, aber keine Zeugnisformulare und Zeugnisbemerkun
 Kollegium 5 | * Wie Kollegium 2, als Tutor, Klassenleiter1 oder Klassenleiter2 zusätzlich auch das Abiturmenü für alle Schüler editierbar
 Gast 1 | * Leserechte<br/>*  Schreibzugriff ist nicht möglich <br/>* Menü „Lehrer“ zeigt nur die eigenen Personaldaten<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Gast 2 | * Leserechte <br/>* Schreibzugriff ist nicht möglich <br/>* Menü „Lehrer“ zeigt die Personaldaten aller Lehrer<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
-Statistik-Administrator | Wie Schulleitung 1 zusätzlich können die folgenden Punkte ausgeführt werden: <br/> *  im Administratormodul „Schlüsselverzeichnisse importieren“<br/> * „Mach-Export“<br/> * den Abgleich zwischen MAGELLAN und daVinci<br/> *  Starten des DWH-Explorers
+Statistik-Administrator | Innerhalb der Schulverwaltung wie `Schulleitung 1` zusätzlich können die folgenden Punkte ausgeführt werden: <br/> * im MAGELLAN ADMINISTRATOR „Schlüsselverzeichnisse importieren“<br/> * Abgleich zwischen MAGELLAN und daVinci
 
-!!! info "Hinweis"
 
-	Je Benutzer kann für die Schulverwaltung insbesondere festgelegt werden, ob der Benutzer das zusätzliche Recht besitzt, die Verzeichnisse in MAGELLAN zu editieren. Kann er die Verzeichnisse nicht editieren, so wird das Menü „Verzeichnis“ für Benutzer in MAGELLAN ausgeblendet. Er kann somit keine Schlüssel in den Verzeichnissen ändern. Im Standardfall hat ein Benutzer kein Recht Verzeichnisse zu editieren, das dies im Regelfall nur von einem ausgewählten kleinen Personenkreis durchgeführt werden soll.
 
 ### Bibliotheksrechte
 

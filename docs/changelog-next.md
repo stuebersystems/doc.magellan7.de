@@ -18,7 +18,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.21 - 715
+## 7.1.21 - 716
+
+### Datenstruktur
+
+* CHANGE: SchuelerZeitraeume.BU um Statistikadmin als Recht erweitert
+* CHANGE: Constrain für Dienstbez ergänzt
 
 ### MAGELLAN SCHULVERWALTUNG
 
@@ -43,7 +48,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* CHANGE: 
+* FIX: Exportieren von Dokumenten nach `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\SchuelerID\Bibliothek` korrigiert
+* CHANGE: STRG+D für den Aufruf des Dokumenteverzeichnisses im Menü `Schüler` ergänzt
 
 ### Skripte
 
