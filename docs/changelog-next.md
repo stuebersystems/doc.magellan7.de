@@ -30,6 +30,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
 * FIX: Emailversand aus `Extras > Benachrichtigungen` korrigiert
 
+### MYMAGELLAN
+
+* CHANGE: Filteransicht `Fächer`: Spaltenposition und Gruppierungen bleiben bei Datensatzwechsel erhalten (nicht bei Ansichtswechsel)
+
 ### MAGELLAN Schnittstellen
 
 #### NRW
