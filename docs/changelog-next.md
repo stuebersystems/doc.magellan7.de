@@ -32,7 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MYMAGELLAN
 
-* CHANGE: Filteransicht `Fächer`: Spaltenposition und Gruppierungen bleiben bei Datensatzwechsel erhalten (nicht bei Ansichtswechsel)
+* CHANGE: Filteransicht `Fächer`/`Schüler`: Spaltenposition und Gruppierungen bleiben bei Datensatzwechsel innerhalb der Ansicht erhalten (nicht bei Ansichtswechsel). Bei der Ansicht `Schüler` gibt es noch die Besonderheit, dass die Spalte `Kurs` immer die erste Spalte ist.
 
 ### MAGELLAN Schnittstellen
 
