@@ -74,3 +74,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Abschrift).rpt
 * NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021).rpt
 * NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Neuausstellung).rpt
+* CHANGE: Unfallbericht.rpt (Aufteilung für Sichtfensterumschlag, SB-Vornamen ergänzt, Schulleiter Vor- und Nachname wird ausgegeben)
