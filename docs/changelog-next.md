@@ -29,6 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
 * FIX: Emailversand aus `Extras > Benachrichtigungen` korrigiert
+* CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.29
 
 ### MYMAGELLAN
 
@@ -59,7 +60,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* CHANGE:
+* FIX: `Importiere sdtf.dws` Problem beim Zuweisen von Lehrerunterricht für Veranstaltungen denen mehrer Klassen zugewiesen wruden (Zusatzunterricht U6-Datensatz) gelöst
 
 ### Berichte
 
