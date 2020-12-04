@@ -18,22 +18,19 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.21 - 716
+## 7.1.22 - 717
 
 ### Datenstruktur
 
-* CHANGE: SchuelerZeitraeume.BU um Statistikadmin als Recht erweitert
-* CHANGE: Constrain für Dienstbez ergänzt
+* CHANGE: 
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
-* FIX: Emailversand aus `Extras > Benachrichtigungen` korrigiert
-* CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.29
+* FIX: 
 
 ### MYMAGELLAN
 
-* CHANGE: Filteransicht `Fächer`/`Schüler`: Spaltenposition und Gruppierungen bleiben bei Datensatzwechsel innerhalb der Ansicht erhalten (nicht bei Ansichtswechsel). Bei der Ansicht `Schüler` gibt es noch die Besonderheit, dass die Spalte `Kurs` immer die erste Spalte ist.
+* CHANGE: 
 
 ### MAGELLAN Schnittstellen
 
@@ -53,29 +50,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN Bibliothek
 
-* FIX: Exportieren von Dokumenten nach `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\SchuelerID\Bibliothek` korrigiert
-* CHANGE: STRG+D für den Aufruf des Dokumenteverzeichnisses im Menü `Schüler` ergänzt
+* FIX: 
 
 ### Skripte
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: `Importiere sdtf.dws` Problem beim Zuweisen von Lehrerunterricht für Veranstaltungen denen mehrer Klassen zugewiesen wruden (Zusatzunterricht U6-Datensatz) gelöst
+* FIX: 
 
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* CHANGE: SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt wurde Für MAGELLAN 7 angpasst
-* FIX: SAR-GY-ABI (GOS2.0).rpt (Ausgabe Seminarfach, Sprachniveau)
-* NEW: Schülerbericht "KV09b_Masernschutz.rpt", Anleitung unter [https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt](https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt)
-* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Abschrift).rpt
-* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018).rpt
-* FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Neuausstellung).rpt
-* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Abschrift).rpt
-* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021).rpt
-* NEW: BAW-BG-ABI (DIN A4 doppelseitig 2021 - Neuausstellung).rpt
-* CHANGE: Unfallbericht.rpt (Aufteilung für Sichtfensterumschlag, SB-Vornamen ergänzt, Schulleiter Vor- und Nachname wird ausgegeben)
-* FIX: Schülerliste (mit Sorgeberechtigten).rpt
-* FIX: Schülerliste (mit Sorgeberechtigten französisch).rpt
-* FIX: Schülerliste (mit Sorgeberechtigten deutsch).rpt
+* CHANGE:
