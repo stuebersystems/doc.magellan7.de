@@ -67,6 +67,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Schülerliste (mit Sorgeberechtigten).rpt
 * FIX: Schülerliste (mit Sorgeberechtigten französisch).rpt
 * FIX: Schülerliste (mit Sorgeberechtigten deutsch).rpt
+* FIX: BER-KO-AS (Schul Z 322)(03.11).rpt
 
 ## 7.1.20 - 715 (29.10.2020)
 
