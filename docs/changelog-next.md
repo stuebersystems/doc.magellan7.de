@@ -57,7 +57,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: 
+* FIX: BER-IBA-HJ-2020.dws - Korrekturen
+* FIX: BER-IBA-AS-2020.dws - Berechnung des Abschluss für das 1. HJ, Korrekturen
 
 ### Berichte
 
