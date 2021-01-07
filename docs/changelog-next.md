@@ -32,6 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: erneutes Versetzen von Schülern in einen anderen Mandanten korrigiert
 * FIX: Versetzen von Schülern in einen anderen Mandanten mit Daten aus den Tabellen "BewerberVerfahren", "BewerberFachdaten" und  "BewerberUnterlagen korrigiert
 * FIX: Beim Versetzen von Schülern in einen anderen Mandanten wurde versucht für die Schülerkopie die gleiche ID (mit neuen MandantenID) zu verwenden.
+* FIX: Beim Versetzen von Schülern als Vagabund oder Bewerber in einen anderen Mandanten werden die zugewiesenen Sorgeberechtigten im neuen Mandanten stets aktiviert. 
 
 ### MYMAGELLAN
 
@@ -45,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN ADMINISTRATOR
 
-* CHANGE: 
+* CHANGE: Lesen der Magellan.paths beim Programmstart korrigiert
 
 ### MyMAGELLAN-CENTER
 
