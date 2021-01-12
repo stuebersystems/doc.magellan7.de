@@ -30,7 +30,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MYMAGELLAN
 
-* CHANGE: 
+* CHANGE: Zeugnisbemerkungen werden in voller Länge aus MAGELLAN übergeben
 
 ### MAGELLAN Schnittstellen
 
