@@ -27,6 +27,9 @@ Datenkarten          | Wechsel zu vorhergehenden Karte | STRG+Shift+Tab
 Dokumente            | Aufruf des Dokumentefensters für den markierten Schüler | STRG+D
 Drucken              | Aufruf des Druckmenüs Berichte | STRG+P
 Drucken              | Aufruf des Druckmenüs Zeugnisse | STRG+Z
+Drucken<br/>im Berichtefenster| Vorschau | STRG + V
+Drucken<br/>im Berichtefenster| Druck | STRG + P
+Drucken<br/>im Berichtefenster| PDF-Export <br/>ins Dokumenteverzeichnis | STRG + E
 jeder Menüpunkt      | Erster Datensatz | STRG+Start (Pos1)
 jeder Menüpunkt      | Export nach Excel | STRG+E
 jeder Menüpunkt      | Export nach HTML | STRG+H
