@@ -60,8 +60,8 @@ nav:
       - Geplante Änderungen: changelog/changelog-next.md
       - Änderungen 2020: changelog//changelog2019.md
       - Änderungen 2019: changelog/changelog2019.md
-      - Neuerung MAGELLAN 7: neu.mag7.md
-      - Neuerung MAGELLAN 78: neu.mag8.md       
+      - Neuerung MAGELLAN 6 => 7: neu.mag7.md
+      - Neuerung MAGELLAN 7 => 8: neu.mag8.md       
 - Schulverwaltung:
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
