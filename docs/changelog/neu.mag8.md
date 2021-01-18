@@ -12,3 +12,6 @@ Für eigene Berichte können Sie die Werte gaben damit gezielt ausgeben.
 Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir die Werte in der zweiten Spalte auf. Erkannt wird die Zeile anhand des Schlüssels, die Schlüssel sind bundeslandübergreifend einheitlich.
 
 ![Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten](../assets/images/changelog/aenderungen8/01.png)
+
+## Benutzerrechte
+
