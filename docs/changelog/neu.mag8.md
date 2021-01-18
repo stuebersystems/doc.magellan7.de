@@ -13,6 +13,12 @@ Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir 
 
 ![Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten](/assets/images/changelog/aenderungen8/01.png)
 
+### Hauptversicherter
+
+Jedem Schüler können mehrere Familienangehörige zugeordnet werden. Zusätzlich kann gezielt ein Familienmitglied als `Hauptversicherter` markiert werden. Diese Möglichkeit finden Sie unter `Schüler > Daten1 > Familie`. Markieren Sie den gewünschten Eintrag, klicken Sie auf das Editiersymbol im Folgefenster kann per Haken die Auswahl `Hauptversicherter` getroffen werden. Diese Auswahl wird unter `Daten1 > Familie` für das Familienmitglied in blau hervorgehoben.
+
+![Schüler > Daten1 > Familie](/assets/images/changelog/aenderungen8/04.png)
+
 ### Registerkarte Abschluss
  
 `Schüler > Laufbahn > Abschluss` die Bezeichnung der `Abschlussart` lautet nun `Abschlussart1`  und `Abschlussart2`.
