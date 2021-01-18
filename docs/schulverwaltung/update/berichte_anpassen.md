@@ -281,6 +281,6 @@ CR optimiert vor dem Aufruf des Berichtes selbständig (und nicht unterdrückbar
 
 Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen (110,- € netto die Stunde, Abrechnung im Halbstundentakt) anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
 
-Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem Stichwort "Kurzeinweisung: Bericht für Magellan 7 umstellen" an [office@stueber.de](office@stueber.de), wir erstellen Ihnen gern ein Angebot.
+Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Kurzeinweisung: Bericht für Magellan 7 umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot.
 
 Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen, wir vereinbaren einen Termin mit Ihnen und stellen den Bericht dann mit Ihnen gemeinsam in einer Teamviewer-Sitzung um.

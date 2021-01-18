@@ -1,4 +1,5 @@
 # Änderungen 2019
+
 ## LEGENDE
 
 Abkürzung | Bedeutung
