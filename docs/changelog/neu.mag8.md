@@ -45,10 +45,21 @@ STRG + E | Exportiert den gewählten Bericht als PDF ins Dokumentenverzeichnis<b
 
 Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per Sammelzuweisung den Schülern zugeordnet werden.
 
+### Noten aus alten Halbjahren übernehmen
+
+1. Wählen Sie den Zeitraum, in den die Note fortgeschrieben werden soll
+2. Starten Sie den Aufruf `Laufbahnprozess > Noten Fortschreiben`
+3. Schüler auswählen
+4. Alten Zeitraum auswählen, ggf. Option "eingetragene Noten überschreiben" auswählen
+5. Fächer auswählen
+6. Fertigstellen!
+
+Es werden die Noten für die ausgewählten Schüler und ausgewählten Fächer kopiert, wenn die Option überschreiben angehakt ist, werden Noten überschrieben, ansonsten wird das Fach übersprungen.
+
 ### Auswahlliste Bewerber
  
 Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
- 
+
 ![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
 
 ### Bewerberstatus Ablehnungsbescheid
