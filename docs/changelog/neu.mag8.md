@@ -56,6 +56,16 @@ Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per 
 
 Es werden die Noten für die ausgewählten Schüler und ausgewählten Fächer kopiert, wenn die Option überschreiben angehakt ist, werden Noten überschrieben, ansonsten wird das Fach übersprungen.
 
+### neue Schüler-Merkmale
+
+Unter `Schüler > Merkmale` stehen vier neue Felder zur Verfügung (`MerkmalA7`-`MerkmalA10`). Diese Merkmale können per Sammelzuweisung befüllt werden.
+
+### Bemerkungsliste
+
+Unter `Schüler > Merkmale` gibt es eine neue Liste
+
+### Besonderheitenliste
+
 ### Thema der BLL auf 300 Zeichen erhöht
 
 Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen für das Thema gespeichert werden.
