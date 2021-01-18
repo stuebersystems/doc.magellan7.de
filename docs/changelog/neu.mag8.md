@@ -45,7 +45,7 @@ Tastenkürzel| Aktion
 --|--
 STRG + V | Ruft die Vorschau auf
 STRG + P | Druckt den markierten Bericht aus
-STRG + E | Exportiert den gewählten Bericht ins individuelle Dokumentenverzeichnis
+STRG + E | Exportiert den gewählten Bericht als PDF ins Dokumentenverzeichnis<br/>(abhängig von den Voreinstellungen unter `Datenbank > Optionen > Dokumente`)
 
 ## MAGELLAN ADMINISTRATOR
 
