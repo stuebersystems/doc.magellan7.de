@@ -31,12 +31,6 @@ Unter `Schüler > Zeugnis > Fächer` kann je Fachzeile ein Thema vergeben werden
 
 ![Schüler > Zeugnis > Fächer > Thema](/assets/images/changelog/aenderungen8/05.png)
 
-### Auswahlliste Bewerber
- 
-Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
- 
-![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
-
 ### Tastenkürzel für im Berichtefenster
 
 Neue Tastenkürzel erleichtern den Druck, Export und den Aufruf der Vorschau in allen Menüs für die Aufrufen `Berichte drucken` oder `Zeugnisse drucken`.
@@ -50,6 +44,16 @@ STRG + E | Exportiert den gewählten Bericht als PDF ins Dokumentenverzeichnis<b
 ### Schülerausweisdatum gesammelt zuweisen
 
 Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per Sammelzuweisung den Schülern zugeordnet werden.
+
+### Auswahlliste Bewerber
+ 
+Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
+ 
+![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
+
+### Bewerberstatus Ablehnungsbescheid
+
+Im Menü `Bewerber` gibt es den neuen Wert `Ablehungsbescheid` im Feld `Status`. 
 
 ## MAGELLAN ADMINISTRATOR
 
