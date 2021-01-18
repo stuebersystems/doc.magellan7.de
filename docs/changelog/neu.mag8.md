@@ -2,7 +2,7 @@
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 7. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
-## Schulverwaltung
+## MAGELLAN Schulverwaltung
 
 ### Verzeichnis Staatsangehörigkeiten
 
@@ -11,21 +11,14 @@ Für eigene Berichte können Sie die Werte gaben damit gezielt ausgeben.
 
 Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir die Werte in der zweiten Spalte auf. Erkannt wird die Zeile anhand des Schlüssels, die Schlüssel sind bundeslandübergreifend einheitlich.
 
-![Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten](../assets/images/changelog/aenderungen8/01.png)
+![Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten](/assets/images/changelog/aenderungen8/01.png)
 
-<<<<<<< HEAD
+## MAGELLAN ADMINISTRATOR
+
 ## Benutzerrechte
 
-=======
-### Auswahlliste Bewerber
+Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der Schulverwaltung unterbinden. Melden Sie sich als Administrator (`sysdba`) MAGELLAN ADMINISTRATOR an. Im Menüpunkt `Benutzerverwaltung` wählen Sie per Doppelklick den anzupassenden Benutzeraccount aus. Auf der neuen Registerkarte `Ansichten` können Sie per Häkchen den Zugriff gewähren oder unterbinden.
 
-Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
 
-![ `Bewerber > Auswahl`](../assets/images/changelog/aenderungen8/02.png)
+![Benutzerverwaltung > Ansichten ausblenden](/assets/images/changelog/aenderungen8/02.png)
 
-### Registerkarte Abschluss
-
-`Schüler > Laufbahn > Abschluss` die Bezeichnung des `Abschlussart` lautet nun `Abschlussart1`  und `Abschlussart2`.
-
-![ `Schüler > Laufbahn > Abschlus`](../assets/images/changelog/aenderungen8/03.png)
->>>>>>> 3ea8a155e4d27d5ce23c9f4eabf8913de11a0d85
