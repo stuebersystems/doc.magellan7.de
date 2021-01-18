@@ -25,6 +25,12 @@ Jedem Schüler können mehrere Familienangehörige zugeordnet werden. Zusätzlic
 
 ![ `Schüler > Laufbahn > Abschluss`](/assets/images/changelog/aenderungen8/03.png)
 
+### Fachthema
+
+Unter `Schüler > Zeugnis > Fächer` kann je Fachzeile ein Thema vergeben werden. Klicken Sie doppelt für das gewünschte Fach auf das Feld `Thema`, es öffnet sich ein Bearbeitungsfenster. 
+
+![Schüler > Zeugnis > Fächer > Thema](/assets/images/changelog/aenderungen8/05.png)
+
 ### Auswahlliste Bewerber
  
 Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
