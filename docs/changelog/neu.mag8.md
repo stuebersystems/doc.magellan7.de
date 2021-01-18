@@ -39,11 +39,13 @@ Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremd
 
 ### Tastenkürzel für im Berichtefenster
 
+Neue Tastenkürzel erleichtern den Druck, Export und den Aufruf der Vorschau in allen Menüs für die Aufrufen `Berichte drucken` oder `Zeugnisse drucken`.
+
 Tastenkürzel| Aktion
 --|--
-STRG + V | Vorschau
-STRG + P | Drucken
-STRG + E |Export
+STRG + V | Ruft die Vorschau auf
+STRG + P | Druckt den markierten Bericht aus
+STRG + E | Exportiert den gewählten Bericht ins individuelle Dokumentenverzeichnis
 
 ## MAGELLAN ADMINISTRATOR
 
