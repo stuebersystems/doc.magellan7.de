@@ -56,6 +56,10 @@ Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per 
 
 Es werden die Noten für die ausgewählten Schüler und ausgewählten Fächer kopiert, wenn die Option überschreiben angehakt ist, werden Noten überschrieben, ansonsten wird das Fach übersprungen.
 
+### Thema der BLL auf 300 Zeichen erhöht
+
+Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen für das Thema gespeichert werden.
+
 ### Auswahlliste Bewerber
  
 Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
@@ -65,6 +69,10 @@ Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremd
 ### Bewerberstatus Ablehnungsbescheid
 
 Im Menü `Bewerber` gibt es den neuen Wert `Ablehungsbescheid` im Feld `Status`. 
+
+### Bewerber mit Sorgeberechtigten löschen
+
+Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die Sorgeberechtigten mit derselben Aktion löschen kann, wenn keine anderen Schüler oder Bewerber mit dem Sorgeberechtigten verknüpft sind.
 
 ## MAGELLAN ADMINISTRATOR
 
