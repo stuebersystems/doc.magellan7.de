@@ -37,6 +37,14 @@ Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremd
  
 ![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
 
+### Tastenkürzel für im Berichtefenster
+
+Tastenkürzel| Aktion
+--|--
+STRG + V | Vorschau
+STRG + P | Drucken
+STRG + E |Export
+
 ## MAGELLAN ADMINISTRATOR
 
 ### Benutzerrechte
