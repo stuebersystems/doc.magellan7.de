@@ -13,5 +13,19 @@ Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir 
 
 ![Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten](../assets/images/changelog/aenderungen8/01.png)
 
+<<<<<<< HEAD
 ## Benutzerrechte
 
+=======
+### Auswahlliste Bewerber
+
+Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
+
+![ `Bewerber > Auswahl`](../assets/images/changelog/aenderungen8/02.png)
+
+### Registerkarte Abschluss
+
+`Schüler > Laufbahn > Abschluss` die Bezeichnung des `Abschlussart` lautet nun `Abschlussart1`  und `Abschlussart2`.
+
+![ `Schüler > Laufbahn > Abschlus`](../assets/images/changelog/aenderungen8/03.png)
+>>>>>>> 3ea8a155e4d27d5ce23c9f4eabf8913de11a0d85
