@@ -106,6 +106,8 @@ Im Menü `Bewerber` gibt es den neuen Wert `Ablehungsbescheid` im Feld `Status`.
 
 Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die Sorgeberechtigten mit derselben Aktion löschen kann, wenn keine anderen Schüler oder Bewerber mit dem Sorgeberechtigten verknüpft sind.
 
+![ `Sorgeberechtigte optional mitlöschen`](/assets/images/changelog/aenderungen8/11.png)
+
 ## MAGELLAN ADMINISTRATOR
 
 ### Benutzerrechte
