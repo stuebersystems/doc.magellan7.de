@@ -93,18 +93,26 @@ Unter `Extras > Schlüsselverzeichnisse > Besonderheiten` können als Grundlage 
 Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen für das Thema gespeichert werden.
 
 ### Auswahlliste Bewerber
- 
+
 Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
 
 ![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
 
 ### Bewerberstatus Ablehnungsbescheid
 
-Im Menü `Bewerber` gibt es den neuen Wert `Ablehungsbescheid` im Feld `Status`. 
+Im Menü `Bewerber` gibt es den neuen Wert `Ablehnungsbescheid` im Feld `Status`.
 
 ### Bewerber mit Sorgeberechtigten löschen
 
 Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die Sorgeberechtigten mit derselben Aktion löschen kann, wenn keine anderen Schüler oder Bewerber mit dem Sorgeberechtigten verknüpft sind.
+
+### Seriendruck
+
+#### Lehrer
+
+Erweiterung des Seriendruckes für Lehrer um die Felder `Lehrkraft > Daten2 > Amtsbez` und die `Lehrkraft > Daten2 > Dienstbez`.
+
+
 
 ## MAGELLAN ADMINISTRATOR
 
