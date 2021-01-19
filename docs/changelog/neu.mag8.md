@@ -106,12 +106,11 @@ Im Menü `Bewerber` gibt es den neuen Wert `Ablehnungsbescheid` im Feld `Status`
 
 Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die Sorgeberechtigten mit derselben Aktion löschen kann, wenn keine anderen Schüler oder Bewerber mit dem Sorgeberechtigten verknüpft sind.
 
-<<<<<<< HEAD
 ![ `Sorgeberechtigte optional mitlöschen`](/assets/images/changelog/aenderungen8/11.png)
-=======
-### Betriebe
 
-DIe Möglichkeit einen Kontakt für Betrieb zu hinterlegen `Betriebe > Kontakte` wurde um das Feld `Anrede`erweitert.
+### Anrede für Ausbilderkontakt
+
+Die Möglichkeit einen Kontakt für Betrieb zu hinterlegen `Betriebe > Kontakte` wurde um das Feld `Anrede`erweitert.
 
 ### Seriendruck
 
@@ -122,7 +121,6 @@ Erweiterung des Seriendruckes für Schülers um das Feld `Betriebe > Kontakte > 
 #### Lehrer
 
 Erweiterung des Seriendruckes für die Lehrkraft um die Felder `Lehrkraft > Daten2 > Amtsbez` und die `Lehrkraft > Daten2 > Dienstbez`.
->>>>>>> e74cdbbb2c939bb9cb30588154160e41325bfe1a
 
 ## MAGELLAN ADMINISTRATOR
 
