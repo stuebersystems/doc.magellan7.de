@@ -93,20 +93,36 @@ Unter `Extras > Schlüsselverzeichnisse > Besonderheiten` können als Grundlage 
 Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen für das Thema gespeichert werden.
 
 ### Auswahlliste Bewerber
- 
+
 Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
 
 ![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
 
 ### Bewerberstatus Ablehnungsbescheid
 
-Im Menü `Bewerber` gibt es den neuen Wert `Ablehungsbescheid` im Feld `Status`. 
+Im Menü `Bewerber` gibt es den neuen Wert `Ablehnungsbescheid` im Feld `Status`.
 
 ### Bewerber mit Sorgeberechtigten löschen
 
 Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die Sorgeberechtigten mit derselben Aktion löschen kann, wenn keine anderen Schüler oder Bewerber mit dem Sorgeberechtigten verknüpft sind.
 
+<<<<<<< HEAD
 ![ `Sorgeberechtigte optional mitlöschen`](/assets/images/changelog/aenderungen8/11.png)
+=======
+### Betriebe
+
+DIe Möglichkeit einen Kontakt für Betrieb zu hinterlegen `Betriebe > Kontakte` wurde um das Feld `Anrede`erweitert.
+
+### Seriendruck
+
+#### Schüler
+
+Erweiterung des Seriendruckes für Schülers um das Feld `Betriebe > Kontakte > Anrede`.
+
+#### Lehrer
+
+Erweiterung des Seriendruckes für die Lehrkraft um die Felder `Lehrkraft > Daten2 > Amtsbez` und die `Lehrkraft > Daten2 > Dienstbez`.
+>>>>>>> e74cdbbb2c939bb9cb30588154160e41325bfe1a
 
 ## MAGELLAN ADMINISTRATOR
 
@@ -115,3 +131,9 @@ Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die So
 Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der Schulverwaltung unterbinden. Melden Sie sich als Administrator (`sysdba`) MAGELLAN ADMINISTRATOR an. Im Menüpunkt `Benutzerverwaltung` wählen Sie per Doppelklick den anzupassenden Benutzeraccount aus. Auf der neuen Registerkarte `Ansichten` können Sie per Häkchen den Zugriff gewähren oder unterbinden.
 
 ![Benutzerverwaltung > Ansichten ausblenden](/assets/images/changelog/aenderungen8/02.png)
+
+## MAGELLAN BIBLIOTHEK
+
+### Ausleihen
+
+Die Auswahllisten der Lehrer und Personen `Lehrer > Auswahl`und `Personen > Auswahl`wurden um das Feld `Ausleihe`erweitert.
