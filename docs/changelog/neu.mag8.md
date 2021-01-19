@@ -62,9 +62,31 @@ Unter `Schüler > Merkmale` stehen vier neue Felder zur Verfügung (`MerkmalA7`-
 
 ### Bemerkungsliste
 
-Unter `Schüler > Merkmale` gibt es eine neue Liste
+Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung der unterschiedlichesten Textinhalte. Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategorie lässt es zu, dass eingetippte Werte gemerkt und für die nächste Zeile bereits zur Auswahl angeboten werden.
 
-### Besonderheitenliste
+![ `Bemerkungsliste`](/assets/images/changelog/aenderungen8/07.png)
+
+### Besonderheitenliste Schüler
+
+Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Schüler-Besonderheiten. 
+Jeder Zeile kann aus dem neuen Schlüsselverzeichnis `Besonderheiten` ein Schlüsselwert zugewiesen werden.
+Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategorie lässt es zu, dass eingetippte Werte gemerkt und für die nächste Zeile bereits zur Auswahl angeboten werden.
+
+![`Besonderheitenliste`](/assets/images/changelog/aenderungen8/09.png)
+
+### Besonderheitenliste Klasse
+
+Unter `Klassen > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Klassen-Besonderheiten. 
+Jeder Zeile kann aus dem neuen Schlüsselverzeichnis `Besonderheiten` ein Schlüsselwert zugewiesen werden.
+Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategorie lässt es zu, dass eingetippte Werte gemerkt und für die nächste Zeile bereits zur Auswahl angeboten werden.
+
+![`Besonderheitenliste`](/assets/images/changelog/aenderungen8/10.png)
+
+### Schlüsselverzeichnis Besonderheiten
+
+Unter `Extras > Schlüsselverzeichnisse > Besonderheiten` können als Grundlage für die Eintragungen der Besonderheitenlisten für Schüler und Klassen Schlüsselwerte angelegt werden. In welcher der beiden Listen Ihre Eintragung gezeigt wird, muss mit der Auswahl im Feld `Kategorie` festgelegt werden.
+
+![`Besonderheitenliste`](/assets/images/changelog/aenderungen8/08.png)
 
 ### Thema der BLL auf 300 Zeichen erhöht
 
