@@ -31,6 +31,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MYMAGELLAN
 
 * CHANGE: Zeugnisbemerkungen werden in voller Länge aus MAGELLAN übergeben
+* FIX: Eingabe von Noten/Punkten über Fächer, korrekter Filter gesetzt
 
 ### MAGELLAN Schnittstellen
 
