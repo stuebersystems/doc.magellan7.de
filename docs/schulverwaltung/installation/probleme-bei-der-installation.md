@@ -32,6 +32,16 @@ Im Feld Protokoll sollte TCP/IP gewählt werden, im Feld Server tragen Sie bitte
 
     Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
 
+## Fehler beim Schreiben in Datei. CrystalDecisions.CrystalReports.Engine.dll
+
+![Fehlermeldung](/assets/images/installation/03.png)
+
+Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
+
+[https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
+
 ## Fehler beim Registrieren von Modul ... crtslv.dll
 
 ![Fehlermeldung](/assets/images/installation/fehler_cr.png)
