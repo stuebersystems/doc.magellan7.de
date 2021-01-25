@@ -3,12 +3,12 @@
 
 Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den ADMINISTRATOR:
 
-* [MAGELLAN ADMINISTRATOR](https://doc.magellan7.stueber.de/schulverwaltung/admin/magellan.administrator.html)
- * [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen.html)
- * [Benutzerverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/admin/users.html)
- * [Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege.html)
- * [Datenaustausch](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch.html)
- * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch.html)
+* [MAGELLAN ADMINISTRATOR](https://doc.magellan7.stueber.de/schulverwaltung/admin/magellan.administrator)
+ * [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
+ * [Benutzerverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/admin/users)
+ * [Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege)
+ * [Datenaustausch](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch)
+ * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch)
 
 ## Start
 

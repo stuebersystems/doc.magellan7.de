@@ -38,7 +38,7 @@ Benennung                                     | Anmerkung
 Dateinamenanfang "AS_"                        | Schlüsseldateien die mit "AS_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` zum Import angeboten
 Dateinamenanfang "BS_"                        | Schlüsseldateien die mit "BS_" bezeichnet sind, werden beim Aufruf `für berufsbildende Schulen` zum Import angeboten
 Dateinamenanfang "00_"                        | Schlüsseldateien die mit "00_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` und beim Aufruf `für berufsbildende Schulen` zum Import angeboten
-Text ab Zeichen 4<br/>(im Beispiel "Faecher") | Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert. Eine vollständige Aufzählung der Schlüsselverzeichnisse, inklusive der Beschreibung für den Aufbau der Katalogdateien finden Sie im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien.html).
+Text ab Zeichen 4<br/>(im Beispiel "Faecher") | Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert. Eine vollständige Aufzählung der Schlüsselverzeichnisse, inklusive der Beschreibung für den Aufbau der Katalogdateien finden Sie im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien).
 
 ### Importiere folgenden Katalog
 
@@ -48,7 +48,7 @@ Es können entweder alle keys-Dateien (AS_xxx und 00_xxx oder BS_xxx und 00_xxx 
 
 !!! info "Hinweis"
 
-    Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien.html).
+    Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien).
 
 Jede dieser Dateien muss als CSV-Datei aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und
 ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch

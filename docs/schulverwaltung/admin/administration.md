@@ -4,23 +4,23 @@ Dieses Kapitel richtet sich an Administratoren und soll einen Einblick in die MA
 
 Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den Administrator:
 
-* [MAGELLAN ADMINISTRATOR](https://doc.magellan7.stueber.de/schulverwaltung/admin/magellan.administrator.html)
-  * [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen.html)
-  * [Benutzerverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/admin/users.html)
-  * [MYMAGELLAN CENTER](https://doc.magellan7.stueber.de/schulverwaltung/admin/mymagellan-center.html)
-  * [Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege.html)
-  * [Datenaustausch](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch.html)
-  * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch.html)
+* [MAGELLAN ADMINISTRATOR](https://doc.magellan7.stueber.de/schulverwaltung/admin/magellan.administrator)
+  * [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
+  * [Benutzerverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/admin/users)
+  * [MYMAGELLAN CENTER](https://doc.magellan7.stueber.de/schulverwaltung/admin/mymagellan-center)
+  * [Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege)
+  * [Datenaustausch](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch)
+  * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch)
 
 Weitere Themen:
 
-* [Weitere Themen](https://doc.magellan7.stueber.de/schulverwaltung/admin/weitere.themen.html)
-  * [MAGELLAN Optionen](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences.html)  
-  * [Sicherung per Windows Task](https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task.html)
-  * [Mehrmandantenlösungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/mehrmandantenloesung.html)
-  * [Access-Anbindung](https://doc.magellan7.stueber.de/schulverwaltung/admin/access.anbindung.html)
-  * [Protokollierung](https://doc.magellan7.stueber.de/schulverwaltung/admin/protocol.html)
-  * [Aktionen im Silentmode](https://doc.magellan7.stueber.de/schulverwaltung/installation/magellan-administrator-im-silentmode-starten.html)
+* [Weitere Themen](https://doc.magellan7.stueber.de/schulverwaltung/admin/weitere.themen)
+  * [MAGELLAN Optionen](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences)  
+  * [Sicherung per Windows Task](https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task)
+  * [Mehrmandantenlösungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/mehrmandantenloesung)
+  * [Access-Anbindung](https://doc.magellan7.stueber.de/schulverwaltung/admin/access.anbindung)
+  * [Protokollierung](https://doc.magellan7.stueber.de/schulverwaltung/admin/protocol)
+  * [Aktionen im Silentmode](https://doc.magellan7.stueber.de/schulverwaltung/installation/magellan-administrator-im-silentmode-starten)
   * [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de/)
 
 
