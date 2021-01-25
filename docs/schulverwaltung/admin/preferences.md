@@ -4,7 +4,7 @@ In MAGELLAN können Sie einige Einstellungen vornehmen. Klicken Sie auf `Datenba
 
 !!! info "Hinweis"
 
-	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei.html).
+	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei).
 
 ## Start
 
@@ -76,7 +76,7 @@ Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro
 
 ## Update
 
-Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan7.stueber.de/schulverwaltung/update.html).
+Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan7.stueber.de/schulverwaltung/update).
 
 ![Unterkarte Update](/assets/images/optionen_update.png)
 
@@ -158,7 +158,7 @@ Es steht Ihnen optional eine Rechtschreibprüfung an zwei Stellen im Programm zu
 
 ## Masken
 
-Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/masken.html) beschrieben.
+Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/masken) beschrieben.
 
 
 ![Unterpunkt `Masken`](/assets/images/optionen_masken.png)
@@ -173,7 +173,7 @@ Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewä
 
 !!! info "Hinweis"
 
-	Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten.html).
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten).
 
 
 
@@ -192,7 +192,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 !!! info "Hinweis"
 
-	Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten.html).
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten).
 
 
 
@@ -200,7 +200,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
 
-Eine ausführliche Beschreibung finden Sie im Abschnitt [Administration > Mehrmandantenlösungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/mehrmandantenloesung.html).
+Eine ausführliche Beschreibung finden Sie im Abschnitt [Administration > Mehrmandantenlösungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/mehrmandantenloesung).
 
 ## ENBREA
 
