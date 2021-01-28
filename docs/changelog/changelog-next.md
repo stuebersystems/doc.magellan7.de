@@ -65,7 +65,19 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+#### Berlin
+
 * FIX: BER-Schul Z 303 (11.19).rpt (Entwertung unter Zeugnisbemerkung entfernt, max. Anzahl von Fächern des Sprachlich-literarisch-künstlerisches Aufgabenfeld (Aufgabenfeld I): auf 8 erhöht)
 * FIX: BER-Schul Z 350 (10.07).rpt (eingebrachte Kurshalbjahre werden entsprechend der Eintragung der Halbjahre unter `Abitur > Qualifikation` im Feld "eingebrachte Halbjahre" auf dem Bericht ausgelesen
+* Fix: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Tendenznoten werden ausgegeben)
+
+#### Saarland
+
 * NEW: SAR-GY-ABI (GOS2.0).rpt
 * NEW: SAR-GY-AZ (GOS2.0).rpt
+* NEW: SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2021).rpt
+* NEW: SAR-GEMS-AS (Klasse 9 ohne Prüfung)(ab 2021).rpt
+
+#### Niedersachsen
+
+* NEW: NIE-GY-ABI (2021).rpt
