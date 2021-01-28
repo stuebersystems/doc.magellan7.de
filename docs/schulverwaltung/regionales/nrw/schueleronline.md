@@ -259,7 +259,7 @@ Nach dem Import ist die aus SchülerOnline eingelesene Ausbildung noch nicht als
 
 Wichtig ist, dass alle Spalten in der korrekten Reihenfolge in der Datei enthalten sind, nachstehend als Beispiel und auch zum Vergleich bei Importproblemen eine Kopfzeile:
 
-`
+```
 "SchuelerID";"Nachname";Vorname";"Geburtsort";"Geburtsdatum";"Strasse";"Land";"Plz";"Wohnort";"Ortsteil";"Telefon";"Telefon2";"Email";"Geburtsname";"Geschlecht";"Nationalitaet";"Nationalitaet2";"Konfession";"Einschulung";"Migration";"ZuzugsJahr";"Geburtsland";"GeburtslandVater";"GeburtslandMutter";"Verkehrssprache";"KeyExtern";"Ezb1_Anrede";"Ezb1_Nachname";"Ezb1_Vorname";"Ezb1_Strasse";"Ezb1_Land";"Ezb1_PLZ";"Ezb1_Wohnort";"Ezb1_Telefon";"Ezb1_Email";"Ezb1_Art";"Ezb2_Anrede";"Ezb2_Nachname";"Ezb2_Vorname";"Ezb2_Strasse";"Ezb2_Land";"Ezb2_PLZ";"Ezb2_Wohnort";"Ezb2_Telefon";"Ezb2_Email";"Ezb2_Art";"Schulnr";"SchulBez";"Schulform";"Schulgliederung";"AbschlussSchule";"AbschlussBeruf";"Klasse";"Bildungsgang";"Aufnahmestatus";"Unterlagen";"Beratung";"Notiz";"Anmeldedatum";"Aufnahmedatum";"Ausbildungbeginn";"Ausbildungende";"Klassenlehrer";"Betrieb";"BetriebStrasse";"BetriebLand";"BetriebPLZ";"BetriebOrt";"BetriebTelefon";"BetriebFax";"BetriebEmail";"BetriebKontakt";"BetriebKammer";"BetriebMitgliedsnummer";"BetriebIdExtern";"KrzBetriebeid"
 
-`
+```
