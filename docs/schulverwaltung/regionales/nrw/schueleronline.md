@@ -235,7 +235,7 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 61.| **Ausbildungbeginn**<br/> SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung von`<br/>`Bewerber > Ausbildung > Ausbildung bis`| Nein
 62.| **Ausbildungende**<br/> SchuelerAusbildung.| `Bewerber > Ausbildung > Ausbildung bis`| Nein
 63.| **Klassenlehrer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein! | -| 
-64.| **Betrieb**<br/> Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 1 <br/>`Betriebe > Daten 1 > Name 2` <br/> `Name 2`| Nein
+64.| **Betrieb**<br/> Betrieb.Name1<br/>Betrieb.Name2| `Betriebe > Daten 1 > Name 1` <br/>`Betriebe > Daten 1 > Name 2` <br/> `Name 2`| Nein
 65.| **BetriebStrasse**<br/> Betrieb.Strasse|`Betriebe > Daten 1 > Strasse` | Nein
 66.| **BetriebLand**<br/> | `Betriebe > Daten 1 > Postleitzahl`| 
 67.| **BetriebPLZ**<br/> Betrieb.PLZ| `Betriebe > Daten 1 > Ort`| Nein
