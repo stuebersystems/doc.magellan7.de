@@ -139,3 +139,21 @@ Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der S
 ### Ausleihen
 
 Die Auswahllisten der Lehrer und Personen `Lehrer > Auswahl`und `Personen > Auswahl`wurden um das Feld `Ausleihe`erweitert.
+
+## Statistiken
+
+### Sachsen
+
+#### Fremdsprachen
+
+Es wird unterschieden zwischen
+
+  *  Ausspielen abgegangene Schülerdatei (Quelle: `Daten3 > Fremdsprachenfolge`)
+  * Ausspielen aktuelle Schülerdatei (Quelle: Vergleich zwischen den `Schüler > Zeugnis > Fächer` des 1. und ggfs. 2.Halbjahres und den Einträgen unter `Daten3 > Fremdsprachenfolge`)
+
+Rufen Sie die Erstellung der Statistikdatei für aktuelle Schüler aus dem zweiten Halbjahr auf, vergleichen wir im ersten Schritt die Fachdaten des 1.Halbjahres mit der Fremdsprachenfolge. Werden passende Einträge gefunden, werden diese gemerkt und die Fachdaten des 2.Halbjahres mit der Fremdsprachenfolge verglichen. Werden weitere passende Einträge gefunden, werden die Treffer (Beispiel: Eng als 1.Fremdsprache unter `Daten3` und auch Eng unter `Schüler > Zeugnis > Fächer`) aus dem 1. und dem 2. Durchlauf als Fremdsprachen ausgespielt.
+Ein aktueller Nutzungsvertrag wird vorausgesetzt.
+
+### Niedersachsen
+
+Eine neue Schnittstelle für die Übergabe nach IZN-Stabil Niedersachsen wurde eingebunden, ein aktueller Nutzungsvertrag wird vorausgesetzt.
