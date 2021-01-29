@@ -242,7 +242,7 @@ Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 68.| **BetriebOrt**<br/> Betrieb.Ort| `Betriebe > Daten 1 > Telefon`| Nein
 69.| **BetriebTelefon**<br/> Betrieb.Telefon| `Betriebe > Daten 1 > Telefax`| Nein
 70.| **BetriebFax**<br/> Betrieb.Fax| `Betriebe > Daten 1 > E-Mail`| Nein
-71.| **BetriebEmail**<br/> Betrieb.Email| `Betriebe > Kontakte > Kontakt > Nachname`| Nein
+71.| **BetriebEmail**<br/> Betrieb.Email| `Betriebe > Kontakte > Kontakt > E-Mail`| Nein
 72.| **BetriebKontakt**<br/> BetriebeKontakte.Nachname| `Betriebe > Kontakte > Kontakt > Nachname`| -
 73.| **BetriebKammer**<br/> Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
 74.| **BetriebMitgliedsnummer**<br/>Keine Entsprechung in MAGELLAN,<br/>Spalte muss in der Datei aber enthalten sein!| -| -
