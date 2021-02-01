@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: 
+* FIX: "Schüler fortschreiben.dws" Informationen aus `Klassen > Zeiträume` werden übernommen
 
 ### MYMAGELLAN
 
@@ -36,7 +36,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* NEW:
+* FIX: "Schüler fortschreiben.dws" Informationen aus `Klassen > Zeiträume` werden übernommen
 
 ### Berichte
 
