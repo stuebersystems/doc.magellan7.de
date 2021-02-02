@@ -77,6 +77,7 @@ nav:
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
       - Updates verteilen: schulverwaltung/update/wie-kann-ein-update-verteilt-werden.md
       - Firebird aktualisieren: schulverwaltung/update/firebird-aktualisieren.md
+      - Umstieg von 7 auf 8: schulverwaltung/update/umstieg-von-7-auf-8.md
       - Umstieg von 6 auf 7: schulverwaltung/update/umstieg-von-6-auf-7.md
       - Eigene Berichte anpassen: schulverwaltung/update/berichte_anpassen.md
       - Probleme beim Update?: schulverwaltung/update/probleme-beim-update.md
