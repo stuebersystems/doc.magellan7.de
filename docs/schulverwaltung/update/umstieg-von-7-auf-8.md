@@ -9,4 +9,3 @@ Grob zusammengefasst müssen folgende Punkte erledigt werden:
 * Das Programm aktualisiert die Datenstruktur.
 * Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen kopieren Sie diese in die neuen Verzeichnisse.
 * Sie synchronisieren für Ihre Benutzer abschließend die Zugriffsrechte und los geht es!
-
