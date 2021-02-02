@@ -74,7 +74,8 @@ Der standardmäßige Pfad zur MAGELLAN 8 Datenbank lautet:
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 
-Im folgenden Bild werden die Verzeichnisse der Datenordner abgefragt. Die Datenordner (Berichte, Skripte, Vorlagen usw.) werden bei der Installation des Serverrechners oder der Einzelplatzinstallation angelegt. Sie verweisen in diesem Fenster auf den Speicherort der Verzeichnisse, die alle gemeinsam an einer Stelle abgelegt wurden. Um sich Tipparbeit zu sparen, können Sie in der oberen Zeile den Wurzelpfad eingeben und auf das Startdreieck klicken, die nachfolgenden Zeilen werden dann entsprechend mit diesem Pfad und dem Standardnamen des Verzeichnisses befüllt.
+Im folgenden Bild werden die Verzeichnisse der Datenordner abgefragt. Die Datenordner (Berichte, Skripte, Vorlagen usw.) werden bei der Installation des Serverrechners oder der Einzelplatzinstallation angelegt. Sie verweisen in diesem Fenster auf den Speicherort der Verzeichnisse, die alle gemeinsam an einer Stelle abgelegt wurden. 
+Um sich Tipparbeit zu sparen, können Sie in der oberen Zeile den Wurzelpfad eingeben und auf das Startdreieck klicken, die nachfolgenden Zeilen werden dann entsprechend mit diesem Pfad und dem Standardnamen des Verzeichnisses befüllt.
 
 ![Daten für entfernte Datenordner](/assets/images/installation/8/welcome-remote-datafolder.png)
 
