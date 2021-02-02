@@ -67,11 +67,14 @@ nav:
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
       - Firebird installieren: schulverwaltung/installation/Installation_Firebird.md
-      - Server/Einzelplatz installieren: schulverwaltung/installation/server.installlieren.md
-      - Arbeitsplatz installieren: schulverwaltung/installation/arbeitsplatz.installlieren.md
+      - Server/Einzelplatz installieren: schulverwaltung/installation/version8/server.installieren.md
+      - Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
       - Probleme bei der Installation?: schulverwaltung/installation/probleme-bei-der-installation.md
+      - Version 7:
+        - Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
+        - Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md
     - Update: 
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md

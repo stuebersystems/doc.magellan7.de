@@ -31,10 +31,10 @@ Diese Dateien liegen je nach Betriebssystem an folgenden voreingestellten Speich
 
 Betriebssystem      | Pfad
 ------------------- | -------------
-Windows Vista       | C:\ProgramData\Stueber Systems\Magellan 7
-Windows 7/8         | C:\ProgramData\Stueber Systems\Magellan 7
-Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 7
-Windows 10          | C:\ProgramData\Stueber Systems\Magellan 7
+Windows Vista       | C:\ProgramData\Stueber Systems\Magellan 8
+Windows 7/8         | C:\ProgramData\Stueber Systems\Magellan 8
+Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 8
+Windows 10          | C:\ProgramData\Stueber Systems\Magellan 8
 
 Möchten Sie abweichende Speicherorte für diese Dateien angeben, zum Beispiel damit alle Magellan-Arbeitsplatzinstallationen auf dieselben Dateien zugreifen, sind folgende Schritte nötig:
 

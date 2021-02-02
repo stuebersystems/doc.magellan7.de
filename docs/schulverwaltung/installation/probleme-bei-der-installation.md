@@ -14,7 +14,7 @@ Firebird nutzt für den Datenverkehr den **Port 3050**, mitunter ist dieser Port
 
  Starten Sie den Magellan-Administrator ohne Anmeldung:
 
- Starten > Verbindung markieren > Bearbeiten > Unterkarte „Datenbank“`. Bitte prüfen Sie, dass Pfad zur Datenbank korrekt ist (Achtung: nachstehende Abbildung enthält lediglich einen Beispielpfad!) und mit dem Dateinamen der Datenbank endet, wie in der folgenden Abbildung:
+ `Starten > Verbindung markieren > Bearbeiten > Unterkarte „Datenbank“`. Bitte prüfen Sie, dass Pfad zur Datenbank korrekt ist (Achtung: nachstehende Abbildung enthält lediglich einen Beispielpfad!) und mit dem Dateinamen der Datenbank endet, wie in der folgenden Abbildung:
 
 !["Datenbank registrieren"](/assets/images/admin-connection-dialog.png )
 
@@ -28,9 +28,9 @@ Prüfen Sie bitte, dass für die Arbeitsplatzinstallation der Pfad zur Datenbank
 
 Im Feld Protokoll sollte TCP/IP gewählt werden, im Feld Server tragen Sie bitte nur den Namen des Serverrechners oder die IP-Adresse des Serverechners ein.
 
-!!! info "Hinweis"
+## Port 3050 freigeben
 
-    Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
+Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
 
 ## Fehler beim Schreiben in Datei. CrystalDecisions.CrystalReports.Engine.dll
 

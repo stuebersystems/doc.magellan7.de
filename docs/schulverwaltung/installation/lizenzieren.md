@@ -32,9 +32,9 @@ Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhal
 
 Betriebssystem | Pfad
 -------------- | ----
-Windows Vista  | `C:\ProgramData\Stueber Systems\Magellan 7`
-Windows XP     | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7`
-Windows 2000   | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7` 
+Windows Vista  | `C:\ProgramData\Stueber Systems\Magellan 8`
+Windows XP     | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 8`
+Windows 2000   | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 8` 
 
 Um eine „Magellan.lic“-Datei zu importieren, führen Sie bitte folgende Schritte aus:
 
