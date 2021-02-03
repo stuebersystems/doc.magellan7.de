@@ -10,8 +10,8 @@ Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https:/
 
 ### Verzeichnis Staatsangehörigkeiten
 
-Die Angaben aus dem Verzeichnis `Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten` werden für die Felder `Geburtsland`, `Staatsangehörigkeit1` und `Staatsangehörigkeit2` verwendet, bislang gab es hierfür nur eine Bezeichnung. Neu die Spalte `Bezeichnung2`, damit kann in der Spalte `Bezeichnung1` weiterhin die Bezeichnung des Landes geführt werden, in der Spalte `Bezeichnung2` wird die Staatsangehörigkeit geführt. Die `Bezeichnung2` wird auch in den Listenfeldern in der Oberfläche gezeigt.
-Für eigene Berichte können Sie die Werte gaben damit gezielt ausgeben.
+Die Angaben aus dem Verzeichnis `Extras > Schlüsselverzeichnisse > Staatsangehörigkeiten` werden für die Felder `Geburtsland`, `Staatsangehörigkeit1` und `Staatsangehörigkeit2` verwendet, bislang gab es hierfür nur eine Bezeichnung. Neu ist die Spalte `Bezeichnung2`, damit kann in der Spalte `Bezeichnung1` weiterhin die Bezeichnung des Landes geführt werden, in der Spalte `Bezeichnung2` wird die Staatsangehörigkeit geführt. Die `Bezeichnung2` wird auch in den Listenfeldern in der Oberfläche gezeigt.
+Für eigene Berichte können Sie die Werte damit gezielt ausgeben.
 
 Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir die Werte in der zweiten Spalte auf. Erkannt wird die Zeile anhand des Schlüssels, die Schlüssel sind bundeslandübergreifend einheitlich.
 
@@ -19,25 +19,25 @@ Bei der Anpassung der Datenbank von der Version 7 auf die Version 8 füllen wir 
 
 ### Hauptversicherter
 
-Jedem Schüler können mehrere Familienangehörige zugeordnet werden. Zusätzlich kann gezielt ein Familienmitglied als `Hauptversicherter` markiert werden. Diese Möglichkeit finden Sie unter `Schüler > Daten1 > Familie`. Markieren Sie den gewünschten Eintrag, klicken Sie auf das Editiersymbol im Folgefenster kann per Haken die Auswahl `Hauptversicherter` getroffen werden. Diese Auswahl wird unter `Daten1 > Familie` für das Familienmitglied in blau hervorgehoben.
+Jedem Schüler können mehrere Familienangehörige zugeordnet werden. Zusätzlich kann gezielt ein Familienmitglied als `Hauptversicherter` markiert werden. Diese Möglichkeit finden Sie unter `Schüler > Daten1 > Familie`. Markieren Sie den gewünschten Eintrag, klicken Sie auf das Editiersymbol im Folgefenster. Hier kann per Haken die Auswahl `Hauptversicherter` getroffen werden. Diese Auswahl wird unter `Daten1 > Familie` für das Familienmitglied in blau hervorgehoben.
 
 ![Schüler > Daten1 > Familie](/assets/images/changelog/aenderungen8/04.png)
 
 ### Registerkarte Abschluss
- 
-`Schüler > Laufbahn > Abschluss` die Bezeichnung der `Abschlussart` lautet nun `Abschlussart1`  und `Abschlussart2`.
+
+`Schüler > Laufbahn > Abschluss`: Die Bezeichnung der `Abschlussart` lautet nun `Abschlussart1`  und `Abschlussart2`.
 
 ![ `Schüler > Laufbahn > Abschluss`](/assets/images/changelog/aenderungen8/03.png)
 
 ### Fachthema
 
-Unter `Schüler > Zeugnis > Fächer` kann je Fachzeile ein Thema vergeben werden. Klicken Sie doppelt für das gewünschte Fach auf das Feld `Thema`, es öffnet sich ein Bearbeitungsfenster. 
+Unter `Schüler > Zeugnis > Fächer` kann je Fachzeile ein Thema vergeben werden. Klicken Sie doppelt für das gewünschte Fach auf das Feld `Thema`, es öffnet sich ein Bearbeitungsfenster.
 
 ![Schüler > Zeugnis > Fächer > Thema](/assets/images/changelog/aenderungen8/05.png)
 
-### Tastenkürzel für im Berichtefenster
+### Tastenkürzel im Berichtefenster
 
-Neue Tastenkürzel erleichtern den Druck, Export und den Aufruf der Vorschau in allen Menüs für die Aufrufen `Berichte drucken` oder `Zeugnisse drucken`.
+Neue Tastenkürzel erleichtern den Druck, Export und den Aufruf der Vorschau in allen Menüs für die Aufrufe `Berichte drucken` oder `Zeugnisse drucken`.
 
 Tastenkürzel| Aktion
 --|--
@@ -51,16 +51,15 @@ Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per 
 
 ### Noten aus alten Halbjahren übernehmen
 
-1. Wählen Sie den Zeitraum, in den die Note fortgeschrieben werden soll
-2. Starten Sie den Aufruf `Laufbahnprozess > Noten Fortschreiben`
-3. Schüler auswählen
-4. Alten Zeitraum auswählen, ggf. Option "eingetragene Noten überschreiben" auswählen
-5. Fächer auswählen
-6. Fertigstellen!
+1. Wählen Sie den Zeitraum, in den die Note fortgeschrieben werden soll!
+2. Starten Sie den Aufruf `Laufbahnprozess > Noten Fortschreiben`!
+3. Wählen Sie den Schüler aus!
+4. Bitte den alten Zeitraum auswählen, ggf. Option "eingetragene Noten überschreiben" auswählen
+5. Anschließend die Fächer auswählen und fertigstellen!
 
-Es werden die Noten für die ausgewählten Schüler und ausgewählten Fächer kopiert, wenn die Option überschreiben angehakt ist, werden Noten überschrieben, ansonsten wird das Fach übersprungen.
+Es werden die Noten für die ausgewählten Schüler und ausgewählten Fächer kopiert. Wenn die Option übers`Bereits eingetragene Noten überschreiben` angehakt ist, werden Noten überschrieben, ansonsten wird das Fach übersprungen.
 
-### neue Schüler-Merkmale
+### Neue Schüler-Merkmale
 
 Unter `Schüler > Merkmale` stehen vier neue Felder zur Verfügung (`MerkmalA7`-`MerkmalA10`). Diese Merkmale können per Sammelzuweisung befüllt werden.
 
@@ -72,7 +71,7 @@ Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung der unter
 
 ### Besonderheitenliste Schüler
 
-Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Schüler-Besonderheiten. 
+Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Schüler-Besonderheiten.
 Jeder Zeile kann aus dem neuen Schlüsselverzeichnis `Besonderheiten` ein Schlüsselwert zugewiesen werden.
 Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategorie lässt es zu, dass eingetippte Werte gemerkt und für die nächste Zeile bereits zur Auswahl angeboten werden.
 
@@ -80,7 +79,7 @@ Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategor
 
 ### Besonderheitenliste Klasse
 
-Unter `Klassen > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Klassen-Besonderheiten. 
+Unter `Klassen > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Klassen-Besonderheiten.
 Jeder Zeile kann aus dem neuen Schlüsselverzeichnis `Besonderheiten` ein Schlüsselwert zugewiesen werden.
 Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategorie lässt es zu, dass eingetippte Werte gemerkt und für die nächste Zeile bereits zur Auswahl angeboten werden.
 
@@ -98,7 +97,7 @@ Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen
 
 ### Auswahlliste Bewerber
 
-Die Auswahlliste der Bewerber `Bewerber > Auswahl`wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
+Die Auswahlliste der Bewerber `Bewerber > Auswahl` wurde um die Spalten der Fremdsprachenfolge, `Fremdsprache1`,  `Fremdsprache2`,  `Fremdsprache3`,  `Fremdsprache4` erweitert.
 
 ![ `Bewerber > Auswahl`](/assets/images/changelog/aenderungen8/02.png)
 
