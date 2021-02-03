@@ -57,3 +57,7 @@ FIX:
 #### Niedersachsen
 
 * NEW:
+
+#### Auslandsschulen
+
+* FIX: DAS-Prüfungsbogen (Anlage 7 zu DIA-PO)(2018).rpt (Im gesellschaftswiss. Bereich können nun bis zu 4 Fächer angezeigt werden.)
