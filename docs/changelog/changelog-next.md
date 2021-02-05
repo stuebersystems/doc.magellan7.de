@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: SAR-APO-2018.dws = Notenbuffer erhöht
+* FIX: Importiere SDTF.dws = Umgang mit nicht gesetzter Fachkursnummer beim Übertrag des Lehrerunterrichts.
 
 ### Berichte
 
