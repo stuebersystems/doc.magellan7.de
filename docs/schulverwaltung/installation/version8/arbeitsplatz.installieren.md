@@ -17,6 +17,7 @@ Der Setup Assistent von MAGELLAN 8 wird gestartet und die Installationsdateien w
 
 ![Startdialog der Installation](/assets/images/installation/8/setup_start.png)
 
+
 ![Installationart festlegen](/assets/images/installation/8/setup_type.png)
 
 Wählen Sie die `Arbeitsplatzinstallation` aus! Es wird nur das Programm installiert, es werden keine Datenbank abgelegt oder sogenannten Datenordner erzeugt.
