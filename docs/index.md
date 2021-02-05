@@ -1,25 +1,25 @@
 # Einführung
 
-Dies ist die elektronische Dokumentation für [MAGELLAN 7](https://magellan.stueber.de).
+Dies ist die elektronische Dokumentation für [MAGELLAN](https://magellan.stueber.de).
 
 |Diese Dokumentation ist unterteilt in die Bereiche:|
 |:--|
-|  [MAGELLAN Schulverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/installation/) |
-|  [MyMAGELLAN CENTER](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/) |
-|  [MAGELLAN BIBLIOTHEK](https://doc.magellan7.stueber.de/bibliothek/) |
+|  [MAGELLAN Schulverwaltung](https://doc.magellan.stueber.de/schulverwaltung/installation/) |
+|  [MyMAGELLAN CENTER](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/) |
+|  [MAGELLAN BIBLIOTHEK](https://doc.magellan.stueber.de/bibliothek/) |
 
 |Weitere Dokumentationen finden Sie unter nachfolgenden Links:|
 |:--|
 |  [MAGELLAN  und DAVINCI Knowledgebase](https://doc.kb.stueber.de) |
-|  [MyMAGELLAN](https://doc.mymagellan7.stueber.de) |
+|  [MyMAGELLAN](https://doc.mymagellan.stueber.de) |
 |  [Knowledgebase](https://doc.kb.stueber.de/) |
-|  [MAGELLAN Datenstruktur](https://doc.magellan7-toolbox.stueber.de/) |
-|  [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/) |
-|  [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/) |
+|  [MAGELLAN Datenstruktur](https://doc.magellan-toolbox.stueber.de/) |
+|  [MAGELLAN Scripting](https://doc.magellan-toolbox.stueber.de/) |
+|  [MAGELLAN Importformat](https://doc.magellan-toolbox.stueber.de/) |
 |  [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de) |
 |  [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de) |
 
-## MAGELLAN 7
+## MAGELLAN
 
 MAGELLAN ist die Schulverwaltungssoftware von STÜBER SYSTEMS. Mit MAGELLAN verwalten Sie Ihre Lehrer- und Schülerdaten, drucken Zeugnisse, verwalten die gymnasiale Oberstufe und machen den Statistikabgleich.
 
@@ -27,7 +27,7 @@ MAGELLAN basiert auf den Vorgaben der verschiedenen Länder und Schularten und d
 
 Zusammen bilden MAGELLAN und DAVINCI eine Komplettlösung zur Schulverwaltung. Die erfolgreiche Einführung einer Schulverwaltungssoftware setzt voraus, dass Sekretariat, Schulleitung und Kollegen in der Bedienung der Software geschult werden. MAGELLAN ist sehr bedienungsfreundlich, weshalb Sie mit einem Minimum an Schulung auskommen werden. MAGELLAN ist zudem ein Fast-Null-Administrationsprogramm, d.h. Installation und Betrieb der Software ist auch von einem versierten Laien zu bewerkstelligen
 
-## MAGELLAN 7 BIBLIOTHEK
+## MAGELLAN BIBLIOTHEK
 
 MAGELLAN-BIBLIOTHEK ist ein professionelles Softwaremodul zur Verwaltung von Büchern und Lernmitteln an Schulen. Dieses Softwaremodul kann nur in Verbindung mit dem Schulverwaltungsprogramm MAGELLAN 7 eingesetzt werden.
 

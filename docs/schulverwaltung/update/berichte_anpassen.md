@@ -1,7 +1,13 @@
 ﻿
-# Berichte für MAGELLAN 7 anpassen
+# MAGELLAN 6-Berichte für 7 oder 8 anpassen
 
-Aufgrund technischer Veränderungen in MAGELLAN 7 müssen bestehende Berichte für die neue Version angepasst werden. Alle mitgelieferten Originalberichte von STÜBER SYSTEMS wurden angepasst und ausgeliefert.
+Aufgrund technischer Veränderungen in MAGELLAN 7 und 8 müssen Berichte aus MAGELLAN 6 für die neueren Version angepasst werden. 
+
+!!! warning "Wichtig"
+
+    Berichte, die für MAGELLAN 6 genutzt wurden, müssen vor der Verwendung in MAGELLAN 7 oder 8 angepasst werden. Berichte, die bereits unter MAGELLAN 7 verwendet wurden, müssen NICHT für den Einsatz unter MAGELLAN 8 angepasst werden.
+
+Alle mitgelieferten Originalberichte von STÜBER SYSTEMS wurden angepasst und ausgeliefert.
 Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte liegen im Verantwortungsbereich der Schulen. Im Folgenden erläutern wir die Gründe und die notwendigen Anpassungen.
 
 !!! warning "Wichtig"
@@ -9,7 +15,7 @@ Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte l
     Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe `CRYSTAL REPORTS 2013`. 
     Um Ihre eigenen Berichte für MAGELLAN 7 anzupassen benötigen Sie mindestens `CRYSTAL REPORTS 2011`.
 
-## MAGELLAN 7 unterstützt Unicode
+## MAGELLAN unterstützt Unicode
 
 Dies ist grundsätzlich eine erfreuliche Nachricht, da ab Version 7 sämtliche Schriftzeichen in der MAGELLAN-Datenbank gespeichert werden können. Beispielsweise alle Namensschreibweisen sind nun möglich und auch für den Zeugnisdruck ausgebbar.  
 Bedingt durch diese Umstellung benötigt MAGELLAN 7 aber einen aktualisierten ODBC-Treiber, der Unicode verarbeiten kann.
@@ -123,7 +129,7 @@ Fehlermeldungen:
 
 ## 4. Tabellenverknüpfungen
 
-Außerdem sind mit MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen.
+Außerdem sind ab MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen.
 
 Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Verknüpfungen` auf.
 
@@ -140,11 +146,11 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 
 !!! info "Hinweis"
 
-    Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in MAGELLAN 7.
+    Wenn keine der Tabellen oder keines der Felder genutzt wurde, können Sie speichern und zum Test die Druckvorschau (bei mehrseitigen Berichten bitte auch auf die weiteren Seiten blättern) aufrufen. Klappt alles, ist der Bericht fertig für die Nutzung in späteren MAGELLAN Versionen.
 
 !!! info "Hinweis"
 
-    Die aktuelle Datenstrukturbeschreibung finden Sie als Teil der Dokumentation [MAGELLAN 7 TOOLBOX](https://doc.magellan7-toolbox.stueber.de/).
+    Die aktuelle Datenstrukturbeschreibung finden Sie als Teil der Dokumentation [MAGELLAN TOOLBOX](https://doc.magellan-toolbox.stueber.de/).
 
 ### "SchuelerZeitraeume" und "SchuelerAusbildung"
 
@@ -281,6 +287,6 @@ CR optimiert vor dem Aufruf des Berichtes selbständig (und nicht unterdrückbar
 
 Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen (110,- € netto die Stunde, Abrechnung im Halbstundentakt) anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
 
-Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Kurzeinweisung: Bericht für Magellan 7 umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot.
+Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Kurzeinweisung: MAGELLAN 6-Bericht umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot.
 
 Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen, wir vereinbaren einen Termin mit Ihnen und stellen den Bericht dann mit Ihnen gemeinsam in einer Teamviewer-Sitzung um.
