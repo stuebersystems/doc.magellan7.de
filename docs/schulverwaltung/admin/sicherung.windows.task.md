@@ -12,11 +12,34 @@ Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden 
 
 	Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
 
-
 ```
+@echo off
 
-"C:\Program Files (x86)\Firebird\Firebird_2_5\bin\gbak.exe" -v -t -user sysdba -password masterkey -y "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Backup\MAGELLAN7_%date:~0%.log" "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\MAGELLAN6.FDB" "C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Backup\MAGELLAN7_%date:~0%.FBK" pause
+:: Parameters to be entered by the user
 
+:: Path to gbak.exe
+set gbakcmd="C:\Firebird\bin\gbak.exe"
+
+:: Path to log file (includes date)
+set log="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan 7\Datenbank\MAGELLAN_%date:~0%.log" 
+
+:: Path to source database file (FDB)
+set source="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan 7\Datenbank\MAGELLAN7.FDB"
+
+:: Path to destination backup file (FBK)
+set dest="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan.fbk" 
+
+:: User credentials to Authenticate/authorize (masterkey is the default, please change to your password)
+set username="SYSDBA"
+set password="masterkey"
+
+:: DO NOT CHANGE THESE LINES
+echo %gbakcmd% -v -t -user %username% -password %password% -y %log% %source% %dest%
+%gbakcmd% -v -t -user sysdba -password masterkey -y %log% %source% %dest%
+
+pause
+
+@echo on
 ```
 
 Speichern Sie diesen Text und passen die drei Pfade den Gegebenheiten auf Ihrem Serverrechner an. Wir beschreiben nachstehend die Bedeutung der einzelnen Punkte:
