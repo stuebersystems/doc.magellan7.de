@@ -51,7 +51,8 @@ FIX:
 
 #### Berlin
 
-* FIX: 
+* CHANGE: BER-GY-ZAS (Schul II 929-9)(12.08).rpt (Berechnung des Kurshalbjahres für G8 angepasst)
+
 
 #### Saarland
 
