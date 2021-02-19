@@ -52,7 +52,7 @@ FIX:
 #### Berlin
 
 * CHANGE: BER-GY-ZAS (Schul II 929-9)(12.08).rpt (Berechnung des Kurshalbjahres für G8 angepasst)
-
+* NEW: BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt
 
 #### Saarland
 
