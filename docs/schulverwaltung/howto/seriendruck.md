@@ -55,24 +55,23 @@ Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken 
 
 Das Fenster `„Vorlagen organisieren“` besteht aus einer Schnellstartleiste auf der linken Seite. Diese bestehen aus Ordnern, die den jeweiligen Kategorien hinterlegt sind. Klicken Sie auf den Ordner Schüler und alle Vorlagen, die Sie für Schüler erstellt und in dem Ordner „Schüler“ abgespeichert haben, erscheinen hier.
 
-### Eigene Serienbriefvorlagen in MAGELLAN einfügen (Beispiel Word)
+### Eigene Serienbriefvorlagen in MAGELLAN einfügen
 
 Um eigene Vorlagen einzufügen, gehen Sie bitte folgendermaßen vor:
 
-1. Sie starten den Seriendruck und wählen die Option „Daten mit einem vorhandenen Worddokument verknüpfen“. Verweisen Sie dabei auf die Worddatei, die den vorbereiteten Text enthält, aber noch keine Seriendruckfelder. 
+1. Sie starten den Seriendruck und wählen die Option „Daten mit einem vorhandenen Dokument verknüpfen“. Verweisen Sie dabei auf die Datei, die den vorbereiteten Text enthält, aber noch keine Seriendruckfelder. 
 
-2. Word startet, Sie sehen Ihren Text und können nun über die Wordfunktion „Seriendruckfeld einfügen“ an den gewünschten Stellen die Seriendruckfelder platzieren.
+2. Word/LibreOffice startet, Sie sehen Ihren Text und können nun Ihre Seriendruckfelder an den gewünschten Stellen platzieren.
 
-3. Wählen Sie `Datei > Speichern unter` und passen bitten den `Dateityp `auf `Wordvorlage` an. Speichern Sie das Dokument an einer beliebigen Stelle.
+3. Wählen Sie `Datei > Speichern unter` und passen bitten den `Dateityp `auf `*.dotx oder *.ott` an. Speichern Sie das Dokument an einer beliebigen Stelle.
 
-4. Wechseln Sie an die Stelle und kopieren Ihre Wordvorlage in die Zwischenablage, öffnen MAGELLAN und wählen `Extras > Vorlagen organisieren > Schüler/Bewerber...` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung *.dot oder *.dotx ein.
+4. Wechseln Sie an die Stelle und kopieren Ihre Vorlage in die Zwischenablage, öffnen MAGELLAN und wählen `Extras > Vorlagen organisieren > Schüler/Bewerber...` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung *.ott oder *.dotx ein.
 
-Beim nächsten Aufruf des Seriendrucks finden Sie unter den Beispielvorlagen im Punkt `„Daten mit einer Wordvorlage verknüpfen“` Ihre Vorlage mit zu Auswahl.
+Beim nächsten Aufruf des Seriendrucks finden Sie unter den Beispielvorlagen im Punkt `„Daten mit einer Vorlage verknüpfen“` Ihre Vorlage mit zu Auswahl.
 
 ### An den aktuellen Betrieb oder den Ausbilder des Schülers
 
-Wählen Sie in der Auswahlliste die Schüler, starten den Seriendruck (STRG+W oder über das Wordsymbol in der Menüleiste) und wählen als Adressaten "An den aktuellen Betrieb der markierten Schüler" aus.
-
+Wählen Sie in der Auswahlliste die Schüler, starten den Seriendruck und wählen als Adressaten "An den aktuellen Betrieb der markierten Schüler" aus.
 
 ![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/assets/images/seriendruck/seriendruck.betrieb01.png)
 
@@ -80,22 +79,14 @@ Da in MAGELLAN einem Schüler mehrere Ausbildungen zugewiesen können, um zum Be
 
 ![Wählen Sie bitte die aktuelle Ausbildung aus!](/assets/images/seriendruck/seriendruck.betrieb00.png)
 
-Nach Word werden pro Schüler Daten über den aktuellen Betrieb, die Ausbildung und den Ausbilder übergeben.
+Nach Word/LibreOffice werden pro Schüler Daten über den aktuellen Betrieb, die Ausbildung und den Ausbilder übergeben.
 
 ![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/assets/images/seriendruck/seriendruck.betrieb03.png)
 
 ### Den Ausbilder per Mail anschreiben?
 
- Wenn Sie die Nachricht nicht postalisch sondern per Mail versenden möchten, können Sie den fertigen Serienbrief auch aus Word heraus per Mail versenden.
+ Wenn Sie die Nachricht nicht postalisch sondern per Mail versenden möchten, können Sie den fertigen Serienbrief auch aus Word/LibreOffice heraus per Mail versenden. Beide Programme lassen den Versand der Seriendruckdaten per Mail zu.
  
- Wählen Sie bitte unter "Fertigstellen und zusammenführen" den Unterpunkt "Email-Nachrichten senden..." aus.
- 
-![Unter "Fertigstellen und zusammenführen" den Unterpunkt "Email-Nachrichten senden..." wählen.](/assets/images/seriendruck/seriendruck.betrieb04.png)
-
-Anschließend können Sie im Feld "Zu:" das Feld "Ausbilder_Email" wählen, diese Liste enthält die Mailadressen der den Schüler zugewiesenen Ausbildern der aktuellen Ausbildung.
-
-![Wählen Sie bitte "An den aktuellen Betrieb der markierten Schüler" aus.](/assets/images/seriendruck/seriendruck.betrieb05.png)
-
 ### An die Sorgeberechtigten des Schülers
 
 !!! info "Hinweis"
@@ -132,7 +123,7 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 
 !!! info "Hinweis"
 
-  Im Folgenden beschreiben wir die Vorgehensweise für Microsoft Office Word 2003. Sollten Sie eine ältere oder neuere Word-Version einsetzen, kann die Vorgehensweise variieren. Informationen erhalten Sie in der Microsoft Office Word Hilfe.
+  Im Folgenden beschreiben wir die Vorgehensweise für Microsoft Office Word 2003. Sollten Sie eine ältere oder neuere Word-Version  oder LibreOffice einsetzen, wird die Vorgehensweise variieren. 
 
 1. Klicken Sie im Menü `Extras `auf `Umschläge und Etiketten`.
  
