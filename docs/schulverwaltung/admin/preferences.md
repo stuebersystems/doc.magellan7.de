@@ -114,23 +114,29 @@ Für den Druck von Crystal Reports Berichten gehen Sie wie folgt vor:
 
 ![Hier ist für die Ansicht „Klassen“ angegeben, dass neben dem Ausdruck zusätzlich eine PDF-Datei in der Dokumentenverwaltung im Unterordner „Berichte“ erzeugt werden soll](/assets/images/optionen_dok_cr.png)
 
-### Einstellung für Word-Seriendruck
+### Einstellung für den Seriendruck
 
-Für den Druck von Worddokumenten im Rahmen des Seriendrucks gehen Sie wie folgt vor:
+#### Word oder LibreOffice
+
+MAGELLAN kann Daten an die Seriendruckschnittstellen von Word oder LibreOffice übergeben. Legen Sie je MAGELLAN Installation fest, ob Sie Word oder LibreOffice aufrufen möchten.
+
+![Wählen Sie "Word" oder "LibreOffice aus!"](/assets/images/optionen_dok_word.png)
+
+#### Seriendruckdokumente aufteilen
+
+Um Seriendruckdokumente aufzuteilen und je Schüler (Klasse, Betrieb usw,je nachdem aus welchem Menü man die Funktion aufruft) ablegen zu können, müssen in den Optionen Voreinstellungen getroffen werden:
 
 1. Klicken Sie auf `Datenbank > Optionen`.
 
 2. Wählen Sie die Registerkarte `Dokumente`.
 
-3. Wählen Sie die Registerkarte `Word-Seriendruck`.
+3. Wählen Sie die Registerkarte `Seriendruck`.
 
-4. Markieren Sie pro Ansicht, ob vor dem Word-Seriendruck in der Dokumentenverwaltung eine Word-Datei gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die Word-Datei gespeichert werden soll.
-
-![Hier ist für die Ansicht „Klassen“ angegeben, dass neben vor dem eigentlichen Word-Seriendruck das gefüllte Worddokumente in der Dokumentenverwaltung im Unterordner „Word“ erzeugt werden soll.](/assets/images/optionen_dok_word.png)
+4. Markieren Sie pro Ansicht, ob vor dem Seriendruck in der Dokumentenverwaltung eine Datei gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die Datei gespeichert werden soll.
 
 !!! info "Hinweis"
 
-	Bitte tragen Sie für die Unterordner der Dokumentenverwaltung keinen Pfad ein, sondern lediglich den Namen des Verzeichnisses in das die PDF-Datei oder docx-Datei abgelegt werden soll. Existiert das Verzeichnis nicht, wird es automatisch beim ersten Nutzen der Funktion mit angelegt.
+	Bitte tragen Sie für die Unterordner der Dokumentenverwaltung keinen Pfad ein, sondern lediglich den Namen des Verzeichnisses in das die PDF-Datei oder Datei(*.odt oder *.docx) abgelegt werden soll. Existiert das Verzeichnis nicht, wird es automatisch beim ersten Nutzen der Funktion mit angelegt.
 
 ### Dateinamenkonventionen
 

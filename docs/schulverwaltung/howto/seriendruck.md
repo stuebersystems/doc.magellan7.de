@@ -1,20 +1,26 @@
 # Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren
 
-In diesem Kapitel erfahren Sie, wie Sie die Seriendruckfunktionalität von Microsoft Word mit MAGELLAN-Daten nutzen können. Zusätzlich wird die komfortable Dokumentenverwaltung vorgestellt und die Exportmöglichkeit der Schlüsselverzeichnisse und Auswahllisten nach Microsoft Excel.
+In diesem Kapitel erfahren Sie, wie Sie die Seriendruckfunktionalität von Microsoft Word  oder LibreOffice mit MAGELLAN-Daten nutzen können. Zusätzlich wird die komfortable Dokumentenverwaltung vorgestellt und die Exportmöglichkeit der Schlüsselverzeichnisse und Auswahllisten nach Microsoft Excel.
 
 ## Seriendruck
 
-Aus MAGELLAN heraus können Sie mit Hilfe des Word Seriendrucks ein Anschreiben an beliebig viele Personen erstellen. Über eine Schnittstelle zu Microsoft Word können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen. Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können.
+Aus MAGELLAN heraus können Sie mit Hilfe des Word oder LibreOffice Seriendrucks ein Anschreiben an beliebig viele Personen erstellen. Über eine Schnittstelle zu Microsoft Word/LibreOffice können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen. Microsoft Word/LibreOffice wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word/LibreOffice zuvor starten, um die Seriendruckfunktionalität nutzen zu können.
 
 !!! info "Hinweis"
 
-  Eine Übersicht der für den Seriendruck nach Word übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
+  Eine Übersicht der für den Seriendruck übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
+
+### LibreOffice oder Word
+
+Bevor Sie beginnen müssen Sie bitte je Arbeitsplatz wählen, ob die Seriendruckdaten an MAGELLAN oder an LibreOffice übergeben werden sollen. Rufen Sie dazu den Punkt `Datenbank > Optionen > Seriendruck` auf und stellen auf der Karte `Seriendruck` das gewünschte Zielprogramm ein. Diese Einstellung wird für diesen Arbeitsplatz gespeichert. 
+
+![Wählen Sie das Zielprogramm](/assets/images/seriendruck/24.png)
 
 Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
 
-1. Klicken Sie in der Menüleiste auf das Schaltbild ![ ](/assets/images/seriendruck/seriendruck1.png) oder wählen Sie `Bearbeiten > Seriendruck nach Word` (STRG+W). Der „Serienbriefassistent“ öffnet sich.
+1. Klicken Sie in der Menüleiste auf das Schaltbild ![ Im Beispiel die Word-Schaltfläche](/assets/images/seriendruck/seriendruck1.png) oder wählen Sie `Start > Seriendruck` (STRG+W für Word oder STRG+S für LibreOffice). Der „Serienbriefassistent“ öffnet sich.
 
-2. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument ab unter: 
+2. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Dokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument ab unter: 
 
 ![ Bitte schauen Sie die nachstehende Tabelle zur Bedeutung der Auswahl an!](/assets/images/seriendruck/seriendruck2.png)
 
@@ -26,7 +32,9 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
 
 !!! info "Hinweis"
 
-  Bitte wählen Sie je nach Seriendruckvorlage im Assistenten den korrekten Adressaten aus, da damit eine unterschiedliche Menge an Seriendruckinformationen nach Word übergeben werden. Beispiel: Wenn eine vorbereitete Seriendruckvorlage Felder für die Sorgeberechtigten des Schülers enthält, müssen Sie bitte auch „An alle Sorgeberechtigten der markierten aktiven Schüler“ oder eine eigene Vorlage, die keine anderen Seriendruckfelder erwartet, wählen.
+  Bitte wählen Sie je nach Seriendruckvorlage im Assistenten den korrekten Adressaten aus, da damit eine unterschiedliche Menge an Seriendruckinformationen nach Word/LibreOffice übergeben werden. 
+  Beispiel: 
+  Wenn eine vorbereitete Seriendruckvorlage Felder für die Sorgeberechtigten des Schülers enthält, müssen Sie bitte auch „An alle Sorgeberechtigten der markierten aktiven Schüler“ oder eine eigene Vorlage, die keine anderen Seriendruckfelder erwartet, wählen.
 
 3. Hier wählen Sie aus, ob der Brief an die Schüler selbst, an die Sorgeberechtigten oder an die Betriebe adressiert werden soll. Klicken Sie auf `Weiter`.
  
@@ -39,16 +47,15 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
 
 !!! info "Hinweis"
 
-  Um die Option Daten mit einer Word-Vorlage verknüpfen und vor dem Start von Word das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben (siehe „Einstellung für Word-Seriendruck“).
+  Um die Option Daten mit einer Vorlage verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
 
 Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster `Vorlagen organisieren`.
- 
-![Fenster „Vorlagen organisieren“](/assets/images/seriendruck/seriendruck4.png)
 
+![Fenster „Vorlagen organisieren“](/assets/images/seriendruck/seriendruck4.png)
 
 Das Fenster `„Vorlagen organisieren“` besteht aus einer Schnellstartleiste auf der linken Seite. Diese bestehen aus Ordnern, die den jeweiligen Kategorien hinterlegt sind. Klicken Sie auf den Ordner Schüler und alle Vorlagen, die Sie für Schüler erstellt und in dem Ordner „Schüler“ abgespeichert haben, erscheinen hier.
 
-### Eigene Serienbriefvorlagen in MAGELLAN einfügen
+### Eigene Serienbriefvorlagen in MAGELLAN einfügen (Beispiel Word)
 
 Um eigene Vorlagen einzufügen, gehen Sie bitte folgendermaßen vor:
 
