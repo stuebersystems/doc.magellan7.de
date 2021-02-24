@@ -8,7 +8,7 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word oder LibreOffice Seriendrucks
 
 !!! info "Hinweis"
 
-  Eine Übersicht der für den Seriendruck übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
+    Eine Übersicht der für den Seriendruck übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
 
 ### LibreOffice oder Word
 
@@ -16,13 +16,24 @@ Bevor Sie beginnen müssen Sie bitte je Arbeitsplatz wählen, ob die Seriendruck
 
 ![Wählen Sie das Zielprogramm](/assets/images/seriendruck/24.png)
 
-Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler.:
+### Seriendruck starten
 
-1. Klicken Sie in der Menüleiste auf das Schaltbild ![ Im Beispiel die Word-Schaltfläche](/assets/images/seriendruck/seriendruck1.png) oder wählen Sie `Start > Seriendruck` (STRG+W für Word oder STRG+S für LibreOffice). Der „Serienbriefassistent“ öffnet sich.
+Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Datensätze in der Auswahlliste (Bewerber, Schüler, Lehrer, Betriebe, Sorgeberechtigte usw) und wählen klicken anschließend unter Start auf die Schaltfläche oder nutzen den Shortcut (beides siehe Tabelle):
 
-2. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Dokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument ab unter: 
+Schaltfläche unter Start | Shortcut
+:--|:--
+<img src="/assets/images/seriendruck/26.png">|STRG+S
+<img src="/assets/images/seriendruck/25.png">|STRG+W
 
-![ Bitte schauen Sie die nachstehende Tabelle zur Bedeutung der Auswahl an!](/assets/images/seriendruck/seriendruck2.png)
+Es startet der Seriendruckassistent mit der folgenden Auswahl:
+
+<img src="/assets/images/seriendruck/27.png">
+
+!!! danger "Achtung"
+
+    Mit dieser Auswahl legen Sie fest welche Datenmenge übernommen wird. Diese Auswahl muss zur Vorlage passen, die Sie im nächsten Schritt wählen. 
+    Beispiel: 
+    Wenn Sie die Sorgeberechtigten des Schülers anschreiben möchten, muss der Serienbrief in der Datenquelle auch die entsprechenden Daten finden, ansonsten entsteht ein Konflikt. In der nachstehenden Tabelle zeigen wir grob welche Datenmenge hinter welcher Auswahl liegt.
 
 Datenquelle|Bedeutung|Datenmenge
 -|- | -
@@ -30,24 +41,18 @@ An alle markierten Schüler|ein Brief pro markiertem Schüler|Schülerdaten<br/>
 An alle Sorgeberechtigten der markierten aktiven Schüler|ein Brief pro Sorgeberechtigten, der unter `Schüler > Sorgeberechtigter > Benachrichtigung` auf "Immer" gesetzt wurde|Schülerdaten<br/>Klassendaten<br/>Sorgeberechtigtendaten
 An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schüler, an den Betrieb, der unter `Schüler > Ausbildung` als aktuellen Ausbildungsbetrieb markiert wurde|Schülerdaten<br/>Klassendaten<br/>Betriebedaten<br/>Ausbilderdaten
 
-!!! info "Hinweis"
-
-  Bitte wählen Sie je nach Seriendruckvorlage im Assistenten den korrekten Adressaten aus, da damit eine unterschiedliche Menge an Seriendruckinformationen nach Word/LibreOffice übergeben werden. 
-  Beispiel: 
-  Wenn eine vorbereitete Seriendruckvorlage Felder für die Sorgeberechtigten des Schülers enthält, müssen Sie bitte auch „An alle Sorgeberechtigten der markierten aktiven Schüler“ oder eine eigene Vorlage, die keine anderen Seriendruckfelder erwartet, wählen.
-
 3. Hier wählen Sie aus, ob der Brief an die Schüler selbst, an die Sorgeberechtigten oder an die Betriebe adressiert werden soll. Klicken Sie auf `Weiter`.
  
 ![Seriendruck-Assistent „Vorlage auswählen“](/assets/images/seriendruck/seriendruck3.png)
 
 
-4. Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. 
+Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. 
 
-5. Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. In beiden Fällen wird Word gestartet. Alle Dokumente, die in dem Ordner `MAGELLAN > Vorlagen > Schüler` abgespeichert wurden, können Sie bei einem Seriendruck an die Schüler unter Vorlage aufrufen.
+Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. In beiden Fällen wird Word gestartet. Alle Dokumente, die in dem Ordner `MAGELLAN > Vorlagen > Schüler` abgespeichert wurden, können Sie bei einem Seriendruck an die Schüler unter Vorlage aufrufen.
 
 !!! info "Hinweis"
 
-  Um die Option Daten mit einer Vorlage verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
+    Um die Option Daten mit einer Vorlage verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
 
 Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster `Vorlagen organisieren`.
 
@@ -91,13 +96,13 @@ Nach Word/LibreOffice werden pro Schüler Daten über den aktuellen Betrieb, die
 
 !!! info "Hinweis"
 
-  In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`.
+    In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`.
 
  Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#registerkarte-„familie).
 
 !!! info "Hinweis"
 
-  Im Seriendruck wird pro Sorgeberechtigte ein Dokument erzeugt, der unter `Schüler > Sorgeberechtigter > Benachrichtigung` mit dem Wert „immer“ markiert wurde.
+    Im Seriendruck wird pro Sorgeberechtigte ein Dokument erzeugt, der unter `Schüler > Sorgeberechtigter > Benachrichtigung` mit dem Wert „immer“ markiert wurde.
 
 ![Die Benachrichtigung "immer" erzeugt einen Serienbriefdatensatz](/assets/images/seriendruck/seriendruck5.png)
 
@@ -114,8 +119,8 @@ Unter `Schüler > Sorgeberechtigter` werden beim Zuweisen des Sorgeberechtigten 
 
 !!! info "Hinweis"
 
-  In der Auswahlliste der Schüler gibt es das Feld „Volljährig“, das tagesaktuell die Volljährigkeit der Schüler anhand des Geburtsdatums und des Systemdatums Ihres Rechners errechnet. 
-Nutzen Sie diese Angabe um im Seriendruck den korrekten Adressaten (der Schüler selbst oder die Sorgeberechtigten) auszuwählen.
+    In der Auswahlliste der Schüler gibt es das Feld „Volljährig“, das tagesaktuell die Volljährigkeit der Schüler anhand des Geburtsdatums und des Systemdatums Ihres Rechners errechnet. 
+    Nutzen Sie diese Angabe um im Seriendruck den korrekten Adressaten (der Schüler selbst oder die Sorgeberechtigten) auszuwählen.
 
 ## Etikettendruck
 
@@ -123,7 +128,7 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 
 !!! info "Hinweis"
 
-  Im Folgenden beschreiben wir die Vorgehensweise für Microsoft Office Word 2003. Sollten Sie eine ältere oder neuere Word-Version  oder LibreOffice einsetzen, wird die Vorgehensweise variieren. 
+    Im Folgenden beschreiben wir die Vorgehensweise für Microsoft Office Word 2003. Sollten Sie eine ältere oder neuere Word-Version  oder LibreOffice einsetzen, wird die Vorgehensweise variieren. 
 
 1. Klicken Sie im Menü `Extras `auf `Umschläge und Etiketten`.
  
@@ -150,21 +155,21 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 
 !!! info "Hinweis"
 
-   Messen Sie die Etiketten sorgfältig ab. Die tatsächliche Größe weicht möglicherweise geringfügig von der vom Etikettenhersteller angegebenen Größe ab. Es kann z.B. vorkommen, dass ein 4 x 8 cm großes Etikett in Wirklichkeit nur 3,9 cm hoch und 7,8 cm breit ist.
-   Wenn Sie dann in MAGELLAN im Menü Schüler mehrere Schüler markieren und über Bearbeiten|Seriendruck nach Word den Seriendruckassistenten aufrufen, dann können Sie die Daten mit dieser Word-Vorlage verknüpfen. Im Folgenden ein Beispiel, wie diese Vorlage aussehen könnte:
+    Messen Sie die Etiketten sorgfältig ab. Die tatsächliche Größe weicht möglicherweise geringfügig von der vom Etikettenhersteller angegebenen Größe ab. Es kann z.B. vorkommen, dass ein 4 x 8 cm großes Etikett in Wirklichkeit nur 3,9 cm hoch und 7,8 cm breit ist.
+    Wenn Sie dann in MAGELLAN im Menü Schüler mehrere Schüler markieren und über Bearbeiten|Seriendruck nach Word den Seriendruckassistenten aufrufen, dann können Sie die Daten mit dieser Word-Vorlage verknüpfen. Im Folgenden ein Beispiel, wie diese Vorlage aussehen könnte:
  
 ![Seriendruckvorlage](/assets/images/seriendruck/seriendruck10.png)
 
 !!! info "Hinweis"
 
-  Beachten Sie bitte, dass ab dem 2. Etikett zunächst das Bedingungsfeld <<Nächster Daten-satz>> eingefügt werden muss, bevor Sie die Seriendruckfelder auswählen. Wenn Sie dies nicht tun, erhalten Sie auf jedem Etikett der Seite nur die Angaben eines Schülers und nicht für jeden Schüler ein Etikett.
-Wenn Sie sich die Seriendruck-Vorschau anzeigen lassen, erfolgt die Druckvorschau für die Etiketten gefüllt mit den markierten Schülerdaten:
+    Beachten Sie bitte, dass ab dem 2. Etikett zunächst das Bedingungsfeld <<Nächster Daten-satz>> eingefügt werden muss, bevor Sie die Seriendruckfelder auswählen. Wenn Sie dies nicht tun, erhalten Sie auf jedem Etikett der Seite nur die Angaben eines Schülers und nicht für jeden Schüler ein Etikett.
+    Wenn Sie sich die Seriendruck-Vorschau anzeigen lassen, erfolgt die Druckvorschau für die Etiketten gefüllt mit den markierten Schülerdaten:
  
 ![Gefüllte Seriendruckvorlage](/assets/images/seriendruck/seriendruck11.png)
 
 !!! info "Hinweis"
 
-  Es kann sein, dass die Seriendruck-Vorschau von dem eigentlichen Ausdruck auf dem Drucker variiert. Gelegentlich ist dies der Fall, wenn man einen Etikettentyp benutzt, der auf einer Seite 2 Etikettenreihen nebeneinander hat. Man hat in der Vorschau den Eindruck, dass sich die 2. Spalte beim Durchblättern durch die Datensätze stets auf der Folgeseite wiederholt. Der Ausdruck auf dem Drucker aber erfolgt korrekt.
+    Es kann sein, dass die Seriendruck-Vorschau von dem eigentlichen Ausdruck auf dem Drucker variiert. Gelegentlich ist dies der Fall, wenn man einen Etikettentyp benutzt, der auf einer Seite 2 Etikettenreihen nebeneinander hat. Man hat in der Vorschau den Eindruck, dass sich die 2. Spalte beim Durchblättern durch die Datensätze stets auf der Folgeseite wiederholt. Der Ausdruck auf dem Drucker aber erfolgt korrekt.
 
 Sie können die Etiketten entweder sogleich über die Funktion Seriendruck an Drucker auf Ihrem Drucker ausgeben oder Sie entscheiden sich sicherheitshalber für die Funktion Seriendruck in Doku-ment. Damit wird ein Dokument erstellt, das Sie zum einen als Druckvorschau nutzen können, um den Ausdruck im Vorfeld zu überprüfen. Zum anderen können Sie dieses Dokument abspeichern und haben so Ihren Serienbrief jederzeit später noch einmal im Zugriff. So wie sich in diesem Dokument der Etikettendruck darstellt, so erfolgt er dann später auch beim Ausdruck auf Ihrem Drucker, während wie gesagt die Seriendruck-Vorschau von der tatsächlichen Druckausgabe abweichen kann.
 
@@ -178,11 +183,11 @@ Im unteren Auswahlfeld desselben Fensters können Sie wählen, ob die Nachricht 
 
 !!! info "Hinweis"
 
-  „Cc“ ist die Abkürzung für "Carbon copy". Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, wobei der Name des Empfängers für andere Empfänger der Nachricht sichtbar ist. „Bcc“ ist die Abkürzung für "Blind carbon copy".  Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, der Name des Empfängers ist jedoch für andere Empfänger der Nachricht nicht sichtbar.
+    „Cc“ ist die Abkürzung für "Carbon copy". Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, wobei der Name des Empfängers für andere Empfänger der Nachricht sichtbar ist. „Bcc“ ist die Abkürzung für "Blind carbon copy".  Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, der Name des Empfängers ist jedoch für andere Empfänger der Nachricht nicht sichtbar.
 
 Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in MAGELLAN hinterlegten Emailadressen bereits eingefügt.
 
 !!! danger "Achtung"
 
-  Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
+    Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
   
