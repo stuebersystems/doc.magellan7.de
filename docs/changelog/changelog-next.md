@@ -29,6 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Ladeverhalten des Feldes `Verkehrsmittel` im Menü `Bewerber`
 * CHANGE: Seriendruck aus dem Menü `Schüler` an deren Sorgeberechtigte auch für inaktive Schüler möglich
 * FIX: Tabreihenfolge (Feldwechsel per Tabulatortaste) auf der Karte `Schüler > Zeugnis > Details` korrigiert
+* FIX: Unter `Bewerber > Daten1 > Bewerbung` wurden die Felder `2.Wunsch` und `3.Wunsch` wieder eingeblendet, dort kann auf eine Schule aus der Liste Schulen verwiesen werden.
 
 ### MYMAGELLAN
 
@@ -44,10 +45,6 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
-
-#### Klassen
-
-FIX: 
 
 #### Berlin
 
