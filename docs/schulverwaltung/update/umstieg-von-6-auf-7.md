@@ -69,7 +69,7 @@ Bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in die MAGELLAN 7-Da
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
-Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die aktuellste Ausgabe von MAGELLAN 6 und die dazugehörige Firebird-Ausgabe eingesetzt werden.
+Um die Daten Ihrer MAGELLAN 6-Datenbank in eine MAGELLAN 7-Datenbank übernehmen zu können, muss die **aktuellste Ausgabe von MAGELLAN 6** und die dazugehörige Firebird-Ausgabe eingesetzt werden.
 
 !!! info "Hinweis"
 
@@ -102,7 +102,6 @@ Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihre
 
     Bitte verwenden Sie einen leistungsstarken Rechner und legen beiden Datenbanken (die leere MAGELLAN7- und die gefüllte MAGELLAN6-Datenbank) auf diesem Rechner ab. Die Übertragung der Daten aus einer großen Datenbank kann viel Zeit in Anspruch nehmen, wenn die Daten dabei noch über Ihr Netzwerk übertragen werden, beeinflussen Sie diesen Prozess ungünstig.
 
-
 Öffnen Sie bitte das Modul MAGELLAN 7 ADMINISTRATOR und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `MAGELLAN 6 nach MAGELLAN 7` ein. Klicken Sie auf `Weiter`!
 
 ![MAGELLAN 6 nach MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren5.png)
@@ -111,6 +110,8 @@ Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-D
 ![leere Datenbank im Format für MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren6.png)
 
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.fdb)
+
+> Wichtig: Sollte Ihre MAGELLAN 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/bin/de/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
 
 ![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/magellan.administrator/mandanten.kopieren7.png)
 
