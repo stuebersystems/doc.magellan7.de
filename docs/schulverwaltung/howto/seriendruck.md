@@ -23,7 +23,7 @@ Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Datens�
 Schaltfläche unter Start | Shortcut
 :--|:--
 <img src="/assets/images/seriendruck/26.png">|STRG+S
-<img src="/assets/images/seriendruck/25.png">|STRG+W
+<img src="/assets/images/seriendruck/25.png">|STRG+S
 
 Es startet der Seriendruckassistent mit der folgenden Auswahl:
 

@@ -42,7 +42,7 @@ jeder Menüpunkt      | Letzter Datensatz | STRG+Ende
 jeder Menüpunkt      | Nächster Datensatz | STRG+BildAb
 jeder Menüpunkt      | Neuen Datensatz anlegen | STRG+N
 jeder Menüpunkt      | Programm beenden | ALT+D und ALT+B/ STRG+ALT+F4
-jeder Menüpunkt      | Seriendruck nach Word | STRG+W
+jeder Menüpunkt      | Seriendruck nach Word | STRG+S
 jeder Menüpunkt      | Seriendruck nach LibreOffice | STRG+S
 jeder Menüpunkt      | Stundenplan | F9
 jeder Menüpunkt      | Suchen | F3
