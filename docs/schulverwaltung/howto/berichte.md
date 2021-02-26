@@ -16,13 +16,11 @@ Mit MAGELLAN wird eine große Anzahl von Crystal Reports-Berichten kostenlos mit
 
 !!! info "Hinweis"
 
-	 Wenn Sie Berichte selbst verändern oder erstellen möchten, benötigen Sie Crystal Reports. Über STÜBER SYSTEMS können Sie Lizenzen zu Sonderkonditionen beziehen, bitte melden Sie sich, wenn Sie ein Angebot wünschen.
+	 Wenn Sie Berichte selbst verändern oder erstellen möchten, benötigen Sie Crystal Reports.
 
 ### Unterstützte Crystal Reports Versionen
 
 MAGELLAN 7 verfügt über eine Drucktechnologie, die Crystal Reports 9, 10, XI ... 2016 unterstützt. Die Berichte werden aktuell in Crystal Reports 2016 zur Verfügung gestellt, die abwärtskompatibel bis zur Version 9 von Crystal Reports sind. 
-
-
 
 ## Berichte organisieren
 
@@ -85,12 +83,10 @@ Um die beim Schüler hinterlegten Zeugnisse automatisiert zu drucken, müssen Si
 
 ## Eigene Berichte erstellen
 
-Wenn Sie neue Berichte erstellen bzw. vorhandene verändern möchten,  benötigen Sie einen Berichtsgenerator, d.h. ein Programm, mit dem Sie Berichte erstellen und verändern können. MAGELLAN verwendet ausschließlich den Berichtsgenerator Crystal Reports. In MAGELLAN werden daher nur Crystal Reports Berichte mitgeliefert. Sie können eine spezielle Schulversion von Crystal Reports von STÜBER SYSTEMS beziehen. 
+Wenn Sie neue Berichte erstellen bzw. vorhandene verändern möchten,  benötigen Sie einen Berichtsgenerator, d.h. ein Programm, mit dem Sie Berichte erstellen und verändern können. MAGELLAN verwendet ausschließlich den Berichtsgenerator Crystal Reports. In MAGELLAN werden daher nur Crystal Reports Berichte mitgeliefert.
 Die Datenstruktur der MAGELLAN Datenbank wird im Dokument ["MAGELLAN 7 Datenstruktur"](https://doc.magellan7-datenstruktur.stueber.de/) beschrieben.
-
 
 STÜBER SYSTEMS bietet zudem Schulungen zur Berichtserstellung in MAGELLAN an, die Ihnen eine Einführung geben bzw. Ihr Wissen vertiefen, unsere Schulungstermine können Sie auf unserer Webseite unter ["Schulungen"](https://www.stueber.de/training.php) einsehen. 
 
 Außerdem bietet STÜBER SYSTEMS speziellen Support zur Berichtserstellung mit MAGELLAN und Crystal Reports, die Unterstützung in Fragen rund um die Berichtserstellung oder -anpassung ist nicht Teil des MAGELLAN Supportvertrages. Um Berichte selbst erstellen zu können, benötigen Sie sehr gutes Wissen in der Berichtserstellung in Crystal Reports und der MAGELLAN Datenstruktur. 
 In der Regel ist es bei der Erstellung eigener Berichte am einfachsten, einen der mitgelieferten Berichte zu nehmen und diesen entsprechend abzuändern. Das Erlernen dieses Wissens ist nicht sehr schwer, aber auch nicht ganz einfach. Wenn Sie sich die Zeit und den Einarbeitungsaufwand sparen möchten, können Sie STÜBER SYSTEMS beauftragen, Ihre Zeugnisse und andere Berichte zu erstellen. Sie erhalten dann von STÜBER SYSTEMS die entsprechenden Crystal Reports Berichtsdateien, die Sie lediglich in das entsprechende Berichtsverzeichnis kopieren müssen. Schicken Sie dazu Ihre Papiervorlagen an STÜBER SYSTEMS. Sie erhalten dann ein Angebot über die Kosten für die Erstellung der Berichte.
-
