@@ -77,9 +77,11 @@ Starten Sie den Assistenten unter `MAGELLAN ADMINISTRATOR > MYMAGELLAN CENTER > 
 
 ![Benutzerdaten exportieren](/assets/images/mymagellan/24.png)
 
-Die entstandene CSV-Datei können Sie beispielsweise mit Excel öffnen.
+Die entstandene CSV-Datei können Sie beispielsweise mit Excel oder als Textdatei öffnen.
 
-![Export in Excel öffnen](/assets/images/mymagellan/25.png)
+![Export in Texteditor öffnen](/assets/images/mymagellan/30.png)
+
+![Export in Excel öffnen](/assets/images/mymagellan/31.png)
 
 !!! info "Hinweis"
 
