@@ -32,7 +32,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Tabreihenfolge (Feldwechsel per Tabulatortaste) auf der Karte `Schüler > Zeugnis > Details` korrigiert
 * FIX: Unter `Bewerber > Daten1 > Bewerbung` wurden die Felder `2.Wunsch` und `3.Wunsch` wieder eingeblendet, dort kann auf eine Schule aus der Liste Schulen verwiesen werden.
 * CHANGE: Die Anzeige für hohe Auflösungen wurden überarbeitet
-* 
 
 ### MYMAGELLAN
 
@@ -44,14 +43,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: SchülerOnline > Schüler Sorgeberechtigte; korrektur der Kopfzeile
 
-
 ### Skripte
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: SAR-APO-2018.dws = Notenbuffer erhöht
 * FIX: Importiere SDTF.dws = Umgang mit nicht gesetzter Fachkursnummer beim Übertrag des Lehrerunterrichts.
-* FIX: NRW-APO-2012: 
+* FIX: NRW-APO-2012
   * Die Prüfung auf die Einbringung von Zusatzkursen wurde angepasst
   * Neuer Fachstatus "Projekt" zur Markierung von Projektfächern
 
