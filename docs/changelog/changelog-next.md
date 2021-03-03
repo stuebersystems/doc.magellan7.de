@@ -42,6 +42,9 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * FIX: SAR-APO-2018.dws = Notenbuffer erhöht
 * FIX: Importiere SDTF.dws = Umgang mit nicht gesetzter Fachkursnummer beim Übertrag des Lehrerunterrichts.
+* FIX: NRW-APO-2012: 
+  * Die Prüfung auf die Einbringung von Zusatzkursen wurde angepasst
+  * Neuer Fachstatus "Projekt" zur Markierung von Projektfächern
 
 ### Berichte
 
