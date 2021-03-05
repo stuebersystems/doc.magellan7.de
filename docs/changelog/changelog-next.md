@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.25 - 719
+## 7.1.26 - 719
 
 ### Datenstruktur
 
@@ -26,44 +26,31 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: Ladeverhalten des Feldes `Verkehrsmittel` im Menü `Bewerber`
-* FIX: Ladeverhalten des Feldes  `Krankenkasse` im Menü `Bewerber`
-* CHANGE: Seriendruck aus dem Menü `Schüler` an deren Sorgeberechtigte auch für inaktive Schüler möglich
-* FIX: Tabreihenfolge (Feldwechsel per Tabulatortaste) auf der Karte `Schüler > Zeugnis > Details` korrigiert
-* FIX: Unter `Bewerber > Daten1 > Bewerbung` wurden die Felder `2.Wunsch` und `3.Wunsch` wieder eingeblendet, dort kann auf eine Schule aus der Liste Schulen verwiesen werden.
-* CHANGE: Die Anzeige für hohe Auflösungen wurden überarbeitet
-* FIX: Beim Anlegen eines neuen Sorgeberechtigten vom Schüler/Bewerber/Vagabunden aus, kann die Postleitzahl auch gefüllt werden, wenn man nur den Ort erfasst und die Tabtaste drückt.
-* FIX: Beim Anlegen eines neuen Bewerbers werden die frisch erfassten Daten in dem Moment gespeichert, indem man das Untermenü `Familie` aufruft.
-* FIX: Kopiert man einen Stammschüler als Bewerber, werden für die Bewerberkopie im Seriendruck die Sorgeberechtigten (des Stammschülers, die für die Bewerberkopie auch in Daten1 gezeigt werden) ausgegeben.
-* FIX: Unter `Abitur > Qualifikation > Layout` anpassen können Felder ein- und ausgeblendet werden.
+* FIX: 
 
 ### MAGELLAN BIBLIOTHEK
 
-* FIX: Das Feld `Gültig bis` unter `Lehrer > Daten` kann geändert oder geleert werden
+* FIX: 
 
 ### MYMAGELLAN
 
-* FIX: Problem beim Speichern behoben
+* FIX: 
 
 ### MYMAGELLAN Center
 
-* CHANGE: Wenn ein Lehrer für einen Schüler als Fachlehrer und Tutor erfasst ist, können jetzt Zeugnisbemerkungen erfasst werden. Für diese Änderung muss die *.mymx neu erstellt werden.
+* CHANGE: 
 
 ### MAGELLAN Schnittstellen
 
 #### NRW
 
-* FIX: `SchülerOnline > Schüler Sorgeberechtigte`: Korrektur der Kopfzeile
+* FIX: 
 
 ### Skripte
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: SAR-APO-2018.dws = Notenbuffer erhöht
-* FIX: Importiere SDTF.dws = Umgang mit nicht gesetzter Fachkursnummer beim Übertrag des Lehrerunterrichts.
-* FIX: NRW-APO-2012
-  * Die Prüfung auf die Einbringung von Zusatzkursen wurde angepasst
-  * Neuer Fachstatus "Projekt" zur Markierung von Projektfächern
+* FIX:
 
 ### Berichte
 
@@ -71,19 +58,16 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Berlin
 
-* CHANGE: BER-GY-ZAS (Schul II 929-9)(12.08).rpt (Berechnung des Kurshalbjahres für G8 angepasst)
-* NEW: BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt
+* CHANGE: 
 
 #### Saarland
 
-* NEW: SAR-Antrag auf Zulassung (Anlage 5).rpt
+* NEW:
 
 #### Niedersachsen
 
-* FIX: NIE-GY-ABI (2021).rpt 
+* FIX: 
 
 #### Auslandsschulen
 
-* FIX: DAS-Prüfungsbogen (Anlage 7 zu DIA-PO)(2018).rpt (Im gesellschaftswiss. Bereich können nun bis zu 4 Fächer angezeigt werden. Da sich üblicherweise die Bilinguale Sprache im Abitur nicht ändert, lesen wir einfach rückwärts von Q4 aus nach den Eintrag aus den zugewiesenen Kurssprachen aus und verwende diese dann im Bericht.)
-* NEW: DAS-GY-ABI (DIA)(2021).rpt (Anpassungen gemäß Richtlinien für die Ausweisung der Sprachen auf den Abschlusszeugnissen der Deutschen Schulen im Ausland (Zeugnisse über die Allgemeine Hochschulreife, den Mittleren Schulabschluss und den Hauptschulabschluss)
-Beschluss der Kultusministerkonferenz vom 25.09.2019 vorgenommen)
+* FIX: 
