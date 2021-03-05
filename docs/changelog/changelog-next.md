@@ -32,16 +32,28 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Tabreihenfolge (Feldwechsel per Tabulatortaste) auf der Karte `Schüler > Zeugnis > Details` korrigiert
 * FIX: Unter `Bewerber > Daten1 > Bewerbung` wurden die Felder `2.Wunsch` und `3.Wunsch` wieder eingeblendet, dort kann auf eine Schule aus der Liste Schulen verwiesen werden.
 * CHANGE: Die Anzeige für hohe Auflösungen wurden überarbeitet
+* FIX: Beim Anlegen eines neuen Sorgeberechtigten vom Schüler/Bewerber/Vagabunden aus, kann die Postleitzahl auch gefüllt werden, wenn man nur den Ort erfasst und die Tabtaste drückt.
+* FIX: Beim Anlegen eines neuen Bewerbers werden die frisch erfassten Daten in dem Moment gespeichert, indem man das Untermenü `Familie` aufruft.
+* FIX: Kopiert man einen Stammschüler als Bewerber, werden für die Bewerberkopie im Seriendruck die Sorgeberechtigten (des Stammschülers, die für die Bewerberkopie auch in Daten1 gezeigt werden) ausgegeben.
+* FIX: Unter `Abitur > Qualifikation > Layout` anpassen können Felder ein- und ausgeblendet werden.
+
+### MAGELLAN BIBLIOTHEK
+
+* FIX: Das Feld `Gültig bis` unter `Lehrer > Daten` kann geändert oder geleert werden
 
 ### MYMAGELLAN
 
-* CHANGE:
+* FIX: Problem beim Speichern behoben
+
+### MYMAGELLAN Center
+
+* CHANGE: Wenn ein Lehrer für einen Schüler als Fachlehrer und Tutor erfasst ist, können jetzt Zeugnisbemerkungen erfasst werden. Für diese Änderung muss die *.mymx neu erstellt werden.
 
 ### MAGELLAN Schnittstellen
 
 #### NRW
 
-* FIX: SchülerOnline > Schüler Sorgeberechtigte; korrektur der Kopfzeile
+* FIX: `SchülerOnline > Schüler Sorgeberechtigte`: Korrektur der Kopfzeile
 
 ### Skripte
 
