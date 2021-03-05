@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Anlegen eines neuen Bewerbers werden die frisch erfassten Daten in dem Moment gespeichert, indem man das Untermenü `Familie` aufruft.
 * FIX: Kopiert man einen Stammschüler als Bewerber, werden für die Bewerberkopie im Seriendruck die Sorgeberechtigten (des Stammschülers, die für die Bewerberkopie auch in Daten1 gezeigt werden) ausgegeben.
 * FIX: Unter `Abitur > Qualifikation > Layout` anpassen können Felder ein- und ausgeblendet werden.
+* FIX: Alle Dropdown-Felder auf der Karte `Schüler > Zeugnis > Details` erkennen eine Eingabe, wenn die Auswahl per Return bestätigt wird, damit werden die Felder beim Wechsel der Karte gespeichert
 
 ### MAGELLAN BIBLIOTHEK
 
