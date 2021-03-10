@@ -50,24 +50,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX:
+* FIX: NRW-APO-2012: Das Markieren von Fächern der Kategorie Sozialkunde wurde korrigiert
 
 ### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-#### Berlin
-
-* CHANGE: 
-
-#### Saarland
-
-* NEW:
-
-#### Niedersachsen
-
-* FIX: 
-
-#### Auslandsschulen
-
-* FIX: 
