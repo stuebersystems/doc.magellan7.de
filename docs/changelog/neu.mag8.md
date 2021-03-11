@@ -120,6 +120,7 @@ Die Möglichkeit einen Kontakt für Betrieb zu hinterlegen `Betriebe > Kontakte`
 #### Anbindung an LibreOffice
 
 Sie können unter `Datenbank > Optionen > Dokumente > Seriendruck` wählen, ob die Seriendruckdaten aus MAGELLAN an Word oder an LibreOffice übergeben werden sollen. Je nach Auswahl wird beim Aufruf der Seriendruckfunktionalität Word oder LibreOffice aufgerufen und Sie können die übergebenen Daten im gewählten Zielprogramm wie gewohnt weiterverarbeiten.
+Wählen Sie die Option, das gefüllte Dokument vor der Übergabe nach LibreOffice in der Dokumentenverwaltung zu speichern, wird die Vorlage mit den Daten befüllt und im PDF-Format im jeweiligen Unterordner abgelegt.
 
 #### Schüler
 

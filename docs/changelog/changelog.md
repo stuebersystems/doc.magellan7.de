@@ -20,6 +20,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
+    **OPAC-Anbindung der MAGELLAN Bibliothek**: Durch Änderungen der Schnittstelle durch die Deutsche Nationalbibliothek können aktuell keine Daten ausgelesen werden, die Funktion steht damit aktuell nicht zur Verfügung.
+    
     **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.

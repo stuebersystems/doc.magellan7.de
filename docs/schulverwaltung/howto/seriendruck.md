@@ -45,14 +45,14 @@ An den aktuellen Betrieb der markierten Schüler|ein Brief pro markiertem Schül
  
 ![Seriendruck-Assistent „Vorlage auswählen“](/assets/images/seriendruck/seriendruck3.png)
 
-
-Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. 
+Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten.
 
 Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. In beiden Fällen wird Word gestartet. Alle Dokumente, die in dem Ordner `MAGELLAN > Vorlagen > Schüler` abgespeichert wurden, können Sie bei einem Seriendruck an die Schüler unter Vorlage aufrufen.
 
 !!! info "Hinweis"
 
     Um die Option Daten mit einer Vorlage verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
+    Aus Word kann je Schüler (alternativ Bewerber, Lehrer, Klasse, Sorgeberechtigte je nach Startmenüpunkt) in den Unterordnern als Worddokument gespeichert werden. Verwenden Sie LibreOffice speichert MAGELLAN die Daten in einer PDF-Datei.
 
 Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster `Vorlagen organisieren`.
 
@@ -64,13 +64,13 @@ Das Fenster `„Vorlagen organisieren“` besteht aus einer Schnellstartleiste a
 
 Um eigene Vorlagen einzufügen, gehen Sie bitte folgendermaßen vor:
 
-1. Sie starten den Seriendruck und wählen die Option „Daten mit einem vorhandenen Dokument verknüpfen“. Verweisen Sie dabei auf die Datei, die den vorbereiteten Text enthält, aber noch keine Seriendruckfelder. 
+1. Sie starten den Seriendruck und wählen die Option „Daten mit einem vorhandenen Dokument verknüpfen“. Verweisen Sie dabei auf die Datei, die den vorbereiteten Text enthält, aber noch keine Seriendruckfelder.
 
 2. Word/LibreOffice startet, Sie sehen Ihren Text und können nun Ihre Seriendruckfelder an den gewünschten Stellen platzieren.
 
-3. Wählen Sie `Datei > Speichern unter` und passen bitten den `Dateityp `auf `*.dotx oder *.ott` an. Speichern Sie das Dokument an einer beliebigen Stelle.
+3. Wählen Sie `Datei > Speichern unter` und passen bitten den `Dateityp` auf `*.dotx oder *.ott` an. Speichern Sie das Dokument an einer beliebigen Stelle.
 
-4. Wechseln Sie an die Stelle und kopieren Ihre Vorlage in die Zwischenablage, öffnen MAGELLAN und wählen `Extras > Vorlagen organisieren > Schüler/Bewerber...` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung *.ott oder *.dotx ein.
+4. Wechseln Sie an die Stelle und kopieren Ihre Vorlage in die Zwischenablage, öffnen MAGELLAN und wählen `Extras > Vorlagen organisieren > Schüler/Bewerber...` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung `*.ott` oder `*.dotx` ein.
 
 Beim nächsten Aufruf des Seriendrucks finden Sie unter den Beispielvorlagen im Punkt `„Daten mit einer Vorlage verknüpfen“` Ihre Vorlage mit zu Auswahl.
 
@@ -91,7 +91,7 @@ Nach Word/LibreOffice werden pro Schüler Daten über den aktuellen Betrieb, die
 ### Den Ausbilder per Mail anschreiben?
 
  Wenn Sie die Nachricht nicht postalisch sondern per Mail versenden möchten, können Sie den fertigen Serienbrief auch aus Word/LibreOffice heraus per Mail versenden. Beide Programme lassen den Versand der Seriendruckdaten per Mail zu.
- 
+
 ### An die Sorgeberechtigten des Schülers
 
 !!! info "Hinweis"
