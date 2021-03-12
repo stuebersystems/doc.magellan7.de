@@ -111,7 +111,7 @@ Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-D
 
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.fdb)
 
-> Wichtig: Sollte Ihre MAGELLAN 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/bin/de/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
+> Wichtig: Sollte Ihre MAGELLAN 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/pub/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
 
 ![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/magellan.administrator/mandanten.kopieren7.png)
 
