@@ -90,9 +90,9 @@ Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-c
 !!! info "Hinweis"
 
     Sollten Sie eine Datenübernahme wiederholen wollen, benötigen Sie eine "frische" leere MAGELLAN 7 Datenbank. 
-    Diese könnten Sie [hier](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.FDB) herunterladen.
+    Diese könnten Sie [hier](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunterladen.
 
-Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.MAGELLAN7.stueber.de/schulverwaltung/installation/).
+Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.magellan7.stueber.de/schulverwaltung/installation/).
 
 ## Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen
 
@@ -109,9 +109,9 @@ Im dritten Schritt werden in eine leere MAGELLAN 7-Datenbank, die Daten aus Ihre
 Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 7-Datenbank möglich. Bei der Installation von MAGELLAN 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.fdb".
 ![leere Datenbank im Format für MAGELLAN 7](/assets/images/magellan.administrator/mandanten.kopieren6.png)
 
-Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/database/MAGELLAN7.fdb)
+Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 7-Format herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.fdb)
 
-> Wichtig: Sollte Ihre MAGELLAN 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/pub/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
+> Wichtig: Sollte Ihre MAGELLAN 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
 
 ![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/magellan.administrator/mandanten.kopieren7.png)
 
