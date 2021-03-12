@@ -20,7 +20,7 @@ Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt
 
 ## Updates ohne Datenstrukturerweiterung
 
-Bitte aktualisieren Sie immer als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Sie können das aktuelle [msi-Paket](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v7/MAGELLAN7.msi) von unserer Webseite herunterladen und direkt per Doppelklick starten oder dazu ein Tool zur Softwareverteilung nutzen.
+Bitte aktualisieren Sie immer als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Sie können das aktuelle [msi-Paket](https://download.stueber.de/bin/de/MAGELLAN/v7/MAGELLAN7.msi) von unserer Webseite herunterladen und direkt per Doppelklick starten oder dazu ein Tool zur Softwareverteilung nutzen.
 
 ## Updates mit Datenstrukturerweiterung
 

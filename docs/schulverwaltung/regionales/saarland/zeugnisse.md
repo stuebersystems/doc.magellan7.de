@@ -1,22 +1,14 @@
 # Zeugnisse mit Lernfeldern
 
-
 ## Zeugnisberichte vom Saarländischen Ministerium für Bildung und Kultur
 
 Zusätzlich zu den von uns gelieferten Berichten liefern wir vom Ministerium für Bildung und Kultur erstellte Berichte aus. Sie finden diese Zeugnisberichte aus MAGELLAN heraus über `Schüler > Drucken > Zeugnisse > Saarland > Ministerium`.
 
-
-
 !!! warning "Wichtig"
 
-    Im gleichen Verzeichnis finden Sie auch die Anleitung ["MBK - Zeugniserstellung nach dem Lernfeldkonzept mit MAGELLAN.pdf"](ftp://ftp.stueber.de/pub/doc/de/schulverwaltung/dokumentation/MBK - Zeugniserstellung nach dem Lernfeldkonzept mit MAGELLAN.pdf) des Saarländischen Ministeriums. Da die Datei ein PDF ist, sehen Sie sie nicht in der Berichtsvorschau, bitte öffnen Sie das Verzeichnis über den Windows Explorer.
-
-
+    Im gleichen Verzeichnis finden Sie auch die Anleitung ["MBK - Zeugniserstellung nach dem Lernfeldkonzept mit MAGELLAN.pdf"](https://download.stueber.de/doc/de/schulverwaltung/dokumentation/MBK - Zeugniserstellung nach dem Lernfeldkonzept mit MAGELLAN.pdf) des Saarländischen Ministeriums. Da die Datei ein PDF ist, sehen Sie sie nicht in der Berichtsvorschau, bitte öffnen Sie das Verzeichnis über den Windows Explorer.
 
 ![Filterung nach der Region Saarland unter der Kategorie Zeugnisse](/assets/images/saarland/saar2.png)
-
-
-
 
 ## Zeugnisberichte von STÜBER SYSTEMS
 

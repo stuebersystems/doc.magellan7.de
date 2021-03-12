@@ -15,9 +15,9 @@ Der Assistent zum Datenstrukturanpassen prüft vor der Erweiterung der Datenstru
 
     Bitte prüfen Sie vorab welche Version von Firebird Sie aktuell einsetzen. Die Versionsnummer wird Ihnen auf Ihrem Serverrechner unter `Start > Systemsteuerung > Programme und Funktionen > Firebird` gezeigt.  
 
-Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2.5.9,  von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
+Nachfolgend beschreiben wir die Schritte beim Aktualisieren von 2.5.5, von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
 
-## Update von Firebird 2.5.5 auf 2.5.9
+## Update von Firebird 2.5.5 auf 2.5.8
 
 1. Bitte gehen Sie wie folgt vor:
    Laden Sie die aktuelle Version von Firebird herunter: [Datenbanksystem Firebird](https://magellan.stueber.de/download.php)
@@ -48,10 +48,10 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2
 
 ![Starten Sie den Firebird-Server wieder](/assets/images/update/fb.11.png)
 
-## Update von Firebird 2.5.1/2.5.2 auf 2.5.5
+## Update von Firebird 2.5.1/2.5.2 auf 2.5.8
 
 1. Bitte gehen Sie wie folgt vor:
-   Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.5](ftp://ftp.stueber.de/pub/bin/de/magellan/v6/Firebird-2.5.5.26952_0_Win32.exe)
+   Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.8](https://download.stueber.de/bin/de/firebird/Firebird-2.5.8.27089_0_Win32.exe)
 2. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`.
 
 ![Firebird-Server-Dienst stoppen](/assets/images/firebird_stop.jpg)
@@ -64,7 +64,7 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von  von 2.5.5 auf 2
 
 2. Als letzten Schritt tauschen Sie bitte die aktuelle Datenbank gegen die mit der aktuellen Firebirdversion wiederhergestellte Datenbank aus. Stoppen Sie den laufenden Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Beenden`. Benennen Sie die aktuelle Datenbank um (z.B. in alt\_Magellan6.fdb} und geben der wiederhergestellten Datenbank den bisherigen Datenbanknamen. Starten Sie den Firebirdserver unter `Start > Systemsteuerung > Verwaltung > Dienste > Firebird-Server > Rechtsklick > Neu starten`. Anschließend starten Sie Magellan und folgen bitte dem Assistenten zur Datenstrukturanpassung.
 
-## Update von Firebird 2.1 auf Firebird 2.5.5
+## Update von Firebird 2.1 auf Firebird 2.5.8
 
 MAGELLAN 6 wurde bis zur Version 6.0.68 mit Firebird 2.1 ausgeliefert. Aktuell setzt MAGELLAN 6 mit Firebird 2.5 eine neuere Version des Datenbank-Management-Systems voraus. Setzen Sie noch die Version 2.1 ein, müssen Sie vor dem Update von Magellan noch einige Schritte  ausführen.
 
@@ -76,7 +76,7 @@ Bitte folgen Sie diesen Schritten:
 
 3. Deinstallieren Sie bitte Firebird 2.1 (analog dem Kapitel „Deinstallation von Firebird 1.5“}
 
-4. Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.5](ftp://ftp.stueber.de/pub/bin/de/magellan/v6/Firebird-2.5.5.26952_0_Win32.exe)
+4. Laden Sie die aktuelle Version von Firebird herunter: [Download Firebird 2.5.8](https://download.stueber.de/bin/de/firebird/Firebird-2.5.8.27089_0_Win32.exe)
 
 5. Starten Sie die Installation per Doppelklick auf das Installationspaket. Folgen Sie dem Installationsassistenten.
 
