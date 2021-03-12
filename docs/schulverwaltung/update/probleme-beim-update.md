@@ -85,8 +85,6 @@ Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Ins
 |Windows 7          |C:\Users\Public\Documents\Stueber S...\Magellan 7 |
 |Windows Server 2008|C:\Users\Public\Documents\Stueber S...\Magellan 7\ |
 
-
-
 ## Trotz Update fehlen Skripte oder andere aktuelle Daten
 
 Sie spielen das Update ein und dennoch fehlen Skripte für die Strukturanpassung oder zum Beispiel das in der LiesMich-Datei angekündigte neue Zeugnis?
@@ -102,33 +100,27 @@ Nr|Ursache
 2.|der Server hat das Update erhalten, aber das Update konnte die Anpassungsskripte nicht ablegen
 3.|Sie haben eine Einzelplatzinstallation und haben Ihr Betriebssystem auf Windows 10 aktualisiert
 
-
 **Zu 1.: **
 
 Bitte immer als erstes den Serverrechner aktualisieren, da dieser Rechner der einzige im Netzwerk ist, der die gemeinsam genutzten Programmkomponenten, wie zum Beispiel die Skripte hat und für die Clientinstallationen zur Verfügung stellt.
 
-**Zu 2.:** 
+**Zu 2.:**
 
 Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann es damit zusammenhängen, dass nach der ursprünglichen Serverinstallation die Pfade nachträglich verschoben wurden. Der bei der Installation und bei den Updates verwendete Windows Installer „möchte“ die Dateien am ursprünglichen Speicherort aktualisieren. Sollte dieser nicht mehr bestehen, müsste erneut installiert werden und gleich auf die gewünschten Pfade verwiesen werden.
-
 
 **zu 3.:**  
 Wenn Sie Ihren Rechner mit einer bestehenden MAGELLAN-Installationauf Windows 10 aktualisieren, kann es passieren, dass beim Folgeupdate von Magellan die Datenordner vom Windows Installer nicht gefunden werden und keine neuen Bestandteile wie Skripte, Berichte usw abgelegt werden.
 Das betrifft keine Clientinstallationen die auf Datenordner auf dem Serverrechner nutzen, sondern nur Server-/Einzelplatzinstallationen. Bitte deinstallieren Sie Magellan und installieren Sie es neu!
 
-
 ## Meldung "no permission for read/select Access to TABLE..."?
 
 Wenn bei einem Update die Datenstruktur um eine neue Tabelle erweitert wurde, dann muss für die bereits eingerichteten Benutzer geklärt werden, ob sie darauf zugreifen können. Daher ist der letzte Schritt im Updateprozess das Ausführen des Punktes "Zugriffsrechte synchronisieren" im Modul MAGELLAN Administrator.
 
-
 Bitte rufen Sie den MAGELLAN Administrator auf und führen den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` durch, im Anschluss können die Kollegen sich wieder mit der gewohnten Kennung anmelden.
-
 
 ![Führen Sie diesen Punkt aus, um für neue Bestandteile der Datenbank die Zugriffsrechte für Ihre Benutzer zu vergeben](/assets/images/update.zugriffsrechte.synch.png)
 
 ## Meldung "Runtime error ..."
-
 
 Vermutlich ist eine der Dateien, die beim Start von MAGELLAN geladen werden sollen, beschädigt. Die möglichen Dateien pro Arbeitsplatz wären (außer Sie verwenden eine MAGELLAN.paths um die Dateien gemeinsam zu verwenden):
 
@@ -137,7 +129,6 @@ Vermutlich ist eine der Dateien, die beim Start von MAGELLAN geladen werden soll
   *  MAGELLAN.lic (Lizenz)
 
 Bitte schauen Sie an dem Rechner je nach Betriebssystem unter folgendem Pfad nach:
-
 
 | Betriebssystem | Pfad |
 | --- | --- |
@@ -149,8 +140,6 @@ Bitte schauen Sie an dem Rechner je nach Betriebssystem unter folgendem Pfad nac
 | Windows 8 | C:\ProgramData\Stueber Software\Magellan 6 |
 | Windows 10 | C:\ProgramData\Stueber Software\Magellan 6 |
 
-
-
 Bitte benennen Sie der Reihe nach immer eine der Dateien um und starten MAGELLAN, um zu sehen, welche der Dateien das Problem verursacht.
 Wenn Sie eine Dateien ausmachen konnten, gehen Sie je nach Datei wie folgt vor:
 
@@ -159,3 +148,39 @@ Datei|nächster Schritt
 MAGELLAN.opt?|Bitte einfach löschen, die Datei wird beim nächsten Schließen von MAGELLAN neu angelegt, anschließend bitte die Optionen unter `Extras > Einstellungen` neu auswählen.
 MAGELLAN.evm?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 MAGELLAN.lic?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
+
+## Fehler beim Schreiben in Datei. CrystalDecisions.CrystalReports.Engine.dll
+
+![Fehlermeldung](/assets/images/installation/03.png)
+
+Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
+Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
+
+[https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
+
+## Fehler beim Registrieren von Modul ... crtslv.dll
+
+![Fehlermeldung](/assets/images/installation/fehler_cr.png)
+
+Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
+Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
+
+[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
+
+## Typeninitialisierer für Crystal.Decisions
+
+![Fehlermeldung](/assets/images/installation/02.png)
+
+Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
+Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
+Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
+
+[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
