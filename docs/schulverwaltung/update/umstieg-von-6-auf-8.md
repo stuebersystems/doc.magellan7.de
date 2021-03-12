@@ -90,7 +90,7 @@ Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-c
 !!! info "Hinweis"
 
     Sollten Sie eine Datenübernahme wiederholen wollen, benötigen Sie eine "frische" leere MAGELLAN 8 Datenbank. 
-    Diese könnten Sie [hier](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v8/database/MAGELLAN8.FDB) herunterladen.
+    Diese könnten Sie [hier](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB) herunterladen.
 
 Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 8 aus, beide Version (6 + 8) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.MAGELLAN.stueber.de/schulverwaltung/installation/).
 
@@ -107,7 +107,7 @@ Im dritten Schritt werden in eine leere MAGELLAN 8-Datenbank, die Daten aus Ihre
 2. Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 8-Datenbank möglich. Bei der Installation von MAGELLAN 8 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN8.fdb".
 ![leere Datenbank im Format für MAGELLAN 8](/assets/images/magellan.administrator/mandanten.kopieren6.1.png)
 
-Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 8-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/MAGELLAN/v8/database/MAGELLAN8.fdb)
+Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 8-Format herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
 
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (MAGELLAN 6), im unteren Bereich auf die Zieldatenbank (MAGELLAN 8).

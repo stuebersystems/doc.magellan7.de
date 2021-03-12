@@ -226,7 +226,7 @@ Die Übersicht der Verknüpfungen gilt für den jeweils gewählten Bericht oder 
 
 Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorschau?
 
-Dann handelt es sich vermutlich um einen Bericht, der den Inhalt eines Feldes als Barcode darstellen soll. Für die Darstellung als Barcode wird die Schriftart [Code EAN 13](https://download.stueber.de/bin/de/magellan/v7/zubehoer/ean13.ttf) verwendet. Die Schriftart fehlt auf Ihrem Rechner oder ist nicht korrekt installiert, bitte laden Sie sie herunter und installieren Sie diese Schriftart per Doppelklick auf dei Datei neu!
+Dann handelt es sich vermutlich um einen Bericht, der den Inhalt eines Feldes als Barcode darstellen soll. Für die Darstellung als Barcode wird die Schriftart [Code EAN 13](https://download.stueber.de/bin/de/common/fonts/ean13.ttf) verwendet. Die Schriftart fehlt auf Ihrem Rechner oder ist nicht korrekt installiert, bitte laden Sie sie herunter und installieren Sie diese Schriftart per Doppelklick auf dei Datei neu!
 
 !!! tip "Tipp"
 
