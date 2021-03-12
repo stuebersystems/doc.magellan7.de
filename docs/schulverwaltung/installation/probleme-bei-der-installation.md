@@ -12,9 +12,9 @@ Firebird nutzt für den Datenverkehr den **Port 3050**, mitunter ist dieser Port
 
 ## Der Pfad zur Datenbank ist verkehrt
 
- Starten Sie den Magellan-Administrator ohne Anmeldung:
+Starten Sie den Magellan-Administrator ohne Anmeldung:
 
- `Starten > Verbindung markieren > Bearbeiten > Unterkarte „Datenbank“`. Bitte prüfen Sie, dass Pfad zur Datenbank korrekt ist (Achtung: nachstehende Abbildung enthält lediglich einen Beispielpfad!) und mit dem Dateinamen der Datenbank endet, wie in der folgenden Abbildung:
+`Starten > Verbindung markieren > Bearbeiten > Unterkarte „Datenbank“`. Bitte prüfen Sie, dass Pfad zur Datenbank korrekt ist (Achtung: nachstehende Abbildung enthält lediglich einen Beispielpfad!) und mit dem Dateinamen der Datenbank endet, wie in der folgenden Abbildung:
 
 !["Datenbank registrieren"](/assets/images/admin-connection-dialog.png )
 
@@ -37,7 +37,9 @@ Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port dur
 ![Fehlermeldung](/assets/images/installation/03.png)
 
 Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
 Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
 Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
 [https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
@@ -47,17 +49,21 @@ Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie 
 ![Fehlermeldung](/assets/images/installation/fehler_cr.png)
 
 Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
 Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
 Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
-[ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
+[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
 
 ## Typeninitialisierer für Crystal.Decisions
 
 ![Fehlermeldung](/assets/images/installation/02.png)
 
 Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+
 Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+
 Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
-[ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe](ftp://ftp.stueber.de/pub/bin/de/magellan/v7/zubehoer/vc2015u3_redist_x86.exe)
+[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
