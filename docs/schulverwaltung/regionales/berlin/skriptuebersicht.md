@@ -4,11 +4,11 @@ In der nachfolgenden Übersicht werden alle für Berlin verfügbaren Skripte auf
 
 |Verordnung | Abitur | Fachwahl MAGELLAN | Fachwahl DAVINCI | Schüler ) Leistungskarte | Berufsschule|
 - | - | - | - | - | -
-|APO 2017| [BER-APO-2017.dws](https://doc.la.stueber.de/Skripte/BER-APO-2017.html)|[BER-FW-2017.js](https://doc.la.stueber.de/Skripte/BER-FW-2017.html)|/|/|/
-|APO 2004| [BER-APO-2004.dws](https://doc.la.stueber.de/skripte_ber-apo-2004.html)   |/|/|/|/
-|APO 2007| [BER-APO-2007.dws](https://doc.la.stueber.de/skripte_ber-apo-2007.html)  |/|/|/|[BER-BBS-Matrix-2007.dws](https://doc.la.stueber.de/berufsschule/skript/ber-bbs-matrix-2007dws.html)
-|APO 2010| [BER-APO-2010.dws ](https://doc.la.stueber.de/skripte_ber-apo-2010.html) |/|/|/|/
-| APO 2011 | [BER-APO-2011.dws](https://doc.la.stueber.de/skripte_ber-apo-2011.html)  | [BER-FW-APO-2011.js](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-2011.html)  | [BER-FW-APO-2011.js ](https://doc.la.stueber.de/fachwahl/ber-fw-apo-2011js.html) |/|/
+|APO 2017| [BER-APO-2017.dws](https://doc.la.stueber.de/03.ber/ber-apo-2017/)|[BER-FW-2017.js](https://doc.la.stueber.de/03.ber/ber-fw-2017js/)|/|/|/
+|APO 2004| [BER-APO-2004.dws](https://doc.la.stueber.de/03.ber/ber-apo-2004/)   |/|/|/|/
+|APO 2007| [BER-APO-2007.dws](https://doc.la.stueber.de/03.ber/ber-apo-2007/)  |/|/|/|[BER-BBS-Matrix-2007.dws](https://doc.la.stueber.de/03.ber/ber-bbs-matrix-2007dws/)
+|APO 2010| [BER-APO-2010.dws ](https://doc.la.stueber.de/03.ber/ber-apo-2007/) |/|/|/|/
+| APO 2011 | [BER-APO-2011.dws](https://doc.la.stueber.de/03.ber/ber-apo-2011/)  | [BER-FW-APO-2011.js](https://doc.magellan6.stueber.de/regionales/berlin/oberstufe/ber-fw-apo-2011.html)  | [BER-FW-APO-2011.js ](https://doc.la.stueber.de/fachwahl/ber-fw-apo-2011js.html) |/|/
 |APO BGY 2011|/|[BER-FW-APO-BBS-2011.js ](https://doc.la.stueber.de/fachwahl/ber-fw-apo-bbs-2011js.html)  | [BER-FW-APO-BBS-2011.js ](https://doc.la.stueber.de/fachwahl/ber-fw-apo-bbs-2011js.html)  |/|/
 |APO 2006| [BER-APO-FOS-2006.dws](https://doc.la.stueber.de/skripte_ber-apo-fos-2006.html)   |/|/|/|/
 |APO 2013| [BER-APO-FOS-2013](https://doc.la.stueber.de/skripte_ber-apo-fos-2013.html)   |/|/|/|/

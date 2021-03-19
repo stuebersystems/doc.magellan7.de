@@ -105,14 +105,14 @@ Lehrer > Daten > Geschlecht|(zeugnisrelevant) <br/>Füllen Sie bitte für die Ko
 |Klassen > Daten > Klassenart|Wählen Sie bitte `Oberstufenjahrgang (nur Kurse)`oder `Oberstufenjahrgang (Grund- und Leistungskurse)`|
 |Klassen > Zeiträume > Zeitraum > Klassenleiter|(zeugnisrelevant)<br/>Wählen Sie bitte den `Klassenleiter` aus!|
 |Klassen > Zeiträume > Zeitraum > Jahrgang|Tragen Sie pro Klassenzeitraum bitte den Jahrgang ein (11,12 oder 13)|
-Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/assets/images/ausland/verordnungen.png) 
+Verzeichnisse > Verordnungen| Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/01.de/de-diap-2015/)<br/>Beispiel: ![Beispiel](/assets/images/ausland/verordnungen.png) 
 Verzeichnisse > Zeiträume > Art| Der Wert 1. oder 2. Halbjahr muss gefüllt sein
-Verzeichnisse > Fächer > Kategorie|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)
-Verzeichnisse > Fächer > Aufgabenbereich|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)
-Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/assets/images/ausland/fs.png) 
+Verzeichnisse > Fächer > Kategorie|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/01.de/de-diap-2015/)
+Verzeichnisse > Fächer > Aufgabenbereich|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/01.de/de-diap-2015/)
+Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/01.de/de-diap-2015/)<br/>Beispiel: ![Beispiel](/assets/images/ausland/fs.png) 
 Verzeichnisse > weitere Schlüsselverzeichnisse > Sprachreferenzen|(zeugnisrelevant)<br/>Die Sprachreferenzen werden beim Schüler unter `Schüler > Daten 3 > Fremdsprachenfolge` im Feld `Referenz` eingetragen. Sie können dazu auch die Sammelzuweisung unter `Schüler > Bearbeiten > Sammelzuweisung` verwenden. Beispiel: ![Beispiel](/assets/images/ausland/sprachreferenzen.png) 
 Verzeichnisse > weitere Schlüsselverzeichnisse > Kurssprachen|(zeugnisrelevant)<br/>Für vollständig in einer Fremdsprache unterrichtete Fächer lassen Sie den Schlüssel bitte frei, für bilingual unterrichtete Fächer tragen Sie im Schlüssel bitte `bi` ein. Die Kurssprachen können an folgenden Stellen eingegeben werden:<br/>- `Verzeichnisse > Fachtafeln > für Fachwahltafeln (Q1-Q4 Sprache)`<br/>- `Schüler > Zeugnis > Fächer > Sprache` <br/>- `Abitur > Fachwahl > Q1-Q4 Sprache`<br/>- `Abitur > Qualifikation > Q1-Q4 Sprache`<br/>Beispiel: ![Beispiel](/assets/images/ausland/kurssprachen.png) 
-Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/de-diap-2015.html)<br/>Beispiel: ![Beispiel](/assets/images/ausland/ua.png) 
+Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten|Bitte folgen Sie der Anleitung in der [Dokumentation](https://doc.la.stueber.de/01.de/de-diap-2015/)<br/>Beispiel: ![Beispiel](/assets/images/ausland/ua.png) 
 
 ### Schüler synchronisieren
 

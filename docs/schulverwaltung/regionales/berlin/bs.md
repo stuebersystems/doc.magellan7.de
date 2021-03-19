@@ -23,7 +23,7 @@ Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangsz
 
 !!! info "Hinweis"
 
-  Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/alle_skripte_im_uberblick/#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+  Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/skriptueberblick/#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner `Skripte` und dort im jeweiligen Landesordner (z.B. `Skripte\Berlin` für das Bundesland Berlin).
 
