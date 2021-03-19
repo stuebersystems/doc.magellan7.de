@@ -2,7 +2,7 @@
 
 ## Noteneingabe über MyMAGELLAN
 
-Die Noteneingabe in MyMAGELLAN ist der gesonderten Dokumentation [MyMAGELLAN](https://doc.MyMAGELLAN6.stueber.de/) zu entnehmen.
+Die Noteneingabe in MyMAGELLAN ist der gesonderten Dokumentation [MyMAGELLAN](https://doc.mymagellan.stueber.de/) zu entnehmen.
 
 ## Aktueller Stand?
 
