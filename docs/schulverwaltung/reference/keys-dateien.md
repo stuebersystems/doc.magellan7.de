@@ -23,10 +23,9 @@ Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeiche
     Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden.
 Ändern Sie bitte vor dem Import die Dateiendung in *.keys.
 
-
 Nachstehend finden Sie die Kopfzeilen der CSV-Dateien für den Import nach MAGELLAN. 
 
-Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/import-export/#eigene-oder-mitgelieferte-schlüsselverzeichnisse-importieren).
+Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer).
 
 ## A
 
