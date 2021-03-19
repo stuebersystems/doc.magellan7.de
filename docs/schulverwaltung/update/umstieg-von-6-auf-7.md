@@ -228,7 +228,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELL
 
     Diese Schritte müssen **vor** dem Erstellen der MYM-Dateien ausgeführt werden.
 
-Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](http://127.0.0.1:8000/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren). Nachstehend eine Kurzanleitung.
+Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren#benutzereinstellungen-exportieren-und-importieren). Nachstehend eine Kurzanleitung.
 
 |So gehts:|
 |--|
