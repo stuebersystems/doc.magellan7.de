@@ -53,11 +53,11 @@ Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrg
 
 ![Verzeichnis der Verordnungen](/assets/images/gym_oberstufe/gym_oberstufe02.png)
 
-Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis `Verordnungen` die jeweilige Fachwahlverordnung und/oder Abiturprüfungsordnung definieren. Bitte prüfen Sie vorab, ob es ein Prüfskript für Ihre Region und Verordnung gibt (["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html)). 
+Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant ist. Dazu müssen Sie im Schlüsselverzeichnis `Verordnungen` die jeweilige Fachwahlverordnung und/oder Abiturprüfungsordnung definieren. Bitte prüfen Sie vorab, ob es ein Prüfskript für Ihre Region und Verordnung gibt (["Alle Skripte im Überblick"](https://doc.la.stueber.de/skriptueberblick/)). 
 
 !!! info "Hinweis"
 
-	 Alle verfügbaren Skripte finden Sie in der Dokumentation ["Landesanpassungen"](https://doc.la.stueber.de/)  im Abschnitt ["Alle Skripte im Überblick"](https://doc.la.stueber.de/alle_skripte_im_uberblick.html). 
+	 Alle verfügbaren Skripte finden Sie in der Dokumentation ["Landesanpassungen"](https://doc.la.stueber.de/)  im Abschnitt ["Alle Skripte im Überblick"](https://doc.la.stueber.de/skriptueberblick/). 
 
 Um Ihre Skripte in MAGELLAN zu hinterlegen,  klicken Sie dazu auf `Extras > Schlüsselverzeichnisse > Verordnungen` und geben Sie dort die Verordnung an. Je Skript legen Sie bitte eine gesonderte Zeile an. Wenn für Ihre Region und Verordnung ein Fachwahlskript zur Verfügung steht, dann legen Sie dafür bitte eine Zeile an, für das Skript, das die Abiturberechnung vornimmt bitte eine zweite Zeile, sollten die Schüler nach verschiedenen Verordnungen geprüft werden, benötigen Sie eine dritte Zeile.
 
@@ -65,29 +65,29 @@ Welche Eintragungen für Ihre Region oder für Ihr Skript erwartet werden, [besc
 
 #### Abiturskript hinterlegen
 
-Alle verfügbaren Berechnungsskripte werden im Abschnitt ["Die Berechnungsskripte"](https://doc.la.stueber.de/allgemeines_spezielle_einstellungen_pro_skript.html) beschrieben.
+Alle verfügbaren Berechnungsskripte werden im Abschnitt ["Die Berechnungsskripte"](https://doc.la.stueber.de/skriptueberblick/) beschrieben.
 
 Spalte | Bedeutung
 -------------- | ---------
 Kürzel | Kurzbezeichnung der Verordnung (max. 10-stellig)
 Bezeichnung | Bezeichnung der Verordnung
 Kategorie | Geben Sie hier `Abitur` ein, für die Prüfungsverordnung der Qualifikationsberechnung.
-Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/allgemeines_spezielle_einstellungen_pro_skript.html)
-Notenart 11-13 | Geben Sie hier an, ob Sie in der Oberstufe Punkt- oder Notenwerte (z.B. in Nordrhein-Westfalen) vergeben möchten. [Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/allgemeines_spezielle_einstellungen_pro_skript.html)
+Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/skriptueberblick/)
+Notenart 11-13 | Geben Sie hier an, ob Sie in der Oberstufe Punkt- oder Notenwerte (z.B. in Nordrhein-Westfalen) vergeben möchten. [Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/skriptueberblick/)
 Gültig von | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
 Skript | Geben Sie hier den Namen des Skripts für diese Abiturprüfungsordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "APO".
 
 #### Fachwahlskript hinterlegen
 
-Alle verfügbaren Fachwahlskripte werden im Abschnitt ["Die Fachwahlskripte"](https://doc.la.stueber.de/fachwahl/die_fachwahlskripte.html) beschrieben. Fachwahlskripte enthalten die Buchstaben "FW" für Fachwahl im Dateinamen.
+Alle verfügbaren Fachwahlskripte werden im Abschnitt ["Die Fachwahlskripte"](https://doc.la.stueber.de/fachwahlen/) beschrieben. Fachwahlskripte enthalten die Buchstaben "FW" für Fachwahl im Dateinamen.
 
 Spalte | Bedeutung
 -------------- | ---------
 Kürzel | Kurzbezeichnung der Verordnung (max. 10-stellig)
 Bezeichnung | Bezeichnung der Verordnung
 Kategorie |Geben Sie hier `Fachwahl` ein. 
-Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/fachwahl/die_fachwahlskripte.html)
+Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/fachwahlen/)
 Notenart 11-13 | Noten oder Punkte
 Gültig von | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen

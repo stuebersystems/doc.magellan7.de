@@ -42,7 +42,7 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 Sie gelangen hier zu den folgenden Dokumentationen:
 [MAGELLAN Handbuch](https://doc.magellan7.stueber.de/schulverwaltung/)
-[MAGELLAN Importformat](https://doc.magellan7-import.stueber.de/)
+[MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
 [MAGELLAN Landesstatistiken](https://doc.la.stueber.de/)
 
 
