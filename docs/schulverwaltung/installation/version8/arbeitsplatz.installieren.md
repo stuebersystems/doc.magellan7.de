@@ -11,7 +11,7 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v7/Magellan8.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan8.msi`.
+Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v8/Magellan8.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan8.msi`.
 
 Der Setup Assistent von MAGELLAN 8 wird gestartet und die Installationsdateien werden entpackt.
 

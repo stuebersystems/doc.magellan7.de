@@ -140,7 +140,7 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Es kann sein, dass die Meldungen dazudienen, Ihnen Datensätze zu zeigen, die Sie in Version 7 nachpflegen müssen.
 
 Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in MAGELLAN 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan7.fdb. 
-leere MAGELLAN7 ([aktuelle leere Datenbank](https://download.stueber.de/bin/de/magellan/v7/database/MAGELLAN7.FDB)).
+leere MAGELLAN7 ([aktuelle leere Datenbank](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB)).
 
 Ein Beispiel für Meldungen:
 
