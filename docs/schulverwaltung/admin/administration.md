@@ -21,7 +21,7 @@ Weitere Themen:
   * [Access-Anbindung](https://doc.magellan7.stueber.de/schulverwaltung/admin/access.anbindung)
   * [Protokollierung](https://doc.magellan7.stueber.de/schulverwaltung/admin/protocol)
   * [Aktionen im Silentmode](https://doc.magellan7.stueber.de/schulverwaltung/installation/magellan-administrator-im-silentmode-starten)
-  * [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de/)
+  * [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/scripting/)
 
 
 So starten Sie den MAGELLAN-ADMINISTRATOR:

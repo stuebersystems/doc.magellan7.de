@@ -5,7 +5,7 @@ Im Rahmen der Abschlussprüfung an Fachoberschulen kann ein Schüler die Fachhoc
 Die jeweiligen Verordnungen spiegeln sich über die Landesanpassung von MAGELLAN in der Fachoberschulberechnung wider. 
 Damit die Berechnungen korrekt durchgeführt werden können und Sie auch die Fachhochschulzeugnisse der Fachoberschule richtig ausgedruckt bekommen, müssen Sie allerdings einige wenige aber wichtige Details beachten. Diese Details werden in diesem Kapitel erklärt. Lesen Sie es bitte sorgfältig.
 
-Die Abschlussberechnungen an Fachoberschulen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können. Weitere Informationen zu diesen Skripten finden Sie in der Dokumentation [MAGELLAN Scripting](https://doc.magellan-scripting.stueber.de/).
+Die Abschlussberechnungen an Fachoberschulen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können. Weitere Informationen zu diesen Skripten finden Sie in der Dokumentation [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/scripting/).
 
 ## Allgemein
 

@@ -143,7 +143,7 @@ Gast | nur Leserechte
 
 !!! info "Hinweis"
 
-	Beim Anlegen der Kennung bitten wir Sie, auf Abkürzungen wie „Do“ und „If“ zu verzichten, da diese Kürzel gleich lautend mit Programmierbefehlen sind und von Firebird fehl interpretiert werden. Es gibt noch weitere so genannte „reservierte“ Worte, die Sie in der Dokumentation [„MAGELLAN-Scripting“](https://doc.magellan-scripting.stueber.de/) in Kapitel „Die Skriptsprache“ nachschlagen können.
+	Beim Anlegen der Kennung bitten wir Sie, auf Abkürzungen wie „Do“ und „If“ zu verzichten, da diese Kürzel gleich lautend mit Programmierbefehlen sind und von Firebird fehl interpretiert werden. Es gibt noch weitere so genannte „reservierte“ Worte, die Sie in der Dokumentation [„MAGELLAN-Scripting“](https://doc.magellan7-toolbox.stueber.de/scripting/) in Kapitel „Die Skriptsprache“ nachschlagen können.
 Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort ändern...` selbst anpassen. Dafür werden mindestens 8 Zeichen erwartet. Sollte die Schaltfläche `Kennwort ändern...` inaktiv bleiben, ist der Benutzer als Datenbankadministrator („sysdba“) angemeldet. Dieses Kennwort kann nur im MAGELLAN-Administrator verändert werden.
 
 ## Registerkarte „MYMAGELLAN“

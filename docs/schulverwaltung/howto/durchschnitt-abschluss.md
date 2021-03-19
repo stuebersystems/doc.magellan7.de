@@ -8,7 +8,7 @@ Für die Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zei
 
 ## Grundlagen
 
-Innerhalb eines Zeitraums können Noten eines Schülers über dessen Versetzung bzw. Durchschnittsnote entscheiden. Die dazu notwendigen Berechnungen basieren auf Verordnungen der jeweiligen Bundesländer. Diese Berechnungen erfolgen aufgrund der [MAGELLAN-Scripting-Technologie](https://doc.MAGELLAN-scripting.stueber.de/). Auf Basis der berechneten Noten einer Verordnung und der damit verbundenen Durchschnittsnote können Sie dann die eigentlichen Zeugnisse ausdrucken. Dabei kann jede berechnete Endnote bzw. Durchschnittsnote auch noch manuell aufgrund des pädagogischen Freiraums abgeändert werden. Die zeitraumbezogenen Versetzungs-/Durchschnittsberechnungen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können.
+Innerhalb eines Zeitraums können Noten eines Schülers über dessen Versetzung bzw. Durchschnittsnote entscheiden. Die dazu notwendigen Berechnungen basieren auf Verordnungen der jeweiligen Bundesländer. Diese Berechnungen erfolgen aufgrund der [MAGELLAN-Scripting-Technologie](https://doc.magellan7-toolbox.stueber.de/scripting/). Auf Basis der berechneten Noten einer Verordnung und der damit verbundenen Durchschnittsnote können Sie dann die eigentlichen Zeugnisse ausdrucken. Dabei kann jede berechnete Endnote bzw. Durchschnittsnote auch noch manuell aufgrund des pädagogischen Freiraums abgeändert werden. Die zeitraumbezogenen Versetzungs-/Durchschnittsberechnungen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können.
 
 ## Vorbereitungen
 

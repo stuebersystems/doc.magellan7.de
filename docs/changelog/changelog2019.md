@@ -1493,7 +1493,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.magellan7-kb.stueber.de/cr/berichte_fuer_7_anpassen.html" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
+* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.kb.stueber.de/cr/berichte_fuer_7_anpassen.html" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
 
 ---
 
