@@ -76,11 +76,11 @@ Gehen Sie bitte wie folgt vor:
 * Markieren Sie im Abiturmenü bitte einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`. 
 * Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in MAGELLAN ausgewählte Halbjahr haben.
 
-![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_übernehmen01.png)
+![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_uebernehmen01.png)
 
 Im unteren Bereich stehen Optionen zur Verfügung:
 
-![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_übernehmen02.png)
+![wählen Sie die gewünschte Option!](/assets/images/ausland/FW_uebernehmen02.png)
 
 |Nr|Hinweis|
 |--|--|
