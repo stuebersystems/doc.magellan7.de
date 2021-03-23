@@ -82,7 +82,7 @@ Die mit dem Assistenten `Neue Ausleiher` übertragenen Nutzerdaten werden in den
 
 Sie verfügen jeweils über die Registerkarten `Auswahl`, `Daten` und `Vorgänge`:
 
-![Schüler > Registerkarten](/assets/images/bibliothek/schüler01.png)
+![Schüler > Registerkarten](/assets/images/bibliothek/schueler01.png)
 
 Register | Inhalt
 --|--
