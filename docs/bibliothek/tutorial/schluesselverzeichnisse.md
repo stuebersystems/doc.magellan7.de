@@ -67,7 +67,7 @@ Um eine Liste nach einer einzelnen Spalte zu sortieren, klicken Sie mit der link
 
 ## Verzeichnis filtern
 
-Die Tabellen Ihrer Schlüsselverzeichnisse können Sie auf die gleiche Weise filtern wie Ihre Stammdaten- und Vorgangslisten. Bitte vergleichen Sie für die Vorgehensweise beim Filtern von Tabellen den Abschnitt `Listen filtern` im Kapitel [Effizient mit Listen/Tabellen arbeiten](/bibliothek/tutorial/listen.md).
+Die Tabellen Ihrer Schlüsselverzeichnisse können Sie auf die gleiche Weise filtern wie Ihre Stammdaten- und Vorgangslisten. Bitte vergleichen Sie für die Vorgehensweise beim Filtern von Tabellen den Abschnitt `Listen filtern` im Kapitel [Effizient mit Listen/Tabellen arbeiten](https://doc.magellan.stueber.de/bibliothek/tutorial/listen/).
 
 ## Verzeichnis exportieren
 

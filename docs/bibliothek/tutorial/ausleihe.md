@@ -8,7 +8,7 @@ Wie Sie darüberhinaus Mahnungen für überzogene Medienexemplare erstellen kön
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
-![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe01.png)
+![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe.png)
 
 Die Datenmaske `Ausleihe & Rückgabe` ist in verschiedene Segmente unterteilt, die Sie bei der Durchführung der folgenden Teilschritte unterstützen:
 
