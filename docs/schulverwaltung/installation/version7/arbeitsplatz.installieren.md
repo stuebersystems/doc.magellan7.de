@@ -112,7 +112,7 @@ Wechseln Sie bitte ins Menü `Schüler`, wählen eine Schüler, klicken auf `Dru
 Öffnen Sie bitte auf dem Rechner den Pfad `C:\ProgramData\Stueber Systems\Magellan 7`. Sollten Sie das Verzeichnis `ProgramData` nicht sehen, kopieren Sie den oben genannten Pfad, fügen ihn in die Adressleiste eines beliebigen Ordnerfensters ein und drücken Enter.
 Sie sollten im korrekten Verzeichnis landen:
 
-![`C:\ProgramData\Stueber Systems\Magellan 7`](/assets/images/installation/7/installation/programdata.png)
+![`C:\ProgramData\Stueber Systems\Magellan 7`](/assets/images/installation/7/programdata.png)
 
 Kopieren Sie bitte die Dateien (MAGELLAN.evm, MAGELLAN.lic, MAGELLAN.opt) auf ein Netzwerkverzeichnis, einen Stick o.ä. und wechseln auf den einzurichtenden Rechner.
 Installieren Sie auf dem anderen Rechner bitte MAGELLAN als Arbeitsplatzinstallation und fügen anschließend an der identischen Stelle (die Verzeichnisstruktur wird durch die Installation angelegt) die drei Dateien wieder ein, fertig!
