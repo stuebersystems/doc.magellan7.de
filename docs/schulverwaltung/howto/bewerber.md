@@ -672,7 +672,7 @@ Nr.|So geht's
 !!! info "Hinweis"
 
     Die zuvor markierten Bewerber werden jetzt aus der Bewerberliste gelöscht und in die Schülerliste eingetragen. 
-    Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler.html) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
+    Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
     Für Schulen in SCHLESWIG-HOLSTEIN
     Bewerber, die nach Abschluss des Bewerberverfahrens abgelehnt worden sind bzw. bei denen kein weiterer Wunsch einer erneuten Bewerbung besteht, müssen nach dem Erforderlichkeitsprinzip nach spätestens 3 Jahren manuell aus der Liste der Bewerber gelöscht werden.	
     Die Schule ist verpflichtet, hierfür entsprechende organisatorische Maßnahmen zu treffen.

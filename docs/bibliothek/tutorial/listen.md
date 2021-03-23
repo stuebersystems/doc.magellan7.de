@@ -180,7 +180,7 @@ Der gewünschte Bericht wird nun für den ausgewählten Listenbereich gedruckt.
 
 ## Listen exportieren
 
-Sie haben die Möglichkeit Stammdaten- und Vorgangslisten ganz oder teilweise nach Excel bzw. HTML zu exportieren. Der Export nach Excel steht für alle Listen zur Verfügung. Der HTML-Export kann hingegen nur für die Liste der `Bücher/Medien` sowie für die beiden Vorgangslisten in der Ansicht `Vorgänge` erfolgen.
+Sie haben die Möglichkeit Stammdaten- und Vorgangslisten ganz oder teilweise nach Excel bzw./ zu exportieren. Der Export nach Excel steht für alle Listen zur Verfügung. Der/-Export kann hingegen nur für die Liste der `Bücher/Medien` sowie für die beiden Vorgangslisten in der Ansicht `Vorgänge` erfolgen.
 
 Um einen bestimmten Listenbereich nach Excel zu exportieren, führen Sie bitte folgende Schritte aus:
 

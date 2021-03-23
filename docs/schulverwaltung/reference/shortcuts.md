@@ -32,7 +32,7 @@ Drucken<br/>im Berichtefenster| Druck | STRG + P
 Drucken<br/>im Berichtefenster| PDF-Export <br/>ins Dokumenteverzeichnis | STRG + E
 jeder Menüpunkt      | Erster Datensatz | STRG+Start (Pos1)
 jeder Menüpunkt      | Export nach Excel | STRG+E
-jeder Menüpunkt      | Export nach HTML | STRG+H
+jeder Menüpunkt      | Export nach/ | STRG+H
 jeder Menüpunkt      | Hauptmenü Ansicht | ALT+A
 jeder Menüpunkt      | Hauptmenü Datenbank | ALT+D
 jeder Menüpunkt      | Hauptmenü Extras | ALT+E

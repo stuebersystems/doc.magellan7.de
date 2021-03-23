@@ -12,5 +12,5 @@ Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen
 * [Berufsschulnoten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/bs/)
 * [Die Fachoberschule](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/fos/)
 * [Schülerdatenexport](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/schuelerdaten/)
-* [Statistik Abiturdaten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/stat.abidaten/)
-* [Statistik Schülerdaten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/stat.schuelerdaten/)
+* [Statistik Abiturdaten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/statistik/03.stat.abidaten/)
+* [Statistik Schülerdaten](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/statistik/04.stat.schuelerdaten/)

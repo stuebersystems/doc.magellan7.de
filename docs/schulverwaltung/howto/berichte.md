@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt das Drucken von Formularen, Listen und Zeugnissen mit 
 
 !!! info "Hinweis"
 
-	Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw. HTML werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck.html) vorgestellt.
+	Der Seriendruck über Word und die Exportmöglichkeiten nach Excel bzw./ werden im Kapitel [„Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren“](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck/) vorgestellt.
 
 ## MAGELLAN Crystal-Reports
 

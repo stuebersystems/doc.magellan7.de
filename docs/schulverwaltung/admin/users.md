@@ -64,9 +64,9 @@ Berufsschule-Prüfungsnoten | Regelt die Sichtbarkeit der Spalten Prüfungsnote 
 
 Anschließend: Klicken Sie auf die Schaltfläche `Benutzer importieren` um die veränderte Benutzerliste wieder zu importieren. Bitte führen Sie zum Abschluss den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` aus.
 
-## Export nach Excel/HTML
+## Export nach Excel/
 
-Über diese Schaltfläche können Sie eine Excelliste oder eine HTML-Datei mit den Benutzerdaten erzeugen. Bitte beachten Sie, dass diese Dateiformate nicht wieder direkt eingelesen werden können, dafür nutzen Sie bitte die Schaltfläche `Benutzer exportieren`.
+Über diese Schaltfläche können Sie eine Excelliste oder eine/-Datei mit den Benutzerdaten erzeugen. Bitte beachten Sie, dass diese Dateiformate nicht wieder direkt eingelesen werden können, dafür nutzen Sie bitte die Schaltfläche `Benutzer exportieren`.
 
 ## einen neuen Benutzer anlegen
 

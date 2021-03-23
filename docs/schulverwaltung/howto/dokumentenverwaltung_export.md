@@ -38,11 +38,11 @@ Das erfasste Bild wird als zusätzliche Datei im Dokumente-Fenster angezeigt.
 
 ### Exportfunktion
 
-Über die Exportfunktionalität nach Microsoft Excel und HTML können Sie Schlüsselverzeichnisse und Auswahllisten in ein Excel- oder HTML-Format übertragen und dann weiterverarbeiten. Beispielsweise können Sie dann die Daten ausdrucken.
+Über die Exportfunktionalität nach Microsoft Excel und/ können Sie Schlüsselverzeichnisse und Auswahllisten in ein Excel- oder/-Format übertragen und dann weiterverarbeiten. Beispielsweise können Sie dann die Daten ausdrucken.
 
 ### Schlüsselverzeichnisse exportieren
 
-Sie können alle Schlüsselverzeichnisse exportieren und ausdrucken, indem Sie diese nach Excel exportieren. Rufen Sie dazu über `Extras` das entsprechende Schlüsselverzeichnis auf. Klicken Sie auf die Symbole (siehe Abbildung) um den Export nach Excel oder als HTML-Datei zu starten. Es öffnet sich das Fenster Liste exportieren nach.
+Sie können alle Schlüsselverzeichnisse exportieren und ausdrucken, indem Sie diese nach Excel exportieren. Rufen Sie dazu über `Extras` das entsprechende Schlüsselverzeichnis auf. Klicken Sie auf die Symbole (siehe Abbildung) um den Export nach Excel oder als/-Datei zu starten. Es öffnet sich das Fenster Liste exportieren nach.
 
 ![Rufen Sie den Excelexport auf!](/assets/images/seriendruck/seriendruck18.1.png)
 

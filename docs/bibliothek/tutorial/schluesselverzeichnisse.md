@@ -71,7 +71,7 @@ Die Tabellen Ihrer Schlüsselverzeichnisse können Sie auf die gleiche Weise fil
 
 ## Verzeichnis exportieren
 
-Sie können alle Schlüsselverzeichnisse nach Excel oder HTML exportieren.
+Sie können alle Schlüsselverzeichnisse nach Excel oder/ exportieren.
 Um einen bestimmten Listenbereich nach Excel zu exportieren, führen Sie bitte folgende Schritte aus:
 
 1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach Excel exportiern` .
@@ -81,14 +81,14 @@ Die Export-Datei wird nun erstellt und automatisch in Excel geöffnet. Von hier 
 
 ![Daten nach Excel exportieren](/assets/images/bibliothek/schluesselverzeichnis_export_excel.png)
 
-Um einen bestimmten Listenbereich nach HTML zu exportieren gehen Sie bitte folgendermaßen:
+Um einen bestimmten Listenbereich nach/ zu exportieren gehen Sie bitte folgendermaßen:
 
-1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach HTML exportieren` .
+1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach/ exportieren` .
 2. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und geben Sie im Feld `Dateiname` den Namen der Exportdatei an.
 3. Bestätigen Sie Ihre Eingaben mit `Speichern`.
 Die Export-Datei wird nun erstellt und automatisch in Ihrem Standardbrowser geöffnet.
 
-![Daten nach HTML exportieren](/assets/images/bibliothek/schluesselverzeichnis_export_html.png)
+![Daten nach/ exportieren](/assets/images/bibliothek/schluesselverzeichnis_export/.png)
 
 ## Markierung / optimale Spaltenbreite
 

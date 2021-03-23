@@ -7,7 +7,7 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 
 !!! info "Hinweis"
 
-    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.Magellan.stueber.de/schulverwaltung/installation/arbeitsplatz.installlieren/#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei.html)) abgelegt werden.
+    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.Magellan.stueber.de/schulverwaltung/installation/arbeitsplatz.installlieren/#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/)) abgelegt werden.
 
 ## Download und Installationstypen
 
@@ -30,7 +30,7 @@ Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 8 starten. Es erscheint 
 ![Willkommen](/assets/images/installation/8/welcome.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN 8 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["MAGELLAN 8 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan/) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/8/welcome-license-type.png)
 

@@ -10,7 +10,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
-    Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck/)!
 
 ## 7.1.3 - 710 (8.01.2020)
 
@@ -1442,7 +1442,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden!  
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update.html). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate.html).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate/).
 
 
 ### MAGELLAN
@@ -1493,7 +1493,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.kb.stueber.de/cr/berichte_fuer_7_anpassen.html" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
+* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.kb.stueber.de/cr/berichte_fuer_7_anpassen/" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
 
 ---
 
@@ -1504,7 +1504,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden! 
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update.html). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate.html).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](http://doc.magellan7.stueber.de/installation/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](http://doc.magellan7.stueber.de/installation/troubleshootingupdate/).
 
 ### MAGELLAN
 
