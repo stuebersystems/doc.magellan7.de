@@ -1174,7 +1174,7 @@ FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 
 ### SAXSVS
 
 * FIX: Problem beim Prüfen des Schülerbetriebes behoben
-* CHANGE: In Absprache mit dem LASUB wurde Folgendes geändert: Bei unseren Sorgeberechtigtenprüfungen und beim Erzeugen der XML-Datei werden nur noch Schüler berücksichtigt, die ausgehend vom im Assistenten eingegebenen Stichtag und dem Geburtsdatum nicht volljährig sind. Bitte beachten Sie den Abschnitt [Sorgeberechtigte](https://doc.magellan7.stueber.de/schulverwaltung/regionales/sachsen/datenpflege/#sorgeberechtigte--saxsvs-bbsschuelersorgeberechtigte)!
+* CHANGE: In Absprache mit dem LASUB wurde Folgendes geändert: Bei unseren Sorgeberechtigtenprüfungen und beim Erzeugen der XML-Datei werden nur noch Schüler berücksichtigt, die ausgehend vom im Assistenten eingegebenen Stichtag und dem Geburtsdatum nicht volljährig sind. Bitte beachten Sie den Abschnitt [Sorgeberechtigte](https://doc.ls.stueber.de/sachsen/einstieg/#sorgeberechtigte--saxsvs-bbsschuelersorgeberechtigte)!
 * NEW: Im Statistikassistenten unter `MAGELLAN > Extras > Exporte > Export` wird Ihnen beim Erstellen der XML-Datei für die Meldungen eine neue gesonderte Spalte mit dem jeweiligen Feld oder Bereich gezeigt. Damit können Sie nach dem Export der Meldungen diese sortieren und gezielter die Daten nachpflegen.
 
 
@@ -1196,7 +1196,7 @@ FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 
 
 ### MAGELLAN Administrator
 
-* NEW: Unter `Datenbankpflege` wurden die Funktionen  `Anrede setzen` und  `Passfoto löschen`ergänzt. Alle Aktionen werden in der [Dokumentation im Abschnitt Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege.html) beschrieben.
+* NEW: Unter `Datenbankpflege` wurden die Funktionen  `Anrede setzen` und  `Passfoto löschen`ergänzt. Alle Aktionen werden in der [Dokumentation im Abschnitt Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/) beschrieben.
 * FIX: Duplizieren von Benutzern angepasst
 * NEW: Neue Funktionalität unter `Datenpflege`. Es können die Einträge im Feld IDIntern geleert werden, wenn der Stammschüler, auf den verwiesen wird nicht mehr existiert. Diese Situation kann in MAGELLAN 7 nicht mehr entstehen, kann aber aus MAGELLAN 6 mit übernommen worden sein. Bitte beachten Sie den Abschnitt [Verwaiste Stammschüler-Verweise entfernen](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#verwaiste-stammsch%C3%BCler-verweise-entfernen)!
 

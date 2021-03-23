@@ -55,7 +55,7 @@ Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** e
 
 	Der einzutragende Pfad unterscheidet sich zwischen dem Serverrechner und dem Arbeitsplatzrechner nicht, der Unterschied besteht lediglich beim Eintrag im Feld `Server`.
 
-![ Daten für entfernte Datenbank](/assets/images/8(welcome-remote-database.png)
+![Daten für entfernte Datenbank](/assets/images/8/welcome-remote-database.png)
 
 Der standardmäßige Pfad zur MAGELLAN 8 Datenbank lautet:
 
