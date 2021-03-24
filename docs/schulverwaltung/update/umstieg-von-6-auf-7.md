@@ -83,7 +83,7 @@ FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemst
 ## 6er Datenbank vorbereiten
 
 Falls Sie es noch nicht mit Firebird 2.5.9 durchgeführt haben:
-Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection/#sicherungskopie-erstellen) der MAGELLAN6.fdb und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection/#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
+Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-erstellen) der MAGELLAN6.fdb und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
 
 ## MAGELLAN 7 installieren
 
