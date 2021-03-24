@@ -198,7 +198,7 @@ ID|linke äußere Verknüpfung<br/>(left outer join)|SchuelerZeitraumID
 
 ### Empfohlene Verknüpfung
 
-Eine Empfehlung finden Sie im Artikel ["Empfohlene Verknüpfung"](https://doc.kb.stueber.de/cr/verknuepfung/) in unserer Knowledge-Base.
+Eine Empfehlung finden Sie im Artikel ["Empfohlene Verknüpfung"](https://doc.kb.stueber.de/cr/verknuepfung.html) in unserer Knowledge-Base.
 
 ## 5. Test
 

@@ -14,7 +14,7 @@ Dies ist die elektronische Dokumentation für [MAGELLAN](https://magellan.stuebe
 |  [MyMAGELLAN](https://doc.mymagellan.stueber.de) |
 |  [Knowledgebase](https://doc.kb.stueber.de/) |
 |  [MAGELLAN Datenstruktur](https://doc.magellan-toolbox.stueber.de/) |
-|  [MAGELLAN Scripting](https://doc.magellan-toolbox.stueber.de/) |
+|  [MAGELLAN Scripting](https://doc.magellan-toolbox.stueber.de/scripting/) |
 |  [MAGELLAN Importformat](https://doc.magellan-toolbox.stueber.de/) |
 |  [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de) |
 |  [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de) |
