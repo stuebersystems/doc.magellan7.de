@@ -2,7 +2,7 @@
 
 ## Wann sollten Sie Firebird aktualisieren?
 
-Wenn Firebird aktualisiert werden soll, weisen wir darauf in unserem Newsletter oder im Abschnitt [Was ist neu?](http://doc.magellan7.stueber.de/changelog/) hin. Bitte setzen Sie nur die von uns auf unserer Webseite veröffentlichten Firebird-Versionen ein!
+Wenn Firebird aktualisiert werden soll, weisen wir darauf in unserem Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/changelog/changelog/) hin. Bitte setzen Sie nur die von uns auf unserer Webseite veröffentlichten Firebird-Versionen ein!
 
 Letztlich besteht die Aktualisierung aber aus zwei Schritten:
 
