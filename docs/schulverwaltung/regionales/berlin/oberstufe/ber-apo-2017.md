@@ -108,7 +108,6 @@ Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Fac
 |BLL|Bll|5. Prüfungskomponente besondere Lernleistung|
 |PRS|PRS|5. Prüfungskomponente Präsentationsprüfung|
 
-
 ### 5. Prüfungskomponente
 
 Bei der 5. Prüfungskomponente wird zwischen einer **Präsentationprüfung** und der **Besonderen Lernleistung** unterschieden. Gehen Sie jeweils wie folgt vor:
@@ -124,7 +123,7 @@ Im Menü ``Abitur`` wird auf der Registerkarte ``Prüfung`` im Feld ``5. PF`` da
 |mündliche Note|Note der **Präsentation**|
 |2. mündl. Note| Note des **Prüfungsgespräches**|
 
-![Noteneingabe Präsentationsprüfung](../../../../assets/images/berlin/bs/BER-APO-2017_praesentationspruefung1.png)
+![Noteneingabe Präsentationsprüfung](/assets/images/berlin/bs/BER-APO-2017_praesentationspruefung1.png)
 
 #### Besondere Lernleistung
 

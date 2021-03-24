@@ -83,12 +83,12 @@ Die Export-Datei wird nun erstellt und automatisch in Excel geöffnet. Von hier 
 
 Um einen bestimmten Listenbereich nach/ zu exportieren gehen Sie bitte folgendermaßen:
 
-1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach/ exportieren` .
+1. Markieren Sie den gewünschten Listenbereich und betätigen Sie die Schaltfläche `Daten nach HTML exportieren` .
 2. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und geben Sie im Feld `Dateiname` den Namen der Exportdatei an.
 3. Bestätigen Sie Ihre Eingaben mit `Speichern`.
 Die Export-Datei wird nun erstellt und automatisch in Ihrem Standardbrowser geöffnet.
 
-![Daten nach/ exportieren](/assets/images/bibliothek/schluesselverzeichnis_export/.png)
+![Daten nach HTML exportieren](/assets/images/bibliothek/schluesselverzeichnis_export_html.png)
 
 ## Markierung / optimale Spaltenbreite
 

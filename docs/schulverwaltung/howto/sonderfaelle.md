@@ -15,7 +15,7 @@ Der oder die ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie i
 
 |Status|Bedeutung|
 |-|-|
-|<img src="(/assets/images/neues/pausieren02.png"> |Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
+|<img src="/assets/images/neues/pausieren02.png"> |Aktiv, der Schüler besucht aktuell die Schule und ist nicht ausgeschult|
 |<img src="/assets/images/neues/pausieren03.png"> |Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und ist ausgeschult|
 |<img src="/assets/images/neues/pausieren04.png">|Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult|
 
