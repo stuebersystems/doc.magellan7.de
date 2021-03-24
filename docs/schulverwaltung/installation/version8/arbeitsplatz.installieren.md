@@ -55,7 +55,7 @@ Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** e
 
 	Der einzutragende Pfad unterscheidet sich zwischen dem Serverrechner und dem Arbeitsplatzrechner nicht, der Unterschied besteht lediglich beim Eintrag im Feld `Server`.
 
-![Daten für entfernte Datenbank](/assets/images/8/welcome-remote-database.png)
+![Daten für entfernte Datenbank](/assets/images/installation/8/welcome-remote-database.png)
 
 Der standardmäßige Pfad zur MAGELLAN 8 Datenbank lautet:
 
@@ -79,6 +79,7 @@ Um sich Tipparbeit zu sparen, können Sie in der oberen Zeile den Wurzelpfad ein
 
 ![Daten für entfernte Datenordner](/assets/images/installation/8/welcome-remote-datafolder.png)
 
+
 Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
 !!! info "Hinweis"
@@ -89,7 +90,7 @@ Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablag
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/8/Welcome-erste-schritte.png)
+![Erste Schritte in MAGELLAN](/assets/images/installation/8/welcome-erste-schritte.png)
 
 Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein.
 
