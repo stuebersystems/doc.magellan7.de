@@ -15,7 +15,7 @@
 | [Zeugnisdaten](https://doc.magellan7.stueber.de/schulverwaltung/howto/zeugnisdaten/) | 
 | [Prüfungsnummer generieren](https://doc.magellan7.stueber.de/schulverwaltung/howto/pruefungsnummer/) | 
 | [Durchschnitt/Abschluss berechnen](https://doc.magellan7.stueber.de/schulverwaltung/howto/durchschnitt-abschluss/) | 
-| [Gymnasiale Oberstufe](https://doc.magellan7.stueber.de/schulverwaltung/howto/gymnasium/) | 
+| [Gymnasiale Oberstufe](https://doc.magellan7.stueber.de/schulverwaltung/howto/Oberstufe/gymnasium/) | 
 | [Berufsschulmatrix](https://doc.magellan7.stueber.de/schulverwaltung/howto/berufsschulmatrix/) | 
 | [Formulare, Listen und Zeugnisse](https://doc.magellan7.stueber.de/schulverwaltung/howto/berichte/) | 
 | [Berichteverzeichnis](https://doc.magellan7.stueber.de/schulverwaltung/howto/berichte-verz/) | 
