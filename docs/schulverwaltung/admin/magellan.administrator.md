@@ -41,10 +41,10 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 ### Handbücher
 
 Sie gelangen hier zu den folgenden Dokumentationen:
-[MAGELLAN Handbuch](https://doc.magellan7.stueber.de/schulverwaltung/)
-[MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
-[MAGELLAN Landesstatistiken](https://doc.la.stueber.de/)
 
+* [MAGELLAN Handbuch](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
+* [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
+* [MAGELLAN Landesstatistiken](https://doc.la.stueber.de/)
 
 ### Supportanfrage
 
@@ -63,4 +63,3 @@ Das Ticketsystem erreichen Sie unter der URL [https://support.stueber.de](https:
 Über diese Fenster wird die eingesetzte Version und die Lizenzausbaustufe gezeigt. Über die Schaltflächen `Lizenz ändern...`oder `Lizenz importieren...` können Sie eine neue Lizenz einfügen.
 
 ![Das Fenster Version und Lizenz](/assets/images/magellan.administrator/version-und-lizenz.jpg)
-

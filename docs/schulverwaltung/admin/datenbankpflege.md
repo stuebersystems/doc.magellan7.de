@@ -110,7 +110,7 @@ Vor dem Kopieren der mandantenbezogen Daten in eine andere MAGELLAN-Datenbank m√
 
 ### Variante 3: Magellan 6 nach MAGELLAN 7
 
-Bitte lesen Sie dazu den Abschnitt [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/schulverwaltung/installation/umstieg-von-6-auf-7)!
+Bitte lesen Sie dazu den Abschnitt [Umstieg von 6 auf 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/)!
 
 ## Anrede setzen
 
