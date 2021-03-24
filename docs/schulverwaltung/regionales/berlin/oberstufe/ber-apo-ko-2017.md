@@ -24,7 +24,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-![Eingetragene Verordnungszeile unter Verzeichnisse > Verordnungen](../../../../assets/images/ber-apo-ko-2017.00.png)
+![Eingetragene Verordnungszeile unter Verzeichnisse > Verordnungen](/assets/images/ber-apo-ko-2017.00.png)
 
 ## Fachkategorien
 
