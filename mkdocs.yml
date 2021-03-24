@@ -58,7 +58,7 @@ nav:
     - Änderungen:
       - Was ist neu?: changelog/changelog.md
       - Geplante Änderungen: changelog/changelog-next.md
-      - Änderungen 2020: changelog//changelog2020.md
+      - Änderungen 2020: changelog/changelog2020.md
       - Änderungen 2019: changelog/changelog2019.md
       - Neuerung MAGELLAN 6 zu 7: changelog/neu.mag7.md
       - Neuerung MAGELLAN 7 zu 8: changelog/neu.mag8.md       
