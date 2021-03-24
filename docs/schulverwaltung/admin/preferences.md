@@ -164,7 +164,7 @@ Es steht Ihnen optional eine Rechtschreibprüfung an zwei Stellen im Programm zu
 
 ## Masken
 
-Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/bundeslaender/berlin/masken) beschrieben.
+Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/masken) beschrieben.
 
 
 ![Unterpunkt `Masken`](/assets/images/optionen_masken.png)

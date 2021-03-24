@@ -390,7 +390,7 @@ Nr|Seriendruckfeld
 
 Jenachdem welche Datenmenge im Seriendruckassistenten ausgewählt wird, stehen Ihnen die nachfolgenden Felder zur Verfügung.
 
-![Wählen Sie die aus welche Daten nach Word übergeben werden sollen](/reference/image/referenz2bewerber.png)
+![Wählen Sie aus, welche Daten nach Word übergeben werden sollen](/assets/images/referenz2bewerber.png)
 
 ### Auswahl "An alle markierten Bewerber"
 
@@ -488,7 +488,6 @@ Nr|Seriendruckfeld
 90.|«Bewerber_HeimatOrt»
 91.|«Bewerber_HeimatOrtsteil»
 92.|«Bewerber_HeimatAdressgebiet»
-
 
 ### Auswahl "An alle Sorgeberechtigten der markierten Bewerber"
 
@@ -613,7 +612,6 @@ Nr|Seriendruckfeld
 117.|«Sorgebe_HeimatOrtsteil»
 118.|«Sorgebe_HeimatAdressgebiet»
 
-
 ### Auswahl "An den aktuellen Betrieb der markierten Bewerber"
 
 Nr|Seriendruckfeld
@@ -736,14 +734,11 @@ Nr|Seriendruckfeld
 116.|«Bewerber_AdressZusatz»
 117.|«Bewerber_Adressgebiet»
 
-
-
-
 ## Menü Klassen
 
 Jenachdem welche Datenmenge im Seriendruckassistenten ausgewählt wird, stehen Ihnen die nachfolgenden Felder zur Verfügung.
 
-![Wählen Sie die aus welche Daten nach Word übergeben werden sollen](/reference/image/referenz3klassen.png)
+![Wählen Sie die aus welche Daten nach Word übergeben werden sollen](/assets/images/referenz3klassen.png)
 
 ### Auswahl "An alle markierten Klassen"
 
@@ -889,7 +884,6 @@ Nr|Seriendruckfeld
 10.|«Mandant_Telefax»
 11.|«Mandant_Internet»
 
-
 ## Menü Personen
 
 Nr|Seriendruckfeld
@@ -927,9 +921,7 @@ Nr|Seriendruckfeld
 31.|«Person_HeimatOrtsteil»
 32.|«Person_HeimatAdressgebiet»
 
-
 ## Menü Sorgeberechtigte
-
 
 Nr|Seriendruckfeld
 ---|---
@@ -960,9 +952,7 @@ Nr|Seriendruckfeld
 25.|«Sorgebe_HeimatOrtsteil»
 26.|«Sorgebe_HeimatAdressgebiet»
 
-
 ## Menü Betriebe
-
 
 Nr|Seriendruckfeld
 ---|---
@@ -992,7 +982,6 @@ Nr|Seriendruckfeld
 8.|«Schule_Telefon»
 9.|«Schule_Telefax»
 10.|«Schule_Internet»
-
 
 ## Menü Adressen
 
