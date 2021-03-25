@@ -190,7 +190,7 @@ Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie 
 Meldung:
 Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.
 
-![Meldung](assets\images\update\Fehler01.png)
+![Meldung](/assets/images/update/Fehler01.png)
 
 Die vorstehende Meldung erscheint, wenn auf dem Betriebssystem Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn MAGELLAN registriert werden konnten. Bitte laden Sie in diesem Fall die nachstehende Datei herunter und führen sie aus, es wird die für den Druck und Druckvorschau von MAGELLAN notwendige Runtimeversion von MAGELLAN gesondert installiert.
 
