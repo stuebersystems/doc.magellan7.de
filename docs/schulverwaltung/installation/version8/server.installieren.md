@@ -61,7 +61,6 @@ Anwendungsdaten \(z.B. Magellan.exe\):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 2000 | C:\Programme\Stueber Systems\MAGELLAN 8 |
 | Windows 7 | C:\Programme\Stueber Systems\MAGELLAN 8 |
 | Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 8\ |
 | Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 8 |

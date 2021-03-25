@@ -61,8 +61,6 @@ Der standardmäßige Pfad zur MAGELLAN 8 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\Users\Public\Documents\MAGELLAN 8\Datenbank\Magellan8.fdb |
-| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems \MAGELLAN 7\Datenbank\Magellan8.fdb |
 | Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 8\Datenbank\Magellan8.fdb |
 | Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8\Datenbank\Magellan8.fdb |
 | Windows 2003 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 8\Datenbank\Magellan8.fdb |
@@ -78,7 +76,6 @@ Im folgenden Bild werden die Verzeichnisse der Datenordner abgefragt. Die Dateno
 Um sich Tipparbeit zu sparen, können Sie in der oberen Zeile den Wurzelpfad eingeben und auf das Startdreieck klicken, die nachfolgenden Zeilen werden dann entsprechend mit diesem Pfad und dem Standardnamen des Verzeichnisses befüllt.
 
 ![Daten für entfernte Datenordner](/assets/images/installation/8/welcome-remote-datafolder.png)
-
 
 Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
