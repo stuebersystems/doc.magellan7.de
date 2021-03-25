@@ -140,7 +140,7 @@ Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Ver
 Tabelle |Feld
 --|--
 Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
-Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schueler---felder-sopaedfoerderungen-foerderschwerpunkt1-foerderschwerpunkt2-behinderung)
+Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schueler)
 SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerklassen)
 SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
 
@@ -171,7 +171,7 @@ Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
 ![SchuelerAusbildung](/assets/images/berichte.anpassen/cr_fix_schuelerAusbildung.png)
 
-### "Schueler"
+### Schueler
 
 Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
 
@@ -180,7 +180,7 @@ Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden,
 * "Foerderschwerpunkt2"
 * "Behinderung"
 
-### "SchuelerKlassen"
+### SchuelerKlassen
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
 

@@ -162,13 +162,6 @@ Es steht Ihnen optional eine Rechtschreibprüfung an zwei Stellen im Programm zu
 
 ![Unterkarte Rechtschreibung](/assets/images/optionen_rechtschreibung.png) 
 
-## Masken
-
-Dieser Punkt ist aktiv bei der Bundeslandauswahl Berlin. Die dazugehörigen Funktionalitäten werden alle im Abschnitt [Spezielle Eingabeformulare](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/masken) beschrieben.
-
-
-![Unterpunkt `Masken`](/assets/images/optionen_masken.png)
-
 ## E-Mail
 
 Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewählte Gruppen E-Mails versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter informiert werden. Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die E-Mailadressen einpflegen. Auf der nachfolgenden Karte erfassen Sie bitte dazu die Verbindungsdetails.
