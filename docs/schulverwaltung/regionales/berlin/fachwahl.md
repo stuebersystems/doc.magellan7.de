@@ -11,11 +11,11 @@ Um Fachwahlen für Schüler in MAGELLAN zu erfassen, muss der jeweilige Schüler
 * in MAGELLAN angelegt und einer Klasse zugeordnet und
 * in die AnsichtAbitursynchronisiert worden sein.
 
-Das Anlegen eines Schülers und dessen Einschulung in eine Klasse können Sie der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/) entnehmen. Der Klasse selbst mussunter Ansicht `Klassen >Daten` im Feld Klassenart einer der Werte:
+Das Anlegen eines Schülers und dessen Einschulung in eine Klasse können Sie der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/installation/) entnehmen. Der Klasse selbst mussunter Ansicht `Klassen > Daten` im Feld Klassenart einer der Werte:
 
 * Standard mit Oberstufensynchronisation
 * Oberstufenjahrgang (Nur Kurse)
-* Oberstufenjahrgang (Leistungs- und Grundkurse) 
+* Oberstufenjahrgang (Leistungs- und Grundkurse)
 
 zugewiesen sein, um Schüler dieser Klasse in die AnsichtAbiturzu synchronisieren. Um Schüler in die AnsichtAbiturzu synchronisieren, müssen Sie den:
 
