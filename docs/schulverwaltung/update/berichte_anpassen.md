@@ -141,7 +141,7 @@ Tabelle |Feld
 --|--
 Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
 Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schueler)
-SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/installation/Berichte_anpassen/#tabelle-schuelerklassen)
+SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerklassen)
 SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
 
 !!! info "Hinweis"
