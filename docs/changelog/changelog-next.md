@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### MAGELLAN SCHULVERWALTUNG
 
-* FIX: 
+* CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
 
 ### MAGELLAN BIBLIOTHEK
 
