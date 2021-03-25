@@ -1,6 +1,6 @@
 # MAGELLAN Berlin
 
-Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen [MAGELLAN-Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/).
+Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen [MAGELLAN-Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/installation/).
 
 * [Skriptüberblick](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/skriptuebersicht/)
 * [Angaben für die Oberstufe](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/oberstufe/)
