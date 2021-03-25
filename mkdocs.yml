@@ -63,6 +63,7 @@ nav:
       - Neuerung MAGELLAN 6 zu 7: changelog/neu.mag7.md
       - Neuerung MAGELLAN 7 zu 8: changelog/neu.mag8.md       
 - Schulverwaltung:
+    - Übersicht: schulverwaltung/schulverwaltung.md
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
