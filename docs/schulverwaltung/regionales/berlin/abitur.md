@@ -154,7 +154,6 @@ Nach dem mündlichen Abitur tragen Sie die mündlichen Prüfungsnoten auf der Re
 
     Über die Schaltfläche „Sammelzuweisung“ können Sie mehreren Abiturienten das gleiche Konferenz- bzw. Zeugnisdatum zuweisen.
 
-
 ### Prüfungsqualifikationsdaten manuell eingeben
 
 Wenn Sie die Gesamtqualifikation nicht skriptgesteuert eingeben möchten, können Sie die durch das Skript gemachten Eingaben auch selbst vornehmen:
@@ -168,6 +167,10 @@ Wenn Sie die Gesamtqualifikation nicht skriptgesteuert eingeben möchten, könne
 
 Geben Sie auf der Registerkarte „Zeugnis“ evtl. Zeugnisbemerkungen ein, die auf dem Abiturzeugnis gedruckt werden sollen. Sie können die Zeugnisbemerkung eintippen, auf das Verzeichnis Zeugnisbemerkungen zugreifen und die Rechtschreibprüfung nutzen.
 
+## Informationen über Zeugnisse
+
+Wir beschreiben die notwendigen Eingaben für unsere Zeugnisse und Berichte im Abschnitt [Berichte](https://doc.la.stueber.de/berichte/01_uebersicht/) der MAGELLAN Landesanpassungen.
+
 ## Oberstufenzeugnisse
 
 Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von Zeugnissen unterscheiden:
@@ -177,7 +180,7 @@ Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von 
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen in der Dokumentation [MAGELLAN 6](https://doc.magellan7.stueber.de/schulverwaltung/).
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN.
 
 ### Zeugnisse über mehrere Zeiträume
 
@@ -216,15 +219,15 @@ In den nachfolgenden Abbildungen finden Sie Beispiele für Crystal Reports Beric
 ### Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe]
 
 ![ Crystal Reports Berichts für das Zeugnis des 1. Kurshalbjahr der gymnasialen Oberstufe](/assets/images/berlin/fachwahl/fachwahl12.png)
- 
+
 ### 1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
- 
+
 ![1. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/assets/images/berlin/abitur/abitur13.png)
 
 ### 2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
 
 ![2. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/assets/images/berlin/abitur/abitur14.png)
 
-### . Seite eines Crystal Reports Berichts für ein Abiturzeugnis
+### 3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis
 
 ![3. Seite eines Crystal Reports Berichts für ein Abiturzeugnis](/assets/images/berlin/abitur/abitur15.png)
