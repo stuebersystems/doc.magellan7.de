@@ -1442,7 +1442,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden!  
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/installation/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/installation/troubleshootingupdate/).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update/).
 
 
 ### MAGELLAN
@@ -1504,7 +1504,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden! 
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/installation/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/installation/troubleshootingupdate/).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update/).
 
 ### MAGELLAN
 
