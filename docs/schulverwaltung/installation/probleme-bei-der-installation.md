@@ -67,3 +67,14 @@ Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem
 Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
 
 [https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
+
+## Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE"...
+
+Meldung:
+Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.
+
+![Meldung](assets\images\update\Fehler01.png)
+
+Die vorstehende Meldung erscheint, wenn auf dem Betriebssystem Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn MAGELLAN registriert werden konnten. Bitte laden Sie in diesem Fall die nachstehende Datei herunter und führen sie aus, es wird die für den Druck und Druckvorschau von MAGELLAN notwendige Runtimeversion von MAGELLAN gesondert installiert.
+
+[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
