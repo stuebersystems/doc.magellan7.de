@@ -24,8 +24,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Datenstruktur
 
-* CHANGE: Die Datenbankversionsnummer ändert sich mit diesem Update nicht, es werden die Daten geprüft, ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrekt gelingt.
-
+* CHANGE: Die Datenbankversionsnummer ändert sich mit diesem Update nicht, es werden zwei Dinge geprüft und je nach Datenlage auch korrigiert:
+  * ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrigiert
+  * aus anderen Programmen übernommene externe IDs (SchuelerAusbildungen) werden geprüft, das Format wird ggfs. angepasst
+   
+  
 ### MAGELLAN SCHULVERWALTUNG
 
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
