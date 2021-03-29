@@ -11,7 +11,8 @@
 ### Datenübernahme testen
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
-
+Bei der Übernahme können Meldungen ausgegeben werden, die müssten bitte geprüft und die Ursache behoben werden, mehr dazu im Abschnitt [Meldungen](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#meldungen).
+Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beispielsweise ob `Schüler > Zeugnis > Fächer/Leistungen` gefüllt ist oder ob, wenn Sie Oberstufenschüler verwalten, ob die Karte `Abitur > Qualifikation` für einzelne Beispiele befüllt sind.
 
 ### Übernahme nicht übers Netzwerk
 

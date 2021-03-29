@@ -22,9 +22,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## 7.1.26 - 719
 
+### Datenstruktur
+
+* CHANGE: Die Datenbankversionsnummer ändert sich mit diesem Update nicht, es werden die Daten geprüft, ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrekt gelingt.
+
 ### MAGELLAN SCHULVERWALTUNG
 
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
+* FIX: Anzeige von fortgeschriebenen Zeugnisbemerkungen (Korrektur im Skript und auch Korrektur der bereits fortgeschriebenen Zeugnisbemerkungen)
+
+#### MAGELLAN Bibliothek
+
+* FIX: Eintrag "Ausleihe bis" bei Schülern
 
 ### Skripte
 
