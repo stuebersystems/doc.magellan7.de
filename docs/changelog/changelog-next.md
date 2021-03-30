@@ -20,13 +20,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## 7.1.26 - 719
+## 7.1.26 - 720
 
 ### Datenstruktur
 
-* CHANGE: Die Datenbankversionsnummer ändert sich mit diesem Update nicht, es werden zwei Dinge geprüft und je nach Datenlage auch korrigiert:
-  * ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrigiert
-  * aus anderen Programmen übernommene externe IDs (SchuelerAusbildungen) werden geprüft, das Format wird ggfs. angepasst
+* CHANGE: ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrigiert
+* CHANGE: aus anderen Programmen übernommene externe IDs (SchuelerAusbildungen) werden geprüft, das Format wird ggfs. angepasst
+* FIX: Änderung des Triggers, der Bewerbungsdaten eines vom Stammschüler kopierten Bewerbers aktualisiert
 
 ### MAGELLAN SCHULVERWALTUNG
 
