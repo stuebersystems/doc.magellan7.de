@@ -32,6 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
 * FIX: Anzeige von fortgeschriebenen Zeugnisbemerkungen (Korrektur im Skript und auch Korrektur der bereits fortgeschriebenen Zeugnisbemerkungen)
+* FIX: Zuweisen des Bewerbungsstatus per Sammelzuweisung für Bewerber, die per Kopie vom Stammschüler erzeugt wurden, wurde korrigiert. Bitte weisen Sie die Werte für die betroffenen Bewerber auf `Daten1` oder per Sammelzuweisung erneut zu.
 
 ### Schnittstellen
 
