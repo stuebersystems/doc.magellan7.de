@@ -33,6 +33,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
 * FIX: Anzeige von fortgeschriebenen Zeugnisbemerkungen (Korrektur im Skript und auch Korrektur der bereits fortgeschriebenen Zeugnisbemerkungen)
 
+### Schnittstellen
+
+#### SAXSVS
+
+* CHANGE: Verarbeitung der Extern-ID aus SAXSVS überarbeitet, damit können Daten für importierte Schüler korrekt bearbeitet werden
+* NEW: Für sächsische Schulen wird die GUID der Ausbildung in der Liste der Ausbildungen eingeblendet
+
 #### MAGELLAN Bibliothek
 
 * FIX: Eintrag "Ausleihe bis" bei Schülern
