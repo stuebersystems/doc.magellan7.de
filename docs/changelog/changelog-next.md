@@ -71,3 +71,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 526 (09.19).rpt
 
 * NEW: BER-Schul Z 593 (10.20).rpt
+* NEW: BER-Schul Z 590 (12.19).rpt
