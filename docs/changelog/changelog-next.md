@@ -56,3 +56,18 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * NEW: MVP-FG-FHReife (Bescheinigung 2020).rpt *(Anlage 09 / FG (Mitteilungsblatt Nr. 5/2019)*
+
+#### Berlin
+
+* NEW: BER-Schul Z 500 (09.19).rpt
+* NEW: BER-Schul Z 501 (09.19).rpt
+* NEW: BER-Schul Z 502 (09.19).rpt
+* NEW: BER-Schul Z 503 (09.19).rpt
+
+* NEW: BER-Schul Z 520 (09.19).rpt
+* NEW: BER-Schul Z 521 (09.19).rpt
+* NEW: BER-Schul Z 522 (09.19).rpt
+* NEW: BER-Schul Z 523 (09.19).rpt
+* NEW: BER-Schul Z 526 (09.19).rpt
+
+* NEW: BER-Schul Z 593 (10.20).rpt
