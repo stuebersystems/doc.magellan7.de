@@ -54,4 +54,4 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* NEW: MVP-FG-FHReife (Bescheinigung 2020).rpt * (Anlage 09 / FG (Mitteilungsblatt Nr. 5/2019)*
+* NEW: MVP-FG-FHReife (Bescheinigung 2020).rpt *(Anlage 09 / FG (Mitteilungsblatt Nr. 5/2019)*
