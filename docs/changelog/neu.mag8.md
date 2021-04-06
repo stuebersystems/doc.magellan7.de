@@ -115,6 +115,29 @@ Beim Löschen eines Bewerbers erscheint ein Optionsfenster, über das man die So
 
 Die Möglichkeit einen Kontakt für Betrieb zu hinterlegen `Betriebe > Kontakte` wurde um das Feld `Anrede`erweitert.
 
+### Anzeige von Wiederholernoten im Abitur
+
+Bei der Synchronisation der Oberstufenergebnisse auf die Qualifikationskarte werden für wiederholte Halbjahre nur die zuletzt erworbenen Leistungen überragen. Möchten Sie alle Leistungen sehen, die in der Oberstufe erworben wurden, können für Wiederholer die Daten angezeigt werden.
+
+Folgenden Daten sind dafür Voraussetzung:
+
+* `Klassen > Daten > Klassenart` = Oberstufenjahrgang
+* `Klassen > Zeiträume > Jahrgang` = 11, 12 oder 13 (ein Eintrag je Klassenzeitraum)
+* `Schüler > Laufbahn > Wiederholer` = Wiederholerhäkchen für das erste Halbjahr des Wiederholerjahrs soll gesetzt sein 
+
+Beispiel:
+Der Schüler hat die Klasse 11 wiederholt, in seiner Laufbahn ist für das erste Halbjahr in dem er wiederholt der "Wiederholer-Haken" aktiviert.
+
+![Wiederholer-Häkchen für 11.1 im 1.HJ 21/22 gesetzt ](/assets/images/changelog/aenderungen8/12.png)
+
+In der Abituransicht `Qualifikation` werden nach dem Aufruf über die Schaltfläche `Wiederholernoten` alle Fächer und Noten aus der Oberstufe für den Schüler (und alle anderen Wiederholer) gezeigt. Sie können die Daten filtern, gruppieren oder sortieren um die gewünschte Auswahl zu zeigen. sie können diese Daten als Vorlage nutzen um manuell Anpassungen der Leistungen auf der Karte `Qualifikation` vorzunehmen.
+
+![Anzeige aller Oberstufenleistungen ](/assets/images/changelog/aenderungen8/12.png)
+
+!!! danger "Achtung"
+
+    Bitte beachten Sie, dass bei erneuter Synchronisation der Schülerleistungen die manuelle Anpassung zurückgesetzt wird.
+
 ### Seriendruck
 
 #### Anbindung an LibreOffice

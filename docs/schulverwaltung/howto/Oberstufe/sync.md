@@ -52,6 +52,29 @@ Der vorangegangene Ablauf geht davor aus, dass jedes Oberstufenhalbjahr nur einm
 Eigentlich könnten wir jetzt einfach die Daten des ersten Durchgangs mit denen des zweiten Durchgangs überschreiben, sollte aber ein Umwahl von Fächern vorgenommen worden sein, ist das Ergebnis fehlerhaft.
 Aus diesem Grund werden beim Übertragen sobald Daten einer Wiederholung gefunden werden, alle Noten des ersten Durchlaus, also in unserem Beispiel der ersten 11.1 und der ersten 11.2 überschrieben.
 
+### Anzeige von Wiederholernoten im Abitur
+
+Bei der Synchronisation der Oberstufenergebnisse auf die Qualifikationskarte werden für wiederholte Halbjahre nur die zuletzt erworbenen Leistungen überragen. Möchten Sie alle Leistungen sehen, die in der Oberstufe erworben wurden, können für Wiederholer die Daten angezeigt werden.
+
+Folgenden Daten sind dafür Voraussetzung:
+
+* `Klassen > Daten > Klassenart` = Oberstufenjahrgang
+* `Klassen > Zeiträume > Jahrgang` = 11, 12 oder 13 (ein Eintrag je Klassenzeitraum)
+* `Schüler > Laufbahn > Wiederholer` = Wiederholerhäkchen für das erste Halbjahr des Wiederholerjahrs soll gesetzt sein 
+
+Beispiel:
+Der Schüler hat die Klasse 11 wiederholt, in seiner Laufbahn ist für das erste Halbjahr in dem er wiederholt der "Wiederholer-Haken" aktiviert.
+
+![Wiederholer-Häkchen für 11.1 im 1.HJ 21/22 gesetzt ](/assets/images/changelog/aenderungen8/12.png)
+
+In der Abituransicht `Qualifikation` werden nach dem Aufruf über die Schaltfläche `Wiederholernoten` alle Fächer und Noten aus der Oberstufe für den Schüler (und alle anderen Wiederholer) gezeigt. Sie können die Daten filtern, gruppieren oder sortieren um die gewünschte Auswahl zu zeigen. sie können diese Daten als Vorlage nutzen um manuell Anpassungen der Leistungen auf der Karte `Qualifikation` vorzunehmen.
+
+![Anzeige aller Oberstufenleistungen ](/assets/images/changelog/aenderungen8/12.png)
+
+!!! danger "Achtung"
+
+    Bitte beachten Sie, dass bei erneuter Synchronisation der Schülerleistungen die manuelle Anpassung zurückgesetzt wird.
+
 ## Die Synchronisation
 
 Den Assistenten zum Synchronisieren der Schülerdaten rufen Sie im Menü `Abitur` über die Schaltfläche am oberen Fensterrand auf. 
@@ -68,12 +91,10 @@ Es werden Ihnen nur Schüler angeboten, die in einer Klasse sind, die eine der o
 |** Oberstufenjahrgang (Leistungs- und Grundkurse)** <br/> **Oberstufenjahrgang (nur Kurse)**<br/><br/>MAGELLAN synchronisiert die Schülerdaten, Schülerfachdaten und in den Halbjahren erfassten Leistungen.|
 |** Standard mit Oberstufensynchronisation**<br/><br/>MAGELLAN synchronisiert die Schülerdaten als Voraussetzung für die Fachwahl, keine Fächer oder Leistungen. In der Regel trägt man diese Klassenart für den Jahrgang 10 ein, da die Schüler sich in der Jahrgangsstufe 10 für die Fachwahl in der Oberstufe entscheiden.
 
-
 !!! info "Hinweis"
 
 	 MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
      Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
-
 
 ![Klassenart für die Oberstufenberechnungen](/assets/images/gym_oberstufe/oberstufe02.png)
 

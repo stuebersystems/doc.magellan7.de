@@ -3,7 +3,6 @@
 
 Die halbjährlich erworbenen Noten der Oberstufe samt der Fächer und weiteren Informationen (zum Beispiel Merkmale, Fachstatus, Unterrichtsarten) sollen per Assistent auf die Karte `Abitur > Qualifikation` in den korrekten Spalten (E1 bis Q4, eventuell regionale Abweichungen möglich) synchronisiert werden. Anschließend sollen skriptbasierte Berechnungen ausgeführt werden. Das Synchronisieren der Halbjahresdaten in das Menü `Abitur `und die anschließenden Berechnungen per Skript, gelingen nur, wenn die Daten entsprechend vorbereitet sind. Bitte schauen Sie sich dazu die nachstehenden Hinweise für die Vorbereitung der Stammdaten und Schlüsselverzeichnisse an.
 
-
 ### Verzeichnis Zeiträume
 
 * Bitte überprüfen Sie unter `Extras > Schlüsselverzeichnisse > Zeiträume > Art`, dass die Art `1.Halbjahr` oder `2.Halbjahr` korrekt für jede Zeile gefüllt ist. 
@@ -37,7 +36,6 @@ Voraussetzung für die Fachwahlüberprüfung und die Abiturqualifikationsberechn
 
 	In der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/) finden Sie eine entsprechende Anleitung, für welches Bundesland pro Fach welche Einstellungen bei Fachkategorie bzw. im Aufgabenbereich vorgenommen werden müssen.
 
-
 ### Verzeichnis Abschlussjahrgänge
 
 ![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](/assets/images/gym_oberstufe/gym_oberstufe01.png)
@@ -48,7 +46,7 @@ Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrg
 
 	Geben Sie bei der Definition des Abiturjahrgangs im Fenster `Verzeichnisse der Abschlussjahrgänge` unter `Kategorie` unbedingt `Abitur` an.
 
-### Verzeichnis Verordnung 
+### Verzeichnis Verordnung
 
 
 ![Verzeichnis der Verordnungen](/assets/images/gym_oberstufe/gym_oberstufe02.png)
