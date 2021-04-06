@@ -109,12 +109,7 @@ Im dritten Schritt werden in eine leere MAGELLAN 8-Datenbank, die Daten aus Ihre
 2. Das Übertragen der MAGELLAN 6-Daten ist nur in eine leere aktuelle MAGELLAN 8-Datenbank möglich. Bei der Installation von MAGELLAN 8 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN8.fdb".
 ![leere Datenbank im Format für MAGELLAN 8](/assets/images/magellan.administrator/mandanten.kopieren6.1.png)
 
-<<<<<<< HEAD
-Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 8-Format herunterladen.](ftp://ftp.stueber.de/pub/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
-=======
 Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im MAGELLAN 8-Format herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
->>>>>>> 4b006e41c419ce37fbe8a0675febf7021d4d48a3
-
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (MAGELLAN 6), im unteren Bereich auf die Zieldatenbank (MAGELLAN 8).
 
@@ -211,11 +206,11 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
 In MAGELLAN 6 konnte im MAGELLAN ADMINISTRATOR das MAGELLAN-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.fdb gespeichert und bei der Datenübernahme in die Magellan 8-Datenbank auch übergeben.
 
-**Problem**
+### Problem
 
 Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespeichert. Bei der Übernahme der Daten in die neue Magellan8.fdb wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
 
-**Lösung**
+### Lösung
 
 Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELLAN-Teilnehmer vergeben und in der aktuellen Chiffrierung wieder eingelesen werden.
 
