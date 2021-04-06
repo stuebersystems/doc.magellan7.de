@@ -29,6 +29,63 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 7
 
+### 7.1.26 - 720 (06.04.2021)
+
+!!! danger "Achtung"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+#### Datenstruktur
+
+* CHANGE: ggfs. werden durch Fortschreiben übernommene Zeugnisbemerkungen korrigiert, damit die Anzeige in der Oberfläche korrigiert
+* CHANGE: aus anderen Programmen übernommene externe IDs (SchuelerAusbildungen) werden geprüft, das Format wird ggfs. angepasst
+* FIX: Änderung des Triggers, der Bewerbungsdaten eines vom Stammschüler kopierten Bewerbers aktualisiert
+
+#### MAGELLAN SCHULVERWALTUNG
+
+* CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
+* FIX: Anzeige von fortgeschriebenen Zeugnisbemerkungen (Korrektur im Skript und auch Korrektur der bereits fortgeschriebenen Zeugnisbemerkungen)
+* FIX: Zuweisen des Bewerbungsstatus per Sammelzuweisung für Bewerber, die per Kopie vom Stammschüler erzeugt wurden, wurde korrigiert. Bitte weisen Sie die Werte für die betroffenen Bewerber auf `Daten1` oder per Sammelzuweisung erneut zu.
+
+#### Schnittstellen
+
+##### SAXSVS
+
+* CHANGE: Verarbeitung der Extern-ID aus SAXSVS überarbeitet, damit können Daten für importierte Schüler korrekt bearbeitet werden
+* NEW: Für sächsische Schulen wird die GUID der Ausbildung in der Liste der Ausbildungen eingeblendet
+
+#### MAGELLAN Bibliothek
+
+* FIX: Eintrag "Ausleihe bis" bei Schülern
+
+#### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: NRW-APO-2012: Das Markieren von Fächern der Kategorie `Sozialkunde` wurde korrigiert
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* NEW: MVP-FG-FHReife (Bescheinigung 2020).rpt *(Anlage 09 / FG (Mitteilungsblatt Nr. 5/2019)*
+
+##### Berlin
+
+* NEW: BER-Schul Z 500 (09.19).rpt
+* NEW: BER-Schul Z 501 (09.19).rpt
+* NEW: BER-Schul Z 502 (09.19).rpt
+* NEW: BER-Schul Z 503 (09.19).rpt
+
+* NEW: BER-Schul Z 520 (09.19).rpt
+* NEW: BER-Schul Z 521 (09.19).rpt
+* NEW: BER-Schul Z 522 (09.19).rpt
+* NEW: BER-Schul Z 523 (09.19).rpt
+* NEW: BER-Schul Z 526 (09.19).rpt
+
+* NEW: BER-Schul Z 593 (10.20).rpt
+* NEW: BER-Schul Z 590 (12.19).rpt
+
 ### 7.1.25 - 719 (05.03.2021)
 
 #### MAGELLAN SCHULVERWALTUNG
