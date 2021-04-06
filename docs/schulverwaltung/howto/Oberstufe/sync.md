@@ -69,7 +69,7 @@ Der Schüler hat die Klasse 11 wiederholt, in seiner Laufbahn ist für das erste
 
 In der Abituransicht `Qualifikation` werden nach dem Aufruf über die Schaltfläche `Wiederholernoten` alle Fächer und Noten aus der Oberstufe für den Schüler (und alle anderen Wiederholer) gezeigt. Sie können die Daten filtern, gruppieren oder sortieren um die gewünschte Auswahl zu zeigen. sie können diese Daten als Vorlage nutzen um manuell Anpassungen der Leistungen auf der Karte `Qualifikation` vorzunehmen.
 
-![Anzeige aller Oberstufenleistungen ](/assets/images/changelog/aenderungen8/12.png)
+![Anzeige aller Oberstufenleistungen ](/assets/images/changelog/aenderungen8/13.png)
 
 !!! danger "Achtung"
 
