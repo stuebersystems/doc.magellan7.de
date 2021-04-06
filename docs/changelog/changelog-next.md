@@ -54,4 +54,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Berlin
 
-* NEW:
+* NEW: BER-Schul Z 593 (2019.2020).rpt
+* NEW: BER-Schul Z 592 (03.2020).rpt
+* NEW: BER-Schul Z 594 (12.19).rpt
+* NEW: BER-Schul Z 591 (03.20).rpt
