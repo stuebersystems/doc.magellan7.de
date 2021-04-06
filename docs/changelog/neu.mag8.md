@@ -167,11 +167,9 @@ Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der S
 
 Die Auswahllisten der Lehrer und Personen `Lehrer > Auswahl`und `Personen > Auswahl`wurden um das Feld `Ausleihe`erweitert.
 
-## Statistiken
+## Schnittstellen
 
-### Sachsen
-
-#### Fremdsprachen
+### SAXSVS Fremdsprachen
 
 Es wird unterschieden zwischen
 

@@ -55,13 +55,13 @@ markdown_extensions:
 nav:
 - Allgemein: 
     - Einführung: index.md
-    - Änderungen:
-      - Was ist neu?: changelog/changelog.md
-      - Geplante Änderungen: changelog/changelog-next.md
-      - Änderungen 2020: changelog/changelog2020.md
-      - Änderungen 2019: changelog/changelog2019.md
-      - Neuerung MAGELLAN 6 zu 7: changelog/neu.mag7.md
-      - Neuerung MAGELLAN 7 zu 8: changelog/neu.mag8.md       
+    - Was ist neu?: changelog/changelog.md
+    - Geplante Änderungen: changelog/changelog-next.md
+    - Neuerungen MAGELLAN 8: changelog/neu.mag8.md
+    - Archiv:
+        - Neuerungen MAGELLAN 7: changelog/neu.mag7.md
+        - Änderungen 2020: changelog/changelog2020.md
+        - Änderungen 2019: changelog/changelog2019.md
 - Schulverwaltung:
     - Übersicht: schulverwaltung/schulverwaltung.md
     - Installation: 
