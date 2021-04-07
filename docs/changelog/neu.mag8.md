@@ -30,7 +30,7 @@ Unter `Schüler > Zeugnis > Fächer` kann je Fachzeile ein Thema vergeben werden
 
 #### Schülerausweisdatum gesammelt zuweisen
 
-Das Feld `Daten3 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per Sammelzuweisung den Schülern zugeordnet werden.
+Das Feld `Daten 4 > Sonstige Daten > Schülerausweise > Ausgestellt am` kann per Sammelzuweisung den Schülern zugeordnet werden.
 
 #### Noten aus alten Halbjahren übernehmen
 
