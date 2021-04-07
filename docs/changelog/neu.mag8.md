@@ -159,7 +159,9 @@ Erweiterung des Seriendruckes für die Lehrkraft um die Felder `Lehrkraft > Date
 
 ## MYMAGELLAN
 
-Zusätzlich zum Kürzel des Fachs kann auch die Bezeichnung des Fachs in die mymx-Datei übergeben werden.
+Zusätzlich zum Kürzel des Fachs wird auch die Bezeichnung des Fachs in die mymx-Datei übergeben werden. Die Bezeichnung wird in den Ansichten `Fächer` oder `Schüler` für den markierten Datensatz am oberen Fensterrand eingeblendet.
+
+![Fachbezeichnung wird gezeigt](/assets/images/changelog/aenderungen8/14.png)
 
 ## MAGELLAN ADMINISTRATOR
 
