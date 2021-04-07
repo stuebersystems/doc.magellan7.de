@@ -149,9 +149,17 @@ Wählen Sie die Option, das gefüllte Dokument vor der Übergabe nach LibreOffic
 
 Erweiterung des Seriendruckes für Schülers um das Feld `Betriebe > Kontakte > Anrede`.
 
+#### Sorgeberechtigte
+
+Erweiterung des Seriendrucks an Sorgeberechtigte um die Ausbildungsdaten des Schülers.
+
 #### Lehrer
 
 Erweiterung des Seriendruckes für die Lehrkraft um die Felder `Lehrkraft > Daten2 > Amtsbez` und die `Lehrkraft > Daten2 > Dienstbez`.
+
+## MYMAGELLAN
+
+Zusätzlich zum Kürzel des Fachs kann auch die Bezeichnung des Fachs in die mymx-Datei übergeben werden.
 
 ## MAGELLAN ADMINISTRATOR
 
