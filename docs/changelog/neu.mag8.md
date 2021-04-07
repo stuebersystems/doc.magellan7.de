@@ -52,7 +52,7 @@ Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung der unter
 
 ![ `Bemerkungsliste`](/assets/images/changelog/aenderungen8/07.png)
 
-### Besonderheitenliste Schüler
+#### Besonderheitenliste Schüler
 
 Unter `Schüler > Merkmale` gibt es eine neue Liste für die Erfassung von statistisch auszuwertenden Schüler-Besonderheiten.
 Jeder Zeile kann aus dem neuen Schlüsselverzeichnis `Besonderheiten` ein Schlüsselwert zugewiesen werden.
@@ -60,11 +60,11 @@ Um die Inhalte zu strukturieren gibt es die `Kategorie`. Der Feldtyp der Kategor
 
 ![`Besonderheitenliste`](/assets/images/changelog/aenderungen8/09.png)
 
-### Thema der BLL auf 300 Zeichen erhöht
+#### Thema der BLL auf 300 Zeichen erhöht
 
 Unter `Abitur > Prüfungen > Besondere Lernleistung > Thema` können 300 Zeichen für das Thema gespeichert werden.
 
-### Anzeige von Wiederholernoten im Abitur
+#### Anzeige von Wiederholernoten im Abitur
 
 Bei der Synchronisation der Oberstufenergebnisse auf die Qualifikationskarte werden für wiederholte Halbjahre nur die zuletzt erworbenen Leistungen überragen. Möchten Sie alle Leistungen sehen, die in der Oberstufe erworben wurden, können für Wiederholer die Daten angezeigt werden.
 
