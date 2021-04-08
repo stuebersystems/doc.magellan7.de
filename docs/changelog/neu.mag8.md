@@ -167,6 +167,12 @@ STRG + E | Exportiert den gewählten Bericht als PDF ins Dokumentenverzeichnis<b
 Sie können unter `Datenbank > Optionen > Dokumente > Seriendruck` wählen, ob die Seriendruckdaten aus MAGELLAN an Word oder an LibreOffice übergeben werden sollen. Je nach Auswahl wird beim Aufruf der Seriendruckfunktionalität Word oder LibreOffice aufgerufen und Sie können die übergebenen Daten im gewählten Zielprogramm wie gewohnt weiterverarbeiten.
 Wählen Sie die Option, das gefüllte Dokument vor der Übergabe nach LibreOffice in der Dokumentenverwaltung zu speichern, wird die Vorlage mit den Daten befüllt und im PDF-Format im jeweiligen Unterordner abgelegt.
 
+#### Filter für Mitteilungen
+
+Der Zielgruppenfilter in der Funktion unter `Extras > Benachrichtigen > Benachrichtigungen > Mitteilungen senden` ist jetzt beim Aufruf aus allen Menüpunkten einsetzbar, zuvor nur aus dem Menü `Mandanten`. Bitte wählen Sie in der Filterliste Ihre Zielgruppe (Schüler, Bewerber, Personen, Lehrer usw.) und bestätigen über die Schaltfläche `Filter anwenden`.
+
+![Filterliste](/assets/images/changelog/aenderungen8/15.png)
+
 ## MYMAGELLAN
 
 ### Bezeichnungen der Fächer
