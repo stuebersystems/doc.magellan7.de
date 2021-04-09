@@ -1,8 +1,46 @@
-# Probleme beim Einspielen der Service-Updates?
+# Probleme bei Installation oder Update
+
+Beim ersten Einrichten oder beim späteren Update von MAGELLAN gibt es umgebungsspezifische Ursachen für Probleme, die wir gesammelt haben und nachstehend jeweils den Lösungsansatz beschreiben.
+
+## Installation
+
+### Die Erstanmeldung klappt nicht
+
+Folgende Ursachen könnten der Grund sein: MAGELLAN startet auf dem Serverrechner nicht? Ist Firebird auf dem Serverrechner installiert und gestartet? In der Systemsteuerung Ihres Serverrechners finden Sie unter `Verwaltung > Dienste` einen Aufruf für den Firebird-Datenbank-Manager. Die Einstellungen sollten wie folgt sein:
+
+![Firebird Server Einstellungen](/assets/images/fb-control.png)
+
+### Datenbank und Firebird sind auf unterschiedlichen Partitionen installiert
+
+Firebird nutzt für den Datenverkehr den **Port 3050**, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
+
+### Der Pfad zur Datenbank ist verkehrt
+
+Starten Sie den Magellan-Administrator ohne Anmeldung:
+
+`Starten > Verbindung markieren > Bearbeiten > Unterkarte „Datenbank“`. Bitte prüfen Sie, dass Pfad zur Datenbank korrekt ist (Achtung: nachstehende Abbildung enthält lediglich einen Beispielpfad!) und mit dem Dateinamen der Datenbank endet, wie in der folgenden Abbildung:
+
+!["Datenbank registrieren"](/assets/images/admin-connection-dialog.png )
+
+### MAGELLAN startet auf dem Arbeitsplatzrechner nicht
+
+Eventuell ist auch hier der Pfad zur Datenbank verkehrt. Starten Sie bitte den MAGELLAN-Administrator ohne Anmeldung:
+
+![Magellan Administrator starten ohne Anmeldung](/assets/images/admin-ohne-anmeldung.png)
+
+Prüfen Sie bitte, dass für die Arbeitsplatzinstallation der Pfad zur Datenbank 1:1 wie auf dem Serverrechner eingetragen wurde. Der Unterschied in der Verbindung liegt nur in den Feldern „Protokoll“ und „Server“.
+
+Im Feld Protokoll sollte TCP/IP gewählt werden, im Feld Server tragen Sie bitte nur den Namen des Serverrechners oder die IP-Adresse des Serverechners ein.
+
+### Port 3050 freigeben
+
+Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
+
+## Updates
 
 In den nachfolgenden Punkte beschreiben wir die Lösungen zu Problemen, die bei Updates auftreten können. 
 
-## Datenbanksicherung kann nicht erstellt werden
+### Datenbanksicherung kann nicht erstellt werden
 
 Die Sicherung der Datenbank kann nur auf dem selben Rechner erstellt werden, auf dem auch die Datenbank selbst gespeichert ist. Versuchen Sie die Sicherung auf einem anderen Rechner oder über ein Netzlaufwerk erstellen zu lassen, stoppt der Assistent mit nachfolgender Meldung.  
 Bitte wählen Sie einen lokales Verzeichnis, wir empfehlen das Verzeichnis "Backup" in Ihrem Datenbankverzeichnis und einen Dateinamen, der das Tagesdatum enthält.
@@ -11,7 +49,7 @@ Beispiel die Benennung: 2016-04-23.fbk
 
 ![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](/assets/images/sicherungnichtlokalspeichern.jpg)
  
-## Die Magellan-Datenbank-ODS-Version ist nicht aktuell
+### Die Magellan-Datenbank-ODS-Version ist nicht aktuell
 
 Der Assistent prüft die ODS-Version (On-Disc-Structure) der Datenbank, um das Strukturupdate korrekt ausführen zu können. Ihre Datenbank sollte für die Anpassung bestimmte Befehle "kennen". Durch das Sichern und anschließende Wiederherstellen erhöht sich die ODS-Version , d.h. die Datenbank "lernt" neue Befehle. 
 Folgende Schritte sind nötig:
@@ -44,7 +82,7 @@ Starten Sie anschließend die Installation von Firebird per Doppelklick auf das 
 
 3.	Starten Sie Magellan erneut als sysdba und führen Sie die Datenstrukturerweiterung aus.
 
-## Andere Benutzer sind noch angemeldet
+### Andere Benutzer sind noch angemeldet
 
 Für die Datenstrukturanpassung darf kein Nutzer außer dem sysdba, der die Anpassung durchführt, angemeldet sein. Wenn Sie nicht wissen, wer in Ihrem Netzwerk noch ein Magellan-Modul(Schulverwaltung, Bibliothek, Haushalt&Inventar u.a) gestartet hat, können Sie den Firebird-Dienst stoppen und erneut starten. Öffnen Sie dazu auf Ihrem Server-Rechner in der Systemsteuerung den Punkt Firebird-Server-Manager, stoppen den Dienst und starten ihn erneut. 
 
@@ -57,7 +95,7 @@ Alternativ können Sie den Firebird-Server auch unter `Start > Systemsteuerung >
 
 Fehlt Ihnen der Aufruf in der Systemsteuerung? Sie können den Dienst auch unter Systemsteuerung|Verwaltung|Dienste|Firebird-Server finden.
 
-## MAGELLAN findet den Skripteordner nicht
+### MAGELLAN findet den Skripteordner nicht
 
 Sie starten nach dem Update MAGELLAN und erhalten folgende Meldung?
 
@@ -85,7 +123,7 @@ Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Ins
 |Windows 7          |C:\Users\Public\Documents\Stueber S...\Magellan 7 |
 |Windows Server 2008|C:\Users\Public\Documents\Stueber S...\Magellan 7\ |
 
-## Trotz Update fehlen Skripte oder andere aktuelle Daten
+### Trotz Update fehlen Skripte oder andere aktuelle Daten
 
 Sie spielen das Update ein und dennoch fehlen Skripte für die Strukturanpassung oder zum Beispiel das in der LiesMich-Datei angekündigte neue Zeugnis?
 
@@ -120,7 +158,7 @@ Bitte rufen Sie den MAGELLAN Administrator auf und führen den Punkt `Datenbankp
 
 ![Führen Sie diesen Punkt aus, um für neue Bestandteile der Datenbank die Zugriffsrechte für Ihre Benutzer zu vergeben](/assets/images/update.zugriffsrechte.synch.png)
 
-## Meldung "Runtime error ..."
+### Meldung "Runtime error ..."
 
 Vermutlich ist eine der Dateien, die beim Start von MAGELLAN geladen werden sollen, beschädigt. Die möglichen Dateien pro Arbeitsplatz wären (außer Sie verwenden eine MAGELLAN.paths um die Dateien gemeinsam zu verwenden):
 
@@ -149,49 +187,24 @@ MAGELLAN.opt?|Bitte einfach löschen, die Datei wird beim nächsten Schließen v
 MAGELLAN.evm?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 MAGELLAN.lic?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 
-## Fehler beim Schreiben in Datei. CrystalDecisions.CrystalReports.Engine.dll
+### Crystal Reports Meldungen
 
-![Fehlermeldung](/assets/images/installation/03.png)
+Wir setzen in MAGELLAN für die Druckvorschau und den Druck eine Runtimeversion von Crystal Reports ein. Dieser Teil setzt Programmbibliotheken voraus, die in der Regel beispielsweise mit dem Officepaket schon installiert wurden. Sollte es dennoch hier zu Problemen kommen, kann man gezielt die Voraussetzungen nachinstallieren.
+Es kann auch zu Problemen kommen wenn Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn MAGELLAN registriert werden konnten.
 
-Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
+Nachstehend zeigen wir eine Reihe von möglichen Meldungen, dazu jeweils einen Link über den Sie Software zur Lösung laden können.
 
-Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
+Wenn bei Ihnen eine der nachstehenden Meldungen bei der Installation, beim Update von MAGELLAN oder ggfs. auch in der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen die Installation/das Update von MAGELLAN bitte erneut aus. 
 
-Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
-
-[https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
-
-## Fehler beim Registrieren von Modul ... crtslv.dll
-
-![Fehlermeldung](/assets/images/installation/fehler_cr.png)
-
-Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
-
-Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
-
-Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
-
-[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
-
-## Typeninitialisierer für Crystal.Decisions
-
-![Fehlermeldung](/assets/images/installation/02.png)
-
-Die vorstehende Meldung erscheint, wenn erwartete Programmbibliotheken nicht auf dem Rechner gefunden werden.
-
-Das ist in den meisten Fällen unwahrscheinlich, da diese beispielsweise mit dem Officepaket installiert werden sollten. Sollten Sie diese Meldung erhalten, laden Sie über den untenstehenden Downloadlink bitte das Paket herunter.
-
-Führen Sie die Installation per Doppelklick aus, im Anschluss installieren Sie bitte MAGELLAN erneut oder führen Sie eine Reparaturinstallation aus.
-
-[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
-
-## Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE"...
-
-Meldung:
-Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.
-
-![Meldung](/assets/images/update/Fehler01.png)
-
-Die vorstehende Meldung erscheint, wenn auf dem Betriebssystem Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn MAGELLAN registriert werden konnten. Bitte laden Sie in diesem Fall die nachstehende Datei herunter und führen sie aus, es wird die für den Druck und Druckvorschau von MAGELLAN notwendige Runtimeversion von MAGELLAN gesondert installiert.
-
-[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
+Bezeichnung|Inhalt
+--|--
+**Problem**|**Fehler beim Schreiben in Datei. CrystalDecisions.CrystalReports.Engine.dll**<br/><br/> <img src="/assets/images/installation/03.png"> 
+**Lösung**|[https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
+**Problem**|**Fehler beim Registrieren von Modul ... crtslv.dll**<br/><br/><img src="/assets/images/installation/fehler_cr.png"> 
+**Lösung**|[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
+**Problem**|**Typeninitialisierer für Crystal.Decisions**<br/><br/><img src="/assets/images/installation/02.png"> 
+**Lösung**|[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
+**Problem**|**Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.**<br/><br/><img src=/assets/images/update/Fehler01.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
+**Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.**<br/><br/><img src=/assets/images/update/Fehler02.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
