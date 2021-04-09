@@ -48,7 +48,7 @@ Bitte wählen Sie einen lokales Verzeichnis, wir empfehlen das Verzeichnis "Back
 Beispiel die Benennung: 2016-04-23.fbk
 
 ![Fehlermeldung wenn die Sicherung nicht lokal gespeichert wird](/assets/images/sicherungnichtlokalspeichern.jpg)
- 
+
 ### Die Magellan-Datenbank-ODS-Version ist nicht aktuell
 
 Der Assistent prüft die ODS-Version (On-Disc-Structure) der Datenbank, um das Strukturupdate korrekt ausführen zu können. Ihre Datenbank sollte für die Anpassung bestimmte Befehle "kennen". Durch das Sichern und anschließende Wiederherstellen erhöht sich die ODS-Version , d.h. die Datenbank "lernt" neue Befehle. 
@@ -64,11 +64,10 @@ Folgende Schritte sind nötig:
 
 Prüfen Sie bitte auf Ihrem Serverrechner in der Systemsteuerung im "Firebird-Server-Manager" oder unter dem Punkt "Programme und Funktionen|Firebird" welche Version von Firebird Sie einsetzen. Die aktuell empfohlene Ausgabe finden Sie auf unserer Webseite im [Downloadbereich](https://magellan.stueber.de/download.php). 
 
- 
 Wenn Sie diese Meldung erhalten, laden Sie über den Link unten links im Meldungsfenster die aktuelle Firebird-Version herunter. Stoppen Sie dann die aktuelle Firebird-Installation auf dem Serverrechner unter ```Systemsteuerung > Klassische Ansicht > Firebird-Server-Manager``` und schließen das Firebird-Fenster wieder. 
- 
+
 Falls Sie den Aufruf in der Systemsteuerung nicht finden können, rufen Sie stattdessen den Punkt ```Systemsteuerung > Verwaltung > Dienste > Firebird-Server ```per Doppelklick auf stoppen den Dienst hier.
- 
+
 Starten Sie anschließend die Installation von Firebird per Doppelklick auf das Installationspaket und folgen dem Assistenten. Starten Sie anschließend den Firebird-Dienst wieder in der Systemsteuerung. Wenn Sie diese Version bereits einsetzen, dann fehlen noch die folgenden Schritte:
 
 1.	Melden Sie sich auf dem Serverrechner als sysdba am Magellan-Administrator an. Es wird erkannt, dass die Datenbank nicht in der aktuellen Version vorliegt, daher wird der Administrator nur mit dem Punkt Datenbanksicherung geöffnet.
@@ -129,7 +128,6 @@ Sie spielen das Update ein und dennoch fehlen Skripte für die Strukturanpassung
 
 ![Fehlermeldung beim Start von MAGELLAN](/assets/images/strukturanpassenfehler1.png)
 
-
 Drei Möglichkeiten können hinter diesem Problem stecken: 
 
 Nr|Ursache
@@ -138,7 +136,7 @@ Nr|Ursache
 2.|der Server hat das Update erhalten, aber das Update konnte die Anpassungsskripte nicht ablegen
 3.|Sie haben eine Einzelplatzinstallation und haben Ihr Betriebssystem auf Windows 10 aktualisiert
 
-**Zu 1.: **
+**Zu 1.:**
 
 Bitte immer als erstes den Serverrechner aktualisieren, da dieser Rechner der einzige im Netzwerk ist, der die gemeinsam genutzten Programmkomponenten, wie zum Beispiel die Skripte hat und für die Clientinstallationen zur Verfügung stellt.
 
@@ -150,7 +148,7 @@ Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann es dam
 Wenn Sie Ihren Rechner mit einer bestehenden MAGELLAN-Installationauf Windows 10 aktualisieren, kann es passieren, dass beim Folgeupdate von Magellan die Datenordner vom Windows Installer nicht gefunden werden und keine neuen Bestandteile wie Skripte, Berichte usw abgelegt werden.
 Das betrifft keine Clientinstallationen die auf Datenordner auf dem Serverrechner nutzen, sondern nur Server-/Einzelplatzinstallationen. Bitte deinstallieren Sie Magellan und installieren Sie es neu!
 
-## Meldung "no permission for read/select Access to TABLE..."?
+### Meldung "no permission for read/select Access to TABLE..."?
 
 Wenn bei einem Update die Datenstruktur um eine neue Tabelle erweitert wurde, dann muss für die bereits eingerichteten Benutzer geklärt werden, ob sie darauf zugreifen können. Daher ist der letzte Schritt im Updateprozess das Ausführen des Punktes "Zugriffsrechte synchronisieren" im Modul MAGELLAN Administrator.
 
