@@ -28,6 +28,6 @@ Original bei der Installation angelegte Verzeichnisse werden bei Updates aktuali
 
 ## MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm
 
-Die Dateien MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm werden standardmäßig je MAGELLAN-Installation unter `C:\ProgramData\Stueber Systems\Magellan 7` gespeichert, existieren also eigentlich je MAGELLAN-Client. Es ist zusätzlich möglich diese Dateien auch von einer selbstvorgegebenen zentralen Stelle zu laden, die Information wird aus der `MAGELLAN.paths` ausgelesen. 
+Die Dateien MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm werden standardmäßig je MAGELLAN-Installation unter `C:\ProgramData\Stueber Systems\Magellan 7` gespeichert, existieren also eigentlich je MAGELLAN-Client. Es ist zusätzlich möglich diese Dateien auch von einer selbstvorgegebenen zentralen Stelle zu laden, die Information wird aus der `MAGELLAN.paths` ausgelesen.
 Eine Anleitung zum Einsatz einer MAGELLAN.paths beschreiben wir [hier](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 Arbeiten die Nutzer in einer Terminal-Server-Umgebung, muss beim Konfigurieren beachtet werden, dass diese Daten (MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm) oder die `MAGELLAN.paths` je Nutzer individuell geladen werden können. 
