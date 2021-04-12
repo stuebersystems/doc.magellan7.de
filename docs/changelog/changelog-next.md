@@ -44,7 +44,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: 
+* NEW: NRW-APO-BK-2018 Dieses Skript prüft ab, dass nicht mehr als 32 Grundkurse eingebracht werden. Die Beschreibung des Skriptes finden Sie [hier](https://doc.la.stueber.de/08.nrw/nrw-apo-bk-2018/). Sie können es auch vor der Veröffentlichung [hier herunterladen](https://my.hidrive.com/lnk/3qSpCCDo) und auf Ihrem Serverrechner im Verzeichnis `Skripte > Nordrhein-Westfalen` ablegen.
 
 #### Berichte
 
