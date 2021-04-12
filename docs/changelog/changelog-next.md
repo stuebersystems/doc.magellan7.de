@@ -28,8 +28,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN SCHULVERWALTUNG
 
-* CHANGE: 
-
+* FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile` beim Anlegen neuer Kurse bleibt der im Zeitraum eingetragene Klassenlehrer sichtbar
+  
 #### Schnittstellen
 
 ##### SAXSVS
