@@ -72,10 +72,12 @@ nav:
       - Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
+      - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
-      - Version 7:
-        - Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
-        - Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md
+      - Archiv:
+        - Version 7:
+          - Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
+          - Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md
     - Upgrade:
       - Umstieg von 7 auf 8: schulverwaltung/update/umstieg-von-7-auf-8.md
       - Umstieg von 6 auf 8: schulverwaltung/update/umstieg-von-6-auf-8.md      
