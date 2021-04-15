@@ -35,7 +35,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ##### SAXSVS
 
-* CHANGE: 
+* FIX: Verarbeitung der Extern-ID aus SAXSVS überarbeitet, damit können Daten für importierte Schüler korrekt bearbeitet werden
 
 ##### MAGELLAN Bibliothek
 
