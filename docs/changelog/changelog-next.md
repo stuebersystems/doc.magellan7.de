@@ -59,3 +59,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 592 (03.2020).rpt
 * NEW: BER-Schul Z 594 (12.19).rpt
 * NEW: BER-Schul Z 591 (03.20).rpt
+* CHANGE: BER-KO (abi_4a_berechnungsbogen_kollegs)(03.12).rpt
