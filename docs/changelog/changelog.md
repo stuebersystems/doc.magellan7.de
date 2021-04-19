@@ -56,6 +56,11 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+##### Nordrhein-Westfalen
+
+* NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht. Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die MAGELLAN-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR). Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt](https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt)!
+
+
 ##### Berlin
 
 * NEW: BER-Schul Z 593 (2019.2020).rpt
