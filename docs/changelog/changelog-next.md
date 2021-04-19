@@ -22,14 +22,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 7.1.27 - 720
 
-#### Datenstruktur
-
-* CHANGE:
-
 #### MAGELLAN SCHULVERWALTUNG
 
 * FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile` beim Anlegen neuer Kurse bleibt der im Zeitraum eingetragene Klassenlehrer sichtbar
-* FIX: Für Bewerber mit Nebenlaufbahn (Schülerkopien) kann mit Sekretariatsrechten per Bewerberverfahren den Bewerbungsstatus unter Daten1 angepasst werden.
+* FIX: Für Bewerber mit Nebenlaufbahn (Schülerkopien) kann mit Sekretariatsrechten per Bewerberverfahren den Bewerbungsstatus unter `Daten1` angepasst werden.
   
 #### Schnittstellen
 
