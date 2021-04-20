@@ -59,3 +59,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 592 (03.2020).rpt
 * NEW: BER-Schul Z 594 (12.19).rpt
 * NEW: BER-Schul Z 591 (03.20).rpt
+* NEW: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23)_Pandemie.rpt
