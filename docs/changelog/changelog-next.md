@@ -22,20 +22,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 7.1.27 - 720
 
-#### Datenstruktur
-
-* CHANGE: 
-
 #### MAGELLAN SCHULVERWALTUNG
 
 * FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile` beim Anlegen neuer Kurse bleibt der im Zeitraum eingetragene Klassenlehrer sichtbar
-* FIX: Für Bewerber mit Nebenlaufbahn (Schülerkopien) kann mit Sekretariatsrechten per Bewerberverfahren den Bewerbungsstatus unter Daten1 angepasst werden.
+* FIX: Für Bewerber mit Nebenlaufbahn (Schülerkopien) kann mit Sekretariatsrechten per Bewerberverfahren den Bewerbungsstatus unter `Daten1` angepasst werden.
   
 #### Schnittstellen
 
 ##### SAXSVS
 
-* CHANGE: 
+* FIX: Verarbeitung der Extern-ID aus SAXSVS überarbeitet, damit können Daten für importierte Schüler korrekt bearbeitet werden
 
 ##### MAGELLAN Bibliothek
 
@@ -60,3 +56,16 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 594 (12.19).rpt
 * NEW: BER-Schul Z 591 (03.20).rpt
 * NEW: DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23)_Pandemie.rpt
+* CHANGE: BER-KO (abi_4a_berechnungsbogen_kollegs)(03.12).rpt
+* NEW: BER-Abi-8 (05.20).rpt
+
+##### Saarland
+
+Im Unterordner `Berichte\Zeugnisse\Saarland\Ministerium` finden Sie ab sofort auch Zeugnisse für Allgemeinbildende Schulen, die parallel auch auf dem BSCW Server veröffentlicht werden. Eine Anleitung zu diesen Zeugnisse steht auf dem BSCW Server bereit. Sollten Rückfragen zu den Zeugnisse auftreten, wenden Sie sich bitte an den Urheber.
+
+* NEW: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-AZ (Hauptphase).rpt
+* NEW: Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-HJZ (Hauptphase).rpt
+
+##### Mecklenburg-Vorpommern
+
+* NEW: MVP-FG-ABI (2021).rpt

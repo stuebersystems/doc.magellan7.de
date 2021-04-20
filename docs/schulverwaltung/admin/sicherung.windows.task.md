@@ -12,7 +12,7 @@ Erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden 
 
 	Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können!
 
-```
+``` BAT
 @echo off
 
 :: Parameters to be entered by the user
@@ -47,7 +47,7 @@ Speichern Sie diesen Text und passen die drei Pfade den Gegebenheiten auf Ihrem 
 Hinweis    | Bedeutung
 ---------- | -------------
 Pfad zur gbak.exe | Der erste Pfad führt zur gbak.exe, die die Datensicherung Ihrer Magellan6.fdb erstellt. Der von uns angebebene Pfad entspricht dem Standardinstallationspfad, könnte bei Ihnen aber abweichen.
- -user und -password | Anschließend ist die Administratorenanmeldung an Ihrer Datenbank in der Datei enthalten, wenn Sie ein anderes Passwort verwenden, tragen Sie dieses anstelle von „masterkey“ein. 
+ -user und -password | Anschließend ist die Administratorenanmeldung an Ihrer Datenbank in der Datei enthalten, wenn Sie ein anderes Passwort verwenden, tragen Sie dieses anstelle von „masterkey“ ein. 
  -y und Pfad|Dieser optionale Pfad legt Ihnen pro Sicherung eine Logdatei mit dem Tagesdatum mit den Meldungen an. 
  Pfad und Dateiname der *.fdb |Der nachfolgende Pfad verweist auf Ihre Datenbank. Liegt Ihre Datenbank an anderer Stelle, passen Sie diesen Pfad bitte an.  
 Ablagepfad der Sicherungskopie|Als letzte Information wird der Ablagepfad für die Sicherungskopie mit angegeben. Sie könnten sich einen gesonderten Unterordner "Backup" erstellen, müssten auf diesen dann im Pfad verweisen.
