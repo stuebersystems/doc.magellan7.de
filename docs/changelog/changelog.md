@@ -29,6 +29,24 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 7
 
+### 7.1.28 - 720 (21.04.2021)
+
+#### Datenmanipulation
+
+* Fix: Beim ersten Start von MAGELLAN (Anmeldung muss als sysdba erfolgen) läuft ein Skript durch, dass die SchülerzeitraumID für alle SchuelerZeugnisbemerkungen neu vergibt. Die Datenbankversionsnummer wird hierdurch nicht verändert.
+
+#### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* NEW:  `NRW-APO-BK-2018` Dieses Skript prüft ab, dass nicht mehr als 32 Grundkurse eingebracht werden. Die Beschreibung des Skriptes finden Sie [hier](https://doc.la.stueber.de/08.nrw/nrw-apo-bk-2018/). Sie können es auch vor der Veröffentlichung [hier herunterladen](https://my.hidrive.com/lnk/3qSpCCDo) und auf Ihrem Serverrechner im Verzeichnis `Skripte > Nordrhein-Westfalen` ablegen.
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht. Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die MAGELLAN-Oberfläche unter Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen ab: https://my.hidrive.com/lnk/RPyJiXKR. Bitte beachten Sie die Anleitung unter https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt!
+
 ### 7.1.27 - 720 (19.04.2021)
 
 #### Installation
