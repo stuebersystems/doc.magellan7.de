@@ -34,9 +34,7 @@ Der für die Bibliothek für die Medienausleiher(Schüler, Lehrer, Personen) erz
 
 ![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/code128.png)
 
-
 ## Mandanten kopieren
-
 
 Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank. Zum Beispiel zur
 
@@ -72,13 +70,11 @@ Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazu
 
 ### Variante 2: Mandantenabhängig
 
-
 !!! warning "Wichtig"
 
     Dieser Abschnitt der Dokumentation ist aktuell nicht gültig und steht in Kürze überarbeitet zur Verfügung!
 
 Das mandantenbezogene Kopieren der MAGELLAN Daten überträgt lediglich Tabellen und Dateien, die sich auf einen ausgewählten Mandanten beziehen.
-
 
 ![Mandantenabhängig](/assets/images/magellan.administrator/mandanten.kopieren4.png)
 
@@ -96,7 +92,6 @@ Benutzernamen<br/>Kennwort|Tragen Sie als Benutzer bitte den sysdba und das dazu
 
 Um alle mandantenbezogenen Daten eines Mandanten aus einer MAGELLAN-Datenbank A (=Ausgangsdatenbank) in eine MAGELLAN-Datenbank B (=Zieldatenbank) zu kopieren, gehen Sie wie folgt vor:
 
-
 Vor dem Kopieren der mandantenbezogen Daten in eine andere MAGELLAN-Datenbank müssen folgenden Voraussetzungen erfüllt sein:
 
 * Ausgangs- und Zieldatenbank müssen die gleichen Zeiträume besitzen.
@@ -106,7 +101,6 @@ Vor dem Kopieren der mandantenbezogen Daten in eine andere MAGELLAN-Datenbank m�
 !!! info "Hinweis"
 
      Über die Funktion „Mandanten kopieren“ können Sie die Inhalte zweier Mandanten aus verschieden MAGELLAN-Datenbanken zu einer einzigen MAGELLAN-Datenbank mit zwei Mandanten zusammenführen. Auf diese Weise können beispielweise zwei Schulen mit bisher getrennt arbeitenden MAGELLAN-Datenbanken auf einer einzigen MAGELLAN-Datenbank arbeiten und die Vorteile einer SchoolCentral-Lösung nutzen.
-
 
 ### Variante 3: Magellan 6 nach MAGELLAN 7
 
