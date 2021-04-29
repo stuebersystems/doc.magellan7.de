@@ -26,10 +26,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* NEW:  
+* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
 
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-NEW: 
+FIX: Schülerpersonalblatt (mit Fremdsprachen) A5.rpt Ausgabe der Sorgeberechtigten
+FIX: Schülerpersonalblatt (mit Fremdsprachen).rpt Ausgabe der aktuellen Klassen
