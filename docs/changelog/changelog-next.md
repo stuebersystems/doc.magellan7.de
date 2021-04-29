@@ -34,3 +34,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 FIX: Schülerpersonalblatt (mit Fremdsprachen) A5.rpt Ausgabe der Sorgeberechtigten
 FIX: Schülerpersonalblatt (mit Fremdsprachen).rpt Ausgabe der aktuellen Klassen
+NEW: NRW-BK-ABI (Anlage D41)(2018)(GeR).rpt
