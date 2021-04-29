@@ -1,7 +1,7 @@
 ﻿
 # MAGELLAN 6-Berichte für 7 oder 8 anpassen
 
-Aufgrund technischer Veränderungen in MAGELLAN 7 und 8 müssen Berichte aus MAGELLAN 6 für die neueren Version angepasst werden. 
+Aufgrund technischer Veränderungen in MAGELLAN 7 und 8 müssen Berichte aus MAGELLAN 6 für die neueren Version angepasst werden.
 
 !!! warning "Wichtig"
 
@@ -182,7 +182,7 @@ Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden,
 
 ### SchuelerKlassen
 
-Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten: 
+Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten:
 
 ![SchuelerKlassen](/assets/images/berichte.anpassen/cr_error_msg3.png)
 
