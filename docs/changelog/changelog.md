@@ -29,7 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Veröffentlichung
 
-* NEW: Unsere neue Version 8 wurde veröffentlicht, Schulen mit Supportvertrag erhalten in den kommenden Tagen die neue Lizenz zugesandt.
+* NEW: Unsere neue Version 8 wurde veröffentlicht, Schulen mit Supportvertrag wird in den kommenden Tagen die neue Lizenz zugesandt.
   * Alle Neuerungen können Sie hier nachlesen: [https://doc.magellan.stueber.de/changelog/neu.mag8/](https://doc.magellan.stueber.de/changelog/neu.mag8/)
   * Eine Anleitung für den Umstieg finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)
   
