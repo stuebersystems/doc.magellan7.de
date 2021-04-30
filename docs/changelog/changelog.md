@@ -23,8 +23,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## Version 8 (erscheint in Kürze)
+## Version 8.0.1 800 (30.04.2021)
 
+### Veröffentlichung
+
+* NEW: Unsere neue Version 8 wurde veröffentlicht, Schulen mit Supportvertrag erhalten in den kommenden Tagen die neue Lizenz zugesandt.
+  * Alle Neuerungen können Sie hier nachlesen: [https://doc.magellan.stueber.de/changelog/neu.mag8/](https://doc.magellan.stueber.de/changelog/neu.mag8/)
+  * Eine Anleitung für den Umstieg finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)
+  
 ## Version 7
 
 ### 7.1.28 - 720 (21.04.2021)
