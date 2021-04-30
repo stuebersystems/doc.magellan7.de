@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
-### Version 8.0.0 800 (30.04.2021)
+### Version 8.0.1 800 (30.04.2021)
 
 #### Veröffentlichung
 
