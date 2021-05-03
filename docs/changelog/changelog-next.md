@@ -18,6 +18,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
+### 8.0.2
+
+#### MAGELLAN Schulverwaltung
+
+#### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
+* NEW:  DE-DIAP-2018 
+
 ### 7.1.29 - 720
 
 #### MAGELLAN Schulverwaltung
@@ -27,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
+* NEW:  DE-DIAP-2018 
 
 #### Berichte
 
