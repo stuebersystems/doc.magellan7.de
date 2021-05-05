@@ -9,6 +9,13 @@ Dieser Abschnitt beschreibt die Installation von MAGELLAN mit den einzelnen Inst
 * Arbeitsplatzinstallation
 * MAGELLAN starten nach Neuinstallation
 
+Setzen Sie bereits MAGELLAN ein? Dann finden Sie nachstehend in der Tabelle die Links zu den jeweiligen Umstiegsanleitungen.
+
+Eingesetzte Version|Anleitung fürs Upgrade
+--|--
+Version 7|https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/
+Version 6|https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/
+
 ## Netzwerk, Einzelarbeitsplatz oder einen Arbeitsplatz einrichten
 
 Kurz vorab, je nachdem was Sie einrichten möchten sind unterschiedliche Installationen oder Installationstypen notwendig.
