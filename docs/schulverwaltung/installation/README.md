@@ -13,8 +13,8 @@ Setzen Sie bereits MAGELLAN ein? Dann finden Sie nachstehend in der Tabelle die 
 
 Eingesetzte Version|Anleitung fürs Upgrade
 --|--
-Version 7|https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/
-Version 6|https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/
+Version 7|[https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)
+Version 6|[https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/)
 
 ## Netzwerk, Einzelarbeitsplatz oder einen Arbeitsplatz einrichten
 
