@@ -25,6 +25,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### Version 8.0.3 800 (06.05.2021)
+
+#### MAGELLAN und Crystal Reports 2020
+
+* NEW: Mit dieser Version unterstützen wir Crystal Reports 2020. Hintergrund ist, dass Crystal Reports 2020 eine reine 64 Bit Anwendung ist und MAGELLAN eine reine 32 Bit Anwendung ist. Es werden zusätzliche 64 Bit Treiber mitgeliefert und installiert, die es Crystal Reports ermöglichen per ODBC auf die MAGELLAN-Datenbank zuzugreifen.
+
 ### Version 8.0.1 800 (30.04.2021)
 
 #### Veröffentlichung
