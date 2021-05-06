@@ -29,21 +29,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
 * NEW:  DE-DIAP-2018 
 
-### 7.1.29 - 720
+### 7.1.30 - 720
 
 #### MAGELLAN Schulverwaltung
 
-#### Skripte
-
-Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
-
-* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
-* NEW:  DE-DIAP-2018 
-
-#### Berichte
-
-Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
-
-FIX: Schülerpersonalblatt (mit Fremdsprachen) A5.rpt Ausgabe der Sorgeberechtigten
-FIX: Schülerpersonalblatt (mit Fremdsprachen).rpt Ausgabe der aktuellen Klassen
-NEW: NRW-BK-ABI (Anlage D41)(2018)(GeR).rpt
