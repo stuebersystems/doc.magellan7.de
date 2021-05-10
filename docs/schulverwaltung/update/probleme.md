@@ -204,5 +204,7 @@ Bezeichnung|Inhalt
 **Lösung**|[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
 **Problem**|**Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.**<br/><br/><img src=/assets/images/update/Fehler01.png>
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
-**Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.**<br/><br/><img src=/assets/images/update/Fehler02.png>
+**Problem**|**Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.ReportDocument" hat eine Ausnahme verursacht.**<br/><br/><img src=/assets/images/update/Fehler01.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
+**Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.**<br/><br/><img src=/assets/images/update/Fehler03.png>
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
