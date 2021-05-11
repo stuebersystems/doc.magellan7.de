@@ -286,13 +286,14 @@ Programmstellen|`MAGELLAN > Schüler > Zeugnis > Details > Fachkombination`<br/>
 Ergebnis|Hat sich die Fachkombinationnummer durch die Fachwahlprüfung geändert, wird diese übertragen und der Tutor übertragen.
 zweite Variante| **Unterschied in der Schülerkurswahl**
 Programmstellen|`MAGELLAN > Schüler > Zeugnis > Fächer`<br/>`MAGELLAN > Schüler > Zeugnis > Leistungen`<br/>`DAVINCI > Kursplan > Schüler/Fachwahlen`
-Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart<br/>* Fachstatus<br/>* Kursummer<br/>* Schwerpunkt<br/>* Merkmal <br/><br/> Hat sich eine Änderung bei den Schülerfachdaten (`Schüler > Zeugnis > Fächer`) gegeben, werden die Fach- und Leistungsdaten des Zeitraums gelöscht und neu mit den Daten aus DAVINCI gefüllt.
+Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart<br/>* Fachstatus<br/>* Kursummer<br/>* Schwerpunkt<br/>* Merkmal <br/><br/> Hat sich eine Änderung bei den Schülerfachdaten (`Schüler > Zeugnis > Fächer`) ergeben und ist keinem Fach ein Eintrag unter `Leistungen > Endnote1` zugewiesen worden, werden die Fach- und Leistungsdaten des Zeitraums gelöscht und neu mit den Daten aus DAVINCI gefüllt.
 
 !!! danger "Achtung"
 
-	Werden die Schülerfächer in MAGELLAN durch den Abgleich gelöscht können zwei Folgeprobleme entstehen.
+	**Bis Version 8.0.4 galt:** Werden die Schülerfächer in MAGELLAN durch den Abgleich gelöscht können zwei Folgeprobleme entstehen.
 	
 	1. Die Schülerfächer sind die Grundlage für die Halbjahresnoten. Werden die Fächer durch den Übertrag entfernt, werden auch gegebenenfalls bereits erfasste Noten gelöscht.
 	
 	2. Für MyMagellan-Dateien werden die Inhalte aus `Schüler > Zeugnis > Fächer` verwendet. Dabei werden die Daten anhand der ID aus der Tabelle SchuelerFachdaten gespeichert. Werden die Fächer in MAGELLAN gelöscht und neu angelegt, wird auch eine neue ID für die Fachzeilen in der Tabelle SchuelerFachdaten vergeben. Damit können die Daten aus den zuvor erzeugten MyMagellan-Dateien nicht mehr zugeordnet werden.
+   **Seit Version 8.0.5 gilt:** Die Schülerfachdaten werden nur noch gelöscht, wenn für kein Fach ein Eintrag unter `Leistungen > Endnote1` existiert. Existiert für ein Fach eine Note (Endnote1), bleiben die Schülerfachdaten in MAGELLAN für den Schüler erhalten, der Assistent gibt Ihnen den Schülernamen und die SchülerID in der Meldung mit aus.
 
