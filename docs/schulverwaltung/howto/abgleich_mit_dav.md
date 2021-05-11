@@ -295,5 +295,6 @@ Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart
 	1. Die Schülerfächer sind die Grundlage für die Halbjahresnoten. Werden die Fächer durch den Übertrag entfernt, werden auch gegebenenfalls bereits erfasste Noten gelöscht.
 	
 	2. Für MyMagellan-Dateien werden die Inhalte aus `Schüler > Zeugnis > Fächer` verwendet. Dabei werden die Daten anhand der ID aus der Tabelle SchuelerFachdaten gespeichert. Werden die Fächer in MAGELLAN gelöscht und neu angelegt, wird auch eine neue ID für die Fachzeilen in der Tabelle SchuelerFachdaten vergeben. Damit können die Daten aus den zuvor erzeugten MyMagellan-Dateien nicht mehr zugeordnet werden.
-   **Seit Version 8.0.5 gilt:** Die Schülerfachdaten werden nur noch gelöscht, wenn für kein Fach ein Eintrag unter `Leistungen > Endnote1` existiert. Existiert für ein Fach eine Note (Endnote1), bleiben die Schülerfachdaten in MAGELLAN für den Schüler erhalten, der Assistent gibt Ihnen den Schülernamen und die SchülerID in der Meldung mit aus.
 
+
+    **Seit Version 8.0.5 gilt:** Die Schülerfachdaten werden nur noch gelöscht, wenn für kein Fach ein Eintrag unter `Leistungen > Endnote1` existiert. Existiert für ein Fach eine Note (Endnote1), bleiben die Schülerfachdaten in MAGELLAN für den Schüler erhalten, der Assistent gibt Ihnen den Schülernamen und die SchülerID in der Meldung mit aus.
