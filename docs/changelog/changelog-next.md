@@ -22,7 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Allgemein
 
-* NEW: Zum MSI-Paket für 32-Bit-Betriebssysteme gibt auf unserer Webseite eine eigene UpdatenInfo-Datei. Die installierte MAGELLAN-Version fragt aus der Registry den Wert je nach verwendetem Installationpaket ab (für Windows 32 Bit oder Windows 64 Bit) und greift auf geeignete UpdateInfo-Datei zu.
+* NEW: Zum MSI-Paket für 32-Bit-Betriebssysteme gibt auf unserer Webseite eine eigene UpdatenInfo-Datei. Die installierte MAGELLAN-Version fragt aus der Registry den Wert je nach verwendetem Installationpaket ab (für Windows 32 Bit oder Windows 64 Bit) und greift auf die geeignete UpdateInfo-Datei zu.
 
 #### MAGELLAN Schulverwaltung
 
