@@ -30,7 +30,7 @@ FIX: Die Funktionalität `Fahrstrecken` wurde überarbeitet
 
 #### MAGELLAN Administrator
 
-* FIX: Benutzer anlegen korrgigiert
+* FIX: Benutzer anlegen korrigiert
 * CHANGE: Beim Anlegen eines neuen Benutzers sind die Häkchen auf der Unterkarte `Ansichten` vorbelegt
 
 #### Skripte
