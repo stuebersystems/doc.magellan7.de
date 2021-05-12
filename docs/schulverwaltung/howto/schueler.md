@@ -141,7 +141,15 @@ Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und F�
 
 ![Bewerber > Daten4](/assets/images/bewerber/daten4.png)
 
+Weiterhin haben Sie hier die Möglichkeit die Beförderung und Fahrstrecken einzupflegen.
 
+Sie können hier Routen für den Hin- und Rückweg der Fahrstrecken anlegen oder bearbeiten und den einzelen Schülern zuweisen. Änderungen an einer Rute werden für alle Schüler übernommen.
+
+Wenn Sie die Eintragungen in den entsprechendne Schlüsselverzeichnissen vorgenommen haben können Sie hier folgendee Informationen hinterlegen. 
+
+![Schüler > Daten4 > Fahrtsrecken](/assets/images/schueler/daten4.png)
+
+Sonstige Daten, die Sie auf dieser Registerkarte erfassen können, sind die Versicherungsdaten, hier Versicherungsart und die Auswahl der Krankenkasse.
 
 ## Registerkarte `Merkmale`
 
