@@ -134,6 +134,15 @@ Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewie
 
 ![Auskunftsstatus `Geheim`](/assets/images/schueler/geheim01.png)
 
+## Registerkarte `Daten 4`
+
+Auf der Registerkarte `Daten 4` können Sie unter `Betreuung` die Art und den Ort der Betreuung festlegen. Die auszuwählende Adresse wird unter den Stammdaten für Adressen eingetragen. Zusätzlich können Sie Angaben zur `Förderung` und `Beförderung` des Bewerbers machen.
+Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und Fördermaßnahmen`.
+
+![Bewerber > Daten4](/assets/images/bewerber/daten4.png)
+
+
+
 ## Registerkarte `Merkmale`
 
 Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder/) beschrieben.
