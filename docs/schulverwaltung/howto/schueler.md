@@ -136,16 +136,16 @@ Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewie
 
 ## Registerkarte `Daten 4`
 
-Auf der Registerkarte `Daten 4` können Sie unter `Betreuung` die Art und den Ort der Betreuung festlegen. Die auszuwählende Adresse wird unter den Stammdaten für Adressen eingetragen. Zusätzlich können Sie Angaben zur `Förderung` und `Beförderung` des Bewerbers machen.
-Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und Fördermaßnahmen`.
+Auf der Registerkarte `Daten 4` können Sie unter `Betreuung` die Art und den Ort der Betreuung festlegen. Die auszuwählende Adresse wird unter den Stammdaten für Adressen eingetragen. Zusätzlich können Sie Angaben zur `Förderung` und des Schülers machen.
+Im unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und Fördermaßnahmen`.
 
 ![Bewerber > Daten4](/assets/images/bewerber/daten4.png)
 
-Weiterhin haben Sie hier die Möglichkeit die Beförderung und Fahrstrecken einzupflegen.
+Weiterhin haben Sie hier die Möglichkeit die `Beförderung` und `Fahrstrecken` einzupflegen.
 
-Sie können hier Routen für den Hin- und Rückweg der Fahrstrecken anlegen oder bearbeiten und den einzelen Schülern zuweisen. Änderungen an einer Rute werden für alle Schüler übernommen.
+Sie können hier Routen für den Hin- und Rückweg der Fahrstrecken anlegen oder bearbeiten und den einzelen Schülern zuweisen. Änderungen an einer Route werden für alle Schüler übernommen.
 
-Wenn Sie die Eintragungen in den entsprechendne Schlüsselverzeichnissen vorgenommen haben können Sie hier folgendee Informationen hinterlegen. 
+Wenn Sie die Eintragungen in den entsprechendne Schlüsselverzeichnissen vorgenommen haben, können Sie hier folgendee Informationen hinterlegen. 
 
 ![Schüler > Daten4 > Fahrtsrecken](/assets/images/schueler/daten4.png)
 
