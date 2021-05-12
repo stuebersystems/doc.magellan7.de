@@ -25,6 +25,29 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### 8.0.5 (12.05.2021)
+
+#### Allgemein
+
+* NEW: Zum MSI-Paket für 32-Bit-Betriebssysteme gibt auf unserer Webseite eine eigene UpdatenInfo-Datei. Die installierte MAGELLAN-Version fragt aus der Registry den Wert je nach verwendetem Installationpaket ab (für Windows 32 Bit oder Windows 64 Bit) und greift auf die geeignete UpdateInfo-Datei zu.
+
+#### MAGELLAN Schulverwaltung
+
+FIX: Die Funktionalität `Fahrstrecken` wurde überarbeitet
+
+#### MAGELLAN Administrator
+
+* FIX: Benutzer anlegen korrigiert
+* CHANGE: Beim Anlegen eines neuen Benutzers sind die Häkchen auf der Unterkarte `Ansichten` vorbelegt
+
+#### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/).
+
+* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
+* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
+* NEW:  DE-DIAP-2018 
+
 ### Version 8.0.4 (07.05.2021)
 
 * NEW: Es gibt zwei Installationspakete für MAGELLAN. MAGELLAN ist weiterhin eine 32 Bit Anwendung und wird mit der auf unserer Webseite verfügbaren 32 Bit Ausgabe von Firebird (aktuell 2.5.9) eingesetzt. Wenn Sie Crystal Reports 2020 einsetzen möchten, muss bitte das Setuppaket [MAGELLAN-Setup für Windows 64 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8.msi) verwendet werden. Setzen Sie MAGELLAN auf einem 64 Bit Betriebssystem ein, verwenden Sie bitte das Setuppaket [MAGELLAN-Setup für Windows 32 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8_32.msi).
@@ -46,8 +69,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## Version 7
 
 ### 7.1.29 - 720 (06.05.2021)
-
-#### MAGELLAN Schulverwaltung
 
 #### Skripte
 
