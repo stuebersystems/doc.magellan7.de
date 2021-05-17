@@ -20,6 +20,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 8.0.6
 
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
 #### Datenstruktur
 
 * NEW: Neue Felder unter `Schüler > Daten 2`
