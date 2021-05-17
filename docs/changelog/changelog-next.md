@@ -47,6 +47,15 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * CHANGE: 
 
+#### MAGELLAN Berichte
+
+##### Berlin
+
+* NEW: BER-Schul Z 250 Co (04.21).rpt
+* NEW: BER-Schul Z 306 (04.21)(FG).rpt
+* NEW: BER-Schul Z 306 (04.21).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt
+
 ### 7.1.30 - 720
 
 #### Skripte
