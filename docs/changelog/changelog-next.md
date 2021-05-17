@@ -20,13 +20,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 8.0.6
 
-#### Allgemein
+#### Datenstruktur
 
-* NEW:
+* NEW: Neue Felder unter `Schüler > Daten 2`
+  * HoechsterAbschluss2ABS
+  * HoechsterAbschluss2ABSSchulform
+  * HoechsterAbschluss2BBS
+  * HoechsterAbschluss2BBSSchulform
 
 #### MAGELLAN Schulverwaltung
 
-FIX: 
+CHANGE: Die Anordnung der Felder unter `Schüler > Daten 2` wurde verändert
 
 #### MAGELLAN Administrator
 
