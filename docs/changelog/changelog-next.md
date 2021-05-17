@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Datenstruktur
 
-* NEW: Neue Felder unter `Schüler > Daten 2`
+* NEW: Neue Felder unter `Schüler > Daten 2` (Dokumentation [hier](https://doc.magellan7-toolbox.stueber.de/datenstruktur/version8/tabellen/Schueler/))
   * HoechsterAbschluss2ABS
   * HoechsterAbschluss2ABSSchulform
   * HoechsterAbschluss2BBS
