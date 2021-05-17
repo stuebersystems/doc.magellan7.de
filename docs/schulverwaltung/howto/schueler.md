@@ -143,9 +143,9 @@ Im unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und F�
 
 Weiterhin haben Sie hier die Möglichkeit die `Beförderung` und `Fahrstrecken` einzupflegen.
 
-Sie können hier Routen für den Hin- und Rückweg der Fahrstrecken anlegen oder bearbeiten und den einzelen Schülern zuweisen. Änderungen an einer Route werden für alle Schüler übernommen.
+Sie können hier Routen für den Hin- und Rückweg der Fahrstrecken anlegen oder bearbeiten und den einzelnen Schülern zuweisen. Änderungen an einer Route werden für alle Schüler übernommen.
 
-Wenn Sie die Eintragungen in den entsprechendne Schlüsselverzeichnissen vorgenommen haben, können Sie hier folgendee Informationen hinterlegen. 
+Wenn Sie die Eintragungen in den entsprechendne Schlüsselverzeichnissen vorgenommen haben, können Sie hier folgende Informationen hinterlegen. 
 
 ![Schüler > Daten4 > Fahrtsrecken](/assets/images/schueler/daten4.png)
 
