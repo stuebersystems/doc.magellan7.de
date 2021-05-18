@@ -52,22 +52,16 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 #### Berichte
 
-<<<<<<< HEAD
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-=======
 ##### Berlin
->>>>>>> 5876b93ae521c5d5e4b4b1d2813ef578c11e7162
 
 * FIX: BER-Schul Z 324 (11.19).rpt
 * NEW: BER-Schul Z 250 Co (04.21).rpt
 * NEW: BER-Schul Z 306 (04.21)(FG).rpt
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
-<<<<<<< HEAD
-=======
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
->>>>>>> 5876b93ae521c5d5e4b4b1d2813ef578c11e7162
 
 ### 7.1.30 - 720
 
@@ -75,11 +69,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
 
-<<<<<<< HEAD
-* FIX: BER-Schul Z 324 (11.19).rpt
-=======
-#### Berichte
-
 ##### Berlin
 
 * FIX: BER-Schul Z 324 (11.19).rpt
@@ -88,4 +77,3 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
->>>>>>> 5876b93ae521c5d5e4b4b1d2813ef578c11e7162
