@@ -47,20 +47,15 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * CHANGE: 
 
-<<<<<<< HEAD
 #### Berichte
-
-* FIX: BER-Schul Z 324 (11.19).rpt
-=======
-#### MAGELLAN Berichte
 
 ##### Berlin
 
+* FIX: BER-Schul Z 324 (11.19).rpt
 * NEW: BER-Schul Z 250 Co (04.21).rpt
 * NEW: BER-Schul Z 306 (04.21)(FG).rpt
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
->>>>>>> f56986db4a78cc850b429cbf2c8adc5815f66293
 
 ### 7.1.30 - 720
 
@@ -70,4 +65,10 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 #### Berichte
 
+##### Berlin
+
 * FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 250 Co (04.21).rpt
+* NEW: BER-Schul Z 306 (04.21)(FG).rpt
+* NEW: BER-Schul Z 306 (04.21).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt
