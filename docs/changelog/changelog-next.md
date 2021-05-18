@@ -56,6 +56,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * NEW: BER-Schul Z 306 (04.21)(FG).rpt
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
+* NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
 
 ### 7.1.30 - 720
 
@@ -72,3 +73,4 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * NEW: BER-Schul Z 306 (04.21)(FG).rpt
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
+* NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
