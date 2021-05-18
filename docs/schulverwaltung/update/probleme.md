@@ -200,11 +200,7 @@ Bezeichnung|Inhalt
 **Lösung**|[https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
 **Problem**|**Fehler beim Registrieren von Modul ... crtslv.dll**<br/><br/><img src="/assets/images/installation/fehler_cr.png"> 
 **Lösung**|[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
-**Problem**|**Typeninitialisierer für Crystal.Decisions**<br/><br/><img src="/assets/images/installation/02.png"> 
-**Lösung**|[https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe](https://download.stueber.de/bin/de/common/vc_redist_2015/vc_redist.x86.exe)
-**Problem**|**Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.CRPE" hat eine Ausnahme verursacht.**<br/><br/><img src=/assets/images/update/Fehler01.png>
+**Problem**|**Typeninitialisierer für Crystal.Decisions**<br/><br/><img src="/assets/images/installation/02.png">
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
-**Problem**|**Der Typeninitialisiert für "CrystalDecisions.CrystalReports.Engine.ReportDocument" hat eine Ausnahme verursacht.**<br/><br/><img src=/assets/images/update/Fehler01.png>
-**Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
-**Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.**<br/><br/><img src=/assets/images/update/Fehler03.png>
+**Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.** <br/><br/><img src=/assets/images/update/Fehler03.png>
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
