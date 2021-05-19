@@ -25,6 +25,49 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### 8.0.6 (19.05.2021)
+
+!!! warning "Wichtig"
+
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+#### Datenstruktur
+
+* NEW: Neue Felder unter `Schüler > Daten 2` (Dokumentation [hier](https://doc.magellan7-toolbox.stueber.de/datenstruktur/version8/tabellen/Schueler/))
+  * HoechsterAbschluss2ABS
+  * HoechsterAbschluss2ABSSchulform
+  * HoechsterAbschluss2BBS
+  * HoechsterAbschluss2BBSSchulform
+* FIX: Vagabunden View, fehlende Felder (Schüler-Merkmale A7-A10) hinzugefügt
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Problem beim Neuanlegen eines Schülers wurde behoben
+* CHANGE: Die Anordnung der Felder unter `Schüler > Daten 2` wurde verändert
+* FIX: Das Kürzel im Verzeichnis `Einschulmerkmale` wurde auf 20 Zeichen erhöht
+* FIX: Unter `Extras > Schlüsselverzeichnisse > Fachtafeln` kann für `Fachwahltafeln` die `Kurssprache` in den Spalten `Q1 Sprache` bis `Q4 Sprache` ausgewählt werden.
+* FIX: Spaltenbenennung unter `Abitur > Zeugnisbemerkungen > Sammelzuweisung` korrigiert
+
+#### Schnittstellen
+
+* NEW: SAXSVS => Schüler, die im vergangenen Jahr einen Abschluss an Ihrer Schule absolvierten und im aktuellen Schuljahr einen neuen Bildungsgang belegen, werden in der Abgängerdatei und in der Datei der aktuellen Schüler ausgegeben. 
+Da in beiden Dateien Daten über die bisher erworbenen Abschlüsse ABS oder BBS und die Abschlussschulformen erwartet werden, gibt es unter `Schüler > Daten2` eine neue Aufteilung und auch neue Felder. Bitte erfassen Sie in den Feldern unter "Höchster Abschluss ABS/BBS (mitgebracht)" die Daten, die der Schüler aus Sicht des Vorjahres mit an die Schule brachte oder zuvor erworben hatte. Bitte erfassen Sie in den neuen Feldern unter "Höchster Abschluss ABS/BBS (erworben)" ggfs. Abschlüsse, die der Schüler inzwischen an Ihrer Schule erworben hat. 
+Wir geben für die Abgängerdatei die Einträge aus dem Bereich "Höchster Abschluss ABS/BBS (mitgebracht)" aus. Für die Datei der aktuellen Schüler geben wir die Daten aus dem Bereich "Höchster Abschluss ABS/BBS (erworben)" aus, steht dort kein Wert, werden die Inhalte aus den Feldern "Höchster Abschluss ABS/BBS (mitgebracht)" ausgespielt.
+* NEW: SAXSVS: `al_abschl_dat` wird in der Erstprüfung berücksichtigt und ggfs. als Meldung je Schüler ausgegeben.
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+##### Berlin
+
+* FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 250 Co (04.21).rpt
+* NEW: BER-Schul Z 306 (04.21)(FG).rpt
+* NEW: BER-Schul Z 306 (04.21).rpt
+* CHANGE: BER-Schul Z 250 (11.19).rpt
+* NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
+
 ### 8.0.5 (12.05.2021)
 
 #### Allgemein
