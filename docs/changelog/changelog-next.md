@@ -24,7 +24,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE:
 
-
 #### Schnittstellen
 
 * NEW: 
