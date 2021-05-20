@@ -25,6 +25,21 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### 8.0.7 (20.05.2021)
+
+#### MAGELLAN Schulverwaltung
+
+* CHANGE:
+
+#### Schnittstellen
+
+* FIX: SAXSVS - SQL Fehlermeldung behoben
+
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
 ### 8.0.6 (19.05.2021)
 
 !!! warning "Wichtig"

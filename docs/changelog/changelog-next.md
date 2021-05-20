@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-### 8.0.6 (19.05.2021)
+### 8.0.8 ()
 
 #### MAGELLAN Schulverwaltung
 
