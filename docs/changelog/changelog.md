@@ -54,6 +54,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Da in beiden Dateien Daten über die bisher erworbenen Abschlüsse ABS oder BBS und die Abschlussschulformen erwartet werden, gibt es unter `Schüler > Daten2` eine neue Aufteilung und auch neue Felder. Bitte erfassen Sie in den Feldern unter "Höchster Abschluss ABS/BBS (mitgebracht)" die Daten, die der Schüler aus Sicht des Vorjahres mit an die Schule brachte oder zuvor erworben hatte. Bitte erfassen Sie in den neuen Feldern unter "Höchster Abschluss ABS/BBS (erworben)" ggfs. Abschlüsse, die der Schüler inzwischen an Ihrer Schule erworben hat. 
 Wir geben für die Abgängerdatei die Einträge aus dem Bereich "Höchster Abschluss ABS/BBS (mitgebracht)" aus. Für die Datei der aktuellen Schüler geben wir die Daten aus dem Bereich "Höchster Abschluss ABS/BBS (erworben)" aus, steht dort kein Wert, werden die Inhalte aus den Feldern "Höchster Abschluss ABS/BBS (mitgebracht)" ausgespielt.
 * NEW: SAXSVS: `al_abschl_dat` wird in der Erstprüfung berücksichtigt und ggfs. als Meldung je Schüler ausgegeben.
+* NEW: Landesstatitik Schleswig-Holstein veröffentlicht (Eine Anleitung finden Sie unter [https://doc.ls.stueber.de/schleswig-holstein/einstieg/](https://doc.ls.stueber.de/schleswig-holstein/einstieg/).)
 
 #### Berichte
 
