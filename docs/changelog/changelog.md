@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
-### 8.0.7 (20.05.2021)
+### 8.0.7 801 (20.05.2021)
 
 #### MAGELLAN Schulverwaltung
 
@@ -40,7 +40,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-### 8.0.6 (19.05.2021)
+### 8.0.6 801 (19.05.2021)
 
 !!! warning "Wichtig"
 
@@ -84,7 +84,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: BER-Schul Z 250 (11.19).rpt
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
 
-### 8.0.5 (12.05.2021)
+### 8.0.5 800 (12.05.2021)
 
 #### Allgemein
 
@@ -107,7 +107,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
 * NEW:  DE-DIAP-2018 
 
-### Version 8.0.4 (07.05.2021)
+### Version 8.0.4 800 (07.05.2021)
 
 * NEW: Es gibt zwei Installationspakete für MAGELLAN. MAGELLAN ist weiterhin eine 32 Bit Anwendung und wird mit der auf unserer Webseite verfügbaren 32 Bit Ausgabe von Firebird (aktuell 2.5.9) eingesetzt. Wenn Sie Crystal Reports 2020 einsetzen möchten, muss bitte das Setuppaket [MAGELLAN-Setup für Windows 64 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8.msi) verwendet werden. Setzen Sie MAGELLAN auf einem 64 Bit Betriebssystem ein, verwenden Sie bitte das Setuppaket [MAGELLAN-Setup für Windows 32 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8_32.msi).
 
