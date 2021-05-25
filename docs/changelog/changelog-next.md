@@ -32,7 +32,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* CHANGE: 
+* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
+* FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik
 
 #### Berichte
 
