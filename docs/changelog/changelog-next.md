@@ -22,7 +22,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
-* CHANGE:
+* FIX: `Schüler > Daten1 > Familie` Neuanlage eines Sorgeberechtigten korrigiert
 
 #### Schnittstellen
 
