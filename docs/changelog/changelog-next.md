@@ -24,6 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
 
+
 #### Schnittstellen
 
 * NEW: 
