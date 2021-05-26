@@ -18,11 +18,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-### 8.0.8 ()
+### **8.0.8 801 ()**
 
 #### MAGELLAN Schulverwaltung
 
-* CHANGE:
+* FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
 
 #### Schnittstellen
 
@@ -39,7 +39,11 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-### 7.1.30 - 720
+* FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
+* FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
+
+
+### **7.1.30 - 720**
 
 #### MAGELLAN Schulverwaltung
 
@@ -50,6 +54,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik, Fehlermeldung wenn ein Prüfungsergebnis fehlt
 * FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik,Fehlermeldung wenn ein Prüfungsergebnis fehlt
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 ##### Berlin
 
