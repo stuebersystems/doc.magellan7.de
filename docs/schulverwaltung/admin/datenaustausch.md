@@ -15,7 +15,7 @@ Importiere folgende Schlüssel            | Es gibt die Auswahl Schlüssel für 
 Importiere für den folgenden Mandanten   | Wählen Sie den Zielmandanten aus
 Importiere folgenden Katalog             | Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.
 
-[Assistent zum Importieren von Katalogen](/assets/images/magellan.administrator/kataloge.importieren.png)
+![Assistent zum Importieren von Katalogen](/assets/images/magellan.administrator/kataloge.importieren.png)
 
 ### Eigene Kataloge importieren (`Benutzer`)
 
