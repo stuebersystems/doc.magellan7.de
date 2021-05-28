@@ -43,6 +43,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
 * FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
 
+##### Berlin
+
+* FIX: BER-Schul Z 324 (11.19).rpt
+
 
 ### **7.1.30 - 720**
 
@@ -68,3 +72,4 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
+* FIX: BER-Schul Z 324 (11.19).rpt
