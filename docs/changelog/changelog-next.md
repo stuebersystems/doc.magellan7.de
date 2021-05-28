@@ -42,6 +42,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
 * FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
 
 ##### Berlin
 
@@ -63,6 +64,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
 
 ##### Berlin
 
