@@ -47,6 +47,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 ##### Berlin
 
 * FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 255 (2020.2021).rpt
+* NEW: BER-Schul Z 256 (2020.2021).rpt
 
 
 ### **7.1.30 - 720**
@@ -76,3 +78,5 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: BER-Schul Z 250 (11.19).rpt
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
 * FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 255 (2020.2021).rpt
+* NEW: BER-Schul Z 256 (2020.2021).rpt
