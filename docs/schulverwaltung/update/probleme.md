@@ -204,3 +204,5 @@ Bezeichnung|Inhalt
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
 **Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.** <br/><br/><img src=/assets/images/update/Fehler03.png>
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
+**Problem**| die Druckvorschau zeigt die Meldung **Fehler beim Anlegen der ODBC-Verbindung. ODBC-Fehler(0): Komponente wurde in der Registrierung nicht gefunden** <br/><br/><img src=/assets/images/update/Fehler04.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
