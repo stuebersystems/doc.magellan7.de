@@ -42,7 +42,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
 * FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, unsortiert).rpt
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, sortiert).rpt
 
 ##### Berlin
 
@@ -50,6 +52,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 255 (2020.2021).rpt
 * NEW: BER-Schul Z 256 (2020.2021).rpt
 
+##### Sachsen
+
+* FIX: SAC-BS-AS (A.02.04).rpt
 
 ### **7.1.30 - 720**
 
@@ -67,7 +72,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, unsortiert).rpt
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, sortiert).rpt
 
 ##### Berlin
 
@@ -80,3 +87,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: BER-Schul Z 324 (11.19).rpt
 * NEW: BER-Schul Z 255 (2020.2021).rpt
 * NEW: BER-Schul Z 256 (2020.2021).rpt
+
+##### Sachsen
+
+* FIX: SAC-BS-AS (A.02.04).rpt
