@@ -54,7 +54,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-* FIX: SAC-BS-AS (A.02.04).rpt
+* FIX: SAC-BS-AS (A.02.04).rpt (Berechnung Durchschnittsnote)
+* CHANGE: SAC-BF-AS (A.02.07).rpt
+* CHANGE: SAC-BF-AS (B.04.05).rpt
+* CHANGE: SAC-BF-AZ (B.03.04).rpt
+* CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
+* CHANGE: Zertifikat (F.01.09).rpt
 
 ### **7.1.30 - 720**
 
@@ -90,4 +95,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-* FIX: SAC-BS-AS (A.02.04).rpt
+* FIX: SAC-BS-AS (A.02.04).rpt (Berechnung Durchschnittsnote)
+* CHANGE: SAC-BF-AS (A.02.07).rpt
+* CHANGE: SAC-BF-AS (B.04.05).rpt
+* CHANGE: SAC-BF-AZ (B.03.04).rpt
+* CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
+* CHANGE: Zertifikat (F.01.09).rpt
