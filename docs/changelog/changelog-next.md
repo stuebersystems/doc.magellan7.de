@@ -18,16 +18,20 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-### **8.0.8 801 ()**
+### **8.0.9 801 ()**
 
-#### MAGELLAN Schulverwaltung
+!!! warning "Wichtig"
 
-* FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenbankversionsnummer wird hierbei diesmal nicht erhöht, sondern bleibt auf der auf der Datenbankversion 801.
 
+#### Anpassung
+
+* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Schüler/Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Schüler/Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
 #### Schnittstellen
 
-* NEW: 
+* FIX: [BER] Problem beim Erstellen der Abiturdatenstatistik behoben
 
 #### Skripte
 
@@ -35,16 +39,37 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik, Fehlermeldung wenn ein Prüfungsergebnis fehlt
-* FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik,Fehlermeldung wenn ein Prüfungsergebnis fehlt
+* FIX: DE-DIAP-2015 diverse Korrekturen
+* FIX: DE-DIAP-2018 diverse Korrekturen
+* FIX: Schüler fortschreiben: Korrektur bei leeren Datenmengen (SchuelerKlassen)
 
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+<<<<<<< HEAD
+=======
 * FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
 * FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, unsortiert).rpt
+>>>>>>> 79374ec2efdf5ee9e49bd430b71ff636a6c39643
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, sortiert).rpt
 
+##### Berlin
+
+* FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 255 (2020.2021).rpt
+* NEW: BER-Schul Z 256 (2020.2021).rpt
+
+##### Sachsen
+
+* FIX: SAC-BS-AS (A.02.04).rpt (Berechnung Durchschnittsnote)
+* CHANGE: SAC-BF-AS (A.02.07).rpt
+* CHANGE: SAC-BF-AS (B.04.05).rpt
+* CHANGE: SAC-BF-AZ (B.03.04).rpt
+* CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
+* CHANGE: Zertifikat (F.01.09).rpt
 
 ### **7.1.30 - 720**
 
@@ -63,6 +88,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, unsortiert).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
+* FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, sortiert).rpt
+
 ##### Berlin
 
 * FIX: BER-Schul Z 324 (11.19).rpt
@@ -71,3 +100,15 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: BER-Schul Z 306 (04.21).rpt
 * CHANGE: BER-Schul Z 250 (11.19).rpt
 * NEW: BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.21).rpt
+* FIX: BER-Schul Z 324 (11.19).rpt
+* NEW: BER-Schul Z 255 (2020.2021).rpt
+* NEW: BER-Schul Z 256 (2020.2021).rpt
+
+##### Sachsen
+
+* FIX: SAC-BS-AS (A.02.04).rpt (Berechnung Durchschnittsnote)
+* CHANGE: SAC-BF-AS (A.02.07).rpt
+* CHANGE: SAC-BF-AS (B.04.05).rpt
+* CHANGE: SAC-BF-AZ (B.03.04).rpt
+* CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
+* CHANGE: Zertifikat (F.01.09).rpt

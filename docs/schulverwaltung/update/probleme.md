@@ -185,6 +185,15 @@ MAGELLAN.opt?|Bitte einfach löschen, die Datei wird beim nächsten Schließen v
 MAGELLAN.evm?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 MAGELLAN.lic?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 
+#### ODBC Meldungen
+
+Wenn bei Ihnen eine der nachstehenden Meldungen bei der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen die Installation/das Update von MAGELLAN bitte erneut aus. 
+
+Bezeichnung|Inhalt
+--|--
+**Problem**| Die Druckvorschau zeigt die Meldung **"Fehler beim Anlegen der ODBC-Verbindung. ODBC-Fehler(0): Komponente wurde in der Registrierung nicht gefunden"** <br/><br/><img src=/assets/images/update/Fehler04.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/fb_driver/Firebird_ODBC_2.0.5.156_Win32.exe](https://download.stueber.de/bin/de/common/fb_driver/Firebird_ODBC_2.0.5.156_Win32.exe)
+
 ### Crystal Reports Meldungen
 
 Wir setzen in MAGELLAN für die Druckvorschau und den Druck eine Runtimeversion von Crystal Reports ein. Dieser Teil setzt Programmbibliotheken voraus, die in der Regel beispielsweise mit dem Officepaket schon installiert wurden. Sollte es dennoch hier zu Problemen kommen, kann man gezielt die Voraussetzungen nachinstallieren.
@@ -204,3 +213,5 @@ Bezeichnung|Inhalt
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
 **Problem**|**Fehler beim Registrieren von Modul C:\Program Files (x86)\SAP BusinessObjects\MapWinGIS\win32_x86\MapWinGIS.ocx. HRESULT -2147024770. Wenden Sie sich an den Support.** <br/><br/><img src=/assets/images/update/Fehler03.png>
 **Lösung**|[https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI](https://download.stueber.de/bin/de/common/cr_runtime/CR13SP30MSI32_0-10010309.MSI)
+**Problem**| Die Druckvorschau zeigt die Meldung **"Fehler beim Anlegen der ODBC-Verbindung. ODBC-Fehler(0): Komponente wurde in der Registrierung nicht gefunden"** <br/><br/><img src=/assets/images/update/Fehler04.png>
+**Lösung**|[https://download.stueber.de/bin/de/common/fb_driver/Firebird_ODBC_2.0.5.156_Win32.exe](https://download.stueber.de/bin/de/common/fb_driver/Firebird_ODBC_2.0.5.156_Win32.exe)

@@ -23,7 +23,33 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## Version 8
+## **Version 8**
+
+### 8.0.8 801 (27.05.2021)
+
+!!! warning "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
+
+#### Skripte
+
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
+
+* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik, Fehlermeldung wenn ein Prüfungsergebnis fehlt
+* FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik,Fehlermeldung wenn ein Prüfungsergebnis fehlt
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
+* FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
+
 
 ### 8.0.7 801 (20.05.2021)
 
@@ -125,7 +151,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
   * Alle Neuerungen können Sie hier nachlesen: [https://doc.magellan.stueber.de/changelog/neu.mag8/](https://doc.magellan.stueber.de/changelog/neu.mag8/)
   * Eine Anleitung für den Umstieg finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)
   
-## Version 7
+## **Version 7**
 
 ### 7.1.29 - 720 (06.05.2021)
 
