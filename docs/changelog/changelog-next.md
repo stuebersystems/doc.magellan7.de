@@ -47,12 +47,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-<<<<<<< HEAD
-=======
-* FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
-* FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, unsortiert).rpt
->>>>>>> 79374ec2efdf5ee9e49bd430b71ff636a6c39643
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat-Durchschnitt, sortiert).rpt
 
@@ -70,6 +65,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BF-AZ (B.03.04).rpt
 * CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
 * CHANGE: Zertifikat (F.01.09).rpt
+
+##### Auslandsschulen
+
+CHANGE: DAS-GY-AZ ohne FHR (Anlage 9a).rpt
+CHANGE: DAS-GY-AZ mit FHR (Anlage 9b).rpt
+
 
 ### **7.1.30 - 720**
 
@@ -112,3 +113,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BF-AZ (B.03.04).rpt
 * CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
 * CHANGE: Zertifikat (F.01.09).rpt
+
+##### Auslandsschulen
+
+CHANGE: DAS-GY-AZ ohne FHR (Anlage 9a).rpt
+CHANGE: DAS-GY-AZ mit FHR (Anlage 9b).rpt
