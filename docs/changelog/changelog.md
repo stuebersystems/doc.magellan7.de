@@ -27,6 +27,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 8.0.8 801 (27.05.2021)
 
+!!! warning "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+
 #### MAGELLAN Schulverwaltung
 
 * FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
