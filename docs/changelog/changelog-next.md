@@ -18,30 +18,33 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-### **8.0.8 801 ()**
+### **8.0.9 801 ()**
 
-#### MAGELLAN Schulverwaltung
+!!! warning "Wichtig"
 
-* FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenbankversionsnummer wird hierbei diesmal nicht erhöht, sondern bleibt auf der auf der Datenbankversion 801.
 
+#### Anpassung
+
+* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Schüler/Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Schüler/Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
 #### Schnittstellen
 
-* NEW: 
+* FIX: [BER] Problem beim Erstellen der Abiturdatenstatistik behoben
 
 #### Skripte
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik, Fehlermeldung wenn ein Prüfungsergebnis fehlt
-* FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik,Fehlermeldung wenn ein Prüfungsergebnis fehlt
+* FIX: DE-DIAP-2015 diverse Korrekturen
+* FIX: DE-DIAP-2018 diverse Korrekturen
+* FIX: Schüler fortschreiben: Korrektur bei leeren Datenmengen (SchuelerKlassen)
 
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: Schülerpersonalblatt (mit Vorbildung und Herkunftsschule).rpt 
-* FIX: Schülerpersonalblatt (aktive Schüler mit Eltern und Vorbildung).rpt
 * FIX: Klassenliste Schüler-Notenmatrix (Querformat).rpt
 
 ##### Berlin
