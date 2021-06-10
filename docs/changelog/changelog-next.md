@@ -29,6 +29,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Schüler/Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Schüler/Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: Unter `Extras > Schlüsselverzeichnisse` werden alle Eintragungen für Merkmalsfelder (Lehrer, Schüler, Klassen, Mandanten und Schulen) nur für den gewählten Mandanten gezeigt.
+
 #### Schnittstellen
 
 * FIX: [BER] Problem beim Erstellen der Abiturdatenstatistik behoben
