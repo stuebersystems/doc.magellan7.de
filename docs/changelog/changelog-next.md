@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX: 
+* FIX: BER-IBA-AS-2020.dws - Korrekturen
 
 #### Berichte
 
@@ -61,6 +61,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
+* * FIX: BER-IBA-AS-2020.dws - Korrekturen
 * CHANGE: Aktualisierte Ausgaben der Skripte [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/) und [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) finden Sie unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD). 
 
 #### Berichte
