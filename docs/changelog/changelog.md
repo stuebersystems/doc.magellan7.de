@@ -54,6 +54,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * FIX: DE-DIAP-2018 diverse Korrekturen
 * FIX: Schüler fortschreiben: Korrektur bei leeren Datenmengen (SchuelerKlassen)
 * CHANGE: Aktualisierte Ausgaben der Skripte [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/) und [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) finden Sie unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD).
+* NEW: SAC-APO-BGY-2021.dws *(Änderung 01/2021 gemäß Rundschreiben "Regelung der Einbringungs- und Belegverpflichtung im Kurshalbjahr 12/II bzw. 13/II" vom 29.01.2021)* Eine Anleitung zum Skript finden Sie [hier](https://doc.la.stueber.de/11.sac/sac-apo-bgy-2021/).
 
 #### Berichte
 
