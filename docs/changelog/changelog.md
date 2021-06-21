@@ -79,6 +79,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: SAC-BS-AS (A.02.05) 2spaltig.rpt
 * CHANGE: Zertifikat (F.01.09).rpt
 
+##### Niedersachsen
+
+* FIX: NIE-GY-ABI (2021).rpt (Nicht-Ausgabe von Punkten, die nicht auf dem Zeugnis ausgegeben werden sollen, Punktssumme P aus Schulhalbjahresergebnissen)
+
 ##### Auslandsschulen
 
 CHANGE: DAS-GY-AZ ohne FHR (Anlage 9a).rpt
