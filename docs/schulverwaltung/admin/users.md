@@ -70,7 +70,7 @@ Anschließend: Klicken Sie auf die Schaltfläche `Benutzer importieren` um die v
 
 ## einen neuen Benutzer anlegen
 
-Um Benutzer anzulegen müssen Sie sich mit dem Account des `sysdba` oder des `dbadmin` anmelden. 
+Um Benutzer anzulegen müssen Sie sich mit dem Account des `sysdba` anmelden. 
 Einen neuen Benutzer erzeugen Sie über die Schaltfläche `Neuer Datensatz` oben links in der Menüleiste. 
 
 ![Einen neuen MAGELLAN-Benutzer anlegen](/assets/images/magellan.administrator/neuer.benutzer.png)
