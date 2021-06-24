@@ -26,6 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
 * FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernhame aus MAGELLAN 7
+* FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen`auch bei Kürzeln mit 10 Zeichen
 
 #### Schnittstellen
 
