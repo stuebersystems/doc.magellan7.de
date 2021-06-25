@@ -53,11 +53,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-<<<<<<< HEAD
 * FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
-=======
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
->>>>>>> 6a6ca87148640e81508a2f4c9c24716b1ee440bf
+
+##### Deutsche Auslandsschulen
+
+* CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) vorab zu finden unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD)
 
 ## Version 7
 
