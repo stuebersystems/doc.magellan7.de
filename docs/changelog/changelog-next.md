@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
 * FIX: BER-IBA-AS-2020.dws - Korrekturen
+* FIX: NRW-APO-BK-2018.dws - Berechnung der Fachhochschulreife, die maximale Anzahl an Defiziten im GK-Bereich beträgt 4 [Vorab-Download](https://my.hidrive.com/share/uz.ui5j3nt)
 
 #### Berichte
 
