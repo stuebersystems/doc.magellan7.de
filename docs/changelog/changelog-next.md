@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
 * FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernhame aus MAGELLAN 7
-* FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen`auch bei Kürzeln mit 10 Zeichen
+* FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen` auch bei Kürzeln mit 10 Zeichen
 
 #### Schnittstellen
 
@@ -53,11 +53,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-<<<<<<< HEAD
-* FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
-=======
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
->>>>>>> 6a6ca87148640e81508a2f4c9c24716b1ee440bf
 
 ## Version 7
 
