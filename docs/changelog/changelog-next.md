@@ -30,13 +30,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
-* FIX: 
+* NEW: [NRW] Freigabe Statistikschnittstelle zu ASDPC [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
 
 #### Skripte
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
 * FIX: BER-IBA-AS-2020.dws - Korrekturen
+* FIX: NRW-APO-BK-2018.dws - Berechnung der Fachhochschulreife, die maximale Anzahl an Defiziten im GK-Bereich beträgt 4 [Vorab-Download](https://my.hidrive.com/lnk/vbSpi8cE)
+* Fix: SAR-APO-2018.dws - Hinweis auf "Nichtbestehen des Abiturs" bei erfolgter mdl. Prüfung aufgrund der Abweichungsprüfung und erneutem Ausführen des Skriptes korrigiert [Vorab-Download](https://my.hidrive.com/lnk/DaypC5gW)
 
 #### Berichte
 
@@ -53,7 +55,18 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
+<<<<<<< HEAD
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
+=======
+* FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
+* FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
+* FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
+
+##### Deutsche Auslandsschulen
+
+* CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) 
+* CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) 
+>>>>>>> f36b7540cd7760039d9846018ee86921333ad743
 
 ## Version 7
 
@@ -71,8 +84,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* * FIX: BER-IBA-AS-2020.dws - Korrekturen
-* CHANGE: Aktualisierte Ausgaben der Skripte [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/) und [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) finden Sie unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD). 
+* FIX: BER-IBA-AS-2020.dws - Korrekturen
+* CHANGE: Aktualisierte Ausgaben der Skripte [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/) und [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) finden Sie unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD).
+* Fix: SAR-APO-2018.dws - Hinweis auf "Nichtbestehen des Abiturs" bei erfolgter mdl. Prüfung aufgrund der Abweichungsprüfung und erneutem Ausführen des Skriptes korrigiert [Vorab-Download](https://my.hidrive.com/lnk/DaypC5gW)
 
 #### Berichte
 
@@ -88,3 +102,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 ##### Saarland
 
 * CHANGE: SAR-GY-ABI (GOS2.0).rpt (Bezeichnung der Sprachreferenz wird unter Fremdsprachen ausgelesen)
+
+##### Sachsen
+
+* FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
