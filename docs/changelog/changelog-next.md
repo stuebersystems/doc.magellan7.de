@@ -25,8 +25,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
-* FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernhame aus MAGELLAN 7
+* FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernahme aus MAGELLAN 7
 * FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen` auch bei Kürzeln mit 10 Zeichen
+* FIX: Die Sammelzuweisung des Feldes `Schüler > Laufbahn > Abschluss > Abschlussdatum2` wurde korrigiert.
 
 #### Schnittstellen
 
@@ -55,9 +56,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-<<<<<<< HEAD
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
-=======
 * FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
 * FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
@@ -66,7 +65,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) 
 * CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) 
->>>>>>> f36b7540cd7760039d9846018ee86921333ad743
 
 ## Version 7
 
