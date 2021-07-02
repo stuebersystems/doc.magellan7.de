@@ -28,6 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernahme aus MAGELLAN 7
 * FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen` auch bei Kürzeln mit 10 Zeichen
 * FIX: Die Sammelzuweisung des Feldes `Schüler > Laufbahn > Abschluss > Abschlussdatum2` wurde korrigiert.
+* FIX: Optimierung der Abfragen, die beim Aufruf des Schülermenüs und der einzelnen Unterkarten geladen werden
 
 #### Schnittstellen
 
