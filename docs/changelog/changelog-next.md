@@ -62,6 +62,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
 * FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
 
+##### Niedersachsen
+
+* CHANGE: NIE-GY-ABI (2021).rpt (Der Satz "Die Allgemeine Hochschulreife ist im Deutschen Qualitätsrahmen (DQR) dem Niveau 4 zugeordnet." wird standardmäßig auf dem Zeugnis unter Bemerkungen ausgegeben.
+
 ##### Deutsche Auslandsschulen
 
 * CHANGE: DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt (Geburtsland wird hinter Geburtsort mit ausgegeben) 
@@ -106,3 +110,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 ##### Sachsen
 
 * FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
+
+##### Niedersachsen
+
+* CHANGE: NIE-GY-ABI (2021).rpt (Der Satz "Die Allgemeine Hochschulreife ist im Deutschen Qualitätsrahmen (DQR) dem Niveau 4 zugeordnet." wird standardmäßig auf dem Zeugnis unter Bemerkungen ausgegeben.
