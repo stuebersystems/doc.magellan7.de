@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
+* CHANGE: [NRW] Für Nebenschullaufbahnen (Schüler mit IDIntern), deren Stammschullaufbahn außerhalb des Statistikzeitraumes liegt, wurde das Auslesen der Daten überarbeitet.
 * NEW: [NRW] Freigabe Statistikschnittstelle zu ASDPC [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
 
 #### Skripte
