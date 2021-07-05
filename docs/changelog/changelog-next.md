@@ -34,6 +34,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anzeige der Einträge unter `Schüler > Daten1 > Familie` korrigiert
 * FIX: Wechsel der Daten markiertem Klassenzeitraum (je Klassenzugehörigkeit) unter `Schüler > Laufbahn > Allgemein/Abschluss` korrigiert
 * CHANGE: Beim Abändern des eigenen Passworts über die MAGELLAN-Oberfläche wird zusätzlich zu Umlauten und ß auch kein Leerzeichen mehr gespeichert, Sie erhalten eine entsprechende Meldung.
+* CHANGE: Beim Start des Seriendrucks wird nur noch das Seriendruckdokument geöffnet, kein zweites bereits verbundenes Dokument
+* CHANGE: Wenn die Option unter `Datenbank > Optionen > Dokumente > Seriendruck` nicht aktiviert ist, dann wird im Seriendruckassistenten die Option ausgegraut dargestellt, der nachfolgende Punkt ist aktiviert.
 
 #### Schnittstellen
 
