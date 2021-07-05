@@ -25,10 +25,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
-* FIX: Anzeige von Schüler > Merkmale > Bemerkungen nach Datenübernahme aus MAGELLAN 7
+* FIX: Anzeige von `Schüler > Merkmale > Bemerkungen` nach Datenübernahme aus MAGELLAN 7
 * FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen` auch bei Kürzeln mit 10 Zeichen
 * FIX: Die Sammelzuweisung des Feldes `Schüler > Laufbahn > Abschluss > Abschlussdatum2` wurde korrigiert.
 * FIX: Optimierung der Abfragen, die beim Aufruf des Schülermenüs und der einzelnen Unterkarten geladen werden
+* FIX: Beim Neuanlegen eines Bewerbers wird die Liste der Vorlagen geladen
+* FIX: Beim Neuanlegen eines Bewerbers werden die Schulformen unter `Daten2 > Bereits besuchte Schulen` geladen
+* FIX: Anzeige der Einträge unter `Schüler > Daten1 > Familie` korrigiert
+* FIX: Wechsel der Daten markiertem Klassenzeitraum (je Klassenzugehörigkeit) unter `Schüler > Laufbahn > Allgemein/Abschluss` korrigiert
+* CHANGE: Beim Abändern des eigenen Passworts über die MAGELLAN-Oberfläche wird zusätzlich zu Umlauten und ß auch kein Leerzeichen mehr gespeichert, Sie erhalten eine entsprechende Meldung.
 
 #### Schnittstellen
 
