@@ -79,10 +79,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Sachsen
 
-* FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
-* FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
-* FIX: SAC-BS-AS (A.02.05).rpt (Berechnung Durchschnittsnote)
-* FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
+* FIX: SAC-BS-AS  (A.02.05).rpt (Berechnung Durchschnittsnote)
+* FIX: SAC-BS-JZ  (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
+* FIX: SAC-BS-AS  (A.02.05).rpt (Berechnung Durchschnittsnote)
+* FIX: SAC-BS-AZ  (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
 * FIX: SAC-BG-ABI (E.01.06).rpt (Thema der BLL kann vierzeilig sein)
 
 ##### Niedersachsen
