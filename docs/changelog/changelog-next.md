@@ -20,7 +20,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
-### 8.0.10 801 ()
+### 8.0.10 802 ()
+
+!!! warning "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenbankversionsnummer wird hierbei diesmal nicht erhöht, sondern bleibt auf der auf der Datenbankversion 801.
+
+#### Anpassung
+
+* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
 #### MAGELLAN Schulverwaltung
 
@@ -36,6 +45,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Beim Abändern des eigenen Passworts über die MAGELLAN-Oberfläche wird zusätzlich zu Umlauten und ß auch kein Leerzeichen mehr gespeichert, Sie erhalten eine entsprechende Meldung.
 * CHANGE: Beim Start des Seriendrucks wird nur noch das Seriendruckdokument geöffnet, kein zweites bereits verbundenes Dokument
 * CHANGE: Wenn die Option unter `Datenbank > Optionen > Dokumente > Seriendruck` für keinen Menüpunkt aktiviert ist, dann wird im Seriendruckassistenten die Option ausgegraut dargestellt, der nachfolgende Punkt ist aktiviert.
+* CHANGE: Der `Name 1` und das `Kürzel` eines Betriebes wurden unter `Schüler/Bewerber > Ausbildung` nur für den Ausbildungsdatensatz eingeblendet, wenn auch das Betriebekürzel im Menü `Betriebe` gefüllt war. Durch eine Änderung genügt jetzt auch der Eintrag unter `Betriebe > Daten > Name1`.
+* CHANGE: [NRW] Beim Import aus `SchuelerOnline` wird der Wert aus dem Feld "Beratung" nicht mehr übertragen. Aktuell erfolgte der Übertrag (Wert: 0,1,2) nach `Bewerber > Merkmale > Bemerkung` und hatte hier keine Aussagekraft.
+* NEW: Unter `Bewerber > Merkmal` wurde das Bemerkungsfeld (Memo) durch eine Liste ersetzt, Bemerkungen werden übertragen.
+* NEW: Unter `Bewerber > Daten4` wurden die Felder `Bildungskarte` und `Bildungskarte bis` ergänzt.
 
 #### Schnittstellen
 
