@@ -29,7 +29,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Anpassung
 
-* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
+* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der neuen Liste unter `Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
 #### MAGELLAN Schulverwaltung
 
