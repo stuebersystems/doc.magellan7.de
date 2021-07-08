@@ -5,13 +5,13 @@ Das ist der erste Punkt, der vor der Planung der Updates geprüft werden sollte.
 Die Versionsnummer besteht aus einem Teil, der die Ausgabe der Software kennzeichnet und einem Teil, der die Ausgabe der Datenbankversion kennzeichnet. Die Versionsnummer finden Sie im Programm unter `Hilfe > Version und Lizenz`.
 
 Beispiel:
-**Version 7.0.0 700**
+**Version 8.0.9 801**
 
 Versionsnummer für die Software|Versionsnummer der Datenbank
 ---|---
-7.0.0|700
+8.0.9|801
 
-Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan7.stueber.de/changelog/changelog/) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 !!! info "Hinweis"
 
@@ -27,8 +27,8 @@ Bitte aktualisieren Sie auch hier immer als erstes Ihren Serverrechner, führen 
 
 Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Sie müssen dazu wie folgt vorgehen:
 
-1. Melden Sie sich als sysdba in MAGELLAN an. 
-2.  Alle anderen Benutzer müssen MAGELLAN verlassen haben!        
+1. Melden Sie sich als sysdba in MAGELLAN an.
+2.  Alle anderen Benutzer müssen MAGELLAN verlassen haben!
 3.  Der Assistent zur Konvertierung erscheint, führen Sie zuerst die Sicherung Ihrer Datenbank und anschließend die die Konvertierung aus. Sollten Sie mehrere Strukturanpassungs-Updates übersprungen haben, werden diese der Reihe nach vom Assistenten durchgeführt. Schließen Sie MAGELLAN.
 4. Rufen Sie den MAGELLAN-Administrator auf. Synchronisieren Sie die Zugriffsrechte der Benutzer (`Benutzerverwaltung > Zugriffsrechte synchronisieren`).
 
@@ -36,5 +36,5 @@ Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue D
 
 !!! info "Hinweis"
 
-    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update/) weiter!
+    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan.stueber.de/schulverwaltung/update/probleme-beim-update/) weiter!
 
