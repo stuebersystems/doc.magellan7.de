@@ -42,6 +42,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * NEW: SAC-FO-FHReife (D.01.05)(ab 2017).rpt
+* CHANGE: [SAC-BG-ABI (E.01.06).rpt] Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
 
 ## Version 7
 
