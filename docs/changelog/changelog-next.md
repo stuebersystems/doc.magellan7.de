@@ -47,6 +47,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   * Namensanzeige (Vorname Vorname2 Zusatz Nachname) angepasst
   * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
 * CHANGE: SAC-Fremdsprachenzertifikat (F.01.05).rpt
+* Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
 
 ## Version 7
 
