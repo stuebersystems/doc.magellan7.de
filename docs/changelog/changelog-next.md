@@ -46,6 +46,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   * Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
   * Namensanzeige (Vorname Vorname2 Zusatz Nachname) angepasst
   * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
+* CHANGE: SAC-Fremdsprachenzertifikat (F.01.05).rpt
 
 ## Version 7
 
