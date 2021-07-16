@@ -48,6 +48,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
 * CHANGE: SAC-Fremdsprachenzertifikat (F.01.05).rpt
 * Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
+* FIX: SAC-FS-AS mit FHReife (C.01.06).rpt  (Korrektur der Anzeige der Durchschnittsnote in Zahl und Wort)
 
 ## Version 7
 
