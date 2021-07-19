@@ -34,8 +34,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX: [Sachsen] `Skripte SAC-APO-BGY-2017 (DUBAS).dws` aktualisiert. Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
-* FIX: [Sachsen]  `SAC-APO-BGY-2021.dws` aktualisiert
+* FIX: [Sachsen] `Skripte > SAC-APO-BGY-2017 (DUBAS).dws`
+  * Einbringung 26 GKs, Hinweis zusätzl. mdl. Prüfung
+  * Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
+  * es werden nun mindestens zwei Kurse in der neu begonnenen Fremdsprache eingebracht (BGySO §72 Abs. 2 Punkt 2b)
+
+* FIX: [Sachsen] `Skripte > SAC-APO-BGY-2017.dws`
+  * Einbringung 26 GKs, Hinweis zusätzl. mdl. Prüfung
+  * Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
+  * es werden nun mindestens zwei Kurse in der neu begonnenen Fremdsprache eingebracht (BGySO §72 Abs. 2 Punkt 2b)
 
 #### Berichte
 
@@ -70,15 +77,11 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * FIX: BER-IBA-AS-2020.dws - Korrekturen
 * CHANGE: Aktualisierte Ausgaben der Skripte [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/) und [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) finden Sie unter folgendem [Vorab-Download](https://my.hidrive.com/lnk/IByJi3hD).
 * FIX: SAR-APO-2018.dws - Hinweis auf "Nichtbestehen des Abiturs" bei erfolgter mdl. Prüfung aufgrund der Abweichungsprüfung und erneutem Ausführen des Skriptes korrigiert [Vorab-Download](https://my.hidrive.com/lnk/DaypC5gW)
-* FIX: SAC-APO-BGY-2017 (DUBAS).dws (Einbringung 26 GKs, Hinweis zusätzl. mdl. Prüfung)
-* FIX: [Sachsen] `Skripte SAC-APO-BGY-2017 (DUBAS).dws` aktualisiert. Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
-* FIX: [Sachsen]  `SAC-APO-BGY-2021.dws` aktualisiert
+* FIX: [Sachsen] `Skripte SAC-APO-BGY-2017 (DUBAS).dws` 
 
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
-
-* FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
 
 ##### Berlin
 
@@ -93,6 +96,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: SAC-BS-AZ (A.02.04).rpt (Zeugnisbemerkungen werden korrekt ausgegeben)
 * CHANGE: SAC-BG-AZ (E.01.05).rpt - ergänzt um Ausgabe Namen SchulleiterIn/TutorIn
+* FIX: SAC-BS-JZ (A.02.01).rpt (Ausgabe von "---" wenn keine unentschuldigten Fehltage vorliegen)
 
 ##### Niedersachsen
 
