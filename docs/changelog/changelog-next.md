@@ -59,10 +59,18 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
 * CHANGE: SAC-BG-AZ (E.01.05).rpt - ergänzt um Ausgabe Namen SchulleiterIn/TutorIn
 * FIX: SAC-FS-AS mit FHReife (C.01.06).rpt  (Korrektur der Anzeige der Durchschnittsnote in Zahl und Wort)
+* CHANGE: ergänzt um 2. Vorname und Namenszusatz
+  * SAC-Fremdsprachenzertifikat (F.01.05).rpt 
+  * SAC-BS-HJI (A.01.02).rpt 
+  * SAC-BS-JZ (A.02.01).rpt
+  * SAC-FO-FHReife (D.01.05)(ab 2017).rpt
 
 ##### Saarland
 
 * FIX: SAR-GY-ABI (GOS2.0).rpt (Ergänzung: 2. Vornamen, Namenszusatz, wenn 2. Fremdsprache / Feststellungsprüfung, Ausgabe Name und Amtsbezeichnung des/der Prüfungsvorsitzenden)
+* FIX: SAR-GY-AZ (GOS2.0).rpt (ergänzt um 2. Vorname, Namenszusatz)
+* FIX: SAR-Antrag auf Zulassung (Anlage 5).rpt (ergänzt um 2. Vorname, Namenszusatz)
+* FIX: SAR-FHReife (Nachweis)(GOS2.0).rpt (ergänzt um 2. Vorname, Namenszusatz)
 
 ## Version 7
 
