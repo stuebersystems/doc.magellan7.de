@@ -48,6 +48,8 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+##### Sachsen
+
 * NEW: SAC-FO-FHReife (D.01.05)(ab 2017).rpt
 * CHANGE: [SAC-BG-ABI (E.01.06).rpt] 
   * Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
@@ -57,6 +59,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
 * CHANGE: SAC-BG-AZ (E.01.05).rpt - ergänzt um Ausgabe Namen SchulleiterIn/TutorIn
 * FIX: SAC-FS-AS mit FHReife (C.01.06).rpt  (Korrektur der Anzeige der Durchschnittsnote in Zahl und Wort)
+
+##### Saarland
+
+* FIX: SAR-GY-ABI (GOS2.0).rpt (Ergänzung: 2. Vornamen, Namenszusatz, wenn 2. Fremdsprache / Feststellungsprüfung, Ausgabe Name und Amtsbezeichnung des/der Prüfungsvorsitzenden)
 
 ## Version 7
 
