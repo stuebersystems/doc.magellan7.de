@@ -64,6 +64,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   * SAC-BS-HJI (A.01.02).rpt 
   * SAC-BS-JZ (A.02.01).rpt
   * SAC-FO-FHReife (D.01.05)(ab 2017).rpt
+  * SAC-BS-AZ (A.02.04).rpt
+  * SAC-BS-AS (A.02.05).rpt
+  * SAC-BF-AZ (B.03.04).rpt
+
+CHANGE: SAC-BF-AS (B.04.05).rpt (ergänzt um Ausgabe Prüfungsvorsitz, SchulleiterIn)
+CHANGE: SAC-BF-HJI (B.01.01).rpt
 
 ##### Saarland
 
