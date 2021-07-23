@@ -71,7 +71,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 CHANGE: SAC-BF-AS (B.04.05).rpt (ergänzt um Ausgabe Prüfungsvorsitz, SchulleiterIn)
 CHANGE: SAC-BF-HJI (B.01.01).rpt
 CHANGE: SAC-BS-AS (A.02.06).rpt (pers. Zeugnisbemerkungen, Ausgabe SchulleiterIn, KlassenlehrerIn)
-NEW: 
+NEW: SAC-BS-AZ (A.02.04)(zweiseitig).rpt
+NEW: SAC-BS-JZ (A.02.02)(zweiseitig).rpt
+CHANGE: SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt (ergänzt um Schulleiter, Klassenlehrer, textl. Anpassungen lt. VwV)
 
 ##### Saarland
 
