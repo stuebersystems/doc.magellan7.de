@@ -40,7 +40,9 @@ Spalte | Eintrag
 -|-
 Art der Authentifizierung| Bitte wählen Sie per **Zugangscode** (Access Token) aus
 Benutzername| bleibt leer
-Kennwort/Zugangscode| Im Falle der DNB benötigen Sie hier einen `Zugriffstoken`, den Sie nach der Registrierung im Portal der DNB anfragen können.
+Kennwort/Zugangscode| Im Falle der DNB benötigen Sie in der Vergangenheit einen `Zugriffstoken`, den Sie nach der Registrierung im Portal der DNB anfragen konnten. Das Feld kann inzwischen leer bleiben.
+
+
 
 #### Eintragungen Details/ Registerkarte "Recherche"
 
