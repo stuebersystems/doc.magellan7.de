@@ -26,6 +26,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: 
 
+#### MAGELLAN Bibliothek
+
+* FIX: Problem beim Anlegen des ersten Mediums und Exemplares gesamt behoben
+
+
 #### Schnittstellen
 
 * CHANGE: 
