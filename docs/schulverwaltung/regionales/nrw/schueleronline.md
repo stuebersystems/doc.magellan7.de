@@ -171,6 +171,10 @@ Der nachfolgende Übersicht können Sie entnehmen, in welcher Reihenfolge welche
       
       Auch wichtig: einige Angaben aus SchülerOnline haben keine Entsprechung in MAGELLAN, die Spalten müssen aber dennoch in der Importdatei enthalten sein, damit die Zuordnung gelingt. 
 
+!!! info "Hinweis"
+
+      Beim Einlesen der Schülerdaten kann der zugeordnete Betrieb neu angelegt werden oder der Schüler kann einem existierenden Betrieb zugewiesen werden. Um den Betrieb zu erkennen werden die Felder `Name1` und `Name2` mit den einzulesenden Daten verglichen. 
+
 
 Nr.|Feldname<br/>Magellan-Name|Verwendet <br/>in Ansicht|Schlüssel-<br/>wert
 :--|:--|:--|:--
