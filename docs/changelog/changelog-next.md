@@ -24,19 +24,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
-* FIX: 
+* FIX: Aktualisierung der Anzeige unter `Schüler > Daten2 > bereichs besuchte Schulen`
+* FIX: Unter `Personen > Dokumente` wird das Kontextmenü bei Rechtsklick gezeigt
 
 #### MAGELLAN Bibliothek
 
 * FIX: Problem beim Anlegen des ersten Mediums und Exemplares gesamt behoben
-
-#### MAGELLAN Bibliothek
-
 * FIX: [Zuweisen von Zugriffsrechten.dws] Die Zuweisung von Zugriffsrechten für die Benutzergruppen `Gast1` und `Gast2` wurden überarbeitet
 
 #### Schnittstellen
 
-* CHANGE: 
+* CHANGE: [SAXSVS] Für die Berechnung des vorangegangenen Schuljahres wird das Systemdatum verwendet, es sei denn, das Datum des Stichtages im Assistenten wird auf einen abweichenden Wert gesetzt.
 
 #### Skripte
   
