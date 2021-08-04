@@ -30,6 +30,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim Anlegen des ersten Mediums und Exemplares gesamt behoben
 
+#### MAGELLAN Bibliothek
+
+* FIX: [Zuweisen von Zugriffsrechten.dws] Die Zuweisung von Zugriffsrechten für die Benutzergruppen `Gast1` und `Gast2` wurden überarbeitet
 
 #### Schnittstellen
 
