@@ -135,7 +135,7 @@ Statistik-Administrator | Innerhalb der Schulverwaltung wie `Schulleitung 1` zus
 
 Rechtegruppe |	Rechte
 ------------ | ------
-Bibliothekar |	Zugriff auf alle Daten der Bibliotheksverwaltung<br/>**Wichtig:** Soll der Bibliothekar auch das Recht haben Lehrer als Ausleiher hinzufügen, muss dem Nutzer für die Schulverwaltung das Recht `Gast2` gewährt werden.
+Bibliothekar |	Zugriff auf alle bereits bestehenden Daten der Bibliotheksverwaltung<br/><br/>**Wichtig:**<br/>Soll der Bibliothekar auch das Recht haben Lehrer als Ausleiher hinzufügen, muss dem Nutzer für die Schulverwaltung das Recht `Gast2` gewährt werden.
 Schulleitung | wie Bibliothekar, aber kein Zugriff auf die Optionsunterkarten: Ausleihe, Quittung, Mahnwesen und Dokumente
 Kollegium | wie Schulleitung
 Gast | nur Leserechte
