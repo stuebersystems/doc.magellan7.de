@@ -26,6 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Aktualisierung der Anzeige unter `Schüler > Daten2 > bereichs besuchte Schulen`
 * FIX: Unter `Personen > Dokumente` wird das Kontextmenü bei Rechtsklick gezeigt
+* FIX: Aktualisierung der Laufbahnkarte korrigiert, wenn der Schüler per Doppelklick aus der Auswahlliste aufgerufen wurde
 
 #### MAGELLAN Bibliothek
 

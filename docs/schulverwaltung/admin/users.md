@@ -131,13 +131,11 @@ Gast 1 | * Leserechte<br/>*  Schreibzugriff ist nicht möglich <br/>* Menü „L
 Gast 2 | * Leserechte <br/>* Schreibzugriff ist nicht möglich <br/>* Menü „Lehrer“ zeigt die Personaldaten aller Lehrer<br/>* keine Anmeldung am Modul MAGELLAN ADMINISTRATOR möglich
 Statistik-Administrator | Innerhalb der Schulverwaltung wie `Schulleitung 1` zusätzlich können die folgenden Punkte ausgeführt werden: <br/> * im MAGELLAN ADMINISTRATOR „Schlüsselverzeichnisse importieren“<br/> * Abgleich zwischen MAGELLAN und daVinci
 
-
-
 ### Bibliotheksrechte
 
 Rechtegruppe |	Rechte
 ------------ | ------
-Bibliothekar |	Zugriff auf alle Daten der Bibliotheksverwaltung
+Bibliothekar |	Zugriff auf alle Daten der Bibliotheksverwaltung<br/>**Wichtig:** Soll der Bibliothekar auch das Recht haben Lehrer als Ausleiher hinzufügen, muss dem Nutzer für die Schulverwaltung das Recht `Gast2` gewährt werden.
 Schulleitung | wie Bibliothekar, aber kein Zugriff auf die Optionsunterkarten: Ausleihe, Quittung, Mahnwesen und Dokumente
 Kollegium | wie Schulleitung
 Gast | nur Leserechte
