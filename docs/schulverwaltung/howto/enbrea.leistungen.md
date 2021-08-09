@@ -1,13 +1,39 @@
 Dieses Kapitel ist im Aufbau!
 
+[2]:/assets/images/enbrea.leistungen/02.png
+[4]:/assets/images/enbrea.leistungen/04.png
+[5]:/assets/images/enbrea.leistungen/05.png
+[6]:/assets/images/enbrea.leistungen/06.png
+[7]:/assets/images/enbrea.leistungen/07.png
+[9]:/assets/images/enbrea.leistungen/09.png
+[10]:/assets/images/enbrea.leistungen/10.png
+[13]:/assets/images/enbrea.leistungen/13.png
+[14]:/assets/images/enbrea.leistungen/14.png
+[17]:/assets/images/enbrea.leistungen/17.png
+[18]:/assets/images/enbrea.leistungen/18.png
+[20]:/assets/images/enbrea.leistungen/20.png
+[21]:/assets/images/enbrea.leistungen/21.png
+[22]:/assets/images/enbrea.leistungen/22.png
+[24]:/assets/images/enbrea.leistungen/24.png
+[29]:/assets/images/enbrea.leistungen/29.png
+[31]:/assets/images/enbrea.leistungen/31.png
+[32]:/assets/images/enbrea.leistungen/32.png
+[33]:/assets/images/enbrea.leistungen/33.png
+[34]:/assets/images/enbrea.leistungen/34.png
+[35]:/assets/images/enbrea.leistungen/35.png
+[36]:/assets/images/enbrea.leistungen/36.png
+
 # ENBREA Leistungen
 
 Dieser Bereich dient als Grundlage zum Erfassen von Daten, die in sogenannten komplexen Zeugnisberichten ausgegeben werden.
+
 Im Unterschied zu einfachen Zeugnissen sind hier auch noch Leistungen je Fach weiter unterteilbar, es sind verschiedene Notensysteme möglich.
 
 !!! warning "Wichtig"
 
     Bitte schauen Sie vorab im Modul `MAGELLAN BERICHTE` nach, ob diese Ansicht von Ihrem Zeugnis verwendet wird.
+
+[![Komplexer Zeugnisbericht, Beispiel][33]][33]
 
 ## Funktionalitäten aktivieren
 
@@ -17,97 +43,103 @@ Um die Funktionalitäten zu aktivieren, setzen Sie bitte das Häkchen unter `Dat
 
 ## Schlüsselverzeichnisse
 
-Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erfassen, müssen die folgenden Schlüsselverzeichnisse entsprechend gefüllt werden.
+Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erfassen, müssen Sie folgende Schlüsselverzeichnisse unter `Extras > Schlüsselverzeichnisse` befüllen.
 
-* Bewertungsprofile
-* Notensysteme
-* Notentypen
+* `Bewertungsprofile`
+* `Notensysteme`
+* `Notentypen`
 
 Folgender Auszug einer Zeugnisvorlage für das Fach "Mathematik" soll uns als Beispiel für die Dateneingabe in MAGELLAN dienen:
 
-![Beispiel für eine Zeugnis](/assets/images/enbrea.leistungen/02.png)
+[![Beispiel für ein Zeugnis][2]][2]
 
 ### Bewertungsprofile
 
-Öffnen Sie zunächst das `Schlüsselverzeichnis > Bewertungsprofile` . Dieses Verzeichnis ist in folgende Registerkarten unterteilt:
+Öffnen Sie zunächst das `Schlüsselverzeichnis > Bewertungsprofile` . Dieses Verzeichnis unterteilt sich in die Register:
 
 * Bewertungsprofile
 * Bewertungsgruppen
 * Bewertungseinträge
 
-![Beispiel für `Schlüsselverzeichnis > Bewertungsprofile`](/assets/images/enbrea.leistungen/17.png)
+[![Beispiel für `Schlüsselverzeichnis > Bewertungsprofile`][17]][17]
 
-Die Bewertung eines Faches wird wie folgt differenziert:
+Die Bewertung eines Faches wird hier wie folgt differenziert:
 
-![Differenzierung des Faches Mathematik](/assets/images/enbrea.leistungen/18.png)
+[![Differenzierung des Faches Mathematik][18]][18]
 
 #### Bewertungsprofile > Bewertungsprofile
 
-![Unterkarte Bewertungsprofile](/assets/images/enbrea.leistungen/04.png)
+[![Unterkarte Bewertungsprofile][4]][4]
 
-Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungsprofile` entspricht im oberen Beispiel dem Eintrag "Mathematik". 
+Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungsprofile` entspricht im oberen Beispiel dem Eintrag "Mathematik". 
 
 Feld|Bedeutung
 --|--
 Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewählten Kurzform für "Mathematik (01)", also für Mathe in der Klassenstufe 1.
 Bezeichnung| freie Wahl
-Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Beurteilung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
-Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
+Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Bewertung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
+Notensystem| zeigt die im `Schlüsselverzeichnis > Notensystem` angelegten Werte
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
 !!! info "Hinweis"
 
-    Weichen die Bewertungsprofile pro Klassenstufe ab, legen Sie hier für jedes Fach entsprechend der Klassenstufe ein Bewertungsprofil an. Zunächst genügen die Einträge in den Spalten "Kürzel" und "Bezeichnung". Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Kürzel und Bezeichnung.
+    Weichen die Bewertungsprofile pro Klassenstufe ab, legen Sie hier für jedes Fach entsprechend der Klassenstufe ein Bewertungsprofil an (Mathematik (1), Mathematik (2) etc.). Zunächst genügen die Einträge in den Spalten "Kürzel" und "Bezeichnung". Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Kürzel und Bezeichnung.
 
 #### Bewertungsprofile > Bewertungsgruppen
 
-![Unterkarte Bewertungsgruppen](/assets/images/enbrea.leistungen/05.png)
+[![Unterkarte Bewertungsgruppen][5]][5]
 
-Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungsgruppen` entspricht im oberen Beispiel einem Eintrag unterhalb von "Mathematik", in diesem Beispiel den Einträgen:
+Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungsgruppen` entspricht im oberen Beispiel einem Eintrag unterhalb von "Mathematik", in diesem Beispiel den Einträgen:
 
 * Zahlen und Operationen
 * Raum und Form
 * Größen und Messen
 * Daten, Häufigkeit und Wahrscheinlichkeit
 
-Ein Bewertungsprofil (hier: Mathematik) kann in beliebig viele Bewertungsgruppen unterteilt werden. Es kann auch sein, dass es für ein Bewertungsprofil keine Bewertungsgruppe gibt. (Wie im Beispiel "indische Landeskunde")
+Ein Bewertungsprofil (hier: Mathematik) kann in beliebig viele Bewertungsgruppen unterteilt werden. 
+
+[![Fach "Mathematik" mit diversen Bewertungsgruppen][35]][35]
+
+Wie im Beispiel "indische Landeskunde" oder "Sport" kann es auch sein, dass es für ein Bewertungsprofil keine Bewertungsgruppe(n) gibt.
+
+[![Fach "Indische Landeskunde" ohne Bewertungsgruppen][34]][34]
 
 !!! tip "Tipp"
 
-    Um eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Karte das Bewertungsprofil markieren, dann auf die Unterkarte Bewertungsgruppen wechseln und einen Eintrag anlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
+    Um für ein Fach eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Registerkarte das Bewertungsprofil (entsprechende Fach) markieren und anschließend auf die Unterkarte Bewertungsgruppen wechseln. Hier können Sie nun neue Einträge hinterlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
 
 Feld|Bedeutung
 --|--
 Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewähltn Kurzform für die "Zahlen und Optionen"
-Bezeichnung| der Eintrag entspricht im oberen Beispiel dem Eintrag "Zahlen und Optionen"
-Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Beurteilung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
-Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
-Position| Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorgaben für ihr Zeugins (siehe Modul MAGELLAN Berichte) ein
+Bezeichnung| Eintrag entspricht im oberen Beispiel dem Eintrag "Zahlen und Operationen"
+Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Bewertung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
+Notensystem| zeigt die im `Schlüsselverzeichnis >  Notensystem` angelegten Werte
+Position| gemeint ist die Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorgaben/Vorlagen für ihr Zeugnis ein
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
 #### Bewertungsprofile > Bewertungseinträge
 
-![Unterkarte Bewertungseinträge](/assets/images/enbrea.leistungen/06.png)
+[![Unterkarte Bewertungseinträge][6]][6]
 
-Der Eintrag eines Wertes unter `Schlüsselverzeichnis > Bewertungsprofile > Bewertungseinträge` entspricht im oberen Beispiel einem Eintrag unterhalb von "Zahlen und Optionen". Es kann unterhalb von "Zahlen und Optionen" auch mehrere Einträge geben. Jeder Bewertungseintrag ist einer Bewertungsgruppe zuzuweisen.
+Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungseinträge` entspricht im oberen Beispiel einem Eintrag unterhalb von "Zahlen und Optionen". Es kann unterhalb von "Zahlen und Optionen" auch mehrere Einträge geben. Jeder Bewertungseintrag ist einer Bewertungsgruppe zuzuweisen.
 
 Feld|Bedeutung
 --|--
 Kürzel| Eintrag muss gesetzt werden, einer frei gewähltn Kurzform für den Bewertungseintrag.
 Bezeichnung| freie Wahl
 Gruppe| Tragen Sie bitte eine Bewertungsgruppe ein
-Notensystem| zeigt die im Schlüsselverzeichnis `Notensystem` angelegten Werte
-Position| Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorgaben für ihr Zeugins (siehe Modul MAGELLAN Berichte) ein
+Notensystem| zeigt die im `Schlüsselverzeichnis > Notensystem` angelegten Werte
+Position| gemeint ist die Zeugnisposition, bitte tragen Sie die Positionen entsprechend der Vorgaben für ihr Zeugins ein
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
 ### Notensysteme
 
-![Schlüsselverzeichnis Notensysteme](/assets/images/enbrea.leistungen/07.png)
+[![`Schlüsselverzeichnis > Notensystem`][7]][7]
 
-Öffnen Sie über `Extras > Schlüsselverzeichnisse > Notensysteme` das Verzeichnis der Notensystem. Dieses ist in folgende Registerkarten unterteilt:
+Öffnen Sie über `Extras > Schlüsselverzeichnisse > Notensysteme` das Verzeichnis der Notensysteme. Dieses ist in folgende Registerkarten unterteilt:
 
 * Notensysteme
 * Notensystem-Einträge
@@ -117,7 +149,7 @@ Diese Arten der Beurteilung (Notensysteme) werden mit den einzelnen Beurteilungs
 
 #### Notensysteme > Notensysteme
 
-![Unterkarte Notensysteme](/assets/images/enbrea.leistungen/08.png)
+[![`Unterkarte Notensysteme`][7]][7]
 
 Feld|Bedeutung
 --|--
@@ -129,9 +161,9 @@ interner Code| derzeit nicht in Benutzung
 
 #### Notensysteme > Notensystem-Einträge
 
-![Unterkarte Notensystem-Einträge](/assets/images/enbrea.leistungen/09.png)
+[![`Unterkarte Notensystem-Einträge`][9]][9]
 
-Wählen Sie auf der Unterkarte `Notensysteme` einen Wert aus, wechseln Sie anschließend auf die Unterkarte `Notensystem-Einträge` und erfassen die dazugehörigen Einträge. Die vorstehende Abbildung zeigt die Notensystem-Einträge, die zum Notensystem Tendenzen aus unserem Beispiel gehören.
+Wählen Sie auf der Unterkarte `Notensysteme` einen Wert aus, wechseln Sie anschließend auf die Unterkarte `Notensystem-Einträge` und erfassen Sie die dazugehörigen Einträge. Diese Abbildung zeigt die Notensystem-Einträge, die zum Notensystem Tendenzen aus unserem Beispiel gehören.
 
 Feld|Bedeutung
 --|--
@@ -143,33 +175,37 @@ interner Code| derzeit nicht in Benutzung
 
 !!! info "Hinweis"
     
-    Nachdem die Notensysteme definiert wurden, müssen diese im Schlüsselverzeichnis "Bewertungsprofile" pro definiertem Profil hinterlegt werden.
+    Nachdem die Notensysteme definiert wurden, müssen diese unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile` pro definiertem Profil nachgepflegt werden.
+
+[![Bewertungsprofile][36]][36]
 
 ### Notentypen
 
-![Schlüsselverzeichnis Notentypen](/assets/images/enbrea.leistungen/10.png)
+[![`Schlüsselverzeichnis > Notentypen`][10]][10]
 
-In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note) definiert. Diese Werte können später den Bewertungen der Kurse unter dem Menüpunkt `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
+In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note) definiert. Diese Werte können später den Bewertungen der Kurse im Bereich `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
 
 ## Kurse anlegen
 
-Die Kurse legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren...` an.
+Pro Klassen müssen Sie nun noch die jeweiligen Kurse und je Kurs die Leistungsprofile definieren.
 
-![Kurse definieren](/assets/images/enbrea.leistungen/13.png)
+Die Kurse legen Sie bitte im Bereich `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren...` an.
+
+[![Kurse definieren][13]][13]
 
 Es öffnet sich das Dialogfenster zum Definieren der Kurse
 
-![Kurse definieren](/assets/images/enbrea.leistungen/19.png)
+[![Kurse definieren][14]][14]
 
-Über das `Plus Symbol` kann ein neuer Kurs mit folgenden Informationen angelegt werden.
+Über das `+` Symbol kann ein neuer Kurs mit folgenden Informationen angelegt werden.
 
 Spalte | Bedeutung
 --|--
-Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen:  über das `Plus Symbol` <br/>- Bearbeiten: über das `Plus Symbol`<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
+Aktion| je nach Aktion werden hier folgende Werte ausgegeben:<br/> - Neu anlegen:  über das `Plus` Symbol <br/>- Bearbeiten: über das `Plus` Symbol<br/> - Duplizieren - Duplizieren eines vorhandenen Kurses über `Kurs duplizieren`<br/> - Duplizieren mit Leistungsprofilen - Duplizieren eines vorhandenen Kurses mit Leistungsprofil über `Kurs mit Leistungsgprofil duplizieren` <br/> - Übergreifend verwenden
 Fach| Auswahl aus dem `Schlüsselverzeichnis > Fächer`
 Unterrichtsart|Auswahl aus dem `Schlüsselverzeichnis > Unterrichtsart`
 Fachstatus|Auswahl aus dem `Schlüsselverzeichnis  > Fachstatus`
-Lehrer|Auswahl aus der Menü Lehrer mit dem Status "Aktiv"
+Lehrer|Auswahl aus der Menü `Lehrer` mit dem Status "Aktiv"
 Schwerpunkt | Auswahl aus dem `Schlüsselverzeichnis > Fachschwerpunkt`
 Niveau | Auswahl aus dem `Schlüsselverzeichnis  > Fachniveaus `
 Kursnr.| Eingabe einer Kursnummer
@@ -178,9 +214,9 @@ Merkmal | Eingabe von Freitext
 
 ### Kurs duplizieren
 
-Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs in ihre gewählte Klasse übernehmen. Wählen Sie zunächst im unteren Bereich des Fenster den gewünschten Kurs und wählen dann in der Menüleiste des Fensters `Kurs duplizieren`.
+Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs in ihre gewählte Klasse übernehmen. Dieser Schritt empfiehlt sich, wenn Sie für eine Klasse 1a bereits Kurse definiert und diese auch für die Klasse 1b benötigen. Wählen Sie zunächst im unteren Bereich des Fenster den gewünschten Kurs und wählen dann in der Menüleiste des Fensters `Kurs duplizieren`.
 
-![Kurse duplizieren](/assets/images/enbrea.leistungen/20.png)
+[![Kurse duplizieren][20]][20]
 
 !!! info "Hinweis"
     
@@ -194,25 +230,27 @@ Findet hier aktuell noch keine Verwendung.
 
 ## Leistungsprofile anlegen
 
-Die Leistungsprofile legen Sie bitte im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Leistungsprofile definieren...` an.
+Nachdem Sie die Kurse definiert haben, legen Sie pro Fach die Leistungsprofile an.
 
-![Aufruf `Leistungsprofile definieren...`](/assets/images/enbrea.leistungen/21.png)
+Diese legen Sie im Bereich `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Leistungsprofile definieren...` an.
+
+[![Aufruf "Leistungsprofile definieren..."][21]][21]
 
 Über das `Plus Symbol` wird eine neue Zeile angelegt werden. Folgende Informationen müssen hinterlegt werden
 
 Spalte | Bedeutung
 --|--
 Kurs | DropDown-Feld - Wählen Sie aus der Liste der Kurse, die vorab für diese Klasse definiert wurden, einen Kurs aus.
-Kürzel | Die Eingabe eines Kürzels ist zwingend erforderlich
+Kürzel | Die Eingabe eines Kürzels ist zwingend erforderlich, kann beliebig sein
 Name | Tragen Sie einen beliebigen Namen ein (in Anlehnung an den Kurs)
-Konfiguration | DropDown-Feld, wählen Sie hier "komplexer Bericht" aus 
-Notensystem | DropDown-Feld, wählen Sie hier "Tendenzen" aus 
+Konfiguration | DropDown-Feld, soll das Leistungsprofil benotet werden, wählen Sie hier die gewünschte Konfiguration aus 
+Notensystem | DropDown-Feld, wählen Sie hier das benötigte Notensystem für die gewählte Konfiguration aus
 Notentyp | 
-Bewertungsprofil | DropDown-Feld, wählen Sie das gewünschte vorab 
+Bewertungsprofil | DropDown-Feld, wählen Sie das gewünschte Bewertungsprofil aus
 Bemerkung | Eingabe von Freitext
 interner Code | aktuell keine Bedeutung
 
-![`Leistungsprofile definieren...`](/assets/images/enbrea.leistungen/22.png)
+[![Leistungsprofile definieren..."][22]][22]
 
 ### Leistungsprofile ohne Bewertungsprofil
 
@@ -222,21 +260,21 @@ Es gibt einige Fächer, die auf dem Zeugnis ohne Bewertungsprofile beurteilt wer
 
 In unserem Beispiel sind das die Fächer "Sprechen und Zuhören", "Lesen - mit Texten und Medien umgehen", "Rechtschreiben" sowie "Sprache und Sprachgebrauch".
 
-![`Leistungsprofile ohne Bewertungsprofile...`](/assets/images/enbrea.leistungen/29.png)
+[![Leistungsprofile ohne Bewertungsprofile...][29]][29]
 
 Da diese dem Kurs "Deutsch" angehören, müssen Sie diese im Feld "Kurs" mit dem entsprechenden Deutschkurs des Jahrganges verknüpfen.
 
-![`Klassen > Zeiträume > ENBREA Leistungsprofile`](/assets/images/enbrea.leistungen/31.png)
+[![`Klassen > Zeiträume > ENBREA Leistungsprofile`][31]][31]
 
 ### Leistungsprofile ohne Kurszuweisung
 
-Es gibt Fächer, die Bewertungsgruppen benotet werden. In unserem Beispiel sind das die Fächer "Arbeitsverhalten" und "Sozialverhalten". 
+Es gibt Fächer, die in den Bewertungsgruppen benotet werden. In unserem Beispiel sind das die Fächer "Arbeitsverhalten" und "Sozialverhalten". 
 
-![Ausgabe auf dem Zeugnis](/assets/images/enbrea.leistungen/32.png)
+[![Beispiel für Fächer mit Leistungsprofilen ohne Bewertungsprofile...][32]][32]
 
 Diesen Fächern wird über den Aufruf `Leistungsprofile definieren...` kein Kurs im Feld "Kurs" zugeordnet.
 
-![Leistungsprofil-Einträge mit und ohne Kurszuweisung](/assets/images/enbrea.leistungen/24.png)
+[![Leistungsprofil-Einträge mit und ohne Kurszuweisung][24]][24]
 
 ## Kurse zuweisen
 
@@ -290,7 +328,7 @@ Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Inform
 
 4. Den Schülern Kurse zuweisen (Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.)
 
-Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/)
+Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/schuljahreswechsel/)
 
 
 
