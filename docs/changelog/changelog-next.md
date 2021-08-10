@@ -28,6 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Unter `Personen > Dokumente` wird das Kontextmenü bei Rechtsklick gezeigt
 * FIX: Aktualisierung der Laufbahnkarte korrigiert, wenn der Schüler per Doppelklick aus der Auswahlliste aufgerufen wurde
 * FIX: Problem beim Ändern eines Passwortes für Benutzer mit Umlauten im Namen behoben
+* FIX: Einblenden der Schüler-Zusatzkarte korrigiert
 
 #### MAGELLAN Bibliothek
 
