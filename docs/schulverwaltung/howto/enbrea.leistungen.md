@@ -22,6 +22,9 @@ Dieses Kapitel ist im Aufbau!
 [34]:/assets/images/enbrea.leistungen/34.png
 [35]:/assets/images/enbrea.leistungen/35.png
 [36]:/assets/images/enbrea.leistungen/36.png
+[37]:/assets/images/enbrea.leistungen/37.png
+[38]:/assets/images/enbrea.leistungen/38.png
+[39]:/assets/images/enbrea.leistungen/39.png
 
 # ENBREA Leistungen
 
@@ -71,7 +74,7 @@ Die Bewertung eines Faches wird hier wie folgt differenziert:
 
 [![Unterkarte Bewertungsprofile][4]][4]
 
-Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungsprofile` entspricht im oberen Beispiel dem Eintrag "Mathematik". 
+Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungsprofile` entspricht im oberen Beispiel dem Eintrag "Mathematik".
 
 Feld|Bedeutung
 --|--
@@ -86,7 +89,14 @@ interner Code| derzeit nicht in Benutzung
 
     Weichen die Bewertungsprofile pro Klassenstufe ab, legen Sie hier für jedes Fach entsprechend der Klassenstufe ein Bewertungsprofil an (Mathematik (1), Mathematik (2) etc.). Zunächst genügen die Einträge in den Spalten "Kürzel" und "Bezeichnung". Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Kürzel und Bezeichnung.
 
+Da das Bewertungsprofil "Mathematik" auf dem Zeugnis keine Bewertung erhält, erhalten die Spalten "Konfiguration" und "Notensystem" folgende Werte:
+
+* Konfiguration: keine Bewertung
+* Notensystem: bleibt leer
+
 #### Bewertungsprofile > Bewertungsgruppen
+
+Um für ein Bewertungsprofil eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Registerkarte das Bewertungsprofil (entsprechende Fach) markieren und anschließend auf die Unterkarte Bewertungsgruppen wechseln. Hier können Sie nun neue Einträge hinterlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
 
 [![Unterkarte Bewertungsgruppen][5]][5]
 
@@ -97,21 +107,19 @@ Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungspro
 * Größen und Messen
 * Daten, Häufigkeit und Wahrscheinlichkeit
 
-Ein Bewertungsprofil (hier: Mathematik) kann in beliebig viele Bewertungsgruppen unterteilt werden. 
+Ein Bewertungsprofil (in unserem Bsp.: Mathematik) kann in beliebig viele Bewertungsgruppen unterteilt werden. 
 
-[![Fach "Mathematik" mit diversen Bewertungsgruppen][35]][35]
+[![Bewertungsprofil "Mathematik" mit diversen Bewertungsgruppen][35]][35]
 
-Wie im Beispiel "indische Landeskunde" oder "Sport" kann es auch sein, dass es für ein Bewertungsprofil keine Bewertungsgruppe(n) gibt.
+Es gibt aber auch Bewertungsprofile (wie im Beispiel "indische Landeskunde" oder "Sport"), für die es keine Bewertungsgruppe(n) gibt.
 
-[![Fach "Indische Landeskunde" ohne Bewertungsgruppen][34]][34]
+[![Bewertungsprofil "Indische Landeskunde" ohne Bewertungsgruppen][34]][34]
 
-!!! tip "Tipp"
-
-    Um für ein Fach eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Registerkarte das Bewertungsprofil (entsprechende Fach) markieren und anschließend auf die Unterkarte Bewertungsgruppen wechseln. Hier können Sie nun neue Einträge hinterlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
+Für jede Bewertungsgruppe müssen Sie wieder Eintragungen vornehmen:
 
 Feld|Bedeutung
 --|--
-Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewähltn Kurzform für die "Zahlen und Optionen"
+Kürzel| Eintrag muss gesetzt werden, der Eintrag entspricht im oberen Beispiel einer frei gewählten Kurzform für die "Zahlen und Optionen"
 Bezeichnung| Eintrag entspricht im oberen Beispiel dem Eintrag "Zahlen und Operationen"
 Konfiguration| Legen Sie hier die Beurteilung fest (im Beispiel für die Zeile "Mathematik"). <br/>Mögliche Werte: <br/>- keine Bewertung <br/>- Note <br/>- Beurteilung <br/>- Note und Beurteilung
 Notensystem| zeigt die im `Schlüsselverzeichnis >  Notensystem` angelegten Werte
@@ -119,11 +127,22 @@ Position| gemeint ist die Zeugnisposition, bitte tragen Sie die Positionen entsp
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
+Da die Bewertungsgruppen "Zahlen und Operationen", " Raum und Form", "Größen und Messen" und "Daten, Häufigkeit und Wahrscheinlichkeit" auf dem Zeugnis keine Bewertung erhalten, werden in den Spalten "Konfiguration" und "Notensystem" folgende Werte eingepflegt:
+
+* Konfiguration: keine Bewertung
+* Notensystem: bleibt leer
+* Position: steuert die Positionierung der Bewertungsgruppen auf dem Zeugnis
+
+[![Unterkarte Bewertungsgruppen][37]][37]
+[![Unterkarte Bewertungsgruppen][38]][38]
+
 #### Bewertungsprofile > Bewertungseinträge
 
 [![Unterkarte Bewertungseinträge][6]][6]
 
 Der Eintrag eines Wertes unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile > Bewertungseinträge` entspricht im oberen Beispiel einem Eintrag unterhalb von "Zahlen und Optionen". Es kann unterhalb von "Zahlen und Optionen" auch mehrere Einträge geben. Jeder Bewertungseintrag ist einer Bewertungsgruppe zuzuweisen.
+
+[![Unterkarte Bewertungseinträge][39]][39]
 
 Feld|Bedeutung
 --|--
@@ -175,15 +194,15 @@ interner Code| derzeit nicht in Benutzung
 
 !!! info "Hinweis"
     
-    Nachdem die Notensysteme definiert wurden, müssen diese unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile` pro definiertem Profil nachgepflegt werden.
+    Nachdem die Notensysteme definiert wurden, müssen diese unter `Extras > Schlüsselverzeichnisse > Bewertungseinträge` pro definiertem Bewertungsprofil nachgepflegt werden.
 
-[![Bewertungsprofile][36]][36]
+[![Bewertungseinträge][36]][36]
 
 ### Notentypen
 
 [![`Schlüsselverzeichnis > Notentypen`][10]][10]
 
-In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note) definiert. Diese Werte können später den Bewertungen der Kurse im Bereich `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
+In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note, schriftliche Note) definiert. Diese Werte können später den Bewertungen der Kurse im Bereich `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
 
 ## Kurse anlegen
 
