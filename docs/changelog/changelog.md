@@ -25,6 +25,78 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## **Version 8**
 
+### 8.0.11 802 (12.08.2021)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Aktualisierung der Anzeige unter `Schüler > Daten2 > bereichs besuchte Schulen`
+* FIX: Unter `Personen > Dokumente` wird das Kontextmenü bei Rechtsklick gezeigt
+* FIX: Aktualisierung der Laufbahnkarte korrigiert, wenn der Schüler per Doppelklick aus der Auswahlliste aufgerufen wurde
+* FIX: Problem beim Ändern eines Passwortes für Benutzer mit Umlauten im Namen behoben
+* FIX: Einblenden der Schüler-Zusatzkarte korrigiert
+* FIX: Anzahl der belegten Fachwahlen wird unter `Abitur > Fachwahl` bei Änderung aktualisiert
+
+#### MAGELLAN Bibliothek
+
+* FIX: Problem beim Anlegen des ersten Mediums und Exemplares gesamt behoben
+* FIX: [Zuweisen von Zugriffsrechten.dws] Die Zuweisung von Zugriffsrechten für die Benutzergruppen `Gast1` und `Gast2` wurden überarbeitet
+
+#### Schnittstellen
+
+* CHANGE: [SAXSVS] Für die Berechnung des vorangegangenen Schuljahres wird das Systemdatum verwendet, es sei denn, das Datum des Stichtages im Assistenten wird auf einen abweichenden Wert gesetzt.
+
+#### Skripte
+  
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
+
+* FIX: [Sachsen] `Skripte > SAC-APO-BGY-2017 (DUBAS).dws`
+  * Einbringung 26 GKs, Hinweis zusätzl. mdl. Prüfung
+  * Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
+  * es werden nun mindestens zwei Kurse in der neu begonnenen Fremdsprache eingebracht (BGySO §72 Abs. 2 Punkt 2b)
+
+* FIX: [Sachsen] `Skripte > SAC-APO-BGY-2017.dws`
+  * Einbringung 26 GKs, Hinweis zusätzl. mdl. Prüfung
+  * Wichtig: Das Fach Englisch muss im Schlüsselverzeichnis "Fächer" im Feld "Zeugnismerkmal" den Wert "EN" bekommen, damit das Skript das Fach Englisch korrekt erkennt.
+  * es werden nun mindestens zwei Kurse in der neu begonnenen Fremdsprache eingebracht (BGySO §72 Abs. 2 Punkt 2b)
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+##### Sachsen
+
+* NEW: SAC-FO-FHReife (D.01.05)(ab 2017).rpt
+* CHANGE: [SAC-BG-ABI (E.01.06).rpt] 
+  * Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
+  * Namensanzeige (Vorname Vorname2 Zusatz Nachname) angepasst
+  * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
+* CHANGE: SAC-Fremdsprachenzertifikat (F.01.05).rpt
+* Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
+* CHANGE: SAC-BG-AZ (E.01.05).rpt - ergänzt um Ausgabe Namen SchulleiterIn/TutorIn
+* FIX: SAC-FS-AS mit FHReife (C.01.06).rpt  (Korrektur der Anzeige der Durchschnittsnote in Zahl und Wort)
+* CHANGE: ergänzt um 2. Vorname und Namenszusatz
+  * SAC-Fremdsprachenzertifikat (F.01.05).rpt 
+  * SAC-BS-HJI (A.01.02).rpt 
+  * SAC-BS-JZ (A.02.01).rpt
+  * SAC-FO-FHReife (D.01.05)(ab 2017).rpt
+  * SAC-BS-AZ (A.02.04).rpt
+  * SAC-BS-AS (A.02.05).rpt
+  * SAC-BF-AZ (B.03.04).rpt
+
+CHANGE: SAC-BF-AS (B.04.05).rpt (ergänzt um Ausgabe Prüfungsvorsitz, SchulleiterIn)
+CHANGE: SAC-BF-HJI (B.01.01).rpt
+CHANGE: SAC-BS-AS (A.02.06).rpt (pers. Zeugnisbemerkungen, Ausgabe SchulleiterIn, KlassenlehrerIn)
+NEW: SAC-BS-AZ (A.02.04)(zweiseitig).rpt
+NEW: SAC-BS-JZ (A.02.02)(zweiseitig).rpt
+CHANGE: SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt (ergänzt um Schulleiter, Klassenlehrer, textl. Anpassungen lt. VwV)
+
+##### Saarland
+
+* FIX: SAR-GY-ABI (GOS2.0).rpt (Ergänzung: 2. Vornamen, Namenszusatz, wenn 2. Fremdsprache / Feststellungsprüfung, Ausgabe Name und Amtsbezeichnung des/der Prüfungsvorsitzenden)
+* FIX: SAR-GY-AZ (GOS2.0).rpt (ergänzt um 2. Vorname, Namenszusatz)
+* FIX: SAR-Antrag auf Zulassung (Anlage 5).rpt (ergänzt um 2. Vorname, Namenszusatz)
+* FIX: SAR-FHReife (Nachweis)(GOS2.0).rpt (ergänzt um 2. Vorname, Namenszusatz)
+
 ### 8.0.10 802 (08.07.2021)
 
 !!! warning "Wichtig"
