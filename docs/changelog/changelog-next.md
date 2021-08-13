@@ -44,6 +44,10 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+##### DAS
+
+* CHANGE: DAS-Zeugnis Gymnasium - Mittlerer Schulabschluss (Anlage 10)(§23).rpt (Layoutanpassungen)
+
 ## Version 7
 
 ### 7.1.31 - 720 ()
