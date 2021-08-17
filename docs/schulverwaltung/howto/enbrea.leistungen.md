@@ -1,5 +1,3 @@
-Dieses Kapitel ist im Aufbau!
-
 [2]:/assets/images/enbrea.leistungen/02.png
 [4]:/assets/images/enbrea.leistungen/04.png
 [5]:/assets/images/enbrea.leistungen/05.png
@@ -32,15 +30,15 @@ Dieser Bereich dient als Grundlage zum Erfassen von Daten, die in sogenannten ko
 
 Im Unterschied zu einfachen Zeugnissen sind hier auch noch Leistungen je Fach weiter unterteilbar, es sind verschiedene Notensysteme möglich.
 
-!!! warning "Wichtig"
+Bitte schauen Sie vorab in der [Übersicht der Zeugnisse](https://doc.la.stueber.de/berichte/zeugnisse/allgemein_zeugnisse/) für Ihr Bundesland bzw. für Ihre Auslandsschule nach, ob die ENBREA Lernleistungen von Ihrem Zeugnis verwendet wird.
 
-    Bitte schauen Sie vorab im Modul `MAGELLAN BERICHTE` nach, ob diese Ansicht von Ihrem Zeugnis verwendet wird.
+Beispiel für ein komplexes Zeugnis: 
 
 [![Komplexer Zeugnisbericht, Beispiel][33]][33]
 
-## Funktionalitäten aktivieren
+## ENBREA Funktionen aktivieren
 
-Um die Funktionalitäten zu aktivieren, setzen Sie bitte das Häkchen unter `Datenbank > Optionen > ENBREA Funktionen aktivieren`.
+Um die zusätzlichen Funktionalitäten in der MAGELLAN Oberfläche vorzufinden, aktivieren Sie bitte diese Funktionen unter `Datenbank > Optionen > ENBREA Funktionen aktivieren` durch Setzen des Häkchens.
 
 ![Aktivieren Sie das Häkchen!](/assets/images/enbrea.leistungen/01.png)
 
@@ -56,7 +54,7 @@ Folgender Auszug einer Zeugnisvorlage für das Fach "Mathematik" soll uns als Be
 
 [![Beispiel für ein Zeugnis][2]][2]
 
-### Bewertungsprofile
+### Schlüsselverzeichnis > Bewertungsprofile
 
 Öffnen Sie zunächst das `Schlüsselverzeichnis > Bewertungsprofile` . Dieses Verzeichnis unterteilt sich in die Register:
 
@@ -70,7 +68,7 @@ Die Bewertung eines Faches wird hier wie folgt differenziert:
 
 [![Differenzierung des Faches Mathematik][18]][18]
 
-#### Bewertungsprofile > Bewertungsprofile
+#### Unterkarte "Bewertungsprofile"
 
 [![Unterkarte Bewertungsprofile][4]][4]
 
@@ -94,7 +92,7 @@ Da das Bewertungsprofil "Mathematik" auf dem Zeugnis keine Bewertung erhält, er
 * Konfiguration: keine Bewertung
 * Notensystem: bleibt leer
 
-#### Bewertungsprofile > Bewertungsgruppen
+#### Unterkarte "Bewertungsgruppen"
 
 Um für ein Bewertungsprofil eine Bewertungsgruppe anlegen zu können, müssen Sie auf der ersten Registerkarte das Bewertungsprofil (entsprechende Fach) markieren und anschließend auf die Unterkarte Bewertungsgruppen wechseln. Hier können Sie nun neue Einträge hinterlegen. Damit werden die Bewertungsgruppen genau einem Bewertungsprofil zugeordnet.
 
@@ -136,7 +134,7 @@ Da die Bewertungsgruppen "Zahlen und Operationen", " Raum und Form", "Größen u
 [![Unterkarte Bewertungsgruppen][37]][37]
 [![Unterkarte Bewertungsgruppen][38]][38]
 
-#### Bewertungsprofile > Bewertungseinträge
+#### Unterkarte "Bewertungseinträge"
 
 [![Unterkarte Bewertungseinträge][6]][6]
 
@@ -154,7 +152,7 @@ Position| gemeint ist die Zeugnisposition, bitte tragen Sie die Positionen entsp
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-### Notensysteme
+### Schlüsselverzeichnis > Notensysteme
 
 [![`Schlüsselverzeichnis > Notensystem`][7]][7]
 
@@ -166,7 +164,7 @@ interner Code| derzeit nicht in Benutzung
 Innerhalb Ihrer Schule und bei komplexeren Zeugnisberichten kann es unterschiedliche Systeme zur Beurteilung geben: Noten, Punkte, Prozente, Tendenzen...
 Diese Arten der Beurteilung (Notensysteme) werden mit den einzelnen Beurteilungswerten (Notensystem-Einträge) in diesem Schlüsselverzeichnis angelegt.
 
-#### Notensysteme > Notensysteme
+#### Unterkarte "Notensysteme"
 
 [![`Unterkarte Notensysteme`][7]][7]
 
@@ -178,7 +176,7 @@ Wertetyp| Mögliche Werte `Zahlen` oder `Texte`
 Beschreibung|freie Wahl
 interner Code| derzeit nicht in Benutzung
 
-#### Notensysteme > Notensystem-Einträge
+#### Unterkarte "Notensystem-Einträge"
 
 [![`Unterkarte Notensystem-Einträge`][9]][9]
 
@@ -198,7 +196,7 @@ interner Code| derzeit nicht in Benutzung
 
 [![Bewertungseinträge][36]][36]
 
-### Notentypen
+### Schlüsselverzeinis > Notentypen
 
 [![`Schlüsselverzeichnis > Notentypen`][10]][10]
 
@@ -242,6 +240,8 @@ Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs 
     Sie können auch mehrere Kurse in einem Schritt duplizieren. Markieren Sie über `Strg + linke Maustaste` die gewünschte Kurse und wählen Sie dann den Aufruf `Kurs duplizieren`.
 
 ### Kurse mit Leistungprofil duplizieren
+
+
 
 ### Übergreifend verwenden
 
