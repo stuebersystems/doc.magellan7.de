@@ -75,8 +75,6 @@ Prüfen Sie, ob die Klassen die korrekte `Klassenart` und den korrekten `Klassen
 
 ![Klasseneinstellungen](/assets/images/gym_oberstufe/fw.01.png)
 
-
- 
 ## Schüler für Fachwahlen synchronisieren
 
 Als erstes müssten die Schüler, für die die künftige Fachwahl erfasst werden soll, in den Punkt `Abitur` synchronisiert werden.  In der Regel müssen nur die Schüler (also ohne Fachdaten oder Noten) ins Menü `Abitur` übernommen werden. Dieser Unterschied wird mit der Klassenart vorgenommen, stellen Sie bei den Klassen bitte "Standard mit Oberstufensynchronisation" ein.
@@ -91,7 +89,6 @@ Als erstes müssten die Schüler, für die die künftige Fachwahl erfasst werden
 
 Die Schüler werden jetzt im Menü `Abitur` in der Auswahlliste gezeigt.
 
-
 ## Fachwahlen zuordnen
 
 ### Zuordnen per Assistent
@@ -99,12 +96,11 @@ Die Schüler werden jetzt im Menü `Abitur` in der Auswahlliste gezeigt.
 |So geht's|
 |--|
 |1. Wechseln Sie in der Ansicht `Abitur` auf die Registerkarte `Fachwahl`.|
-|2. Klicken Sie im oberen Bereich auf die Schaltfläche `Fachwahltafel zuweisen`.<br/><br/>![Hier können Sie Schülern Fachwahltafeln zuweisen.](/assets/images/gym_oberstufe/gym_oberstufe07.png)
+|2. Klicken Sie im oberen Bereich auf die Schaltfläche `Fachwahltafel zuweisen`.<br/><img src="/assets/images/gym_oberstufe/gym_oberstufe07.png">|
 |3. Markieren Sie die Schüler, denen Sie eine Fachwahltafel zuweisen wollen und klicken Sie dann auf `Weiter`.|
 |4. Markieren Sie die gewünschte Fachwahltafel und ordnen Sie optional im unteren Bereich den Halbjahren die entsprechende Zeiträume zu. Sollen bei der Zuweisung der Fachwahltafeln die eventuell bereits bestehenden Fachwahlen der markierten Schüler nicht zuvor gelöscht werden, so müssen Sie das Kontrollkästchen Vorhandene Fachwahlen der Schüler nicht löschen markieren. Klicken Sie auf `Weiter`.|
 |5. Geben Sie optional den zuzuordnenden `Abiturjahrgang `und die `Fachwahlverordnung `an und klicken Sie dann auf `Weiter`.|
 |6. Klicken Sie auf `Fertigstellen`, um die Fachwahltafel den markierten Schülern zuzuordnen.|
-
 
 ### Fächer manuell zuordnen
 
@@ -116,8 +112,6 @@ Die Fächer der Fachwahl können auch ohne die Kopiervorlage der Fachwahltafeln 
 |2. Klicken Sie im oberen Bereich auf das rote Plus für eine neue Zeile.|
 |3. Tragen Sie jetzt das Fach und optional die Unterrichtsart und den Fachstatus ein.|
 
-
-
 ## Schülerfachwahlen individuell anpassen
 
 * Passen Sie die Fachwahlkarte pro Schüler an, je nach individueller Fachwahl des Schülers, tragen Sie die Prüfungsfächer und Leistungskurse ein.
@@ -125,7 +119,6 @@ Die Fächer der Fachwahl können auch ohne die Kopiervorlage der Fachwahltafeln 
 !!! info "Hinweis"
 
 	Je nach Kursbildung werden eventuelle Änderungen ( ein Lateinkurs kommt doch nicht zu Stande o.ä.) auf der Fachwahlkarte eingetragen!
-
 
 ## Fachwahl prüfen
 
@@ -139,17 +132,14 @@ Bei einer gültigen Fachwahl ist der obere Hinweistext grün hinterlegt mit dem 
 
 Mit Wahl der Schaltfläche `Neu prüfen` wird oberhalb dieser Schaltfläche der Status `Fachwahl geprüft ` angezeigt. Verändert man die Fachwahl des Schülers, wechselt der Status automatisch auf Fachwahl nicht geprüft.
 
+![Dies ist die Anzeige des Prüfstatus „Fachwahl nicht geprüft“ ](/assets/images/gym_oberstufe/gym_oberstufe11.png)
 
-![Dies ist die Anzeige des Prüfstatus „Fachwahl nicht geprüft“ bzw. „Fachwahl geprüft“](/assets/images/gym_oberstufe/gym_oberstufe11.png)
-!](/assets/images/gym_oberstufe/gym_oberstufe12.png)
-
-
+![Dies ist die Anzeige des Prüfstatus „Fachwahl geprüft“](/assets/images/gym_oberstufe/gym_oberstufe12.png)
 
 !!! info "Hinweis"
 
 Ist für ein eingetragenes Fach keine der Spalten „1. HJ“ bis „6. HJ“ markiert, wird dieses Fach bei der Fachwahlprüfungals nicht gewählt betrachtet.
 Die Zuordnung der Zeiträume zu den Halbjahren 1 bis 6 auf der rechten Seite haben keinen Einfluss auf die Fachwahlprüfung. Sie dienen nur der späteren Zuweisung der Fahlwahlen eines Halbjahres zu den Fächern des Schülers.
-
 
 ## Fachwahl pro Halbjahr nach `Schüler > Zeugnis` übernehmen
 
@@ -170,7 +160,6 @@ Die Spalte 1. HJ entspricht dem Zeitraum „1. Halbjahr 2011/2012“. Übernimmt
 
 Auf Basis dieser Zuordnung kann nun die Zuweisung der Fachwahlen zu den Fächern der Schüler wie folgt durchgeführt werden.
 
-
 |So geht's|
 |--|
 |1. Wechseln Sie in der Ansicht ``Abitur`` auf die Registerkarte `Fachwahl`.|
@@ -182,11 +171,10 @@ Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `Schüler >
 
 |Option im Assistenten|Bedeutung|
 |--|--|
-|![](/assets/images/gym_oberstufe/fw.06.png) |Es wird geprüft, ob bereits für den Schüler Fächer unter `Schüler > Zeugnis > Fächer` existieren, wenn ja wird die Fachwahl nicht übernommen. Hat der Schüler keine Fächer, werden die Fächer übergeben.|
-|![](/assets/images/gym_oberstufe/fw.07.png) |Es werden unter `Schüler > Zeugnis > Fächer` existierende Fächer gelöscht (damit auch ev. bereits erfasste Noten) und die Fächer aus der Fachwahl eingetragen.|
-|![](/assets/images/gym_oberstufe/fw.08.png) |Bestehende Fächer auf der Zeugniskarte bleiben erhalten, die Fächer der Fachwahl werden ergänzt. |
-|![](/assets/images/gym_oberstufe/fw.09.png) |Bestehende Fächer auf der Zeugniskarte bleiben erhalten, die Fächer der Fachwahl werden ergänzt, der Fachstatus bleibt erhalten.|
-
+| <img src="/assets/images/gym_oberstufe/fw.06.png">|Es wird geprüft, ob bereits für den Schüler Fächer unter `Schüler > Zeugnis > Fächer` existieren, wenn ja wird die Fachwahl nicht übernommen. Hat der Schüler keine Fächer, werden die Fächer übergeben.|
+|<img src="/assets/images/gym_oberstufe/fw.07.png"> |Es werden unter `Schüler > Zeugnis > Fächer` existierende Fächer gelöscht (damit auch ev. bereits erfasste Noten) und die Fächer aus der Fachwahl eingetragen.|
+|<img src="/assets/images/gym_oberstufe/fw.08.png"> |Bestehende Fächer auf der Zeugniskarte bleiben erhalten, die Fächer der Fachwahl werden ergänzt. |
+|<img src="/assets/images/gym_oberstufe/fw.09.png"> |Bestehende Fächer auf der Zeugniskarte bleiben erhalten, die Fächer der Fachwahl werden ergänzt, der Fachstatus bleibt erhalten.|
 
 !!! info "Hinweis"
 
@@ -202,17 +190,6 @@ Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können
 
 * Wenn die Oberstufe durchlaufen wurde, werden die Fächer und die Leistungen der Oberstufenhalbjahre aus `Schüler > Zeugnis` nach `Abitur > Qualifikation` synchronisiert. Dafür führen Sie den Assistenten unter `Abitur > Qualifikation > Schüler synchronisieren` aus.
 
-
 !!! info "Hinweis"
 
 	Das Synchronisieren der Fächer und Leistungen auf die Karte `Qualifikation` ändert keine Einträge auf der Karte `Fachwahl`.
-
-
-
-
-
-
-
-
-
-
