@@ -1,5 +1,8 @@
 # Schüler-Fachwahlen nach Untis übertragen
 
+[1]:/assets/images/berlin/nach.untis/nach.untis1.png
+[2]:/assets/images/berlin/nach.untis/nach.untis2.png
+
 Aufgrund der Schüler-Fachwahlen müssen die Kurse und Kursblockung erstellt werden. Diese Aufgabe ist Teil der Stundenplansoftware.
 
 !!! info "Hinweis"
@@ -14,7 +17,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie in der Ansicht Abitur die Karte Fachwahl eines beliebigen Schülers. Starten Sie den Assistenten unter `Bearbeiten > Fachwahl exportieren > Untis`.
 
-![Assistent „Fachwahlen exportieren“](/assets/images/berlin/nach.untis/nach.untis1.png)
+[![Assistent „Fachwahlen exportieren“][1]][1]
 
 2. Wählen Sie bei Bedarf einen Zeitraum aus. Standardmäßig ist dies der aktuell eingestellte Zeitraum in MAGELLAN. Die Schülerliste zeigt nur die Schüler an, für die eine Fachwahl für den gewählten Zeitraum angelegt wurde.
 
@@ -40,13 +43,13 @@ Die anschließend erstellte Schuldatentransferdatei können Sie nun in Untis imp
 Wenn Sie nachträglich Fachwahlen einzelner Schülern erfasst wollen, so ist die jederzeit möglich. Sie unterscheidet sich praktisch nicht von der allgemeinen Erfassung der Schülerfachwahlen. Dazu gehen Sie analog der Beschreibung „Schüler-Fachwahlen eingeben und prüfen“ und der allgemeinen Vorgehensweise im vorangegangenen Abschnitt dieses Kapitels vor.
 Sie sollten Sie jedoch aus Performanzgründen nur noch diese Schüler nach Untis exportieren und nicht wieder alle Schüler mit Fachwahlen. Nutzen Sie dazu das Optionsfeld `nur Schüler mit Änderungen` in der Ansicht „Abitur“ seit im Assistenten.
 
-Abbildung 40:![ Optionsfeld „nur Schüler mit Änderungen in der Ansicht „Abitur“ seit“ im Assistenten „Fachwahlen exportieren“](/assets/images/berlin/nach.untis/nach.untis2.png)
+[![Optionsfeld „nur Schüler mit Änderungen in der Ansicht „Abitur“ seit“ im Assistenten „Fachwahlen exportieren“][2]][2]
 
 ## Logik bei Erzeugen der Exportdatei für Untis
 
 Im Rahmen des Exports der zuvor beschriebenen Schülerfachwahlen nach Untis in eine Schuldatentransferdatei wird unter anderem der Zeilentyp P1 des Schuldatentransferformats pro ausgewählten Schüler erzeugt.
 
- Dabei gilt folgende Logik für den Export des Feldes „Kursnummer“ im Zeilentyp P1:
+Dabei gilt folgende Logik für den Export des Feldes „Kursnummer“ im Zeilentyp P1:
 
 * Ist das zu exportierende Fach mit seiner Unterrichtsart für den Schüler nur unter Ansicht `Abitur > Fachwahl` und noch nicht unter `Ansicht Schüler > Zeugnis > Fächer` eingetragen, bleibt der Wert im Feld „Kursnummer“ leer.
 
