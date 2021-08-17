@@ -1,5 +1,10 @@
 # Stundenplandaten
 
+[0]:/assets/images/stundenplandaten/stundenplandaten00.png)
+[1]:/assets/images/stundenplandaten/stundenplandaten01.png)
+[2]:/assets/images/stundenplandaten/stundenplandaten02.png)
+[3]:/assets/images/stundenplandaten/stundenplandaten03.png)
+
 ## DAVINCI-Stundenpläne integrieren
 
 Wenn Sie zusätzlich zu MAGELLAN auch die DAVINCI Stundenplansoftware verwenden, haben Sie folgende Vorteile:
@@ -22,23 +27,28 @@ Der Datenaustausch erfolgt beim Export von MAGELLAN aus in eine Schuldatentransf
 
 ### MAGELLAN-Daten in eine Schuldatentransferdatei für Untis exportieren
 
-Zum Austausch der Magellandaten mit Untis müssen Sie zunächst eine Schuldatentransferdatei in MAGELLAN erzeugen, die dann in Untis eingelesen werden kann. Für den Export der Daten inklusive der Schülerfachwahlen aus dem Menüpunkt `Abitur > Fachwahl` lesen Sie bitte im Abschnitt "Fachwahlen exportieren" weiter.
+Zum Austausch der MAGELLAN Daten mit Untis müssen Sie zunächst eine Schuldatentransferdatei in MAGELLAN erzeugen, die dann in Untis eingelesen werden kann. Für den Export der Daten inklusive der Schülerfachwahlen aus dem Menüpunkt `Abitur > Fachwahl` lesen Sie bitte im Abschnitt "Fachwahlen exportieren" weiter.
 
-#### Schuldatentransferdatei für Untis aus MAGELLAN exportieren: Exportieren Sie eine Schuldatentransferdatei für Untis aus MAGELLAN.
+#### Schuldatentransferdatei für Untis aus MAGELLAN exportieren
 
-1. Wählen Sie in MAGELLAN `Extras `und dann `Export > Untis`.
+Exportieren Sie eine Schuldatentransferdatei für Untis aus MAGELLAN.
+
+1. Wählen Sie in MAGELLAN über `Extras > Exporte > Untis`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das Willkommen-Fenster.
+
+[![Assistent][0]][0]
 
 3. Wählen Sie im Fenster `Magellan-Export` den Mandanten und das Halbjahr, aus dem Sie die Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, in die Sie exportieren wollen.
 
-![Geben Sie den Mandaten und Das Halbjahr für den Export an.](/assets/images/stundenplandaten/stundenplandaten01.png)
+[![Geben Sie den Mandaten und Das Halbjahr für den Export an.][1]][1]
 
-![Wählen Sie hier was Sie exportieren wollen](/assets/images/stundenplandaten/stundenplandaten02.png)
-
+[![Wählen Sie hier was Sie exportieren wollen][2]][2]
 
 4. Wählen Sie hier die Daten aus, die Sie aus MAGELLAN nach Untis exportieren wollen. Klicken Sie auf `Weiter`, um die Daten in die zuvor angegebene Datei zu übertragen.
 
-#### Schuldatentransferdatei in Untis importieren: Sie müssen die aus MAGELLAN exportierte Schuldatentransferdatei in Untis importieren.
+#### Schuldatentransferdatei in Untis importieren
+
+Sie müssen die aus MAGELLAN exportierte Schuldatentransferdatei in Untis importieren.
 
 1. Starten Sie Untis mit Ihrer aktuellen Untis-Datei.
 2. Klicken Sie auf `Datei > Import/Export > Deutschland > Schuldatentransferformat`.
@@ -84,21 +94,25 @@ Nachname<br/>Vorname<br/>Fachwahl<br/>Fachkürzel<br/>Unterrichtsart.Kürzel<br/
 
 ### Schuldatentransferdatei aus Untis nach MAGELLAN importieren
 
-Wenn Sie eine leere Magellan-Datenbank mit Daten aus einer Schuldatentransferdatei aus Untis füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte die Abschnitte „Mandanten definieren“ und „Zeiträume definieren“.
+Wenn Sie eine leere MAGELLAN Datenbank mit Daten aus einer Schuldatentransferdatei aus Untis füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte die Abschnitte „Mandanten definieren“ und „Zeiträume definieren“.
 
-Schuldatentransferdatei aus Untis exportieren: Zunächst müssen Sie in Untis aus Ihrer Untis-Datei eine Schuldatentransferdatei erzeugen.
+Schuldatentransferdatei aus Untis exportieren: 
+
+Zunächst müssen Sie in Untis aus Ihrer Untis-Datei eine Schuldatentransferdatei erzeugen.
 
 1. Starten Sie Untis mit Ihrer aktuellen Untis-Datei.
-2. Klicken Sie auf Datei > Import/Export > Deutschland > Schuldatentransferformat.
+2. Klicken Sie auf `Datei > Import/Export > Deutschland > Schuldatentransferformat`.
 3. Wählen Sie die Registerkarte `Exportieren`. Geben Sie dort eine Exportdatei an, in welche die Untis-Daten exportiert werden sollen. Klicken Sie dann auf `Exportieren`.
 
 ### Schuldatentransferdatei nach MAGELLAN importieren
+
 Die aus Untis exportierte Schuldatentransferdatei muss nun nach MAGELLAN importiert werden.
 
-1. Wählen Sie in MAGELLAN `Extras `und dann `Import > Untis`.
+1. Wählen Sie in MAGELLAN `Extras > Import > Untis`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das Willkommen-Fenster mit Weiter.
 
-![Legen Sie hier den Übertragungsrichtung fest.](/assets/images/stundenplandaten/stundenplandaten03.png)
+
+[![Legen Sie hier den Übertragungsrichtung fest.][3]][3]
 
 3. Wählen Sie im Fenster `MAGELLAN-Import` den Mandanten und das Halbjahr, in das Sie die Untis-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, die Sie importieren wollen.
 
@@ -106,8 +120,6 @@ Die aus Untis exportierte Schuldatentransferdatei muss nun nach MAGELLAN importi
 
 
 ![Wählen Sie hier die Daten aus, die Sie aus Untis nach MAGELLAN importieren wollen.](/assets/images/stundenplandaten/stundenplandaten05.png)
-
-
 
 4. Klicken Sie auf `Weiter`, um die Daten aus der in Untis erzeugten Schuldatentransferdatei zu übertragen.
 

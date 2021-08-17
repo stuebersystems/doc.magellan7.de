@@ -14,6 +14,7 @@
 [20]:/assets/images/berlin/fachwahl/fachwahl20.png
 [21]:/assets/images/berlin/fachwahl/fachwahl21.png
 [22]:/assets/images/berlin/fachwahl/fachwahl22.png
+[23]:/assets/images/berlin/fachwahl/fachwahl23.png
 
 !!! info "Hinweis"
 
@@ -41,7 +42,7 @@ zugewiesen sein, um Schüler dieser Klasse in die Ansicht `Abitur` zu synchronis
 
 Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs herausfiltern zu können.
  
-![Hier definieren Sie den Abiturjahrgang mit der KategorieAbitur“](/assets/images/berlin/fachwahl/fachwahl1.png)
+![Abiturjahrgang mit der Kategorie "Abitur“ definieren](/assets/images/berlin/fachwahl/fachwahl1.png)
 
 !!! info "Hinweis"
 
@@ -79,30 +80,25 @@ Verordnungen| Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Verord
 
 Beim Synchronisieren extrahiert MAGELLAN für die markierten Schüler die Fachdaten der Halbjahre E1, E2, Q1, Q2, Q3 und Q4 in das Menü `Abitur`. Dies ist die Voraussetzung für die Fachwahl-, Qualifikations- und Abschlussberechnungen der Oberstufe. Liegen noch keine Fachdaten in den Halbjahren vor, werden nur die Grunddaten des Schülers in die Ansicht `Abitur` übernommen. Vor der Eingabe der Fachwahlen in der Ansicht `Abitur > Fachwahl` sind beispielsweise noch keine Fächer beim Schüler in der Ansicht `Schüler > Zeugnis > Fächer` eingetragen.
 
-!!! info "Hinweis"
-
-    Für das Erfassen der Fachwahlen der Schüler, müssen vor dem Synchronisieren keine Fächer auf der Registerkarte Ansicht `Schüler > Zeugnis > Fächer` eingetragen werden. Sind dort aber bereits Fächer erfasst gewesen, können Sie die Fächer beim Synchronisieren auch zusätzlich mit in die Fachwahlen übertragen lassen. Wählen Sie dafür vor der Synchronisation die Option `Datenbank > Optionen > Einstellungen > Abgleich Qualifikationen/Fachwahl im Abitur`.
-
-Indem Sie in MAGELLAN auf die Ansicht `Abitur` und dann unter `Start > Schüler synchronisieren...` auf der oberen Symbolleiste klicken, öffnen Sie das Dialogfenster Daten für Abitur synchronisieren.
+Über die Ansicht `Abitur` unter `Start > Schüler synchronisieren...` öffnen Sie das Dialogfenster zum Synchronisieren Ihrer Daten in die Ansicht `Abitur`.
  
-![SchaltflächeSchüler synchronisieren in der oberen Symbolleiste der Ansicht `Abitur`](/assets/images/berlin/fachwahl/fachwahl3.png)
+![Schaltfläche "Schüler synchronisieren" in der oberen Symbolleiste der Ansicht `Abitur`](/assets/images/berlin/fachwahl/fachwahl3.png)
 
-Im Dialogfenster Daten für Abitur synchronisieren müssen Sie nun wie folgt vorgehen:
+Im Dialogfenster `Daten für Abitur synchronisieren` müssen Sie nun wie folgt vorgehen:
 
 1. Markieren Sie alle die Schüler, die Sie in die Ansicht `Abitur` synchronisieren wollen. Klicken Sie dann auf `Weiter`.
  
-![ Auswahl der Schüler im Dialogfenster zum Synchronisieren der Daten in die AnsichtAbitur“](/assets/images/berlin/fachwahl/fachwahl4.png)
+![Auswahl der Schüler im Dialogfenster zum Synchronisieren der Daten in die Ansicht `Abitur`](/assets/images/berlin/fachwahl/fachwahl4.png)
 
 2. Wählen Sie bei den weiteren Angaben die zugehörige Abturjahrgang und die entsprechende Prüfungsverordnung für das Abitur aus, die für die zuvor markierten Schüler gelten soll. Klicken Sie dann auf `Weiter`.
 
-![Weitere Angaben im Dialogfenster zum Synchronisieren der Daten in die AnsichtAbitur“](/assets/images/berlin/fachwahl/fachwahl5.png)
+![Weitere Angaben im Dialogfenster zum Synchronisieren der Daten in die Ansicht `Abitur`](/assets/images/berlin/fachwahl/fachwahl5.png)
 
 3. Klicken Sie abschließend auf `Fertigstellen`.
 
-Die Schüler werden jetzt in die AnsichtAbitursynchronisiert.
-In der AnsichtAbiturfinden Sie alle bereits synchronisierten Schüler in der Auswahlliste. Wenn Sie dort einen Schüler markieren und auf die Registerkarte Fachwahl gehen, sehen Sie dort dessen die Fachwahlinformationen.
+Die Schüler werden jetzt in die Ansicht `Abitur` synchronisiert. In der Ansicht `Abitur` finden Sie alle bereits synchronisierten Schüler in der Auswahlliste. Wenn Sie dort einen Schüler markieren und auf die Registerkarte `Fachwahl` gehen, sehen Sie dort dessen die Fachwahlinformationen.
 
-[![Die Fachwahlinformationen für den Schüler "Thomas Müller" unter `Abitur > Fachwahl`][6]][6]
+[![Die Fachwahlinformationen für den gewählten Schüler unter `Abitur > Fachwahl`][6]][6]
 
 ## Fachwahl Layout einstellen
 
@@ -248,17 +244,19 @@ Bei der Übernahme der Fachwahl eines Schülers werden nur die Fächer übernomm
 * in einem der sechs Halbjahre auf der rechten Seite den aktuellen Zeitraum von MAGELLAN zugewiesen haben und
 * die in diesem Halbjahr das Kontrollkästchen markiert haben.
 
-**Beispiel: **
+**Beispiel:**
 
 In MAGELLAN ist der aktuelle Zeitraum das 1. Halbjahr 2021/2022. Der Schüler hat die nachfolgende Fachwahl:
 
 [![Ein Beispiel für die Fachwahl eines Schülers][19]][19]
 
-Die Spalte Q1 entspricht dem Zeitraum "1. Halbjahr 2021/2022“. Übernimmt man nun die Fachwahl im aktuellen Zeitraum, so werden alle Fächer der Fachwahl übernommen bis auf das Fach "PW“, da dieses in der Spalte Q1 nicht markiert ist.
-Auf Basis dieser Zuordnung kann nun die Zuweisung der Fachwahlen zu den Fächern der Schüler wie folgt durchgeführt werden:
+Die Spalte "Q1" entspricht dem Zeitraum "1. Halbjahr 2021/2022“. Übernimmt man nun die Fachwahl im aktuellen Zeitraum, so werden alle Fächer der Fachwahl übernommen bis auf das Fach "PW“, da dieses in der Spalte Q1 nicht markiert ist. Auf Basis dieser Zuordnung kann nun die Zuweisung der Fachwahlen zu den Fächern der Schüler wie folgt durchgeführt werden:
 
 1. Wechseln Sie in der Ansicht `Abitur > Fachwahl`
 2. Klicken Sie im oberen Bereich auf die Schaltfläche `Fachwahl übernehmen`.
+
+[![`Fachwahl übernehmen` aufrufen][23]][23]
+
 3. Markieren Sie die Schüler, deren Fachwahl Sie übernehmen wollen. Standardmäßig werden Fachwahlen für einen Schüler übernommen, wenn der Schüler keine Fächer unter Ansicht `Schüler > Zeugnis > Fächer` im aktuellen Zeitraum besitzt. Soll eine Übernahme der Fachwahlen erfolgen, auch in den Fällen, in welchen der Schüler Fächer unter Ansicht `Schüler> Zeugnis > Fächer` im aktuellen Zeitraum besitzt, so müssen Sie die Option `Vorhandene Fächer in der Ansicht Schüler > Zeugnis > Fächer aktualisieren` auswählen. Sollen bei der Übernahme die eventuell bereits bestehenden Fächer der markierten Schüler nicht zuvor gelöscht werden, so müssen Sie das `Kontrollkästchen Vorhandene Fächer der Schüler nicht löschen` markieren. Klicken Sie dann auf `Weiter`.
 
 [![Der Assistent zur Übernahme der Fachwahlen][20]][20]

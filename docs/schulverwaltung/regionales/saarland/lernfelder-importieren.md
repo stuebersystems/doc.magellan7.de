@@ -2,10 +2,8 @@
 
 Das Saarländische Ministerium stellt ein Liste von Lernfeldern für die Beruflichen Schulen zur Verfügung, die ab der Version 6.0.177 in das Verzeichnis Fächer in MAGELLAN importiert werden kann.
 
-Die Datei enthält eine vollständige Liste der aktuell möglichen Lernfelder. Diese Lernfelder werden in das Verzeichnis Fächer importiert und enthalten die Werte Kürzel, Bezeichnung und das Merkmal  (Zeugnismerkmal aus ```Verzeichnisse > Fächer > Merkmal```), das von den zur Verfügung stehenden Zeugnisberichten  ausgewertet wird.
+Die Datei enthält eine vollständige Liste der aktuell möglichen Lernfelder. Diese Lernfelder werden in das Verzeichnis Fächer importiert und enthalten die Werte Kürzel, Bezeichnung und das Merkmal  (Zeugnismerkmal aus `Schlüsselverzeichnisse > Fächer > Merkmal`), das von den zur Verfügung stehenden Zeugnisberichten  ausgewertet wird.
  
-
-
 !!! info "Hinweis"
 
      Wir empfehlen diese Datei nicht vollständig zu importieren, sondern vor dem Import auf die Zeilen zu reduzieren, die an Ihrer Schule benötigt werden. 
@@ -16,7 +14,7 @@ Die Datei ist nicht direkt im Verzeichnis `Importe > Saarland` zu finden, sonder
 
       Beim Import werden aus Ihrem Verzeichnis Fächer alle bisher nicht verwendeten Fächer entfernt und die neuen Fächer mit eingefügt. Gefüllt werden die Felder Kürzel, Bezeichnung und Merkmal. Im Merkmal wird zum Beispiel der Wert LF1 eingetragen. An diesem Wert erkennen die entsprechend vorbereiteten Zeugnisberichte das Lernfeld 1. 
 
-Folgende Berichte arbeiten mit diesen Werten (Berichte > Zeugnisse > Saarland > Ministerium):
+Folgende Berichte arbeiten mit diesen Werten (...\Berichte\Zeugnisse\Saarland\Ministerium\...):
 
 * SAR-BS-AS-Lernfeld A3 MBK.rpt (erstellt vom Ministerium für Bildung und Kultur Saarland)
 * SAR-BS-HJZ-Lernfeld MBK.rpt (erstellt vom Ministerium für Bildung und Kultur Saarland)
