@@ -35,7 +35,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Problem beim Ändern eines Passwortes für Benutzer mit Umlauten im Namen behoben
 * FIX: Einblenden der Schüler-Zusatzkarte korrigiert
 * FIX: Anzahl der belegten Fachwahlen wird unter `Abitur > Fachwahl` bei Änderung aktualisiert
-* CHANGE: [NRW-SchuelerOnline] Beim Einlesen wurde bisher der Betrieb mit Name1, der Adresse (Straße, PLZ, Ort) und die ExternID abgeglichen. Sollte jetzt ein Betrieb in MAGELLAN an Name1 und Adresse erkannt werden, aber keine ExternID haben, wird der Betrieb nicht neu angelegt, sondern die ExternID ergänzt. 
+* CHANGE: [NRW-SchuelerOnline] Beim Einlesen wurde bisher der Betrieb mit Name1, der Adresse (Straße, PLZ, Ort) und die ExternID abgeglichen. Sollte jetzt ein Betrieb in MAGELLAN an Name1 und Adresse erkannt werden, der aber keine ExternID hat, wird der Betrieb nicht neu angelegt, sondern die ExternID ergänzt.
 
 #### MAGELLAN Bibliothek
 
