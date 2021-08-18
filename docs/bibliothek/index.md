@@ -1,10 +1,10 @@
 # Überblick
 
-Dies ist die elektronische Dokumentation für [MAGELLAN 7 Bibliothek](https://magellan.stueber.de/magellan-library.php).
+Dies ist die elektronische Dokumentation für [MAGELLAN Bibliothek](https://magellan.stueber.de/magellan-library.php).
 
 ## Einführung
 
-MAGELLAN-BIBLIOTHEK ist ein professionelles Softwaremodul zur Verwaltung von Büchern und Lernmitteln an Schulen. Dieses Softwaremodul kann nur in Verbindung mit dem Schulverwaltungsprogramm MAGELLAN 7 eingesetzt werden.
+MAGELLAN-BIBLIOTHEK ist ein professionelles Softwaremodul zur Verwaltung von Büchern und Lernmitteln an Schulen. Dieses Softwaremodul kann nur in Verbindung mit dem Schulverwaltungsprogramm MAGELLAN eingesetzt werden.
 
 In MAGELLAN-BIBLIOTHEK steht Ihnen eine leistungsfähige Datenbank zur Verfügung, mit der Sie auch große Medien- und Ausleiherbestände effizient und zuverlässig verwalten können. Außerdem bietet die Software viele nützliche Werkzeuge, mit denen Sie alle Aufgaben der Bibliotheksverwaltung bequem an Ihrem Rechner durchführen können.
 In den klar geordneten Programmansichten können Sie Ihren Medienbestand erfassen, Ausleiher anlegen, Leihvorgänge abwickeln und Mahnungen ausdrucken. Einfach zu bedienende Datenbank-Assistenten unterstützen Sie bei der Erstellung von Mediensignaturen oder bei der Übernahme von Ausleihern aus MAGELLAN. Mit einem Barcodescanner können Sie im Web-Opac öffentlicher Bibliotheken nach Mediendaten suchen und diese automatisch nach MAGELLAN-BIBLIOTHEK übertragen. Ohne großen Aufwand lassen sich maschinenlesbare Bibliotheksausweise und Signaturetiketten anfertigen. Darüber hinaus können Sie für die Verwaltung Ihres Medienbestandes schnell und einfach fach- und ausleiherspezifische Medienkataloge anlegen.
