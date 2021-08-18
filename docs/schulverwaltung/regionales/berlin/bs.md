@@ -1,5 +1,10 @@
 # Berufsschulnoten
 
+[4]:/assets/images/berlin/bs/bs4.png
+[5]:/assets/images/berlin/bs/bs5.png
+[6]:/assets/images/berlin/bs/bs6.png
+[7]:/assets/images/berlin/bs/bs7.png
+
 ## Allgemeines
 
 Zur zeitraumübergreifenden Endnotenberechnung der Berufsschule und dem anschließenden Zeugnisdruck gehören folgende Aufgaben:
@@ -9,7 +14,7 @@ Zur zeitraumübergreifenden Endnotenberechnung der Berufsschule und dem anschlie
 3. Endnoten für Abgangs- bzw. Abschlusszeugnisse berechnen
 4. Zeugnisbemerkungen eingeben und Zeugnisse drucken
 
-Alle Schritte werden in MAGELLAN ausgeführt. 
+Alle Schritte werden in MAGELLAN ausgeführt.
 
 Um die Noten der Berufsschule des jeweiligen Schülers in MAGELLAN anzuzeigen, klicken Sie in MAGELLAN auf `Berufsschule` in der Symbolleiste links.
 MAGELLAN verfügt über sehr kompakte Funktionen für die gesamte Endnotenberechnung und macht Ihnen so die Arbeit so leicht wie möglich. Es liegt leider in der Natur der Sache, dass zusätzlich von Ihrer Seite aus sehr gute Kenntnisse in der jeweiligen Verordnung erforderlich sind.
@@ -19,11 +24,11 @@ Bevor wir mit der eigentlichen Berechnung beginnen, müssen wir zunächst einige
 
 ## Landesspezifische Skripte für Berlin
 
-Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangszeugnissen wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Berufsschulskript repräsentiert eine spezielle Berechnungsvorschrift für die Noten auf dem Abschluss- bzw. Abgangszeugnis der Berufsschule. 
+Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangszeugnissen wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Berufsschulskript repräsentiert eine spezielle Berechnungsvorschrift für die Noten auf dem Abschluss- bzw. Abgangszeugnis der Berufsschule.
 
 !!! info "Hinweis"
 
-  Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/skriptueberblick/#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
+    Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/skriptueberblick/#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner `Skripte` und dort im jeweiligen Landesordner (z.B. `Skripte\Berlin` für das Bundesland Berlin).
 
@@ -75,7 +80,7 @@ Kürzel |Schlüssel |Bedeutung
 Rel |beliebig  | Religion/Ethik
 Eth |beliebig  | Religion/Ethik
 
-Kürzel (im abgebildeten Fall `Rel` für Religion bzw. `Eth` für Ethik) und Schlüssel können dabei beliebig gewählt werden, entscheidend ist die Zuordnung des Fachs zur Kategorie `Religion/Ethik` im Verzeichnis der Fächer.
+Kürzel (im abgebildeten Fall `Rel` für Religion bzw. `Eth` für Ethik) und Schlüssel können dabei beliebig gewählt werden, entscheidend ist die Zuordnung des Fachs zur Kategorie "Religion/Ethik" im `Schlüsselverzeichnis > Fächer`.
 
 #### Fakultative Fächer
 
@@ -85,17 +90,17 @@ Fach| Fachstatus
 ---|---
 Fra |Wahlb
 
-Besitzt ein Fach die Kategorie `Religion/Ethik` wird es automatisch als fakultatives Fach betrachtet. 
+Besitzt ein Fach die Kategorie "Religion/Ethik", wird es automatisch als fakultatives Fach betrachtet.
 Das Fach Sport/Gesundheitsförderung und fakultative Fächer werden bei der Berechnung des Gesamtnotendurchschnitts in der Berufsschulmatrix nicht berücksichtigt.
 
 ### Wiederholer
 
-Ob ein Schüler im jeweils letzten Zeitraum seiner Laufbahn die Klasse wiederholt, richtet sich nach dem Eintrag unter Ansicht `Schüler` > Laufbahn > Allgemein `im Feld` Wiederholer`. Ist dieses markiert, wiederholt der Schüler die Klasse.
+Ob ein Schüler im jeweils letzten Zeitraum seiner Laufbahn die Klasse wiederholt, richtet sich nach dem Eintrag unter Ansicht `Schüler > Laufbahn > Allgemein` im Feld "Wiederholer". Ist dieses markiert, wiederholt der Schüler die Klasse.
 Für das Skript bedeutet dies, dass er kein Zeugnis zugewiesen bekommt.
 
 ### Kammerprüfung
 
-Ob ein Schüler bei Berufsschulabschluss die Kammerprüfung bestanden hat, richtet sich nach dem Eintrag unter Ansicht `Schüler > Laufbahn > Allgemein` im Feld `Entscheidung`. Da dies ein Schlüsselfeld ist, müssen Sie unter `Verzeichnisse > Entscheidungen` folgenden Eintrag definieren:
+Ob ein Schüler bei Berufsschulabschluss die Kammerprüfung bestanden hat, richtet sich nach dem Eintrag unter Ansicht `Schüler > Laufbahn > Allgemein` im Feld `Entscheidung`. Da dies ein Schlüsselfeld ist, müssen Sie unter `Extras > Schlüsselverzeichnisse > Entscheidungen` folgenden Eintrag definieren:
 
 Kürzel |Schlüssel |Bedeutung
 --|--|--
@@ -118,7 +123,7 @@ ABI |ABI| Abschluss Abitur
 
 ### Ausreichende Fremdsprachenkenntnisse
 
-Ob ein Schüler bei Berufsschulabschluss ausreichende Fremdsprachenkenntnisse besitzt, richtet sich nach dem Eintrag unter Ansicht `Schüler > Laufbahn > Allgemein` im Feld `Empfehlung`. Da dies ein Schlüsselfeld ist, müssen Sie unter `Verzeichnisse > Empfehlungen` folgenden Eintrag definieren:
+Ob ein Schüler bei Berufsschulabschluss ausreichende Fremdsprachenkenntnisse besitzt, richtet sich nach dem Eintrag unter Ansicht `Schüler > Laufbahn > Allgemein` im Feld `Empfehlung`. Da dies ein Schlüsselfeld ist, müssen Sie unter `Extras > Schlüsselverzeichnisse > Empfehlungen` folgenden Eintrag definieren:
 
 Kürzel |Schlüssel |Bedeutung
 --|--|--
@@ -128,7 +133,7 @@ Bei keinem Eintrag im Feld `Empfehlung` hat der Schüler nicht ausreichende Frem
 
 ### Regelstundenzeit des Bildungsgangs
 
-Ob ein Schüler bei Berufsschulabschluss die ausreichende Regelstundenzeit in seinem Bildungsgang besitzt, richtet sich nach den unter dem Bildungsgang des Schülers eingetragenen Regelstunden. Die Regelstunden eines Bildungsgangs definieren Sie unter `Verzeichnisse > Bildungsgänge` im Feld `Statistik-ID`.
+Ob ein Schüler bei Berufsschulabschluss die ausreichende Regelstundenzeit in seinem Bildungsgang besitzt, richtet sich nach den unter dem Bildungsgang des Schülers eingetragenen Regelstunden. Die Regelstunden eines Bildungsgangs definieren Sie unter `Extras > Schlüsselverzeichnisse > Bildungsgänge` im Feld `Statistik-ID`.
 
 Kürzel| Schlüssel |Bedeutung| Statistik-ID
 --|--|--|--
@@ -149,7 +154,7 @@ J|beliebig|Zusätzlicher Unterricht MSA erfolgreich besucht
 
 ## Zeugnisformulare für Abschluss- und Abgangszeugnis
 
-Da das Skript automatisch die jeweiligen Zeugnisformulare den Schülern zuordnet, müsse die Zeugnisformulare zuvor unter `Verzeichnisse/Zeugnisformulare` definiert werden. 
+Da das Skript automatisch die jeweiligen Zeugnisformulare den Schülern zuordnet, müsse die Zeugnisformulare zuvor unter `Extras > Schlüsselverzeichnisse > Zeugnisformulare` definiert werden. 
 
 Bezeichnung| Typ |Datei
 --|--|--
@@ -159,7 +164,7 @@ BER-BS-AZ |beliebig |beliebig
 
 !!! info "Hinweis"
 
-  Die Bezeichnungen BER-BS-AS für das Abschlusszeugnis, BER-BS-MSA für das Zusatzzeugnis Mittlerer Schulabschluss und BER-BS-AZ für das Abgangszeugnis sind fest vorgegeben.
+    Die Bezeichnungen BER-BS-AS für das Abschlusszeugnis, BER-BS-MSA für das Zusatzzeugnis Mittlerer Schulabschluss und BER-BS-AZ für das Abgangszeugnis sind fest vorgegeben.
 
 ## Endnotenberechnung vorbereiten
 
@@ -212,9 +217,9 @@ Bei der Definition der Verordnung für das Skript `BER-BBS-Matrix-2007` müssen 
 
 ## Berufsschuldaten synchronisieren
 
-![Berufsschuldaten synchronisieren](/assets/images/berlin/bs/bs4.png)
+[![Berufsschuldaten synchronisieren][4]][4]
 
-Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf `Berufsschule` klicken und dann auf die Schaltfläche `Synchronisieren` oben im MAGELLAN-Fenster klicken. 
+Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN in die Ansicht `Berufsschule` wechseln und unter `Start` die Schaltfläche `Schüler synchronisieren...` aufrufen.
 
 Beim Synchronisieren geschieht Folgendes:
 
@@ -226,53 +231,56 @@ Damit die Schüler mit allen Fächern, Noten und Faktoren aus den einzelnen Halb
 
 Eintrag|Bedeutung
 --|--
-Zeiträume| Im Verzeichnis der Zeiträume muss das Feld `Art` mit dem Wert `1. Halbjahr` bzw. `2. Halbjahr` gefüllt sein.
-Jahrgang| Bei jeder Klasse der Berufschule muss auf der Registerkarte `Zeiträume` für jeden Zeitraum das Feld `Jahrgang` mit dem Wert `1` (=Grundstufe), `2` (=Fachstufe 1), `3` (=Fachstufe 2) oder `4` (=Fachstufe 3) angegeben werden.
+Zeiträume| Im `Schlüsselverezichnis > Zeoträume` muss das Feld `Art` mit dem Wert `1. Halbjahr` bzw. `2. Halbjahr` gefüllt sein.
+Jahrgang| Bei jeder Klasse der Berufschule muss in der Ansicht  `Klassen > Zeiträume` für jeden Zeitraum das Feld `Jahrgang` mit dem Wert `1` (=Grundstufe), `2` (=Fachstufe 1), `3` (=Fachstufe 2) oder `4` (=Fachstufe 3) angegeben werden.
 
 !!! info "Hinweis"
 
-  Ohne vorstehenden Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
+    Ohne vorstehenden Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
 
 Beim Synchronisieren sollten Sie für die markierten Schüler die Berechnungsverordnung und den Abschlussjahrgang eingeben.
-Klicken Sie nach dem Synchronisieren auf die Schaltfläche `Berufsschule` in der Symbolleiste links im MAGELLAN-Fenster. Es werden alle synchronisierten Schüler auf der Registerkarte `Auswahl` angezeigt.
+Nach dem Synchronisieren werden Ihnen unter `Berufsschule > Auswahl` alle synchronisierten Schüler angezeigt.
 
-Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte wechseln Sie zur Notenmatrix der Berufsschule. Auf dieser Registerkarte finden Sie die Fächer, Unterrichtsarten, Fachstatus inkl. Notenwerte und Faktoren der Schuljahre, falls Sie diese Angaben bereits in MAGELLAN bei den Zeugnisdaten der Schüler gemacht haben sollten. Andernfalls können Sie diese Angaben für die einzelnen Schulhalbjahre 1, 2, 3 bzw. 4 auch hier eingeben.
+Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte `Matrix` wechseln Sie zur Notenmatrix der Berufsschule. Auf dieser finden Sie die Fächer, Unterrichtsarten, Fachstatus inkl. Notenwerte und Faktoren der Schuljahre, falls Sie diese Angaben bereits in MAGELLAN bei den Zeugnisdaten der Schüler gemacht haben sollten. Andernfalls können Sie diese Angaben für die einzelnen Schulhalbjahre 1, 2, 3 bzw. 4 auch hier eingeben.
 
-## Spalte `Faktor` auf der Registerkarte `Matrix`
+## Faktoren für die Endnotenberechnung
 
-Auf der Registerkarte `Matrix` hat die Spalte `Faktor` für einige Skripte eine besondere Bedeutung. Sie gibt im Rahmen der Berechnung der Gesamtnote (auch teilweise `Gesamtnotendurchschnitt` genannt) an, mit welchen Faktoren die Endnoten untereinander verrechnet werden.
+Im Bereich `Berufsschule > Matrix` hat die Spalte "Faktor" für einige Skripte eine besondere Bedeutung. Sie gibt im Rahmen der Berechnung der Gesamtnote (auch teilweise **Gesamtnotendurchschnitt** genannt) an, mit welchen Faktoren die Endnoten untereinander verrechnet werden.
 
-Allen Berufschulverordnungen gemeinsam ist die Tatsache, dass die Fächer für Sport, Religion/Ethik und fakultative Fächer nicht bei der Gesamtnote berücksichtigt werden. Entsprechend wird die Spalte `Faktor` im Rahmen der Synchronisation mit dem Faktor `0` vorbesetzt.
+Allen Berufschulverordnungen gemeinsam ist die Tatsache, dass die Fächer für Sport, Religion/Ethik und fakultative Fächer nicht bei der Gesamtnote berücksichtigt werden. Entsprechend wird die Spalte "Faktor" im Rahmen der Synchronisation mit dem Faktor `0` vorbesetzt.
 
 Wie evtl. die Fächer für Sport, Religion/Ethik und fakultative Fächer speziell zu kennzeichnen sind, ist bei den jeweiligen landesspezifischen Skripten.
 
 ## Fächer und Punkte eingeben
 
-Sollten Sie die Fächer nicht schon unter Ansicht `Schüler > Zeugnis > Leistungen` eingegeben haben, so dass sie beim Synchronisieren übernommen wurden, können Sie das auch direkt auf der Registerkarte `Matrix` machen. Mit der Einfg-Taste oder durch Klick auf das Einfügen-Symbol rechts oben erzeugen Sie eine neue Zeile. Geben Sie das Fach, Unterrichtsart, Fachstatus und die Noten mit dem jeweiligen Faktor für die einzelnen Schuljahre ein.
+Sollten Sie die Fächer nicht schon unter Ansicht `Schüler > Zeugnis > Leistungen` eingegeben haben, so dass sie beim Synchronisieren übernommen wurden, können Sie das auch direkt im Bereich `Berufsschule > Matrix` machen. Mit der <kbd>Einfg-Taste</kbd> oder durch Klick auf das Einfügen-Symbol rechts oben erzeugen Sie eine neue Zeile. Geben Sie das Fach, Unterrichtsart, Fachstatus und die Noten mit dem jeweiligen Faktor für die einzelnen Schuljahre ein.
 
 ## Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten
 
-Auf der Karte Matrix haben Sie die Möglichkeit Fachdaten eines Schülers auch auf andere Schüler zu kopieren. Sie gehen dazu wie folgt vor:
+Unter `Berufsschule > Matrix` haben Sie die Möglichkeit, Fachdaten eines Schülers auch auf andere Schüler zu kopieren. Sie gehen dazu wie folgt vor:
 
-1. Wählen Sie den Schüler aus dessen Fächer Sie kopieren möchten und gehen Sie dann auf die Karte `Matrix`.
+1. Wählen Sie unter `Berufsschule > Auswahl` den Schüler aus, dessen Fächer Sie kopieren möchten und wechseln Sie dann auf die Registerkarte `Matrix`.
 2. Starten Sie den Assistenten mit dem Punkt `Sammelzuweisung`.
+   
+[![Sammelzuweisung][7]][7]
+
 3. Markieren Sie die Schüler, denen die kopierten Angaben zugewiesen werden sollen.
 4. Wählen Sie auf der folgenden Karte aus welche Daten übernommen werden sollen und ob bereits vorhandene Daten überschrieben werden sollen.
 
- ![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten](/assets/images/berlin/bs/bs5.png)
+[![Sammelzuweisung für Fächer, Faktoren, Positionen, Merkmale, Konferenz- und Zeugnisdaten][5]][5]
 
-## Die Spalte `Position`
+## Positionierung der Fächer
 
-Die Position kann als Merkmal für die Reihenfolge der Fächer auf der Registerkarte `Notenmatrix` und auf den Abschluss-/Abgangszeugnis verwendet werden, welche die Berufsschulmatrix nutzen. Die in MAGELLAN mitgelieferten Skripte und Zeugnisformulare für die Berufsschulmatrix verwenden diese Positionsangaben. 
-Klicken Sie auf den Titel `Position`, um die Fächerliste entsprechend zu sortieren.
+Die Position kann als Merkmal für die Reihenfolge der Fächer unter `Berufsschule > Matrix` und auf den Abschluss-/Abgangszeugnis verwendet werden, welche die Berufsschulmatrix nutzen. Die in MAGELLAN mitgelieferten Skripte und Zeugnisformulare für die Berufsschulmatrix verwenden diese Positionsangaben. 
+Klicken Sie auf den Spaltenkopf "Position", um die Fächerliste entsprechend zu sortieren.
 
-## Unterrichtsarten eingeben
+## Unterrichtsarten der Fächer
 
-Geben Sie in der Spalte `Unterrichtsart` für jedes Fach die Unterrichtsart ein. Sie ist vom verwendeten Skript abhängig.
+Geben Sie in der Spalte "Unterrichtsart" für jedes Fach die Unterrichtsart ein. Sie ist vom verwendeten Skript abhängig.
 
-## Fachstatus eingeben
+## Fachstatus der Fächer
 
-Geben Sie in der Spalte `Fachstatus` für jedes Fach den Fachstatus ein. Er ist vom verwendeten Skript abhängig . 
+Geben Sie in der Spalte "Fachstatus" für jedes Fach den Fachstatus ein. Er ist vom verwendeten Skript abhängig . 
 
 ## Endnotenberechnung durchführen
 
@@ -291,7 +299,7 @@ Klicken Sie auf die Schaltfläche `Neu berechnen`, um die Endnoten automatisch d
 
 Im automatisch erzeugten Meldungsfenster werden zusätzliche Statusinformationen zur Berechnung angezeigt. Insbesondere wird hier eine Aussage über die erfolgreiche Durchführung der Berechnung und eventuell notwendige Zwischensummen angezeigt. Die nachfolgende Abbildung zeigt ein Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz.
 
-![ Berechnungsbeispiel für den Berufsschulabschluss in Rheinland-Pfalz](/assets/images/berlin/bs/bs6.png)
+[![Berechnungsbeispiel für den Berufsschulabschluss in Berlin][6]][6]
   
 ## Skript BER-BBS-Matrix-2007
 
@@ -299,7 +307,7 @@ Bei diesem Skript gelten einige zusätzliche Eigenschaften bei der automatischen
 
 ### Endnote
 
-Das Feld `Endnote` eines Fachs wird nur dann neu berechnet, wenn das jeweilige Endnotenfeld des Fachs leer ist. Andernfalls wird davon ausgegangen, dass die Endnote absichtlich manuell eingeben worden ist.
+Die Spalte "Endnote" eines Fachs wird nur dann neu berechnet, wenn das jeweilige Endnotenfeld des Fachs leer ist. Andernfalls wird davon ausgegangen, dass die Endnote absichtlich manuell eingeben worden ist.
 Über die Schaltfläche Endnoten löschen können Sie alle Endnoten in der Spalte `Endnote` des jeweiligen Schülers löschen.
 
 #### Faktor der Endnote
@@ -308,11 +316,11 @@ Das Feld `Faktor` der Endnote wird automatisch berechnet, sobald die Schaltfläc
 
 #### Zusätzlicher Abschluss
 
-In Abhängigkeit vom erfolgreichen Berufsschulabschluss wird im Rahmen der automatischen Berechnung gemäß der nach der Verordnung zu erfüllenden Voraussetzungen der zusätzliche Abschluss berechnet und dem Schüler zugewiesen. Dieser Abschluss wird auf der Registerkarte `Abschluss` im Feld `Abschluss 2` eingetragen.
+In Abhängigkeit vom erfolgreichen Berufsschulabschluss wird im Rahmen der automatischen Berechnung gemäß der nach der Verordnung zu erfüllenden Voraussetzungen der zusätzliche Abschluss berechnet und dem Schüler zugewiesen. Dieser Abschluss wird im Bereich `Berufsschule > Abschluss` im Feld "Abschluss 2" eingetragen.
 
 #### Zeugnis
 
-In Abhängigkeit vom erfolgreichen Berufsschulabschluss wird im Rahmen der automatischen Berechnung gemäß der nach der Verordnung zu erfüllenden Voraussetzungen das Abschluss- bzw. Abgangszeugnis dem Schüler unter Ansicht `Schüler` > Zeugnis > Zeugnis` unter Zeugnisformulare automatisch zugewiesen. Der Ausdruck der Zeugnisse kann dann später über das automatisierte Drucken von Zeugnisformularen erfolgen.
+In Abhängigkeit vom erfolgreichen Berufsschulabschluss wird im Rahmen der automatischen Berechnung gemäß der nach der Verordnung zu erfüllenden Voraussetzungen das Abschluss- bzw. Abgangszeugnis dem Schüler unter Ansicht `Schüler > Zeugnis > Zeugnis` unter Zeugnisformulare automatisch zugewiesen. Der Ausdruck der Zeugnisse kann dann später über das automatisierte Drucken von Zeugnisformularen erfolgen.
 
 ## Manuelle Eingabe/Korrektur der Endnoten
 
@@ -323,23 +331,22 @@ Insbesondere können Sie die manuelle Eingabe aber im Sinne der Korrektur einer 
 
 Abschluss- bzw. Abgangsdaten der Berufsschule sind sensible Daten. Über die Benutzerverwaltung des MAGELLAN-ADMINISTRATORs wird festgelegt, wer Zugang zu welchen Daten hat. Wie aber können Sie feststellen, dass Daten unter `Berufsschule` geändert worden sind und sei es versehentlich durch Sie selbst? 
 
-Bei Änderungen auf den Berufsschule-Registerkarten vermerkt MAGELLAN automatisch das aktuelle Datum und die Kennung des aktuellen Benutzers. Auf der Registerkarte `Auswahl` werden für jeden Schüler das Datum und die Kennung desjenigen angezeigt, der diese Angaben bestätigt hat. So ist überprüfbar, wer wann Daten auf der Registerkarte `Berufsschule` eines Schülers geändert hat.
+Bei Änderungen auf den Registerkarten des Bereiches `Berufschule` vermerkt MAGELLAN automatisch das aktuelle Datum und die Kennung des aktuellen Benutzers. Unter `Berufsschule > Auswahl` werden für jeden Schüler das Datum und die Kennung desjenigen angezeigt, der diese Angaben bestätigt hat. So ist überprüfbar, wer wann Daten im Bereich `Berufsschule` eines Schülers geändert hat.
 
 ## Zeitraumübergreifende Zeugnisse drucken
 
-Im Kapitel 4 werden die verfügbaren Abgangszeugnisse und Abschlusszeugnisse der Berufsschule aufgelistet. Sollten für Ihr Bundesland keine zeitraumübergreifenden Zeugnisse verfügbar sein, können Sie diese selbst mit Crystal Reports erstellen, indem Sie das Zeugnis eines anderen Bundeslandes als Vorlage nehmen oder Sie geben STÜBER SYSTEMS den Auftrag, das Zeugnis für Sie zu erstellen.
+Unter Im Kapitel 4 werden die verfügbaren Abgangszeugnisse und Abschlusszeugnisse der Berufsschule aufgelistet. Sollten für Ihr Bundesland keine zeitraumübergreifenden Zeugnisse verfügbar sein, können Sie diese selbst mit Crystal Reports erstellen, indem Sie das Zeugnis eines anderen Bundeslandes als Vorlage nehmen oder Sie geben STÜBER SYSTEMS den Auftrag, das Zeugnis für Sie zu erstellen.
 
 Alle zeitraumübergreifenden Zeugnisse der Berufsschule basieren auf den Eintragungen unter Berufsschule.
 Klicken Sie bei den Berufsschuldaten des Schülers auf die Registerkarte `Zeugnis`, um die Zeugnisbemerkungen anzugeben. Zusammen mit den Angaben auf der Registerkarte `Notenmatrix` und den allgemeine Daten zum Schüler verfügen Sie dann über alle Daten, um das zeitraumübergreifende Abschluss- bzw. Abgangszeugnis auszudrucken.
 
 So drucken Sie zeitraumübergreifende Abschluss- und Abgangszeugnisse der Berufsschule:
 
-1. Markieren Sie in der Liste der Schüler der Berufsschule per Mausklick oder mit Umschalt+Mausklick oder Strg+Mausklick die entsprechenden Schüler. 
-2. Klicken Sie auf `Bearbeiten` und `Drucken` und `Zeugnisse drucken` und wählen Sie das Zeugnisformular und klicken Sie auf `Drucken`.
+1. Markieren Sie in der Auswahlliste der Schüler im Bereich `Berufsschule` per Mausklick oder mit <kbd>Umschalt</kbd> + Mausklick oder <kbd>Strg</kbd>+ Mausklick die entsprechenden Schüler. 
+2. Gehen Sie nun über `Start > Drucken > Zeugnisse drucken` und wählen Sie das gewünschte Zeugnisformular aus.
 
-Optional können Sie auch über das Schüler-Formular drucken.
+Optional können Sie auch über den Bereich `Schüler` den Ausdruck starten.
 
-## Zeugnisformulare aus dem Berufsschulmenü drucken
+## Zeugnisformulare aus dem Menü `Berufsschule` drucken
 
-Um die beim Schüler unter Ansicht `Schüler > Zeugnis > Zeugnis > Zeugnisformulare` hinterlegten Zeugnisformulare automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der `Auswahlliste Berufsschule` markieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen.
-
+Um die beim Schüler unter Ansicht `Schüler > Zeugnis > Zeugnis > Zeugnisformulare` hinterlegten Zeugnisformulare automatisiert zu drucken, müssen Sie den bzw. die entsprechenden Schüler unter `Berufsschule > Auswahl` arkieren und dann mit der rechten Maustaste den Befehl `Drucken > Zeugnisformulare drucken` wählen.
