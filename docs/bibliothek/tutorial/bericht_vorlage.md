@@ -1,5 +1,11 @@
 # Berichte und Vorlagen organisieren
 
+[1]:/assets/images/bibliothek/vorlagen01.png
+[2]:/assets/images/bibliothek/vorlagen02.png
+[3]:/assets/images/bibliothek/vorlagen03.png
+[4]:/assets/images/bibliothek/vorlagen04.png
+[5]:/assets/images/bibliothek/vorlagen05.png
+
 In MAGELLAN-BIBLIOTHEK stehen Ihnen eine Reihe von Berichtsdateien und Word-Vorlagen zur Verfügung, die Sie für das Erstellen von Datenbankberichten und Serienbriefen nutzen können. Auf diese Formatvorlagen für den Berichts- und Seriendruck können Sie, aus verschiedenen Ansichten, Listen und Assistenten heraus zugreifen. Zusätzlich zu den bereits existierenden Formatvorlagen können Sie eigene Berichtsdateien und Word-Vorlagen erstellen. Damit Sie auf Ihre selbst erstellten Dateien auch in MAGELLAN-BIBLIOTHEK zugreifen können, müssen Sie diese dem Berichts- und Vorlagenverzeichnis hinzufügen. Außerdem können Sie bereits mitgelieferte und neu erstellte Dateien nach selbst gewählten Kriterien reorganisieren. Wie Sie dabei vorgehen müssen, erfahren Sie im Kapitel [Seriendruck > Vorlagen organisieren](seriendruck.md).
 
 Ihre Berichts- und Vorlagendateien werden bei der Installation im Programmverzeichnis von MAGELLAN-BIBLIOTHEK hinterlegt. Dabei werden standardmäßig die folgenden Pfade genutzt:
@@ -29,7 +35,7 @@ Um einen neuen Ordner für Ihre Berichts- bzw. Vorlagendateien anzulegen gehen S
 
 1. Führen Sie den Menüpunkt `Extras > Berichte organisieren` bzw. `Extras > Vorlagen organisieren` aus.
    
-![Auswahl Berichte/Vorlagen organisieren](/assets/images/bibliothek/vorlagen02.png)
+[![Auswahl Berichte/Vorlagen organisieren][2]][2]
 
 2. Betätigen Sie in der Verzeichnisliste am linken Rand des erscheinenden Dialogfenster die Schaltfläche des gewünschten Unterordners .
 3. Betätigen Sie die Schaltfläche `Neuer Ordner` in der Symbolleiste des Dialogfensters: ein Ordner-Symbol erscheint im Dateifenster .
@@ -38,11 +44,11 @@ Um einen neuen Ordner für Ihre Berichts- bzw. Vorlagendateien anzulegen gehen S
 
 Der neue Ordner ist nun angelegt und kann als Speicherort für Dateien genutzt werden.
 
-![Im Dialogfenster `Berichte organisieren` wurde im Verzeichnis `Mahnungen` ein neuer Ordner angelegt.](/assets/images/bibliothek/vorlagen01.png)
+[![Im Dialogfenster `Berichte organisieren` wurde im Verzeichnis `Mahnungen` ein neuer Ordner angelegt.][1]][1]
 
 Wenn Sie den Ordner wieder löschen möchten, markieren Sie diesen bitte zunächst und betätigen Sie die Schaltfläche `Löschen` in der Symbolleiste des Dialogfensters. Der Ordner und sein gesamter Inhalt wird in der Folge aus dem Berichte-Verzeichnis gelöscht.
 
-![Unterordner löschen](/assets/images/bibliothek/vorlagen03.png)
+[![Unterordner löschen][3]][3]
 
 ## Ordner/ Datei verschieben
 
@@ -66,7 +72,7 @@ Um Ihrem Berichteverzeichnis eine neue Datei hinzuzufügen, führen Sie bitte di
 2. Betätigen Sie in der Verzeichnisliste am linken Rand des erscheinenden Dialogfensters die Schaltfläche des gewünschten Unterordners.
 3. Klicken Sie mit der linken Maustaste auf die Schaltfläche `Dokumente importieren`.
 
-![Dokumente importieren](/assets/images/bibliothek/vorlagen04.png)
+[![Dokumente importieren][4]][4]
 
 4. Wählen Sie im erscheinenden Dialogfenster die Berichtsdatei aus dem Windows-Explorer und bestätigen Sie Ihre Auswahl mit `Öffnen`.
 5. Die importierte Berichts- bzw. Vorlagendatei wird nun im Dateifenster mit angezeigt und kann in MAGELLAN-BIBLIOTHEK genutzt werden.
@@ -80,7 +86,7 @@ Wenn Sie eine Datei aus Ihrem Berichte- bzw. Vorlagenverzeichnis in einen andere
 2. Betätigen Sie in der Verzeichnisliste am linken Rand des erscheinenden Dialogfenster die Schaltfläche des gewünschten Unterordners.
 3. Klicken Sie mit der linken Maustaste auf die Schaltfläche `Dokumente exportieren`.
 
-![Dokumente exportieren](/assets/images/bibliothek/vorlagen05.png)
+[![Dokumente exportieren][5]][5]
 
 4. Wählen Sie im erscheinenden Dialogfenster ein Zielverzeichnis aus dem Windows-Explorer und bestätigen Sie Ihre Auswahl mit `OK`.
 

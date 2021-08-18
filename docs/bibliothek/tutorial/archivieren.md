@@ -1,5 +1,7 @@
 # Archivieren
 
+[1]:/assets/images/bibliothek/archiv01.png
+
 ## Berichte archivieren
 
 MAGELLAN-BIBLIOTHEK unterstützt Sie bei der Archivierung Ihrer Dokumente. Sie haben die Möglichkeit verschiedene Berichte, die Sie im Zusammenhang mit dem Leihbetrieb und dem Mahnwesen erstellen, standardmäßig in elektronischer Form zu speichern. Wenn Sie diese Funktion aktivieren wird von Ihren gedruckten Berichten automatisch ein Duplikat als PDF-Dokument erstellt und in einem von Ihnen bestimmten Verzeichnis abgelegt.
@@ -82,4 +84,4 @@ In der MAGELLAN Dokumentenverwaltung passiert dabei Folgendes:
 
 Sobald Sie den Bericht `Medienvorgänge (Standard)` drucken, werden für alle markierten Ausleiher Unterverzeichnisse mit ihrer ID angelegt. In diesen Unterverzeichnissen wird wiederum ein Ordner angelegt, der den gewünschten Namen des Vorgangsordners trägt. Alle ausgedruckten Berichte `Medienvorgänge (Standard)`, welche Leihvorgänge dieser Ausleiher enthalten, werden in der Folge in diesem Ordner gespeichert.
 
-![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ](/assets/images/bibliothek/archiv01.png)
+[![Auf der Registerkarte `Dokumente` des Dialogfensters `Optionen` aktivieren Sie unter dem Reiter `Crystal Reports` die elektronische Archivierung Ihrer Quittungen, Mahnungen und Vorgangsberichte ][1]][1]
