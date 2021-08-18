@@ -1,5 +1,11 @@
 # Ausleiher anlegen
 
+[1]:/assets/images/bibliothek/ausleiher_registrieren.png
+[2]:/assets/images/bibliothek/ausleiher_markieren.png
+[3]:/assets/images/bibliothek/ausleiher_erlaubnis.png
+[4]:/assets/images/bibliothek/ausleiher_fertigstellen.png
+[5]:/assets/images/bibliothek/schueler01.png
+
 In diesem Abschnitt erfahren Sie, wie Sie verschiedene Nutzergruppen an Ihrer Schule in MAGELLAN-BIBLIOTHEK als Ausleiher anlegen können.
 
 Grundsätzlich gilt: Sie können in MAGELLAN-BIBLIOTHEK keine Benutzerdaten neu erfassen, sondern müssen auf die bereits im Basismodul erfassten Personal- und Schülerdaten zurückgreifen. Wenn Sie einen Bibliotheksnutzer anlegen möchten, der im Basismodul nicht erfasst ist, so müssen Sie dessen persönliche Daten zunächst im Basismodul aufnehmen, bevor Sie diese im Bibliotheksmodul nutzen können. Als potenzielle Bibliotheksnutzer stehen Ihnen drei verschiedene Personenkreise aus dem Basismodul zur Verfügung:
@@ -33,7 +39,7 @@ Den Assistenten zur Übernahme neuer Ausleiher starten Sie folgendermaßen:
 2. Betätigen Sie die Schaltfläche `Neuer Datensatz` in der Symbolleiste des Programmfensters.
    Der Übernahmeassistent `Neuer Ausleiher` öffnet sich .
 
-![Ausleiher registrieren](/assets/images/bibliothek/ausleiher_registrieren.png)
+[![Ausleiher registrieren][1]][1]
 
 Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die Sie in die MAGELLAN BIBLIOTHEK übernehmen möchten. Für die Auswahl steht Ihnen je nachdem in welcher Ansicht Sie sich befinden eine Liste der Schüler, Lehrer bzw. Personen zur Verfügung, die Sie noch nicht als Ausleiher angelegt haben. Sie haben verschiedene Möglichkeiten einzelne oder mehrere Vertreter aus dieser Liste auszuwählen.
 
@@ -42,7 +48,7 @@ Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die S
 6. Wählen Sie eine fortlaufende Reihe von Vertretern aus, indem Sie die Umschalt-Taste gedrückt halten und mit der linken Maustaste zunächst die Anfangs- und dann die Endzeile dieser Reihe markieren.
 7. Wählen Sie alle Vertreter aus, indem Sie die Schaltfläche `Alles Markieren` betätigen, die sich im Dialogfenster links unter der Auswahlliste befindet.
 
-![Ausleiher markieren](/assets/images/bibliothek/ausleiher_markieren.png)
+[![Ausleiher markieren][2]][2]
 
 !!! info "Hinweis"
 
@@ -52,7 +58,7 @@ Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die S
 11. `Gültig von` - Dieses Feld ist standardmäßig mit dem aktuellen Datum der Systemzeit Ihres Rechners voreingestellt. Dieses Datum kann geändert werden, wenn z.B. die Ausleiherlaubnis nicht sofort, sondern erst zu einem späteren Zeitpunkt wirksam werden soll. 
 12. `Gültig bis` - Dieses Feld ist standardmäßig leer. Sie müssen hier auch kein Datum eintragen, wenn Sie den ausgewählten Nutzern ein bis auf Weiteres unbefristetes Leihrecht einräumen möchten. Sollten Sie hingegen das Leihrecht von vornherein auf eine bestimmte Dauer, z.B. ein Schulhalbjahr beschränken wollen, so geben Sie hier bitte das entsprechende Datum an.
 
-![Erlaubnis zur Ausleihe angeben](/assets/images/bibliothek/ausleiher_erlaubnis.png)
+[![Erlaubnis zur Ausleihe angeben][3]][3]
 
 13. Bestätigen Sie Ihre Angaben mit `Weiter` und Sie gelangen zur letzten Seite des Assistenten, auf der Sie die Übernahme der ausgewählten Schüler, Lehrer oder Personen fertigstellen können. Hier erhalten Sie Gelegenheit zu entscheiden, ob Sie die ausgewählten Vertreter mit dem eingegebenen Berechtigungszeitraum in der Datenbank speichern möchten oder nicht. 
 
@@ -63,7 +69,7 @@ An dieser Stelle stehen Ihnen drei Optionen zur Verfügung:
 * Klicken Sie auf die Schaltfläche `Fertigstellen`, um die ausgewählten Vertreter mit dem eingegebenen Berechtigungszeitraum in der Datenbank zu speichern.
 * Nach dem Bestätigen der Option `Fertigstellen` weist Sie ein grüner Fortschrittsbalken auf den Stand der Übernahme hin. Sobald die Übernahme abgeschlossen ist, schließt sich der Übernahmeassistent `Neue Ausleiher` automatisch und Sie befinden sich auf der Registerkarte `Auswahl` der Ansicht, von der aus Sie den Assistenten gestartet haben. Wenn Sie weitere Ausleiher übernehmen möchten, müssen Sie den Übernahmeassistenten erneut öffnen.
 
-![Übernahme der Ausleiher fertigstellen](/assets/images/bibliothek/ausleiher_fertigstellen.png)
+[![Übernahme der Ausleiher fertigstellen][4]][4]
 
 ### Aufgabe 11
 
@@ -82,7 +88,7 @@ Die mit dem Assistenten `Neue Ausleiher` übertragenen Nutzerdaten werden in den
 
 Sie verfügen jeweils über die Registerkarten `Auswahl`, `Daten` und `Vorgänge`:
 
-![Schüler > Registerkarten](/assets/images/bibliothek/schueler01.png)
+[![Schüler > Registerkarten][[5]][5]
 
 Register | Inhalt
 --|--

@@ -1,5 +1,13 @@
 # Leihvorgänge abwickeln
 
+[1]:/assets/images/bibliothek/ausleihe_rueckgabe.png
+[2]:/assets/images/bibliothek/sammelaktion.png
+
+[13]:/assets/images/bibliothek/13.png
+[14]:/assets/images/bibliothek/14.png
+[15]:/assets/images/bibliothek/15.png
+
+
 Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen. Sie verfügen nun über die Datenbasis, um die dafür erforderlichen Aktionen durchzuführen. 
 
 Wie erfolgt nun die Abwicklung des eigentlichen Leihvorgangs von der Ausleihe bis zur Rückgabe des Mediums? Lesen Sie dazu bitte dieses Kapitel. 
@@ -8,7 +16,7 @@ Wie Sie darüberhinaus Mahnungen für überzogene Medienexemplare erstellen kön
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
-![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.](/assets/images/bibliothek/ausleihe_rueckgabe.png)
+[![Über die Datenmaske `Ausleihe & Rückgabe` wickeln Sie Ihre Leihvorgänge ab.][1]][1]
 
 Die Datenmaske `Ausleihe & Rückgabe` ist in verschiedene Segmente unterteilt, die Sie bei der Durchführung der folgenden Teilschritte unterstützen:
 
@@ -16,13 +24,13 @@ Die Datenmaske `Ausleihe & Rückgabe` ist in verschiedene Segmente unterteilt, d
 
 Im Segment `Vorgaben` entscheiden Sie mit dem Auswahlfeld `Sammelaktion`, ob ein Leihvorgang ein oder mehrere Ausleiher umfassen soll bzw. ob Sie eine Sammelbearbeitung von Exemplaren durchführen möchten. Wenn Sie einen Einzelvorgang durchführen möchten, klicken Sie bitte im Feld `Sammelaktion` auf die Schaltfläche mit dem Pfeilsymbol und wählen Sie den Eintrag `Keine Sammelaktion` aus dem Aufklappmenü. Um stattdessen eine Sammelaktion auszuführen, wählen Sie einen der anderen Einträge aus dem Aufklappmenü.
 
-![Einzel- oder Sammelationen abwickeln](/assets/images/bibliothek/sammelaktion.png)
+[![Einzel- oder Sammelationen abwickeln][2]][2]
 
 ## Vorgaben: Leihfrist festlegen
 
 Im Eingabefeld `Vorgabe: Ausleihe bis` bestimmen Sie die Dauer des Ausleihzeitraums für den aktuellen Leihvorgang. Wenn Sie die Datenmaske das erste Mal öffnen ist standardmäßig ein Leihzeitraum von 10 Tagen voreingestellt. Sie können das Datum für den aktuellen Leihvorgang ändern, indem Sie ein neues Datum eintippen oder die Datumsangaben mit dem hinterlegten Kalender eingeben. Der Kalender öffnet sich, wenn Sie mit der linken Maustaste auf die Pfeilschältfläche des Eingabefelds klicken.
 
-![Leihfrist festlegen](/assets/images/bibliothek/leihfrist_festlegen.png)
+[![Leihfrist festlegen][13]][13]
 
 Um den standardmäßig voreingestellten Leihzeitraum von 10 Tagen zu ändern, führen Sie bitte die folgenden Schritte aus:
 
@@ -33,7 +41,7 @@ Um den standardmäßig voreingestellten Leihzeitraum von 10 Tagen zu ändern, f�
 
 Die Änderung fließt ab dem nächsten Aufruf der Ansicht `Ausleihe` als neuer Standardwert in die Berechnung der Leihfrist ein.
 
-![Leihfrist standardmäßig voreinstellen](/assets/images/bibliothek/leihfrist_festlegen01.png)
+[![Leihfrist standardmäßig voreinstellen][14]][14]
 
 ## Ausleiher suchen und auswählen
 
@@ -41,7 +49,7 @@ Bevor Sie den Ausleiher festlegen können, müssen Sie diesen in der Datenbank s
 
 1. Geben Sie im Eingabefeld `Barcode` die Barcodenummer des Ausleihers ein. Lesen Sie dazu mit Hilfe eines Barcodescanners den Strichcode ein, der sich auf dem BIBLIOTHEKsausweis des Ausleihers befindet. Ist die Barcodenummer in der Datenbank vorhanden, findet die Auswahl des Ausleihers automatisch statt. Die zugehörigen Angaben zu Name und Anschrift werden in den Datenfeldern des Segments `Ausleiher` hinterlegt. Möchten Sie die getroffene Auswahl korrigieren, so lesen Sie bitte den Barcode eines anderen Ausleihers ein.
 
-![Ausleiher über Barcode suchen](/assets/images/bibliothek/ausleihe01.png)
+[![Ausleiher über Barcode suchen][15]][15]
 
 ODER
 
