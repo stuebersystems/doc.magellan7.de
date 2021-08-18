@@ -4,7 +4,7 @@
 
 !!! info "Hinweis"
 
-    Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN 7.
+    Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN.
 
 ## Einrichten des OPAC-Research
 

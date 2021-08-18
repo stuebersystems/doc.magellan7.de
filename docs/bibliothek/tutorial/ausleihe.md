@@ -7,7 +7,6 @@
 [14]:/assets/images/bibliothek/14.png
 [15]:/assets/images/bibliothek/15.png
 
-
 Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen. Sie verfügen nun über die Datenbasis, um die dafür erforderlichen Aktionen durchzuführen. 
 
 Wie erfolgt nun die Abwicklung des eigentlichen Leihvorgangs von der Ausleihe bis zur Rückgabe des Mediums? Lesen Sie dazu bitte dieses Kapitel. 

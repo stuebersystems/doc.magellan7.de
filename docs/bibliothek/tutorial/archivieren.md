@@ -17,9 +17,9 @@ Diese Berichtsarten werden jeweils pro Ausleiher in der MAGELLAN-Dokumentenverwa
 
 | Betriebssystem | Pfad                                                  |
 | -------------- |------------------------------------------- |
-| Windows Vista  | `C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7\Dokumente`                                |
-| Windows XP     | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 7\Dokumente` |
-| Windows 2000   | `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 7\Dokumente`         |
+| Windows Vista  | `C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8\Dokumente`                                |
+| Windows XP     | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 8\Dokumente` |
+| Windows 2000   | `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 8\Dokumente`         |
 
 Die Dokumente werden getrennt nach Schüler, Lehrer und Personen verwaltet. Für jede Ausleihergruppe wird in der der MAGELLAN-Dokumentenverwaltung jeweils ein eigenes Unterverzeichnis angelegt.
 
@@ -32,11 +32,11 @@ Die Dokumente werden getrennt nach Schüler, Lehrer und Personen verwaltet. Für
     
     Dokumente für den Schüler mit der ID 47 würden aus der Schulverwaltung heraus gespeichert werden unter:
     
-    `...\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\47`
+    `...\Documents\Stueber Systems\MAGELLAN 8\Dokumente\Schueler\47`
 
     Bibliotheksdokumente werden gespeichert unter:
 
-     `...\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\47\Bibliothek`
+     `...\Documents\Stueber Systems\MAGELLAN 8\Dokumente\Schueler\47\Bibliothek`
      
      Das Wechseln in die nächsthöhere Ebene des Verzeichnisses ist aus der Bibliothek heraus unterbunden.
     

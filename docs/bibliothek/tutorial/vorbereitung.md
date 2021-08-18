@@ -10,9 +10,9 @@ Die dargestellten Übungen basieren auf Beispieldaten, die in der von uns mitgel
 
 | Betriebssystem | Pfad                                                                                          |
 | -------------- | --------------------------------------------------------------------------------------------- |
-| Windows Vista  | C:\Users\Public\Documents\Stüber Systems\Magellan 6\Datenbank                                 |
-| Windows XP     | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 6\Datenbank |
-| Windows 2000   | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 6\Datenbank       |
+| Windows Vista  | C:\Users\Public\Documents\Stüber Systems\MAGELLAN 8\Datenbank                                 |
+| Windows XP     | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 8\Datenbank |
+| Windows 2000   | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 8\Datenbank       |
 
 Wenn Sie MAGELLAN-BIBLIOTHEK nach der Installation das erste Mal starten, greifen Sie automatisch auf die dort hinterlegte Beispieldatenbank zurück.
 

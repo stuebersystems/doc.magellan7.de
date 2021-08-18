@@ -12,15 +12,15 @@ Ihre Berichts- und Vorlagendateien werden bei der Installation im Programmverzei
 
 Betriebssystem|Berichtsdateien
 --|--
-Windows Vista| `C:\Users\Public\Documents\Stueber Software\Magellan 7\Berichte`
-Windows XP| `C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\Magellan 7\Berichte`
-Windows 2000| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 7\Berichte`
+Windows Vista| `C:\Users\Public\Documents\Stueber Software\MAGELLAN 8\Berichte`
+Windows XP| `C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\MAGELLAN 8\Berichte`
+Windows 2000| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 8\Berichte`
 
 Betriebssystem|Word-Vorlagen
 --|--
-Windows Vista| `C:\Users\Public\Documents\Stueber Software\Magellan 7\Vorlagen`
-Windows XP |`C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\Magellan 7\Vorlagen`
-Windows 2000 |`C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 7\Vorlagen`
+Windows Vista| `C:\Users\Public\Documents\Stueber Software\MAGELLAN 8\Vorlagen`
+Windows XP |`C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\MAGELLAN 8\Vorlagen`
+Windows 2000 |`C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 8\Vorlagen`
 
 Die Verzeichnisse für Ihre Berichts- und Vorlagendateien verzweigen sich in Unterordner, die die Dateien sowohl des Basismoduls als auch des Bibliotheksmoduls enthalten. Auf die jeweilige Verzeichnisstruktur können Sie in MAGELLAN-BIBLIOTHEK zugreifen und Sie von dort aus verwalten. Dabei stehen Ihnen die folgenden Optionen zur Verfügung:
 
