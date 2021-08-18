@@ -35,6 +35,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Problem beim Ändern eines Passwortes für Benutzer mit Umlauten im Namen behoben
 * FIX: Einblenden der Schüler-Zusatzkarte korrigiert
 * FIX: Anzahl der belegten Fachwahlen wird unter `Abitur > Fachwahl` bei Änderung aktualisiert
+* CHANGE: [NRW-SchuelerOnline] Beim Einlesen wurde bisher der Betrieb mit Name1, der Adresse (Straße, PLZ, Ort) und die ExternID abgeglichen. Sollte jetzt ein Betrieb in MAGELLAN an Name1 und Adresse erkannt werden, aber keine ExternID haben, wird der Betrieb nicht neu angelegt, sondern die ExternID ergänzt. 
 
 #### MAGELLAN Bibliothek
 
@@ -122,7 +123,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: Beim Start des Seriendrucks wird nur noch das Seriendruckdokument geöffnet, kein zweites bereits verbundenes Dokument
 * CHANGE: Wenn die Option unter `Datenbank > Optionen > Dokumente > Seriendruck` für keinen Menüpunkt aktiviert ist, dann wird im Seriendruckassistenten die Option ausgegraut dargestellt, der nachfolgende Punkt ist aktiviert.
 * CHANGE: Der `Name 1` und das `Kürzel` eines Betriebes wurden unter `Schüler/Bewerber > Ausbildung` nur für den Ausbildungsdatensatz eingeblendet, wenn auch das Betriebekürzel im Menü `Betriebe` gefüllt war. Durch eine Änderung genügt jetzt auch der Eintrag unter `Betriebe > Daten > Name1`.
-* CHANGE: [NRW] Beim Import aus `SchuelerOnline` wird der Wert aus dem Feld "Beratung" nicht mehr übertragen. Aktuell erfolgte der Übertrag (Wert: 0,1,2) nach `Bewerber > Merkmale > Bemerkung` und hatte hier keine Aussagekraft.
+* CHANGE: [NRW-SchuelerOnline] Beim Import aus `SchuelerOnline` wird der Wert aus dem Feld "Beratung" nicht mehr übertragen. Aktuell erfolgte der Übertrag (Wert: 0,1,2) nach `Bewerber > Merkmale > Bemerkung` und hatte hier keine Aussagekraft.
 * NEW: Unter `Bewerber > Merkmal` wurde das Bemerkungsfeld (Memo) durch eine Liste ersetzt, Bemerkungen werden übertragen.
 * NEW: Unter `Bewerber > Daten4` wurden die Felder `Bildungskarte` und `Bildungskarte bis` ergänzt.
 
