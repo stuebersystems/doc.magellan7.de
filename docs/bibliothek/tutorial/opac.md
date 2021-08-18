@@ -85,6 +85,6 @@ Bestätigen Sie die Eingabe mit `Weiter`. Sie gelangen auf die nächste Register
 
 ![Neues Medium erfassen](/assets/images/bibliothek/opac10.png)
 
-ie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt.
+Sie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt.
 
 Der ausgewählte Eintrag wird in die MAGELLAN BIBLIOTHEK übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
