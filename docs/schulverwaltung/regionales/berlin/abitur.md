@@ -1,5 +1,16 @@
 # Das Abitur
 
+[1]:/assets/images/berlin/abitur/abitur1.png
+[2]:/assets/images/berlin/abitur/abitur2.png
+[3]:/assets/images/berlin/abitur/abitur3.png
+[4]:/assets/images/berlin/abitur/abitur4.png
+[5]:/assets/images/berlin/abitur/abitur5.png
+[6]:/assets/images/berlin/abitur/abitur6.png
+
+[16]:/assets/images/berlin/abitur/abitur16.png
+[17]:/assets/images/berlin/abitur/abitur17.png
+
+
 ## Die Abiturzulassungsüberprüfung
 
 Die Überprüfung der Abiturzulassung gliedert sich in zwei aufeinander folgende Schritte:
@@ -9,31 +20,28 @@ Die Überprüfung der Abiturzulassung gliedert sich in zwei aufeinander folgende
 
 Diese Schritte werden in den nachfolgenden Abschnitten erläutert.
 
-![Registerkarte „Qualifikation“ in der Ansicht „Abitur.](/assets/images/berlin/abitur/abitur1.png)
+[![Bereich `Abitur > Qualifikation`][1]][1]
 
 !!! info "Hinweis"
 
     Überprüfen Sie, ob für den Schüler unter „Prüfungsordnung“ die korrekte Prüfungsordnung eingestellt ist bzw. wählen Sie die entsprechende aus.
-    >Sie können auf der Registerkarte „Qualifikation“ einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche `Layout anpassen…`.
+    Sie können im Bereich `Abitur > Qualifikation` einzelne Spalten ausblenden bzw. die Spaltenüberschrift jeder einzelnen Spalte modifizieren. Klicken Sie dazu auf die Schaltfläche `Layout anpassen…`.
 
 ### Was soll berechnet werden?
 
-Stellen Sie den „Status“ auf L`eistungsfachqualifikation berechnen` oder `Gesamtqualifikation berechnen`. Beide Berechnungen unterscheiden sich nur darin, dass bei der Berechnung der Leistungsfachqualifikation der GK-Bereich nicht beachtet wird. 
+Stellen Sie im Auswahlfeld "Status" auf `Leistungsfachqualifikation berechnen` oder `Gesamtqualifikation berechnen`. Beide Berechnungen unterscheiden sich nur darin, dass bei der Berechnung der Leistungsfachqualifikation der GK-Bereich nicht beachtet wird.
 
-Markieren Sie anschließend die eingebrachten Kurse. Eingebrachte Kurse werden gelb markiert angezeigt. Sie können die eingebrachten Kurse manuell oder per Automatik markieren. 
+Markieren Sie anschließend die eingebrachten Kurse. Eingebrachte Kurse werden gelb markiert angezeigt. Sie können die eingebrachten Kurse manuell oder per Automatik markieren.
 
 ### Eingebrachte Kurse manuell markieren
 
-Klicken Sie auf `Initialisieren`. Entsprechend des Skripts geschieht beim Initialisieren Folgendes: 
+Über die Schaltfläche `Initialisieren` wird folgendes skriptgesteuert umgesetzt:
 
-* Es werden für jeden Kurs automatisch die Halbjahre grau markiert, die für die Abiturzulassung nicht relevant sind. Diese Funktion ist abhängig vom jeweiligen Skript.
-* Alle anderen Halbjahre des jeweiligen Kurses werden zur Eingabeerleichterung gelb, d.h. „eingebracht“ markiert. Sie brauchen dann nur noch auf `Manuelles Markieren` zu klicken und diejenigen Kurse zu demarkieren, die nicht eingebracht werden sollen.
+* Es werden zunächst alle dKurse zur Eingabeerleichterung gelb, d.h. als „eingebracht“ markiert. Sie brauchen dann nur noch auf `Manuelles Markieren` zu klicken und diejenigen Kurse zu demarkieren, die nicht eingebracht werden sollen.
 
 Markieren Sie die eingebrachten Kurse des Schülers, d.h. markieren Sie `Manuelles Markieren`, wählen Sie die Option `Kurse einbringen` und klicken Sie die entsprechenden Kurse an. Die eingebrachten Kurse werden gelb markiert.
 
-!!! info "Hinweis"
-
-    Das letzte Halbjahr im Leistungskursbereich darf bei Skripten mit Leistungs- und Grundkursunterscheidung nicht als „eingebracht“ markiert werden. Es wird automatisch in den Prüfungsbereich übernommen und geht somit in die Berechnung ein.
+[![Bereich `Abitur > Qualifikation`, Aufruf "Initilisieren"][16]][16]
 
 ### Die Vorschlagsautomatik
 
@@ -44,26 +52,28 @@ Wenn Sie auf die Schaltfläche `Vorschlag` klicken, dann werden von der Vorschla
     Voraussetzung für die Vorschlagsautomatik ist, dass Sie über die Angaben in der Spalte „Fachstatus“ die vier Prüfungsfächer bzw. 5. Prüfungskomponente bestimmt haben.
      Die Vorschlagsautomatik des jeweiligen Skriptes generiert einen Vorschlag für die maximale Qualifikationssumme des Schülers. STÜBER SYSTEMS hat die Vorschlagsautomatik sorgfältig an die offiziellen Bestimmungen angepasst und arbeitet ggf. Novellierungen der Bestimmungen in die Skripte ein. STÜBER SYSTEMS übernimmt allerdings keine Garantie für die Richtigkeit des Vorschlags.
 
-![ Das Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik.](/assets/images/berlin/abitur/abitur2.png)
+[![Meldungsfenster mit Information nach Ausführung der Vorschlagsautomatik][2]][2]
 
 ### Zulassung berechnen
 
-Klicken Sie auf die Schaltfläche  `Neu berechnen`, um die Zulassung automatisch durch das entsprechende Skript berechnen zu lassen. Im Meldungsfenster werden die Qualifikationspunktzahl für den LK- und den GK-Bereich (letzteres nur bei „Gesamtqualifikation berechnen“) sowie evtl. Fehler angezeigt. Wenn Sie auf die Schaltfläche `Vorschlag` geklickt haben, ist das Meldungsfenster bereits geöffnet und die Qualifikation berechnet worden. Liegt die Summe beider Bereiche über der Mindestpunktzahl und sind keine weiteren Fehler ausgewiesen, dann ist die Abiturzulassung erreicht.
+Klicken Sie auf die Schaltfläche  `Berechnen`, um die Zulassung automatisch durch das entsprechende Skript berechnen zu lassen. Im Meldungsfenster werden die Qualifikationspunktzahl für den LK- und den GK-Bereich (letzteres nur bei „Gesamtqualifikation berechnen“) sowie evtl. Fehler angezeigt. Wenn Sie auf die Schaltfläche `Vorschlag` geklickt haben, ist das Meldungsfenster bereits geöffnet und die Qualifikation berechnet worden. Liegt die Summe beider Bereiche über der Mindestpunktzahl und sind keine weiteren Fehler ausgewiesen, dann ist die Abiturzulassung erreicht.
 
-![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung](/assets/images/berlin/abitur/abitur3.png)
+[![Meldungsfenster mit Fehlermeldungen zur Abiturzulassung][3]][3]
 
 
 !!! info "Hinweis"
 
      Die Hinweise bzw. Fehlermeldungen im Meldungsfenster sind abhängig vom verwendeten Skript. Fehler führen dazu, dass die Zulassung nicht erreicht ist.
-     > Klicken Sie auf die Schaltfläche `Meldungen anzeigen`, wenn Sie das Meldungsfenster anzeigen wollen, ohne auf `Vorschlag` oder auf `Neu berechnen` klicken zu müssen.
+     Klicken Sie auf die Schaltfläche `Meldungen anzeigen`, wenn Sie das Meldungsfenster anzeigen wollen, ohne auf `Vorschlag` oder auf `Neu berechnen` klicken zu müssen.
+
+[![Meldungsfenster aufrufen][17]][17]
 
 Außerdem werden automatisch folgende Berechnungen bzw. Eingaben auf der Registerkarte „Prüfung“ durchgeführt:
 
-* Der „Status“ wird auf „Leistungsfachqualifikation erreicht“ oder „Leistungsfachqualifikation nicht erreicht“  bzw. „Gesamtqualifikation erreicht“ oder „Gesamtqualifikation nicht erreicht“ umgesetzt.
-* Die Summen der Punkte der einzelnen Halbjahre auf der Registerkarte „Qualifikation“ werden berechnet und in der Spalte „Summe“ angezeigt.
-* Die Prüfungsfächer 1 bis 4 (bzw. 5) werden auf der Registerkarte „Prüfung“ eingetragen.
-* Die Noten aus 13 werden auf der Registerkarte „Prüfung“ eingetragen.
+* Der „Status“ wird auf „Leistungsfachqualifikation erreicht“ oder „Leistungsfachqualifikation nicht erreicht“ bzw. „Gesamtqualifikation erreicht“ oder „Gesamtqualifikation nicht erreicht“ umgesetzt.
+* Die Summen der Punkte der einzelnen Halbjahre wird unter `Abitur > Qualifikaion` berechnet und in der Spalte „Summe“ angezeigt.
+* Die Prüfungsfächer 1 bis 4 (bzw. 5) werden auf der unter `Abitur > Prüfung` eingetragen.
+* Die Noten aus Q4 werden unter `Abitur > Prüfung` eingetragen.
 
 ### Zulassungsdaten manuell eingeben
 
@@ -76,38 +86,34 @@ Wenn Sie die Zulassungsdaten nicht skriptgesteuert eingeben möchten, können Si
 
 ### Kurse nicht auf dem Zeugnisausdruck drucken
 
-Kurse des Schülers, die nicht auf dem Abiturzeugnis erscheinen sollen, müssen Sie entsprechend markieren. Markieren Sie dazu `Manuelles Markieren`, wählen Sie die Option `Nicht auf Zeugnis drucken` und klicken Sie die entsprechenden Kurse an. Die ausgenommenen Kurse werden standardmäßig grau markiert.
-
-!!! info "Hinweis"
-
-    Die Farben in der Oberstufe im Menü „Abitur“ sind individuell einstellbar. Unter `Extras > Farben…` legen Sie fest, welche Hintergrundfarben in der Ansicht verwendet werden sollen.
+Kurse des Schülers, die nicht auf dem Abiturzeugnis erscheinen sollen, müssen Sie entsprechend markieren. Markieren Sie dazu unter `Abitur > Qualifikation` das Feld "Manuelles Markieren", wählen Sie die Option `Nicht auf Zeugnis drucken` und klicken Sie die entsprechenden Kurse an. Die ausgenommenen Kurse werden standardmäßig grau markiert.
 
 ### Bilingualer Unterrricht
 
 Sollten Sie in der Qualifikationsphase Q1 bis Q4 auch bilingualen Unterricht haben, so können Sie die Sprache des Unterrichts gesondert eintragen. Dies kann:
 
-* bereits bei der Fachwahl auf der Registerkarte Ansicht „Abitur“ > Fachwahl erfolgen (siehe Abschnitt „Schüler-Fachwahl eintragen“)
-* pro Qualifikationshalbjahr (pro Zeitraum) bei der Ansicht „Schüler“ > Zeugnis > Fächer in der Spalte Sprache.
-* in der Qualifikationsmatrix in der Ansicht „Abitur“ > Qualifikation in den Spalte Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache.
+* bereits bei der Fachwahl unter `Abitur > Fachwahl` erfolgen
+* pro Qualifikationshalbjahr (pro Zeitraum) in der Ansicht `Schüler > Zeugnis > Fächer` in der Spalte Sprache.
+* in der Qualifikationsmatrix in der Ansicht `Abitur > Qualifikation` in den Spalte Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache.
  
-![Registerkarte „Qualifikation“ mit eingeblendeten Spalten für bilingualen Unterricht ](/assets/images/berlin/abitur/abitur4.png)
+[![`Abitur > Qualifikation` mit eingeblendeten Spalten für bilingualen Unterricht][4]][4]
 
 !!! info "Hinweis"
 
-    Sollten die Spalten Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache in der Ansicht „Abitur“ > Qualifikation nicht sichtbar sein, so können Sie diese Spalten über die Schaltfläche Layout anpassen anzeigen lassen.
-     Das Schlüsselverzeichnis „Kurssprachen“ unter `Verzeichnisse > Weitere Schlüsselverzeichnisse > Kurssprachen` muss mit entsprechenden Fremdsprachen gefüllt sein, damit Sie in den Spalten Sprache bzw. Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache einen Wert für die Unterrichtssprache auswählen können.
+    Sollten die Spalten Q1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache in der Ansicht `Abitur > Qualifikation` nicht sichtbar sein, so können Sie diese Spalten über die Schaltfläche Layout anpassen anzeigen lassen.
+     Kurssprachen der entsprechenden Fremdsprachen erfassen Sie über `Extras > Schlüsselverzeichnisse > Kurssprachen`, erst danach stehen Ihnen diese in den SpaltenQ1 Sprache, Q2 Sprache, Q3 Sprache und Q4 Sprache zur Auswahl.
 
 ## Der Simulationsmodus
 
-Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf `Bearbeiten > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten „Qualifikation“ und „Prüfung“. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
+Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf den Reiter `Abitur` und wählen Sie die Schaltfläche `Simulation`. Darüber öffnen Sie das Simulationsfenster. Es umfasst die Registerkarten `Qualifikation` und `Prüfung` aus dem Menü `Abitur`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
 
-![ Das Dialogfenster mit dem Simulationsmodus ](/assets/images/berlin/abitur/abitur5.png)
+[![Das Dialogfenster mit dem Simulationsmodus][5]][5]
 
 ## Die Gesamtqualifikation
 
 Die Berechnung der Gesamtqualifikation bzw. der Abiturnote wird auf der Registerkarte „Prüfung“ durchgeführt.
 
-![Registerkarte „Prüfung“ in der Ansicht „Abitur“](/assets/images/berlin/abitur/abitur6.png)
+[![Registerkarte „Prüfung“ in der Ansicht „Abitur“][6]][6]
 
 Die Gesamtqualifikation ergibt sich, indem zusätzlich zu der schon feststehenden Qualifikation im Leistungs- und Grundfachbereich die Qualifikation im Prüfungsbereich durch die Noten im schriftlichen und mündlichen Abitur festgestellt wird. 
 
@@ -165,7 +171,7 @@ Wenn Sie die Gesamtqualifikation nicht skriptgesteuert eingeben möchten, könne
 
 ### Zeugnisbemerkungen eingeben
 
-Geben Sie auf der Registerkarte „Zeugnis“ evtl. Zeugnisbemerkungen ein, die auf dem Abiturzeugnis gedruckt werden sollen. Sie können die Zeugnisbemerkung eintippen, auf das Verzeichnis Zeugnisbemerkungen zugreifen und die Rechtschreibprüfung nutzen.
+Geben Sie unter `Abitur > Zeugnisbemerkungen` evtl. Zeugnisbemerkungen ein, die auf dem Abiturzeugnis gedruckt werden sollen. Sie können die Zeugnisbemerkung eintippen, auf das Verzeichnis Zeugnisbemerkungen zugreifen und die Rechtschreibprüfung nutzen.
 
 ## Informationen über Zeugnisse
 
