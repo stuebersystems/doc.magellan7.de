@@ -204,7 +204,7 @@ In den nachfolgenden Abbildungen finden Sie Beispiele für Crystal Reports Beric
 
 ### 1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
 
- ![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](/assets/images/berlin/abitur/abitur7.png)
+![1. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO](/assets/images/berlin/abitur/abitur7.png)
 
 ### 2. Seite des Crystal Reports Berichts für den  Berechnungsbogen mit 5. Prüfungskomponente gem. VO-GO
 
