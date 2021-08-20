@@ -48,6 +48,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * CHANGE: DAS-Zeugnis Gymnasium - Mittlerer Schulabschluss (Anlage 10)(§23).rpt (Layoutanpassungen)
 * CHANGE: DAS-GS-GY (Klasse 3-10).rpt (Layoutanpassungen)
+* CHANGE: BER-Schul Z 523 (09.19).rpt (Layoutanpassungen)
+* CHANGE: BER-Schul Z 522 (09.19).rpt (Layoutanpassungen)
+
 
 ## Version 7
 
