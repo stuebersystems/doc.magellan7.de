@@ -25,6 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
+* FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
 
 #### MAGELLAN Bibliothek
 
