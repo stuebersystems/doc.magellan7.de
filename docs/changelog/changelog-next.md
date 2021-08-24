@@ -39,7 +39,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX: 
+* FIX: [Importiere SDTF.dws] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensat
 
 #### Berichte
 
