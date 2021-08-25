@@ -33,7 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
-* CHANGE: 
+* FIX: [NRW]: Ausgabe VoFachklasse SIM.txt
 
 #### Skripte
   
