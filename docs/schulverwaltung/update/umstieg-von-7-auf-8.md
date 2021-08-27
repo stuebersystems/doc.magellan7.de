@@ -53,9 +53,8 @@ Auf Ihrem MAGELLAN-Serverrechner soll im nächsten Schritt die 7er Datenbank üb
 
 ![Firebird-Dienst starten](/assets/images/update/7zu8/02.png)
 
-5. Starten Sie MAGELLAN 8 als `sysdba` und führen Sie als erstes die Datensicherung durch. Der voreingestellte Sicherungspfad resultiert aus Ihren Angaben im Willkommensassistenten. Sollten die Angaben nicht stimmen, weil zum Beispiel der Pfad nicht stimmt, können Sie einen alternativen Pfad für die Sicherung angeben.
-Der Pfad selbst kann im MAGELLAN ADMINISTRATOR unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Unterkarte "Datensicherung"` angepasst werden.
-Im Anschluss an die Datensicherung, klicken Sie bitte auf "Weiter", MAGELLAN passt die Datenbank auf die neue Datenstruktur an.
+5. Starten Sie MAGELLAN 8 (Schulverwaltungsmodul, nicht den Administrator) als `sysdba` und führen Sie als erstes die Datensicherung durch. Der voreingestellte Sicherungspfad resultiert aus Ihren Angaben im Willkommensassistenten und kann im MAGELLAN Administrator in den Verbindungseinstellungen auf der Unterkarte `Datensicherung` angepasst werden.
+6. Im Anschluss an die Datensicherung, klicken Sie bitte auf "Weiter", MAGELLAN passt die Datenbank auf die neue Datenstruktur an (von der 7 zur 8 und weitere Anpassungen aus der laufenden Version 8).
 6. Öffnen Sie anschließend den MAGELLAN 8 ADMINISTRATOR und synchronisieren die Zugriffsrechte im Punkt `Benutzerverwaltung` über den Aufruf  `Zugriffsrechte synchronsieren` in der Menüleiste. Damit werden für Ihre bereits angelegten Benutzer die Zugriffsrechte auf die geänderte Datenbankteile geklärt.
 
 ![Zugriffsrechte](/assets/images/update/7zu8/03.png)
