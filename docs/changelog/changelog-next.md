@@ -34,6 +34,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Schnittstellen
 
 * FIX: [NRW]: Ausgabe VoFachklasse SIM.txt
+* CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
+* FIX: [NRW]: Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 
 #### Skripte
   
