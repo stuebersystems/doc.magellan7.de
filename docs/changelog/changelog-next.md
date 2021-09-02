@@ -56,6 +56,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: DAS-GS-GY (Klasse 3-10).rpt (Layoutanpassungen)
 * CHANGE: BER-Schul Z 523 (09.19).rpt (Layoutanpassungen)
 * CHANGE: BER-Schul Z 522 (09.19).rpt (Layoutanpassungen)
+* FIX: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt - Ausgabe doppelter Schüler korrigiert
 
 
 ## Version 7
