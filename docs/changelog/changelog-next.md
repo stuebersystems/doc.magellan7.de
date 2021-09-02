@@ -25,6 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
+* FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
 
 #### MAGELLAN Bibliothek
 
@@ -32,13 +33,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
-* CHANGE: 
+* FIX: [NRW]: Ausgabe VoFachklasse SIM.txt
+* CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
+* FIX: [NRW]: Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 
 #### Skripte
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX: 
+* FIX: [Importiere SDTF.dws] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz 
+
+* FIX: [Zuweisen von Zugriffsrechten.dws] Korrektur beim ENBREA Kurse, ENBREA Leistungen
+* FIX: [Importiere SDTF.dws für Import aus SDTF/Untis] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz
 
 #### Berichte
 
