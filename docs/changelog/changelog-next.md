@@ -62,6 +62,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: BER-Schul Z 522 (09.19).rpt (Layoutanpassungen)
 * FIX: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt - Ausgabe doppelter Schüler korrigiert
 * FIX: BER-Schul Z 500 (09.19).rpt
+* NEW: BER-BBS (Zeugniskarte).rpt (jetzt auch in Auslieferung von MAGELLAN 8)
 
 ## Version 7
 
