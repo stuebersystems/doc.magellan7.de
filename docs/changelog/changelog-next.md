@@ -27,7 +27,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
 * FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
 * FIX: `Schüler > Ausbildung > Beruf` Editierungsproblem nach Import aus SAXSVS behoben
-* FIX: `BEwerber > Daten2 > Schulform`Aktualisierungsproblem behoben
+* FIX: `Bewerber > Daten2 > Schulform`Aktualisierungsproblem behoben
 
 #### MAGELLAN Bibliothek
 
@@ -40,6 +40,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: [NRW]: SIM.txt - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 * FIX: [NRW]: SIM.txt - integer Fehlermeldung beim Erzeugen behoben
 * FIX: [NRW]: SIM.TXT - Ausgabe Zeugnis für BAG
+* FIX: [NRW]: ABI.TXT - Ausgabe von Daten
 
 #### Skripte
   
