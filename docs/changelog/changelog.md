@@ -25,6 +25,57 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## **Version 8**
 
+### 8.0.12 802 (09.09.2021)
+
+#### MAGELLAN Schulverwaltung
+
+* NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
+* FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
+* FIX: `Schüler > Ausbildung > Beruf` Editierungsproblem nach Import aus SAXSVS behoben
+* FIX: `Bewerber > Daten2 > Schulform` Aktualisierungsproblem behoben
+* FIX: `Schüler > Daten 1 > Staatangehörigkeiten` Aktualisierungsproblem behoben
+
+#### Schnittstellen
+
+* FIX: [Alle]: Konvertierungsproblem Statistikdialogfenster beim Auslesen der Zeiträume gelöst
+* CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
+* FIX: [NRW]: SIM.txt - Ausgabe VoFachklasse
+* FIX: [NRW]: SIM.txt - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
+* FIX: [NRW]: SIM.txt - integer Fehlermeldung beim Erzeugen behoben
+* FIX: [NRW]: SIM.TXT - Ausgabe Zeugnis für BAG
+* FIX: [NRW]: ABI.TXT - Ausgabe von Daten
+
+#### Skripte
+  
+Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
+
+* FIX: [Importiere SDTF.dws] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz 
+
+* FIX: [Zuweisen von Zugriffsrechten.dws] Korrektur beim ENBREA Kurse, ENBREA Leistungen
+* FIX: [Importiere SDTF.dws für Import aus SDTF/Untis] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+##### DAS
+
+* CHANGE: DAS-Zeugnis Gymnasium - Mittlerer Schulabschluss (Anlage 10)(§23).rpt (Layoutanpassungen)
+* CHANGE: DAS-GS-GY (Klasse 3-10).rpt (Layoutanpassungen)
+
+##### Berlin
+
+* FIX: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt - Ausgabe doppelter Schüler korrigiert
+* FIX: BER-Schul Z 500 (09.19).rpt
+* NEW: BER-BBS (Zeugniskarte).rpt (jetzt auch in Auslieferung von MAGELLAN 8)
+* FIX: BER-Schul Z 520 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 522 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
+* FIX: BER-Schul Z 523 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
+* FIX: BER-Schul Z 526 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 503 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 502 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 501 (09.19).rpt (Ausgabe Ausbildungsberuf)
+
 ### 8.0.11 802 (12.08.2021)
 
 #### MAGELLAN Schulverwaltung
