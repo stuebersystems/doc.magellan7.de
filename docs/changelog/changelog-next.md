@@ -27,7 +27,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
 * FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
 * FIX: `Schüler > Ausbildung > Beruf` Editierungsproblem nach Import aus SAXSVS behoben
-* FIX: `Bewerber > Daten2 > Schulform`Aktualisierungsproblem behoben
+* FIX: `Bewerber > Daten2 > Schulform` Aktualisierungsproblem behoben
+* FIX: `Schüler > Daten 1 > Staatangehörigkeiten` Aktualisierungsproblem behoben
 
 #### MAGELLAN Bibliothek
 
