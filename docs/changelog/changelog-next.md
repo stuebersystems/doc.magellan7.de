@@ -35,12 +35,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
+* FIX: [Alle]: Konvertierungsproblem Statistikdialogfenster beim Auslesen der Zeiträume gelöst
 * FIX: [NRW]: SIM.txt - Ausgabe VoFachklasse 
 * CHANGE: [NRW]: Geschwindigkeitsverbesserung SIM.TXT, ABI.TXT, LEHRER.TXT
 * FIX: [NRW]: SIM.txt - Ausgabe von ABG, BAG, AKT, NZG, NGS, AKT, NZG
 * FIX: [NRW]: SIM.txt - integer Fehlermeldung beim Erzeugen behoben
 * FIX: [NRW]: SIM.TXT - Ausgabe Zeugnis für BAG
 * FIX: [NRW]: ABI.TXT - Ausgabe von Daten
+
+
 
 #### Skripte
   
