@@ -66,11 +66,16 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Berlin
 
-* CHANGE: BER-Schul Z 523 (09.19).rpt (Layoutanpassungen)
-* CHANGE: BER-Schul Z 522 (09.19).rpt (Layoutanpassungen)
 * FIX: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt - Ausgabe doppelter Schüler korrigiert
 * FIX: BER-Schul Z 500 (09.19).rpt
 * NEW: BER-BBS (Zeugniskarte).rpt (jetzt auch in Auslieferung von MAGELLAN 8)
+* FIX: BER-Schul Z 520 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 522 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
+* FIX: BER-Schul Z 523 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
+* FIX: BER-Schul Z 526 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 503 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 502 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 501 (09.19).rpt (Ausgabe Ausbildungsberuf)
 
 ## Version 7
 
