@@ -40,12 +40,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
 * FIX: 
-* 
+
+
 #### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+##### Auslandsschulen
 
+* FIX: DSND.DAS-GS (Klasse 3).rpt 
 
 
 ## Version 7
