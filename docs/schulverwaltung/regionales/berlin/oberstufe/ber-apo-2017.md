@@ -7,7 +7,7 @@ In diesem Skript werden für die korrekte Berechnung unter `Abitur > Qualifikati
 
 ## Verzeichnis Verordnung
 
-Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
+Bitte legen Sie unter `Extras > Schlüsselverzeichnisse > Verordnungen` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
 
 |Spalte|Wert|
 |--|--|
@@ -25,11 +25,11 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 |Gültig von |leer|
 |Gültig bis|leer|
 
-![Eintragung im Verzeichnis Verordnungen für Abiturberechnung und Fachwahl](/assets/images/berlin/ber-apo-2017.00.png)
+![Eintragung im Schlüsselverzeichnis > Verordnungen für Abiturberechnung und Fachwahl](/assets/images/berlin/ber-apo-2017.00.png)
 
 ## Fachkategorien
 
-Jedem Fach, dass Sie in der Oberstufe verwenden, müssen Sie eine Kategorie unter ```Verzeichnisse > Fächer > Kategorie``` zuweisen.
+Jedem Fach, dass Sie in der Oberstufe verwenden, müssen Sie eine Kategorie unter `Extras > Schlüsselverzeichnisse > Fächer` im Feld "Kategorie" zuweisen.
 Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, bitte verwenden Sie nur die gekennzeichneten Fachkategorien.
 
 |Fachkategorien|Wird vom Skript berücksichtigt|
@@ -68,7 +68,7 @@ Folgende Fachkategorien werden durch das Abiturqualifikationsskript verwendet, b
 
 ## Aufgabenbereiche
 
-Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnisse > Fächer > Spalte Aufgabenbereich``` verwendet werden:
+Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter `Extras > Schlüsselverzeichnisse > Fächer` in Spalte "Aufgabenbereich" verwendet werden:
 
 |Aufgabenbereich|
 |--|
@@ -80,8 +80,8 @@ Folgende Aufgabenbereiche stehen zur Verfügung und müssen unter ```Verzeichnis
 
 ## Unterrichtsart
 
-Die Unterrichtsart muss unter ```Abitur > Qualifikation > Unterrichtsart``` zugeordnet sein. Sie kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus ```Schüler > Zeugnis > Fächer > Unterrichtsart``` übernommen werden.
-Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Unterrichtsarten```, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
+Die Unterrichtsart muss unter ```Abitur > Qualifikation > Unterrichtsart``` zugeordnet sein. Sie kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus `Schüler > Zeugnis > Fächer > Unterrichtsart` übernommen werden.
+Prüfen Sie bitte unter `Extras > Schlüsselverzeichnisse > Unterrichtsarten`, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
 
 |Kürzel| Schlüssel |Bedeutung|
 |--|--|--|
@@ -92,8 +92,8 @@ Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Unt
 
 ## Fachstatus
 
-Der Fachstatus muss unter ```Abitur > Qualifikation > Fachstatus``` zugeordnet sein. Er kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus ```Schüler > Zeugnis > Fächer > Fachstatus``` übernommen werden.
-Prüfen Sie bitte unter ```Verzeichnisse > weitere Schlüsselverzeichnisse > Fachstatus```, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
+Der Fachstatus muss unter `Abitur > Qualifikation` im Feld "Fachstatus" zugeordnet sein. Er kann aber auch beim Synchronisieren der Schülerfachdaten bereits aus Menü `Schüler > Zeugnis > Fächer` aus dem Feld "Fachstatus" übernommen werden.
+Prüfen Sie bitte unter `Extras > Schlüsselverzeichnisse > Fachstatus`, dass in Ihrem Verzeichnis alle erwarteten Werte vorhanden sind oder legen Sie ggfs. an.
 
 |Kürzel |Schlüssel |Bedeutung|
 |--|--|--|
@@ -114,8 +114,8 @@ Bei der 5. Prüfungskomponente wird zwischen einer **Präsentationprüfung** und
 
 #### Präsentationprüfung
 
-Bei der **Präsentationsprüfung** weisen Sie dem entsprechenden Fach im Menü ``Abitur > Qualifikation > Fachstatus`` den Wert „PRS“ zu und führen das entsprechende Skript aus. 
-Im Menü ``Abitur`` wird auf der Registerkarte ``Prüfung`` im Feld ``5. PF`` das jeweilige Fach automatisch eingetragen. Die Noten für die schriftl. Ausarbeitung, Präsentation und das Prüfungsgespräch der Präsenationsprüfung tragen Sie bitte unter ```Abitur > Prüfung`` wie folgt ein:
+Bei der **Präsentationsprüfung** weisen Sie dem entsprechenden Fach im Menü `Abitur > Qualifikation > Fachstatus` den Wert „PRS“ zu und führen das entsprechende Skript aus. 
+Im Menü `Abitur > Prüfung` wird im Feld "5. PF" das jeweilige Fach automatisch eingetragen. Die Noten für die schriftl. Ausarbeitung, Präsentation und das Prüfungsgespräch der Präsenationsprüfung tragen Sie bitte unter `Abitur > Prüfung` wie folgt ein:
 
 |Feld | Note|
 |--|--|
@@ -127,11 +127,11 @@ Im Menü ``Abitur`` wird auf der Registerkarte ``Prüfung`` im Feld ``5. PF`` da
 
 #### Besondere Lernleistung
 
-Die **besondere Lernleistung** kann auch eines der ersten 4 Prüfungsfächer sein. In diesem Fall müssen Sie den Fachstatus auf der Registerkarte ``Qualifikation`` wie folgt modifizieren:
+Die **besondere Lernleistung** kann auch eines der ersten 4 Prüfungsfächer sein. In diesem Fall müssen Sie den Fachstatus im Bereich `Abitur > Qualifikation` wie folgt modifizieren:
 
 - statt "1PF" nutzen Sie "1PFBLL"
 - statt „2PF" nutzen Sie "2PFBLL"
 - statt "3PF" nutzen Sie "3PFBLL" oder
 - statt "4PF" nutzen Sie "4PFBLL"
 
-Falls die Besondere Lernleistung nicht eines der Prüfungsfächer 1.-4. ist, weisen Sie dem Fach den Fachstatus "BLL" zu und führen das entsprechende Skript aus. Im Menü ```Abitur >  Prüfung`` wird im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen.
+Falls die Besondere Lernleistung nicht eines der Prüfungsfächer 1.-4. ist, weisen Sie dem Fach den Fachstatus "BLL" zu und führen das entsprechende Skript aus. Im Menü `Abitur >  Prüfung` wird im Feld „5. PF“ das jeweilige Fach automatisch eingetragen. Sie müssen nun nur noch die Gesamtnote im Feld "mündliche Note" eintragen.
