@@ -139,8 +139,7 @@ Schüler, die Ihre Schule verlassen, weil Sie einen Abschluss erfolgreich erworb
 Die ausgeschulten Schüler werden nun speziell in der Auswahlliste der Schüler markiert. Sie erhalten jetzt in der Statusspalte im Gegensatz zum blauen Quadrat der aktiven Schüler ein graues Quadrat zur Unterscheidung. Über die entsprechende Gruppierung der Statusspalte können Sie ausgeschulte direkt von aktiven Schülern unterscheiden.
 
 !!! info "Hinweis"
-
-  Die Sorgeberechtigten werden über die Option „Sorgeberechtigte“ der Schüler inaktiv setzen nur inaktiv gesetzt, wenn kein weiterer aktiver Schülerdatensatz (zum Beispiel ein Geschwisterkind) auf den Sorgeberechtigten verweist.
+    Die Sorgeberechtigten werden über die Option „Sorgeberechtigte“ der Schüler inaktiv setzen nur inaktiv gesetzt, wenn kein weiterer aktiver Schülerdatensatz (zum Beispiel ein Geschwisterkind) auf den Sorgeberechtigten verweist.
 
 ## Versehentlich eingeschult, versetzt, fortgeschrieben oder gewechselt
 
