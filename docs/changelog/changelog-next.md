@@ -32,7 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
-
+ * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
 
 
 #### Skripte
