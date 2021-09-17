@@ -50,6 +50,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: DSND.DAS-GS (Klasse 3).rpt 
 
+##### Berlin
+
+* FIX: BER-Schul Z 520 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 526 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 503 (09.19).rpt (Ausgabe Ausbildungsberuf)
+* FIX: BER-Schul Z 501 (09.19).rpt (Ausgabe Ausbildungsberuf)
 
 ## Version 7
 
