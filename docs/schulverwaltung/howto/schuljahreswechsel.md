@@ -56,7 +56,7 @@ So versetzen Sie einen Schüler:
 
 |Aktion|
 |:--|
-|1. Klicken Sie auf `Extras` und auf `Schüler versetzen`. Es öffnet sich der Assistent „Schüler versetzen“.|
+|1. Klicken Sie auf `Laufbahnprozesse` und auf `Schüler versetzen`. Es öffnet sich der Assistent „Schüler versetzen“.|
 |2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel1.png>|
 |3. Markieren Sie die Schüler einer Klasse, die Sie versetzen möchten, und klicken Sie auf `Weiter`. Unter Klassen auswählen werden die Klassen angezeigt, in die Sie die markierten Schüler versetzen können.|
@@ -88,7 +88,7 @@ Gehen Sie folgendermaßen vor:
 
 |Aktion|
 |:--|
-|1. Klicken Sie dazu auf `Extras`, dann auf `Schüler wechseln`. In dem Assistenten „Schüler wechseln“ markieren Sie die Schüler, die Sie wechseln möchten.|
+|1. Klicken Sie dazu auf `Schüler > Laufbahnprozesse`, dann auf `Schüler wechseln`. In dem Assistenten „Schüler wechseln“ markieren Sie die Schüler, die Sie wechseln möchten.|
 |2. Klicken Sie auf `Weiter`, und Sie können die entsprechende Klasse auswählen, in die der Schüler wechseln soll.|
 |3. Klicken Sie auf `Weiter`, um Angaben zur neuen ausgewählten Klasse angeben zu können. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` noch den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Die weiteren Angaben zum Kopieren der Fachdaten bzw. beim Einfügen einer Fachtafel sind optional und haben die analoge Bedeutung wie beim Versetzen.|
 |4. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Wechseln der Schüler durchzuführen.|
@@ -116,7 +116,7 @@ Sie müssen Klassen auflösen, wenn Sie z.B. innerhalb des Schuljahres zwei Klas
 
 |Aktion|
 |:--|
-|1. Klicken Sie dazu auf `Extras` und auf `Schüler wechseln`. Markieren Sie im Assistenten die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`.|
+|1. Klicken Sie dazu auf `Schüler > Laufbahnprozesse` und auf `Schüler wechseln`. Markieren Sie im Assistenten die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`.|
 |2. Es öffnet sich ein Fenster, in dem Sie die Klasse auswählen können, in die die Schüler wechseln sollen. Geben Sie unter `Weitere Angaben` den letzten Schultag in der alten und den ersten Schultag in der neuen Klasse an.|
 |3. Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. Auf der Laufbahnkarte wird für die Schüler die bisherige und die neue Klassenzugehörigkeit dokumentiert.|
 
@@ -130,7 +130,7 @@ Schüler, die Ihre Schule verlassen, weil Sie einen Abschluss erfolgreich erworb
 
 |Aktion|
 |:--|
-|1. Klicken Sie auf `Extras` und dann auf `Schüler ausschulen`. Der Assistent „Schüler ausschulen“ öffnet sich.|
+|1. Klicken Sie auf `Schüler > Laufbahnprozesse` und dann auf `Schüler ausschulen`. Der Assistent „Schüler ausschulen“ öffnet sich.|
 |2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
 | **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel5.png> |
 |3. Unter `Weitere Angaben` können Sie das Abgangsdatum und optionale Übergangsdaten vermerken. Markieren Sie das Optionsfeld `Sorgeberechtigte der Schüler inaktiv setzen`, wenn die Sorgeberechtigten der Schüler inaktiv gesetzt werden sollen.|
@@ -153,7 +153,7 @@ Haben Sie versehentlich Schüler eingeschult, aus dem Bewerbermenü übernommen 
 
 |Aktion|
 |:--|
-|1. Klicken Sie dazu auf `Extras` und dann auf `Schüler korrigieren`. Es öffnet sich der Assistent `Schüler korrigieren`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
+|1. Klicken Sie dazu im Menü `Schüler`auf das Register `Laufbahnprozesse` und dann auf `Schüler korrigieren`. Es öffnet sich der Assistent `Schüler korrigieren`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.|
 | **Abbildung:** <img src=/assets/images/schuljahreswechsel/schuljahreswechsel6.png> |
 |2. Unter `Schüler auswählen` können Sie den oder die Schüler markieren, die Sie versehentlich eingeschult, fortgeschrieben, gewechselt oder versetzt haben. |
 |3. Klicken Sie dann auf `Weiter`. Bevor der Vorgang rückgängig gemacht wird, werden Sie noch mal gefragt, ob Sie den Vorgang wirklich zurücksetzen möchten. Wenn Sie sich sicher sind, dann klicken Sie auf `Fertigstellen`.|
