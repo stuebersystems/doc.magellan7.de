@@ -81,6 +81,8 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+* FIX: Klassenliste (Sorgeberechtigte Mobil und Geburtsdatum).rpt
+
 ##### Berlin
 
 * FIX: BER-Schul Z 306 (04.21)(FG).rpt (Fach "Studium und Beruf" mit Aufgabenbereich "gesellschaftswiss." wird nun im Gesellschaftswissenschaftlichen Aufgabenfeld ausgegeben)
