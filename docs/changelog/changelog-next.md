@@ -31,6 +31,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: 
 
+#### MYMAGELLAN
+
+* FIX: Schlüsselverzeichnis Zeugnisbemerkungen wird in voller Länge aus MAGELLAN übergeben
+  
 #### Schnittstellen
 
  * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
