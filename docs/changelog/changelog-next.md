@@ -82,6 +82,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: Klassenliste (Sorgeberechtigte Mobil und Geburtsdatum).rpt
+* FIX: Schülerliste (Förderung).rpt
 
 ##### Berlin
 
