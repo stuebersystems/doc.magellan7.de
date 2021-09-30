@@ -32,9 +32,15 @@ Region|Bitte wählen Sie Ihre Region aus, zur Verfügung steht:<br/>- Deutschlan
 
 ## Unterpunkt Datensicherung
 
-Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden. Die Sicherung oder Wiederherstellung selbst, starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. Einzelheiten zum Wiederherstellen einer Sicherung oder dem Erstellen eines Datenbankbackups lesen Sie bitte im Abschnitt "Datensicherung"!
+Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht für jede Sicherung den Ablagepfad der Sicherung oder den Ablagepfad für eine wiederhergestellte Datenbank eingeben zu müssen, können Ihre Standardpfade mit den Verbindungsinformationen vorab gespeichert werden.
 
-![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/assets/images/magellan.administrator/ribbon.datenbankverbindungen.png)
+### Vorbereitung
+
+So geht's:
+
+Öffnen Sie im MAGELLAN Administrator unter `Datenbankverbindungen` per Doppelklick auf Ihre Datenbankanbindung die Untereinstellungen. Wählen Sie hier die Karte `Datensicherung` und füllen die Karte entsprechend der nachstehenden Tabelle aus. Die hier gewählten Einstellungen, werden später beim Sichern für Sie vorbelegt.
+
+![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](/assets/images/magellan.administrator/unterkarte.datensicherung.png)
 
 Feld|Anmerkung
 --|--
@@ -43,11 +49,19 @@ Namenskonventionen| Wählen Sie die Benennung für die Sicherung oder wiederherg
 Sicherung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 
-![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](/assets/images/magellan.administrator/unterkarte.datensicherung.png)
-
-!!! info "Hinweis"
+!!! warning "Achtung"
 
 	Eine Sicherung/Wiederherstellung der Datenbank kann ausschließlich auf dem Rechner angelegt werden, auf dem auch die Datenbank selbst gespeichert ist und der Firebird-Server läuft. Sie können zwar die Aktion zum Sichern selbst von einem Clientrechner starten, die Sicherung kann aber nur auf Ihrem Serverrechner abgelegt werden, es sei denn Sie haben Zugriff auf den Serverrechner.
+
+!!! warning "Achtung"
+
+	Beim Wiederherstellen wird eine neue Datenbank aus der Sicherung aufgebaut. Dabei ist es auch, wenn Sie den identischen Pfad verwenden, ausgeschlossen hierbei die Realdatenbank zu überschreiben. Wenn Sie die wiederhergestellte Datenbank im Anschluss verwenden möchten, dann stoppen Sie bitte den Firebird-Dienst (`Systemsteuerung > Verwaltung > Dienste > Firebird Server`), benennen die "alte" Datenbank um, legen die "neue" Datenbank ab und starten den Firebird-Dienst wieder.
+
+### Sichern und Wiederherstellen
+
+Die Sicherung oder Wiederherstellung starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. In dem Assistenten werden die zuvor auf der Unterkarte `Datensicherung` Ihrer MAGELLAN Verbindung eingegebenen Werte vorbelegt. Sie tragen nur noch als Benutzer den `sysdba` und dessen Passwort ein und können eine Sicherung erstellen oder aus einer Sicherung eine neue Datenbank wiederherstellen.
+
+![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/assets/images/magellan.administrator/ribbon.datenbankverbindungen.png)
 
 ## Unterpunkt Datenordner
 
