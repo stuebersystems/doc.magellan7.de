@@ -39,6 +39,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
  * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
  * CHANGE: [NRW] SIM.TXT - Im Falle eines Bildungsgangwechslers wird künftig nur noch eine Datensatz als Neuzugang an neuer Schule ausgespielt, die alte Laufbahn wird in die VO-Felder eingetragen, zusätzlich müssen noch die Felder LSQual, Zeugnis, Berufsabschluss und Versetzung gefüllt sein
+* CHANGE: [SAXSVS] `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse Eltern, Erziehungsberechtigte(r) oder Sorgeberechtigte(r) zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 
 #### Skripte
   
@@ -71,7 +72,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Schnittstellen
 
-* CHANGE: [SAXSVS] `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse Eltern, Erziehungsberechtigte(r) oder Sorgeberechtigte(r) zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 * FIX: [Berlin] Für die Abiturdatenstatistik wurde ein Problem beim Ausspielen der Daten behoben. Wenn Sie die Version 7.1.30 von MAGELLAN einsetzen, können Sie am Arbeitsplatz von dem aus exportiert wird die MAGELLAN.exe tauschen. [Download MAGELLAN.exe](https://my.hidrive.com/lnk/85yJiIJU)
 
 #### Skripte
