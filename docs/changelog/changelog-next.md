@@ -54,6 +54,8 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+* NEW: Klassenliste (Schüler und Sorgeberechtige Email).rpt
+
 ##### Auslandsschulen
 
 * FIX: DSND.DAS-GS (Klasse 3).rpt 
