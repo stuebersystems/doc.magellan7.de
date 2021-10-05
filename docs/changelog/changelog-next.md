@@ -27,6 +27,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Klasse > Zeitraum` löschen eines Zeitraum mit `Entf`nicht mehr möglich
 * FIX: `Schüler > Daten1`Eintrag im Feld Vorname wird beim Ansichtenwechsel gespeichert
 * FIX: `Schüler > Ausbildung > Ausbildungsdaten`: Tabreihenfolge korrigiert
+* NEW: Für den Bewerberseriendruck wurde das neue Feld `Bewerber_ID` eingefügt
+* NEW: Unter `Bewerber > Daten3` kann analog `Schueler > Daten3` eine freie Bemerkung erfasst werden.
 
 #### MAGELLAN Bibliothek
 
