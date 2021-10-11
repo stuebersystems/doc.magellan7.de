@@ -1,13 +1,13 @@
 # Datenbank vorbereiten
 
 Dieses Kapitel beschreibt die grundlegenden vorbereitenden Schritte für die Arbeit mit MAGELLAN, wenn Sie zuvor noch nicht MAGELLAN eingesetzt haben.  
-Weitere Detailinformationen zur Administration von MAGELLAN finden Sie im Kapitel [Administration](https://doc.magellan7.stueber.de/schulverwaltung/admin/administration/).
-Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7\Datenbank) zwei Datenbanken abgelegt.
+Weitere Detailinformationen zur Administration von MAGELLAN finden Sie im Kapitel [Administration](https://doc.magellan.stueber.de/schulverwaltung/admin/administration/).
+Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8\Datenbank) zwei Datenbanken abgelegt.
 
 | Name| Zweck|
 | -- | -- |
-| MAGELLAN7.fdb| Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/)! |
-| MAGELLAN7_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.|
+| MAGELLAN8.fdb| Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) oder [Umstieg von MAGELLAN 6 auf MAGELLAN 8](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/) ! |
+| MAGELLAN8_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.|
 
 ## MAGELLAN starten
 
@@ -15,21 +15,23 @@ Klicken Sie auf `Start > Programme > STÜBER SYSTEMS > MAGELLAN`. Die MAGELLAN-D
 
 ![MAGELLAN-Anmeldung](/assets/images/dialog-anmeldung.png)
 
-Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan7.stueber.de/schulverwaltung/admin/users/).
+Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort lautet „masterkey“. Mit dieser Standardkennung sind volle Administrationsrechte verbunden. Weitere Informationen zur Anlage und Editierung von Benutzerkennungen und den damit verbundenen Rechten finden Sie im Kapitel [„Benutzerverwaltung“](https://doc.magellan.stueber.de/schulverwaltung/admin/users/).
 
 ## Datenbank für den Alltag vorbereiten
 
-Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
+Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan8.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
 
 ## Postleitzahl- und Schlüsselverzeichnisse importieren
 
-Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslandspezifischen Schlüsselverzeichnisse und das Postleitzahlverzeichnis importieren. Die Schlüsselverzeichnisse beinhalten je nach Bundesland und Schulart die für die Statistik vorgeschriebenen möglichen Schlüssel. Sollten Sie Ihre leere Datenbank bereits für einen Versuch gefüllt haben, erhalten Sie im MAGELLAN ADMINISTRAROR im Unterpunkt `Datenbankpflege > Mandanten kopieren > MAGELLAN 6 nach MAGELLAN 7` über folgende Schaltfläche jederzeit eine neue leere Datenbank im aktuellen Format.
+Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslandspezifischen Schlüsselverzeichnisse und das Postleitzahlverzeichnis importieren. Die Schlüsselverzeichnisse beinhalten je nach Bundesland und Schulart die für die Statistik vorgeschriebenen möglichen Schlüssel. 
 
-![Datenbankpflege > Mandanten kopieren > Mag6 nach Mag7](/assets/images/neue.leere.db.png)
+!!! warning "Tipp"
+
+    Wollten Sie erneut eine leere Datenbank benötigen, können Sie unter dem [Link](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB) jederzeit einen neue leere Datenbank im aktuellen Format herunterladen und wieder in Ihrem Datenbankverzeichnis ablegen.
 
 !!! warning "Wichtig"
 
-    Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren/)!
+    Möchten Sie eigene Werte in Schlüsselverzeichnisse importieren, können Sie die Importdateien auch editieren. Lesen Sie dazu bitte den Abschnitt ["Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren"](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren/)!
 
 Das Postleitzahlverzeichnis beinhaltet alle deutschen Postleitzahlen inkl. der bundesweit eindeutigen Gemeindeschlüssel und dem Bankleitzahlverzeichnis. Wenn Sie das Postleitzahlverzeichnis importieren, können Sie die automatische Zuordnung von Postleitzahl zu einem Ort bzw. Ort zu einer Postleitzahl nutzen.
 
@@ -136,11 +138,11 @@ Auf der Registerkarte `Daten 1` können Sie neben der Anschrift der Schule auch 
 
 ## Zeiträume definieren
 
-Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor der eigentlichen Eingabe der anderen Daten in MAGELLAN die notwendigen Zeiträume definieren. Ein Zeitraum ist definiert durch ein Anfangs- und ein Enddatum. Zusätzlich sollten noch einige weitere Angaben pro Zeitraum eingetragen werden. In der Regel werden Sie Zeiträume halbjahresweise eingeben (z.B. 1. Halbjahr 2017/2018, 2. Halbjahr 2017/2018). Dieses Intervall empfiehlt sich, wenn halbjahresweise Zeugnisse geschrieben werden.
+Der Zeitraumbezug spielt in MAGELLAN eine wichtige Rolle. Sie müssen daher vor der eigentlichen Eingabe der anderen Daten in MAGELLAN die notwendigen Zeiträume definieren. Ein Zeitraum ist definiert durch ein Anfangs- und ein Enddatum. Zusätzlich sollten noch einige weitere Angaben pro Zeitraum eingetragen werden. In der Regel werden Sie Zeiträume halbjahresweise eingeben (z.B. 1. Halbjahr 2020/2021, 2. Halbjahr 2020/2021). Dieses Intervall empfiehlt sich, wenn halbjahresweise Zeugnisse geschrieben werden.
 
 !!! warning "Wichtig"
 
-    Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan7.stueber.de/schulverwaltung/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
+    Alternativ können Sie auch grundsätzlich in Trimestern arbeiten, allerdings können Halbjahre und Trimester nicht innerhalb einer Datenbank verwaltet werden. Die Datenbank ist standardmäßig auf Halbjahre ausgelegt. Starten Sie mit MAGELLAN, kann die Datenbank auf Trimester über eine Option umschalten. Bitte lesen dazu hier [weiter](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#extras--optionen--einstellungen). Sind bereits Daten in der Datenbank enthalten, wenden Sie sich bitte an uns.
 
 ## Zeiträume eingeben
 
@@ -195,6 +197,6 @@ Sie können die Zeiträume wechseln, um beispielsweise historische Daten anzuseh
 Wenn Sie bereits mit einem Schulverwaltungsprogramm gearbeitet haben, dann möchten Sie wahrscheinlich die Daten nach MAGELLAN übernehmenohne alle Daten wieder neu einzugeben. Aus vielen gängigen Schulverwaltungsprogrammen können Sie ohne großen Aufwand den Großteil der Daten übernehmen. 
 Die Dokumentation ["MAGELLAN Import"](https://doc.magellan-toolbox.stueber.de/importe/) sagt Ihnen, aus welchen Programmen MAGELLAN Daten standardmäßig übernehmen kann bzw. wie Sie über das MAGELLAN-Importformat Daten aus Textdateien nach MAGELLAN übernehmen können. Sie finden dort die nötigen Informationen, um den Import aus einem der dort erwähnten Programme erfolgreich durchführen zu können. Lesen Sie sich die entsprechenden Abschnitte sorgfältig durch, um mögliche Fehler zu vermeiden. Wenn Sie ein anderes Programm einsetzen, dann müssen Sie entscheiden, ob Sie die Daten selber übernehmen wollen oder ob Sie STÜBER SYSTEMS mit der Übernahme beauftragen wollen.
 
-Daten selber übernehmen: Mit Hilfe der MAGELLAN-Scripting-Technologie und der Dokumentation der MAGELLAN-Datenstruktur können Sie Daten aus anderen Datenquellen in die entsprechenden Tabellen importieren. Ausführliche Hinweise hierzu finden Sie in den PDF-Dokumenten ["MAGELLAN-Scripting"](https://doc.magellan7-toolbox.stueber.de/scripting/) und die Dokumentation der "MAGELLAN-Datenstruktur" (bitte unter support@stueber.de anfordern).
+Daten selber übernehmen: Mit Hilfe der MAGELLAN-Scripting-Technologie und der Dokumentation der MAGELLAN-Datenstruktur können Sie Daten aus anderen Datenquellen in die entsprechenden Tabellen importieren. Ausführliche Hinweise hierzu finden Sie in den PDF-Dokumenten ["MAGELLAN-Scripting"](https://doc.magellan-toolbox.stueber.de/scripting/) und die Dokumentation der "MAGELLAN-Datenstruktur" (bitte unter support@stueber.de anfordern).
 
 Daten von STÜBER SYSTEMS übernehmen lassen: Sie können STÜBER SYSTEMS jederzeit Ihre Daten und die nötigen Informationen zum Programm zuschicken. STÜBER SYSTEMS wird Ihnen dann ein entsprechendes Angebot für die Datenübernahme machen. Dies ist der schnellste Weg für spezielle Importe.
