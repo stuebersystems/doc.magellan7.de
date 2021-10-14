@@ -31,12 +31,12 @@ Fachtafeln bestehen aus einer beliebigen Liste von Fächern und dienen der schne
 
 Bei den Fachtafeln werden in der Spalte `Art` die folgenden Arten der Fachtafel unterschieden
 
-Art|Bedeutung
---|--
-**Fachtafel:** |Die Fachtafel wird bei Zuweisung von Fachtafel zu Schülern (Ansicht `Schüler > Zeugnis > Fächer` bzw. Ansicht `Schüler > Laufbahn > Fachtafel`) und der Zuordnung zu Klassen (Ansicht `Klassen > Zeiträume > Fachtafel`) berücksichtigt.
-**Stundentafel:**| Stundentafeln werden bei der Zuweisung von Unterricht zu Klassen (Ansicht `Klassen > Unterricht`) berücksichtigt.
-**Fachwahltafel:**| Fachwahltafeln werden bei der Zuweisung von Fachwahlen für Schüler in der Oberstufe (Ansicht `Abitur > Fachwahl`) berücksichtigt.
-Die Standardeinstellung für die Spalte `Art` ist Fachtafel.
+|Art|Bedeutung|
+|:--|:--|
+|**Fachtafel:** |Die Fachtafel wird bei Zuweisung von Fachtafel zu Schülern (Ansicht `Schüler > Zeugnis > Fächer` bzw. Ansicht `Schüler > Laufbahn > Fachtafel`) und der Zuordnung zu Klassen (Ansicht `Klassen > Zeiträume > Fachtafel`) berücksichtigt.|
+|**Stundentafel:**| Stundentafeln werden bei der Zuweisung von Unterricht zu Klassen (Ansicht `Klassen > Unterricht`) berücksichtigt.|
+|**Fachwahltafel:**| Fachwahltafeln werden bei der Zuweisung von Fachwahlen für Schüler in der Oberstufe (Ansicht `Abitur > Fachwahl`) berücksichtigt.
+|**Art**|Die Standardeinstellung für die Spalte `Art` ist Fachtafel.|
 
 Klicken Sie auf das Symbol `Neue Zeile`. Es erscheint eine neue Zeile im Verzeichnis zur direkten Eingabe von Kürzel und Bezeichnung der Fachtafel auf der `Registerkarte Fachtafeln`. Um diese neu angelegte Fachtafel mit Fächern zu füllen, klicken Sie auf `Fachtafel-Fächer`. Hier können Sie der neu erstellten Fachtafel Fächer zuweisen oder Änderungen an bereits vorhandenen Eintragungen vornehmen.
 
@@ -46,24 +46,24 @@ Ein neues Fach weisen Sie zu, indem Sie auf das Symbol `Neue Zeile` klicken. Es 
 
 ![In der Spalte `Position` können Sie die Reihenfolge der Fächer festlegen](/assets/images/zeugnisdaten/zeugnisdaten4.png)
 
-Spalte|Bedeutung
---|--
-Fach|muss mindestens gefüllt sein<br/>verweist auf Verzeichnis Fächer
-Fachstatus|verweist auf Verzeichnis `Fachstatus`
-Unerrichtsart|verweist auf Verzeichnis `Unterrichtsarten`
-Schwerpunkt|verweist auf Verzeichnis `Fachschwerpunkte`
-Niveau|verweist auf Verzeichnis `Fachniveaus`
-Kurs|hier kann eine Kursnummer zugewiesen werden. In der Regel ist das nicht notwendig, da die Kursnummer dem Stundenplan von DAVINCI abgeholt werden kann.
-Faktor|Gewichtung des Fachs (nur BBS)
-Position|Positionierung auf dem Zeugnis <br/><br/> Die meisten der Zeugnisberichte benötigen zur Anzeige der Fächer eine per Position vorgegeben Reihenfolge. Bitte prüfen Sie vorab im Modul MAGELLAN BERICHTE ob es festgelegte Positionen pro Fach gibt, oder wie die Positionierung im Bericht erfolgt. Ein nachträgliches Zuweisen der Fachtafel macht fast immer mehr Mühe, Sie sollten die Positionen im besten Fall bereits per Fachtafel zuweisen.
-Merkmal|optionales Zeugnismerkmal, Hinweis pro Zeugnis im Modul MAGELLAN BERICHTE
-Lehrer|unterrichtender Lehrer, Verweis aufs Menü `Lehrer`. Diese Information kann optional auch für die Schüler aus dem Stundenplan von DAVINCI abgeholt werden.
-Klasse|Zusatzklasse, falls Fach in einer anderen Klasse belegt wird
-Stammkurs|wird nur in RLP verwendet
-Endnote fortschreiben|Note und Fach werden beim Fortschreiben der Schüler mit ins Folgehalbjahr übernommen
-Hauptfach|Fach kann per Hauptfach einem übergeordneten Fach zugeordnet werden. Beispiel: Hauptfach Deutsch, Unterfächer Lesen, Schreiben ...
-Sprache|Unterrichtssprache für bilingualen Unterricht, Verweis auf Verzeichnis `Kurssprachen` 
-Mündlich|zur Markierung ob die Zeugnisnote mündlich oder schriftlich erworben wurde (nur NRW ABS)
+|Spalte|Bedeutung|
+|:--|:--|
+|**Fach**|muss mindestens gefüllt sein<br/>verweist auf Verzeichnis Fächer|
+|**Fachstatus**|verweist auf Verzeichnis `Fachstatus`|
+|**Unerrichtsart**|verweist auf Verzeichnis `Unterrichtsarten`|
+|**Schwerpunkt**|verweist auf Verzeichnis `Fachschwerpunkte`|
+|**Niveau**|verweist auf Verzeichnis `Fachniveaus`|
+|**Kurs**|hier kann eine Kursnummer zugewiesen werden. In der Regel ist das nicht notwendig, da die Kursnummer dem Stundenplan von DAVINCI abgeholt werden kann.|
+|**Faktor**|Gewichtung des Fachs (nur BBS)|
+|**Position**|Positionierung auf dem Zeugnis <br/><br/> Die meisten der Zeugnisberichte benötigen zur Anzeige der Fächer eine per Position vorgegeben Reihenfolge. Bitte prüfen Sie vorab im Modul MAGELLAN BERICHTE ob es festgelegte Positionen pro Fach gibt, oder wie die Positionierung im Bericht erfolgt. Ein nachträgliches Zuweisen der Fachtafel macht fast immer mehr Mühe, Sie sollten die Positionen im besten Fall bereits per Fachtafel zuweisen.|
+|**Merkmal**|optionales Zeugnismerkmal, Hinweis pro Zeugnis in den MAGELLAN Landesanpassunge.|
+|**Lehrer**|unterrichtender Lehrer, Verweis aufs Menü `Lehrer`. Diese Information kann optional auch für die Schüler aus dem Stundenplan von DAVINCI abgeholt werden.|
+|**Klasse**|Zusatzklasse, falls Fach in einer anderen Klasse belegt wird|
+|**Stammkurs**|wird nur in RLP verwendet|
+|**Endnote fortschreiben**|Note und Fach werden beim Fortschreiben der Schüler mit ins Folgehalbjahr übernommen|
+|**Hauptfach**|Fach kann per Hauptfach einem übergeordneten Fach zugeordnet werden. Beispiel: Hauptfach Deutsch, Unterfächer Lesen, Schreiben ...|
+|**Sprache**|Unterrichtssprache für bilingualen Unterricht, Verweis auf Verzeichnis `Kurssprachen`| 
+|**Mündlich**|zur Markierung ob die Zeugnisnote mündlich oder schriftlich erworben wurde (nur NRW ABS)|
 
 ### Fachtafeln kopieren
 
@@ -79,8 +79,8 @@ Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. 
 
 Das Zuweisen von Fachtafeln kann alternativ auch direkt beim Einschulen oder beim Fortschreiben bzw. Versetzen erfolgen. So weisen Sie Schülern eine Fachtafel zu.
 
-|Nr.|So geht's:|
-|--|--|
+|Nr.|So geht's|
+|:--|:--|
 |1.| Klicken Sie auf Ansicht und dann auf Schüler.  |
 |2. |Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer`.<br/><br/>![Wählen Sie die Schaltfläche "Fachtafel zuweisen"](/assets/images/zeugnisdaten/zeugnisdaten6.png) |
 |3. |Klicken Sie oben auf `Fachtafel zuweisen`. Es öffnet sich der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`, um zu den nächsten Schritten zu gelangen. |
@@ -118,7 +118,7 @@ Um ein Fach aus der Fachliste zu löschen, markieren Sie die entsprechende Zeile
 Falls Sie Schülern weitere Fachtafeln zuweisen möchten, klicken Sie erneut auf Fachtafel zuweisen. Es öffnet sich wieder der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`, um zu den nächsten Schritten zu gelangen. Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern nun zugewiesen werden soll. Folgende Optionen können dabei gewählt werden:
 
 |Optionen im Assistenten|
-|--|
+|:--|
 |**Vorhandene Fächer der Schüler nicht löschen markiert:** <br/><br/>Die neu gewählte Fachtafel wird zu den bei den Schülern bereits eingetragenen Fächern hinzugefügt. Es werden keine Fächer gelöscht. |
 |**Vorhandene Fächer der Schüler nicht löschen nicht markiert:** <br/><br/>Die bei den Schülern bereits eingetragenen Fächer werden gelöscht und die Schüler erhalten nur die Fächer der neu ausgewählten Fachtafel. |
 |**Nur Lehrer der Fachtafel mit den vorhandenen Fächer, Unterrichtsart und Fachstatus der Schüler … markiert:** <br/><br/>Die bei den Schülern bereits eingetragenen Fächer werden um die Lehrer aus der Fachtafel ergänzt. Bereits zugewiesen Lehrer werden durch jene der Fachtafel überschrieben. |
@@ -279,7 +279,7 @@ Unter `Schüler > Zeugnis` können Sie für jeden Schüler das Arbeits- und Sozi
 Vorab müssen die verwendeten Schlüsselverzeichnisse eingerichtet werden. Folgende Schlüsselverzeichnisse stehen dafür unter `Extras > Schlüsselverzeichnis > Arbeits- und Sozialverhalten` zur Verfügung:
 
 |Verzeichnisse|
-|--|
+|:--|
 |**Typen:** <br/><br/>Dient als Filter um zwischen `Arbeits- und Sozialverhalten` und `Fachlichen Leistung` zu differenzieren. <br/><br/>![ Verzeichnis `Typen des Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten24.png) |
 |**Arten:** <br/><br/>Kann als Übergruppierung für die Kategorien verwendet werden, zum Beispiel um zwischen `Sozialverhalten` und `Arbeitsverhalten` zu unterscheiden. Für fachliche Leistungen entspricht die Art zum Beispiel `Deutsch` oder `Biologie`. Jeder Art wird zusätzlich der entsprechende Typ zugeordnet. Als Hilfe beim Erfassen der Arten kann das Verzeichnis zum Beispiel nach dem Typ gefiltert werden.<br/><br/> ![ Verzeichnis `Arten für das Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten25.png) |
 |**Kategoriegruppen:** <br/><br/>Legen in diesem Verzeichnis die Untergruppen der Arten an. Ein Bespiel für Kategoriegruppen: für die Art `Deutsch` sollen nach `Sprechen und Zuhören` und `Schreiben` getrennte Unterpunkte bewerten werden. Die Kategoriegruppen können Kategorien zugeordnet werden.<br/><br/>![Kategoriegruppen](/assets/images/zeugnisdaten/zeugnisdaten26.png) |
@@ -297,8 +297,8 @@ Vorab müssen die verwendeten Schlüsselverzeichnisse eingerichtet werden. Folge
 
 Wenn Sie für einen Schüler die Kategorien per Hand angelegt haben, können Sie daraus auch eine Kategorietafel extrahieren.
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1. Wählen Sie den gewünschten Schüler, rufen Sie die Karte `Zeugnis > Arbeits- und Sozialverhalten` auf und klicken auf `Kategorietafel extrahieren…`.|
 |2. Geben Sie ein Kürzel und eine Bezeichnung für die neue Kategorietafel ein und klicken auf `OK`.|
 |3. Die neue Tafel steht im Anschluss im Assistenten `Kategorietafel zuweisen…`zur Verfügung oder kann unter `Extras > Schlüsselverzeichnisse > Gruppe Arbeits- und Sozialverhalten > Kategorietafeln` editiert werden.|
@@ -309,8 +309,8 @@ Sie können die Kategorien für die Schüler einzeln per Hand zuweisen oder mehr
 
 #### Zuweisen einer einzelnen Kategorie und Bewertung
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1.  Wählen Sie in der Auswahlliste `Schüler` den gewünschten Schüler und rufen Sie die Registerkarte `Zeugnis > Arbeits- und Sozialverhalten` auf. <br/><br/> ![Dies ist die noch ungefüllte Registerkarte `Arbeits- u. Sozialverhalten`.](/assets/images/zeugnisdaten/zeugnisdaten34.png) |
 |2. Um eine neue Zeile zu erzeugen wählen Sie das rote Plus `Neue Kategorie` im rechten Bereich der Ansicht. |
 |3. Wählen Sie für die neue Zeile im Feld Kategorie einen Wert aus den zuvor im Schlüsselverzeichnis erfassten Kategorien. |
@@ -343,8 +343,8 @@ Klicken Sie dafür beim Schüler auf die Schaltfläche `Kategorietafel extrahier
 
 Gebunden an eine Inhaltetafel kann zusätzlich eine Ergänzung für einen Schüler frei formuliert werden. Beispielsweise soll auf dem Zeugnisbericht eines Schülers für das Fach Deutsch in der Klasse 4b ein besonderer Hinweis erscheinen. 
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1.  Um einen neue Ergänzung anzulegen, klicken Sie auf die Plusschaltfläche im rechten unteren Bereich |
 |2. Wählen Sie eine Inhaltetafel aus und verfassen anschließend im Textfeld `Ergänzungen` die Anmerkung. Speichern Sie bitte über das Häkchen im rechten unteren Bereich. <br/><br/>![Ergänzung für das Fach Deutsch erfasst](/assets/images/zeugnisdaten/zeugnisdaten36.png) |
 
@@ -363,10 +363,9 @@ Unter `Fachkombination` können Sie die Fachkombinationsnummer in der gymnasiale
 
 Über die Möglichkeit der Sammelzuweisung können Sie für mehrere Schüler gleichzeitig bestimmte Werte auf der Registerkarte `Details` zuweisen. Auf diese Weise können Sie beispielsweise allen Schülern einer Klasse mit einer Anweisung das gleiche `Zeugnisdatum` zuordnen oder allen Schülern eines Oberstufenjahrgangs den gleichen `Tutor` zuweisen. Um den Assistenten für Sammelzuweisungen zu starten, müssen Sie links oben auf der Registerkarte `Details` auf die Schaltfläche `Sammelzuweisung…` klicken.
 
-So geht's:
 
-Schritt|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1.  Markieren Sie unter `Schüler auswählen` die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte `Details` erhalten sollen. |
 |2. Klicken Sie auf `Weiter`. Geben Sie unter `Felder auswählen und Werte zuweisen` die Werte an, die alle zuvor markierten Schüler erhalten sollen.<br/>Wichtig: Setzen Sie nur ein Häkchen, wählen im dazugehörigen Feld aber keienn Wert aus, können Sie auch Einträge aus Felder wieder löschen!<br/><br/>![Hier können alle Felder und deren Werte auswählen, die in der Sammelzuweisung allen markierten Schülern zugeordnet werden.](/assets/images/zeugnisdaten/zeugnisdaten38.png) |
 |3. Beispiel: Wählen Sie `Fächer der Schüler ohne Notenangabe löschen`, wenn Sie für alle markierten Schüler die zugewiesenen Fächer in der Registerkarte `Fächer` herauslöschen möchten. Es werden nur die Fächer gelöscht, bei welchen noch keine Noten eingetragen wurden. |
@@ -387,8 +386,8 @@ Die Zeugnisbemerkungen sind ein weiteres Schlüsselverzeichnis. Um das Verzeichn
 
 ### Zeugnisbemerkungen zuweisen
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1. Wählen Sie die Registerkarte Zeugnis des Schülers. Dann wählen Sie dort die untergeordnete Registerkarte Zeugnis. <br/><br/>![Hier können Sie die Zeugnisbemerkungen des Schülers eintragen](/assets/images/zeugnisdaten/zeugnisdaten41.png) |
 |2. Klicken Sie auf die Schaltfläche ``Hinzufügen`` neben der Liste der Zeugnisbemerkungen. Es öffnet sich das Dialogfenster `Neue Zeugnisbemerkung`. |
 |3. Wählen Sie hier die entsprechenden zuvor definierten Zeugnisbemerkungen über die Schaltfläche `Aus Verzeichnis wählen` aus oder geben Sie einen freien Text ein. |
@@ -401,8 +400,8 @@ Beim Anlegen einer Zeugnisbemerkung mit freiem Text steht Ihnen eine Rechtschrei
 
 Über die Möglichkeit der Sammelzuweisung können Sie für mehrere Schüler gleichzeitig bestimmte Zeugnisbemerkungen auf der Registerkarte `Zeugnis` zuweisen. Auf diese Weise können Sie beispielsweise allen Schülern einer Klasse mit einer Anweisung die gleiche Zeugnisbemerkung zuordnen.
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1. Um den Assistenten für Sammelzuweisungen zu starten, müssen Sie links oben auf der Registerkarte `Zeugnis` auf die Schaltfläche `Sammelzuweisung…` klicken. |
 |2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.  Markieren Sie unter Schüler auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte `Zeugnis` erhalten sollen. |
 |3. Klicken Sie auf `Weiter`. Markieren Sie unter `Bemerkungen` auswählen die Einträge, die alle zuvor markierten Schüler erhalten sollen. Es sind hier Bereichsmarkierungen und Einzelmarkierungen möglich. Mit dem Häkchen `Fortschreiben` legen Sie fest, ob die Bemerkung für die Schüler beim Fortschreiben oder Versetzen ins Folgehalbjahr übernommen werden soll.<br/><br/>![Wählen Sie hier die Zeugnisbemerkung(en) aus](/assets/images/zeugnisdaten/zeugnisdaten42.png) |
@@ -444,7 +443,7 @@ Auf der Registerkarte Laufbahn des Schülers ist die Laufbahn des Schülers an d
 Markiert man einen Zeitraumeintrag der Liste auf der linken Seite, so werden die entsprechenden Details zu diesem Zeitraum auf der rechten Seite für die  Registerkarten `Allgemein` und `Abschluss` angezeigt. Die Einträge in der Laufbahnliste des Schülers sind teilweise mit Symbolen markiert, welche eine Aussage über die Art des Wechselns machen.
 
 |Bedeutung der Symbole|
-|--|
+|:--|
 |Schüler ist in den nächsten Zeitraum versetzt bzw. fortgeschrieben worden.<br/><br/>![ ](/assets/images/zeugnisdaten/lb01.png) 
 |Parallele Laufbahn des Schülers, der Schüler besucht eine weitere Klasse neben seiner Hauptklasse. <br/><br/>![ ](/assets/images/zeugnisdaten/lb02.png) 
 |Der Schüler innerhalb des gleichen Zeitraums gewechselt. <br/><br/>![ ](/assets/images/zeugnisdaten/lb03.png)
@@ -463,8 +462,8 @@ Auf der Registerkarte `Abschluss` kann der Abschluss des Schülers (z.B. Abitur)
 
 Über die Möglichkeit der Sammelzuweisung können Sie für mehrere Schüler gleichzeitig bestimmte Laufbahndaten auf der Registerkarte `Laufbahn` zuweisen. Auf diese Weise können Sie beispielsweise allen Schülern einer Klasse mit einer Anweisung viele Laufbahndaten zuordnen.
 
-|So geht's:|
-|--|
+|So geht's|
+|:--|
 |1. Um den Assistenten für Sammelzuweisungen zu starten, müssen Sie links oben auf der Registerkarte `Allgemein` auf die Schaltfläche `Sammelzuweisung` klicken. |
 |2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. |
 |3. Markieren Sie unter Schüler auswählen die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte Allgemein erhalten sollen. |
