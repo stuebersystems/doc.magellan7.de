@@ -367,7 +367,6 @@ So geht's:
 
 Schritt|So geht's:|
 |--|
-
 |1.  Markieren Sie unter `Schüler auswählen` die Schüler, die im Rahmen der Sammelzuweisung den bzw. die gleichen Einträge auf der Registerkarte `Details` erhalten sollen. |
 |2. Klicken Sie auf `Weiter`. Geben Sie unter `Felder auswählen und Werte zuweisen` die Werte an, die alle zuvor markierten Schüler erhalten sollen.<br/>Wichtig: Setzen Sie nur ein Häkchen, wählen im dazugehörigen Feld aber keienn Wert aus, können Sie auch Einträge aus Felder wieder löschen!<br/><br/>![Hier können alle Felder und deren Werte auswählen, die in der Sammelzuweisung allen markierten Schülern zugeordnet werden.](/assets/images/zeugnisdaten/zeugnisdaten38.png) |
 |3. Beispiel: Wählen Sie `Fächer der Schüler ohne Notenangabe löschen`, wenn Sie für alle markierten Schüler die zugewiesenen Fächer in der Registerkarte `Fächer` herauslöschen möchten. Es werden nur die Fächer gelöscht, bei welchen noch keine Noten eingetragen wurden. |
