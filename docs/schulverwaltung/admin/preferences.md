@@ -102,7 +102,7 @@ Beim Druck von Crystal Reports Berichten und beim Word-Seriendruck können Sie o
 
 !!! warning "Wichtig"
 
-	Durch das Setzen der Optionshäkchen wird nicht automatisch beim Druck oder beim Seriendruck eine Kopie in den jeweiligen Unterordner abgelegt, sondern Sie schalten sich das Angebot dafür frei.
+	Durch das Setzen der Optionshäkchen wird nicht automatisch beim Druck oder beim Seriendruck eine Kopie in den jeweiligen Unterordner abgelegt, sondern Sie schalten sich das per Option das Angebot dafür frei.
 
 ### Einstellung für Crystal Reports Berichte
 
@@ -114,9 +114,9 @@ Für den Druck von Crystal Reports Berichten gehen Sie wie folgt vor:
 
 3. Wählen Sie die Registerkarte `Crystal Reports`.
 
-4. Markieren Sie pro Ansicht, ob nach dem Druck der gefüllte Berichte in der Dokumentenverwaltung gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die PDF-Datei gespeichert werden soll.
+4. Markieren Sie pro Ansicht, ob nach dem Druck der gefüllte Berichte in der Dokumentenverwaltung gespeichert werden kann. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die PDF-Datei gespeichert werden soll.
 
-![Hier ist für die Ansicht „Klassen“ angegeben, dass neben dem Ausdruck zusätzlich eine PDF-Datei in der Dokumentenverwaltung im Unterordner „Berichte“ erzeugt werden soll](/assets/images/optionen_dok_cr.png)
+![Hier ist für die Ansicht „Klassen“ angegeben, dass neben dem Ausdruck zusätzlich eine PDF-Datei in der Dokumentenverwaltung im Unterordner „Berichte“ erzeugt werden können soll](/assets/images/optionen_dok_cr.png)
 
 ### Einstellung für den Seriendruck
 
@@ -136,7 +136,7 @@ Um Seriendruckdokumente aufzuteilen und je Schüler (Klasse, Betrieb usw,je nach
 
 3. Wählen Sie die Registerkarte `Seriendruck`.
 
-4. Markieren Sie pro Ansicht, ob vor dem Seriendruck in der Dokumentenverwaltung eine Datei gespeichert werden soll. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die Datei gespeichert werden soll.
+4. Markieren Sie pro Ansicht, ob vor dem Seriendruck in der Dokumentenverwaltung eine Datei gespeichert werden kann. Zusätzlich können Sie optional den Namen für einen Unterordner der Dokumentenverwaltung angeben, in welchem die Datei gespeichert werden soll.
 
 !!! info "Hinweis"
 
