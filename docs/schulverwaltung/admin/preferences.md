@@ -94,11 +94,15 @@ Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumen
 
 ## Dokumente
 
-Beim Druck von Crystal Reports Berichten und beim Word-Seriendruck können Sie optional nach dem eigentlichen Druck die Einzeldokumente in der Dokumentenverwaltung automatisch abspeichern lassen. Für jede Ansicht in MAGELLAN können Sie auf der Registerkarte `Dokumente` einstellen, ob (Häkchen setzen) und wenn ja in welchem Ordner (gewünschten Verzeichnisnamen eintippen) die Dokumente in der Dokumentenverwaltung abgelegt werden.
+Beim Druck von Crystal Reports Berichten und beim Word-Seriendruck können Sie optional nach dem eigentlichen Druck die Einzeldokumente in der Dokumentenverwaltung automatisch abspeichern lassen. Für jede Ansicht in MAGELLAN können Sie auf der Registerkarte `Dokumente` einstellen, ob (Häkchen setzen) und wenn ja in welchem Ordner (gewünschten Verzeichnisnamen eintippen) die Dokumente in der Dokumentenverwaltung abgelegt werden.  
 
 !!! warning "Wichtig"
 
 	Es ist hier lediglich die Angabe eines Unterpfades oder eines (ggfs. noch nicht existierenden) Verzeichnis möglich, die Ablage soll nur innerhalb der MAGELLAN-Struktur erfolgen. Den Pfad zum Ablageordner können Sie im MAGELLAN Administrator unter `Datenbankverbindungen` einsehen.
+
+!!! warning "Wichtig"
+
+	Durch das Setzen der Optionshäkchen wird nicht automatisch beim Druck oder beim Seriendruck eine Kopie in den jeweiligen Unterordner abgelegt, sondern Sie schalten sich das Angebot dafür frei.
 
 ### Einstellung für Crystal Reports Berichte
 

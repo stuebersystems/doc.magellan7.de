@@ -51,7 +51,7 @@ Klicken Sie auf `Weiter` und dann auf `Fertigstellen`. In beiden Fällen wird Wo
 
 !!! info "Hinweis"
 
-    Um die Option Daten mit einer Vorlage verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
+    Um die Option `Daten mit einer Vorlage` verknüpfen und vor dem Start von Word/LibreOffice das gefüllte Dokument pro Schüler in der Dokumentenverwaltung speichern nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben.
     Aus Word kann je Schüler (alternativ Bewerber, Lehrer, Klasse, Sorgeberechtigte je nach Startmenüpunkt) in den Unterordnern als Worddokument gespeichert werden. Verwenden Sie LibreOffice speichert MAGELLAN die Daten in einer PDF-Datei.
 
 Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster `Vorlagen organisieren`.
