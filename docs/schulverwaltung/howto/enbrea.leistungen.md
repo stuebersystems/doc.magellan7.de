@@ -23,6 +23,7 @@
 [37]:/assets/images/enbrea.leistungen/37.png
 [38]:/assets/images/enbrea.leistungen/38.png
 [39]:/assets/images/enbrea.leistungen/39.png
+[40]:/assets/images/enbrea.leistungen/40.png
 
 # ENBREA Leistungen
 
@@ -196,7 +197,7 @@ interner Code| derzeit nicht in Benutzung
 
 [![Bewertungseinträge][36]][36]
 
-### Schlüsselverzeinis > Notentypen
+### Schlüsselverzeichnis > Notentypen
 
 [![`Schlüsselverzeichnis > Notentypen`][10]][10]
 
@@ -237,11 +238,13 @@ Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs 
 
 !!! info "Hinweis"
     
-    Sie können auch mehrere Kurse in einem Schritt duplizieren. Markieren Sie über `Strg + linke Maustaste` die gewünschte Kurse und wählen Sie dann den Aufruf `Kurs duplizieren`.
+    Sie können auch mehrere Kurse in einem Schritt duplizieren. Markieren Sie über `Strg + linke Maustaste` die gewünschten Kurse und wählen Sie dann den Aufruf `Kurs duplizieren`.
+
+[![mehrere Kurse duplizieren][40]][40]    
 
 ### Kurse mit Leistungprofil duplizieren
 
-
+...
 
 ### Übergreifend verwenden
 
