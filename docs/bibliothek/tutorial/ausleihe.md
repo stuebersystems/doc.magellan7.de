@@ -249,9 +249,7 @@ Um eine Klassensatzausleihe durchzuführen, gehen Sie bitte folgendermaßen vor:
 
 1. Wählen Sie im Auswahlfeld `Sammelaktion` den Eintrag `Klassensatz ausleihen` aus dem Aufklappmenü.
 2. Betätigen Sie die Schaltfläche `Ausleiher auswählen` und markieren Sie im erscheinenden Dialogfenster die Schüler, für die Sie eine Gruppenausleihe durchführen möchten. Bestätigen Sie diese Auswahl mit `Fertigstellen`.
-Oder:
-
-Platzieren Sie den Cursor in das Feld `Barcode` und scannen Sie nacheinander den Barcode von den BIBLIOTHEKsausweisen der Schüler ein.
+**Oder:** Platzieren Sie den Cursor in das Feld `Barcode` und scannen Sie nacheinander den Barcode von den BIBLIOTHEKsausweisen der Schüler ein.
 In der Vorgangsliste erscheint nun eine Zeile für jeden ausgewählten Schüler.
 3. Suchen und bestimmen Sie im Segment `Barcode` das Exemplar bzw. den Titel: in der Spalte `Signatur` der Vorgangsliste werden die verfügbaren Exemplare des Titels automatisch den Ausleihern zugeweisen.
 4. Bestätigen Sie Ihre Auswahl mit der Schaltfläche `Aktionen ausführen` oder `Bestätigung drucken und Aktionen ausführen`.
