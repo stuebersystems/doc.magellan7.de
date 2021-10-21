@@ -1,5 +1,11 @@
 # Schüler
 
+[1]:/assets/images/bibliothek/ausleiher_registrieren.png
+[2]:/assets/images/bibliothek/ausleiher_markieren.png
+[3]:/assets/images/bibliothek/ausleiher_erlaubnis.png
+[4]:/assets/images/bibliothek/ausleiher_fertigstellen.png
+[5]:/assets/images/bibliothek/schueler01.png
+
 Bei der Übernahme der Ausleiher nach MAGELLAN-BIBLIOTHEK gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach MAGELLAN-BIBLIOTHEK übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von MAGELLAN bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
 
 Damit Sie in MAGELLAN-BIBLIOTHEK Schüler aus dem Basismodul als Ausleiher übernehmen können, müssen diese im Zeitraum, in dem das Systemdatum Ihres Rechners liegt, auf aktiv gesetzt sein. Dies bedeutet z.B. dass nur solche Schüler in MAGELLAN-BIBLIOTHEK registriert werden können, die im jeweils aktuellen Zeitraum einer Klasse zugewiesen sind.
@@ -56,7 +62,7 @@ Die ist die Karteikarte für den einzelnen Ausleiher, die abgesehen von der Barc
 
 ## Register `Vorgänge` 
 
-Diese Registerkarte  enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Schülers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
+Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Schülers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
 
 !!! info "Hinweis"
 
