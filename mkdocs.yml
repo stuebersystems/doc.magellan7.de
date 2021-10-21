@@ -72,6 +72,7 @@ nav:
       - Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
+      - Terminalserver: schulverwaltung/installation/terminalserver.md
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
       - Archiv:
