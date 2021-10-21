@@ -1,7 +1,7 @@
 # MAGELLAN-Installation als Terminalserver
 
 Terminalserver stellen innerhalb Ihres Netzwerks Terminals bereit. Das sind Sitzungen, die der Nutzer per Remotezugriff auf dem Terminalserver öffnet.
-Jeder Nutzer hat dabei seine eigene Sitzung und arbeitet unbeeinflusst von anderen Nutzern, die sich auch am Server anmelden. Es werden lediglich die Maus- und Tastaturbewegungen zum Endgerät des Nutzers übertragen und die eigentliche Sitzung findet direkt auf dem Terminalserver stattfindet.
+Jeder Nutzer hat dabei seine eigene Sitzung und arbeitet unbeeinflusst von anderen Nutzern, die sich auch am Server anmelden. Das System hat Vorteile (bspsw. Updates müssen nur auf dem Terminalserver eingespielt werden) und Nachteile (bspsw. Bildschirminhalte und Eingaben die per Internet übertragen werden, sind immer durch eine gewisse Latenz gekennzeichnet), die abgewägt werden müssen.
 
 ## Installation
 
