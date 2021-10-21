@@ -15,7 +15,7 @@ Soll MAGELLAN aktualisiert werden, müsste das auf allen eingesetzten Rechnern, 
 
     Original bei der Installation angelegte Verzeichnisse werden bei Updates aktualisiert, eine nachträglich (nach der Installation) individuell angelegte Struktur kann später per Update nicht erreicht werden.
 
-## benutzerindividuelle Daten
+## Benutzerindividuelle Daten
 
 Die Dateien MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm werden standardmäßig je MAGELLAN-Installation unter `C:\ProgramData\Stueber Systems\Magellan 8` gespeichert, existieren also eigentlich je MAGELLAN-Client. Arbeiten die Nutzer in einer Terminal-Server-Umgebung, muss beim Konfigurieren beachtet werden, dass diese Daten (MAGELLAN.opt, MAGELLAN.lic, MAGELLAN.evm) oder die `MAGELLAN.paths` je Nutzer individuell geladen werden können.
 
