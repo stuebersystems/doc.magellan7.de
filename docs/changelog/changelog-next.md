@@ -51,6 +51,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 * FIX: [Synchronisieren BBS.dws] Ausbildungsparameter wird gesetzt, damit die Fachliste gefüllt und übertragen werden kann
 * FIX: DE-DIAP-2015 diverse Korrekturen Vorschlagsautomatik
 * FIX: DE-DIAP-2018 diverse Korrekturen
+* FIX: DE-DIAP-2018 Eibringungsverprflichtung einer Naturwissenschaft mit allen 4 Halbjahren
 
 #### Berichte
 
