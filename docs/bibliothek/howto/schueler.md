@@ -5,6 +5,9 @@
 [3]:/assets/images/bibliothek/ausleiher_erlaubnis.png
 [4]:/assets/images/bibliothek/ausleiher_fertigstellen.png
 [5]:/assets/images/bibliothek/schueler01.png
+[6]:/assets/images/bibliothek/16.png
+[7]:/assets/images/bibliothek/17.png
+[8]:/assets/images/bibliothek/18.png
 
 Bei der Übernahme der Ausleiher nach MAGELLAN-BIBLIOTHEK gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach MAGELLAN-BIBLIOTHEK übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von MAGELLAN bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
 
@@ -54,13 +57,19 @@ An dieser Stelle stehen Ihnen drei Optionen zur Verfügung:
 
 ## Register `Auswahl`
 
+[![Auswahl][7]][7]
+
 Die Auswahlliste enthält die wichtigsten Kontaktdaten aller Schüler, wie Nachname, Vorname, Telefon, Telefax, Mobil, Klassenzugehörigkeit. Außerdem zeigt sie  den Gültigkeitszeitraum der Ausleiherlaubnis sowie eine Barcodenummer, die für jeden Ausleiher bei der Übernahme automatisch erzeugt wird.
 
 ## Register `Daten`
 
+[![Daten][6]][6]
+
 Die ist die Karteikarte für den einzelnen Ausleiher, die abgesehen von der Barcodenummer alle Informationen der Auswahlliste enthält. Darüberhinaus ist hier die Postanschrift und der Klassenleiter hinterlegt. Außerdem zeigt Sie, sofern im Basismodul hinterlegt, ein Passfoto des Schülers. Es werden jeweils die Daten des Schülers angezeigt, der in der Auswahlliste markiert ist.
 
 ## Register `Vorgänge` 
+
+[![Vorgänge][8]][8]
 
 Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Schülers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
 

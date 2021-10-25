@@ -10,7 +10,7 @@ Damit Sie in MAGELLAN-BIBLIOTHEK Lehrer aus dem Basismodul als Ausleiher überne
 
 Um Lehrer als Ausleiher in MAGELLAN-BIBLIOTHEK zu registrieren, müssen Sie sich in der Ansicht `Lehrer` aufhalten. Bei der Durchführung unterstützt Sie jeweils der Übernahmeassistent `Neuer Ausleiher`, der Sie durch eine kurze Reihe vorgegebener Teilschritte führt.
 
-## Lehrer als Ausleiher übrenehmen
+## Lehrer als Ausleiher übernehmen
 
 Den Assistenten zur Übernahme neuer Ausleiher starten Sie folgendermaßen:
 
