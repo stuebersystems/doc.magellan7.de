@@ -49,6 +49,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
 * FIX: [Synchronisieren BBS.dws] Ausbildungsparameter wird gesetzt, damit die Fachliste gefüllt und übertragen werden kann
+* FIX: DE-DIAP-2015 diverse Korrekturen Vorschlagsautomatik
+* FIX: DE-DIAP-2018 diverse Korrekturen
 
 #### Berichte
 
