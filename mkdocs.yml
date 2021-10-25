@@ -224,16 +224,16 @@ nav:
         - Referenzen: bibliothek/tutorial/referenzen.md
         - Supportanfragen: bibliothek/tutorial/support.md
     - So gehen Sie vor: 
-        - Ausleihe: bibliothek/howto/ausleihe.md
-        - Bücher / Medien: bibliothek/howto/buecher_medien.md
-        - Vorgänge: bibliothek/howto/vorgaenge.md
-        - Mahnwesen: bibliothek/howto/mahnwesen.md
-        - Verlage: bibliothek/howto/verlage.md
-        - Lieferanten: bibliothek/howto/lieferanten.md
         - Schüler: bibliothek/howto/schueler.md
         - Lehrer: bibliothek/howto/lehrer.md
         - Personen: bibliothek/howto/personen.md
         - Mandanten: bibliothek/howto/mandanten.md
+        - Bücher / Medien: bibliothek/howto/buecher_medien.md
+        - Verlage: bibliothek/howto/verlage.md
+        - Lieferanten: bibliothek/howto/lieferanten.md
+        - Ausleihe: bibliothek/howto/ausleihe.md
+        - Vorgänge: bibliothek/howto/vorgaenge.md
+        - Mahnwesen: bibliothek/howto/mahnwesen.md
 
 
 
