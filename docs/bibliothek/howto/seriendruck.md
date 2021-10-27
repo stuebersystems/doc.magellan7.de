@@ -5,7 +5,7 @@ Aus MAGELLAN BIBLIOTHEK heraus können Sie mit Hilfe des Word Seriendrucks aus v
 
 !!! info "Hinweis"
 
-    Alle zur Verfügung stehenden Seriendruckfelder je Menüpunkt finden Sie aufgelistet unter [https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/](https://doc.magellan7.stueber.de/bibliothek/tutorial/referenzen/).
+    Alle zur Verfügung stehenden Seriendruckfelder je Menüpunkt finden Sie aufgelistet unter [Referenzen](referenzen.md).
 
 Diese Funktion steht für folgende Stammdaten und Vorgangslisten zur Verfügung:
 

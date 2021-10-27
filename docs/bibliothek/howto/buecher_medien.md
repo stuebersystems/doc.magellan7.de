@@ -13,7 +13,7 @@ Exemplare, Daten 1, Daten 2 Vorgänge Stichworte][1]][1]
 
 [![Ansicht Auswahl][2]][2]
 
-In der Auswahlliste Buecher/Medien finden Sie die Gesamtliste aller erfassten Medien.
+Die Registerkarte  `Auswahl` enthält die Liste aller Bücher- und Medientitel.
 
 Damit Sie einzelne Titel Ihres Medienbestands schnell auffinden können, haben Sie die Möglichkeit die Liste `Bücher/Medien` nach einer Reihe inhaltlicher Kriterien zu filtern. Für das Filtern Ihrer Medienliste steht eine Suchmaske mit folgenden Eingabefeldern zur Verfügung:
 
@@ -83,7 +83,7 @@ Die erste Seite  `Mediendaten suchen oder auswählen` bietet Ihnen drei Optionen
 
 3. Lokal nach einem Titel suchen
 
-**Mediendaten manuell selbst erfassen**
+#### Mediendaten manuell selbst erfassen
 
 Diese Option bietet sich an, wenn Sie einen Titel anlegen wollen, der sich noch nicht in Ihrer Datenbank befindet. Zur manuellen Erfassung Ihrer Mediendaten steht Ihnen eine Eingabemaske für die wesentlichen bibliographischen Informationen zur Verfügung. Hier können Sie u.a Titel, Untertitel, Autor, Verlag , Verlagsort Erscheinungsjahr und Umfang des Mediums angeben.
 
@@ -117,51 +117,32 @@ Um Mediendaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor:
 
     Geben Sie bei der manuellen Erfassung im Feld  `Barcode` immer auch die Barcodenummer des Mediums ein. Dadurch erkennt der Eingabeassistent bei der späteren Erfassung eines neuen Exemplars mit Hilfe des Barcodescanners, ob das Medium bereits in der Datenbank gespeichert ist. Die Barcodenummer finden Sie direkt unter dem Strichcode des Medientitels.
 
+#### Automatisch nach dem Barcode suchen
 
-**Automatisch nach dem Barcode suchen**
+Um Mediendaten Automatisch nach dem Barcode zu suchen, gehen Sie bitte folgendermaßen vor:
 
-**Lokal nach einem Titel suchen**
+1. Öffnen Sie über die Schaltfläche  `Neuer Datensatz` in der Symbolleiste des Programmfensters den Assistenten  `Neue Medien und Exemplare anlegen`.
 
+2. Setzen Sie den Punkt im Kontrollkreis vor  `Automatisch nach dem Barcode suchen`.
+3. Scannen Sie das Medium ein, bzw. geben es über die Tastatur die ISBN Nummer im Feld Barcode ein und schließen dann mit der Eingabetaste ab. OPAC-Research stellt eine Verbindung zum ersten Server her und sucht nach dem Barcode. Wenn Sie mehrere Server eintragen, dann werden alle Server nacheinander angefragt, bis ein Server einen Eintrag zum Barcode auf dem jeweiligen Server findet.
 
-### Medienliste
-
-Zur Liste der bereits eingegebenen Medien gelangen Sie, indem Sie über die blaue Navigationsleiste am linken Rand des Programmfensters die Ansicht  `Bücher/ Medien` aufrufen. Die Programmansicht  `Bücher/ Medien` enthält eine Reihe miteinander verknüpfter Registerkarten, die über das Anklicken des jeweiligen Reiters aufgerufen werden können. Die Registerkarte  `Auswahl` enthält die Liste der Bücher- und Medientitel.
-
-![Die Registerkarte  `Auswahl` der Ansicht  `Bücher/ Medien` enthält die Liste der Bücher- und Medientitel](/assets/images/bibliothek/medien.png)
-
-**Medienliste filtern**
-
-Damit Sie einzelne Titel Ihres Medienbestands schnell auffinden können, haben Sie die Möglichkeit die Liste `Bücher/Medien` nach einer Reihe inhaltlicher Kriterien zu filtern. Für das Filtern Ihrer Medienliste steht eine Suchmaske mit folgenden Eingabefeldern zur Verfügung:
-
-* Stichwort
-* Titel
-* Autor
-* Verlag
-* Herausgeber
-* ISBN
-* Signaturvorgabe
-
-![Im Dialogfenster `Anzeigefilter` können Sie die Anzeige der Medientitel nach verschiedenen Kriterien filtern.](/assets\images\bibliothek/medienfilter.png)
-
-Durch die Eingabe von Begriffen in diese Suchmaske können Sie die Anzeige Ihrer Medientitel einschränken. Dabei können Sie jeweils einzelne oder auch mehrere Felder der Suchmaske nutzen.
-Um die Anzeige Ihrer Medientitel nach einzelnen oder mehreren Kriterien zu filtern, gehen Sie bitte folgendermaßen vor:
-
-1. Betätigen Sie die Schaltfläche `Anzeigefilter` in der Symbolleiste des Programmfensters.
-2. Füllen Sie im erscheinenden Dialogfenster `Anzeigefilter` ein oder mehrere Eingabefeld/er mit Ihren Suchbegriffen.
-3. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
-4. In der Liste `Bücher/Medien` werden nun nur noch die Titel angezeigt, die den verwendeten Suchbegriffen entsprechen. Die gewählten Begriffe müssen dabei den für einen Titel hinterlegten Mediendaten nicht vollständig entsprechen. Der Platzhalter `*` (steht für eine beliebige Zeichenkette) erlaubt den Einsatz unvollständiger bzw. abgekürzter Suchbegriffe.
-5. Wenn Sie den gesetzten Filter wieder entfernen möchten, rufen Sie bitte erneut das Dialogfenster `Anzeigefilter` auf und ändern Ihre Suchkriterien. Bei umfangreichen Medienbeständen bietet es sich an, die Liste der `Bücher/Medien` nur in gefilterter Form anzuzeigen. Je spezifischer die Auswahl der Medientitel gefasst ist, desto übersichtlicher ist die Darstellung und umso schneller kann die Medienliste geladen werden. Falls Sie dennoch zur Anzeige der vollständigen Medienliste zurückkehren möchten , müssen Sie einen leeren Filter definieren. Führen Sie dazu bitte die folgenden Schritte aus:
-
-1. Rufen Sie das Dialogfenster `Anzeigefilter` auf.
-2. Löschen Sie alle Suchbegriffe aus den Eingabefeldern.
-3. Tippen Sie den Platzhalter `*` in eines der Eingabefelder.
-4. Bestätigen Sie abschließend mit `OK`.
-
-Es erscheint nun wieder die vollständige Liste `Bücher/Medien` mit allen Titeln Ihres Medienbestands.
+![Neues Medium erfassen](/assets/images/bibliothek/opac8.png)
 
 !!! info "Hinweis"
 
-    Möchten Sie alle Medien gezeigt bekommen, geben Sie ein * als Filterkriterium für den Titel ein.
+    Klappt es nicht? Bitte prüfen Sie, ob unter `Datenbank > Optionen > Online Suche` die Option `Buchdetails im Internet suchen und mit Magellan-Bibliothek synchronisieren` aktiviert ist.
+
+4. War die Recherche erfolgreich, wechselt der Assistent zur Eingabe neuer Medien direkt auf die nächste Seite. Die gefundenen Informationen sind hier bereits vorbelegt, ggf. können Sie weitere Informationen für das Medium erfassen.
+
+![Neues Medium erfassen](/assets/images/bibliothek/opac9.png)
+
+5. Bestätigen Sie die Eingabe mit `Weiter`. Sie gelangen auf die nächste Registerkarte mit den Angaben zur Signatur. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter`.
+
+![Neues Medium erfassen](/assets/images/bibliothek/opac10.png)
+
+6. Sie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt. Der ausgewählte Eintrag wird in die MAGELLAN BIBLIOTHEK übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
+
+**Lokal nach einem Titel suchen**
 
 ## Anlegen von neuen Exemplaren
 
