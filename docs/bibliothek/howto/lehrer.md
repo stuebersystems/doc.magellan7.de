@@ -1,10 +1,12 @@
 # Lehrer
 
-[1]:/assets/images/bibliothek/ausleiher_registrieren.png
-[2]:/assets/images/bibliothek/ausleiher_markieren.png
-[3]:/assets/images/bibliothek/ausleiher_erlaubnis.png
-[4]:/assets/images/bibliothek/ausleiher_fertigstellen.png
-[5]:/assets/images/bibliothek/schueler01.png
+[1]:/assets/images/bibliothek/22-lehrer.png
+[2]:/assets/images/bibliothek/23-lehrer.png
+[3]:/assets/images/bibliothek/24-lehrer.png
+[4]:/assets/images/bibliothek/25-lehrer.png
+[5]:/assets/images/bibliothek/26-lehrer.png
+[6]:/assets/images/bibliothek/27-lehrer.png
+[7]:/assets/images/bibliothek/28-lehrer.png
 
 Damit Sie in MAGELLAN-BIBLIOTHEK Lehrer aus dem Basismodul als Ausleiher übernehmen können, müssen diese im Zeitraum, in dem das Systemdatum Ihres Rechners liegt, auf aktiv gesetzt sein.
 
@@ -52,13 +54,19 @@ An dieser Stelle stehen Ihnen drei Optionen zur Verfügung:
 
 ## Register `Auswahl`
 
+[![Auswahl][5]][5]
+
 Die Auswahlliste enthält die wichtigsten Kontaktdaten aller Vertreter einer Nutzergruppe, Nachname, Vorname, Telefon, Telefax, Mobil. Außerdem zeigt es den Gültigkeitszeitraum der Ausleiherlaubnis sowie eine Barcodenummer, die für jeden Ausleiher bei der Übernahme automatisch erzeugt wird.
 
 ## Register `Daten`
 
+[![Daten][6]][6]
+
 Die ist die Karteikarte für den einzelnen Ausleiher, die abgesehen von der Barcodenummer alle Informationen der Auswahlliste enthält. Darüberhinaus ist hier die Postanschrift hinterlegt. Außerdem zeigt Sie, sofern im Basismodul hinterlegt, ein Passfoto des Ausleihers. Es werden jeweils die Daten des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
 
 ## Register `Vorgänge`
+
+[![Vorgänge][7]][7]
 
 Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Leihvorgängen des Ausleihers. Aufgeführt sind hier jeweils Signatur, Titel und Untertitel des ausgeliehenen Mediums. Außerdem enthält es Angaben über Leihzeiträume, Verlängerungen und Mahnungen der entliehenen Titel. Es werden nur die Vorgänge des Ausleihers angezeigt, der in der Auswahlliste markiert ist.
 
