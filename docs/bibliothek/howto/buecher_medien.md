@@ -1,8 +1,31 @@
 # Bücher und Medien
 
-## Anlegen eines neuen Mediums
+[1]:/assets/images/bibliothek/19.png
+[2]:/assets/images/bibliothek/20.png
+[3]:/assets/images/bibliothek/21.png
 
 In diesem Abschnitt erfahren Sie, wie Sie Ihre Medien, also Bücher, DVDs, Audio-CDs, CD-Roms etc. in MAGELLAN-BIBLIOTHEK erfassen können. Wenn Sie damit starten,MAGELLAN-BIBLIOTHEK im Schulalltag einzusetzen, ist das Erfassen Ihres kompletten Medienbestands sicherlich der aufwändigste Arbeitsschritt, den Sie erledigen müssen, bevor Sie den Leihbetrieb aufnehmen können.
+
+[![Ansicht Bücher/Medien besteht aus den Teilansichten Auswahl
+Exemplare, Daten 1, Daten 2 Vorgänge Stichworte][1]][1]
+
+## Auswahl
+
+[![Ansicht Auswahl][2]][2]
+
+## Exemplare
+
+[![Ansicht Exemplare][3]][3]
+
+## Daten1
+
+## Daten2
+
+## Vorgänge
+
+## Stichworte
+
+## Anlegen eines neuen Mediums
 
 Um ein neues Medium hinzuzufügen , müssen Sie die folgenden drei Arbeitsschritte ausführen:
 
