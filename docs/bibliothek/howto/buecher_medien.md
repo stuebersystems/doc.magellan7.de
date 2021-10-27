@@ -90,6 +90,21 @@ Die vorgenommenen Änderungen und Ergänzungen werden nun in den Spalten `Liefer
 
 ## Stichworte
 
+
+![`Bücher / Medien > Stichworte`](/assets/images/bibliothek/exemplare05.png)
+
+Auf der Registerkarte `Stichworte` befindet sich ein Tabellenblatt, in dem Sie für jedes erfasste Medium eine Liste frei wählbarer thematischer Stichworte hinterlegen können. Diese Einträge können später genutzt werden, um die Anzeige der in der Datenbank vorhandenen Medientitel nach bestimmten inhaltlichen Kriterien zu filtern. Um ein neues Stichwort für ein Medium anzulegen, gehen Sie bitte folgendermaßen vor:
+
+1. Markieren Sie die Zeile des betreffenden Mediums auf dem Tabellenblatt unter der Registerkarte `Auswahl`.
+2. Klicken Sie auf die Registerkarte `Stichworte`.
+3. Betätigen Sie im sich öffnenden Tabellenblatt die Schaltfläche `Neues Stichwort`: es wird eine leere Zeile an den Anfang der Tabelle gefügt.
+4. Platzieren Sie den Cursor in die leere Zeile und tragen Sie das gewünschte Stichwort ein.
+5. Betätigen Sie die Schaltfläche `Stichwort speichern` am oberen linken Rand des Tabellenblatts.Das neu eingetragene Stichwort ist nun für alle Medienexemplare in der Datenbank hinterlegt und kann als Filterwert bei der Mediensuche genutzt werden.
+
+![`Bücher / Medien > Stichwort speichern`](/assets/images/bibliothek/exemplare06.png)
+
+![`Bücher / Medien > Filterwert "Stichwort" in der Mediensuche`](/assets/images/bibliothek/exemplare09.png)
+
 ## Anlegen eines neuen Mediums
 
 Um ein neues Medium hinzuzufügen , müssen Sie die folgenden drei Arbeitsschritte ausführen:
@@ -241,22 +256,32 @@ Die neuen Einstellungen werden beim nächsten Start des Eingabeassistenten wirks
 
 Die Signaturen in der Medienliste der Beipieldatenbank sind einfach aufgebaut und bestehen aus der Eingabe einer frei gewählten Zeichenfolge im Eingabefeld `Differenzierung`.
 
-### Aufgabe 1
+## Medien und Exemplare löschen
 
-Erstellen Sie eine vergleichsweise komplexe Signaturvorgabe für den soeben erfassten Medientitel. Führen Sie dazu bitte folgende Arbeitsschritte aus:
+Die Vorgehensweise beim Löschen von Medien und Exemplaren ist ähnlich, unterscheidet sich aber in einem wesentlichen Arbeitsschritt. Deshalb werden die beiden Aufgabe im Folgenden gesondert dargestellt.
 
-1. Setzen Sie den Haken im Kontrollkästchen vor `Medienkatalog (Standardkatalog)`.
-2. Setzen Sie den Haken im Kontrollkästchen vor `Fach` und wählen Sie aus dem Drop-Down-Menü des Auswahlfeldes das Fachkürzel aus, das der thematischen Ausrichtung des erfassten Titels entspricht, z.B. `INF`.
-3. Setzen Sie den Haken vor `Jahrgang von` und wählen Sie aus dem Aufklappmenü des Auswahlfeldes das Kürzel der niedrigsten Jahrgangsstufe, in der der Titel zum Einsatz kommt, z.B. `9`
-4. Setzen Sie den Haken vor `Jahrgang bis` und wählen Sie aus dem Aufklappmenü des Auswahlfeldes das Kürzel der höchsten Jahrgangsstufe, in der der Titel zum Einsatz kommt `11`
-5. Setzen Sie den Haken im Kontrollkästchen vor `Differenzierung` und geben Sie Im Eingabefeld die Zeichenfolge `B11` ein.
-6. Belassen Sie alle anderen Angaben, so wie Sie im Eingabeassistenten voreingestellt sind.
-7. Setzen Sie nun den Punkt im Kontrollkreis vor `Neue Signatur:` sowie den Haken im Kontrollkästchen vor `Als Standardvorgabe für neues Medium speichern`.
+### Medien löschen
 
-Die erstellte Signatur entspricht dem Muster `Standard-INF-9-11-B11/01`: Medienkatalog-Fachkürzel-Jahrgang von-Jahrgang bis-Differenzierung/fortlaufende Exemplarnummer.
+Sie können Einträge aus der Liste Ihrer Bücher und Medien entfernen. Die Liste der Bücher und Medien erreichen Sie über die Registerkarte `Auswahl`. Um einen Eintrag aus dieser Liste, gehen Sie bitte folgendermaßen vor:
 
-Bestätigen Sie bitte abschließend mit `Weiter`. Auf diese Weise gelangen Sie zur nächsten Seite des Eingabeassistenten, auf der Sie weiter führende Exemplar- und Haushaltsdaten zu einem Medientitel erfassen können.
+1. Markieren Sie die Zeile des betreffenden Eintrags.
+2. Betätigen sie die Schaltfläche `Datensatz löschen` in der Symbolleiste des Programmfensters.
+
+![`Bücher / Medien > Auswahl > Datensatz löschen`](/assets/images/bibliothek/exemplare07.png)
+
+Die Zeile des betreffenden Eintrags verschwindet nun aus Ihrer Medien- oder Exemplarliste. Bitte beachten Sie, dass Sie ein Medium nur dann löschen können, wenn es nicht auf damit verknüpfte Datensätze in anderen Ansichten verweist. Liegen z.B. noch offene Ausleihvorgänge für eines Buch vor, so kann dieser Titel nicht aus der Datenbank gelöscht werden.
+
+### Exemplare löschen
+
+Ebenso können Sie einzelne Exemplare eines Medientitels löschen. Zur Liste der Exemplare eines Medientitels gelangen Sie, indem Sie die Zeile des betreffenden Titels in der Tabelle `Auswahl` markieren und danach mit der linken Maustaste auf die Registerkarte `Exemplare` klicken. Um einen Eintrag aus dieser Liste, gehen Sie bitte folgendermaßen vor:
+
+![`Bücher / Medien > Auswahl > Datensatz löschen`](/assets/images/bibliothek/exemplare08.png)
+
+1. Markieren Sie die Zeile des betreffenden Eintrags.
+2. Betätigen sie die Schaltfläche `Exemplare entfernen`, die sich direkt über der Exemplarliste befindet.
 
 !!! info "Hinweis"
 
-    Wie komplex Sie die Struktur Ihrer Mediensignaturen im Schulalltag gestalten, bleibt natürlich Ihnen überlassen. Das hier gewählte relativ komplexe Beispiel versteht sich nicht als Empfehlung, sondern dient der Veranschaulichung der verfügbaren Optionen.
+    Bitte achten Sie beim Löschen eines Exemplars darauf, dass Sie nicht die Schaltfläche `Datensatz löschen` in der Symbolleiste des Programmfensters betätigen. Durch das Betätigen dieser Schaltfläche wird das zugehörige Medium aus der Medienliste und alle ihm zugeordneten Exemplare gelöscht. Nutzen Sie für das Löschen Ihrer Exemplare nur die Schaltfläche `Exemplare entfernen`, die sich zwischen der Registerkarte `Exemplare` und der Exemplarliste befindet.
+
+Die Zeile des betreffenden Eintrags verschwindet nun aus Ihrer Exemplarliste. Bitte beachten Sie, dass Sie ein Exemplar nur dann löschen können, wenn es nicht auf damit verknüpfte Datensätze in anderen Ansichten verweist. Liegen z.B. noch offene Ausleihvorgänge für ein Buchexemplar vor, so kann dieses Exemplar nicht aus der Datenbank gelöscht werden. Sobald Sie alle Exemplare eines Medientitels gelöscht haben, wird auch der dazu gehörige Titel aus der Datenbank entfernt.
