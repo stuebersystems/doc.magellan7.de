@@ -5,6 +5,9 @@
 [3]:/assets/images/bibliothek/medienfilter.png
 [4]:/assets/images/bibliothek/36-buecher-medien.png
 [5]:/assets/images/bibliothek/exemplare01.png
+[6]:/assets/images/bibliothek/37-buecher-medien.png
+[7]:/assets/images/bibliothek/38-buecher-medien.png
+[8]:/assets/images/bibliothek/exemplare03.png)
 
 In diesem Abschnitt erfahren Sie, wie Sie Ihre Medien, also Bücher, DVDs, Audio-CDs, CD-Roms etc. in MAGELLAN-BIBLIOTHEK erfassen können. Wenn Sie damit starten,MAGELLAN-BIBLIOTHEK im Schulalltag einzusetzen, ist das Erfassen Ihres kompletten Medienbestands sicherlich der aufwändigste Arbeitsschritt, den Sie erledigen müssen, bevor Sie den Leihbetrieb aufnehmen können.
 
@@ -84,7 +87,44 @@ Die vorgenommenen Änderungen und Ergänzungen werden nun in den Spalten `Liefer
 
 ## Daten1
 
+[![`Daten1`][6]][6]
+
+Hier können Sie die im Eingabeassistenten erfassten Mediendaten eines Titels ändern sowie zusätzliche Mediendaten aufnehmen. Auf der Registerkarte Daten1 befindet sich jeweils eine Eingabemaske für bibliographische Angaben ähnlich der, die Sie bereits aus dem Eingabeassistenten kennen.
+
+In den Datenfeldern dieser Eingabemasken sind die bibliographischen Daten, die Sie im Eingabeassistenten erfasst haben, bereits hinterlegt. Darüberhinaus enthalten sie eine Reihe von neuen Datenfeldern, die Sie durch Aufklappmenüs oder frei editierbare Eingabefelder ausfüllen können. So haben Sie z.B. unter Daten1 die Möglichkeit, einen Herausgeber zu benennen oder im Eingabefeld Zusammenfassung eine kurze Beschreibung des Titels zu hinterlassen.
+
+Außerdem können Sie hier die Signaturvorgabe eines Titels frei ändern.
+
+### Mediensignatur bereits erfasster Exemplare verändern
+
+Sie haben in diesem Kapitel bereits die Möglichkeit kennengelernt wie Sie die Signaturvorgabe eines Medientitels abwandeln können. Außerdem wurde soeben gezeigt wie die Signaturnummer bereits erfasster Medienexemplare angepasst werden kann. Beide Veränderungen an den Signaturdaten eines Mediums wirken sich zunächst nicht auf die Mediensignatur bereits angelegter Exemplare aus, sondern nur auf Medienexemplare, die Sie neu erfassen.
+
+Für den Fall, dass Sie auch die Mediensignatur bereits angelegter Exemplare verändern möchten, steht Ihnen der Assistent `Signaturen anpassen` zur Verfügung. Dieser Assistent sorgt dafür, dass geänderte Signaturvorgaben und Signaturnummern auch in die Mediensignatur bereits erfasster Exemplare integriert werden. Um die Mediensignaturen bereits erfasster Exemplare zu ändern, gehen Sie bitte folgendermaßen vor:
+
+1. Öffnen Sie die Registerkarte `Auswahl` und markieren Sie das gewünschte Medium, dessen Exemplarsignaturen Sie ändern möchten.
+2. Ändern Sie auf der Registerkarte `Daten1` den Eintrag im Feld Signaturvorgabe *Und/ Oder*
+Blättern Sie zur Registerkarte `Exemplare` und ändern Sie über das Dialogfenster `Sammelzuweisung` die Signaturnummer eines oder mehrerer Exemplare.
+
+[![`Daten1`][7]][7]
+
+3. Wählen Sie nun über das Menü `Start > Signaturen` den Assistenten zum Anpassen der Signaturen.
+
+![`Bücher / Medien > Signaturen anpassen`](/assets/images/bibliothek/exemplare04.png)
+
+4. Es werden anhand der bestehenden Signaturvorgabe der Medien und vorhandener Signaturnummer der Exemplare die Signatur neu aufgebaut. 
+
+5. Bestätigen Sie den Vorgang durch die Schaltfläche `Fertigstellen`. Die vorhandenen Exemplarsignaturen des ausgewählten Medientitels werden nun an die neue Signaturvorgabe und die geänderte Nummerierung angepasst.
+
+
 ## Daten2
+
+[![`Daten2`][7]][7]
+
+Hier können Sie die im Eingabeassistenten erfassten Mediendaten eines Titels ändern sowie zusätzliche Mediendaten aufnehmen. Auf der Registerkarte Daten2 befindet sich jeweils eine Eingabemaske für bibliographische Angaben ähnlich der, die Sie bereits aus dem Eingabeassistenten kennen.
+
+In den Datenfeldern dieser Eingabemasken sind die bibliographischen Daten, die Sie im Eingabeassistenten erfasst haben, bereits hinterlegt. Darüberhinaus enthalten sie eine Reihe von neuen Datenfeldern, die Sie durch Aufklappmenüs oder frei editierbare Eingabefelder ausfüllen können. 
+
+Außerdem können Sie hier die Signaturvorgabe eines Titels frei ändern. Unter Daten2 erhalten Sie Gelegenheit z.B. die Sprache eines Mediums und seine Auflage zu erfassen.
 
 ## Vorgänge
 
