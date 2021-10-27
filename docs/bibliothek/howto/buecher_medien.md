@@ -119,7 +119,7 @@ Um Mediendaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor:
 
 #### Automatisch nach dem Barcode suchen
 
-Um Mediendaten Automatisch nach dem Barcode zu suchen, gehen Sie bitte folgendermaßen vor:
+Um Mediendaten automatisch nach dem Barcode zu suchen, gehen Sie bitte folgendermaßen vor:
 
 1. Öffnen Sie über die Schaltfläche  `Neuer Datensatz` in der Symbolleiste des Programmfensters den Assistenten  `Neue Medien und Exemplare anlegen`.
 
@@ -142,7 +142,32 @@ Um Mediendaten Automatisch nach dem Barcode zu suchen, gehen Sie bitte folgender
 
 6. Sie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt. Der ausgewählte Eintrag wird in die MAGELLAN BIBLIOTHEK übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
 
-**Lokal nach einem Titel suchen**
+#### Lokal nach einem Titel suchen
+
+Mit diesem Aufruf können Sie neue Exemplare zu bereits vorhanden Medien anlegen.
 
 ## Anlegen von neuen Exemplaren
 
+Um Exmeplardaten von bereits vorhandenen Medien von Hand einzugeben, gehen Sie bitte folgendermaßen vor:
+
+1. Markieren Sie in der Auswahlliste das Buch/Medium für welches Sie neue Exmeplare anlegen möchten.
+
+2. Öffnen Sie über die Schaltfläche  `Neuer Datensatz` in der Symbolleiste des Programmfensters den Assistenten  `Neue Medien und Exemplare anlegen`.
+
+3. Setzen Sie den Punkt im Kontrollkreis vor  `Lokal nach einem Titel suchen`.
+
+4. Bestätigen Sie bitte mit  `Weiter`.
+   
+5. Sie gelangen nun zur nächsten Seite des Eingabeassistenten `Signatur aufbauen`, in dem Sie die Signatur für die Exemplare erstellen können. Beachten sie bitte, dass Ihre Angaben erst in der Datenbank gespeichert werden, wenn Sie den Eingabeassistenten für  `Neue Medien und Exemplare anlegen` vollständig durchlaufen haben. Beendigen Sie den Assistenten vorher, so gehen alle bis dahin eingegebenen Informationen verloren.
+
+Sie können die aktuelle Signaturvorgabe für das Medium nutzen oder eine neue Signatur aufbauen.
+
+![Signatur aufbauen](/assets/images/bibliothek/31-signatur.png)
+
+6. Bestätigen sie bitte abschließend mit  `Weiter`.
+
+7. Sie gelangen nun zur nächsten Seite des Eingabeassistenten `Exemplardaten neuer Exemplare`, in dem Sie die benötigten Exemplardaten eingeben können.
+   
+![Exemplardaten neuer Exemplare](/assets/images/bibliothek/Exemplardaten_neuer_Exemplare.png)
+
+8. Bestätigen sie bitte abschließend mit  `Weiter`.

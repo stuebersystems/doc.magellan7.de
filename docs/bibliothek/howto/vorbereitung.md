@@ -46,28 +46,26 @@ Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem 
 
 ## OPAC Unterstützung in MAGELLAN BIBLIOTHEK
 
-### OPAC-Unterstützung
+
 
 !!! info "Hinweis"
 
     Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN.
 
-### Einrichten des OPAC-Research
-
-#### Aktivieren der Online Suche
+### Aktivieren der Online Suche
 
 Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die Online Suche.
 
 ![MAGELLAN Optionen](/assets/images/bibliothek/optionen_online_suche.png)
 
-#### Einrichten des OPAC Research
+### Einrichten des OPAC Research
 
 Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
 ![Opac Server einrichten](/assets/images/bibliothek/opac5.png)
 
 Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
 
-##### Notwendige Eingaben
+#### Notwendige Eingaben
 
 Spalte | Eintrag
 -|-
@@ -78,7 +76,7 @@ Host/Url| http://services.dnb.de/sru (Beispiel hier Deutsche Nationalbibliothek,
 Port|80
 Katalog|dnb
 
-##### Eintragungen Details/ Registerkarte "Autentifizierung"
+#### Eintragungen Details/ Registerkarte "Autentifizierung"
 
 ![Registerkarte "Autentifizierung"](/assets/images/bibliothek/opac6.png)
 
@@ -88,7 +86,7 @@ Art der Authentifizierung| Bitte wählen Sie per **Zugangscode** (Access Token) 
 Benutzername| bleibt leer
 Kennwort/Zugangscode| Im Falle der DNB benötigen Sie in der Vergangenheit einen `Zugriffstoken`, den Sie nach der Registrierung im Portal der DNB anfragen konnten. Das Feld kann inzwischen leer bleiben.
 
-##### Eintragungen Details/ Registerkarte "Recherche"
+#### Eintragungen Details/ Registerkarte "Recherche"
 
 ![Registerkarte "Recherche"](/assets/images/bibliothek/opac12.png)
 
