@@ -72,7 +72,7 @@ Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Le
 
 !!! info "Hinweis"
 
-    Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen. Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel `Effizient mit Listen und Tabellen arbeiten` des vorliegenden Tutorials.
+   Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen. Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel [Effizient mit Listen und Tabellen arbeiten](listen.md).
 
 ## Lehrer-Ausleiherdaten bearbeiten
 

@@ -5,9 +5,9 @@
 [3]:/assets/images/bibliothek/ausleiher_erlaubnis.png
 [4]:/assets/images/bibliothek/ausleiher_fertigstellen.png
 [5]:/assets/images/bibliothek/schueler01.png
-[6]:/assets/images/bibliothek/16.png
-[7]:/assets/images/bibliothek/17.png
-[8]:/assets/images/bibliothek/18.png
+[6]:/assets/images/bibliothek/16-schueler.png
+[7]:/assets/images/bibliothek/17-schueler.png
+[8]:/assets/images/bibliothek/18-schueler.png
 
 Bei der Übernahme der Ausleiher nach MAGELLAN-BIBLIOTHEK gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach MAGELLAN-BIBLIOTHEK übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von MAGELLAN bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
 
@@ -75,7 +75,7 @@ Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Le
 
 !!! info "Hinweis"
 
-    Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen. Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel `Effizient mit Listen und Tabellen arbeiten` des vorliegenden Tutorials.
+    Die Darstellung der Listen auf den Registerkarten `Auswahl` und `Vorgänge` können Sie mit den Funktionen `Sortieren`, `Gruppieren` und `Filtern` an Ihre Bedürfnisse anpassen. Was es im Einzelnen mit diesen Funktionen auf sich hat, erläutert das Kapitel [Effizient mit Listen und Tabellen arbeiten](listen.md).
 
 ## Schüler-Ausleiherdaten bearbeiten
 
