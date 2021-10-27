@@ -86,4 +86,4 @@ Die Angaben, die unter der Registerkarte `Vorgänge` gespeichert werden, können
 
 !!! info "Hinweis"
 
-    Wie Sie einen Bibliotheksnutzer als Ausleiher eines Medienexemplars vermerken sowie einem Leihvorgang eine bestimmte Mahnstufe zuweisen können, erfahren Sie in den Kapiteln [Leihvorgange abwickeln](ausleihe.md) und [Mahnungen erstellen](mahnung.md).
+    Wie Sie einen Bibliotheksnutzer als Ausleiher eines Medienexemplars vermerken sowie einem Leihvorgang eine bestimmte Mahnstufe zuweisen können, erfahren Sie in den Kapiteln [Leihvorgange abwickeln](ausleihe.md) und [Mahnungen erstellen](mahnwesen.md).
