@@ -1,5 +1,13 @@
 # Vorbereitung
 
+[1]:/assets/images/bibliothek/anmeldung.png
+[2]:/assets/images/bibliothek/willkommen.png
+[3]:/assets/images/bibliothek/optionen_online_suche.png
+[4]:/assets/images/bibliothek/opac5.png
+[5]:/assets/images/bibliothek/opac6.png
+[6]:/assets/images/bibliothek/opac12.png
+[7]:/assets/images/bibliothek/opac7.png
+
 Bevor Sie mit der Arbeit in der MAGELLAN BIBLIOTHEK beginnen können, müssen drei Startbedingungen erfüllt sein:
 
 1. Die Verbindung zur Magellan-Datenbank ist angelegt.
@@ -8,7 +16,7 @@ Bevor Sie mit der Arbeit in der MAGELLAN BIBLIOTHEK beginnen können, müssen dr
 
 ## Arbeitsplatzinstallation
 
-Bitte richten Sie Ihren Arbeitsplatz mit einer Installation von MAGELLAN , entsprechend der ANleitung [hier](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/) ein.
+Bitte richten Sie Ihren Arbeitsplatz mit einer Installation von MAGELLAN , entsprechend der Anleitung [hier](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/) ein.
 
 ## Barcodescanner anschließen
 
@@ -28,13 +36,13 @@ Um MAGELLAN-BIBLIOTHEK das erste Mal zu starten, gehen Sie bitte folgendermaßen
 
 Es öffnet sich das Dialogfenster  `MAGELLAN-Anmeldung`, in das Sie einen Benutzernamen und ein Kennwort eintragen müssen. Tragen Sie hier bitte den Benutzernamen sysdba und das Kennwort masterkey \(gilt nur für neuinstallierte Testsysteme\) ein, die als Zugangsdaten bei jeder Installation standardmäßig hinterlegt werden. Außerdem müssen Sie in diesem Anmeldedialog den Namen der Datenbank, die Sie nutzen möchten, angeben. Beim ersten Programmstart steht Ihnen hier nur der Eintrag  `Magellan` zur Verfügung. Unter diesem Namen ist die mitgelieferte Demo-Datenbank für den Zugriff in Magellan registriert.
 
-![Das Dialogfenster  `Magellan-Anmeldung` erscheint vor jedem Programmstart](/assets/images/bibliothek/anmeldung.png)
+[![Das Dialogfenster  `Magellan-Anmeldung` erscheint vor jedem Programmstart][1]][1]
 
 Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem  `Willkommensfenster` geöffnet.
- 
-![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von MAGELLAN-BIBLIOTHEK und verweist Sie auf weiterführende Informationen und Services.](/assets/images/bibliothek/willkommen.png)
 
- Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladministrator persönliche Zugangsdaten erhalten hatten, können Sie nach dem Programmstart Ihr persönliches Anmeldekennwort festlegen. Gehen Sie dazu bitte folgendermaßen vor:
+[![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von MAGELLAN-BIBLIOTHEK und verweist Sie auf weiterführende Informationen und Services.][2]][2]
+
+Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladministrator persönliche Zugangsdaten erhalten hatten, können Sie nach dem Programmstart Ihr persönliches Anmeldekennwort festlegen. Gehen Sie dazu bitte folgendermaßen vor:
 
 1. Führen Sie den Menüpunkt `Datenbank > Kennwort ändern` aus.
 
@@ -46,8 +54,6 @@ Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem 
 
 ## OPAC Unterstützung in MAGELLAN BIBLIOTHEK
 
-
-
 !!! info "Hinweis"
 
     Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN.
@@ -56,12 +62,13 @@ Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem 
 
 Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die Online Suche.
 
-![MAGELLAN Optionen](/assets/images/bibliothek/optionen_online_suche.png)
+[![MAGELLAN Optionen][3]][3]
 
 ### Einrichten des OPAC Research
 
 Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
-![Opac Server einrichten](/assets/images/bibliothek/opac5.png)
+
+[![Opac Server einrichten][4]][4]
 
 Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
 
@@ -78,7 +85,7 @@ Katalog|dnb
 
 #### Eintragungen Details/ Registerkarte "Autentifizierung"
 
-![Registerkarte "Autentifizierung"](/assets/images/bibliothek/opac6.png)
+[![Opac Server einrichten][5]][5]
 
 Spalte | Eintrag
 -|-
@@ -88,7 +95,7 @@ Kennwort/Zugangscode| Im Falle der DNB benötigen Sie in der Vergangenheit einen
 
 #### Eintragungen Details/ Registerkarte "Recherche"
 
-![Registerkarte "Recherche"](/assets/images/bibliothek/opac12.png)
+[![Registerkarte "Recherche"][6]][6]
 
 Spalte | Eintrag
 -|-
@@ -99,4 +106,5 @@ Schema Format Langform| XML-Variante von MARC212 / DNB-Titeldaten, ZDB-Titeldate
 
 Speichern Sie danach den Eintrag. Sie haben somit erfolgreich den ersten Server eingetragen. Die Serverdaten werden in eine Konfigurationsdatei gespeichert.
 
-![Speichern Sie die Daten](/assets/images/bibliothek/opac7.png)
+[![Speichern Sie die Daten][7]][7]
+
