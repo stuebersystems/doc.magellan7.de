@@ -285,7 +285,7 @@ CR optimiert vor dem Aufruf des Berichtes selbständig (und nicht unterdrückbar
 
 ## Kurze Einweisung per Teamviewer
 
-Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen (110,- € netto die Stunde, Abrechnung im Halbstundentakt) anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
+Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
 
 Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Kurzeinweisung: MAGELLAN 6-Bericht umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot.
 
