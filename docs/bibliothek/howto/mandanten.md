@@ -1,5 +1,9 @@
 # Mit mehreren Mandanten arbeiten
 
+[1]:/assets/images/bibliothek/mandanten01.png
+[2]:/assets/images/bibliothek/mandanten02.png
+[3]:/assets/images/bibliothek/mandanten03.png
+
 MAGELLAN BIBLIOTHEK ist wie das Basismodul mandantenfähig. Dies bedeutet, dass Sie die Bibliotheksdaten unterschiedlicher organisatorischer Gliederungen in einer Datenbank verwalten können. Dieses Datenbankkonzept erfordert, dass mindestens ein Mandant angelegt ist, da alle Daten in MAGELLAN bezogen auf bestimmte Mandanten gespeichert werden.
 
 !!! info "Hinweis"
@@ -15,7 +19,7 @@ Gehen Sie dazu bitte folgendermaßen vor:
 1. Betätigen Sie die Schaltfläche `Mandant` in der Symbolleiste des Programmfensters.
 2. Markieren Sie im Aufklappmenü den gewünschten Mandanten und bestätigen Sie Ihre Auswahl mit `OK`.
 
-![Mandantenauswahl](/assets/images/bibliothek/mandanten01.png)
+[![Mandantenauswahl][1]][1]
 
 Der Name des ausgewählten Mandanten erscheint auf der Schaltfläche `Mandant`. Die Daten, die für diesen Mandanten gespeichert wurden, sind nun in den einzelnen Ansichten verfügbar.
 Sie können darüberhinaus im Vorfeld festlegen, welcher Mandant beim Start von MAGELLAN-BIBLIOTHEK aktiv gesetzt sein soll.
@@ -28,8 +32,9 @@ Um diese Einstellung vorzunehmen, gehen Sie bitte folgendermaßen vor:
 4. Bestätigen Sie Ihre Angaben abschließend mit `OK`.
 Der gewählte Mandant wird nun beim nächsten Programmstart automatisch als aktueller Mandant voreingestellt.
 
-![In der Navigation `Start` des Dialogfensters `Optionen` stellen Sie den Startmandanten ein.](/assets/images/bibliothek/mandanten02.png)
+[![In der Navigation `Start` des Dialogfensters `Optionen` stellen Sie den Startmandanten ein.][2]][2]
 
 Die Liste der in MAGELLAN angelegten Mandanten können Sie in der Ansicht `Mandanten` auf der Registerkarte `Auswahl` einsehen. Auf der Registerkarte `Daten` ist für jeden Mandanten eine Karteikarte mit den wesentlichen Kontaktinformationen hinterlegt.
 
-![Ansicht der angelegten Mandanten in MAGELLAN](/assets/images/bibliothek/mandanten03.png)
+[![Ansicht der angelegten Mandanten in MAGELLAN][3]][3]
+
