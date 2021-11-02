@@ -1,9 +1,17 @@
 # Mahnungen erstellen
 
+[1]:/assets/images/bibliothek/mahnwesen01.png
+[2]:/assets/images/bibliothek/mahnwesen02.png
+[3]:/assets/images/bibliothek/mahnwesen03.png
+[4]:/assets/images/bibliothek/mahnwesen04.png
+[5]:/assets/images/bibliothek/mahnwesen05.png
+[6]:/assets/images/bibliothek/mahnwesen06.png
+[7]:/assets/images/bibliothek/mahnwesen07.png
+[8]:/assets/images/bibliothek/mahnwesen08.png
+
 Für die Organisation und Abwicklung Ihres Mahnwesens steht Ihnen die Ansicht `Mahnwesen` zur Verfügung. Wenn Sie diese Ansicht aufrufen, sehen Sie unter der Registerkarte `Überzogene Bücher/Medien` ein Tabellenblatt mit einer Liste aller überzogenen Leihvorgänge. Diese enthält Spalten für die Ausleiher- und Exemplardaten sowie folgende spezifisch für das Mahnwesen relevante Spalten:
 
-![Die Registerkarte `Überzogene Bücher/ Medien` der Ansicht `Mahnwesen` zeigt die überzogenen Medienexemplare.](/assets/images/bibliothek/mahnwesen01.png)
-
+[![Die Registerkarte `Überzogene Bücher/ Medien` der Ansicht `Mahnwesen` zeigt die überzogenen Medienexemplare.Mandantenauswahl][1]][1]
 
 | Spalte| Bedeutung
 --|--
@@ -32,30 +40,30 @@ Um diese Abstände zu ändern, gehen Sie bitte folgendermaßen vor:
 
 Die geänderten Einstellungen sind nun gespeichert und werden beim nächsten Aufruf der Ansicht `Mahnwesen` wirksam.
 
-![Auf der Registerkarte `Mahnwesen` des Dialogfensters `Optionen` bestimmen Sie die Fristen für die unterschiedlichen Mahnstufen.](/assets/images/bibliothek/mahnwesen02.png)
+[![Auf der Registerkarte `Mahnwesen` des Dialogfensters `Optionen` bestimmen Sie die Fristen für die unterschiedlichen Mahnstufen.][2]][2]
 
 Um eine Mahnstufe zuzuweisen, führen Sie bitte die folgenden Schritte aus:
 
 1. Markieren Sie in der Liste der `Überzogene Bücher/Medien` die Vorgangszeile eines Exemplars, welches das Fälligkeitsdatum für die nächste Mahnstufe erreicht hat.
 2. Wählen Sie in der Symbolleiste des Programmfensters im Reiter `Start` die Schaltfläche `Nächste Mahnstufe` oder über Rechtsklick auf das Exemplar im Aufklappmenü `Nächste Mahnstufe`
 
-![Aufruf `Nächste Mahnstufe`, Dialogfenster zum Erfassen des Mahndatums öffnet sich ](/assets/images/bibliothek/mahnwesen03.png)
+[![Aufruf `Nächste Mahnstufe`, Dialogfenster zum Erfassen des Mahndatums öffnet sich][3]][3]
 
 3. Tragen Sie im erscheinenden Dialogfenster das Mahndatum ein: dieses Datum wird in der Spalte `Zuletzt gemahnt am…` hinterlegt.
 4. Bestätigen Sie das eingegebene Mahndatum mit `OK`: es erscheint ein Vorschaufenster der erstellten Mahnung.
 5. Betätigen Sie die Schaltfläche `Drucken` in der Symbolleiste des Vorschaufensters, um den Mahnungsausdruck durchzuführen.
 
-![Mit Bestätigung des neuen Mahndatums öffnet sich das Vorschausfenster der erstellten Mahnung ](/assets/images/bibliothek/mahnwesen04.png)
+[![Mit Bestätigung des neuen Mahndatums öffnet sich das Vorschausfenster der erstellten Mahnung][4]][4]
 
 Schließen Sie zunächst das Vorschaufenster, um den Ausdruck der Mahnung auf später zu verschieben.
 
 In der Spalte "Mahnstufe" des Tabellenblattes `Überzogene Bücher/Medien` wird das Verfahren für diesen Vorgang auf die nächste Stufe hochgesetzt.
 
-![Die Mahnstufe wurde durch setzen der nächsten Mahnstufe auf die nächste Stufe hochgesetzt](/assets/images/bibliothek/mahnwesen05.png)
+[![Die Mahnstufe wurde durch setzen der nächsten Mahnstufe auf die nächste Stufe hochgesetzt][5]][5]
 
 Sie können die Zuweisung einer Mahnstufe wieder rückgängig machen, indem Sie die Schaltfläche `Mahnstufe Rückgängig` in der Symbolleiste des Programmfensters betätigen. Dadurch wird in der Spalte `Mahnstufe` der Tabelle `Überzogene Bücher/Medien` das Mahnverfahren für diesen Vorgang um eine Stufe herabgesetzt.
 
-![Schaltfläche zum Rückgängigmachen der Mahnstufe](/assets/images/bibliothek/mahnwesen06.png)
+[![Schaltfläche zum Rückgängigmachen der Mahnstufe][6]][6]
 
 ## Mahnung ausdrucken
 
@@ -71,7 +79,7 @@ Im vorherigen Abschnitt haben Sie bereits erfahren, wie Sie eine Mahnung im Verl
 
 Die ausgewählte Berichtsdatei wird nun als Vorlage für den Mahnungsausdruck hinterlegt.
 
-![Auswahl des Mahnungenbericht für den späteren Ausdruck der Mahnung über die MAGELLAN Optionen](/assets/images/bibliothek/mahnwesen07.png)
+[![Auswahl des Mahnungenbericht für den späteren Ausdruck der Mahnung über die MAGELLAN Optionen][7]][7]
 
 !!! info "Hinweis"
 
@@ -87,5 +95,4 @@ Um Mahnungsberichte nachträglich auszudrucken, gehen Sie bitte folgendermaßen 
 4. Bestätigen Sie die Einstellungen im erscheinenden Dialogfenster `Drucken` mit `OK`.
 Der Ausdruck der Mahnungen für die ausgewählten Leihvorgänge wird gestartet .
 
-![Mahnungen drucken](/assets/images/bibliothek/mahnwesen08.png)
-
+[![Mahnungen drucken][8]][8]
