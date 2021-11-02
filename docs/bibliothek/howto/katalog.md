@@ -30,12 +30,6 @@ Sie können die Bezeichnung und das Kürzel des voreingestellten Standardkatalog
 
     Ihre Veränderungen sind nun im Verzeichnis der Medienkataloge hinterlegt. Sollte die Bezeichnung des Katalogs ein Bestandteil der Signaturvorgabe Ihrer Medienexemplare sein, müssen Sie die Signaturvorgabe für die betroffenen Exemplare manuell ändern. Die neue Bezeichnung des Standardkatalogs wird nicht automatisch in die Signaturvorgabe der betroffenen Exemplare integriert
 
-### Aufgabe 9
-
-Legen Sie einen neuen Medienkatalog mit der Bezeichnung `Lehrerkatalog` und dem Kürzel `Lehrer` an.
-
-![Im Dialogfenster `Verzeichnis der Medienkataloge` legen Sie neue Kataloge an.](/assets/images/bibliothek/ausleihe16.png)
-
 ## Medienkatalog für eine Aktion auswählen
 
 In diesem Abschnitt erfahren Sie, wie Sie einen Katalog für eine bestimmte Aktion auswählen können, z.B. um diesem Katalog ein neues Medium hinzuzufügen. Die Daten, auf die Sie in den Ansichten `Ausleihe`, `Bücher/ Medien` sowie `Vorgänge` zurückgreifen, sind stets mit bestimmten Medienkatalogen verknüpft. Sie können wahlweise die Informationen eines bestimmten oder aller Kataloge einsehen. Außerdem erfassen Sie ein neues Exemplar immer für einen bestimmten Medienkatalog.
@@ -58,12 +52,6 @@ Um einen Katalog für eine bestimmte Aktion auszuwählen, führen Sie bitte die 
 4. Die Bezeichnung des ausgewählten Medienkatalogs wird nun in der Schaltfläche `Aktueller Medienkatalog` der Symbolleiste angezeigt.
 
 ![Anzeige des gewählten Medienkataloges](/assets/images/bibliothek/medienkataloge05.png)
-
-### Aufgabe 10
-
-Ändern Sie für die nachfolgenden Aufgaben die Einstellung des aktuellen Medienkatalogs von `Alle Medienkataloge` in `Standardkatalog`.
-
-![Im Dialogfenster `Medienkatalog auswählen` stellen Sie den aktuellen Medienkatalog ein.](/assets/images/bibliothek/medienkataloge2.png)
 
 ## Benutzerrechte für Medienkataloge zuweisen
 
