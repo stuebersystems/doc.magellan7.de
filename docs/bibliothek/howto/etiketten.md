@@ -31,7 +31,3 @@ Um Signaturetiketten mit einer bestimmten Formatvorlage zu drucken, führen Sie 
 3. Bestätigen Sie Ihre Druckeinstellungen mit `OK`.
 Die Signaturetiketten werden nun in dem gewünschten Format für die von Ihnen markierten Exemplare erstellt.
 
-### Aufgabe 7
-
-Erstellen Sie für alle 10 Exemplare des Titels `Die Räuber` Signaturetiketten im Format `Etiketten (508x254)`.
-Schneiden Sie bitte die Etiketten nicht aus, sondern bewahren Sie für die Zwecke dieses Tutorials die DIN-A4-Seite mit allen Etiketten auf.
