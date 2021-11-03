@@ -2,12 +2,13 @@
 
 [1]:/assets/images/bibliothek/ausleihe_rueckgabe.png
 [2]:/assets/images/bibliothek/sammelaktion.png
+[3]:/assets/images/bibliothek/13.png
+[4]:/assets/images/bibliothek/14.png
+[5]:/assets/images/bibliothek/15.png
+[6]:/assets/images/bibliothek/ausleihe03.png
+[7]:/assets/images/bibliothek/ausleihe04.png
 
-[13]:/assets/images/bibliothek/13.png
-[14]:/assets/images/bibliothek/14.png
-[15]:/assets/images/bibliothek/15.png
-
-Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen. 
+Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen.
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
@@ -25,7 +26,7 @@ Im Segment `Vorgaben` entscheiden Sie mit dem Auswahlfeld `Sammelaktion`, ob ein
 
 Im Eingabefeld `Vorgabe: Ausleihe bis` bestimmen Sie die Dauer des Ausleihzeitraums für den aktuellen Leihvorgang. Wenn Sie die Datenmaske das erste Mal öffnen ist standardmäßig ein Leihzeitraum von 10 Tagen voreingestellt. Sie können das Datum für den aktuellen Leihvorgang ändern, indem Sie ein neues Datum eintippen oder die Datumsangaben mit dem hinterlegten Kalender eingeben. Der Kalender öffnet sich, wenn Sie mit der linken Maustaste auf die Pfeilschältfläche des Eingabefelds klicken.
 
-[![Leihfrist festlegen][13]][13]
+[![Leihfrist festlegen][3]][3]
 
 Um den standardmäßig voreingestellten Leihzeitraum von 10 Tagen zu ändern, führen Sie bitte die folgenden Schritte aus:
 
@@ -36,7 +37,7 @@ Um den standardmäßig voreingestellten Leihzeitraum von 10 Tagen zu ändern, f�
 
 Die Änderung fließt ab dem nächsten Aufruf der Ansicht `Ausleihe` als neuer Standardwert in die Berechnung der Leihfrist ein.
 
-[![Leihfrist standardmäßig voreinstellen][14]][14]
+[![Leihfrist standardmäßig voreinstellen][4]][4]
 
 ## Ausleiher suchen und auswählen
 
@@ -44,16 +45,15 @@ Bevor Sie den Ausleiher festlegen können, müssen Sie diesen in der Datenbank s
 
 1. Geben Sie im Eingabefeld `Barcode` die Barcodenummer des Ausleihers ein. Lesen Sie dazu mit Hilfe eines Barcodescanners den Strichcode ein, der sich auf dem BIBLIOTHEKsausweis des Ausleihers befindet. Ist die Barcodenummer in der Datenbank vorhanden, findet die Auswahl des Ausleihers automatisch statt. Die zugehörigen Angaben zu Name und Anschrift werden in den Datenfeldern des Segments `Ausleiher` hinterlegt. Möchten Sie die getroffene Auswahl korrigieren, so lesen Sie bitte den Barcode eines anderen Ausleihers ein.
 
-[![Ausleiher über Barcode suchen][15]][15]
+[![Ausleiher über Barcode suchen][5]][5]
 
 ODER
 
 2. Wählen Sie die Schaltfläche `Ausleiher auswählen` und geben Sie im erscheinenden Dialogfenster eines oder mehrere der vorgegebenen Suchkriterien ein. Bestätigen Sie Ihre Suchkriterien mit `Weiter` und markieren Sie im erscheinenden Dialogfenster die zugehörige Zeile des Ausleihers in der Trefferliste. Bestätigen Sie Ihre Auswahl abschließend mit `Fertigstellen` und die zugehörigen Daten des Ausleihers werden im Segment `Ausleiher` hinterlegt.
 
-![Ausleiher auswählen](/assets/images/bibliothek/ausleihe03.png)
+[![Ausleiher auswählen][6]][6]
 
-![Suchkriterien für Ausleiher](/assets/images/bibliothek/ausleihe04.png)
-
+[![Suchkriterien für Ausleiher][7]][7]
 
 !!! info "Hinweis"
 
