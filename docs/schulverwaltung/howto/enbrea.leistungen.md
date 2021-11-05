@@ -324,7 +324,7 @@ Im Menü `Schüler > Zeugnis > ENBREA Kurse` ergibt sich nun folgendes Bild:
 
 Wechseln Sie in das Menü `Schüler > Zeugnis > ENBREA Leistungen`. Hier finden Sie Ihre Kurse mit und ohne Leistungsprofilen. Die Benotung erfolgt in dieser Ansicht.
 
-![ENBREA Lernlesitungen](/assets/images/enbrea.leistungen/28.png)
+![ENBREA Lernleistungen](/assets/images/enbrea.leistungen/28.png)
 
 ## Halbjahreswechsel
 
