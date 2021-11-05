@@ -240,7 +240,7 @@ Sie können auch Kurse im Zeitraum über den Aufruf `Kurs duplizieren` als Kurs 
     
     Sie können auch mehrere Kurse in einem Schritt duplizieren. Markieren Sie über `Strg + linke Maustaste` die gewünschten Kurse und wählen Sie dann den Aufruf `Kurs duplizieren`.
 
-[![mehrere Kurse duplizieren][40]][40]    
+[![mehrere Kurse duplizieren][40]][40]
 
 ### Kurse mit Leistungprofil duplizieren
 
@@ -328,27 +328,34 @@ Wechseln Sie in das Menü `Schüler > Zeugnis > ENBREA Leistungen`. Hier finden 
 
 ## Halbjahreswechsel
 
-1. Schüler in den neuen Zeitraum fortschreiben im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`. 
-Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/halbjahreswechsel/)
+1. Über den Bereich "Laufbahnprozess" schreiben Sie Ihre SchülerInnen in den neuen Zeitraum fort. Wählen Sie dazu im Menü `Schüler > Laufbahnprozess > Schüler fortschreiben`.
+Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/halbjahreswechsel/)
 
-
-!!! info "Hinweis"
+!!! warning "Wichtig"
     
-    Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zuwiesen. Diese können über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernommen werden.
+    Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zugewiesen. Diese müssen Sie nach dem Fortschreiben Ihrer SchülerInnen über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernehmen.
 
-2. Bitte wechseln Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` den `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
+2. Bitte wechseln Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` die Registerkarte `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
 
 ![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
 
 ## Schuljahreswechsel
 
-1. Neuen Zeitraum anlegen (`Extras > Schlüsselverzeichnisse > Zeiträume`)
+1. Neuen Zeitraum anlegen 
+`Extras > Schlüsselverzeichnisse > Zeiträume`.
 
-2. Neue Klassen anlegen: Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+2. Neue Klassen anlegen
+Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
 
-3. Schüler in die neue Klasse versetzen (`Laufbahnprozess > Schüler versetzen`)
+![Klassen aus den Vorjahr übernehmen](/assets/images/enbrea.leistungen/41.png)
 
-4. Den Schülern Kurse zuweisen (Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.)
+3. Schüler in die neue Klasse versetzen
+`Laufbahnprozess > Schüler versetzen`
+
+4. Schülern Kurse zuweisen
+Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.
+
+![Schülern Kurse zuweisen](/assets/images/enbrea.leistungen/42.png)
 
 Weitere Informationen zum Schuljahreswechsel finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/schuljahreswechsel/)
 
