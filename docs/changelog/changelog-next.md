@@ -73,6 +73,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: BER-Schul Z 503 (09.19).rpt (Ausgabe Ausbildungsberuf)
 * FIX: BER-Schul Z 501 (09.19).rpt (Ausgabe Ausbildungsberuf)
 
+##### Saarland
+
+* NEW: ...Berichte\Zeugnisse\Saarland\Ministerium\SAR-GY-ABI (GOS2.0) mit Parametern.rpt (über Parametereingabe kann gesteuert werden, ob es sich um ein Abiturzeugnis, Zweitschrift, Zweitausfertigung oder Zweitausfertigung (Ministerium) handelt)
+
+![Paramterwert für Zeugnisdruck](/assets/images/changelog/8.0.13.01.png)
+
 ## Version 7
 
 ### 7.1.31 - 720 ()
