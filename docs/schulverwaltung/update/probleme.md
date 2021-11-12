@@ -201,7 +201,9 @@ Es kann auch zu Problemen kommen wenn Teile der Runtimeversion nicht korrekt bei
 
 Nachstehend zeigen wir eine Reihe von möglichen Meldungen, dazu jeweils einen Link über den Sie Software zur Lösung laden können.
 
-Wenn bei Ihnen eine der nachstehenden Meldungen bei der Installation, beim Update von MAGELLAN oder ggfs. auch in der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen die Installation/das Update von MAGELLAN bitte erneut aus. 
+!!! warning "Sehr wichtig!"
+
+    Wenn bei Ihnen eine der nachstehenden Meldungen bei der Installation, beim Update von MAGELLAN oder ggfs. auch in der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen anschließend bitte eine **Reparaturinstallation** von MAGELLAN aus.
 
 Bezeichnung|Inhalt
 --|--
