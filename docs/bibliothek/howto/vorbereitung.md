@@ -60,17 +60,17 @@ Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladminis
 
 ### Aktivieren der Online Suche
 
-Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die Online Suche.
+Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die `Online Suche`.
 
 [![MAGELLAN Optionen][3]][3]
 
 ### Einrichten des OPAC Research
 
-Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac Server. Hier können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
+Bitte öffnen Sie über `Extras > Opac` das Verzeichnis der Opac-Server. Hier können Sie die von uns bereits getesteten OPAC-Server über die markierte Schaltfläche direkt hinzufügen.
 
 [![Opac Server einrichten][4]][4]
 
-Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert z. B. eine Registrierung (```https://portal.dnb.de/myAccount/register.htm```), da neben den kostenfreien Abfragen auf ihre Server auch kostenpflichtige Abfragen möglich sind und diese über das Kundenkonto abgerechnet werden können.
+Aktuell handelt es sich um den Server der Deutschen Nationalbibliothek (weiterhin DNB genannt.). In den meisten Fällen werden Sie eine Anmeldung/Registrierung bei den jeweiligen Serverbetreibern benötigen. Die Deutsche Nationalbibliothek erfordert aktuell keine Registrierung.
 
 #### Notwendige Eingaben
 
@@ -79,7 +79,7 @@ Spalte | Eintrag
 Aktiv| bitte den Haken Setzen
 Protokoll| bitte wähle Sie Search Retrieve Url (SRU) aus
 Name|bitte vergeben Sie hier einen Namen
-Host/Url| http://services.dnb.de/sru (Beispiel hier Deutsche Nationalbibliothek, es wird eine Registrierung benötigt)
+Host/Url| `http://services.dnb.de/sru` (Beispiel hier Deutsche Nationalbibliothek, es wird keine Registrierung benötigt)
 Port|80
 Katalog|dnb
 
@@ -89,8 +89,8 @@ Katalog|dnb
 
 Spalte | Eintrag
 -|-
-Art der Authentifizierung| Bitte wählen Sie per **Zugangscode** (Access Token) aus
-Benutzername| bleibt leer
+Art der Authentifizierung| Bitte wählen Sie für das Beispiel "Deutsche Nationalbibliothek den Wert "`Keine Authentifizierung`
+Benutzername``| bleibt leer
 Kennwort/Zugangscode| Im Falle der DNB benötigen Sie in der Vergangenheit einen `Zugriffstoken`, den Sie nach der Registrierung im Portal der DNB anfragen konnten. Das Feld kann inzwischen leer bleiben.
 
 #### Eintragungen Details/ Registerkarte "Recherche"
