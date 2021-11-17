@@ -30,6 +30,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: Für den Bewerberseriendruck wurde das neue Feld `Bewerber_ID` eingefügt
 * NEW: Unter `Bewerber > Daten3` kann analog `Schueler > Daten3` eine freie Bemerkung erfasst werden.
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: Mit der Aktion `Datenbankpflege > Code 128 generieren` wird auch das Feld `BarcodePrint` für Lehrer befüllt.
+* FIX: Unter `Benutzerverwaltung > Doppelklick auf Benutzer > Unterkarte "Rechte" > Bibliothek und Lernmittelverwaltung` wird die Liste der Kataloge korrekt für die Auswahl geladen
+
 #### MAGELLAN Bibliothek
 
 * FIX: 
@@ -37,6 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MYMAGELLAN
 
 * FIX: Schlüsselverzeichnis Zeugnisbemerkungen wird in voller Länge aus MAGELLAN übergeben
+* FIX: `Schüler > Ausbildung > Editieren` Tabulatorreihenfolge korrigiert
   
 #### Schnittstellen
 
