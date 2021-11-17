@@ -61,7 +61,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: Notfallzettel (Bemerkungsliste).rpt
 * NEW: Mandant (Schüler des aktuellen Halbjahres ohne aktuelle Ausbildung)
 * CHANGE: Mandant (Schüler des aktuellen Halbjahres ohne Fächer)
-* CHANGE: Anwesenheitsliste für den Tag.rpt (Klassenleiter1 + 2))
+* CHANGE: Anwesenheitsliste für den Tag.rpt (Klassenleiter1 + 2)
+* FIX: Schülerliste (Förderung).rpt
 
 ##### Auslandsschulen
 
