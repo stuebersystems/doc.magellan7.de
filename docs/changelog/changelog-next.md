@@ -43,6 +43,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Schlüsselverzeichnis Zeugnisbemerkungen wird in voller Länge aus MAGELLAN übergeben
 * FIX: `Schüler > Ausbildung > Editieren` Tabulatorreihenfolge korrigiert
+* FIX: Speichern der Eingaben auf der Karte `Zeugnisdaten` (besonderer Fall: nur eine Eingabefeld auf der Karte)) 
   
 #### Schnittstellen
 
