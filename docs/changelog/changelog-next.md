@@ -29,6 +29,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Schüler > Ausbildung > Ausbildungsdaten`: Tabreihenfolge korrigiert
 * NEW: Für den Bewerberseriendruck wurde das neue Feld `Bewerber_ID` eingefügt
 * NEW: Unter `Bewerber > Daten3` kann analog `Schueler > Daten3` eine freie Bemerkung erfasst werden.
+* CHANGE: Unter `Extras > Schlüsselverzeichnisse > Bewertungsprofile` wird auf den Unterkarten `Bewertungsgruppen` und `Bewertungseinträge` am oberen Ende das `Kürzel` (statt der `Bezeichnung`) des gewählten Bewertungsprofils eingeblendet.
+* FIX: [SAXSVS] Beim Anlegen einer neuen Ausbildung kann gewählt werden, ob eine neue Ausbildungs-GUID vergeben wird, je nach Auswahl wird die bisherige GUID der aktuellen Ausbildung übernommen oder eine neue GUID generiert. **Wichtig: Um die bisherige GUID beizubehalten muss die aktuelle Ausbildung markiert sein**.
+* FIX: Unter `Schüler > Daten1 > Familie` wird die Mobilnummer, wenn sie als `Telefonpriorität` markiert ist, korrekt mit gelb unterlegt dargestellt.
 
 #### MAGELLAN Schulverwaltung
 
