@@ -33,11 +33,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: [SAXSVS] Beim Anlegen einer neuen Ausbildung kann gewählt werden, ob eine neue Ausbildungs-GUID vergeben wird, je nach Auswahl wird die bisherige GUID der aktuellen Ausbildung übernommen oder eine neue GUID generiert. **Wichtig: Um die bisherige GUID beizubehalten muss die aktuelle Ausbildung markiert sein**.
 * FIX: Unter `Schüler > Daten1 > Familie` wird die Mobilnummer, wenn sie als `Telefonpriorität` markiert ist, korrekt mit gelb unterlegt dargestellt.
 * FIX: Reiter `Dateinamenskonventionen` umbenannt unter `Datenbank > Optionen > Dokumente`
+* FIX: Die Anzeige des Status (aktiv, inaktiv) der Kürzel unter `Abitur > Fachwahl > Unterrichtsart` wurde korrigiert
 
-#### MAGELLAN Schulverwaltung
+#### MAGELLAN ADMINISTRATOR
 
 * FIX: Mit der Aktion `Datenbankpflege > Code 128 generieren` wird auch das Feld `BarcodePrint` für Lehrer befüllt.
 * FIX: Unter `Benutzerverwaltung > Doppelklick auf Benutzer > Unterkarte "Rechte" > Bibliothek und Lernmittelverwaltung` wird die Liste der Kataloge korrekt für die Auswahl geladen
+
 
 #### MAGELLAN Bibliothek
 
