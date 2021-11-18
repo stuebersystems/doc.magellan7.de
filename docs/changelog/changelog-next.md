@@ -34,6 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Unter `Schüler > Daten1 > Familie` wird die Mobilnummer, wenn sie als `Telefonpriorität` markiert ist, korrekt mit gelb unterlegt dargestellt.
 * FIX: Reiter `Dateinamenskonventionen` umbenannt unter `Datenbank > Optionen > Dokumente`
 * FIX: Die Anzeige des Status (aktiv, inaktiv) der Kürzel unter `Abitur > Fachwahl > Unterrichtsart` wurde korrigiert
+* FIX: Die Anzeige des Symbols für "Parallele Laufbahn des Schülers" unter `Schüler > Laufbahn` wurde korrigiert
 
 #### MAGELLAN ADMINISTRATOR
 
@@ -56,6 +57,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
  * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
  * CHANGE: [NRW] SIM.TXT - Im Falle eines Bildungsgangwechslers wird künftig nur noch eine Datensatz als Neuzugang an neuer Schule ausgespielt, die alte Laufbahn wird in die VO-Felder eingetragen, zusätzlich müssen noch die Felder LSQual, Zeugnis, Berufsabschluss und Versetzung gefüllt sein
 * CHANGE: [SAXSVS] `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse Eltern, Erziehungsberechtigte(r) oder Sorgeberechtigte(r) zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
+* FIX: [SAXSVS]  `<al_fremd_fs1 >` wird ausgegeben, Eingabe muss unter `Schüler > Zeugnis > Fächer`erfolgen
 
 #### Skripte
   
