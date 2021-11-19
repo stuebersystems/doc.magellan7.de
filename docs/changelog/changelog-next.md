@@ -35,6 +35,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Reiter `Dateinamenskonventionen` umbenannt unter `Datenbank > Optionen > Dokumente`
 * FIX: Die Anzeige des Status (aktiv, inaktiv) der Kürzel unter `Abitur > Fachwahl > Unterrichtsart` wurde korrigiert
 * FIX: Die Anzeige des Symbols für "Parallele Laufbahn des Schülers" unter `Schüler > Laufbahn` wurde korrigiert
+* FIX: [Gruppen] Beim Anlegen neuer Gruppenmitglieder wird der `Mitglied (Typ)` (Lehrer, Schüler, Person oder Sorgeberechtigter) korrekt übergeben.
+* 
 
 #### MAGELLAN ADMINISTRATOR
 
