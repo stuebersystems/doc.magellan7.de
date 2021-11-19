@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: [Gruppen] Beim Anlegen neuer Gruppenmitglieder wird der `Mitglied (Typ)` (Lehrer, Schüler, Person oder Sorgeberechtigter) korrekt übergeben.
 * FIX: Aufruf des Seriendrucks an Personen korrigiert
 * CHANGE: Für den Seriendruck mit MS Word können mehrere Seriendruckdokumente parallel geöffnet werden.
+* FIX: [ENBREA] Unter `Schüler > Zeugnis > ENBREA Leistungen` wird in der Spalte `Note` die Auswahl entsprechend der Eingabe unter `Klassen > Zeiträume > ENBREA Leistungsprofile > Leistungsprofile definieren > Notensystem` gefiltert.
 
 #### MAGELLAN ADMINISTRATOR
 
