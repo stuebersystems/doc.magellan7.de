@@ -44,7 +44,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Mit der Aktion `Datenbankpflege > Code 128 generieren` wird auch das Feld `BarcodePrint` für Lehrer befüllt.
 * FIX: Unter `Benutzerverwaltung > Doppelklick auf Benutzer > Unterkarte "Rechte" > Bibliothek und Lernmittelverwaltung` wird die Liste der Kataloge korrekt für die Auswahl geladen
-
+* FIX: Unter `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird für den Import der Datei `betriebe.import.csv` eine Meldung für das Feld `Telefon` ausgegeben, wenn der Feldinhalt 30 Zeichen überschreitet. Der Betrieb wird in diesem Fall ohne Telefonnummer importiert.
 
 #### MAGELLAN Bibliothek
 
@@ -85,7 +85,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Auslandsschulen
 
-* FIX: DSND.DAS-GS (Klasse 3).rpt 
+* FIX: DSND.DAS-GS (Klasse 3).rpt
 
 ##### Berlin
 
