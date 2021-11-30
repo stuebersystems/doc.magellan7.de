@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: `Klasse > Zeitraum` löschen eines Zeitraum mit `Entf`nicht mehr möglich
-* FIX: `Schüler > Daten1`Eintrag im Feld Vorname wird beim Ansichtenwechsel gespeichert
+* FIX: `Schüler > Daten1` Eintrag im Feld `Vorname` wird beim Ansichtenwechsel gespeichert
 * FIX: `Schüler > Ausbildung > Ausbildungsdaten`: Tabreihenfolge korrigiert
 * NEW: Für den Bewerberseriendruck wurde das neue Feld `Bewerber_ID` eingefügt
 * NEW: Unter `Bewerber > Daten3` kann analog `Schueler > Daten3` eine freie Bemerkung erfasst werden.
@@ -60,7 +60,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
  * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
  * CHANGE: [NRW] SIM.TXT - Im Falle eines Bildungsgangwechslers wird künftig nur noch eine Datensatz als Neuzugang an neuer Schule ausgespielt, die alte Laufbahn wird in die VO-Felder eingetragen, zusätzlich müssen noch die Felder LSQual, Zeugnis, Berufsabschluss und Versetzung gefüllt sein
-* CHANGE: [SAXSVS] `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse Eltern, Erziehungsberechtigte(r) oder Sorgeberechtigte(r) zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 * FIX: [SAXSVS]  `<al_fremd_fs1 >` wird ausgegeben, Eingabe muss unter `Schüler > Zeugnis > Fächer`erfolgen
 
 #### Skripte

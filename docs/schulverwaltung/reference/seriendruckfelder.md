@@ -1,5 +1,4 @@
 
-
 # Übersicht der verfügbaren Felder im Seriendruck
 
 MAGELLAN gibt über eine Schnittstelle Daten an MS Word für den Seriendruck. Welche Daten genau übergeben werden richtet sich nach dem Menüpunkt aus dem der Seriendruck gestartet wird, teilweise werden auch Datenmengen je nach Adressat generiert. Nachstehend listen wir die erzeugten Daten auf.
@@ -385,6 +384,7 @@ Nr|Seriendruckfeld
 142.|«Praxisdauer»
 143.|«Bildungsgang»
 144.|«Beruf»
+145.|«Bewerber_ID»
 
 ## Menü Bewerber
 
