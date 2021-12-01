@@ -56,7 +56,6 @@ nav:
 - Allgemein: 
     - Einführung: index.md
     - Was ist neu?: changelog/changelog.md
-    - Geplante Änderungen: changelog/changelog-next.md
     - Neuerungen MAGELLAN 9: changelog/neu.mag9.md
     - Archiv:
         - Neuerungen MAGELLAN 8: changelog/neu.mag8.md
