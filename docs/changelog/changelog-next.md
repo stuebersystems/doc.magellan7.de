@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
-### 8.0.14 802 (coming soon)
+### 8.0.14 802 ()
 
 #### MAGELLAN Schulverwaltung
 

@@ -4,7 +4,7 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 7. Wir möc
 
 ## Datenstrukturänderungen
 
-Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https://doc.magellan7-toolbox.stueber.de/datenstruktur/version8/neuerungen/](https://doc.magellan7-toolbox.stueber.de/datenstruktur/version8/neuerungen/).
+Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https://doc.magellan-toolbox.stueber.de/datenstruktur/version8/neuerungen/](https://doc.magellan-toolbox.stueber.de/datenstruktur/version8/neuerungen/).
 
 ## MAGELLAN Schulverwaltung
 

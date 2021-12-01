@@ -8,7 +8,6 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
-
 !!! danger "Achtung"
 
     **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
