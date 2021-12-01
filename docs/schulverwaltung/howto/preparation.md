@@ -19,7 +19,7 @@ Der Standardbenutzer lautet „sysdba“ und das dazugehörige Standardkennwort 
 
 ## Datenbank für den Alltag vorbereiten
 
-Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan8.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
+Richten Sie eine neue Datenbankanbindung zur in der Auslieferung enthaltenen leeren MAGELLAN-Datenbank ein. Eine ausführliche Anleitung finden Sie im Abschnitt [Datenbankverbindungen](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
 
 ## Postleitzahl- und Schlüsselverzeichnisse importieren
 
