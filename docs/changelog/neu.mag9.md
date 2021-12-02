@@ -11,7 +11,7 @@ Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https:/
 
 ## MAGELLAN Schulverwaltung
 
-### Schüler
+### pausierende Schüler in der Statusleiste
 
 Unter `Schüler > Auswahl` werden in der Statusleiste die pausierenden Schüler berücksichtigt.
 
