@@ -3,6 +3,7 @@
 [1]:/assets/images/neues/901.png
 [2]:/assets/images/neues/902.png
 [3]:/assets/images/neues/903.png
+[4]:/assets/images/neues/904.png
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
@@ -24,6 +25,12 @@ Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruc
 
 [![Liste der Familienmitglieder][3]][3]
 
+### Schüler > Zeugnis > Details
+
+Das Feld `Anrechendatum` wurde in die Sammelzuweisung übernommen.
+
+[![Sammelzuweisung unter Schüler > Zeugnis > Details][4]][4]
+
 ### Sorgeberechtigte > Geschlecht
 
 Für Sorgeberechtigte wurde das Feld `Geschlecht` ergänzt. Bei der Anpassung Ihrer Datenbank an die Datenbankstruktur der Version 9 wurde für Sorgeberechtigte, deren Feld `Anrede` befüllt war automatisch das Feld `Geschlecht` vorbefüllt.
@@ -44,7 +51,7 @@ Unter `Klassen > Daten` wurde das Feld `nächste Klasse` ausgeblendet.
 
 #### SAXSVS
 
-* Eine neue Prüfung wurde für die Ausgabe der Statistikfelder <av_abs_schart> und <av_bbs_schart> integriert. Sind die zugehörigen Felder nicht gefüllt wird eine Warnung ausgegeben.
+* Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` und `<av_bbs_schart>` integriert. Sind die zugehörigen Felder nicht gefüllt, wird eine Warnung ausgegeben.
 * `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 
 ## MAGELLAN Administrator
