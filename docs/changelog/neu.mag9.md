@@ -18,17 +18,17 @@ Unter `Schüler > Auswahl` werden in der Statusleiste die pausierenden Schüler 
 
 [![Summen in der Statusleiste][2]][2]
 
-## Schüler > Daten1 > Familie
+### Schüler > Daten1 > Familie
 
 Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruckname1` und `Seriendruckname2` ausgeblendet, damit sind bei mehreren Familienmitgliedern auf einen Blick mehr Informationen erfassbar.
 
 [![Liste der Familienmitglieder][3]][3]
 
-## Seriendruck an Betriebe
+### Seriendruck an Betriebe
 
 Für den Seriendruck aus dem Menü `Betriebe` wurde das Feld `«Betrieb_Email»` ergänzt.
 
-## Abitursimulation
+### Abitursimulation
 
 Um die Datensicherheit zu gewährleisten und Versehen vorzubeugen wurde unter `Abitur > Qualifikation > Abitur > Simulation` die abschließende Nachfrage, ob die Änderungen aus der Simulation übernommen werden soll unterdrückt. Eintragungen aus der Simulation werden nicht auf die Karten `Qualifikation` oder `Prüfung` übernommen.
 
@@ -41,7 +41,6 @@ Unter `Klassen > Daten` wurde das Feld `nächste Klasse` ausgeblendet.
 #### SAXSVS
 
 Eine neue Prüfung wurde für die Ausgabe der Statistikfelder <av_abs_schart> und <av_bbs_schart> integriert. Sind die zugehörigen Felder nicht gefüllt wird eine Warnung ausgegeben.
-
 
 ## MAGELLAN Administrator
 
