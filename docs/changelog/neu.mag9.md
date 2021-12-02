@@ -24,6 +24,14 @@ Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruc
 
 [![Liste der Familienmitglieder][3]][3]
 
+## Seriendruck an Betriebe
+
+Für den Seriendruck aus dem Menü `Betriebe` wurde das Feld `«Betrieb_Email»` ergänzt.
+
+## Abitursimulation
+
+Um die Datensicherheit zu gewährleisten und Versehen vorzubeugen wurde unter `Abitur > Qualifikation > Abitur > Simulation` die abschließende Nachfrage, ob die Änderungen aus der Simulation übernommen werden soll unterdrückt. Eintragungen aus der Simulation werden nicht auf die Karten `Qualifikation` oder `Prüfung` übernommen.
+
 ### Klassen 
 
 Unter `Klassen > Daten` wurde das Feld `nächste Klasse` ausgeblendet.
