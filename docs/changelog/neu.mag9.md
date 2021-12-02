@@ -24,6 +24,10 @@ Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruc
 
 [![Liste der Familienmitglieder][3]][3]
 
+### Sorgeberechtigte > Geschlecht
+
+Für Sorgeberechtigte wurde das Feld `Geschlecht` ergänzt. Bei der Anpassung Ihrer Datenbank an die Datenbankstruktur der Version 9 wurde für Sorgeberechtigte, deren Feld `Anrede` befüllt war automatisch das Feld `Geschlecht` vorbefüllt.
+
 ### Seriendruck an Betriebe
 
 Für den Seriendruck aus dem Menü `Betriebe` wurde das Feld `«Betrieb_Email»` ergänzt.
