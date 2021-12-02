@@ -867,7 +867,6 @@ Nr|Seriendruckfeld
 53.|«Lehrer_HeimatOrtsteil»
 54.|«Lehrer_HeimatAdressgebiet»
 
-
 ## Menü Mandanten
 
 Nr|Seriendruckfeld
@@ -967,6 +966,7 @@ Nr|Seriendruckfeld
 9.|«Betrieb_Telefon»
 10.|«Betrieb_Telefax»
 11.|«Betrieb_Internet»
+12.|«Betrieb_Email»
 
 ## Menü Schulen
 
