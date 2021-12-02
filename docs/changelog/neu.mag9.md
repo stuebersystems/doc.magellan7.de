@@ -1,7 +1,7 @@
 # Was ist neu?
 
 [1]:/assets/images/neues/901.png
-[2]:/assets/images/neues/9021.png
+[2]:/assets/images/neues/902.png
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
