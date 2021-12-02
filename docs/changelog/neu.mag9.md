@@ -20,6 +20,10 @@ Unter `Schüler > Auswahl` werden in der Statusleiste die pausierenden Schüler 
 
 [![Summen in der Statusleiste][2]][2]
 
+### Assistenten und Klassenspalte
+
+In sämtlichen Assistenten, in denen die Spalte `Klasse` gezeigt wird, ist die Standardposition der Klasse  geändert worden. Die Spalte `Klasse` wird im vorderen Bereich gezeigt, so dass sie genutzt werden kann ohne nach rechts zu scrollen.
+
 ### Schüler > Daten1 > Familie
 
 Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruckname1` und `Seriendruckname2` ausgeblendet, damit sind bei mehreren Familienmitgliedern auf einen Blick mehr Informationen erfassbar.
