@@ -7,7 +7,7 @@
 [5]:/assets/images/neues/905.png
 [6]:/assets/images/neues/906.png
 [7]:/assets/images/neues/907.png
-
+[8]:/assets/images/neues/908.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -104,7 +104,20 @@ Das Benachrichtigungssystem für den Export ist komplett überarbeitet. Es gibt 
 * Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` und `<av_bbs_schart>` integriert. Sind die zugehörigen Felder nicht gefüllt, wird eine Warnung ausgegeben.
 * `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 
+## MyMAGELLAN
+
+### Übersicht "Kontrolle nach Klassen"
+
+In MyMagellan gibt es die  neue schreibgeschützte Übersicht `Kontrolle nach Klassen`, die Ihnen Ihre erfassten Daten zur Kontrolle je Klasse darstellt. Diese Ansicht kann auch nach Excel exportiert werden.
+
 ## MAGELLAN Administrator
+
+### Organisiertes Löschen
+
+Der neue Assistent im MAGELLAN Administrator unterstützt Sie wahlweise Schülerdatensätze, nur die Fachdaten von Schülern und 
+
+
+[![Aufruf][8]][8]
 
 ### Mandant vorbelegt
 
