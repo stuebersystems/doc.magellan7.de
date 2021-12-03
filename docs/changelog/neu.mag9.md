@@ -8,6 +8,7 @@
 [6]:/assets/images/neues/906.png
 [7]:/assets/images/neues/907.png
 [8]:/assets/images/neues/908.png
+[9]:/assets/images/neues/909.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -114,10 +115,17 @@ In MyMagellan gibt es die  neue schreibgeschützte Übersicht `Kontrolle nach Kl
 
 ### Organisiertes Löschen
 
-Der neue Assistent im MAGELLAN Administrator unterstützt Sie wahlweise Schülerdatensätze, nur die Fachdaten von Schülern und 
+Der neue Assistent im MAGELLAN Administrator unterstützt Sie beim Löschen von wahlweise:
 
+*  Schülerdatensätzen
+*  Fachdaten von Schülern
+*  Passbildern von Schülern
+
+Sie geben als Zeitpunkt dafür eine Monatsanzahl ein, die ausgehend vom aktuellen Tagesdatum die Löschungen für Schüler durchführt, die zu diesem Zeitpunkt nicht mehr Schüler Ihrer Schule waren.  
 
 [![Aufruf][8]][8]
+
+[![Assistent][9]][9]
 
 ### Mandant vorbelegt
 

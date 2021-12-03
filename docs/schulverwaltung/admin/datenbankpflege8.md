@@ -45,9 +45,14 @@ Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank zur Datenübernahme ein
 Setzt für Schüler, Bewerber, Lehrer und Personen, denen noch keine Anrede hinterlegt wurde, eine Anrede anhand des erfassten Geschlechts.
 Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht männlich die Anrede Herr befüllt.
 
-## Schüler-Passfotos löschen
+## Organisisertes Löschen
 
-![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/passfoto.loeschen.png)
+![Klicken Sie auf `Ausführen`](/assets/images/neues/908.png)
 
-Löscht alle Passfotos inaktiver Schüler aus der Datenbank heraus.
-Die Größe der Datenbank reduziert sich, wenn Sie anschließend die Datenbank sichern und wiederherstellen.
+Der Assistent unterstützt Sie beim Löschen von wahlweise:
+
+*  Schülerdatensätzen
+*  Fachdaten von Schülern
+*  Passbildern von Schülern
+
+Sie geben als Zeitpunkt dafür eine Monatsanzahl ein, die ausgehend vom aktuellen Tagesdatum die Löschungen für Schüler durchführt, die zu diesem Zeitpunkt nicht mehr Schüler Ihrer Schule waren.  
