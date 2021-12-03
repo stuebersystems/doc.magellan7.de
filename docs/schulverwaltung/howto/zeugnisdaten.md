@@ -2,6 +2,8 @@
 
 [1]:/assets/images/zeugnisdaten/zeugnisdaten51.png
 [2]:/assets/images/zeugnisdaten/zeugnisdaten52.png
+[3]:/assets/images/zeugnisdaten/zeugnisdaten57.png
+[4]:/assets/images/zeugnisdaten/zeugnisdaten58.png
 
 Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finden diese Schülerdaten auf den Registerkarten `Laufbahn` und `Zeugnis` des Schülers. In diesem Kapitel werden sämtliche Eingaben der notwendigen Daten für den Zeugnisdruck beschrieben. Die Noteneingabe kann über zweierlei Wege erfolgen: zentral über MAGELLAN und dezentral über MyMAGELLAN. In diesem Kapitel wird die zentrale Noteneingabe beschrieben. Wie Sie auf Grundlage der erfassten Zeugnisdaten die Zeugnisse ausdrucken können, erfahren Sie im Kapitel `Formulare, Listen und Zeugnisse`.
 
@@ -112,6 +114,8 @@ So weisen Sie Schülern eine Fachtafel zu.
     **Ablauf ohne gesetzte Option:** Wenn keine der nachstehenden Optionen gewählt ist, prüft der Assistent, ob für die ausgewählten Schüler unter `Schüler > Zeugnis > Fächer` bereits Daten vorliegen. Die Fächer werden gelöscht, wenn keine Note (betrifft sämtliche Notenfelder unter `Schüler > Zeugnis > Leistungen`) für die Fächer erfasst wurden. Die Prüfung erfolgt für jede Fachzeile gesondert.
     Im nächsten Schritt werden die Fächer der Fachtafel dem Schüler zugewiesen, dabei erfolgt eine zweite Prüfung. Fächer, die dem Schüler bereits zugewiesen wurden, werden nicht erneut zugewiesen, sondern übersprungen. Geprüft wird anhand der Fach-ID.
 
+[![Allgemeine Optionen beim Zuweisen der Fachtafel][3]][3]
+
 Nr.|Option|Funktion|Kombinierbar mit Nr.
 --|--|--|--
 1.|Vorhandende Fachdaten der Schüler nicht löschen|Die bereits erfassten Fachdaten bleiben erhalten, es werden aber keine Fachdopplungen erzeugt. Geprüft wird anhand der Fach-ID|2.
@@ -128,6 +132,8 @@ Kombinationen|Funktion
 #### Optionen zum Verändern bestehender Fachdaten
 
 Diese Optionen können ohne das Zuweisen einer Fachtafel zum Ergänzen genutzt werden, können aber auch parallel zum Zuweisen verwendet werden.
+
+[![Optionen zum Verändern bestehender Fachdaten][4]][4]
 
 Nr.|Option|Funktion
 --|--|--
