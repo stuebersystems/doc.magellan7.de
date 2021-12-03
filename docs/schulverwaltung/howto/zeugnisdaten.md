@@ -137,7 +137,7 @@ Nr.|Option|Funktion
 --|--|--
 1.|Nicht erzwingen|Standardauswahl,keine Aktion
 2.|Über Fach abgleichen| Je nach Auswahl per Checkbox werden `Unterrichtsart`, `Fachstatus`, `Merkmal`, `Position`, `Faktor` oder `Lehrer` aus der Fachtafel ausgelesen und dem erkannten Fach (bei Fach-Dopplungen den Fächer) zugewiesen. Für den Vergleich der Fächer wird die Fach-ID verwendet. Ein leerer Wert aus der Fachtafel überschreibt bei gesetzter Option einen erfassten Wert beim Schülerfach.
-3.|Über Fach, Unterrichtsart, Fachstatus abgleichen| Wie `2.`, das Fach wird aber nicht nur anhand der FachID erkannt, zusätzlich werden auch Unterrichtsart (Kürzel) und Fachstatus (Kürzel) verglichen, nur wenn alle drei übereinstimmen, wird geändert.
+3.|Über Fach, Unterrichtsart, Fachstatus abgleichen| Wie `2.`, das Fach wird aber nicht nur anhand der Fach-ID erkannt, zusätzlich werden auch Unterrichtsart (Kürzel) und Fachstatus (Kürzel) verglichen, nur wenn alle drei übereinstimmen, wird geändert.
 
 ### Fachtafeln zuweisen (bis MAGELLAN 8)
 
