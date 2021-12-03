@@ -83,7 +83,9 @@ Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits 
 !!! warning "Wichtig!"
 
     Der Assistent zum Zuweisen von Fachtafeln wurde ab Version MAGELLAN vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
-    Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. Zusätzlich gibt es weitere Optionen, die das mehrfach Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
+    Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. 
+    Eine zusätzliche Prüfung vergleicht die Fächer und verhindert Dopplungen.
+    Zusätzlich gibt es weitere Optionen, die das mehrfache Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
     Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
 
 Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln zuweisen. 
@@ -103,9 +105,35 @@ So weisen Sie Schülern eine Fachtafel zu.
 |3.|Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll, dazu haben Sie drei Möglichkeiten.<br/><br/> 1. **Fachtafel manuell auswählen:** Es werden alle Fachtafeln in der Liste gezeigt, die im Verzeichnis Fachtafeln definiert sind. Sie wählen durch Anklicken eine aus und gehen auf `Weiter`.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten54.png"><br/><br/>2. **Beim jeweiligen Schüler hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den markierten Schülern auf der Registerkarte `Laufbahn` unter `Fachtafel` definiert sind.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten55.png"><br/><br/> 3. **Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den Klassen der markierten Schülern auf der Registerkarte `Zeiträume` unter `Fachtafel` definiert sind. <br/><img src="/assets/images/zeugnisdaten/zeugnisdaten56.png">|
 |4. |Im unteren Bereich des Assistenten haben Sie zusätzliche Optionen zur Auswahl, die wir nachstehend gesondert erklären. Um den Assistenten auszuführen klicken Sie bitte auf `Weiter` und `Fertigstellen`.
 
-#### Op
+#### Allgemeine Optionen beim Zuweisen der Fachtafel
 
+!!! warning "Wichtig!"
 
+    **Ablauf ohne gesetzte Option:** Wenn keine der nachstehenden Optionen gewählt ist, prüft der Assistent, ob für die ausgewählten Schüler unter `Schüler > Zeugnis > Fächer` bereits Daten vorliegen. Die Fächer werden gelöscht, wenn keine Note (betrifft sämtliche Notenfelder unter `Schüler > Zeugnis > Leistungen`) für die Fächer erfasst wurden. Die Prüfung erfolgt für jede Fachzeile gesondert.
+    Im nächsten Schritt werden die Fächer der Fachtafel dem Schüler zugewiesen, dabei erfolgt eine zweite Prüfung. Fächer, die dem Schüler bereits zugewiesen wurden, werden nicht erneut zugewiesen, sondern übersprungen. Geprüft wird anhand der Fach-ID.
+
+Nr.|Option|Funktion|Kombinierbar mit Nr.
+--|--|--|--
+1.|Vorhandende Fachdaten der Schüler nicht löschen|Die bereits erfassten Fachdaten bleiben erhalten, es werden aber keine Fachdopplungen erzeugt. Geprüft wird anhand der Fach-ID|2.
+2.|Mehrfaches Anlegen/Erhalten von Fachdaten mit gleichen Fächern erlauben|Fächer ohne Noten werden gelöscht. Beim Zuweisen werden nicht Fach-IDs verglichen, mehre gleiche Fächer sind möglich|1.und 3.
+3.|Löschen von Fachdaten mit eingetragenen Noten erzwingen|Alle bereits vorhandenen Fächer des Schülers werden gelöscht, die neuen Fächer werden zugewiesen|2.
+
+Kombinationen:
+
+Kombinationen|Funktion
+--|--
+`1.` und `2.`|Vorhandene Fächer des Schülers bleiben erhalten, Fachdopplungen sind zugelassen
+`2.` und `3.`|Alle Fächer des Schülers werden gelöscht, Fachdopplungen aus der Fachtafel werden zugewiesen
+
+#### Optionen zum Verändern bestehender Fachdaten
+
+Diese Optionen können ohne das Zuweisen einer Fachtafel zum Ergänzen genutzt werden, können aber auch parallel zum Zuweisen verwendet werden.
+
+Nr.|Option|Funktion
+--|--|--
+1.|Nicht erzwingen|-
+2.|Über Fach abgleichen|-
+3.|Über Fach, Unterrichtsart, Fachstatus abgleichen|-
 
 
 ### Fachtafeln zuweisen (bis MAGELLAN 8)
