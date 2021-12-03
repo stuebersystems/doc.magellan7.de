@@ -88,6 +88,10 @@ Ein neuer Prüfbericht steht zur Verfügung: `Mandant (ohne Gemeindekennziffer(S
 
 Ein neuer Bericht für die Ausgabe der Mitglieder je Gruppe steht zur Verfügung: `"Mitglieder (Kontaktliste).rpt"`.
 
+### Enbrea-Leistungen
+
+Für die Ansicht unter `Klassen > Zeiträume > Enbrea-Leistungen > Leistungsprofile definieren...` wurde die Spalte `Position` ergänzt. Sie können durch das Erfassen der Positionsnummer an dieser Stelle, den Wert bei der Übernahme der Daten zum einzelnen Schüler mit übergeben.
+
 ### Schnittstellen
 
 #### Allgemein
@@ -123,6 +127,8 @@ Der neue Assistent im MAGELLAN Administrator unterstützt Sie beim Löschen von 
 
 Sie geben als Zeitpunkt dafür eine Monatsanzahl ein, die ausgehend vom aktuellen Tagesdatum die Löschungen für Schüler durchführt, die zu diesem Zeitpunkt nicht mehr Schüler Ihrer Schule waren.  
 
+Die Anleitung hierfür finden Sie unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege8/#organisisertes-loschen](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege8/#organisisertes-loschen).
+
 [![Aufruf][8]][8]
 
 [![Assistent][9]][9]
@@ -136,9 +142,3 @@ Unter `Datenaustausch > Daten über das Magellan-Importformat importieren` ist i
 ### Haushalt&Inventar und Klassenbuch ausgeblendet
 
 Unter `Benutzerverwaltung > Doppelklick auf einen Benutzer > Rechte` wurden die Aufrufe für Haushalt&Inventar und Klassenbuch ausgeblendet.
-
-
-
-
-
-
