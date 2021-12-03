@@ -118,9 +118,9 @@ So weisen Sie Schülern eine Fachtafel zu.
 
 Nr.|Option|Funktion|Kombinierbar mit Nr.
 --|--|--|--
-1.|Vorhandende Fachdaten der Schüler nicht löschen|Die bereits erfassten Fachdaten bleiben erhalten, es werden aber keine Fachdopplungen erzeugt. Geprüft wird anhand der Fach-ID|2.
-2.|Mehrfaches Anlegen/Erhalten von Fachdaten mit gleichen Fächern erlauben|Fächer ohne Noten werden gelöscht. Beim Zuweisen werden nicht Fach-IDs verglichen, mehre gleiche Fächer sind möglich|1.und 3.
-3.|Löschen von Fachdaten mit eingetragenen Noten erzwingen|Alle bereits vorhandenen Fächer des Schülers werden gelöscht, die neuen Fächer werden zugewiesen|2.
+`1.`|Vorhandende Fachdaten der Schüler nicht löschen|Die bereits erfassten Fachdaten bleiben erhalten, es werden aber keine Fachdopplungen erzeugt. Geprüft wird anhand der Fach-ID|`2.`
+`2.`|Mehrfaches Anlegen/Erhalten von Fachdaten mit gleichen Fächern erlauben|Fächer ohne Noten werden gelöscht. Beim Zuweisen werden nicht Fach-IDs verglichen, mehre gleiche Fächer sind möglich|`1.` und `3.`
+`3.`|Löschen von Fachdaten mit eingetragenen Noten erzwingen|Alle bereits vorhandenen Fächer des Schülers werden gelöscht, die neuen Fächer werden zugewiesen|`2.`
 
 Kombinationen:
 
