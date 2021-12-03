@@ -6,6 +6,8 @@
 [4]:/assets/images/neues/904.png
 [5]:/assets/images/neues/905.png
 [6]:/assets/images/neues/906.png
+[7]:/assets/images/neues/907.png
+
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -35,9 +37,20 @@ Im Anzeigefeld unter `Schüler > Daten1 > Familie` wurden die Felder `Seriendruc
 
 ### Schüler > Zeugnis > Fächer
 
+#### Klassenfilter
+
 Im Assistenten zum `Fachtafel zuweisen` kann die Klasse auch mit dem Operator `wie` gefiltert werden.
 
 [![Operator "wie" für Klassenfilterung ergänzt][5]][5]
+
+#### Fachtafeln zuweisen
+
+Der Assistent zum Zuweisen von Fachtafeln wurde vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
+Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. Zusätzlich gibt es weitere Optionen, die das mehrfach Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
+
+Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
+
+[![Neuer Funktionalitäten beim Zuweisen von Fachtafeln][7]][7]
 
 ### Schüler > Zeugnis > Details
 
