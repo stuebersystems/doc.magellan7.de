@@ -49,6 +49,7 @@ Der Assistent zum Zuweisen von Fachtafeln wurde vollständig überarbeitet. Bish
 Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. Zusätzlich gibt es weitere Optionen, die das mehrfach Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
 
 Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
+Die überarbeitete Anleitung hierfür finden Sie unter [https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#fachtafeln-zuweisen-ab-magellan-9](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#fachtafeln-zuweisen-ab-magellan-9).
 
 [![Neuer Funktionalitäten beim Zuweisen von Fachtafeln][7]][7]
 
