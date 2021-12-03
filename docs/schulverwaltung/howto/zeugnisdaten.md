@@ -1,5 +1,8 @@
 # Zeugnisdaten erfassen
 
+[1]:/assets/images/zeugnisdaten/zeugnisdaten51.png
+[2]:/assets/images/zeugnisdaten/zeugnisdaten52.png
+
 Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finden diese Schülerdaten auf den Registerkarten `Laufbahn` und `Zeugnis` des Schülers. In diesem Kapitel werden sämtliche Eingaben der notwendigen Daten für den Zeugnisdruck beschrieben. Die Noteneingabe kann über zweierlei Wege erfolgen: zentral über MAGELLAN und dezentral über MyMAGELLAN. In diesem Kapitel wird die zentrale Noteneingabe beschrieben. Wie Sie auf Grundlage der erfassten Zeugnisdaten die Zeugnisse ausdrucken können, erfahren Sie im Kapitel `Formulare, Listen und Zeugnisse`.
 
 !!! warning "Sehr wichtig!"
@@ -83,19 +86,27 @@ Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits 
     Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. Zusätzlich gibt es weitere Optionen, die das mehrfach Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
     Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
 
-Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln  zuweisen. 
+Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln zuweisen. 
 
-Das Zuweisen von Fachtafeln kann alternativ auch direkt beim Einschulen oder beim Fortschreiben bzw. Versetzen erfolgen. So weisen Sie Schülern eine Fachtafel zu.
+!!! warning "Wichtig!"
+
+    Die zugewiesenen Fächer gelten stets für den gewählten Zeitraum. Ändern sich die Fachdaten zwischen den Halbjahren oder Schuljahren nicht, können die bereits dem Schüler zugewiesenen Fächer beim Versetzen oder beim Fortschreiben mit in den neuen Zeitraum übernommen werden. Beim Fortschreiben von Schülern übernimmt der Assistent das automatisch für Sie. Beim Versetzen müssen Sie dafür die Option `Fachdaten kopieren` aktivieren.
+
+[![Option zum übernehmen der Fachdaten beim Versetzen eines Schülers][1]][1]
+
+So weisen Sie Schülern eine Fachtafel zu.
 
 |Nr.|So geht's|
 |:--|:--|
-|1.| Klicken Sie auf Ansicht und dann auf Schüler.  |
-|2. |Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer`.<br/><br/><img src="/assets/images/zeugnisdaten/zeugnisdaten6.png">|
-|3. |Klicken Sie oben auf `Fachtafel zuweisen`. Es öffnet sich der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`, um zu den nächsten Schritten zu gelangen. |
-|4.| Unter `Schüler auswählen` befinden sich alle Schüler des aktuellen Halbjahres. Nutzen Sie die [Gruppierung oder Filterung](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/) und markieren Sie Schüler, denen Sie dieselbe Fachtafel zuweisen möchten, gruppenweise und klicken Sie auf `Weiter`.<br/><br/>Unter `Schüler auswählen` müssen Sie die Schüler markieren, denen Sie eine Fachtafel zuweisen wollen.<img src="/assets/images/zeugnisdaten/zeugnisdaten7.png"><br/><br/> Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll. <img src="/assets/images/zeugnisdaten/zeugnisdaten8.png"> |
-|5. |Markieren Sie eine Fachtafel. Klicken Sie anschließend auf `Weiter`. Dabei richtet sich die Auswahl der Fachtafeln nach der Herkunft der Fachtafel:<br/><br/> * **Fachtafel manuell auswählen:** Es werden alle Fachtafeln angezeigt, die im Verzeichnis Fachtafeln definiert sind.<br/><br/> * **Beim jeweiligen Schüler hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den markierten Schülern auf der Registerkarte `Laufbahn` unter `Fachtafel` definiert sind.<br/><br/> * **Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den Klassen der markierten Schülern auf der Registerkarte `Zeiträume` unter `Fachtafel` definiert sind. |
-|6. |Klicken Sie dann auf `Weiter`  und anschließend auf `Fertigstellen`, um die Fachtafel den Schülern zuzuweisen. Sie haben auch die Möglichkeit z.B. erst die Fachtafelzuweisung für alle evangelischen Schüler einer Klasse oder eines Jahrganges zu machen. Gruppieren Sie in diesem Fall nach Klassen und nach Konfession. Markieren Sie alle evangelischen Schüler und klicken Sie auf `Weiter`.  |
-|7. |Unter Fachtafel zuweisen können Sie dann die gewünschte Fachtafel für die evangelischen Schüler markieren. Klicken Sie dann auf `Weiter`. Anschließend verfahren Sie analog für die katholischen Schüler und weisen diesen die Fachtafel für die katholischen Schüler zu. |
+|1.| Klicken Sie auf Ansicht und dann auf Schüler. Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer` und klicken oben auf die Schaltfläche `Fachtafel zuweisen`. Es öffnet sich der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`. <br/><br/><img src="/assets/images/zeugnisdaten/zeugnisdaten53.png">|
+|2.| Unter `Schüler auswählen` befinden sich alle Schüler des aktuellen Halbjahres. Nutzen Sie die [Gruppierung oder Filterung](https://doc.magellan.stueber.de/schulverwaltung/howto/sort-group-filter-search/) und markieren Sie Schüler, denen Sie dieselbe Fachtafel zuweisen möchten, gruppenweise und klicken Sie auf `Weiter`.<br/><br/><img src="/assets/images/zeugnisdaten/zeugnisdaten7.png"><br/><br/> 
+|3.|Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll, dazu haben Sie drei Möglichkeiten.<br/><br/> 1. **Fachtafel manuell auswählen:** Es werden alle Fachtafeln in der Liste gezeigt, die im Verzeichnis Fachtafeln definiert sind. Sie wählen durch Anklicken eine aus und gehen auf `Weiter`.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten54.png"><br/><br/>2. **Beim jeweiligen Schüler hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den markierten Schülern auf der Registerkarte `Laufbahn` unter `Fachtafel` definiert sind.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten55.png"><br/><br/> 3. **Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den Klassen der markierten Schülern auf der Registerkarte `Zeiträume` unter `Fachtafel` definiert sind. <br/><img src="/assets/images/zeugnisdaten/zeugnisdaten56.png">|
+|4. |Im unteren Bereich des Assistenten haben Sie zusätzliche Optionen zur Auswahl, die wir nachstehend gesondert erklären. Um den Assistenten auszuführen klicken Sie bitte auf `Weiter` und `Fertigstellen`.
+
+#### Op
+
+
+
 
 ### Fachtafeln zuweisen (bis MAGELLAN 8)
 
