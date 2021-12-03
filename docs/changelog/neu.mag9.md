@@ -7,7 +7,9 @@
 [5]:/assets/images/neues/905.png
 [6]:/assets/images/neues/906.png
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
+**Das Kapitel wird aktuell bearbeitet.**
+
+Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 9 geben.
 
 ## Datenstrukturänderungen
 
@@ -72,6 +74,8 @@ Ein neuer Prüfbericht steht zur Verfügung: `Mandant (ohne Gemeindekennziffer(S
 Ein neuer Bericht für die Ausgabe der Mitglieder je Gruppe steht zur Verfügung: `"Mitglieder (Kontaktliste).rpt"`.
 
 ### Schnittstellen
+
+#### Allgemein
 
 Das Benachrichtigungssystem für den Export ist komplett überarbeitet. Es gibt zwei neue Spalten in den Hinweisen:
 
