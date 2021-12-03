@@ -5,6 +5,7 @@
 [3]:/assets/images/neues/903.png
 [4]:/assets/images/neues/904.png
 [5]:/assets/images/neues/905.png
+[6]:/assets/images/neues/906.png
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
@@ -42,6 +43,10 @@ Das Feld `Anrechendatum` wurde in die Sammelzuweisung übernommen.
 
 [![Sammelzuweisung unter Schüler > Zeugnis > Details][4]][4]
 
+### Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
+
+Der Bericht berechnet die Schulbesuchzeiten nach dem 17. Geburtstag anhand des Geburtsdatums des Schülers unter `Schüler > Daten1 > Geburtsdatum` und dem Zugang zur Schule unter `Daten2 > Zugang am`.
+
 ### Sorgeberechtigte > Geschlecht
 
 Für Sorgeberechtigte wurde das Feld `Geschlecht` ergänzt. Bei der Anpassung Ihrer Datenbank an die Datenbankstruktur der Version 9 wurde für Sorgeberechtigte, deren Feld `Anrede` befüllt war automatisch das Feld `Geschlecht` vorbefüllt.
@@ -58,10 +63,26 @@ Um die Datensicherheit zu gewährleisten und Versehen vorzubeugen wurde unter `A
 
 Unter `Klassen > Daten` wurde das Feld `nächste Klasse` ausgeblendet.
 
+### Mandanten
+
+Ein neuer Prüfbericht steht zur Verfügung: `Mandant (ohne Gemeindekennziffer(Sorgeberechtigte, Lehrer, Personen)).rpt`.
+
+### Gruppen
+
+Ein neuer Bericht für die Ausgabe der Mitglieder je Gruppe steht zur Verfügung: `"Mitglieder (Kontaktliste).rpt"`.
+
 ### Schnittstellen
+
+Das Benachrichtigungssystem für den Export ist komplett überarbeitet. Es gibt zwei neue Spalten in den Hinweisen:
+
+* "Klasse" - Enthält Klasseninformationen, sprich den Kürzel der Klasse
+* "Person" - Enthält Personeninformationen, üblicherweise Vor-Nachname und ID
+
+[![Neue Spalten in den Meldungen][6]][6]
 
 #### SAXSVS
 
+* Alle Schülermeldungen wurden um die Ausgabe der Klasse erweitert.
 * Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` und `<av_bbs_schart>` integriert. Sind die zugehörigen Felder nicht gefüllt, wird eine Warnung ausgegeben.
 * `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 
