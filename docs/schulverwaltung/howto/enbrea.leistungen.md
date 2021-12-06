@@ -270,6 +270,7 @@ Notensystem | DropDown-Feld, wählen Sie hier das benötigte Notensystem für di
 Notentyp | 
 Bewertungsprofil | DropDown-Feld, wählen Sie das gewünschte Bewertungsprofil aus
 Bemerkung | Eingabe von Freitext
+Position| Eingabe der Position für die Reihenfolge der Anzeige auf dem Zeugnis
 interner Code | aktuell keine Bedeutung
 
 [![Leistungsprofile definieren..."][22]][22]
