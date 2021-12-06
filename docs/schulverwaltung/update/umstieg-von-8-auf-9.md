@@ -89,9 +89,9 @@ Wir empfehlen Ihnen MAGELLAN auf einem Clientrechner zu installieren, zu lizenzi
 
 Nach der Installation auf dem ersten Clientrechner starten Sie bitte MAGELLAN 9 um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassisten gibt man die Lizenzdaten, die Pfade aus Sicht des Clientrechners zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
 
-Testen Sie anschließend auf dem ersten Clientrechner, ob die Angaben korrekt waren.
-Test 1: Dafür starten Sie MAGELLAN auf dem Rechner, gelingt der Start des Moduls, ist der Pfad zur Datenbank ok.
-Test 2: In MAGELLAN wechseln Sie in das Menü Schüler, markieren eine Schüler und drücken bitte STRG+P. Werden Schülerberichte zur Auswahl gezeigt, sind die Pfade zu den Datenordnern ok.
+Testen Sie anschließend auf dem ersten Clientrechner, ob die Angaben korrekt waren.<br/>
+**Test 1 (Datenbankpfad):** Dafür starten Sie MAGELLAN auf dem Rechner, gelingt der Start des Moduls, ist der Pfad zur Datenbank ok.<br/>
+**Test 2 (Datenordnerpfade):** In MAGELLAN wechseln Sie in das Menü Schüler, markieren eine Schüler und drücken bitte STRG+P. Werden Schülerberichte zur Auswahl gezeigt, sind die Pfade zu den Datenordnern ok.
 
 Die durch den Willkommens-Assistenten erzeugten Dateien, aus den die Lizenz, die Optionen und die Pfade ausgelesen werden, finden Sie unter `C:\ProgramData\Stueber Systems\Magellan 9`. Diese Dateien können Sie zentral ablegen und von allen Clientrechnern aus nutzen. Damit beim Programmstart von MAGELLAN nicht die lokalen Daten ausgelesen werden, sondern die zentral abgelegten Dateien gelesen werden, muss eine Textdatei mit den Pfaden und einem bestimmten Namen angelegt und an einer bestimmten Stelle abgelegt werden. Bitte folgen Sie hierfür unserer Anleitung unter: [Die Pathsdatei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 
