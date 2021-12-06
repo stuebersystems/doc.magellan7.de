@@ -47,21 +47,21 @@ Auf Ihrem MAGELLAN-Serverrechner soll im nächsten Schritt die 8er Datenbank üb
 
 1. Öffnen Sie auf dem Serverrechner bitte `Systemsteuerung > Verwaltung > Dienste` und stoppen dort den Firebird-Dienst.
 
-![Firebird-Dienst stoppen](/assets/images/update/7zu8/01.png)
+![Firebird-Dienst stoppen](/assets/images/update/8zu9/01.png)
 
 2. Kopieren Sie aus dem Datenbankverzeichnis von MAGELLAN 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan8.fdb`) und legen die Datei im Datenbankverzeichnis von MAGELLAN 9 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank`) ab.
 3. Sollte dort bereits eine Datei mit dem Namen `Magellan9.fdb` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan8.fdb` den Namen `Magellan9.fdb` verwenden können.
 4. Öffnen Sie erneut den Punkt `Systemsteuerung > Verwaltung > Dienste` und starten dort den Firebird-Dienst wieder.
 
-![Firebird-Dienst starten](/assets/images/update/7zu8/02.png)
+![Firebird-Dienst starten](/assets/images/update/8zu9/02.png)
 
 5. Starten Sie MAGELLAN 8 (Schulverwaltungsmodul, nicht den Administrator) als `sysdba` und führen Sie als erstes die Datensicherung durch. Der voreingestellte Sicherungspfad resultiert aus Ihren Angaben im Willkommensassistenten und kann im MAGELLAN Administrator in den Verbindungseinstellungen auf der Unterkarte `Datensicherung` angepasst werden.
-![Firebird-Dienst starten](/assets/images/update/7zu8/05.png)
+![Firebird-Dienst starten](/assets/images/update/8zu9/05.png)
 1. Im Anschluss an die Datensicherung, klicken Sie bitte auf "Weiter", MAGELLAN passt die Datenbank auf die neue Datenstruktur an.
-![Firebird-Dienst starten](/assets/images/update/7zu8/06.png)
+![Firebird-Dienst starten](/assets/images/update/8zu9/06.png)
 8. Öffnen Sie anschließend den MAGELLAN 9 ADMINISTRATOR und synchronisieren die Zugriffsrechte im Punkt `Benutzerverwaltung` über den Aufruf  `Zugriffsrechte synchronsieren` in der Menüleiste. Damit werden für Ihre bereits angelegten Benutzer die Zugriffsrechte auf die geänderte Datenbankteile geklärt.
 
-![Zugriffsrechte](/assets/images/update/7zu8/04.png)
+![Zugriffsrechte](/assets/images/update/8zu9/04.png)
 
 ## Eigene Daten übernehmen
 
