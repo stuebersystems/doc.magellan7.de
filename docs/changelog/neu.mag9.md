@@ -90,7 +90,7 @@ Ein neuer Bericht für die Ausgabe der Mitglieder je Gruppe steht zur Verfügung
 
 ### Enbrea-Leistungen
 
-Für die Ansicht unter `Klassen > Zeiträume > Enbrea-Leistungen > Leistungsprofile definieren...` wurde die Spalte `Position` ergänzt. Sie können durch das Erfassen der Positionsnummer an dieser Stelle, den Wert bei der Übernahme der Daten zum einzelnen Schüler mit übergeben.
+Für die Ansicht unter `Klassen > Zeiträume > Enbrea-Leistungen > Leistungsprofile definieren...` wurde die Spalte `Position` ergänzt. Sie können durch das Erfassen der Positionsnummer an dieser Stelle, den Wert beim Zuweisen der Kurse beim Schüler unter `Schüler > Zeugnis > ENBREA-Kurse` nutzen.
 
 ### Schnittstellen
 
