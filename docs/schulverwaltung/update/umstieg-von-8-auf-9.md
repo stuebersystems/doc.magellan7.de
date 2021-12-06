@@ -14,7 +14,7 @@ Nr.|Was ist zu tun
 6.| Clientrechner installieren, lizenzieren, konfigurieren
 7.| Fertig!
 
-## auf dem Server
+## Auf dem Server
 
 ###  Ausgangssituation prüfen und aktualisieren
 
