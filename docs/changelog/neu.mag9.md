@@ -9,6 +9,7 @@
 [7]:/assets/images/neues/907.png
 [8]:/assets/images/neues/908.png
 [9]:/assets/images/neues/909.png
+[10]:/assets/images/neues/910.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -114,6 +115,8 @@ Das Benachrichtigungssystem für den Export ist komplett überarbeitet. Es gibt 
 ### Übersicht "Kontrolle nach Klassen"
 
 In MyMagellan gibt es die  neue schreibgeschützte Übersicht `Kontrolle nach Klassen`, die Ihnen Ihre erfassten Daten zur Kontrolle je Klasse darstellt. Diese Ansicht kann auch nach Excel exportiert werden.
+
+[![Kontrollübersicht Klassen][10]][10]
 
 ## MAGELLAN Administrator
 
