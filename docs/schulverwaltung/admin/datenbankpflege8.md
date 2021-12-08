@@ -53,8 +53,6 @@ Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht m�
 
 ## Organisisertes Löschen
 
-**Dieser Abschnitt wird aktuell überarbeitet.**
-
 ![Klicken Sie auf `Ausführen`](/assets/images/neues/908.png)
 
 Es erscheint das Fenster des Assistenten.
