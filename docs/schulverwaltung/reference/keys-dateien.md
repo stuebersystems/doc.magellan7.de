@@ -27,27 +27,44 @@ Nachstehend finden Sie die Kopfzeilen der CSV-Dateien für den Import nach MAGEL
 
 Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Exporte > Eigene oder mitgelieferte Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer).
 
-## A
+## Benennung der Kataloge
 
-### Abgangsarten
+Beispiele:
+
+* 00_Faecher.keys
+* AS_Faecher.keys
+* BS_Faecher.keys
+
+Benennung                                     | Anmerkung
+--------------------------------------------- | ---------
+Dateinamenanfang "AS_"                        | Schlüsseldateien die mit "AS_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` zum Import angeboten
+Dateinamenanfang "BS_"                        | Schlüsseldateien die mit "BS_" bezeichnet sind, werden beim Aufruf `für berufsbildende Schulen` zum Import angeboten
+Dateinamenanfang "00_"                        | Schlüsseldateien die mit "00_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` und beim Aufruf `für berufsbildende Schulen` zum Import angeboten
+Text ab Zeichen 4<br/>(im Beispiel "Faecher") | Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert.
+
+## Benennung und Aufbau der *.keys
+
+### A
+
+#### Abgangsarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Abordnungsarten
+#### Abordnungsarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Abschlussarten
+#### Abschlussarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### AbschluesseExtern
+#### AbschluesseExtern
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"Kategorie";"BedeutungVeraendert"
@@ -57,13 +74,13 @@ Feld | Inhalt
 --------- | ------
 Kategorie | 0 = Allgemeinbildender Abschluss<br/>1 = Berufsbildender Abschluss<br/>2 = Allgemeinbildender und Berufsbildender Abschluss
 
-### AbschluesseIntern
+#### AbschluesseIntern
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
-### Abschlussjahrgaenge
+#### Abschlussjahrgaenge
 
 ````
 "Kuerzel";"Bezeichnung";"Kategorie";"Von";"Bis"
@@ -75,33 +92,33 @@ Kategorie | 0 = Abitur<br/>1 = Berufschule(Jahresnoten)<br/>2 = Berufsschule (Ha
 Von | TT.MM.JJJJ
 Bis | TT.MM.JJJJ
 
-### Amtsbez
+#### Amtsbez
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Arbeitsaemter
+#### Arbeitsaemter
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Aufnahmepruefungen
+#### Aufnahmepruefungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## B
+### B
 
-### Behinderungsarten
+#### Behinderungsarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Berufe
+#### Berufe
 
 ````
 "Kuerzel";"Schluessel";"BezeichnungM";"BezeichnungW";"Fachrichtung";"Berufsfeld";"GueltigVon";"GueltigBis"
@@ -110,67 +127,67 @@ Bis | TT.MM.JJJJ
 
     Fachrichtung und Berufsfeld sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf oder vorher eingelesen werden müssen. Der Wert im Verzeichnis Berufe muss in diesen beiden Feldern das Kürzel aus den jeweiligen Unterverzeichnissen sein. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
-### Berufsfelder
+#### Berufsfelder
 
 ````
 Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Beschaeftigungsarten
+#### Beschaeftigungsarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Beschaeftigungsverh
+#### Beschaeftigungsverh
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Besoldungen
+#### Besoldungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### BetreuungenAusserschulisch
+#### BetreuungenAusserschulisch
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### BetreuungenInnerschulisch
+#### BetreuungenInnerschulisch
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Betreuungsformen
+#### Betreuungsformen
 
 ````
 Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Bevollmaechtigungen
+#### Bevollmaechtigungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Bewerbungsempfehlungen
+#### Bewerbungsempfehlungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Bewerbungsziele
+#### Bewerbungsziele
 
 ````
 Kuerzel;Schluessel;Bezeichnung;Bezeichnung2;GueltigVon;GueltigBis
 ````
 
-### Bildungsgaenge
+#### Bildungsgaenge
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Bezeichnung2";"Berufsfeld";"Schulform";"Organisation";"Unterrichtsform";"Fachrichtung";"Schwerpunkt";"Klassenstufe";"GueltigVon";"GueltigBis"
@@ -180,61 +197,61 @@ Kuerzel;Schluessel;Bezeichnung;Bezeichnung2;GueltigVon;GueltigBis
 
     Die Felder `Fachrichtung`, `Berufsfeld`, `Schulform`, `Organisation`, `Unterrichtsform`, `Klassenstufe` und `Schwerpunkt` sind weitere Schlüsselverzeichnisse, die im gleichen Durchlauf (wenn sie importierbar sind) oder vorher eingelesen/angelegt werden müssen. Der Wert im Verzeichnis Bildungsgaenge muss als Kürzel in dem Verzeichnis existieren. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
-### Branchen
+#### Branchen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## D
+### D
 
-### Dienstbez
-
-````
-"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
-````
-
-### Dienstherren
+#### Dienstbez
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Dienstverh
+#### Dienstherren
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Disziplinen
+#### Dienstverh
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## E 
-
-### Einschulmerkmale
+#### Disziplinen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Empfehlungen
+### E 
+
+#### Einschulmerkmale
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Entscheidungen
+#### Empfehlungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## F
+#### Entscheidungen
 
-### Faecher
+````
+"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
+````
+
+### F
+
+#### Faecher
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Kategorie";"Aufgabenbereich";"Gruppe";"GueltigVon";"GueltigBis"
@@ -285,85 +302,85 @@ Wert|Aufgabenbereich
 
     Gruppe: Die Fachgruppe (hier Gruppe) ist ein weiteres Schlüsselverzeichnis, das im gleichen Durchlauf oder vorher eingelesen werden muss. Der Wert im Verzeichnis Faecher muss in diesem Feld dem Kürzel aus dem Verzeichnis Fachgruppe entsprechen. Ein nachträgliches Zuweisen per Import ist nicht möglich.
 
-### Fachgruppen
+#### Fachgruppen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Fachniveaus
+#### Fachniveaus
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Fachrichtungen
+#### Fachrichtungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Fachschwerpunkte
+#### Fachschwerpunkte
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Fachstati
+#### Fachstati
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Fahrkarten
+#### Fahrkarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Foerderungen
+#### Foerderungen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## H
+### H
 
-### Haertefaelle
+#### Haertefaelle
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Herkunftsarten
+#### Herkunftsarten
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
-### Herkunftsunterlagen
+#### Herkunftsunterlagen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
-## I
+### I
 
-### Integrationsmerkmale
+#### Integrationsmerkmale
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis";"BedeutungVeraendert"
 ````
 
-## K
+### K
 
-### Kammern
+#### Kammern
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Klassenmerkmale
+#### Klassenmerkmale
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"Bereich";"GueltigVon";"GueltigBis"
@@ -382,60 +399,70 @@ Bereichswert|Für Feld
 8 | Merkmal S3
 9 | Merkmal S4
 
-### Klassenorganisationen
+#### Klassenorganisationen
 
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Klassenstufen
+#### Klassenstufen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Konfessionen
+#### Konfessionen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## L
+### L
 
-### Lehraemter
+#### Lehraemter
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerFehlgruende
+#### LehrerFehlgruende
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerAusbildung
+#### LehrerAusbildung
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerAusbildungen
+#### LehrerAusbildungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerFunktionen
+#### LehrerFunktionen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerAbgaenge
+#### LehrerAbgaenge
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### LehrerPruefungsbezuege
+#### LehrerPruefungsbezuege
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Lehrermerkmale
+#### Lehrermerkmale
+
 ````
 "Mandant";"Bereich";"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
@@ -453,14 +480,16 @@ Bereichswert|für Feld
 8 | Merkmal S3
 9 | Merkmal S4
 
-### LehrerZugaenge
+#### LehrerZugaenge
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## M
+### M
 
-### MandantenMerkmale
+#### MandantenMerkmale
+
 ````
 "Mandant";"Bereich";"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
@@ -474,19 +503,22 @@ Bereichswert|für Feld
 4 | Merkmal A5
 5 | Merkmal A6
 
-### Muttersprachen
+#### Muttersprachen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## N
+### N
 
-### Nachpruefungen
+#### Nachpruefungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Noten
+#### Noten
+
 ````
 "Notenkuerzel";"Notenwert";"Notenart";"Bezeichnung";"AlternativBez";"GueltigVon";"GueltigBis"
 ````
@@ -496,65 +528,76 @@ Eintrag|Notenart
 1 | Punktwert
 2 | Füllwert
 
-## O
+### O
 
-### Organisationen
+#### Organisationen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## Q
+### Q
 
-### Qualifikationsniveaus
+#### Qualifikationsniveaus
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## R
+### R
 
-### Raeume
+#### Raeume
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung“
 ````
 
-### RelTeilnahmen
+#### RelTeilnahmen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### RelGruende
+#### RelGruende
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### RelWuensche
+#### RelWuensche
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## S
+### S
 
-### SchuelerFunktionen
+#### SchuelerFunktionen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SopaedFoerderungen
+#### SopaedFoerderungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchuelerProfile
+#### SchuelerProfile
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SorgebeFunktionen
+#### SorgebeFunktionen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchulenMerkmale
+#### SchulenMerkmale
+
 ````
 "Mandant";"Bereich";"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
@@ -568,22 +611,26 @@ Bereichswert|für Feld
 4 | Merkmal A5
 5 | Merkmal A6
 
-### SchuelerArten
+#### SchuelerArten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schularten
+#### Schularten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchulartenHerkunft
+#### SchulartenHerkunft
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchuelerMerkmale
+#### SchuelerMerkmale
+
 ````
 "Mandant";"Bereich";"Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
@@ -607,118 +654,140 @@ Bereichswert|für Feld
 14 | Merkmal S9
 15 | Merkmal S10
 
-### Schulformen
+#### Schulformen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchulformenHerkunft
+#### SchulformenHerkunft
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### SchulformenUebergang
+#### SchulformenUebergang
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schulstati
+#### Schulstati
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schulstellen
+#### Schulstellen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schultraeger
+#### Schultraeger
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schulzweige
+#### Schulzweige
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Schwerpunkte
+#### Schwerpunkte
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Sprachgruppen
+#### Sprachgruppen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Sprachreferenzen
+#### Sprachreferenzen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Staatsangehoerigkeiten
+#### Staatsangehoerigkeiten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## U
+### U
 
-### Uebergangsarten
+#### Uebergangsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Umschulungsmerkmale
+#### Umschulungsmerkmale
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
 ### Unterrichtsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Unterrichtsformen
+#### Unterrichtsformen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Unterstuetzungen
+#### Unterstuetzungen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## V
+### V
 
-### Verkehrsmittel
+#### Verkehrsmittel
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Versetzungsarten
+#### Versetzungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Versicherungsarten
+#### Versicherungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Vertragsarten
+#### Vertragsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-## W
+### W
 
-### Wiederholungsarten
+#### Wiederholungsarten
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
 
-### Wohnformen
+#### Wohnformen
+
 ````
 "Kuerzel";"Schluessel";"Bezeichnung";"GueltigVon";"GueltigBis"
 ````
