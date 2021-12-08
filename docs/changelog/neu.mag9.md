@@ -10,6 +10,7 @@
 [8]:/assets/images/neues/908.png
 [9]:/assets/images/neues/909.png
 [10]:/assets/images/neues/910.png
+[11]:/assets/images/neues/911.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -106,9 +107,33 @@ Das Benachrichtigungssystem für den Export ist komplett überarbeitet. Es gibt 
 
 #### SAXSVS
 
-* Alle Schülermeldungen wurden um die Ausgabe der Klasse erweitert.
-* Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` und `<av_bbs_schart>` integriert. Sind die zugehörigen Felder nicht gefüllt, wird eine Warnung ausgegeben.
-* `<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
+##### Meldungen um Klasse erweitert
+
+Alle Schülermeldungen wurden um die Ausgabe der Klasse erweitert.
+
+##### Prüfung für `<av_abs_schart>` und `<av_bbs_schart>`
+
+Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` und `<av_bbs_schart>` integriert. Sind die zugehörigen Felder nicht gefüllt, wird eine Warnung ausgegeben.
+
+##### Verhältnisse der Sorgeberechtigten
+
+`<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
+
+##### Fremdsprachen
+
+Unter `Schüler > Daten3 > Fremdsprachen` gibt es das neue Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Dieses Feld kann auch per Sammelzuweisung belegt werden. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt 1. Halbjahr oder 2. Halbjahr) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
+Beispiele:
+
+Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
+--|--|--
+1.Halbjahr oder 2. Halbjahr| `Leer`|leer
+1.Halbjahr|`2.Halbjahr`|leer
+21.Halbjahr|`1.Halbjahr`|leer
+1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
+2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
+
+
+[![Kontrollübersicht Klassen][11]][11]
 
 ## MyMAGELLAN
 
