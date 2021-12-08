@@ -11,6 +11,7 @@
 [9]:/assets/images/neues/909.png
 [10]:/assets/images/neues/910.png
 [11]:/assets/images/neues/911.png
+[12]:/assets/images/neues/912.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -159,7 +160,14 @@ Die Anleitung hierfür finden Sie unter: [https://doc.magellan.stueber.de/schulv
 
 [![Aufruf][8]][8]
 
+Wählen Sie ob die Passbilder, die Fachdaten oder der Schülerdatensatz gelöscht werden sollen. Geben Sie eine Monatsanzahl ein, es werden die zum Löschen zu betrachtenden Zeiträume gezeigt.
+
 [![Assistent][9]][9]
+
+Der Assistent listet Ihnen die Schülerdatensätze auf, für die das Löschen durchgeführt wird. Bevor das Löschen erfolgt, wird eine Sicherung der Datenbank erstellt und es wird parallel zur Datenbanksicherung auch eine Excelliste mit den Schülerdatensätzen zur Nachkontrolle erzeugt. Die Ablagestelle für die Sicherung der Datenbank und die Protokolllisten ergeben sich aus Ihren Eintragungen in der Verbindung zur Datenbank.
+
+
+[![Aufruf][12]][12]
 
 ### Mandant vorbelegt
 
