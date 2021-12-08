@@ -117,7 +117,7 @@ Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` 
 
 ##### Verhältnisse der Sorgeberechtigten
 
-`<sorgeberechtigter><as_beziehung>`: Wenn für den Schülern die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
+`<sorgeberechtigter><as_beziehung>`: Wenn den Sorgeberechtigten der Schüler (`Schüler > Daten1 > Familie`) die Verhältnisse `Eltern`, `Erziehungsberechtigte(r)` oder `Sorgeberechtigte(r)` zugewiesen wurden und den Sorgeberechtigten das Geschlecht (weiblich/männlich) zugeordnet wurden, wird das Verhältnis als Mutter (20) oder Vater (10) ausgespielt. Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte](https://doc.ls.stueber.de/sachsen/export_saxsvs/#sorgeberechtigte).
 
 ##### Fremdsprachen
 
