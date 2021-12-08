@@ -8,7 +8,7 @@ Nachstehend finden Sie eine Übersicht: Welche Felder Sie aus welcher Maske in d
 
 !!! info "Hinweis"
 
-    Bei einigen Feldern wird auf ein Infofenster verwiesen. Dieses Fenster kann im Schülermenü über <kbd>STRG</kbd> + <kbd>I</kbd> aufgerufen werden und es enthält Informationen aus dem Menü `Klassen`, von der Ausbildungskarte oder aus der Bewerbungsphase des Schülers. Weitere Informationen über dieses neue Fenster finden Sie im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen)!
+    Bei einigen Feldern wird auf ein Infofenster verwiesen. Dieses Fenster kann im Schülermenü über <kbd>STRG</kbd> + <kbd>I</kbd> aufgerufen werden und es enthält Informationen aus dem Menü `Klassen`, von der Ausbildungskarte oder aus der Bewerbungsphase des Schülers. Weitere Informationen über dieses neue Fenster finden Sie im Abschnitt [https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#weitere-informationen)!
 
 Feld| zu finden unter:
 --|--

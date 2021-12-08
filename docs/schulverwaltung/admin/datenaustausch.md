@@ -48,7 +48,7 @@ Es können entweder alle keys-Dateien (AS_xxx und 00_xxx oder BS_xxx und 00_xxx 
 
 !!! info "Hinweis"
 
-    Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan7.stueber.de/schulverwaltung/reference/keys-dateien).
+    Den Aufbau der einzelnen Importdatei beschreiben wir im Abschnitt [Referenz > keys-Dateien](https://doc.magellan.stueber.de/schulverwaltung/reference/keys-dateien).
 
 Jede dieser Dateien muss als CSV-Datei aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und
 ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch

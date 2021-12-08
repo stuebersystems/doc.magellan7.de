@@ -7,7 +7,7 @@
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für MAGELLAN 7 anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+    Wenn Sie bereits MAGELLAN einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für MAGELLAN 7 anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
 
 Diesen Installationstyp wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen (zum Beispiel um MAGELLAN zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
 
@@ -152,4 +152,4 @@ Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. 
 
 !!! info "Hinweis"
 
-    Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.fdb) und eine Beispieldatenbank (MAGELLAN7_Beispiel.fdb). Wenn Sie MAGELLAN gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.fdb. Eine Anleitung zur Datenübernahme von MAGELLAN 6 nach MAGELLAN 7 finden Sie im Abschnitt ["Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen"](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/).
+    Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.fdb) und eine Beispieldatenbank (MAGELLAN7_Beispiel.fdb). Wenn Sie MAGELLAN gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.fdb. Eine Anleitung zur Datenübernahme von MAGELLAN 6 nach MAGELLAN 7 finden Sie im Abschnitt ["Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen"](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/).

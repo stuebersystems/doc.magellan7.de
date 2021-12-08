@@ -43,7 +43,7 @@ Schutz der Dateiinhalte| Bis Ausgabe 7.1.8: <br/>Die Daten werden in einer nicht
 
 |In den nachfolgenden Kapiteln beschreiben wir die Vorgehensweise:|
 |:--|
-|[Verteilen](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/)|
-| [Organisation](https://doc.magellan7.stueber.de/mymagellancenter/organisation/)|
-| [Importlogik](https://doc.magellan7.stueber.de/mymagellancenter/importlogik/)|
-| [Einsammeln](https://doc.magellan7.stueber.de/mymagellancenter/einsammeln/)|
+|[Verteilen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/)|
+| [Organisation](https://doc.magellan.stueber.de/mymagellancenter/organisation/)|
+| [Importlogik](https://doc.magellan.stueber.de/mymagellancenter/importlogik/)|
+| [Einsammeln](https://doc.magellan.stueber.de/mymagellancenter/einsammeln/)|

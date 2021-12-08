@@ -85,7 +85,7 @@ Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
@@ -94,7 +94,7 @@ Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt
 !!! warning "Wichtig"
 
     Bei der Umstellung gehen bisherige Opac-Server verloren und müssen neu eingetragen werden. 
-    Eine Anleitung finden Sie [hier](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
+    Eine Anleitung finden Sie [hier](https://doc.magellan.stueber.de/bibliothek/tutorial/opac/).
 
 * CHANGE: Erneute Zuweisung der `SchuelerZeitraumID` in der Tabelle `SchuelerZeugnisbemerkungen`
 * FIX: Korrektur der Importparameter für gespeicherte Prozeduren (zum Beispiel Kopieren der Fachwahltafeln)
@@ -138,7 +138,7 @@ Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt
 
 ### MAGELLAN Bibliothek
 
-* CHANGE: Die Opac-Funktionalität wurde überarbeitet, bitte beachten Sie die aktualisierte Anleitung unter [https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/](https://doc.magellan7.stueber.de/bibliothek/tutorial/opac/).
+* CHANGE: Die Opac-Funktionalität wurde überarbeitet, bitte beachten Sie die aktualisierte Anleitung unter [https://doc.magellan.stueber.de/bibliothek/tutorial/opac/](https://doc.magellan.stueber.de/bibliothek/tutorial/opac/).
 
 ### Skripte
 
@@ -207,7 +207,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Unter `Schüler > Zeugnis > Fächer und Leistungen` wurde für den Export nach Excel die Bezeichnung "nach Excel exportieren" ergänzend eingeblendet.
 * CHANGE: Schlüsselspalte in der Dropdown-Liste unter `Schüler > Daten3 > Fremdsprachen` ergänzt.
 * CHANGE: Das Fenster "Unfallanzeige" wurde überarbeitet.
-* CHANGE: [NRW] Der Export von Daten für SchülerOnline steht zur Verfügung. Bitte beachten Sie die Anleitung unter: [https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/](https://doc.magellan7.stueber.de/schulverwaltung/regionales/nrw/schueleronline/)  
+* CHANGE: [NRW] Der Export von Daten für SchülerOnline steht zur Verfügung. Bitte beachten Sie die Anleitung unter: [https://doc.magellan.stueber.de/schulverwaltung/regionales/nrw/schueleronline/](https://doc.magellan.stueber.de/schulverwaltung/regionales/nrw/schueleronline/)  
 * CHANGE: Die Berliner Landesstatistiken (Abiturdatenstatistik, Schülerdatenstatistk) und der CSV-Datenexport wurden nach MAGELLAN 7 übernommen.
 
 * FIX: Notenfilter unter `Schüler > Zeugnis > Leistungen` korrigiert
@@ -263,13 +263,13 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### MAGELLAN
 
 * NEW: In allen mit Schlüsselverzeichnissen hinterlegten Eingabefeldern (mit eingeblendeter Bezeichnung) wird hinter der Bezeichnung eine Klammer gezeigt. In der Klammer wird der Wert aus der Spalte Schlüssel gezeigt. Ist im Schlüssel kein Wert enthalten, wird stattdessen ein Strich "(-)" gezeigt. Damit können Sie auch ohne direkt im jeweiligen Schlüsselverzeichnis nachzusehen erkennen, ob ein Schlüsselwert und ob der korrekte Schlüsselwert für ggfs. statistische Auswertungen hinterlegt wurde.
 * NEW: Für die Sammelzuzweisung unter `Schüler > Laufbahn > Allgemein und Abschluss` wurden zur einfacheren Auswahl der Schüler die Spalten `Beruf` und `Bildungsgang` eingeblendet.
-* NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Weitere Informationen`, über `STRG+I` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung. Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#fenster-weitere-informationen)!
+* NEW: Neues Fenster mit Zusatzinformationen unter `Schüler > Schüler > Weitere Informationen`, über `STRG+I` oder über das schwarze Infosymbol aufrufbar! Dieses Fenster (aus jeder Unterkarte im Menü `Schüler` aufrufbar, auch in der Auswahlliste) enthält Informationen aus der Bewerbungsphase, über die aktuell besuchte Klasse und über die Ausbildung. Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#fenster-weitere-informationen)!
 * NEW: Beim Synchronisieren der Schülerfachdaten ins Modul `Berufsschule` werden nur die Daten übertragen, die zur im gewählten Halbjahr aktuellen Ausbildung gehören. Schülerfachdaten (also Fächer und Noten), die nicht für die aktuelle Ausbildung erworben wurden, werden nicht mit synchronisiert.
 * NEW: Layout aktualisiert
 * NEW: Icons vervollständigt
@@ -278,12 +278,12 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * CHANGE: SAXSVS: Für Sorgeberechtigte, die in der Schweiz wohnen, können Sie im Feld `Land` das Kürzel CH eingegeben, MAGELLAN übergibt diese Ausgabe dann als Schlüssel 158 in die Exportdatei.
 * CHANGE: Wird beim Schüler die Adresse geändert und für die Sorgeberechtigten soll die Änderung auch übernommen werden, wird auch die Gemeinde des Schülers für die Sorgeberechtigten übernommen.
-* CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden. Eine Übersicht, welches bislang nur für Berlin gezeigte Feld an welcher Stelle der Oberfläche zu finden ist, finden Sie im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/felder/](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/felder/).
+* CHANGE: Felder, die bislang nur in der Bundeslandauswahl Berlin sichtbar waren, sind in die Standardansichten integriert worden. Eine Übersicht, welches bislang nur für Berlin gezeigte Feld an welcher Stelle der Oberfläche zu finden ist, finden Sie im Abschnitt [https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/felder/](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/felder/).
 * CHANGE: Die Karte `Schüler > Statistik` ist zur Karte `Schüler > Merkmale` zusammengefasst worden.
 * CHANGE: `Modul MAGELLAN ABITUR` => Pro Halbjahr anlegbare Klassen auf 9 Klassen erhöht.
 * CHANGE: Filtern des Feldes `Status` in den Verzeichnisfeldern unter `Schüler > Daten2 > Höchster Abschluss ABS/BBS`  ergänzt.
 * CHANGE: Der Style sämtlicher Verzeichnisfelder unter `Schüler > Zeugnis > Fächer/Leistungen` wurde aktualisiert.
-* CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahnprozesse > Klassen übernehmen` aufrufbar.   Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan7.stueber.de/schulverwaltung/howto/schuljahreswechsel/#assistent-klassen-ubernehmen-erstellt-neue-klassen)!
+* CHANGE: Der Punkt `Schuljahreswechsel` ist vollständig überarbeitet worden und unter der Karte `Laufbahnprozesse > Klassen übernehmen` aufrufbar.   Bitte beachten Sie die aktualisierte [Dokumentation](https://doc.magellan.stueber.de/schulverwaltung/howto/schuljahreswechsel/#assistent-klassen-ubernehmen-erstellt-neue-klassen)!
 * CHANGE: CSV-Export für Berlin (Extras > Exporte > Export > Schüler (Berlin)) wurde überarbeitet
 
 * FIX: Leere Fehlermeldung  und Fensterbeschriftung beim Start des Updates direkt auch MAGELLAN heraus behoben.
@@ -347,7 +347,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstrukturänderung
 
@@ -378,7 +378,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: Beim Einschulen eines Vagabunden (kein Nebenschüler), wird die unter `Bewerber > Ausbildung > Ausbildung` gewählte aktuelle Ausbildung für den Schüler übernommen.
 * FIX: Der Postleitzahlautomatismus und das Speichern der Daten wurde für das Menü Betriebe überarbeitet.
-* FIX: Die Nutzung eines eigenen Unterverzeichnisses (Benutzer) als Quelle für den Schlüsselimport wurde überarbeitet. Bitte beachten Sie in unserer Dokumentation den Punkt [Eigene Kataloge importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer)!
+* FIX: Die Nutzung eines eigenen Unterverzeichnisses (Benutzer) als Quelle für den Schlüsselimport wurde überarbeitet. Bitte beachten Sie in unserer Dokumentation den Punkt [Eigene Kataloge importieren](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch/#eigene-kataloge-importieren-benutzer)!
 
 ### MAGELLAN Bibliothek
 
@@ -516,7 +516,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstrukturänderung
 
@@ -598,7 +598,7 @@ Für folgende Berichte wurde die Verknüpfung zwischen SchuelerZeitraeume und Sc
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### MAGELLAN
 
@@ -649,7 +649,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 
 !!! warning "Wichtig"
@@ -976,7 +976,7 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von MAGELLAN 7 angep
 ### MyMAGELLAN
 
 * NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMAGELLAN. 
-  * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/).
+  * Das MyMAGELLAN CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMAGELLAN CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMAGELLAN CENTERs finden Sie [hier](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/).
   * Die Dokumentation des Eingabemoduls MyMAGELLAN (aus Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
 
 ### MAGELLAN Administrator
@@ -1196,9 +1196,9 @@ FIX: Die ausführliche Anzeige wurde korrigiert für `Bewerber/Schüler > Daten 
 
 ### MAGELLAN Administrator
 
-* NEW: Unter `Datenbankpflege` wurden die Funktionen  `Anrede setzen` und  `Passfoto löschen`ergänzt. Alle Aktionen werden in der [Dokumentation im Abschnitt Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/) beschrieben.
+* NEW: Unter `Datenbankpflege` wurden die Funktionen  `Anrede setzen` und  `Passfoto löschen`ergänzt. Alle Aktionen werden in der [Dokumentation im Abschnitt Datenbankpflege](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/) beschrieben.
 * FIX: Duplizieren von Benutzern angepasst
-* NEW: Neue Funktionalität unter `Datenpflege`. Es können die Einträge im Feld IDIntern geleert werden, wenn der Stammschüler, auf den verwiesen wird nicht mehr existiert. Diese Situation kann in MAGELLAN 7 nicht mehr entstehen, kann aber aus MAGELLAN 6 mit übernommen worden sein. Bitte beachten Sie den Abschnitt [Verwaiste Stammschüler-Verweise entfernen](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#verwaiste-stammsch%C3%BCler-verweise-entfernen)!
+* NEW: Neue Funktionalität unter `Datenpflege`. Es können die Einträge im Feld IDIntern geleert werden, wenn der Stammschüler, auf den verwiesen wird nicht mehr existiert. Diese Situation kann in MAGELLAN 7 nicht mehr entstehen, kann aber aus MAGELLAN 6 mit übernommen worden sein. Bitte beachten Sie den Abschnitt [Verwaiste Stammschüler-Verweise entfernen](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#verwaiste-stammsch%C3%BCler-verweise-entfernen)!
 
 ### MAGELLAN Bibliothek
 
@@ -1442,7 +1442,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden!  
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update/).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan.stueber.de/schulverwaltung/update/probleme-beim-update/).
 
 
 ### MAGELLAN
@@ -1493,7 +1493,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
 
-* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
+* CHANGE: SAC: Die mitgelieferten Zeugnisse für Sachsen wurden den neuen Gegebenheiten in MAGELLAN 7 angepasst. Zur Anpassung Ihrer eigenen Berichte lesen Sie bitte den Abschnitt <a href="https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/" target="_blank">Berichte für MAGELLAN 7 anpassen</a> in unserer Knowledge Base.
 
 ---
 
@@ -1504,7 +1504,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 !!! info "Hinweis"
 
   Die Datenstruktur von MAGELLAN ist erweitert worden! 
-  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan7.stueber.de/schulverwaltung/update/probleme-beim-update/).
+  Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Eine genaue Anleitung zum Serviceupdate finden Sie [**hier**](https://doc.magellan.stueber.de/schulverwaltung/update/). Sollten Probleme auftreten, schauen Sie bitte [**hier**](https://doc.magellan.stueber.de/schulverwaltung/update/probleme-beim-update/).
 
 ### MAGELLAN
 

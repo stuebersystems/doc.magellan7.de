@@ -12,7 +12,7 @@ Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in MAG
 
 | Art| Vorgehen|
 | -- | -- |
-| Mit Bewerberaufnahme  | Der neue Schüler wird zunächst als Bewerberim Menü `Bewerber` aufgenommen. Im Rahmen eines Bewerberverfahrens wird der Bewerber dann als Schüler übernommen. Bitte lesen Sie dazu das gesonderte Kapitel [Bewerber](https://doc.magellan7.stueber.de/schulverwaltung/howto/bewerber/) |
+| Mit Bewerberaufnahme  | Der neue Schüler wird zunächst als Bewerberim Menü `Bewerber` aufgenommen. Im Rahmen eines Bewerberverfahrens wird der Bewerber dann als Schüler übernommen. Bitte lesen Sie dazu das gesonderte Kapitel [Bewerber](https://doc.magellan.stueber.de/schulverwaltung/howto/bewerber/) |
 | Ohne Bewerberaufnahme | Wenn Sie einen neuen Schüler anlegen möchten, von dem Sie sicher wissen, dass er Schüler Ihrer Schule wird, legen Sie ihn bitte direkt im Menü `Schüler` an.|
 
 ## Neuen Schüler aufnehmen
@@ -49,7 +49,7 @@ Im Unterschied zur Registerkarte `Daten 1` des Bewerbers, findet man beim Schül
 
 ## Bereich Familie
 
-Die Funktionalitäten sind gleich denen unter `Bewerber > Daten1 > Familie`, bitte lesen Sie [hier](https://doc.magellan7.stueber.de/schulverwaltung/howto/bewerber/#familie) weiter.
+Die Funktionalitäten sind gleich denen unter `Bewerber > Daten1 > Familie`, bitte lesen Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/bewerber/#familie) weiter.
 
 ### Fenster "Weitere Informationen"
 
@@ -153,7 +153,7 @@ Sonstige Daten, die Sie auf dieser Registerkarte erfassen können, sind die Vers
 
 ## Registerkarte `Merkmale`
 
-Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder/) beschrieben.
+Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https://doc.magellan.stueber.de/schulverwaltung/howto/merkmalsfelder/) beschrieben.
 
 !!! info "Hinweis"
 
@@ -235,7 +235,7 @@ Nachdem Sie die Daten der neuen Schüler erfasst haben, müssen Sie diese einer 
 | 1.  Klicken Sie auf `Laufbahnprozesse` und dann auf `Schüler einschulen`. Es erscheint der Assistent `Schüler einschulen`. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.  |
 | 2. Unter Schüler auswählen werden alle Schüler aufgelistet, die noch nicht eingeschult worden sind.|
 |**Abbildung** <img src=/assets/images/schueler/schueler_34einschulen.png>|
-| 3.  Schüler werden klassenweise eingeschult. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten ([Sortieren, Gruppieren, Filtern und Suchen](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/)). Haben Sie z.B. ein Einschulungskriterium vergeben, können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen. Markieren Sie die Schüler, die Sie z.B. der Klasse 5a zuweisen möchten und klicken Sie auf `Weiter`. |
+| 3.  Schüler werden klassenweise eingeschult. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten ([Sortieren, Gruppieren, Filtern und Suchen](https://doc.magellan.stueber.de/schulverwaltung/howto/sort-group-filter-search/)). Haben Sie z.B. ein Einschulungskriterium vergeben, können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen. Markieren Sie die Schüler, die Sie z.B. der Klasse 5a zuweisen möchten und klicken Sie auf `Weiter`. |
 | 4. Unter `Klassen auswählen` werden die Klassen angezeigt, die Sie für das neue Schuljahr angelegt haben. Wählen Sie die Klasse aus, in die Sie die markierten Schüler einschulen möchten, indem Sie einmal auf die Klasse klicken.|
 |**Abbildung** <img src=/assets/images/schueler/schueler_35einschulen2.png> |
 | 5. Markieren Sie die gewünschte Klasse, in welche die zuvor markierten Schüler eingeschult werden sollen und klicken Sie dann auf `Weiter`.   |

@@ -20,7 +20,7 @@ Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. 
 
 !!! danger "Achtung"
 
-	Wenn Sie beginnen mit MAGELLAN zu arbeiten sollten Sie wie vorstehend beschrieben neue Klassen anlegen. Wenn Sie allerdings bereits Klassendaten eingepflegt haben, können Sie diese Klassen als neue Klassen kopieren lassen. Damit sparen Sie Zeit und es können auch keine beispielsweise statistikrelevanten Eintragungen übersehen werden. Bitte lesen hierfür den Abschnitt [Assistent Klassen übernehmen](https://doc.magellan7.stueber.de/schulverwaltung/howto/classes/#assistent-klassen-ubernehmen)!
+	Wenn Sie beginnen mit MAGELLAN zu arbeiten sollten Sie wie vorstehend beschrieben neue Klassen anlegen. Wenn Sie allerdings bereits Klassendaten eingepflegt haben, können Sie diese Klassen als neue Klassen kopieren lassen. Damit sparen Sie Zeit und es können auch keine beispielsweise statistikrelevanten Eintragungen übersehen werden. Bitte lesen hierfür den Abschnitt [Assistent Klassen übernehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/classes/#assistent-klassen-ubernehmen)!
 
 ## Registerkarte „Daten“
 

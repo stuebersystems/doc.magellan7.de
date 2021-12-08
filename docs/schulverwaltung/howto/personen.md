@@ -55,6 +55,6 @@ Auf der Registerkarte `Kontakte` können Sie ein oder mehrere Kontakte zu dieser
 
 ### Unfallkasse Empfänger
 
- Unter `Adressen > Daten` gibt es das Häkchen für "Unfallkasse Empfänger". Setzen Sie den Haken bitte bei der für Ihre Unfallmeldung zuständigen Unfallkasse. Die so markierte Adresse wird in der Funktion [`Unfallanzeige`](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#unfallanzeigen-erstellen-und-verwalten) mit ausgegeben.
+ Unter `Adressen > Daten` gibt es das Häkchen für "Unfallkasse Empfänger". Setzen Sie den Haken bitte bei der für Ihre Unfallmeldung zuständigen Unfallkasse. Die so markierte Adresse wird in der Funktion [`Unfallanzeige`](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#unfallanzeigen-erstellen-und-verwalten) mit ausgegeben.
 
  ![Markieren Sie mit dem Häkchen die Adresse Ihrer Unfallkasse](/assets/images/personen/p03.png) 

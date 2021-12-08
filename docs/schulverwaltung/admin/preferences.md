@@ -4,7 +4,7 @@ In MAGELLAN können Sie einige Einstellungen vornehmen. Klicken Sie auf `Datenba
 
 !!! info "Hinweis"
 
-	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei).
+	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
 
 ## Start
 
@@ -52,7 +52,7 @@ Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht
 
 ## Bewerberverfahren
 
-Wählen Sie hier die gewünschten Einstellungen für Ihr Bewerberverfahren. Bitte lesen Sie hierzu den Abschnitt [„Bewerberverfahren durchführen“](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#bewerberverfahren-durchf%C3%BChren).
+Wählen Sie hier die gewünschten Einstellungen für Ihr Bewerberverfahren. Bitte lesen Sie hierzu den Abschnitt [„Bewerberverfahren durchführen“](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#bewerberverfahren-durchf%C3%BChren).
 
 ![Unterkarte Bewerberverfahren](/assets/images/optionen_bewerberverfahren.png)
 
@@ -76,7 +76,7 @@ Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro
 
 ## Update
 
-Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan7.stueber.de/schulverwaltung/update).
+Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan.stueber.de/schulverwaltung/update).
 
 ![Unterkarte Update](/assets/images/optionen_update.png)
 
@@ -176,7 +176,7 @@ Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewä
 
 !!! info "Hinweis"
 
-	Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten).
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Kurznachrichten](https://doc.magellan.stueber.de/schulverwaltung/howto/kurznachrichten).
 
 
 
@@ -195,7 +195,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 !!! info "Hinweis"
 
-	Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan7.stueber.de/schulverwaltung/howto/kurznachrichten).
+	Eine ausführlichere Anleitung für das Versenden finden Sie im [Abschnitt "Kurznachrichten"](https://doc.magellan.stueber.de/schulverwaltung/howto/kurznachrichten).
 
 
 
@@ -203,7 +203,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
 
-Eine ausführliche Beschreibung finden Sie im Abschnitt [Administration > Mehrmandantenlösungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/mehrmandantenloesung).
+Eine ausführliche Beschreibung finden Sie im Abschnitt [Administration > Mehrmandantenlösungen](https://doc.magellan.stueber.de/schulverwaltung/admin/mehrmandantenloesung).
 
 ## ENBREA
 

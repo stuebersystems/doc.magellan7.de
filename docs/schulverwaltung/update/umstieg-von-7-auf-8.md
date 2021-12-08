@@ -17,13 +17,13 @@ Auf Ihrem **Serverrechner** stellen Sie bitte sicher, dass jeweils die aktuellst
 
 Programm|Version auslesen
 --|--
-MAGELLAN-Version|Die bei Ihnen eingesetzte Ausgabe von MAGELLAN wird im Programm unter `Hilfe > Info über` gezeigt, die aktuell verfügbare Version können Sie in der [Changelog-Datei](https://doc.magellan7.stueber.de/changelog/changelog/) sehen.
+MAGELLAN-Version|Die bei Ihnen eingesetzte Ausgabe von MAGELLAN wird im Programm unter `Hilfe > Info über` gezeigt, die aktuell verfügbare Version können Sie in der [Changelog-Datei](https://doc.magellan.stueber.de/changelog/changelog/) sehen.
 Firebird| Auf Ihrem Serverrechner unter `Systemsteuerung > Firebird Server Manager (323 Bit)` wird die Version gezeigt. Sie sollte mit der Version unter [https://magellan.stueber.de/download.php](https://magellan.stueber.de/download.php) gezeigten Version (aktuell 2.5.9) übereinstimmen.
 
 Wenn es hier Abweichungen gibt, aktualisieren Sie bitte im ersten Schritt MAGELLAN und ggfs. Firebird auf Ihrem Serverrechner, Anleitungen finden Sie unter:
 
-* [MAGELLAN-Updateanleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/)
-* [Firebird-Updateanleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/firebird-aktualisieren/)
+* [MAGELLAN-Updateanleitung](https://doc.magellan.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/)
+* [Firebird-Updateanleitung](https://doc.magellan.stueber.de/schulverwaltung/update/firebird-aktualisieren/)
 
 ## MAGELLAN 8 installieren und lizenzieren
 
@@ -33,7 +33,7 @@ Installieren Sie MAGELLAN 8 auf Ihrem Serverrechner und auf den Clientrechnern.
 
     MAGELLAN 7 stört dabei nicht, sollte aber nicht dauerhaft auf den Rechnern bleiben, um versehentliche Dateneingaben im verkehrten Programm vorzubeugen - beide Programmversionen arbeiten auf verschiedenen Datenbanken.
 
-Folgen Sie unseren Anleitungen für die Einrichtung und Lizenzierung des [Servers](https://doc.magellan7.stueber.de/schulverwaltung/installation/version8/server.installieren/) und der [Clients](https://doc.magellan7.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/).
+Folgen Sie unseren Anleitungen für die Einrichtung und Lizenzierung des [Servers](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/server.installieren/) und der [Clients](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/).
 
 !!! warning "Wichtig"
 

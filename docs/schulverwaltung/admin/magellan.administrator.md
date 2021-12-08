@@ -3,12 +3,12 @@
 
 Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den ADMINISTRATOR:
 
-* [MAGELLAN ADMINISTRATOR](https://doc.magellan7.stueber.de/schulverwaltung/admin/magellan.administrator)
- * [Datenbankverbindungen](https://doc.magellan7.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
- * [Benutzerverwaltung](https://doc.magellan7.stueber.de/schulverwaltung/admin/users)
- * [Datenbankpflege](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege)
- * [Datenaustausch](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch)
- * [Logbuch](https://doc.magellan7.stueber.de/schulverwaltung/admin/logbuch)
+* [MAGELLAN ADMINISTRATOR](https://doc.magellan.stueber.de/schulverwaltung/admin/magellan.administrator)
+ * [Datenbankverbindungen](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
+ * [Benutzerverwaltung](https://doc.magellan.stueber.de/schulverwaltung/admin/users)
+ * [Datenbankpflege](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege)
+ * [Datenaustausch](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch)
+ * [Logbuch](https://doc.magellan.stueber.de/schulverwaltung/admin/logbuch)
 
 ## Start
 
@@ -42,7 +42,7 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 Sie gelangen hier zu den folgenden Dokumentationen:
 
-* [MAGELLAN Handbuch](https://doc.magellan7.stueber.de/schulverwaltung/installation/)
+* [MAGELLAN Handbuch](https://doc.magellan.stueber.de/schulverwaltung/installation/)
 * [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
 * [MAGELLAN Landesstatistiken](https://doc.la.stueber.de/)
 

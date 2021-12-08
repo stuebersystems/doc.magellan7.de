@@ -65,4 +65,4 @@ Ergebnis|Ergebnis|In diesem Feld erhalten Sie eine Rückmeldung über gewählte 
 
 ## Einbinden der Sicherung in den Windows Taskplaner
 
-Sie können eine Datensicherung auch außerhalb des MAGELLAN-ADMINISTRATORs nur mit den Möglichkeiten von Firebird erstellen und mit in den Taskplaner des Serverrechners einbinden. Bitte folgen Sie hierfür den Hinweisen unter [https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task/](https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task/)!
+Sie können eine Datensicherung auch außerhalb des MAGELLAN-ADMINISTRATORs nur mit den Möglichkeiten von Firebird erstellen und mit in den Taskplaner des Serverrechners einbinden. Bitte folgen Sie hierfür den Hinweisen unter [https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung.windows.task/](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung.windows.task/)!

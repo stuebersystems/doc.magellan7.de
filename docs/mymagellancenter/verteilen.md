@@ -64,7 +64,7 @@ Die Datei kann mit einem Passwort belegt werden, das beim Öffnen der Datei eing
 
 ![gesondertes MyMAGELLAN-Passwort](/assets/images/mymagellan/06.png)
 
-3. Sie vergeben ein Passwort für mehrere Dateien, [diese Möglichkeit wird später beim Erstellen der Dateien angeboten](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#karte-sicherheit-festlegen).
+3. Sie vergeben ein Passwort für mehrere Dateien, [diese Möglichkeit wird später beim Erstellen der Dateien angeboten](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#karte-sicherheit-festlegen).
 4. Sie verwenden den nachstehend beschriebenen Export und Import von Benutzereinstellungen um somit mehren Benutzern gleichzeitig ein Dateipasswort zuzuweisen.
 
 ### Benutzereinstellungen exportieren und importieren
@@ -171,9 +171,9 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 
 5. Wählen Sie aus, aus für welche Rolle oder Rollen Schüler und deren Fachdaten exportiert werden sollen. Bitte beachten Sie hierzu die Abschnitte:
 
-* [Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#zuordnung-der-myMAGELLAN-teilnehmer-zu-den-sch%C3%BClern)
-* [Organisation des zeitlichen Ablaufs](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#organisation-des-zeitlichen-ablaufs)
-* [Mögliche Konflikte](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#m%C3%B6gliche-konflikte)
+* [Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#zuordnung-der-myMAGELLAN-teilnehmer-zu-den-sch%C3%BClern)
+* [Organisation des zeitlichen Ablaufs](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#organisation-des-zeitlichen-ablaufs)
+* [Mögliche Konflikte](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#m%C3%B6gliche-konflikte)
 
 ![Für welche Rollen soll exportiert werden?](/assets/images/mymagellan/14.png)
 
@@ -204,7 +204,7 @@ Am unteren Rand der Karte `Layout und Rechte festlegen` stellen Sie bitte ein, w
 Option|Bedeutung
 --|--
 Fehlstunden/-tage in MAGELLAN beim Einsammeln überschrieben|Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in MAGELLAN werden durch Einlesen einer MyMAGELLAN-Datei, mit Daten zu diesem Schüler überschrieben. Ausnahme: Kein Eintrag oder ein Null in MyMAGELLAN überschreiben keinen Wert in MAGELLAN. Eine Korrektur des verkehrten Wertes aus MAGELLAN ist nur im Schulverwaltungsprogramm selbst möglich.
-Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren|Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in MAGELLAN werden durch Einlesen einer MyMAGELLAN-Datei, mit Daten zu diesem Schüler addiert. Bitte beachten Sie, dass bei dieser Option im Fall eines erneuten Importes der Datei auch die Fehlzeiten erneut addiert werden.<br/><br/>**Wichtig:**<br/>Bitte beachten Sie den Abschnitt [Fehlzeiten](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#fehlzeiten) und bedenken bitte auch, dass Sie Dateien in denen das Addieren der Fehlzeiten gewählt wurde, nicht mehrfach importieren dürfen.
+Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren|Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in MAGELLAN werden durch Einlesen einer MyMAGELLAN-Datei, mit Daten zu diesem Schüler addiert. Bitte beachten Sie, dass bei dieser Option im Fall eines erneuten Importes der Datei auch die Fehlzeiten erneut addiert werden.<br/><br/>**Wichtig:**<br/>Bitte beachten Sie den Abschnitt [Fehlzeiten](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#fehlzeiten) und bedenken bitte auch, dass Sie Dateien in denen das Addieren der Fehlzeiten gewählt wurde, nicht mehrfach importieren dürfen.
 Fehlstunden/-tage in MAGELLAN beim Einsammeln nicht aktualisieren| Die Werte der Felder „Fehlstunden“, „Fehlstunden unentschuldigt“, „Fehltage“ und „Fehltage unentschuldigt“ des Schülers in MAGELLAN werden durch Einlesen einer MyMAGELLAN-Datei nicht verändert.
 
 !!! info "Hinweis"
@@ -214,7 +214,7 @@ Und: Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach MAGELLAN 
 
 ### Karte "Sicherheit festlegen"
 
-Sie haben die Möglichkeit ein teilnehmer-individuelles Passwort in der Benutzerverwaltung im MAGELLAN Administrator zu vergeben, die Schritte dafür beschreiben wir im Abschnitt [Dateipasswort](https://doc.magellan7.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#dateipasswort). Alternativ können Sie ein Passwort für mehrere Dateien vergeben, wenn kein Passwort im Administrator angelegt wurde. Tragen Sie für diese Situation hier ein Kennwort ein und wiederholen es.
+Sie haben die Möglichkeit ein teilnehmer-individuelles Passwort in der Benutzerverwaltung im MAGELLAN Administrator zu vergeben, die Schritte dafür beschreiben wir im Abschnitt [Dateipasswort](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#dateipasswort). Alternativ können Sie ein Passwort für mehrere Dateien vergeben, wenn kein Passwort im Administrator angelegt wurde. Tragen Sie für diese Situation hier ein Kennwort ein und wiederholen es.
 
 Im Feld `Bemerkung`, dass dem Nutzer der Datei später in der Startansicht gezeigt wird, können Sie beispielsweise einen Hinweis für die Rückgabe hinterlegen.
 

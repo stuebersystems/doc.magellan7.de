@@ -27,7 +27,7 @@ Die gesamte Abschlussberechnung wird durch MAGELLAN-Skripte durchgeführt oder a
 
 !!! info "Hinweis"
 
-   Alle zur Verfügung stehenden Skripte finden Sie im [Skriptüberblick](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/skriptuebersicht/). Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Für die Skriptdateien [BER-APO-FOS-2006/2013](https://doc.magellan7.stueber.de/schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013/) folgt die Beschreibung im nächsten Kapitel.
+   Alle zur Verfügung stehenden Skripte finden Sie im [Skriptüberblick](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/skriptuebersicht/). Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Für die Skriptdateien [BER-APO-FOS-2006/2013](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013/) folgt die Beschreibung im nächsten Kapitel.
 
 Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner „Skripte“. Die MAGELLAN-Skripte berechnen die Fachhochschulreife für die Fachoberschule.
 

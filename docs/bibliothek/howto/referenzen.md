@@ -4,7 +4,7 @@ MAGELLAN SCHULVERWALTUNG und MAGELLAN BIBLIOTHEK geben über eine Schnittstelle 
 
 !!! info "Hinweis"
 
-    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck/).
+    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan.stueber.de/schulverwaltung/howto/seriendruck/).
 
 ## Menü Mahnwesen
 

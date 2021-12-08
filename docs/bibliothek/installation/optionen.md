@@ -4,7 +4,7 @@ Die Optionen sind unter `Datenbank > Optionen` aufrufbar.
 
 ![Aufruf](/assets/images/bibliothek/01.png)
 
-Alle hier eingestellten Werte werden je MAGELLAN-Installation in der Datei `MagBib.opt` gespeichert. Möchte man diese Einstellungen für alle oder eine Gruppe von Nutzern vereinheitlichen, so kann das über eine `MAGELLAN.paths` gesteuert werden. Alle Hinweise hierfür lesen Sie bitte in der Installationsbeschreibung für MAGELLAN unter [Die Pathsdatei](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei/) nach.
+Alle hier eingestellten Werte werden je MAGELLAN-Installation in der Datei `MagBib.opt` gespeichert. Möchte man diese Einstellungen für alle oder eine Gruppe von Nutzern vereinheitlichen, so kann das über eine `MAGELLAN.paths` gesteuert werden. Alle Hinweise hierfür lesen Sie bitte in der Installationsbeschreibung für MAGELLAN unter [Die Pathsdatei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/) nach.
 
 ![Standardspeicherort der MagBib.opt](/assets/images/bibliothek/00.png)
 

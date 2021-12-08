@@ -7,7 +7,7 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 
 !!! info "Hinweis"
 
-    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan7.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/#einstellungen-vom-arbeitsplatz-kopieren#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/)) abgelegt werden.
+    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/#einstellungen-vom-arbeitsplatz-kopieren#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/)) abgelegt werden.
 
 ## Download und Installationstypen
 

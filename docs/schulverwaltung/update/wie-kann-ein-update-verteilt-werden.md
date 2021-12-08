@@ -5,10 +5,10 @@ Nachfolgend einige Herangehensweisen:
 
 |**Varianten**|
 |-|
-|[Variante 1:](https://doc.magellan7.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-1)  Sie laden das Updatepaket von unserer Webseite und starten die Installation  pro Rechner per Doppelklick.|
-|[Variante 2:](https://doc.magellan7.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-2)  Die Nutzer starten die Aktualisierung selbst (MAGELLAN > Hilfe > auf Aktualisierung prüfen), laden das Updatepaket von **unserem** Server und führen die Installation durch. Für diese Aktion muss den Benutzern das Recht gewährt werden, den Windows Installer auszuführen.|
-|[Variante 3:](https://doc.magellan7.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-3)  Die Nutzer starten die Aktualisierung selbst (MAGELLAN > Hilfe > auf Aktualisierung prüfen), laden das Updatepaket von **Ihrem** Server und führen die Installation durch. Für diese Aktion muss den Benutzern das Recht gewährt werden, den Windows Installer auszuführen.|
-|[Variante 4:](https://doc.magellan7.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-4)  Sie nutzen ein Tool zur Softwareverteilung oder die Gruppenrichtlinien in Ihrem Netzwerk.|
+|[Variante 1:](https://doc.magellan.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-1)  Sie laden das Updatepaket von unserer Webseite und starten die Installation  pro Rechner per Doppelklick.|
+|[Variante 2:](https://doc.magellan.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-2)  Die Nutzer starten die Aktualisierung selbst (MAGELLAN > Hilfe > auf Aktualisierung prüfen), laden das Updatepaket von **unserem** Server und führen die Installation durch. Für diese Aktion muss den Benutzern das Recht gewährt werden, den Windows Installer auszuführen.|
+|[Variante 3:](https://doc.magellan.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-3)  Die Nutzer starten die Aktualisierung selbst (MAGELLAN > Hilfe > auf Aktualisierung prüfen), laden das Updatepaket von **Ihrem** Server und führen die Installation durch. Für diese Aktion muss den Benutzern das Recht gewährt werden, den Windows Installer auszuführen.|
+|[Variante 4:](https://doc.magellan.stueber.de/schulverwaltung/update/wie-kann-ein-update-verteilt-werden/#variante-4)  Sie nutzen ein Tool zur Softwareverteilung oder die Gruppenrichtlinien in Ihrem Netzwerk.|
 
 ## Variante 1
 

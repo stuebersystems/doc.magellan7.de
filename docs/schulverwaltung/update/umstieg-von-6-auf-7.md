@@ -11,7 +11,7 @@
 ### Datenübernahme testen
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
-Bei der Übernahme können Meldungen ausgegeben werden, die müssten bitte geprüft und die Ursache behoben werden, mehr dazu im Abschnitt [Meldungen](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#meldungen).
+Bei der Übernahme können Meldungen ausgegeben werden, die müssten bitte geprüft und die Ursache behoben werden, mehr dazu im Abschnitt [Meldungen](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#meldungen).
 Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beispielsweise ob `Schüler > Zeugnis > Fächer/Leistungen` gefüllt ist oder ob, wenn Sie Oberstufenschüler verwalten, ob die Karte `Abitur > Qualifikation` für einzelne Beispiele befüllt sind.
 
 ### Übernahme nicht übers Netzwerk
@@ -28,7 +28,7 @@ Bitte legen Sie beide Datenbanken, also die leere MAGELLAN7.fdb und Ihre gefüll
 MAGELLAN beinhaltet eine aktualisierte Schnittstelle zu Crystal Reports, damit können Sie neue Funktionen in Ihren MAGELLAN-Berichten verwenden.
 Aufgrund dieser technischen Veränderungen müssen Ihre selbsterstellte Berichte für die Verwendung in MAGELLAN  7 angepasst werden.
 
-Bitte folgen Sie hierzu der [Anleitung](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+Bitte folgen Sie hierzu der [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
 
 ### Sächsische Schulen
 
@@ -94,7 +94,7 @@ Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-c
     Sollten Sie eine Datenübernahme wiederholen wollen, benötigen Sie eine "frische" leere MAGELLAN 7 Datenbank. 
     Diese könnten Sie [hier](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunterladen.
 
-Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.magellan7.stueber.de/schulverwaltung/installation/).
+Führen Sie im zweiten Schritt bitte die Installation von MAGELLAN 7 aus, beide Version (6 + 7) können parallel auf einem Rechner laufen (haben aber getrennte Datenbanken). Eine ausführliche Installationsanleitung finden Sie im Abschnitt [Installation](https://doc.magellan.stueber.de/schulverwaltung/installation/).
 
 ## Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen
 
@@ -203,7 +203,7 @@ Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordn
 
 Datenordner | Übernahme | Hinweise
 --|--|--
-Berichte|Nein| Unsere originalen Berichte sind für die Nutzung in MAGELLAN 7 angepasst, [eigene Berichte müssen entsprechend angepasst werden](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/).
+Berichte|Nein| Unsere originalen Berichte sind für die Nutzung in MAGELLAN 7 angepasst, [eigene Berichte müssen entsprechend angepasst werden](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/).
 Datenbank|Nein| Die Daten aus Ihrer Datenbank werden in die neue Datenbank übertragen.
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 7 ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von MAGELLAN 7 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
@@ -230,7 +230,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMAGELL
 
     Diese Schritte müssen **vor** dem Erstellen der MYM-Dateien ausgeführt werden.
 
-Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](https://doc.magellan7.stueber.de/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren#benutzereinstellungen-exportieren-und-importieren). Nachstehend eine Kurzanleitung.
+Eine ausführlichere Anleitung finden Sie in der Anleitung für das Magellan Center im Abschnitt [Benutzereinstellungen exportieren und importieren](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#benutzereinstellungen-exportieren-und-importieren#benutzereinstellungen-exportieren-und-importieren). Nachstehend eine Kurzanleitung.
 
 |So gehts:|
 |--|
@@ -247,4 +247,4 @@ Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei 
 
 ## Eigene Berichte
 
-Eigene Berichte müssen für die Nutzung unter MAGELLAN 7  angepasst werden, eine Anleitung finden Sie im Punkt [Eigene Berichte anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/).
+Eigene Berichte müssen für die Nutzung unter MAGELLAN 7  angepasst werden, eine Anleitung finden Sie im Punkt [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/).

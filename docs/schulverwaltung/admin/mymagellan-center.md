@@ -24,5 +24,5 @@ Modul|Funktion
 
 Modul|Pfad zur Dokumentation
 --|--
-**MyMAGELLAN CENTER** | [https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/](https://doc.magellan7.stueber.de/mymagellancenter/einfuehrung/)
+**MyMAGELLAN CENTER** | [https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/)
 **MyMAGELLAN** |[https://doc.mymagellan7.stueber.de/](https://doc.mymagellan7.stueber.de/).

@@ -8,7 +8,7 @@
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN 7 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 7 auf MAGELLAN 8](https://doc.magellan7.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)!
+    Wenn Sie bereits MAGELLAN 7 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 7 auf MAGELLAN 8](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)!
 
 ## Download und Installationstypen
 

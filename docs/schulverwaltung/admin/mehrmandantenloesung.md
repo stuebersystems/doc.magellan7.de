@@ -46,7 +46,7 @@ Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreife
 
 !!! info "Hinweis"
 
-	 Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei).
+	 Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
 
 #### Neuanlegen
 

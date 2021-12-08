@@ -14,7 +14,7 @@ MAGELLAN unterstützt das SchülerOnline-Verfahren des Kommunalen Rechenzentrums
 
     Der Aufruf zum Import und Export der SchülerOnline-Daten wird nur gezeigt, wenn die Bundeslandeinstellung Ihrer MAGELLAN-Verbindung auf `Nordrhein-Westfalen` gestellt ist.
 
-Die Einstellung wird pro MAGELLAN-Verbindung im Modul MAGELLAN ADMINISTRATOR unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Unterpunkt Datenbank >  Feld Region` vorgenommen. Während Sie diese Einstellung ändern, muss MAGELLAN auf Ihrem Rechner geschlossen sein. Dieser Einstellung wird in der Regel pro MAGELLAN Installation in der Optionsdatei gespeichert. Wenn Sie diese Einstellung (und auch andere) für alle oder eine Gruppe von Anwenderrechnern festlegen wollen, schauen Sie bitte diese Anleitung an:  [Die Paths-Datei](https://doc.magellan7.stueber.de/schulverwaltung/installation/die-pathsdatei/).
+Die Einstellung wird pro MAGELLAN-Verbindung im Modul MAGELLAN ADMINISTRATOR unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Unterpunkt Datenbank >  Feld Region` vorgenommen. Während Sie diese Einstellung ändern, muss MAGELLAN auf Ihrem Rechner geschlossen sein. Dieser Einstellung wird in der Regel pro MAGELLAN Installation in der Optionsdatei gespeichert. Wenn Sie diese Einstellung (und auch andere) für alle oder eine Gruppe von Anwenderrechnern festlegen wollen, schauen Sie bitte diese Anleitung an:  [Die Paths-Datei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 
 ![Wählen Sie die Region aus!](/assets/images/regionales/nrw00.png)
 

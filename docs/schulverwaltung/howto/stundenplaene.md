@@ -257,7 +257,7 @@ Nachname<br/>Vorname<br/>Fachwahl<br/>Fachkürzel<br/>Unterrichtsart.Kürzel<br/
 
 ### Schuldatentransferdatei nach MAGELLAN importieren
 
-Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus einer Schuldatentransferdatei füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte im Abschnitt ["Datenbank vorbereiten"](https://doc.magellan7.stueber.de/schulverwaltung/howto/preparation/) nach. Zum Import einer Schuldatentransferdatei nach MAGELLAN gehen Sie bitte folgendermaßen vor:
+Wenn Sie eine leere MAGELLAN-Datenbank mit Daten aus einer Schuldatentransferdatei füllen möchten, müssen in MAGELLAN mindestens ein Mandant und ein Zeitraum eingerichtet sein. Zum Erzeugen einer leeren Datenbank und Anlegen von Mandant und Zeitraum lesen Sie bitte im Abschnitt ["Datenbank vorbereiten"](https://doc.magellan.stueber.de/schulverwaltung/howto/preparation/) nach. Zum Import einer Schuldatentransferdatei nach MAGELLAN gehen Sie bitte folgendermaßen vor:
 
 1. Wählen Sie in MAGELLAN `Extras `und dann `Import > Schuldatentransferformat`.
 2. Geben Sie die MAGELLAN-Administrator-Kennung ein. Bestätigen Sie das `Willkommen-Fenster`. Wählen Sie im Fenster `Magellan-Import` den Mandanten und das Halbjahr, in das Sie die DAVINCI-Daten übernehmen möchten. Zusätzlich müssen Sie die Schuldatentransferdatei (SDTF-Datei) angeben, die Sie importieren wollen.

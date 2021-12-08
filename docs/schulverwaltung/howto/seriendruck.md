@@ -8,7 +8,7 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word oder LibreOffice Seriendrucks
 
 !!! info "Hinweis"
 
-    Eine Übersicht der für den Seriendruck übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan7.stueber.de/schulverwaltung/reference/seriendruckfelder/).
+    Eine Übersicht der für den Seriendruck übergebenen Felder aus MAGELLAN finden Sie im [Abschnitt "Seriendruckfelder" unter dem Überpunkt "Referenz"](https://doc.magellan.stueber.de/schulverwaltung/reference/seriendruckfelder/).
 
 ### LibreOffice oder Word
 
@@ -98,7 +98,7 @@ Nach Word/LibreOffice werden pro Schüler Daten über den aktuellen Betrieb, die
 
     In MAGELLAN können Sie einem Schüler oder einem Bewerber eine beliebige Anzahl von Sorgeberechtigten zuordnen. Welcher oder welche der Sorgeberechtigten im Seriendruck an Sorgeberechtigte angeschrieben werden sollen, steuern Sie über das Feld `Benachrichtigung` unter `Schüler > Sorgeberechtigter > Editieren > Benachrichtigung`.
 
- Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#registerkarte-„familie).
+ Wie Sie Sorgeberechtigte in MAGELLAN erfassen können, beschreiben wir auch im Abschnitt ["Unterkarte "Familie"" unter der Überschrift "Sorgeberechtigte für den Seriendruck korrekt erfassen"](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#registerkarte-„familie).
 
 !!! info "Hinweis"
 

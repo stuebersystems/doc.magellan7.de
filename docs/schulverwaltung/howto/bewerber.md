@@ -40,7 +40,7 @@ Bestätigen Sie mit `OK` und der neue Bewerber wird erstellt. Sie befinden sich 
 
 !!! warning "Wichtig"
 
-    Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#bewerber-in-schüler-umwandeln))
+    Bestehende Schüler können in Bewerber umgewandelt werden, in dem eine Kopie des Schülers als Bewerber im aktuellen Mandanten erzeugt wird. (Siehe Kapitel [`Schüler in Bewerber umwandeln`](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#bewerber-in-schüler-umwandeln))
 
 ### Vorlagen
 
@@ -129,7 +129,7 @@ Die Registerkarte `Auswahl` beinhaltet eine Liste aller Bewerber. Sie wird daher
 
 !!! tip "Tipp"
 
-    Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/](https://doc.magellan7.stueber.de/schulverwaltung/howto/sort-group-filter-search/).
+    Alle Filter-, Gruppier- und Sortiermöglichkeiten beschreiben wir im Abschnitt [https://doc.magellan.stueber.de/schulverwaltung/howto/sort-group-filter-search/](https://doc.magellan.stueber.de/schulverwaltung/howto/sort-group-filter-search/).
 
 ![Bewerber > Auswahl](/assets/images/bewerber/bewerberauswahl.png)
 
@@ -151,7 +151,7 @@ Für jeden Bewerber können Sie bei seiner Aufnahme direkt ein Einschulmerkmal v
 
 !!! danger "Achtung"
 
-    Einschulmerkmale werden vergeben um beim späteren Einschulen, die Schüler gruppenweise anhand dieses Merkmals zusammenfassen und den Klassen zuordnen zu können. Sie können die vergebenen Einschulmerkmale später auch im Menü `Schüler` in der Auswahlliste oder im Fenster [`Zusatzinformationen`](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/#fenster-weitere-informationen) (per `STRG+I`aus der Auswahlliste oder von den Datenkarten aufrufbar ) einsehen, aber nicht mehr verändern.
+    Einschulmerkmale werden vergeben um beim späteren Einschulen, die Schüler gruppenweise anhand dieses Merkmals zusammenfassen und den Klassen zuordnen zu können. Sie können die vergebenen Einschulmerkmale später auch im Menü `Schüler` in der Auswahlliste oder im Fenster [`Zusatzinformationen`](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#fenster-weitere-informationen) (per `STRG+I`aus der Auswahlliste oder von den Datenkarten aufrufbar ) einsehen, aber nicht mehr verändern.
 
 ![Einschulmerkmale](/assets/images/bewerber/einschul01.png)
 
@@ -215,7 +215,7 @@ Durch die Nutzung der Felder `Seriendruckname 1` und `Seriendruckname 2` bei dem
 
 ![Eltern sind getrennt erfasst, im Seriendruck können sie gemeinsam angeschrieben werden](/assets/images/bewerber/schuelersorge1.png)
 
-Wie Sie einen Sorgeberechtigten unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt [Sorgeberechtigte](https://doc.magellan7.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
+Wie Sie einen Sorgeberechtigten unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt [Sorgeberechtigte](https://doc.magellan.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
 
 #### Adressanpassungen
 
@@ -285,7 +285,7 @@ Um unteren Bereich der Karte finden Sie den  Bereich `Beeinträchtigungen und F�
 
 ## Registerkarte `Merkmale`
 
-Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https://doc.magellan7.stueber.de/schulverwaltung/howto/merkmalsfelder/) beschrieben.
+Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https://doc.magellan.stueber.de/schulverwaltung/howto/merkmalsfelder/) beschrieben.
 
 !!! info "Hinweis"
 
@@ -328,7 +328,7 @@ Wird eine als aktuell markierte Ausbildung gefunden, wird diese Ausbildung mit d
 
 !!! info "Hinweis"
 
-    Sollten Ihre Bewerber durch Importe oder ähnliches zwar einen Ausbildungsdatensatz haben, dieser ist aber nicht als aktueller Ausbildungsdatensatz hinterlegt, können Sie mit einer Funktion im MAGELLAN ADMINISTRATOR für alle Bewerber, die nur einen Ausbildungsdatensatz haben, diesen jeweils als aktuell hinterlegen lassen. Bitte lesen dazu diesen Abschnitt: [https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen)
+    Sollten Ihre Bewerber durch Importe oder ähnliches zwar einen Ausbildungsdatensatz haben, dieser ist aber nicht als aktueller Ausbildungsdatensatz hinterlegt, können Sie mit einer Funktion im MAGELLAN ADMINISTRATOR für alle Bewerber, die nur einen Ausbildungsdatensatz haben, diesen jeweils als aktuell hinterlegen lassen. Bitte lesen dazu diesen Abschnitt: [https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen)
 
 
 ![Dialog Sammelzuweisung `allgemeine Merkmale…`](/assets/images/bewerber/sammelzuweisung04.png)
@@ -672,7 +672,7 @@ Nr.|So geht's
 !!! info "Hinweis"
 
     Die zuvor markierten Bewerber werden jetzt aus der Bewerberliste gelöscht und in die Schülerliste eingetragen. 
-    Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan7.stueber.de/schulverwaltung/howto/schueler/) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
+    Nach dem Bewerberverfahren ist der Schüler noch keiner Klasse zugeordnet. Erst durch das Einschulen (siehe `Schüler einschulen` im Kapitel [Schüler](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/) kommt der Schüler in eine Klasse und erhält damit einen Zeitraumbezug.
     Für Schulen in SCHLESWIG-HOLSTEIN
     Bewerber, die nach Abschluss des Bewerberverfahrens abgelehnt worden sind bzw. bei denen kein weiterer Wunsch einer erneuten Bewerbung besteht, müssen nach dem Erforderlichkeitsprinzip nach spätestens 3 Jahren manuell aus der Liste der Bewerber gelöscht werden.	
     Die Schule ist verpflichtet, hierfür entsprechende organisatorische Maßnahmen zu treffen.

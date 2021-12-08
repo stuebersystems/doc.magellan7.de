@@ -11,7 +11,7 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 ---|---
 8.0.9|801
 
-Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan7.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version. Ist die Datenbankversionsnummer dort höher angegeben, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 !!! info "Hinweis"
 

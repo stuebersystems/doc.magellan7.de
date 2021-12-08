@@ -33,11 +33,11 @@ Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die n
 
 Nr.|Was ist zu tun
 --|--
-1.|[ODBC-Treiber-Einstellungen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#1-odbc-treiber-einstellungen)
-2.|[ggfs. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
-3.|[Datenquellenpfad festlegen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#3-datenquellenpfad-festlegen)
-4.|[Tabellenverknüpfungen anpassen](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
-5.|[Test](https://doc.magellan7.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
+1.|[ODBC-Treiber-Einstellungen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#1-odbc-treiber-einstellungen)
+2.|[ggfs. Datenbankverbindung aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
+3.|[Datenquellenpfad festlegen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#3-datenquellenpfad-festlegen)
+4.|[Tabellenverknüpfungen anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
+5.|[Test](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
 
 ## 1. ODBC-Treiber-Einstellungen
 
@@ -139,10 +139,10 @@ Sie öffnen bitte den Punkt `Datenbank-Assistent..`und rufen die Unterkarte `Ver
 
 Tabelle |Feld
 --|--
-Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
-Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schueler)
-SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerklassen)
-SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
+Schueler und SchuelerAusbildung|[Verknüpfungen lösen](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
+Schueler|[ehemalige Felder: SopaedFoerderungen, Foerderschwerpunkt1, Foerderschwerpunkt2 und Behinderung ](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#schueler)
+SchuelerZeitraeume und SchuelerKlassen|[Neue Verknüpfungen](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerklassen)
+SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#schuelerzeitraeume-und-schuelerausbildung)
 
 !!! info "Hinweis"
 
@@ -208,7 +208,7 @@ Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen di
 
 ### arithmetic exception, numeric overflow
 
-Sie erhalten diese Meldung? Dann folgen Sie bitte dem  Punkt der Anleitung: [2. Datenbankverbindung aktualisieren](https://doc.magellan7.stueber.de/schulverwaltung/update/berichte_anpassen/#2-datenbankverbindung-aktualisieren)
+Sie erhalten diese Meldung? Dann folgen Sie bitte dem  Punkt der Anleitung: [2. Datenbankverbindung aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#2-datenbankverbindung-aktualisieren)
 
 ![Meldung](/assets/images/berichte.anpassen/berichte.anpassen2.png)
 

@@ -5,7 +5,7 @@ MAGELLAN gibt über eine Schnittstelle Daten an MS Word für den Seriendruck. We
 
 !!! info "Hinweis"
 
-    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan7.stueber.de/schulverwaltung/howto/seriendruck/).
+    Wie genau Sie beim Erstellen eines Serienbriefes vorgehen, beschreiben wir [Abschnitt "So gehen Sie vor" unter "Seriendruck und Serienmail"](https://doc.magellan.stueber.de/schulverwaltung/howto/seriendruck/).
 
 ## Menü Schüler
 
