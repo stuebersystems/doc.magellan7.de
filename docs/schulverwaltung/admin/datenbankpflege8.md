@@ -90,6 +90,8 @@ Für unser Beispiel sieht man in der nachstehenden Abbildung auf der linken Seit
 [![Vergleich MAGELLAN und Prüfung des Assistenten][4]][4]
 
 Wechseln Sie mit `Weiter` auf die nächste Karte und klicken Sie auf `Sichern`. Bevor Ihre Aktion ausgeführt wird, muss eine Sicherung der Datenbank auf dem Stand vor Ihrer Änderung erstellt werden. Der Assistent liest Ihre Einstellungen zur Datensicherung aus den Verbindungseinstellungen aus, erstellt die Sicherung und speichert sie.
+Es wird parallel zur Datenbanksicherung auch eine Excelliste mit den Schülerdatensätzen zur Nachkontrolle erzeugt. Die Ablagestelle für die Sicherung der Datenbank und die Protokolllisten ergeben sich aus Ihren Eintragungen in der Verbindung zur Datenbank.
+
 
 [![Sicherung erstellen][5]][5]
 
