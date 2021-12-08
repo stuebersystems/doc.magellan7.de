@@ -1,5 +1,11 @@
 # Datenbankpflege
 
+[1]:/assets/images/magellan.administrator/03.png
+[2]:/assets/images/magellan.administrator/04.png
+[3]:/assets/images/magellan.administrator/05.png
+[4]:/assets/images/magellan.administrator/06.png
+[5]:/assets/images/magellan.administrator/07.png
+
 ## Generatoren synchronisieren
 
 Setzt die Generatoren zur Erstellung der automatisch hochgezählten Ids auf den nächstmöglichen Wert. Diese Funktion sollte zum Beispiel nach dem Leeren der Datenbank ausgeführt werden.
@@ -51,10 +57,38 @@ Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht m�
 
 ![Klicken Sie auf `Ausführen`](/assets/images/neues/908.png)
 
+Es erscheint das Fenster des Assistenten.
+
+[![Assistentenfenster][2]][2]
+
 Der Assistent unterstützt Sie beim Löschen von wahlweise:
 
 *  Schülerdatensätzen
 *  Fachdaten von Schülern
 *  Passbildern von Schülern
+*  
+[![Optionen][1]][1]
 
-Sie geben als Zeitpunkt dafür eine Monatsanzahl ein, die ausgehend vom aktuellen Tagesdatum die Löschungen für Schüler durchführt, die zu diesem Zeitpunkt nicht mehr Schüler Ihrer Schule waren.  
+Sie geben als Zeitpunkt dafür eine Monatsanzahl ein, die ausgehend vom aktuellen Tagesdatum die Löschungen für Schüler durchführt, die zu diesem Zeitpunkt nicht mehr Schüler Ihrer Schule waren.
+Im Beispiel wurden 12 Monate eingegeben, ausgehend vom Tagesdatum werden zwei Zeiträume identifiziert und in der Liste unterhalb dargestellt.  
+
+[![Assistentenfenster][3]][3]
+
+Wechseln Sie mit `Weiter` auf die nächste Karte, die Prüfung durchsucht die Zeiträume und stellt Schüler dar, die ausgeschult sind und in den auf der vorhergehenden Karte gezeigten Zeiträumen zuletzt Schüler diese Schule waren.
+
+!!! warning "Wichtig!"
+
+    Die Prüfung kontrolliert:
+     * den Status des Schülers (inaktiv)
+     * der Schüler darf keinen späteren Zeitraum an der Schule besucht haben
+     * es darf keine mit ihm verbundenen Schülerkopien in späteren Zeiträumen geben 
+
+Für unser Beispiel sieht man in der nachstehenden Abbildung auf der linken Seite die Schüler der Klasse 12, nur drei der Schüler sind ausgeschult, nur diese werden vom Assistenten gezeigt. 
+
+[![Vergleich MAGELLAN und Prüfung des Assistenten][4]][4]
+
+Wechseln Sie mit `Weiter` auf die nächste Karte und klicken Sie auf `Sichern`. Bevor Ihre Aktion ausgeführt wird, muss eine Sicherung der Datenbank auf dem Stand vor Ihrer Änderung erstellt werden. Der Assistent liest Ihre Einstellungen zur Datensicherung aus den Verbindungseinstellungen aus, erstellt die Sicherung und speichert sie.
+
+[![Vergleich MAGELLAN und Prüfung des Assistenten][4]][4]
+
+Wechseln Sie mit `Weiter` auf die nächste Karte und klicken auf `Fertigstellen`, Ihre gewählte Option löscht die Passbilder, Fachdaten oder die Schülerdatensätze aus Ihrer Datenbank.
