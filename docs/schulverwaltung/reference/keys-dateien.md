@@ -29,6 +29,8 @@ Weitere Informationen finden Sie im Abschnitt [Administration > Importe und Expo
 
 ## Benennung der Kataloge
 
+Kataloge werden immer mit einem zweistelligen Präfix (00,AS,BS), einem Unterstrich (_), einem Namen je nach Verzeichnis und dem Suffix `.keys` bezeichnet.
+
 Beispiele:
 
 * 00_Faecher.keys
@@ -42,7 +44,7 @@ Dateinamenanfang "BS_"                        | Schlüsseldateien die mit "BS_" 
 Dateinamenanfang "00_"                        | Schlüsseldateien die mit "00_" bezeichnet sind, werden beim Aufruf `für allgemeinbildende Schulen` und beim Aufruf `für berufsbildende Schulen` zum Import angeboten
 Text ab Zeichen 4<br/>(im Beispiel "Faecher") | Anhand dieser Bezeichnung wird das Schlüsselverzeichnis identifiziert.
 
-## Benennung und Aufbau der *.keys
+## Name und Aufbau der *.keys
 
 ### A
 
