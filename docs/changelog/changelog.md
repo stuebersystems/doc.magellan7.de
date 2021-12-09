@@ -25,6 +25,22 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### 8.0.14 802 (unveröffentlicht)
+
+#### MyMAGELLAN-CENTER
+
+* FIX: Beim Erstellen von MyMAGELLAN-Dateien für des Schülers denen derselbe Lehrer als Fachlehrer und als Tutor zugeordnet ist, wird nur der Tutor in die Datei gespielt.
+
+#### MyMAGELLAN
+
+* FIX: Für Dateien, die mit der Version MAGELLAN 8.0.13 oder früher erstellt wurden, wird für Schüler denen derselbe Lehrer als Tutor und als Fachlehrer zugeordnet wurde, die Rolle des Fachlehrers ignoriert. Ab mit der Version MAGELLAN 8.0.14 oder höher erstellten MyMAGELLAN-Dateien tritt diese Problematik nicht mehr auf. Eine Vorabversion von MyMAGELLAN, die diese Problematik korrekt verarbeitet, finden Sie unter: [https://my.hidrive.com/lnk/ncSJCFHd](https://my.hidrive.com/lnk/ncSJCFHd)
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: BER-Schul Z 590 (12.19).rpt (Verknüpfungen überarbeitet)
+
 ### 8.0.13 802 (30.11.2021)
 
 #### MAGELLAN Schulverwaltung
