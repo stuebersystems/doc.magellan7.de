@@ -12,6 +12,7 @@
 [10]:/assets/images/neues/910.png
 [11]:/assets/images/neues/911.png
 [12]:/assets/images/neues/912.png
+[13]:/assets/images/neues/913.png
 
 **Das Kapitel wird aktuell bearbeitet.**
 
@@ -62,6 +63,12 @@ Die überarbeitete Anleitung hierfür finden Sie unter [https://doc.magellan.stu
 Das Feld `Anrechendatum` wurde in die Sammelzuweisung übernommen.
 
 [![Sammelzuweisung unter Schüler > Zeugnis > Details][4]][4]
+
+### Schüler > Zeugnis > Bemerkungen/Formulare
+
+Für die Sammelzuweisung von Zeugnisbemerkungen können auf zusätzlich oder stattdessen frei verfasste Zeugnisbemerkungen für eine Gruppe von Schülern verteilt werden.
+
+[![Sammelzuweisung unter Schüler > Zeugnis > Bemerkungen/Formulare][13]][13]
 
 ### Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
 
