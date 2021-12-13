@@ -50,7 +50,7 @@ Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste w
 
 [![Klicken Sie auf „Vorschau“, um den Bericht nur in der Vorschau zu öffnen.][2]][2]
 
-Wenn Sie im Schüler-Drucken Fenster auf `Export nach PDF` klicken, wird zunächst der Berichte für alle markierten Schüler pro Schüler ins PDF-Format exportiert und dann erfolgt der eigentliche Druck. Zusätzlich gibt es auch die Funktion `Export nach PDF`, das nur die PDF-Version speichert. Diese Funktion können Sie beispielsweise nutzen um den letzten Stand des Zeugnisdrucks abschließend für die Schüler in ihren Schülerunterverzeichnissen zu speichern. Diese Schaltflächen sind zusätzlich zur Schaltfläche `Drucken` nur dann aktiv, wenn Sie unter `Datenbank > Optionen > Dokumente` den Export ins PDF-Format eingestellt haben.
+Wenn Sie im Schüler-Drucken Fenster auf `Drucken und Export nach PDF` klicken, wird zunächst der Berichte für alle markierten Schüler pro Schüler ins PDF-Format exportiert und dann erfolgt der eigentliche Druck. Zusätzlich gibt es auch die Funktion `Export nach PDF`, das nur die PDF-Version speichert. Diese Funktion können Sie beispielsweise nutzen um den letzten Stand des Zeugnisdrucks abschließend für die Schüler in ihren Schülerunterverzeichnissen zu speichern. Diese Schaltflächen sind zusätzlich zur Schaltfläche `Drucken` nur dann aktiv, wenn Sie unter `Datenbank > Optionen > Dokumente` den Export ins PDF-Format eingestellt haben.
 
 [![Einstellungen in den MAGELLAN Optionen][9]][9]
 
