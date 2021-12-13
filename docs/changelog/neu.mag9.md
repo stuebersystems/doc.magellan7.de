@@ -74,6 +74,10 @@ Für die Sammelzuweisung von Zeugnisbemerkungen können auf zusätzlich oder sta
 
 [![Sammelzuweisung unter Schüler > Zeugnis > Bemerkungen/Formulare][13]][13]
 
+### Abgang Am und Schülerstatus aktiv
+
+Beim Ausschulen von Schülern wird das Abgangsdatum unter `Schüler > Daten2 > Abgang Am` (Schulabgangsdatum) und unter `Laufbahn > Abgang` (Klassenabgangsdatum) gesetzt. Reaktiviert man einen ausgeschulten Schüler wieder (`Auswahlliste Schüler > Rechtsklick > Status zuweisen > aktiver Schüler`), wird das Schulabgangsdatum unter `Schüler > Daten2 > Abgang Am` geleert.
+
 ### Bescheinigung zur Rentenversicherung (V0510 - 26.06.2017).rpt
 
 Der Bericht berechnet die Schulbesuchzeiten nach dem 17. Geburtstag anhand des Geburtsdatums des Schülers unter `Schüler > Daten1 > Geburtsdatum` und dem Zugang zur Schule unter `Daten2 > Zugang am`.
