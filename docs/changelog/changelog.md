@@ -40,6 +40,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: BER-Schul Z 590 (12.19).rpt (Verknüpfungen überarbeitet)
+* FIX: BER-Schul Z 510 (12.13).rpt (Verknüpfungen überarbeitet)
+
 
 ### 8.0.13 802 (30.11.2021)
 

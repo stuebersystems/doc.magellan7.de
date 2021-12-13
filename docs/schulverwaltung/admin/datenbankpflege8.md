@@ -66,7 +66,7 @@ Es erscheint das Fenster des Assistenten.
 Der Assistent unterstützt Sie beim Löschen von wahlweise:
 
 *  Schülerdatensätzen
-*  Fachdaten von Schülern
+*  Fachdaten von Schülern (`Schüler > Zeugnis > Fächer/Leistungen`)
 *  Passbildern von Schülern
 *  
 [![Optionen][1]][1]
