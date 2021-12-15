@@ -8,17 +8,17 @@
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN 7 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 7 auf MAGELLAN 8](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/)!
+    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/)!
 
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v8/magellan8.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan8.msi`.
+Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
 Der Setup Assistent von MAGELLAN 8 wird gestartet und die Installationsdateien werden entpackt.
 
-![Startdialog der Installation](/assets/images/installation/8/setup_start.png)
+![Startdialog der Installation](/assets/images/installation/9/setup_start.png)
 
-![Installationart festlegen](/assets/images/installation/8/setup_type.png)
+![Installationart festlegen](/assets/images/installation/9/setup_type.png)
 
 Wählen Sie die `Server-/Einzelplatzinstallation` aus! Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die sogenannten Datenordner erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
 
@@ -31,15 +31,15 @@ Jetzt ist der Setup Assistent bereit, die Installation der Dateien vorzunehmen. 
 
 Wählen Sie zunächst den Speicherort für die Programmdateien aus.
 
-![Speicherort für die Programmdateien](/assets/images/installation/8/setup-folder.png)
+![Speicherort für die Programmdateien](/assets/images/installation/9/setup-folder.png)
 
 Wählen Sie den Speicherort für die Datenbank und klicken Sie auf „Weiter“.
 
-![Speicherort für die Datenbank](/assets/images/installation/8/setup-database.png)
+![Speicherort für die Datenbank](/assets/images/installation/9/setup-database.png)
 
 Wählen Sie den Speicherort für die Datenordner \(Berichte-, Dokumente-, Importe-, Skripte- und Vorlagenordner\) und klicken Sie auf „Weiter“.
 
-![Speicherort für die Datenordner](/assets/images/installation/8/setup-data-folder.png)
+![Speicherort für die Datenordner](/assets/images/installation/9/setup-data-folder.png)
 
 !!! info "Hinweis"
 
@@ -47,11 +47,11 @@ Wählen Sie den Speicherort für die Datenordner \(Berichte-, Dokumente-, Import
 
 Klicken Sie nun auf „Installieren“, um mit der Installation zu beginnen.
 
-![Bereit zur Installation](/assets/images/installation/8/setup-ready.png)
+![Bereit zur Installation](/assets/images/installation/9/setup-ready.png)
 
 Die Installation selbst kann einige Minuten in Anspruch nehmen. Klicken Sie zum Abschließen der Installation auf „Fertigstellen“.
 
-![Die Installation ist fertig](/assets/images/installation/8/setup-finished.png)
+![Die Installation ist fertig](/assets/images/installation/9/setup-finished.png)
 
 ### Speicherorte der Dateien
 
@@ -61,19 +61,19 @@ Anwendungsdaten \(z.B. Magellan.exe\):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\Programme\Stueber Systems\MAGELLAN 8 |
-| Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 8\ |
-| Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 8 |
-| Windows 10 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 8\ |
+| Windows 7 | C:\Programme\Stueber Systems\MAGELLAN 9 |
+| Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 9\ |
+| Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 9 |
+| Windows 10 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 9\ |
 
 Allgemeine Einstellungs- und Lizenzdaten \(z.B. Magellan.evm, Magellan.lic, Magellan.SiteInfo, Magellan.UserInfo\):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\ProgramData\Stueber Systems\MAGELLAN 8 |
-| Windows Server 2008 | C:\ProgramData\Stueber Systems\MAGELLAN 8 |
-| Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 8 |
-| Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 8 |
+| Windows 7 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
+| Windows Server 2008 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
+| Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
+| Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
 
 Datenordner \(Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner\):
 
@@ -82,10 +82,10 @@ Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließ
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8 |
-| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 8 |
-| Windows 8 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8 |
-| Windows 10 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8 |
+| Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
+| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 9|
+| Windows 8 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
+| Windows 10 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
 
 !!! info "Hinweis"
 
@@ -93,30 +93,30 @@ Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließ
 
 ## Der Willkommensassistent
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 8 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 9 starten. Es erscheint zunächst der Willkommen-Assistent.
 
-![Willkommen](/assets/images/installation/8/welcome.png)
+![Willkommen](/assets/images/installation/9/welcome.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN 8 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["MAGELLAN - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
-![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/8/welcome-license-type.png)
+![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/9/welcome-license-type.png)
 
 Wählen Sie „Eine Testlizenz anfordern“ und klicken Sie dann auf „Weiter“, wenn Sie noch keine Lizenzdaten besitzen. Die Lizenzdaten können Sie dann mit Hilfe des Assistenten per E-Mail direkt anfordern oder als Textdatei speichern, falls Sie keinen E-Mailzugang besitzen.
 
 Wenn Sie Ihre Lizenzdaten erhalten haben, wählen Sie „Meine Lizenzdaten eingeben“ und klicken Sie dann auf „Weiter“. Tragen Sie nun Ihre Lizenzierung ein. Sollten Sie mit Ihren Lizenzdaten auch eine Lizenzdatei erhalten haben, so können Sie diese alternativ über „Lizenz importieren“ einlesen. Klicken Sie dann auf „Weiter“.
 
-![Eingabe der Lizenzdaten](/assets/images/installation/8/welcome-enter-license.png)
+![Eingabe der Lizenzdaten](/assets/images/installation/9/welcome-enter-license.png)
 
 Wählen Sie hier Ihre Region (Bundesländer, Auslandsschulen, Schweiz oder Deutschland möglich) aus und klicken dann auf „Weiter“.
 
-![Wahl der Region](/assets/images/installation/8/welcome-region.png)
+![Wahl der Region](/assets/images/installation/9/welcome-region.png)
 
 Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, die Datenbank und den Server schon korrekt vorbefüllt, bitte ändern Sie hier nichts.
 
-![Wahl der Datenbank](/assets/images/installation/8/welcome-database.png)
+![Wahl der Datenbank](/assets/images/installation/9/welcome-database.png)
 
-![ Daten für entfernte Datenbank](/assets/images/installation/8/welcome-remote-database.png)
+![ Daten für entfernte Datenbank](/assets/images/installation/9/welcome-remote-database.png)
 
 Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
@@ -124,12 +124,12 @@ Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablag
 
     Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul MAGELLAN ADMINISTRATOR auslösen.
 
-![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/8/welcome-remote-backup.png)
+![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/9/welcome-remote-backup.png)
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/8/Welcome-erste-schritte.png)
+![Erste Schritte in MAGELLAN](/assets/images/installation/9/Welcome-erste-schritte.png)
 
 Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
 
-![Abschluss des Willkommens-Assistenten](/assets/images/installation/8/anmeldung.png)
+![Abschluss des Willkommens-Assistenten](/assets/images/installation/9/anmeldung.png)
