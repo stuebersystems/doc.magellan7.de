@@ -148,7 +148,6 @@ Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
 1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
 2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
 
-
 [![Kontrollübersicht Klassen][11]][11]
 
 ## MyMAGELLAN
@@ -180,7 +179,6 @@ Wählen Sie ob die Passbilder, die Fachdaten oder der Schülerdatensatz gelösch
 [![Assistent][9]][9]
 
 Der Assistent listet Ihnen die Schülerdatensätze auf, für die das Löschen durchgeführt wird. Bevor das Löschen erfolgt, wird eine Sicherung der Datenbank erstellt und es wird parallel zur Datenbanksicherung auch eine Excelliste mit den Schülerdatensätzen zur Nachkontrolle erzeugt. Die Ablagestelle für die Sicherung der Datenbank und die Protokolllisten ergeben sich aus Ihren Eintragungen in der Verbindung zur Datenbank.
-
 
 [![Aufruf][12]][12]
 

@@ -56,3 +56,9 @@ Menüpunkt Abitur     | Simulationsfenster | F9
 Menüpunkt Lehrer     | Fehlzeitenfenster | STRG+F
 Menüpunkt Schüler    | Fehlzeitenfenster | STRG+F
 Menüpunkt Sportfeste | Schüler synchronisieren | STRG+N
+alle Assistenten     | Weiter | w
+alle Assistenten     | Abbrechen | a
+alle Assistenten     | Zurück | z
+alle Assistenten     | Fertigstellen | f
+
+
