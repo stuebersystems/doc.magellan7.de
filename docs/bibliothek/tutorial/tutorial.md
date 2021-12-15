@@ -1,3 +1,0 @@
-# Tutorial
-
-Dieses Tutorial wird Sie anhand einfacher Übungsbeispiele mit den wesentlichen Funktionen vertraut machen, die Sie bei der Verwaltung Ihrer Lehr- und Lernmedien mit MAGELLAN-BIBLIOTHEK benötigen. Sie lernen zentrale Arbeitsschritte durchzuführen wie z.B. das Erfassen von Büchern und Lernmitteln, das Anlegen von Bibliotheksnutzern sowie das Abwickeln von Ausleihvorgängen. Außerdem erhalten Sie grundlegende Tipps, wie Sie möglichst zeitsparend mit Tabellen und Listen arbeiten können. Wenn Sie alle Übungen absolviert haben, werden Sie in der Lage sein MAGELLAN-BIBLIOTHEK kompetent und effizient im Schulalltag einzusetzen.
