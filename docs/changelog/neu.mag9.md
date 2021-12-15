@@ -193,3 +193,17 @@ Unter `Datenaustausch > Daten über das Magellan-Importformat importieren` ist i
 ### Haushalt&Inventar und Klassenbuch ausgeblendet
 
 Unter `Benutzerverwaltung > Doppelklick auf einen Benutzer > Rechte` wurden die Aufrufe für Haushalt&Inventar und Klassenbuch ausgeblendet.
+
+## MAGELLAN Skripteditor
+
+### Optionen
+
+Die unter `Extras > Optionen` gewählten Einstellungen werden in einer eigenen Optionsdatei (`C:\ProgramData\Stueber Systems\Magellan 9MagSkript.opt`) gespeichert.
+
+### Version
+
+Unter `Hilfe > Info` wird die Version des Skripteditors gezeigt.
+
+### Fenstergröße
+
+Die angepasste Fenstergröße der Anwendung wird gespeichert.
