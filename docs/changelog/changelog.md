@@ -25,6 +25,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### 8.0.14 802 (unveröffentlicht)
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: Fehler ind er Sammelzuweisung unter `Schüler > Sammelzuweisung` behoben.
+
 #### MyMAGELLAN-CENTER
 
 * FIX: Beim Erstellen von MyMAGELLAN-Dateien für des Schülers denen derselbe Lehrer als Fachlehrer und als Tutor zugeordnet ist, wird nur der Tutor in die Datei gespielt.
@@ -32,6 +36,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MyMAGELLAN
 
 * FIX: Für Dateien, die mit der Version MAGELLAN 8.0.13 oder früher erstellt wurden, wird für Schüler denen derselbe Lehrer als Tutor und als Fachlehrer zugeordnet wurde, die Rolle des Fachlehrers ignoriert. Ab mit der Version MAGELLAN 8.0.14 oder höher erstellten MyMAGELLAN-Dateien tritt diese Problematik nicht mehr auf. Eine Vorabversion von MyMAGELLAN, die diese Problematik korrekt verarbeitet, finden Sie unter: [https://my.hidrive.com/lnk/ncSJCFHd](https://my.hidrive.com/lnk/ncSJCFHd)
+
+#### Skripte
+
+* FIX: `Zuweisen von Bewerberstammdaten.dws`
 
 #### Berichte
 
