@@ -23,7 +23,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
-### 8.0.14 802 (unveröffentlicht)
+### 8.0.14 802 (17.12.2021)
 
 #### MAGELLAN Schulverwaltung
 
@@ -47,7 +47,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: BER-Schul Z 590 (12.19).rpt (Verknüpfungen überarbeitet)
 * FIX: BER-Schul Z 510 (12.13).rpt (Verknüpfungen überarbeitet)
-
 
 ### 8.0.13 802 (30.11.2021)
 
