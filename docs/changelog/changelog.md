@@ -23,6 +23,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 8
 
+### 8.0.15 802 (unveröffentlicht)
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: SAC-FOS-HJZ (D01.01).rpt
+
 ### 8.0.14 802 (17.12.2021)
 
 #### MAGELLAN Schulverwaltung
