@@ -18,7 +18,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
-* FIX: Fehler ind er Sammelzuweisung unter `Schüler > Sammelzuweisung` behoben.
+* FIX: Fehler in der Sammelzuweisung unter `Schüler > Sammelzuweisung` behoben.
 
 #### MyMAGELLAN-CENTER
 

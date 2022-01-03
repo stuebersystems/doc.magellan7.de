@@ -4,6 +4,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 * Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: 
 
+  * [2021](changelog2021.md)
   * [2020](changelog2020.md)
   * [2019](changelog2019.md)
 
@@ -35,5 +36,5 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Skripte
 
-* CHANGE: BER-FW-APO-2017.js
+* CHANGE: BER-FW-APO-2017.js 
 * CHANGE: BER-FW-APO-2011.js
