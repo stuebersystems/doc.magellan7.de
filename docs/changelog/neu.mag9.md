@@ -14,8 +14,6 @@
 [12]:/assets/images/neues/912.png
 [13]:/assets/images/neues/913.png
 
-**Das Kapitel wird aktuell bearbeitet.**
-
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 9 geben.
 
 ## Datenstrukturänderungen
