@@ -42,11 +42,11 @@ Folgen Sie unserer Anleitung für die Einrichtung und Lizenzierung des [Servers]
 
 !!! warning "Wichtig"
 
-    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 8, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
+    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 9, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
 
 ### 8er Datenbank übernehmen
 
-Auf Ihrem MAGELLAN-Serverrechner soll im nächsten Schritt die 8er Datenbank übernommen und für MAGELLAN 8 angepasst werden. Führen Sie hierfür bitte die folgenden Schritte aus:
+Auf Ihrem MAGELLAN-Serverrechner soll im nächsten Schritt die 8er Datenbank übernommen und für MAGELLAN 9 angepasst werden. Führen Sie hierfür bitte die folgenden Schritte aus:
 
 1. Öffnen Sie auf dem Serverrechner bitte `Systemsteuerung > Verwaltung > Dienste` und stoppen dort den Firebird-Dienst.<br/>
 ![Firebird-Dienst stoppen](/assets/images/update/8zu9/01.png)
@@ -67,7 +67,7 @@ Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitt
 
 !!! warning "Wichtig"
 
-    Bitte legen Sie nur Ihre zusätzlichen Dateien in der neuen Verzeichnisstruktur ab und ersetzen Sie bitte nicht die Verzeichnisse! 
+    Bitte legen Sie **nur Ihre zusätzlichen Dateien** in der neuen Verzeichnisstruktur ab und ersetzen Sie bitte nicht die Verzeichnisse! 
 
 ## Auf den Clientrechnern
 
