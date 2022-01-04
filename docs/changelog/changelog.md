@@ -22,6 +22,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
+## Version 9 (unveröffentlicht)
+
+Version  wurde veröffentlicht!
+
+Eine Umstiegsanleitung von Version auf Version finden Sie hier: []()
+Eine Installationsanleitung finden Sie hier: []()
+Eine Übersicht der Neuerungen finden Sie hier: [https://doc.magellan.stueber.de/changelog/neu.mag9/](https://doc.magellan.stueber.de/changelog/neu.mag9/)
+
 ## Version 8
 
 ### 8.0.15 802 (unveröffentlicht)
