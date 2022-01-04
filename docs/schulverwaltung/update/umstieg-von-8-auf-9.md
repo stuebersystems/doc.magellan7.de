@@ -8,7 +8,7 @@ Nr.|Was ist zu tun
 --|--
 1.| Prüfen Sie, ob auf Ihrem Serverrechner MAGELLAN 8 und Firebird aktuell sind und aktualisieren ggfs.
 2.| Installieren Sie MAGELLAN 9 auf dem Server und den Clientrechnern und lizenzieren es.
-3.| Kopieren Sie die 8er Datenbank in den 8er Datenbankordner.
+3.| Kopieren Sie die 8er Datenbank in den 9er Datenbankordner.
 4.| Starten Sie MAGELLAN um die Datenbank anzupassen, synchronisieren Sie die Zugriffsrechte.
 5.| Übernehmen Sie eigene Berichte, Vorlagen oder Dokumente.
 6.| Clientrechner installieren, lizenzieren, konfigurieren
