@@ -81,7 +81,7 @@ Folgen Sie unserer Anleitungen für die Einrichtung und Lizenzierung der [Client
 
 !!! warning "Wichtig"
 
-    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 8, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
+    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 9, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
 
 ### Empfehlung
 
