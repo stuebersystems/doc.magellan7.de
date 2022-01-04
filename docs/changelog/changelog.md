@@ -22,9 +22,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## Version 9.0.0 900 (unveröffentlicht)
+## Version 9.0.0 900 (04.01.2022)
 
-Version  wurde veröffentlicht!
+Version 9 wurde veröffentlicht!
 
 Eine Übersicht der Neuerungen finden Sie hier: [https://doc.magellan.stueber.de/changelog/neu.mag9/](https://doc.magellan.stueber.de/changelog/neu.mag9/)
 
@@ -45,5 +45,5 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Skripte
 
-* CHANGE: BER-FW-APO-2017.js 
+* CHANGE: BER-FW-APO-2017.js
 * CHANGE: BER-FW-APO-2011.js
