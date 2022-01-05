@@ -1,13 +1,7 @@
 ﻿
 # Arbeitsplatzinstallation
 
-Diesen Installationstyp wählen Sie bitte aus, wenn Sie einen Arbeitsplatzrechner einrichten möchten. Das bedeutet, MAGELLAN als Programm wird auf diesem Rechner installiert, auf alle gemeinsam verwendeten Dateien (zb. Berichte, Vorlagen, Skripte usw.) wird über das Netzwerk zugriffen.
-
-Es werden während der Installation nur Programmdateien abgelegt, im Anschluss wird der Willkommensassistent gestartet, Sie geben die Pfade zu den gemeinsam genutzten Verzeichnissen in Ihrem Netzwerk ein.
-
-!!! info "Hinweis"
-
-    Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan.stueber.de/schulverwaltung/installation/version9/arbeitsplatz.installieren/#einstellungen-vom-arbeitsplatz-kopieren#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/)) abgelegt werden.
+Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN als Programm installiert wird, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
 
 ## Vorbereitung und Downloads
 
@@ -25,7 +19,7 @@ oder
 
     Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
 
-## Download und Installationstypen
+## Installation
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
