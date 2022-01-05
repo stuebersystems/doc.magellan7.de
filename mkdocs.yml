@@ -68,7 +68,6 @@ nav:
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
-      - Firebird installieren: schulverwaltung/installation/Installation_Firebird.md
       - Server/Einzelplatz installieren: schulverwaltung/installation/version9/server.installieren.md
       - Arbeitsplatz installieren: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md

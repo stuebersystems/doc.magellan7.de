@@ -1,20 +1,55 @@
 ﻿
 # Serverinstallation und Einzelplatzinstallation
 
+!!! danger "Achtung"
+
+    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/)!
+
+## Vorbereitung und Downloads
+
+**MAGELLAN.lic**: 
+Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server und von den Clients darauf zugreifen können. Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
+
+**Downloads**: 
+Für den Serverrechner benötigen Sie die Installationsdatei für Firebird und für MAGELLAN, für die Clients nur das Installationspaket für MAGELLAN. Alle Installationspakete finden Sie hier:
+
+* [Firebird](https://download.stueber.de/bin/de/firebird/Firebird-2.5.9.27139_0_Win32.exe) 
+* MAGELLAN: Wählen Sie je nach Betriebssystem bitte das Installationspaket für [Windows 64-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi) oder [Windows 32-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9_32.msi).
+
+!!! danger "Achtung"
+
+    Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
+
+## Installation von Firebird 2.5
+
+!!! warning "Wichtig"
+
+	Diese Installation wird einmalig im Netzwerk auf dem Rechner, auf dem später Ihre MAGELLAN-Datenbank liegen wird ausgeführt. 
+
+Laden Sie bitte das Firebird-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://magellan.stueber.de/download.php). Starten Sie anschließend die Firebird Installation durch einen Doppelklick auf die Datei `Firebird-2.5......Win32.exe`. Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte „Komponenten auswählen“ die voreingestellten Optionen.
+
+![Komponenten auswählen](/assets/images/fb-components.png)
+
+Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die Optionen und aktivieren zusätzlich das Häkchen „Die Firebird Client-Bibliothek ins Systemverzeichnis kopieren“.
+
+![Zusätzliche Aufgaben auswählen](/assets/images/fb-tasks.png)
+
+!!! warning "Wichtig"
+
+	Firebird wird nur dem Rechner installiert werden, auf dem zukünftig die Datenbank gespeichert wird. Das kann Ihr Server sein oder auch ein netzwerkunabhängiger Rechner. 
+	
+	Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme \(Eingehende und Ausgehende Regel\) für diesen Port ein und versuchen es bitte erneut.
+
+## MAGELLAN Installationstypen
+
 !!! info "Hinweis"
 
     Die Installation des Datenbankservers \(Firebird\) wird für die Installationsarten Server und Einzelplatz vorausgesetzt. 
     Den Installationstyp `Server-/Einzelplatzinstallation` wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen (zum Beispiel um MAGELLAN zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
 
-!!! danger "Achtung"
+Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
-    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/)!
-
-## Download und Installationstypen
-
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
-
-Der Setup Assistent von MAGELLAN 8 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von MAGELLAN wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/9/setup_start.png)
 
