@@ -6,7 +6,7 @@ Wenn Sie von Version 7 aus umsteigen möchten, laden Sie das [Skriptpaket](https
 
 ## Von Version 6 auf Version 9
 
-Um von Version 6 auf Version 9 umzusteigen, ist ein Zwischenschritt nötig, nachfolgend beschreiben wir die Schritte.
+Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritt nötig, nachfolgend beschreiben wir die Schritte.
 
 ### Alte SQL-Update-Skripte
 
