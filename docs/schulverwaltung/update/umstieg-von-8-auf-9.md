@@ -1,7 +1,5 @@
 # Umstieg von MAGELLAN 8 auf MAGELLAN 9
 
-**Diese Abschnitt wird aktuell überarbeitet!**
-
 Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 8 Version auf MAGELLAN 9 zu aktualisieren.
 
 Nr.|Was ist zu tun
