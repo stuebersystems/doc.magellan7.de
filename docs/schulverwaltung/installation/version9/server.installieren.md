@@ -1,5 +1,7 @@
 ﻿
-# Serverinstallation und Einzelplatzinstallation
+# Den Server oder einen Einzelplatz einrichten
+
+In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem lokal die Datenbank gespeichert wird, in der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus nicht auf den Server zugeriffen werden kann, beispielsweise ein Testrechner.
 
 !!! danger "Achtung"
 
