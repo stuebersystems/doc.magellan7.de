@@ -4,8 +4,7 @@ Dieses Kapitel beschreibt im Detail, wie Sie MAGELLAN installieren.
 
 Dieser Abschnitt beschreibt die Installation von MAGELLAN mit den einzelnen Installationsschritten und Installationsarten. Bitte beachten Sie die [Systemvoraussetzungen](https://doc.magellan.stueber.de/schulverwaltung/installation/systemvoraussetzungen/).
 
-* Installation von Firebird
-* Server-/Einzelplatzinstallation
+* Installation von Firebird und Server-/Einzelplatzinstallation
 * Arbeitsplatzinstallation
 * MAGELLAN starten nach Neuinstallation
 
