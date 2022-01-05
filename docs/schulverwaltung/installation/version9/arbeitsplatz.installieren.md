@@ -9,9 +9,25 @@ Es werden während der Installation nur Programmdateien abgelegt, im Anschluss w
 
     Vermutlich werden Sie mehr als einen Arbeitsplatz einrichten? Ab dem zweiten Arbeitplatz müsste nur noch die Installation ausgeführt werden, einige Dateien können mit den enthaltenen Einstellungen entweder lokal ([Einstellungen vom Arbeitsplatz kopieren](https://doc.magellan.stueber.de/schulverwaltung/installation/version9/arbeitsplatz.installieren/#einstellungen-vom-arbeitsplatz-kopieren#einstellungen-vom-arbeitsplatz-kopieren)) auf den weiteren Arbeitsplätze abgelegt werden oder für eine gemeinsame Nutzung zentral (["Die Pathsdatei"](https://doc.Magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/)) abgelegt werden.
 
+## Vorbereitung und Downloads
+
+**MAGELLAN.lic**: 
+Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server und von den Clients darauf zugreifen können. Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
+
+**Downloads**: 
+Für einen Arbeitsplatzrechner benötigen Sie die Installationsdatei für MAGELLAN. Wählen Sie je nach Betriebssystem bitte das Installationspaket für 
+
+* [Windows 64-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi) 
+oder 
+* [Windows 32-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9_32.msi).
+
+!!! danger "Hinweis"
+
+    Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
+
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v9/Magellan9.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
+Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
 Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
 

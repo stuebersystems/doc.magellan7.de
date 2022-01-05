@@ -11,12 +11,12 @@
 Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server und von den Clients darauf zugreifen können. Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
 
 **Downloads**: 
-Für den Serverrechner benötigen Sie die Installationsdatei für Firebird und für MAGELLAN, für die Clients nur das Installationspaket für MAGELLAN. Alle Installationspakete finden Sie hier:
+Für den Serverrechner benötigen Sie die Installationsdatei für Firebird und für MAGELLAN. Alle Installationspakete finden Sie hier:
 
 * [Firebird](https://download.stueber.de/bin/de/firebird/Firebird-2.5.9.27139_0_Win32.exe) 
 * MAGELLAN: Wählen Sie je nach Betriebssystem bitte das Installationspaket für [Windows 64-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi) oder [Windows 32-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9_32.msi).
 
-!!! danger "Achtung"
+!!! danger "Hinweis"
 
     Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
 
