@@ -22,7 +22,20 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-## Version 9.0.0 900 (04.01.2022)
+
+## Version 9
+
+### Version 9.0.1 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Wenn Sie mehrere Unfallanzeigen für einen Schüler angelegt haben und eine gezielte in der Vorschau betrachten möchten, wird die gewählte Unfallanzeige gezeigt 
+
+#### Skripte
+
+* FIX: das Skript "Synchronisiere BBS.dws" wurde überarbeitet
+
+### Version 9.0.0 900 (04.01.2022)
 
 Version 9 wurde veröffentlicht!
 
