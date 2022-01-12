@@ -53,7 +53,7 @@ Eine Installationsanleitung finden Sie hier: [https://doc.magellan.stueber.de/sc
 
 ## Version 8
 
-### 8.0.15 802 (unveröffentlicht)
+### 8.0.15 802 (11.01.2022)
 
 #### Berichte
 
