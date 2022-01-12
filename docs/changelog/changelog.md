@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Wenn unter `Schüler > Daten3 > FS1-FS4 > Erteilt` kein Wert erfasst wurde, wird es als `nicht erteilt` ausgegeben.
 * FIX: Die Prüfroutine auf doppelte GUIDs beim Import von Daten wurden überarbeitet
+* FIX: Prüfung für `Schüler > Daten 2> Höchster AbschlussABS > Schulform`
 
 #### Skripte
 
@@ -68,6 +69,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 ##### SAXSVS
 
 * FIX: Die Prüfroutine auf doppelte GUIDs beim Import von Daten wurden überarbeitet
+* FIX: Prüfung für `Schüler > Daten 2> Höchster AbschlussABS > Schulform`
 
 #### Skripte
 
