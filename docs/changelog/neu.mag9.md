@@ -136,17 +136,20 @@ Eine neue Prüfung wurde für die Ausgabe der Statistikfelder `<av_abs_schart>` 
 ##### Fremdsprachen
 
 Unter `Schüler > Daten3 > Fremdsprachen` gibt es das neue Feld `erteilt` für die Fremdsprache 1-4. In diesem Feld gibt es die Werte `leer`, `1.Halbjahr`, `2.Halbjahr` und `Schuljahr` zur Auswahl. Dieses Feld kann auch per Sammelzuweisung belegt werden. Aus diesem Feld werden entsprechend des gewählten Zeitraums (ZeitraumArt 1. Halbjahr oder 2. Halbjahr) und dem Eintrag die Fremdsprachen in die Statistikdatei übergeben.
+
 Beispiele:
 
 Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
 --|--|--
 1.Halbjahr oder 2. Halbjahr| `Leer`|leer
 1.Halbjahr|`2.Halbjahr`|leer
-21.Halbjahr|`1.Halbjahr`|leer
+2.Halbjahr|`1.Halbjahr`|leer
 1.Halbjahr|`1.Halbjahr` oder `Schuljahr`|Fremdsprache
 2.Halbjahr|`2.Halbjahr` oder `Schuljahr`|Fremdsprache
 
 [![Kontrollübersicht Klassen][11]][11]
+
+Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen).
 
 ## MyMAGELLAN
 
