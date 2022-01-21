@@ -47,6 +47,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: das Skript "Synchronisiere BBS.dws" wurde überarbeitet
 
+##### Berichte
+
+* FIX: DAS-GS-GY (Klasse 3-10).rpt (Ausgabe der Detailinformationen, Tabellenverknüpfungen optimiert)
+
 ### Version 9.0.0 900 (04.01.2022)
 
 Version 9 wurde veröffentlicht!
