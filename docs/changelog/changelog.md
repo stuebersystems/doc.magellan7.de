@@ -50,6 +50,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ##### Berichte
 
 * FIX: DAS-GS-GY (Klasse 3-10).rpt (Ausgabe der Detailinformationen, Tabellenverknüpfungen optimiert)
+* FIX: BER-Schul Z 300 (11.19).rpt (Bericht überarbeitet, Mehrfachausgabe von Zeugnisbemerkungen korrigiert)
 
 ### Version 9.0.0 900 (04.01.2022)
 
