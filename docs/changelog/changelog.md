@@ -53,7 +53,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: DAS-GS-GY (Klasse 3-10).rpt (Ausgabe der Detailinformationen, Tabellenverknüpfungen optimiert)
 * FIX: BER-Schul Z 300 (11.19).rpt (Bericht überarbeitet, Mehrfachausgabe von Zeugnisbemerkungen korrigiert)
 * NEW: DAS-Verzeichnisliste der Prüflinge Abitur (Anlage 7).rpt )Bitte beachten Sie die [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/das/DAS-Verzeichnisliste%20der%20Pr%C3%BCflinge%20Abitur%20%28Anlage%207%29/)!)
+* FIX: SAC-BG-JZ (E.01.02).rpt (unentschuldigete Fehlzeiten entfernt)
+* FIX: SAC-BG-HJZ (E.01.04).rpt (unentschuldigete Fehlzeiten entfernt)
+* FIX: SAC-BG-HJZ (E.01.03).rpt (unentschuldigete Fehlzeiten entfernt)
+
+
 ### Version 9.0.0 900 (04.01.2022)
+
 
 Version 9 wurde veröffentlicht!
 
