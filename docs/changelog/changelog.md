@@ -59,10 +59,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
 
-
-
 ### Version 9.0.0 900 (04.01.2022)
-
 
 Version 9 wurde veröffentlicht!
 
