@@ -56,6 +56,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-BG-JZ (E.01.02).rpt (unentschuldigete Fehlzeiten entfernt)
 * FIX: SAC-BG-HJZ (E.01.04).rpt (unentschuldigete Fehlzeiten entfernt)
 * FIX: SAC-BG-HJZ (E.01.03).rpt (unentschuldigete Fehlzeiten entfernt)
+* FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
+* FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
+
 
 
 ### Version 9.0.0 900 (04.01.2022)
