@@ -58,6 +58,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-BG-HJZ (E.01.03).rpt (unentschuldigete Fehlzeiten entfernt)
 * FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
+* FIX: SAC-FS-HJI (C.01.01).rpt = > Zeichenlängeformel für Fächerzeichenlänge deaktiviert
 
 ### Version 9.0.0 900 (04.01.2022)
 
