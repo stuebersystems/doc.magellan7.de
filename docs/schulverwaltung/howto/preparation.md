@@ -27,7 +27,7 @@ Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslands
 
 !!! warning "Tipp"
 
-    Wollten Sie erneut eine leere Datenbank benötigen, können Sie unter dem [Link](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB) jederzeit einen neue leere Datenbank im aktuellen Format herunterladen und wieder in Ihrem Datenbankverzeichnis ablegen.
+    Wollten Sie erneut eine leere Datenbank benötigen, können Sie unter dem [Link (MAGELLAN 8)](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB) oder [Link (MAGELLAN 9)](https://download.stueber.de/bin/de/assets/magellan/v89/database/MAGELLAN9.FDB) jederzeit einen neue leere Datenbank im aktuellen Format herunterladen und wieder in Ihrem Datenbankverzeichnis ablegen.
 
 !!! warning "Wichtig"
 
