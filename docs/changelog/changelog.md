@@ -47,6 +47,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Skripte
 
 * FIX: das Skript "Synchronisiere BBS.dws" wurde überarbeitet
+* CHANGE: Beim Synchronisieren von Zugriffsrechten wurden Debug-Meldungen gezeigt, diese sind deaktiviert worden.
+* FIX: SAC-FW-APO-2014.js
 
 ##### Berichte
 
