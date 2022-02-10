@@ -73,8 +73,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   
 #### Schnittstellen
 
- * Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
- * CHANGE: [NRW] SIM.TXT - Im Falle eines Bildungsgangwechslers wird künftig nur noch eine Datensatz als Neuzugang an neuer Schule ausgespielt, die alte Laufbahn wird in die VO-Felder eingetragen, zusätzlich müssen noch die Felder LSQual, Zeugnis, Berufsabschluss und Versetzung gefüllt sein
+* Change: [SHL] Schlüsselverzeichnis Unterrichtsarten
+* CHANGE: [NRW] SIM.TXT - Im Falle eines Bildungsgangwechslers wird künftig nur noch eine Datensatz als Neuzugang an neuer Schule ausgespielt, die alte Laufbahn wird in die VO-Felder eingetragen, zusätzlich müssen noch die Felder LSQual, Zeugnis, Berufsabschluss und Versetzung gefüllt sein
 * FIX: [SAXSVS]  `<al_fremd_fs1 >` wird ausgegeben, Eingabe muss unter `Schüler > Zeugnis > Fächer`erfolgen
 
 #### Skripte
