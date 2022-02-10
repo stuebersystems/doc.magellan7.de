@@ -2,7 +2,7 @@
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in MAGELLAN. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
-* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: 
+* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
 
   * [2021](changelog2021.md)
   * [2020](changelog2020.md)
@@ -22,10 +22,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-
 ## Version 9
 
 ### Version 9.0.1 (unveröffentlicht)
+
+* NEW: EnbreaID für die Tabellen "Zeitraeume", "KlassenZeitraeume", "SchuelerBesonderheiten" und "Noten" hinzugefügt
 
 #### MAGELLAN Schulverwaltung
 
