@@ -48,6 +48,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Skripte
 
 * FIX: das Skript "Synchronisiere BBS.dws" wurde überarbeitet
+* CHANGE: Beim Synchronisieren von Zugriffsrechten wurden Debug-Meldungen gezeigt, diese sind deaktiviert worden.
+* FIX: SAC-FW-APO-2014.js
 
 ##### Berichte
 
@@ -60,6 +62,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FS-HJI (C.01.01).rpt = > Zeichenlängeformel für Fächerzeichenlänge deaktiviert
+* FIX: SAC-FS-HJZ (C.01.03).rpt (Zeichenlänge in Unterbericht BerufS angepasst, Textkorrekturen)
 
 ### Version 9.0.0 900 (04.01.2022)
 
