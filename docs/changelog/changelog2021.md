@@ -207,22 +207,22 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 ##### Sachsen
 
 * NEW: SAC-FO-FHReife (D.01.05)(ab 2017).rpt
-* CHANGE: [SAC-BG-ABI (E.01.06).rpt] 
-   * Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
-   * Namensanzeige (Vorname Vorname2 Zusatz Nachname) angepasst
-   * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
+* CHANGE: [SAC-BG-ABI (E.01.06).rpt]
+  * Die Hinweise für die Sprachreferenz der Fremdsprachen können ggfs. mit Umbruch gezeigt werden.
+  * Namensanzeige (Vorname Vorname2 Zusatz Nachname) angepasst
+  * Ausgabe Fachrichtung erweitert (Erst Fachrichtung des Schülerbildungsganges, dann Fachrichtung des Klassenbildungsganges)
 * CHANGE: SAC-Fremdsprachenzertifikat (F.01.05).rpt
 * Fix: Zeugnis SAC-BG-AZ (E.01.05).rpt
 * CHANGE: SAC-BG-AZ (E.01.05).rpt - ergänzt um Ausgabe Namen SchulleiterIn/TutorIn
 * FIX: SAC-FS-AS mit FHReife (C.01.06).rpt  (Korrektur der Anzeige der Durchschnittsnote in Zahl und Wort)
 * CHANGE: ergänzt um 2. Vorname und Namenszusatz
-   * SAC-Fremdsprachenzertifikat (F.01.05).rpt 
-   * SAC-BS-HJI (A.01.02).rpt 
-   * SAC-BS-JZ (A.02.01).rpt
-   * SAC-FO-FHReife (D.01.05)(ab 2017).rpt
-   * SAC-BS-AZ (A.02.04).rpt
-   * SAC-BS-AS (A.02.05).rpt
-   * SAC-BF-AZ (B.03.04).rpt
+  * SAC-Fremdsprachenzertifikat (F.01.05).rpt
+  * SAC-BS-HJI (A.01.02).rpt
+  * SAC-BS-JZ (A.02.01).rpt
+  * SAC-FO-FHReife (D.01.05)(ab 2017).rpt
+  * SAC-BS-AZ (A.02.04).rpt
+  * SAC-BS-AS (A.02.05).rpt
+  * SAC-BF-AZ (B.03.04).rpt
 
 * CHANGE: SAC-BF-AS (B.04.05).rpt (ergänzt um Ausgabe Prüfungsvorsitz, SchulleiterIn)
 * CHANGE: SAC-BF-HJI (B.01.01).rpt
@@ -471,9 +471,9 @@ FIX: Die Funktionalität `Fahrstrecken` wurde überarbeitet
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/).
 
-* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
+* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus.
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
-* NEW:  DE-DIAP-2018 
+* NEW:  DE-DIAP-2018
 
 ### Version 8.0.4 800 (07.05.2021)
 
@@ -660,7 +660,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht. Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die MAGELLAN-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR). Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt](https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt)!
 
-
 ##### Berlin
 
 * NEW: BER-Schul Z 593 (2019.2020).rpt
@@ -842,7 +841,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * NEW: SAR-APO-2018.dws (gemäß Gymnasialen Oberstufe Saar (GOS) vom vom 17. April 2018.)
-* NEW: NIE-APO-G9-2018.dws 
+* NEW: NIE-APO-G9-2018.dws
 
 #### Berichte
 

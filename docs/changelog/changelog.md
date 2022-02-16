@@ -4,9 +4,9 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 * Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
 
-  * [2021](changelog2021.md)
-  * [2020](changelog2020.md)
-  * [2019](changelog2019.md)
+  * [2021](changelog/changelog2021.md)
+  * [2020](changelog/changelog2020.md)
+  * [2019](changelog/changelog2019.md)
 
 ## LEGENDE
 
