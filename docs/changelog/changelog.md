@@ -37,6 +37,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Die für den Druck und die Vorschau integrierte Runtimeversion von Crystal Reports wurde aktualisiert auf Version `CR SP31`
 * FIX: Wenn Sie mehrere Unfallanzeigen für einen Schüler angelegt haben und eine gezielte in der Vorschau betrachten möchten, wird die gewählte Unfallanzeige gezeigt
 * FIX: Eingabemaske für den Assistenten unter `Schüler > Laufbahnprozesse > Schüler ausschulen` überarbeitet.
+* CHANGE: Textänderung unter `Datenbank > Optionen > Dokumente > Berichte`
+* FIX: `Extras > Schlüsselverzeichnisse|Tafel (ASV) > neuer Eintrag` erzeugte Fehlermeldung
+* FIX: `Betriebe > Betrieb markieren > Rechtsklick > Betriebe zusammenführen und filtern`: `Weiter` wurde inaktiv
+* FIX: Unter `Bewerber > Daten 3` werden die Felder `1. FS`, `2. FS` und `Krankenkasse` beim Menüwechsel gespeichert
+* FIX: Seriendruck aus dem Menü `Klassen`
+* NEW: neue Vorlage für den Seriendruck aus dem Menü `Klassen` (`Liste aller Klassen.dotx`)
+* FIX: `Schüler > Zeugnis > ASV > Kategorietafel exportieren`
+* FIX: Der Assistent zum `Schüler ausschulen` wurde überarbeitet
 
 #### MyMAGELLAN
 
