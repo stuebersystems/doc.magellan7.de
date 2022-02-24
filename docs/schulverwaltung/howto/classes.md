@@ -83,7 +83,7 @@ Sie benötigen je nach Schulart jedes Schuljahr neue Klassen von der 1. Klasse b
 Sie benötigen in der Regel nicht für Schüler eine neue Klasse, da die meisten Schüler solange ein Bildungsgang dauert in derselben Klasse bleiben. Sie benötigen aber neue Klasse für neue Bildungsgänge. Sollten Sie ein berufliches Gymnasium sein, kann es auch hier, dass Sie die Schüler nicht durchgehend fortschreiben, sondern wie im allgemeinbildenden Bereich im Wechsel Fortschreiben und Versetzen (Beispiel: Noten in der 11, Punkte ab der 12, in diesem Fall würden die Schüler versetzt werden müssen, um die geänderte Benotung darstellen zu können).
 Wenn Sie Ihre Klassenkürzel wie folgt aufbauen, kann der Assistent auch die Jahreszahlen im Klassenkürzel/Statistikkürzel anpassen:
 
-Maler_2019 oder Maler_19
+`Maler_2022` oder `Maler_22`
 
 Tragen Sie den Teil des Kürzels, der später als Alpha erkannt werden soll im gleichnamigen Feld unter `Klassen > Daten > Alpha` ein.
 
@@ -91,10 +91,14 @@ Tragen Sie den Teil des Kürzels, der später als Alpha erkannt werden soll im g
 
 Diese Vorbelegung kann man später im Assistenten einfach austauschen lassen.
 
+!!! info "Hinweis"
+
+  Mit dem Alpha kann nur der hintere Teil des Klassennamens ausgetauscht werden, der Wert wird nicht erkannt, wenn er vorn (`2022_Maler`) oder mittig (`Maler_2022_A`) im Klassennamen auftaucht.
+
 |Aktion|
 |:--|
-|1. Wechseln Sie ins neue Schulhalbjahr und rufen das Menü ``Laufbahnprozesse > Klassenübernehmen`` auf!|
-|2. Der Assistent zeigt Ihnen die Klassen des letzten Halbjahres an. <br/>**Berufsbildende Schulen:**<br/>Wenn Sie das Klassenalpha anpassen möchten, müssen Sie vor der Übernahme der Klassen auf der rechten Seite ins Feld `Alpha` bitte Ihr neues `Alpha` (Beispiel: 2020 oder 20) eintragen!|
+|1. Wechseln Sie ins neue Schulhalbjahr und rufen das Menü ``Laufbahnprozesse > Klassen übernehmen`` auf!|
+|2. Der Assistent zeigt Ihnen die Klassen des letzten Halbjahres an. <br/>**Berufsbildende Schulen:**<br/>Wenn Sie das Klassenalpha anpassen möchten, **müssen Sie vor der Übernahme** der Klassen auf der rechten Seite ins Feld `Alpha` bitte Ihr neues `Alpha` (Beispiel: 2020 oder 20) eintragen!|
 |3. Markieren Sie die Klassen, die Sie fürs dieses Schuljahr benötigen und klicken auf das Plus oben links, um Ihre Auswahl in die rechte Fensterhälfte zu übernehmen.|
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen02.png>|
 |**Abbildung:** <img src=/assets/images/schuljahreswechsel/klassen_uebernehmen03.png>|
