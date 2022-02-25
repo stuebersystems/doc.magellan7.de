@@ -45,7 +45,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * NEW: neue Vorlage für den Seriendruck aus dem Menü `Klassen` (`Liste aller Klassen.dotx`)
 * FIX: `Schüler > Zeugnis > ASV > Kategorietafel exportieren`
 * FIX: Der Assistent zum `Schüler ausschulen` wurde überarbeitet
-* FIX: `Bewerber > Merkmal > Merkmal A1` Schlüsselverzeichnis mit Feldlänge 20 Zeichen kann ausgelesen werden.
+* FIX: `Bewerber > Merkmal > Merkmal A1` Kürzel mit Feldlänge 20 Zeichen kann ausgelesen werden.
 
 
 #### MyMAGELLAN
@@ -77,12 +77,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-BG-HJZ (E.01.03).rpt (unentschuldigete Fehlzeiten entfernt)
 * FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
-* FIX: SAC-FS-HJI (C.01.01).rpt = > Zeichenlängeformel für Fächerzeichenlänge deaktiviert
-<<<<<<< HEAD
-* CHANGE: SAC-FS-HJZ (C.01.03).rpt (Textänderung: hat in der gesamten bisherigen Ausbildung folgende Leistungen erreicht) 
-=======
+* FIX: SAC-FS-HJI (C.01.01).rpt => Zeichenlängeformel für Fächerzeichenlänge deaktiviert
 * FIX: SAC-FS-HJZ (C.01.03).rpt (Zeichenlänge in Unterbericht BerufS angepasst, Textkorrekturen)
->>>>>>> abb2153c338eee8d9e2738dbc1f1cf7dd44bd1c5
+* CHANGE: SAC-FS-HJZ (C.01.03).rpt (Textänderung: hat in der gesamten bisherigen Ausbildung folgende Leistungen erreicht) 
+
 
 ### Version 9.0.0 900 (04.01.2022)
 
