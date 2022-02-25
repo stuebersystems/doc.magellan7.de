@@ -63,6 +63,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: das Skript "Synchronisiere BBS.dws" wurde überarbeitet
 * CHANGE: Beim Synchronisieren von Zugriffsrechten wurden Debug-Meldungen gezeigt, diese sind deaktiviert worden.
 * FIX: SAC-FW-APO-2014.js
+* FIX: NRW-APO-BK-2018.dws Vorschlag überarbeitet
 
 ##### Berichte
 
