@@ -2,11 +2,11 @@
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in MAGELLAN. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
-* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: 
+* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
 
-  * [2021](changelog2021.md)
-  * [2020](changelog2020.md)
-  * [2019](changelog2019.md)
+  * [2021](changelog/changelog2021.md)
+  * [2020](changelog/changelog2020.md)
+  * [2019](changelog/changelog2019.md)
 
 ## LEGENDE
 
@@ -22,15 +22,31 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-
 ## Version 9
 
-### Version 9.0.1 (unveröffentlicht)
+### Version 9.0.1 901 (unveröffentlicht)
 
+!!! warning "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+* NEW: EnbreaID für die Tabellen: `Banken`, `Besonderheiten`, `BetriebeKontakte`, `KlassenBesonderheiten`, `KlassenZeitraeume`, `Medien`, `MedienKataloge`, `MedienVorgaenge`, `MedizinArten`, `MedizinKategorien`, `Noten`, `SchuelerAusbildung`, `SchuelerBesonderheiten`, `SchuelerFachdaten`, `SchuelerFehlzeiten`, `SchuelerFoerderungen`, `SchuelerSchulen`, `SchuelerSorgebe`, `SchuelerZeitraeume`, `SchuelerZeugnisbemerkungen`, `SchuelerZeugnisformulare`, `Schulen`, `Zeitraeume`
+  
 #### MAGELLAN Schulverwaltung
 
+* CHANGE: Die für den Druck und die Vorschau integrierte Runtimeversion von Crystal Reports wurde aktualisiert auf Version `CR SP31`
 * FIX: Wenn Sie mehrere Unfallanzeigen für einen Schüler angelegt haben und eine gezielte in der Vorschau betrachten möchten, wird die gewählte Unfallanzeige gezeigt
 * FIX: Eingabemaske für den Assistenten unter `Schüler > Laufbahnprozesse > Schüler ausschulen` überarbeitet.
+* CHANGE: Textänderung unter `Datenbank > Optionen > Dokumente > Berichte`
+* FIX: `Extras > Schlüsselverzeichnisse|Tafel (ASV) > neuer Eintrag` erzeugte Fehlermeldung
+* FIX: `Betriebe > Betrieb markieren > Rechtsklick > Betriebe zusammenführen und filtern`: `Weiter` wurde inaktiv
+* FIX: Unter `Bewerber > Daten 3` werden die Felder `1. FS`, `2. FS` und `Krankenkasse` beim Menüwechsel gespeichert
+* FIX: Seriendruck aus dem Menü `Klassen`
+* NEW: neue Vorlage für den Seriendruck aus dem Menü `Klassen` (`Liste aller Klassen.dotx`)
+* FIX: `Schüler > Zeugnis > ASV > Kategorietafel exportieren`
+* FIX: Der Assistent zum `Schüler ausschulen` wurde überarbeitet
+* FIX: `Bewerber > Merkmal > Merkmal A1` Schlüsselverzeichnis mit Feldlänge 20 Zeichen kann ausgelesen werden.
+
 
 #### MyMAGELLAN
 
@@ -61,7 +77,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-FOS-HJZ (D.01.01).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FOS-HJZ (D.01.01)(Fachpraktuscher Unterricht).rpt: Ausgabelänge der Fächer
 * FIX: SAC-FS-HJI (C.01.01).rpt = > Zeichenlängeformel für Fächerzeichenlänge deaktiviert
+<<<<<<< HEAD
 * CHANGE: SAC-FS-HJZ (C.01.03).rpt (Textänderung: hat in der gesamten bisherigen Ausbildung folgende Leistungen erreicht) 
+=======
+* FIX: SAC-FS-HJZ (C.01.03).rpt (Zeichenlänge in Unterbericht BerufS angepasst, Textkorrekturen)
+>>>>>>> abb2153c338eee8d9e2738dbc1f1cf7dd44bd1c5
 
 ### Version 9.0.0 900 (04.01.2022)
 

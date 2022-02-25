@@ -47,6 +47,12 @@ Nr.|Was ist zu tun?
 
 ### 1. Bewerberkopie erstellen
 
+!!! warning "Wichtig!"
+
+    Es kann Situationen geben, in denen es sinnvoll ist, eine bestehenden Schüler zu kopieren. Beispielsweise weil der Schüler aktuell Schüler der Schule ist, sich aber auf einen Bildungsgang im folgenden Jahr bewirbt oder der Schüler bereits in der Vergangenheit Schüler Ihrer Schule war, sich jetzt aktuell bei Ihnen bewirbt oder einer aktuellen Klasse zugeordnet werden soll. 
+    Damit das möglich ist, kann man eine Kopie des Schülers erstellen, diese Kopie hat aber immer eine Verbindung zum "Urschüler". Ändern Sie Daten (beispielsweise Adressdaten) beim "Urschüler" oder bei der Kopie, geschieht Ihre Änderung stets auch für die Kopie oder den "Urschüler" - es handelt sich um dieselbe reale Person. 
+    An einigen Stellen weichen wir von diesem Vorgehen ab (beispielsweise bei der Herkunftsschule oder bei der als aktuell gekennzeichneten Ausbildung). Was geändert wird und was individuell bleibt beschreiben wir im Abschnitt ["Welche Daten werden synchronisiert"](https://doc.magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#welche-daten-werden-synchronisiert).
+
 Sie erstellen eine Kopie des Schülers, dafür gibt es zwei Möglichkeiten:
 
 Möglichkeit|Vorgehen
