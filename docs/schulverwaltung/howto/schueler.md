@@ -167,6 +167,12 @@ Die Funktionalität dieser Karte wird im gesonderten Abschnitt [Merkmale](https:
 
     Das Feld `Bemerkung` ist für Schulen in Schleswig-Holstein nicht sichtbar.
 
+### Bemerkungen
+
+Es gibt ein frei eintragbares Bemerkungsfeld unter `Daten3` und eine Liste von Bemerkungen auf der Karte `Merkmale`. Um die Bemerkungen in der Liste einer gewünschten Kategorie zuzuweisen, gibt es je Bemerkung das Feld `Bemerkungskategorie`. Dieses Feld verweist nicht auf ein Schlüsselverzeichnis, die Liste kann durch von Ihnen erfasste Einträge gebildet werden. Tippen Sie im Feld `Kategorie` einen Wert ein, wird die Kategorie für diesen Eintrag gespeichert, wird aber auch für einen weiteren Eintrag als Listeneintrag zur Verfügung gestellt. Die Liste der Bemerkungskategorien bildet sich also aus Ihren Einträgen.
+
+![Bemerkungsliste](/assets/images/schueler/merkmal01.01.png)
+
 ![Unterkarte Merkmale](/assets/images/schueler/merkmal01.png)
 
 ## Sammelzuweisung
