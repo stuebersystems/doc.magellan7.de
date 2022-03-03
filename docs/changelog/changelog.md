@@ -46,7 +46,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Schüler > Zeugnis > ASV > Kategorietafel exportieren`
 * FIX: Der Assistent zum `Schüler ausschulen` wurde überarbeitet
 * FIX: `Bewerber > Merkmal > Merkmal A1` Kürzel mit Feldlänge 20 Zeichen kann ausgelesen werden.
-
+* CHANGE: Auf der Unterkarte `Schüler > Zeugnis > Leistungen > Durchschnitte` werden die Felder `Durchschnitt 1-3` leer (keine 0) dargestellt, solange kein Wert erfasst ist.
+* FIX: Bewerber- und Gruppenformular behalten die Anzeigegröße des Hauptfensters bei
 
 #### MyMAGELLAN
 
@@ -81,7 +82,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAC-FS-HJZ (C.01.03).rpt (Zeichenlänge in Unterbericht BerufS angepasst, Textkorrekturen)
 * CHANGE: SAC-FS-HJZ (C.01.03).rpt (Textänderung: hat in der gesamten bisherigen Ausbildung folgende Leistungen erreicht) 
 * FIX: Drucker entfernt, Abmaße unter Datei > Seite einrichten ergänzt: Etiketten (508x254).rpt, Etiketten (Dymo 99010, 28x89).rpt, Etiketten (Dymo 99012, 36x89).rpt, Etiketten (89x36).rpt, Etiketten (254x508).rpt
-
+* FIX: BER-FOS-FHReife (Schul Z 511)(05.06).rpt (Aufruf zweite Seite)
 
 ### Version 9.0.0 900 (04.01.2022)
 
