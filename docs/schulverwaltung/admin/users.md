@@ -19,7 +19,8 @@ Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "SYSDBA" und "
 
 Der SYSDBA hat für alle Datenbanken, auf dem ein Firebird-Server läuft, das höchste Administrationsrecht.
 
-Der "Besitzer"  einer Datenbank ist derjenige Benutzer, der die Datenbank erstellt hat. Ab MAGELLAN 7 haben wir die MAGELLAN-Datenbank mit einem Benutzer namens "DBADMIN" erstellt. Durch diesen erhalten Sie für die "MAGELLAN.FDB", und nur für diese, mit dem Benutzer "DBADMIN", die gleichen Rechte wie ein SYSDBA sie auf dieser Datenbank hat.
+Der "Besitzer"  einer Datenbank ist derjenige Benutzer, der die Datenbank erstellt hat. Ab MAGELLAN 7 haben wir die MAGELLAN-Datenbank mit einem Benutzer namens "DBADMIN" erstellt. 
+Durch diesen erhalten Sie für die "MAGELLAN.FDB" (oder auch mehrere Datenbanken innerhalb eines Firebird-Systems) mit dem Benutzer "DBADMIN", die gleichen Rechte wie ein SYSDBA.
 
 ## Registerkarte „Benutzerliste“
 
