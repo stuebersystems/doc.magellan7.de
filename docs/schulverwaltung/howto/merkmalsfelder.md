@@ -14,6 +14,10 @@ Für die Menüpunkte Schüler, Bewerber, Klassen, Lehrer, Schulen und Mandanten 
 | Schüler/Bewerber > Merkmale > **Merkmal A4**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
 | Schüler/Bewerber > Merkmale > **Merkmal A5**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
 | Schüler/Bewerber > Merkmale > **Merkmal A6**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
+| Schüler/Bewerber > Merkmale > **Merkmal A7**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
+| Schüler/Bewerber > Merkmale > **Merkmal A8**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
+| Schüler/Bewerber > Merkmale > **Merkmal A9**   | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
+| Schüler/Bewerber > Merkmale > **Merkmal A10**  | Verzeichnis [Verzeichnisse > Merkmale] | zur freien Verwendung                |
 | Schüler/Bewerber > Merkmale > **Merkmal B1**   | freie Eingabe                          | zur freien Verwendung                |
 | Schüler/Bewerber > Merkmale > **Merkmal B2**   | freie Eingabe                          | zur freien Verwendung                |
 | Schüler/Bewerber > Merkmale > **Merkmal B3**   | freie Eingabe                          | zur freien Verwendung                |
