@@ -26,6 +26,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 9.0.2 901 (unveröffentlicht)
 
+#### Skripte
+
+* FIX: NRW-APO-BK-2018: Markierung der neu einsetzenden Fremdsprache geändert
+
 #### MAGELLAN Schulverwaltung
 
 * CHANGE: ...
