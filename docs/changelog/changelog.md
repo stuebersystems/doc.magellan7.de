@@ -34,6 +34,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: ...
 
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+* FIX: SAR-Antrag auf Zulassung (Antrag 5).rpt (Formel zur Ausgabe des Namens) [Download der Berichtsdatei](https://my.hidrive.com/lnk/9oxEtyl9)
+
 ### Version 9.0.1 901 (04.03.2022)
 
 !!! warning "Wichtig"
@@ -79,6 +85,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: NRW-APO-BK-2018.dws Vorschlag überarbeitet
 
 ##### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * FIX: DAS-GS-GY (Klasse 3-10).rpt (Ausgabe der Detailinformationen, Tabellenverknüpfungen optimiert)
 * FIX: BER-Schul Z 300 (11.19).rpt (Bericht überarbeitet, Mehrfachausgabe von Zeugnisbemerkungen korrigiert)
