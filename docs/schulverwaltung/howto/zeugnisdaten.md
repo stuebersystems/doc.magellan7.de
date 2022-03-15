@@ -88,7 +88,7 @@ Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits 
     Zusätzlich gibt es weitere Optionen, die das mehrfache Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
     Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
 
-Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln zuweisen. 
+Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln zuweisen.
 
 !!! warning "Wichtig!"
 
@@ -131,13 +131,17 @@ Kombinationen|Funktion
 
 Diese Optionen können ohne das Zuweisen einer Fachtafel zum Ergänzen genutzt werden, können aber auch parallel zum Zuweisen verwendet werden.
 
+!!! warning "Wichtig!"
+
+    Wenn Sie abweichende Fachzeilen beim Ergänzen nicht ändern möchten, setzen Sie bitte das Häkchen für `Vorhandene Fachdaten der Schüler nicht löschen`!
+
 [![Optionen zum Verändern bestehender Fachdaten][4]][4]
 
 Nr.|Option|Funktion
 --|--|--
-1.|Nicht erzwingen|Standardauswahl,keine Aktion
-2.|Über Fach abgleichen| Je nach Auswahl per Checkbox werden `Unterrichtsart`, `Fachstatus`, `Merkmal`, `Position`, `Faktor` oder `Lehrer` aus der Fachtafel ausgelesen und dem erkannten Fach (bei Fach-Dopplungen den Fächer) zugewiesen. Für den Vergleich der Fächer wird die Fach-ID verwendet. Ein leerer Wert aus der Fachtafel überschreibt bei gesetzter Option einen erfassten Wert beim Schülerfach.
-3.|Über Fach, Unterrichtsart, Fachstatus abgleichen| Wie `2.`, das Fach wird aber nicht nur anhand der Fach-ID erkannt, zusätzlich werden auch Unterrichtsart (Kürzel) und Fachstatus (Kürzel) verglichen, nur wenn alle drei übereinstimmen, wird geändert.
+1.|Nicht erzwingen|Standardauswahl, keine Aktion
+2.|Über Fach abgleichen| Je nach Auswahl per Checkbox werden `Unterrichtsart`, `Fachstatus`, `Merkmal`, `Position`, `Faktor` oder `Lehrer` aus der Fachtafel ausgelesen und dem erkannten Fach (bei Fach-Dopplungen den Fächer) zugewiesen. Für den Vergleich der Fächer wird die Fach-ID verwendet. Ein leerer Wert aus der Fachtafel überschreibt bei gesetzter Option einen erfassten Wert beim Schülerfach.<br/>Wenn Sie abweichende Fachzeilen beim Ergänzen nicht ändern möchten, setzen Sie bitte das Häkchen für `Vorhandene Fachdaten der Schüler nicht löschen`
+3.|Über Fach, Unterrichtsart, Fachstatus abgleichen| Wie `2.`, das Fach wird aber nicht nur anhand der Fach-ID erkannt, zusätzlich werden auch Unterrichtsart (Kürzel) und Fachstatus (Kürzel) verglichen, nur wenn alle drei übereinstimmen, wird geändert.<br/>Wenn Sie abweichende Fachzeilen beim Ergänzen nicht ändern möchten, setzen Sie bitte das Häkchen für `Vorhandene Fachdaten der Schüler nicht löschen`
 
 ### Fachtafeln zuweisen (bis MAGELLAN 8)
 
