@@ -38,7 +38,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* FIX: SAR-Antrag auf Zulassung (Antrag 5).rpt (Formel zur Ausgabe des Namens) [Download der Berichtsdatei](https://my.hidrive.com/lnk/9oxEtyl9)
+* FIX: `SAR-Antrag auf Zulassung (Antrag 5).rpt` (Formel zur Ausgabe des Namens) [Download der Berichtsdatei](https://my.hidrive.com/lnk/9oxEtyl9)
+* CHANGE: Der Bericht `SAR-Antrag auf Zulassung (Antrag 5).rpt` wurde in je eine Variante für G8 (`SAR-Antrag auf Zulassung (Antrag 5) G8.rpt`) und G9 (`SAR-Antrag auf Zulassung (Antrag 5) G9.rpt`) aufgeteilt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/sar/SAR-Antrag_Zulassung_Abitur%20%28Anlage%205%29/#eintrittsdatum-in-die-oberstufe)
 
 ### Version 9.0.1 901 (04.03.2022)
 
