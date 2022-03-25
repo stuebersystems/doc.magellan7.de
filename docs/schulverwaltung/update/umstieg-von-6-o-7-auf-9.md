@@ -6,11 +6,11 @@ Wenn Sie von Version 7 aus umsteigen möchten, aktualisieren Sie Ihre Datenbank 
 
 ## Von Version 6 auf Version 9
 
-Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritt nötig, nachfolgend beschreiben wir die Schritte.
+Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfolgend beschreiben wir die Schritte.
 
 ### Alte SQL-Update-Skripte
 
-Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis "C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate"
+Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
 
 ### Leere `Magellan8.fdb`
 

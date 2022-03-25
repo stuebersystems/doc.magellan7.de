@@ -14,7 +14,7 @@ Nr.|Was ist zu tun
 
 ## Auf dem Server
 
-###  Ausgangssituation prüfen und aktualisieren
+### Ausgangssituation prüfen und aktualisieren
 
 Auf Ihrem **Serverrechner** stellen Sie bitte sicher, dass jeweils die aktuellste Ausgabe von `MAGELLAN 8` und `Firebird 2.5.9` einsetzt wird. Die Versionen auf den Clientrechner müssen nicht aktualisiert werden.
 
