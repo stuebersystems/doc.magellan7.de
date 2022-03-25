@@ -82,14 +82,14 @@ nav:
         - V7 Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md
     - Upgrade:
       - auf Version 9:
-        - von Version 8: schulverwaltung/update/umstieg-von-8-auf-9.md
-        - von Version 6/7: schulverwaltung/update/umstieg-von-6-o-7-auf-9.md
-      - auf Version 8:
-        - von Version 7: schulverwaltung/update/umstieg-von-7-auf-8.md
-        - von Version 6: schulverwaltung/update/umstieg-von-6-auf-8.md
-      - auf Version 7:      
-        - von Version 6: schulverwaltung/update/umstieg-von-6-auf-7.md
-        - Eigene Berichte anpassen: schulverwaltung/update/berichte_anpassen.md   
+        - von 8 auf 9: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
+        - von 7 auf 9: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
+        - von 6 auf 9: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
+      - Archiv
+        - von 7 auf 8: schulverwaltung/upgrade/umstieg-von-7-auf-8.md
+        - von 6 auf 8: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
+        - von 6 auf 7: schulverwaltung/upgrade/umstieg-von-6-auf-7.md
+        - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
     - Update: 
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
