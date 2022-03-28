@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
-* CHANGE: ...
+* FIX: Serienbrief an Sorgeberechtigte mit paralleler Ablage in Schülerunterordner
 
 #### Berichte
 
@@ -44,6 +44,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: Der Bericht `SAR-Antrag auf Zulassung (Antrag 5).rpt` wurde in je eine Variante für G8 (`SAR-Antrag auf Zulassung (Antrag 5) G8.rpt`) und G9 (`SAR-Antrag auf Zulassung (Antrag 5) G9.rpt`) aufgeteilt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/sar/SAR-Antrag_Zulassung_Abitur%20%28Anlage%205%29/#eintrittsdatum-in-die-oberstufe)
 * NEW: BER-Schul Z 213(11.19).rpt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20213%2811.19%29/)
 * NEW: BER-Schul Z 213(2020.2021).rpt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20213%282020.2021%29/)
+* FIX: Bewerberpersonalblatt: Der Unterbericht "Eltern.rpt" wurde angepasst um die Sorgeberechtigten auch für Schülerkopien ausgeben zu können. Eine Anleitung für eigenen Berichte finden Sie hier: [https://doc.kb.stueber.de/cr/sb/](https://doc.kb.stueber.de/cr/sb/)
 
 ### Version 9.0.1 901 (04.03.2022)
 
