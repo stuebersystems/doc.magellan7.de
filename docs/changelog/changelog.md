@@ -35,6 +35,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: Serienbrief an Sorgeberechtigte mit paralleler Ablage in Schülerunterordner
+* FIX: Zeichenlänge für neues Kürzel beim Fachtafel extrahieren auf 20 erhöht
+* FIX: Die Umbenennung der neuen Merkmalsfelder MerkmalA7-MerkmalA10 werden auch in der Auswahlliste gezeigt.
+* FIX: Bewerberpassbild löschen
 
 #### Berichte
 
