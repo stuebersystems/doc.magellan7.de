@@ -110,7 +110,10 @@ nav:
       - Halbjahreswechsel: schulverwaltung/howto/halbjahreswechsel.md
       - Schuljahreswechsel: schulverwaltung/howto/schuljahreswechsel.md
       - Sonderfälle in der Schullaufbahn: schulverwaltung/howto/sonderfaelle.md
-      - Zeugnisdaten: schulverwaltung/howto/zeugnisdaten.md
+      - Zeugnisdaten: 
+        - Fachdaten: schulverwaltung/howto/zeugnisdaten1.md
+        - Leistungsdaten: schulverwaltung/howto/zeugnisdaten2.md
+        - Weiter Zeugnisdaten: schulverwaltung/howto/zeugnisdaten3.md
       - ENBREA Leistungen: schulverwaltung/howto/enbrea.leistungen.md
       - Prüfungsnummer generieren: schulverwaltung/howto/pruefungsnummer.md
       - Durchschnitt/Abschluss berechnen: schulverwaltung/howto/durchschnitt-abschluss.md
