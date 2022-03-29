@@ -50,9 +50,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* CHANGE: Der Bericht `SAR-Antrag auf Zulassung (Antrag 5).rpt` wurde in je eine Variante für G8 (`SAR-Antrag auf Zulassung (Antrag 5) G8.rpt`) und G9 (`SAR-Antrag auf Zulassung (Antrag 5) G9.rpt`) aufgeteilt. Der Bericht gibt jeweils als Oberstufeneintrittsklasse fest eine 10 (G8) und 11 (G9) aus. Zusätzlich wurde die Ausgabe des Eintrittsdatums in die Oberstufe an die Anleitung (Ausgabe des Datumswertes auch `Schüler > Merkmal > Merkmal D1`) angepasst. Im Bericht wurde die Formel zur Ausgabe des Namens überarbeitet.<br/>Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/sar/SAR-Antrag_Zulassung_Abitur%20%28Anlage%205%29).<br/>Den Download der Berichtsdateien finden Sie[hier]](https://my.hidrive.com/lnk/L7REt3aq)
+* CHANGE: SAR-Antrag auf Zulassung (Antrag 5).rpt
+    * Der Bericht wurde in zwei Varianten aufgeteilt:<br/>`SAR-Antrag auf Zulassung (Antrag 5) G8.rpt`<br/>`SAR-Antrag auf Zulassung (Antrag 5) G9.rpt`
+    * Der Bericht gibt jeweils als Oberstufeneintrittsklasse fest eine 10 (G8) und 11 (G9) aus.
+    * Zusätzlich wurde die Ausgabe des Eintrittsdatums in die Oberstufe an die Anleitung (Ausgabe des Datumswertes auch `Schüler > Merkmal > Merkmal D1`) angepasst.
+    * Im Bericht wurde die Formel zur Ausgabe des Namens überarbeitet.
+    * Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/sar/SAR-Antrag_Zulassung_Abitur%20%28Anlage%205%29), den Download der Berichtsdateien finden Sie [hier](https://my.hidrive.com/lnk/L7REt3aq)
 * NEW: BER-Schul Z 213(11.19).rpt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20213%2811.19%29/)
-* NEW: BER-Schul Z 213(2020.2021).rpt. Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20213%282020.2021%29/)
+* NEW: BER-Schul Z 213(2020.2021).rpt, eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20213%282020.2021%29/)
 * FIX: Bewerberpersonalblatt: Der Unterbericht "Eltern.rpt" wurde angepasst um die Sorgeberechtigten auch für Schülerkopien ausgeben zu können. Eine Anleitung für eigenen Berichte finden Sie hier: [https://doc.kb.stueber.de/cr/sb/](https://doc.kb.stueber.de/cr/sb/)
 
 ### Version 9.0.1 901 (04.03.2022)
