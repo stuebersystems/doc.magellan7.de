@@ -32,8 +32,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Zeichenlänge für neues Kürzel beim Fachtafel extrahieren auf 20 erhöht
 * FIX: Die Umbenennung der neuen Merkmalsfelder MerkmalA7-MerkmalA10 werden auch in der Auswahlliste Bewerber und Schüler gezeigt
 * FIX: Bewerberpassbild löschen
-* NEW: Neue Option "Abweichende Fächer hinzufügen" beim "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen`.Bitte beachten Sie die geänderte Anleitung unter [https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten)!
-* NEW: Beim Nutzen der "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen` wird automatisch das Häkchen "Vorhandende Fachdaten der Schüler" gesetzt und ausgegraut. Bitte beachten Sie die geänderte Anleitung unter [https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten)!
+* NEW: Fachtafel zuweisen:
+    * Neue Option "Abweichende Fächer hinzufügen" beim "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen`.
+    * NEW: Beim Nutzen der "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen` wird automatisch das Häkchen "Vorhandende Fachdaten der Schüler" gesetzt und ausgegraut. 
+    * Bitte beachten Sie die geänderte [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten)!
 * FIX: `Klasse > Zeiträume > Leistungsprofile`: Anlegen neuer Leistungsprofile
 * FIX: Problem der Anzeige der Werte aus dem Verzeichnis Fahrkarte unter `Schüler/Bewerber > Daten 4 > Fahrkarte` gelöst
 
