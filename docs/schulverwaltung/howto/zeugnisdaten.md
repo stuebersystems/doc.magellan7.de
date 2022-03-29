@@ -83,7 +83,6 @@ Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits 
 
 ### Fachtafeln zuweisen
 
-
 !!! warning "Wichtig!"
 
     Der Assistent zum Zuweisen von Fachtafeln wurde ab Version MAGELLAN vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
