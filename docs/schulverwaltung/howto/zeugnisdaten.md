@@ -171,7 +171,7 @@ In der Spalte `Position` können Sie jedem Fach eine fortlaufende Zahl zuordnen.
 
 !!! warning "Sehr wichtig!"
 
-    Bitte beachten Sie, dass die meisten Berichte ohne die Angabe einer Position keine Fächer zeigen. Bitte prüfen Sie die Hinweise für Ihre Zeugnisberichte im Modul MAGELLAN BERICHTE!
+    Bitte beachten Sie, dass die meisten Berichte ohne die Angabe einer Position keine Fächer zeigen. Bitte prüfen Sie die Hinweise für Ihre Zeugnisberichte im Dokument [Landesanpassungen](https://doc.la.stueber.de/berichte/01_uebersicht/)!
 
 In der Spalte `Faktor` können Sie Berechnungsfaktoren eingeben. Dies ist allerdings nur für Berufsschulen relevant.
 
@@ -182,18 +182,6 @@ Möchten Sie ein Fach der Fachliste ändern, markieren Sie es entsprechend, inde
 #### Fach löschen
 
 Um ein Fach aus der Fachliste zu löschen, markieren Sie die entsprechende Zeile. Klicken Sie auf die Schaltfläche `Minus` und das Fach verschwindet aus der Fächerliste des Schülers.
-
-### Weitere Fachtafel hinzufügen
-
-Falls Sie Schülern weitere Fachtafeln zuweisen möchten, klicken Sie erneut auf Fachtafel zuweisen. Es öffnet sich wieder der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`, um zu den nächsten Schritten zu gelangen. Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern nun zugewiesen werden soll. Folgende Optionen können dabei gewählt werden:
-
-|Optionen im Assistenten|
-|:--|
-|**Vorhandene Fächer der Schüler nicht löschen markiert:** <br/><br/>Die neu gewählte Fachtafel wird zu den bei den Schülern bereits eingetragenen Fächern hinzugefügt. Es werden keine Fächer gelöscht. |
-|**Vorhandene Fächer der Schüler nicht löschen nicht markiert:** <br/><br/>Die bei den Schülern bereits eingetragenen Fächer werden gelöscht und die Schüler erhalten nur die Fächer der neu ausgewählten Fachtafel. |
-|**Nur Lehrer der Fachtafel mit den vorhandenen Fächer, Unterrichtsart und Fachstatus der Schüler … markiert:** <br/><br/>Die bei den Schülern bereits eingetragenen Fächer werden um die Lehrer aus der Fachtafel ergänzt. Bereits zugewiesen Lehrer werden durch jene der Fachtafel überschrieben. |
-|**Nur Position, Merkmal und Faktor der Fachtafel abgleichen…**<br/>**(Unterrichtsart u. Fachstatus berücksichtigen) markiert:**<br/><br/>Die bei den Schülern bereits eingetragenen Fächer und Leistungen werden nicht verändert oder gelöscht. Es werden nur Position, Merkmal und Faktor wie in der Fachtafel eingetragen übernommen. Unterrichtsart, Fachstatus und Fach müssen dabei übereinstimmen. |
-|**Nur Position, Merkmal und Faktor der Fachtafel abgleichen… **<br/>**(ohne Unterrichtsart u. Fachstatus zu berücksichtigen) markiert:** <br/><br/>Die bei den Schülern bereits eingetragenen Fächer und Leistungen werden nicht verändert oder gelöscht. Es werden nur Position, Merkmal und Faktor wie in der Fachtafel eingetragen übernommen. Der Abgleich wird unabhängig vom Fachstatus oder der Unterrichtsart vorgenommen, nur die Fächer müssen identisch sein. |
 
 ### Fächer zuweisen: Welche Möglichkeiten gibt es
 
@@ -228,7 +216,7 @@ Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel 
 ### Fachtafel extrahieren
 
 Über das Extrahieren von Fachtafeln können Sie eine für einen Schüler erstellte Fachliste als Fachtafel extrahieren und somit weiteren Schülern zuweisen. Dies ist eine zusätzliche Möglichkeit Fachtafeln zu erstellen, allerdings diesmal "vor Ort". Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Fachtafel extrahieren`.
- 
+
 ![Geben Sie hier ein Kürzel und eine Bezeichnung für die neue Fachtafel ein.](/assets/images/zeugnisdaten/zeugnisdaten10.png)
 
 Die Fachtafel ist jetzt unter dem eingegebenen Kürzel und der Bezeichnung mit den Fächern des konkreten Schülers in dem Verzeichnis `Fachtafeln` gespeichert. Wenn Sie Schülern jetzt eine Fachtafel zuweisen, wird Ihnen die extrahierte Fachtafel ebenfalls als mögliche Fachtafel angeboten.
