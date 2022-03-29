@@ -26,12 +26,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 9.0.2 901 (unveröffentlicht)
 
-#### Skripte
-
-* FIX: NRW-APO-BK-2018: Markierung der neu einsetzenden Fremdsprache geändert
-* FIX: SAR-APO-2018.dws: Der Eintrag (Beispiel Ziffern für die Ausgabe von Wochenstunden in Berichten) unter `Abitur > Qualifikation > Merkmal` wird ignoriert, es sei denn, es ist der Eintrag `A`.
-* FIX: BER-BFS-Matrix-2016.dws
-
 #### MAGELLAN Schulverwaltung
 
 * FIX: Serienbrief an Sorgeberechtigte mit paralleler Ablage in Schülerunterordner
@@ -45,6 +39,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Bibliothek
 
 * FIX: `Schüler > Vorgänge`Mahngebühr ausgeblendet
+
+#### Skripte
+
+* FIX: NRW-APO-BK-2018: Markierung der neu einsetzenden Fremdsprache geändert
+* FIX: SAR-APO-2018.dws: Der Eintrag (Beispiel Ziffern für die Ausgabe von Wochenstunden in Berichten) unter `Abitur > Qualifikation > Merkmal` wird ignoriert, es sei denn, es ist der Eintrag `A`.
+* FIX: BER-BFS-Matrix-2016.dws
 
 #### Berichte
 
