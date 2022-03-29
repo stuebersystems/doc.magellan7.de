@@ -39,7 +39,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Bibliothek
 
-* FIX: `Schüler > Vorgänge`Mahngebühr ausgeblendet
+* FIX: `Schüler > Vorgänge > Mahngebühr` ausgeblendet
 
 #### Skripte
 
