@@ -40,6 +40,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Bewerberpassbild löschen
 * NEW: Neue Option "Abweichende Fächer hinzufügen" beim "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen`.Bitte beachten Sie die geänderte Anleitung unter [https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#optionen-zum-verandern-bestehender-fachdaten](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#optionen-zum-verandern-bestehender-fachdaten)!
 * NEW: Beim Nutzen der "Optionen zum Verändern bestehender Fachtafeln" unter `Schüler > Fächer > Fachtafel zuweisen` wird automatisch das Häkchen "Vorhandende Fachdaten der Schüler" gesetzt und ausgegraut. Bitte beachten Sie die geänderte Anleitung unter [https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#optionen-zum-verandern-bestehender-fachdaten](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#optionen-zum-verandern-bestehender-fachdaten)!
+* FIX: `Klasse > Zeiträume > Leistungsprofile`Anlegen neuer Leistungsprofile
+
+#### MAGELLAN Bibliothek
+
+* FIX: `Schüler > Vorgänge`Mahngebühr ausgeblendet
 
 #### Berichte
 
