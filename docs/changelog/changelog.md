@@ -38,6 +38,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Zeichenlänge für neues Kürzel beim Fachtafel extrahieren auf 20 erhöht
 * FIX: Die Umbenennung der neuen Merkmalsfelder MerkmalA7-MerkmalA10 werden auch in der Auswahlliste gezeigt.
 * FIX: Bewerberpassbild löschen
+* FIX: `Klasse > Zeiträume > Leistungsprofile`Anlegen neuer Leistungsprofile
+
+#### MAGELLAN Bibliothek
+
+* FIX: `Schüler > Vorgänge`Mahngebühr ausgeblendet
 
 #### Berichte
 
