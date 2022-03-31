@@ -110,7 +110,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: SAC-FW-APO-2014.js
 * FIX: NRW-APO-BK-2018.dws Vorschlag überarbeitet
 
-##### Berichte
+#### Berichte
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
