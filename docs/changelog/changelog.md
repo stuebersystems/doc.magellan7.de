@@ -38,11 +38,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
     * Bitte beachten Sie die geänderte [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten1/#optionen-zum-verandern-bestehender-fachdaten)!
 * FIX: `Klasse > Zeiträume > Leistungsprofile`: Anlegen neuer Leistungsprofile
 * FIX: Problem der Anzeige der Werte aus dem Verzeichnis Fahrkarte unter `Schüler/Bewerber > Daten 4 > Fahrkarte` gelöst
-* CHANGE: Ändern, Neuanlegen (auch ohne Status Pausieren) und Löschen von Schülerabwesenheiten unter `Schüler > Laufbahn` möglich.
+* CHANGE: Ändern, Neuanlegen (auch ohne Status `Pausieren`) und Löschen von Schülerabwesenheiten unter `Schüler > Laufbahn` möglich.
 
 #### MAGELLAN Bibliothek
 
 * FIX: `Schüler > Vorgänge > Mahngebühr` ausgeblendet
+
+#### Schnittstellen
+
+* FIX: Die Prüfroutine auf doppelte GUIDs beim Import von Daten wurden überarbeitet
 
 #### Skripte
 
