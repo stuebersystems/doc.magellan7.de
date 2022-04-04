@@ -24,6 +24,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
+### Version 9.0.3 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+#### Skripte
+
+FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
+
 ### Version 9.0.2 901 (01.04.2022)
 
 #### MAGELLAN Schulverwaltung
