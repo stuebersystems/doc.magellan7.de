@@ -30,7 +30,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Skripte
 
-FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
+* FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
+* CHANGE: NRW-APO-BK-2018.dws: Schreibweise `DIFF` für Unterrichtsart ergänzt (zusätzlich zu Diff)
 
 ### Version 9.0.2 901 (01.04.2022)
 
