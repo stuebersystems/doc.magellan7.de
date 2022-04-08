@@ -15,7 +15,14 @@ Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte l
     Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe `CRYSTAL REPORTS 2013`. 
     Um Ihre eigenen Berichte für MAGELLAN 7 anzupassen benötigen Sie mindestens `CRYSTAL REPORTS 2011`.
 
-## MAGELLAN unterstützt Unicode
+## Beauftragen Sie uns
+
+Sie können Ihre Berichte nach der untenstehenden Anleitung umstellen oder uns beauftragen.
+Schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Angebot: MAGELLAN 6-Berichte umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot, schreiben Ihnen die weiteren Schritte und erstellen Ihnen ein Uploadverzeichnis usw.
+
+## Schritte zum Bericht umstellen
+
+### MAGELLAN unterstützt Unicode
 
 Dies ist grundsätzlich eine erfreuliche Nachricht, da ab Version 7 sämtliche Schriftzeichen in der MAGELLAN-Datenbank gespeichert werden können. Beispielsweise alle Namensschreibweisen sind nun möglich und auch für den Zeugnisdruck ausgebbar.  
 Bedingt durch diese Umstellung benötigt MAGELLAN 7 aber einen aktualisierten ODBC-Treiber, der Unicode verarbeiten kann.
@@ -29,7 +36,7 @@ Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die n
 
     Während Tests mit dem neuen ODBC-Treiber und unseren Berichten ist aufgefallen, dass viele Berichte eine Fehlermeldung produzierten, die nach Recherchen auf problematische Datenbank-Abfragen zurückzuführen sind, die ältere Crystal-Reports Versionen produzieren. Der ältere ODBC-Treiber, der in MAGELLAN 6/6.5 Verwendung findet, scheint dahingehend fehlertolerant zu sein, verweigert der neuere Treiber die Verarbeitung und erzeugt einen Fehler.
 
-## Was ist zu tun - eine Übersicht
+### Was ist zu tun - eine Übersicht
 
 Nr.|Was ist zu tun
 --|--
@@ -39,7 +46,7 @@ Nr.|Was ist zu tun
 4.|[Tabellenverknüpfungen anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
 5.|[Test](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
 
-## 1. ODBC-Treiber-Einstellungen
+### 1. ODBC-Treiber-Einstellungen
 
 Um das Problem beheben zu können, müssen wir fehlerfrei auf die Datenbank zugreifen können. Das funktioniert nur, wenn wir zuvor ein paar Einstellungen an den ODBC-Treiber weitergeben.
 
@@ -71,7 +78,7 @@ Downloadseite|Eintrag
 --|--
 [https://firebirdsql.org/en/odbc-driver/](https://firebirdsql.org/en/odbc-driver/) | Windows 32-bit Full Install
 
-## 2. Datenbankverbindung aktualisieren
+### 2. Datenbankverbindung aktualisieren
 
 Wenn Sie auf einem Rechner arbeiten, mit dem Sie üblicherweise Ihre Crystal-Reports Berichte bearbeiten, dann legt Crystal-Reports gerne mehrere Datenquellen zur ODBC-Verbindung an. Um da für die Korrektur nicht durcheinander zu kommen, räumen wir an der Stelle auf.
 
@@ -96,7 +103,7 @@ Diese Einstellung kann man nicht direkt editieren, letztlich muss eine neue korr
 | **Abbildung:**<br> <img src=/assets/images/berichte.anpassen/berichte.anpassen7.png>|
 |6. Melden Sie sich wieder an und testen die Vorschau, jetzt sollte es klappen!|
 
-## 3. Datenquellenpfad festlegen
+### 3. Datenquellenpfad festlegen
 
 Fehlermeldungen:
 
@@ -127,7 +134,7 @@ Fehlermeldungen:
 | **Abbildung:**<br> <img src=/assets/images/berichte.anpassen/cr_fix_step2_7.png>|
 |**Wichtig: Wiederholen Sie diese Schritte bitte auch jeweils aus den vorab geöffneten Unterberichten heraus.**|
 
-## 4. Tabellenverknüpfungen
+### 4. Tabellenverknüpfungen
 
 Außerdem sind ab MAGELLAN 7 einige wichtige Umstellungen in der Datenbankstruktur vorgenommen worden, um neue und verbesserte Funktionalitäten abbilden zu können. Dadurch sind einige Felder entfernt und an anderer Stelle hinzugekommen.
 
@@ -152,7 +159,7 @@ SchuelerZeitraeume und SchuelerAusbildung|[Neue Verknüpfungen](https://doc.mage
 
     Die aktuelle Datenstrukturbeschreibung finden Sie als Teil der Dokumentation [MAGELLAN TOOLBOX](https://doc.magellan-toolbox.stueber.de/).
 
-### "SchuelerZeitraeume" und "SchuelerAusbildung"
+#### "SchuelerZeitraeume" und "SchuelerAusbildung"
 
 Das Feld `Ausbildung` ist in der Tabelle `Schueler` weiterhin vorhanden, bildet aber nicht mehr die aktuelle "Ausbildung" ab.
 
@@ -171,7 +178,7 @@ Ausbildung|linke äußere Verknüpfung<br/>(left outer join)|ID
 
 ![SchuelerAusbildung](/assets/images/berichte.anpassen/cr_fix_schuelerAusbildung.png)
 
-### Schueler
+#### Schueler
 
 Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden, sondern wurden in die neue Tabelle "SchuelerFoerderungen" verschoben, da es sich jetzt um eine Liste von Fördermaßnahmen/Behinderung/Schwächen handelt.
 
@@ -180,7 +187,7 @@ Die Felder folgenden Felder sind nicht mehr in der Tabelle "Schueler" zu finden,
 * "Foerderschwerpunkt2"
 * "Behinderung"
 
-### SchuelerKlassen
+#### SchuelerKlassen
 
 Wenn die Tabelle "SchuelerKlassen" in Berichten verwendet wurde, dann musste Sie mit den Feldern "Schueler", "Klasse", "Zeitraum" verknüpft werden. Diese Felder gibt es in der Tabelle nicht mehr, dafür gibt es das Feld "SchuelerZeitraumID". Die Tabelle wird dann aus der Tabelle "SchuelerZeitraeume" Feld "ID" verknüpft. Folgende Fehlermeldung könnten Sie in der Vorschau erhalten:
 
@@ -196,33 +203,33 @@ SchülerZeitraeume|-|SchuelerKlassen
 Mandant|linke äußere Verknüpfung<br/>(left outer join)|Mandant
 ID|linke äußere Verknüpfung<br/>(left outer join)|SchuelerZeitraumID
 
-### Empfohlene Verknüpfung
+#### Empfohlene Verknüpfung
 
 Eine Empfehlung finden Sie im Artikel ["Empfohlene Verknüpfung"](https://doc.kb.stueber.de/cr/verknuepfung.html) in unserer Knowledge-Base.
 
-## 5. Test
+### 5. Test
 
 Speichern Sie Ihre Änderungen und wählen Sie anschließend `F5` (oder rufen die Vorschau über das Symbol auf). Wird die Vorschau gefüllt (bei mehrseitigen Berichten bitte auch einmal blättern)? Dann ist der Bericht jetzt für MAGELLAN 7 vorbereitet.
 
-## Sollte es noch weitere Probleme geben
+### Sollte es noch weitere Probleme geben
 
-### arithmetic exception, numeric overflow
+#### arithmetic exception, numeric overflow
 
 Sie erhalten diese Meldung? Dann folgen Sie bitte dem  Punkt der Anleitung: [2. Datenbankverbindung aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/#2-datenbankverbindung-aktualisieren)
 
 ![Meldung](/assets/images/berichte.anpassen/berichte.anpassen2.png)
 
-### Keine Datenbankverbindung möglich
+#### Keine Datenbankverbindung möglich
 
 Wir empfehlen für die Änderung der Berichte auf eine lokale MAGELLAN 7-Installation zuzugreifen.
 
-### Die Vorschau lädt und lädt
+#### Die Vorschau lädt und lädt
 
 Wenn Sie alle vorstehenden Punkte befolgt haben, die Vorschau aber noch immer dauerhaft lädt, ist vermutlich eine vergessene Verknüpfung in einem Unterbericht die Ursache.
 
 Die Übersicht der Verknüpfungen gilt für den jeweils gewählten Bericht oder Unterbericht. Bitte schauen Sie, ob es Unterberichte in Ihrem Bericht gibt und überprüfen Sie bitte die Verknüpfungen unter `Datenbank > Datenbank-Assistent > Unterkarte Verknüpfungen` während der Unterbericht geöffnet ist.
 
-### Operation noch nicht implementiert
+#### Operation noch nicht implementiert
 
 Erscheint die Meldung in der MAGELLAN-Vorschau oder in der Crystal Reports-Vorschau?
 
@@ -233,7 +240,7 @@ Dann handelt es sich vermutlich um einen Bericht, der den Inhalt eines Feldes al
     Klappt die Vorschau von Berichten mit Barcode direkt nach dem MAGELLMA-Update nicht? 
     Bitte starten Sie Ihren Rechner einmal neu, anschließend sollte die Schriftart, die zur Anzeige von Barcodes verwendet wird, verfügbar sein.
 
-### Die Tabelle wurde nicht gefunden
+#### Die Tabelle wurde nicht gefunden
 
 In Crystal Reports klappt die Vorschau, MAGELLAN meldet aber "Die Tabelle wurde nicht gefunden"?
 
@@ -247,20 +254,20 @@ Dann öffnen Sie bitte den Bericht in Crystal Reports und stellen sicher, dass u
 
 ![Dieses Häkchen darf NICHT aktiviert sein](/assets/images/berichte.anpassen/berichte.anpassen8.png)
 
-### Failed to save document
+#### Failed to save document
 
 Manche Berichte lassen sich nicht speichern, auch nicht über `Speichern unter`.
 Eine mögliche Ursache dafür kann sein, dass ein Unterbericht im Detailbereich eingebunden wurde. Ändert man das, lässt sich der Bericht auch normal speichern.
 
 ![Failed to save document](/assets/images/berichte.anpassen/cr.nicht.speicherbar.jpg)
 
-### Schüler wird wiederholt angezeigt
+#### Schüler wird wiederholt angezeigt
 
   Sollten Sie in einem Zeugnis das Problem haben, dass der in MAGELLAN in der Vorschau geladene Schüler beim Test der Vorschau in Crystal Reports immer wieder nacheinander gezeigt wird, kontrollieren Sie bitte die Verknüpfungen der Tabellen `KlassenZeitraeume` und `Klassen`.
 
 ![Verknüpfung](/assets/images/berichte.anpassen/berichte.anpassen10.png)
 
-### Der verkehrte Schüler wird angezeigt
+#### Der verkehrte Schüler wird angezeigt
 
   In einigen alten Berichten wurde die Tabelle `SchuelerKlassen` statt der Tabelle `KlassenZeitraeume` verwendet.
   Das die Verknüpfung nicht stimmt, kann man z.b. daran bemerken, dass ein verkehrter Schüler statt des ausgewählten Schülers angezeigt wird.
@@ -273,7 +280,7 @@ Was können Sie tun:
 
 ![KlassenZeitraeume verknüpfen](/assets/images/berichte.anpassen/04.png)
 
-### Es werden mehr als die ausgewählten Datensätze gezeigt
+#### Es werden mehr als die ausgewählten Datensätze gezeigt
 
 Problem: Sie wählen in MAGELLAN nur wenige Datensätze aus um die Auswahltabellen zu füllen (Drucken > Vorschau), in der Crystal Reportsvorschau werden aber dennoch immer alle Datensätze aufgerufen.
 
@@ -282,11 +289,3 @@ Eine mögliche Ursache kann folgender Punkt sein:
 CR optimiert vor dem Aufruf des Berichtes selbständig (und nicht unterdrückbar) die Abfrage. Gerade bei sehr einfachen Berichten kann das eigenständige Optimieren zu merkwürdigen Nebeneffekten führen. Was hilft, ist ein Feld im oberen Bereich des Berichtes einzufügen und dann zu unterdrücken.
 
 ![Feld einfügen und ausblenden](/assets/images/berichte.anpassen/01.png)
-
-## Kurze Einweisung per Teamviewer
-
-Wenn Sie hierbei Unterstützung benötigen, können wir Ihnen TeamViewer-Sitzungen anbieten, in denen wir Ihnen anhand eines Ihrer Berichte exemplarisch die Umstellung zeigen. 
-
-Wenn Sie an einer solchen TeamViewer-Sitzung interessiert sind, schreiben Sie uns bitte eine Nachricht unter dem **Stichwort "Kurzeinweisung: MAGELLAN 6-Bericht umstellen"** an [office@stueber.de](mailto:office@stueber.de), wir erstellen Ihnen gern ein Angebot.
-
-Anschließend senden Sie uns bitte eine Berichtsdatei, die wir vorab zum Test umstellen, wir vereinbaren einen Termin mit Ihnen und stellen den Bericht dann mit Ihnen gemeinsam in einer Teamviewer-Sitzung um.
