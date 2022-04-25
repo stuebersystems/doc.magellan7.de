@@ -147,7 +147,7 @@ Version 9 wurde veröffentlicht!
 
 Eine Übersicht der Neuerungen finden Sie hier: [https://doc.magellan.stueber.de/changelog/neu.mag9/](https://doc.magellan.stueber.de/changelog/neu.mag9/)
 
-Eine Umstiegsanleitung von Version 8 auf Version 9 finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/)
+Eine Umstiegsanleitung von Version 8 auf Version 9 finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/)
 Eine Installationsanleitung finden Sie hier: [https://doc.magellan.stueber.de/schulverwaltung/installation/](https://doc.magellan.stueber.de/schulverwaltung/installation/)
 
 ## Version 8

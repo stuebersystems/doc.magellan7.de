@@ -5,7 +5,7 @@ In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem l
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/)!
+    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/)!
 
 ## Vorbereitung und Downloads
 
