@@ -28,6 +28,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
+* FIX: Im Menü `Bewerber` wurde für den Seriendruck an Sorgeberechtigte die Ausgabe der Sorgeberechtigtendaten für kopierte Bewerber (Bewerber mit gefüllter IDIntern) korrigiert.
+
 #### Skripte
 
 * FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
