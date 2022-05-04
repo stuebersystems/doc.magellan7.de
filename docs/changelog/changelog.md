@@ -35,6 +35,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
 * CHANGE: NRW-APO-BK-2018.dws: Schreibweise `DIFF` für Unterrichtsart ergänzt (zusätzlich zu Diff)
 
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+CHANGE: BER-Schul Z 510 (12.13).rpt (Noten-Punkte-Tabelle angepasst)
+
 ### Version 9.0.2 901 (01.04.2022)
 
 #### MAGELLAN Schulverwaltung
