@@ -67,6 +67,17 @@ Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitt
 
     Bitte legen Sie **nur Ihre zusätzlichen Dateien** in der neuen Verzeichnisstruktur ab und ersetzen Sie bitte nicht die Verzeichnisse! 
 
+Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordnern dürfen Daten NICHT übernommen werden, weil MAGELLAN 9 hier beispielsweise einen anderen Aufbau erwartet.
+
+Datenordner | Übernahme | Hinweise
+--|--|--
+Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
+Datenbank|Ja| Die MAGELLAN 7 oder MAGELLAN 8 Datenbank bitte mit neuer Bezeichnung (MAGELLAN9.fdb) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
+Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 9 ab.
+Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von MAGELLAN 9 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
+Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.
+Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 9 ab.
+
 ## Auf den Clientrechnern
 
 ### MAGELLAN 9 installieren und lizenzieren
