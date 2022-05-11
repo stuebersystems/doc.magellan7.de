@@ -32,8 +32,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Skripte
 
+* FIX: `Synchronisiere BBS.dws` procedure SynchronizeBBSDetails_BER_BS(Schueler: TSchueler)
+* FIX: `Synchronisiere BBS.dws`  Spezielle Variante für Saarland unter `Ihr Server\...\Stueber Systems\Magellan 9\Skripte\Saarland`.<br/>Anleitung utner [https://doc.la.stueber.de/12.sar/sar-synchronisiere-bbs/](https://doc.la.stueber.de/12.sar/sar-synchronisiere-bbs/)
 * FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
 * CHANGE: NRW-APO-BK-2018.dws: Schreibweise `DIFF` für Unterrichtsart ergänzt (zusätzlich zu Diff)
+* FIX: `DE-DIAP-2018.dws` Optimale Markierung bei mehreren Naturwissenschaften
 
 #### Berichte
 
