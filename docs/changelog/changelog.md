@@ -90,6 +90,8 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Bewerberpersonalblatt: Der Unterbericht "Eltern.rpt" wurde angepasst um die Sorgeberechtigten auch für Schülerkopien ausgeben zu können. Eine Anleitung für eigenen Berichte finden Sie hier: [https://doc.kb.stueber.de/cr/sb/](https://doc.kb.stueber.de/cr/sb/)
 * FIX: BER-Schul Z 513a (12.13).rpt
 * FIX: DSND.DAS-GY-ABI (DIA) (2019).rpt: Seitengröße angepasst
+* NEW: BER-Schul Z 306 (03.22).rpt
+* NEW: BER-Schul Z 306 (03.22)(FG).rpt
 
 ### Version 9.0.1 901 (04.03.2022)
 
