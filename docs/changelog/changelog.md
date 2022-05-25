@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAR-APO-2018.dws: Einbringung fortgeführte Fremdsprache korrigiert
 * CHANGE: NRW-APO-BK-2018.dws: Schreibweise `DIFF` für Unterrichtsart ergänzt (zusätzlich zu Diff)
 * FIX: `DE-DIAP-2018.dws` Optimale Markierung bei mehreren Naturwissenschaften
+* FIX: `NRW-APO-BK-2018.dws ` optimale Markierung bei Sport
 
 #### Berichte
 
