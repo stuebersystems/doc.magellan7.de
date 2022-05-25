@@ -1,11 +1,11 @@
 ﻿
-# MAGELLAN 6-Berichte für 7 oder 8 anpassen
+# MAGELLAN 6-Berichte für 7 oder höher anpassen
 
 Aufgrund technischer Veränderungen in MAGELLAN 7 und 8 müssen Berichte aus MAGELLAN 6 für die neueren Version angepasst werden.
 
 !!! warning "Wichtig"
 
-    Berichte, die für MAGELLAN 6 genutzt wurden, müssen vor der Verwendung in MAGELLAN 7 oder 8 angepasst werden. Berichte, die bereits unter MAGELLAN 7 verwendet wurden, müssen NICHT für den Einsatz unter MAGELLAN 8 angepasst werden.
+    Berichte, die für MAGELLAN 6 genutzt wurden, müssen vor der Verwendung in MAGELLAN 7 oder 8 angepasst werden. Berichte, die bereits unter MAGELLAN 7 oder höher verwendet wurden, müssen NICHT für den Einsatz unter MAGELLAN 8 angepasst werden.
 
 Alle mitgelieferten Originalberichte von STÜBER SYSTEMS wurden angepasst und ausgeliefert.
 Berichte, die von Schulen verändert worden sind oder selbsterstellte Berichte liegen im Verantwortungsbereich der Schulen. Im Folgenden erläutern wir die Gründe und die notwendigen Anpassungen.
