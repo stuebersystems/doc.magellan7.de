@@ -31,6 +31,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Im Menü `Bewerber` wurde für den Seriendruck an Sorgeberechtigte die Ausgabe der Sorgeberechtigtendaten für kopierte Bewerber (Bewerber mit gefüllter IDIntern) korrigiert.
 * FIX: Excelexport aus dem Menüpunkt `Mittelstufe`
 
+#### MyMAGELLAN
+
+* FIX: Problem beim `Speichern unter` behoben
+
 #### Skripte
 
 * FIX: `Synchronisiere BBS.dws` procedure SynchronizeBBSDetails_BER_BS(Schueler: TSchueler)
