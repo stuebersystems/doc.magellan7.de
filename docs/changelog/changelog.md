@@ -48,10 +48,19 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-CHANGE: BER-Schul Z 510 (12.13).rpt (Noten-Punkte-Tabelle angepasst)
-NEW: `Bewerberliste mit Ausbildungsbetrieb.rpt` [Anleitung hier](https://doc.la.stueber.de/berichte/bewerber/Bewerberliste%20mit%20Ausbildungsbetrieb/)
+##### Allgemein
+
+* NEW: `Bewerberliste mit Ausbildungsbetrieb.rpt` [Anleitung hier](https://doc.la.stueber.de/berichte/bewerber/Bewerberliste%20mit%20Ausbildungsbetrieb/)
+
+##### Berlin
+
+* CHANGE: BER-Schul Z 510 (12.13).rpt (Noten-Punkte-Tabelle angepasst)
 * NEW: `BER-Schul Z 256 (2021.2022).rpt`[Anleitung hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20256%20%282020.2021%29/) 
-NEW: Abi-18b_Meldung_zur_weiteren_muendlichen_Pruefung-fuer_2021-2022
+* NEW: Abi-18b_Meldung_zur_weiteren_muendlichen_Pruefung-fuer_2021-2022
+
+##### Deutsche Auslandsschulen
+
+* CHANGE: DAS-GY-ABI (DIA)(2021).rpt (Schullogodatei) Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/das/DAS-GY-ABI%20%28DIA%29%282021%29/#logo](https://doc.la.stueber.de/berichte/zeugnisse/das/DAS-GY-ABI%20%28DIA%29%282021%29/#logo).
 
 ### Version 9.0.2 901 (01.04.2022)
 
