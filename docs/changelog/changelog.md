@@ -43,6 +43,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: NRW-APO-BK-2018.dws: Schreibweise `DIFF` für Unterrichtsart ergänzt (zusätzlich zu Diff)
 * FIX: `DE-DIAP-2018.dws` Optimale Markierung bei mehreren Naturwissenschaften
 * FIX: `NRW-APO-BK-2018.dws ` optimale Markierung bei Sport
+* FIX: `SAC-APO-BGY-2021.dws`: §40(2)4.: ...mindestens ein Kurshalbjahresergebnis in jedem sonstigen belegten Grundkursfach. [Vorabdownload hier](https://my.hidrive.com/lnk/YfRkNFGb)
 
 #### Berichte
 
