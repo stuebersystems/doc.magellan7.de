@@ -36,7 +36,7 @@ Hier werden alle Schüler aufgelistet, die der Sorgeberechtigten `Andrea Antelam
 
 ### Status
 
-Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Rechtsklick > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Auf dem selben Weg können Sie den Status aus wieder ändern.
+Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Rechtsklick > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Auf dem selben Weg können Sie den Status auch wieder ändern.
 
 Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keinem weiteren aktiven Schüler an der Schule zugeordnet wurden.
 
