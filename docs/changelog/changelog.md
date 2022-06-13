@@ -30,6 +30,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Im Menü `Bewerber` wurde für den Seriendruck an Sorgeberechtigte die Ausgabe der Sorgeberechtigtendaten für kopierte Bewerber (Bewerber mit gefüllter IDIntern) korrigiert.
 * FIX: Excelexport aus dem Menüpunkt `Mittelstufe`
+* CHANGE: In der `MAGELLAN9_BEISPIEL.FDB` wurde die Daten (Schülerdaten, Zeitraumdaten usw.) um ein Jahr erhöht.
 
 #### MyMAGELLAN
 
