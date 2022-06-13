@@ -64,6 +64,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: `BER-Abi-5 Mitteilung Abipruefung (12.21).rpt`
 * NEW: `BER-Schul Z 306 (03.22).rpt`
 * NEW: `BER-Schul Z 306 (03.22)(FG).rpt`
+* NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.22).rpt`
 
 ##### Deutsche Auslandsschulen
 
