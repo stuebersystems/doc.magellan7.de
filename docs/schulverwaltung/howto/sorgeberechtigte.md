@@ -32,6 +32,18 @@ Auf der Registerkarte `Kinder` werden alle Kinder des Sorgeberechtigten mit dere
 
 Hier werden alle Schüler aufgelistet, die der Sorgeberechtigten `Andrea Antelami` zugewiesen wurden.
 
-!!! info "Hinweis"
+## Sorgeberechtigten-Liste aktuell halten
 
-    Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Bearbeiten > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keine weiteren aktiven Schüler an der Schule haben.
+### Status
+
+Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Rechtsklick > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Auf dem selben Weg können Sie den Status aus wieder ändern.
+
+Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keinem weiteren aktiven Schüler an der Schule zugeordnet wurden.
+
+### Sorgeberechtigte löschen
+
+Wenn man Sorgeberechtigte löschen möchte, dann markiert man die gewünschten Datensätze in der Auswahlliste `Sorgeberechtigte` und klickt auf `Löschen`.
+
+Vor dem eigentlichen Löschen hat man die Möglichkeit der Unterscheidung:
+
+![Sorgeberechtigte löschen](/assets/images/sorgeberechtigte/schueler_43sorge.kinder.png)
