@@ -36,6 +36,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim `Speichern unter` behoben
 
+#### MAGELLAN Bibliothek
+
+* NEW: Unter `Schüler` wurden bisher die Spalten `Zeitraum` und `Klasse` gezeigt, im Ausleih-Assistenten unter `Ausleihe` wurde die Spalte `Klasse` gezeigt. Die Spalten `Klasse` und `Zeitraum` enthielten jeweils die höchste Klasse und den höchsten Zeitraum des Schülers. Wurde ein Bestandsschüler beispielsweise bereits ins Folgehalbjahr versetzt, wurde die neue Klasse und das Folgehalbjahr gezeigt. Diese beiden Spalten wurden umbenannt:
+   * ``Klasse`` heißt jetzt `höchste Klasse` und `Zeitraum` heißt jetzt `höchster Zeitraum`.
+   * Zusätzlich gibt es zwei berechnete neue Spalten, mit den Titeln `aktuelle Klasse` und `aktueller Zeitraum`, die sich am Stand je Systemdatum orientieren. Mit Hilfe dieser Änderungen können Sie Medien für die aktuelle und auch die kommende Klassensituation verleihen.
+
 #### Skripte
 
 Eine Anleitung zum Austausch von Skripten finden Sie [hier](https://doc.kb.stueber.de/support/skript_tauschen/).
