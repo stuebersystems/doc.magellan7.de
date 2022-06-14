@@ -8,6 +8,7 @@
 [6]:/assets/images/bibliothek/16-schueler.png
 [7]:/assets/images/bibliothek/17-schueler.png
 [8]:/assets/images/bibliothek/18-schueler.png
+[9]:/assets/images/bibliothek/51.png "Höchste und aktuelle Klasse"
 
 Bei der Übernahme der Ausleiher nach MAGELLAN-BIBLIOTHEK gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach MAGELLAN-BIBLIOTHEK übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von MAGELLAN bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
 
@@ -60,6 +61,20 @@ An dieser Stelle stehen Ihnen drei Optionen zur Verfügung:
 [![Auswahl][7]][7]
 
 Die Auswahlliste enthält die wichtigsten Kontaktdaten aller Schüler, wie Nachname, Vorname, Telefon, Telefax, Mobil, Klassenzugehörigkeit. Außerdem zeigt sie  den Gültigkeitszeitraum der Ausleiherlaubnis sowie eine Barcodenummer, die für jeden Ausleiher bei der Übernahme automatisch erzeugt wird.
+
+### Höchste vs. aktuelle Klasse
+
+In der Auswahlliste `Schüler` und auch im Ausleihassistenten werden die Spalten `Höchste Klasse`, `Aktuelle Klasse`, `Höchster Zeitraum` und `Aktueller Zeitraum` eingeblendet.
+Sollten Sie die Schüler bereits ins Folgejahr oder Folgehalbjahr versetzt haben, können Sie sowohl klassenweise für den aktuellen Stand und auch für die kommende Klassenzusammenstellung die Schülerliste filtern.
+
+Feld|Bedeutung
+--|--
+Höchste Klasse|höchste Klasse der Schülerlaufbahn, kann in der Zukunft liegen
+Höchster Zeitraum| höchster Zeitraum, in dem der Schüler eine Klasse besucht
+Aktuelle Klasse| aktuell besuchte Klasse ausgehend vom Systemdatum
+Aktueller Zeitraum|aktueller Zeitraum ausgehend vom Systemdatum
+
+[![Höchste und aktuelle Klasse][9]][9]
 
 ## Register `Daten`
 

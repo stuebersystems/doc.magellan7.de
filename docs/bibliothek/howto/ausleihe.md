@@ -7,6 +7,7 @@
 [5]:/assets/images/bibliothek/15.png
 [6]:/assets/images/bibliothek/ausleihe03.png
 [7]:/assets/images/bibliothek/ausleihe04.png
+[8]:/assets/images/bibliothek/50.png "höchste und aktuelle Klasse im Ausleihassistenten"
 
 Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen.
 
@@ -69,6 +70,21 @@ Es besteht die Möglichkeit, den zuletzt in der Auswahlliste der Ansichten `Sch�
 Beim Wechsel von den Ansichten `Schüler`, `Lehrer` und `Personen` zur Datenmaske `Ausleihe & Rückgabe` werden nun automatisch die Daten des zuletzt bearbeiteten Ausleihers in den Feldern des Segments `Ausleiher` angezeigt.
 
 ![Zuletzt gewählten Ausleiher vormerken](/assets/images/bibliothek/ausleihe02.png)
+
+### Höchste vs. aktuelle Klasse
+
+In der Auswahlliste `Schüler` und auch im Ausleihassistenten werden die Spalten `Höchste Klasse`, `Aktuelle Klasse`, `Höchster Zeitraum` und `Aktueller Zeitraum` eingeblendet.
+Sollten Sie die Schüler bereits ins Folgejahr oder Folgehalbjahr versetzt haben, können Sie sowohl klassenweise für den aktuellen Stand und auch für die kommende Klassenzusammenstellung die Schülerliste filtern.
+
+Feld|Bedeutung
+--|--
+Höchste Klasse|höchste Klasse der Schülerlaufbahn, kann in der Zukunft liegen
+Höchster Zeitraum| höchster Zeitraum, in dem der Schüler eine Klasse besucht
+Aktuelle Klasse| aktuell besuchte Klasse ausgehend vom Systemdatum
+Aktueller Zeitraum|aktueller Zeitraum ausgehend vom Systemdatum
+
+[![höchste und aktuelle Klasse im Ausleihassistenten][8]][8]
+
 
 ## Exemplar suchen und auswählen
 
