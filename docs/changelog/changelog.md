@@ -34,6 +34,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * NEW: `BER-GY (abi_4_berechnungsbogen)(05.20).rpt` Eine Anleitung finden Sie [hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-GY%20%28abi_4_berechnungsbogen%29%2805.20%29/), die Datei können Sie vorab [hier](https://my.hidrive.com/share/3pr60tsv6j) herunterladen.
 
+##### Sachsen
+
+* FIX: `SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt` (Ausgabe unentschuldigter Fehltage). Die Datei können Sie vorab [hier](https://my.hidrive.com/share/3pr60tsv6j) herunterladen.
+
 ### Version 9.0.3 (16.06.2022)
 
 #### MAGELLAN Schulverwaltung
