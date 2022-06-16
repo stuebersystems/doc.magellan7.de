@@ -24,7 +24,39 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.3 (unveröffentlicht)
+### Version 9.0.4 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: 
+
+#### MyMAGELLAN
+
+* FIX: 
+
+#### MAGELLAN Bibliothek
+
+* NEW: 
+
+#### Skripte
+
+Eine Anleitung zum Austausch von Skripten finden Sie [hier](https://doc.kb.stueber.de/support/skript_tauschen/).
+
+* FIX: 
+
+#### Berichte
+
+Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
+
+##### Allgemein
+
+* NEW: 
+
+##### Berlin
+
+* CHANGE:
+
+### Version 9.0.3 (16.06.2022)
 
 #### MAGELLAN Schulverwaltung
 
