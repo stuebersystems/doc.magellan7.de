@@ -7,7 +7,7 @@
 
 ## MyMAGELLAN Center starten
 
-Klicken Sie auf Start > Programme > STÜBER SYSTEMS > MyMAGELLAN Center. Die MAGELLAN-Datenbank ist grundsätzlich kennwortgeschützt. Wenn Sie MAGELLAN, MAGELLAN-Administrator bzw. das MyMagellan Center starten, müssen Sie in einem Anmeldedialog Ihre Benutzerkennung und Ihr Kennwort angeben.
+Klicken Sie auf Start > Programme > STÜBER SYSTEMS > MAGELLAN ADMINISTRATOR und starten Sie dort den Aufruf "MyMAGELLAN Center". Die MAGELLAN-Datenbank ist grundsätzlich kennwortgeschützt. Wenn Sie MAGELLAN oder MAGELLAN-Administratorstarten, müssen Sie in einem Anmeldedialog Ihre Benutzerkennung und Ihr Kennwort angeben.
 
 ![MAGELLAN-Anmeldung](/assets/images/dialog-anmeldung.png)
 
