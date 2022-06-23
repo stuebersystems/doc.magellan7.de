@@ -40,6 +40,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: `BER-Schul Z 513 – Zeugnis der Fachhochschulreife (zweij. FOS– (4 S.) (12.19).rpt` [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20513%20%E2%80%93%20Zeugnis%20der%20Fachhochschulreife%20%28zweij.%20FOS%E2%80%93%20%284%20S.%29%20%2812.19%29/) und [Download](https://my.hidrive.com/share/3pr60tsv6j) herunterladen.
 * CHANGE: `BER-Abi-18b (Meldung zur weiteren muendlichen Pruefung (12.21).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * * FIX: `BER-Schul Z 592 (03.2020).rpt` Schreibfehler korrigiert [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* * NEW: `BER-Schul Z 256 (2021.2022).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: ``BER-Schul Z 306 (03.22).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: `BER-Schul Z 213(2021.2022)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ##### Baden-Württemberg
 
@@ -93,7 +96,6 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: `BER-Schul Z 256 (2021.2022).rpt`[Anleitung hier](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20256%20%282020.2021%29/) 
 * NEW: `BER-Abi-18b (Meldung zur weiteren muendlichen Pruefung (12.21).rpt`
 * NEW: `BER-Abi-5 Mitteilung Abipruefung (12.21).rpt`
-* NEW: `BER-Schul Z 306 (03.22).rpt`
 * NEW: `BER-Schul Z 306 (03.22)(FG).rpt`
 * NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(03.22).rpt`
 
