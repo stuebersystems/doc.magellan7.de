@@ -36,7 +36,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: `BER-Schul Z 513 – Zeugnis der Fachhochschulreife (zweij. FOS– (4 S.) (12.19).rpt` [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20513%20%E2%80%93%20Zeugnis%20der%20Fachhochschulreife%20%28zweij.%20FOS%E2%80%93%20%284%20S.%29%20%2812.19%29/) und [Download](https://my.hidrive.com/share/3pr60tsv6j) herunterladen.
 * CHANGE: `BER-Abi-18b (Meldung zur weiteren muendlichen Pruefung (12.21).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
-##### Baden-Würtemberg
+##### Baden-Württemberg
 
 * NEW: `BAW-BG (Schülerzeugnisblatt).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j) und [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/baw/BAW-BG%20%28Sch%C3%BClerzeugnisblatt%29/)
 * 
