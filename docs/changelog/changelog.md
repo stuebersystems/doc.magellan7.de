@@ -38,7 +38,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Baden-Würtemberg
 
-* NEW: `BAW-BG (Schülerzeugnisblatt).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: `BAW-BG (Schülerzeugnisblatt).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j) und [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/baw/BAW-BG%20%28Sch%C3%BClerzeugnisblatt%29/)
 * 
 ##### Sachsen
 
