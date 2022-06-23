@@ -30,6 +30,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
+##### Ausland
+
+* NEW: `DAS-Verzeichnisliste der Prüflinge Abitur (Anlage 7) mit Fachkürzeln.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+
 ##### Berlin
 
 * NEW: `BER-GY (abi_4_berechnungsbogen)(05.20).rpt` [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-GY%20%28abi_4_berechnungsbogen%29%2805.20%29/) und [Download](https://my.hidrive.com/share/3pr60tsv6j)
