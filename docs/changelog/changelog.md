@@ -49,10 +49,14 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 ##### Baden-Württemberg
 
 * NEW: `BAW-BG (Schülerzeugnisblatt).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j) und [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/baw/BAW-BG%20%28Sch%C3%BClerzeugnisblatt%29/)
-* 
+
 ##### Sachsen
 
 * FIX: `SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt` (Ausgabe unentschuldigter Fehltage). [Download](https://my.hidrive.com/share/3pr60tsv6j)
+
+##### Nordrhein-Westfalen
+
+* CHANGE: `NRW-BK-AZ (E01-0A).rpt` Korrektur der Namensformel für das Zusammensetzen von Vorname, 2.Vorname, Zusatz und Nachname [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.3 (16.06.2022)
 
