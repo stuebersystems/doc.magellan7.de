@@ -44,6 +44,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: `BER-Schul Z 306 (03.22).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: `BER-Schul Z 213(2021.2022)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: `BER-Schul Z 255 (2021.2022).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: `BER-Schul Z 324 (03.22).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ##### Baden-Württemberg
 
