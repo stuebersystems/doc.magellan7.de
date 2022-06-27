@@ -33,6 +33,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 ##### Ausland
 
 * NEW: `DAS-Verzeichnisliste der Prüflinge Abitur (Anlage 7) mit Fachkürzeln.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: `DAS-Verzeichnis der Prüflinge (§ 14 Absatz (5) DIA-PO).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ##### Berlin
 
