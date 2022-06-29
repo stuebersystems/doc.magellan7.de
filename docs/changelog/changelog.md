@@ -54,7 +54,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: `BER-Schul Z 593 (10.20)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: `BER-Schul Z 592 (03.2020)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: `BER-Schul Z 590 (12.19)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
-
+* NEW: `BER-Schul Z 322 (11.19).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ##### Baden-Württemberg
 
