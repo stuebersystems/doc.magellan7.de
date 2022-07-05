@@ -71,6 +71,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 ##### Sachsen
 
 * FIX: `SAC-BS-AS (A.01.07)(Einstiegsqualifizierung).rpt` (Ausgabe unentschuldigter Fehltage). [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: `SAC-FOS-JZ (D.01.02).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ##### Nordrhein-Westfalen
 
