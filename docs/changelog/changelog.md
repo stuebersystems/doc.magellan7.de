@@ -22,6 +22,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
+    **Achtung: Die Unterstützung für MAGELLAN 8 läuft im Juli 2022 aus, bitte steigen Sie auf die aktuelle Version um!**
+
 ## Version 9
 
 ### Version 9.0.4 (unveröffentlicht)
@@ -106,6 +108,7 @@ Eine Anleitung zum Austausch von Skripten finden Sie [hier](https://doc.kb.stueb
 * FIX: `DE-DIAP-2018.dws` Optimale Markierung bei mehreren Naturwissenschaften
 * FIX: `NRW-APO-BK-2018.dws ` optimale Markierung bei Sport
 * FIX: `SAC-APO-BGY-2021.dws`: §40(2)4.: ...mindestens ein Kurshalbjahresergebnis in jedem sonstigen belegten Grundkursfach. [Vorabdownload hier](https://my.hidrive.com/lnk/YfRkNFGb)
+* FIX: `BER-FW-APO-2017.js` Für Prüfungskombination 33 weitere Tauschmöglichkeiten für PF3-5 ergänzt
 
 #### Berichte
 
