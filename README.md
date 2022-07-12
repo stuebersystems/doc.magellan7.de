@@ -57,6 +57,3 @@ Das Inhaltsverzeichnis findest Du in der Datei `mkdocs.yml`, die einzelnen Kapit
 
 Ja, sehr gerne. Der beste Weg mitzuhelfen ist es, Rückmeldung per Issue-Tracker zu geben und/oder Korrekturen per Pull-Request zu übermitteln.
 
-## Code of conduct (Verhaltensregeln)
-
-In diesem Projekt wurde der [STÜBER SYSTEMS Code of conduct](https://www.stueber.de/code-of-conduct.php) übernommen.
