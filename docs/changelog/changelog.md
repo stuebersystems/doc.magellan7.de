@@ -33,6 +33,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Wordseriendruckvorlagen überarbeitet (Schuladresse und ggfs. Seriendruckquelle entfernt)
 * FIX: PDF-Ablage für den Seriendruck aus dem Schülermenü (Betriebe, Sorgeberechtigte)
 
+#### Schnittstellen
+
+* NEW: **SHL** => Schnittstelle und importierbare Kataloge aktualisiert
+* NEW: **MVP** => Schnittstelle aktualisiert
+* NEW: **NRW** => Schnittstelle aktualisiert, Schlüssel werden erst am 15.07.22 veröffentlicht und im Anschluss von uns als importierbare Kataloge umgesetzt
+
 #### Skripte
 
 Eine Anleitung zum Austausch von Skripten finden Sie [hier](https://doc.kb.stueber.de/support/skript_tauschen/).
