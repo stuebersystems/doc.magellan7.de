@@ -33,6 +33,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Wordseriendruckvorlagen überarbeitet (Schuladresse und ggfs. Seriendruckquelle entfernt)
 * FIX: PDF-Ablage für den Seriendruck aus dem Schülermenü (Betriebe, Sorgeberechtigte)
 
+#### MyMAGELLAN CENTER
+
+* FIX: Problem beim Einlesen von unentschuldigten Fehltagen behoben
+
 #### Schnittstellen
 
 * NEW: **SHL** => Schnittstelle und importierbare Kataloge aktualisiert
