@@ -35,7 +35,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MyMAGELLAN CENTER
 
-* FIX: Problem beim Einlesen (bspsw. Fehltagen, Fehltagen unentschuldigt, Fehlstunden, Fehlstunden unentschuldigt) aus `*.mymx` behoben
+* FIX: Problem beim Einlesen (bspsw. bei Fehltagen, Fehltagen unentschuldigt, Fehlstunden, Fehlstunden unentschuldigt) aus `*.mymx` behoben
 
 #### Schnittstellen
 
