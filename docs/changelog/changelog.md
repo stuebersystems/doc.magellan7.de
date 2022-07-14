@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.4 (unveröffentlicht)
+### Version 9.0.4 901 (unveröffentlicht)
 
 #### MAGELLAN Schulverwaltung
 
@@ -95,7 +95,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 * CHANGE: `NRW-BK-AZ (E01-0A).rpt` Korrektur der Namensformel für das Zusammensetzen von Vorname, 2.Vorname, Zusatz und Nachname [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
-### Version 9.0.3 (16.06.2022)
+### Version 9.0.3 901 (16.06.2022)
 
 #### MAGELLAN Schulverwaltung
 
