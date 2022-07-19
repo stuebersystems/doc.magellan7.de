@@ -41,7 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: **SHL** => Schnittstelle und importierbare Kataloge aktualisiert
 * NEW: **MVP** => Schnittstelle aktualisiert
-* NEW: **NRW** => Schnittstelle aktualisiert, Schlüssel werden erst am 15.07.22 veröffentlicht und im Anschluss von uns als importierbare Kataloge umgesetzt
+* NEW: **NRW** => Schnittstelle aktualisiert, aktuelle Schlüssel als importierbare Kataloge hinterlegt, Lehrer-Soll-Schlüssel werden mit DAVINCI veröffentlicht, können aber [hier](https://my.hidrive.com/share/6g6u80eu18) vorab heruntergeladen werden.
 
 #### Skripte
 
