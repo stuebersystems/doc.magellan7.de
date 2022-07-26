@@ -26,9 +26,21 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-
 ### Version 9.0.5 (unveröffentlicht)
 
+#### MAGELLAN Administrator
+
+* FIX: Skript zum Anlegen der Benutzer überarbeitet
+
+### Version 9.0.5 (26.07.2022)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Problem beim Anzeigen von Schülerdaten auf Karten Daten1-3 gelöst
+
+#### Schnittstellen
+
+* NEW: **Niedersachsen** => aktuelle Schnittstelle freigegeben
 
 ### Version 9.0.4 901 (21.07.2022)
 
