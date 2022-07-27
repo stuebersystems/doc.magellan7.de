@@ -26,7 +26,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.5 (unveröffentlicht)
+### Version 9.0.6 (unveröffentlicht)
 
 #### MAGELLAN Administrator
 
