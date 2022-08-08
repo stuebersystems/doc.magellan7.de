@@ -1,6 +1,6 @@
 # Von Version 6 auf Version 9
 
-Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfolgend beschreiben wir die Schritte.
+Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfolgend beschreiben wir die Schritte. Eine Installation der Version 8 oder Lizenz für Version 8 ist nicht notwendig.
 
 ## Alte SQL-Update-Skripte
 
@@ -8,7 +8,7 @@ Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpa
 
 ## Leere `Magellan8.fdb`
 
-In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen, die bei der Installation der Version 8 angelegt wird. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im MAGELLAN 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
+In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im MAGELLAN 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
 
 ## Anpassung von Version 6 auf 8
 
