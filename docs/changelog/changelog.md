@@ -38,7 +38,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Problem beim Anzeigen von Schülerdaten auf Karten Daten1-3 gelöst
 
+#### Skripte
+
 #### Schnittstellen
+
+* FIX: `Zuweisen von Zugriffsrechten` => Kleinere Korrektur für ``SchuelerFamilie``
 
 * NEW: **Niedersachsen** => aktuelle Schnittstelle freigegeben
 
