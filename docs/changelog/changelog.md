@@ -42,7 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
-* FIX: `Zuweisen von Zugriffsrechten` => Kleinere Korrektur für ``SchuelerFamilie``
+* FIX: `Zuweisen von Zugriffsrechten` => Kleinere Korrektur für `SchuelerFamilie`
 
 * NEW: **Niedersachsen** => aktuelle Schnittstelle freigegeben
 
