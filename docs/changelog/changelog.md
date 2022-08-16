@@ -8,13 +8,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
   * [2020](https://doc.magellan.stueber.de/changelog/changelog2020/)
   * [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
 
-## LEGENDE
-
-Abkürzung | Bedeutung
-----------|----------
-FIX       | Korrektur bestehender Funktionalität
-NEW       | Neue Funktionalität
-CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
+## Wichtige Hinweise
 
 !!! danger "Achtung"
 
@@ -27,6 +21,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
     **Achtung: Die Unterstützung für MAGELLAN 8 läuft im Juli 2022 aus, bitte steigen Sie auf die aktuelle Version um!**
+
+## LEGENDE
+
+Abkürzung | Bedeutung
+----------|----------
+FIX       | Korrektur bestehender Funktionalität
+NEW       | Neue Funktionalität
+CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
