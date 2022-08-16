@@ -30,7 +30,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Administrator
 
-* FIX: Skript zum Anlegen der Benutzer überarbeitet
+* FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
+
 
 ### Version 9.0.5 (26.07.2022)
 
