@@ -42,9 +42,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
-* NEW: Lehrer (Abwesenheitsstatistik gruppiert je Jahr-nach Lehrer und Grund).rpt
-* NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt
-* NEW: Lehrer (Abwesenheitsstatistik von-bis).rpt
+* NEW: Lehrer (Abwesenheitsstatistik gruppiert je Jahr-nach Lehrer und Grund).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: Lehrer (Abwesenheitsstatistik von-bis).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.5 (26.07.2022)
 
