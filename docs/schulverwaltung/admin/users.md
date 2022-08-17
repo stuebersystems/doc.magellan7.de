@@ -1,5 +1,7 @@
 # Benutzerverwaltung
 
+[1]:/assets/images/magellan.administrator/008.png "Benutzer duplizieren"   
+
 Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 
 * den Benutzern allgemeinen Zugriffsrechte zuzuweisen,
@@ -153,3 +155,19 @@ Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort änder
 Alle Angaben der Benutzer zu MYMAGELLAN werden aus Gründen der Übersichtlichkeit unter dem Reiter `MYMAGELLAN` aufgelistet. Markieren Sie einen der Benutzer, werden für ihn im unteren Bereich zusätzlich die MAGELLAN-Rechte eingeblendet.
 
 ![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](/assets/images/magellan.administrator/users_mymag.liste.png)
+
+## Benutzer duplizieren
+
+Arbeiten mehrere Schulen auf einer Datenbank, kann es notwendig sein, dass Benutzer Zugriff auf mehrere Mandanten haben, beispielsweise wenn Verwaltungsmitarbeiter übergreifend arbeiten.
+Ein duplizierter Benutzer kann auf mehr als einen Mandanten die identischen Zugriffsrechte haben und auch aus der MAGELLAN-Oberfläche heraus auf einen anderen Mandanten, für den ihm das Recht gewährt wurde, umschalten. 
+
+!!! info "Hinweis"
+
+	Das Duplizieren ist nur für Benutzeraccounts möglich, die nicht Noten erfassen sollen. Wenn Noten für Schüler erfasst werden sollen, wird immer ausgewertet, welcher Lehrer es genau ist - dabei wird auf die Lehrerliste des Mandanten zugegriffen. Die Datensätze in einem Mandanten sind unabhängig von anderen parallel in der Datenbank existierenden Mandanten. Dat Die Lehrer in der Lehrerliste haben sind immer genau einem Mandanten zugeordnet. Legen Sie den Lehrer in einem anderen Mandanten an, kann zwar das gleiche Kürzel verwendet werden, es ist aber technisch gesehen ein anderer Lehrer mit einer anderen ID. 
+	Duplizieren Sie den Account des Lehrers, kann er sich an dem anderen Mandanten anmelden, er kann aber für die Noteneingabe nicht einem Lehrer im Menü Lehrer zugeordnet werden.
+	Sollte Sie die Situation haben, dass ein Lehrer in mehr als einem Mandanten Ihrer Datenbank für Schüler Noten vergeben soll, müssen Sie ihn je Mandant anlegen. Sie könnten dafür das identische Kürzel und auch das identische Passwort vergeben, ein Umschalten zwischen den Mandanten ist hier dann aber nicht sinnvoll. Der Lehrer muss sich um im nächsten Mandanten Notenwerte zu ändern an dem anderen Mandanten neu anmelden.
+
+Um eine Account zu duplizieren wählen Sie im MAGELLAN Administrator das Menü ``Benutzerverwaltung`` Unterregister ``Extras`` aus, markieren in der Benutzerliste den gewünschten Benutzer und klicken oben links auf `Benutzer duplizieren`. Wählen Sie im Fenster den gewünschten weiteren Mandanten aus und bestätigen Sie. Die Benutzerzeile wird dupliziert mit einem neuen Eintrag in der Spalte `Mandant`.
+Der duplizierte Benutzer kann sich jetzt mit den identischen Rechten am zweiten Mandanten anmelden und auch ggfs. aus der MAGELLAN-Oberfläche im Fenster `aktueller Mandant` zwischen den Mandanten wechseln.
+  
+![Benutzer duplizieren][1][1]
