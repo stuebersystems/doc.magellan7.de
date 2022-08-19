@@ -44,6 +44,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
 
+#### Importe
+
+* NEW: Neuer Katalog für ABS NRW: `AS_Bewerbungsempfehlungen.keys`
+
 #### Berichte
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
