@@ -39,6 +39,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Wenn das Anlegen eines Ausbildungsdatensatzes abgebrochen wird, wird kein neuer Datensatz angelegt
 * NEW: Um das versehentliche Löschen von Schülern zu verhindern, wurde eine Bestätigung per Checkbox vor dem endgültigen Löschen eingebunden.
 * CHANGE: Beim Aufruf der Unterkarten `Daten1` für die Menüpunkte `Lehrer` und `Personen` ist kein Feld markiert um versehentliche Eingaben zu verhindern.
+* FIX: NRW Ausspielen der Grundschulempfehlung für GE und GY korrigiert
 
 #### MAGELLAN Administrator
 
