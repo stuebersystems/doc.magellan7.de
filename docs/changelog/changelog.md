@@ -39,15 +39,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Wenn das Anlegen eines Ausbildungsdatensatzes abgebrochen wird, wird kein neuer Datensatz angelegt
 * NEW: Um das versehentliche Löschen von Schülern zu verhindern, wurde eine Bestätigung per Checkbox vor dem endgültigen Löschen eingebunden.
 * CHANGE: Beim Aufruf der Unterkarten `Daten1` für die Menüpunkte `Lehrer` und `Personen` ist kein Feld markiert um versehentliche Eingaben zu verhindern.
-* FIX: NRW Ausspielen der Grundschulempfehlung für GE und GY korrigiert
+* CHANGE: Für `Personen > Daten1` und für `Lehrer > Daten1` sitzt der Focus beim Aufruf der Karte auf keinem Feld um versehentliche Fehleingabe zu verhindern
+
+#### Schnittstellen
+
+* FIX: NRW => Ausspielen der Grundschulempfehlung für GE und GY korrigiert
+* NEW: NRW ABS => Neuer Katalog: `AS_Bewerbungsempfehlungen.keys`
 
 #### MAGELLAN Administrator
 
 * FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
-
-#### Importe
-
-* NEW: Neuer Katalog für ABS NRW: `AS_Bewerbungsempfehlungen.keys`
 
 #### Berichte
 
