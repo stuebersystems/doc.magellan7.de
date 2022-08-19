@@ -211,7 +211,7 @@ Info|Wert
 ---|---		
 Name in Datenstruktur |	Bewerbungsempfehlungen	
 Mandantenbezug|		Nein
-Verwendet in Ansichten|	  Bewerber > Zugang > Empfehlung  <br/>Schüler >Zugang/Abgang > Empfehlung	
+Verwendet in Ansichten|	  Bewerber > Zugang > Empfehlung  <br/>Schüler > Daten2 > Empfehlung	
 		
 ## Bewerbungsziele	
 
@@ -468,7 +468,7 @@ Info|Wert
 ---|---				
 Name in Datenstruktur |	Herkunftsarten			
 Mandantenbezug|	Nein			
-Verwendet in Ansichten|		Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunftsart  <br/>Bewerber > Zugang > Bereits besuchte Schulen > Herkunftsart		
+Verwendet in Ansichten|		Schüler > Daten2 > Bereits besuchte Schulen > Herkunftsart  <br/>Bewerber > Zugang > Bereits besuchte Schulen > Herkunftsart		
 				
 ## Herkunftsunterlagen			
 
@@ -476,7 +476,7 @@ Info|Wert
 ---|---				
 Name in Datenstruktur |	Herkunftsunterlagen			
 Mandantenbezug|	Nein			
-Verwendet in Ansichten|	Schüler > Zugang/Abgang > Bereits besuchte Schulen > Herkunftsunterlagen<br/>Bewerber > Zugang > Bereits besuchte Schulen >Herkunftsunterlagen			
+Verwendet in Ansichten|	Schüler > Daten2 > Bereits besuchte Schulen > Herkunftsunterlagen<br/>Bewerber > Zugang > Bereits besuchte Schulen >Herkunftsunterlagen			
 				
 ## Inhaltetafeln			
 
@@ -779,7 +779,7 @@ Info|Wert
 ---|---								
 Name in Datenstruktur |	SchulartenHerkunft							
 Mandantenbezug|	Nein							
-Verwendet in Ansichten|		Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulart   <br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulart						
+Verwendet in Ansichten|		Schüler > Daten2 > Bereits besuchte Schulen > Schulart   <br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulart						
 
 ## Schulgeldarten			
 
@@ -811,7 +811,7 @@ Info|Wert
 ---|---				
 Name in Datenstruktur |	SchulformenHerkunft			
 Mandantenbezug|	Nein			
-Verwendet in Ansichten|		Schüler > Zugang/Abgang > Bereits besuchte Schulen > Schulform    <br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulform		
+Verwendet in Ansichten|		Schüler > Daten2 > Bereits besuchte Schulen > Schulform    <br/>Bewerber > Zugang > Bereits besuchte Schulen > Schulform		
 				
 ## Schulformen (Übergang)			
 
@@ -819,7 +819,7 @@ Info|Wert
 ---|---				
 Name in Datenstruktur |	SchulformenUebergang			
 Mandantenbezug|	Nein			
-Verwendet in Ansichten|	Schüler > Zugang/Abgang >  Abgang > an Schulform			
+Verwendet in Ansichten|	Schüler > Daten2 >  Abgang > an Schulform			
 				
 ## Schulstati			
 
@@ -915,7 +915,7 @@ Info|Wert
 ---|---				
 Name in Datenstruktur |	Uebergangsarten			
 Mandantenbezug|		Nein		
-Verwendet in Ansichten|	  Schüler > Zugang/Abgang >  Abgang > Übergang			
+Verwendet in Ansichten|	  Schüler > Daten2 >  Abgang > Übergang			
 				
 ## Umschulungsmerkmale			
 
