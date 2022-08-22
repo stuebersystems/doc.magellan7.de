@@ -34,6 +34,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 9.0.7 (unveröffentlicht)
 
+#### MAGELLAN Schulverwaltung
+
+#### Schnittstellen
+
+* CHANGE: Schlüsselverzeichniss `Lehrämter` geänderter Schlüssel
+
 ### Version 9.0.6 (19.08.2022)
 
 #### MAGELLAN Schulverwaltung
