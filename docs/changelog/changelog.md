@@ -39,6 +39,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Schnittstellen
 
 * CHANGE: Schlüsselverzeichniss `Lehrämter` geänderter Schlüssel
+  
+#### Berichte
+
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+
+* FIX: Schülerliste (Fehlzeiten nach Klasse gruppiert).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.6 (19.08.2022)
 
