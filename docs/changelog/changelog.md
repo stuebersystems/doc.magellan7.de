@@ -32,18 +32,41 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.7 (unveröffentlicht)
+### Version 9.0.8 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+...
+
+#### MAGELLAN Administrator
+...
+
+
+### Version 9.0.7 (23.08.2022)
 
 #### MAGELLAN Schulverwaltung
 
+* FIX: Wenn das Anlegen eines Ausbildungsdatensatzes abgebrochen wird, wird kein neuer Datensatz angelegt
+* NEW: Um das versehentliche Löschen von Schülern zu verhindern, wurde eine Bestätigung per Checkbox vor dem endgültigen Löschen eingebunden.
+* CHANGE: Beim Aufruf der Unterkarten `Daten1` für die Menüpunkte `Lehrer` und `Personen` ist kein Feld markiert um versehentliche Eingaben zu verhindern.
+* CHANGE: Für `Personen > Daten1` und für `Lehrer > Daten1` sitzt der Focus beim Aufruf der Karte auf keinem Feld um versehentliche Fehleingabe zu verhindern
+* CHANGE: Schlüsselverzeichniss `Lehrämter` geänderter Schlüssel
+
 #### Schnittstellen
 
-* CHANGE: Schlüsselverzeichniss `Lehrämter` geänderter Schlüssel
-  
+* FIX: NRW => Ausspielen der Grundschulempfehlung für GE und GY korrigiert
+* NEW: NRW ABS => Neuer Katalog: `AS_Bewerbungsempfehlungen.keys`
+
+#### MAGELLAN Administrator
+
+* FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
+
 #### Berichte
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
+* NEW: Lehrer (Abwesenheitsstatistik gruppiert je Jahr-nach Lehrer und Grund).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: Lehrer (Abwesenheitsstatistik von-bis).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Schülerliste (Fehlzeiten nach Klasse gruppiert).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.6 (19.08.2022)
