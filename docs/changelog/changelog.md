@@ -35,7 +35,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### Version 9.0.8 (unveröffentlicht)
 
 #### MAGELLAN Schulverwaltung
-...
+
+* FIX: RLP-FW-APO-2010.js berücksichtigt den Fachstatus "AufgstGK" für aufgestockte Grundkurse
 
 #### MAGELLAN Administrator
 ...
