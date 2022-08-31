@@ -46,6 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * FIX: `Unfallanzeige.rpt` einseitig
+* FIX: Schülerliste (mit Sorgeberechtigten) [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.7 (23.08.2022)
 
