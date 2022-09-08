@@ -41,6 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Schnittstellen
 
 * FIX: NRW => SIM.TXT ist ein Schüler zugleich Nebenschüler und Stammschüler wird er in der SIM.txt mit zwei Datensätzen mit den unterschiedlichen KLassen ausgegeben
+* FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
 
 
 #### Berichte
