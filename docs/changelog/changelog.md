@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: RLP-FW-APO-2010.js berücksichtigt den Fachstatus "AufgstGK" für aufgestockte Grundkurse
+* NEW: `Extras > Vorlagen organisieren` Open Office Dokumente *.odt und *.ott werden angezeigt
 
 #### Schnittstellen
 
