@@ -44,7 +44,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: NRW => SIM.TXT ist ein Schüler zugleich Nebenschüler und Stammschüler wird er in der SIM.txt mit zwei Datensätzen mit den unterschiedlichen KLassen ausgegeben
 * FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
 
-
 #### Berichte
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
@@ -52,6 +51,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: `Unfallanzeige.rpt` einseitig
 * FIX: Schülerliste (mit Sorgeberechtigten).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Schülerüberweisung.rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: NRW-ABI-OS (2021).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: SAC-BS-AS (Vorbereitungsklasse) (A.01.06)V1.rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.7 (23.08.2022)
