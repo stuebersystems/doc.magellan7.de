@@ -52,7 +52,7 @@ Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank zur Datenübernahme ein
 Setzt für Schüler, Bewerber, Lehrer und Personen, denen noch keine Anrede hinterlegt wurde, eine Anrede anhand des erfassten Geschlechts.
 Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht männlich die Anrede Herr befüllt.
 
-## Organisisertes Löschen
+## Organisiertes Löschen
 
 Starten Sie den Assistenten unter Datenbankpflege per Doppelklick auf den nachstehend gelb markierten Bereich.
 
