@@ -45,6 +45,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: NRW => SIM.TXT Herkunftschule bei Schülerstatus Neuzugang
 * FIX: NRW => SIM.TXT Schüler wird als Abgänger erkann, wenn Schüler > Laufbahn > Abschluss > Abschluss 1 ein Wert eingetragen ist und nicht mehr nur wenn der Wert auf 0A gesetzt ist
 * FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
+* CHANGE: SAXSVS => neues Schlüsselverzeichnis `Bildungsgaenge.keys`
 
 #### Berichte
 
