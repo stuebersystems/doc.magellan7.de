@@ -41,6 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Schnittstellen
 
+* FIX: NRW => SIM.TXT SchülerInnen, die im letzten Jahr bei uns einen Abschluss erworben haben und dieses Jahr einen neuen Bildungsgang besuchen, werden auch als Ausgeschulte Schüler übergebn
 * FIX: NRW => SIM.TXT ist ein Schüler zugleich Nebenschüler und Stammschüler wird er in der SIM.txt mit zwei Datensätzen mit den unterschiedlichen Klassen ausgegeben
 * FIX: NRW => SIM.TXT Herkunftschule bei Schülerstatus Neuzugang
 * FIX: NRW => SIM.TXT Schüler wird als Abgänger erkann, wenn Schüler > Laufbahn > Abschluss > Abschluss 1 ein Wert eingetragen ist und nicht mehr nur wenn der Wert auf 0A gesetzt ist
