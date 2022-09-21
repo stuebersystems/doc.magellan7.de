@@ -8,4 +8,4 @@ Einstieg | [Landesstatistiken > Berlin > Einstieg](https://doc.ls.stueber.de/ber
 Schlüsselverzeichnisse | [Landesstatistiken > Berlin > Schlüsselverzeichnisse](https://doc.ls.stueber.de/berlin/02.schluesselverzeichnisse/)
 Abiturdatenstatistik | [Landesstatistiken > Berlin > Abiturdatenstatistik](https://doc.ls.stueber.de/berlin/03.stat.abidaten/)
 Schülerdatenstatistik| [Landesstatistiken > Berlin > Schülerdatenstatistik](https://doc.ls.stueber.de/berlin/04.stat.schuelerdaten/)
-Schülerdatenexport (CSV) | [Landesstatistiken > Berlin > Schülerdatenexport (csv)](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/05.schuelerdatencsv.md/)
+Schülerdatenexport (CSV) | [Landesstatistiken > Berlin > Schülerdatenexport (csv)](https://doc.ls.stueber.de/berlin/05.schuelerdatencsv/)
