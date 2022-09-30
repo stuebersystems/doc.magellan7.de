@@ -60,6 +60,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * NEW: SAC-BS-AS (Vorbereitungsklasse) (A.01.06)V1.rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: Klassenliste (Sorgeberechtigte Adresse, Mobil, Email).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Klassenliste (mit Elternsprechern und Mail- und Postadressen).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: Mandant (Prüfung der Schüler des aktuellen Halbjahres auf doppelte AusbildungsGUID).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.7 (23.08.2022)
 
