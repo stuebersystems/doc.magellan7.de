@@ -48,6 +48,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
 * CHANGE: SAXSVS => neues Schlüsselverzeichnis `Bildungsgaenge.keys`
 
+#### Importe
+
+CHANGE: [NRW] Zeichensatzcodierung und Umlaute + ß einzelner *.keys für NRW-Importschlüssel korrigiert
+CHANGE: [BER] Bezeichnung der Dateien `00_Lehraemter.keys` und `00_Lehrerausbildungen.keys` getauscht
+
 #### Berichte
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
