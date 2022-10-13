@@ -47,6 +47,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: NRW => SIM.TXT Schüler wird als Abgänger erkann, wenn Schüler > Laufbahn > Abschluss > Abschluss 1 ein Wert eingetragen ist und nicht mehr nur wenn der Wert auf 0A gesetzt ist
 * FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
 * CHANGE: SAXSVS => neues Schlüsselverzeichnis `Bildungsgaenge.keys`
+* FIX: `Expotiere SDTF.dws` Die Schulnummer beim Datensatz L1 wird jetzt korrekt ausgegeben. Es handelt sich um die Schulnummer des Mandanten in Magellan `Mandant > Daten1 > Schulnummer`
 
 #### Importe
 
