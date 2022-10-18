@@ -38,6 +38,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: RLP-FW-APO-2010.js berücksichtigt den Fachstatus "AufgstGK" für aufgestockte Grundkurse
 * NEW: `Extras > Vorlagen organisieren` Open Office Dokumente *.odt und *.ott werden angezeigt
+* FIX: Focus beim Anlegen eines Bewerbers auf der Karte Daten1 dem Feld "Anrede"
+* FIX: [BER] unter Extras > Export > Schüler (Berlin)  > Schüler (ABS und BBS) wurde der Export für Schüler mit Status in der 2.FS korrigiert.
+* CHANGE: `Abitur > Qualifikation`: Umbenennung der Spalten `LeistungsartQ1`-`LeistungsartQ6` und `BestandeQ1`-`BestandenQ6` in `LeistungsartE1`- `LeistungsartQ6` und `BestandenQ1`- `BestandenQ6`
+
+#### MAGELLAN Administrator
+
+* CHANGE: Unter `Benutzerverwaltung > Extras` wurden die Punkte zur Replikation ausgeblendet
 
 #### Schnittstellen
 
@@ -53,6 +60,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 CHANGE: [NRW] Zeichensatzcodierung und Umlaute + ß einzelner *.keys für NRW-Importschlüssel korrigiert
 CHANGE: [BER] Bezeichnung der Dateien `00_Lehraemter.keys` und `00_Lehrerausbildungen.keys` getauscht
+
+#### Skripte
+
+FIX: [NRW-APO-OS-2020] Ist Deutsch als SF (LK) vorhanden, wird nicht Literatur gesondert gefordert
+CHANGE: [NRW-APO-OS-2020] Meldung zum Vorschlag angepasst
 
 #### Berichte
 
