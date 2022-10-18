@@ -65,6 +65,7 @@ CHANGE: [BER] Bezeichnung der Dateien `00_Lehraemter.keys` und `00_Lehrerausbild
 
 FIX: [NRW-APO-OS-2020] Ist Deutsch als SF (LK) vorhanden, wird nicht Literatur gesondert gefordert
 CHANGE: [NRW-APO-OS-2020] Meldung zum Vorschlag angepasst
+CHANGE: [NRW-APO-OS-2020] Die Berechnung der Besondere Lernleistung wurde angepasst, bitte beachten Sie die [Beschreibung zum Skript](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#besondere-lernleistung). 
 
 #### Berichte
 
