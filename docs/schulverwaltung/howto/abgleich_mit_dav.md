@@ -81,7 +81,7 @@ Felder|Hinweis
 
 Felder|Hinweis
 ---|---
-**ID**<br/>**Kürzel**<br/>**Nachname**<br/>**Vorname**<br/>**Titel**<br/>**Schulnummer**<br/>**Abteilungen** [Abteilung.Kürzel]|Der Austausch erfolgt über ID und Kürzel.<br/> Bei gleicher ID wird aktualisiert.<br/> Ist in DAVINCI keine ID vorhanden, wird über das Kürzel ausgetauscht. <br/>Bei gleichem Kürzel wird aktualisiert. <br/>Ist das Kürzel nicht vorhanden wird hinzugefügt.<br/>Es werden nur aktive Lehrer aus MAGELLAN beim Abgleich berücksichtigt.
+**ID**<br/>**Kürzel**<br/>**Nachname**<br/>**Vorname**<br/>**Titel**<br/>**Schulnummer (`Mandant > Daten1 Schulnummer`)**<br/>**Abteilungen** [Abteilung.Kürzel]|Der Austausch erfolgt über ID und Kürzel.<br/> Bei gleicher ID wird aktualisiert.<br/> Ist in DAVINCI keine ID vorhanden, wird über das Kürzel ausgetauscht. <br/>Bei gleichem Kürzel wird aktualisiert. <br/>Ist das Kürzel nicht vorhanden wird hinzugefügt.<br/>Es werden nur aktive Lehrer aus MAGELLAN beim Abgleich berücksichtigt.
 
 ### Fächer aus MAGELLAN
 
