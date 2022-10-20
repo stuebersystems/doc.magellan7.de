@@ -81,7 +81,8 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: `Klassenliste (mit Elternsprechern und Mail- und Postadressen).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: `Mandant (Prüfung der Schüler des aktuellen Halbjahres auf doppelte AusbildungsGUID).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * CHANGE: `NRW-ABI-OS (2021).rpt` Texte unter "IV.Fremdspachen" aktualsiert, bitte beachten Sie die Anleitung.
-* NEW: M`andant (Wiederholerliste)`, bitte beachten Sie die Anleitung. [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* NEW: `Mandant (Wiederholerliste)`, bitte beachten Sie die Anleitung. [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: `Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.7 (23.08.2022)
 
