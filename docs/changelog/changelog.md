@@ -85,6 +85,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * CHANGE: `NRW-ABI-OS (2021).rpt` Texte unter "IV.Fremdspachen" aktualsiert, bitte beachten Sie die Anleitung.
 * NEW: `Mandant (Wiederholerliste)`, bitte beachten Sie die Anleitung. [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: `Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt
 
 ### Version 9.0.7 (23.08.2022)
 
