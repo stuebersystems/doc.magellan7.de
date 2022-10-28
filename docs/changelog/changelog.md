@@ -57,6 +57,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: SAXSVS => Import mit Lizenz Landestatistik 2022 möglich
 * CHANGE: SAXSVS => neues Schlüsselverzeichnis `Bildungsgaenge.keys`
 * FIX: `Expotiere SDTF.dws` Die Schulnummer beim Datensatz L1 wird jetzt korrekt ausgegeben. Es handelt sich um die Schulnummer des Mandanten in Magellan `Mandant > Daten1 > Schulnummer`
+* CHANGE: BER => Beim Export `Schüler (CSV)` werden Sorgeberechtigten-Verhältnis1-Verhältnis10 leer ausgegeben.
 
 #### Importe
 
