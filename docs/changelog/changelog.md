@@ -12,7 +12,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! danger "Achtung"
 
-    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime).
+    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist mit MAGELLAN 9.0.8 behoben.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
@@ -35,6 +35,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## Version 9
 
 ### Version 9.0.8 (unveröffentlicht)
+
+!!! warning "Wichtig"
+
+    Das Vorgehen für die Installation von MAGELLAN hat sich geändert. MAGELLAN gibt es jetzt den Varianten 64-Bit und 32-Bit. Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. Bitte lesen Sie hierfür die aktualisierten Installationsanleitungen!
 
 #### MAGELLAN Schulverwaltung
 
