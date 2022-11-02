@@ -34,11 +34,24 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.8 901 (unveröffentlicht)
+### Version 9.0.8 902 (unveröffentlicht)
 
-!!! warning "Wichtig"
+!!! danger "Wichtig"
 
-    Das Vorgehen für die Installation von MAGELLAN hat sich geändert. MAGELLAN gibt es jetzt den Varianten 64-Bit und 32-Bit. Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. Bitte lesen Sie hierfür die aktualisierten Installationsanleitungen!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+!!! danger "Wichtig"
+
+    Das Vorgehen für die Installation von MAGELLAN hat sich geändert.
+     * MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit. 
+     * Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
+    
+    Beim Update auf die 9.0.8 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und zusätzlich die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+
+#### Datenstrukturänderung
+
+* NEW: neue Verzeichnis `Fremdsprachennoten`.
+* NEW: neue Felder zum Erfassen der Fremdsprachennote unter `Schüler/Bewerber > Daten3 > Fremdsprachenfolge1-4`
 
 #### MAGELLAN Schulverwaltung
 
