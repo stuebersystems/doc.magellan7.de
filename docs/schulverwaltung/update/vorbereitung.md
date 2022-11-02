@@ -13,7 +13,9 @@ MAGELLAN Update (Server und Clients)| MAGELLAN Update (Server und Clients)<br/>+
 |Firebird-Update|[Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/firebird-aktualisieren/)|
 |Update der Crystal Reports Runtimeversion|[CR Runtime aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)|
 
-Muss `Firebird` aktualisiert werden oder veröffentlichen wir eine neue `Crystal Reports Runtimeversion` weisen wir unter ["Was ist neu?"](https://doc.magellan.stueber.de/changelog/changelog/) darauf hin.
+!!! warning "Wichtig!"    
+
+     Muss `Firebird` aktualisiert werden oder veröffentlichen wir eine neue `Crystal Reports Runtimeversion` weisen wir unter ["Was ist neu?"](https://doc.magellan.stueber.de/changelog/changelog/) darauf hin.
 
 Um die Ausgangsbasis zu bestimmen starten Sie bitte eine MAGELLAN-Instanz und prüfen bitte die Versionsnummer unter `Hilfe > Version und Lizenz`. 
 Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version.
@@ -26,7 +28,7 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 ---|---
 9.0.1|900
 
-Ist die Datenbankversionsnummer dort höher angegeben, wäre das Variante 2, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)! Ist die Datenbankversionsnummer gleich (Variante 1), lesen Sie bitte den nachfolgenden Abschnitt ["Updates ohne Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-ohne-datenstrukturerweiterung).
+Ist die Datenbankversionsnummer dort höher angegeben, wäre das Variante 2, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)! <br/>Ist die Datenbankversionsnummer gleich (Variante 1), lesen Sie bitte den nachfolgenden Abschnitt ["Updates ohne Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-ohne-datenstrukturerweiterung).
 
 ### Updates ohne Datenstrukturerweiterung
 
