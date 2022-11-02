@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.8 (unveröffentlicht)
+### Version 9.0.8 901 (unveröffentlicht)
 
 !!! warning "Wichtig"
 
@@ -96,7 +96,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: `Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt
 
-### Version 9.0.7 (23.08.2022)
+### Version 9.0.7 901 (23.08.2022)
 
 #### MAGELLAN Schulverwaltung
 
@@ -124,7 +124,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * NEW: Lehrer (Abwesenheitsstatistik von-bis).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Schülerliste (Fehlzeiten nach Klasse gruppiert).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
-### Version 9.0.6 (19.08.2022)
+### Version 9.0.6 901 (19.08.2022)
 
 #### MAGELLAN Schulverwaltung
 
@@ -150,7 +150,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: Lehrer (Abwesenheitsstatistik von-bis).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
-### Version 9.0.5 (26.07.2022)
+### Version 9.0.5 901 (26.07.2022)
 
 #### MAGELLAN Schulverwaltung
 

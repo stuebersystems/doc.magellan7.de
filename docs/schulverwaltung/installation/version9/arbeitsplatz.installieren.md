@@ -1,25 +1,56 @@
 ﻿
 # Arbeitsplatzinstallation
 
-Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN als Programm installiert wird, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
+Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
 
-## Vorbereitung und Downloads
+## Vorbereitung
 
-**MAGELLAN.lic**: 
-Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server und von den Clients darauf zugreifen können. Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
+### MAGELLAN.lic
 
-**Downloads**: 
-Für einen Arbeitsplatzrechner benötigen Sie die Installationsdatei für MAGELLAN. Wählen Sie je nach Betriebssystem bitte das Installationspaket für 
+Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Arbeitsplatzrechner aus darauf zugreifen können. 
+Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
 
-* [Windows 64-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi) 
-oder 
-* [Windows 32-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9_32.msi).
+### Downloads
 
-!!! danger "Hinweis"
+Für den Serverrechner benötigen Sie die Installationsdateien für:
 
-    Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
+* die Runtimeversion von Crystal Reports 32- oder 64-Bit
+* für MAGELLAN 32- oder 64-Bit
 
-## Installation
+**Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
+
+1. Wählen Sie `Start > Einstellungen > System > Info` aus.
+2. Unter `Gerätespezifikationen > Systemtyp` sehen Sie, ob Sie eine 32-Bit-Version oder eine 64-Bit-Version von Windows verwenden.
+
+!!! danger "Wichtig!"    
+
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**
+
+## Installation der Crystal Reports Runtimeversion
+
+Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
+
+Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
+
+![Willkommen](/assets/images/installation/9/004.png)
+
+Stimmen Sie bitte dem "License Agreement" zu, indem Sie den oberen Radiobutton wie in der Abbildung aktivieren und auf `Next` klicken
+
+![License Agreement](/assets/images/installation/9/005.png)
+
+Starten Sie die Installation per Klick auf `Next`.
+
+![Start](/assets/images/installation/9/006.png)
+
+Der Fortschritt der Installation wird per Laufbalken gezeigt.
+
+![Installationsfortschritt](/assets/images/installation/9/007.png)
+
+Die Installation ist beendet, bitte klicken Sie auf `Finish`.
+
+![Fertigstellen](/assets/images/installation/9/008.png)
+
+## Installation von MAGELLAN
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
@@ -71,10 +102,7 @@ Der standardmäßige Pfad zur MAGELLAN 9 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 9\Datenbank\Magellan9.fdb |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9\Datenbank\Magellan9.fdb |
-| Windows 2003 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 9\Datenbank\Magellan9.fdb |
-| Windows 2009 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 9 Datenbank\Magellan9.fdb |
+| Windows 8/10/11 | C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank\Magellan9.fdb |
 
 !!! warning "Wichtig"
 

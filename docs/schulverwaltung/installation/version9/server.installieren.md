@@ -1,26 +1,36 @@
 ﻿
 # Den Server oder einen Einzelplatz einrichten
 
-In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem lokal die Datenbank gespeichert wird, in der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus nicht auf den Server zugeriffen werden kann, beispielsweise ein Testrechner.
+In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem lokal die Datenbank gespeichert wird. 
+In der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus nicht auf den Server zugeriffen werden kann, beispielsweise ein Testrechner.
 
 !!! danger "Achtung"
 
     Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/)!
 
-## Vorbereitung und Downloads
+## Vorbereitung
 
-**MAGELLAN.lic**: 
-Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server und von den Clients darauf zugreifen können. Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
+### MAGELLAN.lic
 
-**Downloads**: 
-Für den Serverrechner benötigen Sie die Installationsdatei für Firebird und für MAGELLAN. Alle Installationspakete finden Sie hier:
+Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server darauf zugreifen können. 
+Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
 
-* [Firebird](https://download.stueber.de/bin/de/firebird/Firebird-2.5.9.27139_0_Win32.exe) 
-* MAGELLAN: Wählen Sie je nach Betriebssystem bitte das Installationspaket für [Windows 64-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9.msi) oder [Windows 32-bit](https://download.stueber.de/bin/de/magellan/v9/magellan9_32.msi).
+### Downloads
 
-!!! danger "Hinweis"
+Für den Serverrechner benötigen Sie die Installationsdateien für:
 
-    Die Unterscheidung zwischen dem MAGELLAN Installationspaket für Windows 32-bit und Windows 64-bit bezieht sich nicht auf MAGELLAN selbst, dass immer 32-bit angeboten wird, sondern gilt für die mit installierten Crystal Reports-Treiber. Kunden, die eine eigene Crystal Reports-Lizenz zum editieren von Berichten und Zeugnissen verwenden, greifen auf diese Treiber zu. Crystal Reports wird seit den letzten Veröffentlichungen nur noch als reine 64-bit-Software angeboten, kann also nur auf 64-bit Betriebssystemen verwendet werden und benötigt die 64-bit Treiber, die mit der MAGELLAN Installation hinterlegt werden.
+* Firebird
+* die Runtimeversion von Crystal Reports 32- oder 64-Bit
+* für MAGELLAN 32- oder 64-Bit
+
+**Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
+
+1. Wählen Sie `Start > Einstellungen > System > Info` aus.
+2. Unter `Gerätespezifikationen > Systemtyp` sehen Sie, ob Sie eine 32-Bit-Version oder eine 64-Bit-Version von Windows verwenden.
+
+!!! danger "Wichtig!"    
+
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben dasselbe.**
 
 ## Installation von Firebird 2.5
 
@@ -42,12 +52,35 @@ Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die O
 	
 	Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme \(Eingehende und Ausgehende Regel\) für diesen Port ein und versuchen es bitte erneut.
 
+## Installation der Crystal Reports Runtimeversion
+
+Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
+
+Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
+
+![Willkommen](/assets/images/installation/9/004.png)
+
+Stimmen Sie bitte dem "License Agreement" zu, indem Sie den oberen Radiobutton wie in der Abbildung aktivieren und auf `Next` klicken
+
+![License Agreement](/assets/images/installation/9/005.png)
+
+Starten Sie die Installation per Klick auf `Next`.
+
+![Start](/assets/images/installation/9/006.png)
+
+Der Fortschritt der Installation wird per Laufbalken gezeigt.
+
+![Installationsfortschritt](/assets/images/installation/9/007.png)
+
+Die Installation ist beendet, bitte klicken Sie auf `Finish`.
+
+![Fertigstellen](/assets/images/installation/9/008.png)
+
 ## MAGELLAN Installationstypen
 
 !!! info "Hinweis"
 
-    Die Installation des Datenbankservers \(Firebird\) wird für die Installationsarten Server und Einzelplatz vorausgesetzt. 
-    Den Installationstyp `Server-/Einzelplatzinstallation` wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen (zum Beispiel um MAGELLAN zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
+    Den Installationstyp `Server-/Einzelplatzinstallation` wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen oder wenn Sie Ihren Schulserver einrichten möchten. In beiden Fällen installieren Sie bitte auch `Firebird`.
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
@@ -57,14 +90,13 @@ Der Setup Assistent von MAGELLAN wird gestartet und die Installationsdateien wer
 
 ![Installationart festlegen](/assets/images/installation/9/setup_type.png)
 
-Wählen Sie die `Server-/Einzelplatzinstallation` aus! Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die sogenannten Datenordner erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
+Wählen Sie die `Server-/Einzelplatzinstallation` aus! <br/>Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die sogenannten Datenordner erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
 
 !!! info "Hinweis"
 
-    Die Installation des Datenbankservers \(Firebird\) wird für die Installationsarten Server und Einzelplatz vorausgesetzt.
+    Die Installation des Datenbankservers `Firebird` wird für die Installationsart `Server-/Einzelplatzinstallation` vorausgesetzt.
 
 Jetzt ist der Setup Assistent bereit, die Installation der Dateien vorzunehmen. Die Installation selbst muss direkt auf dem Server oder dem Einzelplatz erfolgen.
-
 
 Wählen Sie zunächst den Speicherort für die Programmdateien aus.
 
@@ -74,7 +106,7 @@ Wählen Sie den Speicherort für die Datenbank und klicken Sie auf „Weiter“.
 
 ![Speicherort für die Datenbank](/assets/images/installation/9/setup-database.png)
 
-Wählen Sie den Speicherort für die Datenordner \(Berichte-, Dokumente-, Importe-, Skripte- und Vorlagenordner\) und klicken Sie auf „Weiter“.
+Wählen Sie den Speicherort für die Datenordner `Berichte-, Dokumente-, Importe-, Skripte- und Vorlagenordner` und klicken Sie auf „Weiter“.
 
 ![Speicherort für die Datenordner](/assets/images/installation/9/setup-data-folder.png)
 
@@ -94,35 +126,36 @@ Die Installation selbst kann einige Minuten in Anspruch nehmen. Klicken Sie zum 
 
 Nach Abschluss der Installation befinden sich standardmäßig die Dateien in folgenden Ordnern auf dem Server:
 
-Anwendungsdaten \(z.B. Magellan.exe\):
+Anwendungsdaten (z.B. Magellan.exe):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\Programme\Stueber Systems\MAGELLAN 9 |
-| Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 9\ |
+| Windows Server 2008 | C:\Program Files\Stueber Systems\MAGELLAN 9\ |
 | Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 9 |
-| Windows 10 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 9\ |
+| Windows 10 |C:\Program Files\Stueber Systems\Magellan 9 |
+| Windows 11 |C:\Program Files\Stueber Systems\Magellan 9 |
 
-Allgemeine Einstellungs- und Lizenzdaten \(z.B. Magellan.evm, Magellan.lic, Magellan.SiteInfo, Magellan.UserInfo\):
+Allgemeine Einstellungs- und Lizenzdaten (z.B. Magellan.evm, Magellan.lic, Magellan.SiteInfo, Magellan.UserInfo):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
 | Windows Server 2008 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
 | Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
 | Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
+| Windows 11 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
 
-Datenordner \(Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner\):
+
+Datenordner (Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner):
 
 Auf die Datenordner sollen die Nutzer von den Arbeitsplatzrechnern aus zugreifen können. Bitte stellen Sie sicher, dass den Nutzern auf Betriebssystemebene Schreib- und Leserechte für diese Verzeichnisse eingeräumt werden. Diese Rechte sind notwendig, um alle MAGELLAN-Funktionalitäten nutzen zu können (Beispiel: Berichte organisieren, Vorlagen organisieren, Ablegen von Schülerdokumenten u.a.).
 Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließend für den Verweispfad der Arbeitsplatzrechner verwenden können.
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
 | Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 9|
 | Windows 8 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
 | Windows 10 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
+| Windows 11 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
 
 !!! info "Hinweis"
 
