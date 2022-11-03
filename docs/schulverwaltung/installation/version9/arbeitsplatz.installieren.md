@@ -5,11 +5,6 @@ Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des 
 
 ## Vorbereitung
 
-### MAGELLAN.lic
-
-Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Arbeitsplatzrechner aus darauf zugreifen können. 
-Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
-
 ### Downloads
 
 Für den Serverrechner benötigen Sie die Installationsdateien für:
@@ -22,9 +17,14 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 1. Wählen Sie `Start > Einstellungen > System > Info` aus.
 2. Unter `Gerätespezifikationen > Systemtyp` sehen Sie, ob Sie eine 32-Bit-Version oder eine 64-Bit-Version von Windows verwenden.
 
-!!! danger "Wichtig!"    
+!!! danger "Wichtig!"
 
     Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**
+
+### Lizenzdaten
+
+Legen Sie sich bitte die Lizenzdatei (*.lic) so zurecht, dass Sie vom Server darauf zugreifen können. 
+Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
 
 ## Installation der Crystal Reports Runtimeversion
 

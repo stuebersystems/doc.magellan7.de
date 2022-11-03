@@ -10,11 +10,6 @@ In der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus 
 
 ## Vorbereitung
 
-### MAGELLAN.lic
-
-Legen Sie sich bitte die Lizenzdatei so zurecht, dass Sie vom Server darauf zugreifen können. 
-Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
-
 ### Downloads
 
 Für den Serverrechner benötigen Sie die Installationsdateien für:
@@ -31,6 +26,11 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 !!! danger "Wichtig!"    
 
     Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben gleich.**
+
+### Lizenzdaten
+
+Legen Sie sich bitte die Lizenzdatei (*.lic) so zurecht, dass Sie vom Server darauf zugreifen können. 
+Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail zugesandt. Sollte Ihnen die Lizenzdatei noch fehlen, können Sie sie per Mail an office@stueber.de neu anfragen. Für eine Volllizenz bitten wir um die Angabe der Kundennummer, herzlichen Dank!
 
 ## Installation von Firebird 2.5
 
