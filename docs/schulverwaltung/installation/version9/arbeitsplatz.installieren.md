@@ -56,13 +56,25 @@ Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magell
 
 Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
 
-![Startdialog der Installation](/assets/images/installation/9/setup_start.png)
+![Startdialog der Installation](/assets/images/installation/9/009.png)
 
-![Installationart festlegen](/assets/images/installation/9/setup_type.png)
+Wählen Sie die `Arbeitsplatzinstallation` aus!<br/>Es wird nur das Programm installiert, es werden keine Datenbank abgelegt oder Datenordner (für Berichte, Skripte usw.) erzeugt.
 
-Wählen Sie die `Arbeitsplatzinstallation` aus! Es wird nur das Programm installiert, es werden keine Datenbank abgelegt oder sogenannten Datenordner erzeugt.
+![Installationart festlegen](/assets/images/installation/9/010.png)
 
-![Bitte wählen Sie den Installationstyp Arbeitsplatz aus!](/assets/images/installation/9/setup_type.png)
+Der Assistent schlägt Ihnen einen Installationspfad vor, wir empfehlen diese Auswahl mit `Weiter` zu übernehmen.
+
+![Installationspfad](/assets/images/installation/9/011.png)
+
+Die Vorbereitungen sind abgeschlossen, klicken Sie auf `Weiter` um die Installation auszuführen.
+
+![Vorbereitung abgeschlossen](/assets/images/installation/9/014.png)
+
+![Fortschrittsbalken](/assets/images/installation/9/015.png)
+
+Die Installation ist abgeschlossen, bitte klicken Sie auf `Fertigstellen`!
+
+![Die Installation ist abgeschlossen.](/assets/images/installation/9/016.png)
 
 ## Der Willkommensassistent
 

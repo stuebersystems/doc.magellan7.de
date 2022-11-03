@@ -42,16 +42,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Wichtig"
 
-    Das Vorgehen für die Installation von MAGELLAN hat sich geändert.
-     * MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit. 
-     * Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
+    Das Vorgehen für die Installation von MAGELLAN hat sich geändert.<br/><br/>
+     - MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit.<br/> 
+     - Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
     
     Beim Update auf die 9.0.8 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und zusätzlich die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 #### Datenstrukturänderung
 
 * NEW: neue Verzeichnis `Fremdsprachennoten`.
-* NEW: neue Felder zum Erfassen der Fremdsprachennote unter `Schüler/Bewerber > Daten3 > Fremdsprachenfolge1-4`
+* NEW: neue Felder zum Erfassen der Fremdsprachennote (Bewerbungsnote) unter `Schüler/Bewerber > Daten3 > Fremdsprachenfolge1-4`
 
 #### MAGELLAN Schulverwaltung
 

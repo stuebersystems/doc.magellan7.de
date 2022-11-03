@@ -30,7 +30,7 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 !!! danger "Wichtig!"    
 
-    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben dasselbe.**
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben gleich.**
 
 ## Installation von Firebird 2.5
 
@@ -84,43 +84,39 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
-Der Setup Assistent von MAGELLAN wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
 
-![Startdialog der Installation](/assets/images/installation/9/setup_start.png)
+![Startdialog der Installation](/assets/images/installation/9/009.png)
 
-![Installationart festlegen](/assets/images/installation/9/setup_type.png)
-
-Wählen Sie die `Server-/Einzelplatzinstallation` aus! <br/>Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die sogenannten Datenordner erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
+Wählen Sie die `Server-/Einzelplatzinstallation` aus! <br/>Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die Datenordner (Skripte, Berichte usw.) erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
 
 !!! info "Hinweis"
 
     Die Installation des Datenbankservers `Firebird` wird für die Installationsart `Server-/Einzelplatzinstallation` vorausgesetzt.
 
-Jetzt ist der Setup Assistent bereit, die Installation der Dateien vorzunehmen. Die Installation selbst muss direkt auf dem Server oder dem Einzelplatz erfolgen.
+![Installationart festlegen](/assets/images/installation/9/010.png)
 
-Wählen Sie zunächst den Speicherort für die Programmdateien aus.
+Der Assistent schlägt Ihnen einen Installationspfad vor, wir empfehlen diese Auswahl mit `Weiter` zu übernehmen.
 
-![Speicherort für die Programmdateien](/assets/images/installation/9/setup-folder.png)
+![Installationspfad Programmdateien](/assets/images/installation/9/011.png)
 
 Wählen Sie den Speicherort für die Datenbank und klicken Sie auf „Weiter“.
 
-![Speicherort für die Datenbank](/assets/images/installation/9/setup-database.png)
+![Installationspfad Datenbank](/assets/images/installation/9/012.png)
 
 Wählen Sie den Speicherort für die Datenordner `Berichte-, Dokumente-, Importe-, Skripte- und Vorlagenordner` und klicken Sie auf „Weiter“.
 
-![Speicherort für die Datenordner](/assets/images/installation/9/setup-data-folder.png)
+![Installationspfad Datenordner](/assets/images/installation/9/013.png)
 
-!!! info "Hinweis"
+Die Vorbereitungen sind abgeschlossen, klicken Sie auf `Weiter` um die Installation auszuführen.
 
-    Der Installationsassistent schlägt Ihnen hier Speicherpfade für die Datenordner vor. Diese Pfade können Sie im Assistenten anpassen. Bitte beachten Sie, dass diese Pfade später bei Updates verwendet werden. Sollten Sie hier angelegten Verzeichnisse auf Dateiebene verschieben, können trotz Update aktualisierte Daten fehlen. Sollten Sie sich später umentscheiden, deinstallieren Sie das Programm vom Serverrechner, installieren neu und geben den gewünschten Pfad an.
+![Vorbereitung abgeschlossen](/assets/images/installation/9/014.png)
 
-Klicken Sie nun auf „Installieren“, um mit der Installation zu beginnen.
+![Fortschrittsbalken](/assets/images/installation/9/015.png)
 
-![Bereit zur Installation](/assets/images/installation/9/setup-ready.png)
+Die Installation ist abgeschlossen, bitte klicken Sie auf `Fertigstellen`!
 
-Die Installation selbst kann einige Minuten in Anspruch nehmen. Klicken Sie zum Abschließen der Installation auf „Fertigstellen“.
-
-![Die Installation ist fertig](/assets/images/installation/9/setup-finished.png)
+![Die Installation ist abgeschlossen.](/assets/images/installation/9/016.png)
 
 ### Speicherorte der Dateien
 
@@ -143,7 +139,6 @@ Allgemeine Einstellungs- und Lizenzdaten (z.B. Magellan.evm, Magellan.lic, Magel
 | Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
 | Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
 | Windows 11 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
-
 
 Datenordner (Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner):
 
