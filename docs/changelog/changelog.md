@@ -12,7 +12,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! danger "Achtung"
 
-    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist mit MAGELLAN 9.0.8 behoben.
+    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist mit MAGELLAN 9.5.0 behoben.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.0.8 902 (unveröffentlicht)
+### Version 9.5.0 902 (unveröffentlicht)
 
 !!! danger "Wichtig"
 
@@ -46,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
      - MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit.<br/> 
      - Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
     
-    Beim Update auf die 9.0.8 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und zusätzlich die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+    Beim Update auf die 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und zusätzlich die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 #### Datenstrukturänderung
 
