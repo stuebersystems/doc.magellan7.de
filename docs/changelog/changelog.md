@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.5.0 902 (unveröffentlicht)
+### Version 9.5.0 902 (08.11.2022)
 
 !!! danger "Wichtig"
 
@@ -46,7 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
      - MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit.<br/> 
      - Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
     
-    Beim Update auf die 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und zusätzlich die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+    Beim Update auf die 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 #### Datenstrukturänderung
 
