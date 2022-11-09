@@ -34,6 +34,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
+### Version 9.5.1 902 (unveröffentlicht)
+
+* FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Download](https://my.hidrive.com/lnk/0sRkNVHj)
+
 ### Version 9.5.0 902 (08.11.2022)
 
 !!! danger "Wichtig"
