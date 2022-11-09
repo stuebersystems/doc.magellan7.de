@@ -12,7 +12,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! danger "Achtung"
 
-    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist mit MAGELLAN 9.5.0 behoben.
+    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist seit der MAGELLAN 9.5.0 behoben.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
@@ -34,9 +34,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.5.1 902 (unveröffentlicht)
+### Version 9.5.1 902 (09.11.2022)
 
-* FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Download](https://my.hidrive.com/lnk/0sRkNVHj)
+* FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj)
 
 ### Version 9.5.0 902 (08.11.2022)
 
