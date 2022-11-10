@@ -34,6 +34,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
+### Version 9.5.2 902 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: Unter `Schüler > Daten2` ergab der Aufruf einiger Felder eine Zugriffsverletzung und zeigten auch keine Inhalte:
+  * Höchster Abschluss ABS: Abschluss, Bildungsgang
+  * Höchster Abschluss (erworben): Abschluss ABS, Abschluss BBS
+  * Höchster Abschluss BBS: Abschluss, Beruf, Bildungsgang
+
 ### Version 9.5.1 902 (09.11.2022)
 
 * FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj)
