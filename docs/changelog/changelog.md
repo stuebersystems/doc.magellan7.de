@@ -34,7 +34,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.5.2 902 (unveröffentlicht)
+### Version 9.5.3 902 (unveröffentlicht)
+
+### Version 9.5.2 902 (10.11.2022)
 
 #### MAGELLAN Schulverwaltung
 
