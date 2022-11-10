@@ -41,9 +41,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: Unter `Schüler > Daten2` ergab der Aufruf einiger Felder eine Zugriffsverletzung und zeigten auch keine Inhalte:
-  * Höchster Abschluss ABS: Abschluss, Bildungsgang
-  * Höchster Abschluss (erworben): Abschluss ABS, Abschluss BBS
-  * Höchster Abschluss BBS: Abschluss, Beruf, Bildungsgang
+    * Höchster Abschluss ABS: Abschluss, Bildungsgang
+    * Höchster Abschluss (erworben): Abschluss ABS, Abschluss BBS
+    * Höchster Abschluss BBS: Abschluss, Beruf, Bildungsgang
 
 ### Version 9.5.1 902 (09.11.2022)
 
