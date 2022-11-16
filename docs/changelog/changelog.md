@@ -35,7 +35,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ## Version 9
 
 ### Version 9.5.3 902 (unveröffentlicht)
-* FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
+
+* FIX: [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj) | Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff für die Rechtegruppe `Sekretariat1` auf die neue Tabelle `FremdsprachenNoten` ergänzt. 
+
 #### Berichte
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
