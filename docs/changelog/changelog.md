@@ -46,7 +46,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
-* FIX: `NRW-BLNW-OS.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BLNW-OS.rpt` 
 
 ### Version 9.5.2 902 (10.11.2022)
 
@@ -63,7 +63,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
-* FIX: Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt. [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj)
+* FIX: [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj) | Im Skript "Zugriffsrechte zuweisen" wurde der Zugriff auf die neue Tabelle `FremdsprachenNoten` ergänzt.
 
 ### Version 9.5.0 902 (08.11.2022)
 
