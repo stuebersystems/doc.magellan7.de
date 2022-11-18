@@ -6,13 +6,21 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möc
 
 ## MAGELLAN Schulverwaltung
 
-### Schüler > Zeugnis > Leistungen
+### Menü Schüler
+
+#### Schüler > Zeugnis > Leistungen
 
 * neue Spalten `Lehrer` und `KursNr`
 
-### Notenübersicht
+#### Notenübersicht
 
 * neue Spalten `Leistungsart` und `Bestanden`
+
+### Menü Abitur
+
+#### Qualifikation
+
+* Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachkatergorie` und `Aufgabenbereich` aus den Einträgen unter `Extras > Schlüsselverzeichnisse > Fächer` eingeblendet werden. Damit erhalten Sie eine schnelle Übersicht um zu überprüfen, ob Ihren Fächern die korrekten Werte zugewiesen wurden. Die korrekten Eingaben werden je Berechnungsskript in den [Landesanpassungen](https://doc.la.stueber.de/skriptueberblick/) dokumentiert.
 
 ## MAGELLAN Administrator
 
