@@ -8,9 +8,10 @@ Variante 1| Variante 2
 --|--
 MAGELLAN Update (Server und Clients)| MAGELLAN Update (Server und Clients)<br/>+ Datenstrukturanpassung<br/>+ Zugriffsrechte synchronisieren
 
-|Eventuell zusätzlich nötig:
+Eventuell zusätzlich nötig:
+
 * [Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/firebird-aktualisieren/)
-* *[CR Runtime aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)
+* [CR Runtime aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)
 
 !!! warning "Wichtig!"    
 
