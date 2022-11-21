@@ -36,6 +36,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 9.5.3 902 (unveröffentlicht)
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: Vagabund/Bewerber: Beim Erzeugen eines neuen Ausbildungsdatensatzes wird "GUID beibehalten", wenn die Standardoption beibehalten wird. 
+
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
