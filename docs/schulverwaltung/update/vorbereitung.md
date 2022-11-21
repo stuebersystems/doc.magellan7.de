@@ -30,6 +30,22 @@ Versionsnummer für die Software|Versionsnummer der Datenbank
 
 Ist die Datenbankversionsnummer dort höher angegeben, wäre das Variante 2, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)! <br/>Ist die Datenbankversionsnummer gleich (Variante 1), lesen Sie bitte den nachfolgenden Abschnitt ["Updates ohne Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-ohne-datenstrukturerweiterung).
 
+### 32 oder 64 Bit
+
+Für ein Update benötigen Sie die Installationsdateien für:
+
+* die Runtimeversion von Crystal Reports 32- oder 64-Bit
+* für MAGELLAN 32- oder 64-Bit
+
+**Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
+
+1. Wählen Sie `Start > Einstellungen > System > Info` aus.
+2. Unter `Gerätespezifikationen > Systemtyp` sehen Sie, ob Sie eine 32-Bit-Version oder eine 64-Bit-Version von Windows verwenden.
+
+!!! danger "Wichtig!"
+
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**
+
 ### Updates ohne Datenstrukturerweiterung
 
 Bitte aktualisieren Sie immer als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Sie können das aktuelle msi-Paket aus dem [Downloadbereich](https://magellan.stueber.de/download.php) unserer Webseite herunterladen und direkt per Doppelklick starten oder dazu ein Tool zur Softwareverteilung nutzen.
