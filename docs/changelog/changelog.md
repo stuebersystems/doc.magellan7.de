@@ -34,11 +34,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 9
 
-### Version 9.5.3 902 (unveröffentlicht)
+### Version 9.5.4 902 (unveröffentlicht)
+
+### Version 9.5.3 902 (22.11.2022)
 
 #### MAGELLAN Schulverwaltung
 
 * FIX: Vagabund/Bewerber: Beim Erzeugen eines neuen Ausbildungsdatensatzes wird "GUID beibehalten", wenn die Standardoption beibehalten wird. 
+* FIX: Korrektur beim Aufruf der Druckvorschau für 32-Bit-Betriebssysteme
 
 #### Skripte
 
