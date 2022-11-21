@@ -8,10 +8,9 @@ Variante 1| Variante 2
 --|--
 MAGELLAN Update (Server und Clients)| MAGELLAN Update (Server und Clients)<br/>+ Datenstrukturanpassung<br/>+ Zugriffsrechte synchronisieren
 
-|Eventuell zusätzlich nötig|Anleitung|
-|-|-|
-|Firebird-Update|[Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/firebird-aktualisieren/)|
-|Update der Crystal Reports Runtimeversion|[CR Runtime aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)|
+|Eventuell zusätzlich nötig:
+* [Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/firebird-aktualisieren/)
+* *[CR Runtime aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)
 
 !!! warning "Wichtig!"    
 
@@ -20,9 +19,7 @@ MAGELLAN Update (Server und Clients)| MAGELLAN Update (Server und Clients)<br/>+
 Um die Ausgangsbasis zu bestimmen starten Sie bitte eine MAGELLAN-Instanz und prüfen bitte die Versionsnummer unter `Hilfe > Version und Lizenz`. 
 Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version.
 
-Beispiel:
-
-**Version 9.0.1 900**
+Beispiel: **Version 9.0.1 900**
 
 Versionsnummer für die Software|Versionsnummer der Datenbank
 ---|---
