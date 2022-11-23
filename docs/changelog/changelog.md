@@ -20,7 +20,7 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! important "Wichtig"
 
-    **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist seit der MAGELLAN 9.5.0 behoben.
+    **Druckproblem mit Windows 11 22H2 und Crystal Reports Runtime** behoben mit der Version MAGELLAN 9.5.0.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
@@ -30,7 +30,6 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
     **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
-    **Achtung: Die Unterstützung für MAGELLAN 8 lief im Juli 2022 aus, bitte steigen Sie auf die aktuelle Version um!**
 
 ## LEGENDE
 
