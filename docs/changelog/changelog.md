@@ -12,6 +12,14 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! danger "Achtung"
 
+    Das Vorgehen für die Installation hat sich seit der 9.5.0 geändert.<br/>
+     - **MAGELLAN** gibt es jetzt die Varianten **64-Bit und 32-Bit**.<br/> 
+     - Die für den Druck benötigte **Runtime-Version von Crystal Reports** ist nicht mehr Teil des Installationspaketes, sondern wird **gesondert auf allen Clients und dem Server installiert**. 
+    
+    Beim Update ab der 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+
+!!! important "Wichtig"
+
     **Kein Druck mit Windows 11 22H2 und Crystal Reports Runtime** möglich, bitte lesen Sie [folgende Informationen](https://mailchi.mp/stueber.de/wichtiger-hinweis-windows-11-22h2-und-crystal-reports-runtime). Das Problem ist seit der MAGELLAN 9.5.0 behoben.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
@@ -42,7 +50,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BBS-JZ-HJ-AG-AS (A07).rpt` Daten von gewechselten Zeiträumen werden nicht berücksichtigt
 
-### Version 9.5.3 902 (1.11.2022)
+### Version 9.5.3 902 (21.11.2022)
 
 #### MAGELLAN Schulverwaltung
 
