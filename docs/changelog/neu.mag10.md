@@ -4,6 +4,7 @@
 [2]:/assets/images/neues/10.002.png "Kurs und Lehrer"
 [3]:/assets/images/neues/10.003.png "Bestanden, Leistungsart"
 [4]:/assets/images/neues/10.004.png "Aktionsaufrufe in der Gruppe Fächer"
+[5]:/assets/images/neues/10.005.png "Fach löschen nach Kursnummer"
 
 **Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
 
@@ -25,7 +26,7 @@ Die Aktionsaufrufe, die unter `Schüler > Zeugnis > Fächer` angeordnet waren un
 
 [![Aktionsaufrufe in der Gruppe Fächer][4]][4]
 
-#### Fächer zuweisem
+#### Fach zuweisen
 
   Für das Zuweisen von Fächern (`Schüler > Zeugnsi> Fächer`) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
 
@@ -38,7 +39,13 @@ Die Aktionsaufrufe, die unter `Schüler > Zeugnis > Fächer` angeordnet waren un
   * Position
   * Faktor
   * Merkmal
-  * Sprach
+  * Sprachen
+
+#### Fach löschen
+
+Für den Assistenten zum `Fach löschen` gibt es das neue Filterkriterium `Kursnummer`.
+
+[![Fach löschen nach Kursnummer][5]][5]
 
 #### Leistungsart und Bestanden in der Notenübersicht
 
