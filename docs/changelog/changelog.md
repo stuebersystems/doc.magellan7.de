@@ -159,6 +159,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * NEW: `Mandant (Wiederholerliste)`, bitte beachten Sie die Anleitung. [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: `Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * FIX: Sorgeberechtigte ohne Kinder im aktuellen Zeitraum.rpt
+* FIX: `BER-Schul Z 502 (09.19).rpt`[Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.0.7 901 (23.08.2022)
 
