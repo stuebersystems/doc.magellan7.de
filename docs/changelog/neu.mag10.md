@@ -14,6 +14,10 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möc
 
 ### Menü Schüler
 
+### Schüler fortschreiben
+
+Beim Fortschreiben von Schülern ins Folgehalbjahr wird auch, wenn noch nicht vorhanden, ein neuer Klassenzeitraum für die Klassen angefügt. Für den neuen Klassenzeitraum wird beim Anlegen neu auch der Vorhalbjahreswert aus dem Feld `Klassenraum` übernommen.
+
 #### Lehrer und Kurs auf der Leistungskarte
 
 Unter `Schüler > Zeugnis > Leistungen` gibt als als Sortierkriterium die Spalten `Lehrer` und `Kurs`, Inhalte in diesen Spalten können Sie wie gewohnt auf der Unterkarte `Fächer` editieren.
@@ -52,6 +56,16 @@ Für den Assistenten zum `Fach löschen` gibt es das neue Filterkriterium `Kursn
 In der Notenübersicht gibt es die neue Spalten `Leistungsart` und `Bestanden`.
 
 [![Bestanden, Leistungsart][3]][3]
+
+### Bewerber
+
+#### Daten 2
+
+Unter `Bewerber > Daten 2 > Überweisung` kann der Eintrag für  `Einschulantrag/Ausnahme` gesetzt werden.
+
+#### Bewerber > Bewerberstatus
+
+In der Liste der Bewerberstatus gibt es den neuen Wert `Einladung`.
 
 ### Menü Abitur
 
