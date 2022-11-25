@@ -26,24 +26,24 @@ Unter `Schüler > Zeugnis > Leistungen` gibt als als Sortierkriterium die Spalte
 
 #### Aktionsaufrufe ins Menü verschoben
 
-Die Aktionsaufrufe, die unter `Schüler > Zeugnis > Fächer` angeordnet waren und aber für mehrere Schüler genutzt werden können, werden zum Aufruf in der Menüleiste unter 
+Die Aktionsaufrufe, die unter `Schüler > Zeugnis > Fächer` angeordnet waren und aber für mehrere Schüler genutzt werden können, wurden zum Aufruf in die Menüleiste unter `Schüler` in die neue Gruppe `Fächer` verschoben.
 
 [![Aktionsaufrufe in der Gruppe Fächer][4]][4]
 
 #### Fach zuweisen
 
-  Für das Zuweisen von Fächern (`Schüler > Zeugnsi> Fächer`) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
+Für das Zuweisen von Fächern (`Schüler > Zeugnis> Fächer`) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
 
-  * Unterrichtsart
-  * Fachstatus
-  * Kursnummer
-  * Lehrer
-  * Schwerpunkt
-  * Niveau
-  * Position
-  * Faktor
-  * Merkmal
-  * Sprachen
+* Unterrichtsart
+* Fachstatus
+* Kursnummer
+* Lehrer
+* Schwerpunkt
+* Niveau
+* Position
+* Faktor
+* Merkmal
+* Sprachen
 
 #### Fach löschen
 
