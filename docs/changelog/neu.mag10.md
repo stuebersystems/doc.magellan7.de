@@ -91,5 +91,3 @@ Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachk
 ## MAGELLAN Administrator
 
 Artifakte beseitigt
-
-
