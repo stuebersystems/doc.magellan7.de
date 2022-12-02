@@ -48,6 +48,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BBS-JZ-HJ-AG-AS (A07).rpt` Daten von gewechselten Zeiträumen werden nicht berücksichtigt
+* FIX: SAC-FOS-HJZ (D.01.01).rpt, SAC-FO-HJI (D.01.01)(Fachpraktischer Unterricht).rpt, SAC-FOS-FHReife (D.01.04).rpt => Fachrichtung wird aus dem Berufsfeld des Bildungsgangs ausgelesen, das dem aktuellen Ausbildungsdatensatz des Schülers zuwiesen wurde
 
 ### Version 9.5.3 902 (21.11.2022)
 
