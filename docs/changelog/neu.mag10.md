@@ -19,7 +19,7 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möc
 
 ### Menü Schüler
 
-### Schüler fortschreiben
+#### Schüler fortschreiben
 
 Beim Fortschreiben von Schülern ins Folgehalbjahr wird auch, wenn noch nicht vorhanden, ein neuer Klassenzeitraum für die Klassen angefügt. Für den neuen Klassenzeitraum wird beim Anlegen neu auch der Vorhalbjahreswert aus dem Feld `Klassenraum` übernommen.
 
@@ -27,7 +27,7 @@ Beim Fortschreiben von Schülern ins Folgehalbjahr wird auch, wenn noch nicht vo
 
 Der Seriendruck an die Sorgeberechtigten von Vagabunden ist möglich. Bitte markieren Sie im Menü `Schüler` für die Filterung `Vagabunden` die Datensätze, rufen den Seriendruck mit <kbd>Strg</kbd> + <kbd>S</kbd> auf und wählen `An die Sorgeberechtigten der markierten Schüler` aus. Bitte beachten Sie für eigene Vorlagen, dass folgende Seriendruck-Felder logisch nicht für Schreiben an Vagabunden genutzt werden können: Klasse_Kuerzel, Klasse_Langname1, Klasse_Langname2
 
-### Schüler/Bewerber in Mandanten versetzen
+#### Schüler/Bewerber in Mandanten versetzen
 
 Für den Assistenten unter `Laufbahnprozesse > In Mandanten versetzen` kann für das Versetzen als Vagabund oder Bewerber jeweils eine Herkunftsschule mit zugewiesen werden. Sie können den Start-Mandanten unter `Schulen` erfassen und auch ggfs. als Favorit (Rechtsklick in der Schulenliste > Zu Favoriten hinzufügen) markieren, damit dieser Datensatz in der Auswahl nach oben sortiert wird.
 
@@ -58,11 +58,9 @@ Für das Zuweisen von Fächern (`Schüler > Zeugnis> Fächer`) gibt es zusätzli
 * Merkmal
 * Sprachen
 
-#### Fachtafel zuweisen
+#### Endnote fortschreiben
 
-##### Endnote fortschreiben
-
-Bei den `Optionen zum Verändern bestehender Fachdaten` ist es zusätzlich möglich nachträglich das Häkchen für `Endnote fortschreiben` je Fachzeile zu setzen.
+Bei den `Optionen zum Verändern bestehender Fachdaten` im Assistenten `Fachtafel zuweisen` ist es zusätzlich möglich nachträglich das Häkchen für `Endnote fortschreiben` je Fachzeile zu setzen.
 
 [![Endnote fortschreiben][7]][7]
 
@@ -122,4 +120,6 @@ Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachk
 
 ## MAGELLAN Administrator
 
-Artifakte beseitigt
+### Oberfläche
+
+Die Oberfläche wurde überarbeitet.
