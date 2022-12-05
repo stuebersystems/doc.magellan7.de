@@ -6,6 +6,10 @@
 [4]:/assets/images/neues/10.004.png "Aktionsaufrufe in der Gruppe Fächer"
 [5]:/assets/images/neues/10.005.png "Fach löschen nach Kursnummer"
 [6]:/assets/images/neues/10.006.png "Lehrerserien-Email"
+[7]:/assets/images/neues/10.007.png "Endnote fortschreiben"
+[8]:/assets/images/neues/10.008.png "Personen-Serien-Email"
+[9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-Email"
+
 
 **Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
 
@@ -54,6 +58,14 @@ Für das Zuweisen von Fächern (`Schüler > Zeugnis> Fächer`) gibt es zusätzli
 * Merkmal
 * Sprachen
 
+#### Fachtafel zuweisen
+
+##### Endnote fortschreiben
+
+Bei den `Optionen zum Verändern bestehender Fachdaten` ist es zusätzlich möglich nachträglich das Häkchen für `Endnote fortschreiben` je Fachzeile zu setzen.
+
+[![Endnote fortschreiben][7]][7]
+
 #### Fach löschen
 
 Für den Assistenten zum `Fach löschen` gibt es das neue Filterkriterium `Kursnummer`.
@@ -82,11 +94,15 @@ In der Liste der Bewerberstatus gibt es den neuen Wert `Einladung`. Der Wert kan
 
 Aus dem Menü `Lehrer` heraus können Sie eine Gruppe von Lehrern markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Lehrer aufrufen. Die Funktion filtert für die markierten Lehrer die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
+[![Lehrerserien-Email][6]][6]
+
 ### Menü Personen
 
 #### Personen-Serienemail
 
 Aus dem Menü `Personen` heraus können Sie eine Gruppe von Personen markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Personen aufrufen. Die Funktion filtert für die markierten Personen die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
+
+[![Personen-Serien-Email][8]][8]
 
 ### Menü Sorgeberechtigte
 
@@ -94,7 +110,7 @@ Aus dem Menü `Personen` heraus können Sie eine Gruppe von Personen markieren u
 
 Aus dem Menü `Sorgeberechtigte` heraus können Sie eine Gruppe von Sorgeberechtigten markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Sorgeberechtigte aufrufen. Die Funktion filtert für die markierten Sorgeberechtigten die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
-[![Lehrerserien-Email][6]][6]
+[![Sorgeberechtigten-Serien-Email][9]][9]
 
 ### Menü Abitur
 
