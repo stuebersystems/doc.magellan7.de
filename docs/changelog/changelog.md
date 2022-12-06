@@ -67,6 +67,10 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BLNW-OS.rpt` 
+* FIX: `SAC-FOS-FHReife (D.01.04).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: `SAC-FOS-JZ (D.01.02)` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: `SAC-FOS-HJZ (D.01.01).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
+* FIX: `SAC-FO-HJI (D.01.01)(Fachpraktischer Unterricht).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
 
 ### Version 9.5.2 902 (10.11.2022)
 
@@ -76,6 +80,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
     * Höchster Abschluss ABS: Abschluss, Bildungsgang
     * Höchster Abschluss (erworben): Abschluss ABS, Abschluss BBS
     * Höchster Abschluss BBS: Abschluss, Beruf, Bildungsgang
+
 
 ### Version 9.5.1 902 (09.11.2022)
 
