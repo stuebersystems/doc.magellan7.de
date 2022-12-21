@@ -55,6 +55,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `BER-Schul Z 302 (11.19).rpt`: kleinere Korrekturen
 * NEW: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `Schueler (Verzeichnis der Prüflinge nach Prüfungsfächern).rpt`
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `BER-Schul Z 303 (11.19).rpt` Ausgabe Datum Eintritt in der Oberstufe
+* FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `SAC-FOS-JZ (D.01.02).rpt` Korrektur Größe Textfeld Zeugnisbemerkungen
 
 ### Version 9.5.3 902 (21.11.2022)
 
