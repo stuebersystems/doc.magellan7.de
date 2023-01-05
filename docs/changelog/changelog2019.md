@@ -592,7 +592,6 @@ Für folgende Berichte wurde die Verknüpfung zwischen SchuelerZeitraeume und Sc
 * FIX: Zeugnisse\Sachsen\SAC-BS-AS (A.01.07)(bis 2018).rpt
 * FIX: Zeugnisse\Sachsen\SAC-BG-ABI (E.01.06).rpt
 * FIX: Zeugnisse\Sachsen\SAC-BF-AS (A.02.07).rpt
---
  
 ## 7.0.14 - 706 (19.07.2019)
 
