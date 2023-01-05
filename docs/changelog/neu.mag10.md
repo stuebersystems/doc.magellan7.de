@@ -146,3 +146,9 @@ Aus dem Menü `Sorgeberechtigte` heraus können Sie eine Gruppe von Sorgeberecht
 Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachkategorie` und `Aufgabenbereich` aus den Einträgen unter `Extras > Schlüsselverzeichnisse > Fächer` eingeblendet werden. Damit erhalten Sie eine schnelle Übersicht um zu überprüfen, ob Ihren Fächern die korrekten Werte zugewiesen wurden. Die korrekten Eingaben werden je Berechnungsskript in den [Landesanpassungen](https://doc.la.stueber.de/skriptueberblick/) dokumentiert.
 
 [![Abitur: Fachkategorie, Aufgabenbereich][1]][1]
+
+## MyMAGELLAN
+
+### `Bestanden` und `Leistungsart`
+
+Die Felder `Bestanden` und `Leistungsart` aus `Schüler > Zeugnis > Leistungen` können mit in eine MyMAGELLAN-Datei übertragen, dort befüllt und wieder in die Schulverwaltung übertragen werden.
