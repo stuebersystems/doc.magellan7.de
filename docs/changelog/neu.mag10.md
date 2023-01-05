@@ -5,10 +5,10 @@
 [3]:/assets/images/neues/10.003.png "Bestanden, Leistungsart"
 [4]:/assets/images/neues/10.004.png "Aktionsaufrufe in der Gruppe Fächer"
 [5]:/assets/images/neues/10.005.png "Fach löschen nach Kursnummer"
-[6]:/assets/images/neues/10.006.png "Lehrerserien-Email"
+[6]:/assets/images/neues/10.006.png "Lehrerserien-E-Mail"
 [7]:/assets/images/neues/10.007.png "Endnote fortschreiben"
-[8]:/assets/images/neues/10.008.png "Personen-Serien-Email"
-[9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-Email"
+[8]:/assets/images/neues/10.008.png "Personen-Serien-E-Mail"
+[9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-E-Mail"
 
 **Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
 
@@ -96,27 +96,27 @@ In der Liste der Bewerberstatus gibt es den neuen Wert `Einladung`. Der Wert kan
 
 ### Menü Lehrer
 
-#### Lehrer-Serienemail
+#### Lehrer-SerienE-Mail
 
 Aus dem Menü `Lehrer` heraus können Sie eine Gruppe von Lehrern markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Lehrer aufrufen. Die Funktion filtert für die markierten Lehrer die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
-[![Lehrerserien-Email][6]][6]
+[![Lehrerserien-E-Mail][6]][6]
 
 ### Menü Personen
 
-#### Personen-Serienemail
+#### Personen-SerienE-Mail
 
 Aus dem Menü `Personen` heraus können Sie eine Gruppe von Personen markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Personen aufrufen. Die Funktion filtert für die markierten Personen die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
-[![Personen-Serien-Email][8]][8]
+[![Personen-Serien-E-Mail][8]][8]
 
 ### Menü Sorgeberechtigte
 
-#### Sorgeberechtigten-Serienemail
+#### Sorgeberechtigten-SerienE-Mail
 
 Aus dem Menü `Sorgeberechtigte` heraus können Sie eine Gruppe von Sorgeberechtigten markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Sorgeberechtigte aufrufen. Die Funktion filtert für die markierten Sorgeberechtigten die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
-[![Sorgeberechtigten-Serien-Email][9]][9]
+[![Sorgeberechtigten-Serien-E-Mail][9]][9]
 
 ### Menü Abitur
 
@@ -138,6 +138,11 @@ Von diesem Status ausgehend können Sie aus der MAGELLAN Oberfläche im Menü `S
 
 Die Oberfläche wurde überarbeitet.
 
-### Passworte gesammelt zuweisen
+### Passworte und Emailadresse
 
+Für bereits angelegte Benutzer gibt es neu die Möglichkeit, gesammelt Passworte generieren zu lassen. Für welche Nutzer ein neues Passwort generiert werden soll, legen Sie über die Markierung in der Liste der Benutzer in der Benutzerverwaltung fest.
+Um Ihnen die Möglichkeit zu geben diese Daten an die Benutzer zu übermittelt, werden erzeugten Passworte automatisch mit der Benutzerkennung und der E-Mailadresse in eine CSV-Datei gespielt. Diese Datei kann nur beim Ändern oder neu Erzeugen von Passworten erstellt werden, ein späterer Zugriff auf die verschlüsselten Passworte ist nicht möglich.
 
+Als E-Mailadresse wird für Lehrer die E-Mailadresse aus `MAGELLAN > Lehrer > Daten1 > E-Mail` verwendet. Passen Sie die Adresse in MAGELLAN neu an, wird die Adresse auch für diese Funktionalität aktualisiert.
+Für Benutzer, die nicht Lehrer der Schule sind, können Sie die zuverwendende Adresse je Benutzer direkt in der Benutzerverwaltung eingeben. 
+Über eine neue Spalte unter `Benutzerverwaltung > E-Mail` sehen Sie für alle angelegten Benutzer ob eine und wenn ja, welche Adresse erfasst wurde.
