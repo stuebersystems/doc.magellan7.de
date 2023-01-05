@@ -18,16 +18,26 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möc
 
 ### neue Version
 
-Wir steigen für MAGELLAN 10 auf die aktuelle Firebird-Version 4.0.2 um. Die Passwortdatenbank von Firebird 2.5.9 (security2.fdb), die die verschlüsselten Passworte der Nutzer enthält kann für eine höhere Version (3.0 oder höher) aktualisiert werden. Das bedeutet, dass die Benutzer der MAGELLAN-Datenbank in der neuen Passwortdatenbank (security4.fdb) angelegt werden müssen. Dieses Anlegen ist durch eine neue Vergabe der Passworte möglich.
-Hierfür gibt es eine neue Sammelaktion, die für einen Teil oder alle Nutzer neue Passworte generiert und in eine Liste ausgibt. Die Liste enthält Passwort, Kennung und wenn vorhanden, auch Mailadressen, die ggfs. für den Versand an die Nutzer genutzt werden können.
+Wir steigen für MAGELLAN 10 auf die aktuelle Firebird-Version 4.0.2 um.
+Die Passwortdatenbank von Firebird 2.5.9 (security2.fdb), die die verschlüsselten Passworte der Nutzer enthält, kann nicht für eine höhere Version (3.0 oder höher) aktualisiert werden.
+Das bedeutet, dass die Benutzer der MAGELLAN-Datenbank in der neuen Passwortdatenbank (security4.fdb) angelegt werden müssen. Dieses Anlegen ist durch eine neue Vergabe der Passworte möglich.
+Hierfür gibt es eine neue Sammelaktion, die für einen Teil oder alle Nutzer neue Passworte generiert und in eine Liste ausgibt. Die Liste enthält Passwort, Kennung und wenn vorhanden, auch Mailadressen (aus MAGELLAN > Lehrer > Daten1 > E-Mail oder für Benutzer, die nicht Lehrer der Schule sind im Administrator erfassbar), die ggfs. für den Versand an die Nutzer genutzt werden können.
 Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGELLAN-Oberfläche auf ein eigenes Passwort abändern.
-Bitte lesen Sie die ausführlichen Hinweise zur Neuvergabe der Passworte im Abschnitt: ...
 
 !!! warning "Wichtig!"
 
     Bitte berücksichtigen Sie, dass Firebird 4.0.2 und Firebird 2.5.9 können nicht (ohne weitere Anpassungen) parallel genutzt werden.
 
 ## MAGELLAN Administrator
+
+### Passworte und E-Mailadresse
+
+Für bereits angelegte Benutzer gibt es neu die Möglichkeit, gesammelt Passworte generieren zu lassen. Für welche Nutzer ein neues Passwort generiert werden soll, legen Sie über die Markierung in der Liste der Benutzer in der Benutzerverwaltung fest.
+Um Ihnen die Möglichkeit zu geben diese Daten an die Benutzer zu übermittelt, werden erzeugten Passworte automatisch mit der Benutzerkennung und der E-Mailadresse in eine CSV-Datei gespielt. Diese Datei kann nur beim Ändern oder neu Erzeugen von Passworten erstellt werden, ein späterer Zugriff auf die verschlüsselten Passworte ist nicht möglich.
+
+Als E-Mailadresse wird für Lehrer die E-Mailadresse aus `MAGELLAN > Lehrer > Daten1 > E-Mail` verwendet. Passen Sie die Adresse in MAGELLAN neu an, wird die Adresse auch für diese Funktionalität aktualisiert.
+Für Benutzer, die nicht Lehrer der Schule sind, können Sie die zuverwendende Adresse je Benutzer direkt in der Benutzerverwaltung eingeben.
+Über eine neue Spalte unter `Benutzerverwaltung > E-Mail` sehen Sie für alle angelegten Benutzer, ob eine Adresse und wenn ja, welche Adresse erfasst wurde.
 
 ### Sorgeberechtigte ohne aktuelle Schüler inaktivieren
 
@@ -38,15 +48,6 @@ Von diesem Status ausgehend können Sie aus der MAGELLAN Oberfläche im Menü `S
 ### Oberfläche
 
 Die Oberfläche wurde überarbeitet.
-
-### Passworte und E-Mailadresse
-
-Für bereits angelegte Benutzer gibt es neu die Möglichkeit, gesammelt Passworte generieren zu lassen. Für welche Nutzer ein neues Passwort generiert werden soll, legen Sie über die Markierung in der Liste der Benutzer in der Benutzerverwaltung fest.
-Um Ihnen die Möglichkeit zu geben diese Daten an die Benutzer zu übermittelt, werden erzeugten Passworte automatisch mit der Benutzerkennung und der E-Mailadresse in eine CSV-Datei gespielt. Diese Datei kann nur beim Ändern oder neu Erzeugen von Passworten erstellt werden, ein späterer Zugriff auf die verschlüsselten Passworte ist nicht möglich.
-
-Als E-Mailadresse wird für Lehrer die E-Mailadresse aus `MAGELLAN > Lehrer > Daten1 > E-Mail` verwendet. Passen Sie die Adresse in MAGELLAN neu an, wird die Adresse auch für diese Funktionalität aktualisiert.
-Für Benutzer, die nicht Lehrer der Schule sind, können Sie die zuverwendende Adresse je Benutzer direkt in der Benutzerverwaltung eingeben. 
-Über eine neue Spalte unter `Benutzerverwaltung > E-Mail` sehen Sie für alle angelegten Benutzer ob eine und wenn ja, welche Adresse erfasst wurde.
 
 ## MAGELLAN Schulverwaltung
 
