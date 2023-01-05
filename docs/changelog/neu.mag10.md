@@ -10,10 +10,18 @@
 [8]:/assets/images/neues/10.008.png "Personen-Serien-Email"
 [9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-Email"
 
-
 **Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 10 geben.
+
+## Firebird 4.0.2
+
+Wir steigen für MAGELLAN 10 auf die aktuelle Firebird-Version 4.0.2 um. Die Passwortdatenbank (security2.fdb), die die verschlüsselten Passworte der Nutzer enthält kann nicht auf eine höhere Version (3.0 oder höher) aktualisiert werden, die Benutzerpassworte müssen neu angelegt werden. Hierfür können Sie für einen Teil oder alle Nutzer Passworte generieren, die in eine Liste ausgegeben werden, die auch Mailadressen für den Versand an die Nutzer ggfs. genutzt werden können. Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGELLAN-Oberfläche auf ein eigenes 8-stelliges Passwort abändern.
+Bitte lesen Sie die ausführlichen Hinweise zur Neuvergabe der Passworte im Abschnitt: ...
+
+!!! warning "Wichtig!"
+
+    Firebird 4.0.2 und Firebird 2.5.9 können nicht ohne Weiteres parallel genutzt werden.
 
 ## MAGELLAN Schulverwaltung
 
@@ -120,6 +128,16 @@ Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachk
 
 ## MAGELLAN Administrator
 
+### Sorgeberechtigte ohne aktuelle Schüler inaktivieren
+
+Beim Ausschulen von Schülern kann per Option gewählt werden, ob die verknüpften Sorgeberechtigten gleich auf den Status `inaktiv` gesetzt werden sollen. MAGELLAN prüft, ob es aktive ebenfalls mit dem Sorgeberechtigten verknüpfte Schülerdatensätze (bspw. Geschwister) gibt und würde, wenn das nicht der Fall ist, den Status für den Sorgeberechtigten anpassen.
+Sollte diese Aktion nicht konsequent genutzt worden sein, kann mit einer neuen Funktion eine Prüfung erfolgen, die schaut welcher Sorgeberechtigte im aktuellen Zeitraum Schülern zugeordnet ist oder nicht und den Status entsprechend auf `aktiv` oder `inaktiv` setzt. 
+Von diesem Status ausgehend können Sie aus der MAGELLAN Oberfläche im Menü `Sorgeberechtigte` die inaktiven Datensätze filtern und ggfs. auch Löschen.
+
 ### Oberfläche
 
 Die Oberfläche wurde überarbeitet.
+
+### Passworte gesammelt zuweisen
+
+
