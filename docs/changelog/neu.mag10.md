@@ -21,7 +21,7 @@ Bitte lesen Sie die ausführlichen Hinweise zur Neuvergabe der Passworte im Absc
 
 !!! warning "Wichtig!"
 
-    Firebird 4.0.2 und Firebird 2.5.9 können nicht ohne Weiteres parallel genutzt werden.
+    Bitte berücksichtigen Sie, dass Firebird 4.0.2 und Firebird 2.5.9 können nicht (ohne weitere Anpassungen) parallel genutzt werden.
 
 ## MAGELLAN Administrator
 
