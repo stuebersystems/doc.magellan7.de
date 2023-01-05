@@ -121,7 +121,7 @@ In der Liste der Bewerberstatus gibt es den neuen Wert `Einladung`. Der Wert kan
 
 ### Menü Lehrer
 
-#### Lehrer-SerienE-Mail
+#### Lehrer-Serien-E-Mail
 
 Aus dem Menü `Lehrer` heraus können Sie eine Gruppe von Lehrern markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Lehrer aufrufen. Die Funktion filtert für die markierten Lehrer die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
@@ -129,7 +129,7 @@ Aus dem Menü `Lehrer` heraus können Sie eine Gruppe von Lehrern markieren und 
 
 ### Menü Personen
 
-#### Personen-SerienE-Mail
+#### Personen-Serien-E-Mail
 
 Aus dem Menü `Personen` heraus können Sie eine Gruppe von Personen markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Personen aufrufen. Die Funktion filtert für die markierten Personen die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
@@ -137,7 +137,7 @@ Aus dem Menü `Personen` heraus können Sie eine Gruppe von Personen markieren u
 
 ### Menü Sorgeberechtigte
 
-#### Sorgeberechtigten-SerienE-Mail
+#### Sorgeberechtigten-Serien-E-Mail
 
 Aus dem Menü `Sorgeberechtigte` heraus können Sie eine Gruppe von Sorgeberechtigten markieren und per <kbd>Strg</kbd> + <kbd>M</kbd> eine Serienmailfunktion für Sorgeberechtigte aufrufen. Die Funktion filtert für die markierten Sorgeberechtigten die Mailadresse aus und übergibt sie an den Standardmailclient Ihres Rechners. Es wird im Standardmailclient einen leere Mail geöffnet, die Mailadressen werden je nach Auswahl im Assistenten in die Zeilen An, CC oder BCC übergeben.
 
