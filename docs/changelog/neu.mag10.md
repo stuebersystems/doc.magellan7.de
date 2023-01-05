@@ -16,7 +16,11 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möc
 
 ## FIREBIRD
 
-Wir steigen für MAGELLAN 10 auf die aktuelle Firebird-Version 4.0.2 um. Die Passwortdatenbank (security2.fdb), die die verschlüsselten Passworte der Nutzer enthält kann nicht auf eine höhere Version (3.0 oder höher) aktualisiert werden, die Benutzerpassworte müssen neu angelegt werden. Hierfür können Sie für einen Teil oder alle Nutzer Passworte generieren, die in eine Liste ausgegeben werden, die auch Mailadressen für den Versand an die Nutzer ggfs. genutzt werden können. Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGELLAN-Oberfläche auf ein eigenes 8-stelliges Passwort abändern.
+### neue Version
+
+Wir steigen für MAGELLAN 10 auf die aktuelle Firebird-Version 4.0.2 um. Die Passwortdatenbank von Firebird 2.5.9 (security2.fdb), die die verschlüsselten Passworte der Nutzer enthält kann für eine höhere Version (3.0 oder höher) aktualisiert werden. Das bedeutet, dass die Benutzer der MAGELLAN-Datenbank in der neuen Passwortdatenbank (security4.fdb) angelegt werden müssen. Dieses Anlegen ist durch eine neue Vergabe der Passworte möglich.
+Hierfür gibt es eine neue Sammelaktion, die für einen Teil oder alle Nutzer neue Passworte generiert und in eine Liste ausgibt. Die Liste enthält Passwort, Kennung und wenn vorhanden, auch Mailadressen, die ggfs. für den Versand an die Nutzer genutzt werden können.
+Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGELLAN-Oberfläche auf ein eigenes Passwort abändern.
 Bitte lesen Sie die ausführlichen Hinweise zur Neuvergabe der Passworte im Abschnitt: ...
 
 !!! warning "Wichtig!"
