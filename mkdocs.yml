@@ -69,28 +69,33 @@ nav:
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
-      - Server/Einzelplatz installieren: schulverwaltung/installation/version9/server.installieren.md
+      - MAGELLAN 10:
+        - Server/Einzelplatz: schulverwaltung/installation/version10/server.installieren.md
+        - Arbeitsplatz: schulverwaltung/installation/version10/arbeitsplatz.installieren.md
       - MAGELLAN 9:
-        - Arbeitsplatz installieren: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
+        - Server/Einzelplatz: schulverwaltung/installation/version9/server.installieren.md
+        - Arbeitsplatz: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
       - MAGELLAN 8:
-        - Server/Einzelplatz installieren: schulverwaltung/installation/version8/server.installieren.md
-        - Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
-      - MAGELLAN :        
-        - Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
-        - Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md  
+        - Server/Einzelplatz: schulverwaltung/installation/version8/server.installieren.md
+        - Arbeitsplatz: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
+      - MAGELLAN 7:        
+        - Server/Einzelplatz: schulverwaltung/installation/version7/server.installieren.md
+        - Arbeitsplatz: schulverwaltung/installation/version7/arbeitsplatz.installieren.md  
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
       - Terminalserver: schulverwaltung/installation/terminalserver.md
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
     - Upgrade:
+      - auf MAGELLAN 10:
+        - von MAGELLAN 9: schulverwaltung/upgrade/umstieg-von-9-auf-10.md
       - auf MAGELLAN 9:
-      - von MAGELLAN 8: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
-      - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
-      - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
+        - von MAGELLAN 8: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
+        - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
+        - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
       - auf MAGELLAN 8:
         - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-8.md
-        - von von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
+        - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
       - auf MAGELLAN 7:
         - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-7.md
         - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
