@@ -38,6 +38,7 @@ Um Ihnen die Möglichkeit zu geben diese Daten an die Benutzer zu übermittelt, 
 Als E-Mailadresse wird für Lehrer die E-Mailadresse aus `MAGELLAN > Lehrer > Daten1 > E-Mail` verwendet. Passen Sie die Adresse in MAGELLAN neu an, wird die Adresse auch für diese Funktionalität aktualisiert.
 Für Benutzer, die nicht Lehrer der Schule sind, können Sie die zuverwendende Adresse je Benutzer direkt in der Benutzerverwaltung eingeben.
 Über eine neue Spalte unter `Benutzerverwaltung > E-Mail` sehen Sie für alle angelegten Benutzer, ob eine Adresse und wenn ja, welche Adresse erfasst wurde.
+Um die Emailadressen in bestehenden Datenbanken erstmalig in die Benutzerverwaltung zu übernehmen, steht Ihnen eine Sammelaktion zur Verfügung.
 
 ### Sorgeberechtigte ohne aktuelle Schüler inaktivieren
 

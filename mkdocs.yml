@@ -56,8 +56,8 @@ nav:
 - Allgemein: 
     - Einführung: index.md
     - Was ist neu?: changelog/changelog.md
+    - Neuerungen MAGELLAN 10: changelog/neu.mag10.md    
     - Neuerungen MAGELLAN 9: changelog/neu.mag9.md
-    - Neuerungen MAGELLAN 10: changelog/neu.mag10.md
     - Archiv:
         - Neuerungen MAGELLAN 8: changelog/neu.mag8.md
         - Neuerungen MAGELLAN 7: changelog/neu.mag7.md
@@ -70,27 +70,31 @@ nav:
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
       - Server/Einzelplatz installieren: schulverwaltung/installation/version9/server.installieren.md
-      - Arbeitsplatz installieren: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
+      - MAGELLAN 9:
+        - Arbeitsplatz installieren: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
+      - MAGELLAN 8:
+        - Server/Einzelplatz installieren: schulverwaltung/installation/version8/server.installieren.md
+        - Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
+      - MAGELLAN :        
+        - Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
+        - Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md  
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
       - Terminalserver: schulverwaltung/installation/terminalserver.md
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
-      - Archiv:
-        - V8 Server/Einzelplatz installieren: schulverwaltung/installation/version8/server.installieren.md
-        - V8 Arbeitsplatz installieren: schulverwaltung/installation/version8/arbeitsplatz.installieren.md
-        - V7 Server/Einzelplatz installieren: schulverwaltung/installation/version7/server.installieren.md
-        - V7 Arbeitsplatz installieren: schulverwaltung/installation/version7/arbeitsplatz.installieren.md
     - Upgrade:
-      - von 8 auf 9: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
-      - von 7 auf 9: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
-      - von 6 auf 9: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
-      - Archiv:
-        - von 7 auf 8: schulverwaltung/upgrade/umstieg-von-7-auf-8.md
-        - von 6 auf 8: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
-        - von 6 auf 7: schulverwaltung/upgrade/umstieg-von-6-auf-7.md
+      - auf MAGELLAN 9:
+      - von MAGELLAN 8: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
+      - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
+      - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
+      - auf MAGELLAN 8:
+        - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-8.md
+        - von von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
+      - auf MAGELLAN 7:
+        - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-7.md
         - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
-    - Update: 
+    - Update:
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
       - Updates verteilen: schulverwaltung/update/wie-kann-ein-update-verteilt-werden.md
