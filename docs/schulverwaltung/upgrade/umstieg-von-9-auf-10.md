@@ -2,23 +2,47 @@
 
 **Dieses Kapitel wird gerade angepasst!!!**
 
-Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 8 Version auf MAGELLAN 9 zu aktualisieren.
+Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 10 zu aktualisieren. 
+
+!!! tipp "Benötigen Sie unsere Unterstützung?"
+        Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
 
 Nr.|Was ist zu tun
 --|--
-1.| Prüfen Sie, ob auf Ihrem Serverrechner MAGELLAN 8 und Firebird aktuell sind und aktualisieren ggfs.
-2.| Installieren Sie MAGELLAN 9 auf dem Server und den Clientrechnern und lizenzieren es.
-3.| Kopieren Sie die 8er Datenbank in den 9er Datenbankordner.
-4.| Starten Sie MAGELLAN um die Datenbank anzupassen, synchronisieren Sie die Zugriffsrechte.
-5.| Übernehmen Sie eigene Berichte, Vorlagen oder Dokumente.
-6.| Clientrechner installieren, lizenzieren, konfigurieren
-7.| Fertig!
+ 1.|Downloads, Lizenzdatei zurechtlegen
+ 2.|Ist MAGELLAN 9 aktuell? ggfs. bitte aktualisieren
+ 3.|ggfs. Lehrer-E-Mailadressen unter `MAGELLAN > Lehrer > Daten 1 > E-Mail` nachpflegen
+ 4.|Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9
+ 5.|Installation von Firebird 4.0.2, MAGELLAN 10, CR Runtimeversion
+ 6.|Willkommensassistent starten (Pfade und Lizenz)
+ 7.|Wiederherstellung der MAGELLAN9.fbk mit dem MAGELLAN 10/ Firebird 4.0.2
+ 8.|Einfügen der wiederhergestellten MAGELLAN10.fdb ins Datenbankverzeichnis
+ 9.|Start von MAGELLAN 10 und Anpassung der Datenstruktur
+10.|Admin Emails nachtragen lassen
+11.|Kennworte neu erzeugen lassen, ggfs. per Mail verteilen
+12.|Zugriffsrechte synchronisieren
+13.|Arbeitsplatzrechner aktualisieren (MAGELLAN 10, CR Runtimeversion)
+
+## Downloads, Lizenzdatei zurechtlegen
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Auf dem Server
 
 ### Ausgangssituation prüfen und aktualisieren
 
-Auf Ihrem **Serverrechner** stellen Sie bitte sicher, dass jeweils die aktuellste Ausgabe von `MAGELLAN 8` und `Firebird 2.5.9` einsetzt wird. Die Versionen auf den Clientrechner müssen nicht aktualisiert werden.
+Auf Ihrem **Serverrechner** stellen Sie bitte sicher, dass jeweils die aktuellste Ausgabe von `MAGELLAN 8` und `Firebird 2.5.9` einsetzt wird. Die Versionen auf den Arbeitsplatz müssen nicht aktualisiert werden.
 
 Programm|Version auslesen
 --|--
@@ -32,7 +56,7 @@ Wenn es hier Abweichungen gibt, aktualisieren Sie bitte im ersten Schritt MAGELL
 
 ### MAGELLAN 9 installieren und lizenzieren
 
-Installieren Sie MAGELLAN 9 auf Ihrem Serverrechner und auf den Clientrechnern.
+Installieren Sie MAGELLAN 9 auf Ihrem Serverrechner und auf den Arbeitsplätzen.
 
 !!! warning "Wichtig"
 
@@ -80,7 +104,7 @@ Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installa
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.
 Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 9 ab.
 
-## Auf den Clientrechnern
+## Auf den Arbeitsplätzen
 
 ### MAGELLAN 9 installieren und lizenzieren
 
@@ -88,22 +112,22 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
     MAGELLAN 8 stört dabei nicht, sollte aber nicht dauerhaft auf den Rechnern bleiben, um versehentliche Dateneingaben im verkehrten Programm vorzubeugen - beide Programmversionen arbeiten auf verschiedenen Datenbanken.
 
-Folgen Sie unserer Anleitungen für die Einrichtung und Lizenzierung der [Clients](https://doc.magellan.stueber.de/schulverwaltung/installation/version9/arbeitsplatz.installieren/).
+Folgen Sie unserer Anleitungen für die Einrichtung und Lizenzierung der [Arbeitsplätzen](https://doc.magellan.stueber.de/schulverwaltung/installation/version9/arbeitsplatz.installieren/).
 
 !!! warning "Wichtig"
 
-    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 9, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
+    Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von MAGELLAN 10, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
 
 ### Empfehlung
 
-Wir empfehlen Ihnen MAGELLAN auf einem Clientrechner zu installieren, zu lizenzieren und zu konfigurieren. Die Lizenzdaten und die Konfigurationsdaten können anschließend zentral abgelegt werden. Somit wäre ab dem zweiten Clientrechner nur die Installation notwendig und Sie legen zusätzlich eine Datei ab, die die Pfade enthält, von denen MAGELLAN die Lizenz- und Konfigurationdaten lesen soll.
+Wir empfehlen Ihnen MAGELLAN auf einem Arbeitsplatz zu installieren, zu lizenzieren und zu konfigurieren. Die Lizenzdaten und die Konfigurationsdaten können anschließend zentral abgelegt werden. Somit wäre ab dem zweiten Arbeitsplatz nur die Installation notwendig und Sie legen zusätzlich eine Datei ab, die die Pfade enthält, von denen MAGELLAN die Lizenz- und Konfigurationdaten lesen soll.
 
-Nach der Installation auf dem ersten Clientrechner starten Sie bitte MAGELLAN 9 um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassistenten gibt man die Lizenzdaten, die Pfade aus Sicht des Clientrechners zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
+Nach der Installation auf dem ersten Arbeitsplatz starten Sie bitte MAGELLAN 9 um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassistenten gibt man die Lizenzdaten, die Pfade aus Sicht des Arbeitsplatzs zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
 
-Testen Sie anschließend auf dem ersten Clientrechner, ob die Angaben korrekt waren.<br/>
+Testen Sie anschließend auf dem ersten Arbeitsplatz, ob die Angaben korrekt waren.<br/>
 **Test 1 (Datenbankpfad):** Dafür starten Sie MAGELLAN auf dem Rechner, gelingt der Start des Moduls, ist der Pfad zur Datenbank ok.<br/>
 **Test 2 (Datenordnerpfade):** In MAGELLAN wechseln Sie in das Menü Schüler, markieren einen Schüler und drücken bitte STRG+P. Werden Schülerberichte zur Auswahl gezeigt, sind die Pfade zu den Datenordnern ok.
 
-Die durch den Willkommens-Assistenten erzeugten Dateien, aus den die Lizenz, die Optionen und die Pfade ausgelesen werden, finden Sie unter `C:\ProgramData\Stueber Systems\Magellan 9`. Diese Dateien können Sie zentral ablegen und von allen Clientrechnern aus nutzen. Damit beim Programmstart von MAGELLAN nicht die lokalen Daten ausgelesen werden, sondern die zentral abgelegten Dateien gelesen werden, muss eine Textdatei mit den Pfaden und einem bestimmten Namen angelegt und an einer bestimmten Stelle abgelegt werden. Bitte folgen Sie hierfür unserer Anleitung unter: [Die Pathsdatei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/).
+Die durch den Willkommens-Assistenten erzeugten Dateien, aus den die Lizenz, die Optionen und die Pfade ausgelesen werden, finden Sie unter `C:\ProgramData\Stueber Systems\Magellan 10`. Diese Dateien können Sie zentral ablegen und von allen Arbeitsplätzen aus nutzen. Damit beim Programmstart von MAGELLAN nicht die lokalen Daten ausgelesen werden, sondern die zentral abgelegten Dateien gelesen werden, muss eine Textdatei mit den Pfaden und einem bestimmten Namen angelegt und an einer bestimmten Stelle abgelegt werden. Bitte folgen Sie hierfür unserer Anleitung unter: [Die Pathsdatei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 
-Die erzeugte Datei legen Sie auf allen anderen Clientrechnern (nicht auf dem Server!) nach der Installation bitte unter `C:\Program Files (x86)\Stueber Systems\Magellan 9` ab. Damit entfallen weitere Schritte zur Lizenzierung und Konfiguration.
+Die erzeugte Datei legen Sie auf allen anderen Arbeitsplätzen (nicht auf dem Server!) nach der Installation bitte unter `C:\Program Files (x86)\Stueber Systems\Magellan 10` ab. Damit entfallen weitere Schritte zur Lizenzierung und Konfiguration.
