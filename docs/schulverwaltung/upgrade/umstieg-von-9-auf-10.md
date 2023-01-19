@@ -10,7 +10,7 @@ Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 
 Nr.|Was ist zu tun
 --|--
  1.|Downloads, Lizenzdatei zurechtlegen
- 2.|Ist MAGELLAN 9 aktuell? ggfs. bitte aktualisieren
+ 2.|Ist MAGELLAN 9 aktuell? [Wenn nicht, dann bitte aktualisieren.](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/)
  3.|ggfs. Lehrer-E-Mailadressen unter `MAGELLAN > Lehrer > Daten 1 > E-Mail` nachpflegen
  4.|Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9
  5.|Installation von Firebird 4.0.2, MAGELLAN 10, CR Runtimeversion
@@ -25,14 +25,12 @@ Nr.|Was ist zu tun
 
 ## Downloads, Lizenzdatei zurechtlegen
 
+## Emailadressen nachpflegen
 
-
-
-
-
-
-
-
+Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb und security4.fdb) der beiden Versionen. Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen damit kein Problem dar.
+Für MAGELLAN 10 müssen für alle Benutzer neue Passworte gesetzt werden, wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.
+Die Emailadressen können mit einer neuen Funktion aus `MAGELLAN > Lehrer > Daten 1 > E-Mail` übernommen werden. Für Benutzer, die nicht mit einem Lehrer aus MAGELLAN verbunden sind, kann direkt im MAGELLAN Administrator eine E-Mailadresse hinterlegt werden.
+Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrollieren Sie bitte in MAGELLAN (auch schon vorab in Version 9 möglich) ob die Adressen entsprechend gefüllt sind. Für einen schnellen Überblick können Sie die Spalte `E-Mail` in der Auswahlliste `Lehrer` nutzen.
 
 
 
