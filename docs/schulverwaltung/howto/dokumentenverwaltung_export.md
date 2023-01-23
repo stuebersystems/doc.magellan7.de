@@ -70,11 +70,14 @@ Sie können alle Berichte und Zeugnisse optional aus der Druckvorschau nach Exce
 
 ### Automatisiertes Speichern je Datensatz
 
-#### für Berichte oder Zeugnisse
+Berichte oder Seriendruckdokumente können je Schüler (Bewerber, Klasse, Lehrer, Sorgeberechtigten...) in einem indivuduellen Unterverzeichnis gespeichert werden.
 
-Die gefüllten Berichte, egal ob Zeugnis oder Klassenliste, können je Datensatz gespeichert werden.
+#### Für Berichte oder Zeugnisse
+
+Die gefüllten Berichte, egal ob Zeugnis oder Klassenliste o.ä., können je Datensatz gespeichert werden.
 Dafür wird beim Druck eine Option angeboten, damit parallel zum Ausdruck auch eine digitale Kopie beim jeweiligen Datensatz im Dokumenteverzeichnisses des Datensatz abgelegt wird.
-Beispiel: Sie markieren in der Schülerauswahlliste eine Auswahl von Schülern, wählen einen Bericht und lassen diesen als gefülltes PDF je Schüler in ein schülerindividuelles Verzeichnis speichern.
+
+Beispiel:<br/>Sie markieren in der Schülerauswahlliste eine Auswahl von Schülern, wählen einen Bericht und lassen diesen als gefülltes PDF je Schüler in ein schülerindividuelles Verzeichnis speichern.
 Würden Sie einen Bericht aus dem Menü Klassen nutzen, würde das gefüllte PDF je Klasse in eine Verzeichnis gespielt werden.
 Bevor es losgehen kann, stellen Sie in den Optionen Ihrer MAGELLAN Anwendung bitte noch ein drei Dinge ein:
 
@@ -92,12 +95,11 @@ Sind die Einstellungen erfolgt, können Sie in den aktivierten Menüpunkten jewe
 
 Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jeweilige Verzeichnis des Datensatzes abgelegt.
 
-Ein Beispiel für einen Schülerbericht: 
-Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PDF`, dann wird auf Ihrem Server unter `...Dokumente > Schueler` für jeden der Schüler ein Verzeichnis mit der ID des Schülers genutzt/angelegt und in dieses Verzeichnis der gefüllte Bericht als PDF-Datei abgelegt. Haben Sie in den Optionen ein Unterverzeichnis "Berichte" angegeben, würde der Bericht nicht direkt in den Schülerordner gespielt, sondern ggfs. noch ein innerhalb des Schülerordners in Ihr angegebenes Verzeichnis (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Berichte`).
+Ein Beispiel für einen Schülerbericht: <br/>Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PDF`, dann wird auf Ihrem Server unter `...Dokumente > Schueler` für jeden der Schüler ein Verzeichnis mit der ID des Schülers genutzt/angelegt und in dieses Verzeichnis der gefüllte Bericht als PDF-Datei abgelegt. Haben Sie in den Optionen ein Unterverzeichnis "Berichte" angegeben, würde der Bericht nicht direkt in den Schülerordner gespielt, sondern ggfs. noch ein innerhalb des Schülerordners in Ihr angegebenes Verzeichnis (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Berichte`).
 
 Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.
 
-#### für den Seriendruck 
+#### Für den Seriendruck 
 
 Beim Seriendruck ist das Ergebnis ein Seriendruckdokument, dass Ihre Vorlage und die Daten aus der Seriendruckquelle verbunden zeigt. Diese Daten als einzelne Dokumente zu speichern ist aus Word oder LibreOffice möglich, aber nicht komfortabel.
 Nutzt man eine vorbereitete aktualisierte Seriendruckvorlage und markiert in MAGELLAN Datensätze, kann MAGELLAN bevor sich Word oder LibreOffice öffnen bereits die Vorlage und die Daten aus MAGELLAN verbinden und als einzelne Dateien in der Dokumentenverwaltung je Datensatz speichern.
