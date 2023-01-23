@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-Sie können den gesamten Schriftverkehr über MAGELLAN verwalten. Um alle Briefe, die Sie über MAGELLAN an Schüler, Bewerber, Betriebe, Sorgeberechtigte, Lehrer oder Personen gesendet haben,  zu finden, markieren Sie den entsprechenden Datensatz in der Auswahlliste, klicken Sie mit der rechten Maustaste darauf und wählen Sie `Dokumente`. Optional können Sie diesen Punkt auch über `Bearbeiten`, über das Ordnersymbol in der Menüleiste am oberen Fensterrand oder über die Tastenkombination `STRG+D` aufrufen. Das Fenster Dokumente von Person (Person bezieht sich auf den Namen der markierten Person) öffnet sich.
+Sie können den gesamten Schriftverkehr über MAGELLAN verwalten. Um alle Briefe, die Sie über MAGELLAN an Schüler, Bewerber, Betriebe, Sorgeberechtigte, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz in der Auswahlliste, klicken Sie mit der rechten Maustaste darauf und wählen Sie `Dokumente`. Optional können Sie diesen Punkt auch über `Bearbeiten`, über das Ordnersymbol in der Menüleiste am oberen Fensterrand oder über die Tastenkombination `STRG+D` aufrufen. Das Fenster Dokumente von Person (Person bezieht sich auf den Namen der markierten Person) öffnet sich.
 
 ![Hier können Sie alle Dokumente einsehen, indem Sie diese anklicken.](/assets/images/seriendruck/seriendruck13.png)
 
@@ -62,8 +62,35 @@ Wählen Sie einen Dateinamen und einen Pfad, unter dem die Excel-Tabelle, die er
 
 ![Dies ist die Anzeige eines aus MAGELLAN exportierten Schlüsselverzeichnisses in Excel](/assets/images/seriendruck/seriendruck21.png)
 
-### Berichte und Zeugnisse exportieren
+### Berichte und Zeugnisse exportieren aus der Druckvorschau
 
-Sie können alle Berichte und Zeugnisse optional nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau der Berichte oder Zeugnisse auf und klicken auf das Symbol  . Wählen Sie anschließend das gewünschte Export-Format (z.B. Word-Format) und legen Sie einen Speicherort fest. Sie können die Zeugnisse dann z.B. im Word-Format weiterverarbeiten.
+Sie können alle Berichte und Zeugnisse optional aus der Druckvorschau nach Excel, Word oder ins PDF-Format exportieren. Rufen Sie dazu die Seitenvorschau der Berichte oder Zeugnisse auf und klicken auf das Symbol  . Wählen Sie anschließend das gewünschte Export-Format (z.B. Word-Format) und legen Sie einen Speicherort fest. Sie können die Zeugnisse dann z.B. im Word-Format weiterverarbeiten.
 
 ![Rufen Sie über diese Schaltfläche den Export in weitere Formate auf!](/assets/images/seriendruck/seriendruck22.png)
+
+### gefüllte Berichte oder Zeugnisse automatisiert speichern
+
+Die gefüllten Berichte, egal ob Zeugnis oder Klassenliste, können je Datensatz gespeichert werden.
+Dafür wird beim Druck eine Option angeboten, damit parallel zum Ausdruck auch eine digitale Kopie beim jeweiligen Datensatz im Dokumenteverzeichnisses des Datensatz abgelegt wird.
+Beispiel: Sie markieren in der Schülerauswahlliste eine Auswahl von Schülern, wählen einen Bericht und lassen diesen als gefülltes PDF je Schüler in ein schülerindividuelles Verzeichnis speichern.
+Würden Sie einen Bericht aus dem Menü Klassen nutzen, würde das gefüllte PDF je Klasse in eine Verzeichnis gespielt werden.
+Bevor es losgehen kann, stellen Sie in den Optionen Ihrer MAGELLAN Anwendung bitte noch ein drei Dinge ein:
+
+1. Ob die Option zur Verfügung stehen soll
+2. Ob im Verzeichnis des Datensatzes die Datei direkt abgelegt werden soll, oder ein Unterverzeichnis verwendet werden soll
+3. Ob der Name des Datensatzes mit in den Dateinamen eingefügt werden soll
+
+Bitte schauen Sie dafür die beiden Abschnitte an:
+* [Einstellung für Crystal Reports Berichte](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#einstellung-fur-crystal-reports-berichte)
+*  [Dateinamenkonventionen](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#dateinamenkonventionen)
+
+Sind die Einstellungen erfolgt, können Sie in den aktivierten Menüpunkten jeweils wie gewohnt Datensätze zum Druck markieren, einen Bericht auswählen und finden zusätzlich sichtbar die Optionen `Drucken & Export nach PDF` und `Export nach PDF`.
+
+![Bezeichnung](/assets/images/export/001.png)
+
+Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jeweilige Verzeichnis des Datensatzes abgelegt.
+
+Ein Beispiel für einen Schülerbericht: 
+Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PDF`, dann wird auf Ihrem Server unter `...Dokumente > Schueler` für jeden der Schüler ein Verzeichnis mit der ID des Schülers genutzt/angelegt und in dieses Verzeichnis der gefüllte Bericht als PDF-Datei abgelegt. Haben Sie in den Optionen ein Unterverzeichnis "Berichte" angegeben, würde der Bericht nicht direkt in den Schülerordner gespielt, sondern ggfs. noch ein innerhalb des Schülerordners in Ihr angegebenes Verzeichnis (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Berichte`).
+
+Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.

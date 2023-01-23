@@ -1,4 +1,4 @@
-# Seriendruck, Serienemail, Dokumentenverwaltung und Exportieren
+# Seriendruck, Serienemail
 
 In diesem Kapitel erfahren Sie, wie Sie die Seriendruckfunktionalität von Microsoft Word  oder LibreOffice mit MAGELLAN-Daten nutzen können. Zusätzlich wird die komfortable Dokumentenverwaltung vorgestellt und die Exportmöglichkeit der Schlüsselverzeichnisse und Auswahllisten nach Microsoft Excel.
 
