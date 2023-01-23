@@ -68,7 +68,9 @@ Sie können alle Berichte und Zeugnisse optional aus der Druckvorschau nach Exce
 
 ![Rufen Sie über diese Schaltfläche den Export in weitere Formate auf!](/assets/images/seriendruck/seriendruck22.png)
 
-### gefüllte Berichte oder Zeugnisse automatisiert speichern
+### Automatisiertes Speichern je Datensatz
+
+#### für Berichte oder Zeugnisse
 
 Die gefüllten Berichte, egal ob Zeugnis oder Klassenliste, können je Datensatz gespeichert werden.
 Dafür wird beim Druck eine Option angeboten, damit parallel zum Ausdruck auch eine digitale Kopie beim jeweiligen Datensatz im Dokumenteverzeichnisses des Datensatz abgelegt wird.
@@ -95,7 +97,7 @@ Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PD
 
 Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.
 
-### aus dem Seriendruck automatisiert speichern
+#### für den Seriendruck 
 
 Beim Seriendruck ist das Ergebnis ein Seriendruckdokument, dass Ihre Vorlage und die Daten aus der Seriendruckquelle verbunden zeigt. Diese Daten als einzelne Dokumente zu speichern ist aus Word oder LibreOffice möglich, aber nicht komfortabel.
 Nutzt man eine vorbereitete aktualisierte Seriendruckvorlage und markiert in MAGELLAN Datensätze, kann MAGELLAN bevor sich Word oder LibreOffice öffnen bereits die Vorlage und die Daten aus MAGELLAN verbinden und als einzelne Dateien in der Dokumentenverwaltung je Datensatz speichern.
