@@ -86,7 +86,7 @@ Bitte schauen Sie dafür die beiden Abschnitte an:
 
 Sind die Einstellungen erfolgt, können Sie in den aktivierten Menüpunkten jeweils wie gewohnt Datensätze zum Druck markieren, einen Bericht auswählen und finden zusätzlich sichtbar die Optionen `Drucken & Export nach PDF` und `Export nach PDF`.
 
-![Bezeichnung](/assets/images/export/001.png)
+![Export als PDF](/assets/images/export/001.png)
 
 Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jeweilige Verzeichnis des Datensatzes abgelegt.
 
@@ -94,3 +94,30 @@ Ein Beispiel für einen Schülerbericht:
 Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PDF`, dann wird auf Ihrem Server unter `...Dokumente > Schueler` für jeden der Schüler ein Verzeichnis mit der ID des Schülers genutzt/angelegt und in dieses Verzeichnis der gefüllte Bericht als PDF-Datei abgelegt. Haben Sie in den Optionen ein Unterverzeichnis "Berichte" angegeben, würde der Bericht nicht direkt in den Schülerordner gespielt, sondern ggfs. noch ein innerhalb des Schülerordners in Ihr angegebenes Verzeichnis (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Berichte`).
 
 Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.
+
+### aus dem Seriendruck automatisiert speichern
+
+Beim Seriendruck ist das Ergebnis ein Seriendruckdokument, dass Ihre Vorlage und die Daten aus der Seriendruckquelle verbunden zeigt. Diese Daten als einzelne Dokumente zu speichern ist aus Word oder LibreOffice möglich, aber nicht komfortabel.
+Nutzt man eine vorbereitete aktualisierte Seriendruckvorlage und markiert in MAGELLAN Datensätze, kann MAGELLAN bevor sich Word oder LibreOffice öffnen bereits die Vorlage und die Daten aus MAGELLAN verbinden und als einzelne Dateien in der Dokumentenverwaltung je Datensatz speichern.
+
+Bevor es losgehen kann, stellen Sie in den Optionen Ihrer MAGELLAN Anwendung bitte noch ein drei Dinge ein:
+
+1. Ob die Option zur Verfügung stehen soll
+2. Ob im Verzeichnis des Datensatzes die Datei direkt abgelegt werden soll, oder ein Unterverzeichnis verwendet werden soll
+3. Ob der Name des Datensatzes mit in den Dateinamen eingefügt werden soll
+
+Bitte schauen Sie dafür die beiden Abschnitte an:
+
+* [Einstellung für den Seriendruck](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#einstellung-fur-den-seriendruck)
+* [Dateinamenkonventionen](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#dateinamenkonventionen)
+
+Sind die Einstellungen erfolgt, wird Ihnen die nachstehende Option im Seriendruckassistenten freigeschaltet:
+
+![Export als Einzeldokument](/assets/images/export/002.png)
+
+Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jeweilige Verzeichnis des Datensatzes abgelegt.
+
+Ein Beispiel für einen Seriendruck an Schüler: 
+Sie markieren drei Schüler, starten den Seriendruck mit `STRG+S` oder `Start > Seriendruck`, wählen die Datenquelle (im Beispiel `an alle markierten Schüler`), klicken auf `Weiter` und wählen auf der nächsten Karte die oberste Option und hre gewünschte Schüler-Serienbriefvorlage. Führen Sie den Assistenten aus, für die markierten Schülerdatensaätze wird die Vorlage mit den Daten aus MAGELLAN verbunden und als schülerindividuelle Datei in das Dokumenteverzeichnis des Schülers (auf Ihrem Server unter `...Dokumente > Schueler` ) abgelegt. Haben Sie in den Optionen ein Unterverzeichnis (im Beispiel das Verzeichnis "Seriendruck") mit angegeben, wird diese im schülerindividuellen Verzeichnis entweder erkannt oder angelegt und dort dann gespeichert (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Seriendruck`). 
+
+Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte Datei in Ihrer gewählten Struktur.
