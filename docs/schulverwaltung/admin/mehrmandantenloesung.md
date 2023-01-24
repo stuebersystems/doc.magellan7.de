@@ -100,6 +100,10 @@ So versetzen Sie Schüler in einen anderen Mandanten:
 
 Im neuen Mandanten werden die Schullaufbahndaten des Schülers nicht mit übernommen. Auch ist der Schüler dort noch keiner Klasse zugeordnet, wird je nach gewählter Option als Vagabund oder als Bewerber übertragen. Ausgeschulte Schüler können nicht in einen anderen Mandanten versetzt werden.
 
+!!! tipp "Hinweis!"
+
+    Ab Version 10: <br/>Für den Assistenten unter `Laufbahnprozesse > In Mandanten versetzen` kann für das Versetzen als Vagabund oder Bewerber jeweils **eine Herkunftsschule mit zugewiesen werden**. Sie können den Start-Mandanten unter Schulen erfassen und auch ggfs. als Favorit (`Rechtsklick in der Schulenliste > Zu Favoriten hinzufügen`) markieren, damit dieser Datensatz in der Auswahl nach oben sortiert wird.
+
 ### Lehrer versetzen
 
 So versetzen Sie Lehrer in einen anderen Mandanten:

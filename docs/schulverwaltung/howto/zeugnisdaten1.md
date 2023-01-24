@@ -215,9 +215,36 @@ Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel 
 
 5. Zusätzlich können Sie jederzeit per Hand auf der Fächerkarte einzelne Fachzeilen ergänzen, ändern oder löschen.
 
-!!! warning "Sehr wichtig!"
+!!! tipp Hinweis
 
     Fachtafeln, sind nur der geeignete Weg, wenn es eine Übereinstimmung in den Schülerfächern gibt. Für Oberstufenschüler, deren Fachwahl individuell erfolgt, eignet sich der Punkt `Abitur > Fachwahl` oder es können Schülerfachwahlen aus dem Kursplanmodul von daVinci übernommen werden. Informationen zum Punkt `Fachwahl` lesen Sie bitte im Abschnitt `Fachwahl-/Qualifikationsüberprüfungen vorbereiten` nach.
+
+## Fach zuweisen
+
+Für das Zuweisen von Fächern (Schüler > Zeugnis> Fächer) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
+
+* Unterrichtsart
+* Fachstatus
+* Kursnummer
+* Lehrer
+* Schwerpunkt
+* Niveau
+* Position
+* Faktor
+* Merkmal
+* Sprachen
+
+Dieser Ansatz ist gedacht um beispielsweise Arbeitsgemeinschaften oder Wahlfächer gesammelt zuweisen zu können.
+
+1. Starten Sie den Assistenten unter `Schüler > Unterkarte Schüler > Fach zuweisen`.
+2. Wählen Sie ein Gruppe von Schülern aus, für die Sie ein Fach zuweisen möchten und klicken auf `Weiter`!
+3. Wählen Sie das Fach aus und ergänzen ggfs. eine weitere Eigenschaft, klicken Sie auf `Fertigstellen`!
+
+Das neue Fach wird im gewählten Zeitraum für die Schüler unter `Schüler > Zeugnis > Fächer gezeigt`. 
+
+!!! tipp Hinweis
+
+    Bitte beachten Sie, dass der Assistent einzelne Fächer und gewählte Eigenschaften ergänzt, es können keine bereits zugewiesenen Fächer auf diesem Weg geändert werden.
 
 ## Schwerpunkte zuweisen
 
@@ -225,7 +252,7 @@ Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel 
 
  ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/assets/images/zeugnisdaten/zeugnisdaten11.png)
 
-## Sammellöschung
+## Fach löschen (Sammellöschung)
 
 Mit Hilfe der `Sammellöschung` kann bei mehreren Schülern gleichzeitig ein Fach gelöscht werden. Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Sammellöschung`. Ein Assistent ist Ihnen behilflich. Sie können nun mehrere Schüler markieren, bei welchen jeweils das gleiche Fach gelöscht werden soll. Besitzt einer der markierten Schüler nicht das ausgewählte Fach, so hat das Löschen keine Auswirkung auf diesen Schüler.
 
