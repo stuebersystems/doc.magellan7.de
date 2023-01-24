@@ -53,7 +53,7 @@ Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank zur Datenübernahme ein
 Setzt für Schüler, Bewerber, Lehrer und Personen, denen noch keine Anrede hinterlegt wurde, eine Anrede anhand des erfassten Geschlechts.
 Dabei wird aus dem Geschlecht weiblich die Anrede Frau und aus dem Geschlecht männlich die Anrede Herr befüllt.
 
-## Organisiertes Löschen
+## Schülerdaten Löschen
 
 Starten Sie den Assistenten unter Datenbankpflege per Doppelklick auf den nachstehend gelb markierten Bereich.
 
@@ -93,7 +93,23 @@ Für unser Beispiel sieht man in der nachstehenden Abbildung auf der linken Seit
 Wechseln Sie mit `Weiter` auf die nächste Karte und klicken Sie auf `Sichern`. Bevor Ihre Aktion ausgeführt wird, muss eine Sicherung der Datenbank auf dem Stand vor Ihrer Änderung erstellt werden. Der Assistent liest Ihre Einstellungen zur Datensicherung aus den Verbindungseinstellungen aus, erstellt die Sicherung und speichert sie.
 Es wird parallel zur Datenbanksicherung auch eine Excelliste mit den Schülerdatensätzen zur Nachkontrolle erzeugt. Die Ablagestelle für die Sicherung der Datenbank und die Protokolllisten ergeben sich aus Ihren Eintragungen in der Verbindung zur Datenbank.
 
-
 [![Sicherung erstellen][5]][5]
 
 Wechseln Sie mit `Weiter` auf die nächste Karte und klicken auf `Fertigstellen`, Ihre gewählte Option löscht die Passbilder, Fachdaten oder die Schülerdatensätze aus Ihrer Datenbank.
+
+## Sorgeberechtigte inaktiv setzen
+
+![Sorgeberechtigte inaktiv setzen](/assets/images/magellan.administrator/012.png)
+
+Beim Ausschulen von Schülern, gibt es die Möglichkeit parallel die Sorgeberechtigten zu inaktivieren. MAGELLAN prüft, ob es noch aktive Geschwisterkinder gibt und wenn nicht, wird der Status des Sorgeberechtigten auf inaktiv gesetzt. Damit haben Sie die Übersicht innerhalb des Menüs `Sorgeberechtigte`, ob die Datensätze noch mit aktiven Schülerdatensätzen verbunden sind oder nicht. Davon ausgehend können auch Sorgeberechtigten-Datensätze in der Liste gefiltert oder auch ggfs. gelöscht werden.
+Sollte das Häkchen beim Ausschulen nicht konsequent genutzt worden sein oder fehlt der Status durch einen Import, können Sie mit dieser Funktion die Daten nachträglich überprüfen lassen.
+Im ersten Schritt empfehlen wir in MAGELLAN alle Sorgeberechtigten-Datensätze zu aktivieren. Sie markieren dazu alle Zeilen im Menü `Sorgeberechtigte` mit bspsw. mit `STRG+A` und wählen `Rechtsklick > Status zuweisen > neuer Status > aktiver Sorgeberechtigter`.
+Anschließend nutzen Sie den Assistenten im MAGELLAN Administrator und wählen einen Mandanten und einen Zeitraum, von dem ausgehend geprüft werden soll. 
+
+![Assistent](/assets/images/magellan.administrator/013.png)
+
+Dieser Assistent setzt für alle Sorgeberechtigten den Status auf `inaktiver Sorgeberechtigen`, die folgende Bedingung erfüllen:
+
+* kein Bewerber wurde zugeordnet
+* kein Vagabund ist zugeordnet
+* kein aktiver Schüler ist zugeordnet

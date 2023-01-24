@@ -14,7 +14,7 @@ Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 
 ## "sysdba" und "dbadmin"
 
-Standardmäßig sind die Benutzer mit der Kennung "SYSDBA" und "DBADMIN" in der Datenbank hinterlegt. Beide haben die Kennung "masterkey".
+Standardmäßig sind die Benutzer mit der Kennung "SYSDBA" und "DBADMIN" in der Datenbank hinterlegt. Beide haben bis zur Version MAGELLAN 9 in einer neuen Installation das Passwort "masterkey", ab MAGELLAN 10 und Firebird 4 gilt dann das Passwort, dass Sie bei der Installation von Firebird festgelegt haben.
 Mit diesen Standardkennung sind volle Administrationsrechte verbunden mit folgendem Unterschied:
 
 Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "SYSDBA" und "DBADMIN"
@@ -26,7 +26,7 @@ Durch diesen erhalten Sie für die "MAGELLAN.FDB" (oder auch mehrere Datenbanken
 
 ## Registerkarte „Benutzerliste“
 
-In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel, Inventarisierung und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen.
+In der Benutzerliste ist jeder Benutzer ist durch seine Kennung, den Nachnamen, Vornamen, sein Lehrerkürzel (optional), seinen Mandanten, sein Kennwort und seinen Status definiert. Für jeden Benutzer können Sie seine Rechte in der Schulverwaltung, Bibliotheks & Lernmittel und für MYMAGELLAN, die dezentrale Notenverwaltung, festlegen.
 
 Einen neuen Benutzer können Sie über die Schaltfläche `Hinzufügen` anlegen, einen bestehenden durch Doppelklick auf den Benutzer auf der Karte „MAGELLAN Benutzerliste“ bearbeiten. Für bereits angelegte Benutzer können Rechte exportiert, angepasst und wieder importiert werden. Zum Beispiel, um einer Gruppe von Benutzer schnell und einfach ein neues Recht zu zuweisen oder den Teilnehmern am MYMAGELLAN-Verfahren einen neuen Ablagepfad für die mym-Datei zu hinterlegen.
 
@@ -87,6 +87,7 @@ Mandant|Ist in Ihrer Datenbank nur ein Mandant, wird automatisch dieser Mandant 
 Lehrer|Ist ein Mandant ausgewählt, wird die Lehrerliste gefüllt. Für Kollegiumsrechte ist es notwendig auf einen Lehrer in der Datenbank zu verweisen. MAGELLAN benötigt diese Information um zum Beispiel die Schüler des Lehrers identifizieren zu können (mit Kollegiumsrechten kann man z.B. nur Zeugnisnoten für eigene Schüler einpflegen), oder auch um die eigene Lehrerzeile im Menü Lehrer einzublenden. Für Benutzer denen andere Rechtegruppen (z.B. Sekretariatsrechte)zugewiesen werden sollen, muss nicht nichts gewählt werden.
 Nachname|Ist im Feld Lehrer ein Datensatz gewählt worden, wird das Feld automatisch befüllt, anderenfalls tippen Sie hier bitte den Nachnamen ein.
 Vorname|Ist im Feld Lehrer ein Datensatz gewählt worden, wird das Feld automatisch befüllt, anderenfalls tippen Sie hier bitte den Vornamen ein.
+E-Mail| Für Benutzer, die keinem Lehrerdatensatz aus MAGELLAN zugeordnet wurden, kann das Feld editiert werden. Für Benutzer, die in MAGELLAN einem Lehrer zugewiesen sind, wird hier die Adresse aus `Lehrer > Daten1 > E-Mail` gezeigt. Die Adresse kann für Umsteiger von Version 9 auf eine höhere Version über einen Assistenten unter `Extras > E-Mail übernehmen` übertragen werden. Wird im Anschluss die Adresse in MAGELLAN verändert, aktualisiert sich die Adresse auf für den verbundenen Benutzer. Die Einträge der E-Mail-Adresse können Sie für alle Benutzer in der Liste der Benutzerverwaltung sehen.
 Kennwort ändern|Mit Hilfe dieses Häkchens können Sie für bereits angelegte Benutzer ein neues 8-stelliges Passwort vergeben.
 Kennwort|Bitte vergeben Sie ein 8-stelliges Passwort, bitte verzichten Sie auf Umlaute oder ß.
 Bestätigung|Tragen Sie zur Bestätigung bitte das Passwort erneut ein.
@@ -155,6 +156,30 @@ Die Benutzer können ihr Passwort in MAGELLAN unter `Datenbank > Kennwort änder
 Alle Angaben der Benutzer zu MYMAGELLAN werden aus Gründen der Übersichtlichkeit unter dem Reiter `MYMAGELLAN` aufgelistet. Markieren Sie einen der Benutzer, werden für ihn im unteren Bereich zusätzlich die MAGELLAN-Rechte eingeblendet.
 
 ![Hier sehen Sie eine Übersichtsliste alle Teilnehmer von MYMAGELLAN.](/assets/images/magellan.administrator/users_mymag.liste.png)
+
+## Passworte gesammelt vergeben und E-Mail-Adressen
+
+### E-Mail-Adressen
+
+Ab Version 10 kann je Benutzerkonto eine E-Mail-Adresse gespeichert werden. Für Benutzer, die mit einem Lehrerdatensatz aus MAGELLAN verknüpft sind, ist die Adresse nicht frei eingebbar, es wird der Eintrag aus `Lehrer > Daten 1 > E-Mail` verwendet.
+Für neu angelegte Benutzer wird diese Adresse automatisch übernommen, für bestehende Benutzer kann die Adresse mit dem Assistenten unter `Extras > E-Mail übernehmen` übertragen werden. Ist die Adresse für den Benutzer einmalig übertragen worden, wird auch jede Änderung der Adresse in MAGELLAN übertragen.
+
+![`Extras > E-Mail übernehmen`](/assets/images/magellan.administrator/010.png)
+
+Für Benutzer, die keinem Lehrer in MAGELLAN zugewiesen sind, kann manuell eine E-Mail-Adresse hinterlegt werden. Sie können das E-Mail-Feld unter `Benutzerverwaltung > Doppelklick auf den Benutzer > Allgemein` editieren. Für Benutzer, die einem Lehrerdatensatz zugewiesen sind, ist das Feld nicht auf diesem Weg editierbar.
+
+Alle Einträge sehen Sie in der Benutzerliste in der Spalte `E-Mail`. 
+
+![Spalte E-Mail in der Liste der Benutzer](/assets/images/magellan.administrator/011.png)
+
+## Kennworte erzeugen
+
+Sie können einer Gruppe von in der Liste der Benutzerverwaltung markierten Benutzern mit dem Assistenten unter `Extras > Kennwörter erzeugen` gesammelt ein neues Kennwort zuweisen.
+Der Assistent erwartet die Eingabe eines Speicherorts und eines Dateinamens für eine CSV-Datei, die im Moment des Erzeugens der neuen Kennworte, dieses in die Datei speichert. Zusätzlich wird die Kennung des Nutzers und, wenn vorhanden, die E-Mail-Adresse des Nutzers in die Datei gespielt. Diese Datei kann als Grundlage für die Verteilung der Zugangsdaten verwendet werden.
+Ein erneuter Durchlauf des Assistenten erzeugt neue Kennworte, sollte ein Nutzer sein Kennwort nicht zur Hand haben, gibt es nicht die Möglichkeit das alte Kennwort erneut zu erzeugen, es kann nur ein neues Kennwort erzeugt werden.
+Wenn ein Nutzer sich mit dem neuen Kennwort an MAGELLAN anmeldet, kann er unter `Datenbank > Kennwort ändern` ein eigenes Kennwort vergeben. 
+
+![`Extras > Kennwörter erzeugen`](/assets/images/magellan.administrator/009.png)
 
 ## Benutzer duplizieren
 
