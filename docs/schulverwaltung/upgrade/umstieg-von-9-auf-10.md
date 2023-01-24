@@ -9,11 +9,11 @@ Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 
 
 Nr.|Was ist zu tun
 --|--
- 1.|Downloads, Lizenzdatei zurechtlegen
- 2.|ggfs. Lehrer-E-Mailadressen unter `MAGELLAN > Lehrer > Daten 1 > E-Mail` nachpflegen
+ 1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#downloads-lizenzdatei-zurechtlegen)
+ 2.|E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#emailadressen-nachpflegen)
  3.|Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9
  4.|Deinstallation von Firebird 2.5.9 und `MAGELLAN 9`
- 5.|Installation von Firebird 4.0.2, `MAGELLAN 10,` CR Runtimeversion
+ 5.|Installation von: Firebird 4.0.2<br/>`MAGELLAN 10`<br/>CR Runtimeversion
  6.|Willkommensassistent starten (Pfade und Lizenz)
  7.|Wiederherstellung der MAGELLAN9.fbk mit dem MAGELLAN 10/ Firebird 4.0.2
  8.|Einfügen der wiederhergestellten MAGELLAN10.fdb ins Datenbankverzeichnis
@@ -36,7 +36,7 @@ Für die folgenden Schritte benötigen Sie die Installationspakete für:
 
 Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [https://magellan.stueber.de/download.php](https://magellan.stueber.de/download.php).
 
-## 2. Emailadressen nachpflegen
+## 2. E-Mail-Adressen nachpflegen
 
 Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb und security4.fdb) der beiden Versionen. Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen damit kein Problem dar.
 Für MAGELLAN 10 müssen für alle Benutzer neue Passworte gesetzt werden, wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.
