@@ -13,7 +13,7 @@ Nr.|Was ist zu tun
  2.|[E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#2-e-mail-adressen-nachpflegen)
  3.|[Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#3-sicherung-der-datenbank-unter-firebird-259)
  4.|[Deinstallation von Firebird 2.5.9 und `MAGELLAN 9`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#4-deinstallation-von-firebird-259-und-magelmag-9)
- 5.|Installation von [Firebird 4.0.2](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#51-firebird-402), [`MAGELLAN 10`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#53-magellan-10), [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#52-crystal-reports-runtimeversion)
+ 5.|Installation von <br/>  - [Firebird 4.0.2](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#51-firebird-402)<br/>   - [`MAGELLAN 10`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#53-magellan-10)<br/>   - [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#52-crystal-reports-runtimeversion)
  6.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#6-willkommensassistent-starten-pfade-und-lizenz)
  7.|[Wiederherstellung der MAGELLAN9.fbk](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#7-wiederherstellung-der-magellan9fbk)
  8.|[Einfügen der wiederhergestellten MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#8-einfugen-der-wiederhergestellten-magellan10fdb)
@@ -26,7 +26,7 @@ Nr.|Was ist zu tun
 
 ## 1. Downloads, Lizenzdatei zurechtlegen
 
-Bitte stellen Sie sicher, dass Ihnen die neue Lizenzdatei vorliegt, ggfs. können Sie die Datei auch unter office@stueber.de erneut anfordern.
+Bitte stellen Sie sicher, dass Ihnen die neue Lizenzdatei vorliegt, ggfs. können Sie die Datei auch unter [office@stueber.de](office@stueber.de) erneut anfordern.
 
 Für die folgenden Schritte benötigen Sie die Installationspakete für:
 
@@ -38,8 +38,8 @@ Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [ht
 
 ## 2. E-Mail-Adressen nachpflegen
 
-Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb und security4.fdb) der beiden Versionen. Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen damit kein Problem dar.
-Für MAGELLAN 10 müssen für alle Benutzer neue Passworte gesetzt werden, wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.
+Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb (Firebird 2.5.9) und security4.fdb (Firebird 4.0.2)) der beiden Versionen. Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen damit kein Problem dar.
+Für `MAGELLAN 10` müssen für alle Benutzer neue Passworte gesetzt werden. Wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.
 Die Emailadressen können mit einer neuen Funktion aus `MAGELLAN > Lehrer > Daten 1 > E-Mail` übernommen werden. Für Benutzer, die nicht mit einem Lehrer aus MAGELLAN verbunden sind, kann direkt im MAGELLAN Administrator eine E-Mailadresse hinterlegt werden.
 Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrollieren Sie bitte in MAGELLAN (auch schon vorab in Version 9 möglich) ob die Adressen entsprechend gefüllt sind. Für einen schnellen Überblick können Sie die Spalte `E-Mail` in der Auswahlliste `Lehrer` nutzen.
 
