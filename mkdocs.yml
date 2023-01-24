@@ -136,7 +136,8 @@ nav:
       - Berufsschulmatrix: schulverwaltung/howto/berufsschulmatrix.md
       - Formulare, Listen und Zeugnisse: schulverwaltung/howto/berichte.md
       - Anleitungen zu Berichten: schulverwaltung/howto/berichte-verz.md
-      - Seriendruck und Serienmail: schulverwaltung/howto/seriendruck.md
+      - Seriendruck: schulverwaltung/howto/seriendruck.md
+      - Serienmail: schulverwaltung/howto/serienmail.md
       - Dokumentenverwaltung/Export: schulverwaltung/howto/dokumentenverwaltung_export.md
       - Kurznachrichten: schulverwaltung/howto/kurznachrichten.md
       - Stundenplandaten: schulverwaltung/howto/stundenplaene.md

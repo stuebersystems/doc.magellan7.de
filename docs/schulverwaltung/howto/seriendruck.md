@@ -173,21 +173,3 @@ MAGELLAN bietet aufgrund der äußerst zahlreichen möglichen Etikettenformate k
 
 Sie können die Etiketten entweder sogleich über die Funktion Seriendruck an Drucker auf Ihrem Drucker ausgeben oder Sie entscheiden sich sicherheitshalber für die Funktion Seriendruck in Doku-ment. Damit wird ein Dokument erstellt, das Sie zum einen als Druckvorschau nutzen können, um den Ausdruck im Vorfeld zu überprüfen. Zum anderen können Sie dieses Dokument abspeichern und haben so Ihren Serienbrief jederzeit später noch einmal im Zugriff. So wie sich in diesem Dokument der Etikettendruck darstellt, so erfolgt er dann später auch beim Ausdruck auf Ihrem Drucker, während wie gesagt die Seriendruck-Vorschau von der tatsächlichen Druckausgabe abweichen kann.
 
-## Serienemail
-
-Sie können aus MAGELLAN heraus Serienemails an Schüler/Bewerber, Betriebe der Schüler/Bewerber oder an deren Sorgeberechtigte versenden. Die Serienmailfunktion greift auf die unter Schüler/Bewerber, Betriebe oder Sorgeberechtigten jeweils unter Daten im Feld Email hinterlegten Emailadresse zurück. Markieren Sie die entsprechenden Schüler/Bewerber im Schüler-/Bewerbermenü und öffnen dann über Rechtsklick|Serienmail oder drücken der Tastenkombination STRG+M den Serienemailassistenten.  Im nächsten Schritt wählen Sie bitte eine der drei Optionen aus: An alle markierten Schüler/Bewerber, An alle Sorgeberechtigten der markierten aktiven Schüler/Bewerber oder An den aktuellen Betrieb der markierten Schüler/Bewerber.
-
-![Serienmailassistent](/assets/images/seriendruck/seriendruck12.png)
-
-Im unteren Auswahlfeld desselben Fensters können Sie wählen, ob die Nachricht direkt an den Empfän-ger gesandt werden soll An, CC oder BCC.
-
-!!! info "Hinweis"
-
-    „Cc“ ist die Abkürzung für "Carbon copy". Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, wobei der Name des Empfängers für andere Empfänger der Nachricht sichtbar ist. „Bcc“ ist die Abkürzung für "Blind carbon copy".  Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, der Name des Empfängers ist jedoch für andere Empfänger der Nachricht nicht sichtbar.
-
-Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in MAGELLAN hinterlegten Emailadressen bereits eingefügt.
-
-!!! danger "Achtung"
-
-    Sollte nicht der von Ihnen erwartete und unter Start > Einstellungen(Zahnrad) > Standard-Apps > E-Mail eingestellte Mailclient gestartet werden, kann Ihnen folgender Artikel helfen: [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
-  
