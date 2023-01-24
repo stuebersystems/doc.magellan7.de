@@ -128,7 +128,7 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 ## MAGELLAN Installation
 
-Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
+Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan10.msi`.
 
 Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
 

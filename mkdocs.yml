@@ -87,8 +87,7 @@ nav:
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
     - Upgrade:
-      - auf MAGELLAN 10:
-        - von MAGELLAN 9: schulverwaltung/upgrade/umstieg-von-9-auf-10.md
+      - auf MAGELLAN 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md
       - auf MAGELLAN 9:
         - von MAGELLAN 8: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
         - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
