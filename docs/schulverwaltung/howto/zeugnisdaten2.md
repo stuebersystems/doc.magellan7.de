@@ -97,18 +97,46 @@ Unter `Schüler > Zeugnis` können Sie für jeden Schüler das Arbeits- und Sozi
 
 ### Vorbereitung
 
-Vorab müssen die verwendeten Schlüsselverzeichnisse eingerichtet werden. Folgende Schlüsselverzeichnisse stehen dafür unter `Extras > Schlüsselverzeichnis > Arbeits- und Sozialverhalten` zur Verfügung:
+Vorab müssen die verwendeten Schlüsselverzeichnisse eingerichtet werden. Folgende Schlüsselverzeichnisse stehen dafür unter `Extras > Schlüsselverzeichnis > Arbeits- und Sozialverhalten` zur Verfügung.
 
-|Verzeichnisse|
-|:--|
-|**Typen:** <br/><br/>Dient als Filter um zwischen `Arbeits- und Sozialverhalten` und `Fachlichen Leistung` zu differenzieren. <br/><br/>![ Verzeichnis `Typen des Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten24.png) |
-|**Arten:** <br/><br/>Kann als Übergruppierung für die Kategorien verwendet werden, zum Beispiel um zwischen `Sozialverhalten` und `Arbeitsverhalten` zu unterscheiden. Für fachliche Leistungen entspricht die Art zum Beispiel `Deutsch` oder `Biologie`. Jeder Art wird zusätzlich der entsprechende Typ zugeordnet. Als Hilfe beim Erfassen der Arten kann das Verzeichnis zum Beispiel nach dem Typ gefiltert werden.<br/><br/> ![ Verzeichnis `Arten für das Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten25.png) |
-|**Kategoriegruppen:** <br/><br/>Legen in diesem Verzeichnis die Untergruppen der Arten an. Ein Bespiel für Kategoriegruppen: für die Art `Deutsch` sollen nach `Sprechen und Zuhören` und `Schreiben` getrennte Unterpunkte bewerten werden. Die Kategoriegruppen können Kategorien zugeordnet werden.<br/><br/>![Kategoriegruppen](/assets/images/zeugnisdaten/zeugnisdaten26.png) |
-|**Kategorien:**<br/><br/> Legen Sie in diesem Verzeichnis die an Ihrer Schule zu bewertenden Kategorien an. In der Spalte Art können Sie den einzelnen Kategorien die zuvor angelegten Arten zuordnen. Diese Unterteilung hilft die Kategorien zusätzlich zu den Positionen im Zeugnisdruck korrekt anzuordnen. Jede Kategorie kann einer Kategoriegruppe zugeordnet werden.Der Inhalt des Verzeichnisses kann nach dem Typ gefiltert angezeigt werden. In der nachfolgenden Abbildung ist nach dem Typ `Fachliche Leistung` gefiltert worden.<br/><br/>![Filterung der Kategorien nach der fachlichen Leistung](/assets/images/zeugnisdaten/zeugnisdaten27.png)<br/><br/>![ Filterung der Kategorien nach dem Allgemeinen Lern- und Sozialverhalten](/assets/images/zeugnisdaten/zeugnisdaten28.png) |
-|**Inhaltetafeln:** <br/><br/>Um in Zeugnissen stichpunktartig die im Schuljahr unterrichteten Themen pro Klasse abzubilden, können die Themen in Inhaltetafeln gesammelt werden. Dabei ist es möglich für eine Art (zum Beispiel für Deutsch) verschiedene Inhaltetafeln anzulegen. Die Inhalte unterscheiden sich zwischen den Schuljahren und werden daher in getrennten Inhaltetafeln angelegt. <br/><br/>![Pro Schuljahr werden für die Fächer Inhaltetafeln eingerichtet](/assets/images/zeugnisdaten/zeugnisdaten29.png) |
-|**Inhaltetafel-Kategorien:** <br/><br/>Jede Inhaltetafel enthält Inhaltetafel-Kategorien. Für das Beispiel der Art Deutsch werden in der nachstehenden Abbildung die Themen für das 4. Schuljahr zeilenweise eingerichtet. Über die Position kann die spätere Reihenfolge auf dem Zeugnis gesteuert werden.<br/><br/>![Hier werden die in Deutsch unterrichteten Themen für Klasse 4 aufgeführt](/assets/images/zeugnisdaten/zeugnisdaten30.png) |
-|**Bewertung:**<br/><br/>Legen Sie in diesem Verzeichnis die möglichen Abstufungen der Bewertungen an. Die Bewertungen können jeweils einem Typ zugeordnet werden. Damit können für das `Arbeits- und Sozialverhalten` andere Bewertungsabstufung als für `Fachliche Leistungen` realisiert werden. Je nach Zeugnisbericht kann für die Bewertungen eine Bezeichnung (zum Beispiel `erkennbar`) oder auch ein Kreuz abgeleitet aus dem Wert der Bewertung ausgegeben werden. <br/><br/>![Bewertungen können pro Typ differenziert werden](/assets/images/zeugnisdaten/zeugnisdaten31.png) |
-|**Kategorietafeln:** <br/><br/>Analog zu den Fachtafeln können auch vorbereitete Zusammenstellungen von Kategorien gesammelt den Schülern zugewiesen werden. Legen Sie dazu Kategorietafeln an und füllen sie mit Kategorien. Sie können dabei den Schülern auch die Fachlichen Leistungen und die Bewertungskriterien für das Arbeits- und Sozialverhalten in einem Arbeitsgang zuweisen. ![Übersicht der Kategorietafeln](/assets/images/zeugnisdaten/zeugnisdaten32.png) <br/><br/> ![Inhalt der markierten Kategorietafeln](/assets/images/zeugnisdaten/zeugnisdaten33.png) |
+#### Schlüsselverzeichnisse
+
+**Typen:**<br/>Dient als Filter um zwischen `Arbeits- und Sozialverhalten` und `Fachlichen Leistung` zu differenzieren.
+
+![ Verzeichnis `Typen des Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten24.png)
+
+**Arten:**<br/>
+Kann als Übergruppierung für die Kategorien verwendet werden, zum Beispiel um zwischen `Sozialverhalten` und `Arbeitsverhalten` zu unterscheiden. Für fachliche Leistungen entspricht die Art zum Beispiel `Deutsch` oder `Biologie`. Jeder Art wird zusätzlich der entsprechende Typ zugeordnet. Als Hilfe beim Erfassen der Arten kann das Verzeichnis zum Beispiel nach dem Typ gefiltert werden.
+
+![ Verzeichnis `Arten für das Arbeits- und Sozialverhalten`](/assets/images/zeugnisdaten/zeugnisdaten25.png)
+
+**Kategoriegruppen:**<br/>Legen in diesem Verzeichnis die Untergruppen der Arten an. Ein Bespiel für Kategoriegruppen: für die Art `Deutsch` sollen nach `Sprechen und Zuhören` und `Schreiben` getrennte Unterpunkte bewerten werden. Die Kategoriegruppen können Kategorien zugeordnet werden.
+
+![Kategoriegruppen](/assets/images/zeugnisdaten/zeugnisdaten26.png)
+
+**Kategorien:**<br/>Legen Sie in diesem Verzeichnis die an Ihrer Schule zu bewertenden Kategorien an. In der Spalte Art können Sie den einzelnen Kategorien die zuvor angelegten Arten zuordnen. Diese Unterteilung hilft die Kategorien zusätzlich zu den Positionen im Zeugnisdruck korrekt anzuordnen. Jede Kategorie kann einer Kategoriegruppe zugeordnet werden.Der Inhalt des Verzeichnisses kann nach dem Typ gefiltert angezeigt werden. In der nachfolgenden Abbildung ist nach dem Typ `Fachliche Leistung` gefiltert worden.
+
+![Filterung der Kategorien nach der fachlichen Leistung](/assets/images/zeugnisdaten/zeugnisdaten27.png)<br/><br/>![ Filterung der Kategorien nach dem Allgemeinen Lern- und Sozialverhalten](/assets/images/zeugnisdaten/zeugnisdaten28.png)
+
+**Inhaltetafeln:** <br/>Um in Zeugnissen stichpunktartig die im Schuljahr unterrichteten Themen pro Klasse abzubilden, können die Themen in Inhaltetafeln gesammelt werden. Dabei ist es möglich für eine Art (zum Beispiel für Deutsch) verschiedene Inhaltetafeln anzulegen. Die Inhalte unterscheiden sich zwischen den Schuljahren und werden daher in getrennten Inhaltetafeln angelegt.
+
+![Pro Schuljahr werden für die Fächer Inhaltetafeln eingerichtet](/assets/images/zeugnisdaten/zeugnisdaten29.png)
+
+**Inhaltetafel-Kategorien:** <br/>Jede Inhaltetafel enthält Inhaltetafel-Kategorien. Für das Beispiel der Art Deutsch werden in der nachstehenden Abbildung die Themen für das 4. Schuljahr zeilenweise eingerichtet. Über die Position kann die spätere Reihenfolge auf dem Zeugnis gesteuert werden.
+
+![Hier werden die in Deutsch unterrichteten Themen für Klasse 4 aufgeführt](/assets/images/zeugnisdaten/zeugnisdaten30.png)
+
+**Bewertung:**<br/>
+Legen Sie in diesem Verzeichnis die möglichen Abstufungen der Bewertungen an. Die Bewertungen können jeweils einem Typ zugeordnet werden. Damit können für das `Arbeits- und Sozialverhalten` andere Bewertungsabstufung als für `Fachliche Leistungen` realisiert werden. Je nach Zeugnisbericht kann für die Bewertungen eine Bezeichnung (zum Beispiel `erkennbar`) oder auch ein Kreuz abgeleitet aus dem Wert der Bewertung ausgegeben werden. 
+
+![Bewertungen können pro Typ differenziert werden](/assets/images/zeugnisdaten/zeugnisdaten31.png)
+
+**Kategorietafeln:** <br/>
+Analog zu den Fachtafeln können auch vorbereitete Zusammenstellungen von Kategorien gesammelt den Schülern zugewiesen werden. Legen Sie dazu Kategorietafeln an und füllen sie mit Kategorien. Sie können dabei den Schülern auch die Fachlichen Leistungen und die Bewertungskriterien für das Arbeits- und Sozialverhalten in einem Arbeitsgang zuweisen. 
+
+![Übersicht der Kategorietafeln](/assets/images/zeugnisdaten/zeugnisdaten32.png) 
+
+![Inhalt der markierten Kategorietafeln](/assets/images/zeugnisdaten/zeugnisdaten33.png) 
 
 ### Layout anpassen
 
