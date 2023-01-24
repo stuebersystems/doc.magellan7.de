@@ -13,7 +13,7 @@ Nr.|Was ist zu tun
  2.|[E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#2-e-mail-adressen-nachpflegen)
  3.|[Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#3-sicherung-der-datenbank-unter-firebird-259)
  4.|[Deinstallation von Firebird 2.5.9 und `MAGELLAN 9`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#4-deinstallation-von-firebird-259-und-magelmag-9)
- 5.|Installation von <br/>  - [Firebird 4.0.2](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#51-firebird-402)<br/>   - [`MAGELLAN 10`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#53-magellan-10)<br/>   - [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#52-crystal-reports-runtimeversion)
+ 5.|Installation von <br/>   * [Firebird 4.0.2](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#51-firebird-402)<br/>   * [`MAGELLAN 10`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#53-magellan-10)<br/>   * [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#52-crystal-reports-runtimeversion)
  6.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#6-willkommensassistent-starten-pfade-und-lizenz)
  7.|[Wiederherstellung der MAGELLAN9.fbk](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#7-wiederherstellung-der-magellan9fbk)
  8.|[Einfügen der wiederhergestellten MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#8-einfugen-der-wiederhergestellten-magellan10fdb)
@@ -38,14 +38,15 @@ Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [ht
 
 ## 2. E-Mail-Adressen nachpflegen
 
-Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb (Firebird 2.5.9) und security4.fdb (Firebird 4.0.2)) der beiden Versionen. Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen damit kein Problem dar.
-Für `MAGELLAN 10` müssen für alle Benutzer neue Passworte gesetzt werden. Wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.
-Die Emailadressen können mit einer neuen Funktion aus `MAGELLAN > Lehrer > Daten 1 > E-Mail` übernommen werden. Für Benutzer, die nicht mit einem Lehrer aus MAGELLAN verbunden sind, kann direkt im MAGELLAN Administrator eine E-Mailadresse hinterlegt werden.
-Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrollieren Sie bitte in MAGELLAN (auch schon vorab in Version 9 möglich) ob die Adressen entsprechend gefüllt sind. Für einen schnellen Überblick können Sie die Spalte `E-Mail` in der Auswahlliste `Lehrer` nutzen.
+Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die MAGELLAN-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb (Firebird 2.5.9) und security4.fdb (Firebird 4.0.2)).<br/>
+Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der MAGELLAN-Datenbank gespeichert und stellen kein Problem dar.<br/>
+**Für `MAGELLAN 10` müssen für alle Benutzer neue Passworte gesetzt werden.** Wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.<br/>
+Die E-Mail-Adressen können mit einer neuen Funktion aus `MAGELLAN > Lehrer > Daten 1 > E-Mail` in die Benutzerverwaltung übernommen werden. <br/>Für Benutzer, die nicht mit einem Lehrer aus MAGELLAN verbunden sind, kann direkt im MAGELLAN Administrator eine E-Mailadresse hinterlegt werden.
+Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrollieren Sie bitte in MAGELLAN (auch schon vorab in Version 9 möglich), ob die Adressen entsprechend gefüllt sind. Für einen schnellen Überblick in `MAGELLAN` können Sie die Spalte `E-Mail` in der Auswahlliste `Lehrer` nutzen.
 
 ## 3. Sicherung der Datenbank unter Firebird 2.5.9
 
-Bevor die neue Firebirdversion installiert wird, erstellen Sie bitte eine Sicherung der MAGELLAN-Datenbank mit dem MAGELLAN 9 Administrator. Aus dieser Datenbank wird später mit Firebird 4.0.2 und dem MAGELLAN 10 Administrator die neue Datenbank wieder hergestellt.
+Bevor die neue Firebird-Version installiert wird, erstellen Sie bitte eine Sicherung der MAGELLAN-Datenbank mit dem `MAGELLAN 9 Administrator`. Aus dieser Datenbank wird später mit Firebird 4.0.2 und dem `MAGELLAN 10 Administrator` die neue Datenbank wieder hergestellt.
 Eine Anleitung zum Sichern der Datenbank finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung/).
 
 ## 4. Deinstallation von Firebird 2.5.9 und MAGELMAG 9
@@ -97,10 +98,12 @@ Bitte übernehmen Sie die dargestellten Optionen und klicken auf `Next`!
 [07]:/assets/images/installation/10/fb/07.png "Text"
 ![][07]
 
-!!! warning "Wichtig!"
+!!! danger "Achtung!"
 
-    Vergeben Sie ein 8-stelliges Passwort für den Benutzer `sysdba`. **Bitte stellen Sie sicher, dass dieses Passwort gesichert wird, beispielsweise in einem Passwortmanager.**
-    Dieser Benutzer hat die höchsten administrativen Rechte und kann für die Erstanmeldung an MAGELLAN verwendet werden, bevor personalisierte Benutzerzugänge verwendet werden.
+    <br/>Vergeben Sie ein 8-stelliges Passwort für den Benutzer `sysdba`.<br/> 
+    **Bitte stellen Sie sicher, dass dieses Passwort gesichert wird, beispielsweise in einem Passwortmanager.** <br/>
+    Dieser Benutzer hat die höchsten administrativen Rechte und kann für die Erstanmeldung an MAGELLAN verwendet werden, bevor personalisierte Benutzerzugänge verwendet werden. <br/>
+
 
 [08]:/assets/images/installation/10/fb/08.png "Text"
 ![][08]
@@ -151,7 +154,7 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan10.msi`.
 
-Der Setup Assistent von MAGELLAN 10 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von `MAGELLAN 10` wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/10/001.png)
 
@@ -183,7 +186,7 @@ Die Installation ist abgeschlossen, klicken Sie bitte auf `Fertigstellen`!
 
 ## 6. Willkommensassistent starten (Pfade und Lizenz)
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 10 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie `MAGELLAN 10` starten. Es erscheint zunächst der Willkommen-Assistent.
 
 ![Willkommen](/assets/images/installation/10/w/001.png)
 
@@ -231,12 +234,12 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 
 ## 7. Wiederherstellung der MAGELLAN9.fbk
 
-Starten Sie den `MAGELLAN 10 Administrator` und stellen die zuvor gesicherte Datenbank wieder her, eine Anleitung für das Wiederherstellen finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung/#sicherungskopie-wiederherstellen).
+Starten Sie den ``MAGELLAN 10 Administrator`` und stellen die zuvor gesicherte Datenbank wieder her, eine Anleitung für das Wiederherstellen finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung/#sicherungskopie-wiederherstellen).
 
 ## 8. Einfügen der wiederhergestellten MAGELLAN10.fdb
 
 Die wiederhergestellte Datenbank legen Sie bitte im Datenbankverzeichnis von `MAGELLAN 10` ab. An welcher Stelle die Datenbank erwartet wird und welcher Dateiname für die Datenbank erwartet wird, ist in den Verbindungseinstellungen festgelegt worden, die Sie in der Installation und/oder im Willkommensassistenten festgelegt haben. 
-Die Daten sind änder- und einsehbar. Bitte starten Sie den `MAGELLAN 10 Administrator`  ohne Anmeldung (im Anmeldefenster unter `Datenbank` auswählbar) und klicken doppelt auf die Zeile Ihrer Verbindung, die Sie unter dem Punkt `Datenbankverbindungen` finden. Im folgenden Fenster ist der Pfad zur Datenbank und der erwartete Name der Datenbankdatei unter dem Punkt `Datenbank` sichtbar.
+Die Daten sind änder- und einsehbar. Bitte starten Sie den ``MAGELLAN 10 Administrator``  ohne Anmeldung (im Anmeldefenster unter `Datenbank` auswählbar) und klicken doppelt auf die Zeile Ihrer Verbindung, die Sie unter dem Punkt `Datenbankverbindungen` finden. Im folgenden Fenster ist der Pfad zur Datenbank und der erwartete Name der Datenbankdatei unter dem Punkt `Datenbank` sichtbar.
 
 ## 9. Start von MAGELLAN 10 und Anpassung der Datenstruktur
 
@@ -244,7 +247,7 @@ Starten Sie `MAGELLAN 10` und melden sich mit dem Benutzer `sysdba` und dem von 
 
 ## 10. E-Mail-Adressen übernehmen
 
-E-Mailadressen, die Sie für `Lehrer` unter `Daten 1 > E-Mail` verfasst haben, können Sie in den `MAGELLAN 10 Administrator` übernehmen. Diese Adressen werden beim gesammelten Erstellen von Passworten gemeinsam mit den Passworten und den Benutzerkennungen in eine CSV-Datei gespielt werden und dann ggfs. zum Versenden verwendet werden.
+E-Mailadressen, die Sie für `Lehrer` unter `Daten 1 > E-Mail` verfasst haben, können Sie in den ``MAGELLAN 10 Administrator`` übernehmen. Diese Adressen werden beim gesammelten Erstellen von Passworten gemeinsam mit den Passworten und den Benutzerkennungen in eine CSV-Datei gespielt werden und dann ggfs. zum Versenden verwendet werden.
 Rufen Sie die Funktion unter `Benutzerverwaltung > Extras > E-Mail übernehmen` auf. Der Assistent übernimmt die Adressen. Sie finden die übernommenen Adressen in der Liste der Benutzerverwaltung. 
 
 ![Emails übernehmen](/assets/images/upgrade/10/001.png)
@@ -257,7 +260,8 @@ Für Benutzer, die nicht auf einen Lehrerdatensatz aus MAGELLAN basieren, könne
 
 ## 11. Kennworte neu erzeugen lassen
 
-Bedingt durch den Wechsel der Firebird-Versionen müssen allen Nutzern neue Kennworte zugewiesen werden. Dazu markieren Sie bitte alle Benutzer in der `Benutzerverwaltung` und führen den Assistenten aus, den Sie unter `Benutzerverwaltung > Extras > Kennwörter erzeugen` aufrufen können. Als Ergebnis wird eine CSV-Datei erzeugt, die die Kennungen, die Passworte und, falls gefüllt, die Emailadressen der Benutzer enthalten.
+Bedingt durch den Wechsel der Firebird-Versionen müssen allen Nutzern neue Kennworte zugewiesen werden. Dazu markieren Sie bitte alle Benutzer in der `Benutzerverwaltung` und führen den Assistenten aus, den Sie unter `Benutzerverwaltung > Extras > Kennwörter erzeugen` aufrufen können. Als Ergebnis wird eine CSV-Datei erzeugt, die die Kennungen, die Passworte und, falls gefüllt, die E-Mail-Adressen der Benutzer enthalten. Sie können diese CSV-Datei nutzen, um den Benutzern ihre Benutzerdaten zukommen zu lassen.
+Nach der erstmaligen Anmeldung an MAGELLAN kann jeder Nutzer im Programm unter `Datenbank > Kennwort ändern` ein eigenes Kennwort vergeben.
 
 ![Emails für weitere Nutzer erfassen](/assets/images/upgrade/10/004.png)
 
@@ -269,19 +273,19 @@ Um die Rechte der existierenden Benutzer auf für die neuen Datenbankstrukturtei
 
 ## 13. Eigene Daten übernehmen
 
-Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitte und legen Sie in der neuen Verzeichnisstruktur von MAGELLAN 10 ab.
+Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitte und legen Sie in der neuen Verzeichnisstruktur von `MAGELLAN 10` ab.
 
 !!! warning "Wichtig"
 
     Bitte legen Sie **nur Ihre zusätzlichen Dateien** in der neuen Verzeichnisstruktur ab und ersetzen Sie bitte nicht die Verzeichnisse! 
 
-Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordnern dürfen Daten NICHT übernommen werden, weil MAGELLAN 10 hier beispielsweise einen anderen Aufbau erwartet.
+Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordnern dürfen Daten NICHT übernommen werden, weil `MAGELLAN 10` hier beispielsweise einen anderen Aufbau erwartet.
 
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
 Datenbank|Ja| Bitte beachten Sie hier die Anleitung zum Sichern der Datenbank mit `MAGELLAN 9` und Firebird 2.5. und zum Wiederherstellen mit `MAGELLAN 10` und Firebird 4.0.2.
-Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 10 ab.
+Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für `MAGELLAN 10` ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von `MAGELLAN 10` und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.
 Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für `MAGELLAN 10` ab.
@@ -298,11 +302,11 @@ Zur Installation und Konfiguration von `MAGELLAN 10` und der Crystal Reports Run
 
     Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von `MAGELLAN 10`, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
 
-### Empfehlung für weitere Arbeitspltze
+### Empfehlung für weitere Arbeitsplätze
 
 Wir empfehlen Ihnen MAGELLAN auf einem Arbeitsplatz zu installieren, zu lizenzieren und zu konfigurieren. Die Lizenzdaten und die Konfigurationsdaten können anschließend zentral abgelegt werden. Somit wäre ab dem zweiten Arbeitsplatz nur die Installation notwendig und Sie legen zusätzlich eine Datei ab, die die Pfade enthält, von denen MAGELLAN die Lizenz- und Konfigurationdaten lesen soll.
 
-Nach der Installation auf dem ersten Arbeitsplatz starten Sie bitte MAGELLAN 10 um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassistenten gibt man die Lizenzdaten, die Pfade aus Sicht des Arbeitsplatzs zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
+Nach der Installation auf dem ersten Arbeitsplatz starten Sie bitte `MAGELLAN 10` um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassistenten gibt man die Lizenzdaten, die Pfade aus Sicht des Arbeitsplatzs zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
 
 Testen Sie anschließend auf dem ersten Arbeitsplatz, ob die Angaben korrekt waren.<br/>
 **Test 1 (Datenbankpfad):** Dafür starten Sie MAGELLAN auf dem Rechner, gelingt der Start des Moduls, ist der Pfad zur Datenbank ok.<br/>
