@@ -12,17 +12,17 @@ Nr.|Was ist zu tun
  1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#downloads-lizenzdatei-zurechtlegen)
  2.|E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#2-e-mail-adressen-nachpflegen)
  3.|[Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#3-sicherung-der-datenbank-unter-firebird-259)
- 4.|[Deinstallation von Firebird 2.5.9 und `MAGELMAG 9`]
- 5.|Installation von: Firebird 4.0.2<br/>`MAGELLAN 10`<br/>CR Runtimeversion
- 6.|Willkommensassistent starten (Pfade und Lizenz)
- 7.|Wiederherstellung der MAGELLAN9.fbk mit dem MAGELLAN 10/ Firebird 4.0.2
- 8.|Einfügen der wiederhergestellten MAGELLAN10.fdb ins Datenbankverzeichnis
- 9.|Start von MAGELLAN 10 und Anpassung der Datenstruktur
-10.|Admin Emails nachtragen lassen
-11.|Kennworte neu erzeugen lassen, ggfs. per Mail verteilen
-12.|Zugriffsrechte synchronisieren
-13.|Eigene Daten übernehmen
-14.|Arbeitsplatzrechner aktualisieren (MAGELLAN 10, CR Runtimeversion)
+ 4.|[Deinstallation von Firebird 2.5.9 und `MAGELMAG 9`]()
+ 5.|[Installation von Firebird 4.0.2, `MAGELLAN 10`, CR Runtimeversion]()
+ 6.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#6-willkommensassistent-starten-pfade-und-lizenz)
+ 7.|[Wiederherstellung der MAGELLAN9.fbk](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#7-wiederherstellung-der-magellan9fbk)
+ 8.|[Einfügen der wiederhergestellten MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#8-einfugen-der-wiederhergestellten-magellan10fdb)
+ 9.|[Start von MAGELLAN 10 und Anpassung der Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#9-start-von-magellan-10-und-anpassung-der-datenstruktur)
+10.|[E-Mail-Adressen übernehmen]()
+11.|[Kennworte neu erzeugen lassen](E-Mail-Adressen übernehmen)
+12.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#12-zugriffsrechte-synchronisieren)
+13.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#13-eigene-daten-ubernehmen)
+14.|[Arbeitsplatzrechner](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#14-arbeitsplatzrechner)
 
 ## 1. Downloads, Lizenzdatei zurechtlegen
 
@@ -242,7 +242,7 @@ Die Daten sind änder- und einsehbar. Bitte starten Sie den `MAGELLAN 10 Adminis
 
 Starten Sie `MAGELLAN 10` und melden sich mit dem Benutzer `sysdba` und dem von Ihnen vergebenen Passwort an. Der Assistent fordert Sie auf eine Sicherung der Datenbank zu erstellen, im Anschluss wird die Strukturanpassung der Datenbank auf die aktuelle Version vorgenommen. 
 
-## 10. E-Mailadressen aus MAGELLAN übernehmen
+## 10. E-Mail-Adressen übernehmen
 
 E-Mailadressen, die Sie für `Lehrer` unter `Daten 1 > E-Mail` verfasst haben, können Sie in den `MAGELLAN 10 Administrator` übernehmen. Diese Adressen werden beim gesammelten Erstellen von Passworten gemeinsam mit den Passworten und den Benutzerkennungen in eine CSV-Datei gespielt werden und dann ggfs. zum Versenden verwendet werden.
 Rufen Sie die Funktion unter `Benutzerverwaltung > Extras > E-Mail übernehmen` auf. Der Assistent übernimmt die Adressen. Sie finden die übernommenen Adressen in der Liste der Benutzerverwaltung. 
