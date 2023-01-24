@@ -10,9 +10,9 @@ Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 
 Nr.|Was ist zu tun
 --|--
  1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#downloads-lizenzdatei-zurechtlegen)
- 2.|E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#emailadressen-nachpflegen)
- 3.|Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9
- 4.|Deinstallation von Firebird 2.5.9 und `MAGELLAN 9`
+ 2.|E-Mail-Adressen nachpflegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#2-e-mail-adressen-nachpflegen)
+ 3.|[Sicherung der Datenbank unter MAGELLAN 9/Firebird 2.5.9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#3-sicherung-der-datenbank-unter-firebird-259)
+ 4.|[Deinstallation von Firebird 2.5.9 und `MAGELMAG 9`]
  5.|Installation von: Firebird 4.0.2<br/>`MAGELLAN 10`<br/>CR Runtimeversion
  6.|Willkommensassistent starten (Pfade und Lizenz)
  7.|Wiederherstellung der MAGELLAN9.fbk mit dem MAGELLAN 10/ Firebird 4.0.2
@@ -48,9 +48,9 @@ Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrolli
 Bevor die neue Firebirdversion installiert wird, erstellen Sie bitte eine Sicherung der MAGELLAN-Datenbank mit dem MAGELLAN 9 Administrator. Aus dieser Datenbank wird später mit Firebird 4.0.2 und dem MAGELLAN 10 Administrator die neue Datenbank wieder hergestellt.
 Eine Anleitung zum Sichern der Datenbank finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung/).
 
-## 4. Deinstallation von Firebird 2.5.9
+## 4. Deinstallation von Firebird 2.5.9 und MAGELMAG 9
 
-Öffnen Sie auf Ihrem Serverrechner den Punkt `Systemsteuerung > Programme und Features` und deinstallieren bitte Firebird 2.5.9 vollständig.
+Öffnen Sie auf Ihrem Serverrechner den Punkt `Systemsteuerung > Programme und Features` und deinstallieren bitte Firebird 2.5.9 und `MAGELLAN 9`vollständig.
 
 ## 5. Installationen
 
