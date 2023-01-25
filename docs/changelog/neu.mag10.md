@@ -56,7 +56,7 @@ Die Oberfläche wurde überarbeitet.
 
 #### Listendarstellung
 
-Die Auswahllisten werden zeilenweise farblich unterschieden (grau, weiß) .
+Die Auswahllisten werden zeilenweise farblich unterschieden (grau, weiß).
 
 ![Bezeichnung](/assets/images/neues/011.png)
 
