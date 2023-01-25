@@ -27,7 +27,7 @@ Je nach Auswahl werden in den Notenfeldern der Schüler Noten, Punkte, Prozente 
 
 !!! info "Hinweis"
 
-    Um Ausfälle auf einen Blick erkennen zu können, weisen Sie den Noten unter `Extras > Schlüsselverzeichnisse > Noten` in der Spalte `Hintergrundfarbe `eine individuelle Farbe zu. Die Farbe wird unter `Schüler > Zeugnis > Leistungen `und auch in der Notenübersicht gezeigt. Zusätzlich muss bitte unter `Datenbank > Optionen > Einstellungen` die `Hintergrundfarbe für Benotungen` aktiviert werden.
+    Um Ausfälle auf einen Blick erkennen zu können, weisen Sie den Noten unter `Extras > Schlüsselverzeichnisse > Noten` in der Spalte `Hintergrundfarbe `eine individuelle Farbe zu. Die Farbe wird unter `Schüler > Zeugnis > Leistungen` und auch in der Notenübersicht gezeigt. Zusätzlich muss bitte unter `Datenbank > Optionen > Einstellungen` die `Hintergrundfarbe für Benotungen` aktiviert werden.
 
 ## Noteneingabe
 
@@ -48,9 +48,11 @@ Die Angabe der Lesitungsarten wird für bestimmte Berechnungsskripte benötigt.
 
 Bitte geben Sie die Leistungsarten bei den Schülern unter `Schüler > Zeugnis > Leistungen` für jedes Fach mit der vom Schüler gewählten Leistungsart an. Diese Leistungsart wird je Kurshalbjahr beim Synchronisieren der Daten mit ins Menü `Abitur > Qualifikation` übernommen. Die Leistungsart wird nur für benotete Fächer übernommen. Grundlage ist das Schlüsselverzeichnis `Verzeichnisse > Leistungsarten` mit Arten (Schriftlich, mündlich, praktisch) Sie legen sich hier die Arten der Leistung an (Beispiel Vortrag, Klausur usw.) und Sie markieren diese dann mit der korrekten Art (Beispiel: Klausur = schriftlich).
 
-### Zeitraumübergreifende Notenübersicht für einzelne Schüler oder eine Klasse
+### Zeitraumübergreifende Notenübersicht Schüler oder Klasse
 
-Es ist möglich, eine zeitraumübergreifende Notenmatrix für Schüler aufzurufen. Klicken Sie in der Registerkarte `Leistungen` auf die Schaltfläche `Notenübersicht…`. Es werden Ihnen nun entweder alle Fächer und Noten `aktuellen Schülers` oder `aller Schüler der Klasse` mit Angabe des Halbjahres angezeigt. Sie können in der Übersicht wie gewohnt Sortieren und Gruppieren.
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Notenübersicht` auf. Die Funktionsweisen werden nachfolgend beschrieben. <img src="/assets/images/zeugnisdaten/006.png">
+
+Es werden Ihnen nun entweder alle Fächer und Noten `aktuellen Schülers` oder `aller Schüler der Klasse` mit Angabe des Halbjahres angezeigt. Sie können in der Übersicht wie gewohnt Sortieren und Gruppieren.
 
 ![Dies ist die Notenübersicht für den aktuellen Schüler](/assets/images/zeugnisdaten/zeugnisdaten17.png)
 

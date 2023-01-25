@@ -93,6 +93,8 @@ Die Fachtafel ist jetzt unter dem eingegebenen Kürzel und der Bezeichnung mit d
 
 ### Assistenten
 
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler` und den gewünschten Assistenten auf. Die Funktionsweisen werden nachfolgend beschrieben. <img src="/assets/images/zeugnisdaten/001.png">
+
 #### Fachtafeln zuweisen
 
 !!! warning "Wichtig!"
@@ -201,7 +203,7 @@ Das neue Fach wird im gewählten Zeitraum für die Schüler unter `Schüler > Ze
 
 ### Schwerpunkte zuweisen
 
-Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach löschen` auf. Es öffnet sich der Assistent `chwerpunkte zuweisen`.<br/><img src="/assets/images/zeugnisdaten/005.png"> Die Sammelzuweisung kann ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren. 
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach löschen` auf. Es öffnet sich der Assistent `Schwerpunkte zuweisen`.<br/><img src="/assets/images/zeugnisdaten/005.png"> Die Sammelzuweisung kann ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren.
 
  ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/assets/images/zeugnisdaten/zeugnisdaten11.png)
 
