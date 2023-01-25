@@ -14,7 +14,11 @@ Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finde
 
     Die Zeugnisberichte erwarten bestimmte Eingaben in den Programmfeldern. Bitte schauen Sie als erstes im automatisch mitinstalliertem Modul MAGELLAN BERICHTE nach, welche Einstellungen und Eingaben der von Ihnen verwendete Zeugnisbericht erwartet!
 
-## Fächerverzeichnis
+## Vorbereitung
+
+In den nachfolgenden Abschnitten werden die vorbereitenden Arbeiten in Schlüsselverzeichnissen erläutert.
+
+### Fächerverzeichnis
 
 Bevor Sie mit der Zuweisung von Fächern beginnen, sollten Sie einen Blick in das Schlüsselverzeichnis der Fächer werfen. Das Fächerverzeichnis ist eines von vielen Schlüsselverzeichnissen. Um das Fächerverzeichnis zu bearbeiten, klicken Sie auf Verzeichnisse und auf Fächer. Es öffnet sich das Fenster `Verzeichnis der Fächer`.
 
@@ -29,9 +33,9 @@ Die Fächer aus dem Verzeichnis, die an Ihrer Schule nicht unterrichtet werden, 
     Informationen zu Zeugnisberichten finden Sie im Modul MAGELLAN BERICHTE.
     Was pro Skript an Eingaben voraussetzt wird, können Sie in der Dokumentation [Landesanpassungen](http://doc.la.stueber.de/) nachlesen.
 
-## Fachtafeln 
+### Fachtafel
 
-### Fachtafel definieren
+#### Fachtafel definieren
 
 Fachtafeln bestehen aus einer beliebigen Liste von Fächern und dienen der schnellen und bequemen Zuweisung von Fächern sowohl für einzelne Schüler als auch für ganze Klassen. Um in den Schülerdaten sinnvoll mit Fachtafeln zu arbeiten, müssen diese zunächst in einem Schlüsselverzeichnis vordefiniert und hinterlegt werden. Sie definieren Fachtafeln, indem Sie auf Verzeichnisse und dann auf Fachtafeln klicken. Es öffnet sich das Fenster `Verzeichnis der Fachtafeln`. Geben Sie hier die Fächer ein, die für die markierte Jahrgangsstufe relevant sind. So ist es möglich ganzen Klassen oder Schülern eine Fachtafel zuzuweisen.
 
@@ -73,13 +77,13 @@ Ein neues Fach weisen Sie zu, indem Sie auf das Symbol `Neue Zeile` klicken. Es 
 |**Sprache**|Unterrichtssprache für bilingualen Unterricht, Verweis auf Verzeichnis `Kurssprachen`| 
 |**Mündlich**|zur Markierung ob die Zeugnisnote mündlich oder schriftlich erworben wurde (nur NRW ABS)|
 
-### Fachtafeln kopieren
+#### Fachtafeln kopieren
 
 Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits existierenden Fachtafel basiert, markieren Sie die Vorlage-Fachtafel, klicken auf `Fachtafel kopieren`, geben ein neues Kürzel und eine neue Bezeichnung an. Passen Sie anschließen die neue Fachtafel auf der Unterkarte `Fachtafel-Fächer` an.
 
  ![Erstellen Sie nach Vorlage einer Fachtafel eine Kopie](/assets/images/zeugnisdaten/zeugnisdaten5.png)
 
-### Fachtafel extrahieren
+#### Fachtafel extrahieren
 
 Über das Extrahieren von Fachtafeln können Sie eine für einen Schüler erstellte Fachliste als Fachtafel extrahieren und somit weiteren Schülern zuweisen. Dies ist eine zusätzliche Möglichkeit Fachtafeln zu erstellen, allerdings diesmal "vor Ort". Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Fachtafel extrahieren`.
 
@@ -87,11 +91,13 @@ Möchten Sie eine Fachtafel neu erstellen, die größtenteils auf einer bereits 
 
 Die Fachtafel ist jetzt unter dem eingegebenen Kürzel und der Bezeichnung mit den Fächern des konkreten Schülers in dem Verzeichnis `Fachtafeln` gespeichert. Wenn Sie Schülern jetzt eine Fachtafel zuweisen, wird Ihnen die extrahierte Fachtafel ebenfalls als mögliche Fachtafel angeboten.
 
-### Fachtafeln zuweisen
+### Assistenten
+
+#### Fachtafeln zuweisen
 
 !!! warning "Wichtig!"
 
-    Der Assistent zum Zuweisen von Fachtafeln wurde ab Version MAGELLAN vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
+    Der Assistent zum Zuweisen von Fachtafeln wurde ab Version MAGELLAN 9 vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
     Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. 
     Eine zusätzliche Prüfung vergleicht die Fächer und verhindert Dopplungen.
     Zusätzlich gibt es weitere Optionen, die das mehrfache Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
@@ -110,12 +116,12 @@ So weisen Sie Schülern eine Fachtafel zu.
 
 |Nr.|So geht's|
 |:--|:--|
-|1.| Klicken Sie auf Ansicht und dann auf Schüler. Wählen Sie einen gewünschten Schüler in der Auswahlliste aus und gehen Sie dann auf die Registerkarte `Zeugnis`. Wählen Sie hier die Registerkarte `Fächer` und klicken oben auf die Schaltfläche `Fachtafel zuweisen`. Es öffnet sich der Assistent `Fachtafel zuweisen`. Klicken Sie auf `Weiter`. <br/><br/><img src="/assets/images/zeugnisdaten/zeugnisdaten53.png">|
+|1.| Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fachtafel zuweisen` auf. Es öffnet sich der Assistent `Fachtafel zuweisen`.<br/><img src="/assets/images/zeugnisdaten/002.png"> |
 |2.| Unter `Schüler auswählen` befinden sich alle Schüler des aktuellen Halbjahres. Nutzen Sie die [Gruppierung oder Filterung](https://doc.magellan.stueber.de/schulverwaltung/howto/sort-group-filter-search/) und markieren Sie Schüler, denen Sie dieselbe Fachtafel zuweisen möchten, gruppenweise und klicken Sie auf `Weiter`.<br/><br/><img src="/assets/images/zeugnisdaten/zeugnisdaten7.png"><br/><br/> 
 |3.|Unter `Fachtafel auswählen` wählen Sie die Fachtafel aus, die den markierten Schülern zugewiesen werden soll, dazu haben Sie drei Möglichkeiten.<br/><br/> 1. **Fachtafel manuell auswählen:** Es werden alle Fachtafeln in der Liste gezeigt, die im Verzeichnis Fachtafeln definiert sind. Sie wählen durch Anklicken eine aus und gehen auf `Weiter`.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten54.png"><br/><br/>2. **Beim jeweiligen Schüler hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den markierten Schülern auf der Registerkarte `Laufbahn` unter `Fachtafel` definiert sind.<br/><img src="/assets/images/zeugnisdaten/zeugnisdaten55.png"><br/><br/> 3. **Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen:** Es werden jeweils die Fachtafeln zugewiesen, die bei den Klassen der markierten Schülern auf der Registerkarte `Zeiträume` unter `Fachtafel` definiert sind. <br/><img src="/assets/images/zeugnisdaten/zeugnisdaten56.png">|
 |4. |Im unteren Bereich des Assistenten haben Sie zusätzliche Optionen zur Auswahl, die wir nachstehend gesondert erklären.<br/> * [Allgemeine Optionen beim Zuweisen der Fachtafel](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#allgemeine-optionen-beim-zuweisen-der-fachtafel)<br/> * [Optionen zum Verändern bestehender Fachdaten](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#optionen-zum-verandern-bestehender-fachdaten)<br/><br/> Um den Assistenten auszuführen klicken Sie bitte auf `Weiter` und `Fertigstellen`.
 
-#### Allgemeine Optionen
+##### Allgemeine Optionen
 
 !!! warning "Wichtig!"
 
@@ -137,13 +143,13 @@ Kombinationen|Funktion
 `1.` und `2.`|Vorhandene Fächer des Schülers bleiben erhalten, Fachdopplungen sind zugelassen
 `2.` und `3.`|Alle Fächer des Schülers werden gelöscht, Fachdopplungen aus der Fachtafel werden zugewiesen
 
-#### Optionen zum Verändern bestehender Fachdaten
+##### Optionen zum Verändern bestehender Fachdaten
 
 [![Optionen zum Verändern bestehender Fachdaten][4]][4]
 
 Diese Optionen können ohne das Zuweisen einer Fachtafel zum Ergänzen genutzt werden, können aber auch parallel zum Zuweisen verwendet werden.
 
-##### Abweichende Fächer beim Schüler/in der Fachtafel
+###### Abweichende Fächer beim Schüler/in der Fachtafel
 
 [![Zusätzliche oder abweichende Fächer][5]][5]
 
@@ -164,6 +170,50 @@ Nr.|Option
 1.|**Nicht erzwingen**<br/>Standardauswahl, keine Aktion
 2.|**Über Fach abgleichen**<br/>Je nach Auswahl per Checkbox werden `Unterrichtsart`, `Fachstatus`, `Merkmal`, `Position`, `Faktor` oder `Lehrer` aus der Fachtafel ausgelesen und dem erkannten Fach (bei Fach-Dopplungen den Fächer) zugewiesen. Für den Vergleich der Fächer wird die Fach-ID verwendet. Ein leerer Wert aus der Fachtafel überschreibt bei gesetzter Option einen erfassten Wert beim Schülerfach.<br/>Wenn Sie abweichende Fachzeilen beim Ergänzen nicht ändern möchten, setzen Sie bitte das Häkchen für `Vorhandene Fachdaten der Schüler nicht löschen`
 3.|**Über Fach, Unterrichtsart, Fachstatus abgleichen**<br/>Wie `2.`, das Fach wird aber nicht nur anhand der Fach-ID erkannt, zusätzlich werden auch Unterrichtsart (Kürzel) und Fachstatus (Kürzel) verglichen, nur wenn alle drei übereinstimmen, wird geändert.
+
+### Fach zuweisen
+
+Für das Zuweisen von Fächern (`Schüler > Zeugnis> Fächer`) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie können die Funktion `Fachtafel zuweisen` nutzen um die Schnittmenge der Klassenfächer zuzuordnen und ergänzen mit der Funktion `Fach zuweisen` für Schülergruppen individuelle Fächer (oder Arbeitsgemeinschaften).
+Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
+
+* Unterrichtsart
+* Fachstatus
+* Kursnummer
+* Lehrer
+* Schwerpunkt
+* Niveau
+* Position
+* Faktor
+* Merkmal
+* Sprachen
+
+Dieser Ansatz ist gedacht um beispielsweise Arbeitsgemeinschaften oder Wahlfächer gesammelt zuweisen zu können.
+
+1. Starten Sie den Assistenten unter `Schüler > Unterkarte Schüler > Fach zuweisen`. Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach zuweisen` auf. Es öffnet sich der Assistent `Fachtafel zuweisen`. <img src="/assets/images/zeugnisdaten/003.png"> 
+2. Wählen Sie ein Gruppe von Schülern aus, für die Sie ein Fach zuweisen möchten und klicken auf `Weiter`!
+3. Wählen Sie das Fach aus und ergänzen ggfs. eine weitere Eigenschaft, klicken Sie auf `Fertigstellen`!
+
+Das neue Fach wird im gewählten Zeitraum für die Schüler unter `Schüler > Zeugnis > Fächer gezeigt`. 
+
+!!! tipp Hinweis
+
+    Bitte beachten Sie, dass der Assistent einzelne Fächer und gewählte Eigenschaften ergänzt, es können keine bereits zugewiesenen Fächer auf diesem Weg geändert werden.
+
+### Schwerpunkte zuweisen
+
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach löschen` auf. Es öffnet sich der Assistent `chwerpunkte zuweisen`.<br/><img src="/assets/images/zeugnisdaten/005.png"> Die Sammelzuweisung kann ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren. 
+
+ ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/assets/images/zeugnisdaten/zeugnisdaten11.png)
+
+### Fach löschen (Sammellöschung)
+
+Mit Hilfe der `Sammellöschung` kann bei mehreren Schülern gleichzeitig ein Fach gelöscht werden. 
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach löschen` auf. Es öffnet sich der Assistent `Sammellöschung`. <img src="/assets/images/zeugnisdaten/004.png"> 
+Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Sammellöschung`. Ein Assistent ist Ihnen behilflich. Sie können nun mehrere Schüler markieren, bei welchen jeweils das gleiche Fach gelöscht werden soll. Besitzt einer der markierten Schüler nicht das ausgewählte Fach, so hat das Löschen keine Auswirkung auf diesen Schüler.
+
+![Dialog `Sammellöschung eines Fachs`](/assets/images/zeugnisdaten/zeugnisdaten12.png)
+
+![ Geben Sie ggf. noch einen Löschfilter ein, z.B. `Lösche Biologie bei den markierten Schülern nur, wenn es die Unterrichtsart GK besitzt und 4. Prüfungsfach ist`.](/assets/images/zeugnisdaten/zeugnisdaten13.png)
 
 ## Fächer manuell editieren
 
@@ -188,75 +238,3 @@ Möchten Sie ein Fach der Fachliste ändern, markieren Sie es entsprechend, inde
 ### Fach löschen
 
 Um ein Fach aus der Fachliste zu löschen, markieren Sie die entsprechende Zeile. Klicken Sie auf die Schaltfläche `Minus` und das Fach verschwindet aus der Fächerliste des Schülers.
-
-## Fächer zuweisen: Welche Möglichkeiten gibt es
-
-Für das Zuweisen der Fächer sind mehrere Wege möglich, Ziel ist, dass jeder Schüler die von ihm belegten Fächer zugewiesen bekommt.
-
-Einfachste Variante: **Alle Schüler der Klasse belegen die gleichen Fächer**, legen Sie pro Jahrgang eine Fachtafel an, die Sie jedes Jahr wiederverwenden können. Diese Fachtafel kann man auch für die Klasse vormerken und mit der Option `Bei der jeweiligen Klasse hinterlegte Fachtafel benutzen` zuordnen. Lesen Sie dazu den Punkt `Fachtafeln zuweisen`.
-
-!!! info "Hinweis"
-
-    Ändert sich etwas an diesen Fächern, können Sie unbesorgt die Änderung an den Fachtafeln vornehmen, da die Fachtafeln lediglich als Vorlage zu Zuweisen der Fächer dient, es gibt im Anschluss keine Verbindung zwischen den Schülerfächern und den Inhalten der Fachtafeln.
-
-Ist der **überwiegende Teil der Schülerfächer innerhalb einer Klasse gleich**, einige Fächer unterscheiden sich aber, gibt es mehrere Wege:
-
-1. Sie können diese Schnittmenge (Fächer, die alle Schüler der Klasse belegen) als Fachtafel anlegen. Die individuell belegten Fächer werden jeweils als Extrafachtafel (eine Fachtafel kann auch nur ein Fach enthalten) angelegt. Das Zuweisen erfolgt dann in mehreren Schritten, allerdings sollten Sie nach dem ersten Zuweisen darauf achten, dass die Option `Vorhandene Fächer der Schüler nicht löschen` gewählt ist.
-
-2. Sie legen pro Fachvariante (Schnittmenge plus schülerindividuelle Fächer) eine Fachtafel an und weisen diese gezielt zu.
-
-3. Sie erstellen eine Fachtafel, die alle in der Klasse vorkommenden Fächer enthält, weisen diese zu und entfernen dann per Sammellöschung die Fächer, die die einzelnen Schüler nicht belegen.
-
-4. Sie merken bei der Klasse (`Klassen > Zeiträume > Zeitraum > Fachtafel`)/beim Schüler(`Schüler > Laufbahn > Fachtafel`)/bei der Klasse und beim Schüler Fachtafeln vor und weisen diese gesammelt zu.
-
-Beim Fachtafel zuweisen gehen Sie in zwei Schritten vor:
-
-Sie markieren alle Schüler und weisen die bei der Klasse hinterlegte Fachtafel zu, im zweiten Schritt weisen Sie die beim Schüler hinterlegte Fachtafel zu, achten aber bitte darauf, dass die Option `Vorhandene Fächer der Schüler nicht löschen` gesetzt ist.
-
-5. Zusätzlich können Sie jederzeit per Hand auf der Fächerkarte einzelne Fachzeilen ergänzen, ändern oder löschen.
-
-!!! tipp Hinweis
-
-    Fachtafeln, sind nur der geeignete Weg, wenn es eine Übereinstimmung in den Schülerfächern gibt. Für Oberstufenschüler, deren Fachwahl individuell erfolgt, eignet sich der Punkt `Abitur > Fachwahl` oder es können Schülerfachwahlen aus dem Kursplanmodul von daVinci übernommen werden. Informationen zum Punkt `Fachwahl` lesen Sie bitte im Abschnitt `Fachwahl-/Qualifikationsüberprüfungen vorbereiten` nach.
-
-## Fach zuweisen
-
-Für das Zuweisen von Fächern (Schüler > Zeugnis> Fächer) gibt es zusätzlich zu den vorzubereitenden Fachtafeln einen weiteren Ansatz. Sie markieren einen oder mehrere Schüler und weisen diesen ein Fach zu, dass mit den folgenden Eigenschaften versehen werden kann:
-
-* Unterrichtsart
-* Fachstatus
-* Kursnummer
-* Lehrer
-* Schwerpunkt
-* Niveau
-* Position
-* Faktor
-* Merkmal
-* Sprachen
-
-Dieser Ansatz ist gedacht um beispielsweise Arbeitsgemeinschaften oder Wahlfächer gesammelt zuweisen zu können.
-
-1. Starten Sie den Assistenten unter `Schüler > Unterkarte Schüler > Fach zuweisen`.
-2. Wählen Sie ein Gruppe von Schülern aus, für die Sie ein Fach zuweisen möchten und klicken auf `Weiter`!
-3. Wählen Sie das Fach aus und ergänzen ggfs. eine weitere Eigenschaft, klicken Sie auf `Fertigstellen`!
-
-Das neue Fach wird im gewählten Zeitraum für die Schüler unter `Schüler > Zeugnis > Fächer gezeigt`. 
-
-!!! tipp Hinweis
-
-    Bitte beachten Sie, dass der Assistent einzelne Fächer und gewählte Eigenschaften ergänzt, es können keine bereits zugewiesenen Fächer auf diesem Weg geändert werden.
-
-## Schwerpunkte zuweisen
-
-Über die Schaltfläche `Schwerpunkte…` können Sie eine Sammelzuweisung aufrufen, die ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren. 
-
- ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/assets/images/zeugnisdaten/zeugnisdaten11.png)
-
-## Fach löschen (Sammellöschung)
-
-Mit Hilfe der `Sammellöschung` kann bei mehreren Schülern gleichzeitig ein Fach gelöscht werden. Markieren Sie dazu einen Schüler in der Auswahlliste `Schüler` und wählen Sie dessen Registerkarte `Zeugnis`. Wählen Sie dann die Registerkarte `Fächer` und klicken Sie oben auf `Sammellöschung`. Ein Assistent ist Ihnen behilflich. Sie können nun mehrere Schüler markieren, bei welchen jeweils das gleiche Fach gelöscht werden soll. Besitzt einer der markierten Schüler nicht das ausgewählte Fach, so hat das Löschen keine Auswirkung auf diesen Schüler.
-
-![Dialog `Sammellöschung eines Fachs`](/assets/images/zeugnisdaten/zeugnisdaten12.png)
-
-![ Geben Sie ggf. noch einen Löschfilter ein, z.B. `Lösche Biologie bei den markierten Schülern nur, wenn es die Unterrichtsart GK besitzt und 4. Prüfungsfach ist`.](/assets/images/zeugnisdaten/zeugnisdaten13.png)
-
