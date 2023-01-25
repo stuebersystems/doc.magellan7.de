@@ -52,7 +52,9 @@ Die Oberfläche wurde überarbeitet.
 
 ## MAGELLAN Schulverwaltung
 
-### Listendarstellung
+### Allgemein
+
+#### Listendarstellung
 
 Die Auswahllisten werden zeilenweise farblich unterschieden (grau, weiß) .
 
