@@ -52,6 +52,12 @@ Die Oberfläche wurde überarbeitet.
 
 ## MAGELLAN Schulverwaltung
 
+### Listendarstellung
+
+Die Auswahllisten werden zeilenweise farblich unterschieden (grau, weiß) .
+
+![Bezeichnung](/assets/images/neues/011.png)
+
 ### Menü Schüler
 
 #### Schüler fortschreiben
