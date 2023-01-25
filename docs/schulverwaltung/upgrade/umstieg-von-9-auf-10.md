@@ -244,7 +244,7 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 
 1. Stoppen Sie während des Austauschs den Firebird-Dienst unter `Systemsteuerung > Verwaltung > Dienste`! ![Datenbank wiederherstellen](/assets/images/upgrade/10/007.png)
 2. Benennen die wiederhergestellte Datenbank im Verzeichnis `Restore` nach Ihren Vorstellungen um (Standardname wäre MAGELLAN10.fdb), behalten Sie die Endung *.fdb bei.
-3. Kopieren Sie die umbenannte Datei und legen sie ins Datenbankverzeichnis ab. Der Standardpfad ist `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank`.
+3. Kopieren Sie die umbenannte Datei und legen sie ins Datenbankverzeichnis ab. Der Standardpfad ist `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank`. Starten Sie bitte den Firebird-Dienst erneut!
 4. Starten Sie das Modul `MAGELLAN Administrator` und wählen im Anmeldefenster im Feld `Datenbank` bitte `<Keine Anmeldung>` aus.
 5. Wechseln Sie in die Ansicht `Datenbankverbindungen`, dort wird Ihnen der Pfad zur Datenbank und auch der Name der Datenbank gezeigt. Entsprechen Pfad und Datenbankbenennung Ihren Angaben? Wenn nicht, können Sie die Angaben per Doppelklick auf die Verbindungszeile im Folgefenster im Unterpunkt `Datenbank` anpassen. ![Verbindungsinformationen](/assets/images/upgrade/10/008.png) ![ev. Anpassen von Pfad oder Datenbankname](/assets/images/upgrade/10/009.png) 
 
