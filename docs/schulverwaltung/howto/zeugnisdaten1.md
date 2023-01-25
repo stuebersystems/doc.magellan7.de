@@ -149,7 +149,7 @@ Kombinationen|Funktion
 
 Diese Optionen können ohne das Zuweisen einer Fachtafel zum Ergänzen genutzt werden, können aber auch parallel zum Zuweisen verwendet werden.
 
-###### Abweichende Fächer beim Schüler/in der Fachtafel
+##### Abweichende Fächer beim Schüler/in der Fachtafel
 
 [![Zusätzliche oder abweichende Fächer][5]][5]
 
