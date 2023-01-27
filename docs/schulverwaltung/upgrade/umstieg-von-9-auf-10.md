@@ -235,17 +235,25 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 ## 7. Wiederherstellung der MAGELLAN9.fbk
 
 1. Legen Sie die Sicherung der MAGELLAN 9 Datenbank (Meine_Datenbank.fbk) auf dem Server im Verzeichnis `Datenbank > Datensicherung > Backup` ab, der Standardpfad wäre `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank\Datensicherung\Backup` ab.
+
 2. Starten Sie das Modul `MAGELLAN Administrator` und wählen im Anmeldefenster im Feld `Datenbank` bitte `<Keine Anmeldung>` aus.
+
 3. Rufen Sie `Datenbankverbindungen > Wiederherstellen` auf und wählen die Verbindung, die Sie zuvor per Willkommensassistent angelegt haben (Standardname "MAGELLAN"). In der Verbindung wurde auf das Verzeichnis `Backup` verwiesen, in das Sie Ihre Datenbanksicherung abgelegt hatten. Klicken Sie auf die drei Punkte am Ende der Zeile "Sicherung" und wählen die Sicherungsdatei (Ihre *.fbk ) aus. In der Zeile "Wiederherstellung" ist keine Änderung nötig. ![Datenbank wiederherstellen](/assets/images/upgrade/10/006.png)
+   
 4. Melden Sie sich mit `sysdba` und dem Passwort an, das Sie während der Firebird-Installation vergeben haben und führen die Wiederherstellung aus.
+
 5. Die wiederhergestellte Datenbank (*.fdb) befindet sich im Verzeichnis `Restore`, standardmäßig wäre der Pfad `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank\Datensicherung\Restore`.
 
 ## 8. Einfügen der wiederhergestellten MAGELLAN10.fdb
 
 1. Stoppen Sie während des Austauschs den Firebird-Dienst unter `Systemsteuerung > Verwaltung > Dienste`! ![Datenbank wiederherstellen](/assets/images/upgrade/10/007.png)
+
 2. Benennen die wiederhergestellte Datenbank im Verzeichnis `Restore` nach Ihren Vorstellungen um (Standardname wäre MAGELLAN10.fdb), behalten Sie die Endung *.fdb bei.
+
 3. Kopieren Sie die umbenannte Datei und legen sie ins Datenbankverzeichnis ab. Der Standardpfad ist `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank`. Starten Sie bitte den Firebird-Dienst erneut!
+
 4. Starten Sie das Modul `MAGELLAN Administrator` und wählen im Anmeldefenster im Feld `Datenbank` bitte `<Keine Anmeldung>` aus.
+
 5. Wechseln Sie in die Ansicht `Datenbankverbindungen`, dort wird Ihnen der Pfad zur Datenbank und auch der Name der Datenbank gezeigt. Entsprechen Pfad und Datenbankbenennung Ihren Angaben? Wenn nicht, können Sie die Angaben per Doppelklick auf die Verbindungszeile im Folgefenster im Unterpunkt `Datenbank` anpassen. ![Verbindungsinformationen](/assets/images/upgrade/10/008.png) ![ev. Anpassen von Pfad oder Datenbankname](/assets/images/upgrade/10/009.png) 
 
 ## 9. Start von MAGELLAN 10 und Anpassung der Datenstruktur
