@@ -9,6 +9,7 @@
 [7]:/assets/images/neues/10.007.png "Endnote fortschreiben"
 [8]:/assets/images/neues/10.008.png "Personen-Serien-E-Mail"
 [9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-E-Mail"
+[10]:/assets/images/neues/10.010.png "Beurteilungsart"
 
 **Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
 
@@ -166,3 +167,9 @@ Auf der Karte `Qualifikation` können über `Layout anpassen` die Spalten `Fachk
 ### `Bestanden` und `Leistungsart`
 
 Die Felder `Bestanden` und `Leistungsart` aus `Schüler > Zeugnis > Leistungen` können mit in eine MyMAGELLAN-Datei übertragen, dort befüllt und wieder in die Schulverwaltung übertragen werden.
+
+### Beurteilungsart
+
+Die Auswahl der Filterung der Fachzeilen nach der `Beurteilungsart` unter `Fächer anzeigen` ist geändert worden. Die Optionen sind nebeneinander als Schaltflächen angeordnet. Beim Ansichtswechsel innerhalb des Programms bleibt Ihre Auswahl gespeichert, beim Neustart des Programms wird die Standardauswahl auf `Alle (nicht editierbar)` zurückgesetzt.
+
+[![Beurteilungsart][10]][10]
