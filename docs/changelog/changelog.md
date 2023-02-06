@@ -57,7 +57,9 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `BER-Schul Z 303 (11.19).rpt` Ausgabe Datum Eintritt in der Oberstufe
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `SAC-FOS-JZ (D.01.02).rpt` Korrektur Größe Textfeld Zeugnisbemerkungen
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `SAC-FOS-AZ (D.01.03).rpt` Fachrichtung wird aus dem Berufsfeld des Bildungsgangs ausgelesen, das dem aktuellen Ausbildungsdatensatz des Schülers zuwiesen wurde, Korrektur Größe Textfeld Zeugnisbemerkungen
-
+* FIX: SAC-FS-HJI-(C.01.01).rpt [alle Unterberichte geändert, so dass auch Füllwerte ausgegeben werden]
+* FIX: SAC-FS-HJZ (C.01.03).rpt [alle Unterberichte geändert, so dass auch Füllwerte ausgegeben werden]
+* 
 ### Version 9.5.3 902 (21.11.2022)
 
 #### MAGELLAN Schulverwaltung
