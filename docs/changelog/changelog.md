@@ -45,6 +45,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Bibliothek
 
 * FIX: historische Vorgänge können gelöscht werden
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
+
+* NEW: BAW-APO-BGY-2021-G9.dws [Vorabdownload](https://my.hidrive.com/lnk/0sRkNVHj) | Umsetzung der aktuellen Verordnung Landesrecht BW Inhaltsverzeichnis BGVO, Landesnorm Baden-Württemberg, Verordnung des Kultusministeriums über die Beruflichen Gymnasien (Ausbildungs- und Prüfungsordnung Berufliche Gymnasien - BGVO) vom 27. August 2021, gültig ab: 01.08.2021 (landesrecht-bw.de)
   
 #### Berichte
 
