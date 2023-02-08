@@ -184,7 +184,7 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 Feld|Funktion
 --|--
 **Spalte** | Name der Spalte oder des Feldes in der MAGELLAN-Oberfläche.
-**Spaltenüberschrift** |Wählen Sie eine abweichende Bezeichnung für die Anzeige in MyMAGELLAN.<br/><br/> ![](/assets/images/mymagellan/16.png)
+**Spaltenüberschrift** |Wählen Sie eine abweichende Bezeichnung für die Anzeige in MyMAGELLAN.<br/><br/> <img src="/assets/images/mymagellan/16.png">
 **Sichtbar** |Setzen Sie das Häkchen um das Feld in MyMAGELLAN anzuzeigen.
 **Editierbar** |Setzen Sie das Häkchen zusammen mit dem Häkchen in der Spalte `Sichtbar`, um eine Eingabe zuzulassen. Bei einigen Spalten bietet es sich an, keinen Eintrag zuzulassen, die Spalte aber dennoch zur besseren Sortierbarkeit in der Datei auszugeben, zum Beispiel für die Unterrichtart oder den Fachstatus.
 **Listenspalte** |Diese Option ist fest vorgegeben und soll Ihnen zeigen, welche Einträge später als Liste zur Verfügung stehen (Beispiel Endnote1) und welche als Eingabefelder(Beispiel Versetzungsart oder Abschlussart).
