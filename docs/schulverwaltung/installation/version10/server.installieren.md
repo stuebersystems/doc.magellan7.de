@@ -18,6 +18,10 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 * die Runtimeversion von Crystal Reports 32- oder 64-Bit
 * für MAGELLAN 32- oder 64-Bit
 
+!!! danger "Wichtig!"
+
+    Für MAGELLAN 10 wird eine aktuellere Crystal Reports Runtime verwendet.
+
 **Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
 
 1. Wählen Sie `Start > Einstellungen > System > Info` aus.

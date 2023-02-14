@@ -29,6 +29,10 @@ Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGEL
 
     Bitte berücksichtigen Sie, dass Firebird 4.0.2 und Firebird 2.5.9 können nicht (ohne weitere Anpassungen) parallel genutzt werden.
 
+## Crystal Reports
+
+Für MAGELLAN 10 wird eine höhere Crystal Reports Runtime Version verwendet.
+
 ## MAGELLAN Administrator
 
 ### Passworte und E-Mailadresse
