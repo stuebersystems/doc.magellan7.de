@@ -11,8 +11,6 @@
 [9]:/assets/images/neues/10.009.png "Sorgeberechtigten-Serien-E-Mail"
 [10]:/assets/images/neues/10.010.png "Beurteilungsart"
 
-**Dieser Teil der Dokumentation ist noch im Aufbau und wird erst mit der Veröffentlichung von MAGELLAN 10 abgeschlossen sein.**
-
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 9. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 10 geben.
 
 ## FIREBIRD
