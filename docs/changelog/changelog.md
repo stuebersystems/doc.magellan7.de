@@ -38,6 +38,15 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
+## Version 10
+
+### Version 10.0.1 100 (14.02.2023)
+
+Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog/neu.mag10/).
+
+
+
+
 ## Version 9
 
 ### Version 9.5.4 902 (unveröffentlicht)
