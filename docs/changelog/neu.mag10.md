@@ -31,7 +31,7 @@ Benutzer können Passworte nach der ersten Anmeldung wie gewohnt über die MAGEL
 
 ## Crystal Reports
 
-Für MAGELLAN 10 wird eine höhere Crystal Reports Runtime Version verwendet.
+Für MAGELLAN 10 wird eine höhere Crystal Reports Runtime Version (13_0_33) verwendet.
 
 ## MAGELLAN Administrator
 
