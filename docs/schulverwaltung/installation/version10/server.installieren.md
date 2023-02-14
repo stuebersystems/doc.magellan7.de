@@ -1,5 +1,4 @@
-﻿
-# Den Server oder einen Einzelplatz einrichten
+﻿# Den Server oder einen Einzelplatz einrichten
 
 In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem lokal die Datenbank gespeichert wird. 
 In der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus nicht auf den Server zugeriffen werden kann, beispielsweise ein Testrechner.

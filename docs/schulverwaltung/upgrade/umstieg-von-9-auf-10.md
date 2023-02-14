@@ -1,7 +1,5 @@
 # Umstieg von MAGELLAN 9 auf MAGELLAN 10
 
-**Dieses Kapitel wird gerade angepasst!!!**
-
 Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 10 zu aktualisieren. 
 
 !!! tipp "Benötigen Sie unsere Unterstützung?"

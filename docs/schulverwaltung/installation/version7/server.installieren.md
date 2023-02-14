@@ -27,7 +27,6 @@ Wählen Sie die `Server-/Einzelplatzinstallation` aus! Es wird das Programm inst
 
     Die Installation des Datenbankservers \(Firebird\) wird für die Installationsarten Server und Einzelplatz vorausgesetzt.
 
-
 Jetzt ist der Setup Assistent bereit, die Installation der Dateien vorzunehmen. Die Installation selbst muss direkt auf dem Server oder dem Einzelplatz erfolgen.
 
 

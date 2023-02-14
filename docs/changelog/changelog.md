@@ -44,9 +44,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog/neu.mag10/).
 
-
-
-
 ## Version 9
 
 ### Version 9.5.4 902 (unveröffentlicht)

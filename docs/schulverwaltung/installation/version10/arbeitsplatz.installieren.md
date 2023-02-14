@@ -1,5 +1,4 @@
-﻿
-# Arbeitsplatzinstallation
+﻿# Arbeitsplatzinstallation
 
 Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
 
