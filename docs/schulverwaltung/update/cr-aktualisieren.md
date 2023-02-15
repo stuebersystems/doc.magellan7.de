@@ -1,4 +1,4 @@
-## Update der Crystal Reports Runtimeversion
+# Update der Crystal Reports Runtimeversion
 
 Laden Sie die aktuelle Ausgabe aus unserem [Downloadbereich](https://magellan.stueber.de/download.php) herunter. Beachten Sie bitte, dass es zwei Pakete gibt. Sind Sie sich unsicher welches Paket (32- oder 64-Bit) das korrekte ist, prüfen Sie bitte auf dem Rechner, auf dem es installiert werden soll den Systemtyp:
 

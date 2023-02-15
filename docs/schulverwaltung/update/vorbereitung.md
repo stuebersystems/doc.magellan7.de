@@ -17,11 +17,11 @@ MAGELLAN Update (Server und Clients)| MAGELLAN Update (Server und Clients)<br/>+
 Um die Ausgangsbasis zu bestimmen starten Sie bitte eine MAGELLAN-Instanz und prüfen bitte die Versionsnummer unter `Hilfe > Version und Lizenz`. 
 Vergleichen Sie die letzten drei Stellen mit der im Newsletter oder im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/) angegebenen Version.
 
-Beispiel: **Version 9.0.1 900**
+Beispiel: **Version 10.0.1 100**
 
 Versionsnummer für die Software|Versionsnummer der Datenbank
 ---|---
-9.0.1|900
+10.0.1|100
 
 Ist die Datenbankversionsnummer dort höher angegeben, wäre das Variante 2, lesen Sie bitte den Abschnitt ["Updates mit Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)! <br/>Ist die Datenbankversionsnummer gleich (Variante 1), lesen Sie bitte den nachfolgenden Abschnitt ["Updates ohne Datenstrukturerweiterung"](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-ohne-datenstrukturerweiterung).
 

@@ -43,7 +43,6 @@ Aus Sicht des Anwenders scheint diese Alternative genau wie Variante 2.:
 Beim Programmstart wird dem Anwender ein neues Update signalisiert, er kann es mit Hilfe eines Assistenten einspielen.
 Was hierbei im Hintergrund verändert wird, ist der Zeitpunkt zu dem das Update signalisiert wird und der Speicherort des Updatepaketes.
 
-
 Jedes Installationspaket von MAGELLAN besitzt eine korrespondierende Update-Infodatei. Dies ist eine kleine XML-Datei, die es MAGELLAN ermöglicht, eine neuere Version automatisch zu erkennen, herunterzuladen und zu installieren.
 
 ### Wozu dient die Update-Infodatei
@@ -68,7 +67,7 @@ Für alle folgenden Updates führen Sie bitte nur noch die Schritte 4. und 5. au
 
 Damit MAGELLAN "weiß", dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Datenbank > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
 
-[Update-Infodatei für MAGELLAN-Setup](https://download.stueber.de/bin/de/MAGELLAN/v9/MAGELLAN9.updateinfo)
+[Update-Infodatei für MAGELLAN-Setup](https://download.stueber.de/bin/de/MAGELLAN/v10/MAGELLAN10.updateinfo)
 
 ### Herunterladen des Updatepaketes
 
@@ -79,7 +78,7 @@ Bitte laden Sie es herunter und speichern es in Ihrem Netzwerkverzeichnis.
 
 Die Update-Infodateien für MAGELLAN finden Sie hier:
 
-* [Update-Infodatei für MAGELLAN-Setup](https://download.stueber.de/bin/de/MAGELLAN/v9/MAGELLAN9.updateinfo)
+* [Update-Infodatei für MAGELLAN-Setup](https://download.stueber.de/bin/de/MAGELLAN/v10/MAGELLAN10.updateinfo)
 
 Update-Infodateien besitzen die Dateiendung `.UPDATEINFO`. Öffnen Sie die Datei per Texteditor.
 
@@ -89,10 +88,10 @@ Ein Beispiel für eine Update-Infodatei:
 <?xml version="1.0" encoding="utf-8"?>
 <UpdateInfo>
 <UpdatePackage
-Product="MAGELLAN9"
-ProductVersion="9.0.0"
+Product="MAGELLAN10"
+ProductVersion="10.0.1"
 SetupFileName="MAGELLAN9.msi"
-SetupURL="https://download.stueber.de/bin/de/MAGELLAN/v9/MAGELLAN9.msi"
+SetupURL="https://download.stueber.de/bin/de/MAGELLAN/v10/MAGELLAN10.msi"
 SetupSize="243156992" />
 </UpdateInfo>
 ```
@@ -107,9 +106,9 @@ MAGELLAN 6 installiert sich in drei Ordner, für diese drei Ordner (und die Regi
 
 Was|Pfad am Beispiel Windows 10
 --|--
-Alle Programmdateien (EXE etc.))|  `C:\Program Files (x86)\Stueber Systems\MAGELLAN 9`
-Alle Konfigurationsdaten (LIC, EVM etc.)|`C:\ProgramData\Stueber System\MAGELLAN 9`
-Alle Dokumente (Datenbank, Berichte etc.)| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 9`
+Alle Programmdateien (EXE etc.))|  `C:\Program Files (x86)\Stueber Systems\MAGELLAN 10`
+Alle Konfigurationsdaten (LIC, EVM etc.)|`C:\ProgramData\Stueber System\MAGELLAN 10`
+Alle Dokumente (Datenbank, Berichte etc.)| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 10`
 
 Es wird das Recht benötigt in die Registry zu schreiben!
 
@@ -133,13 +132,13 @@ Grundsätzlich basiert unsere Installation auf der MSI-Technologie. Mit dieser M
 
 Folgenden Parameter sind möglich:
 
-Silent-Setup für MAGELLAN 9:
+Silent-Setup für MAGELLAN 10:
 
 Installationstyp|Parameter
 --|--
-Serverinstallation|msiexec /i "C:\MySetup\MAGELLAN9.msi" /q INSTALLMODE="Server" APPDIR="C:\MyFolder\MAGELLAN"
-Clientinstallation|msiexec /i "C:\MySetup\MAGELLAN9.msi" /q INSTALLMODE="Client" APPDIR="C:\MyFolder\MAGELLAN"
-Deinstallation|msiexec /x "C:\MySetup\MAGELLAN9.msi" /q
+Serverinstallation|msiexec /i "C:\MySetup\MAGELLAN10.msi" /q INSTALLMODE="Server" APPDIR="C:\MyFolder\MAGELLAN"
+Clientinstallation|msiexec /i "C:\MySetup\MAGELLAN10.msi" /q INSTALLMODE="Client" APPDIR="C:\MyFolder\MAGELLAN"
+Deinstallation|msiexec /x "C:\MySetup\MAGELLAN10.msi" /q
 
 !!! info "Hinweis"
 

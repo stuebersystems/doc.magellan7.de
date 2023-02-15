@@ -17,6 +17,10 @@ Der Assistent zum Datenstrukturanpassen prüft vor der Erweiterung der Datenstru
 
 Nachfolgend beschreiben wir die Schritte beim Aktualisieren von 2.5.5, von 2.5.1/2.5.2 oder, hier sind einige Schritte mehr zu erledigen, von 2.1 auf die aktuell empfohlene Version.
 
+## Update auf Firebird 4
+
+Bitte lesen Sie hierzu die Anleitung für den [Umstieg von MAGELLAN 9 auf MAGELLAN 10](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/), Ihre MAGELLAN 9-Datenbank muss zuvor mit MAGELLAN 9 und Firebird 2.5.9 gesichert werden, dann wird Firebird 2.5.9 deinstalliert, Firebird 4 und MAGELLAN 10 installiert. Abschließend wird die Sicherung der Datenbank mit MAGELLAN 10 und Firebird 4 wieder hergestellt.
+
 ## Update von Firebird 2.5.5 auf 2.5.8
 
 1. Bitte gehen Sie wie folgt vor:
