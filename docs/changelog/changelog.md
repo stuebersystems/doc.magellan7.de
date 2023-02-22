@@ -41,6 +41,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.2 100 (unveröffentlicht)
+
+#### MAGELLAN Bibliothek
+
+* FIX: Aufruf Bücher/Medien
+
 ### Version 10.0.1 100 (14.02.2023)
 
 Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog/neu.mag10/).
