@@ -20,7 +20,7 @@ Nr.|Was ist zu tun
 11.|[Kennworte neu erzeugen lassen](E-Mail-Adressen übernehmen)
 12.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#12-zugriffsrechte-synchronisieren)
 13.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#13-eigene-daten-ubernehmen)
-14.|[Arbeitsplatzrechner](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#14-arbeitsplatzrechner)
+14.|[Arbeitsplatzrechner einrichten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#14-arbeitsplatzrechner-einrichten)
 
 ## 1. Downloads, Lizenzdatei zurechtlegen
 
@@ -303,7 +303,7 @@ Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installa
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.
 Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für `MAGELLAN 10` ab.
 
-## 14. Arbeitsplatzrechner 
+## 14. Arbeitsplatzrechner einrichten 
 
 !!! warning "Wichtig"
 
