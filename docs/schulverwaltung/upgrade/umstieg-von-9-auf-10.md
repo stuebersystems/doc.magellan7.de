@@ -315,15 +315,19 @@ Zur Installation und Konfiguration von `MAGELLAN 10` und der Crystal Reports Run
 
     Kunden mit einem gültigen Supportvertrag erhalten Ihre neue Lizenz von unserem Office-Team parallel zur Veröffentlichung von `MAGELLAN 10`, sollten Sie Ihre Lizenz nicht erhalten haben oder möchten Sie eine Lizenz erwerben, schreiben Sie bitte an office@stueber.de.
 
-### Empfehlung für weitere Arbeitsplätze
+### Einrichten weiterer Arbeitsplätze
 
-Wir empfehlen Ihnen MAGELLAN auf einem Arbeitsplatz zu installieren, zu lizenzieren und zu konfigurieren. Die Lizenzdaten und die Konfigurationsdaten können anschließend zentral abgelegt werden. Somit wäre ab dem zweiten Arbeitsplatz nur die Installation notwendig und Sie legen zusätzlich eine Datei ab, die die Pfade enthält, von denen MAGELLAN die Lizenz- und Konfigurationdaten lesen soll.
+Wir empfehlen Ihnen MAGELLAN auf einem Arbeitsplatz zu installieren, zu lizenzieren, zu konfigurieren und einen Funktionstest durchzuführen. Die Lizenzdaten und die Konfigurationsdaten können anschließend zentral abgelegt werden. Somit wäre ab dem zweiten Arbeitsplatz nur die Installation notwendig und Sie legen zusätzlich eine Datei ab, die die Pfade enthält, von denen MAGELLAN die Lizenz- und Konfigurationdaten lesen soll.
 
 Nach der Installation auf dem ersten Arbeitsplatz starten Sie bitte `MAGELLAN 10` um den Willkommens-Assistenten zu durchlaufen. Im Willkommensassistenten gibt man die Lizenzdaten, die Pfade aus Sicht des Arbeitsplatzs zur Datenbank und zu den Datenordnern ein, wählt eine Option für die Region. Diese Eingaben werden in Dateiform gespeichert und können auch für weitere Clients genutzt werden.
+
+#### Test
 
 Testen Sie anschließend auf dem ersten Arbeitsplatz, ob die Angaben korrekt waren.<br/>
 **Test 1 (Datenbankpfad):** Dafür starten Sie MAGELLAN auf dem Rechner, gelingt der Start des Moduls, ist der Pfad zur Datenbank ok.<br/>
 **Test 2 (Datenordnerpfade):** In MAGELLAN wechseln Sie in das Menü Schüler, markieren einen Schüler und drücken bitte STRG+P. Werden Schülerberichte zur Auswahl gezeigt, sind die Pfade zu den Datenordnern ok.
+
+#### Konfigurationsdateien
 
 Die durch den Willkommens-Assistenten erzeugten Dateien, aus den die Lizenz, die Optionen und die Pfade ausgelesen werden, finden Sie unter `C:\ProgramData\Stueber Systems\Magellan 10`. Diese Dateien können Sie zentral ablegen und von allen Arbeitsplätzen aus nutzen. Damit beim Programmstart von MAGELLAN nicht die lokalen Daten ausgelesen werden, sondern die zentral abgelegten Dateien gelesen werden, muss eine Textdatei mit den Pfaden und einem bestimmten Namen angelegt und an einer bestimmten Stelle abgelegt werden. Bitte folgen Sie hierfür unserer Anleitung unter: [Die Pathsdatei](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei/).
 
