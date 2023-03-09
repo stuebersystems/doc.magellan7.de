@@ -43,9 +43,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.2 100 (unveröffentlicht)
 
+#### MAGELLAN Administrator
+
+* FIX: Erzeugen von Passworten
+
 #### MAGELLAN Bibliothek
 
 * FIX: Aufruf Bücher/Medien
+* FIX: Löschen von Schülern
 
 #### Berichte
 
