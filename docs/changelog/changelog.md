@@ -41,6 +41,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+
+### Version 10.0.2 100 (unveröffentlicht)
+
+#### MyMAGELLAN
+
+* FIX: Problem beim Eingeben in Verzeichnisfelder gelöst. Vorabversion unter: [https://my.hidrive.com/lnk/2URktJZv](https://my.hidrive.com/lnk/2URktJZv)
+
 ### Version 10.0.2 100 (09.03.2023)
 
 #### MAGELLAN Administrator
