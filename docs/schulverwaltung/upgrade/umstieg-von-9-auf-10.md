@@ -278,6 +278,10 @@ Nach der erstmaligen Anmeldung an MAGELLAN kann jeder Nutzer im Programm unter `
 
 ![Emails für weitere Nutzer erfassen](/assets/images/upgrade/10/004.png)
 
+!!! warning "Wichtig!"
+
+    Die für den Zugriff auf die MyMAGELLAN-Dateien bisher verwendeten Passworte werden direkt in der Schulverwaltungsdatenbank gespeichert, können damit wie zuvor verwendet werden.
+
 ## 12. Zugriffsrechte synchronisieren
 
 Um die Rechte der existierenden Benutzer auf für die neuen Datenbankstrukturteile anzupassen, führen Sie bitte den Punkt `Benutzerverwaltung > Start > Zugriffsrechte synchronisieren` aus.

@@ -41,8 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-
-### Version 10.0.2 100 (unveröffentlicht)
+### Version 10.0.3 100 (unveröffentlicht)
 
 #### MyMAGELLAN
 
