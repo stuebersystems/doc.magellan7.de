@@ -276,7 +276,7 @@ Für Benutzer, die nicht auf einen Lehrerdatensatz aus MAGELLAN basieren, könne
 Bedingt durch den Wechsel der Firebird-Versionen müssen allen Nutzern neue Kennworte zugewiesen werden. Dazu markieren Sie bitte alle Benutzer in der `Benutzerverwaltung` und führen den Assistenten aus, den Sie unter `Benutzerverwaltung > Extras > Kennwörter erzeugen` aufrufen können. Als Ergebnis wird eine CSV-Datei erzeugt, die die Kennungen, die Passworte und, falls gefüllt, die E-Mail-Adressen der Benutzer enthalten. Sie können diese CSV-Datei nutzen, um den Benutzern ihre Benutzerdaten zukommen zu lassen.
 Nach der erstmaligen Anmeldung an MAGELLAN kann jeder Nutzer im Programm unter `Datenbank > Kennwort ändern` ein eigenes Kennwort vergeben.
 
-![Emails für weitere Nutzer erfassen](/assets/images/upgrade/10/004.png)
+![MAGELLAN-Kennworte neu erzeugen lassen](/assets/images/upgrade/10/004.png)
 
 !!! warning "Wichtig!"
 
