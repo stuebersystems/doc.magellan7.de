@@ -55,10 +55,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
-* CHANGE: SAC-BG-ABI (E.01.06).rpt kleine Korrektur der Fußnote
-* NEW: Kursliste (Zensurerfassung nach Lehrer gruppiert) (KL3,KL4).rpt
-* CHANGE: Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt inaktive Schüler werden nicht mit ausgegeben
-* FIX: BER-Schul Z 500 (09.19).rpt (Ausgabe Kurshalbjahre)
+* CHANGE: `SAC-BG-ABI (E.01.06).rpt` kleine Korrektur der Fußnote
+* NEW: `Kursliste (Zensurerfassung nach Lehrer gruppiert) (KL3,KL4).rpt`
+* CHANGE: `Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt` inaktive Schüler werden nicht mit ausgegeben
+* FIX: `BER-Schul Z 500 (09.19).rpt (Ausgabe Kurshalbjahre)`
 
 ### Version 10.0.2 100 (09.03.2023)
 
