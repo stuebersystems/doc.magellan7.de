@@ -65,6 +65,10 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * CHANGE: `Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt` inaktive Schüler werden nicht mit ausgegeben
 * FIX: `BER-Schul Z 500 (09.19).rpt (Ausgabe Kurshalbjahre)`
 
+#### Skripte
+
+* Fix: NRW-APO-BK-2018.dws Vorschalgsautomatik, Einbringen weitere Kurse zur Schnittverbesserung
+
 ### Version 10.0.2 100 (09.03.2023)
 
 #### MAGELLAN Administrator
