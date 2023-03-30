@@ -43,6 +43,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.3 100 (unveröffentlicht)
 
+#### MAGELLAN
+
+* FIX: Für aus dem Seriendruck (Word oder Libre Office) exportieren Dokumente, für die die Ausgabe des Schülernamens (`Datenbank > Optionen > Dokumente > Dateinamenskonventionen`) gewählt wurde, wird das geklammerte Klassenkürzel hinter dem Schülernamen ausgegeben.
+* FIX: Der Export in die Dokumenteverzeichnisse für Schüler parallel zum Libre Office-Seriendruck wurde überarbeitet 
+
 #### MAGELLAN Administrator
 
 * FIX: Korrektur beim Einlesen von Postleitzahlverzeichnissen
