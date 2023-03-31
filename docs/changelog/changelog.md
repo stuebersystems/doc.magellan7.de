@@ -46,9 +46,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN
 
 * FIX: Für aus dem Seriendruck (Word oder Libre Office) exportieren Dokumente, für die die Ausgabe des Schülernamens (`Datenbank > Optionen > Dokumente > Dateinamenskonventionen`) gewählt wurde, wird das geklammerte Klassenkürzel hinter dem Schülernamen ausgegeben.
-* FIX: Der Export in die Dokumenteverzeichnisse für Schüler parallel zum Libre Office-Seriendruck wurde überarbeitet 
-* FIX: Anbindung an Geräte (Kamera, Scanner) mit TWAIN-Schnittstelle 
-* NEW: Anbindung für Scanner an WIA-Schnittstelle, bitte beachten Sie die geänderte Dokumentation unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle).
+* FIX: Der Export in die Dokumenteverzeichnisse für Schüler parallel zum Libre Office-Seriendruck wurde überarbeitet
+* FIX: Anbindung an Geräte (Kamera, Scanner) mit TWAIN-Schnittstelle
+* NEW: Anbindung für Scanner an WIA-Schnittstelle, bitte beachten Sie die geänderte Dokumentation unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle)
 
 #### MAGELLAN Administrator
 
