@@ -47,6 +47,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Für aus dem Seriendruck (Word oder Libre Office) exportieren Dokumente, für die die Ausgabe des Schülernamens (`Datenbank > Optionen > Dokumente > Dateinamenskonventionen`) gewählt wurde, wird das geklammerte Klassenkürzel hinter dem Schülernamen ausgegeben.
 * FIX: Der Export in die Dokumenteverzeichnisse für Schüler parallel zum Libre Office-Seriendruck wurde überarbeitet 
+* FIX: Anbindung an Geräte (Kamera, Scanner) mit TWAIN-Schnittstelle 
+* NEW: Anbindung für Scanner an WIA-Schnittstelle
 
 #### MAGELLAN Administrator
 
@@ -67,7 +69,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 #### Skripte
 
-* Fix: NRW-APO-BK-2018.dws Vorschalgsautomatik, Einbringen weitere Kurse zur Schnittverbesserung
+* Fix: NRW-APO-BK-2018.dws Vorschlagsautomatik, Einbringen weitere Kurse zur Schnittverbesserung
 
 ### Version 10.0.2 100 (09.03.2023)
 

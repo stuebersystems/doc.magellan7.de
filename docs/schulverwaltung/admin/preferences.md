@@ -82,13 +82,20 @@ Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro
 
 ## Digitalquelle
 
-Passfotos für Bewerber, Schüler, Lehrer oder Personen können direkt über die Nutzung einer Digitalquelle (z.B. Webcam, Digitalkamera oder Scanner) eingelesen werden. Im Unterschied zum Laden eines Passfotos aus einer Datei, können Sie die Daten direkt aus der Digitalquelle übernehmen, ohne dazu zunächst eine extra Bilddatei anlegen zu müssen. Voraussetzung für die Nutzung von Digitalquellen ist deren Unterstützung der Twain-Schnittstelle der Digitalquelle. Die Digitalquelle können Sie wie folgt einstellen:
+Passfotos für Bewerber, Schüler, Lehrer oder Personen können direkt über die Nutzung einer Digitalquelle (z.B. Webcam, Digitalkamera oder Scanner) eingelesen werden. Im Unterschied zum Laden eines Passfotos aus einer Datei, können Sie die Daten direkt aus der Digitalquelle übernehmen, ohne dazu zunächst eine extra Bilddatei anlegen zu müssen. 
+
+Voraussetzung für die Nutzung von Digitalquellen ist die Unterstützung einer bestimmten Schnittstelle:
+
+* der Twain-Schnittstelle (Scanner (mehrblattfähig) oder Kamera)
+* der WIA-Schnittstelle (Scanner (nicht mehrblattfähig))
+
+Die Digitalquelle können Sie wie folgt einstellen:
 
 1.	Klicken Sie auf Extras und dann auf Optionen.
 2.	Wählen Sie die Registerkarte Digitalquelle.
 3.	Wählen Sie unter Aktuelle Digitalquelle für Passfotos über die Schaltfläche Digitalquelle auswählen eine auf Ihrem Rechner installierte Digitalquelle aus.
 
-Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumente einzuscannen, so können Sie eine Digitalquelle unter Aktuell Digitalquelle für Dokumente auswählen. Zur Auswahl werden alle Digitalquellen des Rechners angeboten, die eine Twain-Schnittstelle besitzen und deren Twain-Treiber installiert ist.
+Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumente einzuscannen, so können Sie eine Digitalquelle unter `Aktuelle Digitalquelle für Dokumente` auswählen. Zur Auswahl werden alle Digitalquellen des Rechners angeboten, die eine Twain-Schnittstelle oder WIA-Schnittstelle besitzen und deren Treiber korrekt installiert sind.
 
 ![Geben Sie hier die Digitalquellen an, die Sie für das Erfassen von Passbildern bzw. Dokumenten nutzen wollen.](/assets/images/optionen_digitalquelle.png)
 
