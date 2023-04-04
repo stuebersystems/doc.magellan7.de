@@ -60,9 +60,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Anleitungen für Berichtsdateien: [hier](https://doc.la.stueber.de). 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
 Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
+Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * CHANGE: `SAC-BG-ABI (E.01.06).rpt` kleine Korrektur der Fußnote
 * NEW: `Kursliste (Zensurerfassung nach Lehrer gruppiert) (KL3,KL4).rpt`
