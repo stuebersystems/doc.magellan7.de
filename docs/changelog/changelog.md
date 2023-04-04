@@ -60,7 +60,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Anleitungen für Berichtsdateien: [hier](https://doc.la.stueber.de). 
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
+Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
 
 * CHANGE: `SAC-BG-ABI (E.01.06).rpt` kleine Korrektur der Fußnote
 * NEW: `Kursliste (Zensurerfassung nach Lehrer gruppiert) (KL3,KL4).rpt`
