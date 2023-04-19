@@ -60,4 +60,4 @@ Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue D
 
 !!! info "Hinweis"
 
-    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan.stueber.de/schulverwaltung/update/probleme-beim-update/) weiter!
+    Falls es Probleme gibt, lesen Sie bitte im Abschnitt ["Probleme beim Update"](https://doc.magellan.stueber.de/schulverwaltung/update/probleme/) weiter!
