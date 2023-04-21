@@ -57,6 +57,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MyMAGELLAN
 
 * FIX: Problem beim Eingeben in Verzeichnisfelder gelöst. Vorabversion unter: [https://my.hidrive.com/lnk/2URktJZv](https://my.hidrive.com/lnk/2URktJZv)
+* FIX: Problem fehlende Splaten in der Ansicht Schüler gelöst
 
 #### Berichte
 
