@@ -49,6 +49,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Der Export in die Dokumenteverzeichnisse für Schüler parallel zum Libre Office-Seriendruck wurde überarbeitet
 * FIX: Anbindung an Geräte (Kamera, Scanner) mit TWAIN-Schnittstelle
 * NEW: Anbindung für eine Digitalquelle zur Dokumentenverwaltung per WIA-Schnittstelle, bitte beachten Sie die geänderte Dokumentation unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle)
+* FIX: Abwesenheitsgründe für pausierende Schüler können erfasst und bearbeitet werden
+* FIX: Mittelstufe > Prüfung > Excelexport möglich
 
 #### MAGELLAN Administrator
 
@@ -57,6 +59,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MyMAGELLAN
 
 * FIX: Problem beim Eingeben in Verzeichnisfelder gelöst. Vorabversion unter: [https://my.hidrive.com/lnk/2URktJZv](https://my.hidrive.com/lnk/2URktJZv)
+* FIX: Wechselnde Spalten-Reihenfolge 
+* FIX: Eingabe der Vornote
 
 #### Berichte
 
