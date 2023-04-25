@@ -61,6 +61,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Problem beim Eingeben in Verzeichnisfelder gelöst. Vorabversion unter: [https://my.hidrive.com/lnk/2URktJZv](https://my.hidrive.com/lnk/2URktJZv)
 * FIX: Wechselnde Spalten-Reihenfolge 
 * FIX: Eingabe der Vornote
+* FIX: Problem fehlende Spalten in der Ansicht Schüler gelöst
 
 #### Berichte
 
