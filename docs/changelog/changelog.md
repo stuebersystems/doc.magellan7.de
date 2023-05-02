@@ -78,6 +78,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * CHANGE: `Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt` inaktive Schüler werden nicht mit ausgegeben
 * FIX: `BER-Schul Z 500 (09.19).rpt` (Ausgabe Kurshalbjahre)
 * FIX: `NRW-BK-ABI (Anlage D33b - 2018).rpt` optische Korrekturen
+* FIX: DSND.DAS-GS (Klasse 2).rpt: kleine Korrekturen
 
 #### Skripte
 
