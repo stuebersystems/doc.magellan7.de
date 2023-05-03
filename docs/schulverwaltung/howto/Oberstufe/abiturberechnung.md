@@ -44,6 +44,8 @@ Alle anderen Halbjahre des jeweiligen Kurses werden zur Eingabeerleichterung gel
 
 Markieren Sie die eingebrachten Kurse des Schülers, d.h. markieren Sie `Manuelles Markieren`, wählen Sie die Option `Kurse einbringen` und klicken Sie die entsprechenden Kurse an. Die eingebrachten Kurse werden gelb markiert.
 
+![Manuelles Markieren](/assets/images/gym_oberstufe/001.png)
+
 ### Die Vorschlagsautomatik
 
 Wenn Sie auf `Vorschlag `klicken, dann werden von der Vorschlagsautomatik entsprechend der Abiturverordnung die Kurse automatisch gelb markiert, die die maximale Qualifikationspunktzahl in den ersten beiden Qualifikationsbereichen erbringen.
