@@ -47,6 +47,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
      Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
+#### Datenstrukturänderung
+
+* FIX: Bewerbungsziele-Kürzel auch für verwendete Einträge änderbar
+* FIX: Problem beim Löschen von Bewerbern (auch mit Herkunftsschule)
+
 #### MAGELLAN
 
 * FIX: Für aus dem Seriendruck (Word oder Libre Office) exportieren Dokumente, für die die Ausgabe des Schülernamens (`Datenbank > Optionen > Dokumente > Dateinamenskonventionen`) gewählt wurde, wird das geklammerte Klassenkürzel hinter dem Schülernamen ausgegeben.
@@ -79,10 +84,14 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `BER-Schul Z 500 (09.19).rpt` (Ausgabe Kurshalbjahre)
 * FIX: `NRW-BK-ABI (Anlage D33b - 2018).rpt` optische Korrekturen
 * FIX: DSND.DAS-GS (Klasse 2).rpt: kleine Korrekturen
+* FIX: DSND.DAS-GS (Klasse 1).rpt: kleine Korrekturen
+* FIX: DSND.DAS-GS (Klasse 3-10).rpt: kleine Korrekturen
 
 #### Skripte
 
-* Fix: NRW-APO-BK-2018.dws Vorschlagsautomatik, Einbringen weitere Kurse zur Schnittverbesserung
+* FIX: NRW-APO-BK-2018.dws Vorschlagsautomatik, Einbringen weitere Kurse zur Schnittverbesserung
+* FIX: BER-BBS-Matrix-2016.dws
+* FIX: BER-BBS-Matrix-2007.dws
 
 ### Version 10.0.2 100 (09.03.2023)
 
