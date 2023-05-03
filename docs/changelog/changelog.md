@@ -86,6 +86,8 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: DSND.DAS-GS (Klasse 2).rpt: kleine Korrekturen
 * FIX: DSND.DAS-GS (Klasse 1).rpt: kleine Korrekturen
 * FIX: DSND.DAS-GS (Klasse 3-10).rpt: kleine Korrekturen
+* FIX: BER-Schul Z 591 (03.20).rpt (Aufruf Seite 2)
+* FIX: BER-Schul Z 592 (03.20).rpt (Ausgabe des Themas der Präsentationsprüfung)
 
 #### Skripte
 
