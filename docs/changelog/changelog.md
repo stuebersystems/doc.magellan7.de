@@ -83,11 +83,15 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * CHANGE: `Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt` inaktive Schüler werden nicht mit ausgegeben
 * FIX: `BER-Schul Z 500 (09.19).rpt` (Ausgabe Kurshalbjahre)
 * FIX: `NRW-BK-ABI (Anlage D33b - 2018).rpt` optische Korrekturen
-* FIX: DSND.DAS-GS (Klasse 2).rpt: kleine Korrekturen
-* FIX: DSND.DAS-GS (Klasse 1).rpt: kleine Korrekturen
-* FIX: DSND.DAS-GS (Klasse 3-10).rpt: kleine Korrekturen
-* FIX: BER-Schul Z 591 (03.20).rpt (Aufruf Seite 2)
-* FIX: BER-Schul Z 592 (03.20).rpt (Ausgabe des Themas der Präsentationsprüfung)
+* FIX: `DSND.DAS-GS (Klasse 2).rpt` kleine Korrekturen
+* FIX: `DSND.DAS-GS (Klasse 1).rpt` kleine Korrekturen
+* FIX: `DSND.DAS-GS (Klasse 3-10).rpt` kleine Korrekturen
+* FIX: `BER-Schul Z 591 (03.20).rpt` (Aufruf Seite 2)
+* FIX: `BER-Schul Z 592 (03.20).rpt` (Ausgabe des Themas der Präsentationsprüfung)
+* FIX: `DSND.DAS-GY-ABI (DIA) (2019).rpt`  Leerzeichen in Leerzeilen eingefüft
+* FIX: `DAS-GY-ABI (DIA)(2021).rpt` Leerzeichen in Leerzeilen eingefüft
+* FIX: `DSND.DAS-GY-MSA (Versetzung) (ZKA)(Anlage 11)(§23).rpt` Qualifikationsbemerkung angepasst
+
 
 #### Skripte
 
