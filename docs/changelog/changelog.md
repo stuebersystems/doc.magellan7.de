@@ -59,7 +59,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Anbindung an Geräte (Kamera, Scanner) mit TWAIN-Schnittstelle
 * NEW: Anbindung für eine Digitalquelle zur Dokumentenverwaltung per WIA-Schnittstelle, bitte beachten Sie die geänderte Dokumentation unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle)
 * FIX: Abwesenheitsgründe für pausierende Schüler können erfasst und bearbeitet werden
-* FIX: Mittelstufe > Prüfung > Excelexport möglich
+* FIX: `Mittelstufe > Prüfung > Excelexport` möglich
+* FIX: Problem beim Löschen von Bewerbern (auch mit Herkunftsschule) behoben
+* FIX: Problem der Anzeige im Menü Schüler und des Neuanlegens eines Bewerbers, bei ausgeblendeten Sorgeberechtigten-Daten (`Datenbank > Optionen > Ein- und Ausblenden > Sorgeberechtigte`) behoben
 
 #### MAGELLAN Administrator
 
