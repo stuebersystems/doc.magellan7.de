@@ -62,6 +62,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Mittelstufe > Prüfung > Excelexport` möglich
 * FIX: Problem beim Löschen von Bewerbern (auch mit Herkunftsschule) behoben
 * FIX: Problem der Anzeige im Menü Schüler und des Neuanlegens eines Bewerbers, bei ausgeblendeten Sorgeberechtigten-Daten (`Datenbank > Optionen > Ein- und Ausblenden > Sorgeberechtigte`) behoben
+* FIX: Bewerbungsziele-Kürzel auch für verwendete Einträge änderbar
 
 #### MAGELLAN Administrator
 
