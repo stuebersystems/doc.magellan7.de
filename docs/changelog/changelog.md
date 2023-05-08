@@ -92,7 +92,10 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `DAS-GY-ABI (DIA)(2021).rpt` Leerzeichen in Leerzeilen eingefüft
 * FIX: `DSND.DAS-GY-MSA (Versetzung) (ZKA)(Anlage 11)(§23).rpt` Qualifikationsbemerkung angepasst
 * FIX: `BER-Schul Z 594 (12.19).rpt`Ausgabe des 2. Praktikums korrigiert
-
+* NEW: `BER-Schul Z 256 (03.23)`
+* NEW: `BER-Schul Z 306 (03.23)`
+* NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(01.23).rpt`
+* FIX: `BER-Schul Z 590 (12.19).rpt` Überlagerung der Lernfelder korrigiert Ausgabe von 4 LF anstatt 2 LF; Thema betriebliche Lernaufgabe 2. Betriebspraktikum korrigiert
 
 #### Skripte
 
