@@ -41,7 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.3 101 (unveröffentlicht)
+### Version 10.0.3 101 (09.05.2023)
 
 !!! danger "Wichtig"
 
