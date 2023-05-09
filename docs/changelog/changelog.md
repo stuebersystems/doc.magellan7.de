@@ -84,21 +84,21 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * CHANGE: `SAC-BG-ABI (E.01.06).rpt` kleine Korrektur der Fußnote
 * NEW: `Kursliste (Zensurerfassung nach Lehrer gruppiert) (KL3,KL4).rpt`
 * CHANGE: `Kursliste (Zensurerfassung nach Lehrer gruppiert).rpt` inaktive Schüler werden nicht mit ausgegeben
-* FIX: `BER-Schul Z 500 (09.19).rpt` (Ausgabe Kurshalbjahre)
 * FIX: `NRW-BK-ABI (Anlage D33b - 2018).rpt` optische Korrekturen
+* FIX: `DSND.DAS-GY-ABI (DIA) (2019).rpt`  Leerzeichen in Leerzeilen eingefüft
 * FIX: `DSND.DAS-GS (Klasse 2).rpt` kleine Korrekturen
 * FIX: `DSND.DAS-GS (Klasse 1).rpt` kleine Korrekturen
 * FIX: `DSND.DAS-GS (Klasse 3-10).rpt` kleine Korrekturen
+* FIX: `DSND.DAS-GY-MSA (Versetzung) (ZKA)(Anlage 11)(§23).rpt` Qualifikationsbemerkung angepasst
+* FIX: `DAS-GY-ABI (DIA)(2021).rpt` Leerzeichen in Leerzeilen eingefüft
 * FIX: `BER-Schul Z 591 (03.20).rpt` (Aufruf Seite 2)
 * FIX: `BER-Schul Z 592 (03.20).rpt` (Ausgabe des Themas der Präsentationsprüfung)
-* FIX: `DSND.DAS-GY-ABI (DIA) (2019).rpt`  Leerzeichen in Leerzeilen eingefüft
-* FIX: `DAS-GY-ABI (DIA)(2021).rpt` Leerzeichen in Leerzeilen eingefüft
-* FIX: `DSND.DAS-GY-MSA (Versetzung) (ZKA)(Anlage 11)(§23).rpt` Qualifikationsbemerkung angepasst
 * FIX: `BER-Schul Z 594 (12.19).rpt`Ausgabe des 2. Praktikums korrigiert
 * NEW: `BER-Schul Z 256 (03.23)`
 * NEW: `BER-Schul Z 306 (03.23)`
 * NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(01.23).rpt`
-* FIX: `BER-Schul Z 590 (12.19).rpt` Überlagerung der Lernfelder korrigiert Ausgabe von 4 LF anstatt 2 LF; Thema betriebliche Lernaufgabe 2. Betriebspraktikum korrigiert
+* NEW: `BER-Schul Z 590 (12.19).Variante2` Überlagerung der Lernfelder korrigiert Ausgabe erweitert auf 4 LF anstatt 2 LF; Thema betriebliche Lernaufgabe 2. Betriebspraktikum korrigiert
+* FIX: `BER-Schul Z 500 (09.19).rpt`(Ausgabe Kurshalbjahre) und Formatierung der Entwertung bei nicht belegten Fächer zentriert
 
 #### Skripte
 
