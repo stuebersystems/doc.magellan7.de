@@ -99,6 +99,8 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(01.23).rpt`
 * NEW: `BER-Schul Z 590 (12.19).Variante2` Überlagerung der Lernfelder korrigiert Ausgabe erweitert auf 4 LF anstatt 2 LF; Thema betriebliche Lernaufgabe 2. Betriebspraktikum korrigiert
 * FIX: `BER-Schul Z 500 (09.19).rpt`(Ausgabe Kurshalbjahre) und Formatierung der Entwertung bei nicht belegten Fächer zentriert
+* FIX: `SAC-BS-AS (A.02.05).rpt`: Ausgabe Zusatz Hauptschulabschluss
+* FIX: `SAC-BS-AS (A.02.05) 2spaltig.rpt`: Ausgabe Zusatz Hauptschulabschluss
 
 #### Skripte
 
