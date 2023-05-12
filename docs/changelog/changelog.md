@@ -101,6 +101,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `BER-Schul Z 500 (09.19).rpt`(Ausgabe Kurshalbjahre) und Formatierung der Entwertung bei nicht belegten Fächer zentriert
 * FIX: `SAC-BS-AS (A.02.05).rpt`: Ausgabe Zusatz Hauptschulabschluss
 * FIX: `SAC-BS-AS (A.02.05) 2spaltig.rpt`: Ausgabe Zusatz Hauptschulabschluss
+* FIX: `BER-Schul Z 501 (09.19).rpt`: Formatierung der Entwertung bei nicht belegten Fächer und Gesamtstundenanzahl zentriert 
 
 #### Skripte
 
