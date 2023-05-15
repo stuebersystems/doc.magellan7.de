@@ -105,12 +105,16 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `DAS-GY-ABI (DIA)(2021).rpt` Leerzeichen in Leerzeilen eingefüft
 * FIX: `BER-Schul Z 591 (03.20).rpt` (Aufruf Seite 2)
 * FIX: `BER-Schul Z 592 (03.20).rpt` (Ausgabe des Themas der Präsentationsprüfung)
-* FIX: `BER-Schul Z 594 (12.19).rpt`Ausgabe des 2. Praktikums korrigiert
+* FIX: `BER-Schul Z 594 (12.19).rpt`Ausgabe des 2. Praktikums korrigiert; Thema betriebliche Lernaufgabe
 * NEW: `BER-Schul Z 256 (03.23)`
 * NEW: `BER-Schul Z 306 (03.23)`
 * NEW: `BER-Abi-18a (Mitteilungen zu den schriftlichen und mündlichen Prüfungen)(01.23).rpt`
 * NEW: `BER-Schul Z 590 (12.19).Variante2` Überlagerung der Lernfelder korrigiert Ausgabe erweitert auf 4 LF anstatt 2 LF; Thema betriebliche Lernaufgabe 2. Betriebspraktikum korrigiert
 * FIX: `BER-Schul Z 500 (09.19).rpt`(Ausgabe Kurshalbjahre) und Formatierung der Entwertung bei nicht belegten Fächer zentriert
+* FIX: `SAC-BS-AS (A.02.05).rpt`: Ausgabe Zusatz Hauptschulabschluss
+* FIX: `SAC-BS-AS (A.02.05) 2spaltig.rpt`: Ausgabe Zusatz Hauptschulabschluss
+* FIX: `BER-Schul Z 501 (09.19).rpt`: Formatierung der Entwertung bei nicht belegten Fächer und Gesamtstundenanzahl zentriert 
+
 
 #### Skripte
 
