@@ -178,7 +178,7 @@ Sie können folgende Auswahl treffen:
 * alle Fachzeilen ohne Unterrichtsart übergeben
 * alle Fachzeilen für eine bestimmte Unterrichtsart übergeben
 
-![Unterfiltern Sie nach einer Unterrichtsart!](/assets/images/mymagellan/012.png)
+![Unterfiltern Sie nach einer Unterrichtsart!](/assets/images/mymagellan/013.png)
 
 ### Karte "Teilnehmer auswählen"
 
