@@ -51,7 +51,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
-* NEW: `BER-Schul Z 513a (12.13).rpt`
+* NEW: `BER-Schul Z 515 (12.19).rpt`
 
 ### Version 10.0.3 101 (09.05.2023)
 
