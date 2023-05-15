@@ -45,7 +45,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MyMAGELLAN CENTER
 
-* NEW: Der Assistenten zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption erweitert. Sie können beim Erzeugen der Dateien wählen, ob alle für den jeweiligen Lehrer in Frage kommenden Fachzeilen übergeben werden, oder ob nach der Unterrichtsart unterfiltert werden kann. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart oder der Auswahl "ohne Unterrichtsart" wählen.
+* NEW: Der Assistenten zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption erweitert. Sie können beim Erzeugen der Dateien wählen, ob alle für den jeweiligen Lehrer in Frage kommenden Fachzeilen übergeben werden, oder ob nach der Unterrichtsart unterfiltert werden kann. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 
 #### Berichte
 
