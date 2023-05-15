@@ -167,9 +167,22 @@ So starten Sie die Verteilung der MyMAGELLAN-Dateien:
 
 ![Wählen Sie ggfs. die Klassen aus!](/assets/images/mymagellan/13.png)
 
+### Karte "Unterrichtsart auswählen"
+
+Ohne Auswahl werden für die Lehrerdateien alle Fachzeilen ausgegeben, die dem Lehrer entsprechend seiner Rolle als Fachlehrer, Klassenleiter oder Tutor zugeordnet sind. 
+Sie haben die Möglichkeit die Auswahl weiter einzugrenzen, es werden Ihnen zur Auswahl alle in Magellan unter `Extras > Schlüsselverzeichnisse > Unterrichtsarten` erfassten Einträge gezeigt.
+
+Sie können folgende Auswahl treffen:
+
+* alle Fachzeilen übergeben
+* alle Fachzeilen ohne Unterrichtsart übergeben
+* alle Fachzeilen für eine bestimmte Unterrichtsart übergeben
+
+![Unterfiltern Sie nach einer Unterrichtsart!](/assets/images/mymagellan/012.png)
+
 ### Karte "Teilnehmer auswählen"
 
-5. Wählen Sie aus, aus für welche Rolle oder Rollen Schüler und deren Fachdaten exportiert werden sollen. Bitte beachten Sie hierzu die Abschnitte:
+6. Wählen Sie aus, aus für welche Rolle oder Rollen Schüler und deren Fachdaten exportiert werden sollen. Bitte beachten Sie hierzu die Abschnitte:
 
 * [Zuordnung der MyMAGELLAN-Teilnehmer zu den Schülern](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#zuordnung-der-myMAGELLAN-teilnehmer-zu-den-sch%C3%BClern)
 * [Organisation des zeitlichen Ablaufs](https://doc.magellan.stueber.de/schulverwaltung/admin/myMAGELLAN-center/#organisation-des-zeitlichen-ablaufs)

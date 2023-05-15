@@ -43,6 +43,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.4 101 (unveröffentlicht)
 
+#### MyMAGELLAN CENTER
+
+* NEW: Der Assistenten zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption erweitert. Sie können beim Erzeugen der Dateien wählen, ob alle für den jeweiligen Lehrer in Frage kommenden Fachzeilen übergeben werden, oder ob nach der Unterrichtsart unterfiltert werden kann. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart oder der Auswahl "ohne Unterrichtsart" wählen.
+
 #### Berichte
 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
@@ -52,6 +56,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * NEW: `BER-Schul Z 515 (12.19).rpt`
+* CANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 
 ### Version 10.0.3 101 (09.05.2023)
 
