@@ -58,6 +58,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Schul Z 515 (12.19).rpt`
 * CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 * NEW: `BER-Schul Z 256 (03.23).rpt`
+* NEW: `BER-Schul Z 325 (04.23).rpt`
 * NEW: `BER-Schul Z 324 (04.23).rpt`
 * NEW: `BER-Schul Z 323 (04.23).rpt`
 * NEW: `BER-Schul Z 322 (04.23).rpt`
