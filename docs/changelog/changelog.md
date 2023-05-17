@@ -21,15 +21,11 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! important "Wichtig"
 
-    **Druckproblem mit Windows 11 22H2 und Crystal Reports Runtime** behoben mit der Version MAGELLAN 9.5.0.
+    **TWAIN: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten MAGELLAN Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
     **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
-
-    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
-
-    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
 ## LEGENDE
 
@@ -69,7 +65,6 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Schul Z 371b (04.23)`
 * NEW: `BER-Schul Z 250 (03.23)`
 * NEW: `BER-Schul Z 251 (03.23)`
-
 
 ### Version 10.0.3 101 (09.05.2023)
 
@@ -132,7 +127,6 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `SAC-BS-AS (A.02.05).rpt`: Ausgabe Zusatz Hauptschulabschluss
 * FIX: `SAC-BS-AS (A.02.05) 2spaltig.rpt`: Ausgabe Zusatz Hauptschulabschluss
 * FIX: `BER-Schul Z 501 (09.19).rpt`: Formatierung der Entwertung bei nicht belegten Fächer und Gesamtstundenanzahl zentriert 
-
 
 #### Skripte
 
