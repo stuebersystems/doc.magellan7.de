@@ -56,7 +56,14 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * NEW: `BER-Schul Z 515 (12.19).rpt`
-* CANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
+* CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
+* NEW: `BER-Schul Z 256 (03.23).rpt`
+* NEW: `BER-Schul Z 324 (04.23).rpt`
+* NEW: `BER-Schul Z 323 (04.23).rpt`
+* NEW: `BER-Schul Z 322 (04.23).rpt`
+* NEW: `BER-Schul Z 321 (04.23).rpt`
+* NEW: `BER-Schul Z 320a–b (04.23).rpt`
+* NEW: `BER-Schul Z 306 (03.23).rpt`
 
 ### Version 10.0.3 101 (09.05.2023)
 
