@@ -67,6 +67,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Schul Z 306 (03.23).rpt`
 * NEW: `BER-Schul Z 371a (04.23)`
 * NEW: `BER-Schul Z 371b (04.23)`
+* NEW: `BER-Schul Z 250 (03.23)`
 
 ### Version 10.0.3 101 (09.05.2023)
 
