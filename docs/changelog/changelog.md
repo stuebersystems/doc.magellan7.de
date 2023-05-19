@@ -67,7 +67,8 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: `BER-Schul Z 300 (03.23).rpt`
 * NEW: `BER-Schul Z 301 (03.23).rpt`
 * NEW: `BER-Schul Z 302 (03.23).rpt`
-* NEW: `BER-Schul Z 303 (03.23).rpt`
+* NEW: `BER-Schul Z 351 (11.19)_Kolleg.rpt`
+* NEW: `BER-Schul Z 351 (11.19)_Oberstufe.rpt`
 * CHANGE: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
 * CHANGE: `DSND.DAS-ZZ (Q-Phase) (Anlage 1) RiLi 1.6 (G8).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
 * CHANGE: `DSND.DAS-GS (Klasse 1).rpt` Abstände für AGs, Bemerkungen, Fehlzeiten, Versetzungsvermerk angepasst
