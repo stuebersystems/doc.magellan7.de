@@ -67,6 +67,8 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Schul Z 251 (03.23)`
 * CHANGE: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
 * CHANGE: `DSND.DAS-ZZ (Q-Phase) (Anlage 1) RiLi 1.6 (G8).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
+* CHANGE: `DSND.DAS-GS (Klasse 1).rpt` Abstände für AGs, Bemerkungen, Fehlzeiten, Versetzungsvermerk angepasst
+* FIX: `DSND.DAS-GS (Klasse 3).rpt` Linien Seite 2 angepasst
 
 ### Version 10.0.3 101 (09.05.2023)
 
