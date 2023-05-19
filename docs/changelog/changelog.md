@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.4 101 (unveröffentlicht)
+### Version 10.0.4 101 (19.05.2023)
 
 #### MyMAGELLAN CENTER
 
