@@ -37,6 +37,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.4 101 (unveröffentlicht)
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
+
 ### Version 10.0.4 101 (19.05.2023)
 
 #### MyMAGELLAN CENTER
@@ -75,7 +83,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `DSND.DAS-GS (Klasse 1).rpt` Abstände für AGs, Bemerkungen, Fehlzeiten, Versetzungsvermerk angepasst
 * FIX: `DSND.DAS-GS (Klasse 3).rpt` Linien Seite 2 angepasst
 
-### Version 10.0.3 101 (09.05.2023)
+#### Version 10.0.3 101 (09.05.2023)
 
 !!! danger "Wichtig"
 
