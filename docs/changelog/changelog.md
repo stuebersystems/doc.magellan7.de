@@ -39,6 +39,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.4 101 (unveröffentlicht)
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
+
+#### Skripte
+
+* FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
+
 #### Berichte
 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
