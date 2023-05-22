@@ -21,15 +21,11 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 !!! important "Wichtig"
 
-    **Druckproblem mit Windows 11 22H2 und Crystal Reports Runtime** behoben mit der Version MAGELLAN 9.5.0.
+    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten MAGELLAN Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
     **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
-
-    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
-
-    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
 ## LEGENDE
 
@@ -43,15 +39,29 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.4 101 (unveröffentlicht)
 
+#### MAGELLAN Schulverwaltung
+
+* FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
+
+#### Skripte
+
+* FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
+
+### Version 10.0.4 101 (19.05.2023)
+
 #### MyMAGELLAN CENTER
 
 * NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `MAGELLAN > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 
 #### Berichte
 
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
-Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
-Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
@@ -63,6 +73,32 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
 
 ### Version 10.0.3 101 (09.05.2023)
+* CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
+* NEW: `BER-Schul Z 256 (03.23).rpt`
+* NEW: `BER-Schul Z 325 (04.23).rpt`
+* NEW: `BER-Schul Z 324 (04.23).rpt`
+* NEW: `BER-Schul Z 323 (04.23).rpt`
+* NEW: `BER-Schul Z 322 (04.23).rpt`
+* NEW: `BER-Schul Z 321 (04.23).rpt`
+* NEW: `BER-Schul Z 320a–b (04.23).rpt`
+* NEW: `BER-Schul Z 306 (03.23).rpt`
+* NEW: `BER-Schul Z 371a (04.23).rpt`
+* NEW: `BER-Schul Z 371b (04.23).rpt`
+* NEW: `BER-Schul Z 250 (03.23).rpt`
+* NEW: `BER-Schul Z 251 (03.23).rpt`
+* NEW: `BER-Schul Z 255 (03.23).rpt`
+* NEW: `BER-Schul Z 300 (03.23).rpt`
+* NEW: `BER-Schul Z 301 (03.23).rpt`
+* NEW: `BER-Schul Z 302 (03.23).rpt`
+* NEW: `BER-Schul Z 351 (11.19)_Kolleg.rpt`
+* NEW: `BER-Schul Z 351 (11.19)_Oberstufe.rpt`
+* NEW: `BER-Schul Z 620 (03.23).rpt`
+* CHANGE: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
+* CHANGE: `DSND.DAS-ZZ (Q-Phase) (Anlage 1) RiLi 1.6 (G8).rpt` Sortierung der Fächer auf erhöhten Anforderungsniveau nach Position
+* CHANGE: `DSND.DAS-GS (Klasse 1).rpt` Abstände für AGs, Bemerkungen, Fehlzeiten, Versetzungsvermerk angepasst
+* FIX: `DSND.DAS-GS (Klasse 3).rpt` Linien Seite 2 angepasst
+
+#### Version 10.0.3 101 (09.05.2023)
 
 !!! danger "Wichtig"
 
@@ -123,7 +159,6 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * FIX: `SAC-BS-AS (A.02.05).rpt`: Ausgabe Zusatz Hauptschulabschluss
 * FIX: `SAC-BS-AS (A.02.05) 2spaltig.rpt`: Ausgabe Zusatz Hauptschulabschluss
 * FIX: `BER-Schul Z 501 (09.19).rpt`: Formatierung der Entwertung bei nicht belegten Fächer und Gesamtstundenanzahl zentriert 
-
 
 #### Skripte
 
