@@ -58,6 +58,10 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 * NEW: `BER-Schul Z 515 (12.19).rpt`
 * CANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 
+#### Skripte:
+
+* FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
+
 ### Version 10.0.3 101 (09.05.2023)
 
 !!! danger "Wichtig"
