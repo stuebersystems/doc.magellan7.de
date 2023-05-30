@@ -52,6 +52,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
+* CHANGE: `DSND.DAS-GY-ABI (DIA) (2019).rpt` Formkorrekturen
 
 ### Version 10.0.4 101 (19.05.2023)
 
