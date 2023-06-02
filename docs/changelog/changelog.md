@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.4 101 (unveröffentlicht)
+### Version 10.0.45 101 (unveröffentlicht)
 
 #### MAGELLAN Schulverwaltung
 
@@ -46,6 +46,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Skripte
 
 * FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
+* FIX: `Zuweisen von Bewerberstammdaten.dws`  Schüler > Sammelzuweisung > Merkmale > D1
 
 #### Berichte
 
@@ -53,6 +54,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
 * CHANGE: `DSND.DAS-GY-ABI (DIA) (2019).rpt` Formkorrekturen
+* CHANGE: `NRW-ABI-OS (2021).rpt ` Ausgabe der Projekte geändert
 
 ### Version 10.0.4 101 (19.05.2023)
 
