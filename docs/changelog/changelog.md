@@ -43,6 +43,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
 
+#### MAGELLAN BIBLIOTHEK
+
+* FIX: Aktualisierung der Passfotos für Schüler /Lehrkräfte/Personen
+
 #### Skripte
 
 * FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
