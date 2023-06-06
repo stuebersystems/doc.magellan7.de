@@ -61,6 +61,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `NRW-ABI-OS (2021).rpt ` Ausgabe der Projekte geändert
 * CHANGE: `BER-Schul Z 591 (03.20)Variante2.rpt` Ausgabe 3 Praktikum
 * CHANGE: `BER-Schul Z 591 (03.20).rpt` Ausgabe 3 Praktikum
+* NEW: `BER-GY-18b (Meldung zur weiteren mdl Pruefung)(22.23).rpt`
 
 ### Version 10.0.4 101 (19.05.2023)
 
