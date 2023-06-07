@@ -5,7 +5,8 @@ site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan.stueber.de'
 
 # Copyright
-copyright: © 2021 STÜBER SYSTEMS GmbH
+copyright:
+  '&copy; 2023 STÜBER SYSTEMS GmbH : <a href="https://legal.stueber.de/imprint.php">Impressum</a> : <a href="https://legal.stueber.de/privacy.php">Datenschutz</a>'
 
 # Repository
 repo_name: 'Auf GitHub'
@@ -14,11 +15,16 @@ repo_url: 'https://github.com/stuebersystems/doc.magellan7.de'
 # Theming
 theme: 
     name: material
-    custom_dir: overrides
     language: de
     features:
-        - navigation.tabs
+        - navigation.footer
         - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
     palette:
         primary: 'blue'
         accent: 'deep orange'
@@ -29,14 +35,6 @@ theme:
     search_index_only: true
     static_templates:
       - 404.html
-
-# Legal links
-extra:
-  legal:
-    - label: Impressum
-      link: https://www.stueber.de/imprint.php
-    - label: Datenschutz
-      link: https://legal.stueber.de/privacy.php
 
 # Customization
 extra_css:
