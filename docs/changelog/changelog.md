@@ -37,7 +37,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.45 101 (unveröffentlicht)
+### Version 10.0.45 102 (unveröffentlicht)
+
+
+!!! danger "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+#### Datenstrukturänderung
+
+* FIX: Update für Passfotos aus der Schulverwaltung in die Bibliothek
 
 #### MAGELLAN Schulverwaltung
 
@@ -50,7 +59,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Skripte
 
 * FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
-* FIX: `Zuweisen von Bewerberstammdaten.dws`  Schüler > Sammelzuweisung > Merkmale > D1
+* FIX: `Zuweisen von Bewerberstammdaten.dws`  `Schüler > Sammelzuweisung > Merkmale > D1`
 
 #### Berichte
 
