@@ -60,6 +60,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
 * FIX: `Zuweisen von Bewerberstammdaten.dws`  `Schüler > Sammelzuweisung > Merkmale > D1`
+* FIX: `NRW-APO-OS-2020.dws`Punktetabelle Durchschnittsnote Gesamtqualifikation
 
 #### Berichte
 
