@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.45 102 (unveröffentlicht)
+### Version 10.0.5 102 (unveröffentlicht)
 
 
 !!! danger "Wichtig"
@@ -91,7 +91,12 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
 
-### Version 10.0.3 101 (09.05.2023)
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
+Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
+Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
 * CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 * NEW: `BER-Schul Z 256 (03.23).rpt`
 * NEW: `BER-Schul Z 325 (04.23).rpt`
