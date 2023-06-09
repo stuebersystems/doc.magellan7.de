@@ -74,6 +74,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `BER-Schul Z 591 (03.20).rpt` Ausgabe 3 Praktikum
 * NEW: `BER-GY-18b (Meldung zur weiteren mdl Pruefung)(22.23).rpt`
 * FIX: `BER-Schul Z 593 (10.20).rpt` Verknüpfungen korrigiert für Übergangsbemerkung (SchuelerKlassen)
+* FIX: `BER-Schul Z 256 (03.23).rpt` Ausgabe Prüfungsfachnoten "d.", Ausgaben Beiblattbemerkung, Ausgabe der Verordnungsinformationen
 
 ### Version 10.0.4 101 (19.05.2023)
 
