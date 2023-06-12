@@ -76,6 +76,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: `BER-GY-18b (Meldung zur weiteren mdl Pruefung)(22.23).rpt`
 * FIX: `BER-Schul Z 593 (10.20).rpt` Verknüpfungen korrigiert für Übergangsbemerkung (SchuelerKlassen)
 * FIX: `BER-Schul Z 256 (03.23).rpt` Ausgabe Prüfungsfachnoten "d.", Ausgaben Beiblattbemerkung, Ausgabe der Verordnungsinformationen
+* FIX: `Schüler (Nachmahnung).rpt` Der Bericht ist überarbeitet worden und kann jetzt unter `Drucken > Zeugnisse > Allgemein` aufgerufen werden ([Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/allgemein/Sch%C3%BCler%20%28Nachmahnung%29/))
 
 ### Version 10.0.4 101 (19.05.2023)
 
