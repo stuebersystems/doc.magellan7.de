@@ -69,8 +69,9 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
 * CHANGE: `DSND.DAS-GY-ABI (DIA) (2019).rpt` Formkorrekturen
 * CHANGE: `NRW-ABI-OS (2021).rpt ` Ausgabe der Projekte geändert
-* CHANGE: `BER-Schul Z 591 (03.20)Variante2.rpt` Ausgabe 3 Praktikum
-* CHANGE: `BER-Schul Z 591 (03.20).rpt` Ausgabe 3 Praktikum
+* CHANGE: `BER-Schul Z 591 (03.20)Variante2.rpt` Ausgabe 3 Praktikum, Ausgabe Praktikum 2 im 2.HJ
+* CHANGE: `BER-Schul Z 591 (03.20).rpt` Ausgabe 3 Praktikum, Ausgabe Praktikum 2 im 2.HJ
+* CHANGE: `BER-Schul Z 590 (12.19).rpt` Ausgabe Praktikum 2 im 2.HJ
 * NEW: `BER-GY-18b (Meldung zur weiteren mdl Pruefung)(22.23).rpt`
 * FIX: `BER-Schul Z 593 (10.20).rpt` Verknüpfungen korrigiert für Übergangsbemerkung (SchuelerKlassen)
 * FIX: `BER-Schul Z 256 (03.23).rpt` Ausgabe Prüfungsfachnoten "d.", Ausgaben Beiblattbemerkung, Ausgabe der Verordnungsinformationen
