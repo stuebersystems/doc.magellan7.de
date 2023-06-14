@@ -35,6 +35,11 @@ Der Benutzer muss unter „Schulverwaltung“ der Benutzergruppe „Schulleitung
 
 ![Weisen Sie dem Benutzer ein Recht zu](/assets/images/mymagellan/02.png)
 
+!!! warning "Wichtig!"
+
+    Bitte beachten Sie, dass auch aus MyMAGELLAN nur Daten später nach MAGELLAN eingelesen werden können, für die der Nutzer entsprechend seiner gewährten Benutzergruppe das Recht erhalten hat. Beispielsweise beinhaltet die Benutzergruppe "Kollegium1" nicht das Recht Daten der Laufbahnkarte zu ändern, damit können diese Daten auch über MyMAGELLAN nicht eingelesen werden.
+	Eine Übersicht über die Details der Benutzerrechtegruppen finden Sie unter [https://doc.magellan.stueber.de/schulverwaltung/admin/users/#rechte-fur-die-schulverwaltung](https://doc.magellan.stueber.de/schulverwaltung/admin/users/#rechte-fur-die-schulverwaltung).
+
 ### 2. Teilnehmer von MyMAGELLAN
 
 Der Benutzer muss unter „MyMAGELLAN“ den Status „Teilnehmer von MyMAGELLAN“ besitzen. Anderenfalls wird der Benutzer nicht auf der Karte `MyMAGELLAN CENTER` angezeigt.
