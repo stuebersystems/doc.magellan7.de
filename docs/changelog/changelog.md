@@ -79,6 +79,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 256 (03.23).rpt` Ausgabe Prüfungsfachnoten "d.", Ausgaben Beiblattbemerkung, Ausgabe der Verordnungsinformationen
 * FIX: `SAC-BG-ABI (E.01.06).rpt` Korrekturen bei Leerzeilen
 * FIX: `BER-Schul Z 592 (03.2020).rpt` kleinere Korrekturen
+* FIX: `BER-Schul Z 302 (03.23).rpt` Name 2 und Name 3 in verschiedenen Zeilen
 
 ### Version 10.0.4 101 (19.05.2023)
 
