@@ -75,9 +75,10 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `BER-Schul Z 591 (03.20).rpt` Ausgabe 3 Praktikum, Ausgabe Praktikum 2 im 2.HJ
 * CHANGE: `BER-Schul Z 590 (12.19).rpt` Ausgabe Praktikum 2 im 2.HJ
 * NEW: `BER-GY-18b (Meldung zur weiteren mdl Pruefung)(22.23).rpt`
-* FIX: `BER-Schul Z 593 (10.20).rpt` Verknüpfungen korrigiert für Übergangsbemerkung (SchuelerKlassen)
+* FIX: `BER-Schul Z 593 (10.20).rpt` Verknüpfungen korrigiert für Übergangsbemerkung (SchuelerKlassen), kleinere Korrekturen
 * FIX: `BER-Schul Z 256 (03.23).rpt` Ausgabe Prüfungsfachnoten "d.", Ausgaben Beiblattbemerkung, Ausgabe der Verordnungsinformationen
 * FIX: `SAC-BG-ABI (E.01.06).rpt` Korrekturen bei Leerzeilen
+* FIX: `BER-Schul Z 592 (03.2020).rpt` kleinere Korrekturen
 
 ### Version 10.0.4 101 (19.05.2023)
 
