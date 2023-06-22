@@ -39,7 +39,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.5 102 (unveröffentlicht)
 
-
 !!! danger "Wichtig"
 
      Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
@@ -55,7 +54,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Administrator
 
-* FIX: DBAdmin-Funktionalitäten überarbeitet, bitte beachten Sie die erweitere Beschreibung unter:
+* FIX: DBAdmin-Funktionalitäten überarbeitet, bitte beachten Sie die erweitere Beschreibung unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin](https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin).
 
 #### MAGELLAN BIBLIOTHEK
 
