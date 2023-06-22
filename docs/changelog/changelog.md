@@ -55,6 +55,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Administrator
 
 * FIX: DBAdmin-Funktionalitäten überarbeitet, bitte beachten Sie die erweitere Beschreibung unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin](https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin).
+* FIX: `MyMAGELLAN Center`: Beim Verteilen ist das Markieren einer beliebigen Menge von Klassen möglich
 
 #### MAGELLAN BIBLIOTHEK
 
@@ -103,7 +104,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: `BER-Schul Z 515 (12.19).rpt`
 * CANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 
-#### Skripte:
+#### Skripte
 
 * FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
 
