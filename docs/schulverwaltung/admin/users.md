@@ -14,15 +14,39 @@ Die Benutzerverwaltung ist das Werkzeug des Administrators, um:
 
 ## "sysdba" und "dbadmin"
 
-Standardmäßig sind die Benutzer mit der Kennung "SYSDBA" und "DBADMIN" in der Datenbank hinterlegt. Beide haben bis zur Version MAGELLAN 9 in einer neuen Installation das Passwort "masterkey", ab MAGELLAN 10 und Firebird 4 gilt dann das Passwort, dass Sie bei der Installation von Firebird festgelegt haben.
+Standardmäßig sind die Benutzer mit der Kennung "sysdba" und "dbadmin" in der Datenbank hinterlegt. Der "sysdba" hat bis zur Version 9 bei der ersten Installation von Firebird das Passwort "masterkey" hinterlegt. Für den "dbadmin" müssen Sie ein Passwort gezielt vergeben, dazu später mehr.
+
 Mit diesen Standardkennung sind volle Administrationsrechte verbunden mit folgendem Unterschied:
 
-Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "SYSDBA" und "DBADMIN"
+Der Firebird-Datenbankserver kennt zwei Administratoren Benutzer, "sysdba" und "dbadmin". Der sysdba hat für alle Datenbanken, die auf einem Firebird-Server laufen, das höchste Administrationsrecht. Der "dbadmin" hat für eine Datenbank (oder bei mehren Zuweisungen auch mehrmals) die gleichen Rechte wie der "sysdba".
 
-Der SYSDBA hat für alle Datenbanken, auf dem ein Firebird-Server läuft, das höchste Administrationsrecht.
+Um den "sysdba" zu verwenden sind keine weiteren Schritte nötig, wir empfehlen nur das Passwort zu ändern. Diese Möglichkeit finden Sie im MAGELLAN Administrator unter `Benutzerverwaltung > Administratoren > Doppelklick auf die Zeile für den "sysdba"`. Vergeben Sie hier bitte ein 8-stelliges Passwort, vermeiden Sie bitte Umlaute und ß.
 
-Der "Besitzer"  einer Datenbank ist derjenige Benutzer, der die Datenbank erstellt hat. Ab MAGELLAN 7 haben wir die MAGELLAN-Datenbank mit einem Benutzer namens "DBADMIN" erstellt. 
-Durch diesen erhalten Sie für die "MAGELLAN.FDB" (oder auch mehrere Datenbanken innerhalb eines Firebird-Systems) mit dem Benutzer "DBADMIN", die gleichen Rechte wie ein SYSDBA.
+![Passwort für den sysdba ändern](/assets/images/magellan.administrator/014.png)
+
+### Account "dbadmin" vorbereiten
+
+Möchten Sie den "dbadmin" verwenden sind  zwei Schritte notwendig:
+
+ 1. Weisen Sie ein Passwort zu.
+ 2. Synchronisieren Sie die Zugriffsrechte aus dem Untermenü `Administratoren` heraus.
+
+Um das Passwort zu setzen, rufen Sie MAGELLAN Administrator auf und melden sich bitte als "sysdba" an der Datenbankverbindung an, für die Sie den "dbadmin" einsetzen möchten.
+Wechseln auf `Benutzerverwaltung > Administratoren`und Doppelklicken auf die Zeile für den "dbadmin". Vergeben Sie hier bitte ein 8-stelliges Passwort, vermeiden Sie bitte Umlaute und ß.
+
+![Passwort für den dbadmin ändern](/assets/images/magellan.administrator/015.png)
+
+Anschließend müssen dem "dbadmin" die Rechte des "sysdba" für die Datenbank übertragen werden, an der Sie sich angemeldet haben. Das erreichen Sie, indem Sie das Zugriffsrechte synchronisieren von der Unterkarte "Administratoren" aus starten. Es erscheint das nachfolgende Fenster:
+
+![Passworte angeben](/assets/images/magellan.administrator/016.png)
+
+Tragen Sie das Passwort für den "sysdba" und für den "dbadmin" ein und klicken Sie auf "Testen". Stimmen die Passworte, wird die "Weiter" aktiv.
+
+![Testen](/assets/images/magellan.administrator/017.png)
+
+Lösen Sie die Synchronisation mit "Fertigstellen" aus, im Anschluss können Sie den Account verwenden.
+
+![Rechte vom sysdba auf den dbadmin übertragen](/assets/images/magellan.administrator/018.png)
 
 ## Registerkarte „Benutzerliste“
 

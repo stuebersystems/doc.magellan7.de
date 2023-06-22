@@ -51,6 +51,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN Schulverwaltung
 
 * FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
+* FIX: Menü `Schüler` und Menü `Bewerber`: Eingebbare Feldlänge in der Oberfläche für die Felder `Geburtsort` (100 Zeichen) und `Geburtsname` (50 Zeichen) erhöht
+
+#### MAGELLAN Administrator
+
+* FIX: DBAdmin-Funktionalitäten überarbeitet, bitte beachten Sie die erweitere Beschreibung unter:
 
 #### MAGELLAN BIBLIOTHEK
 
@@ -62,6 +67,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Zuweisen von Bewerberstammdaten.dws`  `Schüler > Sammelzuweisung > Merkmale > D1`
 * FIX: `NRW-APO-OS-2020.dws`Punktetabelle Durchschnittsnote Gesamtqualifikation
 * FIX: `BER-APO-2017`Sport Referenzfach der 5. Prüfungskomponente; Einbringung Politik
+* FIX: `NRW-APO-OS-2020.dws` Leistungsarten Klausur, Facharbeit und Projekt auf KL, FA und PR geändert
+* FIX: `NRW-APO-OS-2020.dws` Meldungen über die erreichte Punktzahl EI geändert
 
 #### Berichte
 
@@ -80,6 +87,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `SAC-BG-ABI (E.01.06).rpt` Korrekturen bei Leerzeilen
 * FIX: `BER-Schul Z 592 (03.2020).rpt` kleinere Korrekturen
 * FIX: `BER-Schul Z 302 (03.23).rpt` Name 2 und Name 3 in verschiedenen Zeilen
+* CHANGE: `NRW-ABI-OS (2021).rpt` Optische Anpassungen
 
 ### Version 10.0.4 101 (19.05.2023)
 
