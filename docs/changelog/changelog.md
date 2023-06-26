@@ -107,7 +107,6 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
 * NEW: `BER-Schul Z 515 (12.19).rpt`
 * CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
-* CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 * NEW: `BER-Schul Z 256 (03.23).rpt`
 * NEW: `BER-Schul Z 325 (04.23).rpt`
 * NEW: `BER-Schul Z 324 (04.23).rpt`
