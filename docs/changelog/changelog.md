@@ -96,25 +96,17 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `MAGELLAN > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 
-#### Berichte
-
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
-
-* FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
-* FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
-* NEW: `BER-Schul Z 515 (12.19).rpt`
-* CANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
-
 #### Skripte
 
 * FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
 
 #### Berichte
 
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
-Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
-Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
+* FIX: `DAS-HS-MSA-AS (Anlage 8 und 9)(§23).rpt` (Leerzeichen Seite 1)
+* NEW: `BER-Schul Z 515 (12.19).rpt`
+* CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 * CHANGE: `NRW-BLNW-OS.rpt` Fächer werden nur ausgegeben, wenn in Q1-Q4 Bestanden oder in Q1-Q4 Punkte erfasst wurden
 * NEW: `BER-Schul Z 256 (03.23).rpt`
 * NEW: `BER-Schul Z 325 (04.23).rpt`
