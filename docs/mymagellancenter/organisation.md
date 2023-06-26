@@ -62,8 +62,9 @@ Kann der Lehrer eines Schülers die Registerkarte „Weiteren Daten“ in MyMAGE
 !!! info "Hinweis"
 
 	Ausnahme: Wenn er keine Eintragungen in diesen Feldern in MyMAGELLAN vorgenommen hat, werden die Werte in MAGELLAN durch die >Eintragungen in MyMAGELLAN nicht überschrieben, wenn die Option beim Verteilen der MyMagelan-Dateien so gewählt wurde. 
-    
+
 Das gilt für folgende Werte:
+
 * Unterrichtstage
 * Versäumnisse
 * Fehltage
