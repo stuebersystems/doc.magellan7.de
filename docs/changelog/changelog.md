@@ -88,6 +88,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 592 (03.2020).rpt` kleinere Korrekturen
 * FIX: `BER-Schul Z 302 (03.23).rpt` Name 2 und Name 3 in verschiedenen Zeilen
 * CHANGE: `NRW-ABI-OS (2021).rpt` Optische Anpassungen
+* FIX: `BER-Schul Z 256 (03.23)` Änderung an der Ausgabe unter "IV. Teilnahme an ergänzenden Angeboten" und "V. Bemerkungen"
 
 ### Version 10.0.4 101 (19.05.2023)
 
