@@ -72,7 +72,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * CHANGE: `DSND.DAS-GS (Klasse 3) ohne Unterschrift Seite 1.rpt` Formkorrekturen
 * CHANGE: `DSND.DAS-GY-ABI (DIA) (2019).rpt` Formkorrekturen
@@ -170,7 +170,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 #### Berichte
 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)
-Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md)
+Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)
 Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * CHANGE: `SAC-BG-ABI (E.01.06).rpt` kleine Korrektur der Fußnote
@@ -214,7 +214,7 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
 
 * CHANGE: [Download](https://my.hidrive.com/share/l332606dzw) | BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt| Ergänzung des Nebenfaches bei Referenzfach für die Präsentationsprüfung
 * NEW: [Download](https://my.hidrive.com/share/l332606dzw) | BER-Schul Z 256 (11.19).rpt | [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20256%20%2811.19%29/)
@@ -243,7 +243,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BBS-JZ-HJ-AG-AS (A07).rpt` Daten von gewechselten Zeiträumen werden nicht berücksichtigt
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `SAC-FOS-HJZ (D.01.01).rpt`, `SAC-FO-HJI (D.01.01)(Fachpraktischer Unterricht).rpt`: Fachrichtung wird aus dem Berufsfeld des Bildungsgangs ausgelesen, das dem aktuellen Ausbildungsdatensatz des Schülers zuwiesen wurde
