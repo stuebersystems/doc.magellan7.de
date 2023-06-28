@@ -91,6 +91,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 256 (03.23)` Änderung an der Ausgabe unter "IV. Teilnahme an ergänzenden Angeboten" und "V. Bemerkungen"
 * FIX: `SAC-BS-JZ (A.02.01) 2spaltig.rpt` Ausgabe unentschuldigte Fehltage korrigiert
 * FIX: `SAC-BS-JZ (A.02.02)(zweiseitig).rpt` Ausgabe unentschuldigte Fehltage korrigiert
+* FIX: `BER-Schul Z 300 (03.23).rpt` Name 2 und Name 3 in verschiedenen Zeilen
 
 ### Version 10.0.4 101 (19.05.2023)
 
