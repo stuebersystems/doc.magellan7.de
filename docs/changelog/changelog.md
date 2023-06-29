@@ -47,6 +47,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Update für Passfotos aus der Schulverwaltung in die Bibliothek
 
+#### MyMAGELLAN-CENTER
+
+* FIX: Die Felder auf der Unterkarte `Schüler anzeigen > Schüler auswählen > Zeugnisdaten` werden werden mit den aus MAGELLAN übergebenen Werten aber inaktiviert dargestellt, wenn beim Erzeugen der Dateien für die Felder `sichtbar` und `nicht editierbar` gewählt wurde. Wird die Sichtbarkeit für kein Felder der Unterkarte gewählt, wird die Karte ausgeblendet.
+
 #### MAGELLAN Schulverwaltung
 
 * FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
