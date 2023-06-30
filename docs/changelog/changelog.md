@@ -73,6 +73,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `BER-APO-2017`Sport Referenzfach der 5. Prüfungskomponente; Einbringung Politik
 * FIX: `NRW-APO-OS-2020.dws` Leistungsarten Klausur, Facharbeit und Projekt auf KL, FA und PR geändert
 * FIX: `NRW-APO-OS-2020.dws` Meldungen über die erreichte Punktzahl EI geändert
+* FIX. `SAC-APO-BGY-2021.dws` Anpassung für die Fachrichtung ER - Ernährungswissenschaft 
 
 #### Berichte
 
