@@ -98,6 +98,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `SAC-BS-JZ (A.02.02)(zweiseitig).rpt` Ausgabe unentschuldigte Fehltage korrigiert
 * FIX: `BER-Schul Z 300 (03.23).rpt` Name 2 und Name 3 in verschiedenen Zeilen
 * CHANGE: `SAC-BVJ-AS ohne HS (A.01.09).rpt` Klassenleiter und Schulleiter werden je nach hinterlegtem Geschlecht als Klassenleiter oder Klassenleiterin, Schulleiter oder Schulleiterin ausgegeben.
+* FIX: `BER-Schul Z 250 (03.23).rpt` kleine optische Korrekturen
 
 ### Version 10.0.4 101 (19.05.2023)
 
