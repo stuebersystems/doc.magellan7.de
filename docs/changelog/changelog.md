@@ -105,6 +105,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `Schul Z 500 (09.19)` Zeugnisdatum ergänzt
 * NEW: `BER-ABI-17 (Protokoll der 5.PK) (08.16).rpt`
 * NEW: `BER-ABI-17 (Protokoll der 5.PK - DS) (09.19).rpt`
+* NEW: `BER-ABI-16 (Protokoll der 5.PK - BLL) (08.16).rpt`
 * FIX: `DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt` Schreibfehler korrigiert
 
 ### Version 10.0.4 101 (19.05.2023)
