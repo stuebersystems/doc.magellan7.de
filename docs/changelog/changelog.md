@@ -100,6 +100,9 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * CHANGE: `SAC-BVJ-AS ohne HS (A.01.09).rpt` Klassenleiter und Schulleiter werden je nach hinterlegtem Geschlecht als Klassenleiter oder Klassenleiterin, Schulleiter oder Schulleiterin ausgegeben.
 * FIX: `BER-Schul Z 250 (03.23).rpt` kleine optische Korrekturen
 * FIX: `BER-Schul Z 500.rpt.` leere Seite ausgeblendet
+* FIX: `BER-Schul Z 513 – Zeugnis der Fachhochschulreife (zweij. FOS– (4 S.) (12.19).rpt` Korrektur Endnotenberechnung
+* FIX: `BER-Schul Z 303 (03.23).rpt` Kopf angepasst
+* FIX: `Schul Z 500 (09.19)` Zeugnisdatum ergänzt
 
 ### Version 10.0.4 101 (19.05.2023)
 
