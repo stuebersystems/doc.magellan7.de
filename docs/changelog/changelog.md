@@ -113,6 +113,8 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: `BER-ABI-11 (Protokoll der mdl. Einzelprüfung) (08.16).rpt`
 * FIX: `DAS-Versetzungszeugnis-GY-MSA (ZKA)(Anlage 11)(§23).rpt` Schreibfehler korrigiert
 * FIX: `BER-Schul Z 256 (03.23).rpt` Herkunft Deutschnote allgemeiner Teil, siehe Dokumentation
+* FIX: `BER-Schul Z 255 (03.23).rpt` Herkunft Deutschnote allgemeiner Teil, siehe Dokumentation
+
 
 ### Version 10.0.4 101 (19.05.2023)
 
