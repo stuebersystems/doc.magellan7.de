@@ -37,7 +37,29 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.5 102 (unveröffentlicht)
+### Version 10.0.6 102 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+* FIX: 
+
+#### MAGELLAN Administrator
+
+* FIX: 
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
+
+* FIX: 
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* FIX:
+
+### Version 10.0.5 102 (07.07.2023)
 
 !!! danger "Wichtig"
 
@@ -70,6 +92,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Aktualisierung der Passfotos für Schüler /Lehrkräfte/Personen
 
 #### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
 * FIX: `Zuweisen von Zugriffsrechten.dws` Meldung nach Skriptdurchlauf korrigiert
 * FIX: `Zuweisen von Bewerberstammdaten.dws`  `Schüler > Sammelzuweisung > Merkmale > D1`
@@ -115,7 +139,6 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 256 (03.23).rpt` Herkunft Deutschnote allgemeiner Teil, siehe Dokumentation
 * FIX: `BER-Schul Z 255 (03.23).rpt` Herkunft Deutschnote allgemeiner Teil, siehe Dokumentation
 
-
 ### Version 10.0.4 101 (19.05.2023)
 
 #### MyMAGELLAN CENTER
@@ -123,6 +146,8 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `MAGELLAN > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 
 #### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
 * FIX: `NRW-APO-BK-2018`Einbringung Fremdsprache Anfänger korrigiert
 
