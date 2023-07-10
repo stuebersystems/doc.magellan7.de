@@ -57,7 +57,13 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
-* FIX:
+* FIX: `Kursliste Namen.rpt` Sortierung korrigiert
+* FIX: `Kursliste Namen, Endnote, Bestanden, Leistungsart.rpt` Sortierung korrigiert
+* FIX: `Kursliste (Schüler-Kursart-Klasse-Lehrer).rpt` Sortierung korrigiert
+* FIX: `Anwesenheitsliste (Schüler nach Fach).rpt` Sortierung korrigiert
+* FIX: `Anwesenheitsliste (Schüler einer Klasse nach Fach).rpt` Sortierung korrigiert
+* FIX: `Kursliste mit Namen, Endnote und Niveau.rpt` Sortierung korrigiert
+* FIX: `Kursliste Namen und Endnote.rpt` Sortierung korrigiert
 
 ### Version 10.0.5 102 (07.07.2023)
 
