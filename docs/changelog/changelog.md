@@ -39,20 +39,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.6 102 (unveröffentlicht)
 
-#### MAGELLAN Schulverwaltung
-
-* FIX: 
-
-#### MAGELLAN Administrator
-
-* FIX: 
-
-#### Skripte
-
-Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
-
-* FIX: 
-
 #### Berichte
 
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
