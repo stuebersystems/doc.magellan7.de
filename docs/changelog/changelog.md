@@ -53,7 +53,6 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 256 (03.23).rpt`, `BER-Schul Z 255 (03.23).rpt` Die verwendeten Fachpositionen wurden vereinheitlicht, Vorlage ist `BER-Schul Z 250.rpt`, bitte beachten Sie die angepassten Dokumentation!
 * FIX: `SAR-GEMS-AS (Klasse 9 mit Prüfung)(ab 2021).rpt` Schreibfehler korrigiert
 
-
 ### Version 10.0.5 102 (07.07.2023)
 
 !!! danger "Wichtig"
