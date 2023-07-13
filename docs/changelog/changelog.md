@@ -41,8 +41,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN Schulverwaltung
 
-* NEW: [NRW] Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
-* NEW: [SHL] Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/schleswig-holstein/einstieg/)
+* NEW: `NRW` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
+* NEW: `SHL` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/schleswig-holstein/einstieg/)
 
 #### Berichte
 
