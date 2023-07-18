@@ -37,7 +37,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.6 102 (unveröffentlicht)
+### Version 10.0.7 102 (18.07.2023)
+
+#### MAGELLAN Schulverwaltung
+
+* NEW: `SAC` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
+* NEW: `NIE` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
+
+### Version 10.0.6 102 (13.07.2023)
 
 #### MAGELLAN Schulverwaltung
 
