@@ -37,12 +37,24 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.8 102 (unveröffentlicht)
+
+#### MAGELLAN Schulverwaltung
+
+* NEW: 
+
 ### Version 10.0.7 102 (18.07.2023)
 
 #### MAGELLAN Schulverwaltung
 
 * NEW: `SAC` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
 * NEW: `NIE` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* NEW: `BAW-GY-JZ (Birklehof).rpt`
 
 ### Version 10.0.6 102 (13.07.2023)
 
@@ -136,7 +148,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `BER-Schul Z 500.rpt.` leere Seite ausgeblendet
 * FIX: `BER-Schul Z 513 – Zeugnis der Fachhochschulreife (zweij. FOS– (4 S.) (12.19).rpt` Korrektur Endnotenberechnung
 * FIX: `BER-Schul Z 303 (03.23).rpt` Kopf angepasst
-* FIX: `Schul Z 500 (09.19)` Zeugnisdatum ergänzt
+* FIX: `BER-Schul Z 500 (09.19)` Zeugnisdatum ergänzt
 * NEW: `BER-ABI-17 (Protokoll der 5.PK) (08.16).rpt`
 * NEW: `BER-ABI-17 (Protokoll der 5.PK - DS) (09.19).rpt`
 * NEW: `BER-ABI-16 (Protokoll der 5.PK - BLL) (08.16).rpt`
