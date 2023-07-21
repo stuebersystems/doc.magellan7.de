@@ -37,12 +37,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.8 102 (unveröffentlicht)
-
-#### MAGELLAN Schulverwaltung
-
-* NEW: 
-
 ### Version 10.0.7 102 (18.07.2023)
 
 #### MAGELLAN Schulverwaltung
