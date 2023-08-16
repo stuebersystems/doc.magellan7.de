@@ -41,7 +41,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Installation
 
-* FIX: Beim Update einer Serverinstallation, die für die Datenordner von den Standardpfadenabweichende Speicherorte gewählt wurden, werden jetzt die neuen Ablagestellen aktualsiert.
+* FIX: Beim Update einer Serverinstallation, die für die Datenordner von den Standardpfaden abweichende Speicherorte gewählt wurden, werden jetzt die neuen Ablagestellen aktualsiert.
 
 ### MAGELLAN Schulverwaltung
 
