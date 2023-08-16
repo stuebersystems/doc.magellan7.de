@@ -37,7 +37,20 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.8 102 (unveröffentlicht)
+### Version 10.0.8 102 (16.08.2023)
+
+### Installation
+
+* FIX: Beim Update einer Serverinstallation, die für die Datenordner von den Standardpfadenabweichende Speicherorte gewählt wurden, werden jetzt die neuen Ablagestellen aktualsiert.
+
+### MAGELLAN Schulverwaltung
+
+* FIX: Ändern des Passwortes für Benutzer mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
+* FIX: Problem beim Drucken für Benutzer mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
+
+### MAGELLAN Administrator
+
+* FIX: Löschen von Benutzern mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
 
 #### Berichte
 

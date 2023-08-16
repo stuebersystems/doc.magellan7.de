@@ -2,12 +2,12 @@
 
 Dieses Kapitel beschreibt die grundlegenden vorbereitenden Schritte für die Arbeit mit MAGELLAN, wenn Sie zuvor noch nicht MAGELLAN eingesetzt haben.  
 Weitere Detailinformationen zur Administration von MAGELLAN finden Sie im Kapitel [Administration](https://doc.magellan.stueber.de/schulverwaltung/admin/administration/).
-Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN 8\Datenbank) zwei Datenbanken abgelegt.
+Wenn Sie MAGELLAN erstmalig installieren, werden beim Installationstyp `Server- Einzelplatzinstallation` im Verzeichnis `Datenbank` (Standardpfad: C:\Users\Public\Documents\Stueber Systems\MAGELLAN `Versionsnummer`\Datenbank) zwei Datenbanken abgelegt.
 
 | Name| Zweck|
 | -- | -- |
-| MAGELLAN8.fdb| Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. Sollten Sie bereits MAGELLAN 6 verwendet haben, ist diese leere Datenbank als Ziel beim Übertrag Ihrer Daten aus der MAGELLAN6.fdb gedacht. Lesen Sie in diesem Fall bitte unseren Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) oder [Umstieg von MAGELLAN 6 auf MAGELLAN 8](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/) ! |
-| MAGELLAN8_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.|
+| MAGELLAN.fdb| Diese Datenbank ist leer und für den Start mit MAGELLAN gedacht. |
+| MAGELLAN_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in MAGELLAN anschauen können.|
 
 ## MAGELLAN starten
 
@@ -27,7 +27,7 @@ Nachdem Sie mit der leeren Datenbank verbunden sind, sollten Sie die bundeslands
 
 !!! warning "Tipp"
 
-    Wollten Sie erneut eine leere Datenbank benötigen, können Sie unter dem [Link (MAGELLAN 8)](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB) oder [Link (MAGELLAN 9)](https://download.stueber.de/bin/de/assets/magellan/v89/database/MAGELLAN9.FDB) jederzeit einen neue leere Datenbank im aktuellen Format herunterladen und wieder in Ihrem Datenbankverzeichnis ablegen.
+    Wollten Sie erneut eine leere Datenbank benötigen, können Sie unter dem [Link](https://download.stueber.de/bin/de/assets/magellan/v10/database/MAGELLAN10.FDB) jederzeit einen neue leere Datenbank im aktuellen Format herunterladen und wieder in Ihrem Datenbankverzeichnis ablegen.
 
 !!! warning "Wichtig"
 
@@ -163,10 +163,10 @@ Um einen neuen Zeitraum einzustellen, klicken Sie auf `Schuljahre anlegen` . Der
 | Feld| Eintragungen|
 | -- | -- |
 | ID| Wird beim Speichern automatisch besetzt|
-| Bezeichnung| Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet. (zb. 1. Halbjahr 2018/19)|
+| Bezeichnung| Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet. <br/> (zb. 1. Halbjahr 2024/25)|
 | Art| Bitte jeweils die Zeilen mit den Werten 1. Halbjahr bzw. 2. Halbjahr versehen. Diese Eintragungen sind wichtig um später die Halbjahresergebnisse der Schüler korrekt ins Menü `Abitur` zu synchronisieren.|
 | Von - Bis| Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.01.-31.07.<br />2. Halbjahr 01.08.-31.01.|
-| Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2008/2009) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2008/2009). |
+| Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2024/2025) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2024/2025). |
 
 ### Trimester
 
@@ -176,9 +176,9 @@ Wenn Sie sich entschieden haben mit Trimestern zu arbeiten, steht Ihnen der Assi
 | -- | -- |
 | ID| Wird beim Speichern automatisch besetzt|
 | Bezeichnung| Die Angabe in der Spalte „Bezeichnung“ wird zur Anzeige des aktuell gewählten Zeitraums in MAGELLAN verwendet.|
-| Art| Wenn Sie die Zeiträume als Halbjahr definiert haben (`Extras > Optionen > Einstellungen > Zeiträume`) können Sie in der Spalte Art die Werte 1. Halbjahr bzw. 2. Halbjahr auswählen. Wenn die Zeiträume als Trimester definiert sind, können Sie in der Spalte Art die Werte 1. Trimester, 2. Trimester bzw. 3. Trimester auswählen.                                                                                     |
+| Art| Wenn Sie die Zeiträume als Halbjahr definiert haben (`Datenbank > Optionen > Einstellungen > Zeiträume`) können Sie in der Spalte Art die Werte 1. Halbjahr bzw. 2. Halbjahr auswählen. Wenn die Zeiträume als Trimester definiert sind, können Sie in der Spalte Art die Werte 1. Trimester, 2. Trimester bzw. 3. Trimester auswählen.                                                                                     |
 | Von - Bis| Für Halbjahre wählen Sie bitte standardmäßig:<br />1. Halbjahr 01.08.-31.01.<br />2. Halbjahr 01.02.-31.07.<br />Für Trimester wählen Sie bitte standardmäßig:<br />1. Trimester 01.08.-31.12.<br />2. Trimester 01.01.-30.04.<br />3. Trimester 01.05.-31.07.|
-| Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2008/2009) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2008/2009). |
+| Ausdruck 1 + 2 | Die unter `Ausdruck 1` und `Ausdruck 2` eingetragenen Daten dienen nur für die Verwendung alternativer Zeitraumbezeichnungen im Ausdruck von Berichten (z.B. bei Zeugnissen). Die standardmäßig mitgelieferten Berichte nutzen dabei den Eintrag unter `Ausdruck 1` für die Halbjahresbezeichnung (z.B. 1. Halbjahr 2024/2025) und den Eintrag unter `Ausdruck 2` als Schuljahresbezeichnung (z.B. Schuljahr 2024/2025). |
 
 ## Aktuellen Zeitraum definieren
 
@@ -190,13 +190,13 @@ Sie haben die Möglichkeit, sich einen aktuellen Zeitraum zu definieren. Beim Ö
 
 Sie können die Zeiträume wechseln, um beispielsweise historische Daten anzusehen oder für das kommende Schuljahr schon mit der Dateneingabe zu beginnen. In der Symbolleiste oben links wird Ihnen der Zeitraum angezeigt, in dem Sie arbeiten.
 
-![Den aktuellen Zeitraum auswählen (hier: 2. Halbjahr 2010/2011)](/assets/images/select-mandanten-zeitraeume.png)
+![Den aktuellen Zeitraum auswählen (hier: 2. Halbjahr 2024/2025)](/assets/images/select-mandanten-zeitraeume.png)
 
 ## Daten importieren
 
 Wenn Sie bereits mit einem Schulverwaltungsprogramm gearbeitet haben, dann möchten Sie wahrscheinlich die Daten nach MAGELLAN übernehmenohne alle Daten wieder neu einzugeben. Aus vielen gängigen Schulverwaltungsprogrammen können Sie ohne großen Aufwand den Großteil der Daten übernehmen. 
 Die Dokumentation ["MAGELLAN Import"](https://doc.magellan-toolbox.stueber.de/importe/) sagt Ihnen, aus welchen Programmen MAGELLAN Daten standardmäßig übernehmen kann bzw. wie Sie über das MAGELLAN-Importformat Daten aus Textdateien nach MAGELLAN übernehmen können. Sie finden dort die nötigen Informationen, um den Import aus einem der dort erwähnten Programme erfolgreich durchführen zu können. Lesen Sie sich die entsprechenden Abschnitte sorgfältig durch, um mögliche Fehler zu vermeiden. Wenn Sie ein anderes Programm einsetzen, dann müssen Sie entscheiden, ob Sie die Daten selber übernehmen wollen oder ob Sie STÜBER SYSTEMS mit der Übernahme beauftragen wollen.
 
-Daten selber übernehmen: Mit Hilfe der MAGELLAN-Scripting-Technologie und der Dokumentation der MAGELLAN-Datenstruktur können Sie Daten aus anderen Datenquellen in die entsprechenden Tabellen importieren. Ausführliche Hinweise hierzu finden Sie in den PDF-Dokumenten ["MAGELLAN-Scripting"](https://doc.magellan-toolbox.stueber.de/scripting/) und die Dokumentation der "MAGELLAN-Datenstruktur" (bitte unter support@stueber.de anfordern).
+Daten selber übernehmen: Mit Hilfe der MAGELLAN-Scripting-Technologie und der Dokumentation der MAGELLAN-Datenstruktur können Sie Daten aus anderen Datenquellen in die entsprechenden Tabellen importieren. Ausführliche Hinweise hierzu finden Sie in den PDF-Dokumenten ["MAGELLAN-Scripting"](https://doc.magellan-toolbox.stueber.de/scripting/) und die Dokumentation der ["MAGELLAN-Datenstruktur"](https://stuebersystems.github.io/sql.magellan.de/v10/).
 
 Daten von STÜBER SYSTEMS übernehmen lassen: Sie können STÜBER SYSTEMS jederzeit Ihre Daten und die nötigen Informationen zum Programm zuschicken. STÜBER SYSTEMS wird Ihnen dann ein entsprechendes Angebot für die Datenübernahme machen. Dies ist der schnellste Weg für spezielle Importe.
