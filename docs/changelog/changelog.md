@@ -37,6 +37,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.9 102 (unveröffentlicht)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
+
+* FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DAVINCI nach MAGELLAN)
+
 ### Version 10.0.8 102 (16.08.2023)
 
 ### Installation
