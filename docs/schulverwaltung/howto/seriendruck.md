@@ -12,7 +12,7 @@ Aus MAGELLAN heraus können Sie mit Hilfe des Word oder LibreOffice Seriendrucks
 
 ### LibreOffice oder Word
 
-Bevor Sie beginnen müssen Sie bitte je Arbeitsplatz wählen, ob die Seriendruckdaten an MAGELLAN oder an LibreOffice übergeben werden sollen. Rufen Sie dazu den Punkt `Datenbank > Optionen > Seriendruck` auf und stellen auf der Karte `Seriendruck` das gewünschte Zielprogramm ein. Diese Einstellung wird für diesen Arbeitsplatz gespeichert. 
+Bevor Sie beginnen müssen Sie bitte je Arbeitsplatz wählen, ob die Seriendruckdaten an MAGELLAN oder an LibreOffice übergeben werden sollen. Rufen Sie dazu den Punkt `Datenbank > Optionen > Dokumente > Seriendruck` auf und stellen auf der Karte `Seriendruck` das gewünschte Zielprogramm ein. Diese Einstellung wird für diesen Arbeitsplatz gespeichert. 
 
 ![Wählen Sie das Zielprogramm](/assets/images/seriendruck/24.png)
 
