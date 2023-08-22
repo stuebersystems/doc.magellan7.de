@@ -51,7 +51,7 @@ Um Daten von MAGELLAN nach DAVINCI zu übertragen, gehen Sie bitte folgendermaß
 
 Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
-## Was kann aus MAGELLAN übernommen werden
+### Was kann übernommen werden
 
 Sie können folgende Daten übernehmen:
 
@@ -127,7 +127,7 @@ Um Daten von DAVINCI nach MAGELLAN zu übertragen, gehen Sie bitte folgendermaß
 
 Die Daten werden nun entsprechend der vorgenommenen Einstellungen in die DAVINCI-Datei übertragen. Den Fortschritt des Datenimports können Sie anhand der Meldungen im Dialogfenster „Datei in Schuldatentransferdatei “ erkennen.
 
-### Was kann aus DAVINCI übernommen werden
+### Was kann übernommen werden
 
 Sie können folgende Daten übernehmen:
 
@@ -145,13 +145,13 @@ Felder|Hinweis
 ---|---
 **Kürzel**<br/>**Nachname**<br/>**Vorname**<br/>**Soll-Berechnung**|Der Austausch erfolgt über ID und Kürzel.<br/> Bei gleicher ID wird aktualisiert. <br/>Ist die ID in MAGELLAN nicht vorhanden, wird hinzugefügt.<br/> Ist in DAVINCI keine ID vorhanden, wird über das Kürzel ausgetauscht. <br/>Bei gleichem Kürzel wird aktualisiert. <br/>Ist das Kürzel nicht vorhanden wird hinzugefügt.
 
-### Fächer aus DAVINCI
+### Übernehme Fächer
 
 Felder|Hinweis
 ---|---
 **ID**<br/>**Kürzel**<br/>**Schlüssel**<br/>**Bezeichnung**<br/>**Kategorie**<br/>**Aufgabenbereich**|Der Austausch erfolgt über ID oder Kürzel. <br/>Hat das Fach eine ID in DAVINCI, so wird ein entsprechendes Fach mit gleicher ID in MAGELLAN gesucht. <br/>existiert ein solches Fach in MAGELLAN, so wird es aktualisiert, andernfalls wird das Fach in MAGELLAN hinzugefügt.<br/>Hat das Fach keine ID in DAVINCI, so wird ein entsprechendes Fach mit gleichem Kürzel in MAGELLAN gesucht. <br/>Existiert ein solches Fach in MAGELLAN, so wird es aktualisiert, andernfalls wird das Fach in MAGELLAN hinzugefügt.
 
-### Schülerkurswahlen aus DAVINCI
+### Übernehme Schülerkurswahlen
 
 Optionen:
 
@@ -233,7 +233,7 @@ Ergebnis|Ein Unterschied in der Kombination aus:<br/>* Fach<br/>* Unterrichtsart
 
     **Seit Version 8.0.5 gilt:** Die Schülerfachdaten werden nur noch gelöscht, wenn für kein Fach ein Eintrag unter `Leistungen > Endnote1` existiert. Existiert für ein Fach eine Note (Endnote1), bleiben die Schülerfachdaten in MAGELLAN für den Schüler erhalten, der Assistent gibt Ihnen den Schülernamen und die SchülerID in der Meldung mit aus.
 
-### Stundentafeln aus DAVINCI
+#### Übernehme Stundentafeln
 
 Felder|Hinweis
 ---|---
@@ -241,7 +241,7 @@ Felder|Hinweis
 
 ![ Übernahmeoptionen](/assets/images/datenaustausch_mit_magellan/07.png)
 
-### Übernehme Lehrer-Unterricht
+#### Übernehme Lehrer-Unterricht
 
 Bei der Übernahme des Lehrer-Unterrichts aus DAVINCI werden durch den Import der Schuldatentransferdatei nach MAGELLAN aufgrund der Veranstaltungsliste pro Klasse in DAVINCI die Lehrer übernommen. Es werden bei allen Schülern einer Klasse, die Fächer in MAGELLAN haben, die in der Schuldatentransferdatei zugeordneten Lehrer der gleichen Klasse zugeordnet.
 
@@ -270,7 +270,7 @@ Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht �
 	Es wird nicht nur der Lehrer-Unterricht der Oberstufe abgeglichen. Die Übernahme des Lehrer-Unterrichts erfolgt nicht nur für die Oberstufen-Klassen, sondern für alle Klassen des gewählte Import-Zeitraums.
 	Die Übernahme des Lehrer-Unterrichts und der Schülerkurswahlen kann in einem Importschritt erfolgen.
 
-#### Beifachlehrer im Datenübertrag
+##### Beifachlehrer im Datenübertrag
 
 !!! info "Hinweis"
 
@@ -280,7 +280,7 @@ Tabelle 3: Wertübernahme je Schüler nach MAGELLAN wenn der Lehrer-Unterricht �
 
      Gibt es in der Veranstaltungsliste in DAVINCI mehrere Veranstaltungen dieser Kombination mit unterschiedlichen Lehrern, ist es reiner Zufall, welcher Lehrer in MAGELLAN gespeichert. Das Schuldatentraferdatei wird sequenziell abgearbeitet. Kommt DEU/L1 vor DEU/L2 für den Schüler in der Datei vor, wird beim Schüler DEU/L2 in Magellan gespeichert.Man kann es nur lösen, wenn die Haupt- und Beifach getrennte Kürzel haben, also tatsächlich zwei Fächer sind.
 
-### Räume aus DAVINCI
+#### Übernehme Räume
 
 Felder|Hinweis
 ---|---
