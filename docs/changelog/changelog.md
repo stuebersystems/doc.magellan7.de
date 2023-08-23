@@ -11,7 +11,6 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 ## Wichtige Hinweise
 
-
 !!! danger "Achtung"
 
     Das Vorgehen für die Installation hat sich seit der 9.5.0 geändert.<br/>
