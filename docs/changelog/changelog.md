@@ -39,6 +39,23 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.9 102 (unveröffentlicht)
 
+!!! danger "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+### Installation
+
+* FIX: fehlende Firebirdsystemdateien (VS2017 CRT Libraries) in den Magellan-Installationspaketen ergänzt
+
+### Datenstrukturänderung
+
+* NEW:
+
+### Schnittstellen
+
+* CHANGE: NRW => SIM.TXT  `LSQual` je nach Schulform der Herkunftsschule erfolgte die Ausgabe aus `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]` oder `Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss [Abschlüsse (Extern)]`
+* CHANGE: NRW => ABI.TXT die ausgelesenen Halbjahre geändert 1.und 2. HJ. des vorangegangenen Schuljahres
+
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
