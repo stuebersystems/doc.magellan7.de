@@ -4,6 +4,10 @@ Aus Sicherheits- und Datenschutzgründen sollten Änderungen der Daten in der Da
 
 Nachfolgend erklären wir Ihnen, wie Sie die Protokollierungsfunktion von Firebird auf einem Windows basierten Rechner einrichten können.
 
+## Firebird 4.x
+
+Die offizielle Anleitung für Firebird 4.x finden Sie unter: [https://firebirdsql.org/rlsnotesh/rnfb25-trace.html](https://firebirdsql.org/rlsnotesh/rnfb25-trace.html).
+
 ## Firebird 2.5.x
 
 ### Bevor Sie beginnen
@@ -198,7 +202,3 @@ log_errors |Protokollierung von Fehlern |true/false
 !!! info "Hinweis"
 
 	Die Backslashes ( \ ) in Pfadangaben müssen mit einem weiteren Backslash maskiert werden, Beispiel: <database "C:\\Dokumente und Einstellungen\\All Users\\Dokumente\\Stueber Software\\Magellan 6\\Datenbank\\Magellan6.FDB"></database> Pfadangaben, die Leerzeichen aufweisen müssen in Anführungszeichen gesetzt werden.
-
-## Firebird 4.x
-
-Die offizielle Anleitung für Firebird 4.x finden Sie unter: [https://firebirdsql.org/rlsnotesh/rnfb25-trace.html](https://firebirdsql.org/rlsnotesh/rnfb25-trace.html).
