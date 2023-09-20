@@ -7,6 +7,7 @@ Nachfolgend erklären wir Ihnen, wie Sie die Protokollierungsfunktion von Firebi
 ## Firebird 4.x
 
 Die offizielle Anleitung für Firebird 4.x finden Sie unter: [https://firebirdsql.org/rlsnotesh/rnfb25-trace.html](https://firebirdsql.org/rlsnotesh/rnfb25-trace.html).
+Bitte beachten Sie auch unseren Blogartikel hierzu unter [https://blog.stueber.de/posts/firebird-audit/](https://blog.stueber.de/posts/firebird-audit/)!
 
 ## Firebird 2.5.x
 
