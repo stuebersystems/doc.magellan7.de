@@ -70,6 +70,13 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 * FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DAVINCI nach MAGELLAN)
 * CHANGE: `NRW-APO-OS-2020`: automatisches Markieren der Füllkurse, Optimierung der Berechnung, Einbau der Vorschlagsautomatik, Berücksichtigung von 2 Fächern mit unterschiedlichem Aufgabenbereich und gleichem Fachstatus (2 Zeilen 3PF und/oder 2 Zeilen 4PF). Bitte berücksichtigen Sie die angepasste [Anleitung](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/)).
 
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* CHANGE: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt: Verknüpfung zu den Ausbilderdaten korrigiert
+
+
 ### Version 10.0.8 102 (16.08.2023)
 
 ### Installation
