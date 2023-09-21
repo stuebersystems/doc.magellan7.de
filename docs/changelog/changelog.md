@@ -37,30 +37,38 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.9 102 (unveröffentlicht)
+### Version 10.0.9 103 (unveröffentlicht)
 
 !!! danger "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. 
+     * Bitte aktualisieren Sie als erstes Ihren Serverrechner. Beim anschließenden Start von MAGELLAN wird die Datenstruktur angepasst. 
+     * Synchronisieren Sie im Anschluss die Zugriffsrechte. 
+     * Aktualisieren Sie anschließend alle Arbeitsplatzrechner. 
+      
+     Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstrukturbeschreibung finden [hier](https://stuebersystems.github.io/sql.magellan.de/v10/)!
+
+### Datenstrukturänderung
+
+* NEW: Neue Felder in der Tabelle `SchuelerABIDetails` (`HJ1_Bestanden_Eingebracht` bis `HJ6_Bestanden_Eingebracht`)
 
 ### Installation
 
 * FIX: fehlende Firebirdsystemdateien (VS2017 CRT Libraries) in den Magellan-Installationspaketen ergänzt
 
-### Datenstrukturänderung
-
-* NEW:
-
 ### Schnittstellen
 
 * CHANGE: NRW => SIM.TXT  `LSQual` je nach Schulform der Herkunftsschule erfolgte die Ausgabe aus `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]` oder `Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss [Abschlüsse (Extern)]`
 * CHANGE: NRW => ABI.TXT die ausgelesenen Halbjahre geändert 1.und 2. HJ. des vorangegangenen Schuljahres
+* FIX: NRW => ABI.TXT Ausgabe der Felder LK1, LK2, GKS und GKM für die Schulform WB ergänzt
 
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
 * FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DAVINCI nach MAGELLAN)
+* CHANGE: `NRW-APO-OS-2020`: automatisches Markieren der Füllkurse, Optimierung der Berechnung, Einbau der Vorschlagsautomatik, Berücksichtigung von 2 Fächern mit unterschiedlichem Aufgabenbereich und gleichem Fachstatus (2 Zeilen 3PF und/oder 2 Zeilen 4PF). Bitte berücksichtigen Sie die angepasste [Anleitung](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/)).
 
 ### Version 10.0.8 102 (16.08.2023)
 
