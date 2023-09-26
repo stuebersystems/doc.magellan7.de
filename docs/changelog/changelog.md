@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.9 103 (unveröffentlicht)
+### Version 10.0.9 103 (26.09.2023)
 
 !!! danger "Wichtig"
 
@@ -62,6 +62,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: NRW => SIM.TXT  `LSQual` je nach Schulform der Herkunftsschule erfolgte die Ausgabe aus `Schüler > Daten 2 > Höchster Abschluss ABS > Abschluss [Abschlüsse (Extern)]` oder `Schüler > Daten 2 > Höchster Abschluss BBS > Abschluss [Abschlüsse (Extern)]`
 * CHANGE: NRW => ABI.TXT die ausgelesenen Halbjahre geändert 1.und 2. HJ. des vorangegangenen Schuljahres
 * FIX: NRW => ABI.TXT Ausgabe der Felder LK1, LK2, GKS und GKM für die Schulform WB ergänzt
+* FIX: NRW => LEHRER.TXT 
+  * Aufbau überarbeitet
+  * neue Lehrer-Sollschlüssel-Verzeichnisse ([Download](https://my.hidrive.com/share/u2fb42eu4v)) zum Import in DAVINCI stehen zur Verfügung. Wenn Sie die Schlüsselverzeichnisse erneut importieren (Änderungen an den Schlüsselwerten), dann geben Sie bitte beim Import in DAVINCI an, dass über das Kürzel abgelichen werden soll.
 
 #### Skripte
 
@@ -76,6 +79,9 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * CHANGE: Schülerpersonalblatt incl. Schuleintritt und -austritt (mit Vorbildung).rpt: Verknüpfung zu den Ausbilderdaten korrigiert
 
+#### Bibliothek
+
+* CHANGE: Zum Ändern des Status eines Schülers, Lehrers oder einen Person wechseln Sie bitte auf den Reiter `Daten` und wählen dort im Menüband die Option `Status ändern`.
 
 ### Version 10.0.8 102 (16.08.2023)
 
