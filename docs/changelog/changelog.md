@@ -71,7 +71,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
 * FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DAVINCI nach MAGELLAN)
-* CHANGE: `NRW-APO-OS-2020`: automatisches Markieren der Füllkurse, Optimierung der Berechnung, Einbau der Vorschlagsautomatik, Berücksichtigung von 2 Fächern mit unterschiedlichem Aufgabenbereich und gleichem Fachstatus (2 Zeilen 3PF und/oder 2 Zeilen 4PF). Bitte berücksichtigen Sie die angepasste [Anleitung](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/)).
+* CHANGE: `NRW-APO-OS-2020`: 
+  * automatisches Markieren der Füllkurse
+  * Optimierung der Berechnung
+  * Einbau der Vorschlagsautomatik
+  * Berücksichtigung von 2 Fächern mit unterschiedlichem Aufgabenbereich und gleichem Fachstatus (2 Zeilen 3PF und/oder 2 Zeilen 4PF)
+  * Bitte berücksichtigen Sie die angepasste [Anleitung](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/)).
 
 #### Berichte
 
