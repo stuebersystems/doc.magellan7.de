@@ -37,6 +37,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.10 103 (unveröffentlicht)
+
+### MAGELLAN Schulverwaltung
+
+* CHANGE: Eingebbare Zeichenlänge auf 100 Zeichen für die Felder unter `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalB1-MerkmalB4` und `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalT1-MerkmalT4` erhöht. Anzeige in den dazugehörigen Auswahlliste angepasst.
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* NEW: Kursliste (Kontrolle Fachstatus).rpt
+
 ### Version 10.0.9 103 (26.09.2023)
 
 !!! danger "Wichtig"
