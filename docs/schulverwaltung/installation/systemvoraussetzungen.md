@@ -2,7 +2,7 @@
 
 ## Version 11
 
-**Die Teil ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
+**Dieser Teil ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
 
 |MAGELLAN| Kompatibilität|
 --|--|
