@@ -49,6 +49,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * NEW: Kursliste (Kontrolle Fachstatus).rpt
 * NEW: Lehrer (Tutor und Schüler aller Klassen).rpt
+* NEW: Mahnungen (ISBN, Signatur, Barcode).rpt
 
 ### Version 10.0.9 103 (26.09.2023)
 

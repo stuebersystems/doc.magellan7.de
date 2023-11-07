@@ -22,6 +22,10 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 10. Wir mö
 
 ## MAGELLAN Schulverwaltung
 
+### Sammelzuweisung
+
+Die Sammelzuweisungen in den Menüs `Bewerber > Bewerber > Sammelzuweisung` und `Schüler > Schüler > Sammelzuweisung` wurden für die Filterung der Schüler- oder Bewerberdatensätze um die Anzeige der Felder `Geburtsort` und `Geburtsland` erweitert.
+
 ### Allgemein
 
 ### Menü Schüler
