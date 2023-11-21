@@ -9,6 +9,8 @@
 [7]:/assets/images/neues/11.007.png "Neue Spalten in der Schülerauswahlliste"
 [8]:/assets/images/neues/11.008.png "Signatur wird unter Bücher/Medien > Vorgänge gezeigt"
 [9]:/assets/images/neues/11.009.png "Vorhalbjahresnote"
+[10]:/assets/images/neues/11.010.png "Sortierung Schulen"
+
 
 **Dieser Teil ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
 
@@ -24,11 +26,13 @@ Um für Berichte die Inhalte der Tabelle Wortersetzungen verwenden zu können (b
 
 Der Import für Schüler- oder Bewerberdaten wurde um folgende Felder ergänzt:
 
-* `Fremdsprache1Referenz`
-* `Fremdsprache2Referenz`
-* `Fremdsprache3Referenz`
-* `Fremdsprache4Referenz`
-* `voraussichtliches Ende`
+Importfeld|MAGELLAN-Feld
+:--|:--
+ `Fremdsprache1Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.1 > Referenz`
+ `Fremdsprache2Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.2 > Referenz`
+ `Fremdsprache3Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.3 > Referenz`
+ `Fremdsprache4Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.4 > Referenz`
+ `VoraussichtlichesEnde`|`Schüler/Bewerber/Vagabunden > Daten2 > Abgang > voraus. Ende`
 
 ## MAGELLAN Schulverwaltung
 
@@ -44,12 +48,16 @@ Der Import für Schüler- oder Bewerberdaten wurde um folgende Felder ergänzt:
 ![Endnote des vorangegangenen Halbjahres](/assets/images/neues/11.003.png)
 
 * Unter `Schüler > Daten 2` wurde beim Zuweisen der Herkunftschule die Liste der Schulen ergänzt um den Status und die Anzeige nach Status, Favorit und alphabetisch geordnet.
+
+![Sortierung der Schulen unter "Daten2 > Herkunftsschulen"](/assets/images/neues/11.010.png)
+
 * Die Sammelzuweisungen unter `Schüler > Schüler > Sammelzuweisung` wurden für die Filterung der Schüler um die Anzeige der Felder `Geburtsort` und `Geburtsland` erweitert.
-* Neues Feld `Rufname` unter `Schüler > Daten1` und in der Auswahlliste.
+* Neues Feld `Rufname` unter `Schüler > Daten1` und in der Auswahlliste für Schüler und Vagabunden.
 
 ### Menü Bewerber
 
 * Die Sammelzuweisungen unter `Schüler > Schüler > Sammelzuweisung` wurden für die Filterung der Bewerberdatensätze um die Anzeige der Felder `Geburtsort` und `Geburtsland` erweitert.
+* Neues Feld `Rufname` unter `Bewerber > Daten1` und in der Auswahlliste.
 
 ### Menü Klassen
 
@@ -66,6 +74,10 @@ Der Import für Schüler- oder Bewerberdaten wurde um folgende Felder ergänzt:
 
 ### Menü Abitur
 
+### Filterung nach Fachkategorie, Aufgabenbereich
+
+In der Ansicht `Abitur > Qualifikation` kann die Liste der Schülerfächer nach dem Aufgabenbereich oder der Fachkategorie gefiltert werden. Die Aufgabenbereiche und Fachkategorien ergeben sich aus der Zuordnung der Werte unter `Extras > Schlüsselverzeichnisse > Fächer`. 
+
 ### Prüfungslisten drucken
 
 Der Vorfilter für die Befüllung der Prüfungslisten wurde erweitert um das Feld Lehrer, zusätzlich ist es auch möglich statt eines gezielt gewählten Faches ein `*` als Platzhalter für alle Fächer zu verwenden.
@@ -74,7 +86,7 @@ Der Vorfilter für die Befüllung der Prüfungslisten wurde erweitert um das Fel
 
 ### Prüfungsnoten erfassen erweitert
 
-Im Menü `Abitur` wurde die Liste zur Eingabe der Prüfungsnoten erweitert. Sie können die gewohnte Ansicht nutzen oder das Häkchen vor `Alle Prüfungsfächer` aktivieren. Die Anzeige lädt im Anschluss alle Prüfungsfachzeilen der Prüflinge in eine filterbare und nach Excel exportierbare Liste.
+Im Menü `Abitur` wurde die Liste zur Eingabe der Prüfungsnoten (Fächer, die auf die Karte Prüfungen übertragen wurde) erweitert. Sie können die gewohnte Ansicht nutzen oder das Häkchen vor `Alle Prüfungsfächer` aktivieren. Die Anzeige lädt im Anschluss alle Prüfungsfachzeilen der Prüflinge eines Abiturjahrgangs in eine filterbare und nach Excel exportierbare Liste.
 
 ### Aufrufe verschoben
 
