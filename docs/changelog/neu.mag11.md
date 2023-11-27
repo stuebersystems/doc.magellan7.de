@@ -22,7 +22,7 @@ Um für Berichte die Inhalte der Tabelle Wortersetzungen verwenden zu können (b
 
 ## MAGELLAN Administrator
 
-### schueler_import.csv 
+### schueler_import.csv
 
 Der Import für Schüler- oder Bewerberdaten wurde um folgende Felder ergänzt:
 

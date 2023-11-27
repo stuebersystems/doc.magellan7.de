@@ -52,6 +52,9 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * NEW: `Mahnungen (ISBN, Signatur, Barcode).rpt`
 * CHANGE: `BER-Schul Z 302 (03.23).rpt` Freiwilliger Unterricht wird gefüllt mit Bemerkungen, die das Merkmal `AG` oder `freiw` haben.
 * CHANGE: `BER-Schul Z 250 (03.23).rpt` Wenn im Notenkürzel für Tendenznoten ein `+` oder ein `-` angegeben ist, wird es für die Anzeige der Noten unterdrückt.
+* FIX: `RLP-BG (Punktekreditkarte-2010).rpt`
+* FIX: `RLP-GY-Punktekreditkarte-2012.rpt`
+* FIX: `SAC-BG (Punktekreditkarte-2010).rpt`
 
 ### Version 10.0.9 103 (26.09.2023)
 
