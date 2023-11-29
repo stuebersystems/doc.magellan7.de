@@ -78,11 +78,10 @@ Bitte übernehmen Sie die dargestellten Optionen und klicken auf `Next`!
 [07]:/assets/images/installation/10/fb/07.png "Text"
 ![][07]
 
+!!! danger Achtung
 
-!!! warning "Wichtig!"
-
-    Vergeben Sie ein 8-stelliges Passwort für den Benutzer `sysdba`. **Bitte stellen Sie sicher, dass dieses Passwort gesichert wird, beispielsweise in einem Passwortmanager.**
-    Dieser Benutzer hat die höchsten administrativen Rechte und kann für die Erstanmeldung an MAGELLAN verwendet werden, bevor personalisierte Benutzerzugänge verwendet werden.
+    Vergeben Sie ein 8-stelliges Passwort für den Benutzer `sysdba`. <br/>**Bitte stellen Sie sicher, dass dieses Passwort gesichert wird, beispielsweise in einem Passwortmanager.**
+    Dieser Benutzer hat die höchsten administrativen Rechte und kann für die Erstanmeldung an MAGELLAN verwendet werden, bevor personalisierte Benutzerzugänge verwendet werden. <br/><br/>Installieren Sie erstmalig Firebird 4.0.2 auf dem Rechner und wählen **kein** Kennwort, ist das Standardkennwort **masterkey** aktiv.
 
 [08]:/assets/images/installation/10/fb/08.png "Text"
 ![][08]
