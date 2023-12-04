@@ -55,6 +55,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: `RLP-BG (Punktekreditkarte-2010).rpt`
 * FIX: `RLP-GY-Punktekreditkarte-2012.rpt`
 * FIX: `SAC-BG (Punktekreditkarte-2010).rpt`
+* FIX: `SAC-BG-ABI (E.01.06).rpt`
 
 ### Version 10.0.9 103 (26.09.2023)
 
