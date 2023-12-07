@@ -1,49 +1,61 @@
-# Sorgeberechtigte eingeben
+# Kontakte (vormals Sorgeberechtigte) 
 
-Sorgeberechtigte werden in MAGELLAN zentral verwaltet. Ein Sorgeberechtigter muss daher nur einmal erfasst werden, auch wenn er mehrere Kinder an der gleichen Schule hat. Sorgeberechtigte können sowohl zusammen als Eltern erfasst werden wie auch als Einzelpersonen.
-Die Zuordnung eines Sorgeberechtigten und damit auch die Festlegung des Verhältnisses zwischen dem Schüler und dem Sorgeberechtigten (Vater, Onkel, Betreuer usw.) erfolgt nie aus dem Menü `Sorgeberechtigte` heraus, sondern wird immer vom Bewerber oder vom Schüler aus vorgenommen. Eine Anleitung dafür finden Sie jeweils im Kapitel "Bewerber" und "Schüler".
+!!!  Tipp Hinweis    
+    
+    Das Menü `Sorgeberechtigte` wird ab MAGELLAN 11 in das Menü `Kontakte` umbenannt. Hintergrund ist, dass in diesem Menü viel mehr als nur die Personensorgeberechtigten der Schüler verwaltet werden können. Sie können hier jegliche Personen anlegen, die Sie im Zusammenhang mit Schülern abbilden möchten. Das können die Eltern sein, aber auch Mitarbeiter des Jugendamtes, Betreuer in Wohngruppen, Fahrer usw.
+    Dazu passend ist der Reiter `Kinder` in den Reiter `Schüler` umbenannt worden.
 
-## Neuen Sorgeberechtigten aufnehmen
+Kontakte werden in MAGELLAN zentral verwaltet. Ein Kontakt muss daher nur einmal erfasst werden, auch wenn er mehreren Schülern der Schule mit ggfs. unterschiedlichen Rollen zugewiesen werden soll (Vater von Schüler1, Betreuer von Schüler2 usw.). 
+Die Zuordnung eines Kontaktes und damit auch die Festlegung des Verhältnisses zwischen dem Schüler und dem Kontakt (Vater, Onkel, Betreuer usw.) erfolgt nie aus dem Menü `Kontakt` heraus, sondern wird immer vom Bewerber oder vom Schüler aus vorgenommen. Eine Anleitung dafür finden Sie jeweils im Kapitel "Bewerber" und "Schüler".
 
-Einen neuen Sorgeberechtigten können Sie entweder im Rahmen der Aufnahme der Bewerber/Schüler (siehe Kapitel "Bewerber" oder "Schüler") erfassen oder direkt im Menü `Sorgeberechtigte` eingeben. 
+## Neuen Kontakt aufnehmen
 
-Um einen neuen Sorgeberechtigten aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Sorgeberechtigte`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neuer Sorgeberechtigter`.
+Einen neuen Kontakt können Sie entweder im Rahmen der Aufnahme der Bewerber/Schüler (siehe Kapitel "Bewerber" oder "Schüler") erfassen oder direkt im Menü `Kontakt` eingeben.
 
-![Neuer Sorgeberechtigter](/assets/images/sorgeberechtigte/schueler_40neuer.sorgebe.png)
+Um einen neuen Kontakt aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Kontakte`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neuer Kontakt`.
+
+![Neuer Kontakt](/assets/images/sorgeberechtigte/schueler_40neuer.sorgebe.png)
 
 Geben Sie Vor- und Nachname ein und bestätigen Sie mit `OK`.
-Der neue Sorgeberechtigte wird erstellt. Sie befinden sich automatisch auf der Registerkarte `Daten`. Sollte der Sorgeberechtigte als bereits erfasst erkannt werden, erscheint automatisch das Fenster der Doublettenprüfung (siehe `Doublettenprüfung`). Geben Sie nun die erforderlichen Daten zum Sorgeberechtigten ein.
+Der neue Kontakt wird erstellt. Sie befinden sich automatisch auf der Registerkarte `Daten`. Sollte der Kontakt als bereits erfasst erkannt werden, erscheint automatisch das Fenster der Doublettenprüfung (siehe `Doublettenprüfung`). Geben Sie nun die erforderlichen Daten zum Kontakt ein.
 
 !!! info "Hinweis"
 
     Sie können um auf Ansprechpartner oder Familienmitglieder für einen Schüler zu verweisen, vom Register `Daten1` des Schülers/Bewerbers aus auf Datensätze aus den Menüs `Personen`, `Lehrer` oder `Schüler/Bewerber` verweisen.
 
-## Registerkarte `Sorgeberechtigte > Daten`
+## Registerkarte `Kontakt > Daten`
 
-Hier können Sie neben der Adresse auch den Status der Erreichbarkeit des Sorgeberechtigten eintragen. Bei den Funktionen 1 und 8 können Sie bis zu acht besondere Funktionen wie z.B. Elternsprecher zuordnen. Die Funktionen sind Schlüsselfelder, die zuvor unter `Extras > Schlüsselverzeichnis > Funktionen (Sorgeberechtigte)` definiert werden.
+Hier können Sie neben der Adresse auch den Status der Erreichbarkeit des Kontaktes eintragen. Bei den Funktionen 1 und 8 können Sie bis zu acht besondere Funktionen wie z.B. Elternsprecher zuordnen. Die Funktionen sind Schlüsselfelder, die zuvor unter `Extras > Schlüsselverzeichnis > Funktionen (Kontakte)` definiert werden.
 
-![Ansicht `Sorgeberechtigte > Daten`](/assets/images/sorgeberechtigte/schueler_41sorge.daten.png)
+![Ansicht `Kontakte > Daten`](/assets/images/sorgeberechtigte/schueler_41sorge.daten.png)
 
-## Registerkarte `Sorgeberechtigte > Kinder`
+## Registerkarte `Kontakte > Schüler`
 
-Auf der Registerkarte `Kinder` werden alle Kinder des Sorgeberechtigten mit deren Geburtsdatum und Klassenzugehörigkeit aufgelistet.
+Auf der Registerkarte `Schüler` werden alle dem Kontakt zugeordneten Schüler mit folgenden Daten aufgelistet:
 
-![Sorgeberechtigte > Unterkarte Kinder](/assets/images/sorgeberechtigte/schueler_42sorge.kinder.png)
+* Schülername
+* Geburtsdatum
+* aktuelle Klassenzugehörigkeit
+* höchster Zeitraum
+* Laufbahneintrag (Stamm- oder Nebenschüler)
+* Verhältnis 
 
-Hier werden alle Schüler aufgelistet, die der Sorgeberechtigten `Andrea Antelami` zugewiesen wurden.
+![Kontakte > Unterkarte Schüler](/assets/images/sorgeberechtigte/schueler_42sorge.kinder.png)
 
-## Sorgeberechtigten-Liste aktuell halten
+Hier werden alle Schüler aufgelistet, die dem Kontakt `Andrea Antelami` zugewiesen wurden.
+
+## Kontakt-Liste aktuell halten
 
 ### Status
 
-Jedem Sorgeberechtigten (Mehrfachmarkierungen sind möglich) kann über `Rechtsklick > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Auf dem selben Weg können Sie den Status auch wieder ändern.
+Jedem Kontakt (Mehrfachmarkierungen sind möglich) kann über `Rechtsklick > Status zuweisen…` der Status `aktiv` bzw. `nicht aktiv` zugeordnet werden. Auf dem selben Weg können Sie den Status auch wieder ändern.
 
-Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Sorgeberechtigten des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keinem weiteren aktiven Schüler an der Schule zugeordnet wurden.
+Beim Ausschulen eines Schülers können Sie optional angeben, ob die jeweiligen Kontakte des auszuschulenden Schülers inaktiv gesetzt werden sollen, wenn diese keinem weiteren aktiven Schüler an der Schule zugeordnet wurden.
 
-### Sorgeberechtigte löschen
+### Kontakt löschen
 
-Wenn man Sorgeberechtigte löschen möchte, dann markiert man die gewünschten Datensätze in der Auswahlliste `Sorgeberechtigte` und klickt auf `Löschen`.
+Wenn man Kontakte löschen möchte, dann markiert man die gewünschten Datensätze in der Auswahlliste `Kontakte` und klickt auf `Löschen`.
 
 Vor dem eigentlichen Löschen hat man die Möglichkeit der Unterscheidung:
 
-![Sorgeberechtigte löschen](/assets/images/sorgeberechtigte/schueler_43sorge.kinder.png)
+![Kontakte löschen](/assets/images/sorgeberechtigte/schueler_43sorge.kinder.png)

@@ -33,6 +33,18 @@ Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [ht
 
 ### 2.1 Crystal Reports Runtimeversion
 
+Nr.|Was ist zu tun
+--|--
+ 1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#1-downloads-lizenzdatei-zurechtlegen)
+ 2.|Installation von [`MAGELLAN 11`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#22-magellan-11) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#21-crystal-reports-runtimeversion)
+ 3.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#3-willkommensassistent-starten-pfade-und-lizenz)
+ 4.|[Übernahme der MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb)
+ 5.|[Anpassen auf die neue Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#5-anpassen-auf-die-neue-datenstruktur)
+ 6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#6-zugriffsrechte-synchronisieren)
+ 7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#7-eigene-daten-ubernehmen)
+ 8.|[Arbeitsplatzrechner einrichten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#14-arbeitsplatzrechner-einrichten)
+
+
 Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
 
 Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.

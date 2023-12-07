@@ -1,6 +1,6 @@
 # Schüler
 
-Dieses Kapitel beschreibt die Aufnahme von Schülern mit den zugehörigen Daten (Sorgeberechtigten, Ausbildungsbetriebe und Herkunftsschulen) und die Zuordnung zu ihrer Zielklasse.
+Dieses Kapitel beschreibt die Aufnahme von Schülern mit den zugehörigen Daten (Kontakten, Ausbildungsbetriebe und Herkunftsschulen) und die Zuordnung zu ihrer Zielklasse.
 
 Die Aufnahme von neuen Schülern an der Schule erfolgt in zwei Schritten:
 
@@ -35,7 +35,7 @@ Gibt es einen Schüler bereits als Abgänger, Bewerber oder aktiven Schüler, er
 
 !!! info "Hinweis"
 
-    Die Doublettenprüfung wird für neue Schüler, Bewerber, Lehrer, Klassen, Sorgeberechtigte und Personen durchgeführt.
+    Die Doublettenprüfung wird für neue Schüler, Bewerber, Lehrer, Klassen, Kontakte und Personen durchgeführt.
 
 ## Registerkarte `Daten 1`
 
@@ -124,7 +124,7 @@ Dem jeweiligen Feld `Abschluss`  (also ABS oder BBS) sind die Daten des Schlüss
 
 ## Registerkarte `Daten 3`
 
-Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewiesen werden. Jedem Schüler kann individuell der Auskunftsstatus `Geheim` zuwiesen werden. Dieser Status wird dann mit einem roten Symbol in jeder Registerkarte oben gekennzeichnet. Jeder MAGELLAN-Benutzer erkennt so auf Anhieb, dass sie über den entsprechenden Schüler keine Auskünfte herausgeben darf. Zusätzlich wird die Schüler- oder Sorgeberechtigtenzeile rot in der Auswahlliste dargestellt.
+Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewiesen werden. Jedem Schüler kann individuell der Auskunftsstatus `Geheim` zuwiesen werden. Dieser Status wird dann mit einem roten Symbol in jeder Registerkarte oben gekennzeichnet. Jeder MAGELLAN-Benutzer erkennt so auf Anhieb, dass sie über den entsprechenden Schüler keine Auskünfte herausgeben darf. Zusätzlich wird die Schüler- oder Kontaktzeile rot in der Auswahlliste dargestellt.
 
 ![Unterkarte Daten3](/assets/images/schueler/daten3.png)
 

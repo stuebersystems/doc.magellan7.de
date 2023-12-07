@@ -47,7 +47,31 @@ plugins:
 
 # Extensions    
 markdown_extensions:
-    - admonition
+  - markdown.extensions.admonition
+  - markdown.extensions.abbr
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.tasklist:
+      custom_checkbox: true  
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   
 # Navigation  
 nav:
@@ -118,7 +142,7 @@ nav:
       - Klassen: schulverwaltung/howto/classes.md
       - Bewerber: schulverwaltung/howto/bewerber.md
       - Schüler: schulverwaltung/howto/schueler.md
-      - Sorgeberechtigte: schulverwaltung/howto/sorgeberechtigte.md
+      - Kontakte: schulverwaltung/howto/sorgeberechtigte.md
       - Betriebe und Schulen: schulverwaltung/howto/betriebe.schulen.md
       - Personen und Adressen: schulverwaltung/howto/personen.md
       - Sortieren, Gruppieren, Filtern, Suchen: schulverwaltung/howto/sort-group-filter-search.md

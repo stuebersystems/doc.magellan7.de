@@ -1,6 +1,6 @@
 # Bewerber
 
-Dieses Kapitel beschreibt die Aufnahme der Bewerber mit den zugehörigen Daten der Sorgeberechtigten, der Ausbildungsbetriebe und Herkunftsschulen. Die Aufnahme von neuen Schülern an der Schule erfolgt in zwei Schritten:
+Dieses Kapitel beschreibt die Aufnahme der Bewerber mit den zugehörigen Daten der Kontakte, der Ausbildungsbetriebe und Herkunftsschulen. Die Aufnahme von neuen Schülern an der Schule erfolgt in zwei Schritten:
 
 1. Erfassen der Stammdaten des Bewerbers.
 
@@ -21,7 +21,7 @@ Ohne Bewerberaufnahme|Der Schüler wird direkt als Schüler im Menü `Schüler` 
 
 ## Bewerber eingeben
 
-In MAGELLAN können Sie einen möglichen Schüler für das nächste Schuljahr zunächst als Bewerber aufnehmen. Diesen Bewerber können Sie mit allen notwendigen Stammdaten inkl. seiner Sorgeberechtigten und eventuellen Ausbildungsbetriebe aufnehmen. Über ein Bewerberverfahren können Sie bestimmte Bewerber zu einem Zeitpunkt als zukünftige Schüler an Ihrer Schule annehmen. Aus dem Bewerber wird dann per Knopfdruck ein Schüler, ohne dass Sie die Stammdaten nochmals erfassen müssen. Bewerber besitzen keinen Zeitraumbezug, da sie noch keiner Klasse zugeordnet sind.
+In MAGELLAN können Sie einen möglichen Schüler für das nächste Schuljahr zunächst als Bewerber aufnehmen. Diesen Bewerber können Sie mit allen notwendigen Stammdaten inkl. seiner Kontakte und eventuellen Ausbildungsbetriebe aufnehmen. Über ein Bewerberverfahren können Sie bestimmte Bewerber zu einem Zeitpunkt als zukünftige Schüler an Ihrer Schule annehmen. Aus dem Bewerber wird dann per Knopfdruck ein Schüler, ohne dass Sie die Stammdaten nochmals erfassen müssen. Bewerber besitzen keinen Zeitraumbezug, da sie noch keiner Klasse zugeordnet sind.
 
 Um einen neuen Bewerber aufzunehmen, wählen Sie das Menü `Bewerber` und klicken dann das `Plus` (alternativ `STRG+N`). Es öffnet sich das Dialogfenster `Neuer Bewerber`.
 
@@ -55,7 +55,7 @@ Beim Anlegen von neuen Bewerbern können Sie Felder automatisch vorbefüllen las
 
 !!! warning "Wichtig"
 
-    Ausnahmen bilden dabei die folgenden Felder und Register: `Nachname`, `Vorname`, `Geburtsdatum`, `Geburtsort`, `Bemerkung`, Daten der Registerkarte `Sorgeberechtigte` und Daten der Registerkarte `Extras`. 
+    Ausnahmen bilden dabei die folgenden Felder und Register: `Nachname`, `Vorname`, `Geburtsdatum`, `Geburtsort`, `Bemerkung`, Daten des Abschnitts `Daten1 > Familie` und Daten der Registerkarte `Extras`. 
     Im nachfolgenden Abschnitt finden Sie eine Übersicht aller zu übertragenden Felder.
 
 #### Per Vorlage ausfüllbare Felder
@@ -171,19 +171,19 @@ Die Bewerbungsdaten des Bewerbers finden Sie unter Bewerbung. Hier können Sie i
 
 ### `Familie`
 
-Ist der Bewerber noch minderjährig, so können Sie diesem einen oder mehrere Sorgeberechtigte im Bereich `Familie` zuordnen.
+Sie dem Schüler einen oder mehrere Kontakte im Bereich `Familie` zuordnen.
 Hier kann auch auf Datensätze aus den Menüs `Personen` oder `Lehrer` verwiesen werden, wenn Mitarbeiter Eltern der Schüler sind.
 Um Geschwisterkinder erkennbar zu verbinden, kann auch auf andere `Schüler` verwiesen werden.
 
- ![Klicken Sie auf `Hinzufügen`, um einen neuen Sorgeberechtigten hinzuzufügen. Sie können auf Daten aus den Menüs Schüler, Bewerber, Lehrer, Personen und Sorgeberechtigte verweisen.](/assets/images/bewerber/schuelersorge.png)
+ ![Klicken Sie auf `Hinzufügen`, um einen neuen Kontakt hinzuzufügen. Sie können auf Daten aus den Menüs Schüler, Bewerber, Lehrer, Personen und Kontakt verweisen.](/assets/images/bewerber/schuelersorge.png)
 
-Im Dialogfenster `Neuer Sorgeberechtigter` können Sie entweder einen bereits verzeichneten Sorgeberechtigten (Personen, Lehrer, Schüler) suchen oder direkt einen neuen Sorgeberechtigten aufnehmen.
+Im Dialogfenster `Neues Familienmitglied` können Sie entweder einen bereits verzeichneten Kontakt (Personen, Lehrer, Schüler, Kontakte) suchen oder direkt einen neuen Kontakt aufnehmen.
 
 !!! info "Hinweis"
 
-    Sorgeberechtigte werden in MAGELLAN zentral verwaltet. Besitzt ein Sorgeberechtigter zwei oder mehr Kinder an der Schule, so wird er nur einmal in den Stammdaten von MAGELLAN angelegt.
+    Kontakte werden in MAGELLAN zentral verwaltet. Hat ein Kontakt einen Bezug zu zwei oder mehr Schülern an der Schule, so wird er nur einmal in den Stammdaten von MAGELLAN angelegt.
 
-Nachdem Sie den Sorgeberechtigten festgelegt haben, müssen Sie noch das `Verhältnis` zwischen dem Schüler und dem Sorgeberechtigten festlegen. Einige Werte sind hierfür vorgegeben, 10 weitere Werte können Sie für Ihre Datenbank anpassen. Diese Möglichkeit finden Sie unter `Extras > Bezeichnungen anpassen`. Vergeben Sie hier in der Spalte `durch` eigene Verhältniswerte.
+Nachdem Sie den Kontakt festgelegt haben, müssen Sie noch das `Verhältnis` zwischen dem Schüler und dem Kontakt festlegen. Einige Werte sind hierfür vorgegeben, 10 weitere Werte können Sie für Ihre Datenbank anpassen. Diese Möglichkeit finden Sie unter `Extras > Bezeichnungen anpassen`. Vergeben Sie hier in der Spalte `durch` eigene Verhältniswerte.
 
 ![Verzeichnisse > Bezeichnungen anpassen](/assets/images/schueler_10bezeichnungen.anpassen.png)
 
@@ -191,35 +191,28 @@ Nachdem Sie den Sorgeberechtigten festgelegt haben, müssen Sie noch das `Verhä
 
 !!! info "Hinweis"
 
-    Bitte weisen Sie auch eine `Benachrichtigungsart` zu, Sie können hiermit steuern, ob dieser Sorgeberechtigte z.B. bei Serienbriefen/Serienmails mit berücksichtigt werden soll oder nicht.
+    Bitte weisen Sie auch eine `Benachrichtigungsart` zu, Sie können hiermit steuern, ob dieser Kontakt z.B. bei Serienbriefen/Serienmails mit berücksichtigt werden soll oder nicht.
 
-Die Felder `Briefempfänger` und `Briefanrede` können Sie verwenden um Sorgeberechtigte mit unterschiedlichen Nachnamen korrekt anzusprechen. Beim Zuweisen des Sorgeberechtigten zum Schüler werden diese Felder vorbefüllt, dabei werden die Daten des Sorgeberechtigten (Anrede, Name) ausgewertet um diese Felder korrekt zu befüllen.
+Die Felder `Briefempfänger` und `Briefanrede` können Sie verwenden um Kontakte mit unterschiedlichen Nachnamen korrekt anzusprechen. Beim Zuweisen des Kontakrs zum Schüler werden diese Felder vorbefüllt, dabei werden die Daten des Kontakts (Anrede, Name) ausgewertet um diese Felder korrekt zu befüllen.
 
-Beispiel: Aus der Anrede Herr und dem Nachnamen Müller wird für das Feld Briefempfänger der Wert `Herrn Müller` generiert. Diese Daten stehen später im Seriendruck zur Verfügung und könnten im Adressfeld genutzt werden.
+Beispiel: <br/>Aus der Anrede Herr und dem Nachnamen Müller wird für das Feld Briefempfänger der Wert `Herrn Müller` generiert. Diese Daten stehen später im Seriendruck zur Verfügung und könnten im Adressfeld genutzt werden.
 
 Im Feld Briefanrede würde sich `Sehr geehrter Herr Müller,` ergeben. Dieses Feld können Sie später als Anrede im Seriendruck setzen.
 
-Legen Sie Sorgeberechtigte mit gleichem Nachnamen (Anne und Andreas Müller) als einen Datensatz im Sorgeberechtigtenmenü an und verwenden dort die Anrede `Familie` würden sich folgende Einträge ergeben:
-
-* Briefempfänger: Familie Müller
-* Briefanrede: Sehr geehrte Familie Müller,
-
 Lediglich für Eltern mit unterschiedlichen Nachnamen passen Sie die Einträge an dieser Stelle im Programm an.
 
-Die Sorgeberechtigten selbst legen Sie bitte als zwei Datensätze an, weisen beide dem Schüler zu, markieren jedoch nur einen Sorgeberechtigten im Feld Benachrichtigung mit `Immer` und passen dort die Briefanrede und den Briefempfänger an.
+Die Kontakte selbst legen Sie bitte als zwei Datensätze an, weisen beide dem Schüler zu, markieren jedoch nur einen Kontakt im Feld Benachrichtigung mit `Immer` und passen dort die Briefanrede und den Briefempfänger an.
 
 * Briefempfänger: Frau Gottsched-Wald, Herrn Gottsched
 * Briefanrede: Sehr geehrte Frau Gottsched-Wald, sehr geehrter Herr Gottsched,
 
-Durch die Nutzung der Felder `Seriendruckname 1` und `Seriendruckname 2` bei dem Vater wird im Seriendruck nur ein Dokument an `Frau Gottsched-Wald, Herrn Gottsched` gesendet.
-
 ![Eltern sind getrennt erfasst, im Seriendruck können sie gemeinsam angeschrieben werden](/assets/images/bewerber/schuelersorge1.png)
 
-Wie Sie einen Sorgeberechtigten unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt [Sorgeberechtigte](https://doc.magellan.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
+Wie Sie einen Kontakt unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt [Neuen Kontakt aufnehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
 
 #### Adressanpassungen
 
-Anhand Ihrer Eintragungen Schüler oder beim Bewerber unter Daten1 werden auch die Datensätze gefunden, die Ihnen beim Ändern von Adressen zum Mitändern angeboten werden. Ändern Sie Adressdaten beim Bewerber, Schüler, bei Lehrern, Sorgeberechtigten oder Personen wird geprüft, welche Verbindungen es innerhalb des Mandanten zu anderen gibt. 
+Anhand Ihrer Eintragungen Schüler oder beim Bewerber unter Daten1 werden auch die Datensätze gefunden, die Ihnen beim Ändern von Adressen zum Mitändern angeboten werden. Ändern Sie Adressdaten beim Bewerber, Schüler, bei Lehrern, Kontakten oder Personen wird geprüft, welche Verbindungen es innerhalb des Mandanten zu anderen gibt. 
 Als Ergebnis wird Ihnen eine Liste gezeigt, Sie entscheiden per Optionshäkchen für wen die Änderung übernommen werden soll.
 
 !!! info "Hinweis"
@@ -360,7 +353,7 @@ Klicken Sie auf `Hinzufügen`, um neue Ausbildungsdaten hinzuzufügen.
 
 Im Dialogfenster `Neue Ausbildung` können Sie für den aktuellen Bewerber dessen Ausbildungsbetrieb, seinen Ausbildungsberuf und -bildungsgang sowie weitere Ausbildungsdetails festhalten.
 
-Analog zu den Sorgeberechtigten können Sie einen schon verzeichneten Betrieb auswählen (`Betrieb suchen`...) oder direkt einen neuen Betrieb anlegen (`Neuen Betrieb anlegen`...). Betriebe werden als Stammdaten zentral verwaltet. Wie Sie einen Betrieb unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt `Betriebe eingeben`. Einem Betrieb können mehrere Schüler zugeordnet werden, genauso können Sie einem Schüler mehrere Betriebe zuordnen.
+Analog zu den Kontakten können Sie einen schon verzeichneten Betrieb auswählen (`Betrieb suchen`...) oder direkt einen neuen Betrieb anlegen (`Neuen Betrieb anlegen`...). Betriebe werden als Stammdaten zentral verwaltet. Wie Sie einen Betrieb unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt `Betriebe eingeben`. Einem Betrieb können mehrere Schüler zugeordnet werden, genauso können Sie einem Schüler mehrere Betriebe zuordnen.
 Für die Suche von Ausbildungsbetrieben stehen Ihnen Filter zur Verfügung.
 
 ![Im Dialogfenster `Betrieb auswählen` stehen Ihnen für die Suche zwei Filter zur Verfügung](/assets/images/bewerber/ausbildung03.png)
