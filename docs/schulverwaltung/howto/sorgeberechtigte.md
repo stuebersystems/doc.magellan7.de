@@ -1,8 +1,9 @@
 # Kontakte (vormals Sorgeberechtigte) 
 
-!!!  Tipp Hinweis    
+!!!  tipp Hinweis    
     
-    Das Menü `Sorgeberechtigte` wird ab MAGELLAN 11 in das Menü `Kontakte` umbenannt. Hintergrund ist, dass in diesem Menü viel mehr als nur die Personensorgeberechtigten der Schüler verwaltet werden können. Sie können hier jegliche Personen anlegen, die Sie im Zusammenhang mit Schülern abbilden möchten. Das können die Eltern sein, aber auch Mitarbeiter des Jugendamtes, Betreuer in Wohngruppen, Fahrer usw.
+    Das Menü `Sorgeberechtigte` wird ab MAGELLAN 11 in das Menü `Kontakte` umbenannt. 
+    Hintergrund ist, dass in diesem Menü viel mehr als nur die Personensorgeberechtigten der Schüler verwaltet werden können. Sie können hier jegliche Personen anlegen, die Sie im Zusammenhang mit Schülern abbilden möchten. Das können die Eltern sein, aber auch Mitarbeiter des Jugendamtes, Betreuer in Wohngruppen, Fahrer usw.
     Dazu passend ist der Reiter `Kinder` in den Reiter `Schüler` umbenannt worden.
 
 Kontakte werden in MAGELLAN zentral verwaltet. Ein Kontakt muss daher nur einmal erfasst werden, auch wenn er mehreren Schülern der Schule mit ggfs. unterschiedlichen Rollen zugewiesen werden soll (Vater von Schüler1, Betreuer von Schüler2 usw.). 
