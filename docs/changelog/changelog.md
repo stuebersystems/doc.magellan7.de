@@ -42,6 +42,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 ### MAGELLAN Schulverwaltung
 
 * CHANGE: Eingebbare Zeichenlänge auf 100 Zeichen für die Felder unter `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalB1-MerkmalB4` und `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalT1-MerkmalT4` erhöht. Anzeige in den dazugehörigen Auswahlliste angepasst.
+* FIX: Problem beim Versetzen von Schülern in Mandanten behoben
 
 #### Berichte
 
