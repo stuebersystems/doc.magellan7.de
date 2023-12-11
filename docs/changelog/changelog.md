@@ -37,6 +37,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.11 103 (11.12.2023)
+
+### Installation
+
+* FIX: Das Installationspaket enthält alle neuen Berichte.
+
 ### Version 10.0.10 103 (11.12.2023)
 
 ### MAGELLAN Schulverwaltung
