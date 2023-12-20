@@ -4,10 +4,10 @@ In diesem Kapitel werden Sonderfälle in Schülerlaufbahnen behandelt.
 
 ## Schüler pausiert
 
-Ab MAGELLAN 7 gibt es einen neuen Status um Schüler, die vorübergehend Ihre Schule nicht besuchen (zum Beispiel weil ein Auslandsjahr absolviert wird), markieren zu können.
+Es gibt einen Status um Schüler, die vorübergehend Ihre Schule nicht besuchen (zum Beispiel weil ein Auslandsjahr absolviert wird), markieren zu können.
 Tragen Sie als erstes die für Ihre Schule relevanten Gründe unter `Extras > Schlüsselverzeichnisse > Fehlgründe` mit ein, vergeben Sie pro Grund bitte mindestens ein Kürzel und eine Bezeichnung.
 In der Schülerauswahlliste markieren Sie den Schüler und wählen `Rechtsklick > Status zuweisen`.
-Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten Fehlgründe gezeigt) und ein Startdatum!
+Wählen Sie "Abwesend", einen Abwesenheitsgrund (hier werden Ihre vordefinierten Fehlgründe aus `Extras > Schlüsselverzeichnisse > Fehlgründe (Schüler)` gezeigt) und ein Startdatum!
 
 ![Wählen Sie "Abwesend", einen Abwesenheitsgrund und ein Startdatum!](/assets/images/neues/pausieren01.png)
 
@@ -22,6 +22,12 @@ Der oder die ausgewählten Schüler erhalten ein neues Statussymbol, damit Sie i
 Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwesenheiten aufgelistet und editiert werden können.
 
 ![Die Eintragungen können auf der Laufbahnkarte editiert werden](/assets/images/neues/pausieren05.png)
+
+### Pausierender Schüler kehrt zurück
+
+Pausierende Schüler werden in den Assistenten zum `Schüler fortschreiben` oder `Schüler versetzen` mit angezeigt und können, falls gewünscht mit für die jeweilige Aktion ausgewählt werden, um sie ins Folgehalbjahr zu übernehmen.
+
+Falls Sie sich entscheiden die Schüler nicht auf diesem Weg mitzuführen, sondern erst die Dauer zu überbrücken, wenn der Schüler an die Schule wiederkehrt, dann können die fehlenden Halbjahre durch Kopieren als Bewerber und in die neue Klasse wieder einschulen überbrückt werden, lesen hierzu die Ausführungen unter [https://doc.magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung](https://doc.magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung).
 
 Kehrt der Schüler zurück an Ihre Schule, können Sie ihn auf zwei Wegen wieder als aktiven Schüler markieren.
 
