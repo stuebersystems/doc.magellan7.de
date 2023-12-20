@@ -106,6 +106,10 @@ Die Aufrufe für die Aktionen `Prüfungsliste` und `Sammelzuweisung` wurde ins M
 
 ![Signatur wird unter Bücher/Medien > Vorgänge gezeigt](/assets/images/neues/11.008.png)
 
+* Die Reihenfolge des angezeigten Schülernamens in mehreren Aktionen im Menü `Ausleihe` wurde im kombinierten Namensfeld von `Vorname Nachname` auf `Nachname, Vorname` geändert.
+
+![Anzeige des Ausleihernamens geändert](/assets/images/neues/11.011.png)
+
 ## MyMAGELLAN
 
 * Das neue Feld `Vorhalbjahresnote` kann im MyMAGELLAN Center mit in die MyMAGELLAN-Dateien übergeben werden. In MyMAGELLAN kann die Spalte in den Ansichten `Schüler` und `Fächer` sichtbar (zur Information, nicht editierbar) gezeigt werden.
