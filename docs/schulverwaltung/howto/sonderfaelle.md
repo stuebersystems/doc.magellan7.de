@@ -25,7 +25,7 @@ Auf der Laufbahnkarte gibt es einen neuen Bereich, in dem die Zeiten dieser Abwe
 
 ### Pausierender Schüler kehrt zurück
 
-Pausierende Schüler werden in den Assistenten zum `Schüler fortschreiben` oder `Schüler versetzen` mit angezeigt und können, falls gewünscht mit für die jeweilige Aktion ausgewählt werden, um sie ins Folgehalbjahr zu übernehmen.
+Pausierende Schüler werden in den Assistenten zum `Schüler fortschreiben` oder `Schüler versetzen` mit angezeigt und können, falls gewünscht, mit für die jeweilige Aktion ausgewählt werden, um sie ins Folgehalbjahr zu übernehmen. 
 
 Falls Sie sich entscheiden die Schüler nicht auf diesem Weg mitzuführen, sondern erst die Dauer zu überbrücken, wenn der Schüler an die Schule wiederkehrt, dann können die fehlenden Halbjahre durch Kopieren als Bewerber und in die neue Klasse wieder einschulen überbrückt werden, lesen hierzu die Ausführungen unter [https://doc.magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung](https://doc.magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung).
 
