@@ -110,6 +110,10 @@ Die Aufrufe für die Aktionen `Prüfungsliste` und `Sammelzuweisung` wurde ins M
 
 ![Anzeige des Ausleihernamens geändert](/assets/images/neues/11.011.png)
 
+* Unter `Vorgänge > Aktuell/Historie` wird die Signaturnummer der Exemplare für eine bessere Sortierbarkeit eingeblendet.
+
+![Anzeige der Signaturnummer](/assets/images/neues/11.012.png)
+
 ## MyMAGELLAN
 
 * Das neue Feld `Vorhalbjahresnote` kann im MyMAGELLAN Center mit in die MyMAGELLAN-Dateien übergeben werden. In MyMAGELLAN kann die Spalte in den Ansichten `Schüler` und `Fächer` sichtbar (zur Information, nicht editierbar) gezeigt werden.
