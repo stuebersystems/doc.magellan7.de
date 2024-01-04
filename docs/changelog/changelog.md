@@ -37,6 +37,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
+### Version 10.0.121 103 (unveröffentlicht)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
+
+* FIX: [SAC-APO-BGY-2021.dws](https://my.hidrive.com/lnk/sjxEtA5r) (Einbringung Geschichte in der Fachrichtung Gesundheit und Sozialwesen)
+
+SAC-APO-BGY-2021 
+
 ### Version 10.0.11 103 (11.12.2023)
 
 ### Installation
