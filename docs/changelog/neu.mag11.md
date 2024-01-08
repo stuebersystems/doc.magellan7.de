@@ -36,6 +36,10 @@ Importfeld|MAGELLAN-Feld
 
 ## MAGELLAN Schulverwaltung
 
+### Geschwindigkeit
+
+* Die Ladegeschwindigkeiten der Menüpunkte `Schüler`, `Bewerber`, `Lehrer`, `Personen` und `Kontakte` wurden optimiert.
+
 ### Menü Schüler
 
 * Beim Einschulen einer Schülerkopie wird die Herkunftsschule aktualisiert.
