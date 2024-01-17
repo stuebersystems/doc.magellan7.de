@@ -37,7 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 10
 
-### Version 10.0.121 103 (unveröffentlicht)
+### Version 10.0.12 103 (unveröffentlicht)
 
 #### MAGELLAN
 
