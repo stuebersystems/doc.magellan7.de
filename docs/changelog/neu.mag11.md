@@ -12,9 +12,7 @@
 [10]:/assets/images/neues/11.010.png "Sortierung Schulen"
 
 
-**Dieser Teil ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
-
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 10. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 11 geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 10. Wir möchten Ihnen hier gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 11 geben.
 
 ## Crystal Reports
 
@@ -53,7 +51,7 @@ Importfeld|MAGELLAN-Feld
 
 * Unter `Schüler > Daten 2` wurde beim Zuweisen der Herkunftschule die Liste der Schulen ergänzt um den Status und die Anzeige nach Status, Favorit und alphabetisch geordnet.
 
-![Sortierung der Schulen unter "Daten2 > Herkunftsschulen"](/assets/images/neues/11.010.png)
+![Sortierung der Schulen](/assets/images/neues/11.010.png)
 
 * Die Sammelzuweisungen unter `Schüler > Schüler > Sammelzuweisung` wurden für die Filterung der Schüler um die Anzeige der Felder `Geburtsort` und `Geburtsland` erweitert.
 * Neues Feld `Rufname` unter `Schüler > Daten1` und in der Auswahlliste für Schüler und Vagabunden.
