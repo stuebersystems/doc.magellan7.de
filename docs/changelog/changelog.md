@@ -39,9 +39,19 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.121 103 (unveröffentlicht)
 
+#### MAGELLAN
+
+* FIX: SDTF-Synchronisation: Nur Daten des eigenen Mandanten sind sichtbar.
+
 #### MyMAGELLAN Center
 
 * FIX: Personalnummer (nicht editierbar) wird korrekt importiert. 
+
+#### Berichte
+
+Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* NEW: `Schülerliste (für CSV-Export).rpt`
 
 #### Skripte
 
