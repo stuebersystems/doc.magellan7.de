@@ -11,7 +11,6 @@
 [9]:/assets/images/neues/11.009.png "Vorhalbjahresnote"
 [10]:/assets/images/neues/11.010.png "Sortierung Schulen"
 
-
 Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 10. Wir möchten Ihnen hier gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 11 geben.
 
 ## Crystal Reports
