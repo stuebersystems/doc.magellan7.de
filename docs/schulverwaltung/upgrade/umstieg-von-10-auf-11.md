@@ -1,11 +1,13 @@
 # Umstieg von MAGELLAN 10 auf MAGELLAN 11
 
-**Die Anleitung ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
+!!! tipp "Ausgangsversion"
 
-Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 10 Version auf MAGELLAN 11 zu aktualisieren.
+        Die Voraussetzung für die nachstehenden Punkte ist, dass Sie MAGELLAN 10 einsetzen. Sie müssen nicht die jüngste MAGELLAN 10-Ausgabe nutzen, das wird bei der Umstellung auf Version 11 mit erledigt.
 
 !!! tipp "Benötigen Sie unsere Unterstützung?"
         Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
+
+Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 10 Version auf MAGELLAN 11 zu aktualisieren.
 
 Nr.|Was ist zu tun
 --|--
@@ -43,7 +45,6 @@ Nr.|Was ist zu tun
  6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#6-zugriffsrechte-synchronisieren)
  7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#7-eigene-daten-ubernehmen)
  8.|[Arbeitsplatzrechner einrichten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#14-arbeitsplatzrechner-einrichten)
-
 
 Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
 

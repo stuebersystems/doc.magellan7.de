@@ -94,6 +94,11 @@ Im Menü `Abitur` wurde die Liste zur Eingabe der Prüfungsnoten (Fächer, die a
 
 Die Aufrufe für die Aktionen `Prüfungsliste` und `Sammelzuweisung` wurde ins Menüband verschoben.
 
+### Berichte
+
+* `Schülerliste (Prüfungsfächer Fachwahlkarte).rpt`
+* `Schülerliste (Prüfungsfächer Qualifikationskarte).rpt`
+
 ## MAGELLAN Bibliothek
 
 * Neue Sammelzuweisung um Medienausleihern eine verlängerte Ausleihdauer gesammelt zuweisen zu können.
