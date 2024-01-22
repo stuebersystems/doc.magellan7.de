@@ -38,7 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.1 1100 (unveröffentlicht)
+### Version 11.0.2 1100 (22.01.2024)
 
 Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog/neu.mag11/).
 
