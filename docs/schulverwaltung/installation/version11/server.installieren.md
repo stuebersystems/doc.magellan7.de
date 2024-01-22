@@ -1,7 +1,5 @@
 ﻿# Den Server oder einen Einzelplatz einrichten
 
-**Die Anleitung ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
-
 In diesem Abschnitt wird beschrieben, wie ein Platz eingerichtet wird, auf dem lokal die Datenbank gespeichert wird. 
 In der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus nicht auf den Server zugeriffen werden kann, beispielsweise ein Testrechner.
 

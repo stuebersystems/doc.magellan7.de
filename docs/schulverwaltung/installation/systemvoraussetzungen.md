@@ -2,8 +2,6 @@
 
 ## Version 11
 
-**Dieser Teil ist aktuell in Vorbereitung. <br/>MAGELLAN 11 erscheint voraussichtlich im 1. Quartal 2024**
-
 |MAGELLAN| Kompatibilität|
 --|--|
 |**Betriebssystem 32-Bit**|Windows  8/10 |
