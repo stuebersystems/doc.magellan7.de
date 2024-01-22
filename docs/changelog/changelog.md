@@ -2,13 +2,7 @@
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in MAGELLAN. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
-* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
-
-  * [2023](https://doc.magellan.stueber.de/changelog/changelog2023/)
-  * [2022](https://doc.magellan.stueber.de/changelog/changelog2022/)
-  * [2021](https://doc.magellan.stueber.de/changelog/changelog2021/)
-  * [2020](https://doc.magellan.stueber.de/changelog/changelog2020/)
-  * [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
+* Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https://doc.magellan.stueber.de/changelog/changelog2023/), [2022](https://doc.magellan.stueber.de/changelog/changelog2022/), [2021](https://doc.magellan.stueber.de/changelog/changelog2021/), [2020](https://doc.magellan.stueber.de/changelog/changelog2020/), [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
 
 ## Wichtige Hinweise
 
