@@ -28,6 +28,10 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
     **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
 
+!!! danger "Support für MAGELLAN 10 endet"
+
+    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 03.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+
 ## LEGENDE
 
 Abkürzung | Bedeutung
