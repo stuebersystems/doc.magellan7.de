@@ -55,7 +55,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 ## Version 10
 
-### Version 10.0.12 103 (unveröffentlicht)
+### Version 10.0.12 1003 (24.01.2024)
 
 #### MAGELLAN
 
