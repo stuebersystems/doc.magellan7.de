@@ -37,6 +37,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * FIX: `NRW-BKO-ABI.rpt` Filterung der Abiturzeugnisbemerkungen nach dem ausgewählten Halbjahr
+* FIX: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` (Anzeige des Fachs Landessprache unter "2.Fächer auf grundlegendem Anforderungsniveau" korrigiert)
 
 #### Skripte
 
@@ -56,6 +57,10 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 ## Version 10
 
 ### Version 10.0.12 1003 (24.01.2024)
+
+!!! danger "Support für MAGELLAN 10 endet"
+
+    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 03.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
 
 #### MAGELLAN
 
