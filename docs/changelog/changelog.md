@@ -34,10 +34,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * FIX: `NRW-BKO-ABI.rpt` Filterung der Abiturzeugnisbemerkungen nach dem ausgewählten Halbjahr
 * FIX: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` (Anzeige des Fachs Landessprache unter "2.Fächer auf grundlegendem Anforderungsniveau" korrigiert)
+* FIX: `BER-Schul Z 300 (03.23).rpt` (Zeilenzahl der Bemerkung erhöht)
 
 #### Skripte
 
@@ -49,7 +50,7 @@ Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog
 
 #### Berichte
 
-Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * NEW: `Schülerliste (Prüfungsfächer Fachwahlkarte).rpt`
 * NEW: `Schülerliste (Prüfungsfächer Qualifikationskarte).rpt`
