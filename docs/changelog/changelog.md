@@ -30,7 +30,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.3 1100 (unveröffentlicht)
 
-* CHANGE: Sammelzuweisung Schüler/Bwerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
+* CHANGE: Sammelzuweisung Schüler/Bewerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
+
+#### MyMAGELLAN
+
+* FIX: Wenn noch keine Zeugnisbemerkung für einen Schüler angelegt wurde, ist das Editiersymbol (Stift) deaktiviert. [Vorabdownload](https://my.hidrive.com/lnk/DpREtWUH)
 
 #### Berichte
 
@@ -51,18 +55,22 @@ Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * NEW: `Schülerliste (Prüfungsfächer Fachwahlkarte).rpt`
 * NEW: `Schülerliste (Prüfungsfächer Qualifikationskarte).rpt`
 
 ## Version 10
 
-### Version 10.0.12 1003 (24.01.2024)
-
 !!! danger "Support für MAGELLAN 10 endet"
 
     Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 03.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+
+#### MyMAGELLAN
+
+* FIX: Wenn noch keine Zeugnisbemerkung für einen Schüler angelegt wurde, ist das Editiersymbol (Stift) deaktiviert. [Download](https://my.hidrive.com/lnk/c6xEN821)
+
+### Version 10.0.12 1003 (24.01.2024)
 
 #### MAGELLAN
 
