@@ -44,7 +44,10 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * FIX: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` (Anzeige des Faches Landessprache unter "2.Fächer auf grundlegendem Anforderungsniveau" korrigiert)
 * FIX: `BER-Schul Z 300 (03.23).rpt` (Zeilenzahl der Bemerkung erhöht)
 * CHANGE: `Schul Z 500 (09.19).rpt` (für Wiederholer ist die Ausgabe des Schulhalbjahres 7 und 8 für den Einstieg im Frühjahr oder Herbst möglich)
-* FIX: `BER-Schul Z 250 (03.23).rpt` 
+* FIX: `BER-Schul Z 250 (03.23).rpt`:
+    * Klammer im Namen entfernt
+    * Tendenznotenkürzel werden um + und - gekürzt
+    * Füllwerte werden ausgegeben
 
 #### Skripte
 
