@@ -16,7 +16,7 @@ Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https:/
 
 !!! danger "Support für MAGELLAN 10 endet"
 
-    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 03.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
 
 ## LEGENDE
 
@@ -68,13 +68,17 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 !!! danger "Support für MAGELLAN 10 endet"
 
-    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 03.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
 
 #### MyMAGELLAN
 
 * FIX: Wenn noch keine Zeugnisbemerkung für einen Schüler angelegt wurde, ist das Editiersymbol (Stift) deaktiviert. [Download](https://my.hidrive.com/lnk/c6xEN821)
 
 ### Version 10.0.12 1003 (24.01.2024)
+
+!!! warning "Letzte Ausgabe von MAGELLAN 10"
+
+    Dieses Update ist die letzte Ausgabe von MAGELLAN 10, weitere Änderungen stellen wir ggfs. als Download zur Verfügung oder veröffentlichen sie innerhalb der nachfolgenden Ausgabe MAGELLAN 11.
 
 #### MAGELLAN
 
