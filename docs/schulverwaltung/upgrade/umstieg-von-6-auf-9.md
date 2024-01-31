@@ -6,19 +6,18 @@ Was|Wie
 --|--
 Alte SQL-Update-Skripte|Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
 Leere `Magellan8.fdb`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im MAGELLAN 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
-Anpassung von Version 6 auf 8|Im MAGELLAN Administrator der Version 9 ist der Assistent zur Umstellung von MAGELLAN 6 auf MAGELLAN 8 enthalten. Installieren und lizenzieren Sie MAGELLAN 9, verwenden den Assistenten wie im Abschnitt [Umstieg von 6 auf 8](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-6-auf-magellan-8) beschrieben.
+Anpassung von Version 6 auf 8|Im MAGELLAN Administrator der Version 9 ist der Assistent zur Umstellung von MAGELLAN 6 auf MAGELLAN 8 enthalten. Installieren und lizenzieren Sie MAGELLAN 9, verwenden den Assistenten wie im Abschnitt [Umstieg von 6 auf 8](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-6-auf-magellan-9) beschrieben.
 Anpassung von Version 8 auf 9|Führen Sie anschließend die Anpassung der 8er Datenbank wie in der Anleitung unter [Umstieg von 8 auf 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-8-auf-magellan-9) durch. 
 Eigene Berichte umstellen|Bitte denken Sie daran, dass die Berichte, die Sie in den Versionen vor MAGELLAN 7 selbst erstellt oder angepasst haben, noch umgestellt werden müssen. Eine Anleitung finden Sie dafür hier: [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#magellan-6-berichte-fur-7-oder-hoher-anpassen)
 
-## Umstieg von MAGELLAN 6 auf MAGELLAN 8
+## Umstieg von MAGELLAN 6 auf MAGELLAN 9
 
 !!! warning "Wichtig"
 
-    Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 8 nicht auf einem Rechner** zu verwenden, solange MAGELLAN 6 noch verwendet wird. Es kann ansonsten Probleme bei der Anzeige von Berichten geben. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. 
+    Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 9 nicht auf einem Rechner** zu verwenden, solange MAGELLAN 6 noch verwendet wird. Es kann ansonsten Probleme bei der Anzeige von Berichten geben. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. 
 
-    Für den Umstieg von MAGELLAN 6 auf MAGELLAN 8 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
+    Für den Umstieg von MAGELLAN 6 auf MAGELLAN 9 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
   
-
 ### Was ist vorab zu beachten
 
 #### Datenübernahme testen
