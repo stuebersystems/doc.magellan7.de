@@ -1,5 +1,10 @@
 # Von Version 6 auf Version 9
 
+!!! check "Benötigen Sie Hilfe beim Umstieg?"
+
+    Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen bitte Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
+        Sollten Sie von Version 6 aus umsteigen möchten, können wir auch Ihre selbsterstellten oder angepassten Berichte für die aktuelle Version umstellen.
+
 Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfolgend beschreiben wir die Schritte. Eine Installation der Version 8 oder Lizenz für Version 8 ist nicht notwendig.
 
 Was|Wie

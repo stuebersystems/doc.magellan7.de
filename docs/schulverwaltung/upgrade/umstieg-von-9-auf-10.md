@@ -1,9 +1,11 @@
 # Umstieg von MAGELLAN 9 auf MAGELLAN 10
 
-Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 10 zu aktualisieren. 
+!!! check "Benötigen Sie Hilfe beim Umstieg?"
 
-!!! tipp "Benötigen Sie unsere Unterstützung?"
-        Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
+    Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen bitte Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
+        Sollten Sie von Version 6 aus umsteigen möchten, können wir auch Ihre selbsterstellten oder angepassten Berichte für die aktuelle Version umstellen.
+
+Folgende Punkte müssen erledigt werden um Ihre MAGELLAN 9 Version auf MAGELLAN 10 zu aktualisieren. 
 
 Nr.|Was ist zu tun
 --|--
