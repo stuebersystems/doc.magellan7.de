@@ -11,7 +11,7 @@
 ### Datenübernahme testen
 
 Es empfiehlt sich mindestens einmal vorab die Datenübernahme zu testen, um sicherzustellen das beim Umstieg dann alles reibungslos läuft.
-Bei der Übernahme können Meldungen ausgegeben werden, die müssten bitte geprüft und die Ursache behoben werden, mehr dazu im Abschnitt [Meldungen](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#meldungen).
+Bei der Übernahme können Meldungen ausgegeben werden, die müssten bitte geprüft und die Ursache behoben werden, mehr dazu im Abschnitt [Meldungen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-7/#meldungen).
 Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beispielsweise ob `Schüler > Zeugnis > Fächer/Leistungen` gefüllt ist oder ob, wenn Sie Oberstufenschüler verwalten, ob die Karte `Abitur > Qualifikation` für einzelne Beispiele befüllt sind.
 
 ### Übernahme nicht übers Netzwerk
@@ -28,7 +28,7 @@ Bitte legen Sie beide Datenbanken, also die leere MAGELLAN8.fdb und Ihre gefüll
 MAGELLAN beinhaltet eine aktualisierte Schnittstelle zu Crystal Reports, damit können Sie neue Funktionen in Ihren MAGELLAN-Berichten verwenden.
 Aufgrund dieser technischen Veränderungen müssen Ihre selbsterstellte Berichte für die Verwendung in MAGELLAN  8 angepasst werden.
 
-Bitte folgen Sie hierzu der [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+Bitte folgen Sie hierzu der [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/upgrade/berichte_anpassen/)!
 
 ### Sächsische Schulen
 
@@ -36,7 +36,7 @@ Ab MAGELLAN 7 werden Schüler und Ihre Ausbildungen mittels einer GUID eindeutig
 
 ### Schüler und Schülerkopien
 
-Ab MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
+Ab MAGELLAN 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
 
 Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue MAGELLAN8.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in MAGELLAN 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
 
@@ -64,10 +64,10 @@ Bei der Übernahme der Daten aus Ihrer MAGELLAN 6-Datenbank in die MAGELLAN 8-Da
 
 |Notwendige Schritte |
 |-|
-|[1. ggfs. MAGELLAN 6 und ggfs. Firebird aktualisieren](https://doc.MAGELLAN.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/#MAGELLAN-6-und-firebird-aktualisieren)|
-|[2. 6er Datenbank vorbereiten](https://doc.MAGELLAN.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/#6er-Datenbank-vorbereiten)|
-|[3. MAGELLAN 7 installieren](https://doc.MAGELLAN.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/#MAGELLAN-8-installieren)|
-|[4. Daten aus MAGELLAN 6 nach MAGELLAN 8 übernehmen](https://doc.MAGELLAN.stueber.de/schulverwaltung/update/umstieg-von-6-auf-8/#daten-aus-MAGELLAN-6-nach-MAGELLAN-8-%C3%BCbernehmen)|
+|[1. ggfs. MAGELLAN 6 und ggfs. Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#magellan-6-und-firebird-aktualisieren)|
+|[2. 6er Datenbank vorbereiten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#6er-datenbank-vorbereiten)|
+|[3. MAGELLAN 8 installieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#magellan-8-installieren)|
+|[4. Daten aus MAGELLAN 6 nach MAGELLAN 8 übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#daten-aus-magellan-6-nach-magellan-8-ubernehmen)|
 
 ## MAGELLAN 6 und Firebird aktualisieren
 
@@ -195,7 +195,7 @@ Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordn
 
 Datenordner | Übernahme | Hinweise
 --|--|--
-Berichte|Nein| Unsere originalen Berichte sind für die Nutzung in MAGELLAN 8 angepasst, [eigene Berichte müssen entsprechend angepasst werden](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/).
+Berichte|Nein| Unsere originalen Berichte sind für die Nutzung in MAGELLAN 8 angepasst, [eigene Berichte müssen entsprechend angepasst werden](https://doc.magellan.stueber.de/schulverwaltung/upgrade/berichte_anpassen/).
 Datenbank|Nein| Die Daten aus Ihrer Datenbank werden in die neue Datenbank übertragen.
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für MAGELLAN 8 ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von MAGELLAN 8 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
@@ -239,4 +239,4 @@ Exportieren Sie dazu in der `Benutzerverwaltung` die Benutzer in eine csv-Datei 
 
 ## Eigene Berichte
 
-Eigene Berichte müssen für die Nutzung unter MAGELLAN 8  angepasst werden, eine Anleitung finden Sie im Punkt [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/berichte_anpassen/).
+Eigene Berichte müssen für die Nutzung unter MAGELLAN 8  angepasst werden, eine Anleitung finden Sie im Punkt [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/berichte_anpassen/).
