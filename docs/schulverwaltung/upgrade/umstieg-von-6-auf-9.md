@@ -17,6 +17,7 @@ Eigene Berichte umstellen|Bitte denken Sie daran, dass die Berichte, die Sie in 
     Es empfiehlt sich **MAGELLAN 6 und MAGELLAN 8 nicht auf einem Rechner** zu verwenden, solange MAGELLAN 6 noch verwendet wird. Es kann ansonsten Probleme bei der Anzeige von Berichten geben. Es werden für die neue Crystal Reports-Schnittstelle ein neuer Treiber und auch abweichende ODBC-Einstellungen vorausgesetzt. 
 
     Für den Umstieg von MAGELLAN 6 auf MAGELLAN 8 hingegen, spricht natürlich nichts dagegen, dieser Hinweis bezieht sich lediglich auf einen parallelen Einsatz der beiden Versionen.
+  
 
 ### Was ist vorab zu beachten
 
