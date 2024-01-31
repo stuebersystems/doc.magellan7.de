@@ -119,16 +119,8 @@ nav:
       - auf MAGELLAN 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
       - Archiv:
         - auf MAGELLAN 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md      
-        - auf MAGELLAN 9:
-          - von MAGELLAN 8: schulverwaltung/upgrade/umstieg-von-8-auf-9.md
-          - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-9.md
-          - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
-        - auf MAGELLAN 8:
-          - von MAGELLAN 7: schulverwaltung/upgrade/umstieg-von-7-auf-8.md
-          - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-8.md
-        - auf MAGELLAN 7:
-          - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-7.md
-          - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
+        - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
+        - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
     - Update:
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
