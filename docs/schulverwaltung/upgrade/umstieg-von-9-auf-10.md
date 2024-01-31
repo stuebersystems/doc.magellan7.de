@@ -47,7 +47,7 @@ Wenn Sie die neu zu erzeugenden Passworte per Mail verteilen möchten, kontrolli
 Bevor die neue Firebird-Version installiert wird, erstellen Sie bitte eine Sicherung der MAGELLAN-Datenbank mit dem `MAGELLAN 9 Administrator`. Aus dieser Datenbank wird später mit Firebird 4.0.2 und dem `MAGELLAN 10 Administrator` die neue Datenbank wieder hergestellt.
 Eine Anleitung zum Sichern der Datenbank finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/sicherung/).
 
-## 4. Deinstallation von Firebird 2.5.9 und MAGELMAG 9
+## 4. Deinstallation von Firebird 2.5.9 und MAGELLAN 9
 
 Öffnen Sie auf Ihrem Serverrechner den Punkt `Systemsteuerung > Programme und Features` und deinstallieren bitte Firebird 2.5.9 und `MAGELLAN 9`vollständig.
 
