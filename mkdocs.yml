@@ -110,11 +110,10 @@ nav:
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
     - Upgrade:
-      - auf MAGELLAN 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
-      - Archiv:
-        - auf MAGELLAN 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md      
-        - von MAGELLAN 6: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
-        - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
+      - 10 auf 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
+      - 9 auf 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md      
+      - 6 auf 9: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
+      - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
     - Update:
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
