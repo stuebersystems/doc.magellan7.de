@@ -51,6 +51,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
     * Klammer im Namen entfernt
     * Tendenznotenkürzel werden um + und - gekürzt
     * Füllwerte werden ausgegeben
+* FIX: `Schülerliste (mit Sorgeberechtigten).rpt` Korrektur für gewechselte Schüler
 
 #### Skripte
 
