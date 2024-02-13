@@ -55,6 +55,8 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 #### Skripte
 
 * CHANGE: SQLUpdate-Skripte aus Version 10 ergänzt, damit kann ausgehend von einer beliebigen Ausgabe von MAGELLAN 10 der Umstieg erfolgen.
+* FIX: `Skript "NRW-APO-BK-2018.dws` fehlerhafte Zulassungsberechnung (zu wenige Kurse) bei vielen Defiziten
+
 
 ### Version 11.0.2 1100 (22.01.2024)
 
