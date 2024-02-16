@@ -53,6 +53,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
     * Füllwerte werden ausgegeben
 * FIX: `Schülerliste (mit Sorgeberechtigten).rpt` Korrektur für gewechselte Schüler
 * NEW: `Sorgeberechtigte (mit SchuelerID)`
+* NEW: `SHL-GY-FHReife (2020).rpt`
 
 #### Skripte
 
