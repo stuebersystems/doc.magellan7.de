@@ -54,16 +54,19 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * FIX: `Schülerliste (mit Sorgeberechtigten).rpt` Korrektur für gewechselte Schüler
 * NEW: `Sorgeberechtigte (mit SchuelerID)`
 * NEW: `SHL-GY-FHReife (2020).rpt`
+* NEW: `SHL-GY-AZ (A4)(2020).rpt`
 
 #### Skripte
 
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
+
 * CHANGE: SQLUpdate-Skripte aus Version 10 ergänzt, damit kann ausgehend von einer beliebigen Ausgabe von MAGELLAN 10 der Umstieg erfolgen.
-* FIX: `Skript "NRW-APO-BK-2018.dws` fehlerhafte Zulassungsberechnung (zu wenige Kurse) bei vielen Defiziten
+* FIX: Skript `NRW-APO-BK-2018.dws` fehlerhafte Zulassungsberechnung (zu wenige Kurse) bei vielen Defiziten
+* NEW: `SHL-APO-2020.dws`
 
 #### Schnittstellen
 
 * FIX: Niedersachsen, Klimp.txt: Ausgabe der Teilnahme an "Werte und Normen" korrigiert
-
 
 ### Version 11.0.2 1100 (22.01.2024)
 
