@@ -2,7 +2,7 @@
 
 Das Programm MAGELLAN kann mit mehreren Datenbanken verbunden werden. Bei der Anmeldung an dem Schulverwaltungsmodul wird später eine Verbindung ausgewählt, die auf eine bestimmte Datenbank und Datenordner (Skripte, Berichte, Vorlagen usw.) verweist. Damit könnten auf einem Serverrechner mehrere Datenbanken (zum Beispiel mehrerer Schulen)parallel abgelegt werden, der Nutzer erhält über die Rechtevergabe in der Benutzerverwaltung dann das Recht sich an einer oder an mehreren Verbindungen anzumelden.
 
-Bei der Installation von MAGELLAN 7 werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das MAGELLAN-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
+Bei der Installation von MAGELLAN werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das MAGELLAN-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
 Eine neue Verbindung können Sie oben links über die Schaltfläche `Neuer Datensatz`anlegen!
 
 ![Klicken Sie auf `Neuer Datensatz`!](/assets/images/magellan.administrator/neuer.datensatz.png)
@@ -44,7 +44,7 @@ So geht's:
 
 Feld|Anmerkung
 --|--
-Gemeinsamer Dateipfad|Tragen Sie hier Ihren Wunschpfad für Datenbankbackups ein, der Pfad sollte auf dem Verzeichnis `Datenbank` enden.<br/><br/>Beispiel für den Standardpfad:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank`<br/><br/>Dieser Vorgabepfad kann über die `blaue Pfeiltaste` am Ende der Zeile als Vorgabe in die Zeilen `Sicherung` und `Wiederherstellung` übernommen werden.<br/>Die Vorgaben werden wie folgt ergänzt:<br/><br/>`Sicherung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Backup`<br/><br/>`Wiederherstellung`: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Datensicherung\Restore`<br/><br/>**Bitte stellen Sie sicher, dass es diese Unterverzeichnisse im Verzeichnis `Datenbank` gibt, bitte legen Sie sie ggfs. an!**
+Gemeinsamer Dateipfad|Tragen Sie hier Ihren Wunschpfad für Datenbankbackups ein, der Pfad sollte auf dem Verzeichnis `Datenbank` enden.<br/><br/>Beispiel für den Standardpfad:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan\Datenbank`<br/><br/>Dieser Vorgabepfad kann über die `blaue Pfeiltaste` am Ende der Zeile als Vorgabe in die Zeilen `Sicherung` und `Wiederherstellung` übernommen werden.<br/>Die Vorgaben werden wie folgt ergänzt:<br/><br/>`Sicherung`: `C:\Users\Public\Documents\Stueber Systems\Magellan\Datenbank\Datensicherung\Backup`<br/><br/>`Wiederherstellung`: `C:\Users\Public\Documents\Stueber Systems\Magellan\Datenbank\Datensicherung\Restore`<br/><br/>**Bitte stellen Sie sicher, dass es diese Unterverzeichnisse im Verzeichnis `Datenbank` gibt, bitte legen Sie sie ggfs. an!**
 Namenskonventionen| Wählen Sie die Benennung für die Sicherung oder wiederhergestellte Sicherung:<br/>[Datum, Uhrzeit] Verbindungsalias - Benutzer<br/>[Datum, Uhrzeit] Verbindungsalias
 Sicherung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
 Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen.
@@ -67,7 +67,7 @@ Die Sicherung oder Wiederherstellung starten Sie aus der Menüleiste über die S
 
 Feld|Anmerkung
 --|--
-Gemeinsamer Dateipfad|Tragen Sie hier den Pfad zum Verzeichnis über den Datenordnern Dokumente, Berichte, Skripte, Vorlagen und Importe ein. Möglich ist für Clientinstalltionen ein Netzwerkpfad oder einen Verweis auf ein Netzlaufwerk. Für Server- oder Einzelplatzinstallationen tragen Sie bitte den lokalen Pfad ein. Der Standardpfad für eine Server-/Einzelplatzinstallation wäre:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan 7`<br/><br/> Wenn hier einen Pfad eintragen und dieser Pfad für alle Verzeichnisse gilt, können Sie die blaue Pfeiltaste am Ende der Zeile verwenden, um den Eintrag in die weiteren Zeilen zu übernehmen.
+Gemeinsamer Dateipfad|Tragen Sie hier den Pfad zum Verzeichnis über den Datenordnern Dokumente, Berichte, Skripte, Vorlagen und Importe ein. Möglich ist für Clientinstalltionen ein Netzwerkpfad oder einen Verweis auf ein Netzlaufwerk. Für Server- oder Einzelplatzinstallationen tragen Sie bitte den lokalen Pfad ein. Der Standardpfad für eine Server-/Einzelplatzinstallation wäre:<br/>`C:\Users\Public\Documents\Stueber Systems\Magellan`<br/><br/> Wenn hier einen Pfad eintragen und dieser Pfad für alle Verzeichnisse gilt, können Sie die blaue Pfeiltaste am Ende der Zeile verwenden, um den Eintrag in die weiteren Zeilen zu übernehmen.
 Dokumente<br/>Skripte<br/>Berichte<br/>Vorlagen<br/>Importe|Tragen Sie hier den Pfad ein, an dem die Sicherung später erstellt werden soll. Alternativ können Sie auch die Eintragung aus `Gemeinsamer Dateipfad` übernehmen, die Bezeichnung des Verzeichnisses wird automatisch ergänzt.
 
 ![Gemeinsamen Dateipfad übernehmen](/assets/images/magellan.administrator/Datenordner.png)

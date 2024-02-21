@@ -26,7 +26,7 @@ Wir beschreiben in der nachstehenden Tabelle die Eingabeoptionen:
 
 Gruppe|Feld|Bedeutung
 ---|---|---
-Verbindung|Welche Verbindung soll gesichert werden?|Es wird Ihnen eine Liste Ihrer unter Server-Verwaltung angelegten Datenbankanbindungen gezeigt. Mit der Auswahl der Verbindung, wählen Sie auch die der Verbindung zugeordnete Datenbank aus, die Felder unter dem Punkt "Datenbank" werden automatisch aus den Verbindungsinformationen gefüllt.
+Verbindung|Welche Datenbank soll gesichert werden?|Es wird Ihnen eine Liste Ihrer unter Server-Verwaltung angelegten Datenbankanbindungen (zu denen jeweils eine Datenbank gehört) gezeigt. Mit der Auswahl der Verbindung, wählen Sie auch die der Verbindung zugeordnete Datenbank aus, die Felder unter dem Punkt "Datenbank" werden automatisch aus den Verbindungsinformationen gefüllt.
 Datenbank|Protokoll|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Server|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Datei|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
@@ -50,7 +50,7 @@ Verbindung|Verbindung|Um eine Sicherung wiederherstellen zu können, muss eine F
 Datenbank|Protokoll|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Server|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
 Datenbank|Datei|wird aus den Einstellungen der unter Server-Verwaltung angelegten und im Schritt zuvor ausgewählten Verbindung befüllt
-Sicherung|Sicherung|Der Pfad zum Backupverzeichnis wird auch Ihren Eintragungen für die Verbindung gelesen. <br/><br/>**Auf dem Serverrechner:**<br/>Klicken Sie bitte auf die Schaltfläche am Ende der Zeile und verweisen auf die konkrete Sicherungsdatei!<br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Datensicherung\Backup\[2019-07-25, 10-32-21] Magellan - sysdba.fbk`<br/><br/>**Vom Client aus:**<br/>Ergänzen Sie den Pfad zum Backup-Verzeichnis um den Dateinamen der Sicherung.
+Sicherung|Sicherung|Der Pfad zum Backupverzeichnis wird auch Ihren Eintragungen für die Verbindung gelesen. <br/><br/>**Auf dem Serverrechner:**<br/>Klicken Sie bitte auf die Schaltfläche am Ende der Zeile und verweisen auf die konkrete Sicherungsdatei!<br/>Beispiel: `C:\Users\Public\Documents\Stueber Systems\Magellan\Datenbank\Datensicherung\Backup\[2019-07-25, 10-32-21] Magellan - sysdba.fbk`<br/><br/>**Vom Client aus:**<br/>Ergänzen Sie den Pfad zum Backup-Verzeichnis um den Dateinamen der Sicherung.
 Sicherung|Wiederherstellung|Der Pfad zum Restore-Ordner wird aus den Einstellungen der Verbindung gelesen, der neue Datenbankname wird aus dem Namen der Sicherung vom Programm selbst generiert.
 Anmeldung|Benutzer|Tragen Sie bitte die sysdba-Kennung ein!
 Anmeldung|Kennwort|Tragen Sie bitte Ihr sysdba-Passwort ein!
