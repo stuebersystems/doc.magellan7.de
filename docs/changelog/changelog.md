@@ -28,7 +28,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.3 1100 (unveröffentlicht)
+### Version 11.0.3 1101 (unveröffentlicht)
+
+!!! danger "Wichtig"
+
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+
+#### Datenstrukturänderung
+
+* FIX: Trigger in `SchuelerABIDetails` für die Felder `HJ1_Bestanden_Eingebracht`-`HJ6_Bestanden_Eingebracht`
 
 #### MAGELLAN
 
