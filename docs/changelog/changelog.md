@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.3 1101 (unveröffentlicht)
+### Version 11.0.3 1101 (05.03.2024)
 
 !!! danger "Wichtig"
 
@@ -43,6 +43,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Sammelzuweisung Schüler/Bewerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
 * FIX: Problem im Skript `Schüler korrigieren` behoben (`Schüler korrigieren` nach `Schüler wechseln` in die Ausgangsklasse, Schüler wird nicht angezeigt)
 * FIX: Anzeige von Fachtafeln mit voller Kürzellänge unter `Klassen > Zeiträume > Fachtafel` ermöglicht
+* FIX: Export/Import SAXSVS mit Lizenz Landesstatistik 2023 ermöglicht
+* NEW: `Extras > Import > Schnittstelle SchülerOnline` mit der Bundeslandeinstellung Niedersachsen ermöglicht [Abgleich SchülerOnline](https://doc.magellan.stueber.de/schulverwaltung/regionales/nrw/schueleronline/?h=sch%C3%BCler)
+
 
 #### MyMAGELLAN
 
@@ -66,6 +69,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `SHL-GY-AZ (A4)(2020).rpt`
 * NEW: `SHL-GY-ABI (2020).rpt`
 * CHANGE: `SAR-GY-ABI (GOS2.0).rpt` Platzhalter für Logodateien ergänzt, bitte beachten Sie unsere [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/sar/SAR-GY-ABI%20%28GOS2.0%29/)!
+* FIX: `Schülerpersonalblatt (A5 - Laufbahn).rpt` Korrektur Bildungsgang
 
 #### Skripte
 
