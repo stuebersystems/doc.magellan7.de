@@ -34,6 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: `Bewerber > Bewerber > Sammelzuweiung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
 * CHANGE: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweiung` und `Schüler > Schüler > Sammelzuweiung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
+* CHANGE: Unter `schüler > Daten1 > Familie` wird für Kontakte, denen eine E-Mail-Adresse hinterlegt wurde, die E-Mail-Adresse eingeblendet.
 
 #### Berichte
 
