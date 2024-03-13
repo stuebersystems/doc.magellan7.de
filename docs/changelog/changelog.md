@@ -30,6 +30,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.4 1101 (unveröffentlicht)
 
+#### MAGELLAN
+
+* CHANGE: `Bewerber > Bewerber > Sammelzuweiung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
+* CHANGE: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweiung` und `Schüler > Schüler > Sammelzuweiung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
+
 #### Berichte
 
 Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
