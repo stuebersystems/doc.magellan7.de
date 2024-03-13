@@ -212,6 +212,8 @@ nav:
           - Übersicht: schulverwaltung/regionales/berlin/fos.md
           - BER-APO-FOS-2006/2013: schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013.md
         - Statistik: schulverwaltung/regionales/berlin/statistik.md
+      - Niedersachsen: 
+        - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
       - Nordrhein-Westfalen: 
         - Abgleich mit SchülerOnline: schulverwaltung/regionales/nrw/schueleronline.md
       - Saarland: 

@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.3 1101 (unveröffentlicht)
+### Version 11.0.4 1101 (unveröffentlicht)
 
 #### Berichte
 
@@ -53,7 +53,6 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * FIX: Anzeige von Fachtafeln mit voller Kürzellänge unter `Klassen > Zeiträume > Fachtafel` ermöglicht
 * FIX: Export/Import SAXSVS mit Lizenz Landesstatistik 2023 ermöglicht
 * NEW: `Extras > Import > Schnittstelle SchülerOnline` mit der Bundeslandeinstellung Niedersachsen ermöglicht [Abgleich SchülerOnline](https://doc.magellan.stueber.de/schulverwaltung/regionales/nrw/schueleronline/?h=sch%C3%BCler)
-
 
 #### MyMAGELLAN
 
