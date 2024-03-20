@@ -38,9 +38,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
 * CHANGE: Schülerpersonalblatt (mit Fremdsprachenfolge).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
 * CHANGE: Schülerliste (zeitraumübergreifende Fehlzeiten).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
+* NEW: `Schülerliste (für CSV-Export) Ausbildungsbetrieb und -E-Mail`
 
 ### Version 11.0.3 1101 (05.03.2024)
 
