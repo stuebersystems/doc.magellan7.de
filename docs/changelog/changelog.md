@@ -43,6 +43,8 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * CHANGE: Schülerpersonalblatt (mit Fremdsprachenfolge).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
 * CHANGE: Schülerliste (zeitraumübergreifende Fehlzeiten).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
 * NEW: `Schülerliste (für CSV-Export) Ausbildungsbetrieb und -E-Mail`
+* CHANGE: `SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt`: Im Pflichtbereich kann Informatik mit ausgegeben werden
+* CHANGE: `SAR-GEMS-AZ (Klasse 5-10).rpt`: Im Pflichtbereich kann Informatik mit ausgegeben werden
 
 ### Version 11.0.3 1101 (05.03.2024)
 
