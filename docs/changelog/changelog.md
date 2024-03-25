@@ -45,6 +45,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `Schülerliste (für CSV-Export) Ausbildungsbetrieb und -E-Mail`
 * CHANGE: `SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt`: Im Pflichtbereich kann Informatik mit ausgegeben werden
 * CHANGE: `SAR-GEMS-AZ (Klasse 5-10).rpt`: Im Pflichtbereich kann Informatik mit ausgegeben werden
+* NEW: `BER-Abi-18b (Meldung zur weiteren mdl Pruefung)(12.23).rpt`
 
 ### Version 11.0.3 1101 (05.03.2024)
 
