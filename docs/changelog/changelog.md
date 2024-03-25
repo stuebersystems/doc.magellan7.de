@@ -50,6 +50,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * CHANGE: `BER-Abi 8 (05.20).rpt` umbenannt
 * NEW: `BER-Abi-5 – Mitteilung zur Abiturprüfung (VO-GO  VO-KA) (03.24).rpt`
 * NEW: `Abi-1b – Übersichtsplan über die Schullaufbahn ab 2010 – 13jähriger Bildungsgang (VO-GO) (05.20)).rpt`
+* NEW: `BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt`
 
 ### Version 11.0.3 1101 (05.03.2024)
 
