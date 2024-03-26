@@ -32,9 +32,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN
 
-* CHANGE: `Bewerber > Bewerber > Sammelzuweiung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
-* CHANGE: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweiung` und `Schüler > Schüler > Sammelzuweiung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
-* CHANGE: Unter `schüler > Daten1 > Familie` wird für Kontakte, denen eine E-Mail-Adresse hinterlegt wurde, die E-Mail-Adresse eingeblendet.
+* CHANGE: `Bewerber/Schüler > Bewerber > Sammelzuweisung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
+* NEW: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweisung` und `Schüler > Schüler > Sammelzuweisung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
+* CHANGE: Unter `Schüler > Daten1 > Familie` wird für Kontakte, denen eine E-Mail-Adresse hinterlegt wurde, die E-Mail-Adresse eingeblendet.
 
 #### Berichte
 
@@ -51,6 +51,16 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `BER-Abi-5 – Mitteilung zur Abiturprüfung (VO-GO  VO-KA) (03.24).rpt`
 * NEW: `Abi-1b – Übersichtsplan über die Schullaufbahn ab 2010 – 13jähriger Bildungsgang (VO-GO) (05.20)).rpt`
 * NEW: `BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt`
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
+
+* FIX: Skript `NRW-APO-BK-2018.dws` neu einsetzende Fremdsprache, Korrektur zu optimalen Punktzahl, [Download hier!](https://my.hidrive.com/lnk/FqWnMJhAY)
+
+#### MyMAGELLAN
+
+* FIX: Die Sortierung in der Ansicht "Kontrolle nach Klassen" wurde korrigiert.
 
 ### Version 11.0.3 1101 (05.03.2024)
 
