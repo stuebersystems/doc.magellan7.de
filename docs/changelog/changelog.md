@@ -28,6 +28,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.5 1101 (unveröffentlicht)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
+* FIX: Skript `NRW-APO-BK-2018.dws` 
+  - Rundung
+  - Vorschlagsautomatik allgemein
+  - Markierung Fremdsprachen
+
 ### Version 11.0.4 1101 (27.03.2024)
 
 #### MAGELLAN
