@@ -37,7 +37,7 @@ Die Lehrer erhalten eine Datei, in die Zeugnisdaten in der Regel außerhalb des 
 Art des Schutzes|Bemerkungen
 --|--
 Zugriffsschutz|Die Datei kann mit einem Passwort versehen werden. Hierbei gibt es drei Möglichkeiten: <br/><br/>1. Allen MyMAGELLAN-Dateien wird beim Erzeugen ein Passwort zugewiesen.<br/><br/>2. Es kann dasselbe Passwort wie für die MAGELLAN-Anmeldung der Nutzer verwendet werden.<br/><br/>3. Es kann jedem Nutzer ein individuelles MyMAGELLAN-Passwort zugewiesen werden. 
-Schutz der Dateiinhalte| Bis Ausgabe 7.1.8: <br/>Die Daten werden in einer nicht lesbare Binärdatei gespeichert<br/><br/>Seit der Ausgabe 7.1.9: <br/>Die Daten werden in einer XML-Datei verschlüsselt.<br/><br/>Unabhängig von der Ausgabe ist das Nutzerpasswort in der Datei mitgespeichert, aber zusätzlch durch eine kryptografische Funktion gegen ein Auslesen gesichert.
+Schutz der Dateiinhalte| Bis Ausgabe 7.1.8: <br/>Die Daten werden in einer nicht lesbare Binärdatei gespeichert<br/><br/>Seit der Ausgabe 7.1.9: <br/>Die Daten werden in einer XML-Datei verschlüsselt (AES-Verschlüsslung mit 256-Bit-Schlüssellänge).<br/><br/>Unabhängig von der Ausgabe ist das Nutzerpasswort in der Datei mitgespeichert, aber zusätzlch durch eine kryptografische Funktion gegen ein Auslesen gesichert.
 
 ## Übersicht der Vorgehensweise
 
