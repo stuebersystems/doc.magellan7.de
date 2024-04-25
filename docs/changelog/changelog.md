@@ -38,6 +38,12 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   - Vorschlagsautomatik allgemein
   - Markierung Fremdsprachen
 
+#### Berichte
+
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
+* NEW: `BER-Schul Z 259 (03.23).rpt`
+
 ### Version 11.0.4 1101 (27.03.2024)
 
 #### MAGELLAN
