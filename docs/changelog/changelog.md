@@ -33,6 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### MAGELLAN
 
 * FIX: Eintrag `Klasse > Klassenart ` wird korekt übernommen in `Auswahlliste Schüler > Klassenart`
+* FIX: `Bewerber > Suche`
 
 #### Skripte
 
@@ -47,6 +48,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * NEW: `BER-Schul Z 259 (03.23).rpt`
+* FIX: `DAS-Prüfungsbogen (Anlage 7 zu DIA-PO)(2018).rpt`
 
 ### Version 11.0.4 1101 (27.03.2024)
 
