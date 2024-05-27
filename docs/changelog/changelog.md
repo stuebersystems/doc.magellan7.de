@@ -49,6 +49,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 * NEW: `BER-Schul Z 259 (03.23).rpt`
 * FIX: `DAS-Prüfungsbogen (Anlage 7 zu DIA-PO)(2018).rpt`
+* CHANGE: `BER-Schul Z 322 (04.23).rpt` Leerzeichen bei Tutor/Tutorin und Leiter/Leiterin der Einrichtung ergänzt
 
 ### Version 11.0.4 1101 (27.03.2024)
 
