@@ -48,11 +48,12 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * NEW: `BER-Schul Z 259 (03.23).rpt`
+* NEW: `BER-Abi-8a – Mitteilung der Noten und Punkte des 4. Kurshalbjahres (VO-KA) – (05.20).rpt`
+* CHANGE: `BER-Schul Z 322 (04.23).rpt` Leerzeichen bei Tutor/Tutorin und Leiter/Leiterin der Einrichtung ergänzt
 * FIX: `DAS-Prüfungsbogen (Anlage 7 zu DIA-PO)(2018).rpt`
 * FIX: `BER-Schul Z 320a–b (04.23).rpt` Layoutanpassungen
 * FIX: `BER-Schul Z 324 (04.23).rpt` Layoutanpassungen
-* CHANGE: `BER-Schul Z 322 (04.23).rpt` Leerzeichen bei Tutor/Tutorin und Leiter/Leiterin der Einrichtung ergänzt
-* NEW: `BER-Abi-8a – Mitteilung der Noten und Punkte des 4. Kurshalbjahres (VO-KA) – (05.20).rpt`
+* FIX: `BER SchulZ 591 (03.20).rpt` Notenausgabe Berufsfeldübergreifender Unterricht korrigiert
 
 ### Version 11.0.4 1101 (27.03.2024)
 
