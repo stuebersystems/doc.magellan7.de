@@ -14,7 +14,6 @@ Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen
 |[Berufsschulnoten](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/bs/)|
 |[Die Fachoberschule](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/fos/)|
 
-
 ## Schnittstellen
 
 Die Anleitungen für Berliner Schnittstellen finden Sie im Dokument [Landesstatistiken](https://doc.ls.stueber.de/).
