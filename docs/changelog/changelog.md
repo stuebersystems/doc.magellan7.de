@@ -54,6 +54,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * FIX: `BER-Schul Z 320a–b (04.23).rpt` Layoutanpassungen
 * FIX: `BER-Schul Z 324 (04.23).rpt` Layoutanpassungen
 * FIX: `BER SchulZ 591 (03.20).rpt` Notenausgabe Berufsfeldübergreifender Unterricht korrigiert
+* FIX: `DAS-HS-MSA-AS (Anlage8und9).rpt`Ausgabe der Fremdsprachen auf Seite 2
 
 ### Version 11.0.4 1101 (27.03.2024)
 
