@@ -42,6 +42,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   - Rundung
   - Vorschlagsautomatik allgemein
   - Markierung Fremdsprachen
+* FIX: Skrip `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte n.e. für nicht erreicht
 
 #### Berichte
 
