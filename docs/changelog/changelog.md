@@ -34,6 +34,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Eintrag `Klasse > Klassenart ` wird korekt übernommen in `Auswahlliste Schüler > Klassenart`
 * FIX: `Bewerber > Suche`
+* NEW: Neue Schnittstelle mit der [Berliner LUSD](https://doc.ls.stueber.de/berlin/06.lusd/)
+
+#### MAGELLMA Administrator
+
+* NEW: Die Import der *.keys ist für den Import der Verzeichnisse Muttersprachen und Staatsangehörigkeiten für Berliner Schulen ergänzt worden. Die Anleitung finden Sie [hier](https://doc.ls.stueber.de/berlin/06.lusd/).
 
 #### Skripte
 
@@ -56,6 +61,13 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * FIX: `BER-Schul Z 324 (04.23).rpt` Layoutanpassungen
 * FIX: `BER SchulZ 591 (03.20).rpt` Notenausgabe Berufsfeldübergreifender Unterricht korrigiert
 * FIX: `DAS-HS-MSA-AS (Anlage8und9).rpt`Ausgabe der Fremdsprachen auf Seite 2
+* New: `MVP-FG-AZ (Qualifikationsphase)(2024).rpt`
+* New: `MVP-FG-AZ  (Vorstufe DINA4)(2024).rpt`
+* NEW: `BER-Schul Z 213 – Zeugnis der Integrierten SekundarschuleGemeinschaftsschule über den mittleren Schulabschluss (05.23).rpt`
+* NEW: `BER-Schul Z 104 – Zeugnis der Jahrgangsstufen 3 und 4 – (04.23).rpt`
+* NEW: `BER-Schul Z 106 – Zeugnis der Jahrgangsstufen 5 und 6 – (04.23).rpt`
+* NEW: `BER-Schul Z 200 (04.23).rpt`
+* NEW: `NRW-OS-Qualifikationsübersicht.rpt`
 
 ### Version 11.0.4 1101 (27.03.2024)
 
