@@ -95,13 +95,31 @@ Wenn Sie die Zulassungsdaten nicht skriptgesteuert eingeben möchten, können Si
 
 Kurse des Schülers, die nicht auf dem Abiturzeugnis erscheinen sollen, müssen Sie entsprechend markieren. Markieren Sie dazu `Manuelles Markieren`, wählen Sie die Option `Nicht auf Zeugnis drucken` und klicken Sie die entsprechenden Kurse an. Die ausgenommenen Kurse werden standardmäßig grau markiert.
 
-> #### primary::Hinweis
->
-> Die Farben in der Oberstufe im Menü „Abitur“ sind individuell einstellbar. Unter `Abitur > Farben…` legen Sie fest, welche Hintergrundfarben in der Ansicht verwendet werden sollen.
+!!! info "Hinweis"
+
+	Die Farben in der Oberstufe im Menü „Abitur“ sind individuell einstellbar. Unter `Abitur > Farben…` legen Sie fest, welche Hintergrundfarben in der Ansicht verwendet werden sollen.
 
 ## Simulationsmodus
 
 Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf `Abitur > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten `Qualifikation` und `Prüfung`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
+
+## Sammelaktion "Vorschlag zuweisen"
+
+Um den Berechnungsvorschlag für eine Gruppe von Schülern ausführen zu lassen, gibt es ab der Version 11.0.5 eine Funktion, die wir nachstehend beschreiben.
+!!! warning "Wichtig!"
+
+    Die Sammelaktion "Vorschlag zuweisen" setzt die Nutzung der Regionaleinstellung "Nordrhein-Westfalen" und des  Abiturberechnungsskripts "NRW-APO-OS-2020.dws" voraus.
+
+**Voraussetzungen:**
+
+**Region:** Für die Verbindung von MAGELLAN zu Ihrer Datenbank kann je Arbeitsplatz eine Region gewählt werden. Sie können diese Einstellung einsehen oder anpassen im Modul MAGELLAN Administrator unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindungszeile > Unterkarte Datenbank > Feld Region`. Hier muss der Wert "Nordrhein-Westfalen" gewählt sein.
+**Skriptdatei**: Den Schülern muss das Berechnungsverordnungsskript "NRW-APO-OS-2020.dws" ab der MAGELLAN-Version 11.0.5 zugewiesen sein, dieses Skript kann auf die Aktion reagieren und die Aktionen Initialisieren, Vorschlag und Berechnen für eine Gruppe von Schülern ausführen.
+
+So gehen Sie vor:
+1. Bitte markieren Sie die gewünschten Schüler in der Auswahlliste des Menüs `Abitur` und rufen den Assistenten am oberen Fensterrand unter `Abitur > Vorschlag zuweisen` auf. 
+2. Klicken Sie auf `Weiter` und `Fertigstellen` um den Assistenten auszuführen.
+
+Die Ergebnisse der Markierung und der Berechnung können Sie je Schüler auf der Karte `Qualifikation` einsehen. Wenn Sie das Meldungsfenster aufrufen, werden Ihnen die gespeicherten Meldungen des Vorschlags und der Berechnung gezeigt.
 
 ## Die Gesamtqualifikation
 
@@ -139,8 +157,6 @@ Für die Eingabe pro Schüler machen Sie auf der Registerkarte `Prüfung` folgen
 5. Markieren Sie die Sprachkenntnisse.
 
 6. Kontrollieren Sie, ob der „Status“ auf „Gesamtqualifikation erreicht“ steht. Stellen Sie ihn andernfalls manuell ein. Dieser Status wird in der Regel durch Neu berechnen durch das Skript eingestellt.
-
-
 
 Für die Eingabe mit Hilfe des Assistenten `Schriftliche Prüfungsnoten...` gehen Sie bitte wie folgt vor:
 
