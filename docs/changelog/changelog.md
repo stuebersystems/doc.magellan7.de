@@ -52,9 +52,9 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   - Gesamtnotendurchschnitt aktualisiert
   - Rundung bei mdl. Prüfung besser als schriftl.Prüfung geändert
   - Berücksichtigung Facharbeit
-  - Meldung wenn Praktikumsbescheinigung nicht erfasst ist
-  - Anpassungen für den Sammelvorschlag
-  - 4.PF und Note 0 korrigiert  
+  - Meldung wenn Praktikumsbescheinigung nicht erfasst ist, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#prufung-praktikumsbescheinigung)
+  - Anpassungen für den Sammelvorschlag, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#sammelaktion-vorschlag-zuweisen)
+  - Note 0 und 4.Prüfungsfach korrigiert  
   - Meldung "nicht bestanden" wird erst ab 3 nicht bestandenen SFs gezeigt
   - Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Eng SF ist,4*Sport)
   - mind. die Hälfte der BLNWs muss schriftlich sein
