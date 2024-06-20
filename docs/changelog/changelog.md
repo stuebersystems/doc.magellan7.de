@@ -32,13 +32,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### MAGELLAN
 
-* FIX: Eintrag `Klasse > Klassenart` wird korekt übernommen in `Auswahlliste Schüler > Klassenart`
+* FIX: Eintrag `Klasse > Klassenart` wird korrekt übernommen in `Auswahlliste Schüler > Klassenart`
 * FIX: `Bewerber > Suche`
 * NEW: erste Version der neuen Schnittstelle mit der [Berliner LUSD](https://doc.ls.stueber.de/berlin/06.lusd/)
 
 #### MAGELLAN Administrator
 
-* NEW: Die Import der *.keys ist für den Import der Verzeichnisse Muttersprachen und Staatsangehörigkeiten für Berliner Schulen ergänzt worden. Die Anleitung finden Sie [hier](https://doc.ls.stueber.de/berlin/06.lusd/).
+* NEW: Die Import der `*.keys` ist für den Import der Verzeichnisse `Muttersprachen` und `Staatsangehörigkeiten` für Berliner Schulen ergänzt worden. Die Anleitung finden Sie [hier](https://doc.ls.stueber.de/berlin/06.lusd/).
 
 #### Skripte
 
@@ -49,17 +49,17 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   - Vorschlagsautomatik allgemein
   - Markierung Fremdsprachen
 * FIX: Skript `NRW-APO-OS-2020.dws` 
-  - Gesamtnotendurchschnitt aktualisiert
+  - Durchschnittsnoten aktualisiert
   - Rundung bei mdl. Prüfung besser als schriftl.Prüfung geändert
   - Berücksichtigung Facharbeit
   - Meldung wenn Praktikumsbescheinigung nicht erfasst ist, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#prufung-praktikumsbescheinigung)
   - Anpassungen für den Sammelvorschlag, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#sammelaktion-vorschlag-zuweisen)
   - Note 0 und 4.Prüfungsfach korrigiert  
   - Meldung "nicht bestanden" wird erst ab 3 nicht bestandenen SFs gezeigt
-  - Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Eng SF ist,4*Sport)
+  - Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Englisch SF ist, 4*Sport)
   - mind. die Hälfte der BLNWs muss schriftlich sein
   - verkehrte Meldung, dass eine fortgeführte FS fehlt, wenn neueinsetzende FS fehlt, korrigiert
-* FIX: Skrip `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte n.e. für nicht erreicht
+* FIX: Skript `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte n.e. für nicht erreicht
 
 #### Berichte
 
