@@ -81,6 +81,11 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `BER-Schul Z 200 (04.23).rpt`
 * NEW: `NRW-OS-Qualifikationsübersicht.rpt`
 
+#### Schnittstellen
+
+* NEW: `SAC` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
+* NEW: `NIE` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
+
 ### Version 11.0.4 1101 (27.03.2024)
 
 #### MAGELLAN
@@ -105,6 +110,8 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `Abi-1b – Übersichtsplan über die Schullaufbahn ab 2010 – 13jähriger Bildungsgang (VO-GO) (05.20)).rpt`
 * NEW: `BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt`
 
+
+#### Statistikschnittstellen
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
