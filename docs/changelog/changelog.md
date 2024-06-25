@@ -38,6 +38,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   * Nur 3* Sport, wenn es nicht Prüfungsfach ist
   * 4 Kurse aus einer Naturwissenschaft
   * Optimierung beim Vorschlag
+* NEW: `MVP-APO-FG-2019` Diese Datei ersetzt das Skript `MVP-APO-FG-2017` und bildet neu den Umgang mit Facharbeit (als Kursleistung in BlockI) und BLL in BlockII als mdl. Prüfung ab. Die Anleitung finden Sie [hier](https://doc.la.stueber.de/06.mvp/mvp-apo-fg-2019/)!
 
 ### Version 11.0.5 1101 (20.06.2024)
 
