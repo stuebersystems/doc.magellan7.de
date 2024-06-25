@@ -28,6 +28,17 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.6 1101 (unveröffentlicht)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
+
+* FIX: `SHL-APO-2020.dws`
+  * Nur 3* Sport, wenn es nicht Prüfungsfach ist
+  * 4 Kurse aus einer Naturwissenschaft
+  * Optimierung beim Vorschlag
+
 ### Version 11.0.5 1101 (20.06.2024)
 
 #### MAGELLAN
