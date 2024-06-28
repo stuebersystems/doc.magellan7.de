@@ -30,6 +30,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.6 1101 (unveröffentlicht)
 
+#### MAGELLAN Administrator
+
+* FIX: Problem beim Synchronsieren der Zugriffsrechte bei gelöschten Benutzern behoben
+* FIX: Problem beim gesammelten Erzeugen von Passworten gelöst
+
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
@@ -39,6 +44,13 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   * 4 Kurse aus einer Naturwissenschaft
   * Optimierung beim Vorschlag
 * NEW: `MVP-APO-FG-2019` Diese Datei ersetzt das Skript `MVP-APO-FG-2017` und bildet neu den Umgang mit Facharbeit (als Kursleistung in BlockI) und BLL in BlockII als mdl. Prüfung ab. Die Anleitung finden Sie [hier](https://doc.la.stueber.de/06.mvp/mvp-apo-fg-2019/)!
+
+#### Berichte
+
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
+* CHANGE: `SHL-GY-ABI (2020)` Nummerierung der Prüfungsfächer auf Seite 3 ausgeschrieben
+* CHANGE: `MVP-FG-AZ (Qualifikationsphase)(2024).rpt` Ausgabe Berufliches Schwerpunktfach und Leistungskurs
 
 ### Version 11.0.5 1101 (20.06.2024)
 
