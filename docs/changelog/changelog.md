@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.6 1101 (unveröffentlicht)
+### Version 11.0.6 1101 (01.07.2024)
 
 #### MAGELLAN Administrator
 
