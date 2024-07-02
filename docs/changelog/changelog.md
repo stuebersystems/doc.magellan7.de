@@ -28,6 +28,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.7 1101 (unveröffentlicht)
+
+#### Berichte
+
+Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
+* NEW: `MVP-FG-AZ (Qualifikationsphase)(A3)(2024)`
+* CHANGE: `MVP-FG-AZ (Qualifikationsphase)(2024)`: Ausgabe des 1.PF, 2.PF, BSF berücksichtigt die Unterrichtsarten HF oder LK
+
 ### Version 11.0.6 1101 (01.07.2024)
 
 #### MAGELLAN Administrator
