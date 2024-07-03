@@ -49,9 +49,9 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
 
 * FIX: `SHL-APO-2020.dws`
-  * Nur 3* Sport, wenn es nicht Prüfungsfach ist
-  * 4 Kurse aus einer Naturwissenschaft
-  * Optimierung beim Vorschlag
+    * Nur 3* Sport, wenn es nicht Prüfungsfach ist
+    * 4 Kurse aus einer Naturwissenschaft
+    * Optimierung beim Vorschlag
 * NEW: `MVP-APO-FG-2019` Diese Datei ersetzt das Skript `MVP-APO-FG-2017` und bildet neu den Umgang mit Facharbeit (als Kursleistung in BlockI) und BLL in BlockII als mdl. Prüfung ab. Die Anleitung finden Sie [hier](https://doc.la.stueber.de/06.mvp/mvp-apo-fg-2019/)!
 
 #### Berichte
@@ -78,20 +78,20 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
 
 * FIX: Skript `NRW-APO-BK-2018.dws` 
-  - Rundung
-  - Vorschlagsautomatik allgemein
-  - Markierung Fremdsprachen
+    * Rundung
+    * Vorschlagsautomatik allgemein
+    * Markierung Fremdsprachen
 * FIX: Skript `NRW-APO-OS-2020.dws` 
-  - Durchschnittsnoten aktualisiert
-  - Rundung bei mdl. Prüfung besser als schriftl.Prüfung geändert
-  - Berücksichtigung Facharbeit
-  - Meldung wenn Praktikumsbescheinigung nicht erfasst ist, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#prufung-praktikumsbescheinigung)
-  - Anpassungen für den Sammelvorschlag, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#sammelaktion-vorschlag-zuweisen)
-  - Note 0 und 4.Prüfungsfach korrigiert  
-  - Meldung "nicht bestanden" wird erst ab 3 nicht bestandenen SFs gezeigt
-  - Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Englisch SF ist, 4*Sport)
-  - mind. die Hälfte der BLNWs muss schriftlich sein
-  - verkehrte Meldung, dass eine fortgeführte FS fehlt, wenn neueinsetzende FS fehlt, korrigiert
+    * Durchschnittsnoten aktualisiert
+    * Rundung bei mdl. Prüfung besser als schriftl.Prüfung geändert
+    * Berücksichtigung Facharbeit
+    * Meldung wenn Praktikumsbescheinigung nicht erfasst ist, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#prufung-praktikumsbescheinigung)
+    * Anpassungen für den Sammelvorschlag, die Anleitung finden Sie [hier.](https://doc.la.stueber.de/08.nrw/nrw-apo-os-2020/#sammelaktion-vorschlag-zuweisen)
+    * Note 0 und 4.Prüfungsfach korrigiert  
+    * Meldung "nicht bestanden" wird erst ab 3 nicht bestandenen SFs gezeigt
+    * Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Englisch SF ist, 4*Sport)
+    * mind. die Hälfte der BLNWs muss schriftlich sein
+    * verkehrte Meldung, dass eine fortgeführte FS fehlt, wenn neueinsetzende FS fehlt, korrigiert
 * FIX: Skript `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte n.e. für nicht erreicht
 
 #### Berichte
@@ -143,8 +143,6 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: `Abi-1b – Übersichtsplan über die Schullaufbahn ab 2010 – 13jähriger Bildungsgang (VO-GO) (05.20)).rpt`
 * NEW: `BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt`
 
-
-#### Statistikschnittstellen
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
@@ -258,4 +256,3 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
 * FIX: [SAC-APO-BGY-2021.dws](https://my.hidrive.com/lnk/sjxEtA5r) (Einbringung Geschichte in der Fachrichtung Gesundheit und Sozialwesen)
-
