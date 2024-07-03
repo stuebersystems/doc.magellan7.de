@@ -92,7 +92,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
     * Pflichtkurse dürfen nicht Füllkurse sein (korrigiert für Projekt, neueinsetzende FS wenn Englisch SF ist, 4*Sport)
     * mind. die Hälfte der BLNWs muss schriftlich sein
     * verkehrte Meldung, dass eine fortgeführte FS fehlt, wenn neueinsetzende FS fehlt, korrigiert
-* FIX: Skript `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte n.e. für nicht erreicht
+* FIX: Skript `BER-IBA-AS-2020.dws` Berücksichtigung des Füllwerte `n.e.` für nicht erreicht
 
 #### Berichte
 
