@@ -36,6 +36,9 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 * NEW: `MVP-FG-AZ (Qualifikationsphase)(A3)(2024)`
 * CHANGE: `MVP-FG-AZ (Qualifikationsphase)(2024)`: Ausgabe des 1.PF, 2.PF, BSF berücksichtigt die Unterrichtsarten HF oder LK
+* CHANGE: `MVP-FG-AZ (Qualifikationsphase)(A3)(2024).rpt`, `MVP-FG-AZ (Qualifikationsphase)(2024).rpt`: 
+    * Summe Facharbeitsnote
+    * Korrektur der Ausgabe für Fach und Thema für FA und BLL
 
 ### Version 11.0.6 1101 (01.07.2024)
 
