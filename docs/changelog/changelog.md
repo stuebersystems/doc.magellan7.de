@@ -39,6 +39,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * CHANGE: `MVP-FG-AZ (Qualifikationsphase)(A3)(2024).rpt`, `MVP-FG-AZ (Qualifikationsphase)(2024).rpt`: 
     * Summe Facharbeitsnote
     * Korrektur der Ausgabe für Fach und Thema für FA und BLL
+* CHANGE: `Quittung(DIN A4).rpt` Klasse für Schülerquittung ergänzt
 
 ### Version 11.0.6 1101 (01.07.2024)
 
