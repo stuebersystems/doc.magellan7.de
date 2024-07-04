@@ -13,7 +13,7 @@ Aktuelles Schuljahr 2018/2019: Um für Schüler der aktuellen Klasse 10 (die ihr
 
 ### Eingaben für Klassen
 
-Die Oberstufe besteht aus den Jahrgängen 11, 12 und 13. In MAGELLAN und DAVINCI sind Klassen und Jahrgänge gleichbedeutend. In MAGELLAN werden die Daten halbjahresbezogen abgelegt. Sie definieren also drei Klassen 11, 12 und 13 mit je zwei Zeiträumen bzw. Halbjahren. Folgende Angaben sind bei der Eingabe der Oberstufenjahrgänge neben den Halbjahren wichtig:
+Die Oberstufe besteht aus den Jahrgängen 11, 12 und 13. In Magellan und DaVinci sind Klassen und Jahrgänge gleichbedeutend. In Magellan werden die Daten halbjahresbezogen abgelegt. Sie definieren also drei Klassen 11, 12 und 13 mit je zwei Zeiträumen bzw. Halbjahren. Folgende Angaben sind bei der Eingabe der Oberstufenjahrgänge neben den Halbjahren wichtig:
 
 Eingabefeld | Eingabe
 --------------- | -------
@@ -40,7 +40,7 @@ Voraussetzung für die Fachwahlüberprüfung und die Abiturqualifikationsberechn
 
 ![Hier definieren Sie den Abiturjahrgang mit der Kategorie „Abitur“](/assets/images/gym_oberstufe/gym_oberstufe01.png)
 
-Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgäng` die Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs z.B. für Ausdrucke herausfiltern zu können.
+Sie können in Magellan unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgäng` die Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs z.B. für Ausdrucke herausfiltern zu können.
 
 !!! info "Hinweis"
 
@@ -57,7 +57,7 @@ Sie müssen für jeden Schüler die Abiturordnung angeben, die für ihn relevant
 
 	 Alle verfügbaren Skripte finden Sie in der Dokumentation ["Landesanpassungen"](https://doc.la.stueber.de/)  im Abschnitt ["Alle Skripte im Überblick"](https://doc.la.stueber.de/skriptueberblick/). 
 
-Um Ihre Skripte in MAGELLAN zu hinterlegen,  klicken Sie dazu auf `Extras > Schlüsselverzeichnisse > Verordnungen` und geben Sie dort die Verordnung an. Je Skript legen Sie bitte eine gesonderte Zeile an. Wenn für Ihre Region und Verordnung ein Fachwahlskript zur Verfügung steht, dann legen Sie dafür bitte eine Zeile an, für das Skript, das die Abiturberechnung vornimmt bitte eine zweite Zeile, sollten die Schüler nach verschiedenen Verordnungen geprüft werden, benötigen Sie eine dritte Zeile.
+Um Ihre Skripte in Magellan zu hinterlegen,  klicken Sie dazu auf `Extras > Schlüsselverzeichnisse > Verordnungen` und geben Sie dort die Verordnung an. Je Skript legen Sie bitte eine gesonderte Zeile an. Wenn für Ihre Region und Verordnung ein Fachwahlskript zur Verfügung steht, dann legen Sie dafür bitte eine Zeile an, für das Skript, das die Abiturberechnung vornimmt bitte eine zweite Zeile, sollten die Schüler nach verschiedenen Verordnungen geprüft werden, benötigen Sie eine dritte Zeile.
 
 Welche Eintragungen für Ihre Region oder für Ihr Skript erwartet werden, [beschreiben wir für jedes verfügbare Skript  in unserer Landesanpassung](https://doc.la.stueber.de/) ). 
 
@@ -74,7 +74,7 @@ Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://d
 Notenart 11-13 | Geben Sie hier an, ob Sie in der Oberstufe Punkt- oder Notenwerte (z.B. in Nordrhein-Westfalen) vergeben möchten. [Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://doc.la.stueber.de/skriptueberblick/)
 Gültig von | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
-Skript | Geben Sie hier den Namen des Skripts für diese Abiturprüfungsordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "APO".
+Skript | Geben Sie hier den Namen des Skripts für diese Abiturprüfungsordnung ein. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "APO".
 
 #### Fachwahlskript hinterlegen
 
@@ -89,4 +89,4 @@ Typ|[Bitte richten Sie sich genau nach der Anleitung für Ihr Skript!](https://d
 Notenart 11-13 | Noten oder Punkte
 Gültig von | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
-Skript | Geben Sie hier den Namen des Skripts für diese Fachwahlprüfung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "FW".
+Skript | Geben Sie hier den Namen des Skripts für diese Fachwahlprüfung ein. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis SKRIPTE im jeweiligen Regionalordner, der Skriptname enthält "FW".

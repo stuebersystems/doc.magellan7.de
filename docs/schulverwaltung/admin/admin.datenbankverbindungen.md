@@ -1,15 +1,15 @@
 # Datenbankverbindungen
 
-Das Programm MAGELLAN kann mit mehreren Datenbanken verbunden werden. Bei der Anmeldung an dem Schulverwaltungsmodul wird später eine Verbindung ausgewählt, die auf eine bestimmte Datenbank und Datenordner (Skripte, Berichte, Vorlagen usw.) verweist. Damit könnten auf einem Serverrechner mehrere Datenbanken (zum Beispiel mehrerer Schulen)parallel abgelegt werden, der Nutzer erhält über die Rechtevergabe in der Benutzerverwaltung dann das Recht sich an einer oder an mehreren Verbindungen anzumelden.
+Das Programm Magellan kann mit mehreren Datenbanken verbunden werden. Bei der Anmeldung an dem Schulverwaltungsmodul wird später eine Verbindung ausgewählt, die auf eine bestimmte Datenbank und Datenordner (Skripte, Berichte, Vorlagen usw.) verweist. Damit könnten auf einem Serverrechner mehrere Datenbanken (zum Beispiel mehrerer Schulen)parallel abgelegt werden, der Nutzer erhält über die Rechtevergabe in der Benutzerverwaltung dann das Recht sich an einer oder an mehreren Verbindungen anzumelden.
 
-Bei der Installation von MAGELLAN werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das MAGELLAN-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
+Bei der Installation von Magellan werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das Magellan-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
 Eine neue Verbindung können Sie oben links über die Schaltfläche `Neuer Datensatz`anlegen!
 
 ![Klicken Sie auf `Neuer Datensatz`!](/assets/images/magellan.administrator/neuer.datensatz.png)
 
 ## Unterpunkt Verbindung
 
-Auf dieser Karte wird standardmäßig der Aliasname "Magellan" vorgeschlagen, passen Sie die Bezeichnung nach Wunsch an, gibt es nur eine Verbindung, muss keine Anpassung erfolgen. Der Alias wird bei der Anmeldung an MAGELLAN im Feld Datenbank bezeichnet. 
+Auf dieser Karte wird standardmäßig der Aliasname "Magellan" vorgeschlagen, passen Sie die Bezeichnung nach Wunsch an, gibt es nur eine Verbindung, muss keine Anpassung erfolgen. Der Alias wird bei der Anmeldung an Magellan im Feld Datenbank bezeichnet. 
 
 ![Wählen Sie den `Aliasnamen`!](/assets/images/magellan.administrator/neue.verbindung.png)
 
@@ -38,7 +38,7 @@ Wir empfehlen Ihnen eine tägliche Sicherung Ihrer Datenbank anzulegen. Um nicht
 
 So geht's:
 
-Öffnen Sie im MAGELLAN Administrator unter `Datenbankverbindungen` per Doppelklick auf Ihre Datenbankanbindung die Untereinstellungen. Wählen Sie hier die Karte `Datensicherung` und füllen die Karte entsprechend der nachstehenden Tabelle aus. Die hier gewählten Einstellungen, werden später beim Sichern für Sie vorbelegt.
+Öffnen Sie im Magellan Administrator unter `Datenbankverbindungen` per Doppelklick auf Ihre Datenbankanbindung die Untereinstellungen. Wählen Sie hier die Karte `Datensicherung` und füllen die Karte entsprechend der nachstehenden Tabelle aus. Die hier gewählten Einstellungen, werden später beim Sichern für Sie vorbelegt.
 
 ![Belegen Sie die Pfade für die spätere Sicherung und Wiederherstellung vor!](/assets/images/magellan.administrator/unterkarte.datensicherung.png)
 
@@ -59,7 +59,7 @@ Wiederherstellung|Tragen Sie hier den Pfad ein, an dem die Sicherung später ers
 
 ### Sichern und Wiederherstellen
 
-Die Sicherung oder Wiederherstellung starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. In dem Assistenten werden die zuvor auf der Unterkarte `Datensicherung` Ihrer MAGELLAN Verbindung eingegebenen Werte vorbelegt. Sie tragen nur noch als Benutzer den `sysdba` und dessen Passwort ein und können eine Sicherung erstellen oder aus einer Sicherung eine neue Datenbank wiederherstellen.
+Die Sicherung oder Wiederherstellung starten Sie aus der Menüleiste über die Schaltflächen `Backup` oder `Wiederherstellen`. In dem Assistenten werden die zuvor auf der Unterkarte `Datensicherung` Ihrer Magellan Verbindung eingegebenen Werte vorbelegt. Sie tragen nur noch als Benutzer den `sysdba` und dessen Passwort ein und können eine Sicherung erstellen oder aus einer Sicherung eine neue Datenbank wiederherstellen.
 
 ![Schaltflächen zum Erstellen eines Backups oder dem Wiederherstellen einer Sicherung](/assets/images/magellan.administrator/ribbon.datenbankverbindungen.png)
 
@@ -82,4 +82,4 @@ Ob Ihre eingegebene Verbindung funktionsfähig ist, können Sie testen. Rufen Si
 
 !!! info "Hinweis"
 
-	 MAGELLAN-Arbeitsplatzrechner und MAGELLAN-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von MAGELLAN (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei)!
+	 Magellan-Arbeitsplatzrechner und Magellan-Serverrechner werden unterschiedlich eingerichtet. Wenn Sie den ersten Arbeitsplatz fertig eingerichtet und den Aufruf von Magellan (um die Datenbankanbindung zu testen), die Druckvorschau (um den Pfad zum Verzeichnis Berichte zu testen) und zum Beispiel eine Sammelzuweisung (um den Pfad zum Verzeichnis Skripte zu testen) ausgeführt haben, können Sie die Optionen, die Lizenz und die Pfadeinstellungen (Datenbank und Datenordner) für andere Arbeitsplätze nutzen. Bitte lesen Sie dazu den Abschnitt ["Die Pathsdatei"](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei)!

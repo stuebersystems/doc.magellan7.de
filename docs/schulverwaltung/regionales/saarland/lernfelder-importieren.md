@@ -1,6 +1,6 @@
 # Saarland: Lernfelder importieren
 
-Das Saarländische Ministerium stellt ein Liste von Lernfeldern für die Beruflichen Schulen zur Verfügung, die ab der Version 6.0.177 in das Verzeichnis Fächer in MAGELLAN importiert werden kann.
+Das Saarländische Ministerium stellt ein Liste von Lernfeldern für die Beruflichen Schulen zur Verfügung, die ab der Version 6.0.177 in das Verzeichnis Fächer in Magellan importiert werden kann.
 
 Die Datei enthält eine vollständige Liste der aktuell möglichen Lernfelder. Diese Lernfelder werden in das Verzeichnis Fächer importiert und enthalten die Werte Kürzel, Bezeichnung und das Merkmal  (Zeugnismerkmal aus `Schlüsselverzeichnisse > Fächer > Merkmal`), das von den zur Verfügung stehenden Zeugnisberichten  ausgewertet wird.
  
@@ -8,7 +8,7 @@ Die Datei enthält eine vollständige Liste der aktuell möglichen Lernfelder. D
 
      Wir empfehlen diese Datei nicht vollständig zu importieren, sondern vor dem Import auf die Zeilen zu reduzieren, die an Ihrer Schule benötigt werden. 
  
-Die Datei ist nicht direkt im Verzeichnis `Importe > Saarland` zu finden, sondern im Unterordner `Lernfelder`, damit nicht versehentlich die gesamte Fächerliste in die Datenbank eingelesen wird. Bitte kürzen Sie die Datei in einem Texteditor, speichern sie und legen sie dann direkt unter `Importe > Saarland` ab.  Anschließend importieren Sie die Datei wie gewohnt über den MAGELLAN-ADMINISTRATOR Unterpunkt `Datenimport > Schlüsselverzeichnisse importieren > Saarland`.
+Die Datei ist nicht direkt im Verzeichnis `Importe > Saarland` zu finden, sondern im Unterordner `Lernfelder`, damit nicht versehentlich die gesamte Fächerliste in die Datenbank eingelesen wird. Bitte kürzen Sie die Datei in einem Texteditor, speichern sie und legen sie dann direkt unter `Importe > Saarland` ab.  Anschließend importieren Sie die Datei wie gewohnt über den Magellan-Administrator Unterpunkt `Datenimport > Schlüsselverzeichnisse importieren > Saarland`.
 
 !!! info "Hinweis"
 
@@ -46,7 +46,7 @@ Achten Sie darauf, dass die Struktur nicht durch Leerzeilen oder ähnliches ver�
 
 ## BS_Faecher.keys importieren
 
-Für den Import öffnen Sie bitte das Modul MAGELLAN ADMINISTRATOR und wählen den Punkt ```Datenimporte```.
+Für den Import öffnen Sie bitte das Modul Magellan Administrator und wählen den Punkt ```Datenimporte```.
 
 Wählen Sie bitte die nachfolgenden Einstellungen um gezielt das bearbeitete Verzeichnis einzulesen. 
 

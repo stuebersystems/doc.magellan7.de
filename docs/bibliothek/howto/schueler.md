@@ -10,11 +10,11 @@
 [8]:/assets/images/bibliothek/18-schueler.png
 [9]:/assets/images/bibliothek/51.png "Höchste und aktuelle Klasse"
 
-Bei der Übernahme der Ausleiher nach MAGELLAN-BIBLIOTHEK gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach MAGELLAN-BIBLIOTHEK übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von MAGELLAN bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
+Bei der Übernahme der Ausleiher nach Magellan-Bibliothek gilt es zu berücksichtigen, dass ein Teil der Nutzerdaten, die Sie nach Magellan-Bibliothek übertragen können, im Basismodul zeitraumbezogen organisiert ist. Der Zeitraumbezug von Magellan bedeutet z.B., dass die wesentlichen Schüler- und Klassendaten getrennt nach Schulhalbjahren erfasst werden.
 
-Damit Sie in MAGELLAN-BIBLIOTHEK Schüler aus dem Basismodul als Ausleiher übernehmen können, müssen diese im Zeitraum, in dem das Systemdatum Ihres Rechners liegt, auf aktiv gesetzt sein. Dies bedeutet z.B. dass nur solche Schüler in MAGELLAN-BIBLIOTHEK registriert werden können, die im jeweils aktuellen Zeitraum einer Klasse zugewiesen sind.
+Damit Sie in Magellan-Bibliothek Schüler aus dem Basismodul als Ausleiher übernehmen können, müssen diese im Zeitraum, in dem das Systemdatum Ihres Rechners liegt, auf aktiv gesetzt sein. Dies bedeutet z.B. dass nur solche Schüler in Magellan-Bibliothek registriert werden können, die im jeweils aktuellen Zeitraum einer Klasse zugewiesen sind.
 
-Um Schüler als Ausleiher in MAGELLAN-BIBLIOTHEK zu registrieren, müssen Sie sich in der Ansicht `Schüler` aufhalten.  Bei der Durchführung unterstützt Sie jeweils der Übernahmeassistent `Neuer Ausleiher`, der Sie durch eine kurze Reihe vorgegebener Teilschritte führt.
+Um Schüler als Ausleiher in Magellan-Bibliothek zu registrieren, müssen Sie sich in der Ansicht `Schüler` aufhalten.  Bei der Durchführung unterstützt Sie jeweils der Übernahmeassistent `Neuer Ausleiher`, der Sie durch eine kurze Reihe vorgegebener Teilschritte führt.
 
 ## Schüler als Ausleiher aufnehmen
 
@@ -26,7 +26,7 @@ Den Assistenten zur Übernahme neuer Ausleiher starten Sie folgendermaßen:
 
 [![Ausleiher registrieren][1]][1]
 
-Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die Sie in die MAGELLAN BIBLIOTHEK übernehmen möchten. Für die Auswahl steht Ihnen eine Liste der Schüler zur Verfügung, die Sie noch nicht als Ausleiher angelegt haben. Sie haben verschiedene Möglichkeiten einzelne oder mehrere Schüler aus dieser Liste auszuwählen.
+Auf der ersten Seite des Eingabeassistenten wählen Sie die Ausleiher aus, die Sie in die Magellan Bibliothek übernehmen möchten. Für die Auswahl steht Ihnen eine Liste der Schüler zur Verfügung, die Sie noch nicht als Ausleiher angelegt haben. Sie haben verschiedene Möglichkeiten einzelne oder mehrere Schüler aus dieser Liste auszuwählen.
 
 4. Wählen Sie einzelne Schüler aus, indem Sie mit der linken Maustaste die betreffende Zeile markieren.
 5. Wählen Sie mehrere Schüler aus, indem Sie die Taste `Strg` gedrückt halten und mit der linken Maustaste die zugehörigen Zeilen markieren.
@@ -96,7 +96,7 @@ Diese Registerkarte enthält eine Liste mit den laufenden und abgeschlossenen Le
 
 !!! warning "Wichtig"
 
-    In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in MAGELLAN BIBLIOTHEK zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
+    In den Ansichten `Schüler`, `Lehrer` und `Personen` ist es nicht möglich, die aus dem Basismodul übernommenen Daten zu ändern oder zu ergänzen. Die persönlichen Daten, die auf den Registerkarten `Auswahl` und `Daten` abgelegt sind, können nur im Basismodul bearbeitet werden. Geänderte Daten stehen nach der Bearbeitung im Basismodul auch automatisch in Magellan Bibliothek zur Verfügung. Ein erneuter Aufruf des Übernahmeassistenten z.B. für Ausleiher, deren Telefonnummer sich geändert hat, ist also nicht erforderlich.
 
 Sie können allerdings auf der Registerkarte `Daten` die Angaben zur Dauer der Ausleihberechtigung, die Sie im Übernahmeassistenten festgelegt haben, verändern. Tragen Sie einfach unter `Ausleihe Erlaubnis` die gewünschten Werte in die Eingabefelder `Gültig von` und `Gültig bis` und bestätigen Sie Ihre Angaben abschließend mit der Schaltfläche `Änderungen speichern` .
 

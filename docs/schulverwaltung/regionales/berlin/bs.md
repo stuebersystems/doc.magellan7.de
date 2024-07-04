@@ -14,29 +14,29 @@ Zur zeitraumübergreifenden Endnotenberechnung der Berufsschule und dem anschlie
 3. Endnoten für Abgangs- bzw. Abschlusszeugnisse berechnen
 4. Zeugnisbemerkungen eingeben und Zeugnisse drucken
 
-Alle Schritte werden in MAGELLAN ausgeführt.
+Alle Schritte werden in Magellan ausgeführt.
 
-Um die Noten der Berufsschule des jeweiligen Schülers in MAGELLAN anzuzeigen, klicken Sie in MAGELLAN auf `Berufsschule` in der Symbolleiste links.
-MAGELLAN verfügt über sehr kompakte Funktionen für die gesamte Endnotenberechnung und macht Ihnen so die Arbeit so leicht wie möglich. Es liegt leider in der Natur der Sache, dass zusätzlich von Ihrer Seite aus sehr gute Kenntnisse in der jeweiligen Verordnung erforderlich sind.
+Um die Noten der Berufsschule des jeweiligen Schülers in Magellan anzuzeigen, klicken Sie in Magellan auf `Berufsschule` in der Symbolleiste links.
+Magellan verfügt über sehr kompakte Funktionen für die gesamte Endnotenberechnung und macht Ihnen so die Arbeit so leicht wie möglich. Es liegt leider in der Natur der Sache, dass zusätzlich von Ihrer Seite aus sehr gute Kenntnisse in der jeweiligen Verordnung erforderlich sind.
 
-In den folgenden Abschnitten werden die einzelnen Schritte in der Endnotenberechnung mit MAGELLAN erläutert.
+In den folgenden Abschnitten werden die einzelnen Schritte in der Endnotenberechnung mit Magellan erläutert.
 Bevor wir mit der eigentlichen Berechnung beginnen, müssen wir zunächst einige wichtige Bemerkungen zu Berufsschulklassen, Unterrichtsarten, Fachstatus, Stundenfaktoren und früher abgeschlossene Fächern machen.
 
 ## Landesspezifische Skripte für Berlin
 
-Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangszeugnissen wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Berufsschulskript repräsentiert eine spezielle Berechnungsvorschrift für die Noten auf dem Abschluss- bzw. Abgangszeugnis der Berufsschule.
+Die gesamte Notenberechnung bei zeitraumübergreifenden Abschluss- bzw. Abgangszeugnissen wird durch Magellan-Skripte durchgeführt oder anders gesagt, jedes Berufsschulskript repräsentiert eine spezielle Berechnungsvorschrift für die Noten auf dem Abschluss- bzw. Abgangszeugnis der Berufsschule.
 
 !!! info "Hinweis"
 
     Alle zur Verfügung stehenden Skripte werden in der Übersicht [Alle Skripte im Überblick](https://doc.la.stueber.de/skriptueberblick/#berlin) gezeigt. Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
-Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner `Skripte` und dort im jeweiligen Landesordner (z.B. `Skripte\Berlin` für das Bundesland Berlin).
+Die Skripte befinden sich im Magellan-Verzeichnis im Ordner `Skripte` und dort im jeweiligen Landesordner (z.B. `Skripte\Berlin` für das Bundesland Berlin).
 
 ## Berufsschulklassen einrichten
 
 Eine Klasse in der Berufsschule besteht aus den Jahrgängen 1 (=Grundstufe), 2 (Fachstufe 1), 3 (Fachstufe 2) bzw. 4 (Fachstufe 3).
 
-In MAGELLAN werden die Daten halbjahresbezogen abgelegt. Sie definieren also eine Klasse mit je zwei Zeiträumen bzw. Halbjahren für die Grundstufe, Fachstufe 1 und evtl. Fachstufe 2 bzw. Fachstufe 3.
+In Magellan werden die Daten halbjahresbezogen abgelegt. Sie definieren also eine Klasse mit je zwei Zeiträumen bzw. Halbjahren für die Grundstufe, Fachstufe 1 und evtl. Fachstufe 2 bzw. Fachstufe 3.
 Eine zweijährige Klasse besteht demnach aus 4 Halbjahren mit dem Jahrgang 1 für die ersten beiden Halbjahr und dem Jahrgang 2 für die letzten beiden Halbjahre.
 
 Folgende Angaben sind bei der Eingabe der Berufsschulklasse neben den Halbjahren wichtig:
@@ -183,7 +183,7 @@ In den nachfolgenden Abschnitten erfahren Sie mehr zu den einzelnen Punkten.
 
 ![Abschlussjahrgang definieren](/assets/images/berlin/bs/bs2.png)
   
-Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. Damit können Sie jedem Schüler in der Rubrik `Berufsschule` den entsprechenden Abschlussjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussnotenberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abschlussgangs z.B. für Ausdrucke herausfiltern zu können und die Art der zu synchronisierenden Noten festzulegen.
+Sie können in Magellan unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. Damit können Sie jedem Schüler in der Rubrik `Berufsschule` den entsprechenden Abschlussjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussnotenberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abschlussgangs z.B. für Ausdrucke herausfiltern zu können und die Art der zu synchronisierenden Noten festzulegen.
 
 Die Art der zu synchronisierenden Noten des Abschlussjahrsganges legen Sie über die Kategorie fest:
 
@@ -211,7 +211,7 @@ Kategorie |Wenn Sie hier `Berufsschule` eingeben, wird die Verordnung bei den Sc
 Typ| Bei einigen Verordnungen muss hier eine spezielles Kürzel angegeben werden.
 Gültig von| Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis| Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
-Skript| Geben Sie hier den Namen des Skripts für diese Berechnungsverordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE.
+Skript| Geben Sie hier den Namen des Skripts für diese Berechnungsverordnung ein. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis SKRIPTE.
 
 Bei der Definition der Verordnung für das Skript `BER-BBS-Matrix-2007` müssen Sie unter Typ `BER-BS` angeben. 
 
@@ -219,15 +219,15 @@ Bei der Definition der Verordnung für das Skript `BER-BBS-Matrix-2007` müssen 
 
 [![Berufsschuldaten synchronisieren][4]][4]
 
-Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN in die Ansicht `Berufsschule` wechseln und unter `Start` die Schaltfläche `Schüler synchronisieren...` aufrufen.
+Bevor Sie die Endnotenberechnung durchführen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in Magellan in die Ansicht `Berufsschule` wechseln und unter `Start` die Schaltfläche `Schüler synchronisieren...` aufrufen.
 
 Beim Synchronisieren geschieht Folgendes:
 
-MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Noten der Grundstufe, Fachstufe 1, Fachstufe 2 bzw. Fachstufe 3. Besitzt der ausgewählt Abschlussjahrgang die Kategorie `Berufschule (Jahresnoten)`, werden nur die Noten der jeweiligen 2. Halbjahre (=Jahresnoten) extrahiert. Besitzt der ausgewählt Abschlussjahrgang die Kategorie `Berufschule (Halbjahresnoten)`, werden die Noten des 1. und 2. Halbjahres extrahiert.
+Magellan extrahiert für die markierten Schüler die Fachdaten der Noten der Grundstufe, Fachstufe 1, Fachstufe 2 bzw. Fachstufe 3. Besitzt der ausgewählt Abschlussjahrgang die Kategorie `Berufschule (Jahresnoten)`, werden nur die Noten der jeweiligen 2. Halbjahre (=Jahresnoten) extrahiert. Besitzt der ausgewählt Abschlussjahrgang die Kategorie `Berufschule (Halbjahresnoten)`, werden die Noten des 1. und 2. Halbjahres extrahiert.
 
 Dies ist die Voraussetzung dafür, dass die Abschlussberechnungen der Berufschule durchgeführt werden können. Auch wenn Sie zuvor keine Fächer bzw. Noten in den Halbjahren des Schülers angegeben haben, müssen Sie diese Synchronisation einmal ausführen.
 
-Damit die Schüler mit allen Fächern, Noten und Faktoren aus den einzelnen Halbjahren korrekt übernommen werden können, sind folgende Angaben in MAGELLAN notwendig.
+Damit die Schüler mit allen Fächern, Noten und Faktoren aus den einzelnen Halbjahren korrekt übernommen werden können, sind folgende Angaben in Magellan notwendig.
 
 Eintrag|Bedeutung
 --|--
@@ -241,7 +241,7 @@ Jahrgang| Bei jeder Klasse der Berufschule muss in der Ansicht  `Klassen > Zeitr
 Beim Synchronisieren sollten Sie für die markierten Schüler die Berechnungsverordnung und den Abschlussjahrgang eingeben.
 Nach dem Synchronisieren werden Ihnen unter `Berufsschule > Auswahl` alle synchronisierten Schüler angezeigt.
 
-Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte `Matrix` wechseln Sie zur Notenmatrix der Berufsschule. Auf dieser finden Sie die Fächer, Unterrichtsarten, Fachstatus inkl. Notenwerte und Faktoren der Schuljahre, falls Sie diese Angaben bereits in MAGELLAN bei den Zeugnisdaten der Schüler gemacht haben sollten. Andernfalls können Sie diese Angaben für die einzelnen Schulhalbjahre 1, 2, 3 bzw. 4 auch hier eingeben.
+Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte `Matrix` wechseln Sie zur Notenmatrix der Berufsschule. Auf dieser finden Sie die Fächer, Unterrichtsarten, Fachstatus inkl. Notenwerte und Faktoren der Schuljahre, falls Sie diese Angaben bereits in Magellan bei den Zeugnisdaten der Schüler gemacht haben sollten. Andernfalls können Sie diese Angaben für die einzelnen Schulhalbjahre 1, 2, 3 bzw. 4 auch hier eingeben.
 
 ## Faktoren für die Endnotenberechnung
 
@@ -271,7 +271,7 @@ Unter `Berufsschule > Matrix` haben Sie die Möglichkeit, Fachdaten eines Schül
 
 ## Positionierung der Fächer
 
-Die Position kann als Merkmal für die Reihenfolge der Fächer unter `Berufsschule > Matrix` und auf den Abschluss-/Abgangszeugnis verwendet werden, welche die Berufsschulmatrix nutzen. Die in MAGELLAN mitgelieferten Skripte und Zeugnisformulare für die Berufsschulmatrix verwenden diese Positionsangaben. 
+Die Position kann als Merkmal für die Reihenfolge der Fächer unter `Berufsschule > Matrix` und auf den Abschluss-/Abgangszeugnis verwendet werden, welche die Berufsschulmatrix nutzen. Die in Magellan mitgelieferten Skripte und Zeugnisformulare für die Berufsschulmatrix verwenden diese Positionsangaben. 
 Klicken Sie auf den Spaltenkopf "Position", um die Fächerliste entsprechend zu sortieren.
 
 ## Unterrichtsarten der Fächer
@@ -329,9 +329,9 @@ Insbesondere können Sie die manuelle Eingabe aber im Sinne der Korrektur einer 
 
 ## Wer hat Berufsschuldaten geändert?
 
-Abschluss- bzw. Abgangsdaten der Berufsschule sind sensible Daten. Über die Benutzerverwaltung des MAGELLAN-ADMINISTRATORs wird festgelegt, wer Zugang zu welchen Daten hat. Wie aber können Sie feststellen, dass Daten unter `Berufsschule` geändert worden sind und sei es versehentlich durch Sie selbst? 
+Abschluss- bzw. Abgangsdaten der Berufsschule sind sensible Daten. Über die Benutzerverwaltung des Magellan-ADMINISTRATORs wird festgelegt, wer Zugang zu welchen Daten hat. Wie aber können Sie feststellen, dass Daten unter `Berufsschule` geändert worden sind und sei es versehentlich durch Sie selbst? 
 
-Bei Änderungen auf den Registerkarten des Bereiches `Berufschule` vermerkt MAGELLAN automatisch das aktuelle Datum und die Kennung des aktuellen Benutzers. Unter `Berufsschule > Auswahl` werden für jeden Schüler das Datum und die Kennung desjenigen angezeigt, der diese Angaben bestätigt hat. So ist überprüfbar, wer wann Daten im Bereich `Berufsschule` eines Schülers geändert hat.
+Bei Änderungen auf den Registerkarten des Bereiches `Berufschule` vermerkt Magellan automatisch das aktuelle Datum und die Kennung des aktuellen Benutzers. Unter `Berufsschule > Auswahl` werden für jeden Schüler das Datum und die Kennung desjenigen angezeigt, der diese Angaben bestätigt hat. So ist überprüfbar, wer wann Daten im Bereich `Berufsschule` eines Schülers geändert hat.
 
 ## Zeitraumübergreifende Zeugnisse drucken
 

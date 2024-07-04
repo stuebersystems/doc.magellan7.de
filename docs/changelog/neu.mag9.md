@@ -14,13 +14,13 @@
 [12]:/assets/images/neues/912.png
 [13]:/assets/images/neues/913.png
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 9 geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 8. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen in Magellan 9 geben.
 
 ## Datenstrukturänderungen
 
 Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https://doc.magellan-toolbox.stueber.de/datenstruktur/version9/neuerungen/](https://doc.magellan-toolbox.stueber.de/datenstruktur/version9/neuerungen/).
 
-## MAGELLAN Schulverwaltung
+## Magellan Schulverwaltung
 
 ### pausierende Schüler in der Statusleiste
 
@@ -106,7 +106,7 @@ Ein neuer Bericht für die Ausgabe der Mitglieder je Gruppe steht zur Verfügung
 
 ### Enbrea-Leistungen
 
-Für die Ansicht unter `Klassen > Zeiträume > Enbrea-Leistungen > Leistungsprofile definieren...` wurde die Spalte `Position` ergänzt. Sie können durch das Erfassen der Positionsnummer an dieser Stelle, den Wert beim Zuweisen der Kurse beim Schüler unter `Schüler > Zeugnis > ENBREA-Kurse` nutzen.
+Für die Ansicht unter `Klassen > Zeiträume > Enbrea-Leistungen > Leistungsprofile definieren...` wurde die Spalte `Position` ergänzt. Sie können durch das Erfassen der Positionsnummer an dieser Stelle, den Wert beim Zuweisen der Kurse beim Schüler unter `Schüler > Zeugnis > Enbrea-Kurse` nutzen.
 
 ### Schnittstellen
 
@@ -151,7 +151,7 @@ Zeitraumart|Wert im Feld `erteilt`|Übergabe für SAXSVS
 
 Bitte beachten Sie die geänderte Anleitung unter [https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen](https://doc.ls.stueber.de/sachsen/export_saxsvs/#fremdsprachen).
 
-## MyMAGELLAN
+## MyMagellan
 
 ### Übersicht "Kontrolle nach Klassen"
 
@@ -159,11 +159,11 @@ In MyMagellan gibt es die  neue schreibgeschützte Übersicht `Kontrolle nach Kl
 
 [![Kontrollübersicht Klassen][10]][10]
 
-## MAGELLAN Administrator
+## Magellan Administrator
 
 ### Organisiertes Löschen
 
-Der neue Assistent im MAGELLAN Administrator unterstützt Sie beim Löschen von wahlweise:
+Der neue Assistent im Magellan Administrator unterstützt Sie beim Löschen von wahlweise:
 
 *  Schülerdatensätzen
 *  Fachdaten von Schülern
@@ -193,7 +193,7 @@ Unter `Datenaustausch > Daten über das Magellan-Importformat importieren` ist i
 
 Unter `Benutzerverwaltung > Doppelklick auf einen Benutzer > Rechte` wurden die Aufrufe für Haushalt&Inventar und Klassenbuch ausgeblendet.
 
-## MAGELLAN Skripteditor
+## Magellan Skripteditor
 
 ### Optionen
 

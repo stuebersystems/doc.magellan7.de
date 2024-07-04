@@ -1,6 +1,6 @@
 # Lehrer
 
-In diesem Kapitel wird Ihnen gezeigt, wie Sie Lehrer in MAGELLAN aufnehmen und verwalten.
+In diesem Kapitel wird Ihnen gezeigt, wie Sie Lehrer in Magellan aufnehmen und verwalten.
 
 ## Lehrer eingeben
 
@@ -17,15 +17,15 @@ Hier geben Sie zunächst den Vor- und Nachnamen des Lehrers und sein schulintern
 
 !!! info "Hinweis"
 
-	Das Lehrerkürzel wird in der Regel auch später für die Anmeldung verwendet. In der Benutzerverwaltung dürfen in den Kennungen (beim Lehrer ist das dann das Kürzel) keine Umlaute und kein ß verwendet werden. Beim Anlegen in MAGELLAN selbst erhalten Sie auch eine entsprechende Meldung. Sollten Sie die Lehrer allerdings per Import nach MAGELLAN einlesen, achten Sie bitte darauf, die Zeichen im Lehrerkürzel nicht zu verwenden oder anzupassen. 
-    Um einen neuen Lehrer in MAGELLAN aufnehmen zu können, müssen Sie dessen Namen und Kürzel in das Dialogfenster eintragen und dann auf OK klicken. Der Lehrer ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte `Daten 1` dieses Lehrers, um dessen weitere Daten zu erfassen. Ist ein Datensatz mit dem gleichen Vor- und Zunamen oder dem gleichen Lehrerkürzel bereits angelegt erscheint folgender Hinweis:
+	Das Lehrerkürzel wird in der Regel auch später für die Anmeldung verwendet. In der Benutzerverwaltung dürfen in den Kennungen (beim Lehrer ist das dann das Kürzel) keine Umlaute und kein ß verwendet werden. Beim Anlegen in Magellan selbst erhalten Sie auch eine entsprechende Meldung. Sollten Sie die Lehrer allerdings per Import nach Magellan einlesen, achten Sie bitte darauf, die Zeichen im Lehrerkürzel nicht zu verwenden oder anzupassen. 
+    Um einen neuen Lehrer in Magellan aufnehmen zu können, müssen Sie dessen Namen und Kürzel in das Dialogfenster eintragen und dann auf OK klicken. Der Lehrer ist nun neu aufgenommen und Sie befinden sich automatisch auf der Registerkarte `Daten 1` dieses Lehrers, um dessen weitere Daten zu erfassen. Ist ein Datensatz mit dem gleichen Vor- und Zunamen oder dem gleichen Lehrerkürzel bereits angelegt erscheint folgender Hinweis:
  
 ![Prüfung auf Doubletten](/assets/images/lehrer/lehrer.klassen_02doublettenpruefung.png)
 
 
 ### Registerkarte `Daten 1`
 
-Auf der Registerkarte `Daten 1` des Lehrers befinden sich verschiedene Eingabefelder. Durch Betätigen der Eingabetaste oder der Tabulatortaste (TAB) gelangen Sie zum nächsten Eingabefeld. In ein vorheriges Eingabefeld gelangen Sie über die Tastenkombination UMSCHALT und TAB. Diese Art der Navigation auf den Registerkarten ist in MAGELLAN überall einheitlich.
+Auf der Registerkarte `Daten 1` des Lehrers befinden sich verschiedene Eingabefelder. Durch Betätigen der Eingabetaste oder der Tabulatortaste (TAB) gelangen Sie zum nächsten Eingabefeld. In ein vorheriges Eingabefeld gelangen Sie über die Tastenkombination UMSCHALT und TAB. Diese Art der Navigation auf den Registerkarten ist in Magellan überall einheitlich.
  
 ![Ansicht `Lehrer`, Registerkarte `Daten 1`](/assets/images/lehrer/lehrer.klassen_03daten1.png)
 
@@ -41,9 +41,9 @@ Auf der Registerkarte `Daten 1` tragen Sie die wichtigsten Grunddaten des Lehrer
 
 !!! info "Hinweis"
 
-	Die Postleitzahlautomatik steht in MAGELLAN überall dort zur Verfügung, wo Postleitzahl und Ort bei der Datenaufnahme eingegeben werden müssen.
+	Die Postleitzahlautomatik steht in Magellan überall dort zur Verfügung, wo Postleitzahl und Ort bei der Datenaufnahme eingegeben werden müssen.
 
-Für jeden Lehrer können Sie optional dessen Passfoto in MAGELLAN aufnehmen. Wählen Sie dazu `Bearbeiten > Passfoto` und dann `Passfoto aus Datei` oder `Passfoto aus Digitalquelle`.  Über den Menüpunkt `Passfoto aus Digitalquelle` können Sie direkt angeschlossene digitale Geräte (wie z.B. Digitalkamera, Scanner) nutzen, um die Bilder ohne Zwischenspeicherung in eine Datei nach MAGELLAN übernehmen zu können. Voraussetzung hierfür ist die Einstellung einer Digitalquelle unter `Datenbank  > Optionen > Digitalquelle`. Haben Sie das letzte Feld der Registerkarte gewählt und drücken dann die Eingabetaste, wechseln Sie automatisch zur nächsten Registerkarte.
+Für jeden Lehrer können Sie optional dessen Passfoto in Magellan aufnehmen. Wählen Sie dazu `Bearbeiten > Passfoto` und dann `Passfoto aus Datei` oder `Passfoto aus Digitalquelle`.  Über den Menüpunkt `Passfoto aus Digitalquelle` können Sie direkt angeschlossene digitale Geräte (wie z.B. Digitalkamera, Scanner) nutzen, um die Bilder ohne Zwischenspeicherung in eine Datei nach Magellan übernehmen zu können. Voraussetzung hierfür ist die Einstellung einer Digitalquelle unter `Datenbank  > Optionen > Digitalquelle`. Haben Sie das letzte Feld der Registerkarte gewählt und drücken dann die Eingabetaste, wechseln Sie automatisch zur nächsten Registerkarte.
 
 ### Registerkarte `Daten 2`
 
@@ -78,21 +78,21 @@ Zur Auswahl müssen Sie jetzt den `Lehramtstyp` einstellen und anschließend die
 
 ### Lehrer auswählen, editieren oder löschen
 
-Über die Registerkarte `Auswahl` können Sie bestehende Lehrer auswählen. Sie wird daher auch `Lehrerliste` genannt. Alternativ können Sie auch über die Schaltflächen   und   zum nächsten Lehrer schalten. Die Daten des Lehrers befinden sich nach der Auswahl automatisch im Editiermodus, wenn Ihre Benutzerkennung über die entsprechenden Rechte verfügt. Wie Sie in der Lehrerliste sortieren, gruppieren oder inkrementell suchen können, erfahren Sie im Kapitel `Sortieren, Gruppieren, Filtern und Suchen`. Um einen Lehrer zu löschen, müssen Sie diesen auswählen und dann auf `Bearbeiten > Datensatz löschen` klicken. Das Prinzip des Auswählens, Editierens und Löschens ist für alle weiteren Stammdaten in MAGELLAN (Schüler, Bewerber, Sorgeberechtigte, Betriebe, Klassen, Mandanten, Personen, Adressen und Schulen) identisch.
+Über die Registerkarte `Auswahl` können Sie bestehende Lehrer auswählen. Sie wird daher auch `Lehrerliste` genannt. Alternativ können Sie auch über die Schaltflächen   und   zum nächsten Lehrer schalten. Die Daten des Lehrers befinden sich nach der Auswahl automatisch im Editiermodus, wenn Ihre Benutzerkennung über die entsprechenden Rechte verfügt. Wie Sie in der Lehrerliste sortieren, gruppieren oder inkrementell suchen können, erfahren Sie im Kapitel `Sortieren, Gruppieren, Filtern und Suchen`. Um einen Lehrer zu löschen, müssen Sie diesen auswählen und dann auf `Bearbeiten > Datensatz löschen` klicken. Das Prinzip des Auswählens, Editierens und Löschens ist für alle weiteren Stammdaten in Magellan (Schüler, Bewerber, Sorgeberechtigte, Betriebe, Klassen, Mandanten, Personen, Adressen und Schulen) identisch.
 
 ### Lehrerstatus
 
-Jeder Lehrer verfügt über einen Status. MAGELLAN unterscheidet dazu den Status `aktiver Lehrer` und `inaktiver Lehrer`. Inaktive Lehrer können beispielsweise ehemalige Lehrer, Lehrer mit einem längeren Auslandsaufenthalt usw. sein. In der Auswahlliste werden aktive Lehrer mit einem blauen gefüllten Kreis und inaktive Lehrer mit einem blauen ungefüllten Kreis angezeigt. Wird ein Lehrer neu angelegt, so besitzt er standardmäßig den Status aktiver Lehrer. Um den Status eines Lehrers zu ändern, müssen Sie diesen über die rechte Maustaste `Status zuweisen` wählen. Hier stehen Ihnen die Status `Aktive(r) Lehrer` oder `Inaktive(r) Lehrer`zur Auswahl.
+Jeder Lehrer verfügt über einen Status. Magellan unterscheidet dazu den Status `aktiver Lehrer` und `inaktiver Lehrer`. Inaktive Lehrer können beispielsweise ehemalige Lehrer, Lehrer mit einem längeren Auslandsaufenthalt usw. sein. In der Auswahlliste werden aktive Lehrer mit einem blauen gefüllten Kreis und inaktive Lehrer mit einem blauen ungefüllten Kreis angezeigt. Wird ein Lehrer neu angelegt, so besitzt er standardmäßig den Status aktiver Lehrer. Um den Status eines Lehrers zu ändern, müssen Sie diesen über die rechte Maustaste `Status zuweisen` wählen. Hier stehen Ihnen die Status `Aktive(r) Lehrer` oder `Inaktive(r) Lehrer`zur Auswahl.
 
 ![aktiver oder inaktiver Status für Lehrer in der Auswahlliste](/assets/images/lehrer/lehrer.klassen_05lehrerliste.png)
 
 ### Fehlzeiten eines Lehrers erfassen
 
-Für jeden Lehrer können in MAGELLAN Fehlzeiten erfasst werden. Sie können das Eingabefenster die Registerkarte `Lehrer` über die dafür vorgesehen Schaltfläche `Fehlzeiten` für den markierten Lehrer aufrufen.
+Für jeden Lehrer können in Magellan Fehlzeiten erfasst werden. Sie können das Eingabefenster die Registerkarte `Lehrer` über die dafür vorgesehen Schaltfläche `Fehlzeiten` für den markierten Lehrer aufrufen.
  
 ![Fehlzeitenfenster der Lehrer](/assets/images/lehrer/lehrer.klassen_07fehlzeiten.png)
 
 
 !!! info "Hinweis"
 
-	Für Rheinland-Pfälzische Berufsschulen stehen spezielle Berichte zur Auswertung der Fehlzeiten unter `Start > Drucken > Berichte drucken... > Rheinland-Pfalz` zur Verfügung. Wie genau diese Berichte genutzt werden können, wird im Modul MAGELLAN-Berichte beschrieben.
+	Für Rheinland-Pfälzische Berufsschulen stehen spezielle Berichte zur Auswertung der Fehlzeiten unter `Start > Drucken > Berichte drucken... > Rheinland-Pfalz` zur Verfügung. Wie genau diese Berichte genutzt werden können, wird im Modul Magellan-Berichte beschrieben.

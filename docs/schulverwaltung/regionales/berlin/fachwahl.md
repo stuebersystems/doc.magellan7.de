@@ -18,16 +18,16 @@
 
 !!! info "Hinweis"
 
-    Die Schüler-Fachwahlen können anstatt in MAGELLAN auch in DAVINCI KURSPLAN erfasst werden. Die Fachwahlüberprüfung in MAGELLAN und DAVINCI erfolgt mit dem gleichen Fachwahlskript. In DAVINCI können im Gegensatz zu MAGELLAN noch zusätzlich die Stundenzahlen je Halbjahr erfasst werden.
+    Die Schüler-Fachwahlen können anstatt in Magellan auch in DaVinci Kursplan erfasst werden. Die Fachwahlüberprüfung in Magellan und DaVinci erfolgt mit dem gleichen Fachwahlskript. In DaVinci können im Gegensatz zu Magellan noch zusätzlich die Stundenzahlen je Halbjahr erfasst werden.
 
 ## Voraussetzung für die Fachwahlen
 
-Um Fachwahlen für Schüler in MAGELLAN zu erfassen, muss der jeweilige Schüler:
+Um Fachwahlen für Schüler in Magellan zu erfassen, muss der jeweilige Schüler:
 
-* in MAGELLAN angelegt und einer Klasse zugeordnet und
+* in Magellan angelegt und einer Klasse zugeordnet und
 * in die AnsichtAbitursynchronisiert worden sein.
 
-Das Anlegen eines Schülers und dessen Einschulung in eine Klasse können Sie der Dokumentation [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/) entnehmen. Der Klasse selbst muss unter Ansicht `Klassen > Daten` im Feld "Klassenart" einer der Werte:
+Das Anlegen eines Schülers und dessen Einschulung in eine Klasse können Sie der Dokumentation [Magellan](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/) entnehmen. Der Klasse selbst muss unter Ansicht `Klassen > Daten` im Feld "Klassenart" einer der Werte:
 
 * Standard mit Oberstufensynchronisation
 * Oberstufenjahrgang (Nur Kurse)
@@ -40,7 +40,7 @@ zugewiesen sein, um Schüler dieser Klasse in die Ansicht `Abitur` zu synchronis
 
 ### Abiturjahrgang definieren
 
-Sie können in MAGELLAN unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs herausfiltern zu können.
+Sie können in Magellan unter `Extras > Schlüsselverzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Abiturjahrgang. Damit können Sie jedem Schüler in der Rubrik `Abitur` den entsprechenden Abiturjahrgang zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschluss- oder Qualifikationsberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Abiturjahrgangs herausfiltern zu können.
  
 ![Abiturjahrgang mit der Kategorie "Abitur“ definieren](/assets/images/berlin/fachwahl/fachwahl1.png)
 
@@ -60,7 +60,7 @@ Ab Jahrgang |Geben Sie hier den Jahrgang an, ab der die Oberstufenverordnung gil
 Notenart 11-13|Geben Sie hier an, ob Sie in der Oberstufe Punkt- oder Notenwerte vergeben möchten.
 Gültig von| ohne Bedeutung für die Berechnungen
 Gültig bis |ohne Bedeutung für die Berechnungen
-Skript |Verweisen Sie hier bitte auf die Skriptdatei. Das Skript enthält auch die Berechnung der Fachhochschulreife. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis unter dem Ordner "Skripte" in Ihrem Bundeslandunterordner.
+Skript |Verweisen Sie hier bitte auf die Skriptdatei. Das Skript enthält auch die Berechnung der Fachhochschulreife. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis unter dem Ordner "Skripte" in Ihrem Bundeslandunterordner.
 
 [![Verzeichnis der Verordnungen][2]][2]
 
@@ -78,7 +78,7 @@ Jahrgang |Bei jeder Klasse/Jahrgang muss unter `Klasse > Zeiträume` für jeden 
 Abschlussjahrgänge| Bitte legen Sie unter `Extras > Schlüsselverzeichnisse > Verordnungen` die Abschlussjahrgänge an. Es genügt dabei die Angabe des Kürzels, der Bezeichnung und der Kategorie (Abitur).
 Verordnungen| Richten Sie bitte unter `Extras > Schlüsselverzeichnisse > Verordnungen` pro verwendeter Abiturverordnung oder Fachwahl eine Zeile entsprechend der Anleitung unter "Fachwahlverordnung" definieren ein.
 
-Beim Synchronisieren extrahiert MAGELLAN für die markierten Schüler die Fachdaten der Halbjahre E1, E2, Q1, Q2, Q3 und Q4 in das Menü `Abitur`. Dies ist die Voraussetzung für die Fachwahl-, Qualifikations- und Abschlussberechnungen der Oberstufe. Liegen noch keine Fachdaten in den Halbjahren vor, werden nur die Grunddaten des Schülers in die Ansicht `Abitur` übernommen. Vor der Eingabe der Fachwahlen in der Ansicht `Abitur > Fachwahl` sind beispielsweise noch keine Fächer beim Schüler in der Ansicht `Schüler > Zeugnis > Fächer` eingetragen.
+Beim Synchronisieren extrahiert Magellan für die markierten Schüler die Fachdaten der Halbjahre E1, E2, Q1, Q2, Q3 und Q4 in das Menü `Abitur`. Dies ist die Voraussetzung für die Fachwahl-, Qualifikations- und Abschlussberechnungen der Oberstufe. Liegen noch keine Fachdaten in den Halbjahren vor, werden nur die Grunddaten des Schülers in die Ansicht `Abitur` übernommen. Vor der Eingabe der Fachwahlen in der Ansicht `Abitur > Fachwahl` sind beispielsweise noch keine Fächer beim Schüler in der Ansicht `Schüler > Zeugnis > Fächer` eingetragen.
 
 Über die Ansicht `Abitur` unter `Start > Schüler synchronisieren...` öffnen Sie das Dialogfenster zum Synchronisieren Ihrer Daten in die Ansicht `Abitur`.
  
@@ -140,8 +140,8 @@ Eintrag|Hinweis
 **Unterrichtsart**|Weisen Sie jedem Fach die am ehesten zutreffende Unterrichtsart zu, zum Beispiel alle Fächer erhalten die Unterrichtsart GK.
 **Fachstatus**|Tragen Sie hier nur etwas ein, wenn es eine definitive Zuordung zwischen Fach und Fachstatus gibt.
 **Markieren**|Legen Sie hier das häufigste Belegungsmuster fest.
-**Position**|Zeugnisberichte benötigen Informationen um Fächer an der korrekten Stelle zeigen zu können. Bitte schauen Sie im Modul MAGELLAN Berichte nach, ob für die von Ihnen eingesetzen Zeugnisberichte Vorgaben für Position pro Fach existieren und tragen Sie diese hier bitte bereits ein. 
-**Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul MAGELLAN Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. 
+**Position**|Zeugnisberichte benötigen Informationen um Fächer an der korrekten Stelle zeigen zu können. Bitte schauen Sie im Modul Magellan Berichte nach, ob für die von Ihnen eingesetzen Zeugnisberichte Vorgaben für Position pro Fach existieren und tragen Sie diese hier bitte bereits ein. 
+**Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul Magellan Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. 
 
 ![Beispiel für den Inhalt einer Fachwahltafel](/assets/images/berlin/fachwahl/fachwahltafel.png)
 
@@ -237,16 +237,16 @@ Wenn Sie eine Fachwahl nachträglich ändern wollen, so gelten hier die gleichen
 
 ## Schüler-Fachwahl als Fächer des Schülers übernehmen
 
-Die unter Ansicht `Abitur> Fachwahl` erstellten Fachwahlen der Schüler haben keine Verbindung zu den Fächern der Schüler unter `Schüler> Zeugnis > Fächer`. Die unter `Abitur > Fachwahl` erstellten Fachwahlen der Schüler können nun zu Fächern der Schüler unter `Schüler > Zeugnis > Fächer` übernommen werden. Diese Zuweisung erfolgt immer zum aktuell eingestellten Zeitraum in MAGELLAN.
+Die unter Ansicht `Abitur> Fachwahl` erstellten Fachwahlen der Schüler haben keine Verbindung zu den Fächern der Schüler unter `Schüler> Zeugnis > Fächer`. Die unter `Abitur > Fachwahl` erstellten Fachwahlen der Schüler können nun zu Fächern der Schüler unter `Schüler > Zeugnis > Fächer` übernommen werden. Diese Zuweisung erfolgt immer zum aktuell eingestellten Zeitraum in Magellan.
 
 Bei der Übernahme der Fachwahl eines Schülers werden nur die Fächer übernommen, die
 
-* in einem der sechs Halbjahre auf der rechten Seite den aktuellen Zeitraum von MAGELLAN zugewiesen haben und
+* in einem der sechs Halbjahre auf der rechten Seite den aktuellen Zeitraum von Magellan zugewiesen haben und
 * die in diesem Halbjahr das Kontrollkästchen markiert haben.
 
 **Beispiel:**
 
-In MAGELLAN ist der aktuelle Zeitraum das 1. Halbjahr 2021/2022. Der Schüler hat die nachfolgende Fachwahl:
+In Magellan ist der aktuelle Zeitraum das 1. Halbjahr 2021/2022. Der Schüler hat die nachfolgende Fachwahl:
 
 [![Ein Beispiel für die Fachwahl eines Schülers][19]][19]
 
@@ -269,7 +269,7 @@ Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `Schüler> 
 
 !!! info "Hinweis"
 
-    Nach der Übernahme der Fächer des Schülers aus der Fachwahl in die Ansicht `Schüler > Zeugnis > Fächer` sind noch keine Kurse zugeordnet. Dies erfolgt erst durch die Kursbildung bzw. Kursblockung in Untis. Die dort jedem Schüler zugeordneten Kurse können dann nach MAGELLAN übertragen
+    Nach der Übernahme der Fächer des Schülers aus der Fachwahl in die Ansicht `Schüler > Zeugnis > Fächer` sind noch keine Kurse zugeordnet. Dies erfolgt erst durch die Kursbildung bzw. Kursblockung in Untis. Die dort jedem Schüler zugeordneten Kurse können dann nach Magellan übertragen
 
 ## Abgleich der Fächer in der Ansicht `Abitur`
 

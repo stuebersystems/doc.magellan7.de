@@ -2,9 +2,9 @@
 
 !!! info "Hinweis"
 
-	Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls MAGELLAN LIVEMESSAGE voraus. Eine LIVEMESSAGE Lizenz kann sowohl in MAGELLAN wie auch in daVinci verwendet werden.
+	Die Nutzung der hier beschriebenen Funktionalität setzt eine Lizenz des Moduls Magellan LiveMessage voraus. Eine LiveMessage Lizenz kann sowohl in Magellan wie auch in daVinci verwendet werden.
 
-MAGELLAN erlaubt es Ihnen  Kurznachrichten an Schüler, Lehrer, Personen und Sorgeberechtigte per E-Mail oder SMS zu versenden. 
+Magellan erlaubt es Ihnen  Kurznachrichten an Schüler, Lehrer, Personen und Sorgeberechtigte per E-Mail oder SMS zu versenden. 
 
 !!! info "Hinweis"
 
@@ -58,4 +58,4 @@ Zusätzlich zur Übersicht der versendeten SMS sehen Sie im Dialogfenster SMS Pr
 
 !!! info "Hinweis"
 
-	Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LIVEMESSAGE Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.
+	Im Gegensatz zu E-Mail-Kurznachrichten sind SMS-Kurznachrichten nicht kostenfrei. Das Versenden von SMS erfordert ein sog. SMS-Paket, das als Teil der LiveMessage Lizenz erworben werden kann. Mit einem SMS-Paket erwerben Sie ein Budget von sog. Kreditpunkten, das Sie durch das Versenden von SMS aufbrauchen. Wenn Ihr Budget aufgebraucht ist, müssen Sie ein weiteres SMS-Paket erwerben, um weitere SMS versenden zu können.

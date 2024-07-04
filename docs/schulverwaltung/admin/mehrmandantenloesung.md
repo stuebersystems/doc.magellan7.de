@@ -2,13 +2,13 @@
 
 ## Sorgeberechtigte, Personen und Lehrer abgleichen
 
-Verwalten Sie Ihre Daten in mehreren Mandanten, aber es gibt Überschneidungen bei den erfassten Lehrern, Sorgeberechtigten oder Personen? MAGELLAN bietet Ihnen die Möglichkeit diese Daten gleich aktuell zu halten.
+Verwalten Sie Ihre Daten in mehreren Mandanten, aber es gibt Überschneidungen bei den erfassten Lehrern, Sorgeberechtigten oder Personen? Magellan bietet Ihnen die Möglichkeit diese Daten gleich aktuell zu halten.
 
 ### Was genau passiert im Hintergrund?
 
 Wir beschreiben es am Beispiel Lehrer, das Vorgehen ist aber für Personen oder Sorgeberechtigte gleich.
 
-Jedem Lehrer weist MAGELLAN im Hintergrund beim Anlegen eine GUID (Globally Unique Identifier, eine weltweit eindeutige Zahl) zu. Diese GUID dient der Identifizierung und ist einmalig vorhanden.
+Jedem Lehrer weist Magellan im Hintergrund beim Anlegen eine GUID (Globally Unique Identifier, eine weltweit eindeutige Zahl) zu. Diese GUID dient der Identifizierung und ist einmalig vorhanden.
 Ist der Lehrer in mehr als einem Mandanten angelegt, kann diese GUID diesem zweiten (... dritten...) Lehrerdatensatz zugewiesen werden. Damit kann der Zusammenhang zwischen beiden Datensätzen markiert werden, um zum Beispiel eine Adressänderung des Lehrers über mehrere Mandanten zu ermöglichen.
 
 ### Bestehende Daten miteinander abgleichen
@@ -40,13 +40,13 @@ Die Logdatei "AbgleichMandantenGUID.log.csv" zeigt für welche Datensätze die G
 
 ### Prüfung beim Anlegen, Ändern oder Löschen
 
-Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
+Wenn Sie Magellan mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
 
 ![Unterkarte Mandanten](/assets/images/mandanten/optionen_mandanten.png)
 
 !!! info "Hinweis"
 
-	 Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
+	 Die gewählten Optionen gelten pro Magellan-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
 
 #### Neuanlegen
 
@@ -72,7 +72,7 @@ Wenn Sie einen Lehrer, eine Person oder einen Sorgeberechtigten löschen, dann k
 
 ## Versetzen in einen anderen Mandanten
 
-Besitzen Sie eine SchoolCentral-Lösung von MAGELLAN mit mehr als einem Mandanten, so können Sie die Stammdaten von Schülern bzw. Lehrern von einem Mandanten in einen anderen Mandanten versetzen. Die Daten werden dazu jeweils in den neuen Mandanten kopiert, ohne die Eintragung im alten Mandanten zu löschen.
+Besitzen Sie eine SchoolCentral-Lösung von Magellan mit mehr als einem Mandanten, so können Sie die Stammdaten von Schülern bzw. Lehrern von einem Mandanten in einen anderen Mandanten versetzen. Die Daten werden dazu jeweils in den neuen Mandanten kopiert, ohne die Eintragung im alten Mandanten zu löschen.
 
 !!! info "Hinweis"
 

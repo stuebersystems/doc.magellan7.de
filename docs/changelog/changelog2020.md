@@ -10,22 +10,22 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
-    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus Magellan Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
+    **MyMagellan**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `Magellan Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
 ## 7.1.22 - 718 (08.01.2021)
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
 * CHANGE: Trigger "Schueler_BD" (Hinzufügen fehlender Tabellen "BewerberVerfahren", "BewerberFachdaten" und
   "BewerberUnterlagen")
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: `Schüler > Zeugnis > Details > Sammelzuweisung > Tutor` =>  die Zuweisung des Tutors für mehrere Schüler ist wieder gegeben.
 * FIX: Für den Seriendruck an Nebenschüler werden die Sorgeberechtigtendaten korrekt ausgegeben
@@ -34,7 +34,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Versetzen von Schülern in einen anderen Mandanten wurde versucht für die Schülerkopie die gleiche ID (mit neuen MandantenID) zu verwenden.
 * FIX: Beim Versetzen von Schülern als Vagabund oder Bewerber in einen anderen Mandanten werden die zugewiesenen Sorgeberechtigten im neuen Mandanten stets aktiviert.
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
 * CHANGE: Lesen der Magellan.paths beim Programmstart korrigiert
 
@@ -60,24 +60,24 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
 * CHANGE: SchuelerZeitraeume.BU um Statistikadmin als Recht erweitert
 * CHANGE: Constrain für Dienstbez ergänzt
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: Sammelzuweisung unter `Schüler > Zeugnis > Details`
 * FIX: Emailversand aus `Extras > Benachrichtigungen` korrigiert
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.29
 
-### MYMAGELLAN
+### MyMagellan
 
 * CHANGE: Filteransicht `Fächer`/`Schüler`: Spaltenposition und Gruppierungen bleiben bei Datensatzwechsel innerhalb der Ansicht erhalten (nicht bei Ansichtswechsel). Bei der Ansicht `Schüler` gibt es noch die Besonderheit, dass die Spalte `Kurs` immer die erste Spalte ist.
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * FIX: Exportieren von Dokumenten nach `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Dokumente\Schueler\SchuelerID\Bibliothek` korrigiert
 * CHANGE: STRG+D für den Aufruf des Dokumenteverzeichnisses im Menü `Schüler` ergänzt
@@ -92,7 +92,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
-* CHANGE: SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt wurde Für MAGELLAN 7 angpasst
+* CHANGE: SAR-GEMS-HJZ-JZ (Klasse 5-10).rpt wurde Für Magellan 7 angpasst
 * FIX: SAR-GY-ABI (GOS2.0).rpt (Ausgabe Seminarfach, Sprachniveau)
 * NEW: Schülerbericht "KV09b_Masernschutz.rpt", Anleitung unter [https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt](https://doc.la.stueber.de/berichte/02_schueler/#kv09b-masernschutzrpt)
 * FIX: BAW-BG-ABI (DIN A4 doppelseitig 2018 - Abschrift).rpt
@@ -109,7 +109,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ## 7.1.20 - 715 (29.10.2020)
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * CHANGE: Optimierung der Abfragen beim Aufruf der Schülerregister: Der Aufruf von `Schüler > Daten1` dauerte länger als die Aufrufe der weiteren Registerkarten, da bei diesem Aufruf bereits Daten für weitere Karten geladen wurden. Die jeweils aufgerufenen Daten wurden jetzt je Register verteilt. 
 * NEW: neue Felder in der Sammelzuweisung der `Schüler` und `Bewerber`:
@@ -118,7 +118,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ## 7.1.19 - 715 (22.10.2020)
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`
 * FIX: Anlegen eines neuen Sorgeberechtigten aus `Schüler > Daten1` und `Bewerber > Daten1`, wenn keine Gemeindekennziffern und Postleitzahlen im Verzeichnis vorhanden sind
@@ -137,17 +137,17 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Schreibfehler im benutzerdefinierten Filter korrigiert
 * FIX: `Schüler > Daten2 > Bereits besuchte Schulen > Herkunftsschule`: Die Auswahl einer neuen Herkunftsschule wird beim Wechsel in ein anderes Register gespeichert
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 #### NRW
 
 * CHANGE: Für Berufskollegs: Wenn der Schüler nicht Status `Neuzugang von einer anderen Schule` hat und keine `Versetzungsart` gewählt ist, wird immer eine `0` ausgegeben, auch wenn die Versetzung nicht gefüllt ist.
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
 * CHANGE: `Benutzerverwaltung > Zugriffsrechte synchronisieren` Der Assistent endet mit `Schließen`.
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * CHANGE: Geändertes Verfahren zur Erstellung von Barcodes
 * NEW: Im Menü `Mahnwesen` stehen für den Seriendruck der Name und die Adressdaten des Schülers zur Auswahl. Alle verfügbaren Seriendruckfelder je Menüpunkt listen wir hier auf: [https://doc.magellan.stueber.de/bibliothek/tutorial/referenzen/](https://doc.magellan.stueber.de/bibliothek/tutorial/referenzen/)
@@ -163,7 +163,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ## 7.1.18 - 715 (30.09.2020)
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * CHANGE: Crystal Reports Runtime-Version aktualisiert
 * FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten (Herkunfstschule wird übertragen, Prüfung ob Sorgeberechtigte bereits vorhanden sind)
@@ -171,7 +171,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ![Schüler als Bewerber in Nachbarmandanten versetzen](/assets/images/changelog/7.1.18.01.png)
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 #### SAXSVS
 
@@ -181,7 +181,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 Art|Feld|Meldung|Hintergrund
 --|--|--|--
 Fehler|<aau_ausbetr><staat> (Ausland)|Vorname Nachname (SchülerID): Das Feld "<aau_ausbetr><staat> (Ausland)" darf nicht leer sein.|Erscheint wenn das `Land` und die `Gemeindekennziffer` des Ausbildungsbetriebs nicht gefüllt sind. Ein nicht gefülltes Land beim Betrieb wird automatisch als `De` interpretiert, es wird für Betriebe aus Deutschland aber der Eintrag einer Gemeindekennziffer erwartet.
-Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016|Erscheint wenn das Bis-Datum der Ausbildung (`MAGELLAN > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
+Fehler|	<al_abschl_dat>|Vorname Nachname (SchülerID): Das Feld "<al_abschl_dat>" unterscheitet den Mindestwert von 01.01.2016|Erscheint wenn das Bis-Datum der Ausbildung (`Magellan > Schüler > Ausbildung > Ausbildung editieren > Ausbildung bis`) nicht korrekt ist.
 Fehler|	<sorgeberechtigte>|"Der Sorgebe Vorname Nachname hat fehlerhafte Wohnortangaben (Gemeinde, Land) eingetragen. <br/>Bei Wohnort in Deutschland, muss eine Gemeindekennziffer angegeben werden."|Erscheint für Sorgeberechtigte, denen keine Gemeindekennziffer zugewiesen wurde, der Eintrag im Feld `Land` aber D, De oder Deu ist.
 
 * NEW: <as_staat> (Land des Sorgeberechtigten): Hier werden bisland die Einträge D, De, Deu, CZ, PL, CH in die richtigen Schlüsselwerte umgesetzt. Ergänzt wurde für Österreich der Wert AT.
@@ -204,18 +204,18 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Berlin
 
-CHANGE: BER-KO-ABI (Schul Z 323)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
-CHANGE: BER-KO-AZ (Schul Z 321)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
-CHANGE: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Ausdruck aus MAGELLAN 7 jetzt möglich)
-NEW: BER-Schul Z 324 (11.19).rpt (Bericht war bereits in MAGELLAN 6 Auslieferung enthalten, nun auch für MAGELLAN 7 verfügbar)
+CHANGE: BER-KO-ABI (Schul Z 323)(03.11).rpt (Ausdruck aus Magellan 7 jetzt möglich)
+CHANGE: BER-KO-AZ (Schul Z 321)(03.11).rpt (Ausdruck aus Magellan 7 jetzt möglich)
+CHANGE: BER-KO-AS (Schul Z 320a-b)(03.11).rpt (Ausdruck aus Magellan 7 jetzt möglich)
+NEW: BER-Schul Z 324 (11.19).rpt (Bericht war bereits in Magellan 6 Auslieferung enthalten, nun auch für Magellan 7 verfügbar)
 
 ## 7.1.17 - 715 (08.09.2020)
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: `Schüler > Laufbahnprozess` "Schüler in  Mandanten versetzen"
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 #### Statistik NRW
 
@@ -256,7 +256,7 @@ Fälle | Auswirkung im Bericht
 
 ## 7.1.16 - 715 (26.08.2020)
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 ### Skripte
 
@@ -274,11 +274,11 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ## 7.1.15 - 715 (20.08.2020)
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: Korrekturen beim Versetzen von Schülern in Nachbarmandanten
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 #### SAXSVS
 
@@ -293,12 +293,12 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * NEW: Die importierte Ausbildung der Bewerber wird automatisch als aktuelle Ausbildung markiert.
 * CHANGE: Beim Importieren wird der Bildungsgang als Bildungsgang gesetzt
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
 * FIX: `schueler_laufbahn.import.csv` Zuordnen zu Klassen korrigiert
 * FIX: Auffüllen von leeren Datumsfeldern korrigiert
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * FIX: Problem bei der Rückgabe von Büchern behoben
 
@@ -347,35 +347,35 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
 * NEW: Tabelle SchuelerFachdaten: `HJ1_Bestanden` bis `HJ6_Bestanden` entfernt und durch `Bestanden` ersetzt
 
-### MAGELLAN SCHULVERWALTUNG
+### Magellan SCHULVERWALTUNG
 
 * FIX: Unter `Schüler > Zeugnis > Details` werden für `Verhalten` und `Mitarbeit` Noten und Füllwerte gezeigt.
 * NEW: NRW: Unter `Schüler > Zeugnis > Leistungen` gibt es das Feld `Bestanden`. In dem Feld ist festhaltbar, ob der Kurs bestanden, nicht bestanden oder nicht belegt wurde. Diese Eingabe wird beim Synchronisieren der Daten mit ins Menü `Abitur` übergeben und je Halbjahr (E1-Q4) abgebildet. Bitte beachten Sie den Abschnitt ["Bestanden" und "Leistungsart"](https://doc.magellan.stueber.de/schulverwaltung/howto/Oberstufe/sync/#bestanden-und-leistungsart) im Kapitel [Schüler synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/howto/Oberstufe/sync/)
 * FIX: `Schüler > Daten4` neue Fahrtstrecke kann gespeichert werden
 * FIX: Filterbezeichnungen korrigiert
-* FIX: Die Zugriffsrechte für das Modul `Abitur` (damit für das Erfassen der schriftlichen Prüfungsnoten) wurden für die Rechtegruppen Schulleitung1, Sekretariat1 erweitert. Zusammengefasst haben hier Änderungsrechte: Kollegium5, Schulleiter1, Schulleiter2, Sekretariat1, Sekretariat2, MandantenAdmin und der sysdba. Bitte führen Sie das Synchronieren der Zugriffsrechte im MAGELLAN Administrator unter `Benutzerverwaltung > Menüleiste "Zugriffsrechte synchronisieren"` aus um die Rechte für bestehende Benutzerkonten zu erweitern.
+* FIX: Die Zugriffsrechte für das Modul `Abitur` (damit für das Erfassen der schriftlichen Prüfungsnoten) wurden für die Rechtegruppen Schulleitung1, Sekretariat1 erweitert. Zusammengefasst haben hier Änderungsrechte: Kollegium5, Schulleiter1, Schulleiter2, Sekretariat1, Sekretariat2, MandantenAdmin und der sysdba. Bitte führen Sie das Synchronieren der Zugriffsrechte im Magellan Administrator unter `Benutzerverwaltung > Menüleiste "Zugriffsrechte synchronisieren"` aus um die Rechte für bestehende Benutzerkonten zu erweitern.
 * FIX: `Abitur > Prüfungen`: Wenn das Häkchen für "Lernleistungen einbringen" als letzte Aktion vor dem Auslösen der Berechnung gesetzt wird, wird es durch die Aktion des Berechnens nicht deaktiviert.
 
-### MAGELLAN Schnittstellen
+### Magellan Schnittstellen
 
 * FIX: SAXSVS: Problem beim Ausspielen der Förderschwerpunkte für Schüler mit IDIntern behoben.
 * CHANGE: Hinweise,  wie mit erneut auftauchenden Schülern im Import umgegangen wird, überarbeitet: [https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten](https://doc.ls.stueber.de/sachsen/import_saxsvs/#prufung-von-schulerdaten)
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
-* FIX: Beim Übertrag von MAGELLAN 6 nach MAGELLAN 7 wird die Datenstruktur 674 erwartet 
+* FIX: Beim Übertrag von Magellan 6 nach Magellan 7 wird die Datenstruktur 674 erwartet 
 
-### MyMAGELLAN-CENTER
+### MyMagellan-CENTER
 
 * FIX: Mym-Datei mit mit pauschalem Kennwort erstellen
 
-### MAGELLAN BIBLIOTHEK
+### Magellan Bibliothek
 
 * FIX: Beim Versuch eines mit "Dauerverleih" markierten Buches wird die nachfolgende Meldung ausgegeben. Exemplare können per Sammelzuweisung über das Feld "Bestandsstatus" mit `Dauerverleih` (Sie haben das Buch in eine andere Bibliohtek ausgeliehen) oder als `Dauerleihgabe` (Sie haben das Buch dauerhaft aus einer anderen Bibliothek ausgeliehen) markieren.
 
@@ -386,7 +386,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 * CHANGE: `Synchronisiere Abi` wurde angepasst, es werden die Daten aus dem Feld `Bestanden` (aus Schüler > Zeugnis > Leistungen) mit ins Abitur synchronisiert
-* CHANGE: `Synchronisiere Zugriffsrechte` wurde angepasst, siehe Hinweise im Abschnitt MAGELLAN SCHULVERWALTUNG:
+* CHANGE: `Synchronisiere Zugriffsrechte` wurde angepasst, siehe Hinweise im Abschnitt Magellan SCHULVERWALTUNG:
 
 ### Berichte
 
@@ -399,7 +399,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
@@ -418,13 +418,13 @@ Schulbezeichnung|**SchulBez**
 * FIX: `NRW > Import > SchuelerOnline > Betriebe aktualisieren`: Die Funktion wurde aktualisiert
 * CHANGE:/-Breaks (`<br/>`) werden beim Einlesen aus SchülerOnline-Dateien ignoriert
 
-### MAGELLAN
+### Magellan
 
 * CHANGE: Aus der Filterung der Schülerauswahliste nach Vagabunden steht `Rechtsklick > Status` nicht mehr zur Verfügung
 * FIX: Rechtegruppe Kollegium5: Änderungen der Laufbahn werden auch beim Weiterschalten zum nächsten Datensatz gespeichert.
 * FIX: Problem beim Anlegen `Unterpunkten` im Verzeichnis `Fächer (Themen)`behoben 
 
-### MAGELLAN BIBLIOTHEK
+### Magellan Bibliothek
 
 * FIX: Passbilder, die für bereits als Medienausleiher angelegte Schüler in der Schulverwaltung aktualisiert wurden, werden auch in der Anzeige in der Bibliothek angepasst
 * FIX: Klasse und Klassendaten werden nach Änderung in der Schulverwaltung auch für die Bibliothek übergeben.    
@@ -433,7 +433,7 @@ Schulbezeichnung|**SchulBez**
 
 * NEW: ABS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
 
-#### MAGELLAN Berichte
+#### Magellan Berichte
 
 Die Dokumentation unserer Berichtsdateien finden Sie unter [https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/).
 
@@ -458,7 +458,7 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 ## 7.1.12 - 713 (30.06.2020)
 
-### MAGELLAN
+### Magellan
 
 * FIX: `Betriebe > Auswahl > Betriebe zusammenführen`Anzeige der korrekten Datensätze
 * FIX: `Schüler > Daten 1 > Familie` Anzeige des Verhältnisses
@@ -470,24 +470,24 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 * NEW: BBS-Nordrhein-Westfalen Statistikmodul 2020. Beachten Sie bitte die aktualisierten Schlüsselverzeichnisse und die aktualisierte Dokumentation ["Statistikdokumentation für NRW"](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/).
 
-#### MAGELLAN Berichte
+#### Magellan Berichte
 
-* NEW: Das Modul `MAGELLAN Berichte` fällt weg, die Dokumentation der Berichte erfolgt ab dieser Version ausschließlich im Bereich Berichte der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)!
+* NEW: Das Modul `Magellan Berichte` fällt weg, die Dokumentation der Berichte erfolgt ab dieser Version ausschließlich im Bereich Berichte der Dokumentation [Landesanpassung unter https://doc.la.stueber.de/berichte/01_uebersicht/](https://doc.la.stueber.de/berichte/01_uebersicht/)!
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
 * FIX: `Datenaustausch > Kataloge importieren` 00_Raeume.keys importierbar
 
 ### Skripte
 
 * FIX: SHL-APO-2018: Anpassung Fachanforderungen Sport: kaufmännische Rundung nur am Schluss: ((schr. Note des 3. Prüfungsfaches x 2) plus Note1 (Fachpraxis) plus Note2 (Fachpraxis)) geteilt durch 4.
-* FIX: SAC-APO-BGY-2017: Mit den Änderungen durch Artikel 2 der Verordnung vom 24. Juli 2018 entfällt jegliche Unterscheidung nach den Fachrichtungen. Somit muss in MAGELLAN im `Schlüsselverzeichnis > Verordnungen` auch nicht mehr der Wert für "Typ" eingetragen werden. Das Skript berücksichtigt, dass die 2. Fremdsprache nicht mehr zwingend belegt werden muss. Beim Markieren werden nur 26 GKs (zuvor 28 GKs) gekennzeichnet. 
+* FIX: SAC-APO-BGY-2017: Mit den Änderungen durch Artikel 2 der Verordnung vom 24. Juli 2018 entfällt jegliche Unterscheidung nach den Fachrichtungen. Somit muss in Magellan im `Schlüsselverzeichnis > Verordnungen` auch nicht mehr der Wert für "Typ" eingetragen werden. Das Skript berücksichtigt, dass die 2. Fremdsprache nicht mehr zwingend belegt werden muss. Beim Markieren werden nur 26 GKs (zuvor 28 GKs) gekennzeichnet. 
 Aktualisierte Beschreibung zum Skript unter https://doc.la.stueber.de/11.sac/sac-apo-bgy-2017/.
 * CHANGE: NRW-APO-BK-2012: Neben der Unterrichtsart DB iwrd nun auch die Unterrichtsart Diff berücksichtigt. Aktualisierte Beschreibung zum Skript unter https://doc.la.stueber.de/08.nrw/nrw-apo-bk-2012/
 
-### MyMAGELLAN
+### MyMagellan
 
-* FIX: Installationspaket vervollständigt, bei reinen MyMAGELLAN-Installationen erschien beim Eintrag von Schülerbemerkungen eine Meldung, die auf eine fehlende Datei hinwies.
+* FIX: Installationspaket vervollständigt, bei reinen MyMagellan-Installationen erschien beim Eintrag von Schülerbemerkungen eine Meldung, die auf eine fehlende Datei hinwies.
 
 ### Berichte (NEW oder CHANGE)
 
@@ -527,7 +527,7 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
@@ -537,7 +537,7 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
   * `HJ1_Bestanden` bis `HJ6_Bestanden`
 * NEW: Schuelerfachdaten: `Leistungsart`
 
-### MAGELLAN
+### Magellan
 
 * NEW: Schlüsselverzeichnis `Leistungsarten` mit Arten (Schriftlich, mündlich, praktisch) und gleichnamiges Feld unter `Schüler > Zeugnis > Leistungen`.
   * * Dieses Feld wird für die Oberstufe in NRW benötigt. Man legt sich seine Arten der Leistung an (Beispiel Vortrag, Klausur usw) und markiert sie mit der korrekten Art (Beispiel: Klausur = schriftlich). Bei den Schülern wird unter `Schüler > Zeugnis > Leistungen` jedes Fach mit der vom Schüler gewählten Leistungsart markiert. Diese Leistungsart wird je Kurshalbjahr beim Synchronisieren der Daten mit ins Menü `Abitur > Qualifikation` übernommen. Die Leistungsart wird nur für benotete Fächer übernommen.
@@ -553,46 +553,46 @@ Eine Anleitung unserer Berichte finden Sie ab sofort im Bereich "Berichte" der D
 * FIX: Problem beim Synchronisieren von Schülern in die Berufsschulmatrix behoben (`Synchronisiere BBS.dws`)
 * FIX:Eintrag unter `Sorgeberechtigte > Arbeitgeber` wieder möglich
 * FIX: `Sorgeberechtigte > Arbeitgeber` - Schaltflächen werden jetzt korrekt aktiviert
-* FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile > Dialogfenster Kurse definieren`  - Die Überschriften wurden überarbeitet, der blaue Hintergrund entfernt  
+* FIX: `Klassen > Zeiträume > Enbrea Leistungsprofile > Dialogfenster Kurse definieren`  - Die Überschriften wurden überarbeitet, der blaue Hintergrund entfernt  
 
 
-### MAGELLAN ADMINISTRATOR
+### Magellan Administrator
 
-* FIX: Reihenfolge beim Einlesen der Dateien aus dem MAGELLAN Importformat korrigiert
+* FIX: Reihenfolge beim Einlesen der Dateien aus dem Magellan Importformat korrigiert
 
 ### Skripte
 
-* CHANGE: `Importier SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DAVINCI nach MAGELLAN werden die Schülerfachdaten in MAGELLAN nicht mehr geändert, wenn die Fachkombinationsnummer in DAVINCI verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DAVINCI: Schülerkurswahlen mit der Option "nur geänderte Daten" ](https://doc.magellan.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
+* CHANGE: `Importier SDTF.dws` Beim Übertrag von Schülerkurswahlen (`nur geänderte Daten`) von DaVinci nach Magellan werden die Schülerfachdaten in Magellan nicht mehr geändert, wenn die Fachkombinationsnummer in DaVinci verändert wurde. Bitte beachten Sie die angepasste Dokumentation: [Abgleich mit DaVinci: Schülerkurswahlen mit der Option "nur geänderte Daten" ](https://doc.magellan.stueber.de/schulverwaltung/howto/abgleich_mit_dav/#import-mit-nur-geanderte-daten)
 * CHANGE: `Synchronisiere Abi.dws`: Beim Synchronisieren der Schülerdaten wird für benotete Fächer der Eintrag aus `Schüler > Zeugnis > Leistungen > Leistungsart` übernommen.
 
 * FIX: `Exportiere SDTF.dws` beim Übertrag von Schülerkurswahlen Auswahl nur bestimmter Schüler
-* FIX: `Importiere SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DAVINCI nach MAGELLAN (Schülerkurswahlen) behoben.
-* FIX: `BER-APO-KO-2017.dws`: Anpassungen für MAGELLAN 7
+* FIX: `Importiere SDTF.dws` Problem beim Zuordnen von P1-Daten beim Übertrag aus DaVinci nach Magellan (Schülerkurswahlen) behoben.
+* FIX: `BER-APO-KO-2017.dws`: Anpassungen für Magellan 7
 * FIX: `Synchronisiere BBS.dws`
 
 ### Schnittstellen
 
 * NEW: SHL - Schulstatistik Schnittstelle 2020/2021 freigegeben
-* NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach MAGELLAN](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
+* NEW: SAC - SAXSVS - Schnittstelle um Import erweitert. Dokumentation zu finden unter [Import von Daten aus SaxSVS nach Magellan](https://doc.ls.stueber.de/sachsen/import_saxsvs/)
 * NEW: SAC - SAXSVS - Schnittstelle um Exportdatei mit  Abgängern/Abschlüssen erweitert
   
 * CHANGE: SAC - SAXSVS - Export der Betriebedaten auch, wenn nur Ausbildungs- oder Praxisbetrieb angegeben wurde.
   
 * FIX: SAC - SAXSVS - Detailverbesserungen und Sonderfälle beim Export berücksichtigt
-* NEW: In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (MAGELLAN-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (MAGELLAN-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
+* NEW: In SAXSVS wird jeweils der Eintrag des Einstellungsbetriebs (Magellan-Ausbildungsbetrieb) UND der Ausbildungsbetriebs (Magellan-Praxisbetrieb) erwartet. Ist einer der beiden Betriebe nicht erfasst, wird alternativ immer der jeweils andere Betrieb ausgegeben. Sie müssten also, wenn der Einstellungs- und der Ausbildungsbetrieb identisch sind, nur einen der beiden Betriebe erfassen.  
 
-### MAGELLAN-Skripteditor
+### Magellan-Skripteditor
 
 * CHANGE: überarbeitete Version
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * FIX: Löschen von Exemplaren funktioniert wieder
 * FIX: Optionen können von Benutzern mit Rechten für die Bibliothek geändert werden
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 * CHANGE: Schülerpersonalblatt (Überprüfung Stammdaten).rpt (PraxisBetrieb Name 1 und Name 2 werden ausgegeben)
 
@@ -625,7 +625,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 ## 7.1.10 - 712 (05.05.2020)
 
-### MAGELLAN
+### Magellan
 
 * FIX: Fertigstellen-Button im `Extras > Exporte > Untis` wird aktiviert  
 * FIX: Beim Anlegen eines neuen Bewerbers, wird die Anzeige der Herkunftsschule unter `Daten2` korrekt aktualisiert.
@@ -635,21 +635,21 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
   * `Bewerber > Höchster Abschluss BBS > Abschluss`
   * `Bewerber > Höchster Abschluss BBS > Beruf`
   * `Bewerber > Höchster Abschluss BBS > Bildungsgang`
-* FIX: Bearbeiten von `Schüler > Zeugnis > ENBREA Leistungen`und `Schüler > Zeugnis > ENBREA Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
+* FIX: Bearbeiten von `Schüler > Zeugnis > Enbrea Leistungen`und `Schüler > Zeugnis > Enbrea Kurse` mit Kollegiums, Sekretariats- und Schulleitungsrechten möglich
 * FIX: `Import > Untis` (korrigiertes Skript `Importiere SDTF.dws`)
 * FIX: `EXport > Untis` (korrigiertes Skript `Exportiere SDTF.dws`)
 * FIX: `Schueler > Extras > Importe > SchuelerOnline` Betriebedaten werden importiert
 
-### MAGELLAN Administrator
+### Magellan Administrator
 
 * FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
 * FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
   
-### MyMAGELLAN-CENTER
+### MyMagellan-CENTER
 
 * FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
 
-### MyMAGELLAN
+### MyMagellan
 
 * FIX: Anzeige der Inhalte der Verzeichnisfelder unter `Schüler > Zeugnisdaten korrgiert`
   * CHANGE: Die Anzeige der `Beurteilungsarten` unter `Fächer` ist angepasst worden. Statt des Drop-Downfeldes, sind jetzt Radio-Buttons verwendet worden, die dem Benutzer die gefilterte Darstellung der Liste nach der Beurteilungsart verdeutlichen. Bitte beachten Sie die angepasste Dokumentation unter [https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern](https://doc.mymagellan7.stueber.de/noteneingabe/#eingabe-nach-fachern)
@@ -659,13 +659,13 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * FIX: Anzeige von Füllwerten korrigiert
 * FIX: spaltenbezogene Filterkriterien in der Ansicht `Fächer` sichtbar
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * FIX: Problem beim Übernehmen von Personen als Ausleiher behoben
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 #### Sachsen
 
@@ -678,7 +678,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ## 7.1.9 - 712 (07.04.2020)
 
-### MAGELLAN
+### Magellan
 
 * NEW: Für den Seriendruck `An den Betrieb des Schülers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
 * NEW: Für den Seriendruck `An den Betrieb des Bewerbers` wurden die Felder `Bildungsgang` und `Beruf` übergeben, damit kann innerhalb von Word nach Datensätzen  eines Bildungsgangs/Berufs gefiltert werden
@@ -696,13 +696,13 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * FIX: Unter `Schueler > Daten2 > Abschluss` können Werte verwendet werden, für die unter `Extras > Schlüsselverzeichnisse > Abschlüsse (extern)` die volle Kürzellänge verwendet wurde
 * FIX: das Versetzen von Schülern in Mandanten wurde überarbeitet, dabei wurde auch die Übergabe der Fremdsprache wieder mit eingebunden. Existiert die Fremdsprache (Prüfung anhand des Kürzels) nicht im anderen Mandanten, wird ein neues Fach im Verzeichnis `Fächer` angelegt und dem kopierten Schüler zugewiesen.
 * FIX: Länge der Bezeichnung `Lehrämter` (Überschrift) unter `Lehrer > Daten3` angepasst
-* FIX: Assistent "ENBREA-Leistungen übernehmen" - Textlänge angepasst
+* FIX: Assistent "Enbrea-Leistungen übernehmen" - Textlänge angepasst
 
-### MAGELLAN Administrator
+### Magellan Administrator
 
-* FIX: Datapump (Datenübertragung von MAGELLAN 6 nach MAGELLAN 7) optimiert
+* FIX: Datapump (Datenübertragung von Magellan 6 nach Magellan 7) optimiert
 
-### MyMAGELLAN-CENTER
+### MyMagellan-CENTER
 
 * NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden.
 
@@ -710,20 +710,20 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
     Die Dateiendung im MyMagellan-Center muss bitte vor dem neuen Export angepasst werden. Um die Änderung für viele zu machen, nutzen Sie bitte die Möglichkeit des Exports und Imports der Benutzerdaten und ersetzen bitte mit "Suchen und Ersetzen" (z.b. in Excel per STRG+H aufrufbar) in der exportierten Datei und ersetzen ".mym7" (oder ".mym") durch ".mymx".
 
-### MyMAGELLAN
+### MyMagellan
 
 * NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden
 * FIX: In der Ansicht  `Fächer` und  `Schüler` sind die Felder `schriftl.Note1` - `Endnote (gesamt)` beschreibbar.
 * FIX: Filter im Bereich
 * CHANGE: in der Ansicht `Schüler` und `Fächer` wird die Spalte `Kurs` als erste Spalte eingeblendet, die das Fachkürzel plus die Kursnummer ausgibt.
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * CHANGE: Sämtliche Optionen in der Bibliothek sind von den Benutzern mit den Bibliothekts-Rechtegruppen `Schulleitung`, `Bibliothekar` oder dem `sysdba` anpassbar. Benutzer mit den Bibliotheks-Rechtegruppen `Kollegium` oder `Gast` können keine Änderungen vornehmen, sondern die Einstellungen nur ansehen. Bitte beachten Sie den neuen Abschnitt [Optionen](https://doc.magellan.stueber.de/bibliothek/installation/optionen/).
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 #### Mecklenburg Vorpommern
 
@@ -783,7 +783,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 #### Sachsen
 
@@ -821,7 +821,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
@@ -829,18 +829,18 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * CHANGE: Nicht erfasste Fehlzeiteneinträge werden für bereits erfasste Schüler nicht mehr mit 0 sondern leer gezeigt (Zeugnisse können 0 darstellen, egal ob eine 0 oder kein Eintrag vorliegt)
 * CHANGE: Für neu eingeschulte Schüler werden diese Felder nicht mehr mit einer 0 vorbelegt
 
-### MAGELLAN
+### Magellan
 
 * NEW: in der Auswahlliste `Schüler` wird der aktuell belegte Bildungsgang eingeblendet
-* NEW: `MAGELLAN > Daten2 > Abgangsart` Sammelzuweisung ergänzt
+* NEW: `Magellan > Daten2 > Abgangsart` Sammelzuweisung ergänzt
 * NEW: Wird ein neuer Sorgeberechtigter von `Schüler/Bewerber > Daten1 > Familie` aus angelegt, wird für den Datensatz unter `Sorgeberechtigter > Daten` das Feld `Gemeindekennziffer` gefüllt.
 * NEW: Für Vagabunden (Datensätze im Schülermenü, die noch keiner Klasse zugeordnet wurden, Anzeige per Statusfilterwert "Vagabunden") wurde das Feld `aktuelle Ausbildung` auf der Ausbildungskarte ergänzt. Die zuerst erfasste Ausbildung wird automatisch als aktuelle Ausbildung eingesetzt.
-* NEW: Die MAGELLAN-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
+* NEW: Die Magellan-Mailschnittstelle kann für 32 Bit- und 64 Bit-Mailclients verwendet werden. Sollte nicht der von Ihnen erwartete Mailclient aufgerufen werden, schauen Sie bitte folgenden Artikel an [Welcher Mailclient wird aufgerufen?](https://doc.kb.stueber.de/sonstiges/mapi2.html).
 
 * CHANGE: Wechselt man von `Bewerber > Auswahl` in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
 * CHANGE: Verhalten des Meldungsfenster unter `Abitur > Qualifikation`
 * CHANGE: Umgestaltung der Karte `Schüler > Laufbahn` (Hintergrund waren Skalierungsprobleme bei niedrigen Auflösungen)
-* CHANGE: Unter `Datenbank > Optionen > Dokumente > Crystal Reports/Word-Seriendruck` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der MAGELLAN-Verzeichnisstruktur sichert.
+* CHANGE: Unter `Datenbank > Optionen > Dokumente > Crystal Reports/Word-Seriendruck` wird bei der Eingabe geprüft, dass kein vollständiger Pfad (Beispiel: C:/...) eingegben wird, sondern lediglich ein Unterpfad, der die Ablage ausschließlich innerhalb der Magellan-Verzeichnisstruktur sichert.
 * CHANGE: Darstellung der Verzeichnisfelder unter `Berufsschule > Matrix` und `Berufsschule > Abschluss` aktualisiert 
 
 * FIX: Fehlermeldung bei Eingabe unter `Bewerber > Daten2 > ex.Empfehlung`  und Wechsel per "Nächster Datensatz" behoben
@@ -855,24 +855,24 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * FIX: `Lehrer > Soll-Berechnung`Auswahl aus dem Schlüsselverzeichnis Lehrer-Sollschlüssel möglich
 * FIX: `Lehrer > Merkmale` Auswahl aus dem Schlüsselverzeichniss Lehrer Merkmale möglich
 * FIX: `Abitur > Fachwahl`:Aktualisierungsproblem behoben
-* FIX: `MAGELLAN > Schüler`Aktualisieren der Ansicht nach Schüler korrigieren
+* FIX: `Magellan > Schüler`Aktualisieren der Ansicht nach Schüler korrigieren
 * FIX: `Schüler > Daten1` Reihenfolge bei Nutzung der Tabulatorentaste angepasst
 * FIX: `Abitur > Prüfungen > Prüfungsnoten eingeben`: Layout anpassen ist inaktiv
 * FIX: `Lehrer > Merkmale` Auswahl der im Schlüsselverzeichnis Merkmale (Lehrer) eingetragenen Werte korrigiert
 * FIX: `Schüler > Zeugnis > Arbeits- und Sozialverhalten`: Kategorietafel zuweisen
 * FIX: Korrektur beim Auswahlfilter der Gemdeinden für Schüler/Sorgeberechtigte/Betriebe bei Auswahl Sachsen und NRW 
-* FIX: `MAGELLAN > Extras > Exporte > Landesstatistik Berlin`
+* FIX: `Magellan > Extras > Exporte > Landesstatistik Berlin`
 * FIX: `NRW > Extras > Export > SchülerOnline`: Hier wurde versehentlich die Statistiklizenz mit abgefragt
 * FIX: Wenn ein Bewerber einen weiteren Ausbildungsdatensatz bekommt, fehlte das Häkchen für `als neue Ausbildung übernehmen`.  
 * FIX: Beim Import aus SchuelerOnline wird das Feld Schulnr korrekt eingelesen
-* FIX: `Schüler > Laufbahnprozess > ENBREA Leistungen übernehmen`
+* FIX: `Schüler > Laufbahnprozess > Enbrea Leistungen übernehmen`
 * FIX: Für `Extras > Schlüsselverzeichnisse > Bewerbungsziele > Hauptfachnote` ist die Priorität auswählbar
 
 ### SAXSVS
 
-* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in MAGELLAN existiert und damit kein Export stattfinden kann
+* CHANGE: Fehlermeldung falls der Zeitraum nicht passend zum heutigen Datum in Magellan existiert und damit kein Export stattfinden kann
 
-### MyMAGELLAN
+### MyMagellan
 
 * FIX: unter Fächer eingeblendete Personalnummer bleibt auch beim Fachwechsel erhalten
 * FIX: Filterung der Klassen in der linken Spalte der Schüleransicht korrigiert
@@ -888,7 +888,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 ![](/assets/images/changelog/7.1.7.00.png)
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * CHANGE: Korrekturen für den Umgang mit MedienExemplare.BarcodeExtern
 
@@ -899,7 +899,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 #### Optimierungen
 
@@ -1116,13 +1116,13 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 ### Datenstruktur
 
 * CHANGE:  Änderungen von Bewerbungsdaten müssen sich auf den kopierten Bewerber auswirken.
 
-### MAGELLAN
+### Magellan
 
 * CHANGE: Unter `Schüler > Ausbildung` wird in der Filterung `Vagabunden` die Leiste "aktueller Ausbildungsbetrieb/akuteller Praxisbetrieb" gezeigt
 * CHANGE: Wechselt man von Auswahlliste in eine Datenkarte und zurück, sind die Gruppierungen im Anschluss so geöffnet oder geschlossen wie zuvor
@@ -1138,7 +1138,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * FIX: Schreibfehler im Filter in der Auswahlliste `Schüler` korrigiert
 * FIX: das Zuweisen von `Kategorietafeln` unter `Schüler > Zeugnis > Arbeits- und Sozialverhalten` wurde überarbeitet
 
-### MAGELLAN Administrator
+### Magellan Administrator
 
 * FIX: Im Dialog `Datenaustausch > Postleitzahlen und Banken importieren` wurden die Ergebnisanzeigen ergänzt
 * FIX: `Datenaustausch > Daten über das Magellan-Importformat importieren`:
@@ -1147,7 +1147,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
   * Beim Import von `schueler_import.csv` wird ein leerer Eintrag im Feld `InDeutschlandSeit` korrekt übergeben
 * FIX: `Benutzerverwaltung > Administratoren`: Ändern des DBAdmin-Passwortes korrigiert
 
-### MAGELLAN Bibliothek
+### Magellan Bibliothek
 
 * CHANGE: `Bibliothek > Ausleihe`: Medium suchen mit Umlaut klappt wieder
 * NEW: unter `Bücher/Medien > Vorgänge` wird die Spalte `Klasse` gezeigt
@@ -1162,7 +1162,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
@@ -1190,14 +1190,14 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ## 7.1.5 - 710 (05.02.2020)
 
-### MyMAGELLAN
+### MyMagellan
 
 * FIX: Listenfelder unter `Schüler > Zeugnisdaten` sind auswählbar
 * Change: Mym7-Datei kann nicht mehrfach geöffnet werden
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 * CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 2).rpt
 * CHANGE: Zeugnisse\Nordrhein-Westfalen\NRW-RS-AS (Variante 1).rpt
@@ -1211,7 +1211,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ## 7.1.4 - 710 (03.02.2020)
 
-### MAGELLAN
+### Magellan
 
 * FIX: Feldlänge in der Oberfläche für `Bewerber > Daten 1 > Geburtsland` an die Zeichenzahl des Kürzels aus dem Schlüsselverzeichnis `Staatsangehörigkeiten` angepasst
 * FIX: Neue oder geänderte Einträge unter `Klassen > Zeiträume` werden korrekt in der Klassenauswahlliste aktualisiert
@@ -1227,15 +1227,15 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 * FIX: Ausgabe der Klasse für Nebenschüler
 
-### MAGELLAN Administrator
+### Magellan Administrator
 
-* NEW: Der Punkt `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
+* NEW: Der Punkt `Datenaustausch > Daten über das Magellan-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
 
-### MyMAGELLAN-CENTER
+### MyMagellan-CENTER
 
 * CHANGE: Standardsortierung der Liste nach `Kennung`
 
-### MyMAGELLAN
+### MyMagellan
 
 * FIX: versehentlich eingetragene Mahnung kann wieder gelöscht werden
 * FIX: zuletzt eingetragene Note wird vor dem Datensatzwechsel gespeichert
@@ -1249,7 +1249,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Punkten).rpt
 * FIX: Klassen\Klassenliste (Zensurenstatistik nach Noten).rpt
@@ -1266,7 +1266,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ## 7.1.3 - 710 (08.01.2020)
 
-### MAGELLAN
+### Magellan
 
 * FIX: Ein unter `Schüler > Ausbildung` neu angelegter Praktikumsbetrieb wird auch gleich als neuer Praktikumsbetrieb für den Schüler übernommen.
 * FIX: Beim Einschulen von Nebenschülern (also Stammschülern mit einer Nebenlaufbahn) wird der `ZugangAm` unter `Daten2` nicht verändert. Im Assistenten wird darauf hingewiesen.
@@ -1277,21 +1277,21 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 * CHANGE: Anzeige der eingetragenen Wertes aus dem Feld `Schüler > Daten 4 > Bafög` in der Auswahlliste als Checkbox.
 * FIX: Mehrere Durchläufe des Assistenten `Schüler ausschulen` wieder möglich
 
-### MAGELLAN Willkommensassistent
+### Magellan Willkommensassistent
 
 * FIX: Verbindungseingabe beim Anlegen von Verbindungen zu einer entfernten Datenbank überarbeitet
 
-### MAGELLAN Bericht
+### Magellan Bericht
 
 CHANGE: Das Modul wurde aktualisiert
 
-### MyMAGELLAN
+### MyMagellan
 
 * NEW: Eingabe der Leistungen per Ziffernblock und Pfeiltasten möglich
 * FIX: Sortierung von Umlauten korrigiert
 * CHANGE: Fachansicht: Die zuletzt gewählte Sortierung wird beim Wechsel zum nächsten Datensatz für die neue Liste wieder ausgeführt
 * CHANGE: Schüleransicht: Die zuletzt gewählte Sortierung wird beim Wechsel zum nächsten Datensatz für die neue Liste wieder ausgeführt
-* CHANGE: Beim Start einer MyMAGELLAN-Datei wird die Beurteilungsart der Fächeransicht standardmäßig mit der Auswahl `Alle Beurteilungsarten` voreingestellt. 
+* CHANGE: Beim Start einer MyMagellan-Datei wird die Beurteilungsart der Fächeransicht standardmäßig mit der Auswahl `Alle Beurteilungsarten` voreingestellt. 
 
 ### Skripte
 
@@ -1302,7 +1302,7 @@ CHANGE: Das Modul wurde aktualisiert
 
 ### Berichte (NEW oder CHANGE)
 
-Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > MAGELLAN BERICHTE` aufgerufen werden kann.
+Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Bestandteil der Installation ist und unter `Start > Programme > Stüber Systems > Magellan BERICHTE` aufgerufen werden kann.
 
 * NEW: DAS-GY-AZ mit FHR (Anlage 9b).rpt
 * NEW: NIE-GY (Studienbuch - Einführungsphase) G9.rpt
@@ -1312,7 +1312,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul MAGELLAN BERICHTE, das Besta
 
 ### Neu Berichte für Berlin
 
-* NEW: BER-Schul Z 620 (09.18).rpt (Beiblatt zum Zeugnis für ergänzende Bemerkungen (09.18), Bitte beachten Sie, dass Sie dieses Formular gesondert ausgedruckt werden muss. Die Zeugnisbemerkung muss in MAGELLAN das Merkmal "Beiblatt" erhalten)
+* NEW: BER-Schul Z 620 (09.18).rpt (Beiblatt zum Zeugnis für ergänzende Bemerkungen (09.18), Bitte beachten Sie, dass Sie dieses Formular gesondert ausgedruckt werden muss. Die Zeugnisbemerkung muss in Magellan das Merkmal "Beiblatt" erhalten)
 
 ![Zeugnisbemerkungen](/assets/images/changelog/7.1.3.01.png)
 

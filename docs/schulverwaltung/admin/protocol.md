@@ -1,4 +1,4 @@
-# Protokollierung in MAGELLAN
+# Protokollierung in Magellan
 
 Aus Sicherheits- und Datenschutzgründen sollten Änderungen der Daten in der Datenbank mitprotokolliert werden. Jegliche Änderung der Daten und Datenstruktur, das heißt, Erstellen, Ändern oder Löschen von Daten oder Teile der Datenstruktur soll im Nachhinein nachvollzogen werden können. 
 
@@ -13,7 +13,7 @@ Die offizielle Anleitung für Firebird 4.x finden Sie unter: [https://firebirdsq
 
 ### Bevor Sie beginnen
 
-Diese Informationen sind nur relevant, wenn Sie mindestens MAGELLAN 6 und Firebird 2.5.2 einsetzen. Wenn Sie bereits Firebird 2.5 einsetzen, können Sie problemlos den Firebird Datenbankserver auf die aktuelle Version 2.5.2 oder auf eine höhere Version 2.5.x von Firebird 2.5 aktualisieren.
+Diese Informationen sind nur relevant, wenn Sie mindestens Magellan 6 und Firebird 2.5.2 einsetzen. Wenn Sie bereits Firebird 2.5 einsetzen, können Sie problemlos den Firebird Datenbankserver auf die aktuelle Version 2.5.2 oder auf eine höhere Version 2.5.x von Firebird 2.5 aktualisieren.
 
 ### Die Technik
 

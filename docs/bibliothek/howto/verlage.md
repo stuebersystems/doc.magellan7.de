@@ -2,7 +2,7 @@
 
 [1]:/assets/images/bibliothek/Verlage_verlage01.png
 
-In MAGELLAN-BIBLIOTHEK steht Ihnen eine gesonderte Ansicht zur Verfügung, um Ihre bestehenden Verlagebeziehungen zu erfassen. Diese Ansicht  `Verlage` besteht aus  zwei Registerkarten:
+In Magellan-Bibliothek steht Ihnen eine gesonderte Ansicht zur Verfügung, um Ihre bestehenden Verlagebeziehungen zu erfassen. Diese Ansicht  `Verlage` besteht aus  zwei Registerkarten:
 
 [![Ansicht `Verlage`][1]][1]
 

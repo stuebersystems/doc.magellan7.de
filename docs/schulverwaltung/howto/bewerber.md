@@ -12,7 +12,7 @@ Dieses Kapitel beschreibt die Aufnahme der Bewerber mit den zugehörigen Daten d
 
     Das Menü `Bewerber` hat keinen Zeitraumbezug, beim Anlegen eines neuen Bewerbers spielt also der ausgewählte Zeitraum keine Rolle. Das Menü `Bewerber` dient dazu Schüler, die eventuell Schüler Ihrer Schule werden könnten von aktuellen Schülern Ihrer Schule getrennt zu verwalten. Daten, die Sie im Menü `Bewerber` für erfassen, können ins Menü `Schüler` übernommen werden. Ein Bewerber ist im Menü `Bewerber` sichtbar, bis er ins Menü `Schüler` übernommen wird. Einen Bewerber den Sie ablehnen, können Sie endgültig aus dem Menü `Bewerber` löschen oder ihn auch beispielsweise für den nächsten Durchlauf behalten. Wissen Sie für einen Bewerber/Schüler, den Sie neu anlegen wollen, definitiv, dass Sie ihn als Schüler Ihre Schule annehmen und wissen auch schon die Zielklasse, müssen Sie den Datensatz nicht im Menü `Bewerber` anlegen, der Datensatz kann direkt im Menü `Schüler` erfasst werden.
 
-Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in MAGELLAN erfolgen:
+Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in Magellan erfolgen:
 
 Art|Vorgehen
 --|--
@@ -21,7 +21,7 @@ Ohne Bewerberaufnahme|Der Schüler wird direkt als Schüler im Menü `Schüler` 
 
 ## Bewerber eingeben
 
-In MAGELLAN können Sie einen möglichen Schüler für das nächste Schuljahr zunächst als Bewerber aufnehmen. Diesen Bewerber können Sie mit allen notwendigen Stammdaten inkl. seiner Kontakte und eventuellen Ausbildungsbetriebe aufnehmen. Über ein Bewerberverfahren können Sie bestimmte Bewerber zu einem Zeitpunkt als zukünftige Schüler an Ihrer Schule annehmen. Aus dem Bewerber wird dann per Knopfdruck ein Schüler, ohne dass Sie die Stammdaten nochmals erfassen müssen. Bewerber besitzen keinen Zeitraumbezug, da sie noch keiner Klasse zugeordnet sind.
+In Magellan können Sie einen möglichen Schüler für das nächste Schuljahr zunächst als Bewerber aufnehmen. Diesen Bewerber können Sie mit allen notwendigen Stammdaten inkl. seiner Kontakte und eventuellen Ausbildungsbetriebe aufnehmen. Über ein Bewerberverfahren können Sie bestimmte Bewerber zu einem Zeitpunkt als zukünftige Schüler an Ihrer Schule annehmen. Aus dem Bewerber wird dann per Knopfdruck ein Schüler, ohne dass Sie die Stammdaten nochmals erfassen müssen. Bewerber besitzen keinen Zeitraumbezug, da sie noch keiner Klasse zugeordnet sind.
 
 Um einen neuen Bewerber aufzunehmen, wählen Sie das Menü `Bewerber` und klicken dann das `Plus` (alternativ `STRG+N`). Es öffnet sich das Dialogfenster `Neuer Bewerber`.
 
@@ -181,7 +181,7 @@ Im Dialogfenster `Neues Familienmitglied` können Sie entweder einen bereits ver
 
 !!! info "Hinweis"
 
-    Kontakte werden in MAGELLAN zentral verwaltet. Hat ein Kontakt einen Bezug zu zwei oder mehr Schülern an der Schule, so wird er nur einmal in den Stammdaten von MAGELLAN angelegt.
+    Kontakte werden in Magellan zentral verwaltet. Hat ein Kontakt einen Bezug zu zwei oder mehr Schülern an der Schule, so wird er nur einmal in den Stammdaten von Magellan angelegt.
 
 Nachdem Sie den Kontakt festgelegt haben, müssen Sie noch das `Verhältnis` zwischen dem Schüler und dem Kontakt festlegen. Einige Werte sind hierfür vorgegeben, 10 weitere Werte können Sie für Ihre Datenbank anpassen. Diese Möglichkeit finden Sie unter `Extras > Bezeichnungen anpassen`. Vergeben Sie hier in der Spalte `durch` eigene Verhältniswerte.
 
@@ -208,7 +208,7 @@ Die Kontakte selbst legen Sie bitte als zwei Datensätze an, weisen beide dem Sc
 
 ![Eltern sind getrennt erfasst, im Seriendruck können sie gemeinsam angeschrieben werden](/assets/images/bewerber/schuelersorge1.png)
 
-Wie Sie einen Kontakt unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt [Neuen Kontakt aufnehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
+Wie Sie einen Kontakt unabhängig vom Bewerber in Magellan aufnehmen können, erfahren Sie im Abschnitt [Neuen Kontakt aufnehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/sorgeberechtigte/#neuen-sorgeberechtigten-aufnehmen).
 
 #### Adressanpassungen
 
@@ -225,7 +225,7 @@ Das Optionshäkchen wird erst einmal für alle als deaktiviert voreingestellt, S
 
 !!! info "Hinweis"
 
-    In der Liste der optional mit anzupassenden Familienmitglieder gibt es die Spalten `Verhältnis`, dass das beim Schüler eingetragene Verhältnis zeigt, der Wert ist also immer aus Schülersicht. Zusätzlich wird in der Spalte `Ansicht` gezeigt, aus welcher MAGELLAN-Ansicht das Familienmitglied stammt.
+    In der Liste der optional mit anzupassenden Familienmitglieder gibt es die Spalten `Verhältnis`, dass das beim Schüler eingetragene Verhältnis zeigt, der Wert ist also immer aus Schülersicht. Zusätzlich wird in der Spalte `Ansicht` gezeigt, aus welcher Magellan-Ansicht das Familienmitglied stammt.
 
 ## Registerkarte `Daten 2`
 
@@ -321,7 +321,7 @@ Wird eine als aktuell markierte Ausbildung gefunden, wird diese Ausbildung mit d
 
 !!! info "Hinweis"
 
-    Sollten Ihre Bewerber durch Importe oder ähnliches zwar einen Ausbildungsdatensatz haben, dieser ist aber nicht als aktueller Ausbildungsdatensatz hinterlegt, können Sie mit einer Funktion im MAGELLAN ADMINISTRATOR für alle Bewerber, die nur einen Ausbildungsdatensatz haben, diesen jeweils als aktuell hinterlegen lassen. Bitte lesen dazu diesen Abschnitt: [https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen)
+    Sollten Ihre Bewerber durch Importe oder ähnliches zwar einen Ausbildungsdatensatz haben, dieser ist aber nicht als aktueller Ausbildungsdatensatz hinterlegt, können Sie mit einer Funktion im Magellan Administrator für alle Bewerber, die nur einen Ausbildungsdatensatz haben, diesen jeweils als aktuell hinterlegen lassen. Bitte lesen dazu diesen Abschnitt: [https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#aktuelle-bewerber-ausbildung-setzen)
 
 
 ![Dialog Sammelzuweisung `allgemeine Merkmale…`](/assets/images/bewerber/sammelzuweisung04.png)
@@ -353,7 +353,7 @@ Klicken Sie auf `Hinzufügen`, um neue Ausbildungsdaten hinzuzufügen.
 
 Im Dialogfenster `Neue Ausbildung` können Sie für den aktuellen Bewerber dessen Ausbildungsbetrieb, seinen Ausbildungsberuf und -bildungsgang sowie weitere Ausbildungsdetails festhalten.
 
-Analog zu den Kontakten können Sie einen schon verzeichneten Betrieb auswählen (`Betrieb suchen`...) oder direkt einen neuen Betrieb anlegen (`Neuen Betrieb anlegen`...). Betriebe werden als Stammdaten zentral verwaltet. Wie Sie einen Betrieb unabhängig vom Bewerber in MAGELLAN aufnehmen können, erfahren Sie im Abschnitt `Betriebe eingeben`. Einem Betrieb können mehrere Schüler zugeordnet werden, genauso können Sie einem Schüler mehrere Betriebe zuordnen.
+Analog zu den Kontakten können Sie einen schon verzeichneten Betrieb auswählen (`Betrieb suchen`...) oder direkt einen neuen Betrieb anlegen (`Neuen Betrieb anlegen`...). Betriebe werden als Stammdaten zentral verwaltet. Wie Sie einen Betrieb unabhängig vom Bewerber in Magellan aufnehmen können, erfahren Sie im Abschnitt `Betriebe eingeben`. Einem Betrieb können mehrere Schüler zugeordnet werden, genauso können Sie einem Schüler mehrere Betriebe zuordnen.
 Für die Suche von Ausbildungsbetrieben stehen Ihnen Filter zur Verfügung.
 
 ![Im Dialogfenster `Betrieb auswählen` stehen Ihnen für die Suche zwei Filter zur Verfügung](/assets/images/bewerber/ausbildung03.png)
@@ -377,7 +377,7 @@ Der Assistent zeigt links in der Spalte alle Bewerber, auf der rechten Seite sin
 !!! info "Hinweis"
 
     Der Assistent zeigt die Unterkarten im Zusammenhang mit der für Ihre Datenbankverbindung gewählten Region. 
-    Bitte prüfen Sie Ihre Auswahl unter `MAGELLAN ADMINISTRATOR > Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Unterkarte Datenbank > Feld Region`.
+    Bitte prüfen Sie Ihre Auswahl unter `Magellan Administrator > Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Unterkarte Datenbank > Feld Region`.
 
 | Unterkarte             | Region                  |
 |------------------------|-------------------------|
@@ -510,8 +510,8 @@ So geht's:
 
 #### Bereich "Dokumentenverwaltung"
 
-Auf der Unterkarte `Unterlagen` finden Sie im unten den Bereich Dokumente. Jedem Schüler/Bewerber, Lehrer, jeder Person, Klasse usw. kann über die MAGELLAN-Oberfläche ein Verzeichnis angelegt werden, dass in der Verzeichnisstruktur von MAGELLAN auf dem Schulserver gespeichert wird.
-An welcher Stelle die Dateien tatsächlich auf dem Server abgelegt werden bestimmt man über den Pfad zum Verzeichnis `Dokumente` in den Verbindungseinstellungen im MAGELLAN ADMINISTRATOR.
+Auf der Unterkarte `Unterlagen` finden Sie im unten den Bereich Dokumente. Jedem Schüler/Bewerber, Lehrer, jeder Person, Klasse usw. kann über die Magellan-Oberfläche ein Verzeichnis angelegt werden, dass in der Verzeichnisstruktur von Magellan auf dem Schulserver gespeichert wird.
+An welcher Stelle die Dateien tatsächlich auf dem Server abgelegt werden bestimmt man über den Pfad zum Verzeichnis `Dokumente` in den Verbindungseinstellungen im Magellan Administrator.
 Sie können die Unterordner aus den jeweiligen Menüpunkten für den markierten Datensatz mit STRG+D oder die Schaltfläche `Dokumente` aufrufen.
 Wir blenden für die Bewerber zusätzlich den Inhalt des Verzeichnisses im unteren Bereich dieser Karte ein.
 Sie können über dieses Fenster eine Ordnerstruktur anlegen, Dateien von Ihrem Rechner importieren, per `Copy and Paste` oder `Drag and Drop` einfügen oder auch über einen in den Optionen hinterlegten Scanner als Tif-Datei einfügen.

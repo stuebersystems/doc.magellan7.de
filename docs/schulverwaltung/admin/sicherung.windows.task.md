@@ -2,7 +2,7 @@
 
 !!! danger "Achtung"
 
-	Die nachstehenden Hinweise beschreiben keine unserer MAGELLAN-Funktionalitäten, sondern zusätzliche Möglichkeiten, die direkt auf ein Firebird-Tool aufsetzen.
+	Die nachstehenden Hinweise beschreiben keine unserer Magellan-Funktionalitäten, sondern zusätzliche Möglichkeiten, die direkt auf ein Firebird-Tool aufsetzen.
 
 Sie können die Aktion "Datenbanksicherungskopie erstellen" mit in den Taskplaner des Serverrechners einbinden. Damit könnten Sie sicherstellen, dass diese Aktion automatisch einmal täglich ausgeführt wird. Gehen Sie dafür bitte folgendermaßen vor:
 
@@ -24,7 +24,7 @@ set gbakcmd="C:\Firebird\bin\gbak.exe"
 set log="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan\Datenbank\MAGELLAN_%date:~0%.log" 
 
 :: Path to source database file (FDB)
-set source="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan\Datenbank\MAGELLAN.FDB"
+set source="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan\Datenbank\Magellan.FDB"
 
 :: Path to destination backup file (FBK)
 set dest="C:\Users\Benutzer.STUEBER\Documents\Stueber Systems\Magellan\Datenbank\Magellan.fbk" 

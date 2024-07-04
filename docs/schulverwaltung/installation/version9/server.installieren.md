@@ -6,7 +6,7 @@ In der Regel sollte das der Schulserver sein oder ein Arbeitsplatz, von dem aus 
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von MAGELLAN 8 auf MAGELLAN 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/)!
+    Wenn Sie bereits Magellan 8 einsetzen, lesen Sie bitte statt auch den Abschnitt [Umstieg von Magellan 8 auf Magellan 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-8-auf-9/)!
 
 ## Vorbereitung
 
@@ -16,7 +16,7 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 * Firebird
 * die Runtimeversion von Crystal Reports 32- oder 64-Bit
-* für MAGELLAN 32- oder 64-Bit
+* für Magellan 32- oder 64-Bit
 
 **Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
 
@@ -25,7 +25,7 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 !!! danger "Wichtig!"    
 
-    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben gleich.**
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für Magellan und für die Runtimeversion von Crystal Reports.**<br/>**Das Installationspaket für Firebird ist für beide Ausgaben gleich.**
 
 ### Lizenzdaten
 
@@ -36,7 +36,7 @@ Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail
 
 !!! warning "Wichtig"
 
-	Diese Installation wird einmalig im Netzwerk auf dem Rechner, auf dem später Ihre MAGELLAN-Datenbank liegen wird ausgeführt. 
+	Diese Installation wird einmalig im Netzwerk auf dem Rechner, auf dem später Ihre Magellan-Datenbank liegen wird ausgeführt. 
 
 Laden Sie bitte das Firebird-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://magellan.stueber.de/download.php). Starten Sie anschließend die Firebird Installation durch einen Doppelklick auf die Datei `Firebird-2.5......Win32.exe`. Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte „Komponenten auswählen“ die voreingestellten Optionen.
 
@@ -54,7 +54,7 @@ Auf der Karte „Zusätzliche Aufgaben auswählen“ übernehmen Sie bitte die O
 
 ## Installation der Crystal Reports Runtimeversion
 
-Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
+Diese Installation muss stets parallel zur Magellan Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in Magellan.
 
 Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
 
@@ -76,15 +76,15 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 ![Fertigstellen](/assets/images/installation/9/008.png)
 
-## MAGELLAN Installationstypen
+## Magellan Installationstypen
 
 !!! info "Hinweis"
 
-    Den Installationstyp `Server-/Einzelplatzinstallation` wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen oder wenn Sie Ihren Schulserver einrichten möchten. In beiden Fällen installieren Sie bitte auch `Firebird`.
+    Den Installationstyp `Server-/Einzelplatzinstallation` wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige Magellan-Installation wünschen oder wenn Sie Ihren Schulserver einrichten möchten. In beiden Fällen installieren Sie bitte auch `Firebird`.
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
-Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von Magellan 9 wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/9/009.png)
 
@@ -126,8 +126,8 @@ Anwendungsdaten (z.B. Magellan.exe):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Server 2008 | C:\Program Files\Stueber Systems\MAGELLAN 9\ |
-| Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 9 |
+| Windows Server 2008 | C:\Program Files\Stueber Systems\Magellan 9\ |
+| Windows 8 | C:\Programme\Stueber Systems\Magellan 9 |
 | Windows 10 |C:\Program Files\Stueber Systems\Magellan 9 |
 | Windows 11 |C:\Program Files\Stueber Systems\Magellan 9 |
 
@@ -135,22 +135,22 @@ Allgemeine Einstellungs- und Lizenzdaten (z.B. Magellan.evm, Magellan.lic, Magel
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Server 2008 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
-| Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 9 |
-| Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
-| Windows 11 | C:\ProgramData\Stueber Systems\MAGELLAN 9|
+| Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 9 |
+| Windows 8 | C:\ProgramData\Stueber Systems\Magellan 9 |
+| Windows 10 | C:\ProgramData\Stueber Systems\Magellan 9|
+| Windows 11 | C:\ProgramData\Stueber Systems\Magellan 9|
 
 Datenordner (Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner):
 
-Auf die Datenordner sollen die Nutzer von den Arbeitsplatzrechnern aus zugreifen können. Bitte stellen Sie sicher, dass den Nutzern auf Betriebssystemebene Schreib- und Leserechte für diese Verzeichnisse eingeräumt werden. Diese Rechte sind notwendig, um alle MAGELLAN-Funktionalitäten nutzen zu können (Beispiel: Berichte organisieren, Vorlagen organisieren, Ablegen von Schülerdokumenten u.a.).
+Auf die Datenordner sollen die Nutzer von den Arbeitsplatzrechnern aus zugreifen können. Bitte stellen Sie sicher, dass den Nutzern auf Betriebssystemebene Schreib- und Leserechte für diese Verzeichnisse eingeräumt werden. Diese Rechte sind notwendig, um alle Magellan-Funktionalitäten nutzen zu können (Beispiel: Berichte organisieren, Vorlagen organisieren, Ablegen von Schülerdokumenten u.a.).
 Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließend für den Verweispfad der Arbeitsplatzrechner verwenden können.
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 9|
-| Windows 8 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
-| Windows 10 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
-| Windows 11 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 9 |
+| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 9|
+| Windows 8 | C:\Users\Public\Documents\Stueber Systems\Magellan 9 |
+| Windows 10 | C:\Users\Public\Documents\Stueber Systems\Magellan 9 |
+| Windows 11 | C:\Users\Public\Documents\Stueber Systems\Magellan 9 |
 
 !!! info "Hinweis"
 
@@ -158,12 +158,12 @@ Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließ
 
 ## Der Willkommensassistent
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 9 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie Magellan 9 starten. Es erscheint zunächst der Willkommen-Assistent.
 
 ![Willkommen](/assets/images/installation/9/welcome.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["Magellan - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/9/welcome-license-type.png)
 
@@ -183,18 +183,18 @@ Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, d
 
 ![ Daten für entfernte Datenbank](/assets/images/installation/9/welcome-remote-database.png)
 
-Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
+Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul Magellan Administrator auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
 !!! info "Hinweis"
 
-    Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul MAGELLAN ADMINISTRATOR auslösen.
+    Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul Magellan Administrator auslösen.
 
 ![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/9/welcome-remote-backup.png)
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/9/Welcome-erste-schritte.png)
+![Erste Schritte in Magellan](/assets/images/installation/9/Welcome-erste-schritte.png)
 
-Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
+Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von Magellan. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/9/anmeldung.png)

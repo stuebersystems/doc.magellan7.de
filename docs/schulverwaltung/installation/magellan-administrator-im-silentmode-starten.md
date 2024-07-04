@@ -1,5 +1,5 @@
 
-# MAGELLAN ADMINISTRATOR im Silent-Mode starten
+# Magellan Administrator im Silent-Mode starten
 
 ## Was ist der Silent-Mode
 
@@ -19,7 +19,7 @@ Diese Punkte werden ausführlich in den kommenden Punkten erläutert.
 
 ### Datenbank-Anmeldung
 
-Sie haben die Möglichkeit den MAGELLAN ADMIMINISTRATOR direkt ohne Eingabe von Benutzernamen, Passwort und Auswahl der Datenbank zu starten, wenn Sie diese In-formationen einfach als Parameter angeben.
+Sie haben die Möglichkeit den Magellan ADMIMINISTRATOR direkt ohne Eingabe von Benutzernamen, Passwort und Auswahl der Datenbank zu starten, wenn Sie diese In-formationen einfach als Parameter angeben.
 
 Parameter:
 
@@ -61,7 +61,7 @@ Der Dateiname der Importdatei muss der Importspezifikation entsprechen:
 
 ## Beispiel
 
-Den MAGELLAN ADMINISTRATOR  im Silent-Mode aufrufen, zum Import von Schüler-Stammdaten mit dem Firebird Standard SYSDBA und Passwort:
+Den Magellan Administrator  im Silent-Mode aufrufen, zum Import von Schüler-Stammdaten mit dem Firebird Standard SYSDBA und Passwort:
 
 ```
 C:\Programme\Stüber Systems\MagAdmin.exe /Login=SYSDBA 

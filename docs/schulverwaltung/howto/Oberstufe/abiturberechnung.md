@@ -101,7 +101,7 @@ Kurse des Schülers, die nicht auf dem Abiturzeugnis erscheinen sollen, müssen 
 
 ## Simulationsmodus
 
-Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf `Abitur > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten `Qualifikation` und `Prüfung`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
+Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in Magellan verwenden. Klicken Sie auf `Abitur > Simulation` oder die entsprechende Schaltfläche oben in der Symbolleiste, um das Simulationsfenster zu öffnen. Das Simulationsfenster umfasst die Registerkarten `Qualifikation` und `Prüfung`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
 
 ## Sammelaktion "Vorschlag zuweisen"
 
@@ -112,8 +112,8 @@ Um den Berechnungsvorschlag für eine Gruppe von Schülern ausführen zu lassen,
 
 **Voraussetzungen:**
 
-**Region:** Für die Verbindung von MAGELLAN zu Ihrer Datenbank kann je Arbeitsplatz eine Region gewählt werden. Sie können diese Einstellung einsehen oder anpassen im Modul MAGELLAN Administrator unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindungszeile > Unterkarte Datenbank > Feld Region`. Hier muss der Wert "Nordrhein-Westfalen" gewählt sein.
-**Skriptdatei**: Den Schülern muss das Berechnungsverordnungsskript "NRW-APO-OS-2020.dws" ab der MAGELLAN-Version 11.0.5 zugewiesen sein, dieses Skript kann auf die Aktion reagieren und die Aktionen Initialisieren, Vorschlag und Berechnen für eine Gruppe von Schülern ausführen.
+**Region:** Für die Verbindung von Magellan zu Ihrer Datenbank kann je Arbeitsplatz eine Region gewählt werden. Sie können diese Einstellung einsehen oder anpassen im Modul Magellan Administrator unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindungszeile > Unterkarte Datenbank > Feld Region`. Hier muss der Wert "Nordrhein-Westfalen" gewählt sein.
+**Skriptdatei**: Den Schülern muss das Berechnungsverordnungsskript "NRW-APO-OS-2020.dws" ab der Magellan-Version 11.0.5 zugewiesen sein, dieses Skript kann auf die Aktion reagieren und die Aktionen Initialisieren, Vorschlag und Berechnen für eine Gruppe von Schülern ausführen.
 
 So gehen Sie vor:
 1. Bitte markieren Sie die gewünschten Schüler in der Auswahlliste des Menüs `Abitur` und rufen den Assistenten am oberen Fensterrand unter `Abitur > Vorschlag zuweisen` auf. 
@@ -221,13 +221,13 @@ Geben Sie auf der Registerkarte „Zeugnis“ evtl. Zeugnisbemerkungen ein, die 
 ## Oberstufenzeugnisse
 
 Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von Zeugnissen unterscheiden:
-Zeugnisse des aktuellen Zeitraums: Hierbei handelt es sich um Halbjahres- oder Jahreszeugnisse wie z.B. das Zeugnis der Jahrgangsstufe 12/1 oder der Jahrgangsstufe 12/2. Sie beziehen sich immer auf den aktuell eingestellten Zeitraum in MAGELLAN.
+Zeugnisse des aktuellen Zeitraums: Hierbei handelt es sich um Halbjahres- oder Jahreszeugnisse wie z.B. das Zeugnis der Jahrgangsstufe 12/1 oder der Jahrgangsstufe 12/2. Sie beziehen sich immer auf den aktuell eingestellten Zeitraum in Magellan.
 
-Zeugnisse über mehrere Zeiträume: Diese Zeugnisse beziehen sich auf Daten aus mehreren Zeiträumen. Im Fall der Oberstufe werden diese Daten im Bereich „Abitur“ in MAGELLAN eingetragen. Beispiele für zeitraumübergreifende Zeugnisse sind das Fachhochschul-, das Abiturzeugnis oder die Punktekreditkarte.
+Zeugnisse über mehrere Zeiträume: Diese Zeugnisse beziehen sich auf Daten aus mehreren Zeiträumen. Im Fall der Oberstufe werden diese Daten im Bereich „Abitur“ in Magellan eingetragen. Beispiele für zeitraumübergreifende Zeugnisse sind das Fachhochschul-, das Abiturzeugnis oder die Punktekreditkarte.
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen aus Kapitel [Zeugnisdaten erfassen](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisdaten-erfassen).
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in Magellan. Die Eingabe der für den Zeugnisausdruck relevanten Daten des Schülers entspricht dem Vorgehen aus Kapitel [Zeugnisdaten erfassen](https://doc.magellan.stueber.de/schulverwaltung/howto/zeugnisdaten/#zeugnisdaten-erfassen).
 
 ### Zeugnisse über mehrere Zeiträume
 

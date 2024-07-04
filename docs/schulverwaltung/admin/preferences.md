@@ -1,17 +1,17 @@
 # Optionen
 
-In MAGELLAN können Sie einige Einstellungen vornehmen. Klicken Sie auf `Datenbank > Optionen`, die möglichen Einstellungen werden nachstehend beschrieben.
+In Magellan können Sie einige Einstellungen vornehmen. Klicken Sie auf `Datenbank > Optionen`, die möglichen Einstellungen werden nachstehend beschrieben.
 
 !!! info "Hinweis"
 
-	Die gewählten Optionen gelten pro MAGELLAN-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
+	Die gewählten Optionen gelten pro Magellan-Installation. Wenn Sie die Einstellungen für alle oder eine Gruppe von Kollegen vorbelegen möchten, können Sie das per Pathsdatei. Lesen Sie dazu bitte [diesen Abschnitt](https://doc.magellan.stueber.de/schulverwaltung/installation/die-pathsdatei).
 
 ## Start
 
 
 Feld     | Wert
 -------- | ----
-Mandant  | Mandanten starten MAGELLAN als Voreinstellung.
+Mandant  | Mandanten starten Magellan als Voreinstellung.
 Zeitraum | Der gewählte Zeitraum wird beim Programmstart vorausgewählt
 
 
@@ -19,7 +19,7 @@ Zeitraum | Der gewählte Zeitraum wird beim Programmstart vorausgewählt
 
 ## Ein-/Ausblenden
 
-Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht benötigen. Folgende Bereiche können Sie aus- bzw. einblenden lassen:
+Bestimmte Bereiche in Magellan können ausgeblendet werden, wenn Sie diese nicht benötigen. Folgende Bereiche können Sie aus- bzw. einblenden lassen:
 
 |Ein- und ausblendbare Bereiche|
 |-|
@@ -45,7 +45,7 @@ Bestimmte Bereiche in MAGELLAN können ausgeblendet werden, wenn Sie diese nicht
 
 !!! info "Hinweis"
 
-	Die Funktion des Ein- und Ausblendens von Bereichen ist abhängig von Ihrer Lizenzierung. Besitzen Sie beispielsweise nicht das Modul „MAGELLAN Berufsbildende Schule“, können Sie den Bereich „Berufsschule“ in MAGELLAN nicht einblenden. 
+	Die Funktion des Ein- und Ausblendens von Bereichen ist abhängig von Ihrer Lizenzierung. Besitzen Sie beispielsweise nicht das Modul „Magellan Berufsbildende Schule“, können Sie den Bereich „Berufsschule“ in Magellan nicht einblenden. 
 
 
 ![Geben Sie hier an, welche Bereiche ein- bzw. ausgeblendet werden sollen.](/assets/images/optionen_einausblenden.png)
@@ -63,7 +63,7 @@ Nachfolgend werden die einzelnen Optionen beschrieben.
 Option|Auswirkung
 --|--
 Schüler ausschulen | Aktivieren Sie dieses Häkchen, wird das `Abgangsdatum` im Assistenten unter `Extras > Schüler ausschulen` zum Pflichtfeld. Wir empfehlen diese Option zu setzen.
-Behinderung bei Schüler/Bewerber/Klassen| Diese Option blendet pro MAGELLAN-Arbeitsplatz das Feld `Behinderung` im Menü Bewerber oder Schüler unter Daten 4 und im Menü Klassen auf Daten ein.
+Behinderung bei Schüler/Bewerber/Klassen| Diese Option blendet pro Magellan-Arbeitsplatz das Feld `Behinderung` im Menü Bewerber oder Schüler unter Daten 4 und im Menü Klassen auf Daten ein.
 Niveau bei `Schüler > Zeugnis > Leistungen `|Wählen Sie, ob die Spalte `Niveau` unter `Schüler > Zeugnis > Fächer` editierbar sein soll.
 Suchen| Die Suche unter `Extras > Suchen` kann wahlweise über alle vorhandenen Mandanten oder nur im aktuell gewählten Mandanten suchen. Diese Option kann nur mit der sysdba-Anmeldung verändert werden.
 Zeiträume| Wählen Sie, ob die Zeiträume der Datenbank als Trimester oder als Halbjahre geführt werden sollen. Die Option kann nur für neue Datenbanken gewählt werden. Sollten Sie nachträglich diese Einstellung ändern möchten, kann die Anpassung der Datenbank nur durch STÜBER SYSTEMS durchgeführt werden. Diese Option kann nur mit der sysdba-Anmeldung verändert werden.
@@ -76,7 +76,7 @@ Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro
 
 ## Update
 
-Über die Einstellungen dieser Karte wird festgelegt, ob MAGELLAN beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan.stueber.de/schulverwaltung/update).
+Über die Einstellungen dieser Karte wird festgelegt, ob Magellan beim Programmstart auf neue Updates prüfen soll oder nicht. Weitere Informationen finden Sie im Abschnitt [„Updates“](https://doc.magellan.stueber.de/schulverwaltung/update).
 
 ![Unterkarte Update](/assets/images/optionen_update.png)
 
@@ -101,15 +101,15 @@ Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumen
 
 !!! warning "Wichtig"
 
-	TWAIN: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten MAGELLAN Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
+	TWAIN: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten Magellan Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
 
 ## Dokumente
 
-Beim Druck von Crystal Reports Berichten und beim Word-Seriendruck können Sie optional nach dem eigentlichen Druck die Einzeldokumente in der Dokumentenverwaltung automatisch abspeichern lassen. Für jede Ansicht in MAGELLAN können Sie auf der Registerkarte `Dokumente` einstellen, ob (Häkchen setzen) und wenn ja in welchem Ordner (gewünschten Verzeichnisnamen eintippen) die Dokumente in der Dokumentenverwaltung abgelegt werden.  
+Beim Druck von Crystal Reports Berichten und beim Word-Seriendruck können Sie optional nach dem eigentlichen Druck die Einzeldokumente in der Dokumentenverwaltung automatisch abspeichern lassen. Für jede Ansicht in Magellan können Sie auf der Registerkarte `Dokumente` einstellen, ob (Häkchen setzen) und wenn ja in welchem Ordner (gewünschten Verzeichnisnamen eintippen) die Dokumente in der Dokumentenverwaltung abgelegt werden.  
 
 !!! warning "Wichtig"
 
-	Es ist hier lediglich die Angabe eines Unterpfades oder eines (ggfs. noch nicht existierenden) Verzeichnis möglich, die Ablage soll nur innerhalb der MAGELLAN-Struktur erfolgen. Den Pfad zum Ablageordner können Sie im MAGELLAN Administrator unter `Datenbankverbindungen` einsehen.
+	Es ist hier lediglich die Angabe eines Unterpfades oder eines (ggfs. noch nicht existierenden) Verzeichnis möglich, die Ablage soll nur innerhalb der Magellan-Struktur erfolgen. Den Pfad zum Ablageordner können Sie im Magellan Administrator unter `Datenbankverbindungen` einsehen.
 
 !!! warning "Wichtig"
 
@@ -133,7 +133,7 @@ Für den Druck von Crystal Reports Berichten gehen Sie wie folgt vor:
 
 #### Word oder LibreOffice
 
-MAGELLAN kann Daten an die Seriendruckschnittstellen von Word oder LibreOffice übergeben. Legen Sie je MAGELLAN Installation fest, ob Sie Word oder LibreOffice aufrufen möchten.
+Magellan kann Daten an die Seriendruckschnittstellen von Word oder LibreOffice übergeben. Legen Sie je Magellan Installation fest, ob Sie Word oder LibreOffice aufrufen möchten.
 
 ![Wählen Sie "Word" oder "LibreOffice aus!"](/assets/images/optionen_dok_word.png)
 
@@ -166,7 +166,7 @@ Word-Seriendruckdokumente:
 * [Datum, Uhrzeit] Name Vorlagenname
 * [Datum, Uhrzeit] Vorlagenname
 
-![Dateinamenkonventionen für die MAGELLAN-Dokumentenverwaltung](/assets/images/optionen_dok_dateinamen.png) 
+![Dateinamenkonventionen für die Magellan-Dokumentenverwaltung](/assets/images/optionen_dok_dateinamen.png) 
 
 ## Rechtschreibung
 
@@ -179,7 +179,7 @@ Es steht Ihnen optional eine Rechtschreibprüfung an zwei Stellen im Programm zu
 
 ## E-Mail
 
-Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewählte Gruppen E-Mails versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter informiert werden. Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die E-Mailadressen einpflegen. Auf der nachfolgenden Karte erfassen Sie bitte dazu die Verbindungsdetails.
+Mit der Lizenzierung für das Modul Magellan LiveMessage können Sie an ausgewählte Gruppen E-Mails versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter informiert werden. Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die E-Mailadressen einpflegen. Auf der nachfolgenden Karte erfassen Sie bitte dazu die Verbindungsdetails.
 
 
 ![Hier sehen Sie ein Beispiel für die Eintragungen dieser Karte](/assets/images/optionen.01.png)
@@ -193,7 +193,7 @@ Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewä
 
 ## SMS-Nachrichten
 
-Mit der Lizenzierung für das Modul MAGELLAN LIVEMESSAGE können Sie an ausgewählte Gruppen SMS-Nachrichten versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter, zum Beispiel auch in Notfällen, informiert werden.
+Mit der Lizenzierung für das Modul Magellan LiveMessage können Sie an ausgewählte Gruppen SMS-Nachrichten versenden. Auf diesem Weg können Lehrer, Personen, Schüler, Sorgeberechtigte oder Klassenleiter, zum Beispiel auch in Notfällen, informiert werden.
 
 Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern einpflegen.
 
@@ -201,7 +201,7 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 	Auf dieser Karte erfassen Sie bitte dazu die Verbindungsdetails, die Sie beim Erwerb eines SMS-Pakets von uns erhalten.
 
-![Es sind keine Daten erfasst, die Einträge für Ihre Schule teilen wir Ihnen beim Erwerb des Moduls LIVEMESSAGE mit](/assets/images/optionen.02.png)
+![Es sind keine Daten erfasst, die Einträge für Ihre Schule teilen wir Ihnen beim Erwerb des Moduls LiveMessage mit](/assets/images/optionen.02.png)
 
 
 !!! info "Hinweis"
@@ -212,16 +212,16 @@ Voraussetzung dafür ist, dass Sie jeweils auf der Karte Daten1 die Mobilnummern
 
 ## Mandanten
 
-Wenn Sie MAGELLAN mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
+Wenn Sie Magellan mit mehreren Mandanten einsetzen, können mandantenübergreifend beim Anlegen, Ändern oder Löschen Prüfungen erfolgen. Mit den nachstehenden Optionen aktivieren Sie die Prüfung für die jeweiligen Bereiche (Lehrer, Personen, Sorgeberechtigte).
 
 Eine ausführliche Beschreibung finden Sie im Abschnitt [Administration > Mehrmandantenlösungen](https://doc.magellan.stueber.de/schulverwaltung/admin/mehrmandantenloesung).
 
-## ENBREA
+## Enbrea
 
-ENBREA ist ein webbasiertes Schulportal, das bestehende Anwendungen wie z.b. DAVINCI oder MAGELLAN integriert und diese um zusätzliche Module erweitert.
-Wählen Sie hier die Einstellungen für zusätzliche Funktionen, die im Rahmen der ENBREA Entwicklung in MAGELLAN zur Verfügung gestellt werden.
+Enbrea ist ein webbasiertes Schulportal, das bestehende Anwendungen wie z.b. DaVinci oder Magellan integriert und diese um zusätzliche Module erweitert.
+Wählen Sie hier die Einstellungen für zusätzliche Funktionen, die im Rahmen der Enbrea Entwicklung in Magellan zur Verfügung gestellt werden.
 
 
-![Unterkarte ENBREA](/assets/images/optionen_enbrea.png)
+![Unterkarte Enbrea](/assets/images/optionen_enbrea.png)
 
 

@@ -2,7 +2,7 @@
 
 Voraussetzung für die Abiturqualifikationsberechnung und Fachwahlüberprüfung ist, dass Sie für jedes in der Oberstufe benutzte Fach die Kategorie und den Aufgabenbereich und bei den Fächern des Schülers die entsprechende Unterrichtsart und den entsprechenden Fachstatus eingegeben haben.
 
-## Verzeichnis Verordnung in MAGELLAN
+## Verzeichnis Verordnung in Magellan
 
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
 
@@ -27,12 +27,12 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 ## Aufgabenbereiche
 
 
-Die Aufgabenbereiche sind in MAGELLAN und DAVINCI fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
+Die Aufgabenbereiche sind in Magellan und DaVinci fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
 
 !!! info "Hinweis"
 
-     Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+     Bitte verwenden Sie die Aufgabenbereiche in Magellan unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 Abkürzung| Bedeutung
@@ -51,7 +51,7 @@ Die nachfolgenden Fachkategorien werden durch die Skripte BER-APO-2011.dws bzw. 
 
 !!! info "Hinweis"
 
-    Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Kategorien in Magellan unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 
 ### Verwendete Fach-Kategorie-Schlüssel
@@ -127,7 +127,7 @@ PRS |PRS |5. Prüfungskomponente Präsentationsprüfung
 
 ## Die 5. Prüfungskomponente
 
-Bei der 5. Prüfungskomponente wird zwischen einer „Präsentationprüfung“ und der „Besonderen Lernleistung“ unterschieden. Gehen Sie in MAGELLAN jeweils wie folgt vor:
+Bei der 5. Prüfungskomponente wird zwischen einer „Präsentationprüfung“ und der „Besonderen Lernleistung“ unterschieden. Gehen Sie in Magellan jeweils wie folgt vor:
 
 ### Präsentationprüfung
 

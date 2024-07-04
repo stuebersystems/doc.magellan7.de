@@ -1,6 +1,6 @@
 # Übersicht der verfügbaren Felder im Seriendruck
 
-MAGELLAN SCHULVERWALTUNG und MAGELLAN BIBLIOTHEK geben über eine Schnittstelle Daten an MS Word für den Seriendruck. Welche Daten genau übergeben werden richtet sich nach dem Menüpunkt aus dem der Seriendruck gestartet wird, teilweise werden auch Datenmengen je nach Adressat generiert. Nachstehend listen wir die erzeugten Daten auf.
+Magellan SCHULVERWALTUNG und Magellan Bibliothek geben über eine Schnittstelle Daten an MS Word für den Seriendruck. Welche Daten genau übergeben werden richtet sich nach dem Menüpunkt aus dem der Seriendruck gestartet wird, teilweise werden auch Datenmengen je nach Adressat generiert. Nachstehend listen wir die erzeugten Daten auf.
 
 !!! info "Hinweis"
 

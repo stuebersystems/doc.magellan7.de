@@ -7,7 +7,7 @@ Aufgrund der Schüler-Fachwahlen müssen die Kurse und Kursblockung erstellt wer
 
 !!! info "Hinweis"
 
-     Im Folgenden wird die Datenübergabe in das Stundenplanprogramm Untis beschrieben. Für DAVINCI gilt die analoge Vorgehensweise.
+     Im Folgenden wird die Datenübergabe in das Stundenplanprogramm Untis beschrieben. Für DaVinci gilt die analoge Vorgehensweise.
 
 ## Allgemeines Vorgehen
 
@@ -19,7 +19,7 @@ Gehen Sie dazu wie folgt vor:
 
 [![Assistent „Fachwahlen exportieren“][1]][1]
 
-2. Wählen Sie bei Bedarf einen Zeitraum aus. Standardmäßig ist dies der aktuell eingestellte Zeitraum in MAGELLAN. Die Schülerliste zeigt nur die Schüler an, für die eine Fachwahl für den gewählten Zeitraum angelegt wurde.
+2. Wählen Sie bei Bedarf einen Zeitraum aus. Standardmäßig ist dies der aktuell eingestellte Zeitraum in Magellan. Die Schülerliste zeigt nur die Schüler an, für die eine Fachwahl für den gewählten Zeitraum angelegt wurde.
 
 Spalte|Bedeutung
 --|--
@@ -59,13 +59,13 @@ Dabei gilt folgende Logik für den Export des Feldes „Kursnummer“ im Zeilent
 
 ## Export relevanter SDTF-Datensatz 
 
-Für den Export nur der Schülerfachwahlen von MAGELLAN nach Untis ist im Schuldatentransferformat der folgende Datensatz relevant.
+Für den Export nur der Schülerfachwahlen von Magellan nach Untis ist im Schuldatentransferformat der folgende Datensatz relevant.
 
 SDTF-Datensatz  |Beschreibung
 --|--
 P1| Schülerdaten
 
-Tabelle 1: Für den Export relevanter SDTF-Datensatz beim Export nur der Schülerkurswahlen von MAGELLAN nach Untis
+Tabelle 1: Für den Export relevanter SDTF-Datensatz beim Export nur der Schülerkurswahlen von Magellan nach Untis
 
 !!! info "Hinweis"
 

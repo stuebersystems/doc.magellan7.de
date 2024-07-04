@@ -2,7 +2,7 @@
 
 ## Registerkarte `Details`
 
-Auf der Registerkarte `Details` unter der Registerkarte `Zeugnis` des Schülers werden alle weiteren Daten für das Zeugnis erfasst. Hierzu zählen als wichtigste Daten die `Fehltage`, `Fehlstunden`, `Unterrichtstage`, die Noten für `Mitarbeit` und `Verhalten`, das `Zeugnisdatum` und das `Datum der Zeugniskonferenz`. Im Eingabefeld `Tutor` können Sie dem Schüler einen Tutor zuordnen, der zuvor als Lehrer in MAGELLAN aufgenommen worden ist. Dieser wird entsprechend der Eingabe zeitraumbezogen abgelegt.
+Auf der Registerkarte `Details` unter der Registerkarte `Zeugnis` des Schülers werden alle weiteren Daten für das Zeugnis erfasst. Hierzu zählen als wichtigste Daten die `Fehltage`, `Fehlstunden`, `Unterrichtstage`, die Noten für `Mitarbeit` und `Verhalten`, das `Zeugnisdatum` und das `Datum der Zeugniskonferenz`. Im Eingabefeld `Tutor` können Sie dem Schüler einen Tutor zuordnen, der zuvor als Lehrer in Magellan aufgenommen worden ist. Dieser wird entsprechend der Eingabe zeitraumbezogen abgelegt.
 
 ![Dies ist die Registerkarte mit den Zeugnisdetails](/assets/images/zeugnisdaten/zeugnisdaten37.png)
 
@@ -25,7 +25,7 @@ Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die z
 
 ## Fehlzeiten
 
-Sie können für jeden Schüler individuell Fehlzeiten oder Versäumnisse erfassen. Der Eintrag kann auf der Karte `Details` direkt für den Schüler vorgenommen werden oder kann auch über MyMAGELLAN gefüllt werden. Welche Felder für Ihren Zeugnisbericht gefüllt werden müssen, beschreiben wir pro Zeugnis im Modul MAGELLAN Berichte.
+Sie können für jeden Schüler individuell Fehlzeiten oder Versäumnisse erfassen. Der Eintrag kann auf der Karte `Details` direkt für den Schüler vorgenommen werden oder kann auch über MyMagellan gefüllt werden. Welche Felder für Ihren Zeugnisbericht gefüllt werden müssen, beschreiben wir pro Zeugnis im Modul Magellan Berichte.
 ![Tragen Sie hier die Fehlzeiten für den Zeugnisdruck ein](/assets/images/zeugnisdaten/zeugnisdaten39.png)
 
 ## Zeugnisbemerkungen
@@ -61,7 +61,7 @@ Nach der Sammelzuweisung haben Sie natürlich immer noch die Möglichkeit, die z
 
 ## Zeugnisformulare
 
-Sie haben in MAGELLAN die Möglichkeit, allen Schülern einzelne oder klassenweise (über `Sammelzuweisung`) Zeugnisformulare zuzuweisen. Durch diese Zuweisung können Sie den Zeugnisdruck automatisieren. Die `Zeugnisformulare` sind ein weiteres Schlüsselverzeichnis unter `Extras > Schlüsselverzeichnisse > Zeugnisformulare` und müssen dort erfasst werden. 
+Sie haben in Magellan die Möglichkeit, allen Schülern einzelne oder klassenweise (über `Sammelzuweisung`) Zeugnisformulare zuzuweisen. Durch diese Zuweisung können Sie den Zeugnisdruck automatisieren. Die `Zeugnisformulare` sind ein weiteres Schlüsselverzeichnis unter `Extras > Schlüsselverzeichnisse > Zeugnisformulare` und müssen dort erfasst werden. 
 
 !!! warning "Sehr wichtig!"
 
@@ -82,7 +82,7 @@ Um das Verzeichnis der Zeugnisformulare zu bearbeiten, wechseln Sie zu `Extras >
 ## Wie wird gedruckt
 
 Beim Zeugnisdruck selbst können dann alle Schüler  (STRG+A) in der Auswahlliste `Schüler` markiert werden, eine bestimmte Sorte Zeugnispapier (selbstdefiniert über den Typ im Verzeichnis Zeugnisformulare) in den Drucker eingelegt werden und der Punkt `Drucken > Zeugnisformulare` gestartet werden.
-Beispiel: Sie haben die Ziffer 4 für A4-Papiervorlagen mit Wasserzeichen reserviert. Dann legen Sie diese Vorlagen in den Drucker und geben beim Druckaufruf die 4 in das Feld Typ ein. MAGELLAN überprüft jetzt für jeden markierten Schüler, ob ihm ein Zeugnisformular mit dem Typ 4 hinterlegt wurde und druckt die Zeugnisse dann nacheinander aus.
+Beispiel: Sie haben die Ziffer 4 für A4-Papiervorlagen mit Wasserzeichen reserviert. Dann legen Sie diese Vorlagen in den Drucker und geben beim Druckaufruf die 4 in das Feld Typ ein. Magellan überprüft jetzt für jeden markierten Schüler, ob ihm ein Zeugnisformular mit dem Typ 4 hinterlegt wurde und druckt die Zeugnisse dann nacheinander aus.
 
 ## Laufbahn des Schülers
 

@@ -8,7 +8,7 @@
 [6]:/assets/images/bibliothek/opac12.png
 [7]:/assets/images/bibliothek/opac7.png
 
-Bevor Sie mit der Arbeit in der MAGELLAN BIBLIOTHEK beginnen können, müssen drei Startbedingungen erfüllt sein:
+Bevor Sie mit der Arbeit in der Magellan Bibliothek beginnen können, müssen drei Startbedingungen erfüllt sein:
 
 1. Die Verbindung zur Magellan-Datenbank ist angelegt.
 2. An Ihrem Arbeitsrechner ist ein Barcodescanner installiert.
@@ -16,31 +16,31 @@ Bevor Sie mit der Arbeit in der MAGELLAN BIBLIOTHEK beginnen können, müssen dr
 
 ## Arbeitsplatzinstallation
 
-Bitte richten Sie Ihren Arbeitsplatz mit einer Installation von MAGELLAN , entsprechend der Anleitung [hier](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/) ein.
+Bitte richten Sie Ihren Arbeitsplatz mit einer Installation von Magellan , entsprechend der Anleitung [hier](https://doc.magellan.stueber.de/schulverwaltung/installation/version8/arbeitsplatz.installieren/) ein.
 
 ## Barcodescanner anschließen
 
-Damit Sie optimal und komfortabel mit der MAGELLAN BIBLIOTHEK arbeiten können, sollte an Ihrem Arbeitsplatzrechner ein Barcodescanner installiert sein.
+Damit Sie optimal und komfortabel mit der Magellan Bibliothek arbeiten können, sollte an Ihrem Arbeitsplatzrechner ein Barcodescanner installiert sein.
 
-Barcodes bzw. Strichcodes nehmen in MAGELLAN-BIBLIOTHEK eine zentrale Rolle bei der Erfassung und Verwaltung sowohl der Nutzer- als auch der Medien ein. Sie ermöglichen eine schnelle Abwicklung der Ausleihvorgänge ebenso wie eine zügige Erfassung neuer Medientitel, indem Medien- und Nutzerdaten nicht umständlich eingetippt, sondern über das Einscannen eines Strichcodes in Sekundenschnelle aufgerufen werden können. So wird in MAGELLAN-BIBLIOTHEK z.B. für jedes erfasste Medienexemplar und für jeden angemeldeten Benutzer ein eindeutiger Strichcode erzeugt, auf den später mittels eines Barcodescanner zugegriffen werden kann.
+Barcodes bzw. Strichcodes nehmen in Magellan-Bibliothek eine zentrale Rolle bei der Erfassung und Verwaltung sowohl der Nutzer- als auch der Medien ein. Sie ermöglichen eine schnelle Abwicklung der Ausleihvorgänge ebenso wie eine zügige Erfassung neuer Medientitel, indem Medien- und Nutzerdaten nicht umständlich eingetippt, sondern über das Einscannen eines Strichcodes in Sekundenschnelle aufgerufen werden können. So wird in Magellan-Bibliothek z.B. für jedes erfasste Medienexemplar und für jeden angemeldeten Benutzer ein eindeutiger Strichcode erzeugt, auf den später mittels eines Barcodescanner zugegriffen werden kann.
 
-Bei einem Barcodescanner handelt es sich um ein Eingabegerät vergleichbar mit Maus oder Tastatur. Verbinden Sie einfach den USB-Stecker Ihres Barcodescanners mit einem freien USB-Port Ihres Rechners. Die heute handelsüblichen Geräte werden in der Regel von Ihrem Windows-Rechner automatisch erkannt, sobald eine Verbindung hergestellt wurde. Ein Betrieb von MAGELLAN-BIBLIOTHEK ohne ein entsprechendes Lesegerät ist aus Gründen der Arbeitseffizienz nicht zu empfehlen.
+Bei einem Barcodescanner handelt es sich um ein Eingabegerät vergleichbar mit Maus oder Tastatur. Verbinden Sie einfach den USB-Stecker Ihres Barcodescanners mit einem freien USB-Port Ihres Rechners. Die heute handelsüblichen Geräte werden in der Regel von Ihrem Windows-Rechner automatisch erkannt, sobald eine Verbindung hergestellt wurde. Ein Betrieb von Magellan-Bibliothek ohne ein entsprechendes Lesegerät ist aus Gründen der Arbeitseffizienz nicht zu empfehlen.
 
-## MAGELLAN-BIBLIOTHEK starten
+## Magellan-Bibliothek starten
 
-Um MAGELLAN-BIBLIOTHEK das erste Mal zu starten, gehen Sie bitte folgendermaßen vor:
+Um Magellan-Bibliothek das erste Mal zu starten, gehen Sie bitte folgendermaßen vor:
 
 1. Rufen Sie das Startmenü Ihres Windows-Betriebssystems auf und wählen Sie den Aufruf  `Programme` \(XP; 2000\) bzw.  `Alle Programme` \(Vista\).
 2. Öffnen Sie den Programmordner  `STÜBER SYSTEMS`.
 3. Klicken Sie dort mit der linken Maustaste auf die Programmzeile  `Magellan/Bibliothek`.
 
-Es öffnet sich das Dialogfenster  `MAGELLAN-Anmeldung`, in das Sie einen Benutzernamen und ein Kennwort eintragen müssen. Tragen Sie hier bitte den Benutzernamen sysdba und das Kennwort masterkey \(gilt nur für neuinstallierte Testsysteme\) ein, die als Zugangsdaten bei jeder Installation standardmäßig hinterlegt werden. Außerdem müssen Sie in diesem Anmeldedialog den Namen der Datenbank, die Sie nutzen möchten, angeben. Beim ersten Programmstart steht Ihnen hier nur der Eintrag  `Magellan` zur Verfügung. Unter diesem Namen ist die mitgelieferte Demo-Datenbank für den Zugriff in Magellan registriert.
+Es öffnet sich das Dialogfenster  `Magellan-Anmeldung`, in das Sie einen Benutzernamen und ein Kennwort eintragen müssen. Tragen Sie hier bitte den Benutzernamen sysdba und das Kennwort masterkey \(gilt nur für neuinstallierte Testsysteme\) ein, die als Zugangsdaten bei jeder Installation standardmäßig hinterlegt werden. Außerdem müssen Sie in diesem Anmeldedialog den Namen der Datenbank, die Sie nutzen möchten, angeben. Beim ersten Programmstart steht Ihnen hier nur der Eintrag  `Magellan` zur Verfügung. Unter diesem Namen ist die mitgelieferte Demo-Datenbank für den Zugriff in Magellan registriert.
 
 [![Das Dialogfenster  `Magellan-Anmeldung` erscheint vor jedem Programmstart][1]][1]
 
 Sobald Sie Ihre Angaben mit  `OK` bestätigen, wird Magellan-Bibliothek mit dem  `Willkommensfenster` geöffnet.
 
-[![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von MAGELLAN-BIBLIOTHEK und verweist Sie auf weiterführende Informationen und Services.][2]][2]
+[![Das Willkommensfenster begrüßt Sie beim ersten Programmstart von Magellan-Bibliothek und verweist Sie auf weiterführende Informationen und Services.][2]][2]
 
 Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladministrator persönliche Zugangsdaten erhalten hatten, können Sie nach dem Programmstart Ihr persönliches Anmeldekennwort festlegen. Gehen Sie dazu bitte folgendermaßen vor:
 
@@ -52,17 +52,17 @@ Wenn Sie sich nicht als sysdba angemeldet hatten, sondern von Ihrem Schuladminis
 
 4. Bestätigen Sie bitte Ihre Angaben mit `OK`.
 
-## OPAC Unterstützung in MAGELLAN BIBLIOTHEK
+## OPAC Unterstützung in Magellan Bibliothek
 
 !!! info "Hinweis"
 
-    Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version MAGELLAN.
+    Diese Dokumentation zur Einrichtung des OPAC Research gilt für die aktuellen Version Magellan.
 
 ### Aktivieren der Online Suche
 
-Bitte aktivieren Sie in den Optionen von MAGELLAN-BIBLIOTHEK über `Datenbank > Optionen` die `Online Suche`.
+Bitte aktivieren Sie in den Optionen von Magellan-Bibliothek über `Datenbank > Optionen` die `Online Suche`.
 
-[![MAGELLAN Optionen][3]][3]
+[![Magellan Optionen][3]][3]
 
 ### Einrichten des OPAC Research
 

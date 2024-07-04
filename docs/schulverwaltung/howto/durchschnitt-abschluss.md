@@ -1,6 +1,6 @@
 # Durchschnitt/Abschluss berechnen
 
-Für die Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zeitraums existieren unterschiedliche Berechnungsvorschriften. MAGELLAN stellt sehr ausgefeilte Funktionen für die gesamte Durchschnitts- bzw. Abschlussberechnung zur Verfügung. Diese Berechnungen werden mit den grundlegenden Merkmalen in diesem Kapitel vorgestellt. 
+Für die Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zeitraums existieren unterschiedliche Berechnungsvorschriften. Magellan stellt sehr ausgefeilte Funktionen für die gesamte Durchschnitts- bzw. Abschlussberechnung zur Verfügung. Diese Berechnungen werden mit den grundlegenden Merkmalen in diesem Kapitel vorgestellt. 
 
 !!! info "Hinweis"
 
@@ -8,7 +8,7 @@ Für die Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zei
 
 ## Grundlagen
 
-Innerhalb eines Zeitraums können Noten eines Schülers über dessen Versetzung bzw. Durchschnittsnote entscheiden. Die dazu notwendigen Berechnungen basieren auf Verordnungen der jeweiligen Bundesländer. Diese Berechnungen erfolgen aufgrund der [MAGELLAN-Scripting-Technologie](https://doc.magellan7-toolbox.stueber.de/scripting/). Auf Basis der berechneten Noten einer Verordnung und der damit verbundenen Durchschnittsnote können Sie dann die eigentlichen Zeugnisse ausdrucken. Dabei kann jede berechnete Endnote bzw. Durchschnittsnote auch noch manuell aufgrund des pädagogischen Freiraums abgeändert werden. Die zeitraumbezogenen Versetzungs-/Durchschnittsberechnungen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können.
+Innerhalb eines Zeitraums können Noten eines Schülers über dessen Versetzung bzw. Durchschnittsnote entscheiden. Die dazu notwendigen Berechnungen basieren auf Verordnungen der jeweiligen Bundesländer. Diese Berechnungen erfolgen aufgrund der [Magellan-Scripting-Technologie](https://doc.magellan7-toolbox.stueber.de/scripting/). Auf Basis der berechneten Noten einer Verordnung und der damit verbundenen Durchschnittsnote können Sie dann die eigentlichen Zeugnisse ausdrucken. Dabei kann jede berechnete Endnote bzw. Durchschnittsnote auch noch manuell aufgrund des pädagogischen Freiraums abgeändert werden. Die zeitraumbezogenen Versetzungs-/Durchschnittsberechnungen basieren auf Magellan-Skripten, die Sie mit Hilfe des Magellan-Skripteditors bearbeiten können.
 
 ## Vorbereitungen
 
@@ -23,7 +23,7 @@ Zur Berechnung der Durchschnittsnote(n) und Abschlüsse innerhalb eines Zeitraum
 4. Endnoten / Durchschnittsnoten berechnen
 
 
-Alle Schritte werden in MAGELLAN ausgeführt. Die Aufgaben 1 und 2 sind schon allgemein in den vorangegangenen Kapiteln ausführlich erläutert werden. Es werden daher nur die Besonderheiten für die Aufgaben 3 und 4 vorgestellt. Für die Vorbereitung der Berechnung müssen Sie folgende Daten definieren.
+Alle Schritte werden in Magellan ausgeführt. Die Aufgaben 1 und 2 sind schon allgemein in den vorangegangenen Kapiteln ausführlich erläutert werden. Es werden daher nur die Besonderheiten für die Aufgaben 3 und 4 vorgestellt. Für die Vorbereitung der Berechnung müssen Sie folgende Daten definieren.
 
 1. Berechnungsverordnung definieren
 
@@ -42,7 +42,7 @@ Bezeichnung | Bezeichnung der Verordnung
 Kategorie   | Wenn Sie hier „Versetzung“ eingeben, wird die Verordnung bei den Schülern auf der Registerkarte `Zeugnis > Leistungen` angezeigt
 Gültig von  | Gültigkeitsdatum von, ohne Bedeutung für die Berechnungen
 Gültig bis  | Gültigkeitsdatum bis, ohne Bedeutung für die Berechnungen
-Skript      | Geben Sie hier den Namen des Skripts für diese Berechungsverordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE.
+Skript      | Geben Sie hier den Namen des Skripts für diese Berechungsverordnung ein. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis SKRIPTE.
 
 ### Zusätzliche Noten definieren
 

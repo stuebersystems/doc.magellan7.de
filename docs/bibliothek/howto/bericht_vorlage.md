@@ -6,23 +6,23 @@
 [4]:/assets/images/bibliothek/vorlagen04.png
 [5]:/assets/images/bibliothek/vorlagen05.png
 
-In MAGELLAN-BIBLIOTHEK stehen Ihnen eine Reihe von Berichtsdateien und Word-Vorlagen zur Verfügung, die Sie für das Erstellen von Datenbankberichten und Serienbriefen nutzen können. Auf diese Formatvorlagen für den Berichts- und Seriendruck können Sie, aus verschiedenen Ansichten, Listen und Assistenten heraus zugreifen. Zusätzlich zu den bereits existierenden Formatvorlagen können Sie eigene Berichtsdateien und Word-Vorlagen erstellen. Damit Sie auf Ihre selbst erstellten Dateien auch in MAGELLAN-BIBLIOTHEK zugreifen können, müssen Sie diese dem Berichts- und Vorlagenverzeichnis hinzufügen. Außerdem können Sie bereits mitgelieferte und neu erstellte Dateien nach selbst gewählten Kriterien reorganisieren. Wie Sie dabei vorgehen müssen, erfahren Sie im Kapitel [Seriendruck > Vorlagen organisieren](seriendruck.md).
+In Magellan-Bibliothek stehen Ihnen eine Reihe von Berichtsdateien und Word-Vorlagen zur Verfügung, die Sie für das Erstellen von Datenbankberichten und Serienbriefen nutzen können. Auf diese Formatvorlagen für den Berichts- und Seriendruck können Sie, aus verschiedenen Ansichten, Listen und Assistenten heraus zugreifen. Zusätzlich zu den bereits existierenden Formatvorlagen können Sie eigene Berichtsdateien und Word-Vorlagen erstellen. Damit Sie auf Ihre selbst erstellten Dateien auch in Magellan-Bibliothek zugreifen können, müssen Sie diese dem Berichts- und Vorlagenverzeichnis hinzufügen. Außerdem können Sie bereits mitgelieferte und neu erstellte Dateien nach selbst gewählten Kriterien reorganisieren. Wie Sie dabei vorgehen müssen, erfahren Sie im Kapitel [Seriendruck > Vorlagen organisieren](seriendruck.md).
 
-Ihre Berichts- und Vorlagendateien werden bei der Installation im Programmverzeichnis von MAGELLAN-BIBLIOTHEK hinterlegt. Dabei werden standardmäßig die folgenden Pfade genutzt:
+Ihre Berichts- und Vorlagendateien werden bei der Installation im Programmverzeichnis von Magellan-Bibliothek hinterlegt. Dabei werden standardmäßig die folgenden Pfade genutzt:
 
 Betriebssystem|Berichtsdateien
 --|--
-Windows Vista| `C:\Users\Public\Documents\Stueber Software\MAGELLAN 8\Berichte`
-Windows XP| `C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\MAGELLAN 8\Berichte`
-Windows 2000| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 8\Berichte`
+Windows Vista| `C:\Users\Public\Documents\Stueber Software\Magellan 8\Berichte`
+Windows XP| `C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\Magellan 8\Berichte`
+Windows 2000| `C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 8\Berichte`
 
 Betriebssystem|Word-Vorlagen
 --|--
-Windows Vista| `C:\Users\Public\Documents\Stueber Software\MAGELLAN 8\Vorlagen`
-Windows XP |`C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\MAGELLAN 8\Vorlagen`
-Windows 2000 |`C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\MAGELLAN 8\Vorlagen`
+Windows Vista| `C:\Users\Public\Documents\Stueber Software\Magellan 8\Vorlagen`
+Windows XP |`C:\Dokumente und Einstellungen\AllUsers\ Anwendungsdaten\Stueber Software\Magellan 8\Vorlagen`
+Windows 2000 |`C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 8\Vorlagen`
 
-Die Verzeichnisse für Ihre Berichts- und Vorlagendateien verzweigen sich in Unterordner, die die Dateien sowohl des Basismoduls als auch des Bibliotheksmoduls enthalten. Auf die jeweilige Verzeichnisstruktur können Sie in MAGELLAN-BIBLIOTHEK zugreifen und Sie von dort aus verwalten. Dabei stehen Ihnen die folgenden Optionen zur Verfügung:
+Die Verzeichnisse für Ihre Berichts- und Vorlagendateien verzweigen sich in Unterordner, die die Dateien sowohl des Basismoduls als auch des Bibliotheksmoduls enthalten. Auf die jeweilige Verzeichnisstruktur können Sie in Magellan-Bibliothek zugreifen und Sie von dort aus verwalten. Dabei stehen Ihnen die folgenden Optionen zur Verfügung:
 
 • Ordner anlegen
 • Ordner/ Datei verschieben
@@ -75,7 +75,7 @@ Um Ihrem Berichteverzeichnis eine neue Datei hinzuzufügen, führen Sie bitte di
 [![Dokumente importieren][4]][4]
 
 4. Wählen Sie im erscheinenden Dialogfenster die Berichtsdatei aus dem Windows-Explorer und bestätigen Sie Ihre Auswahl mit `Öffnen`.
-5. Die importierte Berichts- bzw. Vorlagendatei wird nun im Dateifenster mit angezeigt und kann in MAGELLAN-BIBLIOTHEK genutzt werden.
+5. Die importierte Berichts- bzw. Vorlagendatei wird nun im Dateifenster mit angezeigt und kann in Magellan-Bibliothek genutzt werden.
 Falls Sie die Datei wieder löschen möchten, markieren Sie diese bitte zunächst und betätigen Sie die Schaltfläche `Löschen` in der Symbolleiste des Dialogfensters. Die Datei wird in der Folge aus dem Berichte- bzw. Vorlagenverzeichnis gelöscht.
 
 ## Datei exportieren

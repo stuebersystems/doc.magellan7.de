@@ -35,7 +35,7 @@ Sie geben Noten für einen Schüler ein, indem Sie auf der Registerkarte `Zeugni
 
 ![Auf der Registerkarte `Leistungen` können Sie jedem Schüler vier schriftliche, eine mündliche Note, eine Endnote und eine Endnote (Gesamt) eintragen](/assets/images/zeugnisdaten/zeugnisdaten16.png)
 
-Je nach der eingestellten Beurteilungsart der Klasse der werden zur Eingabe entweder Noten- oder Punktwerte angeboten. Auf die Eingabe von Beurteilungstexten wird im nachfolgenden Abschnitt näher eingegangen. Aus den schriftlichen und mündlichen Noten berechnet MAGELLAN im Regelfall nicht automatisch die Endnote!
+Je nach der eingestellten Beurteilungsart der Klasse der werden zur Eingabe entweder Noten- oder Punktwerte angeboten. Auf die Eingabe von Beurteilungstexten wird im nachfolgenden Abschnitt näher eingegangen. Aus den schriftlichen und mündlichen Noten berechnet Magellan im Regelfall nicht automatisch die Endnote!
 Auf der Registerkarte `Leistungen` werden also im Regelfall nur die Noten eingetragen, die letztendlich auf dem Zeugnis erscheinen und sie besitzt keine Notenbuchfunktionalität. Im Regelfall sollten Sie in der Spalte `Endnote` die Zeugnisnote eintragen.
 
 !!! warning "Sehr wichtig!"
@@ -89,7 +89,7 @@ Das Layout auf der Registerkarte `Leistungen` kann individuell angepasst werden.
 
 !!! warning "Sehr wichtig!"
 
-    Die Einstellungen unter `Layout anpassen...` beziehen sich auf Ihren Arbeitsplatz, nicht auf andere MAGELLAN-Installationen.
+    Die Einstellungen unter `Layout anpassen...` beziehen sich auf Ihren Arbeitsplatz, nicht auf andere Magellan-Installationen.
 
 ![Hier können Sie die Spaltenüberschrift verändern und angeben, ob eine Spalte sichtbar ist.](/assets/images/zeugnisdaten/zeugnisdaten23.png)
 

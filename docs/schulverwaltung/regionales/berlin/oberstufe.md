@@ -19,7 +19,7 @@ Das Fachkürzel „DE“ selbst beinhalte noch keine semantische Aussage, ob es 
 
 ### Aufgabenbereiche
 
-Die Aufgabenbereiche sind in MAGELLAN fest vorgegeben und werden für die Fächer in der Spalte Aufgabenbereich im Verzeichnis der Fächer eingetragen. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
+Die Aufgabenbereiche sind in Magellan fest vorgegeben und werden für die Fächer in der Spalte Aufgabenbereich im Verzeichnis der Fächer eingetragen. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
 Abkürzung| Bedeutung
 ---|---
@@ -31,7 +31,7 @@ Sport |Sport
 
 ### Fachkategorien
 
-Die Fachkategorien sind in MAGELLAN fest vorgegeben und werden für die Fächer in der Spalte `Kategorie` im Verzeichnis der Fächer eingetragen. Folgende Fachkategorien stehen zur Verfügung. Bitte verwenden Sie diese entsprechend der Vorgaben in Ihrer gültigen Abiturverordnung.
+Die Fachkategorien sind in Magellan fest vorgegeben und werden für die Fächer in der Spalte `Kategorie` im Verzeichnis der Fächer eingetragen. Folgende Fachkategorien stehen zur Verfügung. Bitte verwenden Sie diese entsprechend der Vorgaben in Ihrer gültigen Abiturverordnung.
 
 * Fremdsprachen
 * Religion/Ethik
@@ -71,14 +71,14 @@ Bei der Eingabe der Fächer auf den Registerkarten Ansicht `Abitur > Qualifikati
 
 #### Spalten „Unterrichtsart“ und „Fachstatus“
 
-Unterrichtsarten und Fachstatus sind in MAGELLAN Schlüsselverzeichnisse, die für die Landesanpassung eine zentrale Rolle spielen. Jeder Eintrag in diesen Verzeichnissen besteht im Wesentlichen aus „Kürzel“, „Schlüssel“ und „Bezeichnung“. Das Kürzel wird in MAGELLAN und DAVINCI zur Anzeige verwendet, der Schlüssel wird für Berichte, Statistiken und für die Fachwahlüberprüfung bzw. die Abiturqualifikation verwendet. Standardmäßig werden in MAGELLAN die Verzeichnisse „Unterrichtsarten“ und „Fachstatus“ bereits mit den entsprechenden Schlüsseln installiert.
+Unterrichtsarten und Fachstatus sind in Magellan Schlüsselverzeichnisse, die für die Landesanpassung eine zentrale Rolle spielen. Jeder Eintrag in diesen Verzeichnissen besteht im Wesentlichen aus „Kürzel“, „Schlüssel“ und „Bezeichnung“. Das Kürzel wird in Magellan und DaVinci zur Anzeige verwendet, der Schlüssel wird für Berichte, Statistiken und für die Fachwahlüberprüfung bzw. die Abiturqualifikation verwendet. Standardmäßig werden in Magellan die Verzeichnisse „Unterrichtsarten“ und „Fachstatus“ bereits mit den entsprechenden Schlüsseln installiert.
 
 Die Verzeichnisse der Unterrichtsarten bzw. Fachstatus können Sie über `Verzeichnisse > Weitere Schlüsselverzeichnisse > Unterrichtsarten` bzw. `Verzeichnisse > Weitere Schlüsselverzeichnisse > Fachstatus` aufrufen.
 Sie können diese Schlüsselverzeichnisse ändern. Ändern oder löschen Sie Schlüssel bzw. die Werte in der Spalte „Schlüssel“, dann besteht die Gefahr, dass evtl. Berichte, Fachwahlüberprüfungen oder Abiturqualifikationen nicht mehr korrekt funktionieren, die diese Schlüssel verwenden.
 
 #### Spalte „Merkmal“
 
-In MAGELLAN finden Sie auf den Registerkarten Ansicht `Abitur > Qualifikation`, Ansicht `Abitur > Fachwahl` und Ansicht `Schüler > Zeugnis > Fächer` die Spalte „Merkmal“. Sie dient unter anderem dazu, für ein Fach bestimmte Merkmale einzutragen, die für die Abiturqualifikation bzw. Fachwahlprüfung verwendet werden können. 
+In Magellan finden Sie auf den Registerkarten Ansicht `Abitur > Qualifikation`, Ansicht `Abitur > Fachwahl` und Ansicht `Schüler > Zeugnis > Fächer` die Spalte „Merkmal“. Sie dient unter anderem dazu, für ein Fach bestimmte Merkmale einzutragen, die für die Abiturqualifikation bzw. Fachwahlprüfung verwendet werden können. 
 Besitzt ein Schüler in der Oberstufe eine neu einsetzende Fremdsprache, so kennzeichnen Sie dies beim dem betreffenden Fach (der Fremdsprache) in der Spalte „Merkmal“ mit einem „A“.
 
 Merkmal| Bedeutung

@@ -16,7 +16,7 @@ Bitte legen Sie unter `Verzeichnisse > Zeiträume` ein neues Schuljahr an. Dazu 
 
 Neue Klassen können Sie aus dem Menü `Klassen` per `STRG+N` oder über die Plusschaltfläche erzeugen.
 
-Wenn Sie aber bereits mit MAGELLAN arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
+Wenn Sie aber bereits mit Magellan arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
 Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird beispielsweise kein Elternvertreter oder Klassensprecher übernommen.
 
 Es gibt noch einen Unterschied zwischen ABS- und BBS-Klassen:
@@ -131,7 +131,7 @@ Sie müssen Klassen auflösen, wenn Sie z.B. innerhalb des Schuljahres zwei Klas
 
 ## Schüler ausschulen
 
-Schüler, die Ihre Schule verlassen, weil Sie einen Abschluss erfolgreich erworben haben, oder die die Schule wechseln, werden in MAGELLAN ausgeschult. Ausgeschulte Schüler bleiben in der MAGELLAN-Datenbank. Die Schüler werden dann im nächsten Halbjahr nicht mehr angezeigt, Sie können aber noch jederzeit auf deren Daten zugreifen, indem Sie den Zeitraum wechseln. So schulen Sie Schüler aus:
+Schüler, die Ihre Schule verlassen, weil Sie einen Abschluss erfolgreich erworben haben, oder die die Schule wechseln, werden in Magellan ausgeschult. Ausgeschulte Schüler bleiben in der Magellan-Datenbank. Die Schüler werden dann im nächsten Halbjahr nicht mehr angezeigt, Sie können aber noch jederzeit auf deren Daten zugreifen, indem Sie den Zeitraum wechseln. So schulen Sie Schüler aus:
 
 |Aktion|
 |:--|

@@ -49,7 +49,7 @@ Nr.|Was ist zu tun?
 !!! info "Hinweis"
 
     Für alle Varianten möchten Sie sicherlich gern die Stamm- oder Laufbahndaten aus den vergangenen Zeiträumen weiterverwenden. 
-    Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich MAGELLAN den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
+    Wenn man die Kopie auf der Basis des "Stammschülers" erstellt, "merkt" sich Magellan den Zusammenhang zwischen beiden Schülern und beide können beim Einschulen wieder zu einem Schüler mit der Gesamtlaufbahn (gemeint ist die alte und die neue Laufbahn) zusammengefasst werden.
 
 ### 1. Bewerberkopie erstellen
 
@@ -96,7 +96,7 @@ Schritt|Aktion
 Prüfung bei der Einschulung|Folge
 --|--
 es gibt weitere Schüler<br/>im selben Halbjahr|Wenn Sie die Kopie des Schülers im gleichen Halbjahr einschulen, indem auch der "Urschüler" sich befindet, dann werden die Schüler nicht miteinander verbunden, sondern es gibt den Schüler doppelt. Es wird unterschieden in eine Stamm- und in eine Nebenlaufbahn des Schülers, Sie sehen die Markierung `S` und `N` in der Spalte `Laufbahn` in der Auswahlliste der Schüler.
-es gibt weitere Schüler<br/>in anderen Halbjahren|Existiert der Schüler noch nicht in dem Zeitraum in den der Schüler in seine Klasse einschult wird, verbindet MAGELLAN die beiden Schüler miteinander.<br/> **-** Die Stammdaten sind für den Stammschüler und die Schülerkopie identisch. <br/> **-** Ausbildungsdaten des Bewerbers ergänzen die des bestehenden Schülers.<br/> **-** die bereits besuchten Schulen des Bewerbers ergänzen die des Stammschülers.<br/> **-** Die Laufbahnkarte der Schülerkopie zeigt nur den eigenen Verlauf.<br/> **-** Die Laufbahnkarte des Stammschülers zeigt den gesamten Verlauf, also die STamm- und Nebenlaufbahn.
+es gibt weitere Schüler<br/>in anderen Halbjahren|Existiert der Schüler noch nicht in dem Zeitraum in den der Schüler in seine Klasse einschult wird, verbindet Magellan die beiden Schüler miteinander.<br/> **-** Die Stammdaten sind für den Stammschüler und die Schülerkopie identisch. <br/> **-** Ausbildungsdaten des Bewerbers ergänzen die des bestehenden Schülers.<br/> **-** die bereits besuchten Schulen des Bewerbers ergänzen die des Stammschülers.<br/> **-** Die Laufbahnkarte der Schülerkopie zeigt nur den eigenen Verlauf.<br/> **-** Die Laufbahnkarte des Stammschülers zeigt den gesamten Verlauf, also die STamm- und Nebenlaufbahn.
 
 ![Spalte Laufbahn: Stamm- und Nebenlaufbahn des Schülers](/assets/images/laufbahn.png)
  
@@ -118,11 +118,11 @@ Bereits besuchte Schulen|Hier wird für die Schülerkopien der Inhalt der `Schü
 Familiendaten|Für die `Familiendaten` werden für den Stammschüler und Schülerkopien die Daten es Stammschülers gezeigt. Eine Änderung bei einem der über die ID-Intern miteinander verknüpften Schüler, zeigt also die Änderung immer auch für die anderen Datensätze an.
 Zeugnisdaten|Der Stammschüler und jede Kopie hat eine von den anderen unabhängige Zeugniskarte, Sie können für jede Schülerzeile ein individuelles Zeugnis füllen.
 Laufbahnkarte|Die Schülerkopien haben jeweils nur die eigenen Laufbahneinträge, der Stammschüler hat Einträge über alle parallelen Laufbahnen, also die Stammlaufbahn und die Nebenlaufbahnen.
-Dokumentenverzeichnis|In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte ) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
+Dokumentenverzeichnis|In Magellan können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte ) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die Magellan-Oberfläche aufgerufen werden, die Dateien werden aber auf dem Magellan-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
 
 ## Ein Schüler belegt ein Fach in einer anderen Klasse
 
-Schüler in MAGELLAN haben zeitgleich nur eine Stammklasse (Laufbahn `S`). Dennoch kann es sein, dass an Ihrer Schule Zusatzkurse angeboten werden, die Sie gern wie Klassen in Ihrem Datenbestand verwalten möchten. 
+Schüler in Magellan haben zeitgleich nur eine Stammklasse (Laufbahn `S`). Dennoch kann es sein, dass an Ihrer Schule Zusatzkurse angeboten werden, die Sie gern wie Klassen in Ihrem Datenbestand verwalten möchten. 
 Oder, ein Schüler besucht in einzelnen Fächer den Unterricht in anderen Klassen und soll optional in den Schülerübersichten dieser Klassen sichtbar sein.
 Weisen Sie für die Fächer des Schülers, die er in parallel stattfindenden Klassen besucht unter `Schüler > Zeugnis > Fächer` in der Spalte Zusatzklasse die Klasse zu.
 
@@ -135,7 +135,7 @@ Rufen Sie das Menü `Klassen` auf, markieren die entsprechende Klasse und wähle
 
 ## Jahrgangsübergreifende Klassen (JÜL)
 
-Wenn Sie in MAGELLAN Klassen bestehend aus Schülern verschiedener Jahrgänge verwalten möchten, ist das auch möglich. 
+Wenn Sie in Magellan Klassen bestehend aus Schülern verschiedener Jahrgänge verwalten möchten, ist das auch möglich. 
 Unter `Schüler > Zeugnis > Details` gibt es das Feld `Jahrgang`, welches anders als der Klassenjahrgang (`Klasse > Zeiträume > Jahrgang`, gilt für die Klasse) für den einzelnen Schüler geführt wird. 
 
 ![Das Feld Jahrgänge vermerkt den schülerindividuellen Jahrgang](/assets/images/sonderfaelle/jahrgang07.png)
@@ -147,7 +147,7 @@ Zum erstmaligen Befüllen stehen Ihnen zwei Varianten zur Verfügung:
 
 In der Auswahlliste der Schüler sehen Sie zusätzlich zur Klasse auch den schülerindividuellen Jahrgang:
 
-![Schülerjahrgang in der Auswahlliste von MAGELLAN ](/assets/images/jahrgang01.png)
+![Schülerjahrgang in der Auswahlliste von Magellan ](/assets/images/jahrgang01.png)
 
 !!! info "Hinweis"
 

@@ -1,6 +1,6 @@
 # Serienemail
 
-Sie können mit MAGELLAN aus den folgenden Menüs E-Mails versenden:
+Sie können mit Magellan aus den folgenden Menüs E-Mails versenden:
 
 * `Bewerber`
 * `Schüler`
@@ -34,7 +34,7 @@ Für die Nachrichten können Sie wählen, ob direkt an den Empfänger gesandt we
 
     „Cc“ ist die Abkürzung für "Carbon copy". Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, wobei der Name des Empfängers für andere Empfänger der Nachricht sichtbar ist. „Bcc“ ist die Abkürzung für "Blind carbon copy".  Es wird eine Kopie der Nachricht an diesen Empfänger gesendet, der Name des Empfängers ist jedoch für andere Empfänger der Nachricht nicht sichtbar.
 
-Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in MAGELLAN hinterlegten Emailadressen bereits eingefügt.
+Im Anschluss öffnet sich ein Emailfenster Ihres als Standard definierten Emailprogrammes. Im Adressfeld der Email sind die in Magellan hinterlegten Emailadressen bereits eingefügt.
 
 !!! danger Achtung
 

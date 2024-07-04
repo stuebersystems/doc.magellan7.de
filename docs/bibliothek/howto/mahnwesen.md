@@ -28,7 +28,7 @@ Auf der Basis dieser Informationen entscheiden Sie, ob Sie für die aufgelistete
 
 ## Mahnstufe zuweisen
 
-Das Mahnverfahren in MAGELLAN BIBLIOTHEK umfasst drei Mahnstufen. Sie leiten das Mahnverfahren ein, indem Sie die erste Mahnstufe zuweisen. Damit Sie eine Mahnstufe zuweisen können, muss im Vorfeld definiert sein, welcher Abstand zwischen dem Leihfristende und der 1. Mahnstufe bzw. zwischen den einzelnen Mahnstufen liegen soll. In MAGELLAN BIBLIOTHEK ist für diese Abstände von Haus aus ein Wert von 10 Tagen hinterlegt.
+Das Mahnverfahren in Magellan Bibliothek umfasst drei Mahnstufen. Sie leiten das Mahnverfahren ein, indem Sie die erste Mahnstufe zuweisen. Damit Sie eine Mahnstufe zuweisen können, muss im Vorfeld definiert sein, welcher Abstand zwischen dem Leihfristende und der 1. Mahnstufe bzw. zwischen den einzelnen Mahnstufen liegen soll. In Magellan Bibliothek ist für diese Abstände von Haus aus ein Wert von 10 Tagen hinterlegt.
 
 Um diese Abstände zu ändern, gehen Sie bitte folgendermaßen vor:
 
@@ -79,11 +79,11 @@ Im vorherigen Abschnitt haben Sie bereits erfahren, wie Sie eine Mahnung im Verl
 
 Die ausgewählte Berichtsdatei wird nun als Vorlage für den Mahnungsausdruck hinterlegt.
 
-[![Auswahl des Mahnungenbericht für den späteren Ausdruck der Mahnung über die MAGELLAN Optionen][7]][7]
+[![Auswahl des Mahnungenbericht für den späteren Ausdruck der Mahnung über die Magellan Optionen][7]][7]
 
 !!! info "Hinweis"
 
-    Die Berichtsdatei `Mahnungen.rpt` wird bei der Installation im Programmverzeichnis von MAGELLAN-BIBLIOTHEK abgelegt und kann von Ihnen als Formatvorlage für das Erstellen von Mahnungen genutzt werden. Wenn Sie darüber hinaus weitere Formatvorlagen benötigen, so könne Sie diese mit dem von MAGELLAN unterstützen Berichtsgenerator `Crystal Reports` erstellen.
+    Die Berichtsdatei `Mahnungen.rpt` wird bei der Installation im Programmverzeichnis von Magellan-Bibliothek abgelegt und kann von Ihnen als Formatvorlage für das Erstellen von Mahnungen genutzt werden. Wenn Sie darüber hinaus weitere Formatvorlagen benötigen, so könne Sie diese mit dem von Magellan unterstützen Berichtsgenerator `Crystal Reports` erstellen.
 
 Den Ausdruck eines Mahnungsbericht können Sie auch durchführen, nachdem Sie eine Mahnstufe bereits zugewiesen haben. Dieses Vorgehen hat den Vorteil, dass Sie mehrere Mahnungsberichte gleichzeitig drucken können.
 

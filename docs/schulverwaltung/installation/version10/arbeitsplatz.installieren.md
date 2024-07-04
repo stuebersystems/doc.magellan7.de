@@ -1,6 +1,6 @@
 ﻿# Arbeitsplatzinstallation
 
-Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
+Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur Magellan und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
 
 ## Vorbereitung
 
@@ -9,11 +9,11 @@ Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des 
 Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 * die Runtimeversion von Crystal Reports 32- oder 64-Bit
-* für MAGELLAN 32- oder 64-Bit
+* für Magellan 32- oder 64-Bit
 
 !!! danger "Wichtig!"
 
-    Für MAGELLAN 10 wird eine aktuellere Crystal Reports Runtime verwendet.
+    Für Magellan 10 wird eine aktuellere Crystal Reports Runtime verwendet.
 
 **Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
 
@@ -22,7 +22,7 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 !!! danger "Wichtig!"
 
-    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für Magellan und für die Runtimeversion von Crystal Reports.**
 
 ### Lizenzdaten
 
@@ -31,7 +31,7 @@ Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail
 
 ## Installation der Crystal Reports Runtimeversion
 
-Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
+Diese Installation muss stets parallel zur Magellan Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in Magellan.
 
 Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
 
@@ -53,11 +53,11 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 ![Fertigstellen](/assets/images/installation/10/cr/008.png)
 
-## Installation von MAGELLAN
+## Installation von Magellan
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
-Der Setup Assistent von MAGELLAN 10 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von Magellan 10 wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/10/001.png)
 
@@ -89,12 +89,12 @@ Die Installation ist abgeschlossen, klicken Sie bitte auf `Fertigstellen`!
 
 ## Der Willkommensassistent
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 10 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie Magellan 10 starten. Es erscheint zunächst der Willkommen-Assistent.
 
 ![Willkommen](/assets/images/installation/10/w/001.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["Magellan - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/10/w/002.png)
 
@@ -120,15 +120,15 @@ Bitte vergeben Sie hier den Pfad (Netzwerkpfade und Netzlaufwerke möglich) zu d
 
 ![Datenordnerpfad](/assets/images/installation/10/w/006.3.png)
 
-Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Standardmäßig wird als Speicherort `Datenbanken > Datensicherungen > Backup bzw. Restore` vorgegeben, wir empfehlen diese Auswahl zu übernehmen.
+Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul Magellan Administrator auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Standardmäßig wird als Speicherort `Datenbanken > Datensicherungen > Backup bzw. Restore` vorgegeben, wir empfehlen diese Auswahl zu übernehmen.
 
 ![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/10/w/007.png)
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/10/w/008.png)
+![Erste Schritte in Magellan](/assets/images/installation/10/w/008.png)
 
-Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. 
+Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von Magellan. 
 Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwort ein, dass Sie während der Firebird-Installation gewählt haben. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/10/w/009.png)

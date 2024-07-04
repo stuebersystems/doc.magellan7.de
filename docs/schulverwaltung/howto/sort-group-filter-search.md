@@ -1,10 +1,10 @@
 # Sortieren, Gruppieren, Filtern und Suchen
 
-Dieses Kapitel beschreibt die Möglichkeiten im Umgang mit den Auswahllisten und auch allen Assistenten in MAGELLAN. Eine Auswahlliste starten Sie über die Schnellstartleiste an der linken Seite. Je nachdem welchen Begriff Sie wählen, öffnet sich die Auswahlliste der Schüler, Bewerber, Klassen, Lehrer, Mandanten, Personen, Sorgeberechtigten, Betrieben, Schulen, Schüler im Abitur bzw. Schüler mit einem Abschluss in der Berufsschule. Alle Auswahllisten sind nach dem gleichen Prinzip aufgebaut.
+Dieses Kapitel beschreibt die Möglichkeiten im Umgang mit den Auswahllisten und auch allen Assistenten in Magellan. Eine Auswahlliste starten Sie über die Schnellstartleiste an der linken Seite. Je nachdem welchen Begriff Sie wählen, öffnet sich die Auswahlliste der Schüler, Bewerber, Klassen, Lehrer, Mandanten, Personen, Sorgeberechtigten, Betrieben, Schulen, Schüler im Abitur bzw. Schüler mit einem Abschluss in der Berufsschule. Alle Auswahllisten sind nach dem gleichen Prinzip aufgebaut.
 
 ## Sortieren
 
-In MAGELLAN haben Sie die Möglichkeit, den Inhalt der Auswahllisten zu sortieren, wobei die Kriterien, nach denen sortiert wird, die einzelnen Spaltenköpfe sind. Dies ermöglicht Ihnen beispielsweise bei der Auswahlliste `Schüler` nach Nachname, Vorname, Ort, Geschlecht usw. zu sortieren.
+In Magellan haben Sie die Möglichkeit, den Inhalt der Auswahllisten zu sortieren, wobei die Kriterien, nach denen sortiert wird, die einzelnen Spaltenköpfe sind. Dies ermöglicht Ihnen beispielsweise bei der Auswahlliste `Schüler` nach Nachname, Vorname, Ort, Geschlecht usw. zu sortieren.
 
 ![Sortierung der Ansicht nach den Nachnamen der Schüler](/assets/images/sortieren/sortieren_10liste.png) 
 
@@ -53,13 +53,13 @@ Der schnellste Weg einen Datensatz innerhalb einer Auswahlliste zu finden ist di
 
 1. Klicken Sie auf einen beliebigen Wert einer Spalte, als Zeichen, dass Sie in dieser Spalte suchen möchten. Beispiel: Klicken Sie auf einen beliebigen Nachnamen um innerhalb der Nachnamen suchen zu können.
 
-2. Tippen Sie einen Wert ein. Beispiel: Sie suchen Schüler Müller, Sie tippen ein `m`, MAGELLAN bringt Sie zur ersten gefundenen Schüler dessen Nachname mit `M` beginnt. Tippen Sie `mü`, der Cursor springt in die nächste gefunden Zeile, dass könnte aber auch Schüler Mühlhausen sein. Tippen Sie `Müller`, springt der Cursor zum ersten Schüler mit dem Nachnamen `Müller`. 
+2. Tippen Sie einen Wert ein. Beispiel: Sie suchen Schüler Müller, Sie tippen ein `m`, Magellan bringt Sie zur ersten gefundenen Schüler dessen Nachname mit `M` beginnt. Tippen Sie `mü`, der Cursor springt in die nächste gefunden Zeile, dass könnte aber auch Schüler Mühlhausen sein. Tippen Sie `Müller`, springt der Cursor zum ersten Schüler mit dem Nachnamen `Müller`. 
 
 3. Innerhalb der zutreffenden Schülerzeilen, also innerhalb der Schüler mit dem Nachnamen `Müller`, können Sie jetzt mit STRG+Pfeil aufwärts oder STRG+Pfeil abwärts sich bewegen.
 
 ## Gruppieren
 
-Neben dem Sortieren haben Sie in MAGELLAN die Möglichkeit, Ihre Liste zu gruppieren. Gruppieren können Sie nach den gleichen Spaltenköpfen wie beim Sortieren. Das Gruppieren ermöglicht Ihnen, die Tabelle nach ganz bestimmten Gesichtspunkten zu untergliedern, so dass Sie eine bessere Übersicht erhalten. Sie können z.B. die Auswahlliste der Schüler nach Klassen gruppieren lassen, um die Schüler immer klassenweise zu sehen.
+Neben dem Sortieren haben Sie in Magellan die Möglichkeit, Ihre Liste zu gruppieren. Gruppieren können Sie nach den gleichen Spaltenköpfen wie beim Sortieren. Das Gruppieren ermöglicht Ihnen, die Tabelle nach ganz bestimmten Gesichtspunkten zu untergliedern, so dass Sie eine bessere Übersicht erhalten. Sie können z.B. die Auswahlliste der Schüler nach Klassen gruppieren lassen, um die Schüler immer klassenweise zu sehen.
 
 ### Einfache Gruppierung
 
@@ -103,7 +103,7 @@ Unten links im Auswahllistenfenster finden Sie ein kleines schwarzes Viereck. Kl
 
 ## Filtern
 
-Ab der Version 6 können in MAGELLAN die Daten in allen Auswahllisten auch gefiltert werden. Die Filterfunktion kann in der Kopfzeile über das schwarze Dreieck in der zu filternden Spalte aufgerufen werden.  
+Ab der Version 6 können in Magellan die Daten in allen Auswahllisten auch gefiltert werden. Die Filterfunktion kann in der Kopfzeile über das schwarze Dreieck in der zu filternden Spalte aufgerufen werden.  
 
 ![Filtern der Liste](/assets/images/sortieren/sortieren_05filter.png)
 

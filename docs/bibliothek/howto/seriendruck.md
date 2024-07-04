@@ -1,6 +1,6 @@
 # Serienbrief erstellen
 
-Aus MAGELLAN BIBLIOTHEK heraus können Sie mit Hilfe des Word Seriendrucks aus verschiedenen Listen heraus ein Anschreiben erstellen.
+Aus Magellan Bibliothek heraus können Sie mit Hilfe des Word Seriendrucks aus verschiedenen Listen heraus ein Anschreiben erstellen.
 
 
 !!! info "Hinweis"
@@ -18,7 +18,7 @@ Um aus den verschiedenen Listen einen Serienbrief an Ausleiher, Lieferanten, Ver
 
 Markieren Sie die Zeilen der gewünschten Personen bzw. Institutionen  und klicken in der Menüleiste `Start` die Schaltbild `Seriendruck nach Word`: der Seriendruck-Assistent öffnet sich. (oder wählen Sie den `Seriendruck nach Word` über die linke Maustaste im sich öffnenden Aufklappmenü ODER `strg+W`)
 
-Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. Dafür stehen Ihnen diese Auswahl zur Verfügung:
+Wählen Sie, ob Sie die Daten mit einer leeren Magellan-Vorlage verknüpfen wollen und das gefüllte Dokumente in der Dokumentenverwaltung speichern wollen, ob Sie die Daten mit einer leeren Magellan-Vorlage verknüpfen wollen oder ob Sie auf ein bereits erstelltes Dokument zurückgreifen möchten. Dafür stehen Ihnen diese Auswahl zur Verfügung:
    
 ![Seriendruck nach Word, Auswahl der passenden Vorlage](/assets/images/bibliothek/seriendruck06.png)
 
@@ -28,13 +28,13 @@ Wählen Sie, ob Sie die Daten mit einer leeren MAGELLAN-Vorlage verknüpfen woll
 
 ## Daten mit einer Word-Vorlage verknüpfen und ablegen
 
-Um die erste Option im Seriendruck-Assistenten `Daten mit einer Word-Vorlage verknüpfen und vor dem Start von Word das gefüllte Dokument pro Mahnungen/Verlage/Lieferanten/Schüler/Lehrer/Personen/Mandanten in der Dokumentenverwaltung speichern` nutzen zu können, müssen Sie in den Optionen von MAGELLAN die entsprechenden Einstellungen gewählt haben. 
+Um die erste Option im Seriendruck-Assistenten `Daten mit einer Word-Vorlage verknüpfen und vor dem Start von Word das gefüllte Dokument pro Mahnungen/Verlage/Lieferanten/Schüler/Lehrer/Personen/Mandanten in der Dokumentenverwaltung speichern` nutzen zu können, müssen Sie in den Optionen von Magellan die entsprechenden Einstellungen gewählt haben. 
 
 Um diese Einstellung vorzunehmen, gehen Sie bitte folgendermaßen vor:
 
 1. Rufen Sie den Menüpunkt `Datenbank > Optionen` auf
 2. Wechseln Sie in der Navigation links auf `Dokumente` in die Registerkarte `Word-Seriendruck`
-3. Benennen Sie hier die Unterordnder, in die später die Worddokumente von MAGELLAN abgelegt werden sollen.
+3. Benennen Sie hier die Unterordnder, in die später die Worddokumente von Magellan abgelegt werden sollen.
 
 ![Benennen Sie hier den Unterordner, in dem die Word-Dokumente gespeichert werden sollen](/assets/images/bibliothek/seriendruck02.png)
 
@@ -64,12 +64,12 @@ Damit Ihnen dieses Dokument beim nächsten Aufruf des Seriendrucks unter den Bei
 1. Wählen Sie in Word `Datei > Speichern unter` aus und passen bitte den Dateityp auf Wordvorlage an. 
 2. Speichern Sie das Word-Dokument an einer beliebigen Stelle.
 3. Wechseln Sie an diese Stelle und kopieren Ihre Wordvorlage in die Zwischenablage.
-4. Öffnen Sie MAGELLAN und wählen `Extras > Vorlagen organisieren` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung .dot oder .dotx in den entsprechend links gewählten Ordner (Lehrer, Mahnungen, Mandanten, Medien, Personen, Schüler, Verlage oder Vorgänge) ein.
+4. Öffnen Sie Magellan und wählen `Extras > Vorlagen organisieren` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung .dot oder .dotx in den entsprechend links gewählten Ordner (Lehrer, Mahnungen, Mandanten, Medien, Personen, Schüler, Verlage oder Vorgänge) ein.
 
 ![Vorlagen organisieren](/assets/images/bibliothek/seriendruck04.png)
 
 ## Vorlagen organisieren
 
-Sie können alle erstellten Vorlagen bequem von MAGELLAN aus verwalten. Klicken Sie dazu im Seriendruck-Assistenten auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster Vorlagen organisieren.
+Sie können alle erstellten Vorlagen bequem von Magellan aus verwalten. Klicken Sie dazu im Seriendruck-Assistenten auf die Schaltfläche `Organisieren`. Es öffnet sich das Fenster Vorlagen organisieren.
 
 ![Seriendruck nach Word ist gestartet, wählen Sie hier im Assistenten `Vorlagen organisieren`](/assets/images/bibliothek/seriendruck05.png)

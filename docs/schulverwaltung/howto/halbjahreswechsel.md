@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt den Halbjahreswechsel der Schüler innerhalb der Klass
 
 ## Fortschreiben versus Versetzen
 
-In MAGELLAN werden den Klassen Zeiträume, in der Regel Halbjahre, zugeordnet. Schüler sind Klassen und somit mittelbar Zeiträumen zugeordnet. Viele Schülerdaten, d.h. Fächer, Noten und Zeugnisdaten werden zeitraumbezogen geführt. MAGELLAN unterscheidet zwischen dem Fortschreiben und dem Versetzen von Schülern. Beim Versetzen werden Schüler in eine andere Klasse und damit in einen anderen Zeitraum versetzt. Beim Fortschreiben werden Schüler beim Halbjahreswechsel in das folgende Halbjahr übertragen, was nicht mit einem Klassenwechsel verbunden ist. 
+In Magellan werden den Klassen Zeiträume, in der Regel Halbjahre, zugeordnet. Schüler sind Klassen und somit mittelbar Zeiträumen zugeordnet. Viele Schülerdaten, d.h. Fächer, Noten und Zeugnisdaten werden zeitraumbezogen geführt. Magellan unterscheidet zwischen dem Fortschreiben und dem Versetzen von Schülern. Beim Versetzen werden Schüler in eine andere Klasse und damit in einen anderen Zeitraum versetzt. Beim Fortschreiben werden Schüler beim Halbjahreswechsel in das folgende Halbjahr übertragen, was nicht mit einem Klassenwechsel verbunden ist. 
 
 Aktion|Neue Klasse? |Neuer Zeitraum?
 --|--|--

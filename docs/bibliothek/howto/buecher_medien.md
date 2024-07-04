@@ -9,7 +9,7 @@
 [7]:/assets/images/bibliothek/38-buecher-medien.png
 [8]:/assets/images/bibliothek/exemplare03.png)
 
-In diesem Abschnitt erfahren Sie, wie Sie Ihre Medien, also Bücher, DVDs, Audio-CDs, CD-Roms etc. in MAGELLAN-BIBLIOTHEK erfassen können. Wenn Sie damit starten,MAGELLAN-BIBLIOTHEK im Schulalltag einzusetzen, ist das Erfassen Ihres kompletten Medienbestands sicherlich der aufwändigste Arbeitsschritt, den Sie erledigen müssen, bevor Sie den Leihbetrieb aufnehmen können.
+In diesem Abschnitt erfahren Sie, wie Sie Ihre Medien, also Bücher, DVDs, Audio-CDs, CD-Roms etc. in Magellan-Bibliothek erfassen können. Wenn Sie damit starten,Magellan-Bibliothek im Schulalltag einzusetzen, ist das Erfassen Ihres kompletten Medienbestands sicherlich der aufwändigste Arbeitsschritt, den Sie erledigen müssen, bevor Sie den Leihbetrieb aufnehmen können.
 
 [![Ansicht Bücher/Medien besteht aus den Teilansichten Auswahl
 Exemplare, Daten 1, Daten 2 Vorgänge Stichworte][1]][1]
@@ -226,7 +226,7 @@ Um Mediendaten automatisch nach dem Barcode zu suchen, gehen Sie bitte folgender
 
 ![Neues Medium erfassen](/assets/images/bibliothek/opac10.png)
 
-6. Sie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt. Der ausgewählte Eintrag wird in die MAGELLAN BIBLIOTHEK übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
+6. Sie gelangen auf die nächste Registerkarte mit den Angaben zu den Exemplardaten. Nehmen Sie hier Ihre Eintragungen vor und bestätigen  Sie mit `Weiter` und dann mit `Fertigstellen`. Das Medium und die Exemplare werden angelegt. Der ausgewählte Eintrag wird in die Magellan Bibliothek übertragen und die verwertbaren Informationen sowie die manuell eingegebenen Daten gespeichert.
 
 #### Lokal nach einem Titel suchen
 

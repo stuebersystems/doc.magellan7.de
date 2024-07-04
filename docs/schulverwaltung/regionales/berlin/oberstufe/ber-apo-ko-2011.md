@@ -4,11 +4,11 @@ Voraussetzung für die Abiturberechnung ist, dass Sie für jedes in der Oberstuf
 
 ## Aufgabenbereiche
 
-Die Aufgabenbereiche sind in MAGELLAN und DAVINCI fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
+Die Aufgabenbereiche sind in Magellan und DaVinci fest vorgegeben. Ihre Bedeutung ergibt sich unmittelbar aus der allgemeinen Abiturverordnung.
 
 !!! info "Hinweis"
 
-    Bitte verwenden Sie die Aufgabenbereiche in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Aufgabenbereiche in Magellan unter `Verzeichnisse > Fächer` in Spalte Aufgabenbereich. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 Abkürzung |Bedeutung
 --|--
@@ -24,7 +24,7 @@ Die nachfolgenden Fachkategorien werden verwendet.
 
 !!! info "Hinweis"
 
-    Bitte verwenden Sie die Kategorien in MAGELLAN unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
+    Bitte verwenden Sie die Kategorien in Magellan unter `Verzeichnisse > Fächer` in Spalte Kategorie. Diese Angaben müssen für jedes für die Oberstufe verwendete Fach gesetzt werden.
 
 Verwendete Fach-Kategorie-Schlüssel
 

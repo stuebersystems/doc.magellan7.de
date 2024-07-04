@@ -25,33 +25,33 @@
 [39]:/assets/images/enbrea.leistungen/39.png
 [40]:/assets/images/enbrea.leistungen/40.png
 
-# ENBREA Leistungen
+# Enbrea Leistungen
 
 Dieser Bereich dient als Grundlage zum Erfassen von Daten, die in sogenannten komplexen Zeugnisberichten ausgegeben werden.
 
 Im Unterschied zu einfachen Zeugnissen sind hier auch noch Leistungen je Fach weiter unterteilbar, es sind verschiedene Notensysteme möglich.
 
-Bitte schauen Sie vorab in der [Übersicht der Zeugnisse](https://doc.la.stueber.de/berichte/zeugnisse/allgemein_zeugnisse/) für Ihr Bundesland bzw. für Ihre Auslandsschule nach, ob die ENBREA Lernleistungen von Ihrem Zeugnis verwendet wird.
+Bitte schauen Sie vorab in der [Übersicht der Zeugnisse](https://doc.la.stueber.de/berichte/zeugnisse/allgemein_zeugnisse/) für Ihr Bundesland bzw. für Ihre Auslandsschule nach, ob die Enbrea Lernleistungen von Ihrem Zeugnis verwendet wird.
 
 Beispiel für ein komplexes Zeugnis: 
 
 [![Komplexer Zeugnisbericht, Beispiel][33]][33]
 
-## ENBREA Funktionen aktivieren
+## Enbrea Funktionen aktivieren
 
-Um die zusätzlichen Funktionalitäten in der MAGELLAN Oberfläche vorzufinden, aktivieren Sie bitte diese Funktionen unter `Datenbank > Optionen > ENBREA Funktionen aktivieren` durch Setzen des Häkchens.
+Um die zusätzlichen Funktionalitäten in der Magellan Oberfläche vorzufinden, aktivieren Sie bitte diese Funktionen unter `Datenbank > Optionen > Enbrea Funktionen aktivieren` durch Setzen des Häkchens.
 
 ![Aktivieren Sie das Häkchen!](/assets/images/enbrea.leistungen/01.png)
 
 ## Schlüsselverzeichnisse
 
-Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in MAGELLAN zu erfassen, müssen Sie folgende Schlüsselverzeichnisse unter `Extras > Schlüsselverzeichnisse` befüllen.
+Um Fächer und deren Kompetenzbereiche gemäß Zeugnisvorlage in Magellan zu erfassen, müssen Sie folgende Schlüsselverzeichnisse unter `Extras > Schlüsselverzeichnisse` befüllen.
 
 * `Bewertungsprofile`
 * `Notensysteme`
 * `Notentypen`
 
-Folgender Auszug einer Zeugnisvorlage für das Fach "Mathematik" soll uns als Beispiel für die Dateneingabe in MAGELLAN dienen:
+Folgender Auszug einer Zeugnisvorlage für das Fach "Mathematik" soll uns als Beispiel für die Dateneingabe in Magellan dienen:
 
 [![Beispiel für ein Zeugnis][2]][2]
 
@@ -201,13 +201,13 @@ interner Code| derzeit nicht in Benutzung
 
 [![`Schlüsselverzeichnis > Notentypen`][10]][10]
 
-In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note, schriftliche Note) definiert. Diese Werte können später den Bewertungen der Kurse im Bereich `Klassen > Zeitraum > ENBREA-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
+In diesem Verzeichnis wird die Art der Bewertung (z.B. Zeugnisnote, mündliche Note, schriftliche Note) definiert. Diese Werte können später den Bewertungen der Kurse im Bereich `Klassen > Zeitraum > Enbrea-Leistungen > Leistungsprofile` zugeordnet werden, dazu kommen wir aber später noch.
 
 ## Kurse anlegen
 
 Pro Klassen müssen Sie nun noch die jeweiligen Kurse und je Kurs die Leistungsprofile definieren.
 
-Die Kurse legen Sie bitte im Bereich `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Kurse definieren...` an.
+Die Kurse legen Sie bitte im Bereich `Klassen > Zeiträume > Enbrea Leistungsprofile` über den Aufruf `Kurse definieren...` an.
 
 [![Kurse definieren][13]][13]
 
@@ -254,7 +254,7 @@ Findet hier aktuell noch keine Verwendung.
 
 Nachdem Sie die Kurse definiert haben, legen Sie pro Fach die Leistungsprofile an.
 
-Diese legen Sie im Bereich `Klassen > Zeiträume > ENBREA Leistungsprofile` über den Aufruf `Leistungsprofile definieren...` an.
+Diese legen Sie im Bereich `Klassen > Zeiträume > Enbrea Leistungsprofile` über den Aufruf `Leistungsprofile definieren...` an.
 
 [![Aufruf "Leistungsprofile definieren..."][21]][21]
 
@@ -287,7 +287,7 @@ In unserem Beispiel sind das die Fächer "Sprechen und Zuhören", "Lesen - mit T
 
 Da diese dem Kurs "Deutsch" angehören, müssen Sie diese im Feld "Kurs" mit dem entsprechenden Deutschkurs des Jahrganges verknüpfen.
 
-[![`Klassen > Zeiträume > ENBREA Leistungsprofile`][31]][31]
+[![`Klassen > Zeiträume > Enbrea Leistungsprofile`][31]][31]
 
 ### Leistungsprofile ohne Kurszuweisung
 
@@ -301,9 +301,9 @@ Diesen Fächern wird über den Aufruf `Leistungsprofile definieren...` kein Kurs
 
 ## Kurse zuweisen
 
-### Schüler > Zeugnis > ENBREA Kurse
+### Schüler > Zeugnis > Enbrea Kurse
 
-Bitte weisen Sie im Menü `Schüler > Zeugnis > ENBREA Kurse` über das Plus Symbol einem oder mehreren Schülern einer Klasse die Kurse zu.
+Bitte weisen Sie im Menü `Schüler > Zeugnis > Enbrea Kurse` über das Plus Symbol einem oder mehreren Schülern einer Klasse die Kurse zu.
 
 Es öffnet sich ein Assistent, im Auswahlfenster können Sie im ersten Fenster die gewünschten Schüler markieren.
 
@@ -317,15 +317,15 @@ Bestätigen Sie bitte mit `Weiter`. Es werden den gewählten Schülern jeweils n
 
 Beenden Sie den Assisten mit `Fertigstellen`.
 
-Im Menü `Schüler > Zeugnis > ENBREA Kurse` ergibt sich nun folgendes Bild:
+Im Menü `Schüler > Zeugnis > Enbrea Kurse` ergibt sich nun folgendes Bild:
 
 ![Ergbnis der Kurszuweisung](/assets/images/enbrea.leistungen/27.png)
 
-### Schüler > Zeugnis > ENBREA Leistungen
+### Schüler > Zeugnis > Enbrea Leistungen
 
-Wechseln Sie in das Menü `Schüler > Zeugnis > ENBREA Leistungen`. Hier finden Sie Ihre Kurse mit und ohne Leistungsprofilen. Die Benotung erfolgt in dieser Ansicht.
+Wechseln Sie in das Menü `Schüler > Zeugnis > Enbrea Leistungen`. Hier finden Sie Ihre Kurse mit und ohne Leistungsprofilen. Die Benotung erfolgt in dieser Ansicht.
 
-![ENBREA Lernleistungen](/assets/images/enbrea.leistungen/28.png)
+![Enbrea Lernleistungen](/assets/images/enbrea.leistungen/28.png)
 
 ## Halbjahreswechsel
 
@@ -334,11 +334,11 @@ Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Inform
 
 !!! warning "Wichtig"
     
-    Die ENBREA Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > ENBREA Leistungsprofile` noch nicht zugewiesen. Diese müssen Sie nach dem Fortschreiben Ihrer SchülerInnen über den Assistenten `Laufbahnprozess > ENBREA Leistungen übernehmen` in das 2. HJ der Klasse übernehmen.
+    Die Enbrea Leistungen sind aktuell der Klasse im Menü `Klassen > Zeiträume > Enbrea Leistungsprofile` noch nicht zugewiesen. Diese müssen Sie nach dem Fortschreiben Ihrer SchülerInnen über den Assistenten `Laufbahnprozess > Enbrea Leistungen übernehmen` in das 2. HJ der Klasse übernehmen.
 
-2. Bitte wechseln Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` die Registerkarte `Laufbahnprozess` und wählen hier `ENBREA Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen ENBREA Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
+2. Bitte wechseln Sie in den Zeitraum des 2. Halbjahres. Öffnen Sie im Menü `Schüler` oder im Menü `Klassen` die Registerkarte `Laufbahnprozess` und wählen hier `Enbrea Leistungen übernehmen`. Wählen Sie die Klasse aus dem vorigen Halbjahr. Die zugewiesenen Enbrea Leistungen des Schülers werden nun aus dem 1. HJ in das 2. HJ übernommen. 
 
-![Klasse auswählen zur Übernahme der ENBREA Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
+![Klasse auswählen zur Übernahme der Enbrea Leistungen aus dem vorigen Zeitraum](/assets/images/enbrea.leistungen/15.png)
 
 ## Schuljahreswechsel
 
@@ -346,7 +346,7 @@ Nutzen Sie hier den Assistenten um alle Schüler fortzuschreiben. Weitere Inform
 `Extras > Schlüsselverzeichnisse > Zeiträume`.
 
 2. Neue Klassen anlegen
-Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der ENBREA Leistungsprofile `Klassen > Zeiträume > ENBREA Leistungsprofile > Kurse` mit übernommen.
+Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisstenten zur Übernahme neuer Klassen über  `Klassen > Laufbahnprozess > Klassen übernehmen`. Beim Prozess der Klassenübernahme werden auch die jeweiligen Kurse der Enbrea Leistungsprofile `Klassen > Zeiträume > Enbrea Leistungsprofile > Kurse` mit übernommen.
 
 ![Klassen aus den Vorjahr übernehmen](/assets/images/enbrea.leistungen/41.png)
 
@@ -354,7 +354,7 @@ Bitte gehen Sie in den Zeitraum des neuen Schuljahres und starten Sie den Asisst
 `Laufbahnprozess > Schüler versetzen`
 
 4. Schülern Kurse zuweisen
-Über Menü `Schüler > Zeugnis > ENBREA Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.
+Über Menü `Schüler > Zeugnis > Enbrea Kurse` über das `Plus Symbol` einem oder mehreren Schülern die Kurse zuweisen.
 
 ![Schülern Kurse zuweisen](/assets/images/enbrea.leistungen/42.png)
 

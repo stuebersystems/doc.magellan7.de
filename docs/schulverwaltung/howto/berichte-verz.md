@@ -1,7 +1,7 @@
 # Anleitungen zu Berichten
 
-Um Berichte korrekt füllen zu können, müssen die Angaben an der richtigen Stelle im Programm hinterlegt werden. Für viele Angaben ist es sicherlich klar, an welcher Stelle die Daten erwartet werden, aber je komplexer der Bericht ist (beispielsweise ein Zeugnis), umso mehr Angaben sind erforderlich. In der MAGELLAN-Landesanpassung beschreiben wir im Unterpunkt `Berichte` ausführlich was an Eingaben erwartet wird.
-Die Landesanpassung können Sie aus MAGELLAN unter `Hilfe > Handbücher > Landesanpassungen` aufrufen oder über [https://doc.la.stueber.de/](https://doc.la.stueber.de/). 
+Um Berichte korrekt füllen zu können, müssen die Angaben an der richtigen Stelle im Programm hinterlegt werden. Für viele Angaben ist es sicherlich klar, an welcher Stelle die Daten erwartet werden, aber je komplexer der Bericht ist (beispielsweise ein Zeugnis), umso mehr Angaben sind erforderlich. In der Magellan-Landesanpassung beschreiben wir im Unterpunkt `Berichte` ausführlich was an Eingaben erwartet wird.
+Die Landesanpassung können Sie aus Magellan unter `Hilfe > Handbücher > Landesanpassungen` aufrufen oder über [https://doc.la.stueber.de/](https://doc.la.stueber.de/). 
 
 ## Abkürzung bei der Benennung von Berichten
 

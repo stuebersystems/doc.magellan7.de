@@ -4,7 +4,7 @@ In diesem Kapitel wird die Stammdateneingabe der Personen und Adressen vorgestel
 
 ## Personen
 
-Alle nicht als Lehrer, Sorgeberechtigte, Schüler oder Bewerber erfassten Personen, werden in MAGELLAN in der Gruppe der `Personen` festgehalten. Die Personengruppe kann selbst nach beliebigen Kategorien unterschieden werden. Beispielsweise können Sie die Kategorien in Sekretariat, Hausmeister und Reinigungspersonal unterscheiden.
+Alle nicht als Lehrer, Sorgeberechtigte, Schüler oder Bewerber erfassten Personen, werden in Magellan in der Gruppe der `Personen` festgehalten. Die Personengruppe kann selbst nach beliebigen Kategorien unterschieden werden. Beispielsweise können Sie die Kategorien in Sekretariat, Hausmeister und Reinigungspersonal unterscheiden.
 
 ### Neue Person aufnehmen
 

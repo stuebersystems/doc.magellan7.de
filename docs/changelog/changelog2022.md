@@ -13,28 +13,28 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 !!! danger "Achtung"
 
     Das Vorgehen für die Installation hat sich seit der 9.5.0 geändert.<br/>
-     - **MAGELLAN** gibt es jetzt die Varianten **64-Bit und 32-Bit**.<br/> 
+     - **Magellan** gibt es jetzt die Varianten **64-Bit und 32-Bit**.<br/> 
      - Die für den Druck benötigte **Runtime-Version von Crystal Reports** ist nicht mehr Teil des Installationspaketes, sondern wird **gesondert auf allen Clients und dem Server installiert**. 
     
-    Beim Update ab der 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+    Beim Update ab der 9.5.0 müssen Sie das korrekte Magellan-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [Magellan](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 !!! important "Wichtig"
 
-    **Druckproblem mit Windows 11 22H2 und Crystal Reports Runtime** behoben mit der Version MAGELLAN 9.5.0.
+    **Druckproblem mit Windows 11 22H2 und Crystal Reports Runtime** behoben mit der Version Magellan 9.5.0.
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
-    **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
+    **Log4Shell-Schwachstelle**: Unsere Software-Produkte Enbrea, DaVinci, Magellan, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
 
-    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus Magellan Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
+    **MyMagellan**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `Magellan Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
 ## Version 9
 
 ### Version 9.5.3 902 (21.11.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Vagabund/Bewerber: Beim Erzeugen eines neuen Ausbildungsdatensatzes wird "GUID beibehalten", wenn die Standardoption beibehalten wird. 
 * FIX: Korrektur beim Aufruf der Druckvorschau für 32-Bit-Betriebssysteme
@@ -47,7 +47,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BLNW-OS.rpt` 
 * FIX: `SAC-FOS-FHReife (D.01.04).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
@@ -57,7 +57,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.5.2 902 (10.11.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Unter `Schüler > Daten2` ergab der Aufruf einiger Felder eine Zugriffsverletzung und zeigten auch keine Inhalte:
     * Höchster Abschluss ABS: Abschluss, Bildungsgang
@@ -77,22 +77,22 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 !!! danger "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 !!! danger "Wichtig"
 
-    Das Vorgehen für die Installation von MAGELLAN hat sich geändert.<br/><br/>
-     - MAGELLAN gibt es jetzt die Varianten 64-Bit und 32-Bit.<br/> 
+    Das Vorgehen für die Installation von Magellan hat sich geändert.<br/><br/>
+     - Magellan gibt es jetzt die Varianten 64-Bit und 32-Bit.<br/> 
      - Die für den Druck benötigte Runtime-Version von Crystal Reports ist nicht mehr Teil des Installationspaketes, sondern wird gesondert auf Clients und Servern installiert. 
     
-    Beim Update auf die 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+    Beim Update auf die 9.5.0 müssen Sie das korrekte Magellan-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [Magellan](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 #### Datenstrukturänderung
 
 * NEW: neue Verzeichnis `Fremdsprachennoten`.
 * NEW: neue Felder zum Erfassen der Fremdsprachennote (Bewerbungsnote) unter `Schüler/Bewerber > Daten3 > Fremdsprachenfolge1-4`
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: RLP-FW-APO-2010.js berücksichtigt den Fachstatus "AufgstGK" für aufgestockte Grundkurse
 * NEW: `Extras > Vorlagen organisieren` Open Office Dokumente *.odt und *.ott werden angezeigt
@@ -100,7 +100,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 * FIX: [BER] unter Extras > Export > Schüler (Berlin)  > Schüler (ABS und BBS) wurde der Export für Schüler mit Status in der 2.FS korrigiert.
 * CHANGE: `Abitur > Qualifikation`: Umbenennung der Spalten `LeistungsartQ1`-`LeistungsartQ6` und `BestandeQ1`-`BestandenQ6` in `LeistungsartE1`- `LeistungsartQ6` und `BestandenQ1`- `BestandenQ6`
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * CHANGE: Unter `Benutzerverwaltung > Extras` wurden die Punkte zur Replikation ausgeblendet
 
@@ -129,7 +129,7 @@ CHANGE: [NRW-APO-OS-2020] Die Berechnung der Besondere Lernleistung wurde angepa
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * FIX: `Unfallanzeige.rpt` einseitig
 * FIX: `Schülerliste (mit Sorgeberechtigten).rpt` [Download](https://my.hidrive.com/share/3pr60tsv6j)
@@ -154,7 +154,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.0.7 901 (23.08.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Wenn das Anlegen eines Ausbildungsdatensatzes abgebrochen wird, wird kein neuer Datensatz angelegt
 * NEW: Um das versehentliche Löschen von Schülern zu verhindern, wurde eine Bestätigung per Checkbox vor dem endgültigen Löschen eingebunden.
@@ -167,13 +167,13 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: NRW => Ausspielen der Grundschulempfehlung für GE und GY korrigiert
 * NEW: NRW ABS => Neuer Katalog: `AS_Bewerbungsempfehlungen.keys`
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * NEW: Lehrer (Abwesenheitsstatistik gruppiert je Jahr-nach Lehrer und Grund).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
@@ -182,7 +182,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.0.6 901 (19.08.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Wenn das Anlegen eines Ausbildungsdatensatzes abgebrochen wird, wird kein neuer Datensatz angelegt
 * NEW: Um das versehentliche Löschen von Schülern zu verhindern, wurde eine Bestätigung per Checkbox vor dem endgültigen Löschen eingebunden.
@@ -194,13 +194,13 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * FIX: NRW => Ausspielen der Grundschulempfehlung für GE und GY korrigiert
 * NEW: NRW ABS => Neuer Katalog: `AS_Bewerbungsempfehlungen.keys`
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Funktionalität zum Anlegen der Benutzer überarbeitet
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 * NEW: Lehrer (Abwesenheitsstatistik gruppiert je Jahr-nach Lehrer und Grund).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
 * NEW: Lehrer (Abwesenheitsstatistik je Jahr).rpt [Download](https://my.hidrive.com/share/3pr60tsv6j)
@@ -208,7 +208,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.0.5 901 (26.07.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Problem beim Anzeigen von Schülerdaten auf Karten Daten1-3 gelöst
 
@@ -222,12 +222,12 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.0.4 901 (21.07.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * CHANGE: Wordseriendruckvorlagen überarbeitet (Schuladresse und ggfs. Seriendruckquelle entfernt)
 * FIX: PDF-Ablage für den Seriendruck aus dem Schülermenü (Betriebe, Sorgeberechtigte)
 
-#### MyMAGELLAN CENTER
+#### MyMagellan CENTER
 
 * FIX: Problem beim Einlesen (bspsw. bei Fehltagen, Fehltagen unentschuldigt, Fehlstunden, Fehlstunden unentschuldigt) aus `*.mymx` behoben. [Vorabdownload der MagellanAdmin.exe](https://my.hidrive.com/share/9mtntyk820) und [Anleitung](https://doc.kb.stueber.de/support/exe_tauschen/)
 
@@ -235,7 +235,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 * NEW: **SHL** => Schnittstelle und importierbare Kataloge aktualisiert
 * NEW: **MVP** => Schnittstelle aktualisiert
-* NEW: **NRW** => Schnittstelle aktualisiert, aktuelle Schlüssel als importierbare Kataloge hinterlegt, Lehrer-Soll-Schlüssel werden mit DAVINCI veröffentlicht, können aber [hier](https://my.hidrive.com/share/6g6u80eu18) vorab heruntergeladen werden.
+* NEW: **NRW** => Schnittstelle aktualisiert, aktuelle Schlüssel als importierbare Kataloge hinterlegt, Lehrer-Soll-Schlüssel werden mit DaVinci veröffentlicht, können aber [hier](https://my.hidrive.com/share/6g6u80eu18) vorab heruntergeladen werden.
 
 #### Skripte
 
@@ -245,7 +245,7 @@ Eine Anleitung zum Austausch von Skripten finden Sie [hier](https://doc.kb.stueb
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen.md).
 
 ##### Ausland
 
@@ -291,17 +291,17 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 
 ### Version 9.0.3 901 (16.06.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Im Menü `Bewerber` wurde für den Seriendruck an Sorgeberechtigte die Ausgabe der Sorgeberechtigtendaten für kopierte Bewerber (Bewerber mit gefüllter IDIntern) korrigiert.
 * FIX: Excelexport aus dem Menüpunkt `Mittelstufe`
 * CHANGE: In der `MAGELLAN9_BEISPIEL.FDB` wurde die Daten (Schülerdaten, Zeitraumdaten usw.) um ein Jahr erhöht.
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Problem beim `Speichern unter` behoben
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * NEW: Unter `Schüler` wurden bisher die Spalten `Zeitraum` und `Klasse` gezeigt, im Ausleih-Assistenten unter `Ausleihe` wurde die Spalte `Klasse` gezeigt. Die Spalten `Klasse` und `Zeitraum` enthielten jeweils die höchste Klasse und den höchsten Zeitraum des Schülers. Wurde ein Bestandsschüler beispielsweise bereits ins Folgehalbjahr versetzt, wurde die neue Klasse und das Folgehalbjahr gezeigt. Diese beiden Spalten wurden umbenannt:
      * `Klasse` heißt jetzt `höchste Klasse` und `Zeitraum` heißt jetzt `höchster Zeitraum`.
@@ -343,7 +343,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### Version 9.0.2 901 (01.04.2022)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Serienbrief an Sorgeberechtigte mit paralleler Ablage in Schülerunterordner
 * FIX: Zeichenlänge für neues Kürzel beim Fachtafel extrahieren auf 20 erhöht
@@ -357,7 +357,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Problem der Anzeige der Werte aus dem Verzeichnis Fahrkarte unter `Schüler/Bewerber > Daten 4 > Fahrkarte` gelöst
 * CHANGE: Ändern, Neuanlegen (auch ohne Status `Pausieren`) und Löschen von Schülerabwesenheiten unter `Schüler > Laufbahn` möglich.
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * FIX: `Schüler > Vorgänge > Mahngebühr` ausgeblendet
 
@@ -391,11 +391,11 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 * NEW: EnbreaID für die Tabellen: `Banken`, `Besonderheiten`, `BetriebeKontakte`, `KlassenBesonderheiten`, `KlassenZeitraeume`, `Medien`, `MedienKataloge`, `MedienVorgaenge`, `MedizinArten`, `MedizinKategorien`, `Noten`, `SchuelerAusbildung`, `SchuelerBesonderheiten`, `SchuelerFachdaten`, `SchuelerFehlzeiten`, `SchuelerFoerderungen`, `SchuelerSchulen`, `SchuelerSorgebe`, `SchuelerZeitraeume`, `SchuelerZeugnisbemerkungen`, `SchuelerZeugnisformulare`, `Schulen`, `Zeitraeume`
   
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * CHANGE: Die für den Druck und die Vorschau integrierte Runtimeversion von Crystal Reports wurde aktualisiert auf Version `CR SP31`
 * FIX: Wenn Sie mehrere Unfallanzeigen für einen Schüler angelegt haben und eine gezielte in der Vorschau betrachten möchten, wird die gewählte Unfallanzeige gezeigt
@@ -412,7 +412,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * CHANGE: Auf der Unterkarte `Schüler > Zeugnis > Leistungen > Durchschnitte` werden die Felder `Durchschnitt 1-3` leer (keine 0) dargestellt, solange kein Wert erfasst ist.
 * FIX: Bewerber- und Gruppenformular behalten die Anzeigegröße des Hauptfensters bei
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Beim 'Speichern unter' wird die Datei mit `Dateiname.mymx` an der gewählten Stelle gespeichert.
 

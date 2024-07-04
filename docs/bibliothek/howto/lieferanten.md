@@ -2,7 +2,7 @@
 
 [1]:/assets/images/bibliothek/lieferanten_verlage01.png
 
-In MAGELLAN-BIBLIOTHEK steht Ihnen eine gesonderte Ansicht zur Verfügung, um Ihre bestehenden Lieferantenbeziehungen zu erfassen. Diese Ansicht  `Lieferanten` besteht aus  zwei Registerkarten:
+In Magellan-Bibliothek steht Ihnen eine gesonderte Ansicht zur Verfügung, um Ihre bestehenden Lieferantenbeziehungen zu erfassen. Diese Ansicht  `Lieferanten` besteht aus  zwei Registerkarten:
 
 [![Ansicht `Lieferanten`][1]][1]
 

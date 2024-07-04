@@ -9,7 +9,7 @@
 [7]:/assets/images/bibliothek/ausleihe04.png
 [8]:/assets/images/bibliothek/50.png "höchste und aktuelle Klasse im Ausleihassistenten"
 
-Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit MAGELLAN BIBLIOTHEK aufzunehmen.
+Das Erfassen Ihres Medien- und Ausleiherbestands schafft die Voraussetzung, um den Leihbetrieb mit Magellan Bibliothek aufzunehmen.
 
 Bei der Abwicklung Ihrer Leihvorgänge unterstützt Sie die Datenmaske `Ausleihe & Rückgabe`. Diese Datenmaske erreichen Sie, indem Sie über die Navigationsleiste am linken Rand des Programmfensters, die Ansicht `Ausleihe` aufrufen.
 
@@ -154,7 +154,7 @@ Die ausgewählte Berichtsdatei ist nun als Quittungsvorlage hinterlegt und wird 
 
 !!! info "Hinweis"
 
-    Die Berichtsdatei `Quittung(DIN A5).rpt` wird bei der Installation im Programmverzeichnis von MAGELLAN-BIBLIOTHEK abgelegt und kann von Ihnen als Formatvorlage für das Erstellen von Bestätigungen genutzt werden. Wenn Sie darüber hinaus weitere Formatvorlagen benötigen, so können Sie diese mit dem von MAGELLAN unterstützen Berichtsprogramm `Crystal Reports` erstellen.
+    Die Berichtsdatei `Quittung(DIN A5).rpt` wird bei der Installation im Programmverzeichnis von Magellan-Bibliothek abgelegt und kann von Ihnen als Formatvorlage für das Erstellen von Bestätigungen genutzt werden. Wenn Sie darüber hinaus weitere Formatvorlagen benötigen, so können Sie diese mit dem von Magellan unterstützen Berichtsprogramm `Crystal Reports` erstellen.
 
 ## Einzel- oder Sammelaktionen abwickeln
 
@@ -276,7 +276,7 @@ Um einen Medientitel gezielt an Teilnehmer eines bestimmten Kurses auszuleihen, 
 
 !!! info "Hinweis"
 
-    Damit Sie für die Teilnehmer eines Kurses eine Kurssatzausleihe durchführen können, muss der Kurs bei den Schülern in MAGELLAN hinterlegt sein.
+    Damit Sie für die Teilnehmer eines Kurses eine Kurssatzausleihe durchführen können, muss der Kurs bei den Schülern in Magellan hinterlegt sein.
 Die Aufnahme eines Kurses in die Auswahlliste für die Kurssatzausleihe erfordert Angaben mindestens in den Spalten `Fach`, `Unterrichtsart` und `Kurs` auf der Registerkarte `Schüler > Zeugnis > Fächer` des Basismoduls. Fehlt dort z.B. die Kursnummer in der Spalte `Kurs` kann für den zugehörigen Kurs keine Kurssatzausleihe vorgenommen werden
 
 ### Ausleihe eines Lehrersatzes durchführen

@@ -1,6 +1,6 @@
 # Lizenz erfassen
 
-Die MAGELLAN Lizenz erfassen Sie üblicherweise beim Erststart von MAGELLAN im Willkommens-Assistenten. Hier lesen Sie nach, wie Sie die Lizenz nachträglich anpassen können, wenn Sie z.B. weitere Module freischalten möchten.
+Die Magellan Lizenz erfassen Sie üblicherweise beim Erststart von Magellan im Willkommens-Assistenten. Hier lesen Sie nach, wie Sie die Lizenz nachträglich anpassen können, wenn Sie z.B. weitere Module freischalten möchten.
 
 Es stehen Ihnen zwei Möglichkeiten der Lizenzerfassung zur Verfügung:
 
@@ -16,7 +16,7 @@ Sie können per Pathsdatei auch alle Anwender auf eine Lizenzdatei zugreifen las
 
 Um Ihre Lizenzdaten von Hand einzugeben, gehen Sie bitte folgendermaßen vor
 
-1. Starten Sie MAGELLAN und führen Sie den Menüpunkt ```Hilfe > Lizenz``` aus.
+1. Starten Sie Magellan und führen Sie den Menüpunkt ```Hilfe > Lizenz``` aus.
 
 2. Betätigen Sie im erscheinenden Dialogfenster „Lizenz" die Schaltfläche ```Neue Lizenz```.
 
@@ -28,7 +28,7 @@ Im Dialogfenster „Lizenz" werden anschließend neue Module bei bei den aktiven
 
 ## Lizenzdaten importieren
 
-Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von MAGELLAN automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen „Magellan.lic“ standardmäßig in folgenden Windows-Verzeichnissen abgelegt:
+Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhalten Sie entweder von STÜBER SYSTEMS als Anhang per E-Mail zugeschickt oder sie wird von Magellan automatisch bei der Eingabe Ihrer Lizenzdaten erzeugt. Wenn z.B. an einem anderen Rechner Ihrer Schule bereits eine ausreichende Lizenzierung vorliegt, können Sie einfach die Lizenzdatei dieses Rechners importieren. Die erzeugte bzw. importierte Lizenzdatei wird unter dem Namen „Magellan.lic“ standardmäßig in folgenden Windows-Verzeichnissen abgelegt:
 
 Betriebssystem | Pfad
 -------------- | ----

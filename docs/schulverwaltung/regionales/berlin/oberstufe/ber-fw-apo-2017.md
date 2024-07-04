@@ -1,6 +1,6 @@
 # BER-FW-APO-2017.js
 
-## Verzeichnis Verordnung in MAGELLAN
+## Verzeichnis Verordnung in Magellan
 
 Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und füllen Sie diese mit den nachstehenden Werten. Beim Synchronisieren der Schüler in das Abitur-Menü weisen Sie den Schülern die Verordnung zu.
 
@@ -22,7 +22,7 @@ Bitte legen Sie unter ```Verzeichnisse > Verordnungen``` eine neue Zeile an und 
 
 ![Beispiele für die Fachwahlzeile für G8 oder G9: Tragen Sie im Feld `Typ `G8 ein oder lassen es frei](/assets/images/berlin/ber-apo-fw-2017.0.png)
 
-## Verordnung in DAVINCI hinterlegen
+## Verordnung in DaVinci hinterlegen
 
 In der Ansicht ``Stammdaten > Klassen`` weisen Sie die Klassen bzw. Jahrgänge mit Kurssystem (Modus „Kurse“) aus und geben das Fachwahlskript an, nach dem die Fachwahl überprüft werden soll. Hinzu kommen ggf. weitere Angaben sind insbesondere für Fachwahlüberprüfungen notwendig, die mehrere Halbjahre überprüfen, z.B. in Berlin.
 

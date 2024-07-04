@@ -1,6 +1,6 @@
-# MAGELLAN Berlin
+# Magellan Berlin
 
-Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen in MAGELLAN in Ergänzung zur allgemeinen [MAGELLAN-Dokumentation](https://doc.magellan.stueber.de/schulverwaltung/installation/).
+Diese Dokumentation beschreibt die für Berliner Schulen spezifischen Funktionen in Magellan in Ergänzung zur allgemeinen [Magellan-Dokumentation](https://doc.magellan.stueber.de/schulverwaltung/installation/).
 
 |Beschreibung|
 |--|
@@ -33,7 +33,7 @@ Die Anleitungen für Berliner Schnittstellen finden Sie im Dokument [Landesstati
 Die Anleitungen für Berliner Berechnungsskript finden Sie im Dokument [Landesanpassungen](https://doc.la.stueber.de/).
 
 
-| Verordnung | Abitur | Fachwahl <br/> MAGELLAN | Fachwahl <br/> DAVINCI | Schüler <br/> Leistungskarte | BBS |
+| Verordnung | Abitur | Fachwahl <br/> Magellan | Fachwahl <br/> DaVinci | Schüler <br/> Leistungskarte | BBS |
 |---|----|---|----|------------------------------------------|-----|
 | BER-IBA-AS-2020 | - | - | - | [BER-IBA-AS-2020](https://doc.la.stueber.de/03.ber/ber-iba-as-2020dws/) | - |
 | BER-IBA-HJ-2020 | - | - | - | [BER-IBA-HJ-2020.dws](https://doc.la.stueber.de/03.ber/ber-iba-hj-2020dws/)|-  |

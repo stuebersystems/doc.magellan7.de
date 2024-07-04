@@ -2,13 +2,13 @@
 
 Damit Medienexemplare in den Fluren einer Bibliothek schnell gefunden werden können, versieht man sie üblicherweise mit Etiketten, auf denen die Signatur gut lesbar aufgedruckt ist.
 
-In MAGELLAN-BIBLIOTHEK stehen Ihnen verschiedene Formatvorlagen für Signaturetiketten zur Verfügung, die neben der Signatur jeweils auch einen bei der Erstellung des Exemplars automatisch erzeugten Barcode tragen. Dieser Barcode sorgt dafür, dass die Exemplardaten bei der Ausleihe nicht umständlich eingetippt werden müssen, sondern durch das Einlesen mit einem Barcodescanner in Sekundenschnelle auf dem Bildschirm des Bibliotheksrechners angezeigt werden können.
+In Magellan-Bibliothek stehen Ihnen verschiedene Formatvorlagen für Signaturetiketten zur Verfügung, die neben der Signatur jeweils auch einen bei der Erstellung des Exemplars automatisch erzeugten Barcode tragen. Dieser Barcode sorgt dafür, dass die Exemplardaten bei der Ausleihe nicht umständlich eingetippt werden müssen, sondern durch das Einlesen mit einem Barcodescanner in Sekundenschnelle auf dem Bildschirm des Bibliotheksrechners angezeigt werden können.
 
-Die verfügbaren Formatvorlagen unterscheiden sich zum Einen in den Abmessungen und zum Anderen in den Zusatzinformationen, die über Signatur und Barcode hinaus aufgedruckt werden. Sie sind in Ihrem Programmordner MAGELLAN-BIBLIOTHEK als Berichtsdateien mit der Dateiendung `.rpt` gespeichert.
+Die verfügbaren Formatvorlagen unterscheiden sich zum Einen in den Abmessungen und zum Anderen in den Zusatzinformationen, die über Signatur und Barcode hinaus aufgedruckt werden. Sie sind in Ihrem Programmordner Magellan-Bibliothek als Berichtsdateien mit der Dateiendung `.rpt` gespeichert.
 
 !!! info "Hinweis"
 
-    Wenn Sie darüber hinaus weitere Formatvorlagen für Signaturetiketten benötigen, so können Sie diese mit dem von MAGELLAN unterstützen Berichtsprogramm `Crystal Reports` erstellen.
+    Wenn Sie darüber hinaus weitere Formatvorlagen für Signaturetiketten benötigen, so können Sie diese mit dem von Magellan unterstützen Berichtsprogramm `Crystal Reports` erstellen.
 
 ## Drucken
 

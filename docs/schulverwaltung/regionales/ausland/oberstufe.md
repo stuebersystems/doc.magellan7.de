@@ -81,7 +81,7 @@ Zu Beginn des Halbjahres erfassen Sie für die Schüler unter `Abitur > Fachwahl
 Gehen Sie bitte wie folgt vor:
 
 * Markieren Sie im Menü `Abitur` einen Ihrer synchronisierten Schüler und wechseln auf die Unterkarte `Fachwahl`. 
-* Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in MAGELLAN ausgewählte Halbjahr haben.
+* Starten Sie dort bitte die Aktion `Fachwahl übernehmen...`. Im Assistenten werden alle Schüler gezeigt, die eine Fachwahl für das in Magellan ausgewählte Halbjahr haben.
 
 ![Markieren Sie die gewünschten Schüler!](/assets/images/ausland/FW_uebernehmen01.png)
 
@@ -101,7 +101,7 @@ Wählen Sie die Option und führen den Assistenten aus. Als Ergebnis finden Sie 
 
 ## Menü `Abitur`
 
-MAGELLAN richtet sich nicht an eine bestimmte Region oder Schulart. Um MAGELLAN für Ihre Region und Ihre Schulform vorzubereiten, füllen Sie bitte Schlüsselverzeichnisse entsprechend der nachfolgenden Anleitung. 
+Magellan richtet sich nicht an eine bestimmte Region oder Schulart. Um Magellan für Ihre Region und Ihre Schulform vorzubereiten, füllen Sie bitte Schlüsselverzeichnisse entsprechend der nachfolgenden Anleitung. 
 
 ### Einstellungen allgemein
 
@@ -133,7 +133,7 @@ Als Ergebnis sehen Sie die synchronisierten Schüler in der Auswahlliste des Men
 
 !!! info "Hinweis"
 
-    Beginnen Sie erst mit MAGELLAN zu arbeiten, sind keine Leistungsdaten der Vorjahre zu synchronisieren. Die Ergebnisse können in dieser Situation auch direkt im Menü `Abitur > Unterkarte Qualifikation` eingegeben werden.
+    Beginnen Sie erst mit Magellan zu arbeiten, sind keine Leistungsdaten der Vorjahre zu synchronisieren. Die Ergebnisse können in dieser Situation auch direkt im Menü `Abitur > Unterkarte Qualifikation` eingegeben werden.
 
 ### Menü `Abitur > Qualifikation`
 
@@ -145,13 +145,13 @@ Wählen Sie auf der rechte Seite im Feld `Status` den Wert `Gesamtqualifikation 
 
 #### Initialisieren
 
-Klicken Sie auf die Schaltfläche `Initialisieren`, MAGELLAN markiert die Halbjahresergebnisse, die für die Berechnung in Betracht gezogen werden können.
+Klicken Sie auf die Schaltfläche `Initialisieren`, Magellan markiert die Halbjahresergebnisse, die für die Berechnung in Betracht gezogen werden können.
 
 [![Initialisieren][1]][1]
 
 #### Vorschlag
 
-Klicken Sie auf die Schaltfläche `Vorschlag`, MAGELLAN schlägt Ihnen eine Markierung vor und gibt Ihnen Meldungen aus. Diese Meldungen können zum Beispiel beinhalten, dass ein bestimmter Aufgabenbereich nicht abgedeckt ist oder nicht ausreichend Kurse davon eingebracht wurden.
+Klicken Sie auf die Schaltfläche `Vorschlag`, Magellan schlägt Ihnen eine Markierung vor und gibt Ihnen Meldungen aus. Diese Meldungen können zum Beispiel beinhalten, dass ein bestimmter Aufgabenbereich nicht abgedeckt ist oder nicht ausreichend Kurse davon eingebracht wurden.
 
 [![Vorschlag][2]][2]
 

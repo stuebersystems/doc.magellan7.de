@@ -11,7 +11,7 @@ Auf der Fachwahlkarte wird:
 
 !!! info "Hinweis"
 
-	Die Fachwahleingabe kann auch in DAVINCI KURSPLAN erfolgen. Dort ist die Fachwahleingabe etwas ausführlicher und komfortabler: Es können zusätzlich die Stundenzahlen der einzelnen Halbjahre eingegeben werden. Das zugrundeliegende Skript, d.h. das Regelwerk, ist in beiden Fällen das gleiche: MAGELLAN verwendet für die Fachwahlüberprüfung das DAVINCI Fachwahl-Skript. Alternativ kann aber auch die Fachwahl des aktuellen Jahres oder die Fachwahl über die gesamte Oberstufe nach DAVINCI übergeben werden.
+	Die Fachwahleingabe kann auch in DaVinci Kursplan erfolgen. Dort ist die Fachwahleingabe etwas ausführlicher und komfortabler: Es können zusätzlich die Stundenzahlen der einzelnen Halbjahre eingegeben werden. Das zugrundeliegende Skript, d.h. das Regelwerk, ist in beiden Fällen das gleiche: Magellan verwendet für die Fachwahlüberprüfung das DaVinci Fachwahl-Skript. Alternativ kann aber auch die Fachwahl des aktuellen Jahres oder die Fachwahl über die gesamte Oberstufe nach DaVinci übergeben werden.
 
 
 ## Abgleich der Karte Qualifikation und Karte Fachwahl
@@ -45,8 +45,8 @@ Eintrag|Hinweis
 **Unterrichtsart**|Weisen Sie jedem Fach die am ehesten zutreffende Unterrichtsart zu, zum Beispiel alle Fächer erhalten die Unterrichtsart GK.
 **Fachstatus**|Tragen Sie hier nur etwas ein, wenn es eine definitive Zuordung zwischen Fach und Fachstatus gibt.
 **Markieren**|Legen Sie hier das häufigste Belegungsmuster fest.
-**Position**|Zeugnisberichte benötigen Informationen um Fächer an der korrekten Stelle zeigen zu können. Bitte schauen Sie im Modul MAGELLAN Berichte nach, ob für die von Ihnen eingesetzen Zeugnisberichte Vorgaben für Position pro Fach existieren und tragen Sie diese hier bitte bereits ein. 
-**Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul MAGELLAN Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. Grundlage ist das Verzeichnis `Kurssprache` unter `Extras > Schlüsselverzeichnisse`.
+**Position**|Zeugnisberichte benötigen Informationen um Fächer an der korrekten Stelle zeigen zu können. Bitte schauen Sie im Modul Magellan Berichte nach, ob für die von Ihnen eingesetzen Zeugnisberichte Vorgaben für Position pro Fach existieren und tragen Sie diese hier bitte bereits ein. 
+**Q1Sprache-Q4Sprache**|Einige Zeugnisberichte geben Hinweise zu bilingualem Unterricht aus, bitte schauen vorab im Modul Magellan Berichte nach, ob das für Ihre Zeugnisse zutrifft und geben ggfs. die Information bereits hier ein. Grundlage ist das Verzeichnis `Kurssprache` unter `Extras > Schlüsselverzeichnisse`.
 
 ![vorbereitete Fachwahltafel](/assets/images/gym_oberstufe/fw.00.png)
 
@@ -147,12 +147,12 @@ Die unter Ansicht `Abitur > Fachwahl` erstellten Fachwahlen der Schüler können
 
 Bei der Übernahme der Fachwahl eines Schülers werden nur die Fächer übernommen, die
 
-* in einem der sechs Halbjahre auf der rechten Seite den aktuellen Zeitraum von MAGELLAN zugewiesen haben und
+* in einem der sechs Halbjahre auf der rechten Seite den aktuellen Zeitraum von Magellan zugewiesen haben und
 * die in diesem Halbjahr das Kontrollkästchen markiert haben.
 
 Beispiel:
 
-In MAGELLAN ist der aktuelle Zeitraum das „1. Halbjahr 2011/2012“. Der Schüler hat die nachfolgende Fachwahl:
+In Magellan ist der aktuelle Zeitraum das „1. Halbjahr 2011/2012“. Der Schüler hat die nachfolgende Fachwahl:
 
  ![Beispiel für die Fachwahl eines Schülers](/assets/images/gym_oberstufe/gym_oberstufe13.png)
 
@@ -184,7 +184,7 @@ Die übernommen Fächer finden Sie nun auf der Registerkarte Ansicht `Schüler >
 
 ### Nutzung der Fachwahlen in Stundenplanprogrammen
 
-Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können diese Daten im Stundenplanprogramm DAVINCI oder anderen Stundenplanprogrammen zur weiteren Stundenplanung verwendet werden. Nähere Informationen zum Datenabgleich finden Sie im Kapitel [„Stundenplandaten“](https://doc.magellan.stueber.de/schulverwaltung/howto/stundenplaene/).
+Nachdem die Fachwahlen den Fächern der Schüler zugewiesen worden sind, können diese Daten im Stundenplanprogramm DaVinci oder anderen Stundenplanprogrammen zur weiteren Stundenplanung verwendet werden. Nähere Informationen zum Datenabgleich finden Sie im Kapitel [„Stundenplandaten“](https://doc.magellan.stueber.de/schulverwaltung/howto/stundenplaene/).
 
 ## Wie geht es weiter?
 

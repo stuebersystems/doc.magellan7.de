@@ -105,7 +105,7 @@ Sollten Sie in der Qualifikationsphase Q1 bis Q4 auch bilingualen Unterricht hab
 
 ## Der Simulationsmodus
 
-Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in MAGELLAN verwenden. Klicken Sie auf den Reiter `Abitur` und wählen Sie die Schaltfläche `Simulation`. Darüber öffnen Sie das Simulationsfenster. Es umfasst die Registerkarten `Qualifikation` und `Prüfung` aus dem Menü `Abitur`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
+Wenn Sie z.B. für einen Schüler die eingebrachten Kurse verändern möchten, um eine neue Einbringungsvariante durchzuspielen, können Sie dazu den Simulationsmodus in Magellan verwenden. Klicken Sie auf den Reiter `Abitur` und wählen Sie die Schaltfläche `Simulation`. Darüber öffnen Sie das Simulationsfenster. Es umfasst die Registerkarten `Qualifikation` und `Prüfung` aus dem Menü `Abitur`. Wenn Sie die Simulation beenden möchten, klicken Sie auf die Schaltfläche `Simulation beenden`. Sie werden dabei in einem Dialogfenster gefragt, ob Sie die Änderungen dauerhaft übernehmen möchten.
 
 [![Das Dialogfenster mit dem Simulationsmodus][5]][5]
 
@@ -175,18 +175,18 @@ Geben Sie unter `Abitur > Zeugnisbemerkungen` evtl. Zeugnisbemerkungen ein, die 
 
 ## Informationen über Zeugnisse
 
-Wir beschreiben die notwendigen Eingaben für unsere Zeugnisse und Berichte im Abschnitt [Berichte](https://doc.la.stueber.de/berichte/01_uebersicht/) der MAGELLAN Landesanpassungen.
+Wir beschreiben die notwendigen Eingaben für unsere Zeugnisse und Berichte im Abschnitt [Berichte](https://doc.la.stueber.de/berichte/01_uebersicht/) der Magellan Landesanpassungen.
 
 ## Oberstufenzeugnisse
 
 Bei der Ausgabe der Zeugnisse in der Oberstufe muss man zwischen zwei Arten von Zeugnissen unterscheiden:
 
-* **Zeugnisse des aktuellen Zeitraums:** Hierbei handelt es sich um Halbjahres- oder Jahreszeugnisse wie z.B. das Zeugnis der Qualifikationsphase Q1 oder der Qualifikationsphase 2. Sie beziehen sich immer auf den aktuell eingestellten Zeitraum in MAGELLAN. 
-* **Zeugnisse über mehrere Zeiträume:** Diese Zeugnisse beziehen sich auf Daten aus mehreren Zeiträumen. Im Fall der Oberstufe werden diese Daten im Bereich „Abitur“ in MAGELLAN eingetragen. Beispiele für zeitraumübergreifende Zeugnisse sind das Fachhochschul- oder das Abiturzeugnis.
+* **Zeugnisse des aktuellen Zeitraums:** Hierbei handelt es sich um Halbjahres- oder Jahreszeugnisse wie z.B. das Zeugnis der Qualifikationsphase Q1 oder der Qualifikationsphase 2. Sie beziehen sich immer auf den aktuell eingestellten Zeitraum in Magellan. 
+* **Zeugnisse über mehrere Zeiträume:** Diese Zeugnisse beziehen sich auf Daten aus mehreren Zeiträumen. Im Fall der Oberstufe werden diese Daten im Bereich „Abitur“ in Magellan eingetragen. Beispiele für zeitraumübergreifende Zeugnisse sind das Fachhochschul- oder das Abiturzeugnis.
 
 ### Zeugnisse des aktuellen Zeitraums
 
-Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in MAGELLAN.
+Die Ausgabe der Zeugnisse des aktuellen Zeitraums erfolgt analog zum Drucken von Standardzeugnissen in Magellan.
 
 ### Zeugnisse über mehrere Zeiträume
 

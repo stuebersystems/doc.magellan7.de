@@ -2,9 +2,9 @@
 
 !!! danger "Achtung"
 
-    Die Oberfläche von MAGELLAN wurde bundeslandübergreifend vereinheitlicht. Felder, die es bislang nur in Berlin gab, wurden in den Standardmasken mit untergebracht.
+    Die Oberfläche von Magellan wurde bundeslandübergreifend vereinheitlicht. Felder, die es bislang nur in Berlin gab, wurden in den Standardmasken mit untergebracht.
 
-Nachstehend finden Sie eine Übersicht: Welche Felder Sie aus welcher Maske in der aktuellen MAGELLAN-Oberfläche an welcher Stelle finden.
+Nachstehend finden Sie eine Übersicht: Welche Felder Sie aus welcher Maske in der aktuellen Magellan-Oberfläche an welcher Stelle finden.
 
 !!! info "Hinweis"
 

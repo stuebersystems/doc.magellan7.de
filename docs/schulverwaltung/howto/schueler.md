@@ -8,7 +8,7 @@ Die Aufnahme von neuen Schülern an der Schule erfolgt in zwei Schritten:
 
 2. Einschulen des Schülers in eine Klasse.
 
-Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in MAGELLAN erfolgen:
+Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in Magellan erfolgen:
 
 | Art| Vorgehen|
 | -- | -- |
@@ -17,7 +17,7 @@ Das Erfassen der Stammdaten des Schülers kann über zwei Vorgehensweisen in MAG
 
 ## Neuen Schüler aufnehmen
 
-Sollten Sie den Schüler nicht über das Bewerberverfahren neu erzeugt haben, können Sie auch direkt einen Schüler in MAGELLAN aufnehmen. Um einen neuen Schüler aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf Schüler oder wählen Sie `Ansicht > Schüler`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neuer Schüler`.
+Sollten Sie den Schüler nicht über das Bewerberverfahren neu erzeugt haben, können Sie auch direkt einen Schüler in Magellan aufnehmen. Um einen neuen Schüler aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf Schüler oder wählen Sie `Ansicht > Schüler`. Wählen Sie dann das Plus in der oberen Symbolleiste oder die Tastenkombination `STRG+N`. Es öffnet sich das Dialogfenster `Neuer Schüler`.
 
 ![Geben Sie Vor- und Nachname ein und bestätigen Sie mit OK](/assets/images/schueler/schueler_27neuer.schueler.png)
 
@@ -124,7 +124,7 @@ Dem jeweiligen Feld `Abschluss`  (also ABS oder BBS) sind die Daten des Schlüss
 
 ## Registerkarte `Daten 3`
 
-Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewiesen werden. Jedem Schüler kann individuell der Auskunftsstatus `Geheim` zuwiesen werden. Dieser Status wird dann mit einem roten Symbol in jeder Registerkarte oben gekennzeichnet. Jeder MAGELLAN-Benutzer erkennt so auf Anhieb, dass sie über den entsprechenden Schüler keine Auskünfte herausgeben darf. Zusätzlich wird die Schüler- oder Kontaktzeile rot in der Auswahlliste dargestellt.
+Im Unterschied zum Bewerber können beim Schüler bis zu acht Funktionen zugewiesen werden. Jedem Schüler kann individuell der Auskunftsstatus `Geheim` zuwiesen werden. Dieser Status wird dann mit einem roten Symbol in jeder Registerkarte oben gekennzeichnet. Jeder Magellan-Benutzer erkennt so auf Anhieb, dass sie über den entsprechenden Schüler keine Auskünfte herausgeben darf. Zusätzlich wird die Schüler- oder Kontaktzeile rot in der Auswahlliste dargestellt.
 
 ![Unterkarte Daten3](/assets/images/schueler/daten3.png)
 
@@ -187,7 +187,7 @@ Einige der nachfolgenden Karten sind nicht generell eingeblendet, zum Beispiel d
 
 !!! info "Hinweis"
 
-    Es gibt noch weitere Sammelzuweisungen in MAGELLAN, diese sind dann direkt auf den Karten für die sie gelten aufrufbar. Beispielsweise auf den Registerkarten `Laufbahn` oder `Zeugnis`.
+    Es gibt noch weitere Sammelzuweisungen in Magellan, diese sind dann direkt auf den Karten für die sie gelten aufrufbar. Beispielsweise auf den Registerkarten `Laufbahn` oder `Zeugnis`.
 
 1. Um den Assistenten für die Sammelzuweisung der Stammdaten zu starten, müssen Sie auf `Schüler > Sammelzuweisungen…` klicken.
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. 
@@ -234,7 +234,7 @@ Die Registerkarten `Laufbahn` und `Zeugnis` enthalten zeitraumbezogene Daten. Di
 
 ## Schüler einschulen
 
-Nachdem Sie die Daten der neuen Schüler erfasst haben, müssen Sie diese einer Klasse zuweisen, das heißt, sie müssen unter MAGELLAN `eingeschult` werden. Mit der Zuordnung zu einer Klasse beginnt für den Schüler in MAGELLAN die zeitraumbezogene Dokumentation seines Werdegangs. Bitte beachten Sie, dass vor dem Einschulen die entsprechenden Klassen eingerichtet sein müssen (siehe `Klassen eingeben`).
+Nachdem Sie die Daten der neuen Schüler erfasst haben, müssen Sie diese einer Klasse zuweisen, das heißt, sie müssen unter Magellan `eingeschult` werden. Mit der Zuordnung zu einer Klasse beginnt für den Schüler in Magellan die zeitraumbezogene Dokumentation seines Werdegangs. Bitte beachten Sie, dass vor dem Einschulen die entsprechenden Klassen eingerichtet sein müssen (siehe `Klassen eingeben`).
 
 |So geht's|
 |:--|
@@ -264,7 +264,7 @@ Hier sehen Sie die Fehlzeiten eines Schülers, es wird als Standardfilter immer 
 
 ## Unfallanzeigen
 
-Um eine Unfallanzeige in MAGELLAN zu erfassen, gehen Sie bitte wie folgt vor:
+Um eine Unfallanzeige in Magellan zu erfassen, gehen Sie bitte wie folgt vor:
 Legen Sie bitte die möglichen Empfänger der Unfallanzeige im Menü Adressen an. Unter `Adressen > Daten` können Sie eine oder mehrere Adressen als Unfallanzeigen markieren und auch die Trägernummern eintragen.
 
 ![Setzen Sie das Häkchen und tragen die Trägernummer ein](/assets/images/schueler/schueler_37unfallanzeige.png)

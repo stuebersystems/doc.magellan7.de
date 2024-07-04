@@ -1,6 +1,6 @@
 # Tastaturkürzel
 
-Die folgende Tabelle listet Tastaturkürzel (Shortcuts) für MAGELLAN auf.
+Die folgende Tabelle listet Tastaturkürzel (Shortcuts) für Magellan auf.
 
 Verwendet in Ansicht | Aktion  | Befehl
 -------------------- | ------- | ----- 

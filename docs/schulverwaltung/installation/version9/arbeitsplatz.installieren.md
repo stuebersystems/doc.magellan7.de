@@ -1,7 +1,7 @@
 ﻿
 # Arbeitsplatzinstallation
 
-Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur MAGELLAN und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
+Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des Serverrechners, da hier nur Magellan und die Runtimeversion von Crystal Reports als Programme installiert werden, die gemeinschaftlich verwendeten Bestandteile wie die Datenbank oder Berichte, Skripte usw. sind bereits auf dem Server vorhanden, es wird in einem späteren Schritt dann darauf verwiesen.
 
 ## Vorbereitung
 
@@ -10,7 +10,7 @@ Die Einrichtung eines Arbeitsplatzes unterscheidet sich von der Einrichtung des 
 Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 * die Runtimeversion von Crystal Reports 32- oder 64-Bit
-* für MAGELLAN 32- oder 64-Bit
+* für Magellan 32- oder 64-Bit
 
 **Nutzen Sie ein 32-Bit oder 64-Bit-Betriebssystem?**
 
@@ -19,7 +19,7 @@ Für den Serverrechner benötigen Sie die Installationsdateien für:
 
 !!! danger "Wichtig!"
 
-    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für MAGELLAN und für die Runtimeversion von Crystal Reports.**
+    Alle Installationspakete finden Sie [in unserem Downloadbereich](https://magellan.stueber.de/download.php).<br/>**Für Windows 32-Bit und 64-Bit gibt es gesonderte Installationsdateien für Magellan und für die Runtimeversion von Crystal Reports.**
 
 ### Lizenzdaten
 
@@ -28,7 +28,7 @@ Die Datei wurde Ihnen als Test- oder Volllizenz von unserem Office-Team per Mail
 
 ## Installation der Crystal Reports Runtimeversion
 
-Diese Installation muss stets parallel zur MAGELLAN Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in MAGELLAN.
+Diese Installation muss stets parallel zur Magellan Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in Magellan.
 
 Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
 
@@ -50,11 +50,11 @@ Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
 ![Fertigstellen](/assets/images/installation/9/008.png)
 
-## Installation von MAGELLAN
+## Installation von Magellan
 
 Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan9.msi`.
 
-Der Setup Assistent von MAGELLAN 9 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von Magellan 9 wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/9/009.png)
 
@@ -78,12 +78,12 @@ Die Installation ist abgeschlossen, bitte klicken Sie auf `Fertigstellen`!
 
 ## Der Willkommensassistent
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 9 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie Magellan 9 starten. Es erscheint zunächst der Willkommen-Assistent.
 
 ![Willkommen](/assets/images/installation/9/welcome.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN 9 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["Magellan 9 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/9/welcome-license-type.png)
 
@@ -102,7 +102,7 @@ Wählen Sie „Entfernte Datenbank“.
 ![Wahl der Datenbank](/assets/images/installation/9/welcome-database.png)
 
 Sie werden zur Eingabe des Servernamens und des Datenbank-Pfads aufgefordert.
-Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** ein, auf dem sich die MAGELLAN 9 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad (aus Sicht des Servers) zur MAGELLAN 9 Datenbank an.
+Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** ein, auf dem sich die Magellan 9 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad (aus Sicht des Servers) zur Magellan 9 Datenbank an.
 
 !!! info "Hinweis"
 
@@ -110,7 +110,7 @@ Geben Sie unter `Server` den **Servernamen bzw. die IP-Adresse Ihres Servers** e
 
 ![Daten für entfernte Datenbank](/assets/images/installation/9/welcome-remote-database.png)
 
-Der standardmäßige Pfad zur MAGELLAN 9 Datenbank lautet:
+Der standardmäßige Pfad zur Magellan 9 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
@@ -118,7 +118,7 @@ Der standardmäßige Pfad zur MAGELLAN 9 Datenbank lautet:
 
 !!! warning "Wichtig"
 
-	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan9.fdb) und eine Beispieldatenbank (Magellan9_Beispiel.fdb). Wenn Sie MAGELLAN gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die Magellan9.fdb. Eine Anleitung zur Datenübernahme von MAGELLAN 7 nach MAGELLAN 9 finden Sie im Abschnitt ["Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/).
+	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan9.fdb) und eine Beispieldatenbank (Magellan9_Beispiel.fdb). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die Magellan9.fdb. Eine Anleitung zur Datenübernahme von Magellan 7 nach Magellan 9 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/).
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 
@@ -127,19 +127,19 @@ Um sich Tipparbeit zu sparen, können Sie in der oberen Zeile den Wurzelpfad ein
 
 ![Daten für entfernte Datenordner](/assets/images/installation/9/welcome-remote-datafolder.png)
 
-Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
+Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul Magellan Administrator auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
 !!! info "Hinweis"
 
-	Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul MAGELLAN ADMINISTRATOR auslösen.
+	Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul Magellan Administrator auslösen.
 
 ![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/9/welcome-remote-backup.png)
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/9/welcome-erste-schritte.png)
+![Erste Schritte in Magellan](/assets/images/installation/9/welcome-erste-schritte.png)
 
-Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein.
+Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von Magellan. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein.
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/9/anmeldung.png)
 
@@ -153,8 +153,8 @@ Bevor Sie diese Dateien für einen weiteren Rechner kopieren und weiterverwenden
 
 	Die zu kopierenden Dateien unterscheiden sich hinsichtlich der Pfadangaben zwischen einer Server-/Einzelplatzinstallation und einem Arbeitsplatzrechner. Sie können also nur die Dateien des Arbeitsplatzrechners für einen weiteren Arbeitsplatzrechner verwenden.
 
-Melden Sie sich bitte an MAGELLAN an, wenn Sie MAGELLAN erstmalig einsetzen sollten der Benutzer "sysdba" und das Standardpasswort "masterkey" funktionieren.
-Öffnet sich MAGELLAN? Dann stimmt der Pfad zur Datenbank.
+Melden Sie sich bitte an Magellan an, wenn Sie Magellan erstmalig einsetzen sollten der Benutzer "sysdba" und das Standardpasswort "masterkey" funktionieren.
+Öffnet sich Magellan? Dann stimmt der Pfad zur Datenbank.
 Um zu schauen, ob auch die Pfade zu den Datenordner korrekt waren, testen Sie bitte am Beispiel des Berichte-Ordners.
 Wechseln Sie bitte ins Menü `Schüler`, wählen eine Schüler, klicken auf `Drucken > Berichte`. Wird eine Liste von Dateien mit der Endung *.rpt gezeigt? Dann können wir davon ausgehen, dass auch die Pfade zu den Verzeichnissen stimmen.  
 
@@ -163,5 +163,5 @@ Sie sollten im korrekten Verzeichnis landen:
 
 ![`C:\ProgramData\Stueber Systems\Magellan 9`](/assets/images/installation/9/programdata.png)
 
-Kopieren Sie bitte die Dateien (MAGELLAN.evm, MAGELLAN.lic, MAGELLAN.opt) auf ein Netzwerkverzeichnis, einen Stick o.ä. und wechseln auf den einzurichtenden Rechner.
-Installieren Sie auf dem anderen Rechner bitte MAGELLAN als Arbeitsplatzinstallation und fügen anschließend an der identischen Stelle (die Verzeichnisstruktur wird durch die Installation angelegt) die drei Dateien wieder ein, fertig!
+Kopieren Sie bitte die Dateien (Magellan.evm, Magellan.lic, Magellan.opt) auf ein Netzwerkverzeichnis, einen Stick o.ä. und wechseln auf den einzurichtenden Rechner.
+Installieren Sie auf dem anderen Rechner bitte Magellan als Arbeitsplatzinstallation und fügen anschließend an der identischen Stelle (die Verzeichnisstruktur wird durch die Installation angelegt) die drei Dateien wieder ein, fertig!

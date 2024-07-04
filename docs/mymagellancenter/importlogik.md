@@ -1,18 +1,18 @@
 
 # Importlogik
 
-Nachstehend wird beschrieben was genau beim Import passiert, falls Daten in MAGELLAN und/oder in in MyMAGELLAN vorhanden sind.
+Nachstehend wird beschrieben was genau beim Import passiert, falls Daten in Magellan und/oder in in MyMagellan vorhanden sind.
 
 !!! warning "Wichtig"
 
-	Bitte ändern Sie in MAGELLAN keine Verzeichniswerte oder Daten auf der Unterkarte `Schüler > Zeugnis` solange MyMAGELLAN-Dateien für die Kollegen verteilt wurden.
+	Bitte ändern Sie in Magellan keine Verzeichniswerte oder Daten auf der Unterkarte `Schüler > Zeugnis` solange MyMagellan-Dateien für die Kollegen verteilt wurden.
 
 
 !!! warning "Wichtig"
 
 	Zeugnisbemerkungen werden nur von Klassenleitern und Tutoren nach Magellan übernommen.
 
-In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie können beim Erzeugen der Dateien jedes der Felder gezielt ausblenden, für ausgeblendete Daten wird kein Wert in die MyMAGELLAN-Datei gespielt und auch nichts wieder importiert.
+In der nachstehenden Tabelle zeigen wir welche Felder nicht editierbar sind. Sie können beim Erzeugen der Dateien jedes der Felder gezielt ausblenden, für ausgeblendete Daten wird kein Wert in die MyMagellan-Datei gespielt und auch nichts wieder importiert.
 
 Feld | wahlweise<br/> editierbar | wahlweise<br/>ausblendbar | Importverhalten
 -- | -- | -- |--
@@ -79,70 +79,70 @@ Leistungsanforderung | JA |JA | siehe Abschnitt [Zeugnisdaten](https://doc.magel
 
 ## Informationsfelder
 
-Die Inhalte dieser Felder werden nur zur Information und für eine einfachere Sortierung nach MyMAGELLAN übertragen, es ist keine Änderung dieser Inhalte über MyMAGELLAN möglich.
+Die Inhalte dieser Felder werden nur zur Information und für eine einfachere Sortierung nach MyMagellan übertragen, es ist keine Änderung dieser Inhalte über MyMagellan möglich.
 
 ## Noten
 
-Stand in MAGELLAN/MyMAGELLAN |Was passiert beim Import?
+Stand in Magellan/MyMagellan |Was passiert beim Import?
 ---|---
-Note ist in MAGELLAN /keine Note in MyMAGELLAN| Note in MAGELLAN bleibt bestehen
-Note ist nicht in MAGELLAN, Note ist in MyMAGELLAN| Note aus der MyMAGELLAN-Datei wird eingelesen
-Noten sind in beiden Programmen|Note aus MyMAGELLAN wird eingelesen
+Note ist in Magellan /keine Note in MyMagellan| Note in Magellan bleibt bestehen
+Note ist nicht in Magellan, Note ist in MyMagellan| Note aus der MyMagellan-Datei wird eingelesen
+Noten sind in beiden Programmen|Note aus MyMagellan wird eingelesen
 
 !!! info "Hinweis"
 
-	Das bedeutet, wenn in MAGELLAN eine Note besteht, die Sie in der MyMAGELLAN-Datei entfernen, dann bleibt die Note weiterhin nach dem Einlesen in MAGELLAN bestehen.
+	Das bedeutet, wenn in Magellan eine Note besteht, die Sie in der MyMagellan-Datei entfernen, dann bleibt die Note weiterhin nach dem Einlesen in Magellan bestehen.
 
 ## weitere Listenfelder
 
-Stand in MAGELLAN/MyMAGELLAN |Was passiert beim Import?
+Stand in Magellan/MyMagellan |Was passiert beim Import?
 ---|---
-Wert ist in MAGELLAN /kein Wert in MyMAGELLAN | Wert in MAGELLAN bleibt bestehen
-Wert ist nicht in MAGELLAN, Wert ist in MyMAGELLAN | Wert aus der MyMAGELLAN-Datei wird eingelesen
-Wert ist in beiden Programmen | Wert aus MyMAGELLAN wird eingelesen
+Wert ist in Magellan /kein Wert in MyMagellan | Wert in Magellan bleibt bestehen
+Wert ist nicht in Magellan, Wert ist in MyMagellan | Wert aus der MyMagellan-Datei wird eingelesen
+Wert ist in beiden Programmen | Wert aus MyMagellan wird eingelesen
 
 !!! info "Hinweis"
 
-	Das bedeutet, wenn in MAGELLAN ein Wert besteht, die Sie in der MyMAGELLAN-Datei entfernen, dann bleibt der Wert weiterhin nach dem Einlesen in MAGELLAN bestehen.
+	Das bedeutet, wenn in Magellan ein Wert besteht, die Sie in der MyMagellan-Datei entfernen, dann bleibt der Wert weiterhin nach dem Einlesen in Magellan bestehen.
 
 ## Beurteilungen
 
 Gemeint sind die Beurteilungen unter `Schüler > Zeugnis > Leistungen` im Feld `Beurteilungen`. Hier können zusätzlich zur Benotung (per Punkt- oder Notenwert) schriftliche Beurteilungen pro Fach erfolgen.
 
-Stand in MAGELLAN/MyMAGELLAN |Ergebnis
+Stand in Magellan/MyMagellan |Ergebnis
 ---|---
-Beurteilung ist in MAGELLAN /keine Beurteilung in MyMAGELLAN| Beurteilung in MAGELLAN bleibt bestehen
-Beurteilung ist nicht in MAGELLAN, Beurteilung ist in MyMAGELLAN| Beurteilung aus der MyMAGELLAN-Datei wird eingelesen
-Beurteilung sind in beiden Programmen|Beurteilung aus MyMAGELLAN wird eingelesen
+Beurteilung ist in Magellan /keine Beurteilung in MyMagellan| Beurteilung in Magellan bleibt bestehen
+Beurteilung ist nicht in Magellan, Beurteilung ist in MyMagellan| Beurteilung aus der MyMagellan-Datei wird eingelesen
+Beurteilung sind in beiden Programmen|Beurteilung aus MyMagellan wird eingelesen
 
 !!! info "Hinweis"
 
 	Beispiel: Sie verteilen die Daten für Fachlehrer und Klassenleiter gleichzeitig, es ist beispielsweise die Fachzeile für Mathematik eines Schülers in der Fachlehrerdatei und in der Klassenleiterdatei. **Die Eintragungen beider Rollen werden beim Import gleichwertig behandelt.** 
-	Trägt nur einer der beiden in seine Datei eine Leistungsbeurteilung für Mathe ein, wird dessen Eintragung nach MAGELLAN importiert. 
-	Tragen beide Kollegen (also der Fachlehrer und der Klassenlehrer tragen etwas für die Mathezeile ein) ein oder wurde bereits eine Eintragung in die MyMAGELLAN-Dateien exportiert, werden die Eingaben nacheinander importiert, die zuletzt importierte Information bleibt in MAGELLAN bestehen.   
+	Trägt nur einer der beiden in seine Datei eine Leistungsbeurteilung für Mathe ein, wird dessen Eintragung nach Magellan importiert. 
+	Tragen beide Kollegen (also der Fachlehrer und der Klassenlehrer tragen etwas für die Mathezeile ein) ein oder wurde bereits eine Eintragung in die MyMagellan-Dateien exportiert, werden die Eingaben nacheinander importiert, die zuletzt importierte Information bleibt in Magellan bestehen.   
 
 ## Zeugnisbemerkungen
 
 !!! warning "Wichtig"
 
-	Zeugnisbemerkungen können nur für Schüler editiert und importiert werden, für die der Kollege entweder als Klassenleiter in MAGELLAN hinterlegt wurde, oder als Tutor. 
+	Zeugnisbemerkungen können nur für Schüler editiert und importiert werden, für die der Kollege entweder als Klassenleiter in Magellan hinterlegt wurde, oder als Tutor. 
 
-Stand in MAGELLAN/MyMAGELLAN |Ergebnis
+Stand in Magellan/MyMagellan |Ergebnis
 -|-
-Bemerkung in MAGELLAN existiert, MyMAGELLAN-Datei wird erzeugt|Bemerkung wird mit in die MyMAGELLAN-Datei übergeben
-Bemerkung wird in MyMAGELLAN aktualisiert<br/>Bemerkung wird in MAGELLAN neu angelegt|Bemerkungen werden beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen aus MyMAGELLAN ersetzt
-Neue Bemerkung wird in MAGELLAN erfasst,<br/>während die MyMAGELLAN-Dateien ausgeteilt sind|Bemerkungen wird beim Import in MAGELLAN gelöscht und durch aktualisierte oder neue Bemerkungen ersetzt. Sind keine neuen Bemerkungen in MyMAGELLAN erfasst worden, können als Ergebnis auch KEINE Bemerkungen übrig bleiben.
+Bemerkung in Magellan existiert, MyMagellan-Datei wird erzeugt|Bemerkung wird mit in die MyMagellan-Datei übergeben
+Bemerkung wird in MyMagellan aktualisiert<br/>Bemerkung wird in Magellan neu angelegt|Bemerkungen werden beim Import in Magellan gelöscht und durch aktualisierte oder neue Bemerkungen aus MyMagellan ersetzt
+Neue Bemerkung wird in Magellan erfasst,<br/>während die MyMagellan-Dateien ausgeteilt sind|Bemerkungen wird beim Import in Magellan gelöscht und durch aktualisierte oder neue Bemerkungen ersetzt. Sind keine neuen Bemerkungen in MyMagellan erfasst worden, können als Ergebnis auch KEINE Bemerkungen übrig bleiben.
 
 !!! warning "Wichtig"
 
-	Beim Erstellen der MyMAGELLAN-Dateien werden bereits in MAGELLAN existierende Zeugnisbemerkungen in die Lehrer-/Tutorendateien mit ausgegeben. 
+	Beim Erstellen der MyMagellan-Dateien werden bereits in Magellan existierende Zeugnisbemerkungen in die Lehrer-/Tutorendateien mit ausgegeben. 
 	Um beim Import keine Dopplungen von Bemerkungen zu erzielen, werden beim Einlesen der Klassenleiterdatei und der Tutorendatei jeweils zuvor die Schülerzeugnisbemerkungen gelöscht. 
 	Sollten einem Schüler ein Klassenleiter und ein Tutor zugeordnet worden sein, können damit je nach Einlesereihenfolge Zeugnisbemerkungen überschrieben werden.
 
 Beispiel:
 
-Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMAGELLAN-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen.
-Eventuell in MAGELLAN bereits existente Zeugnisbemerkungen werden für S1 ausgespielt.
+Schüler S1 wurden Lehrer L1 und Tutor T1 zugeordnet. Beim Erstellen der MyMagellan-Dateien haken Sie versehentlich beide Rollen an, also Klassenleiter- und >Tutorendatei erstellen.
+Eventuell in Magellan bereits existente Zeugnisbemerkungen werden für S1 ausgespielt.
 L1 vergibt eine neue Zeugnisbemerkung, T1 vergibt keine neue Zeugnisbemerkung. Die Dateien von L1 und T1 werden wieder importiert.
 
 Import der Datei von L1: Zeugnisbemerkungen werden für S1 gelöscht, neue und alte Zeugnisbemerkung werden aus der Datei von L1 importiert.
@@ -159,43 +159,43 @@ Folgende Felder sind gemeint:
 
 |Felder|Anmerkung|
 |--|--|
-|**Fehltage**|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben" gewählt, wird beim Einsammeln ein Unterschied zwischen `kein Eintrag` (leer) und einer 0 gemacht. <br/>Die 0 wird berücksichtigt, überschreibt also gegebenenfalls einen vorher importierten Eintrag, ist das Feld leer, wird nichts beim Einlesen geändert.|
+|**Fehltage**|Je nach Auswahl beim Erstellen der Datei: kein Aktualisieren, Addieren oder Ersetzen. <br/>Wird die Option "Fehlstunden/-tage in Magellan beim Einsammeln überschreiben" gewählt, wird beim Einsammeln ein Unterschied zwischen `kein Eintrag` (leer) und einer 0 gemacht. <br/>Die 0 wird berücksichtigt, überschreibt also gegebenenfalls einen vorher importierten Eintrag, ist das Feld leer, wird nichts beim Einlesen geändert.|
 |**davon unentschuldigt**|analog der Beschreibung für `Fehltage`|
 |**Fehlstunden**|analog der Beschreibung für `Fehltage`|
 |**davon unentschuldigt**|analog der Beschreibung für `Fehltage`|
 |**Fehltage Praktikum**|analog der Beschreibung für `Fehltage`|
 |**davon unentschuldigt**|analog der Beschreibung für `Fehltage`|
-|**Unterrichtstage**|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.
-|**Versäumnisse**|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMAGELLAN wird nicht nach MAGELLAN übergeben, überschreibt also keinen MAGELLAN-Wert.|
+|**Unterrichtstage**|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMagellan wird nicht nach Magellan übergeben, überschreibt also keinen Magellan-Wert.
+|**Versäumnisse**|Kein Addieren, der Wert wird übertragen. <br/>Kein Eintrag aus MyMagellan wird nicht nach Magellan übergeben, überschreibt also keinen Magellan-Wert.|
 
-![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMAGELLAN-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
+![Bei Fehlzeiten richtet es sich danach, welche Option Sie beim Erzeugen der MyMagellan-Datei gewählt haben.](/assets/images/mymagellan/mym_13.fehlzeitoptionen.png)
 
-Die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.
+Die Option "Fehlstunden/-tage in Magellan beim Einsammeln addieren" ist ungeeignet fürs erneute Einlesen, da die Werte dann wieder aufsummiert werden, also die doppelte Anzahl von Fehlzeiten das Ergebnis wäre.
 
-Gut geeignet ist die Option "Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben".
+Gut geeignet ist die Option "Fehlstunden/-tage in Magellan beim Einsammeln überschreiben".
 
 Option|Ergebnis
 -|-
-Fehlstunden/-tage in MAGELLAN beim Einsammeln überschreiben|Der Eintrag aus der MyMAGELLAN, auch eine gezielt eingetragene 0, überschreibt den Eintrag in MAGELLAN. <br/> **Ausnahme: Es erfolgt kein Eintrag in MyMAGELLAN, also das Feld bleibt leer, in diesem Fall bleiben der MAGELLAN-Eintrag und ggfs. vorab eingelesene Daten erhalten.**
-Fehlstunden/-tage in MAGELLAN beim Einsammeln addieren|Fehlstunden/-tage aus allen MyMAGELLAN-Dateien werden aufaddiert. <br/>**Bitte beachten Sie, dass das erneute Einlesen einer Datei bei dieser Option auch erneut die Werte addiert.**
-Fehlstunden/-tage in MAGELLAN beim Einsammeln nicht aktualisieren|Es erfolgt keine Änderung in MAGELLAN.
+Fehlstunden/-tage in Magellan beim Einsammeln überschreiben|Der Eintrag aus der MyMagellan, auch eine gezielt eingetragene 0, überschreibt den Eintrag in Magellan. <br/> **Ausnahme: Es erfolgt kein Eintrag in MyMagellan, also das Feld bleibt leer, in diesem Fall bleiben der Magellan-Eintrag und ggfs. vorab eingelesene Daten erhalten.**
+Fehlstunden/-tage in Magellan beim Einsammeln addieren|Fehlstunden/-tage aus allen MyMagellan-Dateien werden aufaddiert. <br/>**Bitte beachten Sie, dass das erneute Einlesen einer Datei bei dieser Option auch erneut die Werte addiert.**
+Fehlstunden/-tage in Magellan beim Einsammeln nicht aktualisieren|Es erfolgt keine Änderung in Magellan.
 
 ## Zeugnisdaten
 
-Feld|Aktion beim Übertrag nach MAGELLAN
+Feld|Aktion beim Übertrag nach Magellan
 --|--
-Abschluss 1|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschluss 2|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussart 1|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussart 2|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Versetzungsart|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Versetzt|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Leistungsanforderung|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Zeugniskonferenz<br/>(Datum)|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Zeugnisdatum<br/>(Datum)|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussdatum 1<br/>(Datum)|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussdatum 2<br/>(Datum)|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussnote 1|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Abschlussnote 2|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Verhalten|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
-Mitarbeit|Wert aus MyMAGELLAN überschreibt den Wert in MAGELLAN.<br/>Es sein denn, in MyMAGELLAN ist das Feld leer, dann bleibt der MAGELLAN-Wert bestehen.
+Abschluss 1|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschluss 2|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussart 1|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussart 2|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Versetzungsart|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Versetzt|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Leistungsanforderung|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Zeugniskonferenz<br/>(Datum)|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Zeugnisdatum<br/>(Datum)|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussdatum 1<br/>(Datum)|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussdatum 2<br/>(Datum)|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussnote 1|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Abschlussnote 2|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Verhalten|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.
+Mitarbeit|Wert aus MyMagellan überschreibt den Wert in Magellan.<br/>Es sein denn, in MyMagellan ist das Feld leer, dann bleibt der Magellan-Wert bestehen.

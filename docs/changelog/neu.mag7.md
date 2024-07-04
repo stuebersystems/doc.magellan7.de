@@ -1,37 +1,37 @@
 # Was ist neu?
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 6. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
 ## Allgemeines
 
 ### UTF8
 
-Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des MAGELLAN Administrators Ihre Schulverwaltungsdaten übergeben.
-Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
+Für die neue Version von Magellan wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion des Magellan Administrators Ihre Schulverwaltungsdaten übergeben.
+Durch den von der Datenbank und auch von der neuen Oberfläche unterstützten Zeichensatz, können jetzt alle Zeichen in Magellan gespeichert werden und demzufolge auch beispielsweise für den Zeugnisdruck wieder ausgegeben werden.
 
 ### Neue Runtime-Version von Crystal Reports integriert
 
-Mit MAGELLAN 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Reports eingebunden worden, damit können jetzt auch aktuellere Funktionen von Crystal Reports in der Druckvorschau von MAGELLAN angezeigt werden.
+Mit Magellan 7 ist eine neue Schnittstelle zur Runtimeversion von Crystal Reports eingebunden worden, damit können jetzt auch aktuellere Funktionen von Crystal Reports in der Druckvorschau von Magellan angezeigt werden.
 
 !!! warning "Wichtig"
 
-    Wenn Sie unsere ausgelieferten MAGELLAN 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe Crystal Reports 2013. 
+    Wenn Sie unsere ausgelieferten Magellan 7-Berichte als Vorlage für eigene Anpassungen nutzen möchten, benötigen Sie mindestens die Ausgabe Crystal Reports 2013. 
 
 !!! warning "Wichtig"
 
-    Durch die neue implementierte Runtimeversion von Crystal Reports müssen selbst erstellte Berichte angepasst werden. Die Berichte in unserer Auslieferung sind bereits umgestellt worden. Eine Anleitung welche Schritte für Ihre eigenen Berichte notwendig sind, finden Sie im Abschnitt ["Berichte für MAGELLAN 7 anpassen"](/schulverwaltung/update/Berichte_anpassen)
+    Durch die neue implementierte Runtimeversion von Crystal Reports müssen selbst erstellte Berichte angepasst werden. Die Berichte in unserer Auslieferung sind bereits umgestellt worden. Eine Anleitung welche Schritte für Ihre eigenen Berichte notwendig sind, finden Sie im Abschnitt ["Berichte für Magellan 7 anpassen"](/schulverwaltung/update/Berichte_anpassen)
 
 ### Neue Nachrichtenfunktion
 
-Die MAGELLAN-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auch auf beim Aufruf des MAGELLAN ADMINISTRATORs und der MAGELLAN BIBLIOTHEK.
+Die Magellan-Willkommensseite wurde neu gestaltet und enthält jetzt zu den wichtigsten Aufrufen (Dokumentation, Newsletter, Ticketsystem usw.) einen Nachrichtenbereich, über den wir Sie auf dem Laufenden halten werden. Sie erhalten diesen Überblick auch auf beim Aufruf des Magellan ADMINISTRATORs und der Magellan Bibliothek.
 
 ![Willkommenseite mit Nachrichten](/assets/images/neues/13.png)
   
-## MAGELLAN 7
+## Magellan 7
 
 ### Schüler pausiert
 
-Ab MAGELLAN 7 gibt es einen neuen Status um Schüler, die vorübergehend Ihre Schule nicht besuchen (zum Beispiel weil ein Auslandsjahr absolviert wird), markieren zu können.
+Ab Magellan 7 gibt es einen neuen Status um Schüler, die vorübergehend Ihre Schule nicht besuchen (zum Beispiel weil ein Auslandsjahr absolviert wird), markieren zu können.
 Tragen Sie als erstes die für Ihre Schule relevanten Gründe unter `Extras > Schlüsselverzeichnisse > Fehlgründe` mit ein. 
 Vergeben Sie pro Grund bitte mindestens ein Kürzel und eine Bezeichnung.
 
@@ -72,7 +72,7 @@ Auf den einzelnen Registerkarten werden oben links weitere Informationen in Form
 
 ### Klassen parallel besuchen
 
-Sollte es an Ihrer Schule notwendig sein, dass ein Schüler zeitgleich mehreren Klassen zugeordnet wird, können Sie das jetzt in MAGELLAN darstellen. Es gibt immer eine Stammklasse (S), der die Schüler als erstes zugeordnet werden. Zusätzlich kann ein Schüler weitere Nebenklassen (N) besuchen. Ob die Schülerzeile zur Stamm- oder Nebenlaufbahn gehört, sehen Sie in der neuen Spalte `Laufbahn` in der Auswahlliste `Schüler` Nach diesem Eintrag können Sie auch wie gewohnt Filtern oder Sortieren usw.
+Sollte es an Ihrer Schule notwendig sein, dass ein Schüler zeitgleich mehreren Klassen zugeordnet wird, können Sie das jetzt in Magellan darstellen. Es gibt immer eine Stammklasse (S), der die Schüler als erstes zugeordnet werden. Zusätzlich kann ein Schüler weitere Nebenklassen (N) besuchen. Ob die Schülerzeile zur Stamm- oder Nebenlaufbahn gehört, sehen Sie in der neuen Spalte `Laufbahn` in der Auswahlliste `Schüler` Nach diesem Eintrag können Sie auch wie gewohnt Filtern oder Sortieren usw.
 
 Benennung|Was ist gemeint|Kennzeichnung/Menü
 --|--|--
@@ -131,7 +131,7 @@ Stammschüler, Schülerkopie |Auf sämtlichen Unterkarten unter `Schüler > Zeug
 
 #### Dokumentenverzeichnis
 
-In MAGELLAN können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die MAGELLAN-Oberfläche aufgerufen werden, die Dateien werden aber auf dem MAGELLAN-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
+In Magellan können für Bewerber/Schüler (auch für Lehrer, Klassen, Mandanten, Personen und Sorgeberechtigte) Dateien in eine individuelles Verzeichnis gespeichert werden. Dieses Verzeichnis kann über die Magellan-Oberfläche aufgerufen werden, die Dateien werden aber auf dem Magellan-Serverrechner gespeichert. Wenn man einen Kopie eines Schülers erstellt, dann wird für diese Schülerkopie immer das Dokumentenverzeichnis des Stammschülers gezeigt.
 
 ### Schülerlaufbahnkarte
 
@@ -178,7 +178,7 @@ In jeder Auswahlliste finden Sie jetzt links vor dem ersten Spaltenkopf ein klei
 
 ### Menüband (Ribbon)
 
-MAGELLAN 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktionalitäten. 
+Magellan 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktionalitäten. 
 Wir haben je nach ausgewähltem Menüpunkt die Funktionalitäten zu Gruppen zusammengefasst. Im Bereich Schüler gibt es beispielsweise jetzt die Gruppen `Datenbank`, `Start`, `Extras`, `Hilfe`, `Schüler` und `Laufbahnprozesse`. `Schlüsselverzeichnisse` finden Sie jetzt gesammelt unter in der Gruppe `Extras` im Punkt `Schlüsselverzeichnisse`.
 Beispiele:
 
@@ -216,7 +216,7 @@ In der Liste der Verzeichnisse und auch im Gruppenfilterfeld können Sie Einträ
 
 !!! info "Hinweis"
 
-   Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in MAGELLAN verfügbaren Schlüsselverzeichnisse aufgelistet.
+   Unter dem Gruppenfilter `Allgemein`, der standardmäßig bei Aufruf des Schlüsselverzeichnisfensters gezeigt wird, werden sämtliche in Magellan verfügbaren Schlüsselverzeichnisse aufgelistet.
 
 ### Schülerfilter
 
@@ -275,7 +275,7 @@ Beim Aufruf der Schülerfehlzeiten werden jetzt immer alle bisher erfassten Fehl
 
 Im Menü `Sorgeberechtigte` werden auf der Unterkarte `Kinder` sämtliche jemals dem Sorgeberechtigten zugeordneten Schüler oder Bewerber gezeigt. Um zwischen den aktuellen Schülern, den Bewerbern und den Schülern, die die Schule inzwischen nicht mehr besuchen unterscheiden zu können, wird der `Status` einblendet. Zusätzlich gibt es eine Spalte `Zeitraum`, die den durch den Schüler zuletzt besuchten Zeitraum einblendet. Bei Bewerbern ist das Feld `Status` und das Feld `Zeitraum` nicht gefüllt.
 
-Per Doppelklick auf eine der Kinderzeilen wechselt MAGELLAN die Ansicht (Menü `Schüler` oder `Bewerber`) und ggfs. auch den Zeitraum.
+Per Doppelklick auf eine der Kinderzeilen wechselt Magellan die Ansicht (Menü `Schüler` oder `Bewerber`) und ggfs. auch den Zeitraum.
 
 ![](/assets/images/neues/sb.png)
 
@@ -297,21 +297,21 @@ Sie definieren Ihre gewünschten Gruppen, zum Beispiel für den Förderverein, d
     Für die Nutzung dieses Punktes benötigen Sie die Freischaltung per Lizenz.
 
 
-## MAGELLAN 7 Administrator
+## Magellan 7 Administrator
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 6, wir möchten gern eine Übersicht über die offensichtlichsten Änderungen geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 6, wir möchten gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
 ### Aufteilung
 
-Der MAGELLAN ADMINISTRATOR wurde vollständig überarbeitet und neu gestaltet. Nicht mehr verwendete Teile sind entfernt worden, alle Punkte wurden übersichtlich zusammengefasst.
+Der Magellan Administrator wurde vollständig überarbeitet und neu gestaltet. Nicht mehr verwendete Teile sind entfernt worden, alle Punkte wurden übersichtlich zusammengefasst.
 
 ### UTF8
 
-Für die neue Version von MAGELLAN wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion im MAGELLAN Administrator Ihre Schulverwaltungsdaten übergeben. Durch den von der Datenbank auch von der neuen Oberfläche unterstützten Zeichensatz können jetzt alle Zeichen in MAGELLAN gespeichert werden und demzufolge auch zum Beispiel für den Zeugnisdruck wieder ausgegeben werden.
+Für die neue Version von Magellan wird eine leere Datenbank zur Verfügung gestellt, die den Zeichensatz UTF8 unterstützt. In diese Datenbank werden mit einer Funktion im Magellan Administrator Ihre Schulverwaltungsdaten übergeben. Durch den von der Datenbank auch von der neuen Oberfläche unterstützten Zeichensatz können jetzt alle Zeichen in Magellan gespeichert werden und demzufolge auch zum Beispiel für den Zeugnisdruck wieder ausgegeben werden.
 
 ### Nachträgliches Anmelden
 
-Der MAGELLAN ADMINISTRATOR ist auch ohne Datenbankanmeldung startbar, allerdings sind dann nur die Punkte `Server-Verwaltung` und `Datensicherung` verwendbar. Neu ist, dass man sich jetzt aus der Oberfläche heraus noch nachträglich an einer Datenbank anmelden kann, der MAGELLAN ADMINISTRATOR muss dafür nicht neu gestartet werden.
+Der Magellan Administrator ist auch ohne Datenbankanmeldung startbar, allerdings sind dann nur die Punkte `Server-Verwaltung` und `Datensicherung` verwendbar. Neu ist, dass man sich jetzt aus der Oberfläche heraus noch nachträglich an einer Datenbank anmelden kann, der Magellan Administrator muss dafür nicht neu gestartet werden.
 
 ### Importieren eigener Kataloge
 
@@ -333,7 +333,7 @@ Sie können sich für die tägliche Arbeit mehr Platz auf Ihrem Bildschirm schaf
 
 ### Menüband (Ribbon)
 
-MAGELLAN 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktionalitäten. 
+Magellan 7 hat eine neue Aufteilung oder Zusammenstellung der einzelnen Funktionalitäten. 
 Wir haben je nach ausgewähltem Menüpunkt die Funktionalitäten zu Gruppen zusammengefasst. Im Bereich Schüler gibt es beispielsweise jetzt die Gruppen `Datenbank`, `Start` und `Hilfe`.
 
 ### Verbindungen anlegen
@@ -354,21 +354,21 @@ Wenn Sie eine neue Datenbankverbindung aus einer Kopie, einer bereits gespeicher
 
 ![Klicken Sie per rechter Maustaste (oder mit `STRG+C`) auf die zu kopierende Verbindung](/assets/images/verbindung.kopieren.png)
 
-## MyMAGELLAN CENTER 
+## MyMagellan CENTER 
 
-Das MyMAGELLAN CENTER ist Teil des Administrators geworden. Sie finden den Aufruf mit in der Menüleiste.
+Das MyMagellan CENTER ist Teil des Administrators geworden. Sie finden den Aufruf mit in der Menüleiste.
 
-![Das neue MyMAGELLAN CENTER](/assets/images/neues/myma.png)
+![Das neue MyMagellan CENTER](/assets/images/neues/myma.png)
 
 ### Verzeichniswerte
 
-Beim Erstellen der MyMAGELLAN-Dateien werden auch Inhalte aus den Schlüsselverzeichnissen übergeben.
+Beim Erstellen der MyMagellan-Dateien werden auch Inhalte aus den Schlüsselverzeichnissen übergeben.
 
 !!! info "Hinweis"
 
-	In die MyMAGELLAN-Dateien werden ausschließlich aktuelle Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben. Das bedeutet Verzeichniswerte,  deren `Bis-Datum` im MAGELLAN-Verzeichnis (`MAGELLAN > Extras > Schlüsselverzeichnisse`) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt.
+	In die MyMagellan-Dateien werden ausschließlich aktuelle Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben. Das bedeutet Verzeichniswerte,  deren `Bis-Datum` im Magellan-Verzeichnis (`Magellan > Extras > Schlüsselverzeichnisse`) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt.
 
-## MyMAGELLAN
+## MyMagellan
 
 Neue vereinfachte Übersicht nach Schülern und nach Fächern:
 
@@ -386,7 +386,7 @@ Für die Eingabe der weiteren Zeugnisdaten steht eine Sammelzuweisung für die U
 
 ![Sammelzuweisung für Zeugnisdaten](/assets/images/neues/04.png)
 
-## MAGELLAN BIBLIOTHEK
+## Magellan Bibliothek
 
 ### Zeitraumbezug entfernt
 
@@ -394,7 +394,7 @@ Die Ansicht `Schüler` hat keine Zeitraumauswahl mehr und zeigt alle aktiven und
 
 ### neuer Status
 
-In der Ansicht `Schüler` wird als dritter Status (zusätzlich zu aktiv und inaktiv) ein roter gefüllter Kreis für Schüler gezeigt, die nur noch in der Bibliothek als Ausleiher existieren, in MAGELLAN aber gelöscht wurden.
+In der Ansicht `Schüler` wird als dritter Status (zusätzlich zu aktiv und inaktiv) ein roter gefüllter Kreis für Schüler gezeigt, die nur noch in der Bibliothek als Ausleiher existieren, in Magellan aber gelöscht wurden.
 Durch diese Anzeige (und auch den Status für inaktive) Schüler, können Sie gezielt nach dem Status und auch nach dem Symbol für Vorgänge filtern und diese Ausleiher aus der Bibliothek entfernen.
 
 !!! info "Hinweis"

@@ -30,7 +30,7 @@ Geben Sie hier den Namen des Ansprechpartners und eine zugehörige Bemerkung ein
 
 ### Doppelt erfasste Betriebe zusammenführen
 
-Sollten versehentliche Betriebe mehrfach im  Menü `Betriebe` geführt worden sein, finden Sie dazu in MAGELLAN einen Assistenten, der Sie beim Zusammenführen unterstützt.
+Sollten versehentliche Betriebe mehrfach im  Menü `Betriebe` geführt worden sein, finden Sie dazu in Magellan einen Assistenten, der Sie beim Zusammenführen unterstützt.
 Sie können dabei alle Auszubildenden des Betriebes, auch aus älteren Zeiträumen, mit den dazugehöri-gen Ausbilderkontakten in einen anderen Betrieb übernehmen. Optional können Sie den Betrieb auch im Anschluss löschen lassen.
 
 !!! info "Hinweis"
@@ -53,7 +53,7 @@ Gehen Sie dazu wie folgt vor:
 
 ## Schulen
 
-Im Gegensatz zu Sorgeberechtigten und Betrieben können Schulen nicht während des Eintrags eines Bewerbers/Schülers mit erfasst werden. Schulen müssen daher immer vor ihrer Nutzung bei Bewerbern, Schülern oder Lehrern in MAGELLAN aufgenommen sein.
+Im Gegensatz zu Sorgeberechtigten und Betrieben können Schulen nicht während des Eintrags eines Bewerbers/Schülers mit erfasst werden. Schulen müssen daher immer vor ihrer Nutzung bei Bewerbern, Schülern oder Lehrern in Magellan aufgenommen sein.
 
 ### Neue Schule aufnehmen
 

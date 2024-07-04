@@ -1,8 +1,8 @@
 # Effizient mit Listen/Tabellen arbeiten
 
-Bei der Arbeit in MAGELLAN-BIBLIOTHEK haben Sie mit einer Vielzahl von Listen bzw. Tabellen zu tun. Damit Sie das Programm optimal nutzen können, müssen Sie wissen, wie Sie diese Instrumente einsetzen können. Dabei steht Ihnen eine Reihe von Funktionen zur Verfügung, die Ihnen die Arbeit mit dem Programm erleichtert. Diese Funktionen betreffen z.B. die Darstellung und Auswahl der Listeneinträge sowie die Navigation innerhalb einer Tabelle.
+Bei der Arbeit in Magellan-Bibliothek haben Sie mit einer Vielzahl von Listen bzw. Tabellen zu tun. Damit Sie das Programm optimal nutzen können, müssen Sie wissen, wie Sie diese Instrumente einsetzen können. Dabei steht Ihnen eine Reihe von Funktionen zur Verfügung, die Ihnen die Arbeit mit dem Programm erleichtert. Diese Funktionen betreffen z.B. die Darstellung und Auswahl der Listeneinträge sowie die Navigation innerhalb einer Tabelle.
 
-Die in MAGELLAN-BIBLIOTHEK vorhandenen Tabellen lassen sich in zwei grundlegende Listenarten unterteilen:
+Die in Magellan-Bibliothek vorhandenen Tabellen lassen sich in zwei grundlegende Listenarten unterteilen:
 
 ## Stammdaten- und Vorgangslisten
 
@@ -10,7 +10,7 @@ Diese Tabellen enthalten die Daten, die Sie in den unterschiedlichen Ansichten e
 
 ## Schlüsselverzeichnisse
 
-Diese Tabellen enthalten Daten, die Sie über `Extras > Schlüsselverzeichnisse` erfassn. Schlüsselverzeichnisse haben in MAGELLAN allgemein die Funktion Ihnen die Erfassung bzw. das Eingeben von Daten zu erleichtern. Auf diese Listen greifen Sie über das Aufklappmenü zahlreicher Auswahlfelder auf den Registerkarten der verschiedenen Ansichten oder in den Dialogfenstern diverser Datenbankassistenten zu. Beispiele für diese Art von Listen sind die Verzeichnisse `Medienjahrgänge` oder `Medienzustände`.
+Diese Tabellen enthalten Daten, die Sie über `Extras > Schlüsselverzeichnisse` erfassn. Schlüsselverzeichnisse haben in Magellan allgemein die Funktion Ihnen die Erfassung bzw. das Eingeben von Daten zu erleichtern. Auf diese Listen greifen Sie über das Aufklappmenü zahlreicher Auswahlfelder auf den Registerkarten der verschiedenen Ansichten oder in den Dialogfenstern diverser Datenbankassistenten zu. Beispiele für diese Art von Listen sind die Verzeichnisse `Medienjahrgänge` oder `Medienzustände`.
 Die beiden Listenarten teilen eine Reihe von Gemeinsamkeiten, unterscheiden sich aber auch in verschiedenen Aspekten. Deshalb soll im Folgenden der Umgang mit diesen beiden Instrumenten gesondert behandelt werden.
 
 ## Mit Stammdaten- und Vorgangslisten arbeiten
@@ -165,7 +165,7 @@ Mit den ausgewählten Einträgen können Sie nachfolgend bestimmte Aktionen durc
 
 ## Berichte ausdrucken
 
-In allen Stammdaten- und Vorgangslisten können Sie Berichte der gesamten Liste bzw. einzelner oder mehrerer Listeneinträge ausdrucken. Für den Listenausdruck stehen Ihnen diverse Berichtsdateien zur Verfügung, die bei der Installation im Programmverzeichnis von MAGELLAN-BIBLIOTHEK hinterlegt werden.
+In allen Stammdaten- und Vorgangslisten können Sie Berichte der gesamten Liste bzw. einzelner oder mehrerer Listeneinträge ausdrucken. Für den Listenausdruck stehen Ihnen diverse Berichtsdateien zur Verfügung, die bei der Installation im Programmverzeichnis von Magellan-Bibliothek hinterlegt werden.
 
 Um einen Listenbericht auszudrucken, gehen Sie bitte folgendermaßen vor:
 

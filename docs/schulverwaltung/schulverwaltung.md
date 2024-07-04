@@ -1,6 +1,6 @@
-# MAGELLAN Schulverwaltung 
+# Magellan Schulverwaltung 
 
-Dies ist die elektronische Dokumentation für [MAGELLAN](https://magellan.stueber.de).
+Dies ist die elektronische Dokumentation für [Magellan](https://magellan.stueber.de).
 
 |Diese Dokumentation ist unterteilt in die Bereiche:|
 |:--|

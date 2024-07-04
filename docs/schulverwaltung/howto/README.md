@@ -1,6 +1,6 @@
 # So gehen Sie vor
 
-|In den folgenden Kapiteln zeigen wir Ihnen die typischen Arbeitsschritte in MAGELLAN:|
+|In den folgenden Kapiteln zeigen wir Ihnen die typischen Arbeitsschritte in Magellan:|
 |:--|
 | [Datenbank vorbereiten](https://doc.magellan.stueber.de/schulverwaltung/howto/preparation/) | 
 | [Lehrer](https://doc.magellan.stueber.de/schulverwaltung/howto/lehrer/) | 

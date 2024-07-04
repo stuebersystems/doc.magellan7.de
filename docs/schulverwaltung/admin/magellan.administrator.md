@@ -1,9 +1,9 @@
 
-# MAGELLAN-ADMINISTRATOR
+# Magellan-Administrator
 
-Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den ADMINISTRATOR:
+Der Magellan-Administrator beinhaltet folgende Funktionen für den Administrator:
 
-* [MAGELLAN ADMINISTRATOR](https://doc.magellan.stueber.de/schulverwaltung/admin/magellan.administrator)
+* [Magellan Administrator](https://doc.magellan.stueber.de/schulverwaltung/admin/magellan.administrator)
  * [Datenbankverbindungen](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
  * [Benutzerverwaltung](https://doc.magellan.stueber.de/schulverwaltung/admin/users)
  * [Datenbankpflege](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege)
@@ -12,19 +12,19 @@ Der MAGELLAN-ADMINISTRATOR beinhaltet folgende Funktionen für den ADMINISTRATOR
 
 ## Start
 
-So starten Sie den MAGELLAN-ADMINISTRATOR:
+So starten Sie den Magellan-Administrator:
 
 1. Klicken Sie auf `Start`, dann auf `Programme` und dann auf `STÜBER SYSTEMS`.
 
-2. Klicken Sie auf`MAGELLAN ADMINISTRATOR`
+2. Klicken Sie auf`Magellan Administrator`
 
-3. Tippen Sie Ihre Kennung und Ihr Kennwort ein und bestätigen Sie mit OK (Wenn Sie MAGELLAN neu installiert haben, dann tippen Sie unter Kennung „sysdba“ und das Kennwort „masterkey“ ein).
+3. Tippen Sie Ihre Kennung und Ihr Kennwort ein und bestätigen Sie mit OK (Wenn Sie Magellan neu installiert haben, dann tippen Sie unter Kennung „sysdba“ und das Kennwort „masterkey“ ein).
 
 !!! info "Hinweis"
 
-	Für den Fall, dass noch keine Verbindung zu einer Datenbank angelegt worden ist oder die angelegte Verbindung korrigiert werden soll, kann man den MAGELLAN ADMINISTRATOR auch ohne Anmeldung starten. In diesem Fall kann nur das Menü Datenbankverbindungen bedient werden.
+	Für den Fall, dass noch keine Verbindung zu einer Datenbank angelegt worden ist oder die angelegte Verbindung korrigiert werden soll, kann man den Magellan Administrator auch ohne Anmeldung starten. In diesem Fall kann nur das Menü Datenbankverbindungen bedient werden.
 
-![Start des MAGELLAN ADMINISTRATORs ohne Anmeldung](/assets/images/magellan.administrator/admin_ohne_anmeldung.jpg) 
+![Start des Magellan ADMINISTRATORs ohne Anmeldung](/assets/images/magellan.administrator/admin_ohne_anmeldung.jpg) 
 
 ## Reiter Datenbank
 
@@ -36,15 +36,15 @@ So starten Sie den MAGELLAN-ADMINISTRATOR:
 
 ### Willkommen
 
-Über die `Willkommen`-Seite können Sie per Link auf unsere [Homepage](https://www.stueber.de), die MAGELLAN-Dokumentation oder in den [Downloadbereich](https://magellan.stueber.de/download.php) wechseln.
+Über die `Willkommen`-Seite können Sie per Link auf unsere [Homepage](https://www.stueber.de), die Magellan-Dokumentation oder in den [Downloadbereich](https://magellan.stueber.de/download.php) wechseln.
 
 ### Handbücher
 
 Sie gelangen hier zu den folgenden Dokumentationen:
 
-* [MAGELLAN Handbuch](https://doc.magellan.stueber.de/schulverwaltung/installation/)
-* [MAGELLAN Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
-* [MAGELLAN Landesstatistiken](https://doc.la.stueber.de/)
+* [Magellan Handbuch](https://doc.magellan.stueber.de/schulverwaltung/installation/)
+* [Magellan Importformat](https://doc.magellan7-toolbox.stueber.de/importe/)
+* [Magellan Landesstatistiken](https://doc.la.stueber.de/)
 
 ### Supportanfrage
 

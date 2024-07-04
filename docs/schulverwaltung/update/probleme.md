@@ -1,12 +1,12 @@
 # Probleme bei Installation oder Update
 
-Beim ersten Einrichten oder beim späteren Update von MAGELLAN gibt es umgebungsspezifische Ursachen für Probleme, die wir gesammelt haben und nachstehend jeweils den Lösungsansatz beschreiben.
+Beim ersten Einrichten oder beim späteren Update von Magellan gibt es umgebungsspezifische Ursachen für Probleme, die wir gesammelt haben und nachstehend jeweils den Lösungsansatz beschreiben.
 
 ## Installation
 
 ### Die Erstanmeldung klappt nicht
 
-Folgende Ursachen könnten der Grund sein: MAGELLAN startet auf dem Serverrechner nicht? Ist Firebird auf dem Serverrechner installiert und gestartet? In der Systemsteuerung Ihres Serverrechners finden Sie unter `Verwaltung > Dienste` einen Aufruf für den Firebird-Datenbank-Manager. Die Einstellungen sollten wie folgt sein:
+Folgende Ursachen könnten der Grund sein: Magellan startet auf dem Serverrechner nicht? Ist Firebird auf dem Serverrechner installiert und gestartet? In der Systemsteuerung Ihres Serverrechners finden Sie unter `Verwaltung > Dienste` einen Aufruf für den Firebird-Datenbank-Manager. Die Einstellungen sollten wie folgt sein:
 
 ![Firebird Server Einstellungen](/assets/images/fb-control.png)
 
@@ -22,9 +22,9 @@ Starten Sie den Magellan-Administrator ohne Anmeldung:
 
 !["Datenbank registrieren"](/assets/images/admin-connection-dialog.png )
 
-### MAGELLAN startet auf dem Arbeitsplatzrechner nicht
+### Magellan startet auf dem Arbeitsplatzrechner nicht
 
-Eventuell ist auch hier der Pfad zur Datenbank verkehrt. Starten Sie bitte den MAGELLAN-Administrator ohne Anmeldung:
+Eventuell ist auch hier der Pfad zur Datenbank verkehrt. Starten Sie bitte den Magellan-Administrator ohne Anmeldung:
 
 ![Magellan Administrator starten ohne Anmeldung](/assets/images/admin-ohne-anmeldung.png)
 
@@ -55,12 +55,12 @@ Der Assistent prüft die ODS-Version (On-Disc-Structure) der Datenbank, um das S
 Folgende Schritte sind nötig:
 
 1.	Firebird aktualisieren
-2.	Sichern und Wiederherstellen der Datenbank im MAGELLAN ADMINISTRATOR > Datensicherung
+2.	Sichern und Wiederherstellen der Datenbank im Magellan Administrator > Datensicherung
 3.	Firebird stoppen
 4.	wiederhergestellte Datenbank gegen Realdatenbank tauschen
 5.	Firebird starten
-6.	MAGELLAN starten Datenstruktur anpassen
-7.	MAGELLAN ADMINISTRATOR starten und Datenbankpflege > Zugriffsrechte synchronisieren ausführen.
+6.	Magellan starten Datenstruktur anpassen
+7.	Magellan Administrator starten und Datenbankpflege > Zugriffsrechte synchronisieren ausführen.
 
 Prüfen Sie bitte auf Ihrem Serverrechner in der Systemsteuerung im "Firebird-Server-Manager" oder unter dem Punkt "Programme und Funktionen|Firebird" welche Version von Firebird Sie einsetzen. Die aktuell empfohlene Ausgabe finden Sie auf unserer Webseite im [Downloadbereich](https://magellan.stueber.de/download.php). 
 
@@ -77,7 +77,7 @@ Starten Sie anschließend die Installation von Firebird per Doppelklick auf das 
 1.	Stoppen den Firebird-Dienst (Systemsteuerung|Firebird Server Manager).
 2.	Tauschen die Echtdatenbank gegen die wiederhergestellte Datenbank aus und starten den Firebird-Dienst wieder. 
 	
->Den Pfad zur Echtdatenbank auf Ihrem Serverrechner finden Sie unter ```MAGELLAN ADMINISTRATOR > Server-Verwaltung > Verbindungen verwalten > Starten > Verbindung markieren > Bearbeiten > Unterkarte Datenordner```.
+>Den Pfad zur Echtdatenbank auf Ihrem Serverrechner finden Sie unter ```Magellan Administrator > Server-Verwaltung > Verbindungen verwalten > Starten > Verbindung markieren > Bearbeiten > Unterkarte Datenordner```.
 
 3.	Starten Sie Magellan erneut als sysdba und führen Sie die Datenstrukturerweiterung aus.
 
@@ -94,11 +94,11 @@ Alternativ können Sie den Firebird-Server auch unter `Start > Systemsteuerung >
 
 Fehlt Ihnen der Aufruf in der Systemsteuerung? Sie können den Dienst auch unter Systemsteuerung|Verwaltung|Dienste|Firebird-Server finden.
 
-### MAGELLAN findet den Skripteordner nicht
+### Magellan findet den Skripteordner nicht
 
-Sie starten nach dem Update MAGELLAN und erhalten folgende Meldung?
+Sie starten nach dem Update Magellan und erhalten folgende Meldung?
 
-![Fehlermeldung beim Start von MAGELLAN](/assets/images/strukturanpassenfehler2.png)
+![Fehlermeldung beim Start von Magellan](/assets/images/strukturanpassenfehler2.png)
 
 Nr|Ursache
 --|--
@@ -126,7 +126,7 @@ Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Ins
 
 Sie spielen das Update ein und dennoch fehlen Skripte für die Strukturanpassung oder zum Beispiel das in der LiesMich-Datei angekündigte neue Zeugnis?
 
-![Fehlermeldung beim Start von MAGELLAN](/assets/images/strukturanpassenfehler1.png)
+![Fehlermeldung beim Start von Magellan](/assets/images/strukturanpassenfehler1.png)
 
 Drei Möglichkeiten können hinter diesem Problem stecken: 
 
@@ -145,24 +145,24 @@ Bitte immer als erstes den Serverrechner aktualisieren, da dieser Rechner der ei
 Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann es damit zusammenhängen, dass nach der ursprünglichen Serverinstallation die Pfade nachträglich verschoben wurden. Der bei der Installation und bei den Updates verwendete Windows Installer „möchte“ die Dateien am ursprünglichen Speicherort aktualisieren. Sollte dieser nicht mehr bestehen, müsste erneut installiert werden und gleich auf die gewünschten Pfade verwiesen werden.
 
 **zu 3.:**  
-Wenn Sie Ihren Rechner mit einer bestehenden MAGELLAN-Installationauf Windows 10 aktualisieren, kann es passieren, dass beim Folgeupdate von Magellan die Datenordner vom Windows Installer nicht gefunden werden und keine neuen Bestandteile wie Skripte, Berichte usw abgelegt werden.
+Wenn Sie Ihren Rechner mit einer bestehenden Magellan-Installationauf Windows 10 aktualisieren, kann es passieren, dass beim Folgeupdate von Magellan die Datenordner vom Windows Installer nicht gefunden werden und keine neuen Bestandteile wie Skripte, Berichte usw abgelegt werden.
 Das betrifft keine Clientinstallationen die auf Datenordner auf dem Serverrechner nutzen, sondern nur Server-/Einzelplatzinstallationen. Bitte deinstallieren Sie Magellan und installieren Sie es neu!
 
 ### Meldung "no permission for read/select Access to TABLE..."?
 
-Wenn bei einem Update die Datenstruktur um eine neue Tabelle erweitert wurde, dann muss für die bereits eingerichteten Benutzer geklärt werden, ob sie darauf zugreifen können. Daher ist der letzte Schritt im Updateprozess das Ausführen des Punktes "Zugriffsrechte synchronisieren" im Modul MAGELLAN Administrator.
+Wenn bei einem Update die Datenstruktur um eine neue Tabelle erweitert wurde, dann muss für die bereits eingerichteten Benutzer geklärt werden, ob sie darauf zugreifen können. Daher ist der letzte Schritt im Updateprozess das Ausführen des Punktes "Zugriffsrechte synchronisieren" im Modul Magellan Administrator.
 
-Bitte rufen Sie den MAGELLAN Administrator auf und führen den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` durch, im Anschluss können die Kollegen sich wieder mit der gewohnten Kennung anmelden.
+Bitte rufen Sie den Magellan Administrator auf und führen den Punkt `Datenbankpflege > Datenbank überprüfen > Zugriffsrechte synchronisieren` durch, im Anschluss können die Kollegen sich wieder mit der gewohnten Kennung anmelden.
 
 ![Führen Sie diesen Punkt aus, um für neue Bestandteile der Datenbank die Zugriffsrechte für Ihre Benutzer zu vergeben](/assets/images/update.zugriffsrechte.synch.png)
 
 ### Meldung "Runtime error ..."
 
-Vermutlich ist eine der Dateien, die beim Start von MAGELLAN geladen werden sollen, beschädigt. Die möglichen Dateien pro Arbeitsplatz wären (außer Sie verwenden eine MAGELLAN.paths um die Dateien gemeinsam zu verwenden):
+Vermutlich ist eine der Dateien, die beim Start von Magellan geladen werden sollen, beschädigt. Die möglichen Dateien pro Arbeitsplatz wären (außer Sie verwenden eine Magellan.paths um die Dateien gemeinsam zu verwenden):
 
-  *  MAGELLAN.opt (Optionen)
-  *  MAGELLAN.evm (Pfade zur Datenbank und zu den gemeinsam verwendeten Datenordnern)
-  *  MAGELLAN.lic (Lizenz)
+  *  Magellan.opt (Optionen)
+  *  Magellan.evm (Pfade zur Datenbank und zu den gemeinsam verwendeten Datenordnern)
+  *  Magellan.lic (Lizenz)
 
 Bitte schauen Sie an dem Rechner je nach Betriebssystem unter folgendem Pfad nach:
 
@@ -176,18 +176,18 @@ Bitte schauen Sie an dem Rechner je nach Betriebssystem unter folgendem Pfad nac
 | Windows 8 | C:\ProgramData\Stueber Software\Magellan 6 |
 | Windows 10 | C:\ProgramData\Stueber Software\Magellan 6 |
 
-Bitte benennen Sie der Reihe nach immer eine der Dateien um und starten MAGELLAN, um zu sehen, welche der Dateien das Problem verursacht.
+Bitte benennen Sie der Reihe nach immer eine der Dateien um und starten Magellan, um zu sehen, welche der Dateien das Problem verursacht.
 Wenn Sie eine Dateien ausmachen konnten, gehen Sie je nach Datei wie folgt vor:
 
 Datei|nächster Schritt
 --|--
-MAGELLAN.opt?|Bitte einfach löschen, die Datei wird beim nächsten Schließen von MAGELLAN neu angelegt, anschließend bitte die Optionen unter `Extras > Einstellungen` neu auswählen.
-MAGELLAN.evm?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
-MAGELLAN.lic?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
+Magellan.opt?|Bitte einfach löschen, die Datei wird beim nächsten Schließen von Magellan neu angelegt, anschließend bitte die Optionen unter `Extras > Einstellungen` neu auswählen.
+Magellan.evm?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
+Magellan.lic?|Bitte von einem anderen Clientrechner kopieren und hier einfügen.
 
 #### ODBC Meldungen
 
-Wenn bei Ihnen eine der nachstehenden Meldungen bei der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen die Installation/das Update von MAGELLAN bitte erneut aus. 
+Wenn bei Ihnen eine der nachstehenden Meldungen bei der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen die Installation/das Update von Magellan bitte erneut aus. 
 
 Bezeichnung|Inhalt
 --|--
@@ -196,14 +196,14 @@ Bezeichnung|Inhalt
 
 ### Crystal Reports Meldungen
 
-Wir setzen in MAGELLAN für die Druckvorschau und den Druck eine Runtimeversion von Crystal Reports ein. Dieser Teil setzt Programmbibliotheken voraus, die in der Regel beispielsweise mit dem Officepaket schon installiert wurden. Sollte es dennoch hier zu Problemen kommen, kann man gezielt die Voraussetzungen nachinstallieren.
-Es kann auch zu Problemen kommen wenn Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn MAGELLAN registriert werden konnten.
+Wir setzen in Magellan für die Druckvorschau und den Druck eine Runtimeversion von Crystal Reports ein. Dieser Teil setzt Programmbibliotheken voraus, die in der Regel beispielsweise mit dem Officepaket schon installiert wurden. Sollte es dennoch hier zu Problemen kommen, kann man gezielt die Voraussetzungen nachinstallieren.
+Es kann auch zu Problemen kommen wenn Teile der Runtimeversion nicht korrekt beim Update oder bei der Installation vorn Magellan registriert werden konnten.
 
 Nachstehend zeigen wir eine Reihe von möglichen Meldungen, dazu jeweils einen Link über den Sie Software zur Lösung laden können.
 
 !!! warning "Sehr wichtig!"
 
-    Wenn bei Ihnen eine der nachstehenden Meldungen bei der Installation, beim Update von MAGELLAN oder ggfs. auch in der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen anschließend bitte eine **Reparaturinstallation** von MAGELLAN aus.
+    Wenn bei Ihnen eine der nachstehenden Meldungen bei der Installation, beim Update von Magellan oder ggfs. auch in der Berichtsvorschau gezeigt werden, laden Sie das jeweilige Paket über den Link bei der Meldung herunter, installieren es und führen anschließend bitte eine **Reparaturinstallation** von Magellan aus.
 
 Bezeichnung|Inhalt
 --|--

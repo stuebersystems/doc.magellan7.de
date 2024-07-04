@@ -1,6 +1,6 @@
 # Project information
-site_name: MAGELLAN
-site_description: 'MAGELLAN Dokumentation'
+site_name: Magellan
+site_description: 'Magellan Dokumentation'
 site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan.stueber.de'
 
@@ -78,12 +78,12 @@ nav:
 - Allgemein: 
     - Einführung: index.md
     - Was ist neu?: changelog/changelog.md
-    - Neuerungen MAGELLAN 11: changelog/neu.mag11.md        
+    - Neuerungen Magellan 11: changelog/neu.mag11.md        
     - Archiv:
-        - Neuerungen MAGELLAN 10: changelog/neu.mag10.md    
-        - Neuerungen MAGELLAN 9: changelog/neu.mag9.md
-        - Neuerungen MAGELLAN 8: changelog/neu.mag8.md
-        - Neuerungen MAGELLAN 7: changelog/neu.mag7.md
+        - Neuerungen Magellan 10: changelog/neu.mag10.md    
+        - Neuerungen Magellan 9: changelog/neu.mag9.md
+        - Neuerungen Magellan 8: changelog/neu.mag8.md
+        - Neuerungen Magellan 7: changelog/neu.mag7.md
         - Änderungen 2023: changelog/changelog2023.md        
         - Änderungen 2022: changelog/changelog2022.md
         - Änderungen 2021: changelog/changelog2021.md
@@ -94,14 +94,14 @@ nav:
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
-      - MAGELLAN 11:
+      - Magellan 11:
         - Server/Einzelplatz: schulverwaltung/installation/version11/server.installieren.md
         - Arbeitsplatz: schulverwaltung/installation/version11/arbeitsplatz.installieren.md
       - Archiv: 
-        - MAGELLAN 10:
+        - Magellan 10:
           - Server/Einzelplatz: schulverwaltung/installation/version10/server.installieren.md
           - Arbeitsplatz: schulverwaltung/installation/version10/arbeitsplatz.installieren.md
-        - MAGELLAN 9:
+        - Magellan 9:
           - Server/Einzelplatz: schulverwaltung/installation/version9/server.installieren.md
           - Arbeitsplatz: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
@@ -140,7 +140,7 @@ nav:
         - Fachdaten: schulverwaltung/howto/zeugnisdaten1.md
         - Leistungsdaten: schulverwaltung/howto/zeugnisdaten2.md
         - Weiter Zeugnisdaten: schulverwaltung/howto/zeugnisdaten3.md
-      - ENBREA Leistungen: schulverwaltung/howto/enbrea.leistungen.md
+      - Enbrea Leistungen: schulverwaltung/howto/enbrea.leistungen.md
       - Prüfungsnummer generieren: schulverwaltung/howto/pruefungsnummer.md
       - Durchschnitt/Abschluss berechnen: schulverwaltung/howto/durchschnitt-abschluss.md
       - Gymnasiale Oberstufe: 
@@ -157,15 +157,15 @@ nav:
       - Dokumentenverwaltung/Export: schulverwaltung/howto/dokumentenverwaltung_export.md
       - Kurznachrichten: schulverwaltung/howto/kurznachrichten.md
       - Stundenplandaten: schulverwaltung/howto/stundenplaene.md
-      - Abgleich DAVINCI und MAGELLAN: schulverwaltung/howto/abgleich_mit_dav.md
+      - Abgleich DaVinci und Magellan: schulverwaltung/howto/abgleich_mit_dav.md
     - Administration: 
       - Übersicht: schulverwaltung/admin/administration.md
-      - MAGELLAN ADMINISTRATOR: 
+      - Magellan Administrator: 
         - Übersicht: schulverwaltung/admin/magellan.administrator.md
         - Datenbankverbindungen: schulverwaltung/admin/admin.datenbankverbindungen.md
         - Datenbanksicherungen: schulverwaltung/admin/sicherung.md
         - Benutzerverwaltung: schulverwaltung/admin/users.md
-        - MyMAGELLAN Center: schulverwaltung/admin/mymagellan-center.md
+        - MyMagellan Center: schulverwaltung/admin/mymagellan-center.md
         - Datenbankpflege: schulverwaltung/admin/datenbankpflege.md
         - Datenaustausch: schulverwaltung/admin/datenaustausch.md
         - Logbuch: schulverwaltung/admin/logbuch.md
@@ -177,7 +177,7 @@ nav:
         - Access-Anbindung: schulverwaltung/admin/access.anbindung.md
         - Protokollierung: schulverwaltung/admin/protocol.md
         - Aktionen im Silentmode: schulverwaltung/installation/magellan-administrator-im-silentmode-starten.md
-        - MAGELLAN Scripting: https://doc.magellan-scripting.stueber.de
+        - Magellan Scripting: https://doc.magellan-scripting.stueber.de
     - Referenz: 
       - Übersicht: schulverwaltung/reference/README.md
       - Tastaturkürzel: schulverwaltung/reference/shortcuts.md
@@ -222,7 +222,7 @@ nav:
       - Sachsen: 
         - SAXSVS: schulverwaltung/regionales/sachsen/sachsen.md
     - Knowledge Base (FAQ): https://doc.kb.stueber.de/
-- MyMAGELLAN Center: 
+- MyMagellan Center: 
     - Einführung: mymagellancenter/einfuehrung.md
     - Verteilen: mymagellancenter/verteilen.md    
     - Organisation: mymagellancenter/organisation.md

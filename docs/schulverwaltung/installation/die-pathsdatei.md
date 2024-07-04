@@ -1,7 +1,7 @@
 # Mehrere Arbeitsplatzrechner einrichten: Die Paths-Datei
 
-Beim Start von MAGELLAN werden Informationen wie zum Beispiel Optionen, Lizenzdaten oder Pfade zur Datenbank, den Datenordnern uws. aus Dateien gelesen. Diese Dateien werden standardmäßig an einem betriebssystemspezifischen Ort pro MAGELLAN-Installation angelegt und dort auch ausgelesen.
-Alternativ können diese Dateien auch an einer beliebigen anderen Stelle in Ihrem Netzwerk liegen und MAGELLAN liest den Pfad zu den Dateien aus der Paths-Datei (``Magellan.paths``) aus.
+Beim Start von Magellan werden Informationen wie zum Beispiel Optionen, Lizenzdaten oder Pfade zur Datenbank, den Datenordnern uws. aus Dateien gelesen. Diese Dateien werden standardmäßig an einem betriebssystemspezifischen Ort pro Magellan-Installation angelegt und dort auch ausgelesen.
+Alternativ können diese Dateien auch an einer beliebigen anderen Stelle in Ihrem Netzwerk liegen und Magellan liest den Pfad zu den Dateien aus der Paths-Datei (``Magellan.paths``) aus.
 
 Der Vorteil einer Paths-Datei ist, dass Sie mehreren Nutzern die identischen Einstellungen in einem Arbeitsschritt an einem zentralen Ort zur Verfügung stellen können.
 
@@ -62,10 +62,10 @@ Weiter geht's:
 
 1. Speichern Sie diese Textdatei und benennen die Datei anschließend in „Magellan.paths“ um.
 
-2. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur MAGELLAN.exe) ab. Beim Programmstart von MAGELLAN wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
+2. Legen Sie diese Datei pro Arbeitsplatzinstallation im Programmverzeichnis (parallel zur Magellan.exe) ab. Beim Programmstart von Magellan wird geprüft, ob sich eine Datei mit diesem Namen im Programmverzeichnis befindet und gegebenenfalls ausgelesen.
 
 !!! warning "Wichtig"
 
-    Wenn Sie per MAGELLAN.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der der Ablagestelle der MAGELLAN.opt Änderungen vorzunehmen.
+    Wenn Sie per Magellan.paths auch auf die Optionsdatei verweisen und wünschen, dass die Benutzer Optionen selbst einstellen dürfen, müssen die Benutzer auch die Rechte haben an der der Ablagestelle der Magellan.opt Änderungen vorzunehmen.
 
 Über Neuerungen im Programm informieren wir im Abschnitt [Was ist neu?](https://doc.magellan.stueber.de/changelog/changelog/)

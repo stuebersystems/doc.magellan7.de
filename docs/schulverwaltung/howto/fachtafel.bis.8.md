@@ -1,4 +1,4 @@
-# Fachtafeln zuweisen (bis MAGELLAN 8)
+# Fachtafeln zuweisen (bis Magellan 8)
 
 !!! warning "Wichtig!"
 

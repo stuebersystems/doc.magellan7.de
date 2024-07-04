@@ -2,10 +2,10 @@
 
 Im Rahmen der Abschlussprüfung an Fachoberschulen kann ein Schüler die Fachhochschulreife erwerben. Grundlage für die Abschlussprüfungen bilden spezielle bundeslandspezifische Verordnungen.
 
-Die jeweiligen Verordnungen spiegeln sich über die Landesanpassung von MAGELLAN in der Fachoberschulberechnung wider. 
+Die jeweiligen Verordnungen spiegeln sich über die Landesanpassung von Magellan in der Fachoberschulberechnung wider. 
 Damit die Berechnungen korrekt durchgeführt werden können und Sie auch die Fachhochschulzeugnisse der Fachoberschule richtig ausgedruckt bekommen, müssen Sie allerdings einige wenige aber wichtige Details beachten. Diese Details werden in diesem Kapitel erklärt. Lesen Sie es bitte sorgfältig.
 
-Die Abschlussberechnungen an Fachoberschulen basieren auf MAGELLAN-Skripten, die Sie mit Hilfe des MAGELLAN-Skripteditors bearbeiten können. Weitere Informationen zu diesen Skripten finden Sie in der Dokumentation [MAGELLAN Scripting](https://doc.magellan7-toolbox.stueber.de/scripting/).
+Die Abschlussberechnungen an Fachoberschulen basieren auf Magellan-Skripten, die Sie mit Hilfe des Magellan-Skripteditors bearbeiten können. Weitere Informationen zu diesen Skripten finden Sie in der Dokumentation [Magellan Scripting](https://doc.magellan7-toolbox.stueber.de/scripting/).
 
 ## Allgemein
 
@@ -16,27 +16,27 @@ Zur Organisation der Abschlussprüfung an Fachoberschulen gehören folgende Aufg
 3. Fachhochschulreife berechnen
 4. Zeugnisbemerkungen eingeben und Zeugnisse drucken
 
-Um die Oberstufendaten des jeweiligen Schülers in MAGELLAN anzuzeigen, klicken Sie in MAGELLAN auf „Abitur“ in der Symbolleiste links.
+Um die Oberstufendaten des jeweiligen Schülers in Magellan anzuzeigen, klicken Sie in Magellan auf „Abitur“ in der Symbolleiste links.
 
-In den folgenden Abschnitten werden die einzelnen Schritte für die Abschlussberechnung der Fachhochschulreife in der Fachoberschule mit MAGELLAN erläutert.
+In den folgenden Abschnitten werden die einzelnen Schritte für die Abschlussberechnung der Fachhochschulreife in der Fachoberschule mit Magellan erläutert.
 Bevor wir mit der Vorbereitung der Abschlussprüfung beginnen, müssen wir zunächst einige wichtige Bemerkungen zu Jahrgängen und besonderen Fächern machen.
 
 ## Skripte
 
-Die gesamte Abschlussberechnung wird durch MAGELLAN-Skripte durchgeführt oder anders gesagt, jedes Abschlussberechnungsskript repräsentiert eine Fachoberschulprüfungsordnung (APO-FOS). Es wird im Folgenden jeweils das Veröffentlichungsjahr der entsprechenden Verordnung angeben.
+Die gesamte Abschlussberechnung wird durch Magellan-Skripte durchgeführt oder anders gesagt, jedes Abschlussberechnungsskript repräsentiert eine Fachoberschulprüfungsordnung (APO-FOS). Es wird im Folgenden jeweils das Veröffentlichungsjahr der entsprechenden Verordnung angeben.
 
 !!! info "Hinweis"
 
    Alle zur Verfügung stehenden Skripte finden Sie im [Skriptüberblick](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/skriptuebersicht/). Sämtliche notwendigen Einstellungen pro Skript beschreiben wir in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/). Für die Skriptdateien [BER-APO-FOS-2006/2013](https://doc.magellan.stueber.de/schulverwaltung/regionales/berlin/fos/ber-apo-fos-20062013/) folgt die Beschreibung im nächsten Kapitel.
 
-Die Skripte befinden sich im MAGELLAN-Verzeichnis im Ordner „Skripte“. Die MAGELLAN-Skripte berechnen die Fachhochschulreife für die Fachoberschule.
+Die Skripte befinden sich im Magellan-Verzeichnis im Ordner „Skripte“. Die Magellan-Skripte berechnen die Fachhochschulreife für die Fachoberschule.
 
 ## Jahrgänge einrichten
 
 Für die Fachoberschule müssen die Jahrgänge 11 (einjährige Fachoberschule) bzw. die Jahrgänge 11 und 12 (zweijährige Fachoberschule) eingerichtet werden.
 
-In MAGELLAN werden die Schüler einer Klassen bzw. einem Jahrgang zugeordnet, indem sie eingeschult werden. Für jeden Schüler werden in MAGELLAN die entsprechenden Fächer bzw. Kurse mit Punkten erfasst. 
-In MAGELLAN werden die Daten halbjahresbezogen abgelegt. Sie definieren also die Klassen 11 (einjährige Fachoberschule) oder die Klassen 11 und 12 (zweijährige Fachoberschule) mit je zwei Zeiträumen bzw. Halbjahren. 
+In Magellan werden die Schüler einer Klassen bzw. einem Jahrgang zugeordnet, indem sie eingeschult werden. Für jeden Schüler werden in Magellan die entsprechenden Fächer bzw. Kurse mit Punkten erfasst. 
+In Magellan werden die Daten halbjahresbezogen abgelegt. Sie definieren also die Klassen 11 (einjährige Fachoberschule) oder die Klassen 11 und 12 (zweijährige Fachoberschule) mit je zwei Zeiträumen bzw. Halbjahren. 
 Folgende Angaben sind bei der Eingabe der Oberstufenjahrgänge neben den Halbjahren wichtig:
 
 Eingabefeld| Eingabe
@@ -65,7 +65,7 @@ In den nachfolgenden Abschnitten erfahren Sie mehr zu den einzelnen Punkten.
 
 ![Fachoberschuljahrgang definieren](/assets/images/berlin/fos/fos1.png)
 
-Sie können in MAGELLAN unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Fachoberschuljahrgang. Damit können Sie jedem Schüler in der Rubrik „Abitur“ den entsprechenden Abiturjahrgang (=Fachoberschuljahrgang) zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Fachoberschuljahrgangs z.B. für Ausdrucke herausfiltern zu können. 
+Sie können in Magellan unter `Verzeichnisse > Abschlussjahrgänge` Abschlussjahrgänge definieren. In unserem Fall ist dies ein Fachoberschuljahrgang. Damit können Sie jedem Schüler in der Rubrik „Abitur“ den entsprechenden Abiturjahrgang (=Fachoberschuljahrgang) zuordnen. Dieser Vermerk hat keinen Einfluss auf Abschlussberechnungen, sondern dient dazu, später alle Schüler eines bestimmten Fachoberschuljahrgangs z.B. für Ausdrucke herausfiltern zu können. 
 
 !!! info "Hinweis"
 
@@ -85,19 +85,19 @@ Kategorie |Wenn Sie hier „Abitur“ eingeben, wird es bei den Schülerabiturda
 Typ |Tragen Sie hier „FOS2J“ oder „FOS1J“ ein
 Gültig von |Gültigkeitsdatum von, ohne Bedeutung für die Berechnung
 Gültig bis| Gültigkeitsdatum bis, ohne Bedeutung für die Berechnung
-Skript |Geben Sie hier den Namen des Skripts für diese Fachoberschulverordnung ein. Alle verfügbaren Skripte befinden sich im MAGELLAN-Verzeichnis SKRIPTE.
+Skript |Geben Sie hier den Namen des Skripts für diese Fachoberschulverordnung ein. Alle verfügbaren Skripte befinden sich im Magellan-Verzeichnis SKRIPTE.
 
 ## Fachoberschulhalbjahresdaten synchronisieren
 
 ![Fachoberschulhalbjahresdaten synchronisieren](/assets/images/berlin/fos/fos3.png)
 
-Bevor Sie den Fachoberschulabschluss überprüfen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in MAGELLAN auf „Abitur“ klicken und dann auf die Schaltfläche` Schüler Synchronisieren...` oben im MAGELLAN-Fenster klicken.
+Bevor Sie den Fachoberschulabschluss überprüfen können, müssen Sie die Daten der Schüler synchronisieren, indem Sie in Magellan auf „Abitur“ klicken und dann auf die Schaltfläche` Schüler Synchronisieren...` oben im Magellan-Fenster klicken.
 
 Beim Synchronisieren geschieht Folgendes:
 
-MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 12/2. Dies ist die Voraussetzung dafür, dass die Qualifikations- und Abschlussberechnungen der Oberstufe durchgeführt werden können. Auch wenn Sie zuvor keine Fächer bzw. Punkte in den Oberstufenhalbjahren angegeben haben, müssen Sie diese Synchronisation einmal ausführen.
+Magellan extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 12/2. Dies ist die Voraussetzung dafür, dass die Qualifikations- und Abschlussberechnungen der Oberstufe durchgeführt werden können. Auch wenn Sie zuvor keine Fächer bzw. Punkte in den Oberstufenhalbjahren angegeben haben, müssen Sie diese Synchronisation einmal ausführen.
 
-Damit die Schüler mit allen Fächern und Noten aus den einzelnen Jahrgängen korrekt übernommen werden können, sind folgende Angaben in MAGELLAN notwendig.
+Damit die Schüler mit allen Fächern und Noten aus den einzelnen Jahrgängen korrekt übernommen werden können, sind folgende Angaben in Magellan notwendig.
 
 Eingabe|Bedeutung
 --|--
@@ -111,8 +111,8 @@ Ohne diese Angaben werden nur die Schüler ohne Fächer und Noten übernommen.
    Beim Synchronisieren werden die Noten aus der Spalte „Endnote“ in das Menü „Abitur“ übernommen.
 
 Beim Synchronisieren sollten Sie für die markierten Schüler die Fachoberschulverordnung und den Fachoberschuljahrgang eingeben.
-Klicken Sie nach dem Synchronisieren auf die Schaltfläche „Abitur“ in der Symbolleiste links im MAGELLAN-Fenster. Es werden alle synchronisierten Schüler auf der Registerkarte „Auswahl“ angezeigt.
-Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte wechseln Sie zur Fachhochschulzulassung. Auf dieser Registerkarte finden Sie die Fächer und Notenwerte der Oberstufenhalbjahre, falls Sie diese Angaben bereits in MAGELLAN unter der Rubrik „Schüler“ gemacht haben sollten. Andernfalls können Sie Fächer und Notenwerte für die Oberstufenhalbjahre auch hier eingeben.
+Klicken Sie nach dem Synchronisieren auf die Schaltfläche „Abitur“ in der Symbolleiste links im Magellan-Fenster. Es werden alle synchronisierten Schüler auf der Registerkarte „Auswahl“ angezeigt.
+Per Doppelklick auf den gewünschten Schüler oder über einen Klick auf die Registerkarte wechseln Sie zur Fachhochschulzulassung. Auf dieser Registerkarte finden Sie die Fächer und Notenwerte der Oberstufenhalbjahre, falls Sie diese Angaben bereits in Magellan unter der Rubrik „Schüler“ gemacht haben sollten. Andernfalls können Sie Fächer und Notenwerte für die Oberstufenhalbjahre auch hier eingeben.
 
 ## Fächer und Punkte eingeben
 
@@ -122,7 +122,7 @@ Die Kurse und Noten können Sie ausdrucken, indem Sie die entsprechenden Bericht
 
 ## Die Spalte „Position“
 
-Die Position kann als Merkmal für die Reihenfolge der Fächer auf der Registerkarte „Qualifikation“ und auf dem Fachhochschulzeugnis verwendet werden. Die in MAGELLAN mitgelieferten Skripte und Zeugnisformulare verwenden diese Positionsangaben. Beim Einfügen einer neuen Zeile wird automatisch die Position um Eins erhöht, um Ihnen die Eingabe zu ersparen.
+Die Position kann als Merkmal für die Reihenfolge der Fächer auf der Registerkarte „Qualifikation“ und auf dem Fachhochschulzeugnis verwendet werden. Die in Magellan mitgelieferten Skripte und Zeugnisformulare verwenden diese Positionsangaben. Beim Einfügen einer neuen Zeile wird automatisch die Position um Eins erhöht, um Ihnen die Eingabe zu ersparen.
 
 Klicken Sie auf den Titel „Position“, um die Fächerliste entsprechend zu sortieren.
 

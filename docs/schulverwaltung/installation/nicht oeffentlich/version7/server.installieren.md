@@ -7,15 +7,15 @@
 
 !!! danger "Achtung"
 
-    Wenn Sie bereits MAGELLAN einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von MAGELLAN 6 auf MAGELLAN 7](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für MAGELLAN 7 anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
+    Wenn Sie bereits Magellan einsetzen, lesen Sie bitte stattdessen den Abschnitt [Umstieg von Magellan 6 auf Magellan 7](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/) und, falls Sie eigene Berichte verwenden, auch den Abschnitt [Berichte für Magellan 7 anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/)!
 
-Diesen Installationstyp wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige MAGELLAN-Installation wünschen (zum Beispiel um MAGELLAN zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
+Diesen Installationstyp wählen Sie bitte aus, wenn Sie entweder eine netzwerkunabhängige Magellan-Installation wünschen (zum Beispiel um Magellan zu testen) oder wenn Sie Ihren Schulserver einrichten möchten.
 
 ## Download und Installationstypen
 
-Laden Sie bitte das MAGELLAN-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v7/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
+Laden Sie bitte das Magellan-Installationspaket von unseren Webseiten oder unter [folgendem Link](https://download.stueber.de/bin/de/magellan/v7/magellan7.msi). Starten Sie anschließend die Installation per Doppelklick auf die Datei `Magellan7.msi`.
 
-Der Setup Assistent von MAGELLAN 7 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von Magellan 7 wird gestartet und die Installationsdateien werden entpackt.
 
 ![Startdialog der Installation](/assets/images/installation/7/setup_start.png)
 
@@ -62,40 +62,40 @@ Anwendungsdaten \(z.B. Magellan.exe\):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\Program Files\Stueber Systems\MAGELLAN 7 |
-| Windows XP | C:\Programme\Stueber Systems\MAGELLAN 7 |
-| Windows 2000 | C:\Programme\Stueber Systems\MAGELLAN 7 |
-| Windows 7 | C:\Programme\Stueber Systems\MAGELLAN 7 |
-| Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 7\ |
-| Windows 8 | C:\Programme\Stueber Systems\MAGELLAN 7 |
-| Windows 10 | C:\Program Files \(x86\)\Stueber Systems\MAGELLAN 7\ |
+| Windows Vista | C:\Program Files\Stueber Systems\Magellan 7 |
+| Windows XP | C:\Programme\Stueber Systems\Magellan 7 |
+| Windows 2000 | C:\Programme\Stueber Systems\Magellan 7 |
+| Windows 7 | C:\Programme\Stueber Systems\Magellan 7 |
+| Windows Server 2008 | C:\Program Files \(x86\)\Stueber Systems\Magellan 7\ |
+| Windows 8 | C:\Programme\Stueber Systems\Magellan 7 |
+| Windows 10 | C:\Program Files \(x86\)\Stueber Systems\Magellan 7\ |
 
 Allgemeine Einstellungs- und Lizenzdaten \(z.B. Magellan.evm, Magellan.lic, Magellan.SiteInfo, Magellan.UserInfo\):
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\ProgramData\Stueber Systems\MAGELLAN 7 |
-| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 7 |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 7 |
-| Windows 7 | C:\ProgramData\Stueber Systems\MAGELLAN 7 |
-| Windows Server 2008 | C:\ProgramData\Stueber Systems\MAGELLAN 7 |
-| Windows 8 | C:\ProgramData\Stueber Systems\MAGELLAN 7 |
-| Windows 10 | C:\ProgramData\Stueber Systems\MAGELLAN 7 |
+| Windows Vista | C:\ProgramData\Stueber Systems\Magellan 7 |
+| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7 |
+| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7 |
+| Windows 7 | C:\ProgramData\Stueber Systems\Magellan 7 |
+| Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 7 |
+| Windows 8 | C:\ProgramData\Stueber Systems\Magellan 7 |
+| Windows 10 | C:\ProgramData\Stueber Systems\Magellan 7 |
 
 Datenordner \(Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner\):
 
-Auf die Datenordner sollen die Nutzer von den Arbeitsplatzrechnern aus zugreifen können. Bitte stellen Sie sicher, dass den Nutzern auf Betriebssystemebene Schreib- und Leserechte für diese Verzeichnisse eingeräumt werden. Diese Rechte sind notwendig, um alle MAGELLAN-Funktionalitäten nutzen zu können (Beispiel: Berichte organisieren, Vorlagen organisieren, Ablegen von Schülerdokumenten u.a.).
+Auf die Datenordner sollen die Nutzer von den Arbeitsplatzrechnern aus zugreifen können. Bitte stellen Sie sicher, dass den Nutzern auf Betriebssystemebene Schreib- und Leserechte für diese Verzeichnisse eingeräumt werden. Diese Rechte sind notwendig, um alle Magellan-Funktionalitäten nutzen zu können (Beispiel: Berichte organisieren, Vorlagen organisieren, Ablegen von Schülerdokumenten u.a.).
 Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließend für den Verweispfad der Arbeitsplatzrechner verwenden können.
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7 |
-| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\MAGELLAN 7 |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\MAGELLAN 7 |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7 |
-| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\MAGELLAN 7 |
-| Windows 8 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7 |
-| Windows 10 | C:\Users\Public\Documents\Stueber Systems\MAGELLAN 7 |
+| Windows Vista | C:\Users\Public\Documents\Stueber Systems\Magellan 7 |
+| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7 |
+| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 7 |
+| Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 7 |
+| Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7 |
+| Windows 8 | C:\Users\Public\Documents\Stueber Systems\Magellan 7 |
+| Windows 10 | C:\Users\Public\Documents\Stueber Systems\Magellan 7 |
 
 !!! info "Hinweis"
 
@@ -103,12 +103,12 @@ Richten Sie bitte eine Freigabe für diese Verzeichnisse ein, die Sie anschließ
 
 ## Der Willkommensassistent
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 7 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie Magellan 7 starten. Es erscheint zunächst der Willkommen-Assistent.
 
 ![Willkommen](/assets/images/installation/7/welcome.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["MAGELLAN 7 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["Magellan 7 - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/7/welcome-license-type.png)
 
@@ -130,25 +130,25 @@ Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, d
 ![ Daten für entfernte Datenbank](/assets/images/installation/7/welcome-remote-database.png)
 
 
-Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul MAGELLAN ADMINISTRATOR auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
+Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an. Eine Sicherung Ihrer Datenbank kann über das Modul Magellan Administrator auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. Bitte geben Sie den Netzwerkpfad zu Ihrem Server aus Sicht Ihres Rechners ein!
 
 !!! info "Hinweis"
 
-    Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul MAGELLAN ADMINISTRATOR auslösen.
+    Sollten Sie andere Speicherorte wünschen, stellen Sie bitte sicher, dass die Zielverzeichnisse auch existieren. Die Sicherung der Datenbank oder auch das Wiederherstellen einer neuen Datenbank aus einer Sicherungskopie können Sie über das Modul Magellan Administrator auslösen.
 
 ![Einstellungen für Backup und Restore Ihrer Datenbank](/assets/images/installation/7/welcome-remote-backup.png)
 
 Bestätigen Sie mit "Weiter", es erscheint eine Informationsseite, die Ihnen kurz die Schritte aufzeigt, die von der Datenbank mit Beispieldaten zu einer Datenbank mit Realdaten führen.
 
-![Erste Schritte in MAGELLAN](/assets/images/installation/7/Welcome-erste-schritte.png)
+![Erste Schritte in Magellan](/assets/images/installation/7/Welcome-erste-schritte.png)
 
-Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von MAGELLAN. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
+Bestätigen Sie mit „Weiter“, es erscheint das Anmeldefenster von Magellan. Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort „masterkey“ ein. Die Einrichtung Ihres Servers oder Ihres Arbeitsplatzes ist fertig!
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/7/anmeldung.png)
 
 
-## Umstieg von MAGELLAN 6 nach MAGELLAN 7
+## Umstieg von Magellan 6 nach Magellan 7
 
 !!! info "Hinweis"
 
-    Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.fdb) und eine Beispieldatenbank (MAGELLAN7_Beispiel.fdb). Wenn Sie MAGELLAN gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.fdb. Eine Anleitung zur Datenübernahme von MAGELLAN 6 nach MAGELLAN 7 finden Sie im Abschnitt ["Daten aus MAGELLAN 6 nach MAGELLAN 7 übernehmen"](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/).
+    Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.fdb) und eine Beispieldatenbank (MAGELLAN7_Beispiel.fdb). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.fdb. Eine Anleitung zur Datenübernahme von Magellan 6 nach Magellan 7 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/).

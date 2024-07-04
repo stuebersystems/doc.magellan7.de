@@ -8,11 +8,11 @@
 [6]:/assets/images/zeugnisdaten/zeugnisdaten60.png
 [7]:/assets/images/zeugnisdaten/zeugnisdaten61.png
 
-Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finden diese Schülerdaten auf den Registerkarten `Laufbahn` und `Zeugnis` des Schülers. In diesem Kapitel werden sämtliche Eingaben der notwendigen Daten für den Zeugnisdruck beschrieben. Die Noteneingabe kann über zweierlei Wege erfolgen: zentral über MAGELLAN und dezentral über MyMAGELLAN. In diesem Kapitel wird die zentrale Noteneingabe beschrieben. Wie Sie auf Grundlage der erfassten Zeugnisdaten die Zeugnisse ausdrucken können, erfahren Sie im Kapitel `Formulare, Listen und Zeugnisse`.
+Dieses Kapitel befasst sich mit den zeitraumabhängigen Schülerdaten. Sie finden diese Schülerdaten auf den Registerkarten `Laufbahn` und `Zeugnis` des Schülers. In diesem Kapitel werden sämtliche Eingaben der notwendigen Daten für den Zeugnisdruck beschrieben. Die Noteneingabe kann über zweierlei Wege erfolgen: zentral über Magellan und dezentral über MyMagellan. In diesem Kapitel wird die zentrale Noteneingabe beschrieben. Wie Sie auf Grundlage der erfassten Zeugnisdaten die Zeugnisse ausdrucken können, erfahren Sie im Kapitel `Formulare, Listen und Zeugnisse`.
 
 !!! warning "Sehr wichtig!"
 
-    Die Zeugnisberichte erwarten bestimmte Eingaben in den Programmfeldern. Bitte schauen Sie als erstes im automatisch mitinstalliertem Modul MAGELLAN BERICHTE nach, welche Einstellungen und Eingaben der von Ihnen verwendete Zeugnisbericht erwartet!
+    Die Zeugnisberichte erwarten bestimmte Eingaben in den Programmfeldern. Bitte schauen Sie als erstes im automatisch mitinstalliertem Modul Magellan BERICHTE nach, welche Einstellungen und Eingaben der von Ihnen verwendete Zeugnisbericht erwartet!
 
 ## Vorbereitung
 
@@ -30,7 +30,7 @@ Die Fächer aus dem Verzeichnis, die an Ihrer Schule nicht unterrichtet werden, 
 !!! warning "Sehr wichtig!"
 
     Alle Berechnungsskripte und auch ein Teil der Zeugnisse setzen Eintragungen im Verzeichnis Fächer voraus. Bitte informieren Sie sich **vor** dem Erstellen der Fachtafeln über die notwendigen Eingaben, da das Verteilen per Fachtafel der bequemste Weg ist. 
-    Informationen zu Zeugnisberichten finden Sie im Modul MAGELLAN BERICHTE.
+    Informationen zu Zeugnisberichten finden Sie im Modul Magellan BERICHTE.
     Was pro Skript an Eingaben voraussetzt wird, können Sie in der Dokumentation [Landesanpassungen](http://doc.la.stueber.de/) nachlesen.
 
 ### Fachtafel
@@ -65,11 +65,11 @@ Ein neues Fach weisen Sie zu, indem Sie auf das Symbol `Neue Zeile` klicken. Es 
 |**Unerrichtsart**|verweist auf Verzeichnis `Unterrichtsarten`|
 |**Schwerpunkt**|verweist auf Verzeichnis `Fachschwerpunkte`|
 |**Niveau**|verweist auf Verzeichnis `Fachniveaus`|
-|**Kurs**|hier kann eine Kursnummer zugewiesen werden. In der Regel ist das nicht notwendig, da die Kursnummer dem Stundenplan von DAVINCI abgeholt werden kann.|
+|**Kurs**|hier kann eine Kursnummer zugewiesen werden. In der Regel ist das nicht notwendig, da die Kursnummer dem Stundenplan von DaVinci abgeholt werden kann.|
 |**Faktor**|Gewichtung des Fachs (nur BBS)|
-|**Position**|Positionierung auf dem Zeugnis <br/><br/> Die meisten der Zeugnisberichte benötigen zur Anzeige der Fächer eine per Position vorgegeben Reihenfolge. Bitte prüfen Sie vorab im Modul MAGELLAN BERICHTE ob es festgelegte Positionen pro Fach gibt, oder wie die Positionierung im Bericht erfolgt. Ein nachträgliches Zuweisen der Fachtafel macht fast immer mehr Mühe, Sie sollten die Positionen im besten Fall bereits per Fachtafel zuweisen.|
-|**Merkmal**|optionales Zeugnismerkmal, Hinweis pro Zeugnis in den MAGELLAN Landesanpassunge.|
-|**Lehrer**|unterrichtender Lehrer, Verweis aufs Menü `Lehrer`. Diese Information kann optional auch für die Schüler aus dem Stundenplan von DAVINCI abgeholt werden.|
+|**Position**|Positionierung auf dem Zeugnis <br/><br/> Die meisten der Zeugnisberichte benötigen zur Anzeige der Fächer eine per Position vorgegeben Reihenfolge. Bitte prüfen Sie vorab im Modul Magellan BERICHTE ob es festgelegte Positionen pro Fach gibt, oder wie die Positionierung im Bericht erfolgt. Ein nachträgliches Zuweisen der Fachtafel macht fast immer mehr Mühe, Sie sollten die Positionen im besten Fall bereits per Fachtafel zuweisen.|
+|**Merkmal**|optionales Zeugnismerkmal, Hinweis pro Zeugnis in den Magellan Landesanpassunge.|
+|**Lehrer**|unterrichtender Lehrer, Verweis aufs Menü `Lehrer`. Diese Information kann optional auch für die Schüler aus dem Stundenplan von DaVinci abgeholt werden.|
 |**Klasse**|Zusatzklasse, falls Fach in einer anderen Klasse belegt wird|
 |**Stammkurs**|wird nur in RLP verwendet|
 |**Endnote fortschreiben**|Note und Fach werden beim Fortschreiben der Schüler mit ins Folgehalbjahr übernommen|
@@ -99,12 +99,12 @@ Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler`
 
 !!! warning "Wichtig!"
 
-    Der Assistent zum Zuweisen von Fachtafeln wurde ab Version MAGELLAN 9 vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
+    Der Assistent zum Zuweisen von Fachtafeln wurde ab Version Magellan 9 vollständig überarbeitet. Bisher konnten bestehende Fächer durch Fächer aus der Fachtafel ersetzt werden oder sie konnten zusätzlich angelegt werden. 
     Vor dem Ersetzen der Fächer findet jetzt eine Prüfung statt. Ein bestehendes Fach wird nur gelöscht, wenn dem Fach unter `Schüler > Zeugnis > Leistungen` keine Note zugewiesen wurde. Geprüft werden sämtliche Notenfelder. Wurde dem Fach eine Note zugewiesen, wird diese Fach übersprungen und nicht neu angelegt. 
     Eine zusätzliche Prüfung vergleicht die Fächer und verhindert Dopplungen.
     Zusätzlich gibt es weitere Optionen, die das mehrfache Zuweisen eines Fachs gestatten oder auch das Löschen von Fächern mit Note erzwingen können.
     Für bereits zugewiesene Schülerfächer können zusätzlich zu `Position`, `Faktor`, `Merkmal` und `Lehrer` noch `Unterrichtsart` und `Fachstatus` ergänzt werden.
-    Ein Anleitung für ältere Versionen (bis MAGELLAN 8) finden Sie unter [https://doc.magellan.stueber.de/schulverwaltung/howto/fachtafel.bis.8](https://doc.magellan.stueber.de/schulverwaltung/howto/fachtafel.bis.8).
+    Ein Anleitung für ältere Versionen (bis Magellan 8) finden Sie unter [https://doc.magellan.stueber.de/schulverwaltung/howto/fachtafel.bis.8](https://doc.magellan.stueber.de/schulverwaltung/howto/fachtafel.bis.8).
 
 Sie weisen Schülern Fächer und Leistungen auf der Registerkarte `Zeugnis` zu. Durch das Zuweisen von Fachtafeln können Sie einem oder mehreren Schülern die zuvor definierten Fachtafeln zuweisen.
 

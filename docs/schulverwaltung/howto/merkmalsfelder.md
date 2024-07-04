@@ -1,6 +1,6 @@
 # Merkmalsfelder einrichten und umbenennen
 
-Für die Menüpunkte Schüler, Bewerber, Klassen, Lehrer, Schulen und Mandanten gibt es jeweils die Möglichkeit auch eigene Daten zu erfassen, für die MAGELLAN kein spezielles Feld anbietet. Merkmalsfelder gibt es in verschiedenen Feldtypen, einige zur freien Verwendung, andere sind zum Beispiel für aktuelle oder auch zukünftige statistische Angaben reserviert.
+Für die Menüpunkte Schüler, Bewerber, Klassen, Lehrer, Schulen und Mandanten gibt es jeweils die Möglichkeit auch eigene Daten zu erfassen, für die Magellan kein spezielles Feld anbietet. Merkmalsfelder gibt es in verschiedenen Feldtypen, einige zur freien Verwendung, andere sind zum Beispiel für aktuelle oder auch zukünftige statistische Angaben reserviert.
 
 ## Welche Merkmalsfelder gibt es?
 
@@ -106,7 +106,7 @@ Beispiel: Für den Schüler/Bewerber wird ein neues Merkmal angelegt, dieses Mer
 Es möglich für die Merkmalsfelder auch eigene Bezeichnungen anzulegen. Die Umbenennung eines Merkmalsfeldes gilt für die gesamte Datenbank, d.h. alle Benutzer bekommen die neue Bezeichnung dann für das jeweilige Feld angezeigt. 
 Die neue und die ehemalige Bezeichnung werden in der Datenbank gespeichert, Sie können damit jederzeit den ursprüngliche Namen ansehen und auch wieder herstellen. 
 
-Öffnen Sie in MAGELLAN den Punkt `Extras > Bezeichnungen anpassen`. Bitte achten Sie darauf, die Änderung für die korrekte Ansicht durchzuführen, in diesem Fenster werden alle Merkmalsfelder für alle Ansichten angeboten.
+Öffnen Sie in Magellan den Punkt `Extras > Bezeichnungen anpassen`. Bitte achten Sie darauf, die Änderung für die korrekte Ansicht durchzuführen, in diesem Fenster werden alle Merkmalsfelder für alle Ansichten angeboten.
 
 ![Eine Bezeichnung anpassen](/assets/images/merkmalsfelder/merkmalsfeld2.png)
 

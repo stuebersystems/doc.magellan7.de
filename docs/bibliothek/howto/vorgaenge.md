@@ -28,7 +28,7 @@ Die geänderten Einstellungen werden mit dem nächsten Aufruf der Ansicht `Vorg�
 
     Wenn Sie den Wert 0 Tage eintragen, werden Ihre abgeschlossenen Vorgänge zu keiner Zeit gelöscht.
 
-![MAGELLAN Optionen, Einstellungen zur Historie](/assets/images/bibliothek/leihvorgaenge02.png)
+![Magellan Optionen, Einstellungen zur Historie](/assets/images/bibliothek/leihvorgaenge02.png)
 
 !!! info "Hinweis"
 

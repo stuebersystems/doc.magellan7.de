@@ -4,13 +4,13 @@
 
 ## Kataloge (Schlüsselverzeichnisse) importieren
 
-Mit dieser Option können Sie die Schlüsselverzeichnisse Ihrer Region in die MAGELLAN-Datenbank importieren. Sie können diesen Import jederzeit wiederholen, um beispielsweise bestehende Schlüsselverzeichnisse auf den neuesten Stand zu bringen.
+Mit dieser Option können Sie die Schlüsselverzeichnisse Ihrer Region in die Magellan-Datenbank importieren. Sie können diesen Import jederzeit wiederholen, um beispielsweise bestehende Schlüsselverzeichnisse auf den neuesten Stand zu bringen.
 
-Für MAGELLAN existieren Anpassungen an die Bestimmungen einzelner Bundesländer bzw. bestimmter Schularten. Diese Anpassungen richten sich u. a. danach, ob die jeweiligen Stellen der Statistikämter, Kultusministerien bzw. Schulträger entsprechende Datentransferformate usw. anbieten. Durch die Landesanpassung werden die Bereiche Statistik und Oberstufenverwaltung, als auch die Zeugnisse abgedeckt. Um eine MAGELLAN-Datenbank mit neuen Schlüsselverzeichnissen zu aktualisieren bzw. Schlüssel in eine leere MAGELLAN-Datenbank zu importieren, müssen Sie die Option „Schlüsselverzeichnisse importieren“ wählen.
+Für Magellan existieren Anpassungen an die Bestimmungen einzelner Bundesländer bzw. bestimmter Schularten. Diese Anpassungen richten sich u. a. danach, ob die jeweiligen Stellen der Statistikämter, Kultusministerien bzw. Schulträger entsprechende Datentransferformate usw. anbieten. Durch die Landesanpassung werden die Bereiche Statistik und Oberstufenverwaltung, als auch die Zeugnisse abgedeckt. Um eine Magellan-Datenbank mit neuen Schlüsselverzeichnissen zu aktualisieren bzw. Schlüssel in eine leere Magellan-Datenbank zu importieren, müssen Sie die Option „Schlüsselverzeichnisse importieren“ wählen.
 
 Feld                                     | Bedeutung
 ---------------------------------------- | ---------
-Importiere für folgendes Land/Bundesland | Wählen Sie Ihr Bundesland oder Land aus.<br/>Der Assistent bietet Schlüsselverzeichniskataloge aus dem gleichnamigen Verzeichnis im Verzeichnis Importe (standardmäßig auf Ihrem MAGELLAN-Serverrechern). Ein Spezieller Wert stellt `Benutzer` dar. Dieser wird im weiteren Verlauf näher beschrieben.
+Importiere für folgendes Land/Bundesland | Wählen Sie Ihr Bundesland oder Land aus.<br/>Der Assistent bietet Schlüsselverzeichniskataloge aus dem gleichnamigen Verzeichnis im Verzeichnis Importe (standardmäßig auf Ihrem Magellan-Serverrechern). Ein Spezieller Wert stellt `Benutzer` dar. Dieser wird im weiteren Verlauf näher beschrieben.
 Importiere folgende Schlüssel            | Es gibt die Auswahl Schlüssel für allgemeinbildende Schulen oder berufsbildende Schulen.<br/>Katalogedateien können mit 00_, AS_ oder BS_ beginnen. Für allgemeinbildende Schulen werden Dateien mit 00_ und AS_ importiert, für berufsbildende Schulen werden Dateien mit 00_ und BS_ importiert.
 Importiere für den folgenden Mandanten   | Wählen Sie den Zielmandanten aus
 Importiere folgenden Katalog             | Sie können eine einzelne Datei oder alle zutreffenden Datei einlesen lassen.
@@ -93,7 +93,7 @@ Als Ergebnis haben Sie damit nur die korrekten Schlüssel als aktive Werte marki
 Feld                  | Hinweis
 --------------------- | -------
 Kuerzel               | dieser Wert muss pro Zeile gefüllt werden, darf aber nur einmalig innerhalb eines Verzeichnisses verwendet werden.
-Zeichenlänge pro Feld | Die Gesamtzeichenlänge darf nicht überschritten werden. Bitte beachten Sie hierzu das Dokument [MAGELLAN 7 - Datenstruktur](https://doc.magellan7-toolbox.stueber.de/datenstruktur/).
+Zeichenlänge pro Feld | Die Gesamtzeichenlänge darf nicht überschritten werden. Bitte beachten Sie hierzu das Dokument [Magellan 7 - Datenstruktur](https://doc.magellan7-toolbox.stueber.de/datenstruktur/).
 
 ## Postleitzahlen und Banken importieren
 
@@ -113,17 +113,17 @@ Importiere folgenden Katalog  | Alle Kataloge
 
 ![Das Fenster `Importiere Postleitzahlen`](/assets/images/magellan.administrator/importiere.plz.png)
 
-## Daten über das MAGELLAN-Importformat importieren
+## Daten über das Magellan-Importformat importieren
 
 !!! warning "Wichtig"
 
-    Die nachstehende Beschreibung setzt mindestens die MAGELLAN-Ausgabe 7.1.4 voraus.
+    Die nachstehende Beschreibung setzt mindestens die Magellan-Ausgabe 7.1.4 voraus.
 
-Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
+Das Magellan-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die Magellan-Datenbank.
 
 ### Vorbereitung
 
-Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan-toolbox.stueber.de/importe/) vor.
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [Magellan-Importformat](https://doc.magellan-toolbox.stueber.de/importe/) vor.
 
 !!! tip "Tipp"
 
@@ -158,9 +158,9 @@ schueler_ausbildung.import.csv | Enthält die Ausbildungsdaten der Schüler
 |Klicken Sie auf `Fertigstellen`! <br/>Das Einlesen oder Prüfen, je nach Ihrer Auswahl auf der vorangegangenen Seite, geschieht dateiweise. Es werden im Fenster die Meldungen des Einlesens oder des Prüfens für die Dateien gezeigt. Im Anschluss erscheint ein Fenster, in dem Sie entscheiden können, die nächste Datei einlesen oder prüfen zu lassen. Die eventuell zuvor ausgegebenen Meldungen bleiben in der Liste bestehen und werden ggfs. durch weitere Meldungen ergänzt.<br/>Entstandene Meldungen können Sie exportieren.<br/>Nach Abschluss der Prüfung oder des Einlesens schließen Sie den Assistenten.|
 |**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import03.png">|
 
-## MAGELLAN DataCenter starten
+## Magellan DataCenter starten
 
 **Derzeit nicht veröffentlich**
 
-Das MAGELLAN DataCenter ermögicht Ihnen die Konvertierung von Daten fremder Anbieter in das MAGELLAN-Importformat. Es werden verschiedene Quelldatenbank- und Quellsysteme untestützt.
+Das Magellan DataCenter ermögicht Ihnen die Konvertierung von Daten fremder Anbieter in das Magellan-Importformat. Es werden verschiedene Quelldatenbank- und Quellsysteme untestützt.
 Anhand von Prüfungs- und Konvertierungsregeln können Sie nicht konforme Daten entweder ersetzen oder überspringen. Zusätzlich können komplexe Konvertierungsroutinen per JavaScript-Technologie implementiert werden.

@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in MAGELLAN. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan CENTER werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
 Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https://doc.magellan.stueber.de/changelog/changelog2023/), [2022](https://doc.magellan.stueber.de/changelog/changelog2022/), [2021](https://doc.magellan.stueber.de/changelog/changelog2021/), [2020](https://doc.magellan.stueber.de/changelog/changelog2020/), [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
 
@@ -8,15 +8,15 @@ Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https:/
 
 !!! important "Wichtig"
 
-    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten MAGELLAN Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
+    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten Magellan Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
-    **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
+    **Log4Shell-Schwachstelle**: Unsere Software-Produkte Enbrea, DaVinci, Magellan, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
 
-!!! danger "Support für MAGELLAN 10 endet"
+!!! danger "Support für Magellan 10 endet"
 
-    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für Magellan 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen Magellan 11 ein!
 
 ## LEGENDE
 
@@ -32,7 +32,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * NEW: `MVP-FG-AZ (Qualifikationsphase)(A3)(2024)`
 * CHANGE: `MVP-FG-AZ (Qualifikationsphase)(2024)`: Ausgabe des 1.PF, 2.PF, BSF berücksichtigt die Unterrichtsarten HF oder LK
@@ -42,7 +42,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 ### Version 11.0.6 1101 (01.07.2024)
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Problem beim Synchronsieren der Zugriffsrechte bei gelöschten Benutzern behoben
 * FIX: Problem beim gesammelten Erzeugen von Passworten gelöst
@@ -59,20 +59,20 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * CHANGE: `SHL-GY-ABI (2020)` Nummerierung der Prüfungsfächer auf Seite 3 ausgeschrieben
 * CHANGE: `MVP-FG-AZ (Qualifikationsphase)(2024).rpt` Ausgabe Berufliches Schwerpunktfach und Leistungskurs
 
 ### Version 11.0.5 1101 (20.06.2024)
 
-#### MAGELLAN
+#### Magellan
 
 * FIX: Eintrag `Klasse > Klassenart` wird korrekt übernommen in `Auswahlliste Schüler > Klassenart`
 * FIX: `Bewerber > Suche`
 * NEW: erste Version der neuen Schnittstelle mit der [Berliner LUSD](https://doc.ls.stueber.de/berlin/06.lusd/)
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * NEW: Die Import der `*.keys` ist für den Import der Verzeichnisse `Muttersprachen` und `Staatsangehörigkeiten` für Berliner Schulen ergänzt worden. Die Anleitung finden Sie [hier](https://doc.ls.stueber.de/berlin/06.lusd/).
 
@@ -99,7 +99,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * NEW: `BER-Schul Z 259 (03.23).rpt`
 * NEW: `BER-Abi-8a – Mitteilung der Noten und Punkte des 4. Kurshalbjahres (VO-KA) – (05.20).rpt`
@@ -124,7 +124,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 ### Version 11.0.4 1101 (27.03.2024)
 
-#### MAGELLAN
+#### Magellan
 
 * CHANGE: `Bewerber/Schüler > Bewerber > Sammelzuweisung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
 * NEW: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweisung` und `Schüler > Schüler > Sammelzuweisung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
@@ -132,7 +132,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
 * CHANGE: Schülerpersonalblatt (mit Fremdsprachenfolge).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
 * CHANGE: Schülerliste (zeitraumübergreifende Fehlzeiten).rpt: Als Zu- und Abgangsdaten für die Laufbahn werden die Zu- und Abgänge zu den Klassen unter `Schueler > Laufbahn` verwendet
@@ -152,7 +152,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 * FIX: Skript `NRW-APO-BK-2018.dws` neu einsetzende Fremdsprache, Korrektur zu optimalen Punktzahl, [Download hier!](https://my.hidrive.com/lnk/FqWnMJhAY)
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Die Sortierung in der Ansicht "Kontrolle nach Klassen" wurde korrigiert.
 
@@ -160,13 +160,13 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 !!! danger "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstrukturänderung
 
 * FIX: Trigger in `SchuelerABIDetails` für die Felder `HJ1_Bestanden_Eingebracht`-`HJ6_Bestanden_Eingebracht`
 
-#### MAGELLAN
+#### Magellan
 
 * CHANGE: Sammelzuweisung Schüler/Bewerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
 * FIX: Problem im Skript `Schüler korrigieren` behoben (`Schüler korrigieren` nach `Schüler wechseln` in die Ausgangsklasse, Schüler wird nicht angezeigt)
@@ -174,13 +174,13 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 * FIX: Export/Import SAXSVS mit Lizenz Landesstatistik 2023 ermöglicht
 * NEW: `Extras > Import > Schnittstelle SchülerOnline` mit der Bundeslandeinstellung Niedersachsen ermöglicht [Abgleich SchülerOnline](https://doc.magellan.stueber.de/schulverwaltung/regionales/nrw/schueleronline/?h=sch%C3%BCler)
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Wenn noch keine Zeugnisbemerkung für einen Schüler angelegt wurde, ist das Editiersymbol (Stift) deaktiviert. [Vorabdownload](https://my.hidrive.com/lnk/DpREtWUH)
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * FIX: `NRW-BKO-ABI.rpt` Filterung der Abiturzeugnisbemerkungen nach dem ausgewählten Halbjahr
 * FIX: `DAS-ZZ (Q-Phase)(Anlage 1)(RiLi 1.6)(ab 2020).rpt` (Anzeige des Faches Landessprache unter "2.Fächer auf grundlegendem Anforderungsniveau" korrigiert)
@@ -202,7 +202,7 @@ Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
 
-* CHANGE: SQLUpdate-Skripte aus Version 10 ergänzt, damit kann ausgehend von einer beliebigen Ausgabe von MAGELLAN 10 der Umstieg erfolgen.
+* CHANGE: SQLUpdate-Skripte aus Version 10 ergänzt, damit kann ausgehend von einer beliebigen Ausgabe von Magellan 10 der Umstieg erfolgen.
 * FIX: Skript `NRW-APO-BK-2018.dws` fehlerhafte Zulassungsberechnung (zu wenige Kurse) bei vielen Defiziten
 * NEW: `SHL-APO-2020.dws`
 
@@ -216,33 +216,33 @@ Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog
 
 #### Berichte
 
-Berichte für MAGELLAN 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 * NEW: `Schülerliste (Prüfungsfächer Fachwahlkarte).rpt`
 * NEW: `Schülerliste (Prüfungsfächer Qualifikationskarte).rpt`
 
 ## Version 10
 
-!!! danger "Support für MAGELLAN 10 endet"
+!!! danger "Support für Magellan 10 endet"
 
-    Bitte beachten Sie, dass die Unterstützung für MAGELLAN 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen MAGELLAN 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für Magellan 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen Magellan 11 ein!
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Wenn noch keine Zeugnisbemerkung für einen Schüler angelegt wurde, ist das Editiersymbol (Stift) deaktiviert. [Download](https://my.hidrive.com/lnk/c6xEN821)
 
 ### Version 10.0.12 1003 (24.01.2024)
 
-!!! warning "Letzte Ausgabe von MAGELLAN 10"
+!!! warning "Letzte Ausgabe von Magellan 10"
 
-    Dieses Update ist die letzte Ausgabe von MAGELLAN 10, weitere Änderungen stellen wir ggfs. als Download zur Verfügung oder veröffentlichen sie innerhalb der nachfolgenden Ausgabe MAGELLAN 11.
+    Dieses Update ist die letzte Ausgabe von Magellan 10, weitere Änderungen stellen wir ggfs. als Download zur Verfügung oder veröffentlichen sie innerhalb der nachfolgenden Ausgabe Magellan 11.
 
-#### MAGELLAN
+#### Magellan
 
 * FIX: SDTF-Synchronisation: Nur Daten des eigenen Mandanten sind sichtbar.
 * CHANGE: Sammelzuweisung Schüler/Bwerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
 
-#### MyMAGELLAN Center
+#### MyMagellan Center
 
 * FIX: Personalnummer (nicht editierbar) wird korrekt importiert. 
 

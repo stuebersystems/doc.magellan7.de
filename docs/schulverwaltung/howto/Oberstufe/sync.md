@@ -86,14 +86,14 @@ Es werden Ihnen nur Schüler angeboten, die in einer Klasse sind, die eine der o
 ![Dialogfenster zum Synchronisieren der Daten für das Abitur](/assets/images/gym_oberstufe/gym_oberstufe03.png)
 
 
-|Beim Synchronisieren prüft MAGELLAN die `Klassenart` unter `Klasse > Daten`|
+|Beim Synchronisieren prüft Magellan die `Klassenart` unter `Klasse > Daten`|
 |--|
-|** Oberstufenjahrgang (Leistungs- und Grundkurse)** <br/> **Oberstufenjahrgang (nur Kurse)**<br/><br/>MAGELLAN synchronisiert die Schülerdaten, Schülerfachdaten und in den Halbjahren erfassten Leistungen.|
-|** Standard mit Oberstufensynchronisation**<br/><br/>MAGELLAN synchronisiert die Schülerdaten als Voraussetzung für die Fachwahl, keine Fächer oder Leistungen. In der Regel trägt man diese Klassenart für den Jahrgang 10 ein, da die Schüler sich in der Jahrgangsstufe 10 für die Fachwahl in der Oberstufe entscheiden.
+|** Oberstufenjahrgang (Leistungs- und Grundkurse)** <br/> **Oberstufenjahrgang (nur Kurse)**<br/><br/>Magellan synchronisiert die Schülerdaten, Schülerfachdaten und in den Halbjahren erfassten Leistungen.|
+|** Standard mit Oberstufensynchronisation**<br/><br/>Magellan synchronisiert die Schülerdaten als Voraussetzung für die Fachwahl, keine Fächer oder Leistungen. In der Regel trägt man diese Klassenart für den Jahrgang 10 ein, da die Schüler sich in der Jahrgangsstufe 10 für die Fachwahl in der Oberstufe entscheiden.
 
 !!! info "Hinweis"
 
-	 MAGELLAN extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
+	 Magellan extrahiert für die markierten Schüler die Fachdaten der Halbjahre 11/1 bis 13/2 (bei G9) bzw. 10/1 bis 12/2 (bei G8) und ordnet die Daten in den Spalten E1 bis Q4 auf der Qualifikationskarte im Menü Abitur an. 
      Ob die Schülerdaten passend nach dem G8- oder G9-System angeordnet werden, legen Sie im Verzeichnis `Verordnungen` in der Spalte `Jahrgang` an. Was genau Sie dort eintragen, beschreiben wir pro Berechnungsskript in der Dokumentation [Landesanpassungen](https://doc.la.stueber.de/).
 
 ![Klassenart für die Oberstufenberechnungen](/assets/images/gym_oberstufe/oberstufe02.png)

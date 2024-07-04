@@ -1,6 +1,6 @@
 # Prüfungsnummer generieren
 
-Um die Reihenfolge für Prüfungen festzulegen, können in MAGELLAN Prüfungsnummern generiert werden. 
+Um die Reihenfolge für Prüfungen festzulegen, können in Magellan Prüfungsnummern generiert werden. 
 
 ## Vorbereitung
 

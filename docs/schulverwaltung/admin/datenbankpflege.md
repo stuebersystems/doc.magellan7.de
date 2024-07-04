@@ -28,14 +28,14 @@ Diese Funktion setzt für alle Bewerber, die nur eine Ausbildung unter `Bewerber
 
 ## Code 128 generieren
 
-Legt für Schüler, Lehrer und Personen fehlende Barcodes (Code 128) an. Für direkt in MAGELLAN angelegte Schüler, Lehrer oder Personen wird dieser Barcode automatisch erzeugt. Für alte Datenbestände oder importierte Datensätze kann dieser Barcode für Schülerausweise auf diesem Weg nachträglich erzeugt werden.
-Der für die Bibliothek für die Medienausleiher(Schüler, Lehrer, Personen) erzeugte Barcode hat hiermit nichts zu tun. Dieser gesonderte Barcode wird erzeugt, wenn ein Schüler/Lehrer/Person als Medienausleiher in die MAGELLAN Bibliothek übernommen wird.
+Legt für Schüler, Lehrer und Personen fehlende Barcodes (Code 128) an. Für direkt in Magellan angelegte Schüler, Lehrer oder Personen wird dieser Barcode automatisch erzeugt. Für alte Datenbestände oder importierte Datensätze kann dieser Barcode für Schülerausweise auf diesem Weg nachträglich erzeugt werden.
+Der für die Bibliothek für die Medienausleiher(Schüler, Lehrer, Personen) erzeugte Barcode hat hiermit nichts zu tun. Dieser gesonderte Barcode wird erzeugt, wenn ein Schüler/Lehrer/Person als Medienausleiher in die Magellan Bibliothek übernommen wird.
 
 ![Klicken Sie auf `Ausführen`](/assets/images/magellan.administrator/code128.png)
 
 ## Mandanten kopieren
 
-Kopiert MAGELLAN-Daten in eine andere MAGELLAN-Datenbank zur Datenübernahme einer MAGELLAN 6 Datenbank
+Kopiert Magellan-Daten in eine andere Magellan-Datenbank zur Datenübernahme einer Magellan 6 Datenbank
 
 * Datenrettung bei erfolglosem Versuch einer Datenbankreparatur (Datapump)
 * Zusammenführen von Daten zweier Datenbanken in eine Datenbank mit zwei Mandanten
@@ -88,7 +88,7 @@ Wechseln Sie mit `Weiter` auf die nächste Karte, die Prüfung durchsucht die Ze
 
 Für unser Beispiel sieht man in der nachstehenden Abbildung auf der linken Seite die Schüler der Klasse 12, nur drei der Schüler sind ausgeschult, nur diese werden vom Assistenten gezeigt. 
 
-[![Vergleich MAGELLAN und Prüfung des Assistenten][4]][4]
+[![Vergleich Magellan und Prüfung des Assistenten][4]][4]
 
 Wechseln Sie mit `Weiter` auf die nächste Karte und klicken Sie auf `Sichern`. Bevor Ihre Aktion ausgeführt wird, muss eine Sicherung der Datenbank auf dem Stand vor Ihrer Änderung erstellt werden. Der Assistent liest Ihre Einstellungen zur Datensicherung aus den Verbindungseinstellungen aus, erstellt die Sicherung und speichert sie.
 Es wird parallel zur Datenbanksicherung auch eine Excelliste mit den Schülerdatensätzen zur Nachkontrolle erzeugt. Die Ablagestelle für die Sicherung der Datenbank und die Protokolllisten ergeben sich aus Ihren Eintragungen in der Verbindung zur Datenbank.
@@ -101,10 +101,10 @@ Wechseln Sie mit `Weiter` auf die nächste Karte und klicken auf `Fertigstellen`
 
 ![Sorgeberechtigte inaktiv setzen](/assets/images/magellan.administrator/012.png)
 
-Beim Ausschulen von Schülern, gibt es die Möglichkeit parallel die Sorgeberechtigten zu inaktivieren. MAGELLAN prüft, ob es noch aktive Geschwisterkinder gibt und wenn nicht, wird der Status des Sorgeberechtigten auf inaktiv gesetzt. Damit haben Sie die Übersicht innerhalb des Menüs `Sorgeberechtigte`, ob die Datensätze noch mit aktiven Schülerdatensätzen verbunden sind oder nicht. Davon ausgehend können auch Sorgeberechtigten-Datensätze in der Liste gefiltert oder auch ggfs. gelöscht werden.
+Beim Ausschulen von Schülern, gibt es die Möglichkeit parallel die Sorgeberechtigten zu inaktivieren. Magellan prüft, ob es noch aktive Geschwisterkinder gibt und wenn nicht, wird der Status des Sorgeberechtigten auf inaktiv gesetzt. Damit haben Sie die Übersicht innerhalb des Menüs `Sorgeberechtigte`, ob die Datensätze noch mit aktiven Schülerdatensätzen verbunden sind oder nicht. Davon ausgehend können auch Sorgeberechtigten-Datensätze in der Liste gefiltert oder auch ggfs. gelöscht werden.
 Sollte das Häkchen beim Ausschulen nicht konsequent genutzt worden sein oder fehlt der Status durch einen Import, können Sie mit dieser Funktion die Daten nachträglich überprüfen lassen.
-Im ersten Schritt empfehlen wir in MAGELLAN alle Sorgeberechtigten-Datensätze zu aktivieren. Sie markieren dazu alle Zeilen im Menü `Sorgeberechtigte` mit bspsw. mit `STRG+A` und wählen `Rechtsklick > Status zuweisen > neuer Status > aktiver Sorgeberechtigter`.
-Anschließend nutzen Sie den Assistenten im MAGELLAN Administrator und wählen einen Mandanten und einen Zeitraum, von dem ausgehend geprüft werden soll. 
+Im ersten Schritt empfehlen wir in Magellan alle Sorgeberechtigten-Datensätze zu aktivieren. Sie markieren dazu alle Zeilen im Menü `Sorgeberechtigte` mit bspsw. mit `STRG+A` und wählen `Rechtsklick > Status zuweisen > neuer Status > aktiver Sorgeberechtigter`.
+Anschließend nutzen Sie den Assistenten im Magellan Administrator und wählen einen Mandanten und einen Zeitraum, von dem ausgehend geprüft werden soll. 
 
 ![Assistent](/assets/images/magellan.administrator/013.png)
 

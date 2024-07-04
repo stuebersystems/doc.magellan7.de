@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-Sie können den gesamten Schriftverkehr über MAGELLAN verwalten. Um alle Briefe, die Sie über MAGELLAN an Schüler, Bewerber, Betriebe, Sorgeberechtigte, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz in der Auswahlliste, klicken Sie mit der rechten Maustaste darauf und wählen Sie `Dokumente`. Optional können Sie diesen Punkt auch über `Bearbeiten`, über das Ordnersymbol in der Menüleiste am oberen Fensterrand oder über die Tastenkombination `STRG+D` aufrufen. Das Fenster Dokumente von Person (Person bezieht sich auf den Namen der markierten Person) öffnet sich.
+Sie können den gesamten Schriftverkehr über Magellan verwalten. Um alle Briefe, die Sie über Magellan an Schüler, Bewerber, Betriebe, Sorgeberechtigte, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz in der Auswahlliste, klicken Sie mit der rechten Maustaste darauf und wählen Sie `Dokumente`. Optional können Sie diesen Punkt auch über `Bearbeiten`, über das Ordnersymbol in der Menüleiste am oberen Fensterrand oder über die Tastenkombination `STRG+D` aufrufen. Das Fenster Dokumente von Person (Person bezieht sich auf den Namen der markierten Person) öffnet sich.
 
 ![Hier können Sie alle Dokumente einsehen, indem Sie diese anklicken.](/assets/images/seriendruck/seriendruck13.png)
 
@@ -48,7 +48,7 @@ Sie können alle Schlüsselverzeichnisse exportieren und ausdrucken, indem Sie d
 
 Klicken Sie auf `Speichern`. Excel öffnet die neue Datei, in der Sie die Schlüsselverzeichnisse bearbeiten und dann ausdrucken können.
 
-![Dies ist die Anzeige eines aus MAGELLAN exportierten Schlüsselverzeichnisses in Excel.](/assets/images/seriendruck/seriendruck19.png)
+![Dies ist die Anzeige eines aus Magellan exportierten Schlüsselverzeichnisses in Excel.](/assets/images/seriendruck/seriendruck19.png)
 
 ### Auswahllisten exportieren
 
@@ -60,7 +60,7 @@ Zum Exportieren der Daten nach Excel, klicken Sie in der Menüleiste auf die Sch
 
 Wählen Sie einen Dateinamen und einen Pfad, unter dem die Excel-Tabelle, die erstellt wird, abgespeichert werden soll. Klicken Sie auf Speichern. Excel öffnet sich. Sie können die Tabelle jetzt bearbeiten und wie gewohnt ausdrucken.
 
-![Dies ist die Anzeige eines aus MAGELLAN exportierten Schlüsselverzeichnisses in Excel](/assets/images/seriendruck/seriendruck21.png)
+![Dies ist die Anzeige eines aus Magellan exportierten Schlüsselverzeichnisses in Excel](/assets/images/seriendruck/seriendruck21.png)
 
 ### Berichte und Zeugnisse exportieren aus der Druckvorschau
 
@@ -79,7 +79,7 @@ Dafür wird beim Druck eine Option angeboten, damit parallel zum Ausdruck auch e
 
 Beispiel:<br/>Sie markieren in der Schülerauswahlliste eine Auswahl von Schülern, wählen einen Bericht und lassen diesen als gefülltes PDF je Schüler in ein schülerindividuelles Verzeichnis speichern.
 Würden Sie einen Bericht aus dem Menü Klassen nutzen, würde das gefüllte PDF je Klasse in eine Verzeichnis gespielt werden.
-Bevor es losgehen kann, stellen Sie in den Optionen Ihrer MAGELLAN Anwendung bitte noch ein drei Dinge ein:
+Bevor es losgehen kann, stellen Sie in den Optionen Ihrer Magellan Anwendung bitte noch ein drei Dinge ein:
 
 1. Ob die Option zur Verfügung stehen soll
 2. Ob im Verzeichnis des Datensatzes die Datei direkt abgelegt werden soll, oder ein Unterverzeichnis verwendet werden soll
@@ -97,14 +97,14 @@ Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jew
 
 Ein Beispiel für einen Schülerbericht: <br/>Sie markieren drei Schüler, wählen einen Bericht, wählen `Exportieren nach PDF`, dann wird auf Ihrem Server unter `...Dokumente > Schueler` für jeden der Schüler ein Verzeichnis mit der ID des Schülers genutzt/angelegt und in dieses Verzeichnis der gefüllte Bericht als PDF-Datei abgelegt. Haben Sie in den Optionen ein Unterverzeichnis "Berichte" angegeben, würde der Bericht nicht direkt in den Schülerordner gespielt, sondern ggfs. noch ein innerhalb des Schülerordners in Ihr angegebenes Verzeichnis (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Berichte`).
 
-Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.
+Die exportierten Dateien können Sie von jedem Magellan-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte PDF-Datei in Ihrer gewählten Struktur.
 
 #### Für den Seriendruck 
 
 Beim Seriendruck ist das Ergebnis ein Seriendruckdokument, dass Ihre Vorlage und die Daten aus der Seriendruckquelle verbunden zeigt. Diese Daten als einzelne Dokumente zu speichern ist aus Word oder LibreOffice möglich, aber nicht komfortabel.
-Nutzt man eine vorbereitete aktualisierte Seriendruckvorlage und markiert in MAGELLAN Datensätze, kann MAGELLAN bevor sich Word oder LibreOffice öffnen bereits die Vorlage und die Daten aus MAGELLAN verbinden und als einzelne Dateien in der Dokumentenverwaltung je Datensatz speichern.
+Nutzt man eine vorbereitete aktualisierte Seriendruckvorlage und markiert in Magellan Datensätze, kann Magellan bevor sich Word oder LibreOffice öffnen bereits die Vorlage und die Daten aus Magellan verbinden und als einzelne Dateien in der Dokumentenverwaltung je Datensatz speichern.
 
-Bevor es losgehen kann, stellen Sie in den Optionen Ihrer MAGELLAN Anwendung bitte noch ein drei Dinge ein:
+Bevor es losgehen kann, stellen Sie in den Optionen Ihrer Magellan Anwendung bitte noch ein drei Dinge ein:
 
 1. Ob die Option zur Verfügung stehen soll
 2. Ob im Verzeichnis des Datensatzes die Datei direkt abgelegt werden soll, oder ein Unterverzeichnis verwendet werden soll
@@ -122,6 +122,6 @@ Sind die Einstellungen erfolgt, wird Ihnen die nachstehende Option im Seriendruc
 Wählen Sie eine der Optionen wird eine gefüllte Kopie des Berichtes in das jeweilige Verzeichnis des Datensatzes abgelegt.
 
 Ein Beispiel für einen Seriendruck an Schüler: 
-Sie markieren drei Schüler, starten den Seriendruck mit `STRG+S` oder `Start > Seriendruck`, wählen die Datenquelle (im Beispiel `an alle markierten Schüler`), klicken auf `Weiter` und wählen auf der nächsten Karte die oberste Option und hre gewünschte Schüler-Serienbriefvorlage. Führen Sie den Assistenten aus, für die markierten Schülerdatensaätze wird die Vorlage mit den Daten aus MAGELLAN verbunden und als schülerindividuelle Datei in das Dokumenteverzeichnis des Schülers (auf Ihrem Server unter `...Dokumente > Schueler` ) abgelegt. Haben Sie in den Optionen ein Unterverzeichnis (im Beispiel das Verzeichnis "Seriendruck") mit angegeben, wird diese im schülerindividuellen Verzeichnis entweder erkannt oder angelegt und dort dann gespeichert (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Seriendruck`). 
+Sie markieren drei Schüler, starten den Seriendruck mit `STRG+S` oder `Start > Seriendruck`, wählen die Datenquelle (im Beispiel `an alle markierten Schüler`), klicken auf `Weiter` und wählen auf der nächsten Karte die oberste Option und hre gewünschte Schüler-Serienbriefvorlage. Führen Sie den Assistenten aus, für die markierten Schülerdatensaätze wird die Vorlage mit den Daten aus Magellan verbunden und als schülerindividuelle Datei in das Dokumenteverzeichnis des Schülers (auf Ihrem Server unter `...Dokumente > Schueler` ) abgelegt. Haben Sie in den Optionen ein Unterverzeichnis (im Beispiel das Verzeichnis "Seriendruck") mit angegeben, wird diese im schülerindividuellen Verzeichnis entweder erkannt oder angelegt und dort dann gespeichert (`...Dokumente > Schueler > Verzeichnis mit SchülerID > Seriendruck`). 
 
-Die exportierten Dateien können Sie von jedem MAGELLAN-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte Datei in Ihrer gewählten Struktur.
+Die exportierten Dateien können Sie von jedem Magellan-Arbeitsplatz wieder einsehen. Sie markieren dafür den Schüler in der Auswahlliste und wählen `STRG+D` oder wählen `Start > Dokumente`. Es wird das Schülerverzeichnis aufgerufen, Sie sehen die abgelegte Datei in Ihrer gewählten Struktur.

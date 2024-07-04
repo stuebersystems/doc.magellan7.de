@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in MAGELLAN. Änderungen im Modul MyMAGELLAN CENTER werden hier veröffentlicht, Änderungen im Modul MyMAGELLAN veröffentlichen wir im MyMAGELLAN Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan CENTER werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
 * Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
 
@@ -14,18 +14,18 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 !!! danger "Achtung"
 
     Das Vorgehen für die Installation hat sich seit der 9.5.0 geändert.<br/>
-     - **MAGELLAN** gibt es jetzt die Varianten **64-Bit und 32-Bit**.<br/> 
+     - **Magellan** gibt es jetzt die Varianten **64-Bit und 32-Bit**.<br/> 
      - Die für den Druck benötigte **Runtime-Version von Crystal Reports** ist nicht mehr Teil des Installationspaketes, sondern wird **gesondert auf allen Clients und dem Server installiert**. 
     
-    Beim Update ab der 9.5.0 müssen Sie das korrekte MAGELLAN-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [MAGELLAN](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
+    Beim Update ab der 9.5.0 müssen Sie das korrekte Magellan-Paket wählen (32- oder 64 Bit) und **zusätzlich** die korrekte Crystal Reports Runtimeversion (32- oder 64 Bit) installieren. Bitte lesen Sie hierfür die aktualisierten Updateanleitung für [Magellan](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung) und die [Crystal Reports Runtime](https://doc.magellan.stueber.de/schulverwaltung/update/cr-aktualisieren/)!
 
 !!! important "Wichtig"
 
-    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten MAGELLAN Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
+    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten Magellan Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
 
     **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
 
-    **Log4Shell-Schwachstelle**: Unsere Software-Produkte ENBREA, DAVINCI, MAGELLAN, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
+    **Log4Shell-Schwachstelle**: Unsere Software-Produkte Enbrea, DaVinci, Magellan, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
 
 ## LEGENDE
 
@@ -43,7 +43,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 10.0.10 103 (11.12.2023)
 
-### MAGELLAN Schulverwaltung
+### Magellan Schulverwaltung
 
 * CHANGE: Eingebbare Zeichenlänge auf 100 Zeichen für die Felder unter `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalB1-MerkmalB4` und `Bewerber/Vagabunden/Schüler > Merkmal > MerkmalT1-MerkmalT4` erhöht. Anzeige in den dazugehörigen Auswahlliste angepasst.
 * FIX: Problem beim Versetzen von Schülern in Mandanten behoben
@@ -67,7 +67,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 !!! danger "Wichtig"
 
      Die Datenstruktur wird angepasst. 
-     * Bitte aktualisieren Sie als erstes Ihren Serverrechner. Beim anschließenden Start von MAGELLAN wird die Datenstruktur angepasst. 
+     * Bitte aktualisieren Sie als erstes Ihren Serverrechner. Beim anschließenden Start von Magellan wird die Datenstruktur angepasst. 
      * Synchronisieren Sie im Anschluss die Zugriffsrechte. 
      * Aktualisieren Sie anschließend alle Arbeitsplatzrechner. 
       
@@ -89,13 +89,13 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: NRW => ABI.TXT Ausgabe der Felder LK1, LK2, GKS und GKM für die Schulform WB ergänzt
 * FIX: NRW => LEHRER.TXT 
   * Aufbau überarbeitet
-  * neue Lehrer-Sollschlüssel-Verzeichnisse ([Download](https://my.hidrive.com/share/u2fb42eu4v)) zum Import in DAVINCI stehen zur Verfügung. Wenn Sie die Schlüsselverzeichnisse erneut importieren (Änderungen an den Schlüsselwerten), dann geben Sie bitte beim Import in DAVINCI an, dass über das Kürzel abgelichen werden soll.
+  * neue Lehrer-Sollschlüssel-Verzeichnisse ([Download](https://my.hidrive.com/share/u2fb42eu4v)) zum Import in DaVinci stehen zur Verfügung. Wenn Sie die Schlüsselverzeichnisse erneut importieren (Änderungen an den Schlüsselwerten), dann geben Sie bitte beim Import in DaVinci an, dass über das Kürzel abgelichen werden soll.
 
 #### Skripte
 
 Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.
 
-* FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DAVINCI nach MAGELLAN)
+* FIX: [Importiere SDTF.dws](https://my.hidrive.com/lnk/sdRkN0sW) (Übertrag von DaVinci nach Magellan)
 * CHANGE: `NRW-APO-OS-2020`: 
   * automatisches Markieren der Füllkurse
   * Optimierung der Berechnung
@@ -119,12 +119,12 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * FIX: Beim Update einer Serverinstallation, die für die Datenordner von den Standardpfaden abweichende Speicherorte gewählt wurden, werden jetzt die neuen Ablagestellen aktualsiert.
 
-### MAGELLAN Schulverwaltung
+### Magellan Schulverwaltung
 
 * FIX: Ändern des Passwortes für Benutzer mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
 * FIX: Problem beim Drucken für Benutzer mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
 
-### MAGELLAN Administrator
+### Magellan Administrator
 
 * FIX: Löschen von Benutzern mit Groß- und Kleinschreibung oder `.`, `,`, `-` oder `_` im Kürzel behoben
 
@@ -137,7 +137,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 ### Version 10.0.7 102 (18.07.2023)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * NEW: `SAC` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
 * NEW: `NIE` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
@@ -150,7 +150,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 ### Version 10.0.6 102 (13.07.2023)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * NEW: `NRW` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
 * NEW: `SHL` Freigabe der Statistikschnittstelle für 2023 [Anleitung](https://doc.ls.stueber.de/schleswig-holstein/einstieg/)
@@ -173,31 +173,31 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 !!! danger "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstrukturänderung
 
 * FIX: Update für Passfotos aus der Schulverwaltung in die Bibliothek
 
-#### MAGELLAN Skripteditor
+#### Magellan Skripteditor
 
 * FIX: Fehlerkorrektur beim Ausführen von Skripten
 
-#### MyMAGELLAN-CENTER
+#### MyMagellan-CENTER
 
-* FIX: Die Felder auf der Unterkarte `Schüler anzeigen > Schüler auswählen > Zeugnisdaten` werden werden mit den aus MAGELLAN übergebenen Werten aber inaktiviert dargestellt, wenn beim Erzeugen der Dateien für die Felder `sichtbar` und `nicht editierbar` gewählt wurde. Wird die Sichtbarkeit für kein Felder der Unterkarte gewählt, wird die Karte ausgeblendet.
+* FIX: Die Felder auf der Unterkarte `Schüler anzeigen > Schüler auswählen > Zeugnisdaten` werden werden mit den aus Magellan übergebenen Werten aber inaktiviert dargestellt, wenn beim Erzeugen der Dateien für die Felder `sichtbar` und `nicht editierbar` gewählt wurde. Wird die Sichtbarkeit für kein Felder der Unterkarte gewählt, wird die Karte ausgeblendet.
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: `Abitur > Qualifikation` Filter der Skriptauswahl geändert
 * FIX: Menü `Schüler` und Menü `Bewerber`: Eingebbare Feldlänge in der Oberfläche für die Felder `Geburtsort` (100 Zeichen) und `Geburtsname` (50 Zeichen) erhöht
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: DBAdmin-Funktionalitäten überarbeitet, bitte beachten Sie die erweitere Beschreibung unter: [https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin](https://doc.magellan.stueber.de/schulverwaltung/admin/users/#sysdba-und-dbadmin).
-* FIX: `MyMAGELLAN Center`: Beim Verteilen ist das Markieren einer beliebigen Menge von Klassen möglich
+* FIX: `MyMagellan Center`: Beim Verteilen ist das Markieren einer beliebigen Menge von Klassen möglich
 
-#### MAGELLAN BIBLIOTHEK
+#### Magellan Bibliothek
 
 * FIX: Aktualisierung der Passfotos für Schüler /Lehrkräfte/Personen
 
@@ -251,9 +251,9 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 ### Version 10.0.4 101 (19.05.2023)
 
-#### MyMAGELLAN CENTER
+#### MyMagellan CENTER
 
-* NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `MAGELLAN > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
+* NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `Magellan > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 
 #### Skripte
 
@@ -296,14 +296,14 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 !!! danger "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte synchronisieren Sie im Anschluss die Zugriffsrechte. Eine genaue Anleitung finden Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstrukturänderung
 
 * FIX: Bewerbungsziele-Kürzel auch für verwendete Einträge änderbar
 * FIX: Problem beim Löschen von Bewerbern (auch mit Herkunftsschule)
 
-#### MAGELLAN
+#### Magellan
 
 * FIX: Für aus dem Seriendruck (Word oder Libre Office) exportieren Dokumente, für die die Ausgabe des Schülernamens (`Datenbank > Optionen > Dokumente > Dateinamenskonventionen`) gewählt wurde, wird das geklammerte Klassenkürzel hinter dem Schülernamen ausgegeben.
 * FIX: Alle Ausgaben als Datei (ott, odt) oder als PDF für den Seriendruck mit LibreOffice überarbeitet
@@ -315,11 +315,11 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 * FIX: Problem der Anzeige im Menü Schüler und des Neuanlegens eines Bewerbers, bei ausgeblendeten Sorgeberechtigten-Daten (`Datenbank > Optionen > Ein- und Ausblenden > Sorgeberechtigte`) behoben
 * FIX: Bewerbungsziele-Kürzel auch für verwendete Einträge änderbar
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Korrektur beim Einlesen von Postleitzahlverzeichnissen
 
-#### MyMAGELLAN
+#### MyMagellan
 
 * FIX: Problem beim Eingeben in Verzeichnisfelder gelöst. Vorabversion unter: [https://my.hidrive.com/lnk/2URktJZv](https://my.hidrive.com/lnk/2URktJZv)
 * FIX: Wechselnde Spalten-Reihenfolge 
@@ -362,18 +362,18 @@ Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
 
 ### Version 10.0.2 100 (09.03.2023)
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Erzeugen von Passworten
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * FIX: Aufruf Bücher/Medien
 * FIX: Löschen von Schülern
 
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
 
 * CHANGE: [Download](https://my.hidrive.com/share/l332606dzw) | BER-Abi-3 – Angaben zur Abiturprüfung (VO GO)(05.20).rpt| Ergänzung des Nebenfaches bei Referenzfach für die Präsentationsprüfung
 * NEW: [Download](https://my.hidrive.com/share/l332606dzw) | BER-Schul Z 256 (11.19).rpt | [Anleitung](https://doc.la.stueber.de/berichte/zeugnisse/ber/BER-Schul%20Z%20256%20%2811.19%29/)
@@ -388,9 +388,9 @@ Alle Neuerungen beschreiben wir [hier](https://doc.magellan.stueber.de/changelog
 
 ### Version 9.5.4 902 (15.02.2023)
 
-Diese Ausgabe ist die letzte von MAGELLAN 9, MAGELLAN 10 wurde parallel veröffentlicht, der Support für MAGELLAN 9 läuft Ende Juni 2023 aus.
+Diese Ausgabe ist die letzte von Magellan 9, Magellan 10 wurde parallel veröffentlicht, der Support für Magellan 9 läuft Ende Juni 2023 aus.
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * FIX: historische Vorgänge können gelöscht werden
 
@@ -402,7 +402,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
   
 #### Berichte
 
-Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in MAGELLAN einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
+Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de). Wie man die zum Download angebotenen Berichte in Magellan einfügt, beschreiben wir [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/).
 
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `NRW-BBS-JZ-HJ-AG-AS (A07).rpt` Daten von gewechselten Zeiträumen werden nicht berücksichtigt
 * FIX: [Download](https://my.hidrive.com/share/3pr60tsv6j) | `SAC-FOS-HJZ (D.01.01).rpt`, `SAC-FO-HJI (D.01.01)(Fachpraktischer Unterricht).rpt`: Fachrichtung wird aus dem Berufsfeld des Bildungsgangs ausgelesen, das dem aktuellen Ausbildungsdatensatz des Schülers zuwiesen wurde

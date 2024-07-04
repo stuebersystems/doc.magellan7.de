@@ -11,19 +11,19 @@
 [9]:/assets/images/neues/11.009.png "Vorhalbjahresnote"
 [10]:/assets/images/neues/11.010.png "Sortierung Schulen"
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 10. Wir möchten Ihnen hier gern eine Übersicht über die offensichtlichsten Änderungen in MAGELLAN 11 geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 10. Wir möchten Ihnen hier gern eine Übersicht über die offensichtlichsten Änderungen in Magellan 11 geben.
 
 ## Crystal Reports
 
 Um für Berichte die Inhalte der Tabelle Wortersetzungen verwenden zu können (beispielsweise um selbstgewählte Verhältnisse zwischen Schülern und Sorgeberechtigten), wurde die Datenstruktur um ein View Wortersetzungen erweitert. Für eigene Berichte können Sie unseren angepassten Bericht "Sorgeberechtigte mit Kindern.rpt" als Vorlage verwenden.
 
-## MAGELLAN Administrator
+## Magellan Administrator
 
 ### schueler_import.csv
 
 Der Import für Schüler- oder Bewerberdaten wurde um folgende Felder ergänzt:
 
-Importfeld|MAGELLAN-Feld
+Importfeld|Magellan-Feld
 :--|:--
  `Fremdsprache1Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.1 > Referenz`
  `Fremdsprache2Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.2 > Referenz`
@@ -31,7 +31,7 @@ Importfeld|MAGELLAN-Feld
  `Fremdsprache4Referenz`|`Schüler/Bewerber/Vagabunden > Daten3 > Fremdsprachenfolge > FS.4 > Referenz`
  `VoraussichtlichesEnde`|`Schüler/Bewerber/Vagabunden > Daten2 > Abgang > voraus. Ende`
 
-## MAGELLAN Schulverwaltung
+## Magellan Schulverwaltung
 
 ### Geschwindigkeit
 
@@ -44,7 +44,7 @@ Importfeld|MAGELLAN-Feld
 
 ![Suche ergänzt um das Geburtsdatum](/assets/images/neues/11.002.png)
 
-* Auf der Karte `Schüler > Zeugnis > Leistungen` gibt es die neue Spalte `Vorhalbjahresnote`, die für ausgewählte Schüler per Assistent aus dem Vorhalbjahr gefüllt werden kann. Den Aufruf für den Assistenten finden Sie im Menübandunterpunkt `Schüler > Endnote Vorzeitraum zuweisen`. Der Assistent kopiert die Note des vorangegangenen Halbjahres und zeigt sie nicht editierbar im neuen Feld an. Dieses Feld kann auch in die MyMAGELLAN-Dateien mit zur Information ausgegeben werden.
+* Auf der Karte `Schüler > Zeugnis > Leistungen` gibt es die neue Spalte `Vorhalbjahresnote`, die für ausgewählte Schüler per Assistent aus dem Vorhalbjahr gefüllt werden kann. Den Aufruf für den Assistenten finden Sie im Menübandunterpunkt `Schüler > Endnote Vorzeitraum zuweisen`. Der Assistent kopiert die Note des vorangegangenen Halbjahres und zeigt sie nicht editierbar im neuen Feld an. Dieses Feld kann auch in die MyMagellan-Dateien mit zur Information ausgegeben werden.
 
 ![Endnote des vorangegangenen Halbjahres](/assets/images/neues/11.003.png)
 
@@ -98,7 +98,7 @@ Die Aufrufe für die Aktionen `Prüfungsliste` und `Sammelzuweisung` wurde ins M
 * `Schülerliste (Prüfungsfächer Fachwahlkarte).rpt`
 * `Schülerliste (Prüfungsfächer Qualifikationskarte).rpt`
 
-## MAGELLAN Bibliothek
+## Magellan Bibliothek
 
 * Neue Sammelzuweisung um Medienausleihern eine verlängerte Ausleihdauer gesammelt zuweisen zu können.
 
@@ -120,8 +120,8 @@ Die Aufrufe für die Aktionen `Prüfungsliste` und `Sammelzuweisung` wurde ins M
 
 ![Anzeige der Signaturnummer](/assets/images/neues/11.012.png)
 
-## MyMAGELLAN
+## MyMagellan
 
-* Das neue Feld `Vorhalbjahresnote` kann im MyMAGELLAN Center mit in die MyMAGELLAN-Dateien übergeben werden. In MyMAGELLAN kann die Spalte in den Ansichten `Schüler` und `Fächer` sichtbar (zur Information, nicht editierbar) gezeigt werden.
+* Das neue Feld `Vorhalbjahresnote` kann im MyMagellan Center mit in die MyMagellan-Dateien übergeben werden. In MyMagellan kann die Spalte in den Ansichten `Schüler` und `Fächer` sichtbar (zur Information, nicht editierbar) gezeigt werden.
 
 ![Vorhalbjahresnote](/assets/images/neues/11.009.png)

@@ -1,13 +1,13 @@
 # Klassen
 
-In diesem Kapitel wird Ihnen gezeigt, wie Sie Klassen in MAGELLAN aufnehmen und verwalten.
+In diesem Kapitel wird Ihnen gezeigt, wie Sie Klassen in Magellan aufnehmen und verwalten.
 
 Klassendaten besitzen immer einen Zeitraumbezug. Sie stellen das Bindeglied zwischen Zeiträumen und Schülern dar. Jeder Klasse ist mindestens ein Zeitraum zugeordnet. Klassen sind mit ihren Schülern und den zugehörigen Fächern in jedem Zeitraum einzigartig.
-Klassen existieren in MAGELLAN genausolange, wie in der Realität an Ihrer Schule.
+Klassen existieren in Magellan genausolange, wie in der Realität an Ihrer Schule.
 
 Schultyp|Beispiel
 --|--
-ABS|Eine Klasse 5a existiert genau eine Schuljahr lang, also zwei Halbjahre. Im Jahr darauf wird es eine neue Klasse 5a geben, um die Schüler der 4a zu versetzen oder beispielsweise auch einen Schüler der alten 5a wiederholen zu lassen. MAGELLAN verwaltet alle Datensätze, also auch Ihre Klassen anhand einer eindeutigen ID, hier kann nichts durcheinander geraten.
+ABS|Eine Klasse 5a existiert genau eine Schuljahr lang, also zwei Halbjahre. Im Jahr darauf wird es eine neue Klasse 5a geben, um die Schüler der 4a zu versetzen oder beispielsweise auch einen Schüler der alten 5a wiederholen zu lassen. Magellan verwaltet alle Datensätze, also auch Ihre Klassen anhand einer eindeutigen ID, hier kann nichts durcheinander geraten.
 BBS|An Berufsbildenden Schulen können Klassen länger existieren, so kann beispielsweie eine Berufsschulklasse für Bürokaufleute (BüKo2018) aktuell starten und insgesamt 3 Jahre, also 6 Halbjahre lang laufen. Dennoch startet in jedem Jahr eine neue Klasse mit Bürokaufleuten (BüKo2019), die dann ein Jahr länger existiert, als ihre Vorgängerklasse.
 
 ## Neue Klasse anlegen
@@ -20,7 +20,7 @@ Geben Sie mindestens das Kürzel der neuen Klasse ein und klicken Sie auf `OK`. 
 
 !!! danger "Achtung"
 
-	Wenn Sie beginnen mit MAGELLAN zu arbeiten sollten Sie wie vorstehend beschrieben neue Klassen anlegen. Wenn Sie allerdings bereits Klassendaten eingepflegt haben, können Sie diese Klassen als neue Klassen kopieren lassen. Damit sparen Sie Zeit und es können auch keine beispielsweise statistikrelevanten Eintragungen übersehen werden. Bitte lesen hierfür den Abschnitt [Assistent Klassen übernehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/classes/#assistent-klassen-ubernehmen)!
+	Wenn Sie beginnen mit Magellan zu arbeiten sollten Sie wie vorstehend beschrieben neue Klassen anlegen. Wenn Sie allerdings bereits Klassendaten eingepflegt haben, können Sie diese Klassen als neue Klassen kopieren lassen. Damit sparen Sie Zeit und es können auch keine beispielsweise statistikrelevanten Eintragungen übersehen werden. Bitte lesen hierfür den Abschnitt [Assistent Klassen übernehmen](https://doc.magellan.stueber.de/schulverwaltung/howto/classes/#assistent-klassen-ubernehmen)!
 
 ## Registerkarte „Daten“
 
@@ -28,7 +28,7 @@ Auf der Registerkarte „Daten“ sind insbesondere die Einstellungen bei „Kla
 
 ![Ansicht Klassen > Daten](/assets/images/klassen/lehrer.klassen_09daten.png)
 
-Bei der `Klassenart `müssen Sie die Art der Klasse festlegen. Diese Einstellungen haben insbesondere Auswirkungen auf den Bereich „Abitur“ und „Berufsschule“ in MAGELLAN.
+Bei der `Klassenart `müssen Sie die Art der Klasse festlegen. Diese Einstellungen haben insbesondere Auswirkungen auf den Bereich „Abitur“ und „Berufsschule“ in Magellan.
 
 Durch die `Beurteilungsart `legen Sie fest, wie die Beurteilungen der Leistungen der einzelnen Schüler in der Klasse erfolgen sollen. Im Standardfall erfolgt die Beurteilung durch Noten. Bei Grundschulklassen können beispielsweise reine Beurteilungstexte genutzt werden. In der Oberstufe ist die Beurteilung durch Punkte möglich.
 
@@ -69,7 +69,7 @@ Im Feld `Fachtafel` kann für die Klasse pro Klassenzeitraum eine Fachtafel vorg
 
 Neue Klassen können Sie aus dem Menü `Klassen` per `STRG+N` oder über die Plusschaltfläche erzeugen.
 
-Wenn Sie aber bereits mit MAGELLAN arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
+Wenn Sie aber bereits mit Magellan arbeiten, dann haben Sie bereits Klassen angelegt und mit den für Sie und Ihre Region wichtigen Einstellungen versehen. Auf der Basis Ihrer bestehenden Klassen erzeugt der Assistent `Klassen übernehmen` neue Klassen für Sie. Kurz gesagt: Sie wählen bestehende Klassen und ein Assistent erzeugt neue Klassen mit neuer ID, aber mit fast allen bisher verwendeten Einstellungen.
 Nicht mit übernommen werden die Eintragungen, die aufgrund der Schüler in der Klasse getroffen wurden, also es wird beispielsweise kein Elternvertreter oder Klassensprecher übernommen.
 
 Es gibt noch einen Unterschied zwischen ABS- und BBS-Klassen:

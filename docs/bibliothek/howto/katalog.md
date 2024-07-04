@@ -1,6 +1,6 @@
 # Medienbestand nach Katalogen organisieren
 
-MAGELLAN BIBLIOTHEK unterstützt Sie dabei, Ihren gesamten Medienbestand nach unterschiedlichen Teilkatalogen zu organisieren. So bietet sich die Möglichkeit Ihren Medienbestand nach Ausleihergruppen zu trennen, indem Sie z.B. einen gesonderten Lehrer- und Schülerkatalog führen.
+Magellan Bibliothek unterstützt Sie dabei, Ihren gesamten Medienbestand nach unterschiedlichen Teilkatalogen zu organisieren. So bietet sich die Möglichkeit Ihren Medienbestand nach Ausleihergruppen zu trennen, indem Sie z.B. einen gesonderten Lehrer- und Schülerkatalog führen.
 
 Außerdem können Sie Lehrbücher nach Fachgesichtspunkten ordnen. In diesem Abschnitt erfahren Sie, wie Sie einen neuen Medienkatalog anlegen, einen Medienkatalog für eine bestimmte Aktion auswählen und Benutzerrechte für bestimmte Medienkataloge zuweisen können.
 
@@ -8,7 +8,7 @@ Außerdem können Sie Lehrbücher nach Fachgesichtspunkten ordnen. In diesem Abs
 
 ## Neuen Medienkatalog anlegen
 
-Wenn Sie damit beginnen, in MAGELLAN BIBLIOTHEK Ihre Medien und Exemplare zu erfassen, werden diese in einem Medienkatalog erfasst, der bei der Installation standardmäßig hinterlegt wird. Dieser von Hause aus voreingestellte Medienkatalog trägt die Bezeichnung `Standardkatalog`. Die Zugehörigkeit eines Exemplars zu diesem Katalog kann, wie Sie bereits gesehen haben, durch das Einfügen des Kürzels `Standard` in die Signatur ausgedrückt werden.
+Wenn Sie damit beginnen, in Magellan Bibliothek Ihre Medien und Exemplare zu erfassen, werden diese in einem Medienkatalog erfasst, der bei der Installation standardmäßig hinterlegt wird. Dieser von Hause aus voreingestellte Medienkatalog trägt die Bezeichnung `Standardkatalog`. Die Zugehörigkeit eines Exemplars zu diesem Katalog kann, wie Sie bereits gesehen haben, durch das Einfügen des Kürzels `Standard` in die Signatur ausgedrückt werden.
 
 Wenn Sie einen neuen Medienkatalog anlegen möchten, dann führen Sie bitte die folgenden Schritte aus:
 
@@ -55,17 +55,17 @@ Um einen Katalog für eine bestimmte Aktion auszuwählen, führen Sie bitte die 
 
 ## Benutzerrechte für Medienkataloge zuweisen
 
-Wenn Sie gemeinsam mit anderen Benutzern in MAGELLAN-BIBLIOTHEK arbeiten, so besteht die Möglichkeit, jedem Anwender individuell angepasste Rechte für die Arbeit mit Medienkatalogen zu gewähren. Standardmäßig verfügen Sie nach der Installation über Administratorenrechte und können neue Kataloge anlegen sowie alle vorhandenen Kataloge einsehen.
+Wenn Sie gemeinsam mit anderen Benutzern in Magellan-Bibliothek arbeiten, so besteht die Möglichkeit, jedem Anwender individuell angepasste Rechte für die Arbeit mit Medienkatalogen zu gewähren. Standardmäßig verfügen Sie nach der Installation über Administratorenrechte und können neue Kataloge anlegen sowie alle vorhandenen Kataloge einsehen.
 
-Als Administrator haben Sie überdies die Berechtigung, für andere Benutzer fest zu legen, ob diese nur auf einen bestimmte oder auf alle Kataloge zugreifen können. Für die Anpassung und Verwaltung der Zugriffsrechte unterschiedlicher Benutzer steht Ihnen das Modul MAGELLAN-Administrator zur Verfügung. Damit werden die Zugriffsrechte nicht nur für MAGELLAN-BIBLIOTHEK, sondern für alle Module der MAGELLAN-Programmfamilie verwaltet.
+Als Administrator haben Sie überdies die Berechtigung, für andere Benutzer fest zu legen, ob diese nur auf einen bestimmte oder auf alle Kataloge zugreifen können. Für die Anpassung und Verwaltung der Zugriffsrechte unterschiedlicher Benutzer steht Ihnen das Modul Magellan-Administrator zur Verfügung. Damit werden die Zugriffsrechte nicht nur für Magellan-Bibliothek, sondern für alle Module der Magellan-Programmfamilie verwaltet.
 
-Um den MAGELLAN-Administrator zu öffnen, führen Sie bitte folgende Schritte aus:
+Um den Magellan-Administrator zu öffnen, führen Sie bitte folgende Schritte aus:
 
 1. Rufen Sie das Startmenü Ihres Windows-Betriebssystems auf und wählen Sie den Aufruf `Programme` (XP; 2000) bzw. `Alle Programme` (Vista).
 2. Öffnen Sie den Programmordner `STÜBER SYSTEMS`.
-3. Klicken Sie dort mit der linken Maustaste auf die Programmzeile `MAGELLAN Administrator`.
-4. Geben Sie im erscheinenden Dialogfenster `MAGELLAN-Anmeldung` Ihre Standard-Zugangsdaten ein (Benutzer: `sysdba`; Kennwort:`masterkey`; Datenbank: `MAGELLAN`).
-5. Bestätigen Sie Ihre Angaben mit `OK`: es öffnet sich das Willkommensfenster des MAGELLAN-Administrators.
+3. Klicken Sie dort mit der linken Maustaste auf die Programmzeile `Magellan Administrator`.
+4. Geben Sie im erscheinenden Dialogfenster `Magellan-Anmeldung` Ihre Standard-Zugangsdaten ein (Benutzer: `sysdba`; Kennwort:`masterkey`; Datenbank: `Magellan`).
+5. Bestätigen Sie Ihre Angaben mit `OK`: es öffnet sich das Willkommensfenster des Magellan-Administrators.
 6. Nun können Sie die Zugriffsrechte der Benutzer des Bibliotheksmoduls anpassen Dafür stehen Ihnen die folgenden Benutzerrollen zur Verfügung:
 
 Recht|Berechtigung
@@ -81,7 +81,7 @@ Um diese Benutzerrollen bestimmten Anwendern zuzuweisen, gehen Sie bitte folgend
 2. Lassen Sie die Registerkarte `Benutzerliste` geöffnet und markieren Sie in der Benutzerliste einen Benutzer, dessen Rechte Sie anpassen möchten
 3. Klicken Sie mit der linken Maustaste auf die Schaltfläche `Editieren` am linken untern Rand des Listenfensters.
 4. Öffnen Sie im erscheinenden Dialogfenster die Registerkarte `Rechte` und betätigen Sie die Pfeilschaltfläche im Auswahlfeld neben `Bibliothek-/ Lernmittelverwaltung`.
-5. Wählen Sie im Aufklappmenü des Auswahlfeldes den Eintrag `Kein Zugriff`, um den Benutzer für die Arbeit mit MAGELLAN-BIBLIOTHEK zu sperren
+5. Wählen Sie im Aufklappmenü des Auswahlfeldes den Eintrag `Kein Zugriff`, um den Benutzer für die Arbeit mit Magellan-Bibliothek zu sperren
 Oder
 Wählen Sie im Aufklappmenü des Auswahlfeldes eine der vier möglichen Benutzerrollen: `Schulleitung`, `Kollegium`, `Bibliothekar`, `Gast`
 6. Setzen Sie den Punkt im Kontrollkreis vor `Zugriff auf alle Kataloge`, um fest zu legen, dass der Benutzer uneingeschränkten Zugriff auf alle Medienkataloge genießt
@@ -93,4 +93,4 @@ Die veränderten Einstellungen der Benutzerrechte sind nun für den ausgewählte
 
 !!! info "Hinweis"
 
-    Wie Sie darüberhinaus weitere Einstellungen im Zusammenhang mit der Benutzerverwaltung vornehmen können, z.B. neue Zugangsdaten vergeben, erfahren Sie im Kapitel `MAGELLAN ADMINISTRATO` des MAGELLAN Benutzerhandbuchs.
+    Wie Sie darüberhinaus weitere Einstellungen im Zusammenhang mit der Benutzerverwaltung vornehmen können, z.B. neue Zugangsdaten vergeben, erfahren Sie im Kapitel `Magellan ADMINISTRATO` des Magellan Benutzerhandbuchs.

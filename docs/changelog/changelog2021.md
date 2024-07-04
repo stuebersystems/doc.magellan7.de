@@ -10,23 +10,23 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 !!! danger "Achtung"
 
-    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus MAGELLAN Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
+    **Umlaute**: Falls Sie das Problem haben, dass beim Druck aus Magellan Umlaute nicht korrekt dargestellt werden, kann die Ursache beim ODBC-Treiber Ihres Betriebssystems liegen. Bitte folgen Sie der [Anleitung](https://doc.kb.stueber.de/magellan/umlaute_druck.html)!
 
-    **MyMAGELLAN**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `MAGELLAN Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
+    **MyMagellan**: Bitte beachten Sie, dass mit einer der letzten Versionen das Dateiformat der MyMagellan Dateien geändert wurde. Bitte passen Sie den Pfad im `Magellan Administrator > MyMagellan Center` auf die Dateiendung `.mymx` an.
 
 ### 8.0.14 802 (17.12.2021)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Fehler in der Sammelzuweisung unter `Schüler > Sammelzuweisung` behoben.
 
-#### MyMAGELLAN-CENTER
+#### MyMagellan-CENTER
 
-* FIX: Beim Erstellen von MyMAGELLAN-Dateien für des Schülers denen derselbe Lehrer als Fachlehrer und als Tutor zugeordnet ist, wird nur der Tutor in die Datei gespielt.
+* FIX: Beim Erstellen von MyMagellan-Dateien für des Schülers denen derselbe Lehrer als Fachlehrer und als Tutor zugeordnet ist, wird nur der Tutor in die Datei gespielt.
 
-#### MyMAGELLAN
+#### MyMagellan
 
-* FIX: Für Dateien, die mit der Version MAGELLAN 8.0.13 oder früher erstellt wurden, wird für Schüler denen derselbe Lehrer als Tutor und als Fachlehrer zugeordnet wurde, die Rolle des Fachlehrers ignoriert. Ab mit der Version MAGELLAN 8.0.14 oder höher erstellten MyMAGELLAN-Dateien tritt diese Problematik nicht mehr auf. Eine Vorabversion von MyMAGELLAN, die diese Problematik korrekt verarbeitet, finden Sie unter: [https://my.hidrive.com/lnk/ncSJCFHd](https://my.hidrive.com/lnk/ncSJCFHd)
+* FIX: Für Dateien, die mit der Version Magellan 8.0.13 oder früher erstellt wurden, wird für Schüler denen derselbe Lehrer als Tutor und als Fachlehrer zugeordnet wurde, die Rolle des Fachlehrers ignoriert. Ab mit der Version Magellan 8.0.14 oder höher erstellten MyMagellan-Dateien tritt diese Problematik nicht mehr auf. Eine Vorabversion von MyMagellan, die diese Problematik korrekt verarbeitet, finden Sie unter: [https://my.hidrive.com/lnk/ncSJCFHd](https://my.hidrive.com/lnk/ncSJCFHd)
 
 #### Skripte
 
@@ -41,7 +41,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### 8.0.13 802 (30.11.2021)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: `Klasse > Zeitraum` löschen eines Zeitraum mit `Entf`nicht mehr möglich
 * FIX: `Schüler > Daten1` Eintrag im Feld `Vorname` wird beim Ansichtenwechsel gespeichert
@@ -57,17 +57,17 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: [Gruppen] Beim Anlegen neuer Gruppenmitglieder wird der `Mitglied (Typ)` (Lehrer, Schüler, Person oder Sorgeberechtigter) korrekt übergeben.
 * FIX: Aufruf des Seriendrucks an Personen korrigiert
 * CHANGE: Für den Seriendruck mit `MS Word` können mehrere Seriendruckdokumente parallel geöffnet werden.
-* FIX: [ENBREA] Unter `Schüler > Zeugnis > ENBREA Leistungen` wird in der Spalte `Note` die Auswahl entsprechend der Eingabe unter `Klassen > Zeiträume > ENBREA Leistungsprofile > Leistungsprofile definieren > Notensystem` gefiltert.
+* FIX: [Enbrea] Unter `Schüler > Zeugnis > Enbrea Leistungen` wird in der Spalte `Note` die Auswahl entsprechend der Eingabe unter `Klassen > Zeiträume > Enbrea Leistungsprofile > Leistungsprofile definieren > Notensystem` gefiltert.
 
-#### MAGELLAN ADMINISTRATOR
+#### Magellan Administrator
 
 * FIX: Mit der Aktion `Datenbankpflege > Code 128 generieren` wird auch das Feld `BarcodePrint` für Lehrer befüllt.
 * FIX: Unter `Benutzerverwaltung > Doppelklick auf Benutzer > Unterkarte "Rechte" > Bibliothek und Lernmittelverwaltung` wird die Liste der Kataloge korrekt für die Auswahl geladen
-* FIX: Unter `Datenaustausch > Daten über das MAGELLAN-Importformat importieren` wird für den Import der Datei `betriebe.import.csv` eine Meldung für das Feld `Telefon` ausgegeben, wenn der Feldinhalt 30 Zeichen überschreitet. Der Betrieb wird in diesem Fall ohne Telefonnummer importiert.
+* FIX: Unter `Datenaustausch > Daten über das Magellan-Importformat importieren` wird für den Import der Datei `betriebe.import.csv` eine Meldung für das Feld `Telefon` ausgegeben, wenn der Feldinhalt 30 Zeichen überschreitet. Der Betrieb wird in diesem Fall ohne Telefonnummer importiert.
 
-#### MYMAGELLAN
+#### MyMagellan
 
-* FIX: Schlüsselverzeichnis Zeugnisbemerkungen wird in voller Länge aus MAGELLAN übergeben
+* FIX: Schlüsselverzeichnis Zeugnisbemerkungen wird in voller Länge aus Magellan übergeben
 * FIX: `Schüler > Ausbildung > Editieren` Tabulatorreihenfolge korrigiert
 * FIX: Speichern der Eingaben auf der Karte `Zeugnisdaten` (besonderer Fall: nur eine Eingabefeld auf der Karte)) 
   
@@ -116,10 +116,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### 8.0.12 802 (09.09.2021)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * NEW: Unter `Sorgeberechtigte > Kinder` werden zusätzlich zu aktiven oder pausierenden Schülern auch inaktive Schüler eingeblendet.
-* FIX: `Schüler > Zeugnis > ENBREA Lernleistungen` Aktualisierungsproblem behoben
+* FIX: `Schüler > Zeugnis > Enbrea Lernleistungen` Aktualisierungsproblem behoben
 * FIX: `Schüler > Ausbildung > Beruf` Editierungsproblem nach Import aus SAXSVS behoben
 * FIX: `Bewerber > Daten2 > Schulform` Aktualisierungsproblem behoben
 * FIX: `Schüler > Daten 1 > Staatangehörigkeiten` Aktualisierungsproblem behoben
@@ -138,10 +138,10 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/)
 
-* FIX: [Importiere SDTF.dws] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz 
+* FIX: [Importiere SDTF.dws] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus Magellan im P1-Datensatz 
 
-* FIX: [Zuweisen von Zugriffsrechten.dws] Korrektur beim ENBREA Kurse, ENBREA Leistungen
-* FIX: [Importiere SDTF.dws für Import aus SDTF/Untis] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus MAGELLAN im P1-Datensatz
+* FIX: [Zuweisen von Zugriffsrechten.dws] Korrektur beim Enbrea Kurse, Enbrea Leistungen
+* FIX: [Importiere SDTF.dws für Import aus SDTF/Untis] Korrektur des Auslesens von Nullwerten der Schuelerfachdaten aus Magellan im P1-Datensatz
 
 #### Berichte
 
@@ -156,7 +156,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt - Ausgabe doppelter Schüler korrigiert
 * FIX: BER-Schul Z 500 (09.19).rpt
-* NEW: BER-BBS (Zeugniskarte).rpt (jetzt auch in Auslieferung von MAGELLAN 8)
+* NEW: BER-BBS (Zeugniskarte).rpt (jetzt auch in Auslieferung von Magellan 8)
 * FIX: BER-Schul Z 520 (09.19).rpt (Ausgabe Ausbildungsberuf)
 * FIX: BER-Schul Z 522 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
 * FIX: BER-Schul Z 523 (09.19).rpt (Ausgabe Ausbildungsberuf, Layoutanpassungen)
@@ -167,7 +167,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### 8.0.11 802 (12.08.2021)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Aktualisierung der Anzeige unter `Schüler > Daten2 > bereits besuchte Schulen`
 * FIX: Unter `Personen > Dokumente` wird das Kontextmenü bei Rechtsklick gezeigt
@@ -175,9 +175,9 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Problem beim Ändern eines Passwortes für Benutzer mit Umlauten im Namen behoben
 * FIX: Einblenden der Schüler-Zusatzkarte korrigiert
 * FIX: Anzahl der belegten Fachwahlen wird unter `Abitur > Fachwahl` bei Änderung aktualisiert
-* INFO: [NRW-SchuelerOnline] Die `BetriebIdExtern` hat den Aufbau: `MAGELLAN-BetriebID`-`MAGELLAN-Betriebekürzel`und kann aus `SchuelerOnline` übernommen werden, wenn Sie Ihre Betriebeliste vorab nach `SchuelerOnline` übergeben haben. Kann der Betrieb an diesen Daten erkannt werden, wird der Bewerber dem Betrieb hinzugefügt. Sollte es Abweichungen in der Adresse oder Name1 geben, schlägt Ihnen der Assistent einen Aktualisierung des MAGELLAN-Betriebes vor. 
+* INFO: [NRW-SchuelerOnline] Die `BetriebIdExtern` hat den Aufbau: `Magellan-BetriebID`-`Magellan-Betriebekürzel`und kann aus `SchuelerOnline` übernommen werden, wenn Sie Ihre Betriebeliste vorab nach `SchuelerOnline` übergeben haben. Kann der Betrieb an diesen Daten erkannt werden, wird der Bewerber dem Betrieb hinzugefügt. Sollte es Abweichungen in der Adresse oder Name1 geben, schlägt Ihnen der Assistent einen Aktualisierung des Magellan-Betriebes vor. 
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * FIX: Problem beim Anlegen des ersten Mediums und Exemplares gesamt behoben
 * FIX: [Zuweisen von Zugriffsrechten.dws] Die Zuweisung von Zugriffsrechten für die Benutzergruppen `Gast1` und `Gast2` wurden überarbeitet
@@ -242,16 +242,16 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Anpassung
 
-* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der neuen Liste unter `Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
+* CHANGE: Inhalte aus dem bis zur Version Magellan 7 genutzten Feld `Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der neuen Liste unter `Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
-* FIX: Anzeige von `Schüler > Merkmale > Bemerkungen` nach Datenübernahme aus MAGELLAN 7
+* FIX: Anzeige von `Schüler > Merkmale > Bemerkungen` nach Datenübernahme aus Magellan 7
 * FIX: Anzeige `Bewerber > Daten3 > Fremdsprachen` auch bei Kürzeln mit 10 Zeichen
 * FIX: Die Sammelzuweisung des Feldes `Schüler > Laufbahn > Abschluss > Abschlussdatum2` wurde korrigiert.
 * FIX: Optimierung der Abfragen, die beim Aufruf des Schülermenüs und der einzelnen Unterkarten geladen werden
@@ -259,7 +259,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Beim Neuanlegen eines Bewerbers werden die Schulformen unter `Daten2 > Bereits besuchte Schulen` geladen
 * FIX: Anzeige der Einträge unter `Schüler > Daten1 > Familie` korrigiert
 * FIX: Wechsel der Daten markiertem Klassenzeitraum (je Klassenzugehörigkeit) unter `Schüler > Laufbahn > Allgemein/Abschluss` korrigiert
-* CHANGE: Beim Abändern des eigenen Passworts über die MAGELLAN-Oberfläche wird zusätzlich zu Umlauten und ß auch kein Leerzeichen mehr gespeichert, Sie erhalten eine entsprechende Meldung.
+* CHANGE: Beim Abändern des eigenen Passworts über die Magellan-Oberfläche wird zusätzlich zu Umlauten und ß auch kein Leerzeichen mehr gespeichert, Sie erhalten eine entsprechende Meldung.
 * CHANGE: Beim Start des Seriendrucks wird nur noch das Seriendruckdokument geöffnet, kein zweites bereits verbundenes Dokument
 * CHANGE: Wenn die Option unter `Datenbank > Optionen > Dokumente > Seriendruck` für keinen Menüpunkt aktiviert ist, dann wird im Seriendruckassistenten die Option ausgegraut dargestellt, der nachfolgende Punkt ist aktiviert.
 * CHANGE: Der `Name 1` und das `Kürzel` eines Betriebes wurden unter `Schüler/Bewerber > Ausbildung` nur für den Ausbildungsdatensatz eingeblendet, wenn auch das Betriebekürzel im Menü `Betriebe` gefüllt war. Durch eine Änderung genügt jetzt auch der Eintrag unter `Betriebe > Daten > Name1`.
@@ -315,14 +315,14 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
      Die Datenbankversionsnummer wird hierbei diesmal nicht erhöht, sondern bleibt auf der auf der Datenbankversion 801.
 
 #### Anpassung
 
-* CHANGE: Inhalte aus dem bis zur Version MAGELLAN 7 genutzten Feld `Schüler/Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Schüler/Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
+* CHANGE: Inhalte aus dem bis zur Version Magellan 7 genutzten Feld `Schüler/Bewerber > Merkmal > Bemerkung` werden kopiert und als Datensatz in der Liste unter `Schüler/Bewerber > Merkmal > Bemerkungen` als Eintrag ergänzt. Der Inhalt des nicht mehr genutzten Feldes `Bemerkung` wird im Anschluss gelöscht.
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Unter `Extras > Schlüsselverzeichnisse` werden alle Eintragungen für Merkmalsfelder (Lehrer, Schüler, Klassen, Mandanten und Schulen) nur für den gewählten Mandanten gezeigt.
 
@@ -378,9 +378,9 @@ CHANGE: DAS-GY-AZ mit FHR (Anlage 9b).rpt
 
 !!! warning "Wichtig"
 
-     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+     Die Datenstruktur wird angepasst. Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner. Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Problem beim Bearbeiten von Familiendaten unter `Schüler > Daten1` behoben
 
@@ -412,7 +412,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstruktur
 
@@ -423,7 +423,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
   * HoechsterAbschluss2BBSSchulform
 * FIX: Vagabunden View, fehlende Felder (Schüler-Merkmale A7-A10) hinzugefügt
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Problem beim Neuanlegen eines Schülers wurde behoben
 * CHANGE: Die Anordnung der Felder unter `Schüler > Daten 2` wurde verändert
@@ -456,13 +456,13 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 #### Allgemein
 
-* NEW: Zum MSI-Paket für 32-Bit-Betriebssysteme gibt auf unserer Webseite eine eigene UpdatenInfo-Datei. Die installierte MAGELLAN-Version fragt aus der Registry den Wert je nach verwendetem Installationpaket ab (für Windows 32 Bit oder Windows 64 Bit) und greift auf die geeignete UpdateInfo-Datei zu.
+* NEW: Zum MSI-Paket für 32-Bit-Betriebssysteme gibt auf unserer Webseite eine eigene UpdatenInfo-Datei. Die installierte Magellan-Version fragt aus der Registry den Wert je nach verwendetem Installationpaket ab (für Windows 32 Bit oder Windows 64 Bit) und greift auf die geeignete UpdateInfo-Datei zu.
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 FIX: Die Funktionalität `Fahrstrecken` wurde überarbeitet
 
-#### MAGELLAN Administrator
+#### Magellan Administrator
 
 * FIX: Benutzer anlegen korrigiert
 * CHANGE: Beim Anlegen eines neuen Benutzers sind die Häkchen auf der Unterkarte `Ansichten` vorbelegt
@@ -471,19 +471,19 @@ FIX: Die Funktionalität `Fahrstrecken` wurde überarbeitet
 
 Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber.de/skriptueberblick/](https://doc.la.stueber.de/skriptueberblick/).
 
-* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus.
+* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DaVinci nach Magellan wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus.
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik
 * NEW:  DE-DIAP-2018
 
 ### Version 8.0.4 800 (07.05.2021)
 
-* NEW: Es gibt zwei Installationspakete für MAGELLAN. MAGELLAN ist weiterhin eine 32 Bit Anwendung und wird mit der auf unserer Webseite verfügbaren 32 Bit Ausgabe von Firebird (aktuell 2.5.9) eingesetzt. Wenn Sie Crystal Reports 2020 einsetzen möchten, muss bitte das Setuppaket [MAGELLAN-Setup für Windows 64 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8.msi) verwendet werden. Setzen Sie MAGELLAN auf einem 64 Bit Betriebssystem ein, verwenden Sie bitte das Setuppaket [MAGELLAN-Setup für Windows 32 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8_32.msi).
+* NEW: Es gibt zwei Installationspakete für Magellan. Magellan ist weiterhin eine 32 Bit Anwendung und wird mit der auf unserer Webseite verfügbaren 32 Bit Ausgabe von Firebird (aktuell 2.5.9) eingesetzt. Wenn Sie Crystal Reports 2020 einsetzen möchten, muss bitte das Setuppaket [Magellan-Setup für Windows 64 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8.msi) verwendet werden. Setzen Sie Magellan auf einem 64 Bit Betriebssystem ein, verwenden Sie bitte das Setuppaket [Magellan-Setup für Windows 32 Bit](https://download.stueber.de/bin/de/magellan/v8/magellan8_32.msi).
 
 ### Version 8.0.3 800 (06.05.2021)
 
-#### MAGELLAN und Crystal Reports 2020
+#### Magellan und Crystal Reports 2020
 
-* NEW: Mit dieser Version unterstützen wir Crystal Reports 2020. Hintergrund ist, dass Crystal Reports 2020 eine reine 64 Bit Anwendung ist und MAGELLAN eine reine 32 Bit Anwendung ist. Es werden zusätzliche 64 Bit Treiber mitgeliefert und installiert, die es Crystal Reports ermöglichen per ODBC auf die MAGELLAN-Datenbank zuzugreifen.
+* NEW: Mit dieser Version unterstützen wir Crystal Reports 2020. Hintergrund ist, dass Crystal Reports 2020 eine reine 64 Bit Anwendung ist und Magellan eine reine 32 Bit Anwendung ist. Es werden zusätzliche 64 Bit Treiber mitgeliefert und installiert, die es Crystal Reports ermöglichen per ODBC auf die Magellan-Datenbank zuzugreifen.
 
 ### Version 8.0.1 800 (30.04.2021)
 
@@ -497,13 +497,13 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 ### 7.1.31 - 720 (unveröffenticht)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Problem beim Einschulen (Fachtafelhaken setzen ohne Auswahl einer Fachtafel) von Schülern behoben
 
 #### Schnittstellen
 
-* FIX: [Berlin] Für die Abiturdatenstatistik wurde ein Problem beim Ausspielen der Daten behoben. Wenn Sie die Version 7.1.30 von MAGELLAN einsetzen, können Sie am Arbeitsplatz von dem aus exportiert wird die MAGELLAN.exe tauschen. [Download MAGELLAN.exe](https://my.hidrive.com/lnk/85yJiIJU)
+* FIX: [Berlin] Für die Abiturdatenstatistik wurde ein Problem beim Ausspielen der Daten behoben. Wenn Sie die Version 7.1.30 von Magellan einsetzen, können Sie am Arbeitsplatz von dem aus exportiert wird die Magellan.exe tauschen. [Download Magellan.exe](https://my.hidrive.com/lnk/85yJiIJU)
 
 #### Skripte
   
@@ -542,18 +542,18 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### 7.1.30 - 720 (11.06.2021)
 
-#### MAGELLAN Schulverwaltung
+#### Magellan Schulverwaltung
 
 * FIX: Das Kürzel im Verzeichnis `Einschulmerkmale` wurde auf 20 Zeichen erhöht
 
 #### Schnittstellen
 
-* FIX: [Berlin] Für die Abiturdatenstatistik wurde ein Problem beim Ausspielen der Daten behoben. Wenn Sie die Version 7.1.30 von MAGELLAN einsetzen, können Sie am Arbeitsplatz von dem aus exportiert wird die MAGELLAN.exe tauschen. [Download MAGELLAN.exe](https://my.hidrive.com/lnk/85yJiIJU)
+* FIX: [Berlin] Für die Abiturdatenstatistik wurde ein Problem beim Ausspielen der Daten behoben. Wenn Sie die Version 7.1.30 von Magellan einsetzen, können Sie am Arbeitsplatz von dem aus exportiert wird die Magellan.exe tauschen. [Download Magellan.exe](https://my.hidrive.com/lnk/85yJiIJU)
 
 #### Skripte
 
 * CHANGE: `Schüler fortschreiben`Strikteres Vorgehen beim Schüler fortschreiben; beim Finden des SchülerZeitraum Datensatzes wird auch der Gewechselt-Status berücksichtigt. 
-* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DAVINCI nach MAGELLAN wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
+* CHANGE: `Importiere SDTF.dws` Beim Übertrag der Schülerkurswahlen mit der Option `nur geänderte Daten` aus DaVinci nach Magellan wird vorab geprüft, ob unter `Schüler > Fächer > Leistungen > Endnote` für ein Fach eine Note erfasst wurde. Ist eine Note bei einem Fach erfasst, werden die Schülerfachdaten des Schülers nicht geändert oder ergänzt. Das Skript gibt zum Hinweis den `Schülernamen` und die `SchülerID` mit aus. 
 * FIX:  DE-DIAP-2015 diverse Korrekturen in der Vorschlagsautomatik, Fehlermeldung wenn ein Prüfungsergebnis fehlt
 * FIX:  DE-DIAP-2018 diverse Korrekturen in der Vorschlagsautomatik,Fehlermeldung wenn ein Prüfungsergebnis fehlt
 
@@ -612,7 +612,7 @@ NEW: NRW-BK-ABI (Anlage D41)(2018)(GeR).rpt
 
 #### Datenmanipulation
 
-* Fix: Beim ersten Start von MAGELLAN (Anmeldung muss als sysdba erfolgen) läuft ein Skript durch, dass die SchülerzeitraumID für alle SchuelerZeugnisbemerkungen neu vergibt. Die Datenbankversionsnummer wird hierdurch nicht verändert.
+* Fix: Beim ersten Start von Magellan (Anmeldung muss als sysdba erfolgen) läuft ein Skript durch, dass die SchülerzeitraumID für alle SchuelerZeugnisbemerkungen neu vergibt. Die Datenbankversionsnummer wird hierdurch nicht verändert.
 
 #### Skripte
 
@@ -626,7 +626,7 @@ Falls Sie die Datei einzeln herunterladen möchten: [[hier herunterladen](https:
 Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de](https://doc.la.stueber.de).
 
 NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht.
-Falls Sie die Datei einzeln herunterladen möchten: Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die MAGELLAN-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR).
+Falls Sie die Datei einzeln herunterladen möchten: Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die Magellan-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR).
 Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt](https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt)!
 
 ### 7.1.27 - 720 (19.04.2021)
@@ -635,9 +635,9 @@ Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugn
 
 * FIX: Problem der Registrierung eines Teils der Crystal Reports-Runtimeversion behoben
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
-* FIX: `Klassen > Zeiträume > ENBREA Leistungsprofile` beim Anlegen neuer Kurse bleibt der im Zeitraum eingetragene Klassenlehrer sichtbar
+* FIX: `Klassen > Zeiträume > Enbrea Leistungsprofile` beim Anlegen neuer Kurse bleibt der im Zeitraum eingetragene Klassenlehrer sichtbar
 * FIX: Für Bewerber mit Nebenlaufbahn (Schülerkopien) kann mit Sekretariatsrechten per Bewerberverfahren den Bewerbungsstatus unter `Daten1` angepasst werden.
   
 #### Schnittstellen
@@ -658,7 +658,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ##### Nordrhein-Westfalen
 
-* NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht. Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die MAGELLAN-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR). Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt](https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt)!
+* NEW: Passend zum neuen Skript `NRW-APO-BK-2018` wurde der Bericht `NRW-BK-ABI (Anlage D33b - 2018).rpt` veröffentlicht. Bitte laden Sie die Datei unter folgendem Link herunter und legen ihn über die Magellan-Oberfläche unter `Extras > Berichte organisieren > Zeugnisse > Nordrhein-Westfalen` ab: [https://my.hidrive.com/lnk/RPyJiXKR](https://my.hidrive.com/lnk/RPyJiXKR). Bitte beachten Sie die Anleitung unter [https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt](https://doc.la.stueber.de/berichte/zeugnisse/nrw_zeugnisse/#nrw-bk-abi-anlage-d33b-2018rpt)!
 
 ##### Berlin
 
@@ -684,7 +684,7 @@ Im Unterordner `Berichte\Zeugnisse\Saarland\Ministerium` finden Sie ab sofort au
 
 !!! danger "Achtung"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstruktur
 
@@ -692,7 +692,7 @@ Im Unterordner `Berichte\Zeugnisse\Saarland\Ministerium` finden Sie ab sofort au
 * CHANGE: aus anderen Programmen übernommene externe IDs (SchuelerAusbildungen) werden geprüft, das Format wird ggfs. angepasst
 * FIX: Änderung des Triggers, der Bewerbungsdaten eines vom Stammschüler kopierten Bewerbers aktualisiert
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
 * CHANGE: Aktualisierung auf Crystal Reports Runtime 13.0.30
 * FIX: Anzeige von fortgeschriebenen Zeugnisbemerkungen (Korrektur im Skript und auch Korrektur der bereits fortgeschriebenen Zeugnisbemerkungen)
@@ -705,7 +705,7 @@ Im Unterordner `Berichte\Zeugnisse\Saarland\Ministerium` finden Sie ab sofort au
 * CHANGE: Verarbeitung der Extern-ID aus SAXSVS überarbeitet, damit können Daten für importierte Schüler korrekt bearbeitet werden
 * NEW: Für sächsische Schulen wird die GUID der Ausbildung in der Liste der Ausbildungen eingeblendet
 
-#### MAGELLAN Bibliothek
+#### Magellan Bibliothek
 
 * FIX: Eintrag "Ausleihe bis" bei Schülern
 
@@ -740,7 +740,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 ### 7.1.25 - 719 (05.03.2021)
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
 * FIX: Ladeverhalten des Feldes `Verkehrsmittel` im Menü `Bewerber`
 * FIX: Ladeverhalten des Feldes  `Krankenkasse` im Menü `Bewerber`
@@ -754,19 +754,19 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 * FIX: Unter `Abitur > Qualifikation > Layout` anpassen können Felder ein- und ausgeblendet werden.
 * FIX: Alle Dropdown-Felder auf der Karte `Schüler > Zeugnis > Details` erkennen eine Eingabe, wenn die Auswahl per Return bestätigt wird, damit werden die Felder beim Wechsel der Karte gespeichert
 
-#### MAGELLAN BIBLIOTHEK
+#### Magellan Bibliothek
 
 * FIX: Das Feld `Gültig bis` unter `Lehrer > Daten` kann geändert oder geleert werden
 
-#### MYMAGELLAN
+#### MyMagellan
 
 * FIX: Problem beim Speichern behoben
 
-#### MYMAGELLAN Center
+#### MyMagellan Center
 
 * CHANGE: Wenn ein Lehrer für einen Schüler als Fachlehrer und Tutor erfasst ist, können jetzt Zeugnisbemerkungen erfasst werden. Für diese Änderung muss die *.mymx neu erstellt werden.
 
-#### MAGELLAN Schnittstellen
+#### Magellan Schnittstellen
 
 ##### NRW
 
@@ -807,7 +807,7 @@ Beschluss der Kultusministerkonferenz vom 25.09.2019 vorgenommen)
 
 ### 7.1.24 - 719 (02.02.2021)
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
 * FIX: "Schüler fortschreiben.dws" Informationen aus `Klassen > Zeiträume` werden übernommen
 
@@ -819,19 +819,19 @@ Alle Anleitungen zu Berechnungsskripten finden Sie unter [https://doc.la.stueber
 
 ### 7.1.23 - 719 (29.01.2021)
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstruktur
 
 * CHANGE: Zusätzlich zum kleinen und großen Latinum wurde ein Feld zum Erfassen des mittleren Latinum eingebunden. Das Feld heißt in der Datenstruktur `LatinumMittel` und wird in der Tabelle `SchuelerAbi` gespeichert. In der Oberfläche finden Sie das Feld unter `Abitur > Prüfung > Sprachkenntnisse`.
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
 * FIX: Beim Drucken von Zeugisformularen für Nebenschüler wird der PDF-Export (falls aktiviert) nicht in das Dokumentenverzeichnis des Nebenschülers, sondern in das Dokumentenverzeichnis des Stammschülers abgelegt.
 
-#### MYMAGELLAN
+#### MyMagellan
 
-* CHANGE: Zeugnisbemerkungen werden in voller Länge aus MAGELLAN übergeben
+* CHANGE: Zeugnisbemerkungen werden in voller Länge aus Magellan übergeben
 * FIX: Eingabe von Noten/Punkten über Fächer, korrekter Filter gesetzt
 * CHANGE: Ein bereits für die Bearbeitung geöffnete Datei kann nicht erneut geöffnet werden, es erscheint eine Meldung.
 * FIX: Anzeige der `schriftlichen Note4` in der Schüleransicht korrigiert
@@ -872,14 +872,14 @@ FIX: Zeugnisliste nach Schülerfächern (Kopfnoten).rpt
 
 !!! warning "Wichtig"
 
-    Die Datenstruktur von MAGELLAN ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von MAGELLAN erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
+    Die Datenstruktur von Magellan ist erweitert worden! Bitte aktualisieren Sie als erstes Ihren Serverrechner, anschließend alle Arbeitsplatzrechner! Beim ersten Start von Magellan erfolgt eine automatische Anpassung an die neue Datenstruktur durch einen Assistenten. Bitte befolgen Sie die [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/update/vorbereitung/#updates-mit-datenstrukturerweiterung)!
 
 #### Datenstruktur
 
 * CHANGE: Trigger "Schueler_BD" (Hinzufügen fehlender Tabellen "BewerberVerfahren", "BewerberFachdaten" und
   "BewerberUnterlagen")
 
-#### MAGELLAN SCHULVERWALTUNG
+#### Magellan SCHULVERWALTUNG
 
 * FIX: `Schüler > Zeugnis > Details > Sammelzuweisung > Tutor` =>  die Zuweisung des Tutors für mehrere Schüler ist wieder gegeben.
 * FIX: Für den Seriendruck an Nebenschüler werden die Sorgeberechtigtendaten korrekt ausgegeben
@@ -888,7 +888,7 @@ FIX: Zeugnisliste nach Schülerfächern (Kopfnoten).rpt
 * FIX: Beim Versetzen von Schülern in einen anderen Mandanten wurde versucht für die Schülerkopie die gleiche ID (mit neuen MandantenID) zu verwenden.
 * FIX: Beim Versetzen von Schülern als Vagabund oder Bewerber in einen anderen Mandanten werden die zugewiesenen Sorgeberechtigten im neuen Mandanten stets aktiviert.
 
-#### MAGELLAN ADMINISTRATOR
+#### Magellan Administrator
 
 * CHANGE: Lesen der Magellan.paths beim Programmstart korrigiert
 

@@ -1,12 +1,12 @@
 # Was ist neu?
 
-Die nachfolgenden Abschnitte richten sich an die Nutzer von MAGELLAN 7. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 7. Wir möchten Ihnen gern eine Übersicht über die offensichtlichsten Änderungen geben.
 
 ## Datenstrukturänderungen
 
 Die Neuerungen in der Datenstruktur finden Sie als Zusammenfassung hier:[https://doc.magellan-toolbox.stueber.de/datenstruktur/version8/neuerungen/](https://doc.magellan-toolbox.stueber.de/datenstruktur/version8/neuerungen/).
 
-## MAGELLAN Schulverwaltung
+## Magellan Schulverwaltung
 
 ### Schüler
 
@@ -164,7 +164,7 @@ STRG + E | Exportiert den gewählten Bericht als PDF ins Dokumentenverzeichnis<b
 
 #### Anbindung an LibreOffice
 
-Sie können unter `Datenbank > Optionen > Dokumente > Seriendruck` wählen, ob die Seriendruckdaten aus MAGELLAN an Word oder an LibreOffice übergeben werden sollen. Je nach Auswahl wird beim Aufruf der Seriendruckfunktionalität Word oder LibreOffice aufgerufen und Sie können die übergebenen Daten im gewählten Zielprogramm wie gewohnt weiterverarbeiten.
+Sie können unter `Datenbank > Optionen > Dokumente > Seriendruck` wählen, ob die Seriendruckdaten aus Magellan an Word oder an LibreOffice übergeben werden sollen. Je nach Auswahl wird beim Aufruf der Seriendruckfunktionalität Word oder LibreOffice aufgerufen und Sie können die übergebenen Daten im gewählten Zielprogramm wie gewohnt weiterverarbeiten.
 Wählen Sie die Option, das gefüllte Dokument vor der Übergabe nach LibreOffice in der Dokumentenverwaltung zu speichern, wird die Vorlage mit den Daten befüllt und im PDF-Format im jeweiligen Unterordner abgelegt.
 
 #### Filter für Mitteilungen
@@ -173,7 +173,7 @@ Der Zielgruppenfilter in der Funktion unter `Extras > Benachrichtigen > Benachri
 
 ![Filterliste](/assets/images/changelog/aenderungen8/15.png)
 
-## MYMAGELLAN
+## MyMagellan
 
 ### Bezeichnungen der Fächer
 
@@ -181,15 +181,15 @@ Zusätzlich zum Kürzel des Fachs wird auch die Bezeichnung des Fachs in die mym
 
 ![Fachbezeichnung wird gezeigt](/assets/images/changelog/aenderungen8/14.png)
 
-## MAGELLAN ADMINISTRATOR
+## Magellan Administrator
 
 ### Benutzerrechte
 
-Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der Schulverwaltung unterbinden. Melden Sie sich als Administrator (`sysdba`) MAGELLAN ADMINISTRATOR an. Im Menüpunkt `Benutzerverwaltung` wählen Sie per Doppelklick den anzupassenden Benutzeraccount aus. Auf der neuen Registerkarte `Ansichten` können Sie per Häkchen den Zugriff gewähren oder unterbinden.
+Sie können für jeden Benutzer individuell den Zugriff auf Menüpunkte in der Schulverwaltung unterbinden. Melden Sie sich als Administrator (`sysdba`) Magellan Administrator an. Im Menüpunkt `Benutzerverwaltung` wählen Sie per Doppelklick den anzupassenden Benutzeraccount aus. Auf der neuen Registerkarte `Ansichten` können Sie per Häkchen den Zugriff gewähren oder unterbinden.
 
 ![Benutzerverwaltung > Ansichten ausblenden](/assets/images/changelog/aenderungen8/02.png)
 
-## MAGELLAN BIBLIOTHEK
+## Magellan Bibliothek
 
 ### Ausleihen
 
