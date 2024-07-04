@@ -108,19 +108,21 @@ Nr|Ursache
 Eventuell wurde bei der Installation kein oder nicht der korrekte Pfad zu dem Skripteordner erfasst. Bitte rufen Sie das Anmeldefenster des Administrators auf und wählen die folgende Einstellung:
 
 ![Magellan Administrator starten ohne Anmeldung](/assets/images/admin-ohne-anmeldung.png)
-   
+
 Anschließend rufen Sie im Administrator den Punkt Server-Verwaltung|Verbindungen verwalten|Starten|Verbindung markieren|Bearbeiten|Unterkarte "Datenordner" auf. Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
   
 Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Installationspfaden an den nachfolgenden Stellen:
 (Pfad bitte jeweils um den Namen des Verzeichnisses ergänzen: Berichte, Skripte, Vorlagen, Importe, Dokumente, Datenbank) finden Sie unter:
 
+**Achtung: Das x im Pfad gilt als Platzhalter für Ihre eingesetzte Version**
+
 | Betriebssystem    |Standardpfad|
 | --                | --         |
-|  Vista            | C:\Users\Public\Documents\Magellan 7  |
-|XP                 |C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber S...\Magellan 7|
-|Windows 2000       |C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber S...\Magellan 7 |
-|Windows 7          |C:\Users\Public\Documents\Stueber S...\Magellan 7 |
-|Windows Server 2008|C:\Users\Public\Documents\Stueber S...\Magellan 7\ |
+| Vista            | C:\Users\Public\Documents\Magellan x  |
+|XP                 |C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan x|
+|Windows 2000       |C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan x |
+|Windows 7          |C:\Users\Public\Documents\Stueber Systems\Magellan x |
+|Windows Server 2008|C:\Users\Public\Documents\Stueber Systems\Magellan x\ |
 
 ### Trotz Update fehlen Skripte oder andere aktuelle Daten
 
@@ -166,15 +168,17 @@ Vermutlich ist eine der Dateien, die beim Start von Magellan geladen werden soll
 
 Bitte schauen Sie an dem Rechner je nach Betriebssystem unter folgendem Pfad nach:
 
+**Achtung: Das x im Pfad gilt als Platzhalter für Ihre eingesetzte Version**
+
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\ProgramData\Stueber Software\Magellan 6 |
-| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6 |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6 |
-| Windows 7 | C:\ProgramData\Stueber Software\Magellan 6 |
-| Windows Server 2008 | C:\ProgramData\Stueber Software\Magellan 6 |
-| Windows 8 | C:\ProgramData\Stueber Software\Magellan 6 |
-| Windows 10 | C:\ProgramData\Stueber Software\Magellan 6 |
+| Windows Vista | C:\ProgramData\Stüeber Systems\Magellan x |
+| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stüeber Systems\Magellan x |
+| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stüeber Systems\Magellan x |
+| Windows 7 | C:\ProgramData\Stüeber Systems\Magellan x |
+| Windows Server 2008 | C:\ProgramData\Stüeber Systems\Magellan x |
+| Windows 8 | C:\ProgramData\Stüeber Systems\Magellan x |
+| Windows 10 | C:\ProgramData\Stüeber Systems\Magellan x |
 
 Bitte benennen Sie der Reihe nach immer eine der Dateien um und starten Magellan, um zu sehen, welche der Dateien das Problem verursacht.
 Wenn Sie eine Dateien ausmachen konnten, gehen Sie je nach Datei wie folgt vor:
