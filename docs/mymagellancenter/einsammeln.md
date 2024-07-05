@@ -6,9 +6,9 @@ Die Noteneingabe in MyMagellan ist der gesonderten Dokumentation [MyMagellan](ht
 
 ## Aktueller Stand?
 
-Wenn die von den Kollegen mit Zeugnisdaten befüllten Dateien wieder an der Stelle abgelegt werden, an die sie beim Verteilen auch erzeugt wurden, erhalten Sie über das MyMagellan CENTER einen Überblick wessen Datei bereits gefüllt wieder vorliegt. 
+Wenn die von den Kollegen mit Zeugnisdaten befüllten Dateien wieder an der Stelle abgelegt werden, an die sie beim Verteilen auch erzeugt wurden, erhalten Sie über das MyMagellan Center einen Überblick wessen Datei bereits gefüllt wieder vorliegt. 
 
-Das MyMagellan CENTER zeigt Ihnen per Symbol, wessen Datei erzeugt wurde oder nicht, wessen Datei bereits gefüllt ist und wessen Datei bereits wieder nach Magellan eingelesen wurde. Sie haben so jederzeit den Überblick, ob alle für den Zeugnisdruck notwendigen Daten bereits übermittelt wurden.
+Das MyMagellan Center zeigt Ihnen per Symbol, wessen Datei erzeugt wurde oder nicht, wessen Datei bereits gefüllt ist und wessen Datei bereits wieder nach Magellan eingelesen wurde. Sie haben so jederzeit den Überblick, ob alle für den Zeugnisdruck notwendigen Daten bereits übermittelt wurden.
 
 
 |Symbol | Bedeutung |
@@ -58,7 +58,7 @@ grüner Pfeil|MyMagellan-Datei erfolgreich importiert: MyMagellan-Datei existier
 
 ## Löschen der MyMagellan-Dateien
 
-Im MyMagellan CENTER können Sie keine mym-Dateien löschen und auch nicht beim Neuverteilen überschreiben. Sollten Sie beim Verteilen versuchen eine Datei zu erzeugen, die mit dem eingestellten Dateinamen an dem Speicherort bereits existiert, wird Ihnen eine Meldung ausgegeben. 
+Im MyMagellan Center können Sie keine mym-Dateien löschen und auch nicht beim Neuverteilen überschreiben. Sollten Sie beim Verteilen versuchen eine Datei zu erzeugen, die mit dem eingestellten Dateinamen an dem Speicherort bereits existiert, wird Ihnen eine Meldung ausgegeben. 
 MyMagellan-Dateien können Sie direkt in Ihrem Verzeichnis auf Dateiebene löschen oder in eine anderes Verzeichnis archivieren.
 
 ## MyMagellan Dateien erneut importieren

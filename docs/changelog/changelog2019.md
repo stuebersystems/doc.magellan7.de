@@ -127,12 +127,12 @@ Folgende Berichte wurden um den Bemerkungstext zum Beiblatt Schul Z 620 ergänzt
 
 ### Magellan Administrator
 
-* FIX: Benutzer mit dem Zusatzrecht `Mandanten-Administrator` dürfen für Nutzer ihres Mandanten Benutzer in der `Benutzerverwaltung` verwalten und das MyMagellan CENTER für diese Nutzer verwenden
+* FIX: Benutzer mit dem Zusatzrecht `Mandanten-Administrator` dürfen für Nutzer ihres Mandanten Benutzer in der `Benutzerverwaltung` verwalten und das MyMagellan Center für diese Nutzer verwenden
 * FIX: `Datenaustausch > Daten über das Magellan Improtformat importieren` => Problem beim Importieren der schueler_laufbahn.import.csv gelöst
 
-### MyMagellan-CENTER
+### MyMagellan-Center
 
-* CHANGE: Benutzer mit dem Recht `Mandantenadministrator` können das MyMagellan-CENTER bedienen und Rechte bestehender Nutzer ihres Mandanten hinsichtlich der MyMagellan-Nutzung anpassen. Geändert werden kann, ob der Nutzer Teilnehmer ist oder nicht, die Ablagestelle der mym7-Datei und das MyMagellan-Passwort.
+* CHANGE: Benutzer mit dem Recht `Mandantenadministrator` können das MyMagellan-Center bedienen und Rechte bestehender Nutzer ihres Mandanten hinsichtlich der MyMagellan-Nutzung anpassen. Geändert werden kann, ob der Nutzer Teilnehmer ist oder nicht, die Ablagestelle der mym7-Datei und das MyMagellan-Passwort.
 * NEW: Neuer Import und Export für den sysdba und Mandantenadministratoren: es können MyMagellan-Teilnehmer als CSV-Datei exportiert und wieder importiert werden. Es können auf diesem Weg für mehrere Teilnehmer gleichzeitig der Ablagepfad für die mym7-Datei und das MyMagellan-Passwort (späteres Dateipasswort) angepasst werden.
 * NEW: Möglichkeit zum Löschen bereits angelegter Dateien aus der Oberfläche des MyMagellan-Centers.
 
@@ -741,7 +741,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Besta
 * FIX: Problem beim Öffnen per Doppelklick auf Passwort-geschützte mym-Dateien behoben.
 * CHANGE: Startfenstergröße vorgegeben
 
-### MyMagellan CENTER
+### MyMagellan Center
 
 * NEW: In die MyMagellan-Dateien ausschließlich Verzeichniswerte (Noten, Fachstatus, Unterrichtsarten, Abschlüsse usw.) übergeben werden, deren Bis-Datum im Magellan-Verzeichnis (Magellan > Extras > Schlüsselverzeichnisse) leer ist oder ein Datum enthält, dass vom Tag der Erstellung aus gesehen in der Zukunft liegt. Ungültige Werte stehen somit den Kollegen bei der Eingabe in MyMagellan nicht mehr zur Verfügung.
 * FIX: Problem mit passwortgeschützten Dateien behoben
@@ -975,12 +975,12 @@ Folgende Berichtsverzeichnisse wurden auf die Datenstruktur von Magellan 7 angep
 ### MyMagellan
 
 * NEW: Mit dieser Version veröffentlichen wir die erste Ausgabe von MyMagellan. 
-  * Das MyMagellan CENTER finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMagellan CENTER ist keine gesonderte Installation nötig. Die Dokumentation des MyMagellan CENTERs finden Sie [hier](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/).
+  * Das MyMagellan Center finden Sie nicht mehr als gesonderten Programmaufruf, sondern als Teil des Administrators. Für das MyMagellan Center ist keine gesonderte Installation nötig. Die Dokumentation des MyMagellan CENTERs finden Sie [hier](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/).
   * Die Dokumentation des Eingabemoduls MyMagellan (aus Sicht des eingebenden Kollegen) finden Sie [hier](https://doc.mymagellan7.stueber.de/).
 
 ### Magellan Administrator
 
-* NEW: Neuer Aufruf für das MyMagellan CENTER
+* NEW: Neuer Aufruf für das MyMagellan Center
 
 ## 7.0.10 - 704 (24.05.2019)
 

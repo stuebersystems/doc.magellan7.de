@@ -354,11 +354,11 @@ Wenn Sie eine neue Datenbankverbindung aus einer Kopie, einer bereits gespeicher
 
 ![Klicken Sie per rechter Maustaste (oder mit `STRG+C`) auf die zu kopierende Verbindung](/assets/images/verbindung.kopieren.png)
 
-## MyMagellan CENTER 
+## MyMagellan Center 
 
-Das MyMagellan CENTER ist Teil des Administrators geworden. Sie finden den Aufruf mit in der Menüleiste.
+Das MyMagellan Center ist Teil des Administrators geworden. Sie finden den Aufruf mit in der Menüleiste.
 
-![Das neue MyMagellan CENTER](/assets/images/neues/myma.png)
+![Das neue MyMagellan Center](/assets/images/neues/myma.png)
 
 ### Verzeichniswerte
 

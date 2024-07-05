@@ -12,7 +12,7 @@ Nr.|Voraussetzung
 
 ### Wer darf die Einstellungen vornehmen
 
-Die Karte MyMagellan CENTER kann vom `sysdba` oder von einem Nutzer mit dem Sonderrecht `Mandantenadministrator` bedient werden.
+Die Karte MyMagellan Center kann vom `sysdba` oder von einem Nutzer mit dem Sonderrecht `Mandantenadministrator` bedient werden.
 
 Der Mandantenadministrator darf Folgendes für:
 
@@ -42,14 +42,14 @@ Der Benutzer muss unter „Schulverwaltung“ der Benutzergruppe „Schulleitung
 
 ### 2. Teilnehmer von MyMagellan
 
-Der Benutzer muss unter „MyMagellan“ den Status „Teilnehmer von MyMagellan“ besitzen. Anderenfalls wird der Benutzer nicht auf der Karte `MyMagellan CENTER` angezeigt.
+Der Benutzer muss unter „MyMagellan“ den Status „Teilnehmer von MyMagellan“ besitzen. Anderenfalls wird der Benutzer nicht auf der Karte `MyMagellan Center` angezeigt.
 
 ![Teilnehmer von MyMagellan](/assets/images/mymagellan/03.png)
 
 ### 3. Speicherort für die Datei vorbelegen
 
 Dem Benutzer muss unter „MyMagellan“ eine „MyMagellan-Datei“ (Datei mit der Endung .mymx) zugeordnet werden. Die Datei muss lediglich benannt werden, jedoch nicht schon existieren. Es geht hier darum die Stelle für die spätere Sammelerstellung der Lehrerdateien vorzubelegen.
-Bitte achten Sie darauf, dass Sie den kompletten Pfad eintragen. Wenn Sie lediglich eine Dateibezeichnung eintragen, führt dies später zu einer Fehlermeldung, da der Speicherort nicht gefunden wird. Nur Benutzer mit diesen Rechten werden im MyMagellan CENTER angezeigt.
+Bitte achten Sie darauf, dass Sie den kompletten Pfad eintragen. Wenn Sie lediglich eine Dateibezeichnung eintragen, führt dies später zu einer Fehlermeldung, da der Speicherort nicht gefunden wird. Nur Benutzer mit diesen Rechten werden im MyMagellan Center angezeigt.
 
 ![Speicherort vorbelegen](/assets/images/mymagellan/04.png)
 
@@ -78,7 +78,7 @@ Für bereits angelegte Benutzer können die Passworte für die MyMagellan-Datei 
 
 #### Export
 
-Starten Sie den Assistenten unter `Magellan Administrator > MyMagellan CENTER > Benutzer exportieren` und geben eine Pfad und einen Dateinamen ein.
+Starten Sie den Assistenten unter `Magellan Administrator > MyMagellan Center > Benutzer exportieren` und geben eine Pfad und einen Dateinamen ein.
 
 ![Benutzerdaten exportieren](/assets/images/mymagellan/24.png)
 
@@ -101,7 +101,7 @@ Spaltenkopf| Mögliche Werte
 
 #### Import
 
-Speichern Sie Ihre angepasste Datei und rufen Sie den Import über die Schaltfläche unter `Magellan Administrator > MyMagellan CENTER > Benutzer exportieren` auf.
+Speichern Sie Ihre angepasste Datei und rufen Sie den Import über die Schaltfläche unter `Magellan Administrator > MyMagellan Center > Benutzer exportieren` auf.
 
 ![Benutzereinstellungen importieren](/assets/images/mymagellan/26.png)
 
@@ -140,15 +140,15 @@ Zuordnung des Tutors unter `Schüler > Zeugnis > Details > Feld Tutor`. Dieses F
 
 ![Zuordnung des Tutors auf der Registerkarte „Zeugnis > Details“ des Schülers.](/assets/images/mymagellan/09.png)
 
-Ist ein MyMagellan-Teilnehmer im aktuellen Zeitraum weder Klassenleiter 1, noch Fachlehrer, noch Tutor, wird für ihn keine MyMagellan-Datei durch das MyMagellan CENTER erzeugt.
+Ist ein MyMagellan-Teilnehmer im aktuellen Zeitraum weder Klassenleiter 1, noch Fachlehrer, noch Tutor, wird für ihn keine MyMagellan-Datei durch das MyMagellan Center erzeugt.
 
 ## MyMagellan-Dateien verteilen
 
-Sind alle Voraussetzungen für die Erstellung der MyMagellan-Dateien erfüllt, werden nach dem Aufruf der Karte `MyMagellan CENTER` alle MyMagellan-Teilnehmer aufgelistet.
+Sind alle Voraussetzungen für die Erstellung der MyMagellan-Dateien erfüllt, werden nach dem Aufruf der Karte `MyMagellan Center` alle MyMagellan-Teilnehmer aufgelistet.
 
 !!! info "Hinweis"
 
-	Vor dem eigentlichen Verteilen der MyMagellan-Dateien, sollten Sie nochmals überprüfen, ob für jeden Teilnehmer der Speicherort und der Dateiname für seine MyMagellan-Datei vordefiniert wurde. Wenn dies noch nicht über die Benutzerverwaltung des Magellan ADMINISTRATORs erfolgt ist, können Sie diese Vorgaben auch im MyMagellan CENTER definieren.
+	Vor dem eigentlichen Verteilen der MyMagellan-Dateien, sollten Sie nochmals überprüfen, ob für jeden Teilnehmer der Speicherort und der Dateiname für seine MyMagellan-Datei vordefiniert wurde. Wenn dies noch nicht über die Benutzerverwaltung des Magellan ADMINISTRATORs erfolgt ist, können Sie diese Vorgaben auch im MyMagellan Center definieren.
 
 ![Sind alle Speicherorte vorbelegt?](/assets/images/mymagellan/10.png)
 

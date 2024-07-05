@@ -5,7 +5,7 @@ Dies ist die elektronische Dokumentation für [Magellan](https://magellan.stuebe
 |Diese Dokumentation ist unterteilt in die Bereiche:|
 |:--|
 |  [Magellan Schulverwaltung](https://doc.magellan.stueber.de/schulverwaltung/installation/) |
-|  [MyMagellan CENTER](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/) |
+|  [MyMagellan Center](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/) |
 |  [Magellan Bibliothek](https://doc.magellan.stueber.de/bibliothek/) |
 
 |Weitere Dokumentationen finden Sie unter nachfolgenden Links:|

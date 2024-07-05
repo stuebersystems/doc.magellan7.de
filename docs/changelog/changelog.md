@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan CENTER werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan Center werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
 Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https://doc.magellan.stueber.de/changelog/changelog2023/), [2022](https://doc.magellan.stueber.de/changelog/changelog2022/), [2021](https://doc.magellan.stueber.de/changelog/changelog2021/), [2020](https://doc.magellan.stueber.de/changelog/changelog2020/), [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
 
@@ -40,6 +40,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
     * Summe Facharbeitsnote
     * Korrektur der Ausgabe für Fach und Thema für FA und BLL
 * CHANGE: `Quittung(DIN A4).rpt` Klasse für Schülerquittung ergänzt
+* CHANGE: `BER-Schul Z 320a–b (04.23).rpt` VU-Fächer werden nicht mehr ausgewiesen, stattdesen höchstens 4 Fächer mit dem Fachstatus WahlPF. Für die Ausgabe ist die Position der Fächer wichtig, auf der linken Seite erscheinen die Fächer mit ungerader Position, auf der rechten Seite die Fächer mit gerader Position.
 
 ### Version 11.0.6 1101 (01.07.2024)
 

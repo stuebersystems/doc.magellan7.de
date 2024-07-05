@@ -3,7 +3,7 @@
 !!! info "Hinweis"
 
 	Die Nutzung von MyMagellan setzt eine gesonderte Lizenzierung voraus. 
-	In den nachfolgenden Abschnitten beschreiben wir das MyMagellan CENTER, die Verwendung des Lehrerwerkzeugs MyMagellan beschreiben wir in der Dokumentation [MyMagellan 7](https://doc.mymagellan7.stueber.de/).
+	In den nachfolgenden Abschnitten beschreiben wir das MyMagellan Center, die Verwendung des Lehrerwerkzeugs MyMagellan beschreiben wir in der Dokumentation [MyMagellan 7](https://doc.mymagellan7.stueber.de/).
 
 ## MyMagellan Center starten
 
@@ -26,7 +26,7 @@ Jeder Lehrer füllt seine Datei aus und bringt sie wieder mit in die Schule, dor
 
 Für diese Alternative gibt es das zweiteilige Modul MyMagellan, das aus dem **MyMagellan Center** (für die Erzeugung der Lehrerdateien und den Import der später gefüllten Lehrerdateien) und **MyMagellan** (Werkzeug der Lehrer zum Füllen der Lehrerdatei) besteht.
 
-**MyMagellan CENTER**<br/>Administrationstool|**MyMagellan**<br/>Lehrertool
+**MyMagellan Center**<br/>Administrationstool|**MyMagellan**<br/>Lehrertool
 --|--
 - Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/><br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach Magellan eingelesen wurden<br/><br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein|- Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/><br/>- Ist das Programm, mit dem der Lehrer seine Notendatei füllt.
 

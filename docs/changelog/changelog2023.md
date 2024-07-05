@@ -1,6 +1,6 @@
 # Was ist neu
 
-Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan CENTER werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
+Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan Center werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
 * Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier:
 
@@ -183,7 +183,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 * FIX: Fehlerkorrektur beim Ausführen von Skripten
 
-#### MyMagellan-CENTER
+#### MyMagellan-Center
 
 * FIX: Die Felder auf der Unterkarte `Schüler anzeigen > Schüler auswählen > Zeugnisdaten` werden werden mit den aus Magellan übergebenen Werten aber inaktiviert dargestellt, wenn beim Erzeugen der Dateien für die Felder `sichtbar` und `nicht editierbar` gewählt wurde. Wird die Sichtbarkeit für kein Felder der Unterkarte gewählt, wird die Karte ausgeblendet.
 
@@ -251,7 +251,7 @@ Berichte zum Download vorab: [hier](https://my.hidrive.com/share/l332606dzw)<br/
 
 ### Version 10.0.4 101 (19.05.2023)
 
-#### MyMagellan CENTER
+#### MyMagellan Center
 
 * NEW: Der Assistent zum Verteilen von Daten in die Mymx-Dateien wurde um eine Filteroption nach Unterrichtsarten erweitert. Sie können wie gewohnt alle Fachzeilen übertragen oder zwischen einer bestimmten Unterrichtsart (entsprechend Ihres Verzeichnisses aus `Magellan > Extras > Schlüsselverzeichnisse > Unterrichtsarten`) oder der Auswahl "ohne Unterrichtsart" wählen. Bitte beachten Sie die Anleitung unter [https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen](https://doc.magellan.stueber.de/mymagellancenter/verteilen/#karte-unterrichtsart-auswahlen).
 

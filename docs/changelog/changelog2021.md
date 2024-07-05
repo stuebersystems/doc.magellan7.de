@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Fehler in der Sammelzuweisung unter `Schüler > Sammelzuweisung` behoben.
 
-#### MyMagellan-CENTER
+#### MyMagellan-Center
 
 * FIX: Beim Erstellen von MyMagellan-Dateien für des Schülers denen derselbe Lehrer als Fachlehrer und als Tutor zugeordnet ist, wird nur der Tutor in die Datei gespielt.
 

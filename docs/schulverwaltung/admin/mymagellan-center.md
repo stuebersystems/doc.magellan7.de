@@ -13,7 +13,7 @@ Für diese Alternative gibt es das zweiteilige Modul MyMagellan, das aus dem **M
 
 Modul|Funktion
 --|--
-**MyMagellan CENTER** |- Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach Magellan eingelesen wurden<br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein
+**MyMagellan Center** |- Erzeugt aus der Datenbank heraus für Lehrer Dateien, die je nach Rolle des Lehrers (Fachlehrer, Klassenleiter, Tutor) eine unterschiedliche Menge an Daten der Schüler enthält<br/>- zeigt eine Übersicht, wessen Datei erstellt wurde, wessen Datei bereits gefüllt wieder übermittelt wurde, welche Dateien wieder nach Magellan eingelesen wurden<br/>- Liest die von den Lehrern gefüllten Dateien wieder in die Schulverwaltungsdatenbank ein
 **MyMagellan** |Wird von den Lehrern auf dem für die Noteneingabe genutzten Windowsrechner installiert<br/>Ist das Programm, mit dem der Lehrer seine Notendatei füllt
 
 
@@ -24,5 +24,5 @@ Modul|Funktion
 
 Modul|Pfad zur Dokumentation
 --|--
-**MyMagellan CENTER** | [https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/)
+**MyMagellan Center** | [https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/](https://doc.magellan.stueber.de/mymagellancenter/einfuehrung/)
 **MyMagellan** |[https://doc.mymagellan7.stueber.de/](https://doc.mymagellan7.stueber.de/).

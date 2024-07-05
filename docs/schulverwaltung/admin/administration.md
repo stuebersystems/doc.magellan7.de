@@ -7,7 +7,7 @@ Der Magellan-Administrator beinhaltet folgende Funktionen für den Administrator
 * [Magellan Administrator](https://doc.magellan.stueber.de/schulverwaltung/admin/magellan.administrator)
   * [Datenbankverbindungen](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen)
   * [Benutzerverwaltung](https://doc.magellan.stueber.de/schulverwaltung/admin/users)
-  * [MyMagellan CENTER](https://doc.magellan.stueber.de/schulverwaltung/admin/mymagellan-center)
+  * [MyMagellan Center](https://doc.magellan.stueber.de/schulverwaltung/admin/mymagellan-center)
   * [Datenbankpflege](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege)
   * [Datenaustausch](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch)
   * [Logbuch](https://doc.magellan.stueber.de/schulverwaltung/admin/logbuch)

@@ -371,7 +371,7 @@ Alle Anleitungen zu Berichtsdateien finden Sie unter [https://doc.la.stueber.de]
 
 * FIX: Beim Übertrag von Magellan 6 nach Magellan 7 wird die Datenstruktur 674 erwartet 
 
-### MyMagellan-CENTER
+### MyMagellan-Center
 
 * FIX: Mym-Datei mit mit pauschalem Kennwort erstellen
 
@@ -645,7 +645,7 @@ Die nachfolgenden Berichte sind nach unseren aktuellen Empfehlungen optimiert wo
 * FIX: Synchronisiere Zugriffsrechte.dws Fehlermeldung "Mit Fehlern abgeschlossen" bei korrektem Durchlauf entfernt
 * FIX: Zuweisen von Zugriffsrechten.dws `Klassen > Klassen übernehmen` mit dem Recht Schulleitung 1 und Mandanten Administrator
   
-### MyMagellan-CENTER
+### MyMagellan-Center
 
 * FIX: MyMagellan Dateien werden zum Einlesen korrekt (mym7 oder mymx) erkannt
 
@@ -702,7 +702,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Besta
 
 * FIX: Datapump (Datenübertragung von Magellan 6 nach Magellan 7) optimiert
 
-### MyMagellan-CENTER
+### MyMagellan-Center
 
 * NEW: Neues Format für mym-Dateien (*.mymx). Neu erzeugte mym-Dateien werden als verschlüsselte XML-Dateien gespeichert. Zuvor exportierte Dateien im alten Format können aber weiterhin eingelesen werden.
 
@@ -1231,7 +1231,7 @@ Eine Anleitung unserer Berichte finden Sie im Modul Magellan BERICHTE, das Besta
 
 * NEW: Der Punkt `Datenaustausch > Daten über das Magellan-Importformat importieren` wurde umgestaltet. Bitte beachten Sie die aktualisierte [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/admin/datenaustausch/#daten-uber-das-magellan-importformat-importieren)!
 
-### MyMagellan-CENTER
+### MyMagellan-Center
 
 * CHANGE: Standardsortierung der Liste nach `Kennung`
 

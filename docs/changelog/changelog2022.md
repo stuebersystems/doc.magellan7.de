@@ -227,7 +227,7 @@ Hilfe für die Nutzung der Berichtsdateien finden Sie unter [https://doc.la.stue
 * CHANGE: Wordseriendruckvorlagen überarbeitet (Schuladresse und ggfs. Seriendruckquelle entfernt)
 * FIX: PDF-Ablage für den Seriendruck aus dem Schülermenü (Betriebe, Sorgeberechtigte)
 
-#### MyMagellan CENTER
+#### MyMagellan Center
 
 * FIX: Problem beim Einlesen (bspsw. bei Fehltagen, Fehltagen unentschuldigt, Fehlstunden, Fehlstunden unentschuldigt) aus `*.mymx` behoben. [Vorabdownload der MagellanAdmin.exe](https://my.hidrive.com/share/9mtntyk820) und [Anleitung](https://doc.kb.stueber.de/support/exe_tauschen/)
 
