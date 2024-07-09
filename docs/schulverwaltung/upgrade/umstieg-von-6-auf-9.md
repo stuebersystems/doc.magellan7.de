@@ -10,7 +10,7 @@ Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfo
 Was|Wie
 --|--
 Alte SQL-Update-Skripte|Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
-Leere `Magellan8.fdb`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im Magellan 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
+Leere `Magellan8.fdb`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im Magellan 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.fdb)
 Anpassung von Version 6 auf 8|Im Magellan Administrator der Version 9 ist der Assistent zur Umstellung von Magellan 6 auf Magellan 8 enthalten. Installieren und lizenzieren Sie Magellan 9, verwenden den Assistenten wie im Abschnitt [Umstieg von 6 auf 8](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-6-auf-magellan-9) beschrieben.
 Anpassung von Version 8 auf 9|Führen Sie anschließend die Anpassung der 8er Datenbank wie in der Anleitung unter [Umstieg von 8 auf 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-8-auf-magellan-9) durch. 
 Eigene Berichte umstellen|Bitte denken Sie daran, dass die Berichte, die Sie in den Versionen vor Magellan 7 selbst erstellt oder angepasst haben, noch umgestellt werden müssen. Eine Anleitung finden Sie dafür hier: [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#magellan-6-berichte-fur-7-oder-hoher-anpassen)
@@ -34,7 +34,7 @@ Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beis
 #### Übernahme nicht übers Netzwerk
 
 Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen.
-Bitte legen Sie beide Datenbanken, also die leere MAGELLAN8.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
+Bitte legen Sie beide Datenbanken, also die leere Magellan8.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
 
 !!! danger "Achtung"
 
@@ -48,7 +48,7 @@ Ab Magellan 7 werden Schüler und Ihre Ausbildungen mittels einer GUID eindeutig
 
 Ab Magellan 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.Magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
 
-Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue MAGELLAN8.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
+Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue Magellan8.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
 
 Im aktuellen Magellan gibt es diese Option nicht mehr, da es unerheblich ist an welchem Datensatz man einen Werte der Stammdaten ändert, die Änderung wird für alle zusammenhängenden Datensätze durchgeführt. Es gibt aus das "Zusammenführen" beim Einschulen so nicht mehr, der Assistent prüft selbstständig, ob eine Zusammenführen hier möglich ist oder nicht und führt die notwendigen Schritte aus.
 
@@ -108,7 +108,7 @@ Im dritten Schritt werden in eine leere Magellan 8-Datenbank, die Daten aus Ihre
 
 1. Öffnen Sie bitte das Modul Magellan 9 Administrator und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `Magellan 6 nach Magellan 9` ein. Klicken Sie auf `Weiter`!
 
-2. Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 8-Datenbank möglich. [Eine "frische" leere Datenbank im Magellan 8-Format können Sie hier herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.fdb)
+2. Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 8-Datenbank möglich. [Eine "frische" leere Datenbank im Magellan 8-Format können Sie hier herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.fdb)
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (Magellan 6), im unteren Bereich auf die Zieldatenbank (Magellan 8).
 
@@ -308,7 +308,7 @@ Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordn
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
-Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (MAGELLAN9.fdb) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
+Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (Magellan9.fdb) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für Magellan 9 ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von Magellan 9 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.
