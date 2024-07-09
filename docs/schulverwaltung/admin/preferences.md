@@ -82,12 +82,13 @@ Hintergrundfarben für Benotungen |Unter `Verzeichnisse > Noten` können Sie pro
 
 ## Digitalquelle
 
-Passfotos für Bewerber, Schüler, Lehrer oder Personen können direkt über die Nutzung einer Digitalquelle (z.B. Webcam, Digitalkamera oder Scanner) eingelesen werden. Im Unterschied zum Laden eines Passfotos aus einer Datei, können Sie die Daten direkt aus der Digitalquelle übernehmen, ohne dazu zunächst eine extra Bilddatei anlegen zu müssen. 
+Passfotos für Bewerber, Schüler, Lehrer oder Personen können direkt über die Nutzung einer Digitalquelle (z.B. Webcam, Digitalkamera oder Scanner) eingelesen werden. 
+Im Unterschied zum Laden eines Passfotos aus einer Datei, können Sie die Daten direkt aus der Digitalquelle übernehmen, ohne dazu zunächst eine extra Bilddatei anlegen zu müssen. 
 
 Voraussetzung für die Nutzung von Digitalquellen ist die Unterstützung einer bestimmten Schnittstelle:
 
 * der Twain-Schnittstelle (Scanner (mehrblattfähig) oder Kamera)
-* der WIA-Schnittstelle (Scanner (nicht mehrblattfähig))
+* der WIA-Schnittstelle (Scanner (nicht mehrblattfähig) oder Kamera)
 
 Die Digitalquelle können Sie wie folgt einstellen:
 
@@ -96,12 +97,18 @@ Die Digitalquelle können Sie wie folgt einstellen:
 3.	Wählen Sie unter Aktuelle Digitalquelle für Passfotos über die Schaltfläche Digitalquelle auswählen eine auf Ihrem Rechner installierte Digitalquelle aus.
 
 Wenn Sie ein Digitalquelle in der Dokumentenverwaltung nutzen wollen, um Dokumente einzuscannen, so können Sie eine Digitalquelle unter `Aktuelle Digitalquelle für Dokumente` auswählen. Zur Auswahl werden alle Digitalquellen des Rechners angeboten, die eine Twain-Schnittstelle oder WIA-Schnittstelle besitzen und deren Treiber korrekt installiert sind.
-
 ![Geben Sie hier die Digitalquellen an, die Sie für das Erfassen von Passbildern bzw. Dokumenten nutzen wollen.](/assets/images/optionen_digitalquelle.png)
 
 !!! warning "Wichtig"
 
 	TWAIN: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten Magellan Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
+
+### Webcam oder integrierte Kamera
+
+Unabhängig von den oben beschriebenen Möglichkeiten können Sie auf Ihre integrierte Kamera oder Ihre Webcam ohne spezielle Einstellungen zugreifen. 
+Sie finden die Möglichkeit dazu direkt im Schülermenü per Rechtsklick auf den Passhalter für Passfotos.
+
+![Passfoto von Web-Kamera](/assets/images/schueler/004.png)
 
 ## Dokumente
 
