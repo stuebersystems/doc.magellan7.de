@@ -74,10 +74,10 @@ Bei der Übernahme der Daten aus Ihrer Magellan 6-Datenbank in die Magellan 8-Da
 
 |Notwendige Schritte |
 |-|
-|[1. ggfs. Magellan 6 und ggfs. Firebird aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#magellan-6-und-firebird-aktualisieren)|
-|[2. 6er Datenbank vorbereiten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#6er-datenbank-vorbereiten)|
-|[3. Magellan 8 installieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#magellan-8-installieren)|
-|[4. Daten aus Magellan 6 nach Magellan 8 übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-8/#daten-aus-magellan-6-nach-magellan-8-ubernehmen)|
+|1. ggfs. Magellan 6 und ggfs. Firebird aktualisieren|
+|2. 6er Datenbank vorbereiten|
+|3. Magellan 8 installieren|
+|4. Daten aus Magellan 6 nach Magellan 8 übernehmen|
 
 #### Magellan 6 und Firebird aktualisieren
 
