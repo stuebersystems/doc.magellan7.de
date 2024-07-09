@@ -43,11 +43,28 @@ Im Unterschied zur Registerkarte `Daten 1` des Bewerbers, findet man beim Schül
 
 ![Schüler > Daten1](/assets/images/schueler/daten1.png)
 
+### Passfoto
+
+Sie können für Schüler oder Bewerber Passbilder hinterlegen, diese werden in der Datenbank gespeichert. Sie finden alle Möglichkeiten dazu per Rechtsklick auf das Passfoto oder den Platzhalter des Passfotos.
+
+Auswahl| Anmerkung
+--|--
+Passfoto aus Datei| Fügen Sie eine gespeicherte Bilddatei ein
+Passfoto von Web-Kamera| Nehmen Sie ein Foto mit einer Web-Kamera oder der im Notebook integrierten Kamera auf
+Passfoto von Digitalquelle| Nehmen Sie ein Foto mit einer Kamera auf oder lesen Sie ein Foto von einem Scanner ein. Das Gerät hinterlegen Sie bitte unter `Datenbank > Optionen > Digitalquelle`(TWAIN oder WIA).  <br/> [Weitere Informationen](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle)
+Passfoto löschen| Das Passfoto kann aus der Datenbank gelöscht werden.
+
+![Passfoto](/assets/images/schueler/005.png)
+
 !!! info "Hinweis"
 
     Für Schulen in Schleswig-Holstein sind die Felder Passfoto, Religionswunsch und Religionsgrund nicht sichtbar.
 
-## Bereich Familie
+!!! danger "Wichtig"
+
+    Um ggfs. Speicherplatz zu sparen kann es sinnvoll sein, für inaktive Schüler die Passbilder in der Datenbank zu löschen. Bitte verwenden Sie dazu den Assistenten, der [hier](https://doc.magellan.stueber.de/schulverwaltung/admin/datenbankpflege/#schulerdaten-loschen) beschrieben wird.
+
+### Bereich Familie
 
 Die Funktionalitäten sind gleich denen unter `Bewerber > Daten1 > Familie`, bitte lesen Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/bewerber/#familie) weiter.
 

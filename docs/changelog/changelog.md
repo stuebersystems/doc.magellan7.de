@@ -30,6 +30,16 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.7 1101 (unveröffentlicht)
 
+#### Allgemein
+
+* CHANGE: Icons, Symbole und Splashscreens
+
+#### Magellan
+
+* NEW: Unter `Datenbank > Optionen > Digitalquelle > WIA` können Geräte als Digitalquelle für die Aufnahme von Passfotos erfasst werden.
+* NEW: Unter `Schüler > Daten1 > Rechtsklick auf Passfoto > Passfoto von Web-Kamera` können Sie auf eine Web-Kamera zugreifen oder auf in Ihrem Notebook integrierte Kamera.
+
+
 #### Berichte
 
 Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
