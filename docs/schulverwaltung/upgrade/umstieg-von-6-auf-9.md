@@ -9,7 +9,7 @@ Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfo
 
 Was|Wie
 --|--
-Alte SQL-Update-Skripte|Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
+Alte SQL-Update-Skripte|Laden Sie das [Skriptpaket](https://my.hidrive.com/share/aecjm.yor8) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
 Leere `MAGELLAN8.FDB`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `MAGELLAN8.FDB` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im Magellan 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/MAGELLAN8.FDB)
 Anpassung von Version 6 auf 8|Im Magellan Administrator der Version 9 ist der Assistent zur Umstellung von Magellan 6 auf Magellan 8 enthalten. Installieren und lizenzieren Sie Magellan 9, verwenden den Assistenten wie im Abschnitt [Umstieg von 6 auf 8](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-6-auf-magellan-9) beschrieben.
 Anpassung von Version 8 auf 9|Führen Sie anschließend die Anpassung der 8er Datenbank wie in der Anleitung unter [Umstieg von 8 auf 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-8-auf-magellan-9) durch. 
