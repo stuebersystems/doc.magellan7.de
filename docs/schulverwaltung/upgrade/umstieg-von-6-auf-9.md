@@ -382,11 +382,11 @@ Der bisherige ODBC-Treiber ist mittlerweile in die Jahre gekommen und für die n
 
 Nr.|Was ist zu tun
 --|--
-1.|[ODBC-Treiber-Einstellungen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#1-odbc-treiber-einstellungen)
-2.|[ggfs. Datenbankverbindung aktualisieren](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#6-datenbankverbindung-aktualisieren)
-3.|[Datenquellenpfad festlegen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#3-datenquellenpfad-festlegen)
-4.|[Tabellenverknüpfungen anpassen](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#4-tabellenverknupfungen-anpassen)
-5.|[Test](https://doc.magellan.stueber.de/schulverwaltung/update/Berichte_anpassen/#5-test)
+1.|ODBC-Treiber-Einstellungen
+2.|ggfs. Datenbankverbindung aktualisieren
+3.|Datenquellenpfad festlegen
+4.|Tabellenverknüpfungen anpassen
+5.|Test
 
 #### 1. ODBC-Treiber-Einstellungen
 
