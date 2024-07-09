@@ -17,7 +17,7 @@ Nr.|Was ist zu tun
  1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#1-downloads-lizenzdatei-zurechtlegen)
  2.|Installation von [`Magellan 11`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#22-magellan-11) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#21-crystal-reports-runtimeversion)
  3.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#3-willkommensassistent-starten-pfade-und-lizenz)
- 4.|[Übernahme der MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb)
+ 4.|[Übernahme der MAGELLAN10.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb)
  5.|[Anpassen auf die neue Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#5-anpassen-auf-die-neue-datenstruktur)
  6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#6-zugriffsrechte-synchronisieren)
  7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#7-eigene-daten-ubernehmen)
@@ -43,7 +43,7 @@ Nr.|Was ist zu tun
  1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#1-downloads-lizenzdatei-zurechtlegen)
  2.|Installation von [`Magellan 11`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#22-magellan-11) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#21-crystal-reports-runtimeversion)
  3.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#3-willkommensassistent-starten-pfade-und-lizenz)
- 4.|[Übernahme der MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb)
+ 4.|[Übernahme der MAGELLAN10.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb)
  5.|[Anpassen auf die neue Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#5-anpassen-auf-die-neue-datenstruktur)
  6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#6-zugriffsrechte-synchronisieren)
  7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#7-eigene-daten-ubernehmen)
@@ -130,7 +130,7 @@ Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, d
 
 ![Lokale Datenbank](/assets/images/installation/11/w/005.1.png)
 
-Es wird standardmäßig auf eine Beispieldatenbank verwiesen, wir erläutern in nachfolgenden Schritten die Übernahme Ihrer bisherigen `MAGELLAN10.fdb` als `MAGELLAN11.fdb`, bitte wählen Sie daher in diesem Schritt für Ihre Verbindung den Wert `MAGELLAN11.fdb` aus.
+Es wird standardmäßig auf eine Beispieldatenbank verwiesen, wir erläutern in nachfolgenden Schritten die Übernahme Ihrer bisherigen `MAGELLAN10.FDB` als `MAGELLAN11.FDB`, bitte wählen Sie daher in diesem Schritt für Ihre Verbindung den Wert `MAGELLAN11.FDB` aus.
 
 ![Datenbankpfad](/assets/images/installation/11/w/005.2.png)
 
@@ -153,13 +153,13 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/11/w/009.png)
 
-## 4. Übernahme der MAGELLAN10.fdb
+## 4. Übernahme der MAGELLAN10.FDB
 
 1. Stoppen Sie während des Austauschs den Firebird-Dienst unter `Systemsteuerung > Verwaltung > Dienste`! ![Datenbank wiederherstellen](/assets/images/upgrade/10/007.png). 
 
-2. Wechseln Sie in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 11\Datenbank`. In diesem Verzeichnis befindet sich eine leere Datenbank mit der Bezeichung `MAGELLAN11.fdb`, benennen Sie diese in "leere_MAGELLAN11.fdb" um.
+2. Wechseln Sie in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 11\Datenbank`. In diesem Verzeichnis befindet sich eine leere Datenbank mit der Bezeichung `MAGELLAN11.FDB`, benennen Sie diese in "leere_MAGELLAN11.FDB" um.
 
-3. Kopieren Sie anschließend Ihre `MAGELLAN10.fdb` aus dem bisherigen Datenbankverzeichnis und fügen Sie unter `C:\Users\Public\Documents\Stueber Systems\Magellan 11\Datenbank` als `MAGELLAN11.fdb` wieder ein.
+3. Kopieren Sie anschließend Ihre `MAGELLAN10.FDB` aus dem bisherigen Datenbankverzeichnis und fügen Sie unter `C:\Users\Public\Documents\Stueber Systems\Magellan 11\Datenbank` als `MAGELLAN11.FDB` wieder ein.
 
 4. Starten Sie bitte den Firebird-Dienst erneut!
 
@@ -185,7 +185,7 @@ Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitt
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
-Datenbank|Ja| Bitte folgen Sie hierfür dem Abschnitt [Übernahme der MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb).
+Datenbank|Ja| Bitte folgen Sie hierfür dem Abschnitt [Übernahme der MAGELLAN10.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-10-auf-11/#4-ubernahme-der-magellan10fdb).
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für `Magellan 11` ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von `Magellan 11` und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsetzen, können Sie diese Dateien zusätzlich in der neuen Struktur ablegen.

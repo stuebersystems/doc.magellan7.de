@@ -10,7 +10,7 @@ Um von Version 6 auf Version 9 umzusteigen, sind Zwischenschritte nötig, nachfo
 Was|Wie
 --|--
 Alte SQL-Update-Skripte|Laden Sie das [Skriptpaket](https://my.hidrive.com/lnk/gtypCW3w) herunter, entpacken die enthaltenen Skripte nach der Installation der Version 9 auf dem Serverrechner in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Skripte\SQLUpdate`.
-Leere `Magellan8.fdb`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.fdb` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im Magellan 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.fdb)
+Leere `Magellan8.FDB`|In der nachfolgenden Anleitung ist beschrieben, dass Sie die leere `Magellan8.FDB` nutzen sollen. Diese Datenbank können Sie an folgender Stelle herunterladen: [Hier eine leere Datenbank im Magellan 8-Format herunterladen](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.FDB)
 Anpassung von Version 6 auf 8|Im Magellan Administrator der Version 9 ist der Assistent zur Umstellung von Magellan 6 auf Magellan 8 enthalten. Installieren und lizenzieren Sie Magellan 9, verwenden den Assistenten wie im Abschnitt [Umstieg von 6 auf 8](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-6-auf-magellan-9) beschrieben.
 Anpassung von Version 8 auf 9|Führen Sie anschließend die Anpassung der 8er Datenbank wie in der Anleitung unter [Umstieg von 8 auf 9](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#umstieg-von-magellan-8-auf-magellan-9) durch. 
 Eigene Berichte umstellen|Bitte denken Sie daran, dass die Berichte, die Sie in den Versionen vor Magellan 7 selbst erstellt oder angepasst haben, noch umgestellt werden müssen. Eine Anleitung finden Sie dafür hier: [Eigene Berichte anpassen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-6-auf-9/#magellan-6-berichte-fur-7-oder-hoher-anpassen)
@@ -34,11 +34,11 @@ Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beis
 #### Übernahme nicht übers Netzwerk
 
 Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen.
-Bitte legen Sie beide Datenbanken, also die leere Magellan8.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
+Bitte legen Sie beide Datenbanken, also die leere Magellan8.FDB und Ihre gefüllte MAGELLAN6.FDB auf dem gleichen Rechner ab.
 
 !!! danger "Achtung"
 
-    Bevor Sie die MAGELLAN6.fdb kopieren, stoppen Sie bitte den Firebirddienst unter `Start > Systemsteuerung > Verwaltung > Dienste`.
+    Bevor Sie die MAGELLAN6.FDB kopieren, stoppen Sie bitte den Firebirddienst unter `Start > Systemsteuerung > Verwaltung > Dienste`.
 
 #### Sächsische Schulen
 
@@ -48,7 +48,7 @@ Ab Magellan 7 werden Schüler und Ihre Ausbildungen mittels einer GUID eindeutig
 
 Ab Magellan 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.Magellan.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
 
-Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue Magellan8.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
+Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.FDB in die neue Magellan8.FDB berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
 
 Im aktuellen Magellan gibt es diese Option nicht mehr, da es unerheblich ist an welchem Datensatz man einen Werte der Stammdaten ändert, die Änderung wird für alle zusammenhängenden Datensätze durchgeführt. Es gibt aus das "Zusammenführen" beim Einschulen so nicht mehr, der Assistent prüft selbstständig, ob eine Zusammenführen hier möglich ist oder nicht und führt die notwendigen Schritte aus.
 
@@ -95,8 +95,7 @@ FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemst
 #### 6er Datenbank vorbereiten
 
 Falls Sie es noch nicht mit Firebird 2.5.9 durchgeführt haben:
-Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-erstellen) der MAGELLAN6.fdb und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
-
+Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-erstellen) der MAGELLAN6.FDB und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
 
 ### Daten aus Magellan 6 nach Magellan 9 übernehmen
 
@@ -108,7 +107,7 @@ Im dritten Schritt werden in eine leere Magellan 8-Datenbank, die Daten aus Ihre
 
 1. Öffnen Sie bitte das Modul Magellan 9 Administrator und wählen den Unterpunkt `Datenbankpflege > Mandanten kopieren` und stellen die Variante `Magellan 6 nach Magellan 9` ein. Klicken Sie auf `Weiter`!
 
-2. Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 8-Datenbank möglich. [Eine "frische" leere Datenbank im Magellan 8-Format können Sie hier herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.fdb)
+2. Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 8-Datenbank möglich. [Eine "frische" leere Datenbank im Magellan 8-Format können Sie hier herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v8/database/Magellan8.FDB)
 
 Füllen Sie bitte die Felder (siehe untere Tabelle) des Assistenten aus, im oberen Teil verweisen Sie auf die Quelldatenbank (Magellan 6), im unteren Bereich auf die Zieldatenbank (Magellan 8).
 
@@ -134,7 +133,7 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 
 Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Es kann sein, dass die Meldungen dazudienen, Ihnen Datensätze zu zeigen, die Sie in Version 8 nachpflegen müssen.
 
-Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in Magellan 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan8.fdb. 
+Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in Magellan 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan8.FDB. 
 
 Ein Beispiel für Meldungen:
 
@@ -177,8 +176,8 @@ Mit Meldungen, die Sie nicht selbst zuordnen können, sollten Sie sich an unser 
 
 ### Benutzeranmeldung
 
-Wenn Version 8 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.fdb) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
-Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
+Wenn Version 8 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.FDB) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
+Sie finden die `security2.FDB`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
 
 !!! danger "Achtung"
 
@@ -201,11 +200,11 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
 ### MyMagellan-Passworte
 
-In Magellan 6 konnte im Magellan Administrator das Magellan-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.fdb gespeichert und bei der Datenübernahme in die Magellan 8-Datenbank auch übergeben.
+In Magellan 6 konnte im Magellan Administrator das Magellan-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der MAGELLAN6.FDB gespeichert und bei der Datenübernahme in die Magellan 8-Datenbank auch übergeben.
 
 #### Problem
 
-Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespeichert. Bei der Übernahme der Daten in die neue Magellan8.fdb wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
+Die Passwörter wurden chiffriert direkt in der Datenbank (MAGELLAN6.FDB) gespeichert. Bei der Übernahme der Daten in die neue Magellan8.FDB wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
 
 #### Lösung
 
@@ -213,7 +212,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMagell
 
 !!! tip "Tipp"
 
-    Wenn Sie die bislang verwendeten Passworte nutzen möchten, können wir Ihnen auch im Rahmen des Magellan-Supportvertrages die alten Passworte aus der Magellan6.fdb auslesen und für die Nutzung in der csv-Datei zur Verfügung stellen. Bitte melden Sie sich hierfür über unser Ticketsystem.
+    Wenn Sie die bislang verwendeten Passworte nutzen möchten, können wir Ihnen auch im Rahmen des Magellan-Supportvertrages die alten Passworte aus der MAGELLAN6.FDB auslesen und für die Nutzung in der csv-Datei zur Verfügung stellen. Bitte melden Sie sich hierfür über unser Ticketsystem.
 
 !!! warning "Wichtig"
 
@@ -284,8 +283,8 @@ Auf Ihrem Magellan-Serverrechner soll im nächsten Schritt die 8er Datenbank üb
 
 1. Öffnen Sie auf dem Serverrechner bitte `Systemsteuerung > Verwaltung > Dienste` und stoppen dort den Firebird-Dienst.<br/>
 ![Firebird-Dienst stoppen](/assets/images/update/8zu9/01.png)
-2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan8.fdb`) und legen die Datei im Datenbankverzeichnis von Magellan 9 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank`) ab.
-3. Sollte dort bereits eine Datei mit dem Namen `Magellan9.fdb` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan8.fdb` den Namen `Magellan9.fdb` verwenden können.
+2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan8.FDB`) und legen die Datei im Datenbankverzeichnis von Magellan 9 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank`) ab.
+3. Sollte dort bereits eine Datei mit dem Namen `Magellan9.FDB` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan8.FDB` den Namen `Magellan9.FDB` verwenden können.
 4. Öffnen Sie erneut den Punkt `Systemsteuerung > Verwaltung > Dienste` und starten dort den Firebird-Dienst wieder.<br/>
 ![Firebird-Dienst starten](/assets/images/update/8zu9/02.png)
 5. Starten Sie Magellan 9 (Schulverwaltungsmodul, nicht den Administrator) als `sysdba` und führen Sie als erstes die Datensicherung durch. Der voreingestellte Sicherungspfad resultiert aus Ihren Angaben im Willkommensassistenten und kann im Magellan Administrator in den Verbindungseinstellungen auf der Unterkarte `Datensicherung` angepasst werden.<br/>
@@ -308,7 +307,7 @@ Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordn
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
-Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (Magellan9.fdb) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
+Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (Magellan9.FDB) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für Magellan 9 ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von Magellan 9 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.

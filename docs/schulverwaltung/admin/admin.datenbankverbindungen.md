@@ -2,7 +2,7 @@
 
 Das Programm Magellan kann mit mehreren Datenbanken verbunden werden. Bei der Anmeldung an dem Schulverwaltungsmodul wird später eine Verbindung ausgewählt, die auf eine bestimmte Datenbank und Datenordner (Skripte, Berichte, Vorlagen usw.) verweist. Damit könnten auf einem Serverrechner mehrere Datenbanken (zum Beispiel mehrerer Schulen)parallel abgelegt werden, der Nutzer erhält über die Rechtevergabe in der Benutzerverwaltung dann das Recht sich an einer oder an mehreren Verbindungen anzumelden.
 
-Bei der Installation von Magellan werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das Magellan-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.fdb). 
+Bei der Installation von Magellan werden zwei Datenbanken angelegt: eine leere Datenbank, in die Ihre Schulverwaltungsdaten aus der Version 6 übernommen oder auch neue Daten über das Magellan-Importformat importiert werden können und eine Beispieldatenbank mit Testdaten (Magellan_Beispiel.FDB). 
 Eine neue Verbindung können Sie oben links über die Schaltfläche `Neuer Datensatz`anlegen!
 
 ![Klicken Sie auf `Neuer Datensatz`!](/assets/images/magellan.administrator/neuer.datensatz.png)

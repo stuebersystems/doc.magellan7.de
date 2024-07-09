@@ -19,7 +19,7 @@ Sie benötigen die Magellan-Administrator-Kennung, da der Austausch nur mit Admi
 !!! info "Hinweis"
 
 	Bitte beachten Sie beim Datenabgleich zwischen Magellan und DaVinci allgemein die folgenden Hinweise:
-	Vor jedem Datenaustausch sollten Sie eine Datensicherung der Magellan-Datenbank (Magellan.fdb) und der DaVinci-Plandatei (*.DaVinci) durchführen. Ein versehentlicher Übertrag kann nicht rückgängig gemacht werden.
+	Vor jedem Datenaustausch sollten Sie eine Datensicherung der Magellan-Datenbank (Magellan.FDB) und der DaVinci-Plandatei (*.DaVinci) durchführen. Ein versehentlicher Übertrag kann nicht rückgängig gemacht werden.
 
 Was|Wichtige Hinweise
 ---|---

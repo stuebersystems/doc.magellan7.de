@@ -61,16 +61,16 @@ Der standardmäßige Pfad zur Magellan 7 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows Vista | C:\Users\Public\Documents\Magellan 7\Datenbank\Magellan7.fdb |
-| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems \Magellan 7\Datenbank\Magellan7.fdb |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb |
-| Windows 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb |
-| Windows 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7 Datenbank\Magellan7.fdb |
+| Windows Vista | C:\Users\Public\Documents\Magellan 7\Datenbank\Magellan7.FDB |
+| Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems \Magellan 7\Datenbank\Magellan7.FDB |
+| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 7\Datenbank\Magellan7.FDB |
+| Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.FDB |
+| Windows 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.FDB |
+| Windows 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7 Datenbank\Magellan7.FDB |
 
 !!! warning "Wichtig"
 
-	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.fdb) und eine Beispieldatenbank (MAGELLAN7_Beispiel.fdb). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.fdb. Eine Anleitung zur Datenübernahme von Magellan 6 nach Magellan 7 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#daten-aus-magellan-6-nach-magellan-7-%C3%BCbernehmen).
+	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (MAGELLAN7.FDB) und eine Beispieldatenbank (MAGELLAN7_Beispiel.FDB). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.FDB übernehmen möchten, verweisen Sie bitte auf die MAGELLAN7.FDB. Eine Anleitung zur Datenübernahme von Magellan 6 nach Magellan 7 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.magellan.stueber.de/schulverwaltung/update/umstieg-von-6-auf-7/#daten-aus-magellan-6-nach-magellan-7-%C3%BCbernehmen).
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 

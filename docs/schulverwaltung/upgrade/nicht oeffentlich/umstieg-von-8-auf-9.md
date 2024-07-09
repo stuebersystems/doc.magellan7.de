@@ -48,8 +48,8 @@ Auf Ihrem Magellan-Serverrechner soll im nächsten Schritt die 8er Datenbank üb
 
 1. Öffnen Sie auf dem Serverrechner bitte `Systemsteuerung > Verwaltung > Dienste` und stoppen dort den Firebird-Dienst.<br/>
 ![Firebird-Dienst stoppen](/assets/images/update/8zu9/01.png)
-2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan8.fdb`) und legen die Datei im Datenbankverzeichnis von Magellan 9 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank`) ab.
-3. Sollte dort bereits eine Datei mit dem Namen `Magellan9.fdb` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan8.fdb` den Namen `Magellan9.fdb` verwenden können.
+2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan8.FDB`) und legen die Datei im Datenbankverzeichnis von Magellan 9 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank`) ab.
+3. Sollte dort bereits eine Datei mit dem Namen `Magellan9.FDB` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan8.FDB` den Namen `Magellan9.FDB` verwenden können.
 4. Öffnen Sie erneut den Punkt `Systemsteuerung > Verwaltung > Dienste` und starten dort den Firebird-Dienst wieder.<br/>
 ![Firebird-Dienst starten](/assets/images/update/8zu9/02.png)
 5. Starten Sie Magellan 9 (Schulverwaltungsmodul, nicht den Administrator) als `sysdba` und führen Sie als erstes die Datensicherung durch. Der voreingestellte Sicherungspfad resultiert aus Ihren Angaben im Willkommensassistenten und kann im Magellan Administrator in den Verbindungseinstellungen auf der Unterkarte `Datensicherung` angepasst werden.<br/>
@@ -72,7 +72,7 @@ Aus einigen Datenordnern sollten Daten übernommen werden, aus anderen Datenordn
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
-Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (MAGELLAN9.fdb) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
+Datenbank|Ja| Die Magellan 7 oder Magellan 8 Datenbank bitte mit neuer Bezeichnung (MAGELLAN9.FDB) in den Datenbankordern der Version 9 ablegen, dabei die dort vorhandene gleichnamige Datenbank ersetzen oder vorab umbenennen. 
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für Magellan 9 ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von Magellan 9 und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsezten, können Sie diese Dateien in der neuen Struktur ablegen.

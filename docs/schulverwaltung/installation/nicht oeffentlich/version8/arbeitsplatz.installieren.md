@@ -61,14 +61,14 @@ Der standardmäßige Pfad zur Magellan 8 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 8\Datenbank\Magellan8.fdb |
-| Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank\Magellan8.fdb |
-| Windows 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 8\Datenbank\Magellan8.fdb |
-| Windows 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 8 Datenbank\Magellan8.fdb |
+| Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 8\Datenbank\Magellan8.FDB |
+| Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank\Magellan8.FDB |
+| Windows 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 8\Datenbank\Magellan8.FDB |
+| Windows 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 8 Datenbank\Magellan8.FDB |
 
 !!! warning "Wichtig"
 
-	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan8.fdb) und eine Beispieldatenbank (Magellan8_Beispiel.fdb). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die Magellan8.fdb. Eine Anleitung zur Datenübernahme von Magellan 7 nach Magellan 8 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/).
+	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan8.FDB) und eine Beispieldatenbank (Magellan8_Beispiel.FDB). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.FDB übernehmen möchten, verweisen Sie bitte auf die Magellan8.FDB. Eine Anleitung zur Datenübernahme von Magellan 7 nach Magellan 8 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-7-auf-8/).
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 

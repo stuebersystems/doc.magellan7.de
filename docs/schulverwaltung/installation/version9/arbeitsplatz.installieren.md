@@ -114,11 +114,11 @@ Der standardmäßige Pfad zur Magellan 9 Datenbank lautet:
 
 | Betriebssystem | Pfad |
 | --- | --- |
-| Windows 8/10/11 | C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank\Magellan9.fdb |
+| Windows 8/10/11 | C:\Users\Public\Documents\Stueber Systems\Magellan 9\Datenbank\Magellan9.FDB |
 
 !!! warning "Wichtig"
 
-	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan9.fdb) und eine Beispieldatenbank (Magellan9_Beispiel.fdb). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.fdb übernehmen möchten, verweisen Sie bitte auf die Magellan9.fdb. Eine Anleitung zur Datenübernahme von Magellan 7 nach Magellan 9 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/).
+	Nach einer Neuinstallation einer Server-/Einzelplatzinstallation liegen im Verzeichnis Datenbank eine leere Datenbank (Magellan9.FDB) und eine Beispieldatenbank (Magellan9_Beispiel.FDB). Wenn Sie Magellan gern testen möchten, verweisen Sie bitte auf die Beispieldatenbank. Wenn Sie Ihre Daten gern importieren möchten oder aus Ihrer MAGELLAN6.FDB übernehmen möchten, verweisen Sie bitte auf die Magellan9.FDB. Eine Anleitung zur Datenübernahme von Magellan 7 nach Magellan 9 finden Sie im Abschnitt ["Daten aus Magellan 6 nach Magellan 7 übernehmen"](https://doc.Magellan7.stueber.de/schulverwaltung/update/umstieg-von-8-auf-9/).
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 

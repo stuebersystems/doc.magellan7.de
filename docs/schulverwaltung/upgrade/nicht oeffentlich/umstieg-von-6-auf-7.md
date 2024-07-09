@@ -17,11 +17,11 @@ Bitte kontrollieren Sie die Daten im Anschluss stichpunktartig, schauen Sie beis
 ### Übernahme nicht übers Netzwerk
 
 Es kann zu einem zeitlich immensen Unterschied kommen, wenn Sie während der Übernahme der Daten durch Ihr Netzwerk auf eine der beiden Datenbanken zugreifen.
-Bitte legen Sie beide Datenbanken, also die leere MAGELLAN7.fdb und Ihre gefüllte MAGELLAN6.fdb auf dem gleichen Rechner ab.
+Bitte legen Sie beide Datenbanken, also die leere MAGELLAN7.FDB und Ihre gefüllte MAGELLAN6.FDB auf dem gleichen Rechner ab.
 
 !!! danger "Achtung"
 
-    Bevor Sie die MAGELLAN6.fdb kopieren stoppen Sie bitte den Firebirddienst unter `Start > Systemsteuerung > Verwaltung > Dienste`.
+    Bevor Sie die MAGELLAN6.FDB kopieren stoppen Sie bitte den Firebirddienst unter `Start > Systemsteuerung > Verwaltung > Dienste`.
 
 ### Eigene Berichte
 
@@ -38,7 +38,7 @@ In Magellan 7 werden Schüler und Ihre Ausbildungen mittels einer GUID eindeutig
 
 In Magellan 7 werden Schüler, die mehrfach vorhanden sind und durch Kopieren von Schülern erzeugt wurden (Beim Kopieren erfolgt ein Übertrag der Originalschüler-ID ins Feld IDIntern der Schülerkopie), anders behandelt. Alle Kopien sind mit dem Original verbunden, eine Änderung von Stammdaten an einem der Schüler wird für alle anderen Übertragen. Das gilt nicht für alle Daten, beispielsweise die Zeugnisdaten existieren pro Datensatz, Ausbildungsdaten werden als Liste gezeigt. Einzelheiten beschreiben wir im Abschnitt ["Rückkehrer, parallele Laufbahn, parallele Bewerbung"](https://doc.MAGELLAN7.stueber.de/schulverwaltung/howto/sonderfaelle/#ruckkehrer-parallele-laufbahn-parallele-bewerbung)
 
-Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.fdb in die neue MAGELLAN7.fdb berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
+Dieser neue Umgang muss bei der Übernahme der Daten aus Ihrer MAGELLAN6.FDB in die neue MAGELLAN7.FDB berücksichtigt werden. Dieses "Merken" der ID als IDIntern in Magellan 6 war dafür gedacht, dass beim Einschulen der Kopien die Auswahl "Zusammenführen" gewählt werden konnte und dann von einem der beiden Datensätze die Stammdaten übernommen wurden, die Laufbahn wurde zusammengeführt. Ob die Daten aus dem Bewerbermenü übernommen werden sollen, oder die Daten des Originals aus dem Schülermenü, konnte in den Optionen gewählt werden.
 
 In Magellan 7 gibt es diese Option nicht mehr, da es unerheblich ist an welchem Datensatz man einen Werte der Stammdaten ändert, die Änderung wird für alle zusammenhängenden Datensätze durchgeführt. Es gibt aus das "Zusammenführen" beim Einschulen so nicht mehr, der Assistent prüft selbstständig, ob eine Zusammenführen hier möglich ist oder nicht und führt die notwendigen Schritte aus.
 
@@ -85,7 +85,7 @@ FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemst
 ## 6er Datenbank vorbereiten
 
 Falls Sie es noch nicht mit Firebird 2.5.9 durchgeführt haben:
-Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-erstellen) der MAGELLAN6.fdb und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
+Bitte erstellen Sie eine [Sicherung](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-erstellen) der MAGELLAN6.FDB und stellen aus der Datensicherung (*.fbk) [wieder eine neue Datenbank her](https://doc.magellan6.stueber.de/admin/db-connection.html#sicherungskopie-erstellen#sicherungskopie-wiederherstellen) und verwenden diese Datenbank für die Übernahme der Daten.
 
 ## Magellan 7 installieren
 
@@ -108,12 +108,12 @@ Im dritten Schritt werden in eine leere Magellan 7-Datenbank, die Daten aus Ihre
 
 ![Magellan 6 nach Magellan 7](/assets/images/magellan.administrator/mandanten.kopieren5.png)
 
-Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 7-Datenbank möglich. Bei der Installation von Magellan 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.fdb".
+Das Übertragen der Magellan 6-Daten ist nur in eine leere aktuelle Magellan 7-Datenbank möglich. Bei der Installation von Magellan 7 wird Ihnen im Datenbankverzeichnis eine leere Datenbank mit dem Namen "MAGELLAN7.FDB".
 ![leere Datenbank im Format für Magellan 7](/assets/images/magellan.administrator/mandanten.kopieren6.png)
 
-Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im Magellan 7-Format herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.fdb)
+Sollten Sie den Übertrag bereits einmal durchgeführt haben, können Sie jederzeit [eine "frische" leere Datenbank im Magellan 7-Format herunterladen.](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB)
 
-> Wichtig: Sollte Ihre Magellan 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.fdb](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
+> Wichtig: Sollte Ihre Magellan 7-Installation bereits älter sein, laden Sie bitte in jedem Fall eine [neue MAGELLAN7.FDB](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB) herunter und nutzen diese für den Übertrag.
 
 ![Laden Sie ggfs. eine leere Datenbank herunter!](/assets/images/magellan.administrator/mandanten.kopieren7.png)
 
@@ -141,7 +141,7 @@ Starten Sie anschließend den Assistenten mit `Weiter` und `Fertigstellen`.
 
 Während der Datenübernahme können Ihnen Meldungen ausgegeben werden, die Ihnen Datensätze melden, die nicht übernommen werden können. Ursache dafür können Inkonsistenzen in Ihrer Datenbank sein. Es kann sein, dass die Meldungen dazudienen, Ihnen Datensätze zu zeigen, die Sie in Version 7 nachpflegen müssen.
 
-Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in Magellan 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan7.fdb. 
+Es könnten aber auch Fehlermeldungen sein, die anzeigen, dass an einer Stelle in Ihrer Datenbank die Daten nicht wie erwartet vorliegen. Diese Meldungen sollten nicht ignoriert werden, sondern gegebenenfalls sind Änderungen in Magellan 6 notwendig und ein erneuter Übertrag der Daten aus der korrigierten MAGELLAN6-Datenbank in eine neue leere Magellan7.FDB. 
 leere MAGELLAN7 ([aktuelle leere Datenbank](https://download.stueber.de/bin/de/assets/magellan/v7/database/MAGELLAN7.FDB)).
 
 Ein Beispiel für Meldungen:
@@ -188,8 +188,8 @@ Mit Meldungen, die Sie nicht selbst zuordnen können, sollten Sie sich an unser 
 
 ## Benutzeranmeldung
 
-Wenn die Version 7 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.fdb) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
-Sie finden die `security2.fdb`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
+Wenn die Version 7 auf einem anderen Serverrechner als die Version 6 läuft, dann muss die Passwortdatenbank (security2.FDB) von Firebird noch mit übernommen werden, also auf dem neuen Rechner an gleicher Stelle abgelegt werden.
+Sie finden die `security2.FDB`  bei einer Standardfirebirdinstallation unter `C:\Program Files (x86)\Firebird\Firebird_2_5\`.
 
 !!! danger "Achtung"
 
@@ -212,11 +212,11 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
 ## MyMagellan-Passworte
 
-In Magellan 6 konnte im Magellan Administrator das Magellan-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.fdb gespeichert und bei der Datenübernahme in die Magellan 7-Datenbank auch übergeben.
+In Magellan 6 konnte im Magellan Administrator das Magellan-Passwort oder ein abweichendes Passwort angegeben werden, dass beim Erstellen der MYM-Dateien als Dateipasswort verwendet wird. Dieses Passwort wird in der Magellan6.FDB gespeichert und bei der Datenübernahme in die Magellan 7-Datenbank auch übergeben.
 
 **Problem**
 
-Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.fdb) gespeichert. Bei der Übernahme der Daten in die neue Magellan7.fdb wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
+Die Passwörter wurden chiffriert direkt in der Datenbank (Magellan6.FDB) gespeichert. Bei der Übernahme der Daten in die neue Magellan7.FDB wurden diese chiffrierten Werte in UTF-8 umgewandelt, womit sie nun nicht mehr mit den Klarpasswörtern übereinstimmen. Insofern können die bisherigen Passworte leider nicht ohne weitere Schritte interpretiert werden.
 
 **Lösung**
 
@@ -224,7 +224,7 @@ Die Passworte können über eine neue Importfunktion gesammelt für die MyMagell
 
 !!! tip "Tipp"
 
-    Wenn Sie die bislang verwendeten Passworte nutzen möchten, können wir Ihnen auch im Rahmen des Magellan-Supportvertrages die alten Passworte aus der Magellan6.fdb auslesen und für die Nutzung in der csv-Datei zur Verfügung stellen. Bitte melden Sie sich hierfür über unser Ticketsystem.
+    Wenn Sie die bislang verwendeten Passworte nutzen möchten, können wir Ihnen auch im Rahmen des Magellan-Supportvertrages die alten Passworte aus der Magellan6.FDB auslesen und für die Nutzung in der csv-Datei zur Verfügung stellen. Bitte melden Sie sich hierfür über unser Ticketsystem.
 
 !!! warning "Wichtig"
 

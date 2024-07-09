@@ -16,7 +16,7 @@ Nr.|Was ist zu tun
  5.|Installation von <br/>   * [Firebird 4.0.2](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#51-firebird-402)<br/>   * [`Magellan 10`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#53-magellan-10)<br/>   * [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#52-crystal-reports-runtimeversion)
  6.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#6-willkommensassistent-starten-pfade-und-lizenz)
  7.|[Wiederherstellung der MAGELLAN9.fbk](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#7-wiederherstellung-der-magellan9fbk)
- 8.|[Einfügen der wiederhergestellten MAGELLAN10.fdb](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#8-einfugen-der-wiederhergestellten-magellan10fdb)
+ 8.|[Einfügen der wiederhergestellten MAGELLAN10.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#8-einfugen-der-wiederhergestellten-magellan10fdb)
  9.|[Start von Magellan 10 und Anpassung der Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#9-start-von-magellan-10-und-anpassung-der-datenstruktur)
 10.|[E-Mail-Adressen übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-9-auf-10/#10-e-mail-adressen-ubernehmen)
 11.|[Kennworte neu erzeugen lassen](E-Mail-Adressen übernehmen)
@@ -38,7 +38,7 @@ Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [ht
 
 ## 2. E-Mail-Adressen nachpflegen
 
-Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die Magellan-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.fdb (Firebird 2.5.9) und security4.fdb (Firebird 4.0.2)).<br/>
+Beim Umstieg von Firebird 2.5.9 auf Firebird 4.0.2 können nicht die bisher für die Magellan-Anmeldung verwendeten Passworte übertragen werden. Hintergrund sind unterschiedliche Verschlüsselungstechnik der Passwortdatenbanken (security2.FDB (Firebird 2.5.9) und security4.FDB (Firebird 4.0.2)).<br/>
 Die Benutzer selbst und Ihre zugewiesenen Rechte werden in der Magellan-Datenbank gespeichert und stellen kein Problem dar.<br/>
 **Für `Magellan 10` müssen für alle Benutzer neue Passworte gesetzt werden.** Wir stellen dafür eine Funktion zur Verfügung, die zufällige Passworte für alle in der Benutzerverwaltung markierten Benutzer generiert. In dem Moment des Erzeugens können wir diese Passworte zusammen mit der Benutzerkennung und - falls vorhanden- einer Emailadresse (beispielsweise als Vorlage für eine Serienmail) in eine CSV-Datei ausgeben.<br/>
 Die E-Mail-Adressen können mit einer neuen Funktion aus `Magellan > Lehrer > Daten 1 > E-Mail` in die Benutzerverwaltung übernommen werden. <br/>Für Benutzer, die nicht mit einem Lehrer aus Magellan verbunden sind, kann direkt im Magellan Administrator eine E-Mailadresse hinterlegt werden.
@@ -210,8 +210,8 @@ Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, d
 ![Lokale Datenbank](/assets/images/installation/10/w/005.1.png)
 
 Es wird standardmäßig auf eine Beispieldatenbank verwiesen, in der für erste Tests bereits Daten vorbereitet sind. Wenn Sie mit einer leeren Datenbank beginnen möchten, ändern Sie lediglich die Bezeichnung der Datenbank. Beide Datenbankvarianten wurden bei der Installation von Magellan abgelegt.
-<br/> Leere Datenbank: `Magellan10.fdb`
-<br/> Beispieldatenbank: `Magellan10_Beispiel.fdb`
+<br/> Leere Datenbank: `Magellan10.FDB`
+<br/> Beispieldatenbank: `Magellan10_Beispiel.FDB`
 
 ![Datenbankpfad](/assets/images/installation/10/w/005.2.png)
 
@@ -244,11 +244,11 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 
 5. Die wiederhergestellte Datenbank (*.fdb) befindet sich im Verzeichnis `Restore`, standardmäßig wäre der Pfad `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank\Datensicherung\Restore`.
 
-## 8. Einfügen der wiederhergestellten MAGELLAN10.fdb
+## 8. Einfügen der wiederhergestellten MAGELLAN10.FDB
 
 1. Stoppen Sie während des Austauschs den Firebird-Dienst unter `Systemsteuerung > Verwaltung > Dienste`! ![Datenbank wiederherstellen](/assets/images/upgrade/10/007.png)
 
-2. Benennen die wiederhergestellte Datenbank im Verzeichnis `Restore` nach Ihren Vorstellungen um (Standardname wäre MAGELLAN10.fdb), behalten Sie die Endung *.fdb bei.
+2. Benennen die wiederhergestellte Datenbank im Verzeichnis `Restore` nach Ihren Vorstellungen um (Standardname wäre MAGELLAN10.FDB), behalten Sie die Endung *.fdb bei.
 
 3. Kopieren Sie die umbenannte Datei und legen sie ins Datenbankverzeichnis ab. Der Standardpfad ist `C:\Users\Public\Documents\Stueber Systems\Magellan 10\Datenbank`. Starten Sie bitte den Firebird-Dienst erneut!
 

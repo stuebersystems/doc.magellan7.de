@@ -231,8 +231,8 @@ Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, d
 ![Lokale Datenbank](/assets/images/installation/10/w/005.1.png)
 
 Es wird standardmäßig auf eine Beispieldatenbank verwiesen, in der für erste Tests bereits Daten vorbereitet sind. Wenn Sie mit einer leeren Datenbank beginnen möchten, ändern Sie lediglich die Bezeichnung der Datenbank. Beide Datenbankvarianten wurden bei der Installation von Magellan abgelegt.
-<br/> Leere Datenbank: `Magellan10.fdb`
-<br/> Beispieldatenbank: `Magellan10_Beispiel.fdb`
+<br/> Leere Datenbank: `Magellan10.FDB`
+<br/> Beispieldatenbank: `Magellan10_Beispiel.FDB`
 
 ![Datenbankpfad](/assets/images/installation/10/w/005.2.png)
 

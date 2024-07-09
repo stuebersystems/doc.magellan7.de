@@ -127,7 +127,7 @@ Wenn Sie die Angaben auf alle Datenbanken setzen möchten, müssen Sie folgendes
 
 `<database></database>`
 
-Wenn Sie die Angaben auf alle Datenbanken setzen möchten, die "Magellan6.fdb" heißen, müssen Sie folgendes eingeben:
+Wenn Sie die Angaben auf alle Datenbanken setzen möchten, die "Magellan6.FDB" heißen, müssen Sie folgendes eingeben:
 
 **Beispiel 2:**
 

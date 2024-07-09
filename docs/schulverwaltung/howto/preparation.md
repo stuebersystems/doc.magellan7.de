@@ -6,8 +6,8 @@ Wenn Sie Magellan erstmalig installieren, werden beim Installationstyp `Server- 
 
 | Name| Zweck|
 | -- | -- |
-| Magellan.fdb| Diese Datenbank ist leer und für den Start mit Magellan gedacht. |
-| MAGELLAN_Beispiel.fdb | Enthält Beispieldaten anhand derer Sie sich die Abläufe in Magellan anschauen können.|
+| Magellan.FDB| Diese Datenbank ist leer und für den Start mit Magellan gedacht. |
+| MAGELLAN_Beispiel.FDB | Enthält Beispieldaten anhand derer Sie sich die Abläufe in Magellan anschauen können.|
 
 ## Magellan starten
 

@@ -76,7 +76,7 @@ Nachdem Sie die ODBC-Verbindung im ersten Schritt erstellt haben, müssen Sie je
 
 Während der Erstellung der Tabellenverknüpfungen werden Sie bei einigen Tabellen aufgefordert, eindeutige Datensatzbezeichner auszuwählen. Hier können Sie jeweils auf `Abbrechen` klicken, da diese Einstellungen für das Drucken nicht relevant sind.
 
-Die Verknüpfung zwischen der Firebirddatenbank und der Access-Datenbank ist jetzt erstellt. Über die Tabellen haben Sie einen direkten Zugriff auf die originale Firebird Magellan-Datenbank MAGELLAN7.fdb.
+Die Verknüpfung zwischen der Firebirddatenbank und der Access-Datenbank ist jetzt erstellt. Über die Tabellen haben Sie einen direkten Zugriff auf die originale Firebird Magellan-Datenbank MAGELLAN7.FDB.
 
 !!! warning "Wichtig"
 

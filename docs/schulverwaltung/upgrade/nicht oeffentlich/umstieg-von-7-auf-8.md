@@ -47,8 +47,8 @@ Auf Ihrem Magellan-Serverrechner soll im nächsten Schritt die 7er Datenbank üb
 
 ![Firebird-Dienst stoppen](/assets/images/update/7zu8/01.png)
 
-2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 7 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan7.fdb`) und legen die Datei im Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) ab.
-3. Sollte dort bereits eine Datei mit dem Namen `Magellan8.fdb` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan7.fdb` den Namen `Magellan8.fdb` verwenden können.
+2. Kopieren Sie aus dem Datenbankverzeichnis von Magellan 7 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank`) Ihre Datenbank (Standardbenennung: `Magellan7.FDB`) und legen die Datei im Datenbankverzeichnis von Magellan 8 (Standardablageort: `C:\Users\Public\Documents\Stueber Systems\Magellan 8\Datenbank`) ab.
+3. Sollte dort bereits eine Datei mit dem Namen `Magellan8.FDB` existieren, benennen Sie diese um oder verschieben sie, so dass Sie anschließend für Ihre `Magellan7.FDB` den Namen `Magellan8.FDB` verwenden können.
 4. Öffnen Sie erneut den Punkt `Systemsteuerung > Verwaltung > Dienste` und starten dort den Firebird-Dienst wieder.
 
 ![Firebird-Dienst starten](/assets/images/update/7zu8/02.png)
