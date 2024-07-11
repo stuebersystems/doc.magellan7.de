@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: Unter `Datenbank > Optionen > Digitalquelle > WIA` können Geräte als Digitalquelle für die Aufnahme von Passfotos erfasst werden.
 * NEW: Unter `Schüler > Daten1 > Rechtsklick auf Passfoto > Passfoto von Web-Kamera` können Sie auf eine Web-Kamera zugreifen oder auf in Ihrem Notebook integrierte Kamera. Bitte lesen Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#passfoto) die erweiterte Anleitung!
+* FIX: Problem bei der Anzeige der Fachwahl und dem Öffnen von Verzeichnislisten im Abitur-Modul behoben
 
 #### Berichte
 
@@ -50,6 +51,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
     * Korrektur der Ausgabe für Fach und Thema für FA und BLL
 * CHANGE: `Quittung(DIN A4).rpt` Klasse für Schülerquittung ergänzt
 * CHANGE: `BER-Schul Z 320a–b (04.23).rpt` VU-Fächer werden nicht mehr ausgewiesen, stattdesen höchstens 4 Fächer mit dem Fachstatus WahlPF. Für die Ausgabe ist die Position der Fächer wichtig, auf der linken Seite erscheinen die Fächer mit ungerader Position, auf der rechten Seite die Fächer mit gerader Position.
+* CHANGE: `BER-GY-AZ (Schul Z 252)(01.07).rpt` Platz für Bemerkungen optimiert
 
 ### Version 11.0.6 1101 (01.07.2024)
 
