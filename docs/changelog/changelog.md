@@ -36,6 +36,8 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 * NEW: `Schülerliste (für CSV-Export) Ausbildungsbetrieb und -E-Mail (Var2).rpt`
 * NEW: `Schülerliste (für CSV-Export) mit Elterndaten.rpt`
+* CHANGE `BER-Schul Z 523 (09.19).rpt` Notenfelder geben auch Füllwerte aus
+* CHANGE: `BER-Schul Z 526 (09.19).rpt` Notenfelder zeigen Füllwerte an
 
 ### Version 11.0.7 1101 (16.07.2024)
 
