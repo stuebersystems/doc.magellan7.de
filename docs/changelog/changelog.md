@@ -30,6 +30,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.8 1101 (unveröffentlicht)
 
+#### Schnittstellen
+
+* NEW: `SHL` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/schleswig-holstein/einstieg/)
+* NEW: `NRW` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
+
 #### Berichte
 
 Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
