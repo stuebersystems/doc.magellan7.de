@@ -34,6 +34,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * NEW: `SHL` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/schleswig-holstein/einstieg/)
 * NEW: `NRW` Freigabe der Statistikschnittstelle für 2024 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
+* FIX: `SAC` Korrektur des Einlesens der Schüler-XML (IDIntern wird korrekt gesetzt)
+* FIX: `SAC` Lizenz wird beim Import korrekt erkannt
 
 #### Berichte
 
