@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.8 1101 (unveröffentlicht)
+### Version 11.0.8 1101 (06.08.2024)
 
 #### Schnittstellen
 
