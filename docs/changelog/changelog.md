@@ -35,8 +35,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `NRW` Beim Erstellen der Lehrer.txt wurde immer gemeldet, dass bereits eine Datei existiert
 * FIX: `NRW` Ausgabe der Lehrer-Soll-Schlüssel für die Lehrer.txt
 
-
-
 ### Version 11.0.8 1101 (06.08.2024)
 
 #### Schnittstellen
