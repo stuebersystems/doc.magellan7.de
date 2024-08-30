@@ -28,6 +28,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.10 1101 (unveröffentlicht)
+
+#### Magellan Schulverwaltung
+
+* FIX: LUSD-Schnittstelle: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
+
+#### Schnittstellen
+
 ### Version 11.0.9 1101 (29.08.2024)
 
 #### Schnittstellen
@@ -68,7 +76,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 * NEW: Unter `Datenbank > Optionen > Digitalquelle > WIA` können Geräte als Digitalquelle für die Aufnahme von Passfotos erfasst werden.
 * NEW: Unter `Schüler > Daten1 > Rechtsklick auf Passfoto > Passfoto von Web-Kamera` können Sie auf eine Web-Kamera zugreifen oder auf in Ihrem Notebook integrierte Kamera. Bitte lesen Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#passfoto) die erweiterte Anleitung!
 * FIX: Problem bei der Anzeige der Fachwahl und dem Öffnen von Verzeichnislisten im Abitur-Modul behoben
-* CHANGE: Neuen Schnittstelle mit der [Berliner LUSD](https://doc.ls.stueber.de/berlin/06.lusd/)
+* CHANGE: Neue Schnittstelle mit der [Berliner LUSD](https://doc.ls.stueber.de/berlin/06.lusd/)
 
 #### Berichte
 
