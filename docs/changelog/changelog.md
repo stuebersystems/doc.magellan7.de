@@ -34,6 +34,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: LUSD-Schnittstelle: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
 
+#### Berichte
+
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
+* NEW:`Schülerliste Beieinträchtigungen.rpt`
+
 #### Schnittstellen
 
 ### Version 11.0.9 1101 (29.08.2024)
