@@ -33,6 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * FIX: LUSD-Schnittstelle: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
+* FIX: `Schüler > Daten 2 -> Ext. Empfehlung` wird gespeichert
 
 #### Berichte
 
