@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'windows-2019'
+  vmImage: 'windows-2022'
     
 steps:
 - task: UsePythonVersion@0
@@ -31,6 +31,12 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+- task: CopyFiles@2
+  displayName: 'Copy Maintenance Page'
+  inputs:
+    Contents: 'nginx-maintenance.html'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    OverWrite: true
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Zip archive'
   inputs:
