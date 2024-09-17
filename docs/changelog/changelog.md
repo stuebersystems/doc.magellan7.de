@@ -43,6 +43,8 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 #### Schnittstellen
 
+* FIX: `NRW` LSQual Wenn Herkunftsschulform beruflich ist und HoeschterAbschluss BBS gesetzt ist, dann HöchsterAbschlussBBS nehmen, sonst HoechsterAbschlussBBS ergänzt um Schulform WB
+
 ### Version 11.0.9 1101 (29.08.2024)
 
 #### Schnittstellen
