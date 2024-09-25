@@ -44,7 +44,8 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 #### Schnittstellen
 
-* FIX: `NRW` LSQual Wenn Herkunftsschulform beruflich ist und HoeschterAbschluss BBS gesetzt ist, dann HöchsterAbschlussBBS nehmen, sonst HoechsterAbschlussBBS ergänzt um Schulform WB
+* FIX: `NRW` LSQual Wenn Herkunftsschulform beruflich ist und HoeschterAbschluss BBS gesetzt ist, dann HöchsterAbschlussBBS nehmen, sonst HoechsterAbschlussBBS ergänzt um Schulform WB für Sim.txt
+* * FIX: `NRW` im Bildungsgang A12 wird das Feld LSVersetz nicht automatisch mit dem Wert O gefüllt, es gilt die Versetzungsart des Schülers für Sim.txt
 
 ### Version 11.0.9 1101 (29.08.2024)
 
