@@ -28,12 +28,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.10 1101 (unveröffentlicht)
+### Version 11.0.11 1101 (unveröffentlicht)
+
+### Version 11.0.10 1101 (01.10.2024)
 
 #### Magellan Schulverwaltung
 
 * FIX: LUSD-Schnittstelle: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
 * FIX: `Schüler > Daten 2 -> Ext. Empfehlung` wird gespeichert
+* FIX: `NRW > ABI.TXT > Zeugnis` Beim Erstellen der Abi.txt werden drei Zeiträume angegeben (aktuelle und 2. und 1.HJ des vergangenen Schuljahres). Wenn im 2.HJ des vergangenen Schuljahres kein Abschluss1 (`Schüler > Laufbahn > Abschluss > Abschluss1`) gefunden wird, wird der im 1.HJ des vergangenen Jahres erfasste Eintrag ausgegeben.
 
 #### Berichte
 
@@ -44,8 +47,8 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 #### Schnittstellen
 
-* FIX: `NRW` LSQual Wenn Herkunftsschulform beruflich ist und HoeschterAbschluss BBS gesetzt ist, dann HöchsterAbschlussBBS nehmen, sonst HoechsterAbschlussBBS ergänzt um Schulform WB für Sim.txt
-* * FIX: `NRW` im Bildungsgang A12 wird das Feld LSVersetz nicht automatisch mit dem Wert O gefüllt, es gilt die Versetzungsart des Schülers für Sim.txt
+* FIX: `NRW > SIM.TXT > LSQual` Wenn Herkunftsschulform beruflich ist und `HoechsterAbschluss BBS` gesetzt ist, dann `HöchsterAbschluss BBS` nehmen, sonst `HoechsterAbschluss BBS` ergänzt um Schulform `WB`
+* * FIX: `NRW > SIM.TXT > LSVersetz` im Bildungsgang `A12` wird das Feld `LSVersetz` nicht automatisch mit dem Wert O gefüllt, es gilt die Versetzungsart des Schülers
 
 ### Version 11.0.9 1101 (29.08.2024)
 
