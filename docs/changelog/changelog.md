@@ -34,21 +34,21 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Magellan Schulverwaltung
 
-* FIX: LUSD-Schnittstelle: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
 * FIX: `Schüler > Daten 2 -> Ext. Empfehlung` wird gespeichert
-* FIX: `NRW > ABI.TXT > Zeugnis` Beim Erstellen der Abi.txt werden drei Zeiträume angegeben (aktuelle und 2. und 1.HJ des vergangenen Schuljahres). Wenn im 2.HJ des vergangenen Schuljahres kein Abschluss1 (`Schüler > Laufbahn > Abschluss > Abschluss1`) gefunden wird, wird der im 1.HJ des vergangenen Jahres erfasste Eintrag ausgegeben.
 
 #### Berichte
 
 Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
 
-* NEW:`Schülerliste Beieinträchtigungen.rpt`
+* NEW:`Schülerliste Beeinträchtigungen.rpt`
 * FIX:`Schülerpersonalblatt (Überprüfung Stammdaten).rpt`
 
 #### Schnittstellen
 
 * FIX: `NRW > SIM.TXT > LSQual` Wenn Herkunftsschulform beruflich ist und `HoechsterAbschluss BBS` gesetzt ist, dann `HöchsterAbschluss BBS` nehmen, sonst `HoechsterAbschluss BBS` ergänzt um Schulform `WB`
-* * FIX: `NRW > SIM.TXT > LSVersetz` im Bildungsgang `A12` wird das Feld `LSVersetz` nicht automatisch mit dem Wert O gefüllt, es gilt die Versetzungsart des Schülers
+* FIX: `NRW > SIM.TXT > LSVersetz` im Bildungsgang `A12` wird das Feld `LSVersetz` nicht automatisch mit dem Wert O gefüllt, es gilt die Versetzungsart des Schülers
+* FIX: `BER >-LUSD-Schnittstelle`: In Magellan wird beim Import der LUSD-Daten die aktuelle Verbindung korrekt ausgelesen, auch wenn die Verbindung nicht auf `localhost` verweist.
+* FIX: `NRW > ABI.TXT > Zeugnis` Beim Erstellen der Abi.txt werden drei Zeiträume angegeben (aktuelle und 2. und 1.HJ des vergangenen Schuljahres). Wenn im 2.HJ des vergangenen Schuljahres kein Abschluss1 (`Schüler > Laufbahn > Abschluss > Abschluss1`) gefunden wird, wird der im 1.HJ des vergangenen Jahres erfasste Eintrag ausgegeben.
 
 ### Version 11.0.9 1101 (29.08.2024)
 
@@ -85,7 +85,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 * CHANGE: Icons, Symbole und Splashscreens
 
-#### Magellan
+#### Magellan Schulverwaltung
 
 * NEW: Unter `Datenbank > Optionen > Digitalquelle > WIA` können Geräte als Digitalquelle für die Aufnahme von Passfotos erfasst werden.
 * NEW: Unter `Schüler > Daten1 > Rechtsklick auf Passfoto > Passfoto von Web-Kamera` können Sie auf eine Web-Kamera zugreifen oder auf in Ihrem Notebook integrierte Kamera. Bitte lesen Sie [hier](https://doc.magellan.stueber.de/schulverwaltung/howto/schueler/#passfoto) die erweiterte Anleitung!
@@ -137,7 +137,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 ### Version 11.0.5 1101 (20.06.2024)
 
-#### Magellan
+#### Magellan Schulverwaltung
 
 * FIX: Eintrag `Klasse > Klassenart` wird korrekt übernommen in `Auswahlliste Schüler > Klassenart`
 * FIX: `Bewerber > Suche`
@@ -195,7 +195,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
 ### Version 11.0.4 1101 (27.03.2024)
 
-#### Magellan
+#### Magellan Schulverwaltung
 
 * CHANGE: `Bewerber/Schüler > Bewerber > Sammelzuweisung`: In der Auswahl des Assistenten wurden die Spalten Einschulmerkmal1-3 ergänzt
 * NEW: In den Sammelzuweisungen unter `Bewerber > Bewerber > Sammelzuweisung` und `Schüler > Schüler > Sammelzuweisung` wurde für die Auswahl am unteren Rand die Schaltfläche zum Einstellen der optimalen Spaltenbreite ergänzt
@@ -237,7 +237,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 
 * FIX: Trigger in `SchuelerABIDetails` für die Felder `HJ1_Bestanden_Eingebracht`-`HJ6_Bestanden_Eingebracht`
 
-#### Magellan
+#### Magellan Schulverwaltung
 
 * CHANGE: Sammelzuweisung Schüler/Bewerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
 * FIX: Problem im Skript `Schüler korrigieren` behoben (`Schüler korrigieren` nach `Schüler wechseln` in die Ausgangsklasse, Schüler wird nicht angezeigt)
@@ -308,7 +308,7 @@ Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/shar
 
     Dieses Update ist die letzte Ausgabe von Magellan 10, weitere Änderungen stellen wir ggfs. als Download zur Verfügung oder veröffentlichen sie innerhalb der nachfolgenden Ausgabe Magellan 11.
 
-#### Magellan
+#### Magellan Schulverwaltung
 
 * FIX: SDTF-Synchronisation: Nur Daten des eigenen Mandanten sind sichtbar.
 * CHANGE: Sammelzuweisung Schüler/Bwerber:  Bei der Auswahl der Datensätze wurden folgende Spalten ergänzt: `Rel.Teilnahme`, `Staatsangeh1`
