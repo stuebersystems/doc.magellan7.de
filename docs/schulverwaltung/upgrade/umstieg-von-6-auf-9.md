@@ -89,8 +89,8 @@ Um die Daten Ihrer Magellan 6-Datenbank in eine Magellan 8-Datenbank übernehmen
 
 Programm| Wo kann ich die Version überprüfen?
 --|--
-Magellan | Bitte vergleichen Sie die angezeigte Version (am besten der Serverrechner-Installation) unter `Magellan > Hilfe > Info über`  mit den angezeigten Version auf im [Downloadbereich](https://Magellan.stueber.de/download.php) oder im Abschnitt ["Was ist neu?"](https://doc.magellan6.stueber.de/changelog.html) der Magellan 6-Dokumentation!<br/> Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [Magellan 6](https://doc.magellan6.stueber.de/installation/update.html)
-FIREBIRD | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die -Ausgabe, die wir im [Downloadbereich](https://magellan.stueber.de/download.php) anbieten? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html) der Magellan 6-Dokumentation eine Anleitung für das Aktualisieren.
+Magellan | Bitte vergleichen Sie die angezeigte Version (am besten der Serverrechner-Installation) unter `Magellan > Hilfe > Info über`, die Version sollte die [6.5.42 674](https://download.stueber.de/bin/de/magellan/v6/magellan6.msi) sein. Bitte beachten Sie unsere Anleitungen zum Aktualisieren von [Magellan 6](https://doc.magellan6.stueber.de/installation/update.html)
+Firebird | Die Firebird-Versionsnummer sehen Sie unter `Serverrechner > Systemsteuerung > Firebird Server Manager (32-Bit)`. <br/> Ist es die -Ausgabe, die wir im [Downloadbereich](https://magellan.stueber.de/download.php) anbieten? Dann ist es die korrekte Ausgabe. <br/> Ist es eine ältere Ausgabe finden Sie im Abschnitt ["älteren Firebirdversionen"](https://doc.magellan6.stueber.de/installation/firebird-aktualisieren.html) der Magellan 6-Dokumentation eine Anleitung für das Aktualisieren.
 
 #### 6er Datenbank vorbereiten
 

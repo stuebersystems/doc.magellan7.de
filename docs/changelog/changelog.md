@@ -30,6 +30,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ### Version 11.0.11 1101 (unveröffentlicht)
 
+#### Magellan Schulverwaltung
+
+* FIX: Beim Anlegen eines Betriebes von der Ausbildungskarte eines Schülers/Vagabunden wird die Mailadresse ohne `mail to:` angelegt
+
 ### Version 11.0.10 1101 (01.10.2024)
 
 #### Magellan Schulverwaltung
