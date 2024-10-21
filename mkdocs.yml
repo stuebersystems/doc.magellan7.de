@@ -111,7 +111,8 @@ nav:
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
     - Upgrade:
       - 10 auf 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
-      -  9 auf 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md      
+      -  9 auf 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md    
+      - Umstieg von älteren Versionen: schulverwaltung/upgrade/umstieg_von_aelteren_versionen.md  
     - Update:
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
