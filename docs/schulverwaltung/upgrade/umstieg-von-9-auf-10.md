@@ -2,7 +2,7 @@
 
 !!! check "Benötigen Sie Hilfe beim Umstieg?"
 
-    **Wenn Sie unsere Hilfe beim Upgrade wünschen, klicken Sie bitte hier: ["HIER"](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg_von_aelteren_versionen/)!** 
+    **Wenn Sie unsere Hilfe beim Upgrade wünschen, klicken Sie bitte [HIER](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg_von_aelteren_versionen/)!** 
 
 Folgende Punkte müssen erledigt werden um Ihre Magellan 9 Version auf Magellan 10 zu aktualisieren. 
 
