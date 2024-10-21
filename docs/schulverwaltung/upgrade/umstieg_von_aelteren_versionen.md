@@ -4,9 +4,9 @@ Sie setzen eine ältere Version ein und möchten das Upgrade durch uns erledigen
 
 Folgende Leistungen bieten wir je nach eingesetzter Version an:
 
-*  stellen wir Ihre Datenbank bei uns (Version Magellan 6 bis Magellan 9) oder per Teamviewer-Sitzung um
-*  wir kümmern uns ggfs. um schuleigene Berichtsdateien (Version 6)
-*  wir installieren, konfigurieren und testen Magellan auf Ihrem Server und einem Client
-*  wir übernehmen für Sie Daten, die in der neuen Version nutzbar sind
-*  erzeugen, wenn nötig, neue Nutzerpassworte (Version 9)
-*  Für weitere Clients bereiten wir Ihnen eine verteilbare Konfigurationsdatei vor und geben Ihnen eine Übersicht über weiteren Schritte
+*  Stellen wir Ihre Datenbank bei uns (Version Magellan 6 bis Magellan 9) oder per Teamviewer-Sitzung um.
+*  Wir kümmern uns ggfs. um schuleigene Berichtsdateien (Version 6).
+*  Wir installieren, konfigurieren und testen Magellan auf Ihrem Server und einem Client.
+*  Wir übernehmen für Sie Daten, die in der neuen Version nutzbar sind.
+*  Wir erzeugen, wenn nötig, neue Nutzerpassworte (Version 9).
+*  Für weitere Clients bereiten wir Ihnen eine verteilbare Konfigurationsdatei vor und geben Ihnen eine Übersicht über weiteren Schritte.
