@@ -112,8 +112,6 @@ nav:
     - Upgrade:
       - 10 auf 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
       -  9 auf 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md      
-      -  6 auf  9: schulverwaltung/upgrade/umstieg-von-6-auf-9.md
-      - Eigene Berichte anpassen: schulverwaltung/upgrade/berichte_anpassen.md   
     - Update:
       - Übersicht: schulverwaltung/update/README.md
       - Vorbereitung: schulverwaltung/update/vorbereitung.md
