@@ -2,8 +2,7 @@
 
 !!! check "Benötigen Sie Hilfe beim Umstieg?"
 
-    Bitte melden Sie sich unter [office@stueber.de](office@stueber.de) und nennen bitte Ihre Ausgangsversion, wir erstellen Ihnen eine Umstiegsangebot und vereinbaren für die Umstellung per Fernwartung einen Termin mit Ihnen. Wir stellen Ihren Serverrechner um, richten einen Client ein und konfigurieren und testen die Verbindung. Für weitere Clients geben wir Ihnen eine kurze Handlungsanweisung.
-        Sollten Sie von Version 6 aus umsteigen möchten, können wir auch Ihre selbsterstellten oder angepassten Berichte für die aktuelle Version umstellen.
+    **Wenn Sie unsere Hilfe beim Upgrade wünschen, klicken Sie bitte hier: ["HIER"](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg_von_aelteren_versionen/)!** 
 
 Folgende Punkte müssen erledigt werden um Ihre Magellan 9 Version auf Magellan 10 zu aktualisieren. 
 
