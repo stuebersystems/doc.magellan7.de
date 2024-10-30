@@ -33,6 +33,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * FIX: Beim Anlegen eines Betriebes von der Ausbildungskarte eines Schülers/Vagabunden wird die Mailadresse ohne `mail to:` angelegt
+* FIX: Die Anzeige der Felder `MerkmalA7-MerkmalA10` wurde unter `Bewerber > Merkmale` korrigiert
 
 ### Version 11.0.10 1101 (01.10.2024)
 
