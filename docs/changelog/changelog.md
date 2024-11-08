@@ -35,6 +35,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Anlegen eines Betriebes von der Ausbildungskarte eines Schülers/Vagabunden wird die Mailadresse ohne `mail to:` angelegt
 * FIX: Die Anzeige der Felder `MerkmalA7-MerkmalA10` wurde unter `Bewerber > Merkmale` korrigiert
 
+#### Berichte
+
+Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
+
+* CHANGE: `SAC-BS-AS (Vorbereitungsklasse) (A.01.06)V1` und `SAC-BS-AS (Vorbereitungsklasse) (A.01.06)V1`
+
 ### Version 11.0.10 1101 (01.10.2024)
 
 #### Magellan Schulverwaltung
