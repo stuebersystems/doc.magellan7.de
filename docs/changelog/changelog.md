@@ -37,6 +37,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Extras > Schlüsselverzeichnisse > alle Verzeichnisse`Statusanzeige bei der Angabe eines `Bis`-Datums in der Zukunft korrigiert
 * FIX: `Schüler > Schüler > Fach zuweisen` Bei der Auswahl des Fachs wird das `Kürzel` gezeigt
 
+#### Schnittstellen
+
+##### NRW
+
+* CHANGE: Für Bildungsgänge, die mit `A12` beginnen, werden die nachfolgenden Felder nicht automatisch von uns vorbesetzt, sondern mit dem Wert, der im Feld `Laufbahn > Versetzungsart` gewählt wurde, gefüllt.
+  * Neuzugang
+  * Neuzugang an gleicher Schule
+
+
 #### Berichte
 
 Berichte für Magellan 11 zum Download vorab: [hier](https://my.hidrive.com/share/w5.76kcqhe)<br/>Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/> Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)<br/>
