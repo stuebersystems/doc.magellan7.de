@@ -35,7 +35,9 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Beim Anlegen eines Betriebes von der Ausbildungskarte eines Schülers/Vagabunden wird die Mailadresse ohne `mail to:` angelegt
 * FIX: Die Anzeige der Felder `MerkmalA7-MerkmalA10` wurde unter `Bewerber > Merkmale` korrigiert
 * FIX: `Extras > Schlüsselverzeichnisse > alle Verzeichnisse`Statusanzeige bei der Angabe eines `Bis`-Datums in der Zukunft korrigiert
-* FIX: `Schüler > Schüler > Fach zuweisen` Bei der Auswahl des Fachs wird das `Kürzel` gezeigt
+* FIX: `Menü Schüler > Oberpunkt Schüler > Fach zuweisen` Bei der Auswahl des Fachs wird das `Kürzel` gezeigt
+* NEW: Neuer Bewerberstatus "Klärungsbedarf"
+* FIX: Kürzel der Lehrermerkmale werden in voller Kürzellänge unter `Lehrer > Merkmale` gespeichert
 
 #### Schnittstellen
 
