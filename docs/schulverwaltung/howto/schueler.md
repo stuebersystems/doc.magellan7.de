@@ -50,7 +50,7 @@ Sie können für Schüler oder Bewerber Passbilder hinterlegen, diese werden in 
 Auswahl| Anmerkung
 --|--
 Passfoto aus Datei| Fügen Sie eine gespeicherte Bilddatei ein
-Passfoto von Web-Kamera| Nehmen Sie ein Foto mit einer Web-Kamera oder der im Notebook integrierten Kamera auf
+Passfoto von Web-Kamera| Nehmen Sie ein Foto mit einer Web-Kamera oder der im Notebook integrierten Kamera auf. Als Standard wird die ggfs. integrierte Web-Kamera gewählt, Sie können in der Vorschau unter dem Symbolrädchen eine andere angeschlossene Kamera auswählen.
 Passfoto von Digitalquelle| Nehmen Sie ein Foto mit einer Kamera auf oder lesen Sie ein Foto von einem Scanner ein. Das Gerät hinterlegen Sie bitte unter `Datenbank > Optionen > Digitalquelle`(TWAIN oder WIA).  <br/> [Weitere Informationen](https://doc.magellan.stueber.de/schulverwaltung/admin/preferences/#digitalquelle)
 Passfoto löschen| Das Passfoto kann aus der Datenbank gelöscht werden.
 

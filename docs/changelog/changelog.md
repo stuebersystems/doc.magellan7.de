@@ -38,6 +38,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: `Menü Schüler > Oberpunkt Schüler > Fach zuweisen` Bei der Auswahl des Fachs wird das `Kürzel` gezeigt
 * NEW: Neuer Bewerberstatus "Klärungsbedarf"
 * FIX: Kürzel der Lehrermerkmale werden in voller Kürzellänge unter `Lehrer > Merkmale` gespeichert
+* FIX: Anzeige (grau-weiße Zeilenfüllung) der editierbaren Spalten unter `Schüler > Zeugnis > Leistungen`
 
 #### Schnittstellen
 
