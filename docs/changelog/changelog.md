@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.11 1101 (unveröffentlicht)
+### Version 11.0.11 1101 (26.11.2024)
 
 #### Magellan Schulverwaltung
 
@@ -47,7 +47,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Für Bildungsgänge, die mit `A12` beginnen, werden die nachfolgenden Felder nicht automatisch von uns vorbesetzt, sondern mit dem Wert, der im Feld `Laufbahn > Versetzungsart` gewählt wurde, gefüllt.
   * Neuzugang
   * Neuzugang an gleicher Schule
-
 
 #### Berichte
 
