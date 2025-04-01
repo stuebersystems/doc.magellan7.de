@@ -47,7 +47,6 @@ Möchten Sie abweichende Speicherorte für diese Dateien angeben, zum Beispiel d
 Beispiel:
 
 ``` 
-xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Preferences>
   <Paths>
