@@ -78,12 +78,14 @@ nav:
 - Allgemein: 
     - Einführung: index.md
     - Was ist neu?: changelog/changelog.md
+    - Magellan 12: changelog/neu.mag12.md
     - Neuerungen Magellan 11: changelog/neu.mag11.md        
     - Archiv:
         - Neuerungen Magellan 10: changelog/neu.mag10.md    
         - Neuerungen Magellan 9: changelog/neu.mag9.md
         - Neuerungen Magellan 8: changelog/neu.mag8.md
         - Neuerungen Magellan 7: changelog/neu.mag7.md
+        - Änderungen 2024: changelog/changelog2024.md 
         - Änderungen 2023: changelog/changelog2023.md        
         - Änderungen 2022: changelog/changelog2022.md
         - Änderungen 2021: changelog/changelog2021.md

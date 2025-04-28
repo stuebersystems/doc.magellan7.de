@@ -3,19 +3,8 @@
 **Dieser Abschnitt ist aktuell in Bearbeitung.**
 
 [1]:/assets/images/neues/11.001.png "Prüfungslistenfilter"
-[2]:/assets/images/neues/11.002.png "Suche ergänzt um Geburtsdatum"
-[3]:/assets/images/neues/11.003.png "Endnote des vorangegangenen Halbjahres"
-[4]:/assets/images/neues/11.004.png "Ausleiherlaubnis verlängern"
-[5]:/assets/images/neues/11.005.png "Kontaktverhältnis"
-[6]:/assets/images/neues/11.006.png "Elternsprecher, Schülersprecher"
-[7]:/assets/images/neues/11.007.png "Neue Spalten in der Schülerauswahlliste"
-[8]:/assets/images/neues/11.008.png "Signatur wird unter Bücher/Medien > Vorgänge gezeigt"
-[9]:/assets/images/neues/11.009.png "Vorhalbjahresnote"
-[10]:/assets/images/neues/11.010.png "Sortierung Schulen"
 
-![Suche ergänzt um das Geburtsdatum](/assets/images/neues/11.002.png)
-
-Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 10. Wir möchten Ihnen hier gern eine Übersicht über die offensichtlichsten Änderungen in Magellan 11 geben.
+Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 11. Wir möchten Ihnen hier gerne eine Übersicht über die offensichtlichsten Änderungen in Magellan 12 geben.
 
 ## Schüler
 
