@@ -20,6 +20,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.13 1101 (05.05.2025)
+
+#### MyMagellan
+
+* FIX: MyMagellan-Projekte aus Version 10 werden jetzt korrekt geladen.
+
 ### Version 11.0.12 1101 (28.04.2025)
 
 #### Skripte
