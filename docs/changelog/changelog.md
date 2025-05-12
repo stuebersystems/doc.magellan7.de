@@ -33,7 +33,7 @@ Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschre
 #### MyMagellan
 
 * FIX: MyMagellan-Projekte aus Version 10 werden jetzt korrekt geladen.
-=======
+
 
 ### Version 11.0.12 1101 (28.04.2025)
 
