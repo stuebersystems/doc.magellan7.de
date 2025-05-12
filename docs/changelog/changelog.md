@@ -20,17 +20,26 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.14 1101 (noch nicht veröffenlicht)
+
+#### Skripte
+
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/)!
+
+* FIX: `DE-DIAP-2018.dws` Korrektur: Optimierung der Hinweise zur Schnittverbesserung durch mündliche Prüfung
+
 ### Version 11.0.13 1101 (05.05.2025)
 
 #### MyMagellan
 
 * FIX: MyMagellan-Projekte aus Version 10 werden jetzt korrekt geladen.
+=======
 
 ### Version 11.0.12 1101 (28.04.2025)
 
 #### Skripte
 
-Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
+Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/)!
 
 * FIX: `NRW-APO-BG-2018` Korrektur: Keine Fehleranzeige mehr bei Belegung von GK mit 0 Punkten
 
