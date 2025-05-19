@@ -11,7 +11,7 @@ Die Ansicht `Vorgänge` bietet die zentrale Übersicht über alle gespeicherten 
 * Registerkarte `Aktuell`: Tabelle aller offenen Leihvorgänge
 * Registerkarte `Historie`: Tabelle aller abgeschlossenen Vorgänge
 
-![Die Registerkarte `Aktuell` der Ansicht `Vorgänge` bietet die zentrale Übersicht zu allen laufenden Leihvorgängen.](/assets/images/bibliothek/leihvorgaenge01.png)
+![Die Registerkarte `Aktuell` der Ansicht `Vorgänge` bietet die zentrale Übersicht zu allen laufenden Leihvorgängen.](/assets/images/bibliothek/Leihvorgaenge01.png)
 
 Sie können im Vorfeld einstellen, wie lange abgeschlossene Leihvorgänge auf der Registerkarte `Historie` beibehalten werde. Standardmäßig ist ein Zeitraum von 30 Tagen voreingestellt. Abgeschlossene Vorgänge die älter sind (vom Rückgabedatum aus gesehen) können automatisiert gelöscht werden. Sie werden dann über ein Dialogfenster unterrichtet und müssen sich entscheiden, ob Sie diese abgeschlossenen Vorgänge löschen möchten.
 
@@ -28,7 +28,7 @@ Die geänderten Einstellungen werden mit dem nächsten Aufruf der Ansicht `Vorg�
 
     Wenn Sie den Wert 0 Tage eintragen, werden Ihre abgeschlossenen Vorgänge zu keiner Zeit gelöscht.
 
-![Magellan Optionen, Einstellungen zur Historie](/assets/images/bibliothek/leihvorgaenge02.png)
+![Magellan Optionen, Einstellungen zur Historie](/assets/images/bibliothek/Leihvorgaenge02.png)
 
 !!! info "Hinweis"
 
