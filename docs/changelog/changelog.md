@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
-### Version 11.0.14 1101 (noch nicht veröffenlicht)
+### Version 11.0.14 1101 (20.05.2025)
 
 #### Skripte
 

@@ -6,17 +6,9 @@ Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2023](https:/
 
 ## Wichtige Hinweise
 
-!!! important "Wichtig"
+!!! danger "Support für Magellan 10 beendet"
 
-    **TWAIN**: Windows unterstützt seit einer Weile die Twainschnittstelle nicht mehr, stellt also von Hause aus keinen Treiber dafür zur Verfügung. Wenn der Hersteller des Gerätes (Kamera, Scanner usw.) einen passenden Treiber entsprechend der Betriebssystemausgabe und der eingesetzten Magellan Ausgabe (32 oder 64 Bit) anbietet, kann die Schnittstelle dennoch verwendet werden, alternativ könnte WIA genutzt werden. 
-
-    **OpenSSL-Schwachstelle**: In unseren Softwareprodukten setzen wir kein OpenSSL ein.
-
-    **Log4Shell-Schwachstelle**: Unsere Software-Produkte Enbrea, DaVinci, Magellan, CONFIRE SHOWTIME und CONFIRE SHERLOCK sind alle nicht von der Log4Shell-Schwachstelle betroffen, da keines dieser Produkte Java verwendet oder von einer externen Java-Anwendung abhängig ist. Auch unsere öffentlich zugänglichen Dienste (z.B. Ticketsystem, Webseiten) nutzen alle kein Java. Bitte lesen Sie auch unseren [Blogeintrag](https://blog.stueber.de/posts/log4j-desaster).
-
-!!! danger "Support für Magellan 10 endet"
-
-    Bitte beachten Sie, dass die Unterstützung für Magellan 10 am 30.06.2024 ausläuft, bitte setzen Sie stattdessen Magellan 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für Magellan 10 am 30.06.2024 ausgelaufen ist, bitte setzen Sie stattdessen Magellan 11 ein!
 
 ## LEGENDE
 
@@ -27,15 +19,6 @@ NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
-
-### Version 11.0.12 1101 (noch nicht veröffentlicht)
-
-#### Skripte
-
-Bieten wir vorab Skripte zum Download an (Downloadlink dann je Eintrag), beschreiben wir [hier](https://doc.kb.stueber.de/support/skript_tauschen/), wie Sie beim Austausch des Skriptes vorgehen können.<br/>Sie finden alle Berechnungsskripte und die Verweise zu deren Anleitungen im [Skripteüberblick](https://doc.la.stueber.de/skriptueberblick/#schleswig-holstein)!
-
-* FIX: `NRW-APO-BG-2018` Korrektur: Keine Fehleranzeige mehr bei Belegung von GK mit 0 Punkten
-
 
 ### Version 11.0.11 1101 (26.11.2024)
 
