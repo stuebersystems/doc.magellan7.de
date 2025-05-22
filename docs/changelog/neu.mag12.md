@@ -14,6 +14,12 @@ In Magellan gespeicherte Passbilder können gesammelt und mit der Schüler-ID be
 
 ## Bewerber
 
-### neue Spalte "Volljährig" in der Auswahlliste
+### Neue Spalte "Volljährig" in der Auswahlliste
 
 Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste, gibt es die Anzeige jetzt auch für die Bewerber. In der Auswahlliste der Bewerber wird die Volljährigkeit (18tes Lebensjahr) in Form eines Checkbox-Hakens gezeigt. Die Anzeige ergibt sich aus der Berechnung ausgehend vom Systemdatum und dem unter `Bewerber > Daten1` erfassten Geburtsdatums.
+
+## Lehrer
+
+### Neues Feld "E-Mail privat" in der Ansicht "Lehrer"
+
+Beim Lehrer kann jetzt neben der bisherie E-Mail auch eine private E-Mail eingetragen.
