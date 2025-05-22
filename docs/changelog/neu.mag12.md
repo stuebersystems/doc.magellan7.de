@@ -22,4 +22,4 @@ Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste,
 
 ### Neues Feld "E-Mail privat" in der Ansicht "Lehrer"
 
-Beim Lehrer kann jetzt neben der bisherie E-Mail auch eine private E-Mail eingetragen.
+Beim Lehrer kann jetzt neben der bisherigen E-Mail auch eine private E-Mail eingetragen werden.
