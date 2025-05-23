@@ -20,6 +20,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 11
 
+### Version 11.0.15 1101 (23.05.2025)
+
+#### Magellan Administrator
+
+* FIX: Fehlerkorrekturen in der Benutzerverwaltung
+
 ### Version 11.0.14 1101 (20.05.2025)
 
 #### Skripte
