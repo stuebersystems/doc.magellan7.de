@@ -203,9 +203,45 @@ Das neue Fach wird im gewählten Zeitraum für die Schüler unter `Schüler > Ze
 
 ### Schwerpunkte zuweisen
 
-Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Fach löschen` auf. Es öffnet sich der Assistent `Schwerpunkte zuweisen`.<br/><img src="/assets/images/zeugnisdaten/005.png"> Die Sammelzuweisung kann ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren.
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Schwerpunkte zuweisen` auf. Es öffnet sich der Assistent `Schwerpunkte zuweisen`.<br/><img src="/assets/images/zeugnisdaten/005.png"> Die Sammelzuweisung kann ausgewählten Fächern oder Kurse einen Schwerpunkt zuweist. Sie können dabei zwischen Fach, Unterrichtsart, Fachstatus, Kursnummer und unterrichtendem Lehrer differenzieren.
 
  ![Die zuzuweisenden Schwerpunkte müssen vorab im Verzeichnis Fachschwerpunkte unter `Verzeichnisse | Weitere Schlüsselverzeichnisse | Fachschwerpunkte` angelegt werden.](/assets/images/zeugnisdaten/zeugnisdaten11.png)
+
+ 
+### Kursnummer Vorzeitraum zuweisen (Sammelzuweisung)
+
+Besonders bei berufsbildenden Schulen kommt es zu Gruppenteilung innerhalb einer Klasse, die bei einem Schujahrswechsel innerhalb der Klasse für ein Folgefach bestehen bleiben soll.
+
+#### Beispiel
+
+Der Schüler `S1`  hat im alten Schuljahr in Klasse `A`  das Fach `BWL` in der Gruppe 1.
+Der Schüler `S2`  hat im alten Schuljahr in Klasse `A`  das Fach `BLW` in der Gruppe 2.
+
+Dies ist bei dem Schüler `S1` als Fach `BWL`  mit der Kursnummer `1` im 1. Ausbildungsjahr (Vorzeitraum, z.B. 2. Halbjahr 2024/2025) in der Klasse `K` eingetragen.
+Dies ist bei dem Schüler `S1` als Fach `BWL`  mit der Kursnummer `2` im 1. Ausbildungsjahr (Vorzeitraum, z.B. 2. Halbjahr 2024/2025) in der Klasse `K` eingetragen.
+
+Im 2. Ausbildungsjahr im neuen Schuljahr (aktueller Zeitraum, z.B. 1. Halbjahr 2025/2026) wird das Fach `BWL` durch das Fach  `SOBWL` in der gleichen Klasse `K` ersetzt.
+Nun soll die Zugehörigkeit der Schüler `S1` und `S2` zu den Gruppen 1 bzw. 2 trotz des Fachwechsels erhalten bleiben.
+
+Dies unterstützt die Sammelzuweisung dieser Funktion.
+
+#### Voraussetzung
+
+Damit dieser Assistent im aktuellen Zeitraum zuordnen kann, welches das passende Fach im Vorzeitraum ist, muss dies über die Fachtafel definiert werden.
+Dem Schüler oder der Klasse muss dazu im aktuellen Zeitraum eine [Fachtafel](#fachtafel-definieren) zugewiesen sein.
+In der Fachtafel muss dabei unter `Hauptfach` das Fach zugeordnet sein, welches das passende Fach im Vorzeitraum war. 
+
+In unserem Beispiel wäre zum Fach `SOBWL` das Hauptfach `BWL`.
+<img src="/assets/images/zeugnisdaten/fachtafel-hauptfach.png">
+
+
+#### Sammelzuweisung ausführen
+
+Wählen Sie den gewünschten Zeitraum und rufen dann `Menü Schüler > Schüler > Kursnummer Vorzeitraum zuweisen` auf.
+Es öffnet sich der Assistent `Sammelzuweisung Kursnummer Vorzeitraum`. <img src="/assets/images/zeugnisdaten/kursnummer-vorzeitraum.png"> 
+Sie können nun mehrere Schüler markieren, bei welchen jeweils die Kursnummer des passenden Fachs aus dem Vorzeitraum übertragen werden soll. Besitzt der markierten Schüler oder seine Klasse im aktuellen Zeitraum keine Fachtafel, so erfolgt keine Zuweisung auf diesen Schüler.
+
+
 
 ### Fach löschen (Sammellöschung)
 

@@ -12,6 +12,10 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 11. Wir mö
 
 In Magellan gespeicherte Passbilder können gesammelt und mit der Schüler-ID benannt in ein Zip-Archiv exportiert werden. Dafür markieren Sie die Schülerdatensätze in der Auswahliste `Schüler` und wählen den Punkt `Extras > Exporte > Schüler-Passfotos`. Wählen Sie einen Speicherort und vergeben einen passenden Namen für das zu erstellende Zip-Archiv. Wenn Sie im Anschluss das Zip-Archiv entpacken, finden Sie die Passfotos aus der Datenbank benannt nach der jeweiligen Schüler-ID im Format `*.jpg`.
 
+### Kursnummer aus Vorzeitraum übernehmen
+
+Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in den aktuellen Zeitraum bei gleicher Klasse übernommen werden. Weitere Informationen finden Sie [hier](/schulverwaltung/howto/zeugnisdaten1/#kursnummer-vorzeitraum-zuweisen-sammelzuweisung).   
+
 ## Menü Bewerber
 
 ### Neue Spalte "Volljährig" in der Auswahlliste
