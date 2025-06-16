@@ -12,14 +12,14 @@ Folgende Punkte müssen erledigt werden um Ihre Magellan 11 Version auf Magellan
 
 Nr.|Was ist zu tun
 --|--
- 1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#1-downloads-lizenzdatei-zurechtlegen)
- 2.|Installation von [`Magellan 12`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#22-magellan-12) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#21-crystal-reports-runtimeversion)
- 3.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#3-willkommensassistent-starten-pfade-und-lizenz)
- 4.|[Übernahme der MAGELLAN12.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#4-ubernahme-der-magellan12fdb)
- 5.|[Anpassen auf die neue Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#5-anpassen-auf-die-neue-datenstruktur)
- 6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#6-zugriffsrechte-synchronisieren)
- 7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#7-eigene-daten-ubernehmen)
- 8.|[Arbeitsplatzrechner einrichten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#14-arbeitsplatzrechner-einrichten)
+ 1.|[Downloads, Lizenzdatei zurechtlegen](#1-downloads-lizenzdatei-zurechtlegen)
+ 2.|Installation von [`Magellan 12`](#22-magellan-12) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#21-crystal-reports-runtimeversion)
+ 3.|[Willkommensassistent starten (Pfade und Lizenz)](#3-willkommensassistent-starten-pfade-und-lizenz)
+ 4.|[Übernahme der MAGELLAN12.FDB](#4-ubernahme-der-magellan12fdb)
+ 5.|[Anpassen auf die neue Datenstruktur](#5-anpassen-auf-die-neue-datenstruktur)
+ 6.|[Zugriffsrechte synchronisieren](#6-zugriffsrechte-synchronisieren)
+ 7.|[Eigene Daten übernehmen](#7-eigene-daten-ubernehmen)
+ 8.|[Arbeitsplatzrechner einrichten](#14-arbeitsplatzrechner-einrichten)
 
 ## 1. Downloads, Lizenzdatei zurechtlegen
 
@@ -36,38 +36,27 @@ Alle Installationsdateien stellen wir Ihnen in unserem Downloadbereich unter [ht
 
 ### 2.1 Crystal Reports Runtimeversion
 
-Nr.|Was ist zu tun
---|--
- 1.|[Downloads, Lizenzdatei zurechtlegen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#1-downloads-lizenzdatei-zurechtlegen)
- 2.|Installation von [`Magellan 12`](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#22-magellan-12) und der [CR Runtimeversion](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#21-crystal-reports-runtimeversion)
- 3.|[Willkommensassistent starten (Pfade und Lizenz)](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#3-willkommensassistent-starten-pfade-und-lizenz)
- 4.|[Übernahme der MAGELLAN12.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#4-ubernahme-der-magellan12fdb)
- 5.|[Anpassen auf die neue Datenstruktur](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#5-anpassen-auf-die-neue-datenstruktur)
- 6.|[Zugriffsrechte synchronisieren](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#6-zugriffsrechte-synchronisieren)
- 7.|[Eigene Daten übernehmen](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#7-eigene-daten-ubernehmen)
- 8.|[Arbeitsplatzrechner einrichten](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#14-arbeitsplatzrechner-einrichten)
-
 Diese Installation muss stets parallel zur Magellan Installation erfolgen, diese Bestandteile sind die Voraussetzung für die Druckfunktionalitäten in Magellan.
 
 Starten Sie die Installation per Doppelklick auf das msi-Paket. Klicken Sie bitte auf `Next` im Installationsassistenten.
 
-![Willkommen](/assets/images/installation/12/cr/004.png)
+![Willkommen](/assets/images/installation/11/cr/004.png)
 
 Stimmen Sie bitte dem "License Agreement" zu, indem Sie den oberen Radiobutton wie in der Abbildung aktivieren und auf `Next` klicken
 
-![License Agreement](/assets/images/installation/12/cr/005.png)
+![License Agreement](/assets/images/installation/11/cr/005.png)
 
 Starten Sie die Installation per Klick auf `Next`.
 
-![Start](/assets/images/installation/12/cr/006.png)
+![Start](/assets/images/installation/11/cr/006.png)
 
 Der Fortschritt der Installation wird per Laufbalken gezeigt.
 
-![Installationsfortschritt](/assets/images/installation/12/cr/007.png)
+![Installationsfortschritt](/assets/images/installation/11/cr/007.png)
 
 Die Installation ist beendet, bitte klicken Sie auf `Finish`.
 
-![Fertigstellen](/assets/images/installation/12/cr/008.png)
+![Fertigstellen](/assets/images/installation/11/cr/008.png)
 
 ### 2.2. Magellan 12
 
@@ -77,31 +66,31 @@ Der Setup Assistent von `Magellan 12` wird gestartet und die Installationsdateie
 
 ![Startdialog der Installation](/assets/images/installation/12/001.png)
 
-Wählen Sie die `Server-/Einzelplatzinstallation` aus! <br/>Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die Datenordner (Skripte, Berichte usw.) erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
+Wählen Sie die `Server- bzw. Einzelplatz` aus! <br/>Es wird das Programm installiert, zusätzlich wird die Datenbank abgelegt und es werden die Datenordner (Skripte, Berichte usw.) erzeugt. In den Datenordnern befinden sich alle Bestandteile auf die die Nutzer später gemeinsam zugreifen können, zum Beispiel Bericht, Seriendruckvorlagen, Skripte usw.
 
 ![Installationart festlegen](/assets/images/installation/12/001.1.png)
 
 Der Assistent schlägt Ihnen einen Installationspfad vor, wir empfehlen diese Auswahl mit `Weiter` zu übernehmen. Der in der Abbildung gezeigte Pfad entspricht der Installation auf einem Gerät mit 64-Bit Betriebssystem, der Pfad für ein 32-Bit Betriebssystem weicht davon ab.
 
-![Installationart festlegen](/assets/images/installation/12/001.2.png)
+![Installationspfad festlegen](/assets/images/installation/12/001.2.png)
 
 Wählen Sie den Speicherort für die Datenbank und klicken Sie auf „Weiter“.
 
 ![Speicherort für die Datenbank](/assets/images/installation/12/001.3.png)
 
-Wählen Sie den Speicherort für die Datenordner (Berichte, Dokumente, Improte, Skripte und Vorlagen) und klicken Sie auf „Weiter“.
+Wählen Sie den Speicherort für die Datenordner (Berichte, Dokumente, Importe, Skripte und Vorlagen) und klicken Sie auf „Weiter“.
 
 ![Speicherort für die Datenordner](/assets/images/installation/12/001.4.png)
 
 Die Voreinstellungen sind abgeschlossen, bitte starten Sie die Installation mit `Fertigstellen`!
 
-![Vorbereitungen abgeschlossen](/assets/images/installation/12/002.png)
+![Vorbereitungen abgeschlossen](/assets/images/installation/12/001.5.png)
 
-![Installation läuft](/assets/images/installation/12/003.png)
+![Installation läuft](/assets/images/installation/12/001.6.png)
 
 Die Installation ist abgeschlossen, klicken Sie bitte auf `Fertigstellen`!
 
-![Fertig!](/assets/images/installation/12/003.png)
+![Fertig!](/assets/images/installation/12/001.7.png)
 
 ## 3. Willkommensassistent starten (Pfade und Lizenz)
 
@@ -110,7 +99,7 @@ Nach Beenden des Setup Assistenten müssen Sie `Magellan 12` starten. Es erschei
 ![Willkommen](/assets/images/installation/12/w/001.png)
 
 Klicken Sie auf „Weiter“. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
-Unten links im Fenster können Sie über den Link ["Magellan - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan.html) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
+Unten links im Fenster können Sie über den Link ["Magellan - Erste Schritte"](https://doc.kb.stueber.de/magellan/erste-schritte-in-magellan/) ein Infoblatt aufrufen, dass Ihnen die ersten Schritte von einer Beispieldatenbank zu einer Datenbank mit Ihren Realdaten beschreibt.
 
 ![Wahl zwischen Vollversion und Testlizenz](/assets/images/installation/12/w/002.png)
 
@@ -126,11 +115,11 @@ Wählen Sie hier Ihre Region (Bundesländer, Auslandsschulen, Schweiz oder Deuts
 
 Bei einer Server-/Einzelplatzinstallation sind die Pfade für die Datenordner, die Datenbank und den Server schon korrekt durch Ihre Angaben während der Magellan-Installation vorbefüllt, bitte ändern Sie hier nichts. 
 
-![Lokale Datenbank](/assets/images/installation/12/w/005.1.png)
+![Lokale Datenbank](/assets/images/installation/12/w/005.png)
 
-Es wird standardmäßig auf eine Beispieldatenbank verwiesen, wir erläutern in nachfolgenden Schritten die Übernahme Ihrer bisherigen `MAGELLAN12.FDB` als `MAGELLAN12.FDB`, bitte wählen Sie daher in diesem Schritt für Ihre Verbindung den Wert `MAGELLAN12.FDB` aus.
+Es wird standardmäßig auf eine Beispieldatenbank verwiesen, wir erläutern in nachfolgenden Schritten die Übernahme Ihrer bisherigen `MAGELLAN11.FDB` als `MAGELLAN12.FDB`, bitte wählen Sie daher in diesem Schritt für Ihre Verbindung den Wert `MAGELLAN12.FDB` aus.
 
-![Datenbankpfad](/assets/images/installation/12/w/005.2.png)
+![Datenbankpfad](/assets/images/installation/12/w/006.png)
 
 Für die Verbindungsinformationen geben Sie jetzt bitte noch einen Standardablageort für zukünftige Sicherungen an.   
 Eine Sicherung Ihrer Datenbank kann über das Modul Magellan Administrator auch von einer Arbeitsplatzinstallation aus ausgelöst werden, allerdings wird die Sicherung immer auf dem Rechner erstellt werden, auf die Datenbank sich befindet - das sollte Ihr Serverrechner sein. 
@@ -151,15 +140,20 @@ Geben Sie im Anmeldedialog bei Benutzer „sysdba“ und als Kennwort Ihr Passwo
 
 ![Abschluss des Willkommens-Assistenten](/assets/images/installation/12/w/009.png)
 
-## 4. Übernahme der MAGELLAN12.FDB
+## 4. Übernahme der MAGELLAN11.FDB
 
-1. Stoppen Sie während des Austauschs den Firebird-Dienst unter `Systemsteuerung > Verwaltung > Dienste`! ![Datenbank wiederherstellen](/assets/images/upgrade/12/007.png). 
+<ol type="1">
+  <li value="1">Stoppen Sie während des Austauschs den Firebird-Dienst unter <code>Systemsteuerung > Verwaltung > Dienste</code><br>
+    <img src="/assets/images/upgrade/10/007.png" alt="Datenbank wiederherstellen">
+  </li>
+  <li value="2">Wechseln Sie in das Verzeichnis <code>C:\Users\Public\Documents\Stueber Systems\Magellan 12\Datenbank</code>. In diesem Verzeichnis befindet sich eine leere Datenbank mit der Bezeichung <code>MAGELLAN12.FDB</code>, benennen Sie diese in "leere_MAGELLAN12.FDB" um.
+  </li>
+  <li value="3">Kopieren Sie anschließend Ihre `MAGELLAN11.FDB` aus dem bisherigen Datenbankverzeichnis und fügen Sie unter `C:\Users\Public\Documents\Stueber Systems\Magellan 12\Datenbank` als `MAGELLAN12.FDB` wieder ein.
+  </li>
+  <li value="4">Starten Sie bitte den Firebird-Dienst erneut!
+  </li>
+</ol>
 
-2. Wechseln Sie in das Verzeichnis `C:\Users\Public\Documents\Stueber Systems\Magellan 12\Datenbank`. In diesem Verzeichnis befindet sich eine leere Datenbank mit der Bezeichung `MAGELLAN12.FDB`, benennen Sie diese in "leere_MAGELLAN12.FDB" um.
-
-3. Kopieren Sie anschließend Ihre `MAGELLAN12.FDB` aus dem bisherigen Datenbankverzeichnis und fügen Sie unter `C:\Users\Public\Documents\Stueber Systems\Magellan 12\Datenbank` als `MAGELLAN12.FDB` wieder ein.
-
-4. Starten Sie bitte den Firebird-Dienst erneut!
 
 ## 5. Anpassen auf die neue Datenstruktur
 
@@ -169,7 +163,7 @@ Starten Sie `Magellan 12` und melden sich mit dem Benutzer `sysdba` und dem von 
 
 Um die Rechte der existierenden Benutzer für die neuen Datenbankstrukturteile anzupassen, führen Sie bitte im Magellan Administrator den Punkt `Benutzerverwaltung > Start > Zugriffsrechte synchronisieren` aus.
 
-![Emails für weitere Nutzer erfassen](/assets/images/upgrade/12/005.png)
+![Emails für weitere Nutzer erfassen](/assets/images/upgrade/10/005.png)
 
 ## 7. Eigene Daten übernehmen
 
@@ -183,7 +177,7 @@ Haben Sie eigene Berichte, Skripte, Seriendruckvorlagen? Kopieren Sie diese bitt
 Datenordner | Übernahme | Hinweise
 --|--|--
 Berichte|Ja| Bitte je Unterverzeichnis nur Ihre selbsterstellten oder angepassten Berichte übernehmen, bitte nicht den gesamten Ordnerinhalt oder ganze Ordner übertragen, Sie überschreiben sich ansonsten ggfs. aktuellere Varianten.
-Datenbank|Ja| Bitte folgen Sie hierfür dem Abschnitt [Übernahme der MAGELLAN12.FDB](https://doc.magellan.stueber.de/schulverwaltung/upgrade/umstieg-von-12-auf-12/#4-ubernahme-der-magellan12fdb).
+Datenbank|Ja| Bitte folgen Sie hierfür dem Abschnitt [Übernahme der MAGELLAN12.FDB](#4-ubernahme-der-magellan12fdb).
 Dokumente|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Dokumente` und legen die Verzeichnisse im gleichnamigen Unterverzeichnis für `Magellan 12` ab.
 Importe|Nein| Die Dateien unterscheiden sich im Aufbau nicht, durch die Installation von `Magellan 12` und spätere Updates haben Sie jederzeit die aktuellsten Ausgaben der importierbaren Keys-Dateien.
 Skripte|Nein| Sollten Sie eigene angepasste oder selbsterstellte Skripte einsetzen, können Sie diese Dateien zusätzlich in der neuen Struktur ablegen.
@@ -195,7 +189,7 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
     Bitte deinstallieren Sie `Magellan 12` auf den Arbeitsplätzen.
 
-Zur Installation und Konfiguration von `Magellan 11` und der Crystal Reports Runtimeversion folgen Sie bitte unserer Anleitung für [Arbeitsplätze](https://doc.magellan.stueber.de/schulverwaltung/installation/version12/arbeitsplatz.installieren/).
+Zur Installation und Konfiguration von `Magellan 12` und der Crystal Reports Runtimeversion folgen Sie bitte unserer Anleitung für [Arbeitsplätze](https://doc.magellan.stueber.de/schulverwaltung/installation/version12/arbeitsplatz.installieren/).
 
 !!! warning "Wichtig"
 
