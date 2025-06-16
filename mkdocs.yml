@@ -112,6 +112,7 @@ nav:
       - Mehrere Schulen auf einem Server: schulverwaltung/installation/struktur.md
       - Probleme bei der Installation?: schulverwaltung/update/probleme.md
     - Upgrade:
+      - 11 auf 12: schulverwaltung/upgrade/umstieg-von-11-auf-12.md
       - 10 auf 11: schulverwaltung/upgrade/umstieg-von-10-auf-11.md
       -  9 auf 10: schulverwaltung/upgrade/umstieg-von-9-auf-10.md    
       - Umstieg von älteren Versionen: schulverwaltung/upgrade/umstieg_von_aelteren_versionen.md  

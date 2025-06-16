@@ -163,7 +163,7 @@ Starten Sie `Magellan 12` und melden sich mit dem Benutzer `sysdba` und dem von 
 
 Um die Rechte der existierenden Benutzer für die neuen Datenbankstrukturteile anzupassen, führen Sie bitte im Magellan Administrator den Punkt `Benutzerverwaltung > Start > Zugriffsrechte synchronisieren` aus.
 
-![Emails für weitere Nutzer erfassen](/assets/images/upgrade/10/005.png)
+![Zugriffsrechte synchronisieren](/assets/images/upgrade/10/005.png)
 
 ## 7. Eigene Daten übernehmen
 
