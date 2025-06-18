@@ -14,7 +14,7 @@ In Magellan gespeicherte Passbilder können gesammelt und mit der Schüler-ID be
 
 ### Passbilder bearbeiten
 
-In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
 
 ### Kursnummer aus Vorzeitraum übernehmen
 
@@ -28,7 +28,7 @@ Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste,
 
 ### Passbilder bearbeiten
 
-In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
 
 
 ## Menü Lehrer
@@ -39,16 +39,16 @@ Beim Lehrer kann jetzt neben der bisherigen E-Mail auch eine private E-Mail eing
 
 ### Passbilder bearbeiten
 
-In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
 
 ## Menü Kontakte
 
 ### Passbilder bearbeiten
 
-In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
 
 ## Menü Personen
 
 ### Passbilder bearbeiten
 
-In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
