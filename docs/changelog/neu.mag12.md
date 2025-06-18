@@ -12,6 +12,10 @@ Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 11. Wir mö
 
 In Magellan gespeicherte Passbilder können gesammelt und mit der Schüler-ID benannt in ein Zip-Archiv exportiert werden. Dafür markieren Sie die Schülerdatensätze in der Auswahliste `Schüler` und wählen den Punkt `Extras > Exporte > Schüler-Passfotos`. Wählen Sie einen Speicherort und vergeben einen passenden Namen für das zu erstellende Zip-Archiv. Wenn Sie im Anschluss das Zip-Archiv entpacken, finden Sie die Passfotos aus der Datenbank benannt nach der jeweiligen Schüler-ID im Format `*.jpg`.
 
+### Passbilder bearbeiten
+
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+
 ### Kursnummer aus Vorzeitraum übernehmen
 
 Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in den aktuellen Zeitraum bei gleicher Klasse übernommen werden. Weitere Informationen finden Sie [hier](/schulverwaltung/howto/zeugnisdaten1/#kursnummer-vorzeitraum-zuweisen-sammelzuweisung).   
@@ -22,8 +26,29 @@ Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in de
 
 Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste, gibt es die Anzeige jetzt auch für die Bewerber. In der Auswahlliste der Bewerber wird die Volljährigkeit (18tes Lebensjahr) in Form eines Checkbox-Hakens gezeigt. Die Anzeige ergibt sich aus der Berechnung ausgehend vom Systemdatum und dem unter `Bewerber > Daten1` erfassten Geburtsdatums.
 
+### Passbilder bearbeiten
+
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+
+
 ## Menü Lehrer
 
 ### Neues Feld "E-Mail privat"
 
 Beim Lehrer kann jetzt neben der bisherigen E-Mail auch eine private E-Mail eingetragen werden.
+
+### Passbilder bearbeiten
+
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+
+## Menü Kontakte
+
+### Passbilder bearbeiten
+
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
+
+## Menü Personen
+
+### Passbilder bearbeiten
+
+In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.b. Kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
