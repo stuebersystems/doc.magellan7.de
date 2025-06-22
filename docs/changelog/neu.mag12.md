@@ -18,7 +18,11 @@ In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden
 
 ### Kursnummer aus Vorzeitraum übernehmen
 
-Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in den aktuellen Zeitraum bei gleicher Klasse übernommen werden. Weitere Informationen finden Sie [hier](/schulverwaltung/howto/zeugnisdaten1/#kursnummer-vorzeitraum-zuweisen-sammelzuweisung).   
+Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in den aktuellen Zeitraum bei gleicher Klasse übernommen werden. Weitere Informationen finden Sie [hier](/schulverwaltung/howto/zeugnisdaten1/#kursnummer-vorzeitraum-zuweisen-sammelzuweisung). 
+
+### Sammelzuweisung Stammdaten erweitert
+
+In der Sammelzuweisung für Stammdaten können jetzt neu die Ausbildungsfelder "Praxis von", "Praxis bis" und "Praxisdauer" mit angegeben werden.  
 
 ## Menü Bewerber
 
@@ -30,6 +34,9 @@ Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste,
 
 In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden. Z.B. kann man die Orientierung ändern (drehen um 90 Grad, 180 Grad, 270 Grad) oder einen Teil des Bildes ausschneiden.
 
+### Sammelzuweisung Stammdaten erweitert
+
+In der Sammelzuweisung für Stammdaten können jetzt neu die Ausbildungsfelder "Praxis von", "Praxis bis" und "Praxisdauer" mit angegeben werden.  
 
 ## Menü Lehrer
 
