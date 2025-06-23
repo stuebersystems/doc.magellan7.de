@@ -24,11 +24,15 @@ Im Fall von Gruppenteilungen können jetzt Kursnummern aus dem Vorzeitraum in de
 
 In der Sammelzuweisung für Stammdaten können jetzt neu die Ausbildungsfelder "Praxis von", "Praxis bis" und "Praxisdauer" mit angegeben werden.  
 
+### Neues Feld "E-Mail 2"
+
+Beim Schüler kann jetzt neben der bisherigen E-Mail auch eine weitere E-Mail eingetragen werden.
+
 ## Menü Bewerber
 
 ### Neue Spalte "Volljährig" in der Auswahlliste
 
-Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste, gibt es die Anzeige jetzt auch für die Bewerber. In der Auswahlliste der Bewerber wird die Volljährigkeit (18tes Lebensjahr) in Form eines Checkbox-Hakens gezeigt. Die Anzeige ergibt sich aus der Berechnung ausgehend vom Systemdatum und dem unter `Bewerber > Daten1` erfassten Geburtsdatums.
+Analog zur Anzeige der Volljährigkeit der Schüler in der Schülerauswahlliste, gibt es die Anzeige jetzt auch für die Bewerber. In der Auswahlliste der Bewerber wird die Volljährigkeit (18tes Lebensjahr) in Form eines Checkbox-Hakens gezeigt. Die Anzeige ergibt sich aus der Berechnung ausgehend vom Systemdatum und dem unter `Bewerber > Daten 1` erfassten Geburtsdatums.
 
 ### Passbilder bearbeiten
 
@@ -37,6 +41,10 @@ In Magellan gespeichert Passbilder können jetzt nachträglich bearbeitet werden
 ### Sammelzuweisung Stammdaten erweitert
 
 In der Sammelzuweisung für Stammdaten können jetzt neu die Ausbildungsfelder "Praxis von", "Praxis bis" und "Praxisdauer" mit angegeben werden.  
+
+### Neues Feld "E-Mail 2"
+
+Beim Bewerber kann jetzt neben der bisherigen E-Mail auch eine weitere E-Mail eingetragen werden.
 
 ## Menü Lehrer
 
