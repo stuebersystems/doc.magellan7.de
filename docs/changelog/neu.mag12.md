@@ -1,7 +1,5 @@
 # Was ist neu?
 
-**Dieser Abschnitt ist aktuell in Bearbeitung.**
-
 [1]:/assets/images/neues/11.001.png "Prüfungslistenfilter"
 
 Die nachfolgenden Abschnitte richten sich an die Nutzer von Magellan 11. Wir möchten Ihnen hier gerne eine Übersicht über die offensichtlichsten Änderungen in Magellan 12 geben.

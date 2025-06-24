@@ -78,9 +78,9 @@ nav:
 - Allgemein: 
     - Einführung: index.md
     - Was ist neu?: changelog/changelog.md
-    - Magellan 12: changelog/neu.mag12.md
-    - Neuerungen Magellan 11: changelog/neu.mag11.md        
+    - Neuerungen Magellan 12: changelog/neu.mag12.md      
     - Archiv:
+        - Neuerungen Magellan 11: changelog/neu.mag11.md
         - Neuerungen Magellan 10: changelog/neu.mag10.md    
         - Neuerungen Magellan 9: changelog/neu.mag9.md
         - Neuerungen Magellan 8: changelog/neu.mag8.md
