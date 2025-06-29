@@ -96,16 +96,17 @@ nav:
     - Installation: 
       - Übersicht: schulverwaltung/installation/README.md
       - Systemvoraussetzungen: schulverwaltung/installation/systemvoraussetzungen.md
-      - Magellan 11:
-        - Server/Einzelplatz: schulverwaltung/installation/version11/server.installieren.md
-        - Arbeitsplatz: schulverwaltung/installation/version11/arbeitsplatz.installieren.md
+      - Magellan 12:
+        - Server/Einzelplatz: schulverwaltung/installation/version12/server.installieren.md
+        - Arbeitsplatz: schulverwaltung/installation/version12/arbeitsplatz.installieren.md
       - Archiv: 
+        - Magellan 11:
+          - Server/Einzelplatz: schulverwaltung/installation/version11/server.installieren.md
+          - Arbeitsplatz: schulverwaltung/installation/version11/arbeitsplatz.installieren.md
         - Magellan 10:
           - Server/Einzelplatz: schulverwaltung/installation/version10/server.installieren.md
           - Arbeitsplatz: schulverwaltung/installation/version10/arbeitsplatz.installieren.md
-        - Magellan 9:
-          - Server/Einzelplatz: schulverwaltung/installation/version9/server.installieren.md
-          - Arbeitsplatz: schulverwaltung/installation/version9/arbeitsplatz.installieren.md
+        
       - Lizenzieren: schulverwaltung/installation/lizenzieren.md
       - Die Pathsdatei: schulverwaltung/installation/die-pathsdatei.md
       - Terminalserver: schulverwaltung/installation/terminalserver.md
