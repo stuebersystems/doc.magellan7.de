@@ -4,12 +4,6 @@ Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und n
 
 Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2024](https://doc.magellan.stueber.de/changelog/changelog2024/), [2023](https://doc.magellan.stueber.de/changelog/changelog2023/), [2022](https://doc.magellan.stueber.de/changelog/changelog2022/), [2021](https://doc.magellan.stueber.de/changelog/changelog2021/), [2020](https://doc.magellan.stueber.de/changelog/changelog2020/), [2019](https://doc.magellan.stueber.de/changelog/changelog2019/)
 
-## Wichtige Hinweise
-
-!!! danger "Support für Magellan 10 beendet"
-
-    Bitte beachten Sie, dass die Unterstützung für Magellan 10 am 30.06.2024 ausgelaufen ist, bitte setzen Sie stattdessen Magellan 11 ein!
-
 ## LEGENDE
 
 Abkürzung | Bedeutung
@@ -18,7 +12,27 @@ FIX       | Korrektur bestehender Funktionalität
 NEW       | Neue Funktionalität
 CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
+## Version 12
+
+### Version 12.0.2 1201 (noch nicht veröffentlicht)
+
+#### Magellan Schulverwaltung
+
+* NEW: `Ansicht Bewerber > Auswahl` hat zusätzliche Spalten  `Note Deutsch`, `Note Mathematik` und `Note Fremdsprache` für die Bewerbungsnoten in den Hauptfächern.
+
+
+#### Berichte
+
+Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/bericht_einfuegen/)<br/>Anleitungen zum Nutzen der Berichtsdateien: [hier](https://doc.la.stueber.de)
+
+* NEW: `Schülerliste (HF-Noten).rpt`
+
+
 ## Version 11
+
+!!! danger "Support für Magellan 101endet"
+
+    Bitte beachten Sie, dass die Unterstützung für Magellan 11 am 31.12.2025 ausläuft, bitte setzen Sie stattdessen Magellan 12 ein!
 
 ### Version 11.0.15 1101 (23.05.2025)
 
