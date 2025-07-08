@@ -14,7 +14,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.2 1201 (noch nicht veröffentlicht)
+### Version 12.0.3 1201 (noch nicht veröffentlicht)
 
 #### Magellan Schulverwaltung
 
@@ -30,7 +30,7 @@ Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/b
 
 ## Version 11
 
-!!! danger "Support für Magellan 101endet"
+!!! danger "Support für Magellan 11 endet"
 
     Bitte beachten Sie, dass die Unterstützung für Magellan 11 am 31.12.2025 ausläuft, bitte setzen Sie stattdessen Magellan 12 ein!
 
