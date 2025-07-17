@@ -14,7 +14,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.4 1201 (noch ncht veröffentlicht)
+### Version 12.0.4 1201 (noch nicht veröffentlicht)
 
 #### Magellan Schulverwaltung
 
