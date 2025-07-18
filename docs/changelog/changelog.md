@@ -14,11 +14,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.4 1201 (noch nicht veröffentlicht)
+### Version 12.0.4 1201 (18.07.2025)
 
 #### Magellan Schulverwaltung
 
 * FIX: Fehlerkorrekturen bei Prüfung auf aktuelle Version von Magellan 12.
+* FIX: Fehlerkorrektur bei Ansicht Bewerber.
 
 ### Version 12.0.3 1201 (08.07.2025)
 
