@@ -14,6 +14,15 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+
+### Version 12.0.5 1202 (noch nicht veröffentlicht)
+
+#### Schnittstellen
+
+* NEW: `NRW` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
+* NEW: `SAC` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
+* NEW: `NIE` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
+
 ### Version 12.0.4 1201 (18.07.2025)
 
 #### Magellan Schulverwaltung
