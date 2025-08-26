@@ -14,7 +14,6 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-
 ### Version 12.0.5 1201 (24.08.2025)
 
 #### Schnittstellen
@@ -49,15 +48,13 @@ Anleitung zum Einfügen der Berichte: [hier](https://doc.kb.stueber.de/support/b
 
     Bitte beachten Sie, dass die Unterstützung für Magellan 11 am 31.12.2025 ausläuft, bitte setzen Sie stattdessen Magellan 12 ein!
 
-### Version 11.0.16 1101 (noch nicht veröffentlicht)
+### Version 11.0.16 1101 (25.08.2025)
 
 #### Schnittstellen
 
 * NEW: `NRW` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
 * NEW: `SAC` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
 * NEW: `NIE` Freigabe der Statistikschnittstelle für 2025 [Anleitung](https://doc.ls.stueber.de/niedersachsen/einstieg/)
-
-
 
 ### Version 11.0.15 1101 (23.05.2025)
 
