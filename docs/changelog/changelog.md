@@ -14,6 +14,14 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+### Version 12.0.6 1201 (noch nicht veröffentlicht)
+
+#### Schnittstellen
+
+* FIX: `NRW` Korrektur Standardstichtag
+* FIX: `NIE` Korrektur Standardstichtag
+* FIX: `SAC` Erzeugung der GUID für den Export nach SaxSVS aktualisiert
+
 ### Version 12.0.5 1201 (24.08.2025)
 
 #### Schnittstellen
