@@ -14,7 +14,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.6 1201 (noch nicht veröffentlicht)
+### Version 12.0.6 1201 (15.09.2025)
 
 #### Schnittstellen
 
