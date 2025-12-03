@@ -185,10 +185,6 @@ Vorlagen|Ja| Bitte kopieren Sie alle Unterverzeichnisse unterhalb von `Vorlagen`
 
 ## 8. Arbeitsplatzrechner einrichten 
 
-!!! warning "Wichtig"
-
-    Bitte deinstallieren Sie `Magellan 12` auf den Arbeitsplätzen.
-
 Zur Installation und Konfiguration von `Magellan 12` und der Crystal Reports Runtimeversion folgen Sie bitte unserer Anleitung für [Arbeitsplätze](https://doc.magellan.stueber.de/schulverwaltung/installation/version12/arbeitsplatz.installieren/).
 
 !!! warning "Wichtig"
