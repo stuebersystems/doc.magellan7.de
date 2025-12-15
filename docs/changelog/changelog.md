@@ -20,6 +20,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * CHANGE: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt
 * NEW: Klassenliste mit Förderbedarf.rpt
+* NEW: Klassenliste mit medizinischen Daten.rpt
+
 
 ### Version 12.0.6 1201 (15.09.2025)
 
