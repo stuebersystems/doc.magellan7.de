@@ -25,6 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * NEW: Neuer Bewerbungsstatus `Registrierung`
+* NEW: Ansicht "Schüler" - Auf der Registerkarte `Auswahl` werden zusätzlich die Felder `Reisepassnummer` und `Visumnummer` angezeigt. Sie sind standardmäßig ausgeblendet.
 
 #### Berichte
 
