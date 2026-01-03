@@ -8,7 +8,7 @@ Den Änderungsverlauf aus den vergangenen Jahren finden Sie hier: [2025](https:/
 
 !!! danger "Support für Magellan 11 beendet"
 
-    Bitte beachten Sie, dass die Unterstützung für Magellan 11 am 31.12.2025 ausgelaufen ist, bitte setzen Sie stattdessen Magellan 11 ein!
+    Bitte beachten Sie, dass die Unterstützung für Magellan 11 am 31.12.2025 ausgelaufen ist, bitte setzen Sie stattdessen Magellan 12 ein!
 
 ## LEGENDE
 
