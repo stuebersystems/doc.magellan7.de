@@ -1,4 +1,4 @@
-# Was ist neu?
+# Neuerungen in Magellan 12
 
 [1]:/assets/images/neues/11.001.png "Prüfungslistenfilter"
 

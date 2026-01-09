@@ -1,4 +1,4 @@
-# Was ist neu
+# Was ist neu?
 
 Dieses Kapitel gibt ihnen einen Überblick über aktuelle veröffentlichte und noch unveröffentlichte Änderungen in Magellan. Änderungen im Modul MyMagellan Center werden hier veröffentlicht, Änderungen im Modul MyMagellan veröffentlichen wir im MyMagellan Handbuch unter [https://doc.mymagellan.stueber.de/changelog/](https://doc.mymagellan.stueber.de/changelog/).
 
@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.7 1201 (noch nicht veröffentlicht)
+### Version 12.0.7 1201 (09. Januar 2026)
 
 #### Magellan Schulverwaltung
 
