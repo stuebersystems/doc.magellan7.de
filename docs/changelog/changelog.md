@@ -32,6 +32,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * CHANGE: Schülerliste (Klasse, Geburtsdaten, Adresse, Telefon, sortiert nach Klasse).rpt
 * NEW: Klassenliste mit Förderbedarf.rpt
 * NEW: Klassenliste mit medizinischen Daten.rpt
+* NEW: Aktualisiertes Abgangszeugnis für Gemeinschaftsschulen SAR-GEMS-AZ (Klasse 5-10)(ab 2026).rpt
+* NEW: Aktualisiertes Halbjahreszeugnis für Gemeinschaftsschulen SAR-GEMS-HJZ-JZ (Klasse 5-10)(ab 2026).rpt
 
 
 
