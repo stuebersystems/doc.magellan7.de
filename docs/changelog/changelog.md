@@ -20,6 +20,18 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+### Version 12.0.8 1201 (noch nicht veröffentlicht)
+
+#### Magellan Schulverwaltung
+
+* FIX: Neuer Bewerbungsstatus `Registrierung`
+
+#### Berichte
+
+* FIX: Aktualisiertes Abgangszeugnis für Gemeinschaftsschulen SAR-GEMS-AZ (Klasse 5-10)(ab 2026).rpt
+* FIX: Aktualisiertes Halbjahreszeugnis für Gemeinschaftsschulen SAR-GEMS-HJZ-JZ (Klasse 5-10)(ab 2026).rpt
+
+
 ### Version 12.0.7 1201 (09. Januar 2026)
 
 #### Magellan Schulverwaltung
