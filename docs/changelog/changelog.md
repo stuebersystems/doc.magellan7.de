@@ -30,7 +30,8 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Aktualisiertes Abgangszeugnis für Gemeinschaftsschulen SAR-GEMS-AZ (Klasse 5-10)(ab 2026).rpt
 * FIX: Aktualisiertes Halbjahreszeugnis für Gemeinschaftsschulen SAR-GEMS-HJZ-JZ (Klasse 5-10)(ab 2026).rpt
-
+* FIX: MVP-GY (Studienbuch - Qualifikation).rpt
+* FIX: MVP-GY (Studienbuch - Deckblatt).rpt
 
 ### Version 12.0.7 1201 (09. Januar 2026)
 
