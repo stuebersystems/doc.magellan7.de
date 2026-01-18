@@ -26,6 +26,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 * FIX: Neuer Bewerbungsstatus `Registrierung`
 
+#### Skripte
+
+* NEW: `DE-DIAP-2024.dws` Neues Oberstufenskript für Auslandsschulen gemäß Beschluss der Kultusministerkonferenz vom 11.06.2015 i. d. F. vom 08.02.2024
+
 #### Berichte
 
 * FIX: Aktualisiertes Abgangszeugnis für Gemeinschaftsschulen SAR-GEMS-AZ (Klasse 5-10)(ab 2026).rpt
