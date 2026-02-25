@@ -20,6 +20,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+### Version 12.0.9 1201 (25. Februar 2026)
+
+#### Magellan Administrator
+
+* FIX: Benutzerverwaltung: Probleme bei der Nutzung unterschiedlicher Mandanten behoben.
+
 ### Version 12.0.8 1201 (19. Januar 2026)
 
 #### Magellan Schulverwaltung
