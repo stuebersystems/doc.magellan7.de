@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'windows-2022'
+  vmImage: 'ubuntu-latest'
     
 steps:
 - task: UsePythonVersion@0
@@ -17,6 +17,8 @@ steps:
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: PowerShell@2
   displayName: Build with MkDocs
+  env:
+    NO_MKDOCS_2_WARNING: 1
   inputs:
     targetType: 'inline'
     script: |
