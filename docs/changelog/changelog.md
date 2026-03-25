@@ -20,11 +20,11 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.10 1201 (noch nicht veröffentlicht)
+### Version 12.0.10 1201 (25. März 2026)
 
 #### Magellan Administrator
 
-* FIX: Benutzerverwaltung: Probleme beim gleichzeitigen Einsammeln von MyMagellan-Dateien von mehrerer Benutzer behoben  
+* FIX: Benutzerverwaltung: Probleme beim gleichzeitigen Einsammeln von MyMagellan-Dateien von mehrerern Benutzer behoben  
 
 ### Version 12.0.9 1201 (25. Februar 2026)
 
