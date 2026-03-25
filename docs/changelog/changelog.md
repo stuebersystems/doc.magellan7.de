@@ -24,7 +24,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Magellan Administrator
 
-* FIX: Benutzerverwaltung: Probleme beim gleichzeitigen Einsammeln von MyMagellan-Dateien von mehrerern Benutzer behoben  
+* FIX: Benutzerverwaltung: Probleme beim gleichzeitigen Einsammeln von MyMagellan-Dateien von mehreren Benutzer behoben  
 
 ### Version 12.0.9 1201 (25. Februar 2026)
 
