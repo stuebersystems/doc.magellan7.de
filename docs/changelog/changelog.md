@@ -20,6 +20,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+### Version 12.0.11 1201 (Noch nicht veröffentlicht)
+
+#### Magellan Schulverwaltung
+
+* NEW: Dateien in den Dokumentefenstern können nach den Spalten sortiert werden.
+
 ### Version 12.0.10 1201 (25. März 2026)
 
 #### Magellan Administrator
