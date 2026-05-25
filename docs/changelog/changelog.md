@@ -25,6 +25,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * NEW: Dateien in den Dokumentefenstern können nach den Spalten sortiert werden.
+* FIX: `DE-DIAP-2024.dws` + `DE-DIAP-2024.dws` Korrektur der Berechnung der Fachhochschulreife
+
+#### Berichte
+
+* CHANGE: DAS-GY-AZ mit FHR (Anlage 9b).rpt
+
 
 ### Version 12.0.10 1201 (25. März 2026)
 
