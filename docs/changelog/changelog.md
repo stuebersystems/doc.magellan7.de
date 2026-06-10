@@ -25,7 +25,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * NEW: Dateien in den Dokumentefenstern können nach den Spalten sortiert werden.
-* FIX: `DE-DIAP-2024.dws` + `DE-DIAP-2024.dws` Korrektur der Berechnung der Fachhochschulreife
+* FIX: `DE-DIAP-2018.dws` + `DE-DIAP-2024.dws` Korrektur der Berechnung der Fachhochschulreife
 * FIX: `Zuweisen vonm Endnoten.dws` Korrektur der Zuweisung
 
 
