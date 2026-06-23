@@ -25,9 +25,10 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 #### Magellan Schulverwaltung
 
 * NEW: Dateien in den Dokumentefenstern können nach den Spalten sortiert werden.
-* FIX: `DE-DIAP-2018.dws` + `DE-DIAP-2024.dws` Korrektur der Berechnung der Fachhochschulreife
-* FIX: `Zuweisen vonm Endnoten.dws` Korrektur der Zuweisung
-
+* FIX: Statistik Berlin: Korrektur der Lizenzabfrage
+* FIX: Skripte `DE-DIAP-2018.dws` + `DE-DIAP-2024.dws`: Korrektur der Berechnung der Fachhochschulreife
+* FIX: Skript `NRW-APO-BK-2018.dws`: Korrektur der Berechnung der optimalen Punktzahl
+* FIX: `Zuweisen von Endnoten.dws` Korrektur der Zuweisung
 
 #### Berichte
 
