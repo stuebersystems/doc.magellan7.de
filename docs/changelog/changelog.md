@@ -20,7 +20,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
-### Version 12.0.11 1201 (Noch nicht veröffentlicht)
+### Version 12.0.11 1201 (25. Juni 2026)
 
 #### Magellan Schulverwaltung
 
@@ -28,7 +28,7 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 * FIX: Statistik Berlin: Korrektur der Lizenzabfrage
 * FIX: Skripte `DE-DIAP-2018.dws` + `DE-DIAP-2024.dws`: Korrektur der Berechnung der Fachhochschulreife
 * FIX: Skript `NRW-APO-BK-2018.dws`: Korrektur der Berechnung der optimalen Punktzahl
-* FIX: `Zuweisen von Endnoten.dws` Korrektur der Zuweisung
+* FIX: Skript `Zuweisen von Endnoten.dws`: Korrektur der Zuweisung
 
 #### Berichte
 
