@@ -20,6 +20,13 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 ## Version 12
 
+### Version 12.0.12 1201 (noch nicht veröffentlicht)
+
+#### Magellan Schulverwaltung
+
+* FIX: Fehler beim Import aus Untis behoben.
+
+
 ### Version 12.0.11 1201 (23. Juni 2026)
 
 #### Magellan Schulverwaltung
