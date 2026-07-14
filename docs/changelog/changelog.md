@@ -24,7 +24,12 @@ CHANGE    | Änderung des Ablaufs, Verarbeitung oder Bedienung
 
 #### Magellan Schulverwaltung
 
-* FIX: Fehler beim Import aus Untis behoben.
+* FIX: Fehler beim Import aus Untis und dem Import aus einer Schuldatentransferdatei behoben.
+
+#### Schnittstellen
+
+* NEW: `NRW` Freigabe der Statistikschnittstelle für 2026 [Anleitung](https://doc.ls.stueber.de/nordrhein-westfalen/einstieg/)
+* NEW: `SAC` Freigabe der Statistikschnittstelle für 2026 [Anleitung](https://doc.ls.stueber.de/sachsen/einstieg/)
 
 
 ### Version 12.0.11 1201 (23. Juni 2026)
